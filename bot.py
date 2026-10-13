@@ -373,6 +373,27 @@ def self_test():
             print(model, r.status_code, r.text[:300])
         except Exception as e:
             print(model, "FAIL:", type(e).__name__, e)
+    print("== Candidate feeds")
+    candidates = [
+        "https://lexpress.mu/rss.xml", "https://lexpress.mu/rss",
+        "https://lexpress.mu/feed", "https://www.lexpress.mu/rss.xml",
+        "https://www.lemauricien.com/feed/", "https://ionnews.mu/feed/",
+        "https://www.newsmoris.com/feed/", "https://newsmoris.com/feed/",
+        "https://inside.news/feed/", "https://www.businessmag.mu/feed/",
+        "https://www.wazaa.mu/feed/", "https://www.mbc.intnet.mu/feed/",
+        "https://www.lexpress.mu/feed", "https://www.5plus.mu/rss.xml",
+        "https://www.lemauricien.com/category/actualites/feed/",
+    ]
+    for url in candidates:
+        try:
+            r = requests.get(url, timeout=20,
+                             headers={"User-Agent": "Mozilla/5.0 news-bot"})
+            f = feedparser.parse(r.text)
+            top = f.entries[0] if f.entries else {}
+            print(f"  {r.status_code} items={len(f.entries):3d} {url} | "
+                  f"{top.get('published', '')[:25]} | {top.get('title', '')[:60]}")
+        except Exception as ex:
+            print(f"  ERR {url}: {type(ex).__name__}")
     print("== Latest article")
     xml = requests.get(FEEDS[0][1], timeout=30,
                        headers={"User-Agent": "Mozilla/5.0 news-bot"}).text
