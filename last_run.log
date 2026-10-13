@@ -3,38 +3,33 @@ Python 3.12.15; LLM_API_KEY set: True
 Google Translate failed: TooManyRequests
 Автобусное сообщение прервано во вторник утром
 == LLM: https://api.groq.com/openai/v1/chat/completions
-openai/gpt-oss-120b 200 {"id":"chatcmpl-41f87fb5-d2e1-451f-b344-eee85e809618","object":"chat.completion","created":1791884532,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we need to respond with \"ok\". No extra text."},"
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-78acd1bf-cd12-4d0b-8916-b04cd64047bc","object":"chat.completion","created":1791884532,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.003993621,"prompt_tokens":16,"prompt_t
-openai/gpt-oss-20b 200 {"id":"chatcmpl-06d5ab64-645f-4600-a429-1ee23c928742","object":"chat.completion","created":1791884533,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we just reply \"ok\"."},"logprobs":null,"finish_rea
-== Candidate feeds
-  404 items=  0 https://lexpress.mu/rss.xml |  | 
-  ERR https://lexpress.mu/rss: ReadTimeout
-  ERR https://lexpress.mu/feed: ReadTimeout
-  ERR https://www.lexpress.mu/rss.xml: SSLError
-  200 items= 10 https://www.lemauricien.com/feed/ | Fri, 07 Aug 2026 07:11:26 | Échiquier politique | Changing of Guards — Chetan Baboolall,
-  200 items= 12 https://ionnews.mu/feed/ | Tue, 13 Oct 2026 09:06:34 | L’état de santé d’Élodie Thomas s’améliore, selon son père
-  403 items=  0 https://www.newsmoris.com/feed/ |  | 
-  403 items=  0 https://newsmoris.com/feed/ |  | 
-  200 items= 10 https://inside.news/feed/ | Tue, 13 Oct 2026 09:14:21 | Maurice : Navin Ramgoolam convoque une réunion d’urgence du 
-  522 items=  0 https://www.businessmag.mu/feed/ |  | 
-  200 items= 10 https://www.wazaa.mu/feed/ | Tue, 13 Oct 2026 09:42:28 | Le ministre de la Santé confirme le succès total de l’opérat
-  ERR https://www.mbc.intnet.mu/feed/: ConnectionError
-  ERR https://www.lexpress.mu/feed: SSLError
-  404 items=  0 https://www.5plus.mu/rss.xml |  | 
-  200 items= 10 https://www.lemauricien.com/category/actualites/feed/ | Mon, 10 Aug 2026 07:00:58 | Ça va se savoir – FCC : le mood aurait-il changé au Réduit T
-== Latest article
-Feed items: 149; newest 6:
-  NEW  http://defimedia.info/node/185559 | Adrien Duval réclame « un rappel du Parlement » pour rétablir l’ordre 
+openai/gpt-oss-120b 200 {"id":"chatcmpl-6a39d29b-c2d1-4f4b-a45d-643be955e878","object":"chat.completion","created":1791884684,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we need to respond with \"ok\". No extra content."
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-6bfcf0b9-628b-4caf-a716-e796b6251548","object":"chat.completion","created":1791884685,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.083384643,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-20b 200 {"id":"chatcmpl-3c879529-006d-46b6-9808-7bc7f72b790c","object":"chat.completion","created":1791884685,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we just reply \"ok\"."},"logprobs":null,"finish_rea
+== Defimedia: https://defimedia.info/rss.xml
+Feed items: 150; newest 4:
   SEEN http://defimedia.info/node/185558 | Dr Oomesh Shamloll de l’hôpital Dr A. G. Jeetoo : « Élodie Thomas a ou
   SEEN http://defimedia.info/node/185557 | Élodie Thomas : « Lin guet nou ; lin trap lame so mama, lin serre », c
   SEEN http://defimedia.info/node/185556 | PMO : le Cabinet convoqué en urgence à 14 h 30
   SEEN http://defimedia.info/node/185545 | Réservoirs d’eau : les ventes multipliées par cinq en une semaine chez
-  SEEN http://defimedia.info/node/185555 | Élodie Thomas : « L'intervention a été un succès à 100 % », dit le min
-Title: Adrien Duval réclame « un rappel du Parlement » pour rétablir l’ordre dans le pays
-Article text chars: 780 | start: Publicité Adrien Duval réclame « un rappel du Parlement » pour rétablir l’ordre dans le pays Un rappel de l’Assemblée nationale : c’est ce que réclame Adrien Duval. Intervenant sur RadioPlus ce mardi 
-== Post that would be sent
-<b>Адриен Дюваль требует «созыва парламента», чтобы восстановить порядок в стране</b>
+Photo: https://files.defimedia.info/sites/default/files/2026-10/131026doctor.png
+-- Post that would be sent:
+<b>Доктор Oomesh Shamloll из больницы Dr A. G. Jeetoo: «Элоди Томас открыла глаза»</b>
 
-13 октября депутат Партии Маврикийского социал-демократического (PMSD) Адриен Дюваль выступил в эфире RadioPlus, заявив, что страна шокирована действиями поджигателей, начавшимися с вечера предыдущего дня. Он потребовал от правительства немедленно созвать парламент, чтобы рассмотреть ситуацию, связанную с Элодие Томас, и принять меры по восстановлению спокойствия, порядка и мира в стране.
+Во время пресс‑конференции после встречи министра здравоохранения с врачами Acting Regional Health Director Dr Oomesh Shamloll сообщил, что операция над пациенткой Élodie Thomas в больнице Dr A. G. Jeetoo прошла успешно: её жизненные показатели в норме, медикаменты прекращены, она ответила и открыла глаза. Индийская команда хирургов под руководством главного нейрохирурга Dr Kapil Khandelwal также выразила удовлетворение, отметив, что все показатели «зеленые», пациентка уже двигает четырьмя конечностями и может быть снята с искусственной вентиляции через один‑два дня, если состояние продолжит улучшаться. Дальнейшее лечение будет продолжено до её выписки домой в полном здоровье.
 
-🔗 <a href="https://defimedia.info/adrien-duval-reclame-un-rappel-du-parlement-pour-retablir-lordre-dans-le-pays">Defimedia</a>
+🔗 <a href="https://defimedia.info/dr-oomesh-shamloll-de-lhopital-dr-g-jeetoo-elodie-thomas-ouvert-ses-yeux">Defimedia</a>
+== ION News: https://ionnews.mu/feed/
+Feed items: 12; newest 4:
+  NEW  https://ionnews.mu/?p=322901 | L’état de santé d’Élodie Thomas s’améliore, selon son père
+  NEW  https://ionnews.mu/?p=322895 | [Tensions dans le pays] Trois policiers blessés, dont un admis à l’hôp
+  NEW  https://ionnews.mu/?p=322896 | Sécurité : Le ministère du Tourisme rassure après les récents incident
+  NEW  https://ionnews.mu/?p=322892 | Aéroport SSRN : deux arrestations suite à une saisie de plus de 270 gr
+Could not read article https://ionnews.mu/letat-de-sante-delodie-thomas-sameliore-selon-son-pere/: 403 Client Error: Forbidden for url: https://ionnews.mu/letat-de-sante-delodie-thomas-sameliore-selon-son-pere/
+Photo: None
+-- Post that would be sent:
+<b>Состояние здоровья Элодии Томас улучшается, согласно её отцу</b>
+
+По словам отца, состояние здоровья Элодии Томас постепенно улучшается. Он сообщил об этом в интервью, отмечая положительные изменения в её самочувствии. Дальнейшие детали о её лечении и прогнозе не раскрыты.
+
+🔗 <a href="https://ionnews.mu/letat-de-sante-delodie-thomas-sameliore-selon-son-pere/">ION News</a>
