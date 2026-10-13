@@ -1,0 +1,50 @@
+Python 3.12.15; LLM_API_KEY set: True
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+openai/gpt-oss-120b 200 {"id":"chatcmpl-cbc0f361-1a40-4f3b-a678-cb6325a070cf","object":"chat.completion","created":1791887412,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we need to respond with \"ok\". No extra content."
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-8e44e073-22b9-4391-a24a-9cf6d0587778","object":"chat.completion","created":1791887412,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.139584814,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-20b 200 {"id":"chatcmpl-b33c3f34-1d4e-4ec2-a9af-79d5cd7ec8c0","object":"chat.completion","created":1791887413,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we just reply \"ok\"."},"logprobs":null,"finish_rea
+== Defimedia: https://defimedia.info/rss.xml
+Feed items: 149; newest 4:
+  NEW  http://defimedia.info/node/185546 | Construction : les entrepreneurs face à des contrats déséquilibrés
+  NEW  http://defimedia.info/node/185560 | Transport public limité : Business Mauritius recommande des départs an
+  SEEN http://defimedia.info/node/185559 | Adrien Duval réclame « un rappel du Parlement » pour rétablir l’ordre 
+  SEEN http://defimedia.info/node/185558 | Dr Oomesh Shamloll de l’hôpital Dr A. G. Jeetoo : « Élodie Thomas a ou
+Duplicate of recent post #: None
+Photo: https://files.defimedia.info/sites/default/files/2026-10/construction%20batiment131026.jpg
+-- Post that would be sent:
+<b>Строительство: подрядчики сталкиваются с несбалансированными контрактами</b>
+
+Строительный сектор составляет почти две трети инвестиций на Маврикии. 7 октября в Port-Louis представители заказчиков, инженеров, консультантов, юристов, субподрядчиков и поставщиков обсудили проблему распределения рисков в строительных контрактах на семинаре, проведённом Робертом Алойсом Вертхом, аккредитованным FIDIC. Президент ассоциации BACECA Рави Гатти отметил, что в условиях экономической неопределённости многие контракты смещают значительные риски на подрядчиков, что повышает цены, снижает конкуренцию и увеличивает количество споров. Ассоциация планирует продолжить диалог с государственными органами, Construction Industry Authority и частным сектором для внедрения более прозрачных и сбалансированных контрактов, соответствующих международным стандартам.
+
+🔗 <a href="https://defimedia.info/construction-les-entrepreneurs-face-des-contrats-desequilibres">Defimedia</a>
+== Inside News: https://inside.news/feed/
+Feed items: 10; newest 4:
+  NEW  https://www.inside.news/?p=4919 | El Niño : les Mascareignes gardent un risque cyclonique proche de la n
+  SEEN https://www.inside.news/?p=4915 | Maurice : Navin Ramgoolam convoque une réunion d’urgence du Cabinet
+  SEEN https://www.inside.news/?p=4905 | Arabie saoudite : Maurice conseille de reporter les voyages dans le co
+  SEEN https://www.inside.news/?p=4902 | Crise de l’eau : neuf forages promis avant fin octobre, mais l’exécuti
+Duplicate of recent post #: None
+Photo: https://www.inside.news/wp-content/uploads/2026/10/09fb4b32-9da9-4d43-9071-37d3ec56c834_cleaned-1024x578.png
+-- Post that would be sent:
+<b>Эль-Ниньо: у Мазаринских островов сохраняется риск циклонов, близкий к нормальному</b>
+
+По прогнозам Всемирной метеорологической организации, в период с октября 2026 года по март 2027 года в бассейне Мазаринских островов (Маврикий, Реюньон, Родригес) ожидаются выше нормы температуры, сильные осадки и сохраняющийся риск циклонов, хотя общая активность циклонов в юго‑западной части Индийского океана может быть ниже средней. Траектории возможных циклонов, как предполагается, будут смещаться к югу, но острова всё равно могут столкнуться с экстремальной жарой, быстрыми наводнениями, загрязнением воды и морскими последствиями, что усиливает текущий водный кризис на Маврикии. Власти призвали к многоуровневой подготовке, сочетая меры по экономии воды с планами противодействия сильным дождям, жаре и потенциальным циклонам.
+
+🔗 <a href="https://www.inside.news/el-nino-risque-cyclonique-mascareignes-maurice-2026-2027/">Inside News</a>
+== Wazaa: https://www.wazaa.mu/feed/
+Feed items: 10; newest 4:
+  NEW  https://www.wazaa.mu/le-ministre-de-la-sante-confirme-le-succes-total-de-loperation-de-sept-heures-sur-elodie-thomas/ | Le ministre de la Santé confirme le succès total de l’opération de sep
+  NEW  https://www.wazaa.mu/les-services-metro-express-restent-suspendus-pendant-les-inspections-de-securite-des-voies/ | Les services Metro Express restent suspendus pendant les inspections d
+  NEW  https://www.wazaa.mu/trois-policiers-confrontes-a-une-suspension-pour-une-pretendue-incapacite-a-venir-en-aide-a-une-victime-de-tir/ | Trois policiers confrontés à une suspension pour une prétendue incapac
+  NEW  https://www.wazaa.mu/pertes-de-19-milliard-de-roupies-forcent-letat-a-se-retirer-de-15-casinos-publics/ | Pertes de 1,9 milliard de roupies forcent l’État à se retirer de 15 ca
+Duplicate of recent post #: None
+Photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1791884548.jpeg
+-- Post that would be sent:
+<b>Министр здравоохранения подтверждает полный успех семичасовой операции над Элодии Томас</b>
+
+Министр здравоохранения Аннил Бачу объявил, что операция, проведённая над 27‑летней Элодии Томас, прошла со 100 % успехом. Хирургическое вмешательство длилось семь часов, состояло из пяти этапов и было выполнено иностранными врачами при поддержке местных специалистов. Пациентка была госпитализирована в реанимацию больницы Victoria в Кандос 9 октября после тяжёлых огнестрельных ран, полученных в инциденте в Camp‑Levieux, и затем переведена в больницу Dr A. G. Jeetoo. По данным следствия, в стрельбу из вандального автомобиля, где находилась жертва, был замешан сержант полиции.
+
+🔗 <a href="https://www.wazaa.mu/le-ministre-de-la-sante-confirme-le-succes-total-de-loperation-de-sept-heures-sur-elodie-thomas/">Wazaa</a>
