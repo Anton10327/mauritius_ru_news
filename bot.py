@@ -320,7 +320,7 @@ def same_title(a, b):
         return False
     common = len(x & y)
     # same words, or one headline is the other plus a few extra words
-    return common / len(x | y) >= 0.6 or (common >= 4 and common / min(len(x), len(y)) >= 0.75)
+    return common / len(x | y) >= 0.6 or (common >= 5 and common / min(len(x), len(y)) >= 0.7)
 
 
 def find_duplicate(orig_title, lead, recent):
