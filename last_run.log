@@ -1,52 +1,7 @@
-Python 3.12.15; LLM_API_KEY set: True
-== Translation (Google, then MyMemory)
-Google Translate failed: TooManyRequests
-Автобусное сообщение прервано во вторник утром
-== LLM: https://api.groq.com/openai/v1/chat/completions
-openai/gpt-oss-120b 200 {"id":"chatcmpl-6fbca109-0f64-4cb7-aea2-d768e961e52a","object":"chat.completion","created":1791887490,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we just need to respond with \"ok\". No extra cont
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-48d33b75-b836-4635-a05a-cd2a6be24807","object":"chat.completion","created":1791887490,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.14203936,"prompt_tokens":16,"prompt_ti
-openai/gpt-oss-20b 200 {"id":"chatcmpl-2a54effe-2a72-4927-a537-33a2ae208074","object":"chat.completion","created":1791887491,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we should reply with \"ok\"."},"logprobs":null,"fin
-== Defimedia: https://defimedia.info/rss.xml
-Feed items: 149; newest 4:
-  SEEN http://defimedia.info/node/185559 | Adrien Duval réclame « un rappel du Parlement » pour rétablir l’ordre 
-  SEEN http://defimedia.info/node/185558 | Dr Oomesh Shamloll de l’hôpital Dr A. G. Jeetoo : « Élodie Thomas a ou
-  SEEN http://defimedia.info/node/185557 | Élodie Thomas : « Lin guet nou ; lin trap lame so mama, lin serre », c
-  SEEN http://defimedia.info/node/185556 | PMO : le Cabinet convoqué en urgence à 14 h 30
-  dup reason: Повтор того же требования Адриена Дюваля созвать парламент для восстановления порядка
-Duplicate of recent post #: 9
-Photo: https://files.defimedia.info/sites/default/files/2026-10/13.10.26.jpg
--- Post that would be sent:
-<b>Адриен Дюваль требует «созыв парламента» для восстановления порядка в стране</b>
-
-13 октября депутат Партии Маврикийского социал-демократического (PMSD) Адриен Дюваль выступил в эфире RadioPlus, заявив, что страна находится в состоянии хаоса из‑за поджогов, начавшихся с вечера предыдущего дня. Он потребовал от правительства немедленно созвать парламент, чтобы обсудить ситуацию, связанную с Элодией Томас, и принять необходимые меры для восстановления спокойствия, порядка и мира.
-
-🔗 <a href="https://defimedia.info/adrien-duval-reclame-un-rappel-du-parlement-pour-retablir-lordre-dans-le-pays">Defimedia</a>
-== Inside News: https://inside.news/feed/
-Feed items: 10; newest 4:
-  NEW  https://www.inside.news/?p=4919 | El Niño : les Mascareignes gardent un risque cyclonique proche de la n
-  SEEN https://www.inside.news/?p=4915 | Maurice : Navin Ramgoolam convoque une réunion d’urgence du Cabinet
-  SEEN https://www.inside.news/?p=4905 | Arabie saoudite : Maurice conseille de reporter les voyages dans le co
-  SEEN https://www.inside.news/?p=4902 | Crise de l’eau : neuf forages promis avant fin octobre, mais l’exécuti
-Duplicate of recent post #: None
-Photo: https://www.inside.news/wp-content/uploads/2026/10/09fb4b32-9da9-4d43-9071-37d3ec56c834_cleaned-1024x578.png
--- Post that would be sent:
-<b>Эль-Ниньо: у Маскаренских островов сохраняется риск циклонов, близкий к норме</b>
-
-По прогнозам Всемирной метеорологической организации на период с октября 2026 года по март 2027 года в бассейне юго‑западного Индийского океана ожидается ниже‑нормальная циклонная активность, однако траектории штормов сместятся к югу, поэтому для Маскаренских островов (Маврикий, Реюньон, Родригес) риск циклонов останется близким к обычному. Ожидаются выше‑нормальные температуры, возможны сильные дожди, быстрые паводки и загрязнение воды, а также морские воздействия. Эти явления накладываются на текущий водный кризис на Маврикии, поэтому власти призывают к многорисковой подготовке: одновременно решать проблему нехватки воды и готовиться к экстремальной жаре, осадкам и потенциальным циклонам.
-
-🔗 <a href="https://www.inside.news/el-nino-risque-cyclonique-mascareignes-maurice-2026-2027/">Inside News</a>
-== Wazaa: https://www.wazaa.mu/feed/
-Feed items: 10; newest 4:
-  NEW  https://www.wazaa.mu/le-ministre-de-la-sante-confirme-le-succes-total-de-loperation-de-sept-heures-sur-elodie-thomas/ | Le ministre de la Santé confirme le succès total de l’opération de sep
-  NEW  https://www.wazaa.mu/les-services-metro-express-restent-suspendus-pendant-les-inspections-de-securite-des-voies/ | Les services Metro Express restent suspendus pendant les inspections d
-  NEW  https://www.wazaa.mu/trois-policiers-confrontes-a-une-suspension-pour-une-pretendue-incapacite-a-venir-en-aide-a-une-victime-de-tir/ | Trois policiers confrontés à une suspension pour une prétendue incapac
-  NEW  https://www.wazaa.mu/pertes-de-19-milliard-de-roupies-forcent-letat-a-se-retirer-de-15-casinos-publics/ | Pertes de 1,9 milliard de roupies forcent l’État à se retirer de 15 ca
-  dup reason: Повтор того же заявления министра о 100 % успехе семичасовой операции над Элодой Томас
-Duplicate of recent post #: 3
-Photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1791884548.jpeg
--- Post that would be sent:
-<b>Министр здравоохранения подтверждает полный успех семичасовой операции над Элоди Томас</b>
-
-Министр здравоохранения Анил Бачу заявил, что сложная пятиэтапная операция, длительностью семь часов, прошла с 100‑процентным успехом. Операцию провели приглашённые врачи из Grande Péninsule совместно с местными специалистами в больнице Dr A. G. Jeetoo. 27‑летняя Элоди Томас, поступившая в реанимацию больницы Victoria в Кандос 9 октября после тяжёлых огнестрельных ран, была переведена для специализированного вмешательства. По данным, полицейский сержант обвиняется в стрельбе по фургону, в котором находилась пациентка.
-
-🔗 <a href="https://www.wazaa.mu/le-ministre-de-la-sante-confirme-le-succes-total-de-loperation-de-sept-heures-sur-elodie-thomas/">Wazaa</a>
+New feed Wazaa: skipped backlog, posting newest only
+Posted: Ограниченный общественный транспорт: Business Mauritius рекомендует ранние отправления
+  dup reason: Повтор того же заявления министра о 100 % успехе семичасовой операции над Элоджи Томас
+Skipped duplicate (Wazaa): Министр здравоохранения подтверждает полный успех семичасовой операции над Элоджи Томас == Élodie Thomas: «Операция прошла со 100 % успехом», — сказал министр Anil Bachoo
+Posted: Строительство: подрядчики сталкиваются с несбалансированными контрактами
+Photo failed ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), sending text only
+Posted: Эль-Ниньо: Маскаренские острова сохраняют риск циклонов, близкий к нормальному
