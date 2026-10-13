@@ -1,17 +1,9 @@
-### check 1/5 at 19:30
-New source L'Express: skipped backlog, posting newest only
-New source Le Mauricien: skipped backlog, posting newest only
-New source Top FM: skipped backlog, posting newest only
-Posted: Маврикий: 14 октября в среду занятия отменены, за исключением экзаменов SC и HSC, которые пройдут по плану
-Posted: Подача воды по капле: магазины в Curepipe адаптируются
-Posted: После ночи напряжённости: восемь человек отправлены под стражу
-LLM usage this run: 6 requests, 6342 tokens
-### check 2/5 at 19:35
-Posted: Образование: экзамены Pearson Edexcel пройдут в среду 14 октября
-LLM usage this run: 2 requests, 1823 tokens
-### check 3/5 at 19:39
-### check 4/5 at 19:43
-Posted: [LIVE] «Право и порядок»: Навин Рамгулам обращается к нации Маврикия
-LLM usage this run: 2 requests, 1944 tokens
-### check 5/5 at 19:48
-Could not read L'Express: ReadTimeout HTTPSConnectionPool(host='lexpress.mu', port=443): Read timed out. (read timeout=30)
+### check 1/5 at 19:57
+Posted: Коту-Рафен, Ла-Голет: кража бутылок с алкоголем, задержаны двое подозреваемых
+Too little text (173 chars), title only: https://defimedia.info/en-direct-le-premier-ministre-sadresse-la-nation
+Google Translate failed: TooManyRequests
+Posted: [Live] Премьер-министр обращается к нации
+Posted: Инциденты по всей стране: комендантский час с 20:30 во вторник до 6 утра в среду
+  dup reason: Новая новость сообщает о том же факте (введение комендантского часа с 20:30 до 6:00) и содержит те же детали (дата, причина — предотвращение столкновений), что уже опубликованный заголовок №35. Новых существенных фактов или изменений решения не добавлено.
+Skipped duplicate (Defimedia): Рамгулам объявляет комендантский час с 20:30 во вторник до 6:00 в среду == Инциденты по всей стране: комендантский час с 20:30 во вторник до 6 утра в среду
+LLM usage this run: 6 requests, 6146 tokens
