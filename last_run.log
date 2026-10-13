@@ -1,43 +1,44 @@
-403 https://ionnews.mu/wp-json/wp/v2/posts?per_page=2&_fields=date,title,link,content
-     text/html; charset=UTF-8 html 5KB | Just a moment...
-200 https://www.lemauricien.com/
-     text/html html 1005KB | Le Mauricien | Site IndÃ©pendant d&#039;information et d&#03
-200 https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=2&_fields=date,title,link
-     application/json; charset=UTF- json items=2 | 2026-10-13T18:35:05 | Maurice : Pas de classes le mercredi 14 octobre, sauf pour l | content=0ch
-404 https://lematinal.media/feed/
-     text/html; charset=iso-8859-1 html 0KB | 404 Not Found
-404 https://lematinal.media/wp-json/wp/v2/posts?per_page=2&_fields=date,title,link
-     text/html; charset=iso-8859-1 html 0KB | 404 Not Found
-404 https://www.topfm.mu/feed/
-     text/html; charset=utf-8 html 30KB | Page not found | Top FM Mauritius
-200 https://topfm.mu/
-     text/html; charset=utf-8 html 81KB | TOP FM MAURITIUS | Top FM Mauritius
-200 https://www.mauritiustimes.com/feed
-     application/rss+xml; charset=U feed items=20 | Wed, 07 Oct 2026 11:01:10 | Mauritius Times ePaper Friday 2 October 2026
-404 https://govmu.org/EN/newsgov/SitePages/Index.aspx
-     text/html; charset=utf-8 html 0KB | 
-200 https://govmu.org/EN/Pages/default.aspx
-     text/html; charset=utf-8 html 354KB | Republic of Mauritius
-200 https://lexpress.mu/
-     text/html; charset=utf-8 html 375KB | lexpress.mu | Toute l'actualité de l'île Maurice en temps ré
-ERR https://www.lexpress.mu/: SSLError
-403 https://newsmoris.com/wp-json/wp/v2/posts?per_page=2&_fields=date,title,link
-     text/html; charset=UTF-8 html 5KB | Just a moment...
-ERR https://www.mbc.intnet.mu/: ConnectionError
-200 https://mbcradio.tv/
-     text/html; charset=UTF-8 html 443KB | Mauritius Broadcasting Corporation | Inform, Educate, Entert
-403 https://www.businessmag.mu/
-     text/html; charset=UTF-8 html 5KB | Just a moment...
-200 https://news.google.com/rss/search?q=Maurice+when:1d&hl=fr&gl=MU&ceid=MU:fr
-     application/xml; charset=utf-8 feed items=61 | Tue, 13 Oct 2026 11:30:00 | Île Maurice: manifestations et nuit de violences après le ti
-200 https://news.google.com/rss/search?q=Mauritius+when:1d&hl=en-MU&gl=MU&ceid=MU:en
-     application/xml; charset=utf-8 feed items=62 | Tue, 13 Oct 2026 09:28:43 | Tourist Hotspot Mauritius Hit by Worst Unrest Since 1999 - B
-ERR https://www.lexpress.mu/actualites: SSLError
-200 https://www.inside.news/wp-json/wp/v2/posts?per_page=1&_fields=date,title
-     application/json; charset=UTF- json items=1 | 2026-10-13T15:32:11 | Affaire Élodie Thomas : deux nouvelles accusations provisoir | content=0ch
-200 https://www.wazaa.mu/wp-json/wp/v2/posts?per_page=1&_fields=date,title
-     application/json; charset=UTF- json items=1 | 2026-10-13T15:43:01 | 4 policiers suspendus sous les feux des projecteurs alors qu | content=0ch
-403 https://www.zinfos974.com/xml/syndication.rss
-     text/html; charset=UTF-8 html 5KB | Just a moment...
-200 https://www.clicanoo.re/rss
-     text/xml; charset=UTF-8 feed items=50 | 2026-10-13T14:23:52+04:00 | Selma Blair : l’actrice américaine accusée d’avoir agressé d
+
+######## https://lexpress.mu/
+link patterns: [('s depth=2', 56), ('loisirs depth=2', 8), ('societe depth=2', 7), ('regions depth=2', 5), ('idees depth=2', 4), ('sport depth=2', 4), ('multimedia depth=2', 4), ('economie depth=2', 3), ('page depth=2', 3), ('build depth=3', 2), ('international depth=2', 2), ('favicon.png depth=1', 1)]
+   https://lexpress.mu/s/curepipe-des-commerces-sadaptent-563553
+   https://lexpress.mu/s/elodie-thomas-blessee-par-un-tir-policier-le-fil-des-evenements-563458
+   https://lexpress.mu/s/fermeture-des-ecoles-ce-mercredi-14-octobre-examens-de-sc-et-de-hsc-maintenus-563570
+   https://lexpress.mu/s/les-policiers-suspendus-risquent-ils-de-perdre-leur-salaire-563552
+   https://lexpress.mu/s/la-maire-tashyana-latchmana-pillay-appelle-au-calme-et-a-la-responsabilite-563567
+   https://lexpress.mu/s/reprendre-gout-a-la-vie-apres-le-cancer-du-sein-563549
+   https://lexpress.mu/s/navin-ramgoolam-sadressera-a-la-nation-a-18-heures-563566
+   https://lexpress.mu/s/deepak-benydin-la-state-trading-corporation-doit-servir-la-population-pas-rechercher-le-profit-a-tout-prix-563548
+  article 200: text 6614 chars | {'og:title': 'Distribution d’eau au compte-gouttes | Curepipe : des commerces s’adaptent', 'og:image': 'https://lexpress.mu/storage/articles/7wmUsWEpn5Xhoa3ZNHM2Yvzp3IQIopxeqp9VM5wG.jpg', 'article:published_time': '2026-10-13 19:00:00'}
+  start: Publicité Distribution d’eau au compte-gouttes Curepipe : des commerces s’adaptent Par Partager cet article Distribution d’eau au compte-gouttes Curepipe : des commerces s’adaptent (Photos : © Sumeet 
+
+######## https://mbcradio.tv/
+link patterns: [('reportage depth=2', 95), ('article depth=2', 32), ('themes depth=6', 23), ('core depth=7', 12), ('programme depth=2', 12), ('modules depth=5', 10), ('ce-soir depth=2', 10), ('production-locale depth=2', 8), ('productions-locales depth=2', 7), ('podcasting depth=2', 5), ('search depth=2', 5), ('sites depth=4', 3)]
+   https://mbcradio.tv/core/themes/stable9/css/core/components/progress.module.css?tmu3ot
+   https://mbcradio.tv/core/themes/stable9/css/core/components/ajax-progress.module.css?tmu3ot
+   https://mbcradio.tv/core/themes/stable9/css/core/components/autocomplete-loading.module.css?tmu3ot
+   https://mbcradio.tv/core/themes/stable9/css/system/components/container-inline.module.css?tmu3ot
+   https://mbcradio.tv/core/themes/stable9/css/system/components/clearfix.module.css?tmu3ot
+   https://mbcradio.tv/modules/contrib/webform/css/webform.element.details.toggle.css?tmu3ot
+   https://mbcradio.tv/modules/contrib/webform/css/webform.element.message.css?tmu3ot
+   https://mbcradio.tv/themes/custom/mbctheme/css/components/container-inline.css?tmu3ot
+  article 200: text 29956 chars | {'og:title': None, 'og:image': None, 'article:published_time': None}
+  start: Ce soir à la télé Ne manquez pas les émissions de ce soir Priorité Santé Anou Konbat Ladrog Prakriti FRENCH FILM - THE SHAMER'S DAUGHTER PYAR KA PEHLA ADHYAYA SHIV SHAKTI TERRE D'ESPERANCE / LA ESPERA
+
+######## https://topfm.mu/
+link patterns: [('actualites depth=2', 39), ('sites depth=5', 2), (' depth=0', 1), ('themes depth=4', 1), ('contactez-nous depth=1', 1), ('propos-de-top-fm depth=1', 1), ('locale depth=1', 1), ('international depth=1', 1), ('sport depth=1', 1), ('podcasts depth=1', 1), ('top-tv depth=1', 1), ('en-direct depth=2', 1)]
+   https://topfm.mu/sites/default/files/css/css_KWENVGczNtlcNQuLm6Sle-XPIajDm84AdMBTcnMKdI8.css?delta=0&amp;language=fr&amp;theme=topfm&amp;include=eJxFjEEOgCAMBD8EcvJBRSshKZR06wFfrwkHjzOTTFZ1uNHYUyZwyD83BqgwwqHG6bR7kGzVuUWp8GW7WiOpDwdMfGlNXMfVUhHNJBE-pfbyAmACKI8
+   https://topfm.mu/sites/default/files/css/css_us90GL7oAzMFz59fcL-6jEGDCa613hSY8eT7BZ5rndA.css?delta=1&amp;language=fr&amp;theme=topfm&amp;include=eJxFjEEOgCAMBD8EcvJBRSshKZR06wFfrwkHjzOTTFZ1uNHYUyZwyD83BqgwwqHG6bR7kGzVuUWp8GW7WiOpDwdMfGlNXMfVUhHNJBE-pfbyAmACKI8
+   https://topfm.mu/actualites/apres-une-nuit-de-tensions-huit-personnes-reconduites-en-detention
+   https://topfm.mu/actualites/examens-sc-hsc-et-nce-plus-de-33-000-etudiants-concernes-le-mes-en-constante-communication-avec
+   https://topfm.mu/actualites/incidents-dans-plusieurs-regions-le-calme-retabli-la-police-reste-en-alerte
+   https://topfm.mu/actualites/drame-delodie-thomas-au-terme-dune-tournee-rose-hill-patrick-belcourt-constate-une-ville-au-ralenti
+   https://topfm.mu/actualites/un-petrolier-arraisonne-au-sud-de-la-reunion-macron-reaffirme-sa-lutte-contre-la-flotte-fantome
+   https://topfm.mu/actualites/reservoirs-deau-ruee-vers-les-inscriptions-3-384-demandes-enregistrees-en-une-journee
+  article 200: text 0 chars | {'og:title': None, 'og:image': None, 'article:published_time': None}
+  start: 
+
+######## Le Mauricien REST
+720419 2026-10-13T18:35:05 Maurice : Pas de classes le mercredi 14 octobre, sauf pour les examens | content 0 | img None | https://www.lemauricien.com/actualites/societe/maurice-pas-de-classes-le-mercredi-14-octobre-sauf-pour-les-examens-du-sc-et-du-hsc-maintenus-comme-prevu/720419/
+720420 2026-10-13T18:15:28 La caricature de ce mardi 13 octobre | content 0 | img None | https://www.lemauricien.com/le-mauricien/la-caricature-de-ce-mardi-13-octobre/720420/
+720415 2026-10-13T16:29:57 Examens reportés : plus de 33 000 candidats concernés, la MES en discu | content 0 | img None | https://www.lemauricien.com/actualites/societe/examens-reportes-plus-de-33-000-candidats-concernes-la-mes-en-discussions-avec-cambridge/720415/
