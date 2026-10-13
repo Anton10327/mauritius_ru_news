@@ -40,12 +40,16 @@ MAX_SEEN = 2000          # how many item IDs to remember
 FIRST_RUN_POSTS = 3      # on the very first run, post only the latest N items
 MAX_POSTS_PER_RUN = 20   # safety limit against flooding the channel
 
-# Free LLM via GitHub Models (uses the built-in GITHUB_TOKEN in Actions).
-# Low-tier models: ~150 free requests/day. Tried in order until one works.
-GH_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-LLM_URL = "https://models.github.ai/inference/chat/completions"
-LLM_MODELS = ["openai/gpt-4.1-mini", "openai/gpt-4o-mini"]
-ARTICLE_CHARS = 6000     # how much article text to send (fits the 8k-token limit)
+# Free LLM via Groq (OpenAI-compatible API). Get a free key at
+# console.groq.com -> API Keys, and save it as the LLM_API_KEY secret.
+# Models are tried in order until one works.
+LLM_KEY = os.environ.get("LLM_API_KEY", "").strip()
+LLM_URL = os.environ.get("LLM_URL", "").strip() or \
+    "https://api.groq.com/openai/v1/chat/completions"
+LLM_MODELS = [m.strip() for m in (os.environ.get("LLM_MODELS", "").strip() or
+              "openai/gpt-oss-20b,openai/gpt-oss-120b,qwen/qwen3.8-27b"
+              ).split(",") if m.strip()]
+ARTICLE_CHARS = 4000     # article text sent to the model (keeps within free limits)
 
 PROMPT = (
     "Ты редактор русскоязычного новостного канала о Маврикии. "
@@ -80,14 +84,26 @@ def save_seen(seen):
 
 
 def translate(text):
+    """Google Translate, then MyMemory as a fallback; original text if both fail."""
     text = (text or "").strip()
     if not text:
         return ""
     try:
         return translator.translate(text[:4500])
     except Exception as e:
-        print(f"Translation failed, keeping original: {e}")
-        return text
+        print(f"Google Translate failed: {type(e).__name__}")
+    try:
+        r = requests.get("https://api.mymemory.translated.net/get",
+                         params={"q": text[:480], "langpair": "fr|ru"},
+                         timeout=30)
+        data = r.json()
+        out = (data.get("responseData") or {}).get("translatedText") or ""
+        if r.ok and out and "MYMEMORY WARNING" not in out.upper():
+            return html.unescape(out)
+        print(f"MyMemory failed: {str(data)[:200]}")
+    except Exception as e:
+        print(f"MyMemory failed: {e}")
+    return text
 
 
 def article_text(url):
@@ -104,66 +120,83 @@ def article_text(url):
         return ""
 
 
+def _llm_call(model, messages, max_tokens=1500):
+    return requests.post(
+        LLM_URL,
+        headers={"Authorization": f"Bearer {LLM_KEY}",
+                 "Content-Type": "application/json"},
+        json={"model": model, "messages": messages,
+              "temperature": 0.2, "max_tokens": max_tokens},
+        timeout=90,
+    )
+
+
+def _parse_json(text):
+    text = re.sub(r"<think>.*?</think>", "", text or "", flags=re.S)
+    m = re.search(r"\{.*\}", text, re.S)
+    return json.loads(m.group(0)) if m else None
+
+
 def summarize(title, body):
-    """Ask GitHub Models for a Russian title + summary. Returns (title, summary)
-    or None if the model is unavailable (no token, daily limit, error)."""
-    if _llm_state["disabled"] or not GH_TOKEN:
+    """Ask the LLM for a Russian title + summary. Returns (title, summary)
+    or None if the model is unavailable (no key, daily limit, error)."""
+    if _llm_state["disabled"] or not LLM_KEY:
         return None
     content = f"Заголовок: {title}\n\nТекст статьи:\n{body[:ARTICLE_CHARS] or '(текст недоступен)'}"
+    messages = [{"role": "system", "content": PROMPT},
+                {"role": "user", "content": content}]
     models = [_llm_state["model"]] if _llm_state["model"] else LLM_MODELS
     for model in models:
-        try:
-            r = requests.post(
-                LLM_URL,
-                headers={"Authorization": f"Bearer {GH_TOKEN}",
-                         "Content-Type": "application/json",
-                         "Accept": "application/vnd.github+json"},
-                json={"model": model,
-                      "messages": [{"role": "system", "content": PROMPT},
-                                   {"role": "user", "content": content}],
-                      "temperature": 0.2,
-                      "max_tokens": 600,
-                      "response_format": {"type": "json_object"}},
-                timeout=60,
-            )
-        except Exception as e:
-            print(f"LLM request failed: {e}")
-            return None
-        if r.status_code == 429:
-            print("GitHub Models limit reached - headlines only until it resets")
+        for attempt in range(2):
+            try:
+                r = _llm_call(model, messages)
+            except Exception as e:
+                print(f"LLM request failed: {e}")
+                return None
+            if r.status_code == 429:
+                wait = float(r.headers.get("retry-after", "0") or 0)
+                if attempt == 0 and 0 < wait <= 60:
+                    print(f"LLM per-minute limit, waiting {wait:.0f}s")
+                    time.sleep(wait + 1)
+                    continue
+                print(f"LLM limit reached: {r.text[:200]}")
+                _llm_state["disabled"] = True
+                alert("limit",
+                      "⚠️ Закончился бесплатный лимит нейросети (Groq).\n\n"
+                      "До его сброса бот публикует в канал только переведённые "
+                      "заголовки, без пересказов. Обычно лимит восстанавливается "
+                      "в течение суток, ничего делать не нужно.")
+                return None
+            break
+        if r.status_code in (401, 403):
+            print(f"LLM key rejected: {r.text[:200]}")
             _llm_state["disabled"] = True
-            alert("limit",
-                  "⚠️ Закончился бесплатный лимит GitHub Models.\n\n"
-                  "До его сброса бот публикует в канал только переведённые "
-                  "заголовки, без пересказов. Обычно лимит восстанавливается "
-                  "в течение суток, ничего делать не нужно.")
+            alert("key", "⚠️ Groq не принимает ключ LLM_API_KEY. Проверьте "
+                  "секрет в настройках репозитория. Пока публикуются только "
+                  "заголовки.")
             return None
         if r.status_code in (400, 404) and "model" in r.text.lower():
-            print(f"Model {model} unavailable, trying next")
+            print(f"Model {model} unavailable ({r.text[:150]}), trying next")
             continue
         if not r.ok:
             print(f"LLM error {r.status_code}: {r.text[:300]}")
             return None
         try:
-            raw = r.json()["choices"][0]["message"]["content"]
-            raw = re.sub(r"^```(?:json)?|```$", "", raw.strip()).strip()
-            data = json.loads(raw)
+            data = _parse_json(r.json()["choices"][0]["message"]["content"])
             ru_title = (data.get("title") or "").strip()
             ru_summary = (data.get("summary") or "").strip()
         except Exception as e:
-            print(f"Bad LLM answer: {e}")
-            return None
+            print(f"Bad LLM answer from {model}: {e}; raw: {r.text[:300]}")
+            continue
         if not ru_title:
-            return None
+            continue
         _llm_state["model"] = model
         return ru_title, ru_summary
     _llm_state["disabled"] = True
     alert("models",
-          "⚠️ Ни одна модель из LLM_MODELS не доступна в GitHub Models — "
-          "похоже, их переименовали или убрали.\n\n"
-          "Бот публикует только переведённые заголовки. Замените LLM_MODELS "
-          "в bot.py на актуальную модель уровня Low с "
-          "github.com/marketplace/models")
+          "⚠️ Ни одна модель из LLM_MODELS не ответила — похоже, Groq их "
+          "переименовал или убрал.\n\nБот публикует только переведённые "
+          "заголовки. Актуальные модели: console.groq.com/docs/models")
     return None
 
 
@@ -330,23 +363,14 @@ def _strip_html(s):
 def self_test():
     """Check translation and summary on the latest article without posting."""
     import sys
-    print(f"Python {sys.version.split()[0]}; GITHUB_TOKEN set: {bool(GH_TOKEN)}")
-    print("== Google Translate")
-    try:
-        print("OK:", translator.translate("Bonjour, le service de bus est perturbé"))
-    except Exception as e:
-        print("FAIL:", type(e).__name__, e)
-    print("== GitHub Models")
+    print(f"Python {sys.version.split()[0]}; LLM_API_KEY set: {bool(LLM_KEY)}")
+    print("== Translation (Google, then MyMemory)")
+    print(translate("Le service de bus est perturbé ce mardi matin"))
+    print("== LLM:", LLM_URL)
     for model in LLM_MODELS:
         try:
-            r = requests.post(
-                LLM_URL,
-                headers={"Authorization": f"Bearer {GH_TOKEN}",
-                         "Content-Type": "application/json"},
-                json={"model": model, "max_tokens": 20,
-                      "messages": [{"role": "user", "content": "Say: ok"}]},
-                timeout=60)
-            print(model, r.status_code, r.text[:400])
+            r = _llm_call(model, [{"role": "user", "content": "Reply with: ok"}], 200)
+            print(model, r.status_code, r.text[:300])
         except Exception as e:
             print(model, "FAIL:", type(e).__name__, e)
     print("== Latest article")
