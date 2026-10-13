@@ -1,24 +1,4 @@
-Python 3.12.15; LLM_API_KEY set: True
-== Translation (Google, then MyMemory)
-Google Translate failed: TooManyRequests
-Автобусное сообщение прервано во вторник утром
-== LLM: https://api.groq.com/openai/v1/chat/completions
-openai/gpt-oss-120b 200 {"id":"chatcmpl-68ceca6f-3f3a-4322-bbed-5940bc62b8a3","object":"chat.completion","created":1791884364,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we need to respond with \"ok\". No extra text."},"
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-c4ef498e-86b6-4696-b632-e48b733a3c3d","object":"chat.completion","created":1791884364,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.096113076,"prompt_tokens":16,"prompt_t
-openai/gpt-oss-20b 200 {"id":"chatcmpl-cb90e288-dd5b-4365-9c54-ec73aa8ee488","object":"chat.completion","created":1791884364,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we should reply with \"ok\"."},"logprobs":null,"fin
-== Latest article
-Feed items: 149; newest 6:
-  NEW  http://defimedia.info/node/185559 | Adrien Duval réclame « un rappel du Parlement » pour rétablir l’ordre 
-  NEW  http://defimedia.info/node/185558 | Dr Oomesh Shamloll de l’hôpital Dr A. G. Jeetoo : « Élodie Thomas a ou
-  NEW  http://defimedia.info/node/185557 | Élodie Thomas : « Lin guet nou ; lin trap lame so mama, lin serre », c
-  NEW  http://defimedia.info/node/185556 | PMO : le Cabinet convoqué en urgence à 14 h 30
-  NEW  http://defimedia.info/node/185545 | Réservoirs d’eau : les ventes multipliées par cinq en une semaine chez
-  SEEN http://defimedia.info/node/185555 | Élodie Thomas : « L'intervention a été un succès à 100 % », dit le min
-Title: Adrien Duval réclame « un rappel du Parlement » pour rétablir l’ordre dans le pays
-Article text chars: 780 | start: Publicité Adrien Duval réclame « un rappel du Parlement » pour rétablir l’ordre dans le pays Un rappel de l’Assemblée nationale : c’est ce que réclame Adrien Duval. Intervenant sur RadioPlus ce mardi 
-== Post that would be sent
-<b>Адриен Дюваль требует «созыва парламента» для восстановления порядка в стране</b>
-
-13 октября депутат Партии Маврикийского социал-демократического (PMSD) Адриен Дюваль в эфире RadioPlus сообщил, что с вечера предыдущего дня в стране происходят поджоги, которые ставят под угрозу безопасность. Он призвал правительство немедленно созвать парламент, чтобы обсудить ситуацию, связанную с Элодие Томас, и принять необходимые меры для восстановления спокойствия, порядка и мира.
-
-🔗 <a href="https://defimedia.info/adrien-duval-reclame-un-rappel-du-parlement-pour-retablir-lordre-dans-le-pays">Defimedia</a>
+Posted: Водяные резервуары: продажи увеличились в пять раз за неделю у торговцев
+Posted: ПМО: Кабинет созван в экстренном порядке в 14 :30
+Posted: Элоди Томас: «Lin guet nou; lin trap lame so mama, lin serre», сообщает её отец
+Posted: Доктор Oomesh Shamloll из больницы Dr A. G. Jeetoo: «Элоди Томас открыла глаза»
