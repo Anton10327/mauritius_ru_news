@@ -1,4 +1,34 @@
-New feed ION News: skipped backlog, posting newest only
+Python 3.12.15; LLM_API_KEY set: True
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+openai/gpt-oss-120b 200 {"id":"chatcmpl-b67e694f-e625-469b-92ce-864b32a9bd4e","object":"chat.completion","created":1791884740,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we just need to respond with \"ok\". No extra cont
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-5ea17570-8082-4aaa-9e2c-de718e54dbdf","object":"chat.completion","created":1791884740,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.022000422,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-20b 200 {"id":"chatcmpl-0c5cb0fa-6348-4bcc-a1b8-826ef43bfe82","object":"chat.completion","created":1791884741,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So I should reply with \"ok\"."},"logprobs":null,"fini
+== Defimedia: https://defimedia.info/rss.xml
+Feed items: 150; newest 4:
+  NEW  http://defimedia.info/node/185560 | Transport public limité : Business Mauritius recommande des départs an
+  SEEN http://defimedia.info/node/185559 | Adrien Duval réclame « un rappel du Parlement » pour rétablir l’ordre 
+  SEEN http://defimedia.info/node/185558 | Dr Oomesh Shamloll de l’hôpital Dr A. G. Jeetoo : « Élodie Thomas a ou
+  SEEN http://defimedia.info/node/185557 | Élodie Thomas : « Lin guet nou ; lin trap lame so mama, lin serre », c
+Photo: https://files.defimedia.info/sites/default/files/2026-10/13.10.26%20%281%29.jpg
+-- Post that would be sent:
+<b>Ограниченный общественный транспорт: Business Mauritius рекомендует ранние отъезды</b>
+
+13 октября Business Mauritius, представляющая частный сектор, сообщила, что услуги общественного транспорта остаются ограниченными, что затрудняет перемещения. Организация призывает работодателей смягчить организацию труда, позволяя сотрудникам отправляться домой раньше во второй половине дня. Рекомендации следует согласовывать с командами и учитывать доступные виды транспорта и операционные ограничения, чтобы обеспечить спокойный и упорядоченный возврат работников домой.
+
+🔗 <a href="https://defimedia.info/transport-public-limite-business-mauritius-recommande-des-departs-anticipes">Defimedia</a>
+== ION News: https://ionnews.mu/feed/
+Feed items: 12; newest 4:
+  SEEN https://ionnews.mu/?p=322901 | L’état de santé d’Élodie Thomas s’améliore, selon son père
+  SEEN https://ionnews.mu/?p=322895 | [Tensions dans le pays] Trois policiers blessés, dont un admis à l’hôp
+  SEEN https://ionnews.mu/?p=322896 | Sécurité : Le ministère du Tourisme rassure après les récents incident
+  SEEN https://ionnews.mu/?p=322892 | Aéroport SSRN : deux arrestations suite à une saisie de plus de 270 gr
 Could not read article https://ionnews.mu/letat-de-sante-delodie-thomas-sameliore-selon-son-pere/: 403 Client Error: Forbidden for url: https://ionnews.mu/letat-de-sante-delodie-thomas-sameliore-selon-son-pere/
-Posted: Состояние здоровья Элодии Томас улучшается, согласно её отцу
-Posted: Адриен Дюваль требует «созыва парламента», чтобы восстановить порядок в стране
+Google Translate failed: TooManyRequests
+Photo: None
+-- Post that would be sent:
+<b>По словам ее отца, здоровье Элоди Томас улучшается</b>
+
+🔗 <a href="https://ionnews.mu/letat-de-sante-delodie-thomas-sameliore-selon-son-pere/">ION News</a>
