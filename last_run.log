@@ -1,17 +1,19 @@
-Python 3.12.15; GITHUB_TOKEN set: True
-== Google Translate
-FAIL: TooManyRequests Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
-== GitHub Models
-openai/gpt-4.1-mini 200 OK
+Python 3.12.15; LLM_API_KEY set: False
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+openai/gpt-oss-20b 401 {"error":{"message":"Invalid API Key","type":"invalid_request_error","code":"invalid_api_key"}}
 
-openai/gpt-4o-mini 200 OK
+openai/gpt-oss-120b 401 {"error":{"message":"Invalid API Key","type":"invalid_request_error","code":"invalid_api_key"}}
+
+qwen/qwen3.8-27b 401 {"error":{"message":"Invalid API Key","type":"invalid_request_error","code":"invalid_api_key"}}
 
 == Latest article
 Title: Élodie Thomas : « L'intervention a été un succès à 100 % », dit le ministre Anil Bachoo
 Article text chars: 1126 | start: Élodie Thomas : « L'intervention a été un succès à 100 % », dit le ministre Anil Bachoo Le ministre de la Santé, Anil Bachoo, s’est rendu ce mardi matin 13 octobre à l’hôpital Dr A. G. Jeetoo pour s’e
 == Post that would be sent
-Bad LLM answer: Expecting value: line 1 column 1 (char 0)
-Translation failed, keeping original: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
-<b>Élodie Thomas : « L&#x27;intervention a été un succès à 100 % », dit le ministre Anil Bachoo</b>
+Google Translate failed: TooManyRequests
+<b>Элоди Томас: «Вмешательство было на 100% успешным», - говорит министр Анил Бачу</b>
 
 🔗 <a href="https://defimedia.info/elodie-thomas-lintervention-ete-un-succes-100-dit-le-ministre-anil-bachoo">Defimedia</a>
