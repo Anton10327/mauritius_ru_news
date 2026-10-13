@@ -41,7 +41,7 @@ SEEN_FILE = Path("seen.json")
 STATE_FILE = Path("state.json")  # remembers which alerts were sent today
 RECENT_FILE = Path("recent.json")  # recently posted headlines, for duplicate checks
 RECENT_HOURS = 36                  # compare new articles with posts from this period
-RECENT_MAX = 80
+RECENT_MAX = 50
 MAX_SEEN = 2000          # how many item IDs to remember
 FIRST_RUN_POSTS = 3      # on the very first run, post only the latest N items
 MAX_POSTS_PER_RUN = 20   # safety limit against flooding the channel
@@ -95,7 +95,7 @@ TEST_FEEDS = []
 # --------------------------------------------------------------------------
 
 translator = GoogleTranslator(source="auto", target="ru")
-_llm_state = {"disabled": False, "model": None}
+_llm_state = {"disabled": False, "model": None, "exhausted": set(), "tokens": 0, "calls": 0}
 
 
 def load_seen():
@@ -152,6 +152,17 @@ def article_text(url):
 
 
 def _llm_call(model, messages, max_tokens=1500):
+    r = _llm_post(model, messages, max_tokens)
+    try:
+        if r.ok:
+            _llm_state["tokens"] += r.json().get("usage", {}).get("total_tokens", 0)
+            _llm_state["calls"] += 1
+    except Exception:
+        pass
+    return r
+
+
+def _llm_post(model, messages, max_tokens):
     return requests.post(
         LLM_URL,
         headers={"Authorization": f"Bearer {LLM_KEY}",
@@ -176,8 +187,12 @@ def summarize(title, body):
     content = f"Заголовок: {title}\n\nТекст статьи:\n{body[:ARTICLE_CHARS] or '(текст недоступен)'}"
     messages = [{"role": "system", "content": PROMPT},
                 {"role": "user", "content": content}]
-    models = [_llm_state["model"]] if _llm_state["model"] else LLM_MODELS
+    models = [m for m in LLM_MODELS if m not in _llm_state["exhausted"]]
+    if _llm_state["model"] in models:  # keep using the model that works
+        models.remove(_llm_state["model"])
+        models.insert(0, _llm_state["model"])
     for model in models:
+        exhausted = False
         for attempt in range(2):
             try:
                 r = _llm_call(model, messages)
@@ -190,15 +205,14 @@ def summarize(title, body):
                     print(f"LLM per-minute limit, waiting {wait:.0f}s")
                     time.sleep(wait + 1)
                     continue
-                print(f"LLM limit reached: {r.text[:200]}")
-                _llm_state["disabled"] = True
-                alert("limit",
-                      "⚠️ Закончился бесплатный лимит нейросети (Groq).\n\n"
-                      "До его сброса бот публикует в канал только переведённые "
-                      "заголовки, без пересказов. Обычно лимит восстанавливается "
-                      "в течение суток, ничего делать не нужно.")
-                return None
+                print(f"LLM limit reached for {model}: {r.text[:200]}")
+                _llm_state["exhausted"].add(model)
+                if _llm_state["model"] == model:
+                    _llm_state["model"] = None
+                exhausted = True
             break
+        if exhausted:
+            continue
         if r.status_code in (401, 403):
             print(f"LLM key rejected: {r.text[:200]}")
             _llm_state["disabled"] = True
@@ -224,6 +238,13 @@ def summarize(title, body):
         _llm_state["model"] = model
         return ru_title, ru_summary
     _llm_state["disabled"] = True
+    if set(LLM_MODELS) <= _llm_state["exhausted"]:
+        alert("limit",
+              "⚠️ Закончился бесплатный дневной лимит нейросети (Groq) у всех "
+              "моделей.\n\nДо сброса бот публикует только переведённые "
+              "заголовки, без пересказов. Лимит восстанавливается сам, "
+              "ничего делать не нужно.")
+        return None
     alert("models",
           "⚠️ Ни одна модель из LLM_MODELS не ответила — похоже, Groq их "
           "переименовал или убрал.\n\nБот публикует только переведённые "
@@ -266,12 +287,20 @@ def find_duplicate(title, summary, recent_titles):
     listing = "\n".join(f"{i}. {t}" for i, t in enumerate(recent_titles, 1))
     msg = (f"Новая новость:\n{title}\n{summary}\n\n"
            f"Уже опубликованы:\n{listing}")
-    model = _llm_state["model"] or LLM_MODELS[0]
+    free = [m for m in LLM_MODELS if m not in _llm_state["exhausted"]]
+    if not free:
+        return None
+    model = _llm_state["model"] if _llm_state["model"] in free else free[0]
     try:
         r = _llm_call(model, [{"role": "system", "content": DUP_PROMPT},
                               {"role": "user", "content": msg}], 800)
         if r.status_code == 429:
-            time.sleep(min(float(r.headers.get("retry-after", "5") or 5), 60) + 1)
+            wait = float(r.headers.get("retry-after", "0") or 0)
+            if not 0 < wait <= 60:
+                print(f"Duplicate check skipped, limit reached for {model}")
+                _llm_state["exhausted"].add(model)
+                return None
+            time.sleep(wait + 1)
             r = _llm_call(model, [{"role": "system", "content": DUP_PROMPT},
                                   {"role": "user", "content": msg}], 800)
         if not r.ok:
@@ -487,6 +516,9 @@ def main():
 
     save_seen(seen)
     save_recent(recent)
+    if _llm_state["calls"]:
+        print(f"LLM usage this run: {_llm_state['calls']} requests, "
+              f"{_llm_state['tokens']} tokens")
 
 
 def _strip_html(s):
@@ -527,6 +559,7 @@ def self_test():
         text, _, page_image, dup = build_post(source, e, link,
                                               [x["title"] for x in load_recent()])
         print("Duplicate of recent post #:", dup)
+        print(f"LLM usage so far: {_llm_state['calls']} requests, {_llm_state['tokens']} tokens")
         print("Photo:", item_image(e, (img, None)) or page_image)
         print("-- Post that would be sent:")
         print(text)
