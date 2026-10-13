@@ -376,7 +376,16 @@ def self_test():
     print("== Latest article")
     xml = requests.get(FEEDS[0][1], timeout=30,
                        headers={"User-Agent": "Mozilla/5.0 news-bot"}).text
-    e = feedparser.parse(xml).entries[0]
+    entries = feedparser.parse(xml).entries
+    try:
+        seen = set(json.loads(SEEN_FILE.read_text(encoding="utf-8")))
+    except Exception:
+        seen = set()
+    print(f"Feed items: {len(entries)}; newest 6:")
+    for x in entries[:6]:
+        uid = x.get("id") or x.get("link")
+        print(" ", "SEEN" if uid in seen else "NEW ", uid, "|", x.get("title", "")[:70])
+    e = entries[0]
     link = e.get("link", "").replace("http://", "https://", 1)
     body = article_text(link)
     print("Title:", e.get("title"))
