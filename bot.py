@@ -53,7 +53,7 @@ LLM_KEY = os.environ.get("LLM_API_KEY", "").strip()
 LLM_URL = os.environ.get("LLM_URL", "").strip() or \
     "https://api.groq.com/openai/v1/chat/completions"
 LLM_MODELS = [m.strip() for m in (os.environ.get("LLM_MODELS", "").strip() or
-              "openai/gpt-oss-120b,qwen/qwen3.8-27b,openai/gpt-oss-20b"
+              "qwen/qwen3.8-27b,openai/gpt-oss-120b,openai/gpt-oss-20b"
               ).split(",") if m.strip()]
 ARTICLE_CHARS = 4000     # article text sent to the model (keeps within free limits)
 MIN_TEXT_FOR_SUMMARY = 300  # less text than this -> no summary, title only
@@ -68,7 +68,8 @@ PROMPT = (
     "переводи на русский по смыслу, сохраняя кавычки; ни одного слова на "
     "французском или креольском в title остаться не должно. "
     "summary — пересказ своими словами на русском в 2–4 предложениях, "
-    "до 600 символов: что произошло, где, кто, что дальше. "
+    "до 600 символов: что произошло, где, кто, что дальше; ключевые цифры "
+    "(число пострадавших, арестованных, суммы, даты) сохраняй. "
     "Только факты из статьи, без оценок и без выдумок; если в статье мало "
     "информации, пиши короче, но ничего не додумывай. "
     "Названия мест (Port-Louis, Sainte-Croix, Camp-Levieux) оставляй латиницей. "
