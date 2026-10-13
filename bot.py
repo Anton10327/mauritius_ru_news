@@ -50,11 +50,11 @@ ADMIN_ID = os.environ.get("TELEGRAM_ADMIN_ID", "").strip()
 SEEN_FILE = Path("seen.json")
 STATE_FILE = Path("state.json")  # remembers which alerts were sent today
 RECENT_FILE = Path("recent.json")  # recently posted headlines, for duplicate checks
-RECENT_HOURS = 36                  # compare new articles with posts from this period
-RECENT_MAX = 50
+RECENT_HOURS = 12                  # compare new articles with posts from this period
+RECENT_MAX = 25                    # ...but at most this many latest posts
 MAX_SEEN = 2000          # how many item IDs to remember
 FIRST_RUN_POSTS = 3      # on the very first run, post only the latest N items
-MAX_POSTS_PER_RUN = 20   # safety limit against flooding the channel
+MAX_POSTS_PER_RUN = 6    # posts per check; the rest wait for the next check
 
 # Free LLM via Groq (OpenAI-compatible API). Get a free key at
 # console.groq.com -> API Keys, and save it as the LLM_API_KEY secret.
@@ -84,24 +84,27 @@ PROMPT = (
     "информации, пиши короче, но ничего не додумывай. "
     "Названия мест (Port-Louis, Sainte-Croix, Camp-Levieux) оставляй латиницей. "
     "Имена людей пиши по-русски в общепринятой транскрипции (Navin Ramgoolam — "
-    "Навин Рамгулам). Рупии — «рупий»."
+    "Навин Рамгулам). Рупии — «рупий». Словарик: couvre-feu — комендантский "
+    "час; Assemblée nationale — Национальное собрание; DPP — генпрокурор (DPP); "
+    "IPCC — комиссия по жалобам на полицию (IPCC); SMF — спецподразделение SMF; "
+    "CWA — водоканал CWA; Premier ministre — премьер-министр."
 )
 
 DUP_PROMPT = (
-    "Ты помогаешь вести новостной канал и убираешь повторы. Дана новая новость "
-    "и пронумерованный список заголовков, уже опубликованных в канале. "
-    "Дубль — только если новая новость сообщает ТОТ ЖЕ факт, что уже был "
-    "опубликован, и не добавляет ничего существенного: то же событие, то же "
-    "решение, то же заявление того же человека, просто в пересказе другого СМИ. "
-    "НЕ дубль, если есть хоть что-то новое: новое или изменённое решение "
-    "(например, экзамены сначала перенесли, а теперь их проведут), новое "
-    "событие в той же истории (было «арестовали», стало «предъявили "
-    "обвинение»; было «созван кабинет», стало «премьер обратится к нации»), "
-    "новые цифры, новое место, заявление другого человека. Общая тема — "
-    "не повод считать дублем. Если сомневаешься — это НЕ дубль. "
+    "Ты редактор новостного канала и не пускаешь в канал повторы. Дана новая "
+    "статья (заголовок и начало текста, обычно на французском) и пронумерованный "
+    "список того, что уже опубликовано в канале (заголовок — краткое содержание). "
+    "Реши, есть ли в новой статье хотя бы один НОВЫЙ ВАЖНЫЙ факт, которого нет "
+    "в опубликованном: новое событие, новое или изменённое решение властей, "
+    "новые пострадавшие или задержанные, новые важные цифры или сроки, "
+    "заявление человека, которого ещё не цитировали. "
+    "Если всё главное в статье уже есть в опубликованном (тот же указ, та же речь, "
+    "то же событие в пересказе другого СМИ или повторная статья того же СМИ, "
+    "прямой эфир того, о чём уже написали) — это дубль. "
+    "Если есть новый важный факт — не дубль, даже если тема та же. "
     "Ответь строго JSON в таком порядке полей: "
-    '{"reason": "кратко: что нового или что повторяется", '
-    '"is_duplicate": true или false, "duplicate_of": номер или null}.'
+    '{"new_facts": "какие новые важные факты есть, или пусто", '
+    '"is_duplicate": true или false, "duplicate_of": номер самого похожего или null}.'
 )
 
 # Extra feeds checked only in test mode (to try a source before adding it)
@@ -296,29 +299,57 @@ def alert(kind, text):
     STATE_FILE.write_text(json.dumps(state), encoding="utf-8")
 
 
-def find_duplicate(title, summary, recent_titles):
-    """Number (1-based) of the recent post this news repeats, or None."""
-    if not recent_titles or not LLM_KEY or _llm_state["disabled"]:
+def _norm_title(t):
+    t = re.sub(r"\[[^\]]*\]|\([^)]*\)", " ", (t or "").lower())  # [LIVE], (vidéo)
+    words = re.findall(r"[a-zà-ÿ0-9]+", t)
+    stop = {"le", "la", "les", "de", "des", "du", "un", "une", "et", "à", "a",
+            "au", "aux", "en", "pour", "sur", "dans", "par", "ce", "cette", "ses",
+            "son", "sa", "est", "qui", "que", "d", "l", "s", "n", "the", "of"}
+    return {w for w in words if w not in stop and len(w) > 1}
+
+
+def same_title(a, b):
+    """Near-identical original headlines (e.g. two sites, same agency text)."""
+    x, y = _norm_title(a), _norm_title(b)
+    if len(x) < 3 or len(y) < 3:
+        return False
+    common = len(x & y)
+    # same words, or one headline is the other plus a few extra words
+    return common / len(x | y) >= 0.6 or (common >= 4 and common / min(len(x), len(y)) >= 0.75)
+
+
+def find_duplicate(orig_title, lead, recent):
+    """Index (1-based) of the recent post this article repeats, or None."""
+    if not recent:
         return None
-    listing = "\n".join(f"{i}. {t}" for i, t in enumerate(recent_titles, 1))
-    msg = (f"Новая новость:\n{title}\n{summary}\n\n"
-           f"Уже опубликованы:\n{listing}")
+    for i, x in enumerate(recent, 1):
+        if x.get("orig") and same_title(orig_title, x["orig"]):
+            print(f"  same headline as #{i}: {x['orig'][:80]}")
+            return i
+    if not LLM_KEY or _llm_state["disabled"]:
+        return None
+    listing = "\n".join(f"{i}. {x['title']} — {x.get('summary', '')[:180]}"
+                         for i, x in enumerate(recent, 1))
+    msg = (f"Новая статья:\n{orig_title}\n{lead[:700]}\n\n"
+           f"Уже опубликовано:\n{listing}")
     free = [m for m in LLM_MODELS if m not in _llm_state["exhausted"]]
     if not free:
         return None
     model = _llm_state["model"] if _llm_state["model"] in free else free[0]
+    messages = [{"role": "system", "content": DUP_PROMPT},
+                {"role": "user", "content": msg}]
     try:
-        r = _llm_call(model, [{"role": "system", "content": DUP_PROMPT},
-                              {"role": "user", "content": msg}], 300)
+        r = _llm_call(model, messages, 300)
         if r.status_code == 429:
             wait = float(r.headers.get("retry-after", "0") or 0)
+            if "per minute" in r.text and not wait:
+                wait = 30
             if not 0 < wait <= 60:
                 print(f"Duplicate check skipped, limit reached for {model}")
                 _llm_state["exhausted"].add(model)
                 return None
             time.sleep(wait + 1)
-            r = _llm_call(model, [{"role": "system", "content": DUP_PROMPT},
-                                  {"role": "user", "content": msg}], 300)
+            r = _llm_call(model, messages, 300)
         if not r.ok:
             print(f"Duplicate check failed {r.status_code}: {r.text[:150]}")
             return None
@@ -326,10 +357,13 @@ def find_duplicate(title, summary, recent_titles):
         if data.get("is_duplicate") is not True:
             return None
         dup = data.get("duplicate_of")
-        dup = int(dup) if dup not in (None, "", "null", False) else None
-        if dup is not None and 1 <= dup <= len(recent_titles):
-            print(f"  dup reason: {data.get('reason', '')}")
-            return dup
+        try:
+            dup = int(dup)
+        except (TypeError, ValueError):
+            dup = 1
+        dup = dup if 1 <= dup <= len(recent) else 1
+        print(f"  dup: nothing new ({data.get('new_facts', '')[:150]})")
+        return dup
     except Exception as e:
         print(f"Duplicate check failed: {e}")
     return None
@@ -350,8 +384,9 @@ def save_recent(items):
                                       indent=0), encoding="utf-8")
 
 
-def build_post(source, entry, link, recent_titles=()):
-    """Russian title + summary (LLM) or translated headline (fallback)."""
+def build_post(source, entry, link, recent=()):
+    """Check for repeats, then Russian title + summary (LLM) or translated
+    headline (fallback). Returns a dict; "dup" is set for a repeat."""
     orig_title = entry.get("title", "").strip()
     body, page_image = article_text(link)
     # Some sites block article pages; fall back to the text inside the feed
@@ -366,17 +401,25 @@ def build_post(source, entry, link, recent_titles=()):
     if not page_image:
         m = re.search(r'<img[^>]+src=["\']([^"\']+)', feed_html)
         page_image = html.unescape(m.group(1)) if m else None
-    # Without real article text a "summary" would be invented: title only then
+    post = {"orig": orig_title, "image": page_image, "dup": None,
+            "title": orig_title, "summary": "", "text": ""}
+
+    # 1) repeat? (checked first, so no tokens are spent on summarizing repeats)
+    lead = re.sub(r"^(Publicité\s*)+", "", body).strip()
+    post["dup"] = find_duplicate(orig_title, lead, list(recent))
+    if post["dup"]:
+        return post
+
+    # 2) summary. Without real article text it would be invented: title only
     result = summarize(orig_title, body) if len(body) >= MIN_TEXT_FOR_SUMMARY else None
     if result is None and body and len(body) < MIN_TEXT_FOR_SUMMARY:
         print(f"Too little text ({len(body)} chars), title only: {link}")
-    dup = None
     if result:
         title, summary = result
-        dup = find_duplicate(title, summary, recent_titles)
     else:
         title = translate(orig_title)
         summary = translate(feed_text[:450]) if feed_text and len(feed_text) > 40 else ""
+    post["title"], post["summary"] = title, summary
 
     footer = f'🔗 <a href="{html.escape(link)}">{html.escape(source)}</a>'
     head = f"<b>{html.escape(title)}</b>"
@@ -385,8 +428,10 @@ def build_post(source, entry, link, recent_titles=()):
     if summary and summary != title and room > 50:
         if len(summary) > room:
             summary = summary[:room - 1].rsplit(" ", 1)[0] + "…"
-        return f"{head}\n\n{html.escape(summary)}\n\n{footer}", title, page_image, dup
-    return f"{head}\n\n{footer}", title, page_image, dup
+        post["text"] = f"{head}\n\n{html.escape(summary)}\n\n{footer}"
+    else:
+        post["text"] = f"{head}\n\n{footer}"
+    return post
 
 
 def send(text, photo=None):
@@ -604,31 +649,34 @@ def main():
             seen.append(uid)
             seen_set.add(uid)
     else:
-        to_post = new_items[-MAX_POSTS_PER_RUN:]
+        to_post = new_items[:MAX_POSTS_PER_RUN]  # oldest first, rest next time
 
     recent = load_recent()
     for source, e, uid, img, _ in to_post:
         link = e.get("link", "").replace("http://", "https://", 1)
-        recent_titles = [x["title"] for x in recent]
-        text, title, page_image, dup = build_post(source, e, link, recent_titles)
+        post = build_post(source, e, link, recent)
+        title = post["title"]
 
-        if dup:
-            print(f"Skipped duplicate ({source}): {title} == {recent_titles[dup - 1]}")
+        if post["dup"]:
+            print(f"Skipped duplicate ({source}): {post['orig'][:90]} == "
+                  f"{recent[post['dup'] - 1]['title'][:90]}")
             if uid not in seen_set:
                 seen.append(uid)
                 seen_set.add(uid)
             continue
 
         try:
-            send(text, photo=item_image(e, (img, None)) or page_image)
-            print(f"Posted: {title}")
+            send(post["text"], photo=item_image(e, (img, None)) or post["image"])
+            print(f"Posted ({source}): {title}")
         except Exception as ex:
             print(f"Failed to post {link}: {ex}")
             continue
         if uid not in seen_set:
             seen.append(uid)
             seen_set.add(uid)
-        recent.append({"t": time.time(), "title": title, "source": source})
+        recent.append({"t": time.time(), "title": title, "source": source,
+                       "orig": post["orig"], "summary": post["summary"][:200]})
+        recent = recent[-RECENT_MAX:]
         time.sleep(3)  # Telegram limit: ~20 messages/minute per channel
 
     save_seen(seen)
@@ -673,8 +721,8 @@ def self_test():
         body, page_image = article_text(link)
         print("Newest:", e.get("title"), "|", link)
         print(f"Article text: {len(body)} chars | photo: {img or page_image}")
-        text, _, page_image, dup = build_post(source, e, link,
-                                              [x["title"] for x in load_recent()])
+        post = build_post(source, e, link, load_recent())
+        text, dup = post["text"], post["dup"]
         print("Duplicate of recent post #:", dup)
         print(f"LLM usage so far: {_llm_state['calls']} requests, {_llm_state['tokens']} tokens")
         print("-- Post that would be sent:")
