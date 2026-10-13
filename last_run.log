@@ -1,0 +1,17 @@
+Python 3.12.15; GITHUB_TOKEN set: True
+== Google Translate
+FAIL: TooManyRequests Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+== GitHub Models
+openai/gpt-4.1-mini 200 OK
+
+openai/gpt-4o-mini 200 OK
+
+== Latest article
+Title: Élodie Thomas : « L'intervention a été un succès à 100 % », dit le ministre Anil Bachoo
+Article text chars: 1126 | start: Élodie Thomas : « L'intervention a été un succès à 100 % », dit le ministre Anil Bachoo Le ministre de la Santé, Anil Bachoo, s’est rendu ce mardi matin 13 octobre à l’hôpital Dr A. G. Jeetoo pour s’e
+== Post that would be sent
+Bad LLM answer: Expecting value: line 1 column 1 (char 0)
+Translation failed, keeping original: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+<b>Élodie Thomas : « L&#x27;intervention a été un succès à 100 % », dit le ministre Anil Bachoo</b>
+
+🔗 <a href="https://defimedia.info/elodie-thomas-lintervention-ete-un-succes-100-dit-le-ministre-anil-bachoo">Defimedia</a>
