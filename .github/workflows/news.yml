@@ -48,17 +48,35 @@ jobs:
           set -o pipefail
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          save_log() {
-            git add last_run.log $(ls seen.json state.json recent.json 2>/dev/null)
-            git diff --cached --quiet || git commit -q -m "update seen"
-            for try in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+          # Save the bot's state to the repo. Only this job writes seen.json,
+          # recent.json and state.json, so our copy always wins a conflict.
+          save_state() {
+            files="$1"
+            git add $files 2>/dev/null
+            git diff --cached --quiet && return 0
+            git commit -q -m "update seen"
+            for try in 1 2 3; do
+              if git pull --rebase -q -X theirs && git push -q; then return 0; fi
+              git rebase --abort 2>/dev/null
+              mkdir -p /tmp/keep && cp $files /tmp/keep/ 2>/dev/null
+              git fetch -q origin main && git reset -q --hard origin/main
+              cp /tmp/keep/* . 2>/dev/null
+              git add $files 2>/dev/null
+              git diff --cached --quiet || git commit -q -m "update seen"
+              git push -q && return 0
+              sleep 5
+            done
+            echo "WARNING: could not save state to the repo" | tee -a last_run.log
+            return 1
           }
-          if [ "${{ inputs.probe }}" = "true" ]; then python probe.py 2>&1 | tee last_run.log; save_log; exit 0; fi
-          if [ "${{ inputs.dupeval }}" = "true" ]; then python bot.py --dupeval 2>&1 | tee last_run.log; save_log; exit 0; fi
+          STATE="last_run.log $(ls seen.json state.json recent.json 2>/dev/null | tr '\n' ' ')"
+          # Test modes write their own log and never touch the bot's state
+          if [ "${{ inputs.probe }}" = "true" ]; then python probe.py 2>&1 | tee test_run.log; save_state test_run.log; exit 0; fi
+          if [ "${{ inputs.dupeval }}" = "true" ]; then python bot.py --dupeval 2>&1 | tee test_run.log; save_state test_run.log; exit 0; fi
           if [ "${{ inputs.test }}" = "true" ] || [ "${{ inputs.compare }}" = "true" ]; then
-            python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee last_run.log || true
+            python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee test_run.log || true
             git checkout -- seen.json recent.json state.json 2>/dev/null || true
-            save_log; exit 0
+            save_state test_run.log; exit 0
           fi
           # GitHub starts scheduled runs only every ~25 minutes, so each run
           # checks the news several times, 4 minutes apart.
@@ -67,7 +85,7 @@ jobs:
           for i in $(seq 1 $LOOPS); do
             echo "### check $i/$LOOPS at $(TZ=Indian/Mauritius date +%H:%M)" | tee -a last_run.log
             python bot.py 2>&1 | tee -a last_run.log || true
-            save_log
+            save_state "last_run.log $(ls seen.json state.json recent.json 2>/dev/null | tr '\n' ' ')"
             if [ $i -lt $LOOPS ]; then sleep 240; fi
           done
         env:
