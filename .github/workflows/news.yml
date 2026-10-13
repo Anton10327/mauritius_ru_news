@@ -13,6 +13,10 @@ on:
         description: "Compare all models on the newest articles, post nothing"
         type: boolean
         default: false
+      probe:
+        description: "Check which news sites are reachable (probe.py), post nothing"
+        type: boolean
+        default: false
 
 permissions:
   contents: write             # to save seen.json back to the repo
@@ -37,6 +41,7 @@ jobs:
         shell: bash
         run: |
           set -o pipefail
+          if [ "${{ inputs.probe }}" = "true" ]; then python probe.py 2>&1 | tee last_run.log; exit 0; fi
           python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee last_run.log
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
