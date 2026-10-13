@@ -26,6 +26,7 @@ from deep_translator import GoogleTranslator
 # Add more RSS feeds here: ("Source name", "feed URL")
 FEEDS = [
     ("Defimedia", "https://defimedia.info/rss.xml"),
+    ("ION News", "https://ionnews.mu/feed/"),
 ]
 
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]   # from @BotFather
@@ -107,17 +108,20 @@ def translate(text):
 
 
 def article_text(url):
-    """Download the article page and pull out the main text."""
+    """Download the article page; return (main text, og:image URL or None)."""
     try:
         r = requests.get(url, timeout=30,
                          headers={"User-Agent": "Mozilla/5.0 news-bot"})
         r.raise_for_status()
         text = trafilatura.extract(r.text, include_comments=False,
                                    include_tables=False) or ""
-        return text.strip()
+        m = (re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)', r.text)
+             or re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image', r.text))
+        image = html.unescape(m.group(1)) if m else None
+        return text.strip(), image
     except Exception as e:
         print(f"Could not read article {url}: {e}")
-        return ""
+        return "", None
 
 
 def _llm_call(model, messages, max_tokens=1500):
@@ -231,7 +235,8 @@ def alert(kind, text):
 def build_post(source, entry, link):
     """Russian title + summary (LLM) or translated headline (fallback)."""
     orig_title = entry.get("title", "").strip()
-    result = summarize(orig_title, article_text(link))
+    body, page_image = article_text(link)
+    result = summarize(orig_title, body)
     if result:
         title, summary = result
     else:
@@ -245,8 +250,8 @@ def build_post(source, entry, link):
     if summary and summary != title and room > 50:
         if len(summary) > room:
             summary = summary[:room - 1].rsplit(" ", 1)[0] + "…"
-        return f"{head}\n\n{html.escape(summary)}\n\n{footer}", title
-    return f"{head}\n\n{footer}", title
+        return f"{head}\n\n{html.escape(summary)}\n\n{footer}", title, page_image
+    return f"{head}\n\n{footer}", title, page_image
 
 
 def send(text, photo=None):
@@ -319,13 +324,26 @@ def main():
             print(f"Could not fetch {url}: {ex}")
             continue
         extras = raw_items(xml)
-        for e in feedparser.parse(xml).entries:
-            uid = e.get("id") or e.get("link")
+        entries = feedparser.parse(xml).entries
+        uids = [e.get("id") or e.get("link") for e in entries]
+        # A feed we have never seen before (just added to FEEDS): remember all
+        # its current items and post only the newest one, not the whole backlog.
+        fresh_feed = not first_run and entries and not any(u in seen_set for u in uids)
+        feed_items = []
+        for e, uid in zip(entries, uids):
             if uid and uid not in seen_set:
                 img, ts = extras.get(uid) or extras.get(e.get("link")) or (None, 0.0)
                 if not ts and e.get("published_parsed"):
                     ts = time.mktime(e.published_parsed)
-                new_items.append((source, e, uid, img, ts))
+                feed_items.append((source, e, uid, img, ts))
+        if fresh_feed:
+            feed_items.sort(key=lambda x: x[4])
+            for item in feed_items[:-1]:
+                seen.append(item[2])
+                seen_set.add(item[2])
+            feed_items = feed_items[-1:]
+            print(f"New feed {source}: skipped backlog, posting newest only")
+        new_items.extend(feed_items)
 
     # oldest first, so the channel reads in order
     new_items.sort(key=lambda x: x[4])
@@ -340,10 +358,10 @@ def main():
 
     for source, e, uid, img, _ in to_post:
         link = e.get("link", "").replace("http://", "https://", 1)
-        text, title = build_post(source, e, link)
+        text, title, page_image = build_post(source, e, link)
 
         try:
-            send(text, photo=item_image(e, (img, None)))
+            send(text, photo=item_image(e, (img, None)) or page_image)
             print(f"Posted: {title}")
         except Exception as ex:
             print(f"Failed to post {link}: {ex}")
@@ -373,47 +391,28 @@ def self_test():
             print(model, r.status_code, r.text[:300])
         except Exception as e:
             print(model, "FAIL:", type(e).__name__, e)
-    print("== Candidate feeds")
-    candidates = [
-        "https://lexpress.mu/rss.xml", "https://lexpress.mu/rss",
-        "https://lexpress.mu/feed", "https://www.lexpress.mu/rss.xml",
-        "https://www.lemauricien.com/feed/", "https://ionnews.mu/feed/",
-        "https://www.newsmoris.com/feed/", "https://newsmoris.com/feed/",
-        "https://inside.news/feed/", "https://www.businessmag.mu/feed/",
-        "https://www.wazaa.mu/feed/", "https://www.mbc.intnet.mu/feed/",
-        "https://www.lexpress.mu/feed", "https://www.5plus.mu/rss.xml",
-        "https://www.lemauricien.com/category/actualites/feed/",
-    ]
-    for url in candidates:
-        try:
-            r = requests.get(url, timeout=20,
-                             headers={"User-Agent": "Mozilla/5.0 news-bot"})
-            f = feedparser.parse(r.text)
-            top = f.entries[0] if f.entries else {}
-            print(f"  {r.status_code} items={len(f.entries):3d} {url} | "
-                  f"{top.get('published', '')[:25]} | {top.get('title', '')[:60]}")
-        except Exception as ex:
-            print(f"  ERR {url}: {type(ex).__name__}")
-    print("== Latest article")
-    xml = requests.get(FEEDS[0][1], timeout=30,
-                       headers={"User-Agent": "Mozilla/5.0 news-bot"}).text
-    entries = feedparser.parse(xml).entries
     try:
         seen = set(json.loads(SEEN_FILE.read_text(encoding="utf-8")))
     except Exception:
         seen = set()
-    print(f"Feed items: {len(entries)}; newest 6:")
-    for x in entries[:6]:
-        uid = x.get("id") or x.get("link")
-        print(" ", "SEEN" if uid in seen else "NEW ", uid, "|", x.get("title", "")[:70])
-    e = entries[0]
-    link = e.get("link", "").replace("http://", "https://", 1)
-    body = article_text(link)
-    print("Title:", e.get("title"))
-    print("Article text chars:", len(body), "| start:", body[:200].replace("\n", " "))
-    print("== Post that would be sent")
-    print(build_post(FEEDS[0][0], e, link)[0])
-
+    for source, url in FEEDS:
+        print(f"== {source}: {url}")
+        xml = requests.get(url, timeout=30,
+                           headers={"User-Agent": "Mozilla/5.0 news-bot"}).text
+        entries = feedparser.parse(xml).entries
+        print(f"Feed items: {len(entries)}; newest 4:")
+        for x in entries[:4]:
+            uid = x.get("id") or x.get("link")
+            print(" ", "SEEN" if uid in seen else "NEW ", uid, "|", x.get("title", "")[:70])
+        if not entries:
+            continue
+        e = entries[0]
+        link = e.get("link", "").replace("http://", "https://", 1)
+        img = raw_items(xml).get(e.get("id") or link, (None, 0))[0]
+        text, _, page_image = build_post(source, e, link)
+        print("Photo:", item_image(e, (img, None)) or page_image)
+        print("-- Post that would be sent:")
+        print(text)
 
 if __name__ == "__main__":
     import sys
