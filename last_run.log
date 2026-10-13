@@ -1,4 +1,40 @@
-Posted: Водяные резервуары: продажи увеличились в пять раз за неделю у торговцев
-Posted: ПМО: Кабинет созван в экстренном порядке в 14 :30
-Posted: Элоди Томас: «Lin guet nou; lin trap lame so mama, lin serre», сообщает её отец
-Posted: Доктор Oomesh Shamloll из больницы Dr A. G. Jeetoo: «Элоди Томас открыла глаза»
+Python 3.12.15; LLM_API_KEY set: True
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+openai/gpt-oss-120b 200 {"id":"chatcmpl-41f87fb5-d2e1-451f-b344-eee85e809618","object":"chat.completion","created":1791884532,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we need to respond with \"ok\". No extra text."},"
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-78acd1bf-cd12-4d0b-8916-b04cd64047bc","object":"chat.completion","created":1791884532,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.003993621,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-20b 200 {"id":"chatcmpl-06d5ab64-645f-4600-a429-1ee23c928742","object":"chat.completion","created":1791884533,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we just reply \"ok\"."},"logprobs":null,"finish_rea
+== Candidate feeds
+  404 items=  0 https://lexpress.mu/rss.xml |  | 
+  ERR https://lexpress.mu/rss: ReadTimeout
+  ERR https://lexpress.mu/feed: ReadTimeout
+  ERR https://www.lexpress.mu/rss.xml: SSLError
+  200 items= 10 https://www.lemauricien.com/feed/ | Fri, 07 Aug 2026 07:11:26 | Échiquier politique | Changing of Guards — Chetan Baboolall,
+  200 items= 12 https://ionnews.mu/feed/ | Tue, 13 Oct 2026 09:06:34 | L’état de santé d’Élodie Thomas s’améliore, selon son père
+  403 items=  0 https://www.newsmoris.com/feed/ |  | 
+  403 items=  0 https://newsmoris.com/feed/ |  | 
+  200 items= 10 https://inside.news/feed/ | Tue, 13 Oct 2026 09:14:21 | Maurice : Navin Ramgoolam convoque une réunion d’urgence du 
+  522 items=  0 https://www.businessmag.mu/feed/ |  | 
+  200 items= 10 https://www.wazaa.mu/feed/ | Tue, 13 Oct 2026 09:42:28 | Le ministre de la Santé confirme le succès total de l’opérat
+  ERR https://www.mbc.intnet.mu/feed/: ConnectionError
+  ERR https://www.lexpress.mu/feed: SSLError
+  404 items=  0 https://www.5plus.mu/rss.xml |  | 
+  200 items= 10 https://www.lemauricien.com/category/actualites/feed/ | Mon, 10 Aug 2026 07:00:58 | Ça va se savoir – FCC : le mood aurait-il changé au Réduit T
+== Latest article
+Feed items: 149; newest 6:
+  NEW  http://defimedia.info/node/185559 | Adrien Duval réclame « un rappel du Parlement » pour rétablir l’ordre 
+  SEEN http://defimedia.info/node/185558 | Dr Oomesh Shamloll de l’hôpital Dr A. G. Jeetoo : « Élodie Thomas a ou
+  SEEN http://defimedia.info/node/185557 | Élodie Thomas : « Lin guet nou ; lin trap lame so mama, lin serre », c
+  SEEN http://defimedia.info/node/185556 | PMO : le Cabinet convoqué en urgence à 14 h 30
+  SEEN http://defimedia.info/node/185545 | Réservoirs d’eau : les ventes multipliées par cinq en une semaine chez
+  SEEN http://defimedia.info/node/185555 | Élodie Thomas : « L'intervention a été un succès à 100 % », dit le min
+Title: Adrien Duval réclame « un rappel du Parlement » pour rétablir l’ordre dans le pays
+Article text chars: 780 | start: Publicité Adrien Duval réclame « un rappel du Parlement » pour rétablir l’ordre dans le pays Un rappel de l’Assemblée nationale : c’est ce que réclame Adrien Duval. Intervenant sur RadioPlus ce mardi 
+== Post that would be sent
+<b>Адриен Дюваль требует «созыва парламента», чтобы восстановить порядок в стране</b>
+
+13 октября депутат Партии Маврикийского социал-демократического (PMSD) Адриен Дюваль выступил в эфире RadioPlus, заявив, что страна шокирована действиями поджигателей, начавшимися с вечера предыдущего дня. Он потребовал от правительства немедленно созвать парламент, чтобы рассмотреть ситуацию, связанную с Элодие Томас, и принять меры по восстановлению спокойствия, порядка и мира в стране.
+
+🔗 <a href="https://defimedia.info/adrien-duval-reclame-un-rappel-du-parlement-pour-retablir-lordre-dans-le-pays">Defimedia</a>
