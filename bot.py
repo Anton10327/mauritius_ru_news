@@ -15,6 +15,7 @@ import re
 import time
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from urllib.parse import urljoin
 
 import feedparser
 import requests
@@ -24,12 +25,21 @@ from deep_translator import GoogleTranslator
 # --- Settings -------------------------------------------------------------
 
 # Add more RSS feeds here: ("Source name", "feed URL")
+# (name, url, kind, link pattern). kind: "rss" (default), "wp" (WordPress
+# REST API, for sites whose RSS is broken) or "html" (read links straight
+# from the site's page; the pattern says which links are articles).
 FEEDS = [
     ("Defimedia", "https://defimedia.info/rss.xml"),
+    ("L'Express", "https://lexpress.mu/", "html", r"^https://lexpress\.mu/s/[a-z0-9-]+-\d+$"),
+    ("Le Mauricien", "https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link", "wp"),
     ("Inside News", "https://inside.news/feed/"),
     ("Wazaa", "https://www.wazaa.mu/feed/"),
+    ("Top FM", "https://topfm.mu/", "html", r"^https://topfm\.mu/actualites/[a-z0-9-]{15,}$"),
     # ("ION News", "https://ionnews.mu/feed/"),  # works, but headlines only
 ]
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/126 Safari/537.36"}
+MU_TZ = "+04:00"  # Mauritius time, for sites that give dates without a zone
 
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]   # from @BotFather
 CHANNEL_ID = os.environ["TELEGRAM_CHANNEL_ID"]  # e.g. @my_mauritius_news
@@ -79,14 +89,17 @@ PROMPT = (
 
 DUP_PROMPT = (
     "Ты помогаешь вести новостной канал и убираешь повторы. Дана новая новость "
-    "и пронумерованный список новостей, уже опубликованных в канале. "
-    "Определи, сообщает ли новая новость о ТОМ ЖЕ главном событии или "
-    "заявлении, что и одна из опубликованных. Это дубль, даже если отличаются "
-    "источник, формулировки, порядок слов или мелкие подробности (например, "
-    "«операция прошла успешно» и «министр подтвердил успех семичасовой "
-    "операции» — дубль). Не дубль — если это новое развитие истории: новое "
-    "событие, новое решение, новые аресты или пострадавшие, новое заявление "
-    "другого человека, новые важные цифры. Ответь строго JSON: "
+    "и пронумерованный список заголовков, уже опубликованных в канале. "
+    "Дубль — только если новая новость сообщает ТОТ ЖЕ факт, что уже был "
+    "опубликован, и не добавляет ничего существенного: то же событие, то же "
+    "решение, то же заявление того же человека, просто в пересказе другого СМИ. "
+    "НЕ дубль, если есть хоть что-то новое: новое или изменённое решение "
+    "(например, экзамены сначала перенесли, а теперь их проведут), новое "
+    "событие в той же истории (было «арестовали», стало «предъявили "
+    "обвинение»; было «созван кабинет», стало «премьер обратится к нации»), "
+    "новые цифры, новое место, заявление другого человека. Общая тема — "
+    "не повод считать дублем. Если сомневаешься — это НЕ дубль. "
+    "Ответь строго JSON: "
     '{"duplicate_of": номер или null, "reason": "кратко"}.'
 )
 
@@ -138,8 +151,7 @@ def translate(text):
 def article_text(url):
     """Download the article page; return (main text, og:image URL or None)."""
     try:
-        r = requests.get(url, timeout=30,
-                         headers={"User-Agent": "Mozilla/5.0 news-bot"})
+        r = requests.get(url, timeout=30, headers=UA)
         r.raise_for_status()
         text = trafilatura.extract(r.text, include_comments=False,
                                    include_tables=False) or ""
@@ -443,6 +455,94 @@ def item_image(entry, extra):
     return extra[0]
 
 
+def _meta(page, key):
+    m = (re.search(rf'<meta[^>]+(?:property|name)=["\']{key}["\'][^>]+content=["\']([^"\']*)', page)
+         or re.search(rf'<meta[^>]+content=["\']([^"\']*)["\'][^>]+(?:property|name)=["\']{key}["\']', page))
+    return html.unescape(m.group(1)).strip() if m else ""
+
+
+def _parse_ts(value):
+    """Timestamp from ISO-ish dates like '2026-10-13 19:00:00' (Mauritius time)."""
+    from datetime import datetime
+    v = (value or "").strip().replace(" ", "T")
+    if not v:
+        return 0.0
+    if not re.search(r"(Z|[+-]\d\d:?\d\d)$", v):
+        v += MU_TZ
+    try:
+        return datetime.fromisoformat(v.replace("Z", "+00:00")).timestamp()
+    except Exception:
+        return 0.0
+
+
+def page_entry(url):
+    """Build a feed-like entry from an article page (title, date, picture)."""
+    try:
+        page = requests.get(url, timeout=30, headers=UA).text
+    except Exception as e:
+        print(f"Could not open {url}: {e}")
+        return None
+    title = _meta(page, "og:title")
+    if not title:
+        m = re.search(r"<title>(.*?)</title>", page, re.S)
+        title = html.unescape(m.group(1)).split("|")[0].strip() if m else ""
+    ts = _parse_ts(_meta(page, "article:published_time"))
+    return {"title": title, "link": url, "id": url, "summary": "",
+            "_image": _meta(page, "og:image") or None, "_ts": ts or time.time()}
+
+
+def collect(source, url, kind, pattern, seen_set):
+    """Unseen items of one source as (entry, uid, image, timestamp), and all uids."""
+    out, uids = [], []
+    r = requests.get(url, timeout=30, headers=UA)
+    if kind == "wp":
+        for p in r.json():
+            link = p.get("link", "")
+            uid = f"wp:{source}:{p.get('id')}"
+            uids.append(uid)
+            if uid not in seen_set:
+                e = {"title": html.unescape(re.sub(r"<[^>]+>", "", p.get("title", {}).get("rendered", ""))),
+                     "link": link, "id": uid, "summary": ""}
+                out.append((e, uid, None, _parse_ts(p.get("date"))))
+        return out, uids
+    if kind == "html":
+        links = []
+        for m in re.finditer(r'href=["\']([^"\'#?]+)', r.text):
+            u = urljoin(url, html.unescape(m.group(1))).rstrip("/")
+            if re.match(pattern, u) and u not in links:
+                links.append(u)
+        uids = links
+        new = [u for u in links if u not in seen_set]
+        # pages are opened later, only for links that will really be used
+        for i, u in enumerate(new):
+            out.append((None, u, None, -i))  # page order as a provisional date
+        return out, uids
+    extras = raw_items(r.text)
+    for e in feedparser.parse(r.text).entries:
+        uid = e.get("id") or e.get("link")
+        uids.append(uid)
+        if uid and uid not in seen_set:
+            img, ts = extras.get(uid) or extras.get(e.get("link")) or (None, 0.0)
+            if not ts and e.get("published_parsed"):
+                ts = time.mktime(e.published_parsed)
+            out.append((e, uid, img, ts))
+    return out, uids
+
+
+def newest_entry(src):
+    """Newest item of a source as (entry, link, picture) - for test modes."""
+    source, url = src[0], src[1]
+    kind = src[2] if len(src) > 2 else "rss"
+    items, _ = collect(source, url, kind, src[3] if len(src) > 3 else None, set())
+    if not items:
+        return None, None, None
+    if kind == "html":
+        e = page_entry(items[0][1])
+        return e, items[0][1], e and e["_image"]
+    e, uid, img, ts = max(items, key=lambda x: x[3])
+    return e, e.get("link", "").replace("http://", "https://", 1), img
+
+
 def main():
     seen = load_seen()
     first_run = seen is None
@@ -450,34 +550,45 @@ def main():
     seen_set = set(seen)
 
     new_items = []
-    for source, url in FEEDS:
+    for src in FEEDS:
+        source, url = src[0], src[1]
+        kind = src[2] if len(src) > 2 else "rss"
+        pattern = src[3] if len(src) > 3 else None
         try:
-            xml = requests.get(url, timeout=30,
-                               headers={"User-Agent": "Mozilla/5.0 news-bot"}).text
+            items, uids = collect(source, url, kind, pattern, seen_set)
         except Exception as ex:
-            print(f"Could not fetch {url}: {ex}")
+            print(f"Could not read {source}: {type(ex).__name__} {ex}")
             continue
-        extras = raw_items(xml)
-        entries = feedparser.parse(xml).entries
-        uids = [e.get("id") or e.get("link") for e in entries]
-        # A feed we have never seen before (just added to FEEDS): remember all
-        # its current items and post only the newest one, not the whole backlog.
-        fresh_feed = not first_run and entries and not any(u in seen_set for u in uids)
-        feed_items = []
-        for e, uid in zip(entries, uids):
-            if uid and uid not in seen_set:
-                img, ts = extras.get(uid) or extras.get(e.get("link")) or (None, 0.0)
-                if not ts and e.get("published_parsed"):
-                    ts = time.mktime(e.published_parsed)
-                feed_items.append((source, e, uid, img, ts))
-        if fresh_feed:
-            feed_items.sort(key=lambda x: x[4])
-            for item in feed_items[:-1]:
-                seen.append(item[2])
-                seen_set.add(item[2])
-            feed_items = feed_items[-1:]
-            print(f"New feed {source}: skipped backlog, posting newest only")
-        new_items.extend(feed_items)
+        # A source we have never seen before (just added to FEEDS): remember
+        # all its current items and post only the newest one, not the backlog.
+        fresh = not first_run and uids and not any(u in seen_set for u in uids)
+        if fresh:
+            if kind == "html":
+                items = items[:1]  # top of the site's page
+            else:
+                items.sort(key=lambda x: x[3])
+                items = items[-1:]
+            for u in uids:
+                if u not in seen_set:
+                    seen.append(u)
+                    seen_set.add(u)
+            print(f"New source {source}: skipped backlog, posting newest only")
+        if kind == "html":
+            items = items[:MAX_POSTS_PER_RUN]
+            opened = []
+            for e, uid, img, ts in items:
+                e = page_entry(uid)
+                if e and e["title"]:
+                    opened.append((e, uid, e["_image"], e["_ts"]))
+                elif uid not in seen_set:
+                    seen.append(uid)
+                    seen_set.add(uid)
+            items = opened
+        for e, uid, img, ts in items:
+            new_items.append((source, e, uid, img, ts))
+        if fresh:  # already marked seen above; let the newest one through
+            for _, _, uid, _, _ in new_items[-len(items):] if items else []:
+                seen_set.discard(uid)
 
     # oldest first, so the channel reads in order
     new_items.sort(key=lambda x: x[4])
@@ -543,38 +654,35 @@ def self_test():
         seen = set(json.loads(SEEN_FILE.read_text(encoding="utf-8")))
     except Exception:
         seen = set()
-    for source, url in FEEDS + TEST_FEEDS:
-        print(f"== {source}: {url}")
-        xml = requests.get(url, timeout=30,
-                           headers={"User-Agent": "Mozilla/5.0 news-bot"}).text
-        entries = feedparser.parse(xml).entries
-        print(f"Feed items: {len(entries)}; newest 4:")
-        for x in entries[:4]:
-            uid = x.get("id") or x.get("link")
-            print(" ", "SEEN" if uid in seen else "NEW ", uid, "|", x.get("title", "")[:70])
-        if not entries:
+    for src in FEEDS + TEST_FEEDS:
+        source = src[0]
+        print(f"== {source}: {src[1]}")
+        try:
+            e, link, img = newest_entry(src)
+        except Exception as ex:
+            print("FAIL:", type(ex).__name__, ex)
             continue
-        e = entries[0]
-        link = e.get("link", "").replace("http://", "https://", 1)
-        img = raw_items(xml).get(e.get("id") or link, (None, 0))[0]
+        if not e:
+            print("no items")
+            continue
+        body, page_image = article_text(link)
+        print("Newest:", e.get("title"), "|", link)
+        print(f"Article text: {len(body)} chars | photo: {img or page_image}")
         text, _, page_image, dup = build_post(source, e, link,
                                               [x["title"] for x in load_recent()])
         print("Duplicate of recent post #:", dup)
         print(f"LLM usage so far: {_llm_state['calls']} requests, {_llm_state['tokens']} tokens")
-        print("Photo:", item_image(e, (img, None)) or page_image)
         print("-- Post that would be sent:")
         print(text)
 
+
 def compare_models():
     """Run the newest article of each feed through every model, print results."""
-    for source, url in FEEDS:
-        xml = requests.get(url, timeout=30,
-                           headers={"User-Agent": "Mozilla/5.0 news-bot"}).text
-        entries = feedparser.parse(xml).entries
-        if not entries:
+    for src in FEEDS:
+        source = src[0]
+        e, link, _ = newest_entry(src)
+        if not e:
             continue
-        e = entries[0]
-        link = e.get("link", "").replace("http://", "https://", 1)
         body, _ = article_text(link)
         if len(body) < MIN_TEXT_FOR_SUMMARY and e.get("content"):
             body = _strip_html(e["content"][0].get("value", ""))

@@ -2,7 +2,7 @@ name: Mauritius news
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 minutes (repo is public, so Actions minutes are free)
+    - cron: "*/10 * * * *"   # GitHub actually starts it every ~25 min; each run checks 5 times
   workflow_dispatch:          # "Run workflow" button for a manual run
     inputs:
       test:
@@ -22,7 +22,8 @@ permissions:
   contents: write             # to save seen.json back to the repo
 
 concurrency:
-  group: news
+  # test/compare/probe runs don't touch the bot's state, so they don't wait
+  group: ${{ (inputs.test || inputs.compare || inputs.probe) && 'news-test' || 'news' }}
   cancel-in-progress: false
 
 jobs:
@@ -41,21 +42,29 @@ jobs:
         shell: bash
         run: |
           set -o pipefail
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
           if [ "${{ inputs.probe }}" = "true" ]; then python probe.py 2>&1 | tee last_run.log; exit 0; fi
-          python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee last_run.log
+          if [ "${{ inputs.test }}" = "true" ] || [ "${{ inputs.compare }}" = "true" ]; then
+            python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee last_run.log
+            exit 0
+          fi
+          # GitHub starts scheduled runs only every ~25 minutes, so each run
+          # checks the news several times, 4 minutes apart.
+          LOOPS=1; [ "${{ github.event_name }}" = "schedule" ] && LOOPS=5
+          : > last_run.log
+          for i in $(seq 1 $LOOPS); do
+            echo "### check $i/$LOOPS at $(TZ=Indian/Mauritius date +%H:%M)" | tee -a last_run.log
+            python bot.py 2>&1 | tee -a last_run.log || true
+            git add last_run.log $(ls seen.json state.json recent.json 2>/dev/null)
+            git diff --cached --quiet || git commit -q -m "update seen"
+            git pull --rebase -q || true
+            git push -q || true
+            [ $i -lt $LOOPS ] && sleep 240
+          done
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           TELEGRAM_ADMIN_ID: ${{ secrets.TELEGRAM_ADMIN_ID }}
           PYTHONUNBUFFERED: "1"
-
-      - name: Save seen.json, state.json, recent.json and last_run.log
-        if: always()
-        run: |
-          git config user.name "news-bot"
-          git config user.email "news-bot@users.noreply.github.com"
-          git add last_run.log $(ls seen.json state.json recent.json 2>/dev/null)
-          git diff --cached --quiet || git commit -m "update seen"
-          git pull --rebase -q || true
-          git push
