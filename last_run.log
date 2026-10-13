@@ -1,7 +1,2 @@
-### check 1/5 at 23:43
-Posted (Defimedia): Winners' Bambous: подозреваемый задержан после краж и мародерства
-LLM usage this run: 2 requests, 2114 tokens
-### check 2/5 at 23:47
-### check 3/5 at 23:51
-### check 4/5 at 23:55
-### check 5/5 at 00:00
+### check 1/1 at 00:32
+Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
