@@ -26,7 +26,9 @@ from deep_translator import GoogleTranslator
 # Add more RSS feeds here: ("Source name", "feed URL")
 FEEDS = [
     ("Defimedia", "https://defimedia.info/rss.xml"),
-    ("ION News", "https://ionnews.mu/feed/"),
+    ("Inside News", "https://inside.news/feed/"),
+    # ("ION News", "https://ionnews.mu/feed/"),  # works, but headlines only
+    # ("Wazaa", "https://www.wazaa.mu/feed/"),   # works, full text and photos
 ]
 
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]   # from @BotFather
@@ -67,10 +69,7 @@ PROMPT = (
 )
 
 # Extra feeds checked only in test mode (to try a source before adding it)
-TEST_FEEDS = [
-    ("Inside News", "https://inside.news/feed/"),
-    ("Wazaa", "https://www.wazaa.mu/feed/"),
-]
+TEST_FEEDS = []
 
 # --------------------------------------------------------------------------
 
