@@ -353,6 +353,22 @@ def send(text, photo=None):
         )
         if r.ok:
             return
+        # Telegram couldn't fetch the picture itself: download and upload it
+        try:
+            img = requests.get(photo, timeout=30,
+                               headers={"User-Agent": "Mozilla/5.0 news-bot"})
+            if img.ok and img.headers.get("content-type", "").startswith("image"):
+                r = requests.post(
+                    f"{base}/sendPhoto",
+                    data={"chat_id": CHANNEL_ID, "caption": text,
+                          "parse_mode": "HTML"},
+                    files={"photo": ("photo.jpg", img.content)},
+                    timeout=60,
+                )
+                if r.ok:
+                    return
+        except Exception as e:
+            print(f"Photo upload failed: {e}")
         print(f"Photo failed ({r.text[:200]}), sending text only")
     r = requests.post(
         f"{base}/sendMessage",
