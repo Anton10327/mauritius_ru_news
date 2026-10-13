@@ -44,10 +44,16 @@ jobs:
           set -o pipefail
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          if [ "${{ inputs.probe }}" = "true" ]; then python probe.py 2>&1 | tee last_run.log; exit 0; fi
+          save_log() {
+            git add last_run.log $(ls seen.json state.json recent.json 2>/dev/null)
+            git diff --cached --quiet || git commit -q -m "update seen"
+            for try in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
+          }
+          if [ "${{ inputs.probe }}" = "true" ]; then python probe.py 2>&1 | tee last_run.log; save_log; exit 0; fi
           if [ "${{ inputs.test }}" = "true" ] || [ "${{ inputs.compare }}" = "true" ]; then
-            python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee last_run.log
-            exit 0
+            python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee last_run.log || true
+            git checkout -- seen.json recent.json state.json 2>/dev/null || true
+            save_log; exit 0
           fi
           # GitHub starts scheduled runs only every ~25 minutes, so each run
           # checks the news several times, 4 minutes apart.
@@ -56,10 +62,7 @@ jobs:
           for i in $(seq 1 $LOOPS); do
             echo "### check $i/$LOOPS at $(TZ=Indian/Mauritius date +%H:%M)" | tee -a last_run.log
             python bot.py 2>&1 | tee -a last_run.log || true
-            git add last_run.log $(ls seen.json state.json recent.json 2>/dev/null)
-            git diff --cached --quiet || git commit -q -m "update seen"
-            git pull --rebase -q || true
-            git push -q || true
+            save_log
             [ $i -lt $LOOPS ] && sleep 240
           done
         env:
