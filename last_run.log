@@ -1,35 +1,4 @@
-Python 3.12.15; LLM_API_KEY set: True
-== Translation (Google, then MyMemory)
-Google Translate failed: TooManyRequests
-Автобусное сообщение прервано во вторник утром
-== LLM: https://api.groq.com/openai/v1/chat/completions
-openai/gpt-oss-120b 200 {"id":"chatcmpl-6a39d29b-c2d1-4f4b-a45d-643be955e878","object":"chat.completion","created":1791884684,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we need to respond with \"ok\". No extra content."
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-6bfcf0b9-628b-4caf-a716-e796b6251548","object":"chat.completion","created":1791884685,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.083384643,"prompt_tokens":16,"prompt_t
-openai/gpt-oss-20b 200 {"id":"chatcmpl-3c879529-006d-46b6-9808-7bc7f72b790c","object":"chat.completion","created":1791884685,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we just reply \"ok\"."},"logprobs":null,"finish_rea
-== Defimedia: https://defimedia.info/rss.xml
-Feed items: 150; newest 4:
-  SEEN http://defimedia.info/node/185558 | Dr Oomesh Shamloll de l’hôpital Dr A. G. Jeetoo : « Élodie Thomas a ou
-  SEEN http://defimedia.info/node/185557 | Élodie Thomas : « Lin guet nou ; lin trap lame so mama, lin serre », c
-  SEEN http://defimedia.info/node/185556 | PMO : le Cabinet convoqué en urgence à 14 h 30
-  SEEN http://defimedia.info/node/185545 | Réservoirs d’eau : les ventes multipliées par cinq en une semaine chez
-Photo: https://files.defimedia.info/sites/default/files/2026-10/131026doctor.png
--- Post that would be sent:
-<b>Доктор Oomesh Shamloll из больницы Dr A. G. Jeetoo: «Элоди Томас открыла глаза»</b>
-
-Во время пресс‑конференции после встречи министра здравоохранения с врачами Acting Regional Health Director Dr Oomesh Shamloll сообщил, что операция над пациенткой Élodie Thomas в больнице Dr A. G. Jeetoo прошла успешно: её жизненные показатели в норме, медикаменты прекращены, она ответила и открыла глаза. Индийская команда хирургов под руководством главного нейрохирурга Dr Kapil Khandelwal также выразила удовлетворение, отметив, что все показатели «зеленые», пациентка уже двигает четырьмя конечностями и может быть снята с искусственной вентиляции через один‑два дня, если состояние продолжит улучшаться. Дальнейшее лечение будет продолжено до её выписки домой в полном здоровье.
-
-🔗 <a href="https://defimedia.info/dr-oomesh-shamloll-de-lhopital-dr-g-jeetoo-elodie-thomas-ouvert-ses-yeux">Defimedia</a>
-== ION News: https://ionnews.mu/feed/
-Feed items: 12; newest 4:
-  NEW  https://ionnews.mu/?p=322901 | L’état de santé d’Élodie Thomas s’améliore, selon son père
-  NEW  https://ionnews.mu/?p=322895 | [Tensions dans le pays] Trois policiers blessés, dont un admis à l’hôp
-  NEW  https://ionnews.mu/?p=322896 | Sécurité : Le ministère du Tourisme rassure après les récents incident
-  NEW  https://ionnews.mu/?p=322892 | Aéroport SSRN : deux arrestations suite à une saisie de plus de 270 gr
+New feed ION News: skipped backlog, posting newest only
 Could not read article https://ionnews.mu/letat-de-sante-delodie-thomas-sameliore-selon-son-pere/: 403 Client Error: Forbidden for url: https://ionnews.mu/letat-de-sante-delodie-thomas-sameliore-selon-son-pere/
-Photo: None
--- Post that would be sent:
-<b>Состояние здоровья Элодии Томас улучшается, согласно её отцу</b>
-
-По словам отца, состояние здоровья Элодии Томас постепенно улучшается. Он сообщил об этом в интервью, отмечая положительные изменения в её самочувствии. Дальнейшие детали о её лечении и прогнозе не раскрыты.
-
-🔗 <a href="https://ionnews.mu/letat-de-sante-delodie-thomas-sameliore-selon-son-pere/">ION News</a>
+Posted: Состояние здоровья Элодии Томас улучшается, согласно её отцу
+Posted: Адриен Дюваль требует «созыва парламента», чтобы восстановить порядок в стране
