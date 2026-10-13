@@ -46,6 +46,7 @@ jobs:
         shell: bash
         run: |
           set -o pipefail
+          set +e  # errors are handled explicitly below; a missing file must not stop the bot
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
           # Save the bot's state to the repo. Only this job writes seen.json,
@@ -69,7 +70,6 @@ jobs:
             echo "WARNING: could not save state to the repo" | tee -a last_run.log
             return 1
           }
-          STATE="last_run.log $(ls seen.json state.json recent.json 2>/dev/null | tr '\n' ' ')"
           # Test modes write their own log and never touch the bot's state
           if [ "${{ inputs.probe }}" = "true" ]; then python probe.py 2>&1 | tee test_run.log; save_state test_run.log; exit 0; fi
           if [ "${{ inputs.dupeval }}" = "true" ]; then python bot.py --dupeval 2>&1 | tee test_run.log; save_state test_run.log; exit 0; fi
