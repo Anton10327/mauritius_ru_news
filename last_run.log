@@ -1,17 +1,3 @@
-Python 3.12.15; LLM_API_KEY set: True
-== Translation (Google, then MyMemory)
-Google Translate failed: TooManyRequests
-Автобусное сообщение прервано во вторник утром
-== LLM: https://api.groq.com/openai/v1/chat/completions
-openai/gpt-oss-20b 200 {"id":"chatcmpl-5d78c630-7c4d-4175-af16-5349634aede0","object":"chat.completion","created":1791880459,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we just reply \"ok\"."},"logprobs":null,"finish_rea
-openai/gpt-oss-120b 200 {"id":"chatcmpl-32e5068b-43f9-446f-a4cc-8e170148479f","object":"chat.completion","created":1791880460,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So they want the assistant to respond with \"ok\". Th
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-9db7ada4-9e6b-4940-a75b-44865f4075dd","object":"chat.completion","created":1791880460,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.022776607,"prompt_tokens":16,"prompt_t
-== Latest article
-Title: Élodie Thomas : « L'intervention a été un succès à 100 % », dit le ministre Anil Bachoo
-Article text chars: 1126 | start: Élodie Thomas : « L'intervention a été un succès à 100 % », dit le ministre Anil Bachoo Le ministre de la Santé, Anil Bachoo, s’est rendu ce mardi matin 13 octobre à l’hôpital Dr A. G. Jeetoo pour s’e
-== Post that would be sent
-<b>Элодий Томас: «Операция была успешной на 100 %», говорит министр Анил Баху</b>
-
-Министр здравоохранения Анил Баху посетил больницу Dr A. G. Jeetoo 13 октября, чтобы узнать о состоянии Элодий Томас, 27 лет, которая перенесла сложную операцию, состоящую из пяти этапов и длительностью семь часов. Операция прошла успешно, как заявил министр. Томас была госпитализирована 9 октября в отделение интенсивной терапии Victoria в Candos, затем переведена в Dr A. G. Jeetoo, где её лечили специалисты из Великой Полуострова и Маврикия. Жертва получила тяжёлую травму от пули в инциденте на Camp‑Levieux, где сержант полиции обвиняется в выстреле в фургоне.
-
-🔗 <a href="https://defimedia.info/elodie-thomas-lintervention-ete-un-succes-100-dit-le-ministre-anil-bachoo">Defimedia</a>
+Posted: MBA: «Банки продолжают свою деятельность»
+Posted: Мусульманское кладбище Riche‑Terre: захоронения разрешены до 17 ч
+Posted: Élodie Thomas: «Операция прошла со 100 % успехом», — сказал министр Anil Bachoo
