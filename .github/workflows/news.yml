@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "*/30 * * * *"   # every 30 minutes
   workflow_dispatch:          # "Run workflow" button for a manual run
+    inputs:
+      test:
+        description: "Test only: check translation and summary, post nothing"
+        type: boolean
+        default: false
 
 permissions:
   contents: write             # to save seen.json back to the repo
@@ -25,17 +30,24 @@ jobs:
 
       - run: pip install feedparser requests deep-translator trafilatura
 
-      - run: python bot.py
+      - name: Run bot
+        shell: bash
+        run: |
+          set -o pipefail
+          python bot.py ${{ inputs.test && '--test' || '' }} 2>&1 | tee last_run.log
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TELEGRAM_ADMIN_ID: ${{ secrets.TELEGRAM_ADMIN_ID }}
+          PYTHONUNBUFFERED: "1"
 
-      - name: Save seen.json and state.json
+      - name: Save seen.json, state.json and last_run.log
+        if: always()
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add seen.json $(ls state.json 2>/dev/null)
+          git add last_run.log $(ls seen.json state.json 2>/dev/null)
           git diff --cached --quiet || git commit -m "update seen"
+          git pull --rebase -q || true
           git push

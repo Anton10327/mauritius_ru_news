@@ -327,5 +327,40 @@ def _strip_html(s):
     return html.unescape(re.sub(r"<[^>]+>", " ", s or "")).strip()
 
 
+def self_test():
+    """Check translation and summary on the latest article without posting."""
+    import sys
+    print(f"Python {sys.version.split()[0]}; GITHUB_TOKEN set: {bool(GH_TOKEN)}")
+    print("== Google Translate")
+    try:
+        print("OK:", translator.translate("Bonjour, le service de bus est perturbé"))
+    except Exception as e:
+        print("FAIL:", type(e).__name__, e)
+    print("== GitHub Models")
+    for model in LLM_MODELS:
+        try:
+            r = requests.post(
+                LLM_URL,
+                headers={"Authorization": f"Bearer {GH_TOKEN}",
+                         "Content-Type": "application/json"},
+                json={"model": model, "max_tokens": 20,
+                      "messages": [{"role": "user", "content": "Say: ok"}]},
+                timeout=60)
+            print(model, r.status_code, r.text[:400])
+        except Exception as e:
+            print(model, "FAIL:", type(e).__name__, e)
+    print("== Latest article")
+    xml = requests.get(FEEDS[0][1], timeout=30,
+                       headers={"User-Agent": "Mozilla/5.0 news-bot"}).text
+    e = feedparser.parse(xml).entries[0]
+    link = e.get("link", "").replace("http://", "https://", 1)
+    body = article_text(link)
+    print("Title:", e.get("title"))
+    print("Article text chars:", len(body), "| start:", body[:200].replace("\n", " "))
+    print("== Post that would be sent")
+    print(build_post(FEEDS[0][0], e, link)[0])
+
+
 if __name__ == "__main__":
-    main()
+    import sys
+    self_test() if "--test" in sys.argv else main()
