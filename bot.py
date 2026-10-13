@@ -65,6 +65,8 @@ LLM_URL = os.environ.get("LLM_URL", "").strip() or \
 LLM_MODELS = [m.strip() for m in (os.environ.get("LLM_MODELS", "").strip() or
               "qwen/qwen3.8-27b,openai/gpt-oss-120b,openai/gpt-oss-20b"
               ).split(",") if m.strip()]
+# Duplicate checks are a reasoning task: a different model order works better
+DUP_MODELS = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"]
 ARTICLE_CHARS = 4000     # article text sent to the model (keeps within free limits)
 MIN_TEXT_FOR_SUMMARY = 300  # less text than this -> no summary, title only
 
@@ -180,12 +182,15 @@ def _llm_call(model, messages, max_tokens=700):
 
 
 def _llm_post(model, messages, max_tokens):
+    payload = {"model": model, "messages": messages,
+               "temperature": 0.2, "max_tokens": max_tokens}
+    if "gpt-oss" in model:
+        payload["reasoning_effort"] = "low"  # keep hidden reasoning short
     return requests.post(
         LLM_URL,
         headers={"Authorization": f"Bearer {LLM_KEY}",
                  "Content-Type": "application/json"},
-        json={"model": model, "messages": messages,
-              "temperature": 0.2, "max_tokens": max_tokens},
+        json=payload,
         timeout=90,
     )
 
@@ -332,14 +337,14 @@ def find_duplicate(orig_title, lead, recent):
                          for i, x in enumerate(recent, 1))
     msg = (f"Новая статья:\n{orig_title}\n{lead[:700]}\n\n"
            f"Уже опубликовано:\n{listing}")
-    free = [m for m in LLM_MODELS if m not in _llm_state["exhausted"]]
+    free = [m for m in DUP_MODELS if m not in _llm_state["exhausted"]]
     if not free:
         return None
-    model = _llm_state["model"] if _llm_state["model"] in free else free[0]
+    model = free[0]
     messages = [{"role": "system", "content": DUP_PROMPT},
                 {"role": "user", "content": msg}]
     try:
-        r = _llm_call(model, messages, 300)
+        r = _llm_call(model, messages, 600)
         if r.status_code == 429:
             wait = float(r.headers.get("retry-after", "0") or 0)
             if "per minute" in r.text and not wait:
@@ -349,7 +354,7 @@ def find_duplicate(orig_title, lead, recent):
                 _llm_state["exhausted"].add(model)
                 return None
             time.sleep(wait + 1)
-            r = _llm_call(model, messages, 300)
+            r = _llm_call(model, messages, 600)
         if not r.ok:
             print(f"Duplicate check failed {r.status_code}: {r.text[:150]}")
             return None
