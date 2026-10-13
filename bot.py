@@ -73,12 +73,20 @@ PROMPT = (
     "информации, пиши короче, но ничего не додумывай. "
     "Названия мест (Port-Louis, Sainte-Croix, Camp-Levieux) оставляй латиницей. "
     "Имена людей пиши по-русски в общепринятой транскрипции (Navin Ramgoolam — "
-    "Навин Рамгулам). Рупии — «рупий». "
-    "Если дан список уже опубликованных новостей, добавь в JSON поле "
-    '"duplicate_of": номер новости из списка, если статья сообщает ТО ЖЕ САМОЕ '
-    "(то же событие или заявление, без существенных новых фактов), иначе null. "
-    "Новое развитие той же истории (новые подробности, решения, цифры, "
-    "заявления других людей) — это НЕ дубль."
+    "Навин Рамгулам). Рупии — «рупий»."
+)
+
+DUP_PROMPT = (
+    "Ты помогаешь вести новостной канал и убираешь повторы. Дана новая новость "
+    "и пронумерованный список новостей, уже опубликованных в канале. "
+    "Определи, сообщает ли новая новость о ТОМ ЖЕ главном событии или "
+    "заявлении, что и одна из опубликованных. Это дубль, даже если отличаются "
+    "источник, формулировки, порядок слов или мелкие подробности (например, "
+    "«операция прошла успешно» и «министр подтвердил успех семичасовой "
+    "операции» — дубль). Не дубль — если это новое развитие истории: новое "
+    "событие, новое решение, новые аресты или пострадавшие, новое заявление "
+    "другого человека, новые важные цифры. Ответь строго JSON: "
+    '{"duplicate_of": номер или null, "reason": "кратко"}.'
 )
 
 # Extra feeds checked only in test mode (to try a source before adding it)
@@ -160,15 +168,12 @@ def _parse_json(text):
     return json.loads(m.group(0)) if m else None
 
 
-def summarize(title, body, recent_titles=()):
+def summarize(title, body):
     """Ask the LLM for a Russian title + summary. Returns (title, summary)
     or None if the model is unavailable (no key, daily limit, error)."""
     if _llm_state["disabled"] or not LLM_KEY:
         return None
     content = f"Заголовок: {title}\n\nТекст статьи:\n{body[:ARTICLE_CHARS] or '(текст недоступен)'}"
-    if recent_titles:
-        listing = "\n".join(f"{i}. {t}" for i, t in enumerate(recent_titles, 1))
-        content += f"\n\nУже опубликованные новости:\n{listing}"
     messages = [{"role": "system", "content": PROMPT},
                 {"role": "user", "content": content}]
     models = [_llm_state["model"]] if _llm_state["model"] else LLM_MODELS
@@ -217,14 +222,7 @@ def summarize(title, body, recent_titles=()):
         if not ru_title:
             continue
         _llm_state["model"] = model
-        dup = data.get("duplicate_of")
-        try:
-            dup = int(dup) if dup not in (None, "", "null", False) else None
-        except (TypeError, ValueError):
-            dup = None
-        if dup is not None and not (1 <= dup <= len(recent_titles)):
-            dup = None
-        return ru_title, ru_summary, dup
+        return ru_title, ru_summary
     _llm_state["disabled"] = True
     alert("models",
           "⚠️ Ни одна модель из LLM_MODELS не ответила — похоже, Groq их "
@@ -261,6 +259,35 @@ def alert(kind, text):
     STATE_FILE.write_text(json.dumps(state), encoding="utf-8")
 
 
+def find_duplicate(title, summary, recent_titles):
+    """Number (1-based) of the recent post this news repeats, or None."""
+    if not recent_titles or not LLM_KEY or _llm_state["disabled"]:
+        return None
+    listing = "\n".join(f"{i}. {t}" for i, t in enumerate(recent_titles, 1))
+    msg = (f"Новая новость:\n{title}\n{summary}\n\n"
+           f"Уже опубликованы:\n{listing}")
+    model = _llm_state["model"] or LLM_MODELS[0]
+    try:
+        r = _llm_call(model, [{"role": "system", "content": DUP_PROMPT},
+                              {"role": "user", "content": msg}], 800)
+        if r.status_code == 429:
+            time.sleep(min(float(r.headers.get("retry-after", "5") or 5), 60) + 1)
+            r = _llm_call(model, [{"role": "system", "content": DUP_PROMPT},
+                                  {"role": "user", "content": msg}], 800)
+        if not r.ok:
+            print(f"Duplicate check failed {r.status_code}: {r.text[:150]}")
+            return None
+        data = _parse_json(r.json()["choices"][0]["message"]["content"]) or {}
+        dup = data.get("duplicate_of")
+        dup = int(dup) if dup not in (None, "", "null", False) else None
+        if dup is not None and 1 <= dup <= len(recent_titles):
+            print(f"  dup reason: {data.get('reason', '')}")
+            return dup
+    except Exception as e:
+        print(f"Duplicate check failed: {e}")
+    return None
+
+
 def load_recent():
     """Headlines posted in the last RECENT_HOURS, oldest first."""
     try:
@@ -293,13 +320,13 @@ def build_post(source, entry, link, recent_titles=()):
         m = re.search(r'<img[^>]+src=["\']([^"\']+)', feed_html)
         page_image = html.unescape(m.group(1)) if m else None
     # Without real article text a "summary" would be invented: title only then
-    result = (summarize(orig_title, body, recent_titles)
-              if len(body) >= MIN_TEXT_FOR_SUMMARY else None)
+    result = summarize(orig_title, body) if len(body) >= MIN_TEXT_FOR_SUMMARY else None
     if result is None and body and len(body) < MIN_TEXT_FOR_SUMMARY:
         print(f"Too little text ({len(body)} chars), title only: {link}")
     dup = None
     if result:
-        title, summary, dup = result
+        title, summary = result
+        dup = find_duplicate(title, summary, recent_titles)
     else:
         title = translate(orig_title)
         summary = translate(feed_text[:450]) if feed_text and len(feed_text) > 40 else ""
