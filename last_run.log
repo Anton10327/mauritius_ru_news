@@ -1,59 +1,91 @@
-Python 3.12.15; LLM_API_KEY set: True
-== Translation (Google, then MyMemory)
-Google Translate failed: TooManyRequests
-Автобусное сообщение прервано во вторник утром
-== LLM: https://api.groq.com/openai/v1/chat/completions
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-6752f19b-1f7b-4385-a732-58f067508d0e","object":"chat.completion","created":1791918683,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.019327292,"prompt_tokens":16,"prompt_t
-openai/gpt-oss-120b 200 {"id":"chatcmpl-f7ff8549-d28d-4dd9-8ca3-e7b1ad6ec607","object":"chat.completion","created":1791918684,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
-openai/gpt-oss-20b 200 {"id":"chatcmpl-47532768-9bb1-4e7e-afe9-133f3cef23c9","object":"chat.completion","created":1791918684,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So just reply \"ok\"."},"logprobs":null,"finish_reason":"s
-== Defimedia: https://defimedia.info/rss.xml
-Newest: Cascavelle Mall : quatre suspects arrêtés après le pillage de plusieurs magasins, dont deux mineurs | https://defimedia.info/cascavelle-mall-quatre-suspects-arretes-apres-le-pillage-de-plusieurs-magasins-dont-deux-mineurs
-Article text: 1083 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/pillage%20thumb%20.jpg
+Already published:
+  1. Maurice : Navin Ramgoolam convoque une réunion d’urgence du Cabinet
+  2. Le ministre de la Santé confirme le succès total de l’opération de sept heures sur Élodie Thomas
+  3. El Niño : les Mascareignes gardent un risque cyclonique proche de la normale
+  4. Élodie Thomas : des signes encourageants après une opération réussie
+  5. Maurice–Inde : l’INS Nirdeshak va cartographier 21 300 milles marins entre Maurice et Rodrigues
+  6. Affaire Élodie Thomas : deux nouvelles accusations provisoires contre le sergent Taukoor
+  7. Examens reportés : plus de 33 000 candidats concernés, la MES en discussions avec Cambridge
+  8. 4 policiers suspendus sous les feux des projecteurs alors que 2 nouvelles charges sont déposées
+  9. La caricature de ce mardi 13 octobre
+  10. Maurice : Pas de classes le mercredi 14 octobre, sauf pour les examens du SC et du HSC, maintenus co
+  11. [LIVE] le Premier ministre Navin Ramgoolam annonce un couvre-feu de 20h30 à 6 h demain matin
+  12. Couvre-feu à Maurice : de 20 h 30 ce mardi à 6 h mercredi dans 15 zones
+  13. Examens SC et HSC : les autobus reprendront la route dès 6h mercredi, assure le ministre du Transpor
+  14. Tensions à travers l’île : Pas de cours en présentiel dans les établissements d’enseignement supérie
+  15. Le pain disponible à partir de 6 h demain
+  16. Tensions dans certaines régions : Un appel à la paix et à une justice transparent
+  17. Investissements en 2026 atteignent 102 milliards de roupies alors que les entrepreneurs exigent des 
+  18. Examens SC et HSC : une considération spéciale pour les candidats en cas de retard ce mercredi
+  19. Tensions dans le pays : Arnaud Lagesse appelle au calme et à l'unité nationale
+  20. Couvre-feu décrété : Navin Ramgoolam promet des sanctions sévères
+  21. Malgré le couvre-feu : la CWA mobilisée pour assurer l’approvisionnement en eau
+  22. Examens du SC et du HSC : les retards exceptionnellement acceptés ce mercredi
+  23. Non-respect du couvre-feu : jusqu’à cinq ans de prison et Rs 50 000 d’amende
+  24. Couvre-feu : Business Mauritius précise les exemptions pour les entreprises
+  25. Couvre-feu : l’aéroport SSR reste pleinement opérationnel, les passagers invités à arriver trois heu
+
+## Wazaa: Cambriolage à Rivière-Noire : deux intrus armés et masqués dérobent des milliers d’objets de valeur
+   openai/gpt-oss-120b    -> new
+   qwen/qwen3.8-27b       -> new
+
+## Defimedia: Couvre-feu, examens maintenus… Les principales informations à retenir ce mardi 13 octobre
   dup: nothing new ()
-Duplicate of recent post #: 25
-LLM usage so far: 4 requests, 1536 tokens
--- Post that would be sent:
+   openai/gpt-oss-120b    -> DUP of #10: Maurice : Pas de classes le mercredi 14 octobre, sauf pour les examens
+   qwen/qwen3.8-27b       -> new
 
-== L'Express: https://lexpress.mu/
-Newest: Couvre-feu à Maurice : les tensions persistent, plusieurs localités touchées | https://lexpress.mu/s/les-tensions-persistent-plusieurs-localites-touchees-563580
-Article text: 1981 chars | photo: https://lexpress.mu/storage/articles/DXkeUXOJPHYxeNtDsZ5uQ5CBO39WrPcnQqISPo1D.jpg
-Duplicate of recent post #: None
-LLM usage so far: 6 requests, 3983 tokens
--- Post that would be sent:
-<b>Комендантский час на Маврикии: напряженность сохраняется, затронуты несколько населенных пунктов</b>
+## Defimedia: Bambous : route obstruée, la loi prévoit jusqu’à cinq ans de prison pendant le couvre-feu
+   openai/gpt-oss-120b    -> new
+   qwen/qwen3.8-27b       -> new
 
-Вечером 13 октября в нескольких районах Маврикия, включая Bambous, Goodlands и Mahébourg, произошли беспорядки: маскированные лица блокировали дороги, поджигали шины и бросали предметы. Комендантский час, вступивший в силу в 20:30, ограничил передвижения жителей. Власти пытаются восстановить порядок и безопасность, однако точные обстоятельства инцидентов и итоговый ущерб пока устанавливаются.
+## L'Express: Saba Sadool : «Briser les tabous autour de la santé mentale et libérer la parole autour de la souffrance psych
+   openai/gpt-oss-120b    -> new
+   qwen/qwen3.8-27b       -> new
 
-🔗 <a href="https://lexpress.mu/s/les-tensions-persistent-plusieurs-localites-touchees-563580">L&#x27;Express</a>
-== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
-FAIL: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-== Inside News: https://inside.news/feed/
-Newest: Affaire Élodie Thomas : deux nouvelles accusations provisoires contre le sergent Taukoor | https://www.inside.news/elodie-thomas-deux-accusations-sergent-taukoor/
-Article text: 1834 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/d6500fce-f6a9-4fb3-923c-aff5b6f8c46d_cleaned-1024x578.png
-Duplicate of recent post #: None
-LLM usage so far: 8 requests, 6319 tokens
--- Post that would be sent:
-<b>Дело Элоди Томас: против сержанта Таукора выдвинуты два новых предварительных обвинения</b>
+## Defimedia: Arnaud Lagesse appelle au calme et à l’unité nationale
+  same headline as #19: Tensions dans le pays : Arnaud Lagesse appelle au calme et à l'unité nationale
+   openai/gpt-oss-120b    -> DUP of #19: Tensions dans le pays : Arnaud Lagesse appelle au calme et à l'unité n
+  same headline as #19: Tensions dans le pays : Arnaud Lagesse appelle au calme et à l'unité nationale
+   qwen/qwen3.8-27b       -> DUP of #19: Tensions dans le pays : Arnaud Lagesse appelle au calme et à l'unité n
 
-В рамках расследования инцидента в Camp-Levieux, где 9 октября Элоди Томас получила тяжелые ранения, против сержанта Гаутам Сингх Таукора 12 октября были выдвинуты два новых предварительных обвинения: использование огнестрельного оружия для запугивания и причинение телесных повреждений по неосторожности. Полицейский находится под стражей, его следующее судебное заседание назначено на 19 октября. Параллельно Национальная комиссия по правам человека потребовала проведения независимого судебного расследования обстоятельств выстрела.
+## L'Express: Couvre-feu à Maurice : les tensions persistent, plusieurs localités touchées
+   openai/gpt-oss-120b    -> new
+   qwen/qwen3.8-27b       -> new
 
-🔗 <a href="https://www.inside.news/elodie-thomas-deux-accusations-sergent-taukoor/">Inside News</a>
-== Wazaa: https://www.wazaa.mu/feed/
-Newest: Cambriolage à Rivière-Noire : deux intrus armés et masqués dérobent des milliers d’objets de valeur | https://www.wazaa.mu/cambriolage-a-riviere-noire-deux-intrus-armes-et-masques-derobent-des-milliers-dobjets-de-valeur/
-Article text: 1183 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/08/1786596139.jpeg
-Duplicate of recent post #: None
-LLM usage so far: 10 requests, 8656 tokens
--- Post that would be sent:
-<b>Ограбление в Ривьер-Нуар: двое вооруженных и замаскированных злоумышленников похитили тысячи ценных предметов</b>
+## Defimedia: Cascavelle Mall : quatre suspects arrêtés après le pillage de plusieurs magasins, dont deux mineurs
+   openai/gpt-oss-120b    -> new
+   qwen/qwen3.8-27b       -> new
 
-В ночь на 6 октября в Ривьер-Нуар двое мужчин с ножами проникли в квартиру китайской пары и их друга, предварительно повредив камеру наблюдения. Злоумышленники похитили 10 000 рупий, 1 500 долларов США, 2 000 юаней и две камеры Sony стоимостью около 20 000 долларов. Инцидент был официально заявлен в полицию 9 октября, сейчас ведется расследование для поимки преступников.
-
-🔗 <a href="https://www.wazaa.mu/cambriolage-a-riviere-noire-deux-intrus-armes-et-masques-derobent-des-milliers-dobjets-de-valeur/">Wazaa</a>
-== Top FM: https://topfm.mu/
-Newest: CWA : la fourniture d’eau maintenue dans la mesure du possible malgré le couvre-feu | https://topfm.mu/actualites/cwa-la-fourniture-deau-maintenue-dans-la-mesure-du-possible-malgre-le-couvre-feu
-Article text: 1039 chars | photo: https://topfm.mu/sites/default/files/CWA_9.jpg
+## Top FM: CWA : la fourniture d’eau maintenue dans la mesure du possible malgré le couvre-feu
   dup: nothing new ()
-Duplicate of recent post #: 20
-LLM usage so far: 11 requests, 9976 tokens
--- Post that would be sent:
+   openai/gpt-oss-120b    -> DUP of #21: Malgré le couvre-feu : la CWA mobilisée pour assurer l’approvisionneme
+  dup: nothing new ()
+   qwen/qwen3.8-27b       -> DUP of #21: Malgré le couvre-feu : la CWA mobilisée pour assurer l’approvisionneme
 
+## Top FM: Après une nuit de tensions : huit personnes reconduites en détention
+   openai/gpt-oss-120b    -> new
+   qwen/qwen3.8-27b       -> new
+
+## Top FM: Examens - SC, HSC et NCE : plus de 33 000 étudiants concernés, le MES en constante communication avec Cambridg
+   openai/gpt-oss-120b    -> new
+   qwen/qwen3.8-27b       -> new
+
+## Top FM: Incidents dans plusieurs régions : le calme rétabli, la police reste en alerte
+   openai/gpt-oss-120b    -> new
+   qwen/qwen3.8-27b       -> new
+
+## Top FM: Drame d’Élodie Thomas : au terme d’une tournée à Rose-Hill, Patrick Belcourt constate une ville au ralenti, en
+   openai/gpt-oss-120b    -> new
+   qwen/qwen3.8-27b       -> new
+
+## Top FM: Un pétrolier arraisonné au sud de La Réunion, Macron réaffirme sa lutte contre la « flotte fantôme »
+   openai/gpt-oss-120b    -> new
+   qwen/qwen3.8-27b       -> new
+
+## Top FM: Réservoirs d’eau : ruée vers les inscriptions, 3 384 demandes enregistrées en une journée
+   openai/gpt-oss-120b    -> new
+   qwen/qwen3.8-27b       -> new
+
+## Top FM: Pénurie d’eau : Arvin Boolell réunit les parties prenantes pour trouver des solutions aux difficultés d’irriga
+   openai/gpt-oss-120b    -> new
+   qwen/qwen3.8-27b       -> new
