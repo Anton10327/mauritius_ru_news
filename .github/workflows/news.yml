@@ -13,6 +13,10 @@ on:
         description: "Compare all models on the newest articles, post nothing"
         type: boolean
         default: false
+      dupeval:
+        description: "Evaluate duplicate detection on real articles, post nothing"
+        type: boolean
+        default: false
       probe:
         description: "Check which news sites are reachable (probe.py), post nothing"
         type: boolean
@@ -23,7 +27,7 @@ permissions:
 
 concurrency:
   # test/compare/probe runs don't touch the bot's state, so they don't wait
-  group: ${{ (inputs.test || inputs.compare || inputs.probe) && 'news-test' || 'news' }}
+  group: ${{ (inputs.test || inputs.compare || inputs.probe || inputs.dupeval) && 'news-test' || 'news' }}
   cancel-in-progress: false
 
 jobs:
@@ -50,6 +54,7 @@ jobs:
             for try in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
           }
           if [ "${{ inputs.probe }}" = "true" ]; then python probe.py 2>&1 | tee last_run.log; save_log; exit 0; fi
+          if [ "${{ inputs.dupeval }}" = "true" ]; then python bot.py --dupeval 2>&1 | tee last_run.log; save_log; exit 0; fi
           if [ "${{ inputs.test }}" = "true" ] || [ "${{ inputs.compare }}" = "true" ]; then
             python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee last_run.log || true
             git checkout -- seen.json recent.json state.json 2>/dev/null || true

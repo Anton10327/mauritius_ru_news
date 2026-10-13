@@ -763,9 +763,51 @@ def compare_models():
                 print(f"\n--- {model}: FAIL {ex} {getattr(r, 'text', '')[:200]}")
 
 
+def dup_eval():
+    """Judge duplicates with each model on real recent articles (post nothing)."""
+    pool = []
+    for src in FEEDS:
+        kind = src[2] if len(src) > 2 else "rss"
+        try:
+            items, _ = collect(src[0], src[1], kind, src[3] if len(src) > 3 else None, set())
+        except Exception as ex:
+            print("skip", src[0], ex)
+            continue
+        if kind == "html":
+            got = []
+            for _, uid, _, _ in items[:8]:
+                e = page_entry(uid)
+                if e:
+                    got.append((e, uid, None, e["_ts"]))
+            items = got
+        for e, uid, img, ts in sorted(items, key=lambda x: -x[3])[:8]:
+            pool.append((ts, src[0], e))
+    pool.sort(key=lambda x: x[0])
+    pool = pool[-40:]
+    published = [{"title": e.get("title", ""), "orig": e.get("title", ""), "summary": ""}
+                 for _, _, e in pool[:25]]
+    print("Already published:")
+    for i, x in enumerate(published, 1):
+        print(f"  {i}. {x['orig'][:100]}")
+    for ts, source, e in pool[25:]:
+        link = e.get("link", "").replace("http://", "https://", 1)
+        body, _ = article_text(link)
+        lead = re.sub(r"^(Publicité\s*)+", "", body).strip()
+        print(f"\n## {source}: {e.get('title', '')[:110]}")
+        for m in [x for x in DUP_MODELS if x != "openai/gpt-oss-20b"]:
+            DUP_MODELS_SAVED = list(DUP_MODELS)
+            DUP_MODELS[:] = [m]
+            _llm_state["exhausted"].discard(m)
+            d = find_duplicate(e.get("title", ""), lead, published)
+            DUP_MODELS[:] = DUP_MODELS_SAVED
+            print(f"   {m:22s} -> {'DUP of #%d: %s' % (d, published[d-1]['orig'][:70]) if d else 'new'}")
+
+
 if __name__ == "__main__":
     import sys
-    if "--compare" in sys.argv:
+    if "--dupeval" in sys.argv:
+        dup_eval()
+    elif "--compare" in sys.argv:
         compare_models()
     elif "--test" in sys.argv:
         self_test()
