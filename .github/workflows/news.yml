@@ -9,6 +9,10 @@ on:
         description: "Test only: check translation and summary, post nothing"
         type: boolean
         default: false
+      compare:
+        description: "Compare all models on the newest articles, post nothing"
+        type: boolean
+        default: false
 
 permissions:
   contents: write             # to save seen.json back to the repo
@@ -33,7 +37,7 @@ jobs:
         shell: bash
         run: |
           set -o pipefail
-          python bot.py ${{ inputs.test && '--test' || '' }} 2>&1 | tee last_run.log
+          python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee last_run.log
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}

@@ -564,6 +564,43 @@ def self_test():
         print("-- Post that would be sent:")
         print(text)
 
+def compare_models():
+    """Run the newest article of each feed through every model, print results."""
+    for source, url in FEEDS:
+        xml = requests.get(url, timeout=30,
+                           headers={"User-Agent": "Mozilla/5.0 news-bot"}).text
+        entries = feedparser.parse(xml).entries
+        if not entries:
+            continue
+        e = entries[0]
+        link = e.get("link", "").replace("http://", "https://", 1)
+        body, _ = article_text(link)
+        if len(body) < MIN_TEXT_FOR_SUMMARY and e.get("content"):
+            body = _strip_html(e["content"][0].get("value", ""))
+        print(f"\n######## {source}: {e.get('title')}\n{link}")
+        content = f"Заголовок: {e.get('title')}\n\nТекст статьи:\n{body[:ARTICLE_CHARS]}"
+        for model in LLM_MODELS:
+            t0 = time.time()
+            try:
+                r = _llm_call(model, [{"role": "system", "content": PROMPT},
+                                      {"role": "user", "content": content}])
+                if r.status_code == 429:
+                    time.sleep(min(float(r.headers.get("retry-after", "20") or 20), 60) + 1)
+                    r = _llm_call(model, [{"role": "system", "content": PROMPT},
+                                          {"role": "user", "content": content}])
+                data = _parse_json(r.json()["choices"][0]["message"]["content"]) or {}
+                print(f"\n--- {model} ({time.time() - t0:.1f}s)")
+                print("Заголовок:", data.get("title"))
+                print("Пересказ:", data.get("summary"))
+            except Exception as ex:
+                print(f"\n--- {model}: FAIL {ex} {getattr(r, 'text', '')[:200]}")
+
+
 if __name__ == "__main__":
     import sys
-    self_test() if "--test" in sys.argv else main()
+    if "--compare" in sys.argv:
+        compare_models()
+    elif "--test" in sys.argv:
+        self_test()
+    else:
+        main()
