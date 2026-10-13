@@ -1,44 +1,78 @@
+Python 3.12.15; LLM_API_KEY set: True
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-dcd72467-dec3-4841-a893-620778c73201","object":"chat.completion","created":1791903989,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.024271422,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-c84e9866-517b-4f79-adaa-840109985044","object":"chat.completion","created":1791903989,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So we need to respond with \"ok\". No extra content."
+openai/gpt-oss-20b 200 {"id":"chatcmpl-f26099d8-609f-4a87-9b2d-44dedc911bff","object":"chat.completion","created":1791903989,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"The user says: \"Reply with: ok\". So I should reply with \"ok\"."},"logprobs":null,"fini
+== Defimedia: https://defimedia.info/rss.xml
+Newest: Éducation : Les examens du SC et du HSC maintenus ce mercredi 14 octobre | https://defimedia.info/education-les-examens-du-sc-et-du-hsc-maintenus-ce-mercredi-14-octobre
+Article text: 887 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/exams.jpg
+  dup reason: Новость сообщает, что экзамены SC и HSC состоятся 14 октября, что является прямым обновлением и отменой факта из новости 18, где экзамены были отложены. Это новое решение по тому же событию.
+Duplicate of recent post #: 18
+LLM usage so far: 5 requests, 2121 tokens
+-- Post that would be sent:
+<b>Образование: экзамены SC и HSC состоятся в эту среду, 14 октября</b>
 
-######## https://lexpress.mu/
-link patterns: [('s depth=2', 56), ('loisirs depth=2', 8), ('societe depth=2', 7), ('regions depth=2', 5), ('idees depth=2', 4), ('sport depth=2', 4), ('multimedia depth=2', 4), ('economie depth=2', 3), ('page depth=2', 3), ('build depth=3', 2), ('international depth=2', 2), ('favicon.png depth=1', 1)]
-   https://lexpress.mu/s/curepipe-des-commerces-sadaptent-563553
-   https://lexpress.mu/s/elodie-thomas-blessee-par-un-tir-policier-le-fil-des-evenements-563458
-   https://lexpress.mu/s/fermeture-des-ecoles-ce-mercredi-14-octobre-examens-de-sc-et-de-hsc-maintenus-563570
-   https://lexpress.mu/s/les-policiers-suspendus-risquent-ils-de-perdre-leur-salaire-563552
-   https://lexpress.mu/s/la-maire-tashyana-latchmana-pillay-appelle-au-calme-et-a-la-responsabilite-563567
-   https://lexpress.mu/s/reprendre-gout-a-la-vie-apres-le-cancer-du-sein-563549
-   https://lexpress.mu/s/navin-ramgoolam-sadressera-a-la-nation-a-18-heures-563566
-   https://lexpress.mu/s/deepak-benydin-la-state-trading-corporation-doit-servir-la-population-pas-rechercher-le-profit-a-tout-prix-563548
-  article 200: text 6614 chars | {'og:title': 'Distribution d’eau au compte-gouttes | Curepipe : des commerces s’adaptent', 'og:image': 'https://lexpress.mu/storage/articles/7wmUsWEpn5Xhoa3ZNHM2Yvzp3IQIopxeqp9VM5wG.jpg', 'article:published_time': '2026-10-13 19:00:00'}
-  start: Publicité Distribution d’eau au compte-gouttes Curepipe : des commerces s’adaptent Par Partager cet article Distribution d’eau au compte-gouttes Curepipe : des commerces s’adaptent (Photos : © Sumeet 
+Министерство образования Маврикия объявило, что экзамены School Certificate и Higher School Certificate, запланированные на 14 октября 2026 года, пройдут в штатном режиме в школах Маврикия, Родригеса и Агалэги. При этом все занятия в дошкольных, начальных и средних учебных заведениях, а также в технических колледжах и онлайн-курсах MIE будут приостановлены. Местные экзамены в школах Республики перенесены на неопределенный срок. Ведомство продолжает отслеживать ситуацию с безопасностью в координации с соответствующими властями.
 
-######## https://mbcradio.tv/
-link patterns: [('reportage depth=2', 95), ('article depth=2', 32), ('themes depth=6', 23), ('core depth=7', 12), ('programme depth=2', 12), ('modules depth=5', 10), ('ce-soir depth=2', 10), ('production-locale depth=2', 8), ('productions-locales depth=2', 7), ('podcasting depth=2', 5), ('search depth=2', 5), ('sites depth=4', 3)]
-   https://mbcradio.tv/core/themes/stable9/css/core/components/progress.module.css?tmu3ot
-   https://mbcradio.tv/core/themes/stable9/css/core/components/ajax-progress.module.css?tmu3ot
-   https://mbcradio.tv/core/themes/stable9/css/core/components/autocomplete-loading.module.css?tmu3ot
-   https://mbcradio.tv/core/themes/stable9/css/system/components/container-inline.module.css?tmu3ot
-   https://mbcradio.tv/core/themes/stable9/css/system/components/clearfix.module.css?tmu3ot
-   https://mbcradio.tv/modules/contrib/webform/css/webform.element.details.toggle.css?tmu3ot
-   https://mbcradio.tv/modules/contrib/webform/css/webform.element.message.css?tmu3ot
-   https://mbcradio.tv/themes/custom/mbctheme/css/components/container-inline.css?tmu3ot
-  article 200: text 29956 chars | {'og:title': None, 'og:image': None, 'article:published_time': None}
-  start: Ce soir à la télé Ne manquez pas les émissions de ce soir Priorité Santé Anou Konbat Ladrog Prakriti FRENCH FILM - THE SHAMER'S DAUGHTER PYAR KA PEHLA ADHYAYA SHIV SHAKTI TERRE D'ESPERANCE / LA ESPERA
+🔗 <a href="https://defimedia.info/education-les-examens-du-sc-et-du-hsc-maintenus-ce-mercredi-14-octobre">Defimedia</a>
+== L'Express: https://lexpress.mu/
+Newest: Distribution d’eau au compte-gouttes | Curepipe : des commerces s’adaptent | https://lexpress.mu/s/curepipe-des-commerces-sadaptent-563553
+Article text: 6614 chars | photo: https://lexpress.mu/storage/articles/7wmUsWEpn5Xhoa3ZNHM2Yvzp3IQIopxeqp9VM5wG.jpg
+Duplicate of recent post #: None
+LLM usage so far: 7 requests, 4737 tokens
+-- Post that would be sent:
+<b>Подача воды по капле: магазины в Curepipe адаптируются</b>
 
-######## https://topfm.mu/
-link patterns: [('actualites depth=2', 39), ('sites depth=5', 2), (' depth=0', 1), ('themes depth=4', 1), ('contactez-nous depth=1', 1), ('propos-de-top-fm depth=1', 1), ('locale depth=1', 1), ('international depth=1', 1), ('sport depth=1', 1), ('podcasts depth=1', 1), ('top-tv depth=1', 1), ('en-direct depth=2', 1)]
-   https://topfm.mu/sites/default/files/css/css_KWENVGczNtlcNQuLm6Sle-XPIajDm84AdMBTcnMKdI8.css?delta=0&amp;language=fr&amp;theme=topfm&amp;include=eJxFjEEOgCAMBD8EcvJBRSshKZR06wFfrwkHjzOTTFZ1uNHYUyZwyD83BqgwwqHG6bR7kGzVuUWp8GW7WiOpDwdMfGlNXMfVUhHNJBE-pfbyAmACKI8
-   https://topfm.mu/sites/default/files/css/css_us90GL7oAzMFz59fcL-6jEGDCa613hSY8eT7BZ5rndA.css?delta=1&amp;language=fr&amp;theme=topfm&amp;include=eJxFjEEOgCAMBD8EcvJBRSshKZR06wFfrwkHjzOTTFZ1uNHYUyZwyD83BqgwwqHG6bR7kGzVuUWp8GW7WiOpDwdMfGlNXMfVUhHNJBE-pfbyAmACKI8
-   https://topfm.mu/actualites/apres-une-nuit-de-tensions-huit-personnes-reconduites-en-detention
-   https://topfm.mu/actualites/examens-sc-hsc-et-nce-plus-de-33-000-etudiants-concernes-le-mes-en-constante-communication-avec
-   https://topfm.mu/actualites/incidents-dans-plusieurs-regions-le-calme-retabli-la-police-reste-en-alerte
-   https://topfm.mu/actualites/drame-delodie-thomas-au-terme-dune-tournee-rose-hill-patrick-belcourt-constate-une-ville-au-ralenti
-   https://topfm.mu/actualites/un-petrolier-arraisonne-au-sud-de-la-reunion-macron-reaffirme-sa-lutte-contre-la-flotte-fantome
-   https://topfm.mu/actualites/reservoirs-deau-ruee-vers-les-inscriptions-3-384-demandes-enregistrees-en-une-journee
-  article 200: text 0 chars | {'og:title': None, 'og:image': None, 'article:published_time': None}
-  start: 
+С воскресенья в районах Curepipe, Forest-Side и Floréal вода подается через день, что вынуждает жителей и предпринимателей менять привычки. Владельцы ресторанов на улице Chasteauneuf организуют резервуары для хранения воды, чтобы поддерживать гигиену и продолжать работу. В заведении Ashoka ситуация стабильнее благодаря общей системе водоснабжения, которая обеспечивает приток воды с 8 утра.
 
-######## Le Mauricien REST
-720419 2026-10-13T18:35:05 Maurice : Pas de classes le mercredi 14 octobre, sauf pour les examens | content 0 | img None | https://www.lemauricien.com/actualites/societe/maurice-pas-de-classes-le-mercredi-14-octobre-sauf-pour-les-examens-du-sc-et-du-hsc-maintenus-comme-prevu/720419/
-720420 2026-10-13T18:15:28 La caricature de ce mardi 13 octobre | content 0 | img None | https://www.lemauricien.com/le-mauricien/la-caricature-de-ce-mardi-13-octobre/720420/
-720415 2026-10-13T16:29:57 Examens reportés : plus de 33 000 candidats concernés, la MES en discu | content 0 | img None | https://www.lemauricien.com/actualites/societe/examens-reportes-plus-de-33-000-candidats-concernes-la-mes-en-discussions-avec-cambridge/720415/
+🔗 <a href="https://lexpress.mu/s/curepipe-des-commerces-sadaptent-563553">L&#x27;Express</a>
+== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
+Newest: Maurice : Pas de classes le mercredi 14 octobre, sauf pour les examens du SC et du HSC, maintenus comme prévu. | https://www.lemauricien.com/actualites/societe/maurice-pas-de-classes-le-mercredi-14-octobre-sauf-pour-les-examens-du-sc-et-du-hsc-maintenus-comme-prevu/720419/
+Article text: 491 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-56-1.webp
+  dup reason: Новость уточняет предыдущую (п. 18), добавляя конкретную дату (14 октября) и важное исключение: экзамены SC и HSC пройдут по плану, в отличие от других перенесенных экзаменов. Это существенное изменение информации.
+Duplicate of recent post #: 18
+LLM usage so far: 9 requests, 6490 tokens
+-- Post that would be sent:
+<b>Маврикий: 14 октября в среду занятий не будет, за исключением экзаменов SC и HSC, которые пройдут по плану</b>
+
+В Маврикии, на Родригесе и Агалега местные школьные экзамены перенесены на более поздний срок из-за напряженной обстановки в сфере безопасности. Мера распространяется на государственные и частные школы, а также на центры технического и профессионального образования. При этом экзамены School Certificate (SC) и Higher School Certificate (HSC) в средних учебных заведениях пройдут в установленное время.
+
+🔗 <a href="https://www.lemauricien.com/actualites/societe/maurice-pas-de-classes-le-mercredi-14-octobre-sauf-pour-les-examens-du-sc-et-du-hsc-maintenus-comme-prevu/720419/">Le Mauricien</a>
+== Inside News: https://inside.news/feed/
+Newest: Affaire Élodie Thomas : deux nouvelles accusations provisoires contre le sergent Taukoor | https://www.inside.news/elodie-thomas-deux-accusations-sergent-taukoor/
+Article text: 1834 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/d6500fce-f6a9-4fb3-923c-aff5b6f8c46d_cleaned-1024x578.png
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
+  dup reason: Тот же факт и формулировка заголовка, без добавления новой информации
+Duplicate of recent post #: 20
+LLM usage so far: 11 requests, 9158 tokens
+-- Post that would be sent:
+<b>Дело Элодии Томас: два новых временных обвинения против сержанта Таукоора</b>
+
+В расследовании стрельбы, тяжело ранившей Элодию Томас в Camp-Levieux, сержант Гаутам Сингх Таукоор, арестованный 9 октября, получил два новых временных обвинения: использование огнестрельного оружия для запугивания и непреднамеренные ранения и удары по неосторожности. Обвинения заменили первоначальное и были внесены 12 октября после консультации с Директором публичных преследований. Таукоор остаётся под стражей, следующее судебное заседание назначено на 19 октября. Национальная комиссия по правам человека потребовала открыть независимое судебное расследование.
+
+🔗 <a href="https://www.inside.news/elodie-thomas-deux-accusations-sergent-taukoor/">Inside News</a>
+== Wazaa: https://www.wazaa.mu/feed/
+Newest: 4 policiers suspendus sous les feux des projecteurs alors que 2 nouvelles charges sont déposées | https://www.wazaa.mu/4-policiers-suspendus-sous-les-feux-des-projecteurs-alors-que-2-nouvelles-charges-sont-deposees/
+Article text: 4982 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/07/1783201343.jpeg
+Duplicate of recent post #: None
+LLM usage so far: 13 requests, 12816 tokens
+-- Post that would be sent:
+<b>Четыре полицейских отстранены от должности под пристальным вниманием, пока предъявлены два новых обвинения</b>
+
+Сержант полиции Гаутам Сингх Таукур был предъявлен два новых временных обвинения после инцидента с выстрелом в Кам-Левье, в результате которого тяжело раненой стала Элоди Томас. Первоначальное обвинение в незаконном хранении оружия снято; теперь он обвиняется в использовании огнестрельного оружия для запугивания и в нанесении травм по неосторожности. 12 октября в 17:00 он появился перед судом в Роуз-Хилл, был задержан без залога, а вместе с ним отстранены от службы еще три полицейских; охрана суда включала более 20 сотрудников. Прокуратура сообщает, что расследование только началось, могут быть добавлены новые обвинения, а семья жертвы потребовала независимого расследования от IPCC.
+
+🔗 <a href="https://www.wazaa.mu/4-policiers-suspendus-sous-les-feux-des-projecteurs-alors-que-2-nouvelles-charges-sont-deposees/">Wazaa</a>
+== Top FM: https://topfm.mu/
+Newest: Après une nuit de tensions : huit personnes reconduites en détention | https://topfm.mu/actualites/apres-une-nuit-de-tensions-huit-personnes-reconduites-en-detention
+Article text: 811 chars | photo: https://topfm.mu/sites/default/files/2026-10/lil.png
+Duplicate of recent post #: None
+LLM usage so far: 15 requests, 15374 tokens
+-- Post that would be sent:
+<b>После ночи напряжённости восемь человек возвращены под стражу</b>
+
+В ночь с понедельника на вторник по всей Маврикии произошли столкновения, после чего полиция арестовала десять человек, включая двух несовершеннолетних. 13 октября 2026 г. восемь задержанных предстали перед судом и были вновь отправлены под стражу, а два несовершеннолетних получили условно‑освобождение. Об этом сообщил Сухайл Лидилам, руководитель пресс‑офиса полиции. Дальнейшие действия пока не объявлены.
+
+🔗 <a href="https://topfm.mu/actualites/apres-une-nuit-de-tensions-huit-personnes-reconduites-en-detention">Top FM</a>
