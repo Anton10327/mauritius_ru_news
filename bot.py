@@ -51,6 +51,7 @@ LLM_MODELS = [m.strip() for m in (os.environ.get("LLM_MODELS", "").strip() or
               "openai/gpt-oss-120b,qwen/qwen3.8-27b,openai/gpt-oss-20b"
               ).split(",") if m.strip()]
 ARTICLE_CHARS = 4000     # article text sent to the model (keeps within free limits)
+MIN_TEXT_FOR_SUMMARY = 300  # less text than this -> no summary, title only
 
 PROMPT = (
     "Ты редактор русскоязычного новостного канала о Маврикии. "
@@ -236,12 +237,27 @@ def build_post(source, entry, link):
     """Russian title + summary (LLM) or translated headline (fallback)."""
     orig_title = entry.get("title", "").strip()
     body, page_image = article_text(link)
-    result = summarize(orig_title, body)
+    # Some sites block article pages; fall back to the text inside the feed
+    feed_html = ""
+    if entry.get("content"):
+        feed_html = entry["content"][0].get("value", "")
+    feed_html = feed_html or entry.get("summary", "")
+    feed_text = re.sub(r"(The post|L[’']article) .{0,300}(appeared first on|est apparu en premier sur).*$",
+                       "", _strip_html(feed_html), flags=re.S).strip()
+    if len(feed_text) > len(body):
+        body = feed_text
+    if not page_image:
+        m = re.search(r'<img[^>]+src=["\']([^"\']+)', feed_html)
+        page_image = html.unescape(m.group(1)) if m else None
+    # Without real article text a "summary" would be invented: title only then
+    result = summarize(orig_title, body) if len(body) >= MIN_TEXT_FOR_SUMMARY else None
+    if result is None and body and len(body) < MIN_TEXT_FOR_SUMMARY:
+        print(f"Too little text ({len(body)} chars), title only: {link}")
     if result:
         title, summary = result
     else:
         title = translate(orig_title)
-        summary = translate(_strip_html(entry.get("summary", "")))
+        summary = translate(feed_text[:450]) if feed_text and len(feed_text) > 40 else ""
 
     footer = f'🔗 <a href="{html.escape(link)}">{html.escape(source)}</a>'
     head = f"<b>{html.escape(title)}</b>"
