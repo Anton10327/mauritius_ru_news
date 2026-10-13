@@ -99,8 +99,9 @@ DUP_PROMPT = (
     "обвинение»; было «созван кабинет», стало «премьер обратится к нации»), "
     "новые цифры, новое место, заявление другого человека. Общая тема — "
     "не повод считать дублем. Если сомневаешься — это НЕ дубль. "
-    "Ответь строго JSON: "
-    '{"duplicate_of": номер или null, "reason": "кратко"}.'
+    "Ответь строго JSON в таком порядке полей: "
+    '{"reason": "кратко: что нового или что повторяется", '
+    '"is_duplicate": true или false, "duplicate_of": номер или null}.'
 )
 
 # Extra feeds checked only in test mode (to try a source before adding it)
@@ -164,7 +165,7 @@ def article_text(url):
         return "", None
 
 
-def _llm_call(model, messages, max_tokens=1500):
+def _llm_call(model, messages, max_tokens=700):
     r = _llm_post(model, messages, max_tokens)
     try:
         if r.ok:
@@ -214,6 +215,8 @@ def summarize(title, body):
                 return None
             if r.status_code == 429:
                 wait = float(r.headers.get("retry-after", "0") or 0)
+                if "per minute" in r.text and not wait:
+                    wait = 30
                 if attempt == 0 and 0 < wait <= 60:
                     print(f"LLM per-minute limit, waiting {wait:.0f}s")
                     time.sleep(wait + 1)
@@ -306,7 +309,7 @@ def find_duplicate(title, summary, recent_titles):
     model = _llm_state["model"] if _llm_state["model"] in free else free[0]
     try:
         r = _llm_call(model, [{"role": "system", "content": DUP_PROMPT},
-                              {"role": "user", "content": msg}], 800)
+                              {"role": "user", "content": msg}], 300)
         if r.status_code == 429:
             wait = float(r.headers.get("retry-after", "0") or 0)
             if not 0 < wait <= 60:
@@ -315,11 +318,13 @@ def find_duplicate(title, summary, recent_titles):
                 return None
             time.sleep(wait + 1)
             r = _llm_call(model, [{"role": "system", "content": DUP_PROMPT},
-                                  {"role": "user", "content": msg}], 800)
+                                  {"role": "user", "content": msg}], 300)
         if not r.ok:
             print(f"Duplicate check failed {r.status_code}: {r.text[:150]}")
             return None
         data = _parse_json(r.json()["choices"][0]["message"]["content"]) or {}
+        if data.get("is_duplicate") is not True:
+            return None
         dup = data.get("duplicate_of")
         dup = int(dup) if dup not in (None, "", "null", False) else None
         if dup is not None and 1 <= dup <= len(recent_titles):
