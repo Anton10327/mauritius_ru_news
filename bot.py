@@ -27,8 +27,8 @@ from deep_translator import GoogleTranslator
 FEEDS = [
     ("Defimedia", "https://defimedia.info/rss.xml"),
     ("Inside News", "https://inside.news/feed/"),
+    ("Wazaa", "https://www.wazaa.mu/feed/"),
     # ("ION News", "https://ionnews.mu/feed/"),  # works, but headlines only
-    # ("Wazaa", "https://www.wazaa.mu/feed/"),   # works, full text and photos
 ]
 
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]   # from @BotFather
@@ -39,6 +39,9 @@ ADMIN_ID = os.environ.get("TELEGRAM_ADMIN_ID", "").strip()
 
 SEEN_FILE = Path("seen.json")
 STATE_FILE = Path("state.json")  # remembers which alerts were sent today
+RECENT_FILE = Path("recent.json")  # recently posted headlines, for duplicate checks
+RECENT_HOURS = 36                  # compare new articles with posts from this period
+RECENT_MAX = 80
 MAX_SEEN = 2000          # how many item IDs to remember
 FIRST_RUN_POSTS = 3      # on the very first run, post only the latest N items
 MAX_POSTS_PER_RUN = 20   # safety limit against flooding the channel
@@ -70,7 +73,12 @@ PROMPT = (
     "информации, пиши короче, но ничего не додумывай. "
     "Названия мест (Port-Louis, Sainte-Croix, Camp-Levieux) оставляй латиницей. "
     "Имена людей пиши по-русски в общепринятой транскрипции (Navin Ramgoolam — "
-    "Навин Рамгулам). Рупии — «рупий»."
+    "Навин Рамгулам). Рупии — «рупий». "
+    "Если дан список уже опубликованных новостей, добавь в JSON поле "
+    '"duplicate_of": номер новости из списка, если статья сообщает ТО ЖЕ САМОЕ '
+    "(то же событие или заявление, без существенных новых фактов), иначе null. "
+    "Новое развитие той же истории (новые подробности, решения, цифры, "
+    "заявления других людей) — это НЕ дубль."
 )
 
 # Extra feeds checked only in test mode (to try a source before adding it)
@@ -152,12 +160,15 @@ def _parse_json(text):
     return json.loads(m.group(0)) if m else None
 
 
-def summarize(title, body):
+def summarize(title, body, recent_titles=()):
     """Ask the LLM for a Russian title + summary. Returns (title, summary)
     or None if the model is unavailable (no key, daily limit, error)."""
     if _llm_state["disabled"] or not LLM_KEY:
         return None
     content = f"Заголовок: {title}\n\nТекст статьи:\n{body[:ARTICLE_CHARS] or '(текст недоступен)'}"
+    if recent_titles:
+        listing = "\n".join(f"{i}. {t}" for i, t in enumerate(recent_titles, 1))
+        content += f"\n\nУже опубликованные новости:\n{listing}"
     messages = [{"role": "system", "content": PROMPT},
                 {"role": "user", "content": content}]
     models = [_llm_state["model"]] if _llm_state["model"] else LLM_MODELS
@@ -206,7 +217,14 @@ def summarize(title, body):
         if not ru_title:
             continue
         _llm_state["model"] = model
-        return ru_title, ru_summary
+        dup = data.get("duplicate_of")
+        try:
+            dup = int(dup) if dup not in (None, "", "null", False) else None
+        except (TypeError, ValueError):
+            dup = None
+        if dup is not None and not (1 <= dup <= len(recent_titles)):
+            dup = None
+        return ru_title, ru_summary, dup
     _llm_state["disabled"] = True
     alert("models",
           "⚠️ Ни одна модель из LLM_MODELS не ответила — похоже, Groq их "
@@ -243,7 +261,22 @@ def alert(kind, text):
     STATE_FILE.write_text(json.dumps(state), encoding="utf-8")
 
 
-def build_post(source, entry, link):
+def load_recent():
+    """Headlines posted in the last RECENT_HOURS, oldest first."""
+    try:
+        items = json.loads(RECENT_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return []
+    cutoff = time.time() - RECENT_HOURS * 3600
+    return [x for x in items if x.get("t", 0) >= cutoff][-RECENT_MAX:]
+
+
+def save_recent(items):
+    RECENT_FILE.write_text(json.dumps(items[-RECENT_MAX:], ensure_ascii=False,
+                                      indent=0), encoding="utf-8")
+
+
+def build_post(source, entry, link, recent_titles=()):
     """Russian title + summary (LLM) or translated headline (fallback)."""
     orig_title = entry.get("title", "").strip()
     body, page_image = article_text(link)
@@ -260,11 +293,13 @@ def build_post(source, entry, link):
         m = re.search(r'<img[^>]+src=["\']([^"\']+)', feed_html)
         page_image = html.unescape(m.group(1)) if m else None
     # Without real article text a "summary" would be invented: title only then
-    result = summarize(orig_title, body) if len(body) >= MIN_TEXT_FOR_SUMMARY else None
+    result = (summarize(orig_title, body, recent_titles)
+              if len(body) >= MIN_TEXT_FOR_SUMMARY else None)
     if result is None and body and len(body) < MIN_TEXT_FOR_SUMMARY:
         print(f"Too little text ({len(body)} chars), title only: {link}")
+    dup = None
     if result:
-        title, summary = result
+        title, summary, dup = result
     else:
         title = translate(orig_title)
         summary = translate(feed_text[:450]) if feed_text and len(feed_text) > 40 else ""
@@ -276,8 +311,8 @@ def build_post(source, entry, link):
     if summary and summary != title and room > 50:
         if len(summary) > room:
             summary = summary[:room - 1].rsplit(" ", 1)[0] + "…"
-        return f"{head}\n\n{html.escape(summary)}\n\n{footer}", title, page_image
-    return f"{head}\n\n{footer}", title, page_image
+        return f"{head}\n\n{html.escape(summary)}\n\n{footer}", title, page_image, dup
+    return f"{head}\n\n{footer}", title, page_image, dup
 
 
 def send(text, photo=None):
@@ -382,9 +417,18 @@ def main():
     else:
         to_post = new_items[-MAX_POSTS_PER_RUN:]
 
+    recent = load_recent()
     for source, e, uid, img, _ in to_post:
         link = e.get("link", "").replace("http://", "https://", 1)
-        text, title, page_image = build_post(source, e, link)
+        recent_titles = [x["title"] for x in recent]
+        text, title, page_image, dup = build_post(source, e, link, recent_titles)
+
+        if dup:
+            print(f"Skipped duplicate ({source}): {title} == {recent_titles[dup - 1]}")
+            if uid not in seen_set:
+                seen.append(uid)
+                seen_set.add(uid)
+            continue
 
         try:
             send(text, photo=item_image(e, (img, None)) or page_image)
@@ -395,9 +439,11 @@ def main():
         if uid not in seen_set:
             seen.append(uid)
             seen_set.add(uid)
+        recent.append({"t": time.time(), "title": title, "source": source})
         time.sleep(3)  # Telegram limit: ~20 messages/minute per channel
 
     save_seen(seen)
+    save_recent(recent)
 
 
 def _strip_html(s):
@@ -435,7 +481,9 @@ def self_test():
         e = entries[0]
         link = e.get("link", "").replace("http://", "https://", 1)
         img = raw_items(xml).get(e.get("id") or link, (None, 0))[0]
-        text, _, page_image = build_post(source, e, link)
+        text, _, page_image, dup = build_post(source, e, link,
+                                              [x["title"] for x in load_recent()])
+        print("Duplicate of recent post #:", dup)
         print("Photo:", item_image(e, (img, None)) or page_image)
         print("-- Post that would be sent:")
         print(text)

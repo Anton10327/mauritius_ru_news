@@ -41,12 +41,12 @@ jobs:
           TELEGRAM_ADMIN_ID: ${{ secrets.TELEGRAM_ADMIN_ID }}
           PYTHONUNBUFFERED: "1"
 
-      - name: Save seen.json, state.json and last_run.log
+      - name: Save seen.json, state.json, recent.json and last_run.log
         if: always()
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add last_run.log $(ls seen.json state.json 2>/dev/null)
+          git add last_run.log $(ls seen.json state.json recent.json 2>/dev/null)
           git diff --cached --quiet || git commit -m "update seen"
           git pull --rebase -q || true
           git push
