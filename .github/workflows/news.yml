@@ -63,7 +63,7 @@ jobs:
             echo "### check $i/$LOOPS at $(TZ=Indian/Mauritius date +%H:%M)" | tee -a last_run.log
             python bot.py 2>&1 | tee -a last_run.log || true
             save_log
-            [ $i -lt $LOOPS ] && sleep 240
+            if [ $i -lt $LOOPS ]; then sleep 240; fi
           done
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
