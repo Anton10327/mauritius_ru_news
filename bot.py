@@ -66,6 +66,12 @@ PROMPT = (
     "латиницей; рупии — «рупий»."
 )
 
+# Extra feeds checked only in test mode (to try a source before adding it)
+TEST_FEEDS = [
+    ("Inside News", "https://inside.news/feed/"),
+    ("Wazaa", "https://www.wazaa.mu/feed/"),
+]
+
 # --------------------------------------------------------------------------
 
 translator = GoogleTranslator(source="auto", target="ru")
@@ -411,7 +417,7 @@ def self_test():
         seen = set(json.loads(SEEN_FILE.read_text(encoding="utf-8")))
     except Exception:
         seen = set()
-    for source, url in FEEDS:
+    for source, url in FEEDS + TEST_FEEDS:
         print(f"== {source}: {url}")
         xml = requests.get(url, timeout=30,
                            headers={"User-Agent": "Mozilla/5.0 news-bot"}).text
