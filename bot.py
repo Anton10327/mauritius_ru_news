@@ -47,7 +47,7 @@ LLM_KEY = os.environ.get("LLM_API_KEY", "").strip()
 LLM_URL = os.environ.get("LLM_URL", "").strip() or \
     "https://api.groq.com/openai/v1/chat/completions"
 LLM_MODELS = [m.strip() for m in (os.environ.get("LLM_MODELS", "").strip() or
-              "openai/gpt-oss-20b,openai/gpt-oss-120b,qwen/qwen3.8-27b"
+              "openai/gpt-oss-120b,qwen/qwen3.8-27b,openai/gpt-oss-20b"
               ).split(",") if m.strip()]
 ARTICLE_CHARS = 4000     # article text sent to the model (keeps within free limits)
 
