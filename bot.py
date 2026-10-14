@@ -58,7 +58,8 @@ DUP_LATEST = 8                     # duplicate check sees the latest posts...
 DUP_SIMILAR = 14                   # ...plus the most similar ones from RECENT_HOURS
 MAX_SEEN = 2000          # how many item IDs to remember
 FIRST_RUN_POSTS = 3      # on the very first run, post only the latest N items
-MAX_POSTS_PER_RUN = 6    # posts per check; the rest wait for the next check
+MAX_POSTS_PER_RUN = 4    # posts per check; the rest wait for the next check
+MIN_POST_GAP = 60        # seconds between two posts in the channel
 
 # Free LLM via Groq (OpenAI-compatible API). Get a free key at
 # console.groq.com -> API Keys, and save it as the LLM_API_KEY secret.
@@ -789,6 +790,11 @@ def main():
                 seen_set.add(uid)
             continue
 
+        # Keep at least MIN_POST_GAP between posts (also across checks/runs)
+        last = max((x.get("t", 0) for x in recent), default=0)
+        wait = last + MIN_POST_GAP - time.time()
+        if wait > 0:
+            time.sleep(wait)
         try:
             send(post["text"], photo=item_image(e, (img, None)) or post["image"])
             print(f"Posted ({source}): {title}")
@@ -801,7 +807,8 @@ def main():
         recent.append({"t": time.time(), "title": title, "source": source,
                        "orig": post["orig"], "summary": post["summary"][:200]})
         recent = recent[-RECENT_MAX:]
-        time.sleep(3)  # Telegram limit: ~20 messages/minute per channel
+        save_seen(seen)      # save after every post, so a cut-off run can't repost
+        save_recent(recent)
 
     save_seen(seen)
     save_recent(recent)

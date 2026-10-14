@@ -90,11 +90,13 @@ jobs:
           # checks the news several times, 4 minutes apart.
           LOOPS=1; [ "${{ github.event_name }}" = "schedule" ] && LOOPS=5
           : > state/last_run.log
+          START=$(date +%s)
           for i in $(seq 1 $LOOPS); do
             echo "### check $i/$LOOPS at $(TZ=Indian/Mauritius date +%H:%M)" | tee -a state/last_run.log
             python bot.py 2>&1 | tee -a state/last_run.log || true
             save_state "last_run.log seen.json recent.json state.json"
-            if [ $i -lt $LOOPS ]; then sleep 240; fi
+            # next check 4 minutes after this one started (posting can take a while)
+            if [ $i -lt $LOOPS ]; then left=$(( START + i*240 - $(date +%s) )); [ $left -gt 0 ] && sleep $left; fi
           done
         env:
           STATE_DIR: state
