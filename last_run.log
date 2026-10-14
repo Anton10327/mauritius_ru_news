@@ -1,16 +1,10 @@
-### check 1/5 at 13:53
-Posted (Inside News): Саммит США–Африка: Маврикий ожидает до 3000 участников в декабре
-Posted (Inside News): Беспорядки: Pravind Jugnauth призывает к спокойствию и требует от правительства действовать
-  same headline as #28: La Gaulette : un policier arrêté avec trois sabres, trois cagoules et une batte 
-Skipped duplicate (L'Express): La Gaulette : Un policier arrêté en possession de trois sabres et d’une batte de baseball == La Gaulette: полицейский задержан с тремя саблями, тремя масками и бейсбольной битой в маш
-Posted (Wazaa): Министерство подтверждает перенос пяти экзаменов из-за сохраняющихся проблем национальной безопасности
-LLM usage this run: 9 requests, 10287 tokens
-### check 2/5 at 13:57
-### check 3/5 at 14:01
-Posted (L'Express): Прогноз с учетом последствий: метеослужба скоро будет сообщать не только о количестве осадков, но и о том, что они вызовут
-LLM usage this run: 3 requests, 3241 tokens
-### check 4/5 at 14:06
-### check 5/5 at 14:10
+### check 1/5 at 14:26
+  proofread: выразил соболезнования семье Mme Aelodie Thomas и пожелал ей скорейшего выздоровления → выразил соболезнования семье Mme Aelodie Thomas и пожелал скорейшего выздоровления
+Posted (Le Mauricien): Отец Philippe Goupille (Совет религий): «Насилие не решает ни одной проблемы»
+Posted (Le Mauricien): Patrick Belcourt (En Avant Moris): «Прогресс не будет достигнут через насилие»
+Posted (Le Mauricien): Джумма Масджид: «В эти трудные времена давайте будем единством и солидарностью»
+Posted (Le Mauricien): Пуля извлечена из шеи: после сложной пятиэтапной операции — отец: «Элоди поняла нас, увидела маму и закрыла глаза»
+Posted (Le Mauricien): Clency Bibi (GWF): «Огонь тлел под пеплом уже давно»
   dup: nothing new ()
-Skipped duplicate (Inside News): Violences à Maurice : 93 interpellations, dont 15 mineurs, après une nuit sous couvre-feu == Инциденты во время комендантского часа: 93 задержания, включая 15 несовершеннолетних
-LLM usage this run: 1 requests, 1972 tokens
+Skipped duplicate (Le Mauricien): Kushal Lobine (leader des Nouveaux démocrates) : « Nou bizin nou tou ena enn sel obzektif, == Беспорядки: Pravind Jugnauth призывает к спокойствию и требует от правительства действоват
+LLM usage this run: 16 requests, 20329 tokens
