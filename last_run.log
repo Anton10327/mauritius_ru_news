@@ -9,3 +9,5 @@ LLM usage this run: 5 requests, 7758 tokens
   dup: nothing new ()
 Skipped duplicate (L'Express): Levée du couvre-feu : Peu de dodo, pas de métro, mais au boulot == Труд: Business Mauritius рекомендует возобновить деятельность с учетом местных условий
 LLM usage this run: 1 requests, 1871 tokens
+### check 4/5 at 07:37
+Could not read L'Express: ReadTimeout HTTPSConnectionPool(host='lexpress.mu', port=443): Read timed out. (read timeout=30)
