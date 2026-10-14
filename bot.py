@@ -433,7 +433,7 @@ def _safe_edit(old, new, original=""):
     if not new or not isinstance(new, str):
         return False
     digits = lambda t: sorted(re.findall(r"\d+", t))
-    latin = lambda t: re.findall(r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'’.-]*", t)
+    latin = lambda t: re.findall(r"[A-Za-zÀ-ÿ](?:[A-Za-zÀ-ÿ'’.-]*[A-Za-zÀ-ÿ])?", t)
     if digits(old) != digits(new):
         return False
     old_l, new_l = latin(old), latin(new)
