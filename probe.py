@@ -1,7 +1,7 @@
 """Run the bot's proofreading pass on recent posts (not used by the bot, posts nothing)."""
 import json
 import bot
-posts = json.load(open("recent.json"))[-15:]
+posts = json.loads(bot.RECENT_FILE.read_text(encoding="utf-8"))[-15:]
 posts.append({"title": "Дело о чемоданах с 114 миллионами рупий: Кобита Жогно прошла третье допрос в FCC",
               "summary": "14 октября Кобита Жогно явилась в Финансовую комиссию по расследованию преступлений (FCC) в Реде для третьего допроса по делу о чемоданах."})
 for p in posts:

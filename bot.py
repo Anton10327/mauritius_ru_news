@@ -47,11 +47,15 @@ CHANNEL_ID = os.environ["TELEGRAM_CHANNEL_ID"]  # e.g. @my_mauritius_news
 # You must press Start in your bot once, or Telegram won't let it write to you.
 ADMIN_ID = os.environ.get("TELEGRAM_ADMIN_ID", "").strip()
 
-SEEN_FILE = Path("seen.json")
-STATE_FILE = Path("state.json")  # remembers which alerts were sent today
-RECENT_FILE = Path("recent.json")  # recently posted headlines, for duplicate checks
-RECENT_HOURS = 12                  # compare new articles with posts from this period
-RECENT_MAX = 25                    # ...but at most this many latest posts
+# Bot state lives in a separate "state" branch, checked out into STATE_DIR
+STATE_DIR = Path(os.environ.get("STATE_DIR", "."))
+SEEN_FILE = STATE_DIR / "seen.json"
+STATE_FILE = STATE_DIR / "state.json"  # remembers which alerts were sent today
+RECENT_FILE = STATE_DIR / "recent.json"  # recently posted headlines, for duplicate checks
+RECENT_HOURS = 48                  # remember posts from this period for duplicate checks
+RECENT_MAX = 400
+DUP_LATEST = 8                     # duplicate check sees the latest posts...
+DUP_SIMILAR = 14                   # ...plus the most similar ones from RECENT_HOURS
 MAX_SEEN = 2000          # how many item IDs to remember
 FIRST_RUN_POSTS = 3      # on the very first run, post only the latest N items
 MAX_POSTS_PER_RUN = 6    # posts per check; the rest wait for the next check
@@ -100,9 +104,11 @@ PROMPT = (
     "(число пострадавших, арестованных, суммы, даты) сохраняй. "
     "Только факты из статьи, без оценок и без выдумок; если в статье мало "
     "информации, пиши короче, но ничего не додумывай. "
-    "Названия мест (Port-Louis, Sainte-Croix, Camp-Levieux) оставляй латиницей. "
-    "Имена людей пиши по-русски в общепринятой транскрипции (Navin Ramgoolam — "
-    "Навин Рамгулам). Рупии — «рупий». Словарик: couvre-feu — комендантский "
+    "Имена и фамилии людей, названия мест, организаций, партий и компаний "
+    "оставляй латиницей, точно как в оригинале (Navin Ramgoolam, Kobita Jugnauth, "
+    "Bruneau Laurette, Port-Louis, Sainte-Croix, Business Mauritius); склонять их "
+    "не нужно, при необходимости добавь русское слово: «премьер-министр Navin "
+    "Ramgoolam», «в городе Curepipe». Рупии — «рупий». Словарик: couvre-feu — комендантский "
     "час; Assemblée nationale — Национальное собрание; DPP — генпрокурор (DPP); "
     "IPCC — комиссия по жалобам на полицию (IPCC); SMF — спецподразделение SMF; "
     "CWA — водоканал CWA; Premier ministre — премьер-министр."
@@ -118,7 +124,8 @@ DUP_PROMPT = (
     "заявление человека, которого ещё не цитировали. "
     "Если всё главное в статье уже есть в опубликованном (тот же указ, та же речь, "
     "то же событие в пересказе другого СМИ или повторная статья того же СМИ, "
-    "прямой эфир того, о чём уже написали) — это дубль. "
+    "прямой эфир того, о чём уже написали, материал печатного номера или обзор, "
+    "пересказывающий вчерашние события) — это дубль, даже если статья новее. "
     "Если есть новый важный факт — не дубль, даже если тема та же. "
     "Ответь строго JSON в таком порядке полей: "
     '{"new_facts": "какие новые важные факты есть, или пусто", '
@@ -135,9 +142,16 @@ _llm_state = {"disabled": False, "model": None, "exhausted": set(), "tokens": 0,
 
 
 def load_seen():
+    seen = None  # None = first run
     if SEEN_FILE.exists():
-        return json.loads(SEEN_FILE.read_text(encoding="utf-8"))
-    return None  # None = first run
+        seen = json.loads(SEEN_FILE.read_text(encoding="utf-8"))
+    # Safety net while moving state out of main: merge any old copy there
+    old = Path("seen.json")
+    if old.exists() and old.resolve() != SEEN_FILE.resolve():
+        known = set(seen or [])
+        seen = (seen or []) + [u for u in json.loads(old.read_text(encoding="utf-8"))
+                               if u not in known]
+    return seen
 
 
 def save_seen(seen):
@@ -344,13 +358,24 @@ def find_duplicate(orig_title, lead, recent):
     if not recent:
         return None
     for i, x in enumerate(recent, 1):
-        if x.get("orig") and same_title(orig_title, x["orig"]):
+        if x.get("orig") and same_title(orig_title, x["orig"]) and x.get("t", 0) > time.time() - 36 * 3600:
             print(f"  same headline as #{i}: {x['orig'][:80]}")
             return i
     if not LLM_KEY or _llm_state["disabled"]:
         return None
-    listing = "\n".join(f"{i}. {x['title']} — {x.get('summary', '')[:180]}"
-                         for i, x in enumerate(recent, 1))
+    # Show the model the latest posts plus the most similar older ones
+    probe = _norm_title(orig_title) | _norm_title(lead[:400])
+    def score(x):
+        w = _norm_title(x.get("orig", ""))
+        return len(w & probe) / (len(w) + 2) if w else 0
+    idx = list(range(len(recent)))
+    latest = idx[-DUP_LATEST:]
+    similar = sorted((i for i in idx[:-DUP_LATEST] if score(recent[i]) > 0),
+                     key=lambda i: -score(recent[i]))[:DUP_SIMILAR]
+    shown = sorted(set(latest) | set(similar))
+    when = lambda x: time.strftime("%d.%m %H:%M", time.gmtime(x.get("t", 0) + 4 * 3600))
+    listing = "\n".join(f"{i + 1}. [{when(recent[i])}] {recent[i].get('orig') or recent[i]['title']}"
+                         f" — {recent[i].get('summary', '')[:160]}" for i in shown)
     msg = (f"Новая статья:\n{orig_title}\n{lead[:700]}\n\n"
            f"Уже опубликовано:\n{listing}")
     free = [m for m in DUP_MODELS if m not in _llm_state["exhausted"]]

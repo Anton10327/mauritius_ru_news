@@ -23,7 +23,7 @@ on:
         default: false
 
 permissions:
-  contents: write             # to save seen.json back to the repo
+  contents: write             # to save the bot's state to the "state" branch
 
 concurrency:
   # test/compare/probe runs don't touch the bot's state, so they don't wait
@@ -36,6 +36,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # The bot's memory (seen.json, recent.json, state.json, logs) lives in
+      # the separate "state" branch, so main only has code changes.
+      - uses: actions/checkout@v4
+        with:
+          ref: state
+          path: state
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -47,48 +54,50 @@ jobs:
         run: |
           set -o pipefail
           set +e  # errors are handled explicitly below; a missing file must not stop the bot
-          git config user.name "news-bot"
-          git config user.email "news-bot@users.noreply.github.com"
-          # Save the bot's state to the repo. Only this job writes seen.json,
-          # recent.json and state.json, so our copy always wins a conflict.
+          git -C state config user.name "news-bot"
+          git -C state config user.email "news-bot@users.noreply.github.com"
+          # Save the bot's state to the "state" branch. Only this job writes
+          # there, so our copy always wins a conflict.
           save_state() {
-            files="$1"
-            git add $files 2>/dev/null
-            git diff --cached --quiet && return 0
-            git commit -q -m "update seen"
-            for try in 1 2 3; do
-              if git pull --rebase -q -X theirs && git push -q; then return 0; fi
-              git rebase --abort 2>/dev/null
-              mkdir -p /tmp/keep && cp $files /tmp/keep/ 2>/dev/null
-              git fetch -q origin main && git reset -q --hard origin/main
-              cp /tmp/keep/* . 2>/dev/null
+            ( cd state
+              files=$(ls $1 2>/dev/null)   # only files that exist
               git add $files 2>/dev/null
-              git diff --cached --quiet || git commit -q -m "update seen"
-              git push -q && return 0
-              sleep 5
-            done
-            echo "WARNING: could not save state to the repo" | tee -a last_run.log
-            return 1
+              git diff --cached --quiet && exit 0
+              git commit -q -m "update state"
+              for try in 1 2 3; do
+                if git pull --rebase -q -X theirs origin state && git push -q origin HEAD:state; then exit 0; fi
+                git rebase --abort 2>/dev/null
+                mkdir -p /tmp/keep && cp $files /tmp/keep/ 2>/dev/null
+                git fetch -q origin state && git reset -q --hard origin/state
+                cp /tmp/keep/* . 2>/dev/null
+                git add $files 2>/dev/null
+                git diff --cached --quiet || git commit -q -m "update state"
+                git push -q origin HEAD:state && exit 0
+                sleep 5
+              done
+              echo "WARNING: could not save state" | tee -a last_run.log
+              exit 1 )
           }
           # Test modes write their own log and never touch the bot's state
-          if [ "${{ inputs.probe }}" = "true" ]; then python probe.py 2>&1 | tee test_run.log; save_state test_run.log; exit 0; fi
-          if [ "${{ inputs.dupeval }}" = "true" ]; then python bot.py --dupeval 2>&1 | tee test_run.log; save_state test_run.log; exit 0; fi
+          if [ "${{ inputs.probe }}" = "true" ]; then python probe.py 2>&1 | tee state/test_run.log; save_state test_run.log; exit 0; fi
+          if [ "${{ inputs.dupeval }}" = "true" ]; then python bot.py --dupeval 2>&1 | tee state/test_run.log; save_state test_run.log; exit 0; fi
           if [ "${{ inputs.test }}" = "true" ] || [ "${{ inputs.compare }}" = "true" ]; then
-            python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee test_run.log || true
-            git checkout -- seen.json recent.json state.json 2>/dev/null || true
+            python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee state/test_run.log || true
+            git -C state checkout -- seen.json recent.json state.json 2>/dev/null || true
             save_state test_run.log; exit 0
           fi
           # GitHub starts scheduled runs only every ~25 minutes, so each run
           # checks the news several times, 4 minutes apart.
           LOOPS=1; [ "${{ github.event_name }}" = "schedule" ] && LOOPS=5
-          : > last_run.log
+          : > state/last_run.log
           for i in $(seq 1 $LOOPS); do
-            echo "### check $i/$LOOPS at $(TZ=Indian/Mauritius date +%H:%M)" | tee -a last_run.log
-            python bot.py 2>&1 | tee -a last_run.log || true
-            save_state "last_run.log $(ls seen.json state.json recent.json 2>/dev/null | tr '\n' ' ')"
+            echo "### check $i/$LOOPS at $(TZ=Indian/Mauritius date +%H:%M)" | tee -a state/last_run.log
+            python bot.py 2>&1 | tee -a state/last_run.log || true
+            save_state "last_run.log seen.json recent.json state.json"
             if [ $i -lt $LOOPS ]; then sleep 240; fi
           done
         env:
+          STATE_DIR: state
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
