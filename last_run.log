@@ -1,9 +1,10 @@
-### check 1/5 at 20:45
-Posted (L'Express): Туризм: Маврикий вновь преодолел отметку в миллион прибытий, доходы выросли на 18%
-LLM usage this run: 3 requests, 4715 tokens
-### check 2/5 at 20:49
-### check 3/5 at 20:53
-### check 4/5 at 20:57
-### check 5/5 at 21:01
-Posted (L'Express): Вопросы... Gregory Coquet: «Остров Île-aux-Cerfs должен оставаться доступным, но при этом лучше защищенным»
-LLM usage this run: 3 requests, 4699 tokens
+### check 1/5 at 21:16
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Couvre-feu: deux nouvelles nuits de couvre-feu, 94 arrestations et dispositif policier ren == Беспорядки и мародерство: 94 задержания, включая 16 несовершеннолетних и одного полицейско
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Carburant en bidon : nouvelles restrictions à partir de minuit == Бензин, дизель и керосин: ограничения на продажу топлива в канистрах и других емкостях
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): После напряженной ночи в понедельник: Xavier-Luc Duval, лидер партии PMSD
+  same headline as #82: Décision du Cabinet : couvre-feu pour deux nuits supplémentaires
+Skipped duplicate (Defimedia): Décision du Cabinet : le couvre-feu prolongé jusqu’à vendredi matin et étendu à deux nouve == Решение кабинета: комендантский час на две ночи дольше
+LLM usage this run: 5 requests, 9227 tokens
