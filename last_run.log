@@ -1,32 +1,4 @@
-### check 1/5 at 14:26
-  proofread: выразил соболезнования семье Mme Aelodie Thomas и пожелал ей скорейшего выздоровления → выразил соболезнования семье Mme Aelodie Thomas и пожелал скорейшего выздоровления
-Posted (Le Mauricien): Отец Philippe Goupille (Совет религий): «Насилие не решает ни одной проблемы»
-Posted (Le Mauricien): Patrick Belcourt (En Avant Moris): «Прогресс не будет достигнут через насилие»
-Posted (Le Mauricien): Джумма Масджид: «В эти трудные времена давайте будем единством и солидарностью»
-Posted (Le Mauricien): Пуля извлечена из шеи: после сложной пятиэтапной операции — отец: «Элоди поняла нас, увидела маму и закрыла глаза»
-Posted (Le Mauricien): Clency Bibi (GWF): «Огонь тлел под пеплом уже давно»
+### check 1/5 at 15:01
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Kushal Lobine (leader des Nouveaux démocrates) : « Nou bizin nou tou ena enn sel obzektif, == Беспорядки: Pravind Jugnauth призывает к спокойствию и требует от правительства действоват
-LLM usage this run: 16 requests, 20329 tokens
-### check 2/5 at 14:31
-Posted (Le Mauricien): После жаркой ночи понедельника — Haniff Peerun (MLC): «Комендантский час может быть экстренной мерой, но он не может заменить долгосрочную политику»
-Posted (Defimedia): Местное производство: 7 312 тонн бананов собрано в первом полугодии
-Posted (Le Mauricien): Неспокойная ночь в Bambous и Bel-Ombre
-LLM per-minute limit, waiting 5s
-Posted (Defimedia): Туризм: рубеж в миллион посетителей преодолён за девять месяцев
-Proofreading failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
-Posted (Le Mauricien): Business Mauritius переходит в режим повышенной готовности
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Vandalisme et pillages – Dans la nuit de lundi à mardi : La grande distribution accuse le  == Операция «Триггер-Хэппи» Полиция — после напряжённой ночи в понедельник: Рамгулам вводит к
-LLM usage this run: 15 requests, 19254 tokens
-### check 3/5 at 14:36
-Posted (Le Mauricien): Летний период: кампания по снижению нагрузки на электросеть
-  same headline as #8: Affaire des valises de Rs 114 millions : Troisième audition pour Kobita Jugnauth
-Skipped duplicate (Defimedia): Affaire des valises de Rs 114 millions : Kobita Jugnauth quitte la FCC après trois heures  == Дело о чемоданах с 114 миллионами рупий: Кобита Жогно прошла третье допрос в FCC
-  dup: nothing new ()
-Skipped duplicate (Inside News): Maurice dans la presse internationale : une crise locale qui devient un problème d’image == Операция «Триггер-Хэппи» Полиция — после напряжённой ночи в понедельник: Рамгулам вводит к
-  proofread: 
-Posted (Top FM): «Вместе защищаем свою страну»: картина Ali Khodabaccus — призыв к единству и солидарности
-LLM usage this run: 7 requests, 8828 tokens
-### check 4/5 at 14:40
-### check 5/5 at 14:45
+Skipped duplicate (L'Express): L’après-Camp-Levieux  : Le couvre-feu n’a pas tout éteint == Операция «Триггер-Хэппи» Полиция — после напряжённой ночи в понедельник: Рамгулам вводит к
+LLM usage this run: 1 requests, 2408 tokens
