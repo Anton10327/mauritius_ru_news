@@ -1,19 +1,5 @@
-### check 1/5 at 10:29
-Posted (Defimedia): Ощущение скоординированных действий ускорило правительственное решение
-Posted (L'Express): Дело о чемоданах с 114 миллионами рупий: Кобита Жогно прошла третье допрос в FCC
-LLM usage this run: 4 requests, 7262 tokens
-### check 2/5 at 10:33
-Posted (Defimedia): Декларация доходов в MRA: остался всего один день до дедлайна 15 октября
-Posted (Defimedia): Вспышка насилия: полиция на всех фронтах: арестованы четырнадцать человек, включая двух несовершеннолетних
-LLM usage this run: 4 requests, 7770 tokens
-### check 3/5 at 10:38
-### check 4/5 at 10:42
-### check 5/5 at 10:46
-LLM per-minute limit, waiting 2s
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Used 967,
-Posted (Top FM): Напряжённость в стране: религиозные лидеры призывают к спокойствию и миру
-  dup: nothing new ()
-Skipped duplicate (Top FM): Paix, stabilité et cohésion sociale : Patrice Marie appelle à la responsabilité collective == Сообщение президента MCCI: Патрис Мари призывает к ответственности, солидарности и национа
-LLM per-minute limit, waiting 2s
-Posted (Top FM): Адриен Дуваль требует немедленного созыва парламента из‑за напряжённости в стране
-LLM usage this run: 5 requests, 9646 tokens
+### check 1/5 at 11:17
+Posted (L'Express): ДТП в Ла Каверн: 25-летний мотоциклист скончался от полученных травм
+Posted (Top FM): Напряженность по всему острову – повреждены инфраструктурные объекты: «Счет за это будем платить мы сами», — подчеркивает Аджай Ганнес
+Posted (Top FM): Инциденты в стране: Ричард Дюваль предупреждает о последствиях для туризма и призывает к спокойствию
+LLM usage this run: 9 requests, 12785 tokens
