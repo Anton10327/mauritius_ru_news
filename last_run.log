@@ -1,30 +1,7 @@
-### check 1/5 at 17:03
-Posted (Le Mauricien): Aniff Muslam (Сообщество мусульман Ахмадия): «Как один народ, одна нация»
-Posted (Le Mauricien): Путевые заметки: Ошеломляющее разнообразие в сердце Куала-Лумпура
-Posted (Le Mauricien): Расследование стрельбы: генпрокурор не исключает возможности судебного расследования
+### check 1/5 at 17:42
+Posted (Defimedia): Élodie Thomas теперь может говорить шепотом и больше не нуждается в респираторной поддержке
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Élodie n’a désormais plus besoin d’un respirateur artificiel. == Раненная в результате стрельбы: Элоди Томас больше не находится на искусственной вентиляци
-Posted (Defimedia): Roche-Bois: предприятие подверглось разграблению, ущерб оценивается в 5,4 миллиона рупий
-Posted (Le Mauricien): После жаркой ночи в понедельник: Dave Kissoondoyal (STOP): «Комендантский час может принести тишину»
-LLM usage this run: 16 requests, 22081 tokens
-### check 2/5 at 17:08
-Posted (Defimedia): В центре информации: как помочь стране вернуть себе спокойствие?
-Posted (Inside News): Видео: Албания – 23 задержанных после более чем восьмичасовых столкновений в Тиране
-Posted (Le Mauricien): Епископ Port-Louis Jean-Michaël Durhône: «Гнев и насилие могут поставить нашу страну под угрозу»
-Posted (L'Express): После событий в Camp-Levieux: родители спокойны, ученики под давлением
-Posted (Le Mauricien): Coteau-Raffin — Кража алкоголя из грузовика: задержаны двое подозреваемых 22 лет, сообщники в розыске
-Posted (Top FM): Дело Элоди Томас: Правинд Жогно говорит, что рад улучшению её состояния здоровья
-LLM usage this run: 18 requests, 23906 tokens
-### check 3/5 at 17:13
-### check 4/5 at 17:17
-### check 5/5 at 17:21
-Posted (Defimedia): Последние инциденты: пожары уничтожили 11 000 тонн сахарного тростника, сообщает Палата сельского хозяйства
-Posted (Defimedia): Образование: занятия в четверг и пятницу отменены, экзамены SC и HSC пройдут по плану
-Posted (Defimedia): Больница Jeetoo: мать попыталась забрать своего месячного ребенка, несмотря на ограничения
-Too little text (264 chars), title only: https://defimedia.info/couvre-feu-de-20-h-30-ce-mercredi-5-heures-jeudi-matin
-Google Translate failed: TooManyRequests
-Posted (Defimedia): Комендантский час: с 20:30 в эту среду до 5:00 в четверг утром
-Too little text (284 chars), title only: https://defimedia.info/petite-enfance-les-creches-resteront-fermees-ce-jeudi-15-octobre
-Google Translate failed: TooManyRequests
-Posted (Defimedia): Раннее детство: детские сады будут закрыты в этот четверг, 15 октября
-LLM usage this run: 13 requests, 15209 tokens
+Skipped duplicate (Defimedia): Enseignement supérieur : les cours se feront en ligne jeudi et vendredi == Образование: занятия в четверг и пятницу отменены, экзамены SC и HSC пройдут по плану
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Incendies dévastent 11 000 tonnes de canne à sucre à l’Île Maurice, l’organisme agricole m == Последние инциденты: пожары уничтожили 11 000 тонн сахарного тростника, сообщает Палата се
+LLM usage this run: 5 requests, 8324 tokens
