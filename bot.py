@@ -65,6 +65,20 @@ LLM_URL = os.environ.get("LLM_URL", "").strip() or \
 LLM_MODELS = [m.strip() for m in (os.environ.get("LLM_MODELS", "").strip() or
               "qwen/qwen3.8-27b,openai/gpt-oss-120b,openai/gpt-oss-20b"
               ).split(",") if m.strip()]
+# Proofreading pass. Only Qwen: in tests gpt-oss over-edited and changed meaning
+PROOF_MODELS = ["qwen/qwen3.8-27b"]
+PROOF_PROMPT = (
+    "Ты корректор русскоязычного новостного канала. Исправь в заголовке и тексте "
+    "только явные ошибки русского языка: орфографию, согласование родов, чисел и "
+    "падежей (например, «третье допрос» → «третий допрос»), предлоги и управление "
+    "(«в территорию» → «на территорию»), пунктуацию, неестественные кальки с "
+    "французского. Не меняй смысл, факты, цифры, даты, имена, названия и слова "
+    "латиницей; ничего не добавляй и не убирай; не переписывай то, что и так "
+    "правильно — если ошибок нет, верни текст как есть. "
+    "Верни строго JSON: {\"title\": \"...\", \"summary\": \"...\", "
+    "\"changes\": [\"было → стало\", ...]}."
+)
+
 # Duplicate checks are a reasoning task: a different model order works better
 DUP_MODELS = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"]
 ARTICLE_CHARS = 4000     # article text sent to the model (keeps within free limits)
@@ -80,6 +94,8 @@ PROMPT = (
     "переводи на русский по смыслу, сохраняя кавычки; ни одного слова на "
     "французском или креольском в title остаться не должно. "
     "summary — пересказ своими словами на русском в 2–4 предложениях, "
+    "грамотным живым русским языком, как в хорошем новостном издании "
+    "(проверь согласование слов в роде, числе и падеже), "
     "до 600 символов: что произошло, где, кто, что дальше; ключевые цифры "
     "(число пострадавших, арестованных, суммы, даты) сохраняй. "
     "Только факты из статьи, без оценок и без выдумок; если в статье мало "
@@ -374,6 +390,55 @@ def find_duplicate(orig_title, lead, recent):
     return None
 
 
+def _safe_edit(old, new):
+    """Accept a proofread version only if it kept numbers, Latin words and size."""
+    if not new or not isinstance(new, str):
+        return False
+    digits = lambda t: sorted(re.findall(r"\d+", t))
+    latin = lambda t: sorted(re.findall(r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'’.-]*", t))
+    if digits(old) != digits(new) or latin(old) != latin(new):
+        return False
+    return 0.85 <= len(new) / max(len(old), 1) <= 1.15
+
+
+def proofread(title, summary):
+    """Second pass that fixes Russian language errors. Returns (title, summary)."""
+    free = [m for m in PROOF_MODELS if m not in _llm_state["exhausted"]]
+    if not free or not LLM_KEY or _llm_state["disabled"]:
+        return title, summary
+    messages = [{"role": "system", "content": PROOF_PROMPT},
+                {"role": "user", "content": f"Заголовок: {title}\nТекст: {summary}"}]
+    try:
+        r = _llm_call(free[0], messages, 700)
+        if r.status_code == 429:
+            wait = float(r.headers.get("retry-after", "0") or 0)
+            if "per minute" in r.text and not wait:
+                wait = 30
+            if not 0 < wait <= 60:
+                _llm_state["exhausted"].add(free[0])
+                print("Proofreading skipped: daily limit")
+                return title, summary
+            time.sleep(wait + 1)
+            r = _llm_call(free[0], messages, 700)
+        if not r.ok:
+            print(f"Proofreading failed {r.status_code}: {r.text[:120]}")
+            return title, summary
+        d = _parse_json(r.json()["choices"][0]["message"]["content"]) or {}
+    except Exception as e:
+        print(f"Proofreading failed: {e}")
+        return title, summary
+    new_t, new_s = (d.get("title") or "").strip(), (d.get("summary") or "").strip()
+    out_t = new_t if _safe_edit(title, new_t) else title
+    out_s = new_s if (not summary or _safe_edit(summary, new_s)) else summary
+    if not summary:
+        out_s = summary
+    if (out_t, out_s) != (title, summary):
+        print(f"  proofread: {'; '.join(d.get('changes') or [])[:300]}")
+    elif (new_t and new_t != title) or (new_s and new_s != summary):
+        print("  proofread: edit rejected (changed numbers, names or length)")
+    return out_t, out_s
+
+
 def load_recent():
     """Headlines posted in the last RECENT_HOURS, oldest first."""
     try:
@@ -424,6 +489,7 @@ def build_post(source, entry, link, recent=()):
     else:
         title = translate(orig_title)
         summary = translate(feed_text[:450]) if feed_text and len(feed_text) > 40 else ""
+    title, summary = proofread(title, summary)
     post["title"], post["summary"] = title, summary
 
     footer = f'🔗 <a href="{html.escape(link)}">{html.escape(source)}</a>'
