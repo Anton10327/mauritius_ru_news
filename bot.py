@@ -54,8 +54,8 @@ STATE_FILE = STATE_DIR / "state.json"  # remembers which alerts were sent today
 RECENT_FILE = STATE_DIR / "recent.json"  # recently posted headlines, for duplicate checks
 RECENT_HOURS = 48                  # remember posts from this period for duplicate checks
 RECENT_MAX = 400
-DUP_LATEST = 8                     # duplicate check sees the latest posts...
-DUP_SIMILAR = 14                   # ...plus the most similar ones from RECENT_HOURS
+DUP_LATEST = 5                     # duplicate check sees the latest posts...
+DUP_SIMILAR = 8                    # ...plus the most similar ones from RECENT_HOURS
 MAX_SEEN = 2000          # how many item IDs to remember
 FIRST_RUN_POSTS = 3      # on the very first run, post only the latest N items
 MAX_POSTS_PER_RUN = 4    # posts per check; the rest wait for the next check
@@ -82,6 +82,7 @@ PROOF_PROMPT = (
     "правильно. Исключение: если имя человека, название места или организации "
     "написано кириллицей, а в оригинале (дан ниже) латиницей — замени его на "
     "латинское написание из оригинала («Правинд Жогно» → «Pravind Jugnauth», "
+    "«четверо-Борнс» → «Quatre-Bornes», "
     "«Элоди Томас» → «Élodie Thomas»); слова «премьер-министр», «министр» и т. п. "
     "оставь по-русски. "
     "Верни строго JSON: {\"title\": \"...\", \"summary\": \"...\", "
@@ -89,8 +90,9 @@ PROOF_PROMPT = (
 )
 
 # Duplicate checks are a reasoning task: a different model order works better
-DUP_MODELS = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"]
-ARTICLE_CHARS = 4000     # article text sent to the model (keeps within free limits)
+# Qwen is kept for writing; repeats are judged by gpt-oss only
+DUP_MODELS = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
+ARTICLE_CHARS = 2500     # article text sent to the model (keeps within free limits)
 MIN_TEXT_FOR_SUMMARY = 80   # less text than this -> no summary, title only
 
 PROMPT = (
@@ -117,7 +119,11 @@ PROMPT = (
     "русский, ничего не добавляя и не додумывая. "
     "Имена и фамилии людей, названия мест, организаций, партий и компаний "
     "оставляй латиницей, точно как в оригинале (Navin Ramgoolam, Kobita Jugnauth, "
-    "Bruneau Laurette, Port-Louis, Sainte-Croix, Business Mauritius); склонять их "
+    "Bruneau Laurette, Port-Louis, Sainte-Croix, Business Mauritius); названия "
+    "городов и районов никогда не переводи по частям: Quatre-Bornes, Rose-Hill, "
+    "Beau-Bassin, Vacoas, Curepipe, Grand-Baie, Mahébourg, Rivière-Noire, "
+    "Pamplemousses, Flacq, Plaine-Verte, Roche-Bois, Pointe-aux-Sables. Про остров "
+    "пиши «на Маврикии», «на Маврикий», «с Маврикия» (не «в Маврикии»); склонять их "
     "не нужно, при необходимости добавь русское слово: «премьер-министр Navin "
     "Ramgoolam», «в городе Curepipe». Рупии — «рупий». Словарик: couvre-feu — комендантский "
     "час; Assemblée nationale — Национальное собрание; DPP — генпрокурор (DPP); "
@@ -381,6 +387,10 @@ def find_duplicate(orig_title, lead, recent):
     def score(x):
         w = _norm_title(x.get("orig", ""))
         return len(w & probe) / (len(w) + 2) if w else 0
+    # No significant word in common with anything recent: not a repeat, and
+    # no need to spend tokens asking the model
+    if max((len(_norm_title(x.get("orig", "")) & probe) for x in recent), default=0) < 2:
+        return None
     idx = list(range(len(recent)))
     latest = idx[-DUP_LATEST:]
     similar = sorted((i for i in idx[:-DUP_LATEST] if score(recent[i]) > 0),
@@ -388,7 +398,7 @@ def find_duplicate(orig_title, lead, recent):
     shown = sorted(set(latest) | set(similar))
     when = lambda x: time.strftime("%d.%m %H:%M", time.gmtime(x.get("t", 0) + 4 * 3600))
     listing = "\n".join(f"{i + 1}. [{when(recent[i])}] {recent[i].get('orig') or recent[i]['title']}"
-                         f" — {recent[i].get('summary', '')[:160]}" for i in shown)
+                         f" — {recent[i].get('summary', '')[:90]}" for i in shown)
     msg = (f"Новая статья:\n{orig_title}\n{lead[:700]}\n\n"
            f"Уже опубликовано:\n{listing}")
     free = [m for m in DUP_MODELS if m not in _llm_state["exhausted"]]
@@ -442,6 +452,20 @@ def _safe_edit(old, new, original=""):
     if any(w not in new_l for w in old_l) or any(w.lower() not in allowed for w in new_l):
         return False
     return 0.8 <= len(new) / max(len(old), 1) <= 1.2
+
+
+_FIXES = [
+    (r"\b([Вв]) Маврики(и|й)\b", lambda m: ("Н" if m.group(1) == "В" else "н") + "а Маврики" + m.group(2)),
+    (r"\b([Ии])з Маврикия\b", lambda m: ("С" if m.group(1) == "И" else "с") + " Маврикия"),
+    (r"\b([Вв]) Родригес[еа]?\b", lambda m: ("Н" if m.group(1) == "В" else "н") + "а Rodrigues"),
+]
+
+
+def fix_russian(text):
+    """Deterministic fixes the models keep getting wrong."""
+    for pattern, repl in _FIXES:
+        text = re.sub(pattern, repl, text or "")
+    return text
 
 
 def proofread(title, summary, original=""):
@@ -538,6 +562,7 @@ def build_post(source, entry, link, recent=()):
         title = translate(orig_title)
         summary = translate(feed_text[:450]) if feed_text and len(feed_text) > 40 else ""
     title, summary = proofread(title, summary, f"{orig_title}\n{body[:1500]}")
+    title, summary = fix_russian(title), fix_russian(summary)
     post["title"], post["summary"] = title, summary
 
     footer = f'🔗 <a href="{html.escape(link)}">{html.escape(source)}</a>'
