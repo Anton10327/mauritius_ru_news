@@ -18,3 +18,14 @@ Posted (Le Mauricien): Аренда автопарка — Решения по �
 Skipped duplicate (Le Mauricien): Pour le peuple de mon île == Насилие на Маврикии: ПМСД осуждает инциденты и призывает делать ставку на молодежь
 Posted (Le Mauricien): Операция «Триггер-Хэппи» Полиция — после напряжённой ночи в понедельник: Рамгулам вводит комендантский час в 15 регионах
 LLM usage this run: 12 requests, 22510 tokens
+### check 5/5 at 12:14
+  same headline as #19: Incidents pendant le couvre-feu : 93 arrestations, dont 15 mineurs
+Skipped duplicate (Le Mauricien): Couvre-feu : 93 arrestations, dont 15 mineurs, après les incidents == Инциденты во время комендантского часа: 93 задержания, включая 15 несовершеннолетних
+  proofread: Режиссер отметила → Режиссер отметил
+Posted (Le Mauricien): Театр: Пьеса «Гамлет» поставлена и исполнена блестяще
+Posted (Top FM): Korek Pas Korek: слушатели призывают к миру и ответственности
+  same headline as #17: Incidents pendant le couvre-feu : 93 arrestations, dont 15 mineurs
+Skipped duplicate (Top FM): Couvre-feu : 93 personnes arrêtées, dont 15 mineurs == Инциденты во время комендантского часа: 93 задержания, включая 15 несовершеннолетних
+  dup: nothing new ()
+Skipped duplicate (Top FM): Tensions dans le pays : Pravind Jugnauth condamne la violence et appelle au retour au calm == Правинд Жогно: «Насилие никогда не является решением»
+LLM usage this run: 7 requests, 11390 tokens
