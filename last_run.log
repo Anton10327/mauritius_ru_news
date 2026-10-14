@@ -19,3 +19,5 @@ Proofreading skipped: daily limit
 Posted (Defimedia): SaveMax: супермаркеты в Camp-Levieux и Bambous разграблены в ночь со вторника на среду
 Posted (Defimedia): Полиция мобилизована для предотвращения любых непредвиденных обстоятельств
 LLM usage this run: 3 requests, 3982 tokens
+### check 5/5 at 22:08
+Could not read L'Express: ReadTimeout HTTPSConnectionPool(host='lexpress.mu', port=443): Read timed out. (read timeout=30)
