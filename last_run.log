@@ -1,20 +1,7 @@
-### check 1/5 at 19:28
-Posted (Defimedia): Бензин, дизель и керосин: ограничения на продажу топлива в канистрах и других емкостях
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198947, Reque
-Posted (Defimedia): Решение кабинета: комендантский час на две ночи дольше
-LLM usage this run: 5 requests, 8362 tokens
-### check 2/5 at 19:32
-  same headline as #60: Au Cœur de l’Info : comment aider le pays à retrouver sa sérénité ?
-Skipped duplicate (Defimedia): Au Cœur de l’Info : comment aider le pays à retrouver sa sérénité ? == В центре информации: как помочь стране вернуть себе спокойствие?
-Proofreading skipped: daily limit
-Posted (L'Express): Ограбление районного суда в Rivière-Noire: пропали вещественные доказательства и компьютерный сервер
-LLM usage this run: 2 requests, 2989 tokens
-### check 3/5 at 19:36
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Troubles : Roshi Bhadain exhorte les jeunes à réfléchir aux conséquences de leurs actes == Roshi Bhadain молодым: «Не превращайте несправедливость в другую несправедливость»
-LLM usage this run: 1 requests, 2289 tokens
-### check 4/5 at 19:40
-### check 5/5 at 19:44
-Proofreading failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
-Posted (Defimedia): Беспорядки и мародерство: 94 задержания, включая 16 несовершеннолетних и одного полицейского, семь сотрудников полиции ранены
-LLM usage this run: 2 requests, 3491 tokens
+### check 1/5 at 20:09
+Posted (Defimedia): Беспорядки и мародерство: в случаях, когда это применимо, будут возбуждены дела по закону о противодействии терроризму
+Posted (Defimedia): Беспорядки и мародерство: правительство рассматривает снижение возраста задержания и преследования несовершеннолетних с 14 до 12 лет
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199653, Reque
+Posted (Defimedia): Инциденты 12 октября: суд в Бамбусе разграблен, его деятельность перенесена в суд в Роуз-Хилле
+Posted (L'Express): Кризис воды: два эксперта синтезируют решения
+LLM usage this run: 10 requests, 15845 tokens
