@@ -1,18 +1,1 @@
-### check 1/5 at 22:29
-  dup: nothing new ()
-Skipped duplicate (L'Express): Violences : l’âge de détention des mineurs pourrait passer de 14 à 12 ans == Беспорядки и мародерство: правительство рассматривает снижение возраста задержания и пресл
-Posted (Defimedia): Воздушные патрули полиции: вертолет Dhruv замечен над Camp-Levieux и Port-Louis
-  dup: nothing new ()
-Skipped duplicate (L'Express): Violences : des poursuites possibles sous le Prevention of Terrorism Act == Беспорядки и мародерство: в случаях, когда это применимо, будут возбуждены дела по закону 
-Duplicate check skipped, limit reached for openai/gpt-oss-120b
-Proofreading skipped: daily limit
-Posted (L'Express): Комендантский час: Business Mauritius призывает компании продолжать работу
-LLM usage this run: 6 requests, 7243 tokens
-### check 2/5 at 22:33
-Duplicate check skipped, limit reached for openai/gpt-oss-120b
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198929, Reque
-Posted (L'Express): На Маврикии строго ограничат продажу бензина, дизеля и керосина в контейнерах
-LLM usage this run: 1 requests, 1539 tokens
-### check 3/5 at 22:37
-### check 4/5 at 22:41
-### check 5/5 at 22:45
+### check 1/5 at 23:10
