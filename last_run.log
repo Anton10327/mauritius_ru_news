@@ -1,16 +1,5 @@
-### check 1/5 at 17:42
-Posted (Defimedia): Élodie Thomas теперь может говорить шепотом и больше не нуждается в респираторной поддержке
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Enseignement supérieur : les cours se feront en ligne jeudi et vendredi == Образование: занятия в четверг и пятницу отменены, экзамены SC и HSC пройдут по плану
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Incendies dévastent 11 000 tonnes de canne à sucre à l’Île Maurice, l’organisme agricole m == Последние инциденты: пожары уничтожили 11 000 тонн сахарного тростника, сообщает Палата се
-LLM usage this run: 5 requests, 8324 tokens
-### check 2/5 at 17:47
-### check 3/5 at 17:51
-### check 4/5 at 17:55
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Éducation : les examens des Grades 4 et 5 et du NCE reportés, ceux du SC et du HSC mainten == Министерство подтверждает перенос пяти экзаменов из-за сохраняющихся проблем национальной 
-  not about Mauritius: Le FMI prévoit un ralentissement mondial moins marqué grâce au boom de l’IA, mais avertit que l’écon
-Skipped foreign news (Defimedia): Le FMI prévoit un ralentissement mondial moins marqué grâce au boom de l’IA, mais avertit que l’écon
-LLM usage this run: 3 requests, 5130 tokens
-### check 5/5 at 17:59
+### check 1/5 at 18:14
+  proofread: экономического витрина → экономической витрины
+Posted (L'Express): Освещение: Срочная необходимость умиротворения для сохранения экономической витрины
+Posted (Inside News): Видео: Индийский океан — Франция перехватила танкер, связанный с «призрачным флотом» России
+LLM usage this run: 6 requests, 8543 tokens
