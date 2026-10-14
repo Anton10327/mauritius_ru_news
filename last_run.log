@@ -14,3 +14,11 @@ Skipped duplicate (Le Mauricien): La caricature du Mauricien du 14  octobre 2026
 Proofreading skipped: daily limit
 Posted (Le Mauricien): Наша жажда вечности
 LLM usage this run: 6 requests, 10204 tokens
+### check 5/5 at 19:09
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199342, Reque
+Posted (Le Mauricien): ИНЦИДЕНТЫ ПО ВСЕЙ ОСТРОВУ: Полиция обещает масштабную наступательную операцию против наркоторговцев
+  same headline as #77: Transport public : les autobus reprendront du service à partir de 5 heures ce je
+Skipped duplicate (L'Express): Transport public : les autobus reprendront du service dès 5 heures ce jeudi 15 octobre == Общественный транспорт: автобусы возобновят работу с 5 часов в четверг
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Après la nuit chaude de lundi: Chetan Baboolall, leader de l’opposition == После жаркой ночи понедельника — Haniff Peerun (MLC): «Комендантский час может быть экстре
+LLM usage this run: 3 requests, 6907 tokens
