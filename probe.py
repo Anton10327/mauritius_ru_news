@@ -1,17 +1,13 @@
-"""Check short-article summaries and name restoration (posts nothing)."""
 import bot
-for title, link in [
-    ("Couvre-feu : de 20 h 30 ce mercredi à 5 heures jeudi matin", "https://defimedia.info/couvre-feu-de-20-h-30-ce-mercredi-5-heures-jeudi-matin"),
-    ("Petite enfance : les crèches resteront fermées ce jeudi 15 octobre", "https://defimedia.info/petite-enfance-les-creches-resteront-fermees-ce-jeudi-15-octobre"),
-]:
-    e = {"title": title, "link": link, "summary": ""}
-    post = bot.build_post("Defimedia", e, link, [])
-    print(f"\n## {title}\n{post['text']}")
-print("\n== name restoration")
-for t, s, orig in [
-    ("Дело Элоди Томас: Правинд Жогно говорит, что рад улучшению её состояния",
-     "Лидер оппозиции Правинд Жогно заявил, что рад улучшению состояния Элоди Томас.",
-     "Affaire Élodie Thomas : Pravind Jugnauth se dit soulagé de l'amélioration de son état de santé. Le leader de l'opposition Pravind Jugnauth..."),
-]:
-    print(bot.proofread(t, s, orig))
-print(f"LLM usage: {bot._llm_state['calls']} requests, {bot._llm_state['tokens']} tokens")
+t="Дело Элоди Томас: Правинд Жогно говорит, что рад улучшению её состояния"
+s="Лидер оппозиции Правинд Жогно заявил, что рад улучшению состояния Элоди Томас."
+orig="Affaire Élodie Thomas : Pravind Jugnauth se dit soulagé de l'amélioration de son état de santé. Le leader de l'opposition Pravind Jugnauth..."
+r = bot._llm_call(bot.PROOF_MODELS[0], [{"role": "system", "content": bot.PROOF_PROMPT},
+     {"role": "user", "content": f"Заголовок: {t}\nТекст: {s}\n\nОригинал (для написания имён):\n{orig}"}], 700)
+d = bot._parse_json(r.json()["choices"][0]["message"]["content"])
+print(repr(d))
+ns = d.get("summary", "")
+print("safe:", bot._safe_edit(s, ns, orig), "ratio:", len(ns)/len(s))
+import re
+latin = lambda x: re.findall(r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'’.-]*", x)
+print("new latin:", latin(ns), "| orig latin sample:", latin(orig)[:12])
