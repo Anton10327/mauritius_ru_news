@@ -19,3 +19,12 @@ Posted (Le Mauricien): Business Mauritius переходит в режим по�
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): Vandalisme et pillages – Dans la nuit de lundi à mardi : La grande distribution accuse le  == Операция «Триггер-Хэппи» Полиция — после напряжённой ночи в понедельник: Рамгулам вводит к
 LLM usage this run: 15 requests, 19254 tokens
+### check 3/5 at 14:36
+Posted (Le Mauricien): Летний период: кампания по снижению нагрузки на электросеть
+  same headline as #8: Affaire des valises de Rs 114 millions : Troisième audition pour Kobita Jugnauth
+Skipped duplicate (Defimedia): Affaire des valises de Rs 114 millions : Kobita Jugnauth quitte la FCC après trois heures  == Дело о чемоданах с 114 миллионами рупий: Кобита Жогно прошла третье допрос в FCC
+  dup: nothing new ()
+Skipped duplicate (Inside News): Maurice dans la presse internationale : une crise locale qui devient un problème d’image == Операция «Триггер-Хэппи» Полиция — после напряжённой ночи в понедельник: Рамгулам вводит к
+  proofread: 
+Posted (Top FM): «Вместе защищаем свою страну»: картина Ali Khodabaccus — призыв к единству и солидарности
+LLM usage this run: 7 requests, 8828 tokens
