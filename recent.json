@@ -1,10 +1,5 @@
 [
 {
-"t": 1791912656.4859908,
-"title": "Курфёв: Business Mauritius представит рекомендации по организации работы в среду около 6:30",
-"source": "Defimedia"
-},
-{
 "t": 1791912674.7398913,
 "title": "Видео: Комендантский час с 20:30 до 6:00: разъяснения SP Dowlut",
 "source": "Defimedia"
@@ -143,5 +138,12 @@
 "source": "Defimedia",
 "orig": "Travail : Business Mauritius recommande la reprise des activités, en tenant compte des conditions locales",
 "summary": "Организация Business Mauritius рекомендовала своим членам возобновить обычную деятельность в среду, 14 октября, с учетом местных условий безопасности. Несмотря на инциденты во время комендантского час"
+},
+{
+"t": 1791947245.7934184,
+"title": "Государственный долг: оценки будут пересмотрены в сторону понижения",
+"source": "L'Express",
+"orig": "Dette publique : les estimations seront revues à la baisse",
+"summary": "Statistics Mauritius пересчитала ВВП на основе данных переписи 2023 года и рекомендаций МВФ, что привело к значительному увеличению номинального ВВП. В результате государственный долг, выраженный в пр"
 }
 ]
