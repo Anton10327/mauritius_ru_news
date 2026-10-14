@@ -1,12 +1,4 @@
-### check 1/5 at 05:47
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Le Défi Quotidien de ce mercredi 14 octobre : consultez votre journal en ligne == Напряженность в стране: Арно Лажесс призывает к спокойствию и национальному единству
-Posted (L'Express): Дени-Кло Пилот: «Наша птицеводческая отрасль обеспечивает 75% местного потребления мяса»
-Posted (Wazaa): Три важных совета по задержкам общественного транспорта, рабочим обязанностям и гибкому графику
-LLM usage this run: 5 requests, 6230 tokens
-### check 2/5 at 05:52
-### check 3/5 at 05:56
-### check 4/5 at 06:00
-Posted (L'Express): Главные заголовки газеты Express за среду, 14 октября 2026 года
-LLM usage this run: 2 requests, 2772 tokens
-### check 5/5 at 06:04
+### check 1/5 at 06:11
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+Posted (L'Express): Государство должно взять ситуацию под контроль
+LLM usage this run: 2 requests, 3250 tokens
