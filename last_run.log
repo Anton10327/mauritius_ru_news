@@ -1,24 +1,7 @@
-### check 1/5 at 21:16
+### check 1/5 at 21:52
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Couvre-feu: deux nouvelles nuits de couvre-feu, 94 arrestations et dispositif policier ren == Беспорядки и мародерство: 94 задержания, включая 16 несовершеннолетних и одного полицейско
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Carburant en bidon : nouvelles restrictions à partir de minuit == Бензин, дизель и керосин: ограничения на продажу топлива в канистрах и других емкостях
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): После напряженной ночи в понедельник: Xavier-Luc Duval, лидер партии PMSD
-  same headline as #82: Décision du Cabinet : couvre-feu pour deux nuits supplémentaires
-Skipped duplicate (Defimedia): Décision du Cabinet : le couvre-feu prolongé jusqu’à vendredi matin et étendu à deux nouve == Решение кабинета: комендантский час на две ночи дольше
-LLM usage this run: 5 requests, 9227 tokens
-### check 2/5 at 21:20
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « Curfew mainteni ant 8h30 ek 5h di matin » == Беспорядки и мародерство: 94 задержания, включая 16 несовершеннолетних и одного полицейско
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Père Georgy Kenny (vicaire général assurant la suppléance en l’absence de Mgr Durhône) : « == Епископ Жан Мишель Дюрно: «Насилие не решит наши проблемы»
-  proofread: на ночах → на ночь
-Posted (Defimedia): Труд: Business Mauritius рекомендует продолжить работу в четверг и пятницу с необходимыми корректировками
-LLM usage this run: 5 requests, 9070 tokens
-### check 3/5 at 21:24
-Proofreading skipped: daily limit
-Posted (L'Express): Navin Ramgoolam продлевает комендантский час и ужесточает тон: «Полиции и спецподразделению SMF нужно действовать более решительно против зачинщиков беспорядков»
-LLM usage this run: 2 requests, 3878 tokens
-### check 4/5 at 21:28
-### check 5/5 at 21:32
+Skipped duplicate (Wazaa): Île Maurice impose deux couvre-feux nocturnes après que les arrestations liées aux émeutes == Беспорядки и мародерство: 94 задержания, включая 16 несовершеннолетних и одного полицейско
+  same headline as #67: Éducation : pas de classes jeudi et vendredi, les examens du SC et du HSC mainte
+Skipped duplicate (L'Express): Éducation : pas de classes jeudi et vendredi == Образование: занятия в четверг и пятницу отменены, экзамены SC и HSC пройдут по плану
+Posted (L'Express): Комендантский час продлён: Saint-Pierre и Quartier-Militaire добавлены в список затронутых районов
+LLM usage this run: 4 requests, 7178 tokens
