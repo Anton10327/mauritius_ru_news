@@ -1,12 +1,5 @@
-### check 1/5 at 06:11
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-Posted (L'Express): Государство должно взять ситуацию под контроль
-LLM usage this run: 2 requests, 3250 tokens
-### check 2/5 at 06:15
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 3/5 at 06:20
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 4/5 at 06:24
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 5/5 at 06:28
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+### check 1/5 at 06:50
+Posted (Defimedia): Отмена комендантского часа: дорожное движение постепенно возобновляется
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Couvre-feu levé  : «Quelques incidents» recensés durant la nuit dans certaines régions, ma == Отмена комендантского часа: дорожное движение постепенно возобновляется
+LLM usage this run: 3 requests, 4197 tokens
