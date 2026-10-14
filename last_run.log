@@ -1,24 +1,5 @@
-### check 1/5 at 18:53
-Posted (Defimedia): Мародерство в Cascavelle Mall и ограбление грузовика Oxenham: около десяти подозреваемых оставлены под стражей до 21 октября
-Posted (L'Express): Roshi Bhadain молодым: «Не превращайте несправедливость в другую несправедливость»
-Posted (Defimedia): Общественный транспорт: автобусы возобновят работу с 5 часов в четверг
-LLM usage this run: 9 requests, 11978 tokens
-### check 2/5 at 18:57
-### check 3/5 at 19:01
-### check 4/5 at 19:05
-Posted (Le Mauricien): Высшее образование: очные занятия отменены в четверг и пятницу
-  same headline as #67: Éducation : pas de classes jeudi et vendredi, les examens du SC et du HSC mainte
-Skipped duplicate (Le Mauricien): Éducation  : pas de classes ce  jeudi et vendredi, les examens du SC et du HSC maintenus == Образование: занятия в четверг и пятницу отменены, экзамены SC и HSC пройдут по плану
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Mauricien du 14  octobre 2026 == Образование: занятия в четверг и пятницу отменены, экзамены SC и HSC пройдут по плану
-Proofreading skipped: daily limit
-Posted (Le Mauricien): Наша жажда вечности
-LLM usage this run: 6 requests, 10204 tokens
-### check 5/5 at 19:09
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199342, Reque
-Posted (Le Mauricien): ИНЦИДЕНТЫ ПО ВСЕЙ ОСТРОВУ: Полиция обещает масштабную наступательную операцию против наркоторговцев
-  same headline as #77: Transport public : les autobus reprendront du service à partir de 5 heures ce je
-Skipped duplicate (L'Express): Transport public : les autobus reprendront du service dès 5 heures ce jeudi 15 octobre == Общественный транспорт: автобусы возобновят работу с 5 часов в четверг
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Après la nuit chaude de lundi: Chetan Baboolall, leader de l’opposition == После жаркой ночи понедельника — Haniff Peerun (MLC): «Комендантский час может быть экстре
-LLM usage this run: 3 requests, 6907 tokens
+### check 1/5 at 19:28
+Posted (Defimedia): Бензин, дизель и керосин: ограничения на продажу топлива в канистрах и других емкостях
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198947, Reque
+Posted (Defimedia): Решение кабинета: комендантский час на две ночи дольше
+LLM usage this run: 5 requests, 8362 tokens
