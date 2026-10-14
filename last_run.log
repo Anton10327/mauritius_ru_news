@@ -10,3 +10,7 @@ LLM usage this run: 9 requests, 10287 tokens
 Posted (L'Express): Прогноз с учетом последствий: метеослужба скоро будет сообщать не только о количестве осадков, но и о том, что они вызовут
 LLM usage this run: 3 requests, 3241 tokens
 ### check 4/5 at 14:06
+### check 5/5 at 14:10
+  dup: nothing new ()
+Skipped duplicate (Inside News): Violences à Maurice : 93 interpellations, dont 15 mineurs, après une nuit sous couvre-feu == Инциденты во время комендантского часа: 93 задержания, включая 15 несовершеннолетних
+LLM usage this run: 1 requests, 1972 tokens
