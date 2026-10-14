@@ -8,3 +8,11 @@ Posted (Le Mauricien): После напряженной ночи в понед�
   same headline as #82: Décision du Cabinet : couvre-feu pour deux nuits supplémentaires
 Skipped duplicate (Defimedia): Décision du Cabinet : le couvre-feu prolongé jusqu’à vendredi matin et étendu à deux nouve == Решение кабинета: комендантский час на две ночи дольше
 LLM usage this run: 5 requests, 9227 tokens
+### check 2/5 at 21:20
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Info Soirée] : « Curfew mainteni ant 8h30 ek 5h di matin » == Беспорядки и мародерство: 94 задержания, включая 16 несовершеннолетних и одного полицейско
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Père Georgy Kenny (vicaire général assurant la suppléance en l’absence de Mgr Durhône) : « == Епископ Жан Мишель Дюрно: «Насилие не решит наши проблемы»
+  proofread: на ночах → на ночь
+Posted (Defimedia): Труд: Business Mauritius рекомендует продолжить работу в четверг и пятницу с необходимыми корректировками
+LLM usage this run: 5 requests, 9070 tokens
