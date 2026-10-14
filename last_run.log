@@ -1,13 +1,6 @@
-### check 1/5 at 06:50
-Posted (Defimedia): Отмена комендантского часа: дорожное движение постепенно возобновляется
+### check 1/5 at 07:24
+Posted (Defimedia): Кюрпип: водоснабжение через день с 3 до 8 утра
   dup: nothing new ()
-Skipped duplicate (Defimedia): Couvre-feu levé  : «Quelques incidents» recensés durant la nuit dans certaines régions, ma == Отмена комендантского часа: дорожное движение постепенно возобновляется
-LLM usage this run: 3 requests, 4197 tokens
-### check 2/5 at 06:54
-Posted (Defimedia): Труд: Business Mauritius рекомендует возобновить деятельность с учетом местных условий
-LLM usage this run: 2 requests, 2559 tokens
-### check 3/5 at 06:58
-### check 4/5 at 07:03
-### check 5/5 at 07:07
-Posted (L'Express): Государственный долг: оценки будут пересмотрены в сторону понижения
-LLM usage this run: 2 requests, 3328 tokens
+Skipped duplicate (L'Express): Levée du couvre-feu : Après une nuit sous tension, la police annonce un retour au calme == Отмена комендантского часа: дорожное движение постепенно возобновляется
+Posted (Defimedia): Сент-Пьер и окрестности: подача воды через день, с 3 до 8 утра
+LLM usage this run: 5 requests, 7758 tokens
