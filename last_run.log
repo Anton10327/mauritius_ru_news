@@ -1,5 +1,12 @@
-### check 1/5 at 12:31
-### check 2/5 at 12:36
-### check 3/5 at 12:40
-### check 4/5 at 12:44
-### check 5/5 at 12:48
+### check 1/5 at 13:11
+Could not read L'Express: ReadTimeout HTTPSConnectionPool(host='lexpress.mu', port=443): Read timed out. (read timeout=30)
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  proofread: В Маврикийские экзаменационные органы перенесли → Маврикийские экзаменационные органы перенесли
+Posted (Defimedia): Экзамены SC и HSC перенесены: переговоры с Cambridge продолжаются
+Posted (Defimedia): La Gaulette: полицейский задержан с тремя саблями, тремя масками и бейсбольной битой в машине
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Couvre-feu : 15 mineurs parmi les 93 personnes arrêtées == Инциденты во время комендантского часа: 93 задержания, включая 15 несовершеннолетних
+Posted (Defimedia): Беспорядки: экономический ущерб может достичь 200 млн рупий
+  same headline as #28: La Gaulette : un policier arrêté avec trois sabres, trois cagoules et une batte 
+Skipped duplicate (Top FM): La Gaulette : un policier arrêté avec trois sabres, trois cagoules et une batte de basebal == La Gaulette: полицейский задержан с тремя саблями, тремя масками и бейсбольной битой в маш
+LLM usage this run: 10 requests, 12711 tokens
