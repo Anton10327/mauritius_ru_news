@@ -93,7 +93,12 @@ PROMPT = (
     "Ниже статья с маврикийского сайта на французском; в ней бывают цитаты "
     "на маврикийском креольском (например: «Li guet nou», «Nou pou res», "
     "«monn trouv lamor»). Верни строго JSON вида "
-    '{"title": "...", "summary": "..."}. '
+    '{"mauritius": true или false, "title": "...", "summary": "..."}. '
+    "mauritius — true, если новость о Маврикии (включая Rodrigues, Agaléga, "
+    "Chagos) или прямо касается Маврикия и маврикийцев: решения других стран "
+    "по Маврикию, маврикийцы за рубежом, события в регионе с последствиями для "
+    "острова. false — если это просто зарубежная новость без связи с Маврикием "
+    "(протесты в другой стране, мировая политика, знаменитости, спорт за рубежом). "
     "title — полный перевод заголовка на русский. Цитаты в кавычках тоже "
     "переводи на русский по смыслу, сохраняя кавычки; ни одного слова на "
     "французском или креольском в title остаться не должно. "
@@ -290,7 +295,9 @@ def summarize(title, body):
         if not ru_title:
             continue
         _llm_state["model"] = model
-        return ru_title, ru_summary
+        local = data.get("mauritius")
+        local = not (local is False or str(local).lower() == "false")
+        return ru_title, ru_summary, local
     _llm_state["disabled"] = True
     if set(LLM_MODELS) <= _llm_state["exhausted"]:
         alert("limit",
@@ -510,7 +517,11 @@ def build_post(source, entry, link, recent=()):
     if result is None and body and len(body) < MIN_TEXT_FOR_SUMMARY:
         print(f"Too little text ({len(body)} chars), title only: {link}")
     if result:
-        title, summary = result
+        title, summary, local = result
+        if not local:
+            post["foreign"] = True
+            print(f"  not about Mauritius: {orig_title[:100]}")
+            return post
     else:
         title = translate(orig_title)
         summary = translate(feed_text[:450]) if feed_text and len(feed_text) > 40 else ""
@@ -753,6 +764,12 @@ def main():
         post = build_post(source, e, link, recent)
         title = post["title"]
 
+        if post.get("foreign"):
+            print(f"Skipped foreign news ({source}): {post['orig'][:100]}")
+            if uid not in seen_set:
+                seen.append(uid)
+                seen_set.add(uid)
+            continue
         if post["dup"]:
             print(f"Skipped duplicate ({source}): {post['orig'][:90]} == "
                   f"{recent[post['dup'] - 1]['title'][:90]}")
