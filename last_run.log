@@ -10,3 +10,10 @@ Posted (Defimedia): Беспорядки: экономический ущерб 
   same headline as #28: La Gaulette : un policier arrêté avec trois sabres, trois cagoules et une batte 
 Skipped duplicate (Top FM): La Gaulette : un policier arrêté avec trois sabres, trois cagoules et une batte de basebal == La Gaulette: полицейский задержан с тремя саблями, тремя масками и бейсбольной битой в маш
 LLM usage this run: 10 requests, 12711 tokens
+### check 2/5 at 13:16
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+Posted (L'Express): Конный спорт: 19-й день гонок состоится в эту субботу
+  dup: nothing new ()
+Skipped duplicate (L'Express): Pravind Jugnauth : «Tou dimounn ena enn devwar pou ki lord ek lape regne dans nou pei» == Правинд Жогно: «Насилие никогда не является решением»
+Posted (Defimedia): Экзамены SC и HSC: в среду утром зафиксировано мало опозданий и пропусков
+LLM usage this run: 7 requests, 8028 tokens
