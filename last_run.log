@@ -3,3 +3,9 @@ Posted (Defimedia): Бензин, дизель и керосин: огранич
 LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198947, Reque
 Posted (Defimedia): Решение кабинета: комендантский час на две ночи дольше
 LLM usage this run: 5 requests, 8362 tokens
+### check 2/5 at 19:32
+  same headline as #60: Au Cœur de l’Info : comment aider le pays à retrouver sa sérénité ?
+Skipped duplicate (Defimedia): Au Cœur de l’Info : comment aider le pays à retrouver sa sérénité ? == В центре информации: как помочь стране вернуть себе спокойствие?
+Proofreading skipped: daily limit
+Posted (L'Express): Ограбление районного суда в Rivière-Noire: пропали вещественные доказательства и компьютерный сервер
+LLM usage this run: 2 requests, 2989 tokens
