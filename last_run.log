@@ -19,3 +19,8 @@ Posted (Defimedia): Экзамены SC и HSC: в среду утром заф�
 LLM usage this run: 7 requests, 8028 tokens
 ### check 3/5 at 13:20
 Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+### check 4/5 at 13:24
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup: nothing new ()
+Skipped duplicate (Inside News): Affaire Élodie Thomas : l’enquête s’étend aux unités policières et aux preuves techniques == Расследование Центрального управления по расследованиям: полицейские SMF, DSU и ERS в цент
+LLM usage this run: 1 requests, 1669 tokens
