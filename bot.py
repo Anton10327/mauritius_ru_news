@@ -78,15 +78,19 @@ PROOF_PROMPT = (
     "(«в территорию» → «на территорию»), пунктуацию, неестественные кальки с "
     "французского. Не меняй смысл, факты, цифры, даты, имена, названия и слова "
     "латиницей; ничего не добавляй и не убирай; не переписывай то, что и так "
-    "правильно — если ошибок нет, верни текст как есть. "
+    "правильно. Исключение: если имя человека, название места или организации "
+    "написано кириллицей, а в оригинале (дан ниже) латиницей — замени его на "
+    "латинское написание из оригинала («Правинд Жогно» → «Pravind Jugnauth», "
+    "«Элоди Томас» → «Élodie Thomas»); слова «премьер-министр», «министр» и т. п. "
+    "оставь по-русски. "
     "Верни строго JSON: {\"title\": \"...\", \"summary\": \"...\", "
-    "\"changes\": [\"было → стало\", ...]}."
+    "\"changes\": [\"было → стало\", ...]}. Если ошибок нет, верни текст как есть."
 )
 
 # Duplicate checks are a reasoning task: a different model order works better
 DUP_MODELS = ["openai/gpt-oss-120b", "qwen/qwen3.8-27b", "openai/gpt-oss-20b"]
 ARTICLE_CHARS = 4000     # article text sent to the model (keeps within free limits)
-MIN_TEXT_FOR_SUMMARY = 300  # less text than this -> no summary, title only
+MIN_TEXT_FOR_SUMMARY = 80   # less text than this -> no summary, title only
 
 PROMPT = (
     "Ты редактор русскоязычного новостного канала о Маврикии. "
@@ -107,8 +111,9 @@ PROMPT = (
     "(проверь согласование слов в роде, числе и падеже), "
     "до 600 символов: что произошло, где, кто, что дальше; ключевые цифры "
     "(число пострадавших, арестованных, суммы, даты) сохраняй. "
-    "Только факты из статьи, без оценок и без выдумок; если в статье мало "
-    "информации, пиши короче, но ничего не додумывай. "
+    "Только факты из статьи, без оценок и без выдумок. Если текст статьи "
+    "короткий (объявление в 1–3 предложения), просто точно переведи его на "
+    "русский, ничего не добавляя и не додумывая. "
     "Имена и фамилии людей, названия мест, организаций, партий и компаний "
     "оставляй латиницей, точно как в оригинале (Navin Ramgoolam, Kobita Jugnauth, "
     "Bruneau Laurette, Port-Louis, Sainte-Croix, Business Mauritius); склонять их "
@@ -422,24 +427,30 @@ def find_duplicate(orig_title, lead, recent):
     return None
 
 
-def _safe_edit(old, new):
-    """Accept a proofread version only if it kept numbers, Latin words and size."""
+def _safe_edit(old, new, original=""):
+    """Accept a proofread version only if it kept the numbers, kept every Latin
+    word, added only Latin words found in the original article, kept the size."""
     if not new or not isinstance(new, str):
         return False
     digits = lambda t: sorted(re.findall(r"\d+", t))
-    latin = lambda t: sorted(re.findall(r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'’.-]*", t))
-    if digits(old) != digits(new) or latin(old) != latin(new):
+    latin = lambda t: re.findall(r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'’.-]*", t)
+    if digits(old) != digits(new):
         return False
-    return 0.85 <= len(new) / max(len(old), 1) <= 1.15
+    old_l, new_l = latin(old), latin(new)
+    allowed = set(w.lower() for w in old_l + latin(original))
+    if any(w not in new_l for w in old_l) or any(w.lower() not in allowed for w in new_l):
+        return False
+    return 0.8 <= len(new) / max(len(old), 1) <= 1.2
 
 
-def proofread(title, summary):
+def proofread(title, summary, original=""):
     """Second pass that fixes Russian language errors. Returns (title, summary)."""
     free = [m for m in PROOF_MODELS if m not in _llm_state["exhausted"]]
     if not free or not LLM_KEY or _llm_state["disabled"]:
         return title, summary
     messages = [{"role": "system", "content": PROOF_PROMPT},
-                {"role": "user", "content": f"Заголовок: {title}\nТекст: {summary}"}]
+                {"role": "user", "content": f"Заголовок: {title}\nТекст: {summary}\n\n"
+                                            f"Оригинал (для написания имён):\n{original[:1200]}"}]
     try:
         r = _llm_call(free[0], messages, 700)
         if r.status_code == 429:
@@ -460,8 +471,8 @@ def proofread(title, summary):
         print(f"Proofreading failed: {e}")
         return title, summary
     new_t, new_s = (d.get("title") or "").strip(), (d.get("summary") or "").strip()
-    out_t = new_t if _safe_edit(title, new_t) else title
-    out_s = new_s if (not summary or _safe_edit(summary, new_s)) else summary
+    out_t = new_t if _safe_edit(title, new_t, original) else title
+    out_s = new_s if (not summary or _safe_edit(summary, new_s, original)) else summary
     if not summary:
         out_s = summary
     if (out_t, out_s) != (title, summary):
@@ -525,7 +536,7 @@ def build_post(source, entry, link, recent=()):
     else:
         title = translate(orig_title)
         summary = translate(feed_text[:450]) if feed_text and len(feed_text) > 40 else ""
-    title, summary = proofread(title, summary)
+    title, summary = proofread(title, summary, f"{orig_title}\n{body[:1500]}")
     post["title"], post["summary"] = title, summary
 
     footer = f'🔗 <a href="{html.escape(link)}">{html.escape(source)}</a>'
