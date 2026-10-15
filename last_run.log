@@ -1,18 +1,10 @@
-### check 1/5 at 17:20
-  proofread: Элоди → Élodie; Элоди Томас → Élodie Thomas; Эрик Рамасамы → Éric Ramasawmy; Элоди → Élodie
-Posted (Defimedia): Дядя Élodie Thomas облегченно вздохнул: «Мой муж рад, что я нашла Élodie, она подняла руку ко мне»
-  same headline as #108: Non-respect du couvre-feu : 12 personnes arrêtées
-Skipped duplicate (Defimedia): Non-respect du couvre-feu : 12 personnes poursuivies devant la Cour intermédiaire, elles r == Нарушение комендантского часа: 12 человек задержаны
-Posted (L'Express): Напряженность по всей стране: депутаты на передовой в своих округах
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Jonathan Thomas, soulagé par les progrès d’Élodie : « Ti ariv ler pou to koup to seve », l == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
-LLM usage this run: 7 requests, 9345 tokens
-### check 2/5 at 17:24
-### check 3/5 at 17:28
-### check 4/5 at 17:32
-Posted (Inside News): Хаос на Маврикии: кто стоял за группой WhatsApp из 630 участников?
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199610, Reque
-Posted (Top FM): Navin Ramgoolam: «Не будет никакой пощады для наркоторговцев»
-LLM usage this run: 5 requests, 6911 tokens
-### check 5/5 at 17:36
+### check 1/5 at 18:08
 Could not read L'Express: ReadTimeout HTTPSConnectionPool(host='lexpress.mu', port=443): Read timed out. (read timeout=30)
+Could not read article https://defimedia.info/incendies-dans-les-champs-17-450-tonnes-de-canne-sucre-brulees-indique-arvin-boolell: HTTPSConnectionPool(host='defimedia.info', port=443): Read timed out. (read timeout=30)
+Site not responding, will retry next check (1/3): https://defimedia.info/incendies-dans-les-champs-17-450-tonnes-de-canne-sucre-brulees-indique-arvin-boolell
+Posted (Defimedia): Ramgoolam: «Мы рассматриваем возможность преследования бунтовщиков по закону о предотвращении терроризма»
+Could not read article https://defimedia.info/anil-bachoo-nou-pou-san-pitie-kont-ban-ki-pe-propaz-ban-foss-nouvel-lor-elodie: HTTPSConnectionPool(host='defimedia.info', port=443): Read timed out. (read timeout=30)
+Site not responding, will retry next check (1/3): https://defimedia.info/anil-bachoo-nou-pou-san-pitie-kont-ban-ki-pe-propaz-ban-foss-nouvel-lor-elodie
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Navin Ramgoolam aux barons de la drogue : « Pena plas kot zot pou kapav kashiet » == Navin Ramgoolam: «Не будет никакой пощады для наркоторговцев»
+LLM usage this run: 4 requests, 5222 tokens
