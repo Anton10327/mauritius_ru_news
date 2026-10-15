@@ -1,19 +1,7 @@
-### check 1/5 at 07:24
-  not about Mauritius: Plus de 2 000 enfants palestiniens arrêtés par les forces israéliennes depuis octobre 2023
-Skipped foreign news (Defimedia): Plus de 2 000 enfants palestiniens arrêtés par les forces israéliennes depuis octobre 2023
+### check 1/5 at 08:01
+  same headline as #44: Tourisme : le cap du million de visiteurs franchi en neuf mois
+Skipped duplicate (Le Mauricien): Arrivées touristiques : Le cap du million franchi sur neuf mois == Туризм: рубеж в миллион посетителей преодолён за девять месяцев
+Posted (Defimedia): Возраст уголовной ответственности: организация DIS-MOI решительно выступает против его снижения с 14 до 12 лет
   dup: nothing new ()
-Skipped duplicate (Inside News): ÉCOLES FERMÉES, ENTREPRISES OUVERTES : BUSINESS MAURITIUS APPELLE À LA FLEXIBILITÉ == Труд: Business Mauritius рекомендует продолжить работу в четверг и пятницу с необходимыми 
-Posted (L'Express): Ипподром: 19-й день гонок перенесён на воскресенье
-  dup: nothing new ()
-Skipped duplicate (Top FM): 🌡Bulletin prévision pour Maurice de ce jeudi 15 octobre 2026 == Погода на четверг, 15 октября
-LLM usage this run: 7 requests, 8343 tokens
-### check 2/5 at 07:28
-  dup: nothing new ()
-Skipped duplicate (Top FM): Stations-service : nouvelles règles dès minuit pour les achats en bidons == Бензин, дизель и керосин: ограничения на продажу топлива в канистрах и других емкостях
-LLM usage this run: 1 requests, 1303 tokens
-### check 3/5 at 07:32
-### check 4/5 at 07:36
-### check 5/5 at 07:40
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Blog] Notre colère mérite mieux que nos rues en feu == Епископ Port-Louis Jean-Michaël Durhône: «Гнев и насилие могут поставить нашу страну под у
-LLM usage this run: 1 requests, 1404 tokens
+Skipped duplicate (Top FM): Tensions dans le pays : Des poursuites antiterroristes envisagées, une modification concer == Беспорядки и мародерство: в случаях, когда это применимо, будут возбуждены дела по закону 
+LLM usage this run: 4 requests, 5248 tokens
