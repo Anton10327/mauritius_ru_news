@@ -15,3 +15,11 @@ Skipped duplicate (Le Mauricien): GM Business – Droits des enfants : Dis-Moi d
 Skipped duplicate (Defimedia): Couvre-feu : pas d’incidents majeurs selon le PMO, mais la vigilance reste de mise == Решение кабинета: комендантский час на две ночи дольше
 Posted (Le Mauricien): Сети наркоторговли — Laurette: «Эти маленькие джоккеи превращены в пушечное мясо»
 LLM usage this run: 7 requests, 9442 tokens
+### check 3/5 at 14:17
+Posted (Defimedia): В центре информации: молодёжь и её поведение в центре дебатов
+Posted (Defimedia): Валютный рынок: BoM продала 15 миллионов долларов 15 октября
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): COMMUNICATION — Médias et réseaux sociaux : L’ICTA, l’IBA et le NCC appellent à la vigilan == Соцсети: ICTA, IBA и NCC предупреждают о распространении ложной информации
+  not about Mauritius: Cancer du poumon : le pape Léon XIV opéré, le Vatican rassure sur son état
+Skipped foreign news (Inside News): Cancer du poumon : le pape Léon XIV opéré, le Vatican rassure sur son état
+LLM usage this run: 9 requests, 11050 tokens
