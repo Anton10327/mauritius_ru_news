@@ -1,22 +1,7 @@
-### check 1/5 at 18:44
-Posted (Le Mauricien): Позиция по предложению снизить минимальный возраст уголовной ответственности с 14 до 12 лет | Kolektif Drwa Zanfan Morisien | KDZM
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198877, Reque
-LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199100, Re
-Posted (Le Mauricien): Родригус — Открытие станции осмоса в Пойнт-Котон: Начало работы
-Posted (Le Mauricien): Арианн Навар-Мари, заместитель премьер‑министра: «Некоторые используют наших детей, чтобы разрушить»
-Posted (L'Express): Тенденции по всему острову: грабежи, пожары, вандализм – тяжёлые материальные потери
-LLM usage this run: 9 requests, 15080 tokens
-### check 2/5 at 18:48
-Duplicate check skipped, limit reached for openai/gpt-oss-120b
+### check 1/5 at 19:19
+Posted (Defimedia): Комендантский час: полиция вновь мобилизована
 Proofreading skipped: daily limit
-Posted (Le Mauricien): На востоке: участие в незначительных беспорядках
-LLM usage this run: 1 requests, 1679 tokens
-### check 3/5 at 18:52
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199442, Reque
-LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199541, Re
-Posted (L'Express): Молодёжь в авангарде: причины вспышки гнева
-LLM usage this run: 2 requests, 3447 tokens
-### check 4/5 at 18:56
-  same headline as #180: Incendies dans les champs : 17 450 tonnes de canne à sucre brûlées, indique Arvi
-Skipped duplicate (Top FM): Champs de canne en proie aux flammes : 17 450 tonnes brûlées, Arvin Boolell dénonce des in == Пожары на полях: сожжено 17 450 тонн сахарного тростника, сообщил Arvin Boolell
-### check 5/5 at 19:00
+Posted (L'Express): Напряженность по всей стране: снова ночь насилия: разграблены магазины, подожжены дороги, жители вышли на улицы
+Duplicate check skipped, limit reached for openai/gpt-oss-120b
+Posted (Inside News): Видео: в разгаре хаоса наши силы держат линию – уважение тем, кто защищает Маврикий
+LLM usage this run: 6 requests, 8389 tokens
