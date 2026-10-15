@@ -3,3 +3,10 @@ Posted (Top FM): Компенсации после ДТП: рассмотрен�
 LLM usage this run: 2 requests, 2225 tokens
 ### check 2/5 at 13:36
 ### check 3/5 at 13:40
+### check 4/5 at 13:44
+Posted (Inside News): Насилие на Маврикии: 26 новых задержаний во время комендантского часа
+  dup: nothing new ()
+Skipped duplicate (L'Express): Élodie Thomas : Anil Bachoo donne des nouvelles rassurantes == Раненная в результате стрельбы: Элоди Томас больше не находится на искусственной вентиляци
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Les tensions insulaires s’apaisent après 26 arrestations lors d’une rafle mercredi == Напряженность по всему острову: 26 арестов в среду, вечер прошел относительно спокойно
+LLM usage this run: 5 requests, 6519 tokens
