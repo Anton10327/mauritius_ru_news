@@ -8,3 +8,12 @@ Site not responding, will retry next check (1/3): https://defimedia.info/anil-ba
   dup: nothing new ()
 Skipped duplicate (Defimedia): Navin Ramgoolam aux barons de la drogue : « Pena plas kot zot pou kapav kashiet » == Navin Ramgoolam: «Не будет никакой пощады для наркоторговцев»
 LLM usage this run: 4 requests, 5222 tokens
+### check 2/5 at 18:12
+Posted (Defimedia): Пожары на полях: сожжено 17 450 тонн сахарного тростника, сообщил Arvin Boolell
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198519, Reque
+Posted (L'Express): Жилье социальное: ошеломляющий аудит: почти 30 млрд рупий потрачено и тысячи семей всё ещё без ключей
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Anil Bachoo : «Nou pou san pitie kont ban ki pe propaz ban foss nouvel lor Élodie» == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Foi retrouvée : Élodie Thomas, survivante d’une fusillade, fait ses premiers pas == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
+LLM usage this run: 6 requests, 8365 tokens
