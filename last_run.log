@@ -7,3 +7,11 @@ Skipped duplicate (Le Mauricien): FCC — Opération Maradiva, Lakaz Mama : Kobi
 Skipped duplicate (Le Mauricien): Pravind Jugnauth, leader du MSM  : « La violence n’est jamais une solution » == Правинд Жогно: «Насилие никогда не является решением»
 Posted (Le Mauricien): André de Comarmond уходит на пенсию
 LLM usage this run: 4 requests, 4865 tokens
+### check 2/5 at 14:13
+Posted (Le Mauricien): Комендантский час: Valayden просит премьер-министра пересмотреть расписание
+  same headline as #112: Âge de responsabilité pénale : DIS-MOI s’oppose fermement à son abaissement de 1
+Skipped duplicate (Le Mauricien): GM Business – Droits des enfants : Dis-Moi dit non à l’abaissement de l’âge de responsabil == Возраст уголовной ответственности: организация DIS-MOI решительно выступает против его сни
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Couvre-feu : pas d’incidents majeurs selon le PMO, mais la vigilance reste de mise == Решение кабинета: комендантский час на две ночи дольше
+Posted (Le Mauricien): Сети наркоторговли — Laurette: «Эти маленькие джоккеи превращены в пушечное мясо»
+LLM usage this run: 7 requests, 9442 tokens
