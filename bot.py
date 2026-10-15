@@ -135,7 +135,14 @@ PROMPT = (
     "Ramgoolam», «в городе Curepipe». Рупии — «рупий». Словарик: couvre-feu — комендантский "
     "час; Assemblée nationale — Национальное собрание; DPP — генпрокурор (DPP); "
     "IPCC — комиссия по жалобам на полицию (IPCC); SMF — спецподразделение SMF; "
-    "CWA — водоканал CWA; Premier ministre — премьер-министр."
+    "CWA — водоканал CWA; Premier ministre — премьер-министр. "
+    "Маврикийский креольский: «mari» перед прилагательным или глаголом — "
+    "«очень, сильно» («mo mari kontan» — «я очень рад»), а не «муж»; «mo» — "
+    "«я, мой», «to» — «ты», «li» — «он/она», «nou» — «мы», «zot» — «они»; "
+    "«inn» и «monn» — прошедшее время («monn trouv» — «я увидел»); «pou» — "
+    "будущее время; «lame» — «рука», «lamor» — «смерть». Пол говорящего "
+    "бери из статьи (дядя — мужчина: «я рад», не «я рада»). Если смысл цитаты "
+    "неясен, передай его осторожно, без выдуманных подробностей."
 )
 
 DUP_PROMPT = (
@@ -512,6 +519,36 @@ def fix_russian(text):
     return text
 
 
+_LATIN = re.compile(r"[A-Za-zÀ-ÿ](?:[A-Za-zÀ-ÿ'’.-]*[A-Za-zÀ-ÿ])?")
+
+
+def _name_fixes(changes, original):
+    """From the proofreader's «было → стало» list, keep only Cyrillic names
+    replaced by a Latin spelling that really appears in the original article."""
+    orig = original.lower()
+    fixes = []
+    for c in changes:
+        if not isinstance(c, str):
+            continue
+        parts = re.split(r"\s*(?:→|->)\s*", c.strip().strip("«»\"'"), maxsplit=1)
+        if len(parts) != 2:
+            continue
+        old, new = (x.strip().strip("«»\"'") for x in parts)
+        if (not old or not new or _LATIN.search(old) or re.search(r"\d", old + new)
+                or re.search(r"[А-Яа-яЁё]", new)):
+            continue
+        words = _LATIN.findall(new)
+        if words and all(w.lower() in orig for w in words):
+            fixes.append((old, new))
+    return sorted(fixes, key=lambda f: -len(f[0]))  # «Элоди Томас» before «Элоди»
+
+
+def _apply_fixes(text, fixes):
+    for old, new in fixes:
+        text = re.sub(rf"(?<![А-Яа-яЁё]){re.escape(old)}(?![А-Яа-яЁё])", new, text)
+    return text
+
+
 def proofread(title, summary, original=""):
     """Second pass that fixes Russian language errors. Returns (title, summary)."""
     free = [m for m in PROOF_MODELS if m not in _llm_state["exhausted"]]
@@ -542,6 +579,14 @@ def proofread(title, summary, original=""):
     new_t, new_s = (d.get("title") or "").strip(), (d.get("summary") or "").strip()
     out_t = new_t if _safe_edit(title, new_t, original) else title
     out_s = new_s if (not summary or _safe_edit(summary, new_s, original)) else summary
+    # A rejected whole-text edit can still carry safe name fixes
+    # («Элоди Томас» → «Élodie Thomas»): apply those one by one
+    if out_t == title or out_s == summary:
+        fixes = _name_fixes(d.get("changes") or [], original)
+        if out_t == title:
+            out_t = _apply_fixes(title, fixes)
+        if out_s == summary:
+            out_s = _apply_fixes(summary, fixes)
     if not summary:
         out_s = summary
     if (out_t, out_s) != (title, summary):
