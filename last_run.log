@@ -1,3 +1,10 @@
 ### check 1/5 at 15:52
 Posted (Top FM): Дело Élodie Thomas: IPCC открывает два расследования и требует ограничить выезд некоторых полицейских
 LLM usage this run: 3 requests, 3690 tokens
+### check 2/5 at 15:56
+  proofread: Элоди Томас → Élodie Thomas
+Posted (Defimedia): Élodie Thomas ранена пулей: IPCC открыла два расследования, анализируются записи камер Safe City
+Posted (Defimedia): Суд в Port-Louis: тринадцать человек предстанут перед судом по предварительному обвинению в нарушении комендантского часа
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199137, Reque
+Posted (Defimedia): Беспорядки в общественном порядке: 16 несовершеннолетних задействованы, Омбудсмен по делам детей призывает к родительской ответственности
+LLM usage this run: 8 requests, 10683 tokens
