@@ -1,27 +1,9 @@
-### check 1/5 at 11:47
-Posted (Defimedia): Инциденты в ночь на 13 октября — суд в Bambous: взломанные двери, похищенные документы
-Posted (Defimedia): Мародерство и ограбление: среди десяти задержанных — женщина
-Posted (Defimedia): В центре информации: социальное напряжение: успокоение требует конкретных мер
-Posted (L'Express): Напряженность по всему острову: 26 арестов в среду, вечер прошел относительно спокойно
-LLM usage this run: 12 requests, 15315 tokens
-### check 2/5 at 11:51
-Posted (Defimedia): Декларация о доходах: штрафы и проценты не будут начисляться до 30 октября
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Натянутая обстановка на Маврикии: Sydney Pierre призывает к спокойствию и выражает солидарность с семьей Élodie Thomas
-Posted (Top FM): Несовершеннолетние перед судом: нужно ли снизить возраст уголовной ответственности до 12 лет?
-LLM usage this run: 9 requests, 10372 tokens
-### check 3/5 at 11:55
-### check 4/5 at 11:59
-Posted (Le Mauricien): Rajeev Fagoonee назначен финансовым директором в Harel Mallac
+### check 1/5 at 12:17
+  same headline as #120: CAMP-LEVIEUX — Reconstitution du coup de feu : Le chauffeur maintient sa version
+Skipped duplicate (Le Mauricien): CAMP-LEVIEUX — Reconstitution du coup de feu : Le chauffeur maintient sa version et rejoue == CAMP-LEVIEUX — Реконструкция выстрела: водитель подтверждает свою версию и воспроизводит с
+Posted (Le Mauricien): После пропущенного дня — SC и HSC: экзамены возобновились спокойно
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Couvre-feu : 26 interpellations, dont un mineur de 16 ans, neuf personnes en détention == Полицейские операции во время комендантского часа: задержаны 26 человек, включая несоверше
-Posted (Le Mauricien): ОБРАЗОВАНИЕ | В четверг и пятницу школы остаются закрытыми, экзамены продолжаются
+Skipped duplicate (Le Mauricien): Maurice : quand les mots ne suffisent plus == Правинд Жогно: «Насилие никогда не является решением»
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Drame de Camp-Levieux — 48 heures après l’intervention en cinq étapes : Élodie Thomas, déb == Élodie Thomas: она дышит без помощи аппарата и теперь может сидеть
-LLM usage this run: 8 requests, 9968 tokens
-### check 5/5 at 12:03
-Posted (Le Mauricien): Ипподром: 19-й день гонок состоится в воскресенье
-Posted (Le Mauricien): Причины безопасности: закрытие школ — Northfields International School проигнорировала решение правительства
-Posted (Le Mauricien): MIoD — Корпоративное управление: Shiv Khera посетит Маврикий в октябре
-Posted (Le Mauricien): Велоспорт – Чемпионат Африки в Кении (21–25 октября 2026) – Девушки из команды Maurice MCB Team готовятся в Kisumu
-LLM usage this run: 12 requests, 16120 tokens
+Skipped duplicate (Le Mauricien): Explorer « l’iceberg » mauricien == Граждане призывают к миру и справедливости после полицейского выстрела в Camp-Levieux
+LLM usage this run: 5 requests, 7207 tokens
