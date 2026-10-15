@@ -1,26 +1,6 @@
-### check 1/5 at 12:17
-  same headline as #120: CAMP-LEVIEUX — Reconstitution du coup de feu : Le chauffeur maintient sa version
-Skipped duplicate (Le Mauricien): CAMP-LEVIEUX — Reconstitution du coup de feu : Le chauffeur maintient sa version et rejoue == CAMP-LEVIEUX — Реконструкция выстрела: водитель подтверждает свою версию и воспроизводит с
-Posted (Le Mauricien): После пропущенного дня — SC и HSC: экзамены возобновились спокойно
+### check 1/5 at 12:57
+Posted (Defimedia): В Pailles: пять подозреваемых задержаны во время комендантского часа, обнаружено оружие
+Posted (Defimedia): Туризм: Маврикий сталкивается с риском отмен бронирований и ухудшением имиджа
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Maurice : quand les mots ne suffisent plus == Правинд Жогно: «Насилие никогда не является решением»
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Explorer « l’iceberg » mauricien == Граждане призывают к миру и справедливости после полицейского выстрела в Camp-Levieux
-LLM usage this run: 5 requests, 7207 tokens
-### check 2/5 at 12:21
-Posted (Defimedia): Беспорядки в стране — насилие и мародерство: гнев не объясняет всего
-  dup: nothing new ()
-Skipped duplicate (Inside News): Le gouvernement envisage d’abaisser le seuil à 12 ans == Беспорядки и мародерство: правительство рассматривает снижение возраста задержания и пресл
-  dup: nothing new ()
-Skipped duplicate (Top FM): Émeutes et non-respect du couvre-feu : 26 arrestations, dont un mineur, lors des dernières == Полицейские операции во время комендантского часа: задержаны 26 человек, включая несоверше
-LLM usage this run: 5 requests, 6663 tokens
-### check 3/5 at 12:25
-  not about Mauritius: Pakistan : 27 enfants et un enseignant tués dans l'effondrement du toit d'une école
-Skipped foreign news (Defimedia): Pakistan : 27 enfants et un enseignant tués dans l'effondrement du toit d'une école
-Posted (L'Express): Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Élodie Thomas parvient à marcher avec l’aide d’un déambulateur, annonce Anil Bachoo == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
-LLM usage this run: 6 requests, 7391 tokens
-### check 4/5 at 12:29
-### check 5/5 at 12:33
-Could not read L'Express: ReadTimeout HTTPSConnectionPool(host='lexpress.mu', port=443): Read timed out. (read timeout=30)
+Skipped duplicate (Wazaa): Business Mauritius conseille deux jours de travail normaux pendant les prolongations du co == Труд: Business Mauritius рекомендует продолжить работу в четверг и пятницу с необходимыми 
+LLM usage this run: 7 requests, 8908 tokens
