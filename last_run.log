@@ -14,3 +14,5 @@ Posted (Inside News): Хаос на Маврикии: кто стоял за г�
 LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199610, Reque
 Posted (Top FM): Navin Ramgoolam: «Не будет никакой пощады для наркоторговцев»
 LLM usage this run: 5 requests, 6911 tokens
+### check 5/5 at 17:36
+Could not read L'Express: ReadTimeout HTTPSConnectionPool(host='lexpress.mu', port=443): Read timed out. (read timeout=30)
