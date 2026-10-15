@@ -1,12 +1,8 @@
-### check 1/5 at 20:31
-Posted (Defimedia): Теория «ложного мира»: Shakeel Mohamed делится размышлениями, сделанными в полёте
-LLM usage this run: 3 requests, 4469 tokens
-### check 2/5 at 20:35
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): [Вечерняя сводка]: «Обними мою дочь крепко, я тебя люблю»
-LLM usage this run: 3 requests, 3978 tokens
-### check 3/5 at 20:39
-### check 4/5 at 20:43
-  same headline as #113: Prévisions : Le FMI ramène la croissance pour Maurice à 2,7 % en 2026
-Skipped duplicate (Wazaa): FMI abaisse les prévisions de croissance de l’Île Maurice à 2,7 % pour 2026 dans un contex == Прогноз: МВФ снизит рост для Маврикия до 2,7% в 2026 году
-### check 5/5 at 20:47
+### check 1/5 at 21:12
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Île Maurice : émeute, révolte,  insurrection ou soulèvement ? == Jean-Claude de L’Estrac: «Не напряженность разделяет население, а разделение порождает нап
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Tank et pompe : les demandes possibles en ligne == Резервуары и насосы: какие документы нужно подготовить перед подачей онлайн-заявки
+Posted (Le Mauricien): Barkly: после разграбления станции метро тревога охватывает жителей
+Posted (L'Express): Кризис с водой: Sunil Dowarkasing: «Все права на воду должны быть приостановлены»
+LLM usage this run: 8 requests, 11067 tokens
