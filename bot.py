@@ -201,10 +201,24 @@ def translate(text):
     return text
 
 
+_fetch = {"ok": True}
+
+
 def article_text(url):
-    """Download the article page; return (main text, og:image URL or None)."""
+    """Download the article page; return (main text, og:image URL or None).
+    _fetch["ok"] tells whether the page could be downloaded at all."""
+    _fetch["ok"] = True
     try:
-        r = requests.get(url, timeout=30, headers=UA)
+        r = None
+        for attempt in range(2):
+            try:
+                r = requests.get(url, timeout=30, headers=UA)
+                if r.status_code < 500:
+                    break
+            except requests.RequestException:
+                if attempt:
+                    raise
+            time.sleep(5)
         r.raise_for_status()
         text = trafilatura.extract(r.text, include_comments=False,
                                    include_tables=False) or ""
@@ -214,6 +228,7 @@ def article_text(url):
         return text.strip(), image
     except Exception as e:
         print(f"Could not read article {url}: {e}")
+        _fetch["ok"] = False
         return "", None
 
 
@@ -325,6 +340,22 @@ def summarize(title, body):
     return None
 
 
+def _state_get(key, default=None):
+    try:
+        return json.loads(STATE_FILE.read_text(encoding="utf-8")).get(key, default)
+    except Exception:
+        return default
+
+
+def _state_set(key, value):
+    try:
+        state = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        state = {}
+    state[key] = value
+    STATE_FILE.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
+
+
 def alert(kind, text):
     """Private message to the owner, at most once per day for each kind."""
     if not ADMIN_ID:
@@ -366,6 +397,12 @@ def same_title(a, b):
     """Near-identical original headlines (e.g. two sites, same agency text)."""
     x, y = _norm_title(a), _norm_title(b)
     if len(x) < 3 or len(y) < 3:
+        return False
+    # Different numbers, days or dates mean a different event
+    # (e.g. Wednesday's curfew vs Thursday's curfew)
+    days = {"lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche",
+            "demain", "aujourd", "hier", "soir", "matin", "nuit", "nouvelle", "nouveau"}
+    if {w for w in x if w.isdigit() or w in days} != {w for w in y if w.isdigit() or w in days}:
         return False
     common = len(x & y)
     # same words, or one headline is the other plus a few extra words
@@ -522,7 +559,7 @@ def save_recent(items):
                                       indent=0), encoding="utf-8")
 
 
-def build_post(source, entry, link, recent=()):
+def build_post(source, entry, link, recent=(), force=False):
     """Check for repeats, then Russian title + summary (LLM) or translated
     headline (fallback). Returns a dict; "dup" is set for a repeat."""
     orig_title = entry.get("title", "").strip()
@@ -541,6 +578,10 @@ def build_post(source, entry, link, recent=()):
         page_image = html.unescape(m.group(1)) if m else None
     post = {"orig": orig_title, "image": page_image, "dup": None,
             "title": orig_title, "summary": "", "text": ""}
+    # Site temporarily down and no text in the feed: try again next check
+    if not _fetch["ok"] and len(body) < MIN_TEXT_FOR_SUMMARY and not force:
+        post["retry"] = True
+        return post
 
     # 1) repeat? (checked first, so no tokens are spent on summarizing repeats)
     lead = re.sub(r"^(Publicité\s*)+", "", body).strip()
@@ -592,7 +633,7 @@ def send(text, photo=None):
         # Telegram couldn't fetch the picture itself: download and upload it
         try:
             img = requests.get(photo, timeout=30,
-                               headers={"User-Agent": "Mozilla/5.0 news-bot"})
+                               headers=UA)
             if img.ok and img.headers.get("content-type", "").startswith("image"):
                 r = requests.post(
                     f"{base}/sendPhoto",
@@ -798,7 +839,13 @@ def main():
     recent = load_recent()
     for source, e, uid, img, _ in to_post:
         link = e.get("link", "").replace("http://", "https://", 1)
-        post = build_post(source, e, link, recent)
+        retries = _state_get("retry", {})
+        post = build_post(source, e, link, recent, force=retries.get(uid, 0) >= 2)
+        if post.get("retry"):
+            retries[uid] = retries.get(uid, 0) + 1
+            _state_set("retry", {k: v for k, v in retries.items() if k not in seen_set})
+            print(f"Site not responding, will retry next check ({retries[uid]}/3): {link}")
+            continue
         title = post["title"]
 
         if post.get("foreign"):
