@@ -1,38 +1,6 @@
-### check 1/5 at 14:09
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Campagne sucrière  : 11 000 T de cannes perdues avec les incendies criminels == Последние инциденты: пожары уничтожили 11 000 тонн сахарного тростника, сообщает Палата се
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): FCC — Opération Maradiva, Lakaz Mama : Kobita Jugnauth souhaite des précisions sur des doc == Дело о чемоданах с 114 миллионами рупий: Кобита Жогно прошла третье допрос в FCC
-  same headline as #18: Pravind Jugnauth : « La violence n’est jamais une solution »
-Skipped duplicate (Le Mauricien): Pravind Jugnauth, leader du MSM  : « La violence n’est jamais une solution » == Правинд Жогно: «Насилие никогда не является решением»
-Posted (Le Mauricien): André de Comarmond уходит на пенсию
-LLM usage this run: 4 requests, 4865 tokens
-### check 2/5 at 14:13
-Posted (Le Mauricien): Комендантский час: Valayden просит премьер-министра пересмотреть расписание
-  same headline as #112: Âge de responsabilité pénale : DIS-MOI s’oppose fermement à son abaissement de 1
-Skipped duplicate (Le Mauricien): GM Business – Droits des enfants : Dis-Moi dit non à l’abaissement de l’âge de responsabil == Возраст уголовной ответственности: организация DIS-MOI решительно выступает против его сни
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Couvre-feu : pas d’incidents majeurs selon le PMO, mais la vigilance reste de mise == Решение кабинета: комендантский час на две ночи дольше
-Posted (Le Mauricien): Сети наркоторговли — Laurette: «Эти маленькие джоккеи превращены в пушечное мясо»
-LLM usage this run: 7 requests, 9442 tokens
-### check 3/5 at 14:17
-Posted (Defimedia): В центре информации: молодёжь и её поведение в центре дебатов
-Posted (Defimedia): Валютный рынок: BoM продала 15 миллионов долларов 15 октября
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): COMMUNICATION — Médias et réseaux sociaux : L’ICTA, l’IBA et le NCC appellent à la vigilan == Соцсети: ICTA, IBA и NCC предупреждают о распространении ложной информации
-  not about Mauritius: Cancer du poumon : le pape Léon XIV opéré, le Vatican rassure sur son état
-Skipped foreign news (Inside News): Cancer du poumon : le pape Léon XIV opéré, le Vatican rassure sur son état
-LLM usage this run: 9 requests, 11050 tokens
-### check 4/5 at 14:21
-Posted (Defimedia): Полицейские операции во время комендантского часа: 37 человек помещены под стражу
-  dup: nothing new ()
-Skipped duplicate (L'Express): Coup de feu à Camp-Levieux : Élodie Thomas fait ses premiers pas après son opération == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Northfields International School : les cours maintenus malgré l’ordre de fermeture ; la PS == Причины безопасности: закрытие школ — Northfields International School проигнорировала реш
-Posted (Inside News): Резервуары и насосы: какие документы нужно подготовить перед подачей онлайн-заявки
-LLM usage this run: 8 requests, 9025 tokens
-### check 5/5 at 14:25
-Posted (Top FM): Несовершеннолетние, замешанные в насилии — Somand Kumar Adheen: «Старше 14 лет они должны отвечать за свои действия перед правосудием»
-Posted (Top FM): На Rodrigues запущена новая опреснительная установка для усиления водоснабжения
-Posted (Top FM): Порядок: «Мобилизованы все офицеры, независимо от звания», заявил DASP Suhail Lidialam
-LLM usage this run: 9 requests, 10917 tokens
+### check 1/5 at 14:45
+  proofread: оказался WhatsApp-группа → оказалась WhatsApp-группа
+Posted (L'Express): «Горящий рай»: под прицелом полиции оказалась WhatsApp-группа с более чем 630 участниками
+Posted (Inside News): Ормузский пролив: Иран ужесточает стратегию против морских перевозок
+Posted (L'Express): Roche-Bois: 76-летняя пенсионерка подала жалобу на сына после угроз
+LLM usage this run: 8 requests, 9553 tokens
