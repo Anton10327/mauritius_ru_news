@@ -9,3 +9,8 @@ Skipped duplicate (Defimedia): Jonathan Thomas, soulagé par les progrès d’É
 LLM usage this run: 7 requests, 9345 tokens
 ### check 2/5 at 17:24
 ### check 3/5 at 17:28
+### check 4/5 at 17:32
+Posted (Inside News): Хаос на Маврикии: кто стоял за группой WhatsApp из 630 участников?
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199610, Reque
+Posted (Top FM): Navin Ramgoolam: «Не будет никакой пощады для наркоторговцев»
+LLM usage this run: 5 requests, 6911 tokens
