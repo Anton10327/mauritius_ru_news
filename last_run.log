@@ -1,12 +1,3 @@
-### check 1/5 at 19:57
-Posted (L'Express): Кризис с водой: полиция делает ставку на просвещение, а не на штрафы
-LLM usage this run: 3 requests, 4201 tokens
-### check 2/5 at 20:01
-### check 3/5 at 20:05
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Photo download failed: HTTP 404 for https://topfm.mu/sites/default/files/media-icons/generic/video.png
-Photo failed: https://topfm.mu/sites/default/files/media-icons/generic/video.png — sending text only
-Posted (Top FM): Выздоровление Élodie Thomas: VOH благодарит премьер-министра, Anil Bachoo и Индию за медицинскую поддержку
-LLM usage this run: 3 requests, 3865 tokens
-### check 4/5 at 20:09
-### check 5/5 at 20:13
+### check 1/5 at 20:31
+Posted (Defimedia): Теория «ложного мира»: Shakeel Mohamed делится размышлениями, сделанными в полёте
+LLM usage this run: 3 requests, 4469 tokens
