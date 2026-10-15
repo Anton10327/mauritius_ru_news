@@ -1,15 +1,8 @@
-### check 1/5 at 08:01
-  same headline as #44: Tourisme : le cap du million de visiteurs franchi en neuf mois
-Skipped duplicate (Le Mauricien): Arrivées touristiques : Le cap du million franchi sur neuf mois == Туризм: рубеж в миллион посетителей преодолён за девять месяцев
-Posted (Defimedia): Возраст уголовной ответственности: организация DIS-MOI решительно выступает против его снижения с 14 до 12 лет
-  dup: nothing new ()
-Skipped duplicate (Top FM): Tensions dans le pays : Des poursuites antiterroristes envisagées, une modification concer == Беспорядки и мародерство: в случаях, когда это применимо, будут возбуждены дела по закону 
-LLM usage this run: 4 requests, 5248 tokens
-### check 2/5 at 08:05
-  same headline as #69: Couvre-feu : de 20 h 30 ce mercredi à 5 heures jeudi matin
-Skipped duplicate (Top FM): Couvre-feu : Nouvelle nuit de restrictions ce jeudi, de 20 h 30 à 5 heures == Комендантский час: с 20:30 в эту среду до 5:00 в четверг утром
-### check 3/5 at 08:09
-### check 4/5 at 08:13
-### check 5/5 at 08:17
-  same headline as #67: Éducation : pas de classes jeudi et vendredi, les examens du SC et du HSC mainte
-Skipped duplicate (Top FM): Éducation : Pas de classes les 15 et 16 octobre, les examens du SC et du HSC maintenus == Образование: занятия в четверг и пятницу отменены, экзамены SC и HSC пройдут по плану
+### check 1/5 at 08:36
+Could not read article https://defimedia.info/previsions-le-fmi-ramene-la-croissance-pour-maurice-27-en-2026: 522 Server Error: <none> for url: https://defimedia.info/previsions-le-fmi-ramene-la-croissance-pour-maurice-27-en-2026
+Google Translate failed: TooManyRequests
+Posted (Defimedia): Прогноз: МВФ снизит рост для Маврикия до 2,7% в 2026 году
+  same headline as #82: Décision du Cabinet : couvre-feu pour deux nuits supplémentaires
+Skipped duplicate (Inside News): COUVRE-FEU À MAURICE : DEUX NUITS SUPPLÉMENTAIRES, 17 ZONES CONCERNÉES == Решение кабинета: комендантский час на две ночи дольше
+Posted (Top FM): Вандализм общественных объектов и частной собственности: за некоторые преступления грозит до 20 лет тюрьмы, предупреждают адвокаты
+LLM usage this run: 4 requests, 3882 tokens
