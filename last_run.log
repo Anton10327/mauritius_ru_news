@@ -23,3 +23,11 @@ Skipped duplicate (Le Mauricien): COMMUNICATION — Médias et réseaux sociaux 
   not about Mauritius: Cancer du poumon : le pape Léon XIV opéré, le Vatican rassure sur son état
 Skipped foreign news (Inside News): Cancer du poumon : le pape Léon XIV opéré, le Vatican rassure sur son état
 LLM usage this run: 9 requests, 11050 tokens
+### check 4/5 at 14:21
+Posted (Defimedia): Полицейские операции во время комендантского часа: 37 человек помещены под стражу
+  dup: nothing new ()
+Skipped duplicate (L'Express): Coup de feu à Camp-Levieux : Élodie Thomas fait ses premiers pas après son opération == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Northfields International School : les cours maintenus malgré l’ordre de fermeture ; la PS == Причины безопасности: закрытие школ — Northfields International School проигнорировала реш
+Posted (Inside News): Резервуары и насосы: какие документы нужно подготовить перед подачей онлайн-заявки
+LLM usage this run: 8 requests, 9025 tokens
