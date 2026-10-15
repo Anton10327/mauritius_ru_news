@@ -626,9 +626,40 @@ def build_post(source, entry, link, recent=(), force=False):
     return post
 
 
-def send(text, photo=None):
+def _looks_like_image(data):
+    """True for JPEG/PNG/GIF/WebP bytes, whatever content-type the site sent."""
+    return (data[:3] == b"\xff\xd8\xff" or data[:8] == b"\x89PNG\r\n\x1a\n"
+            or data[:6] in (b"GIF87a", b"GIF89a")
+            or (data[:4] == b"RIFF" and data[8:12] == b"WEBP"))
+
+
+def _download_image(photo, referer=None):
+    """Picture bytes, or None (the reason is printed to the log)."""
+    headers = dict(UA)
+    headers["Accept"] = "image/avif,image/webp,image/*,*/*;q=0.8"
+    if referer:
+        headers["Referer"] = referer
+    try:
+        img = requests.get(photo, timeout=30, headers=headers)
+    except Exception as e:
+        print(f"Photo download failed: {type(e).__name__} {e}")
+        return None
+    ctype = img.headers.get("content-type", "")
+    if not img.ok:
+        print(f"Photo download failed: HTTP {img.status_code} for {photo}")
+        return None
+    if not (ctype.startswith("image") or _looks_like_image(img.content)):
+        print(f"Photo download failed: got {ctype or 'unknown type'}, "
+              f"{len(img.content)} bytes, not a picture: {photo}")
+        return None
+    return img.content
+
+
+def send(text, photo=None, referer=None):
     base = f"https://api.telegram.org/bot{BOT_TOKEN}"
     if photo:
+        # spaces and accented letters in file names break Telegram's fetch
+        photo = requests.utils.requote_uri(photo.strip())
         r = requests.post(
             f"{base}/sendPhoto",
             data={"chat_id": CHANNEL_ID, "photo": photo,
@@ -637,23 +668,24 @@ def send(text, photo=None):
         )
         if r.ok:
             return
+        print(f"Telegram couldn't fetch the photo ({r.text[:150]}), uploading it")
         # Telegram couldn't fetch the picture itself: download and upload it
-        try:
-            img = requests.get(photo, timeout=30,
-                               headers=UA)
-            if img.ok and img.headers.get("content-type", "").startswith("image"):
+        data = _download_image(photo, referer)
+        if data:
+            try:
                 r = requests.post(
                     f"{base}/sendPhoto",
                     data={"chat_id": CHANNEL_ID, "caption": text,
                           "parse_mode": "HTML"},
-                    files={"photo": ("photo.jpg", img.content)},
+                    files={"photo": ("photo.jpg", data)},
                     timeout=60,
                 )
                 if r.ok:
                     return
-        except Exception as e:
-            print(f"Photo upload failed: {e}")
-        print(f"Photo failed ({r.text[:200]}), sending text only")
+                print(f"Photo upload rejected: {r.text[:200]}")
+            except Exception as e:
+                print(f"Photo upload failed: {e}")
+        print(f"Photo failed: {photo} — sending text only")
     r = requests.post(
         f"{base}/sendMessage",
         data={"chat_id": CHANNEL_ID, "text": text,
@@ -875,7 +907,10 @@ def main():
         if wait > 0:
             time.sleep(wait)
         try:
-            send(post["text"], photo=item_image(e, (img, None)) or post["image"])
+            photo = item_image(e, (img, None)) or post["image"]
+            if photo:  # some sites give a relative picture path
+                photo = urljoin(link, html.unescape(photo))
+            send(post["text"], photo=photo, referer=link)
             print(f"Posted ({source}): {title}")
         except Exception as ex:
             print(f"Failed to post {link}: {ex}")
