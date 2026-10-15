@@ -6,3 +6,9 @@ LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached 
 Posted (Le Mauricien): Юг: два полицейских ранены и несколько молодых людей арестованы
 Posted (Le Mauricien): Национальное собрание — Возобновление во вторник — PMQT: взрывной политический коктейль в повестке
 LLM usage this run: 8 requests, 12433 tokens
+### check 2/5 at 16:34
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198665, Reque
+Posted (L'Express): Неонатальный уход: австралийское обучение для 175 медицинских работников Маврикия
+  same headline as #108: Non-respect du couvre-feu : 12 personnes arrêtées
+Skipped duplicate (Top FM): Non-respect du couvre-feu. Le DPP décide de poursuivre 12 personnes devant la cour intermé == Нарушение комендантского часа: 12 человек задержаны
+LLM usage this run: 1 requests, 1653 tokens
