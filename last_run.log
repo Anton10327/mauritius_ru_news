@@ -14,3 +14,10 @@ Skipped duplicate (Inside News): Le gouvernement envisage d’abaisser le seuil 
   dup: nothing new ()
 Skipped duplicate (Top FM): Émeutes et non-respect du couvre-feu : 26 arrestations, dont un mineur, lors des dernières == Полицейские операции во время комендантского часа: задержаны 26 человек, включая несоверше
 LLM usage this run: 5 requests, 6663 tokens
+### check 3/5 at 12:25
+  not about Mauritius: Pakistan : 27 enfants et un enseignant tués dans l'effondrement du toit d'une école
+Skipped foreign news (Defimedia): Pakistan : 27 enfants et un enseignant tués dans l'effondrement du toit d'une école
+Posted (L'Express): Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Élodie Thomas parvient à marcher avec l’aide d’un déambulateur, annonce Anil Bachoo == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
+LLM usage this run: 6 requests, 7391 tokens
