@@ -1,20 +1,9 @@
-### check 1/5 at 16:30
-Posted (Le Mauricien): Встреча — Jimmy Tan Yan (директор Cathay Tours): от семейного наследия к круизам
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Blessée par balle à Camp Levieux : Élodie Thomas fait ses premiers pas avec un déambulateu == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199282, Reque
-Posted (Le Mauricien): Юг: два полицейских ранены и несколько молодых людей арестованы
-Posted (Le Mauricien): Национальное собрание — Возобновление во вторник — PMQT: взрывной политический коктейль в повестке
-LLM usage this run: 8 requests, 12433 tokens
-### check 2/5 at 16:34
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198665, Reque
-Posted (L'Express): Неонатальный уход: австралийское обучение для 175 медицинских работников Маврикия
+### check 1/5 at 17:20
+  proofread: Элоди → Élodie; Элоди Томас → Élodie Thomas; Эрик Рамасамы → Éric Ramasawmy; Элоди → Élodie
+Posted (Defimedia): Дядя Élodie Thomas облегченно вздохнул: «Мой муж рад, что я нашла Élodie, она подняла руку ко мне»
   same headline as #108: Non-respect du couvre-feu : 12 personnes arrêtées
-Skipped duplicate (Top FM): Non-respect du couvre-feu. Le DPP décide de poursuivre 12 personnes devant la cour intermé == Нарушение комендантского часа: 12 человек задержаны
-LLM usage this run: 1 requests, 1653 tokens
-### check 3/5 at 16:38
-### check 4/5 at 16:42
-### check 5/5 at 16:46
-Proofreading skipped: daily limit
-Posted (Wazaa): Три великие державы выпустили предупреждения о поездках на фоне беспорядков, угрожающих туризму на Маврикии
-LLM usage this run: 2 requests, 3057 tokens
+Skipped duplicate (Defimedia): Non-respect du couvre-feu : 12 personnes poursuivies devant la Cour intermédiaire, elles r == Нарушение комендантского часа: 12 человек задержаны
+Posted (L'Express): Напряженность по всей стране: депутаты на передовой в своих округах
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Jonathan Thomas, soulagé par les progrès d’Élodie : « Ti ariv ler pou to koup to seve », l == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
+LLM usage this run: 7 requests, 9345 tokens
