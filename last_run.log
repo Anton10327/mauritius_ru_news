@@ -1,15 +1,3 @@
-### check 1/5 at 19:19
-Posted (Defimedia): Комендантский час: полиция вновь мобилизована
-Proofreading skipped: daily limit
-Posted (L'Express): Напряженность по всей стране: снова ночь насилия: разграблены магазины, подожжены дороги, жители вышли на улицы
-Duplicate check skipped, limit reached for openai/gpt-oss-120b
-Posted (Inside News): Видео: в разгаре хаоса наши силы держат линию – уважение тем, кто защищает Маврикий
-LLM usage this run: 6 requests, 8389 tokens
-### check 2/5 at 19:23
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198918, Reque
-LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199650, Re
-Posted (Defimedia): Больная от пули в Камп-Левио: Элодий Томас пишет несколько слов своему мужу Джонатану
-LLM usage this run: 2 requests, 2918 tokens
-### check 3/5 at 19:27
-### check 4/5 at 19:31
-### check 5/5 at 19:35
+### check 1/5 at 19:57
+Posted (L'Express): Кризис с водой: полиция делает ставку на просвещение, а не на штрафы
+LLM usage this run: 3 requests, 4201 tokens
