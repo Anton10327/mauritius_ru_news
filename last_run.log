@@ -22,3 +22,5 @@ Posted (L'Express): Стрельба в Camp-Levieux: Élodie Thomas тепер�
 Skipped duplicate (Defimedia): Élodie Thomas parvient à marcher avec l’aide d’un déambulateur, annonce Anil Bachoo == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
 LLM usage this run: 6 requests, 7391 tokens
 ### check 4/5 at 12:29
+### check 5/5 at 12:33
+Could not read L'Express: ReadTimeout HTTPSConnectionPool(host='lexpress.mu', port=443): Read timed out. (read timeout=30)
