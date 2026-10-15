@@ -1,3 +1,15 @@
-{'title': 'Дело Élodie Thomas: Pravind Jugnauth говорит, что рад улучшению её состояния', 'summary': 'Лидер оппозиции Pravind Jugnauth заявил, что рад улучшению состояния Élodie Thomas.', 'changes': ['Элоди Томас → Élodie Thomas', 'Правинд Жогно → Pravind Jugnauth']}
-safe: False ratio: 1.064102564102564
-new latin: ['Pravind', 'Jugnauth', 'Élodie', 'Thomas.'] | orig latin sample: ['Affaire', 'Élodie', 'Thomas', 'Pravind', 'Jugnauth', 'se', 'dit', 'soulagé', 'de', "l'amélioration", 'de', 'son']
+
+ https://topfm.mu/actualites/navratri-la-deesse-skandamata-lhonneur-des-prieres-pour-guider-les-parents-et-leurs-enfants 
+ og:image: 'https://topfm.mu/sites/default/files/oembed_thumbnails/2026-10/lZ5E4k4pfWynScYG2eTplnyiAck_Ai6ESgwcYUoxSIg.jpg'
+  GET 200 image/jpeg 23978 bytes; final: https://topfm.mu/sites/default/files/oembed_thumbnails/2026-10/lZ5E4k4pfWynScYG2eTplnyiAck_Ai6ESgwcYUoxSIg.jpg
+ imgs in page: ['/themes/custom/topfm/logo.png', '/themes/custom/topfm/logo.png']
+
+ https://topfm.mu/actualites/tensions-dans-le-pays-les-hommes-religieux-appellent-au-calme-et-la-paix 
+ og:image: 'https://topfm.mu/sites/default/files/2026-10/prete.jpg'
+  GET 200 image/jpeg 347997 bytes; final: https://topfm.mu/sites/default/files/2026-10/prete.jpg
+ imgs in page: ['/themes/custom/topfm/logo.png', '/sites/default/files/styles/featured/public/2026-10/prete.jpg.avif?itok=0fBKB4FU', '/themes/custom/topfm/logo.png']
+
+ https://topfm.mu/actualites/navratri-la-deesse-skandamata-lhonneur-des-prieres-pour-guider-les-parents-et-leurs-enfants 
+ og:image: 'https://topfm.mu/sites/default/files/oembed_thumbnails/2026-10/lZ5E4k4pfWynScYG2eTplnyiAck_Ai6ESgwcYUoxSIg.jpg'
+  GET 200 image/jpeg 23978 bytes; final: https://topfm.mu/sites/default/files/oembed_thumbnails/2026-10/lZ5E4k4pfWynScYG2eTplnyiAck_Ai6ESgwcYUoxSIg.jpg
+ imgs in page: ['/themes/custom/topfm/logo.png', '/themes/custom/topfm/logo.png']
