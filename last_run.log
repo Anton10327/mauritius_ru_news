@@ -17,3 +17,13 @@ Skipped duplicate (Defimedia): Anil Bachoo : «Nou pou san pitie kont ban ki pe 
   dup: nothing new ()
 Skipped duplicate (Wazaa): Foi retrouvée : Élodie Thomas, survivante d’une fusillade, fait ses premiers pas == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
 LLM usage this run: 6 requests, 8365 tokens
+### check 3/5 at 18:16
+  dup: nothing new ()
+Skipped duplicate (Inside News): ÉLODIE THOMAS FAIT SES PREMIERS PAS APRÈS SON OPÉRATION == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
+  dup: nothing new ()
+Skipped duplicate (L'Express): Tensions à travers le pays l  Navin Ramgoolam : «Aucun répit pour les trafiquants de drogu == Напряженность по всему острову: 26 арестов в среду, вечер прошел относительно спокойно
+Proofreading skipped: daily limit
+Posted (L'Express): Общественный транспорт: Metro Express остановлен, автобусы обеспечивают непрерывность
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Jonathan Thomas fait le point sur l'état de santé de son épouse, Élodie == Состояние здоровья: Élodie Thomas больше не нуждается в аппарате искусственной вентиляции 
+LLM usage this run: 5 requests, 7233 tokens
