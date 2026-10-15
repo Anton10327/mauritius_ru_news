@@ -1,15 +1,5 @@
-### check 1/5 at 08:36
-Could not read article https://defimedia.info/previsions-le-fmi-ramene-la-croissance-pour-maurice-27-en-2026: 522 Server Error: <none> for url: https://defimedia.info/previsions-le-fmi-ramene-la-croissance-pour-maurice-27-en-2026
-Google Translate failed: TooManyRequests
-Posted (Defimedia): Прогноз: МВФ снизит рост для Маврикия до 2,7% в 2026 году
-  same headline as #82: Décision du Cabinet : couvre-feu pour deux nuits supplémentaires
-Skipped duplicate (Inside News): COUVRE-FEU À MAURICE : DEUX NUITS SUPPLÉMENTAIRES, 17 ZONES CONCERNÉES == Решение кабинета: комендантский час на две ночи дольше
-Posted (Top FM): Вандализм общественных объектов и частной собственности: за некоторые преступления грозит до 20 лет тюрьмы, предупреждают адвокаты
-LLM usage this run: 4 requests, 3882 tokens
-### check 2/5 at 08:40
-Photo failed ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), sending text only
-Posted (Top FM): Навратри: Поклонение богине Skandamata, молитвы о наставлении для родителей и их детей
-LLM usage this run: 3 requests, 3398 tokens
-### check 3/5 at 08:44
-### check 4/5 at 08:48
-### check 5/5 at 08:52
+### check 1/5 at 09:07
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup: nothing new ()
+Skipped duplicate (L'Express): Affaire des valises :  Kobita Jugnauth de nouveau entendue par la FCC hier == Дело о чемоданах с 114 миллионами рупий: Кобита Жогно прошла третье допрос в FCC
+LLM usage this run: 1 requests, 1380 tokens
