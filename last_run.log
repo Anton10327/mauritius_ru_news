@@ -1,17 +1,6 @@
-### check 1/5 at 11:07
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Hippisme : La 19e journée reportée au dimanche 18 octobre == Ипподром: 19-й день гонок перенесён на воскресенье
-  dup: nothing new ()
-Skipped duplicate (L'Express): Après une nouvelle nuit de chaos : 93 arrestations au compteur == Инциденты во время комендантского часа: 93 задержания, включая 15 несовершеннолетних
-  not about Mauritius: Pakistan : le toit d’une école s’effondre, un enseignant et seize enfants tués
-Skipped foreign news (Defimedia): Pakistan : le toit d’une école s’effondre, un enseignant et seize enfants tués
-Posted (Defimedia): Полицейские операции во время комендантского часа: задержаны 26 человек, включая несовершеннолетнего
-LLM usage this run: 6 requests, 7448 tokens
-### check 2/5 at 11:11
-Posted (Inside News): Сейшелы: около 183 000 гигантских черепах живут в дикой природе на Альтдаре
-LLM usage this run: 3 requests, 3971 tokens
-### check 3/5 at 11:15
-### check 4/5 at 11:19
-### check 5/5 at 11:23
-Posted (Top FM): Bruneau Laurette утверждает, что наркоторговцы имеют преимущество перед полицией
-LLM usage this run: 3 requests, 3098 tokens
+### check 1/5 at 11:47
+Posted (Defimedia): Инциденты в ночь на 13 октября — суд в Bambous: взломанные двери, похищенные документы
+Posted (Defimedia): Мародерство и ограбление: среди десяти задержанных — женщина
+Posted (Defimedia): В центре информации: социальное напряжение: успокоение требует конкретных мер
+Posted (L'Express): Напряженность по всему острову: 26 арестов в среду, вечер прошел относительно спокойно
+LLM usage this run: 12 requests, 15315 tokens
