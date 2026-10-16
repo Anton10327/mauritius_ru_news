@@ -1,18 +1,8 @@
-### check 1/5 at 16:29
-Posted (Defimedia): Образование: экзамены PSAC сохранят первоначальные даты — 22, 23, 26 и 27 октября
-LLM usage this run: 3 requests, 3948 tokens
-### check 2/5 at 16:33
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198700, Reque
-Posted (Inside News): Родригес: новая установка опреснения воды для смягчения водного кризиса
-LLM usage this run: 2 requests, 3006 tokens
-### check 3/5 at 16:37
-### check 4/5 at 16:41
-  dup: nothing new ()
-Skipped duplicate (L'Express): Éducation : les nouvelles dates des examens annoncées == Образование: новые даты экзаменов Grade 4, Grade 5 и NCE, учебный год в старшей школе прод
-Proofreading failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
-Posted (Top FM): Наркотики и беспорядки: Platform Komun Syndikal требует арестов
-LLM usage this run: 3 requests, 4257 tokens
-### check 5/5 at 16:45
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198560, Reque
-Posted (L'Express): Образование: Нормальное возобновление занятий в понедельник, 19 октября
-LLM usage this run: 2 requests, 2782 tokens
+### check 1/5 at 17:15
+Posted (Defimedia): Metro Express: возобновление работы в субботу и воскресенье с 7:00 до 17:00, полный график с понедельника
+Posted (Defimedia): Metro Express: ущерб на 45 млн рупий и потери на 6 млн рупий после четырех дней простоя
+LLM per-minute limit, waiting 52s
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198599, Reque
+Posted (L'Express): Трения на Маврикии: потери активности до 470 миллионов рупий
+Posted (L'Express): Торговля людьми: Маврикий выявил больше жертв, но осудил мало
+LLM usage this run: 10 requests, 13746 tokens
