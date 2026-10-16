@@ -1,16 +1,11 @@
-### check 1/5 at 18:32
-Posted (L'Express): Политика: Sydney Pierre покидает Рабочую партию
-Proofreading skipped: daily limit
-Posted (Top FM): Итоги беспорядков: 151 арест, 162 поврежденные камеры Safe City, 17 000 тонн сожженного сахарного тростника, семь раненых полицейских и восемь поврежденных участков
-LLM usage this run: 5 requests, 6544 tokens
-### check 2/5 at 18:36
-### check 3/5 at 18:40
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198899, Reque
-LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199349, Re
-Posted (L'Express): Совет министров: комендантский час, безопасность, образование, кризис воды
-LLM usage this run: 2 requests, 2925 tokens
-### check 4/5 at 18:44
-### check 5/5 at 18:48
-Proofreading skipped: daily limit
-Posted (Top FM): Кризис с водой: спокойствие возвращается, но трудности сохраняются в Plaines Wilhems
-LLM usage this run: 2 requests, 2892 tokens
+### check 1/5 at 19:07
+Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
+Posted (Defimedia): Политика: Sydney Pierre покидает PTr и ряды правящего большинства
+  same headline as #189: Metro Express : Rs 45 millions de dégâts et Rs 6 millions de manque à gagner apr
+Skipped duplicate (L'Express): Metro Express : Des dégâts matériels estimés à Rs 45 millions == Metro Express: ущерб на 45 млн рупий и потери на 6 млн рупий после четырех дней простоя
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198759, Reque
+LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199932, Re
+Posted (Defimedia): Сидней Пьер покидает ПТр: «Я не могу сказать, что собираюсь присоединиться к FMP, я не могу сказать, что собираюсь оставить Партию трудящихся…»
+  dup: nothing new ()
+Skipped duplicate (L'Express): Tensions à travers le pays : La facture économique reste à établir == Трения на Маврикии: потери активности до 470 миллионов рупий
+LLM usage this run: 6 requests, 8520 tokens
