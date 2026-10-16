@@ -1,28 +1,5 @@
-### check 1/5 at 14:03
-Could not open https://topfm.mu/actualites/meteo-vers-un-systeme-dalerte-code-couleur-pour-mieux-anticiper-les-risques-lies-aux-fortes-pluies: HTTPSConnectionPool(host='topfm.mu', port=443): Read timed out.
-Posted (Le Mauricien): В PMO вчера: ZVZ и артисты выходят на передовую
+### check 1/5 at 14:38
+Posted (L'Express): Здравоохранение: Новый блок для улучшения помощи при неотложных состояниях
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Couvre-feu : 16 infractions, 11 placements en détention et deux conducteurs positifs à l’a == Комендантский час: зафиксировано 16 нарушений и две аварии с участием пьяных водителей
-Posted (Le Mauricien): Эль-Ниньо: более жаркое лето с усиленным давлением на водоснабжение и электросети
-Posted (Le Mauricien): Camp-Levieux | Стрельба, в результате которой пострадала Élodie Thomas: против полицейских может быть выдано уведомление о запрете на выезд
-LLM usage this run: 10 requests, 14064 tokens
-### check 2/5 at 14:07
-Posted (Le Mauricien): Образование — Несовершеннолетние и насилие — Возраст уголовной ответственности: поиск баланса между защитой и ответственностью
-Posted (Le Mauricien): Полицейские операции: задержано около сорока человек
-  dup: nothing new ()
-Skipped duplicate (Inside News): Troubles : face à l’implication de mineurs, les autorités appellent les parents à reprendr == Беспорядки в общественном порядке: 16 несовершеннолетних задействованы, Омбудсмен по делам
-  not about Mauritius: VIDEO : Tesla Roadster – Elon Musk fait décoller sa voiture
-Skipped foreign news (Inside News): VIDEO : Tesla Roadster – Elon Musk fait décoller sa voiture
-LLM usage this run: 9 requests, 13298 tokens
-### check 3/5 at 14:11
-Posted (L'Express): Saint-Pierre: Полицейский получил пощечину от подростка
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Récents troubles : L’Ombudsperson for Children appelle les parents à la vigilance == Беспорядки в общественном порядке: 16 несовершеннолетних задействованы, Омбудсмен по делам
-LLM usage this run: 4 requests, 5328 tokens
-### check 4/5 at 14:15
-Posted (Defimedia): Нарушение комендантского часа: двенадцать подсудимых в возрасте от 19 до 59 лет признали вину перед судом
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198886, Reque
-  not about Mauritius: Video:PAKISTAN – 32 ÉLÈVES ET UNE ENSEIGNANTE TUÉS DANS L’EFFONDREMENT D’UNE ÉCOLE
-Skipped foreign news (Inside News): Video:PAKISTAN – 32 ÉLÈVES ET UNE ENSEIGNANTE TUÉS DANS L’EFFONDREMENT D’UNE ÉCOLE
-LLM usage this run: 5 requests, 7084 tokens
-### check 5/5 at 14:19
+Skipped duplicate (Defimedia): Non-respect du couvre-feu : les douze prévenus maintenus en détention == Нарушение комендантского часа: двенадцать подсудимых в возрасте от 19 до 59 лет признали в
+LLM usage this run: 4 requests, 5232 tokens
