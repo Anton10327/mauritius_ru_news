@@ -1,9 +1,6 @@
-### check 1/5 at 15:10
-  dup: nothing new ()
-Skipped duplicate (L'Express): Tensions à travers le pays : Une nuit calme sous haute surveillance == Напряженность по всему острову: 26 арестов в среду, вечер прошел относительно спокойно
-LLM usage this run: 1 requests, 1369 tokens
-### check 2/5 at 15:14
-### check 3/5 at 15:18
-Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
-### check 4/5 at 15:22
-### check 5/5 at 15:26
+### check 1/5 at 15:51
+Posted (Defimedia): Полицейский участок Barkly не работает, его функции переданы в участок Beau-Bassin
+Posted (L'Express): Общественный транспорт: последние автобусы выйдут в 19:00 в пятницу
+Posted (Defimedia): Социальные напряжения и их последствия: «Некоторые дети пропустили экзамены HSC, и это повлечет за собой последствия»
+Posted (L'Express): Комендантский час: двенадцать обвиняемых признали вину, приговор в понедельник
+LLM usage this run: 12 requests, 14425 tokens
