@@ -1,9 +1,9 @@
-### check 1/5 at 10:13
-Posted (Defimedia): Уголовная ответственность с 12 лет: движение Lawwa Lavenir против предложения правительства
-Posted (L'Express): Инциденты в Flacq: Jayesh Julloo подозревается в распространении коктейлей Молотова
-LLM usage this run: 6 requests, 8401 tokens
-### check 2/5 at 10:17
-Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
-### check 3/5 at 10:21
-### check 4/5 at 10:25
-### check 5/5 at 10:29
+### check 1/5 at 11:06
+  proofread: Также произошло две аварии → Также произошли две аварии
+Posted (Defimedia): Комендантский час: зафиксировано 16 нарушений и две аварии с участием пьяных водителей
+  not about Mauritius: La Banque mondiale met la priorité sur l'emploi... avant le climat
+Skipped foreign news (Defimedia): La Banque mondiale met la priorité sur l'emploi... avant le climat
+  dup: nothing new ()
+Skipped duplicate (Inside News): Troubles à Maurice : 150 arrestations, le couvre-feu arrivé à expiration == Итоги: 150 арестов
+Posted (Defimedia): Программа субсидий на водонакопители и насосы: CWA зарегистрировала 18 490 заявок за четыре дня
+LLM usage this run: 8 requests, 11041 tokens
