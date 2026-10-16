@@ -24,3 +24,8 @@ LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached 
 Posted (Defimedia): Эшан Джуман о отставке Сидни Пьера: «Я грустен, теряю друга»
 LLM usage this run: 4 requests, 5093 tokens
 ### check 4/5 at 19:19
+### check 5/5 at 19:23
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198681, Reque
+LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198988, Re
+Posted (L'Express): Ветеранский футбол | Grand-Baie Corinthians: рождение Dream Team
+LLM usage this run: 2 requests, 3369 tokens
