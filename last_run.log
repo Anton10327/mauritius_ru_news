@@ -1,26 +1,6 @@
-### check 1/5 at 11:06
-  proofread: Также произошло две аварии → Также произошли две аварии
-Posted (Defimedia): Комендантский час: зафиксировано 16 нарушений и две аварии с участием пьяных водителей
-  not about Mauritius: La Banque mondiale met la priorité sur l'emploi... avant le climat
-Skipped foreign news (Defimedia): La Banque mondiale met la priorité sur l'emploi... avant le climat
-  dup: nothing new ()
-Skipped duplicate (Inside News): Troubles à Maurice : 150 arrestations, le couvre-feu arrivé à expiration == Итоги: 150 арестов
-Posted (Defimedia): Программа субсидий на водонакопители и насосы: CWA зарегистрировала 18 490 заявок за четыре дня
-LLM usage this run: 8 requests, 11041 tokens
-### check 2/5 at 11:10
-  proofread: в нескольких станциях → на нескольких станциях; общественный транспорт берут на себя автобусы → общественный транспорт берут на себя автобусы
-Posted (Inside News): Metro Express по-прежнему стоит: повреждения усложняют возобновление работы
-  dup: nothing new ()
-Skipped duplicate (L'Express): Groupe WhatsApp «The Burning Paradise» : Qui tiraient les ficelles ? == Хаос на Маврикии: кто стоял за группой WhatsApp из 630 участников?
-  dup: nothing new ()
-Skipped duplicate (Inside News): Électricité : une campagne nationale pour réduire la consommation avant l’été == Летний период: кампания по снижению нагрузки на электросеть
-LLM usage this run: 5 requests, 6366 tokens
-### check 3/5 at 11:14
-  dup: nothing new ()
-Skipped duplicate (Inside News): Réservoirs d’eau : la CWA permet désormais de déposer sa demande en ligne == Резервуары и насосы: какие документы нужно подготовить перед подачей онлайн-заявки
-LLM usage this run: 1 requests, 1293 tokens
-### check 4/5 at 11:18
-  dup: nothing new ()
-Skipped duplicate (Inside News): Accidents de la route : des automobilistes pourraient attendre jusqu’à fin 2027 pour être  == Компенсации после ДТП: рассмотрение накопившихся дел может затянуться до конца 2027 года
-LLM usage this run: 1 requests, 1372 tokens
-### check 5/5 at 11:22
+### check 1/5 at 11:43
+Posted (Le Mauricien): Явление молодежной жестокости: 3000 рупий на человека, чтобы сеять хаос
+Posted (Le Mauricien): Встреча в State House с Али Юсуфом (Африканский союз): вице-президент Хангли — «Время Африки наступило»
+Posted (Le Mauricien): Суд — Нарушение комендантского часа: Генпрокурор сегодня инициирует преследование 12 подозреваемых
+Posted (Le Mauricien): Архиепархия Port-Louis — Завтра в 18:00: приходы соберутся на мессу за мир
+LLM usage this run: 11 requests, 16130 tokens
