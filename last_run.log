@@ -6,3 +6,8 @@ LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached 
 Posted (L'Express): Трения на Маврикии: потери активности до 470 миллионов рупий
 Posted (L'Express): Торговля людьми: Маврикий выявил больше жертв, но осудил мало
 LLM usage this run: 10 requests, 13746 tokens
+### check 2/5 at 17:19
+Proofreading skipped: daily limit
+Posted (Defimedia): Туризм: отмен бронирований не зафиксировано, сообщил Richard Duval
+Posted (L'Express): Mare-Chicose: новые перебои на полигоне захоронения
+LLM usage this run: 4 requests, 5626 tokens
