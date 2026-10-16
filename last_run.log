@@ -6,3 +6,13 @@ Skipped duplicate (Wazaa): Les opérateurs de bus subissent une baisse de 50 % d
 LLM usage this run: 7 requests, 8786 tokens
 ### check 2/5 at 12:59
 ### check 3/5 at 13:03
+### check 4/5 at 13:07
+Could not read L'Express: ReadTimeout HTTPSConnectionPool(host='lexpress.mu', port=443): Read timed out. (read timeout=30)
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Émeutes : les commerces face à des pertes de plusieurs millions de roupies == Тенденции по всему острову: грабежи, пожары, вандализм – тяжёлые материальные потери
+  same headline as #82: Non-respect du couvre-feu : 12 personnes arrêtées
+Skipped duplicate (Defimedia): Non-respect du couvre-feu : les 12 prévenus assurent leur propre défense == Нарушение комендантского часа: 12 человек задержаны
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Canne à sucre : près de 17 450 tonnes brûlées en trois jours == Пожары на полях: сожжено 17 450 тонн сахарного тростника, сообщил Arvin Boolell
+Posted (Defimedia): Комендантский час: ночная жизнь и экономика в застое
+LLM usage this run: 5 requests, 6782 tokens
