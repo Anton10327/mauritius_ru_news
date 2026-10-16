@@ -1,20 +1,4 @@
-### check 1/5 at 09:41
-Posted (Le Mauricien): Финансовый отчет Innodis: прибыль выросла на 18%
-Posted (Le Mauricien): Потребление: инфляция в этом году ожидается на уровне 5%
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Émeutes — 3e déclaration successive du PM : Ramgoolam hausse le ton contre les trafiquants == Ramgoolam: «Мы рассматриваем возможность преследования бунтовщиков по закону о предотвраще
-Posted (Le Mauricien): Туризм – Устойчивый сентябрь 2026: Constance Hospitality переходит к действиям
-LLM usage this run: 10 requests, 13812 tokens
-### check 2/5 at 09:45
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Après la délicate intervention en cinq étapes : Des images témoignent des premiers pas d’E == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
-Posted (Wazaa): Премьер-министр предупреждает наркобаронов, пока Маврикий рассматривает обвинения в терроризме против 26 участников беспорядков
-Posted (Inside News): Водный кризис: уровень воды в Mare-aux-Vacoas упал до 35,7%, экстренные меры проверяются на практике
-  dup: nothing new ()
-Skipped duplicate (Top FM): Mobilisation dans les quartiers : La police coordonne les initiatives citoyennes et rappel == Бдительность во время комендантского часа: жители и полицейские организуются для сохранени
-LLM usage this run: 8 requests, 11019 tokens
-### check 3/5 at 09:49
-### check 4/5 at 09:53
-### check 5/5 at 09:57
-  same headline as #109: Âge de responsabilité pénale : DIS-MOI s’oppose fermement à son abaissement de 1
-Skipped duplicate (L'Express): Responsabilité pénale des mineurs : Lavwa Lavenir s’oppose à l’abaissement de l’âge de 14  == Возраст уголовной ответственности: организация DIS-MOI решительно выступает против его сни
+### check 1/5 at 10:13
+Posted (Defimedia): Уголовная ответственность с 12 лет: движение Lawwa Lavenir против предложения правительства
+Posted (L'Express): Инциденты в Flacq: Jayesh Julloo подозревается в распространении коктейлей Молотова
+LLM usage this run: 6 requests, 8401 tokens
