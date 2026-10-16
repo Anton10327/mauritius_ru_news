@@ -18,3 +18,8 @@ LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reach
 Posted (Le Mauricien): Высшее образование: HEC не аккредитовал программу магистратуры по общественному здравоохранению Университета Маврикия
 Posted (Le Mauricien): Министр туризма Ричард Дуваль: «Грабежи не являются требованием»
 LLM usage this run: 7 requests, 11383 tokens
+### check 5/5 at 18:13
+Duplicate check skipped, limit reached for openai/gpt-oss-120b
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198994, Reque
+Posted (L'Express): Инциденты по всему острову: шестнадцать новых нарушений комендантского часа зафиксированы
+LLM usage this run: 1 requests, 1609 tokens
