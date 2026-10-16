@@ -1,22 +1,9 @@
-### check 1/5 at 19:40
-Posted (Defimedia): Кризис с водой: создан межведомственный комитет под председательством премьер-министра
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198380, Reque
-LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199543, Re
-Posted (Defimedia): Пенальная ответственность несовершеннолетних: кабинет предпочитает расширенные консультации и планирует внести поправку о создании специального парламентского комитета
-Posted (Top FM): Работники-активисты: дань памяти и наследию 2 и 4 ноября
-LLM usage this run: 7 requests, 9510 tokens
-### check 2/5 at 19:44
-Duplicate check skipped, limit reached for openai/gpt-oss-120b
-Proofreading skipped: daily limit
-Posted (L'Express): [LIVE] Комендантский час: Navin Ramgoolam обращается к нации
-  same headline as #204: Eshan Juman sur la démission de Sydney Pierre : «Je suis triste, je perds un ami
-Skipped duplicate (Defimedia): Eshan Juman sur la démission de Sydney Pierre : «Je suis triste, je perds un ami » == Эшан Джуман о отставке Сидни Пьера: «Я грустен, теряю друга»
+### check 1/5 at 20:15
+Posted (Le Mauricien): Aadil Ameer Meea, министр промышленности: «За каждым магазином стоят семьи и рабочие места»
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199018, Reque
+LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199117, Re
+Posted (Defimedia): Эшан Джуман: «У тебя есть Минор, а у тебя есть Rolls‑Royce, ты ставишь Rolls‑Royce в гараж, а Минор ездит»
   dup: nothing new ()
-Skipped duplicate (Defimedia): Démission du PTr- Sydney Pierre : « C’est un moment très difficile pour moi » == Политика: Sydney Pierre покидает Рабочую партию
-LLM usage this run: 2 requests, 2647 tokens
-### check 3/5 at 19:48
-### check 4/5 at 19:52
-Proofreading skipped: daily limit
-Posted (L'Express): Mo Kiltir: Спасите книгу!
-LLM usage this run: 2 requests, 3140 tokens
-### check 5/5 at 19:56
+Skipped duplicate (Le Mauricien): Industrie sucrière : 17 450 tonnes de cannes à sucre brûlées à ce jour == Пожары на полях: сожжено 17 450 тонн сахарного тростника, сообщил Arvin Boolell
+Posted (Le Mauricien): Джек Бисмоун, лидер Союза Социального Маврикия (USM): «ИИ может стать крайне важным инструментом для национальной безопасности»
+LLM usage this run: 8 requests, 11978 tokens
