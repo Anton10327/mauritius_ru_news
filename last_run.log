@@ -2,3 +2,5 @@
 Posted (Defimedia): Уголовная ответственность с 12 лет: движение Lawwa Lavenir против предложения правительства
 Posted (L'Express): Инциденты в Flacq: Jayesh Julloo подозревается в распространении коктейлей Молотова
 LLM usage this run: 6 requests, 8401 tokens
+### check 2/5 at 10:17
+Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
