@@ -1,13 +1,3 @@
-### check 1/5 at 05:48
-  dup: nothing new ()
-Skipped duplicate (Wazaa): 3 évaluations nationales de l’éducation reportées pendant que les examens SC et HSC se pou == Школьный календарь нарушен: экзамен NCE перенесен, SC и HSC сохраняются
-LLM usage this run: 1 requests, 1379 tokens
-### check 2/5 at 05:52
-### check 3/5 at 05:56
-  proofread: профессиональная и иная деятельность могут → профессиональная и иная деятельность может
-Posted (Defimedia): Дороги проходимы, деятельность может возобновиться, сообщает полиция
-LLM usage this run: 3 requests, 3378 tokens
-### check 4/5 at 06:00
-Posted (L'Express): Главные заголовки газеты L'express за пятницу, 16 октября 2026 года
-LLM usage this run: 3 requests, 3909 tokens
-### check 5/5 at 06:04
+### check 1/5 at 06:15
+Posted (Inside News): Погода: порывы ветра до 60 км/ч в пятницу, осторожность на море
+LLM usage this run: 3 requests, 3801 tokens
