@@ -1,25 +1,6 @@
-### check 1/5 at 20:15
-Posted (Le Mauricien): Aadil Ameer Meea, министр промышленности: «За каждым магазином стоят семьи и рабочие места»
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199018, Reque
-LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199117, Re
-Posted (Defimedia): Эшан Джуман: «У тебя есть Минор, а у тебя есть Rolls‑Royce, ты ставишь Rolls‑Royce в гараж, а Минор ездит»
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Industrie sucrière : 17 450 tonnes de cannes à sucre brûlées à ce jour == Пожары на полях: сожжено 17 450 тонн сахарного тростника, сообщил Arvin Boolell
-Posted (Le Mauricien): Джек Бисмоун, лидер Союза Социального Маврикия (USM): «ИИ может стать крайне важным инструментом для национальной безопасности»
-LLM usage this run: 8 requests, 11978 tokens
-### check 2/5 at 20:19
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Troubles : 8 postes de police, 31 véhicules de la police et 162 caméras Safe City endommag == Итоги беспорядков: 151 арест, 162 поврежденные камеры Safe City, 17 000 тонн сожженного са
-LLM usage this run: 1 requests, 1483 tokens
-### check 3/5 at 20:23
-Could not read Top FM: ReadTimeout HTTPSConnectionPool(host='topfm.mu', port=443): Read timed out. (read timeout=30)
-### check 4/5 at 20:27
-### check 5/5 at 20:31
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): [Вечерняя информация]: «Автобус врезался в людей, которые защищали свои дома»
-Duplicate check skipped, limit reached for openai/gpt-oss-120b
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199436, Reque
-Posted (Defimedia): Премьер‑министр Рамгулам объявил о продлении комендантского часа на выходных
-  dup: nothing new ()
-Skipped duplicate (Top FM): Couvre-feu prolongé durant le week-end : « Nou pa kapav pran okenn risk avek lavi bann dim == Комендантский час сохранён до воскресенья, но с 22 ч до 4 ч 30 вместо 20 ч 30 до 5 ч
-LLM usage this run: 5 requests, 7251 tokens
+### check 1/5 at 20:53
+  same headline as #190: Politique : Sydney Pierre démissionne du Parti travailliste
+Skipped duplicate (L'Express): Sydney Pierre démissionne du Parti travailliste == Политика: Sydney Pierre покидает Рабочую партию
+  proofread: Жером Кларенс → Jérôme Clarenc
+Posted (L'Express): Jérôme Clarenc: «Переход к технологиям с низким уровнем выбросов углерода требует значительных инвестиций»
+LLM usage this run: 2 requests, 2569 tokens
