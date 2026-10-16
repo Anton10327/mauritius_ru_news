@@ -1,31 +1,7 @@
-### check 1/5 at 19:07
-Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
-Posted (Defimedia): Политика: Sydney Pierre покидает PTr и ряды правящего большинства
-  same headline as #189: Metro Express : Rs 45 millions de dégâts et Rs 6 millions de manque à gagner apr
-Skipped duplicate (L'Express): Metro Express : Des dégâts matériels estimés à Rs 45 millions == Metro Express: ущерб на 45 млн рупий и потери на 6 млн рупий после четырех дней простоя
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198759, Reque
-LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199932, Re
-Posted (Defimedia): Сидней Пьер покидает ПТр: «Я не могу сказать, что собираюсь присоединиться к FMP, я не могу сказать, что собираюсь оставить Партию трудящихся…»
-  dup: nothing new ()
-Skipped duplicate (L'Express): Tensions à travers le pays : La facture économique reste à établir == Трения на Маврикии: потери активности до 470 миллионов рупий
-LLM usage this run: 6 requests, 8520 tokens
-### check 2/5 at 19:11
-  same headline as #100: Incendies dans les champs : 17 450 tonnes de canne à sucre brûlées, indique Arvi
-Skipped duplicate (Inside News): Incendies dans les champs : 17 450 tonnes de canne touchées à Maurice == Пожары на полях: сожжено 17 450 тонн сахарного тростника, сообщил Arvin Boolell
-Duplicate check skipped, limit reached for openai/gpt-oss-120b
-LLM per-minute limit, waiting 16s
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198231, Reque
-Posted (Defimedia): Тревоги: 151 человек арестованы, из них 16 несовершеннолетних, с 12 октября
-LLM usage this run: 1 requests, 1687 tokens
-### check 3/5 at 19:15
-Duplicate check skipped, limit reached for openai/gpt-oss-120b
-Posted (Defimedia): Комендантский час: правительство хочет разрешить его введение на всей территории страны и ужесточить наказания за ношение наступательного оружия
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199791, Reque
-Posted (Defimedia): Эшан Джуман о отставке Сидни Пьера: «Я грустен, теряю друга»
-LLM usage this run: 4 requests, 5093 tokens
-### check 4/5 at 19:19
-### check 5/5 at 19:23
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198681, Reque
-LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198988, Re
-Posted (L'Express): Ветеранский футбол | Grand-Baie Corinthians: рождение Dream Team
-LLM usage this run: 2 requests, 3369 tokens
+### check 1/5 at 19:40
+Posted (Defimedia): Кризис с водой: создан межведомственный комитет под председательством премьер-министра
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198380, Reque
+LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199543, Re
+Posted (Defimedia): Пенальная ответственность несовершеннолетних: кабинет предпочитает расширенные консультации и планирует внести поправку о создании специального парламентского комитета
+Posted (Top FM): Работники-активисты: дань памяти и наследию 2 и 4 ноября
+LLM usage this run: 7 requests, 9510 tokens
