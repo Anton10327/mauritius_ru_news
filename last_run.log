@@ -19,3 +19,7 @@ LLM usage this run: 5 requests, 6366 tokens
   dup: nothing new ()
 Skipped duplicate (Inside News): Réservoirs d’eau : la CWA permet désormais de déposer sa demande en ligne == Резервуары и насосы: какие документы нужно подготовить перед подачей онлайн-заявки
 LLM usage this run: 1 requests, 1293 tokens
+### check 4/5 at 11:18
+  dup: nothing new ()
+Skipped duplicate (Inside News): Accidents de la route : des automobilistes pourraient attendre jusqu’à fin 2027 pour être  == Компенсации после ДТП: рассмотрение накопившихся дел может затянуться до конца 2027 года
+LLM usage this run: 1 requests, 1372 tokens
