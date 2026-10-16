@@ -6,3 +6,9 @@ LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached 
 Posted (Inside News): Родригес: новая установка опреснения воды для смягчения водного кризиса
 LLM usage this run: 2 requests, 3006 tokens
 ### check 3/5 at 16:37
+### check 4/5 at 16:41
+  dup: nothing new ()
+Skipped duplicate (L'Express): Éducation : les nouvelles dates des examens annoncées == Образование: новые даты экзаменов Grade 4, Grade 5 и NCE, учебный год в старшей школе прод
+Proofreading failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
+Posted (Top FM): Наркотики и беспорядки: Platform Komun Syndikal требует арестов
+LLM usage this run: 3 requests, 4257 tokens
