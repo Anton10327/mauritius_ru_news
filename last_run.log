@@ -1,19 +1,6 @@
-### check 1/5 at 12:14
-Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='www.inside.news', port=443): Read timed out. (read timeout=30)
-Posted (Defimedia): Реформа: снижение возраста уголовной ответственности до 12 лет вызывает вопросы
+### check 1/5 at 12:55
+Posted (L'Express): Мобильность и дистрибуция: «L’express» выполняет свои обязательства, несмотря на беспорядки
+Posted (Inside News): Дельфины и киты: специальная бригада для контроля туристической деятельности
   dup: nothing new ()
-Skipped duplicate (Defimedia): Mgr Durhône invite les fidèles catholiques à prier pour la paix ce samedi 17 octobre == Архиепархия Port-Louis — Завтра в 18:00: приходы соберутся на мессу за мир
-Posted (Defimedia): Kunal Naik, глава NADC: «Криминальные сети эксплуатируют уязвимость молодежи в интересах наркоторговли»
-  same headline as #83: Non-respect du couvre-feu : 12 personnes arrêtées
-Skipped duplicate (Defimedia): Non-respect du couvre-feu : 12 prévenus plaident coupable == Нарушение комендантского часа: 12 человек задержаны
-LLM usage this run: 7 requests, 10146 tokens
-### check 2/5 at 12:18
-Posted (Top FM): Публикация изображений несовершеннолетних, участвовавших в беспорядках: омбудсмен по делам детей требует немедленного удаления контента
-Posted (Top FM): Партнёрство SIL и TCS: Маврикий ускоряет цифровую трансформацию
-LLM usage this run: 6 requests, 7523 tokens
-### check 3/5 at 12:22
-### check 4/5 at 12:26
-  dup: nothing new ()
-Skipped duplicate (L'Express): Élodie Thomas : les premiers pas d’une battante == Стрельба в Camp-Levieux: Élodie Thomas теперь может ходить с помощью ходунков
-LLM usage this run: 1 requests, 1429 tokens
-### check 5/5 at 12:30
+Skipped duplicate (Wazaa): Les opérateurs de bus subissent une baisse de 50 % des passagers et des revenus en raison  == Комендантский час: автобусные перевозки теряют до 50% пассажиров и доходов
+LLM usage this run: 7 requests, 8786 tokens
