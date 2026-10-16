@@ -7,3 +7,11 @@ Skipped foreign news (Defimedia): La Banque mondiale met la priorité sur l'empl
 Skipped duplicate (Inside News): Troubles à Maurice : 150 arrestations, le couvre-feu arrivé à expiration == Итоги: 150 арестов
 Posted (Defimedia): Программа субсидий на водонакопители и насосы: CWA зарегистрировала 18 490 заявок за четыре дня
 LLM usage this run: 8 requests, 11041 tokens
+### check 2/5 at 11:10
+  proofread: в нескольких станциях → на нескольких станциях; общественный транспорт берут на себя автобусы → общественный транспорт берут на себя автобусы
+Posted (Inside News): Metro Express по-прежнему стоит: повреждения усложняют возобновление работы
+  dup: nothing new ()
+Skipped duplicate (L'Express): Groupe WhatsApp «The Burning Paradise» : Qui tiraient les ficelles ? == Хаос на Маврикии: кто стоял за группой WhatsApp из 630 участников?
+  dup: nothing new ()
+Skipped duplicate (Inside News): Électricité : une campagne nationale pour réduire la consommation avant l’été == Летний период: кампания по снижению нагрузки на электросеть
+LLM usage this run: 5 requests, 6366 tokens
