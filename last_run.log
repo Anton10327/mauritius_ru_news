@@ -1,12 +1,7 @@
-### check 1/5 at 09:09
-Posted (L'Express): Итоги: 150 арестов
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Импорт: сколько Маврикий действительно платит за рубежом
-LLM usage this run: 6 requests, 7661 tokens
-### check 2/5 at 09:13
-### check 3/5 at 09:17
+### check 1/5 at 09:41
+Posted (Le Mauricien): Финансовый отчет Innodis: прибыль выросла на 18%
+Posted (Le Mauricien): Потребление: инфляция в этом году ожидается на уровне 5%
   dup: nothing new ()
-Skipped duplicate (Inside News): Tourisme : Maurice dépasse le million de visiteurs en neuf mois == Туризм: рубеж в миллион посетителей преодолён за девять месяцев
-LLM usage this run: 1 requests, 1294 tokens
-### check 4/5 at 09:21
-### check 5/5 at 09:25
+Skipped duplicate (Le Mauricien): Émeutes — 3e déclaration successive du PM : Ramgoolam hausse le ton contre les trafiquants == Ramgoolam: «Мы рассматриваем возможность преследования бунтовщиков по закону о предотвраще
+Posted (Le Mauricien): Туризм – Устойчивый сентябрь 2026: Constance Hospitality переходит к действиям
+LLM usage this run: 10 requests, 13812 tokens
