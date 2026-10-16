@@ -1,23 +1,9 @@
-### check 1/5 at 11:43
-Posted (Le Mauricien): Явление молодежной жестокости: 3000 рупий на человека, чтобы сеять хаос
-Posted (Le Mauricien): Встреча в State House с Али Юсуфом (Африканский союз): вице-президент Хангли — «Время Африки наступило»
-Posted (Le Mauricien): Суд — Нарушение комендантского часа: Генпрокурор сегодня инициирует преследование 12 подозреваемых
-Posted (Le Mauricien): Архиепархия Port-Louis — Завтра в 18:00: приходы соберутся на мессу за мир
-LLM usage this run: 11 requests, 16130 tokens
-### check 2/5 at 11:47
-Posted (Wazaa): Налоговое соглашение между Индией и Маврикием пересмотрено с введением теста основного объекта
-Posted (L'Express): Напряженность по всей стране: правительство пригрозит применением антитеррористического закона
-Posted (Top FM): Дело Élodie Thomas: Rabin Bhujun хвалит управление кризисными коммуникациями
+### check 1/5 at 12:14
+Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='www.inside.news', port=443): Read timed out. (read timeout=30)
+Posted (Defimedia): Реформа: снижение возраста уголовной ответственности до 12 лет вызывает вопросы
   dup: nothing new ()
-Skipped duplicate (Top FM): Réservoirs d'eau gratuits : plus de 18 000 demandes enregistrées en quatre jours == Программа субсидий на водонакопители и насосы: CWA зарегистрировала 18 490 заявок за четыр
-LLM usage this run: 10 requests, 13039 tokens
-### check 3/5 at 11:51
-  same headline as #148: Affaire Élodie Thomas : l’IPCC ouvre deux enquêtes et demande des restrictions d
-Skipped duplicate (Inside News): Affaire Élodie Thomas : l’IPCC ouvre deux enquêtes et demande des restrictions de départ == Дело Élodie Thomas: IPCC открывает два расследования и требует ограничить выезд некоторых 
-### check 4/5 at 11:55
-Posted (Defimedia): В центре информации: Обзор напряженной недели, потрясшей страну
-Posted (Defimedia): Нарушение комендантского часа: в пятницу началось судебное разбирательство по делу 13 обвиняемых
-Posted (Defimedia): Нарушение комендантского часа: генпрокурор Rashid Ahmine: «Это правонарушение, за которое грозит до пяти лет тюрьмы»
-Posted (Top FM): Модернизация полиции: срочная реформа, по мнению Avinaash Munohur
-LLM usage this run: 12 requests, 15515 tokens
-### check 5/5 at 11:59
+Skipped duplicate (Defimedia): Mgr Durhône invite les fidèles catholiques à prier pour la paix ce samedi 17 octobre == Архиепархия Port-Louis — Завтра в 18:00: приходы соберутся на мессу за мир
+Posted (Defimedia): Kunal Naik, глава NADC: «Криминальные сети эксплуатируют уязвимость молодежи в интересах наркоторговли»
+  same headline as #83: Non-respect du couvre-feu : 12 personnes arrêtées
+Skipped duplicate (Defimedia): Non-respect du couvre-feu : 12 prévenus plaident coupable == Нарушение комендантского часа: 12 человек задержаны
+LLM usage this run: 7 requests, 10146 tokens
