@@ -4,3 +4,8 @@ Proofreading skipped: daily limit
 Posted (Top FM): Итоги беспорядков: 151 арест, 162 поврежденные камеры Safe City, 17 000 тонн сожженного сахарного тростника, семь раненых полицейских и восемь поврежденных участков
 LLM usage this run: 5 requests, 6544 tokens
 ### check 2/5 at 18:36
+### check 3/5 at 18:40
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198899, Reque
+LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199349, Re
+Posted (L'Express): Совет министров: комендантский час, безопасность, образование, кризис воды
+LLM usage this run: 2 requests, 2925 tokens
