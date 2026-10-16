@@ -1,16 +1,5 @@
-### check 1/5 at 22:28
-### check 2/5 at 22:32
-Posted (L'Express): Пенсионное обеспечение: новые условия проживания для получателей в возрасте 61 года
-LLM usage this run: 3 requests, 3754 tokens
-### check 3/5 at 22:36
-  not about Mauritius: Manière de voir | Des chiffres plus qu’astronomiques : De nos petites planètes et galaxies à l’unive
-Skipped foreign news (L'Express): Manière de voir | Des chiffres plus qu’astronomiques : De nos petites planètes et galaxies à l’unive
-LLM usage this run: 2 requests, 2977 tokens
-### check 4/5 at 22:40
-### check 5/5 at 22:44
-LLM per-minute limit, waiting 10s
-Proofreading skipped: daily limit
-Posted (Defimedia): Беспорядки: вынесены первые приговоры, пятеро получили тюремные сроки
-  not about Mauritius: Comment une attaque « sans clic » liée à une entreprise israélienne pose un risque pour la sécurité 
-Skipped foreign news (Defimedia): Comment une attaque « sans clic » liée à une entreprise israélienne pose un risque pour la sécurité 
-LLM usage this run: 4 requests, 6351 tokens
+### check 1/5 at 23:06
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Traite des personnes — Capacity Building : L’OIM appelle à une protection accrue et souten == Торговля людьми: «Маврикий должен продолжать усилия для лучшей защиты жертв», — заявила ИО
+Posted (L'Express): Юношеская преступность: парламентский комитет рассмотрит снижение возраста уголовной ответственности
+LLM usage this run: 4 requests, 4987 tokens
