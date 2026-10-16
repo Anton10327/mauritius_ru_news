@@ -12,3 +12,7 @@ Skipped duplicate (L'Express): Éducation : les nouvelles dates des examens anno
 Proofreading failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
 Posted (Top FM): Наркотики и беспорядки: Platform Komun Syndikal требует арестов
 LLM usage this run: 3 requests, 4257 tokens
+### check 5/5 at 16:45
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198560, Reque
+Posted (L'Express): Образование: Нормальное возобновление занятий в понедельник, 19 октября
+LLM usage this run: 2 requests, 2782 tokens
