@@ -15,3 +15,13 @@ LLM usage this run: 9 requests, 12178 tokens
   dup: nothing new ()
 Skipped duplicate (L'Express): Tensions à travers le pays | Filière sucrière : 17 450 tonnes de canne parties en fumée == Пожары на полях: сожжено 17 450 тонн сахарного тростника, сообщил Arvin Boolell
 LLM usage this run: 1 requests, 1471 tokens
+### check 4/5 at 16:03
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198476, Reque
+Posted (Le Mauricien): Patrice Marie, президент MCCI: «Мы разделяем общую судьбу и коллективную ответственность»
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): LAPE – LAGER – LAKIETID LAVI :Nou ki desider ! == После событий в Camp-Levieux: перенос экзаменов усиливает стресс
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Thémis au supplice et aux fers, le Léviathan déchaîné  et en majesté == Насилие на Маврикии: 26 новых задержаний во время комендантского часа
+  not about Mauritius: Chagos : Badenoch accuse Farage de vouloir « brader » le territoire à Trump
+Skipped foreign news (Le Mauricien): Chagos : Badenoch accuse Farage de vouloir « brader » le territoire à Trump
+LLM usage this run: 5 requests, 8295 tokens
