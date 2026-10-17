@@ -7,3 +7,9 @@ LLM usage this run: 3 requests, 3833 tokens
   proofread: Мелани Нажен → Mélanie Nagen
 Posted (Top FM): Беспорядки и порча имущества: наказания, предусмотренные законом, разъяснены адвокатом Mélanie Nagen
 LLM usage this run: 3 requests, 3902 tokens
+### check 3/5 at 13:43
+  dup: nothing new ()
+Skipped duplicate (L'Express): Tribune : L’étincelle de la colère et l’ombre de l’impunité == Молодёжь в авангарде: причины вспышки гнева
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Lettre ouverte à Élodie Thomas == Дело Élodie Thomas: IPCC открывает два расследования и требует ограничить выезд некоторых 
+LLM usage this run: 2 requests, 2883 tokens
