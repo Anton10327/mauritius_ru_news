@@ -1,14 +1,8 @@
-### check 1/5 at 12:07
-  proofread: Бассен-Бо → Beau-Bassin; Бай-дю-Кап → Baie-du-Cap; Пуэнт-о-Сабль → Pointe-aux-Sables; Бей-дю-Кап → Baie-du-Cap
-Posted (L'Express): Грабежи по всему острову: годы жертв сведены на нет за одну ночь
-LLM usage this run: 3 requests, 4502 tokens
-### check 2/5 at 12:11
-Posted (Defimedia): Комендантский час: девять человек арестованы в ночь с пятницы на субботу
-Posted (Defimedia): После инцидентов 13 октября — суд в Bambous: похищены дела, какие последствия?
-LLM usage this run: 6 requests, 7633 tokens
-### check 3/5 at 12:15
-### check 4/5 at 12:19
-  proofread: Акила Бессесура → Akil Bissessur; Раджан Канглу → Rajman Kangloo
-Posted (Top FM): Akil Bissessur отклонили в апелляции: обязательство вернуть 2,3 млн рупий бывшему тестю подтверждено
-LLM usage this run: 3 requests, 4281 tokens
-### check 5/5 at 12:23
+### check 1/5 at 12:39
+  same headline as #111: Le poste de police de Barkly n’étant pas opérationnel, ses activités transférées
+Skipped duplicate (Le Mauricien): POSTE DE POLICE DE BARKLY – Les services transférés à Beau-Bassin == Полицейский участок Barkly не работает, его функции переданы в участок Beau-Bassin
+  same headline as #127: Metro Express : Rs 45 millions de dégâts et Rs 6 millions de manque à gagner apr
+Skipped duplicate (Le Mauricien): METRO-EXPRESS:  Rs 45 M de dégâts et Rs 6 M de manque à gagner == Metro Express: ущерб на 45 млн рупий и потери на 6 млн рупий после четырех дней простоя
+Posted (Inside News): Инфляция на Маврикии: почему цены остаются высокими, даже когда их рост замедляется
+Posted (Le Mauricien): Сеть Met Dife Ladan раскрыта — The Burning Paradise: след к подключению мобильных телефонов
+LLM usage this run: 6 requests, 7685 tokens
