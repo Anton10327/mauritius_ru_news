@@ -1,11 +1,7 @@
-### check 1/5 at 19:32
+### check 1/5 at 20:00
+LLM request failed (GigaChat-3-Ultra): ReadTimeout HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Read timed out. (read timeout=30)
+  written by qwen/qwen3.8-27b
+Posted (Defimedia): Nilmala рассказывает о борьбе рядом с Élodie: «Моё материнское сердце было на пределе»
   dup: nothing new ()
-Skipped duplicate (Top FM): Pillages et troubles à l’ordre public : vague d’arrestations ce samed, parmi un étudiant d == Беспорядки: двое, включая 18-летнего студента, арестованы и временно обвинены по антитерро
-LLM usage this run: 1 requests, 1570 tokens
-### check 2/5 at 19:36
-  dup: nothing new ()
-Skipped duplicate (L'Express): Tensions à travers l’île : Des troubles à la barre, cinq hommes face à la prison == Беспорядки: вынесены первые приговоры, пятеро получили тюремные сроки
-LLM usage this run: 1 requests, 1461 tokens
-### check 3/5 at 19:40
-### check 4/5 at 19:44
-### check 5/5 at 19:48
+Skipped duplicate (L'Express): Élodie et Jonathan Thomas : Retour sur ce vendredi soir où leur vie a basculé == Camp-Levieux | Стрельба, в результате которой пострадала Élodie Thomas: против полицейских
+LLM usage this run: 4 requests, 5636 tokens
