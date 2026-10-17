@@ -1,15 +1,9 @@
-
- https://topfm.mu/actualites/navratri-la-deesse-skandamata-lhonneur-des-prieres-pour-guider-les-parents-et-leurs-enfants 
- og:image: 'https://topfm.mu/sites/default/files/oembed_thumbnails/2026-10/lZ5E4k4pfWynScYG2eTplnyiAck_Ai6ESgwcYUoxSIg.jpg'
-  GET 200 image/jpeg 23978 bytes; final: https://topfm.mu/sites/default/files/oembed_thumbnails/2026-10/lZ5E4k4pfWynScYG2eTplnyiAck_Ai6ESgwcYUoxSIg.jpg
- imgs in page: ['/themes/custom/topfm/logo.png', '/themes/custom/topfm/logo.png']
-
- https://topfm.mu/actualites/tensions-dans-le-pays-les-hommes-religieux-appellent-au-calme-et-la-paix 
- og:image: 'https://topfm.mu/sites/default/files/2026-10/prete.jpg'
-  GET 200 image/jpeg 347997 bytes; final: https://topfm.mu/sites/default/files/2026-10/prete.jpg
- imgs in page: ['/themes/custom/topfm/logo.png', '/sites/default/files/styles/featured/public/2026-10/prete.jpg.avif?itok=0fBKB4FU', '/themes/custom/topfm/logo.png']
-
- https://topfm.mu/actualites/navratri-la-deesse-skandamata-lhonneur-des-prieres-pour-guider-les-parents-et-leurs-enfants 
- og:image: 'https://topfm.mu/sites/default/files/oembed_thumbnails/2026-10/lZ5E4k4pfWynScYG2eTplnyiAck_Ai6ESgwcYUoxSIg.jpg'
-  GET 200 image/jpeg 23978 bytes; final: https://topfm.mu/sites/default/files/oembed_thumbnails/2026-10/lZ5E4k4pfWynScYG2eTplnyiAck_Ai6ESgwcYUoxSIg.jpg
- imgs in page: ['/themes/custom/topfm/logo.png', '/themes/custom/topfm/logo.png']
+key set: True | length: 100
+cert russian_trusted_root_ca_pem.crt 200 2088 bytes PEM
+cert russian_trusted_sub_ca_pem.crt 200 2616 bytes PEM
+oauth with ru-bundle -> 200 OK (token received)
+models https://api.giga.chat/v1 200 ['GigaChat-2', 'GigaChat-2-Max', 'GigaChat-2-Pro', 'GigaChat-3-Lightning', 'GigaChat-3-Pro', 'GigaChat-3-Ultra', 'Embeddings', 'Embeddings-2', 'EmbeddingsGigaR', 'GigaEmbeddings-3B-2025-09']
+   GigaChat-2 200 'Порт-Луи' {'prompt_tokens': 24, 'completion_tokens': 5, 'total_tokens': 29, 'precached_prompt_tokens': 5}
+   GigaChat-2-Pro 200 'Порт-Луи' {'prompt_tokens': 29, 'completion_tokens': 5, 'total_tokens': 34, 'precached_prompt_tokens': 0}
+   GigaChat-2-Max 200 'Порт-Луи' {'prompt_tokens': 26, 'completion_tokens': 5, 'total_tokens': 31, 'precached_prompt_tokens': 3}
+balance 200 {"balance":[{"usage":"GigaChat-Ultra","value":50000000},{"usage":"GigaChat-Pro","value":39999966},{"usage":"GigaChat-Max","value":24999969},{"usage":"GigaChat","value":249999971}]}
