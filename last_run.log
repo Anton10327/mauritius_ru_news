@@ -1,12 +1,5 @@
-### check 1/5 at 10:26
-### check 2/5 at 10:30
-### check 3/5 at 10:34
-### check 4/5 at 10:38
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): INSTITUTE OF INTERNAL AUDITORS: переосмыслить аудит для ответа на вызовы корпоративного управления
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Police Act : Le cadre légal entourant l’imposition d’un couvre-feu à Maurice sera renforcé == Комендантский час: к ужесточению закона и санкций
-Posted (Le Mauricien): Энергетика: Маврикий и Саудовская Аравия изучают проект ТЭС на СПГ мощностью до 500 МВт
-Posted (Le Mauricien): Уголовная ответственность несовершеннолетних: специалисты выступают против снижения возраста до 12 лет
-LLM usage this run: 10 requests, 14617 tokens
-### check 5/5 at 10:42
+### check 1/5 at 11:09
+Posted (Defimedia): Авария в Mapou: полицейский показал положительный результат на алкотесте и помещен под стражу
+  proofread: Стивена Мутуокурпена → Steven Moothoocurpen
+Posted (L'Express): Освобождение под залог Steven Moothoocurpen: защита назвала расследование FCC «fishing expedition»
+LLM usage this run: 6 requests, 7967 tokens
