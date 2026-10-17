@@ -1,21 +1,6 @@
-### check 1/5 at 17:10
-  same headline as #161: Le réseau Met Dife Ladan démasqué -The Burning Paradise: la piste de la connexio
-Skipped duplicate (Le Mauricien): Le réseau Met Dife Ladan démasqué -The Burning Paradise: la piste de la connexion des cell == Сеть Met Dife Ladan раскрыта — The Burning Paradise: след к подключению мобильных телефоно
-  proofread: Сидни Пьер → Sydney Pierre; Navin Ramgoolam → Navin Ramgoolam; Paul Bérenger → Paul Bérenger
-Posted (Le Mauricien): ПОЛИТИКА: Sydney Pierre дистанцируется от Лейбористской партии
-Posted (Le Mauricien): Обзор: Социальная сплочённость под ударом из-за трагедии в Camp-Levieux
-Posted (Le Mauricien): Грабежи в Cité La Ferme: три ареста, ущерб на 12 млн рупий в Save Mart
-LLM usage this run: 9 requests, 13038 tokens
-### check 2/5 at 17:14
-  same headline as #173: Commentaires sur Facebook : les administrateurs de trois pages convoqués par le 
-Skipped duplicate (Le Mauricien): Cybercriminalité : trois pages Facebook dans le viseur du CCID après des commentaires déte == Комментарии на Facebook: администраторы трёх страниц вызваны в CCID
-Posted (Le Mauricien): ПРОМЕЖУТОЧНЫЙ СУД | Нарушение комендантского часа — 12 обвиняемых признали свою вину
-  proofread: Элои Тома → Élodie Thomas
-Posted (L'Express): Трения на Маврикии: четверо «поджигателей» из соцсетей защищают свои публикации
-Posted (Le Mauricien): Окончание начального цикла: экзамены PSAC пока сохраняются, первая сессия намечена на четверг, 22 октября
-LLM usage this run: 9 requests, 13144 tokens
-### check 3/5 at 17:18
-Posted (Defimedia): Пожары, грабежи, вандализм: от инцидентов к решениям — лучше понять, что переполнило чашу
-LLM usage this run: 3 requests, 4280 tokens
-### check 4/5 at 17:22
-### check 5/5 at 17:26
+### check 1/5 at 17:45
+  dup: nothing new ()
+Skipped duplicate (Inside News): De la pénurie d’eau à la colère sociale : comprendre la crise qui secoue Maurice == Кризис с водой: полиция делает ставку на просвещение, а не на штрафы
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Île Maurice : couvre-feu nocturne assoupli à 22 h dans 17 régions après des troubles == Комендантский час сохранён до воскресенья, но с 22 ч до 4 ч 30 вместо 20 ч 30 до 5 ч
+LLM usage this run: 2 requests, 2929 tokens
