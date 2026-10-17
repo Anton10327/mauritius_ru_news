@@ -1,11 +1,8 @@
-### check 1/5 at 16:31
-### check 2/5 at 16:35
-### check 3/5 at 16:39
-### check 4/5 at 16:43
-### check 5/5 at 16:47
-Posted (Defimedia): Засуха на Маврикии: десять мини-водохранилищ для повышения устойчивости к рискам, связанным с водой
-Posted (Defimedia): Беспорядки, «наркобароны» и набор главы разведки: критика Поля Беранже
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Факторы, стоящие за недавними инцидентами
-Posted (Inside News): COP31: Маврикий потребует больше климатического финансирования и поддержки для адаптации
-LLM usage this run: 12 requests, 16550 tokens
+### check 1/5 at 17:10
+  same headline as #161: Le réseau Met Dife Ladan démasqué -The Burning Paradise: la piste de la connexio
+Skipped duplicate (Le Mauricien): Le réseau Met Dife Ladan démasqué -The Burning Paradise: la piste de la connexion des cell == Сеть Met Dife Ladan раскрыта — The Burning Paradise: след к подключению мобильных телефоно
+  proofread: Сидни Пьер → Sydney Pierre; Navin Ramgoolam → Navin Ramgoolam; Paul Bérenger → Paul Bérenger
+Posted (Le Mauricien): ПОЛИТИКА: Sydney Pierre дистанцируется от Лейбористской партии
+Posted (Le Mauricien): Обзор: Социальная сплочённость под ударом из-за трагедии в Camp-Levieux
+Posted (Le Mauricien): Грабежи в Cité La Ferme: три ареста, ущерб на 12 млн рупий в Save Mart
+LLM usage this run: 9 requests, 13038 tokens
