@@ -1,12 +1,4 @@
-### check 1/5 at 19:01
-### check 2/5 at 19:05
-Posted (L'Express): Группа WhatsApp «The Burning Paradise»: онлайн-гнев или координация насилия?
-LLM usage this run: 3 requests, 4194 tokens
-### check 3/5 at 19:09
-### check 4/5 at 19:13
-Posted (Le Mauricien): BUSINESS MAURITIUS — Ущерб оценивается в 270–470 млн рупий
-LLM usage this run: 3 requests, 4310 tokens
-### check 5/5 at 19:17
-  proofread: Поль Беренгер → Paul Bérenger; Navin Ramgoolam → Navin Ramgoolam
-Posted (Top FM): Закон о предотвращении терроризма под огнем критики после недавних беспорядков: Paul Bérenger предупреждает о последствиях для туристического имиджа Маврикия
-LLM usage this run: 3 requests, 3887 tokens
+### check 1/5 at 19:32
+  dup: nothing new ()
+Skipped duplicate (Top FM): Pillages et troubles à l’ordre public : vague d’arrestations ce samed, parmi un étudiant d == Беспорядки: двое, включая 18-летнего студента, арестованы и временно обвинены по антитерро
+LLM usage this run: 1 requests, 1570 tokens
