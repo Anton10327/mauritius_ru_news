@@ -4,3 +4,5 @@ LLM request failed (GigaChat-3-Ultra): ReadTimeout HTTPSConnectionPool(host='ngw
   written by qwen/qwen3.8-27b
 Posted (Top FM): Беспорядки: Paul Bérenger сожалеет об отсутствии арестов наркоторговцев
 LLM usage this run: 3 requests, 3663 tokens
+### check 2/5 at 14:37
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
