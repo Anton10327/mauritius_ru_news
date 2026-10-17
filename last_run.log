@@ -6,3 +6,8 @@ Posted (Top FM): Беспорядки: Paul Bérenger сожалеет об от
 LLM usage this run: 3 requests, 3663 tokens
 ### check 2/5 at 14:37
 Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+### check 3/5 at 14:41
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup: nothing new ()
+Skipped duplicate (Top FM): Examens : le calendrier des examens nationaux est déjà établi == Образование: новые даты экзаменов Grade 4, Grade 5 и NCE, учебный год в старшей школе прод
+LLM usage this run: 1 requests, 1389 tokens
