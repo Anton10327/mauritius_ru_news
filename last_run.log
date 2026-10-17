@@ -1,16 +1,4 @@
-### check 1/5 at 12:39
-  same headline as #111: Le poste de police de Barkly n’étant pas opérationnel, ses activités transférées
-Skipped duplicate (Le Mauricien): POSTE DE POLICE DE BARKLY – Les services transférés à Beau-Bassin == Полицейский участок Barkly не работает, его функции переданы в участок Beau-Bassin
-  same headline as #127: Metro Express : Rs 45 millions de dégâts et Rs 6 millions de manque à gagner apr
-Skipped duplicate (Le Mauricien): METRO-EXPRESS:  Rs 45 M de dégâts et Rs 6 M de manque à gagner == Metro Express: ущерб на 45 млн рупий и потери на 6 млн рупий после четырех дней простоя
-Posted (Inside News): Инфляция на Маврикии: почему цены остаются высокими, даже когда их рост замедляется
-Posted (Le Mauricien): Сеть Met Dife Ladan раскрыта — The Burning Paradise: след к подключению мобильных телефонов
-LLM usage this run: 6 requests, 7685 tokens
-### check 2/5 at 12:43
-Posted (Top FM): Нарушения и инциденты в стране: потери деловой активности оцениваются до 470 млн рупий, сообщает Business Mauritius
-LLM usage this run: 3 requests, 4132 tokens
-### check 3/5 at 12:47
-Posted (Top FM): Из-за ограничений комендантского часа: артисты гостиничного сектора требуют пропусков
-LLM usage this run: 3 requests, 3781 tokens
-### check 4/5 at 12:51
-### check 5/5 at 12:55
+### check 1/5 at 13:05
+  dup: nothing new ()
+Skipped duplicate (L'Express): Extension du couvre-feu l Navin Ramgoolam : «Nous commençons à sortir des jours sombres» == [LIVE] Комендантский час: Navin Ramgoolam обращается к нации
+LLM usage this run: 1 requests, 1390 tokens
