@@ -1,16 +1,3 @@
-### check 1/5 at 18:08
-### check 2/5 at 18:12
-### check 3/5 at 18:16
-### check 4/5 at 18:20
-  proofread: После недавних напряженности → После недавней напряженности; остается безопасным → остается безопасным
-Posted (Top FM): Напряженность на Маврикии: «Эти инциденты не повлияли на туристический сектор», — заверяет министр Ричард Дюваль
-LLM usage this run: 3 requests, 3995 tokens
-### check 5/5 at 18:24
-LLM request failed (GigaChat-3-Ultra): ReadTimeout HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Read timed out. (read timeout=30)
-  written by qwen/qwen3.8-27b
-Posted (Defimedia): Cassam Uteem: «Эти события не делают нас агрессивным народом»
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Les Réformes attendues du GM - l’après-crise : les enjeux == Кризис с водой: полиция делает ставку на просвещение, а не на штрафы
-  same headline as #84: Éducation : Reprise normale des classes ce lundi 19 octobre
-Skipped duplicate (Defimedia): Enseignement supérieur : reprise normale des cours ce lundi 19 octobre == Образование: Нормальное возобновление занятий в понедельник, 19 октября
-LLM usage this run: 4 requests, 5517 tokens
+### check 1/5 at 18:37
+  same headline as #170: Mare-aux-Vacoas : l’inquiétude persiste avec un taux de remplissage de 34,4 %
+Skipped duplicate (Top FM): Mare-aux-Vacoas : le taux de remplissage chute à 34,4 %, == Mare-aux-Vacoas: тревога сохраняется при уровне заполнения 34,4%
