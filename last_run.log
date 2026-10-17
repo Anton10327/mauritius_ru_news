@@ -1,17 +1,4 @@
-### check 1/5 at 13:35
-LLM request failed (GigaChat-3-Ultra): ReadTimeout HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Read timed out. (read timeout=30)
-  written by qwen/qwen3.8-27b
-Posted (Top FM): После мародерства в магазинах: покупка или хранение украденных вещей может дорого обойтись…
-LLM usage this run: 3 requests, 3833 tokens
-### check 2/5 at 13:39
-  proofread: Мелани Нажен → Mélanie Nagen
-Posted (Top FM): Беспорядки и порча имущества: наказания, предусмотренные законом, разъяснены адвокатом Mélanie Nagen
-LLM usage this run: 3 requests, 3902 tokens
-### check 3/5 at 13:43
+### check 1/5 at 14:02
   dup: nothing new ()
-Skipped duplicate (L'Express): Tribune : L’étincelle de la colère et l’ombre de l’impunité == Молодёжь в авангарде: причины вспышки гнева
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Lettre ouverte à Élodie Thomas == Дело Élodie Thomas: IPCC открывает два расследования и требует ограничить выезд некоторых 
-LLM usage this run: 2 requests, 2883 tokens
-### check 4/5 at 13:47
-### check 5/5 at 13:51
+Skipped duplicate (L'Express): Legal analysis : The proposed reduction of the age of criminal responsibility from 14 to 1 == Позиция по предложению снизить минимальный возраст уголовной ответственности с 14 до 12 ле
+LLM usage this run: 1 requests, 1355 tokens
