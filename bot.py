@@ -70,6 +70,15 @@ LLM_URL = os.environ.get("LLM_URL", "").strip() or \
 LLM_MODELS = [m.strip() for m in (os.environ.get("LLM_MODELS", "").strip() or
               "qwen/qwen3.8-27b,openai/gpt-oss-120b,openai/gpt-oss-20b"
               ).split(",") if m.strip()]
+# GigaChat (Sber) writes the summaries: best Russian in a side-by-side test.
+# Free yearly pools: Ultra 50M tokens, Pro 40M. Daily caps keep the yearly pool
+# from running out early; when a cap is reached the next model takes over.
+GIGA_KEY = os.environ.get("GIGACHAT_AUTH_KEY", "").strip()
+GIGA_URL = "https://api.giga.chat/v1/chat/completions"
+GIGA_OAUTH = "https://ngw.devices.sberbank.ru:9443/api/v2/oauth"
+GIGA_DAILY_CAP = {"GigaChat-3-Ultra": 130_000, "GigaChat-3-Pro": 100_000}
+SUMMARY_MODELS = ([m for m in GIGA_DAILY_CAP] if GIGA_KEY else []) + \
+                 (LLM_MODELS if LLM_KEY else [])
 # Proofreading pass. Only Qwen: in tests gpt-oss over-edited and changed meaning
 PROOF_MODELS = ["qwen/qwen3.8-27b"]
 PROOF_PROMPT = (
@@ -257,7 +266,77 @@ def _llm_call(model, messages, max_tokens=700):
     return r
 
 
+_giga = {"token": None, "exp": 0, "verify": None, "dead": False}
+
+
+def _giga_verify():
+    """CA bundle with the Russian Ministry of Digital Development root (Sber's
+    servers use it); falls back to the standard bundle."""
+    if _giga["verify"]:
+        return _giga["verify"]
+    import certifi, tempfile
+    pem = open(certifi.where(), "rb").read()
+    for u in ["https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.crt",
+              "https://gu-st.ru/content/lending/russian_trusted_sub_ca_pem.crt"]:
+        try:
+            r = requests.get(u, timeout=30)
+            if r.ok and b"BEGIN CERTIFICATE" in r.content:
+                pem += b"\n" + r.content
+        except Exception as e:
+            print(f"GigaChat certificate download failed: {e}")
+    f = tempfile.NamedTemporaryFile("wb", suffix=".pem", delete=False)
+    f.write(pem)
+    f.close()
+    _giga["verify"] = f.name
+    return f.name
+
+
+def _giga_token(force=False):
+    if _giga["token"] and not force and time.time() < _giga["exp"] - 60:
+        return _giga["token"]
+    import uuid
+    r = requests.post(GIGA_OAUTH, timeout=30, verify=_giga_verify(),
+                      headers={"Authorization": f"Basic {GIGA_KEY}",
+                               "RqUID": str(uuid.uuid4()),
+                               "Content-Type": "application/x-www-form-urlencoded",
+                               "Accept": "application/json"},
+                      data={"scope": "GIGACHAT_API_PERS"})
+    r.raise_for_status()
+    j = r.json()
+    _giga["token"] = j["access_token"]
+    _giga["exp"] = j.get("expires_at", 0) / 1000 or time.time() + 1500
+    return _giga["token"]
+
+
+def _giga_post(model, messages, max_tokens):
+    payload = {"model": model, "messages": messages,
+               "temperature": 0.2, "max_tokens": max_tokens}
+    for attempt in range(2):
+        r = requests.post(GIGA_URL, json=payload, timeout=120, verify=_giga_verify(),
+                          headers={"Authorization": f"Bearer {_giga_token(force=attempt > 0)}",
+                                   "Accept": "application/json"})
+        if r.status_code != 401:
+            break
+    if r.ok:  # count against the daily cap
+        used = r.json().get("usage", {}).get("total_tokens", 0)
+        today = time.strftime("%Y-%m-%d", time.gmtime(time.time() + 4 * 3600))
+        g = _state_get("giga_used", {})
+        if g.get("date") != today:
+            g = {"date": today}
+        g[model] = g.get(model, 0) + used
+        _state_set("giga_used", g)
+    return r
+
+
+def _giga_over_cap(model):
+    today = time.strftime("%Y-%m-%d", time.gmtime(time.time() + 4 * 3600))
+    g = _state_get("giga_used", {})
+    return g.get("date") == today and g.get(model, 0) >= GIGA_DAILY_CAP.get(model, 0)
+
+
 def _llm_post(model, messages, max_tokens):
+    if model.startswith("GigaChat"):
+        return _giga_post(model, messages, max_tokens)
     payload = {"model": model, "messages": messages,
                "temperature": 0.2, "max_tokens": max_tokens}
     if "gpt-oss" in model:
@@ -280,22 +359,26 @@ def _parse_json(text):
 def summarize(title, body):
     """Ask the LLM for a Russian title + summary. Returns (title, summary)
     or None if the model is unavailable (no key, daily limit, error)."""
-    if _llm_state["disabled"] or not LLM_KEY:
+    if _llm_state["disabled"] or not SUMMARY_MODELS:
         return None
     content = f"Заголовок: {title}\n\nТекст статьи:\n{body[:ARTICLE_CHARS] or '(текст недоступен)'}"
     messages = [{"role": "system", "content": PROMPT},
                 {"role": "user", "content": content}]
-    models = [m for m in LLM_MODELS if m not in _llm_state["exhausted"]]
-    if _llm_state["model"] in models:  # keep using the model that works
-        models.remove(_llm_state["model"])
-        models.insert(0, _llm_state["model"])
+    models = [m for m in SUMMARY_MODELS if m not in _llm_state["exhausted"]]
     for model in models:
+        if model.startswith("GigaChat") and (_giga["dead"] or _giga_over_cap(model)):
+            _llm_state["exhausted"].add(model)
+            continue
         exhausted = False
         for attempt in range(2):
             try:
                 r = _llm_call(model, messages)
             except Exception as e:
-                print(f"LLM request failed: {e}")
+                print(f"LLM request failed ({model}): {type(e).__name__} {str(e)[:200]}")
+                if model.startswith("GigaChat"):  # e.g. certificate or network problem
+                    _giga["dead"] = True
+                    exhausted = True
+                    break
                 return None
             if r.status_code == 429:
                 wait = float(r.headers.get("retry-after", "0") or 0)
@@ -312,6 +395,16 @@ def summarize(title, body):
                 exhausted = True
             break
         if exhausted:
+            continue
+        if model.startswith("GigaChat") and r.status_code in (401, 402, 403):
+            # 401/403: key problem, 402: yearly token pool used up
+            print(f"GigaChat {r.status_code}: {r.text[:200]}")
+            _llm_state["exhausted"].add(model)
+            if r.status_code != 402:
+                _giga["dead"] = True
+                alert("giga", "⚠️ GigaChat не принимает ключ GIGACHAT_AUTH_KEY. "
+                      "Пересказы пишет запасная модель (Groq). Проверьте ключ в "
+                      "секретах репозитория.")
             continue
         if r.status_code in (401, 403):
             print(f"LLM key rejected: {r.text[:200]}")
@@ -336,14 +429,15 @@ def summarize(title, body):
         if not ru_title:
             continue
         _llm_state["model"] = model
+        if model != SUMMARY_MODELS[0]:
+            print(f"  written by {model}")
         local = data.get("mauritius")
         local = not (local is False or str(local).lower() == "false")
         return ru_title, ru_summary, local
     _llm_state["disabled"] = True
-    if set(LLM_MODELS) <= _llm_state["exhausted"]:
+    if set(SUMMARY_MODELS) <= _llm_state["exhausted"]:
         alert("limit",
-              "⚠️ Закончился бесплатный дневной лимит нейросети (Groq) у всех "
-              "моделей.\n\nДо сброса бот публикует только переведённые "
+              "⚠️ Закончился дневной лимит у всех моделей (GigaChat и Groq).\n\nДо сброса бот публикует только переведённые "
               "заголовки, без пересказов. Лимит восстанавливается сам, "
               "ничего делать не нужно.")
         return None
@@ -983,7 +1077,8 @@ def _strip_html(s):
 def self_test():
     """Check translation and summary on the latest article without posting."""
     import sys
-    print(f"Python {sys.version.split()[0]}; LLM_API_KEY set: {bool(LLM_KEY)}")
+    print(f"Python {sys.version.split()[0]}; LLM_API_KEY set: {bool(LLM_KEY)}; "
+          f"GIGACHAT_AUTH_KEY set: {bool(GIGA_KEY)}; summary models: {SUMMARY_MODELS}")
     print("== Translation (Google, then MyMemory)")
     print(translate("Le service de bus est perturbé ce mardi matin"))
     print("== LLM:", LLM_URL)
@@ -1031,7 +1126,7 @@ def compare_models():
             body = _strip_html(e["content"][0].get("value", ""))
         print(f"\n######## {source}: {e.get('title')}\n{link}")
         content = f"Заголовок: {e.get('title')}\n\nТекст статьи:\n{body[:ARTICLE_CHARS]}"
-        for model in LLM_MODELS:
+        for model in SUMMARY_MODELS:
             t0 = time.time()
             try:
                 r = _llm_call(model, [{"role": "system", "content": PROMPT},
