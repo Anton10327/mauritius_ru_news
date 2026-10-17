@@ -1,64 +1,51 @@
-"""GigaChat connectivity check (posts nothing; never prints the key or token)."""
-import os, uuid, json, requests, certifi, tempfile
+"""Side-by-side: Qwen vs GigaChat models on the same newest articles (posts nothing)."""
+import os, uuid, time, requests, certifi, tempfile, bot
 
-KEY = os.environ.get("GIGACHAT_AUTH_KEY", "").strip()
-print("key set:", bool(KEY), "| length:", len(KEY))
+KEY = os.environ["GIGACHAT_AUTH_KEY"].strip()
+b = tempfile.NamedTemporaryFile("wb", suffix=".pem", delete=False)
+b.write(open(certifi.where(), "rb").read())
+for u in ["https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.crt",
+          "https://gu-st.ru/content/lending/russian_trusted_sub_ca_pem.crt"]:
+    b.write(b"\n" + requests.get(u, timeout=30).content)
+b.close(); V = b.name
+tok = requests.post("https://ngw.devices.sberbank.ru:9443/api/v2/oauth",
+                    headers={"Authorization": f"Basic {KEY}", "RqUID": str(uuid.uuid4()),
+                             "Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"},
+                    data={"scope": "GIGACHAT_API_PERS"}, timeout=30, verify=V).json()["access_token"]
+used = {}
+def giga(model, messages):
+    r = requests.post("https://api.giga.chat/v1/chat/completions", verify=V, timeout=120,
+                      headers={"Authorization": f"Bearer {tok}", "Accept": "application/json"},
+                      json={"model": model, "messages": messages, "temperature": 0.2, "max_tokens": 700})
+    j = r.json(); used[model] = used.get(model, 0) + j.get("usage", {}).get("total_tokens", 0)
+    return j["choices"][0]["message"]["content"]
 
-# Russian Ministry of Digital Development root CA (Sber's servers use it)
-bundle = None
-for url in ["https://gu-st.ru/content/lending/russian_trusted_root_ca_pem.crt",
-            "https://gu-st.ru/content/lending/russian_trusted_sub_ca_pem.crt"]:
+MODELS = ["qwen/qwen3.8-27b", "GigaChat-2", "GigaChat-3-Lightning", "GigaChat-2-Pro", "GigaChat-3-Pro", "GigaChat-2-Max", "GigaChat-3-Ultra"]
+done = 0
+for src in bot.FEEDS:
+    if done >= 4: break
     try:
-        r = requests.get(url, timeout=30)
-        print("cert", url.rsplit("/", 1)[1], r.status_code, len(r.content), "bytes",
-              "PEM" if b"BEGIN CERTIFICATE" in r.content else "not PEM")
-        if r.ok and b"BEGIN CERTIFICATE" in r.content:
-            if bundle is None:
-                bundle = tempfile.NamedTemporaryFile("wb", suffix=".pem", delete=False)
-                bundle.write(open(certifi.where(), "rb").read())
-            bundle.write(b"\n" + r.content)
-    except Exception as e:
-        print("cert download failed:", type(e).__name__, str(e)[:100])
-if bundle:
-    bundle.close()
-
-token = None
-for verify in ([bundle.name] if bundle else []) + [certifi.where()]:
-    try:
-        r = requests.post("https://ngw.devices.sberbank.ru:9443/api/v2/oauth",
-                          headers={"Authorization": f"Basic {KEY}", "RqUID": str(uuid.uuid4()),
-                                   "Content-Type": "application/x-www-form-urlencoded",
-                                   "Accept": "application/json"},
-                          data={"scope": "GIGACHAT_API_PERS"}, timeout=30, verify=verify)
-        print("oauth with", "ru-bundle" if verify != certifi.where() else "certifi", "->", r.status_code,
-              r.text[:150] if not r.ok else "OK (token received)")
-        if r.ok:
-            token = r.json()["access_token"]; VERIFY = verify
-            break
-    except Exception as e:
-        print("oauth fail with", "ru-bundle" if verify != certifi.where() else "certifi", type(e).__name__, str(e)[:150])
-
-if token:
-    H = {"Authorization": f"Bearer {token}", "Accept": "application/json"}
-    for base in ["https://api.giga.chat/v1", "https://gigachat.devices.sberbank.ru/api/v1"]:
+        e, link, _ = bot.newest_entry(src)
+    except Exception as ex:
+        print("skip", src[0], ex); continue
+    if not e: continue
+    body, _ = bot.article_text(link)
+    if len(body) < 400: continue
+    done += 1
+    print(f"\n######## {src[0]}: {e.get('title')}\n{link}")
+    msgs = [{"role": "system", "content": bot.PROMPT},
+            {"role": "user", "content": f"Заголовок: {e.get('title')}\n\nТекст статьи:\n{body[:bot.ARTICLE_CHARS]}"}]
+    for m in MODELS:
+        t0 = time.time()
         try:
-            r = requests.get(f"{base}/models", headers=H, timeout=30, verify=VERIFY)
-            names = [m.get("id") for m in r.json().get("data", [])] if r.ok else r.text[:150]
-            print("models", base, r.status_code, names)
-        except Exception as e:
-            print("models fail", base, type(e).__name__, str(e)[:150]); continue
-        for model in ["GigaChat-2", "GigaChat-2-Pro", "GigaChat-2-Max"]:
-            try:
-                r = requests.post(f"{base}/chat/completions", headers=H, verify=VERIFY, timeout=60,
-                                  json={"model": model, "messages": [{"role": "user", "content": "Ответь одним словом: столица Маврикия?"}],
-                                        "max_tokens": 20})
-                out = r.json()["choices"][0]["message"]["content"] if r.ok else r.text[:150]
-                print("  ", model, r.status_code, repr(out), r.json().get("usage") if r.ok else "")
-            except Exception as e:
-                print("  ", model, "fail", type(e).__name__, str(e)[:120])
-        break
-    try:
-        r = requests.get("https://api.giga.chat/v1/balance", headers=H, timeout=30, verify=VERIFY)
-        print("balance", r.status_code, r.text[:400])
-    except Exception as e:
-        print("balance fail", e)
+            if m.startswith("GigaChat"):
+                raw = giga(m, msgs)
+            else:
+                r = bot._llm_call(m, msgs)
+                if r.status_code == 429: time.sleep(30); r = bot._llm_call(m, msgs)
+                raw = r.json()["choices"][0]["message"]["content"]
+            d = bot._parse_json(raw) or {}
+            print(f"\n--- {m} ({time.time()-t0:.1f}s)\nЗаголовок: {d.get('title')}\nПересказ: {d.get('summary')}")
+        except Exception as ex:
+            print(f"\n--- {m}: FAIL {type(ex).__name__} {str(ex)[:150]}")
+print("\nGigaChat tokens used:", used)
