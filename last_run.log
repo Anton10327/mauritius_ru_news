@@ -1,18 +1,6 @@
-### check 1/5 at 14:02
-  dup: nothing new ()
-Skipped duplicate (L'Express): Legal analysis : The proposed reduction of the age of criminal responsibility from 14 to 1 == Позиция по предложению снизить минимальный возраст уголовной ответственности с 14 до 12 ле
-LLM usage this run: 1 requests, 1355 tokens
-### check 2/5 at 14:06
-  proofread: Авинаш Рамтохул → Avinash Ramtohul
-Posted (L'Express): Трения на Маврикии: Avinash Ramtohul: «Социальные сети не должны становиться инструментом разобщения»
-LLM usage this run: 3 requests, 4121 tokens
-### check 3/5 at 14:10
-### check 4/5 at 14:14
-  proofread: Элодии Томас → Élodie Thomas; Элодия Томас → Élodie Thomas
-Posted (Defimedia): Расследование IPCC по делу Élodie Thomas — пассажир: «Мы думали, что ветер разбил стекло»
-Posted (Defimedia): Беспорядки: двое, включая 18-летнего студента, арестованы и временно обвинены по антитеррористическому закону
-Posted (Defimedia): Комментарии на Facebook: администраторы трёх страниц вызваны в CCID
-LLM usage this run: 9 requests, 12349 tokens
-### check 5/5 at 14:18
-Posted (Inside News): Диабет: мобильная единица для приближения скрининга к маврикийцам
-LLM usage this run: 3 requests, 3722 tokens
+### check 1/5 at 14:33
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+LLM request failed (GigaChat-3-Ultra): ReadTimeout HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Read timed out. (read timeout=30)
+  written by qwen/qwen3.8-27b
+Posted (Top FM): Беспорядки: Paul Bérenger сожалеет об отсутствии арестов наркоторговцев
+LLM usage this run: 3 requests, 3663 tokens
