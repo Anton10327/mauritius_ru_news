@@ -1,21 +1,6 @@
-### check 1/5 at 14:33
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-LLM request failed (GigaChat-3-Ultra): ReadTimeout HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Read timed out. (read timeout=30)
-  written by qwen/qwen3.8-27b
-Posted (Top FM): Беспорядки: Paul Bérenger сожалеет об отсутствии арестов наркоторговцев
-LLM usage this run: 3 requests, 3663 tokens
-### check 2/5 at 14:37
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 3/5 at 14:41
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+### check 1/5 at 15:00
   dup: nothing new ()
-Skipped duplicate (Top FM): Examens : le calendrier des examens nationaux est déjà établi == Образование: новые даты экзаменов Grade 4, Grade 5 и NCE, учебный год в старшей школе прод
-LLM usage this run: 1 requests, 1389 tokens
-### check 4/5 at 14:45
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 5/5 at 14:49
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-LLM request failed (GigaChat-3-Ultra): ReadTimeout HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Read timed out. (read timeout=30)
-  written by qwen/qwen3.8-27b
-Posted (Top FM): Rama Valayden предупреждает о растущем участии несовершеннолетних в преступности
-LLM usage this run: 3 requests, 3491 tokens
+Skipped duplicate (Le Mauricien): CAMP-LEVIEUX | Coup de feu dans  la nuit de vendredi à samedi –  Les policiers sur les lie == Camp-Levieux | Стрельба, в результате которой пострадала Élodie Thomas: против полицейских
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): COUVRE-FEU | Durant la nuit de jeudi  -16 infractions recensées  et 2 accidents de la rout == Комендантский час: зафиксировано 16 нарушений и две аварии с участием пьяных водителей
+LLM usage this run: 2 requests, 2942 tokens
