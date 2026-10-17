@@ -1,5 +1,56 @@
-balance: {'GigaChat-Max': 24995934, 'GigaChat': 249989080, 'GigaChat-Ultra': 49993084, 'GigaChat-Pro': 39989845}
-GigaChat-3-Lightning: used 76 tokens -> charged to {'GigaChat': 76}
-GigaChat-3-Pro: used 628 tokens -> charged to {'GigaChat-Pro': 628}
-GigaChat-3-Ultra: used 628 tokens -> charged to {'GigaChat-Ultra': 628}
-GigaChat-2-Pro: used 635 tokens -> charged to {'GigaChat-Pro': 635}
+Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary models: ['GigaChat-3-Ultra', 'GigaChat-3-Pro', 'qwen/qwen3.8-27b', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b']
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-9cd9eaf7-ebac-4917-ab95-8e8d9d53d0ae","object":"chat.completion","created":1792217471,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.022665374,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-e271147a-f517-498b-956e-c68c9d1c1ad5","object":"chat.completion","created":1792217471,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
+openai/gpt-oss-20b 200 {"id":"chatcmpl-f8ea8596-b17c-422d-8ae8-415cee79afa2","object":"chat.completion","created":1792217472,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So just output \"ok\"."},"logprobs":null,"finish_reason":"
+== Defimedia: https://defimedia.info/rss.xml
+Newest: [Supplément Spécial] Maison & Jardin : des idées pour tout transformer | https://defimedia.info/supplement-special-maison-jardin-des-idees-pour-tout-transformer
+Article text: 482 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Maison%20%26%20Jardin-171026.jpg
+  not about Mauritius: [Supplément Spécial] Maison & Jardin : des idées pour tout transformer
+Duplicate of recent post #: None
+LLM usage so far: 5 requests, 2834 tokens
+-- Post that would be sent:
+
+== L'Express: https://lexpress.mu/
+Newest: Violation du couvre-feu : Douze prévenus plaident coupable, sentence lundi | https://lexpress.mu/s/douze-prevenus-plaident-coupable-sentence-lundi-563721
+Article text: 2428 chars | photo: https://lexpress.mu/storage/articles/b74k0pDlmyAl4EHSZbCh8pFw8rWyghAEbXSGZflN.jpg
+  same headline as #139: Couvre-feu : douze prévenus plaident coupable, verdict lundi
+Duplicate of recent post #: 139
+LLM usage so far: 5 requests, 2834 tokens
+-- Post that would be sent:
+
+== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
+Newest: Consommation — Carburants : Une BMW à gagner avec Fillin Big Win  | https://www.lemauricien.com/actualites/societe/consommation-carburants-une-bmw-a-gagner-avec-fillin-big-win/720775/
+Article text: 2607 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-92-1.webp
+  same headline as #196: Consommation — Carburants : Une BMW à gagner avec Fillin Big Win
+Duplicate of recent post #: 196
+LLM usage so far: 5 requests, 2834 tokens
+-- Post that would be sent:
+
+== Inside News: https://inside.news/feed/
+Newest: Après les violences : qui paiera les dégâts causés aux infrastructures publiques ? | https://www.inside.news/degats-violences-maurice/
+Article text: 2098 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/02c8c517-38b8-4533-a468-8a5baf27fbf0_no-1024x578.png
+  same headline as #204: Après les violences : qui paiera les dégâts causés aux infrastructures publiques
+Duplicate of recent post #: 204
+LLM usage so far: 5 requests, 2834 tokens
+-- Post that would be sent:
+
+== Wazaa: https://www.wazaa.mu/feed/
+Newest: Comité spécial examine la violence des jeunes après une proposition d’abaisser l’âge à 12 ans | https://www.wazaa.mu/comite-special-examine-la-violence-des-jeunes-apres-une-proposition-dabaisser-lage-a-12-ans/
+Article text: 1157 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1792215733.jpeg
+  dup: nothing new ()
+Duplicate of recent post #: 174
+LLM usage so far: 6 requests, 4279 tokens
+-- Post that would be sent:
+
+== Top FM: https://topfm.mu/
+Newest: Énergie : Maurice et l’Arabie saoudite explorent de nouveaux projets, dont une centrale au GNL de 250 à 500 MW | https://topfm.mu/actualites/energie-maurice-et-larabie-saoudite-explorent-de-nouveaux-projets-dont-une-centrale-au-gnl-de-250
+Article text: 1489 chars | photo: https://topfm.mu/sites/default/files/2026-10/ara.jpg
+  same headline as #199: Énergie : Maurice et l’Arabie saoudite explorent de nouveaux projets, dont une c
+Duplicate of recent post #: 199
+LLM usage so far: 6 requests, 4279 tokens
+-- Post that would be sent:
+
