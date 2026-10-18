@@ -80,7 +80,7 @@ GIGA_DAILY_CAP = {"GigaChat-3-Ultra": 130_000, "GigaChat-3-Pro": 100_000}
 SUMMARY_MODELS = ([m for m in GIGA_DAILY_CAP] if GIGA_KEY else []) + \
                  (LLM_MODELS if LLM_KEY else [])
 # Proofreading pass. Only Qwen: in tests gpt-oss over-edited and changed meaning
-PROOF_MODELS = ["qwen/qwen3.8-27b"]
+PROOF_MODELS = (["GigaChat-3-Pro"] if GIGA_KEY else []) + ["qwen/qwen3.8-27b"]  # Pro won the proofreading test 5/5
 PROOF_PROMPT = (
     "Ты корректор русскоязычного новостного канала. Исправь в заголовке и тексте "
     "только явные ошибки русского языка: орфографию, согласование родов, чисел и "
@@ -762,32 +762,43 @@ def _apply_fixes(text, fixes):
 
 def proofread(title, summary, original=""):
     """Second pass that fixes Russian language errors. Returns (title, summary)."""
-    free = [m for m in PROOF_MODELS if m not in _llm_state["exhausted"]]
-    if not free or not LLM_KEY or _llm_state["disabled"]:
+    free = [m for m in PROOF_MODELS if m not in _llm_state["exhausted"]
+            and not (m.startswith("GigaChat") and (_giga["dead"] or _giga_over_cap(m)))
+            and (m.startswith("GigaChat") or (LLM_KEY and not _llm_state["disabled"]))]
+    if not free:
         return title, summary
     messages = [{"role": "system", "content": PROOF_PROMPT},
                 {"role": "user", "content": f"Заголовок: {title}\nТекст: {summary}\n\n"
                                             f"Оригинал (для написания имён):\n{original[:1200]}"}]
-    try:
-        r = _llm_call(free[0], messages, 700)
-        if r.status_code == 429:
-            wait = float(r.headers.get("retry-after", "0") or 0)
-            if "per minute" in r.text and not wait:
-                wait = 30
-            if not 0 < wait <= 60:
-                _llm_state["exhausted"].add(free[0])
-                print("Proofreading skipped: daily limit")
-                return title, summary
-            time.sleep(wait + 1)
-            r = _llm_call(free[0], messages, 700)
-        if not r.ok:
-            print(f"Proofreading failed {r.status_code}: {r.text[:120]}")
-            return title, summary
-        d = _parse_json(r.json()["choices"][0]["message"]["content"]) or {}
-    except Exception as e:
-        print(f"Proofreading failed: {e}")
+    d = None
+    for model in free:
+        try:
+            r = _llm_call(model, messages, 700)
+            if r.status_code == 429 and not model.startswith("GigaChat"):
+                wait = float(r.headers.get("retry-after", "0") or 0)
+                if "per minute" in r.text and not wait:
+                    wait = 30
+                if not 0 < wait <= 60:
+                    _llm_state["exhausted"].add(model)
+                    print(f"Proofreading: {model} daily limit")
+                    continue
+                time.sleep(wait + 1)
+                r = _llm_call(model, messages, 700)
+            if not r.ok:
+                print(f"Proofreading {model} failed {r.status_code}: {r.text[:120]}")
+                if model.startswith("GigaChat") and r.status_code in (402, 429):
+                    _llm_state["exhausted"].add(model)
+                continue
+            d = _parse_json(r.json()["choices"][0]["message"]["content"]) or {}
+            if model != PROOF_MODELS[0]:
+                print(f"  proofread by {model}")
+            break
+        except Exception as e:
+            print(f"Proofreading {model} failed: {e}")
+    if d is None:
         return title, summary
     new_t, new_s = (d.get("title") or "").strip(), (d.get("summary") or "").strip()
+    new_t, new_s = latinize_names(new_t, original), latinize_names(new_s, original)
     out_t = new_t if _safe_edit(title, new_t, original) else title
     out_s = new_s if (not summary or _safe_edit(summary, new_s, original)) else summary
     # A rejected whole-text edit can still carry safe name fixes
