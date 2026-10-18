@@ -624,6 +624,114 @@ def fix_russian(text):
 
 _LATIN = re.compile(r"[A-Za-zÀ-ÿ](?:[A-Za-zÀ-ÿ'’.-]*[A-Za-zÀ-ÿ])?")
 
+_CYR2LAT = dict(zip("абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+                    ["a", "b", "v", "g", "d", "e", "e", "j", "z", "i", "i", "k", "l", "m",
+                     "n", "o", "p", "r", "s", "t", "u", "f", "h", "ts", "ch", "sh", "sh",
+                     "", "i", "", "e", "iu", "ia"]))
+# Russian case endings a name may get ("Риши" -> "Риши", "Кандосе" -> "Кандос")
+_RU_ENDINGS = ("ами", "ями", "ого", "его", "ому", "ему", "ой", "ей", "ом", "ем",
+               "ах", "ях", "ам", "ям", "ии", "ию", "ия", "а", "я", "у", "ю", "е", "ы")
+
+
+# Capitalised French words that are not names (titles, institutions, countries,
+# days, months): their Russian equivalents must stay in Russian
+_NOT_NAMES_FR = """premier premiere ministre ministere president presidente docteur monsieur
+madame mademoiselle maitre monseigneur mgr pere soeur saint sainte police gouvernement
+commissaire juge cour tribunal parlement assemblee nationale etat republique ile maurice
+mauricien mauricienne france inde chine afrique europe angleterre australie madagascar
+reunion seychelles rodrigues lundi mardi mercredi jeudi vendredi samedi dimanche janvier
+fevrier mars avril mai juin juillet aout septembre octobre novembre decembre nord sud est
+ouest centre hopital ecole college universite banque bureau conseil comite commission
+association federation union syndicat parti eglise mosquee temple video photos live
+affaire selon apres avant depuis pendant""".split()
+
+
+def _sound(word):
+    """Rough pronunciation key, comparable between French and Russian spellings."""
+    import unicodedata
+    w = unicodedata.normalize("NFKD", word.lower())
+    w = "".join(c for c in w if not unicodedata.combining(c))
+    w = "".join(_CYR2LAT.get(c, c) for c in w)
+    for a, b in (("ou", "u"), ("ph", "f"), ("qu", "k"), ("ck", "k"), ("c", "k"),
+                 ("q", "k"), ("w", "v"), ("y", "i"), ("x", "ks"), ("dj", "j"),
+                 ("zh", "j"), ("sh", "ch"), ("tch", "ch"), ("h", ""), ("ee", "i"),
+                 ("oo", "u"), ("ai", "e"), ("ei", "e"), ("au", "o"), ("eau", "o")):
+        w = w.replace(a, b)
+    w = w.replace("z", "s")
+    w = re.sub(r"[^a-z]", "", w)
+    w = re.sub(r"(.)\1+", r"\1", w)
+    return w
+
+
+def _sound_latin(word):
+    """Like _sound, but French final consonants are silent (Jugnauth ~ Jugno)."""
+    w = _sound(word)
+    return re.sub(r"(?<=[aeiou])[tdsx]$", "", w) or w
+
+
+_NOT_NAMES = set()
+
+
+def latinize_names(text, original):
+    """Replace Cyrillic spellings of names from the original article with the
+    Latin original ("Риши" -> "Rishi", "Кандосе" -> "Candos")."""
+    if not text or not original:
+        return text
+    from difflib import SequenceMatcher
+    names = {}
+    for w in re.findall(r"\b[A-ZÀ-Ý][a-zà-ÿ]{2,}(?:-[A-ZÀ-Ý][a-zà-ÿ]+)*\b", original):
+        if _sound(w) not in _NOT_NAMES:
+            names.setdefault(_sound(w), w)
+            names.setdefault(_sound_latin(w), w)
+
+    def best(word):
+        cands = [word] + [word[:-len(e)] for e in _RU_ENDINGS
+                          if word.lower().endswith(e) and len(word) - len(e) >= 3]
+        found, score = None, 0
+        for c in cands:
+            key = _sound(c)
+            if len(key) < 3:
+                continue
+            for k, latin in names.items():
+                if k[0] != key[0] or abs(len(k) - len(key)) > 2:
+                    continue
+                r = SequenceMatcher(None, key, k).ratio()
+                if r > score:
+                    found, score = latin, r
+        return found if score >= 0.82 else None
+
+    def sub(m):
+        word = m.group(0)
+        latin = best(word)
+        return latin if latin else word
+    # Capitalised Cyrillic words (not at the start of a sentence: those are
+    # usually ordinary words, but names are still checked)
+    return re.sub(r"\b[А-ЯЁ][а-яё]{2,}(?:-[А-ЯЁ][а-яё]+)*\b", sub, text)
+
+
+_NOT_NAMES.update(_sound(w) for w in _NOT_NAMES_FR)
+
+
+def fix_caps_title(title, original_title):
+    """Le Mauricien writes some headlines in CAPITALS; the model copies that."""
+    words = re.findall(r"[А-ЯЁA-ZÀ-Ý][А-ЯЁA-ZÀ-Ýа-яёa-zà-ÿ-]*", title)
+    caps = [w for w in words if w.isupper() and len(w) > 2]
+    if len(caps) < 3:
+        return title
+    known = {w.lower(): w for w in re.findall(r"\b[A-ZÀ-Ý][a-zà-ÿ]+\b", original_title or "")}
+
+    def fix(m):
+        w = m.group(0)
+        if re.search(r"[А-ЯЁ]", w):
+            return w.lower()
+        if w.lower() in ("de", "du", "des", "la", "le", "les", "et", "au", "aux", "en", "sur", "pour"):
+            return w.lower()
+        if len(w) <= 4:          # acronyms: SAMU, MSM, PTR
+            return w
+        return known.get(w.lower(), w.capitalize())
+    out = re.sub(r"\b[А-ЯЁA-ZÀ-Ý]{2,}\b", fix, title)
+    return out[:1].upper() + out[1:]
+
 
 def _name_fixes(changes, original):
     """From the proofreader's «было → стало» list, keep only Cyrillic names
@@ -759,6 +867,9 @@ def build_post(source, entry, link, recent=(), force=False):
         summary = translate(feed_text[:450]) if feed_text and len(feed_text) > 40 else ""
     title, summary = proofread(title, summary, f"{orig_title}\n{body[:1500]}")
     title, summary = fix_russian(title), fix_russian(summary)
+    source_text = f"{orig_title}\n{body}"
+    title = fix_caps_title(latinize_names(title, source_text), orig_title)
+    summary = latinize_names(summary, source_text)
     post["title"], post["summary"] = title, summary
 
     footer = f'🔗 <a href="{html.escape(link)}">{html.escape(source)}</a>'
