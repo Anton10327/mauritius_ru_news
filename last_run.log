@@ -16,3 +16,8 @@ Skipped foreign news (Defimedia): Manifestations en France : comprendre les reve
   dup check: new (Указаны конкретные цифры ущерба: около 17 450 тонн сахарного тростника пострадали от пожаров и ущерб банковскому сектору оценивается в Rs 2,2 млн, чег)
 Posted (Inside News): Убытки до 470 миллионов рупий: счет за насилие растет
 LLM usage this run: 5 requests, 7338 tokens
+### check 4/5 at 13:46
+  dup check: new (Me Mélanie Nagen explique que, selon le Children’s Act, les mineurs de 14 ans et plus font l'objet d'un traitement judiciaire distinct de celui des ad)
+  proofread: Мелани Наген → Mélanie Nagen
+Posted (Top FM): Беспорядки: адвокат Mélanie Nagen разъясняет меры в отношении несовершеннолетних и санкции против взрослых
+LLM usage this run: 3 requests, 4071 tokens
