@@ -1,11 +1,4 @@
-### check 1/5 at 20:28
-  dup check: new (Union des Police Fighters réclame une indemnité de risque de 300 roupies par mois (nouveau montant et nouvelle organisation); annonce d'un accident mo)
-Posted (Defimedia): [Вечерний выпуск]: «Надбавку за риск нужно пересмотреть»
-  dup check: new (Mgr Jean‑Michael Durhône a rendu visite à la patiente Elodie Thomas à l’hôpital le samedi matin, peu après son retour de Rome, avant de célébrer la me)
-  proofread: провел → провёл; Элодии Тома → Элодии Тома
-Posted (L'Express): Месса за мир | Монсеньор Jean Мишель Durhône: «Мир также требует работы ради социальной справедливости»
-LLM usage this run: 6 requests, 8599 tokens
-### check 2/5 at 20:32
-### check 3/5 at 20:36
-### check 4/5 at 20:40
-### check 5/5 at 20:44
+### check 1/5 at 20:58
+  dup: nothing new ()
+Skipped duplicate (L'Express): Tensions à travers le pays : La parole à une jeunesse en colère == Напряженность по всей стране: 151 арест и значительный материальный ущерб
+LLM usage this run: 1 requests, 1967 tokens
