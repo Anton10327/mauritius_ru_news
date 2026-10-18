@@ -16,3 +16,8 @@ Skipped foreign news (Defimedia): Inde : l’acteur Tiger Shroff visé par des t
 Posted (Defimedia): "Папа, ты растолстел!": эти слова, написанные Elodie, заставили улыбнуться её родителей
 LLM usage this run: 8 requests, 13740 tokens
 ### check 4/5 at 20:11
+### check 5/5 at 20:15
+  dup check: new (Un homme de 40 ans a été agressé à coups le 16 octobre à Sébastopol après une discussion autour d’une vidéo, par une femme de 35 ans et son fils de 17)
+  proofread: районе Себастополь на Маврикии → районе Себастополь (Маврикий); больницу сэра Анеруда Джагнота во Флэке → больницу Сэра Анеруда Джагнота во Флэке
+Posted (L'Express): Sébastopol: мужчину избили после спора из-за видео
+LLM usage this run: 3 requests, 4248 tokens
