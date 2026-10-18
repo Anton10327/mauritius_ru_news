@@ -1,16 +1,5 @@
-### check 1/5 at 07:51
-Posted (Defimedia): Дефицит воды: компании под давлением
-LLM usage this run: 3 requests, 4681 tokens
-### check 2/5 at 07:55
-### check 3/5 at 07:59
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Non-respect du couvre-feu : douze prévenus plaident coupables == Нарушение комендантского часа: двенадцать подсудимых в возрасте от 19 до 59 лет признали в
-  proofread: Мишлин Вирасавми → Micheline Virahsawmy; Мирэж Вирасавми → Meeraj Virahsawmy
-Posted (Defimedia): Micheline Virahsawmy: после шести инсультов пионерка гражданской песни борется с забвением
-LLM usage this run: 4 requests, 5832 tokens
-### check 4/5 at 08:03
-### check 5/5 at 08:07
-Posted (L'Express): Зона 7, 2-й этап | Пляжный волейбол: Маврикий стремится к дублю в Морони
-  proofread: Сопраманиена → Soopramanien; Киштнена → Kistnen; Телфере → Telfair; Симла → Simla; Киштнен → Kistnen; Рама → Rama; Валайден → Valayden
-Posted (Top FM): Дело Soopramanien Kistnen: шесть лет спустя тайна остается
-LLM usage this run: 6 requests, 8943 tokens
+### check 1/5 at 08:22
+Posted (Le Mauricien): Перенос экзаменов SC/HSC: Special Consideration вызывает разногласия
+  same headline as #177: Pailles : une habitante de Glen Park meurt dans un accident de moto
+Skipped duplicate (L'Express): Accident de moto à Pailles : Une habitante de Glen Park perd la vie == Пайлс: жительница Глен-Парк погибла в ДТП на мотоцикле
+LLM usage this run: 3 requests, 3904 tokens
