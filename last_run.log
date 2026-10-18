@@ -1,8 +1,5 @@
-### check 1/5 at 11:08
-  dup: nothing new ()
-Skipped duplicate (L'Express): Tensions à travers le pays : Nouvelles arrestations et deux suspects poursuivis sous la Po == Комендантский час: девять человек арестованы в ночь с пятницы на субботу
-LLM usage this run: 1 requests, 1701 tokens
-### check 2/5 at 11:12
-### check 3/5 at 11:16
-### check 4/5 at 11:20
-### check 5/5 at 11:24
+### check 1/5 at 11:38
+  dup check: new (Le député Adrien Duval du PMSD interrogera le Premier ministre Navin Ramgoolam le mardi 20 octobre, lors de la reprise du Parlement, sur le nombre de )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Возобновление работы парламента — дело Элои Томас: расследование и ответственность полиции в повестке дня
+LLM usage this run: 3 requests, 4711 tokens
