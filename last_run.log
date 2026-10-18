@@ -1,8 +1,12 @@
-### check 1/5 at 16:31
+### check 1/5 at 17:11
+  dup check: new (Le ministre de la Santé Anil Kumar Bachoo a lancé le 17 octobre un appel à reconstituer les réserves nationales de sang lors d’un camp de santé et de )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): ФЛАК | В ЭТУ СУББОТУ — Донорство крови: Анил Башу призывает восстановить национальные запасы
+  dup check: new (Interview with Father Alain Romaine, author of «Sans nom, sans souliers», providing his analysis and statements about the need for justice and systemi)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): ИНТЕРВЬЮ | Отец Ален Ромен (священник и автор книги «Без имени, без обуви»): «Не будет прочного мира без справедливости»
+  dup check: new (Указано, что замена повреждённого оборудования на станции Barkly может занять до года, и что станция не будет обслуживаться в ближайшее время; это нов)
+Posted (Le Mauricien): METRO EXPRESS: станция Barkly остановлена, возвращение под вопросом
   dup: nothing new ()
-Skipped duplicate (Defimedia): Au-delà des violences, la réalité des quartiers == После насилия: кто оплатит ущерб, нанесенный общественной инфраструктуре?
-LLM usage this run: 1 requests, 1797 tokens
-### check 2/5 at 16:35
-### check 3/5 at 16:39
-### check 4/5 at 16:43
-### check 5/5 at 16:47
+Skipped duplicate (Le Mauricien): Deux mois après, Sydney Pierre claque la porte du PTr  : De la fidélité au PM et PTR aux b == Политика: Sydney Pierre покидает PTr и ряды правящего большинства
+LLM usage this run: 10 requests, 16317 tokens
