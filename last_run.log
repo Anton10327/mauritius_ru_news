@@ -1,23 +1,7 @@
-### check 1/5 at 19:59
-  dup check: new (Maurice sollicite l’expertise saoudienne en matière d’eau et le ministre saoudien Adel bin Ahmed Al‑Jubeir réaffirme le soutien de l’Arabie saoudite à)
-  proofread: Ritish Ramful → Ritish Ramful (имя латиницей оставлено без изменений); Abdulrahman Abdulmohsen Al-Fadley → Abdulrahman Abdulmohsen Al-Fadley (имя латиницей оставлено без изменений)
-Posted (L'Express): Водный кризис: Маврикий запрашивает саудовскую экспертизу
-LLM usage this run: 3 requests, 4418 tokens
-### check 2/5 at 20:03
-### check 3/5 at 20:07
-  dup check: new (В статье приведена прямая цитата индийского нейрохирурга Капила Кханделвала («J’étais persuadé que l’opération serait un succès absolu») и его коммент)
-  proofread: Логично → Логичная; многочасовую → многочасовая
-Posted (Defimedia): Elodie Thomas ранена пулей — доктор Kapil Khandelwal, индийский нейрохирург: «Я был уверен, что операция будет абсолютно успешной»
-  dup check: new (Attaque à la bombe contre l'acteur indien Tiger Shroff à Mumbai, deux blessés (chauffeur et conducteur de rickshaw), aucune menace préalable, localisa)
-  not about Mauritius: Inde : l’acteur Tiger Shroff visé par des tirs à Mumbai, deux blessés
-Skipped foreign news (Defimedia): Inde : l’acteur Tiger Shroff visé par des tirs à Mumbai, deux blessés
-  dup check: new (Elodie Thomas, after her critical surgery, communicated for the first time by writing on 17 octobre 2026, sending the message « Papa, tu as grossi ! »)
-  proofread: в ходе которой → во время которой
-Posted (Defimedia): "Папа, ты растолстел!": эти слова, написанные Elodie, заставили улыбнуться её родителей
-LLM usage this run: 8 requests, 13740 tokens
-### check 4/5 at 20:11
-### check 5/5 at 20:15
-  dup check: new (Un homme de 40 ans a été agressé à coups le 16 octobre à Sébastopol après une discussion autour d’une vidéo, par une femme de 35 ans et son fils de 17)
-  proofread: районе Себастополь на Маврикии → районе Себастополь (Маврикий); больницу сэра Анеруда Джагнота во Флэке → больницу Сэра Анеруда Джагнота во Флэке
-Posted (L'Express): Sébastopol: мужчину избили после спора из-за видео
-LLM usage this run: 3 requests, 4248 tokens
+### check 1/5 at 20:28
+  dup check: new (Union des Police Fighters réclame une indemnité de risque de 300 roupies par mois (nouveau montant et nouvelle organisation); annonce d'un accident mo)
+Posted (Defimedia): [Вечерний выпуск]: «Надбавку за риск нужно пересмотреть»
+  dup check: new (Mgr Jean‑Michael Durhône a rendu visite à la patiente Elodie Thomas à l’hôpital le samedi matin, peu après son retour de Rome, avant de célébrer la me)
+  proofread: провел → провёл; Элодии Тома → Элодии Тома
+Posted (L'Express): Месса за мир | Монсеньор Jean Мишель Durhône: «Мир также требует работы ради социальной справедливости»
+LLM usage this run: 6 requests, 8599 tokens
