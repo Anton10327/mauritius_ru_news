@@ -1,9 +1,7 @@
-### check 1/5 at 09:55
-### check 2/5 at 09:59
-### check 3/5 at 10:03
-  dup: nothing new ()
-Skipped duplicate (L'Express): Jonathan Thomas à son épouse : «Mo pa pou les twa tonbe zame» == Между любовью, обещаниями и семейными планами — Себастьян Джонатан Томас обращается к Élod
-Posted (Inside News): МВФ снижает прогноз роста Маврикия до 2,7%: начинает ли сказываться внешний шок?
-LLM usage this run: 4 requests, 5710 tokens
-### check 4/5 at 10:07
-### check 5/5 at 10:11
+### check 1/5 at 10:24
+Posted (Le Mauricien): Приём в 7-й класс: Forest-Side Secondary College отсутствует в списке
+  proofread: Идрис Хосани → Idris Hosanee; Кюрпайпа → Curepipe; Ибрагим Алладин → Ibrahim Alladin; Идрисе Хосани → Idris Hosanee; Кюрпайпа → Curepipe
+Posted (Defimedia): Idris Hosanee: тихая нить Curepipe
+  not about Mauritius: La France sonnée au lendemain d'une journée de mobilisation ayant viré au chaos
+Skipped foreign news (Defimedia): La France sonnée au lendemain d'une journée de mobilisation ayant viré au chaos
+LLM usage this run: 7 requests, 10066 tokens
