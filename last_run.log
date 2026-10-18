@@ -1,11 +1,8 @@
-### check 1/5 at 18:08
-### check 2/5 at 18:12
-  dup check: new (Monisha Nundloll Bungloll, 30‑year‑old, has just been sworn in as a lawyer; details about her family background, parents' professions, and her persona)
-  proofread: Ме Мониша Нандлолл Бунллолл → Me Monisha Nundloll Bungloll
-Posted (Defimedia): Me Monisha Nundloll Bungloll: мечта, рожденная дома
-  dup check: new (Présentation de Saveria Roméo (alias Maya), pâtissière qui revient à Maurice après 30 ans en France pour diriger L’Atelier de Maya. Son parcours perso)
-Posted (Defimedia): Saveria Roméo, кондитерская в конце возвращения
-LLM usage this run: 6 requests, 9312 tokens
-### check 3/5 at 18:16
-### check 4/5 at 18:20
-### check 5/5 at 18:24
+### check 1/5 at 18:36
+  dup check: new (Tamarisk Tree won the main race of the 19th day, beating expected favorites Future Swing and Good Council, after returning from a fever; it was a reco)
+Bad LLM answer from GigaChat-3-Ultra: Expecting value: line 1 column 81 (char 80); raw: {"choices":[{"message":{"content":"{\"mauritius\": true, \"title\": \"Ипподром: Tamarisk Tree всех примирил\", \"summary\":На ипподроме Champ-de-Mars на Маврикии в рамках 19-го дня скачек победу в главном заезде неожиданно одержал Tamarisk Tree, опередив фаворитов Future Swing и Good Council. Для ко
+  written by GigaChat-3-Pro
+Posted (L'Express): Скачки: Tamarisk Tree всех удивил победой
+  dup check: new (Организация мероприятия в рамках Octobre rose психологом Dr Anjum Heera Durgahee (Link to Life), поддержанного AfrAsia Foundation и муниципалитетом Cu)
+Posted (Top FM): Октябрь розовый: за каждым диагнозом — женщина, мечты и жизнь, напоминает психолог Dr Anjum Heera Durgahee
+LLM usage this run: 7 requests, 10986 tokens
