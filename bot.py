@@ -654,7 +654,9 @@ reunion seychelles rodrigues lundi mardi mercredi jeudi vendredi samedi dimanche
 fevrier mars avril mai juin juillet aout septembre octobre novembre decembre nord sud est
 ouest centre hopital ecole college universite banque bureau conseil comite commission
 association federation union syndicat parti eglise mosquee temple video photos live
-affaire selon apres avant depuis pendant""".split()
+affaire selon apres avant depuis pendant pension tour commentaire commentaires interview
+operation university national nationale diabete diabetes glucometre glucometres blog papa
+maman video videos photo exclusif urgent dossier rapport budget diable""".split()
 
 
 def _sound(word):
@@ -718,10 +720,14 @@ def latinize_names(text, original):
             for k, latin in pool.items():
                 if k[0] != key[0] or abs(len(k) - len(key)) > 2:
                     continue
+                # Short words need an exact match: "После" ~ "Paul" scores 0.86
+                if min(len(key), len(k)) <= 4 and key != k:
+                    continue
                 r = SequenceMatcher(None, key, k).ratio()
                 if r > score:
                     found, score = latin, r
-        return found if score >= 0.82 else None
+        # Longer words tolerate more spelling difference
+        return found if score >= (0.82 if len(_sound(word)) >= 6 else 0.88) else None
 
     def sub(m):
         word = m.group(0)
