@@ -678,13 +678,25 @@ def latinize_names(text, original):
     if not text or not original:
         return text
     from difflib import SequenceMatcher
-    names = {}
-    for w in re.findall(r"\b[A-ZÀ-Ý][a-zà-ÿ]{2,}(?:-[A-ZÀ-Ý][a-zà-ÿ]+)*\b", original):
-        if _sound(w) not in _NOT_NAMES:
-            names.setdefault(_sound(w), w)
-            names.setdefault(_sound_latin(w), w)
+    def at_start(src, pos):  # first word of a line or sentence (or after a colon)
+        return re.search(r"(^|[.!?:…«\"—–-]\s*|\n\s*)$", src[max(0, pos - 3):pos]) is not None \
+            or pos == 0
+    names, mid = {}, {}  # mid: the word was capitalised mid-sentence, so surely a name
+    for m in re.finditer(r"\b[A-ZÀ-Ý][a-zà-ÿ]{2,}(?:-[A-ZÀ-Ý][a-zà-ÿ]+)*\b", original):
+        w = m.group(0)
+        if _sound(w) in _NOT_NAMES:
+            continue
+        for k in (_sound(w), _sound_latin(w)):
+            names.setdefault(k, w)
+            nxt = re.match(r"\s+([A-ZÀ-Ý][a-zà-ÿ]+)", original[m.end():])
+            in_name = (bool(nxt) and _sound(nxt.group(1)) not in _NOT_NAMES  # "Gautam Singh"
+                       or re.match(r"\s*:", original[m.end():]) is not None)  # "Vacoas : ..."
+            mid[k] = mid.get(k, False) or in_name or not at_start(original, m.start())
 
-    def best(word):
+    def best(word, initial):
+        # A word seen only at the start of a sentence ("Examens reportés") may be
+        # an ordinary word: use it only for a capitalised word mid-sentence
+        pool = {k: v for k, v in names.items() if mid[k] or not initial}
         cands = [word] + [word[:-len(e)] for e in _RU_ENDINGS
                           if word.lower().endswith(e) and len(word) - len(e) >= 3]
         found, score = None, 0
@@ -692,7 +704,7 @@ def latinize_names(text, original):
             key = _sound(c)
             if len(key) < 3:
                 continue
-            for k, latin in names.items():
+            for k, latin in pool.items():
                 if k[0] != key[0] or abs(len(k) - len(key)) > 2:
                     continue
                 r = SequenceMatcher(None, key, k).ratio()
@@ -702,7 +714,7 @@ def latinize_names(text, original):
 
     def sub(m):
         word = m.group(0)
-        latin = best(word)
+        latin = best(word, at_start(text, m.start()))
         return latin if latin else word
     # Capitalised Cyrillic words (not at the start of a sentence: those are
     # usually ordinary words, but names are still checked)
