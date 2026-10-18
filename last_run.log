@@ -4,3 +4,15 @@ Skipped duplicate (Inside News): Maurice : cinq dossiers majeurs qui attendent d
 LLM usage this run: 1 requests, 1623 tokens
 ### check 2/5 at 14:37
 ### check 3/5 at 14:41
+### check 4/5 at 14:45
+  dup check: new (Annonce du spectacle musical « Pa Per Revé » présenté du 22 au 25 octobre pour célébrer les 25 ans des Enfants d’Un Rêve, avec le groupe Les Firehawks)
+Posted (Le Mauricien): Юбилейный спектакль — Pa Per Revé : Les Enfants d’Un Rêve: 25 лет на сцене, мечта на бис
+  dup check: new (Statement by Monseigneur Jean‑Michaël Durhône (bishop of Port‑Louis) urging dialogue over violence and warning about social‑media risks, plus details )
+  proofread: Жан-Мишель Дюрхон → Jean-Michaël Durhône
+Posted (Le Mauricien): В Сен-Пьере, вчера — епископ Jean-Michaël Durhône: «Насилие — не выход из страдания»
+  dup check: new (Identité des premiers intervenants du SAMU qui ont sauvé Élodie Thomas (Swadesh Appiah, Vikesh Kumar Boodhoo, Dr Rishi Doobaree, Nadir Nuseeb) et desc)
+  proofread: Элодии → Элоди; Элодии Томас → Élodie Thomas
+Posted (Le Mauricien): SAMU DE CANDOS — ОНИ ОКАЗАЛИ ПЕРВУЮ ПОМОЩЬ ДЕВУШКЕ: Swadesh, Vikesh, д-р Риши и Надир — первые руки, которые удержали Элоди жизнь
+  dup check: new (Le ministère de la Santé a rejeté l’offre de Pharmacie Nouvelle Limited (PNL) pour l’achat de glucomètres d’une valeur de Rs 35,7 millions, au profit )
+Posted (Le Mauricien): Диабет — Глюкометры: тендер на 35,7 млн рупий, более дешёвое предложение давнего поставщика отклонено
+LLM usage this run: 12 requests, 20042 tokens
