@@ -1,25 +1,4 @@
-### check 1/5 at 12:35
+### check 1/5 at 13:03
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Rentrée parlementaire, mardi, sous haute tension  : Test politique majeur == Возобновление работы парламента — дело Элои Томас: расследование и ответственность полиции
-  proofread: Правинд Джагнот → Pravind Jugnauth; Кобиты Джагнот → Kobita Jugnauth
-Posted (Le Mauricien): СОЦИАЛЬНЫЕ БЕСПОРЯДКИ – РЕАКЦИЯ ЛИДЕРА MSM
-  dup check: new (Kobita Jugnauth, wife of former Prime Minister Pravind Jugnauth, was interrogated for three hours on 14 october by the Financial Crimes Commission reg)
-  proofread: Кобита Джагнот → Kobita Jugnauth; Правинда Джагнота → Pravind Jugnauth; Джосьяна Дилаувона → Josian Deelawon
-Posted (Le Mauricien): FCC – ДЕЛО О ЧЕМОДАНАХ НА 114 МИЛЛИОНОВ РУПИЙ: Kobita Jugnauth допрошена по поводу документов и часов класса люкс
-  dup check: new (Air Mauritius has discontinued direct flights to Shanghai, requiring passengers to transit via Kuala Lumpur; description of a travel itinerary to Shan)
-  not about Mauritius: RÉCIT DE VOYAGE – Shanghai, entre les lanternes du passé et l’éclat des tours de verre et d’acier
-Skipped foreign news (Le Mauricien): RÉCIT DE VOYAGE – Shanghai, entre les lanternes du passé et l’éclat des tours de verre et d’acier
-LLM usage this run: 8 requests, 12549 tokens
-### check 2/5 at 12:39
-  dup check: new (Car wash observed inside the Ministry of Education premises during the water crisis, involving the Permanent Secretary's vehicle, highlighting misuse )
-Posted (Le Mauricien): Несмотря на запрет: мойка автомобиля в министерстве образования
-LLM usage this run: 3 requests, 4072 tokens
-### check 3/5 at 12:43
-  dup check: new (Khushal Lobine, député de la circonscription no 15, dénonce une indemnité de risque de Rs 35 par jour comme dérisoire et réclame une revalorisation su)
-  proofread: Хушал Лобин → Khushal Lobine
-Posted (Defimedia): Полиция: надбавка за риск в размере 35 рупий в день — «смехотворная», считает Khushal Lobine
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Réservoir de Mare-aux-Vacoas : les prélèvements d’eau passent sous les 50 000 m³ par jour == Mare-aux-Vacoas: тревога сохраняется при уровне заполнения 34,4%
-LLM usage this run: 4 requests, 6047 tokens
-### check 4/5 at 12:47
-### check 5/5 at 12:51
+Skipped duplicate (L'Express): Trafic de drogue : Des réseaux fragilisés, une colère qui gronde == Беспорядки: Paul Bérenger сожалеет об отсутствии арестов наркоторговцев
+LLM usage this run: 1 requests, 1705 tokens
