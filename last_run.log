@@ -9,3 +9,10 @@ Posted (Defimedia): Ипподром: досмотр сумок на Champ de Ma
   dup check: new (Pillage du magasin Motor Club à Vénus avec une perte d'environ Rs 500 000 et l'arrestation de quatre suspects.)
 Posted (Defimedia): Магазин Motor Club в Venus разграблен: убытки около 500 000 рупий после кражи мотоциклов
 LLM usage this run: 7 requests, 9910 tokens
+### check 3/5 at 13:42
+  dup check: new (Протесты во Франции 17 октября 2026 г. – участие 550 000 человек (по данным МВД) и 800 000 по оценке организаторов, причины: рост цен, снижение покупа)
+  not about Mauritius: Manifestations en France : comprendre les revendications et le bilan des violences
+Skipped foreign news (Defimedia): Manifestations en France : comprendre les revendications et le bilan des violences
+  dup check: new (Указаны конкретные цифры ущерба: около 17 450 тонн сахарного тростника пострадали от пожаров и ущерб банковскому сектору оценивается в Rs 2,2 млн, чег)
+Posted (Inside News): Убытки до 470 миллионов рупий: счет за насилие растет
+LLM usage this run: 5 requests, 7338 tokens
