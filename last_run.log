@@ -4,3 +4,14 @@
 Posted (L'Express): Водный кризис: Маврикий запрашивает саудовскую экспертизу
 LLM usage this run: 3 requests, 4418 tokens
 ### check 2/5 at 20:03
+### check 3/5 at 20:07
+  dup check: new (В статье приведена прямая цитата индийского нейрохирурга Капила Кханделвала («J’étais persuadé que l’opération serait un succès absolu») и его коммент)
+  proofread: Логично → Логичная; многочасовую → многочасовая
+Posted (Defimedia): Elodie Thomas ранена пулей — доктор Kapil Khandelwal, индийский нейрохирург: «Я был уверен, что операция будет абсолютно успешной»
+  dup check: new (Attaque à la bombe contre l'acteur indien Tiger Shroff à Mumbai, deux blessés (chauffeur et conducteur de rickshaw), aucune menace préalable, localisa)
+  not about Mauritius: Inde : l’acteur Tiger Shroff visé par des tirs à Mumbai, deux blessés
+Skipped foreign news (Defimedia): Inde : l’acteur Tiger Shroff visé par des tirs à Mumbai, deux blessés
+  dup check: new (Elodie Thomas, after her critical surgery, communicated for the first time by writing on 17 octobre 2026, sending the message « Papa, tu as grossi ! »)
+  proofread: в ходе которой → во время которой
+Posted (Defimedia): "Папа, ты растолстел!": эти слова, написанные Elodie, заставили улыбнуться её родителей
+LLM usage this run: 8 requests, 13740 tokens
