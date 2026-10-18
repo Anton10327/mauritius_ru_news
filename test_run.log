@@ -1,6 +1,61 @@
-  proofread: две автоматические повышения → два автоматических повышения
-('Несмотря на дело о нравах 2007 года: два автоматических повышения для Gautam Singh Taukoor', 'Полицейский получил два автоматических повышения.')
-  proofread: Sydney Pierre покинул Партия труда → Sydney Pierre покинул Партию труда
-('Отставка: Sydney Pierre покинул Партию труда', 'Депутат Sydney Pierre официально покинул Партию труда.')
-  proofread: кандидатов затронут → кандидатов затронуты
-('Examens отложены: более 33 000 кандидатов затронуты', 'Это затронет 33 893 кандидата.')
+Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary models: ['GigaChat-3-Ultra', 'GigaChat-3-Pro', 'qwen/qwen3.8-27b', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b']
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-1cb691e4-5a44-4910-82d1-3c68bbd8d63c","object":"chat.completion","created":1792334629,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.004366321,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-00c461c9-2b66-4260-994b-f279c4f12bce","object":"chat.completion","created":1792334629,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
+openai/gpt-oss-20b 200 {"id":"chatcmpl-a3f65ca9-c544-4796-8838-7967013461ab","object":"chat.completion","created":1792334630,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants reply \"ok\"."},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time"
+== Defimedia: https://defimedia.info/rss.xml
+Newest: Saveria Roméo, la pâtisserie au bout du retour | https://defimedia.info/saveria-romeo-la-patisserie-au-bout-du-retour
+Article text: 5462 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/181026_saveria.jpg
+  same headline as #147: Saveria Roméo, la pâtisserie au bout du retour
+Duplicate of recent post #: 147
+LLM usage so far: 3 requests, 209 tokens
+-- Post that would be sent:
+
+== L'Express: https://lexpress.mu/
+Newest: Hippisme : Tamarisk Tree met tout le monde d'accord | https://lexpress.mu/s/tamarisk-tree-met-tout-le-monde-daccord-563762
+Article text: 2075 chars | photo: https://lexpress.mu/storage/articles/9MZkCJiE2nxJy6g0JrQiqQ3NcQxhra8b4DsVanfS.jpg
+  same headline as #148: Hippisme : Tamarisk Tree met tout le monde d'accord
+Duplicate of recent post #: 148
+LLM usage so far: 3 requests, 209 tokens
+-- Post that would be sent:
+
+== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
+Newest: Crise de l’eau : Face à la bombe à retardement sociale, le PM prend les manettes | https://www.lemauricien.com/actualites/societe/crise-de-leau-face-a-la-bombe-a-retardement-sociale-le-pm-prend-les-manettes/720970/
+Article text: 8400 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-2026-10-18T091724.209.webp
+  dup: nothing new ()
+Duplicate of recent post #: 8
+LLM usage so far: 4 requests, 2018 tokens
+-- Post that would be sent:
+
+== Inside News: https://inside.news/feed/
+Newest: Maurice : cinq dossiers majeurs qui attendent des réponses dès lundi | https://www.inside.news/maurice-cinq-dossiers-semaine-19-octobre/
+Article text: 3383 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/babfe782-a041-4a68-9ce4-9979aff0de39-1-1024x578.png
+  dup check: new (Annonce d'une série de cinq dossiers prioritaires à suivre à partir du lundi 19 octobre, dont les mesures de sécurité après le couvre‑feu, indiquant u)
+  proofread: Элойди Тома → Элоди Томас
+Duplicate of recent post #: None
+LLM usage so far: 7 requests, 6207 tokens
+-- Post that would be sent:
+<b>Маврикий: пять главных вопросов, на которые ждут ответов уже с понедельника</b>
+
+После недели насилия, ночных ограничений и правительственных заявлений на Маврикии остаются пять ключевых вопросов. С понедельника, 19 октября, внимание будет приковано к мерам безопасности после комендантского часа, ходу расследования стрельбы в Camp-Levieux (пострадала 27-летняя Élodie Thomas), результатам экстренных мер в водном кризисе, а также к реформе Children’s Act о снижении возраста уголовной ответственности с 14 до 12 лет. Власти ждут подтверждения возврата к нормальному движению и оценки эффективности решений.
+
+🔗 <a href="https://www.inside.news/maurice-cinq-dossiers-semaine-19-octobre/">Inside News</a>
+== Wazaa: https://www.wazaa.mu/feed/
+Newest: Île Maurice : couvre-feu nocturne assoupli à 22 h dans 17 régions après des troubles | https://www.wazaa.mu/ile-maurice-couvre-feu-nocturne-assoupli-a-22-h-dans-17-regions-apres-des-troubles/
+Article text: 661 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/08/1787074962.jpeg
+  dup: nothing new ()
+Duplicate of recent post #: 17
+LLM usage so far: 8 requests, 8024 tokens
+-- Post that would be sent:
+
+== Top FM: https://topfm.mu/
+Newest: Octobre rose : Derrière chaque diagnostic, une femme, des rêves et une vie, rappelle la psychologue Dr Anjum Heera Durgahee | https://topfm.mu/actualites/octobre-rose-derriere-chaque-diagnostic-une-femme-des-reves-et-une-vie-rappelle-la-psychologue-dr
+Article text: 2590 chars | photo: https://topfm.mu/sites/default/files/2026-10/2025-Thumbnail-%5BWEB-%2B-FB%5D-Recovered-Recovered-Recovered-Recovered_1.png
+  same headline as #149: Octobre rose : Derrière chaque diagnostic, une femme, des rêves et une vie, rapp
+Duplicate of recent post #: 149
+LLM usage so far: 8 requests, 8024 tokens
+-- Post that would be sent:
+
