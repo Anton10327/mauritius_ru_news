@@ -1,24 +1,6 @@
-### check 1/5 at 13:34
-### check 2/5 at 13:38
+### check 1/5 at 14:02
   dup: nothing new ()
-Skipped duplicate (Defimedia): Trafic de cocaïne : «Vida Loca» extradé vers Madagascar == Экстрадиция «Vida Loca» на Мадагаскар: след миллионов и международных связей
-  same headline as #166: Couvre-feu : dernière nuit prévue ce dimanche, que se passe-t-il lundi à 4 h 30 
-Skipped duplicate (Inside News): Couvre-feu : dernière nuit prévue ce dimanche, que se passe-t-il lundi à 4 h 30 ? == Комендантский час: последняя ночь ожидается в это воскресенье, что произойдет в 4:30 в пон
-  dup check: new (Контроль сумок в логе Champ de Mars перед входом на скачки, проведённый агентами Mauritius Turf Club и полицией; перенос дня скачек с субботы на воскр)
-Posted (Defimedia): Ипподром: досмотр сумок на Champ de Mars
-  dup check: new (Pillage du magasin Motor Club à Vénus avec une perte d'environ Rs 500 000 et l'arrestation de quatre suspects.)
-Posted (Defimedia): Магазин Motor Club в Venus разграблен: убытки около 500 000 рупий после кражи мотоциклов
-LLM usage this run: 7 requests, 9910 tokens
-### check 3/5 at 13:42
-  dup check: new (Протесты во Франции 17 октября 2026 г. – участие 550 000 человек (по данным МВД) и 800 000 по оценке организаторов, причины: рост цен, снижение покупа)
-  not about Mauritius: Manifestations en France : comprendre les revendications et le bilan des violences
-Skipped foreign news (Defimedia): Manifestations en France : comprendre les revendications et le bilan des violences
-  dup check: new (Указаны конкретные цифры ущерба: около 17 450 тонн сахарного тростника пострадали от пожаров и ущерб банковскому сектору оценивается в Rs 2,2 млн, чег)
-Posted (Inside News): Убытки до 470 миллионов рупий: счет за насилие растет
-LLM usage this run: 5 requests, 7338 tokens
-### check 4/5 at 13:46
-  dup check: new (Me Mélanie Nagen explique que, selon le Children’s Act, les mineurs de 14 ans et plus font l'objet d'un traitement judiciaire distinct de celui des ad)
-  proofread: Мелани Наген → Mélanie Nagen
-Posted (Top FM): Беспорядки: адвокат Mélanie Nagen разъясняет меры в отношении несовершеннолетних и санкции против взрослых
-LLM usage this run: 3 requests, 4071 tokens
-### check 5/5 at 13:50
+Skipped duplicate (Inside News): Troubles : les premières peines de prison tombent == Беспорядки: вынесены первые приговоры, пятеро получили тюремные сроки
+  dup: nothing new ()
+Skipped duplicate (L'Express): Délinquance juvénile | Responsabilité pénale dès 12 ans : Une réforme qui divise == Юношеская преступность: парламентский комитет рассмотрит снижение возраста уголовной ответ
+LLM usage this run: 2 requests, 3349 tokens
