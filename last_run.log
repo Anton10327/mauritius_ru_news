@@ -1,8 +1,12 @@
-### check 1/5 at 12:04
-### check 2/5 at 12:08
-  dup check: new (В статье упомянуто, что адвокат Me Khushal Lobine выразил поддержку премьер‑министру по поводу применения закона PoTA к задержанным, чего нет в ранее )
-Posted (Top FM): PoTA против погромщиков: разноречивые отклики в юридической среде
-LLM usage this run: 3 requests, 4200 tokens
-### check 3/5 at 12:12
-### check 4/5 at 12:16
-### check 5/5 at 12:20
+### check 1/5 at 12:35
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Rentrée parlementaire, mardi, sous haute tension  : Test politique majeur == Возобновление работы парламента — дело Элои Томас: расследование и ответственность полиции
+  proofread: Правинд Джагнот → Pravind Jugnauth; Кобиты Джагнот → Kobita Jugnauth
+Posted (Le Mauricien): СОЦИАЛЬНЫЕ БЕСПОРЯДКИ – РЕАКЦИЯ ЛИДЕРА MSM
+  dup check: new (Kobita Jugnauth, wife of former Prime Minister Pravind Jugnauth, was interrogated for three hours on 14 october by the Financial Crimes Commission reg)
+  proofread: Кобита Джагнот → Kobita Jugnauth; Правинда Джагнота → Pravind Jugnauth; Джосьяна Дилаувона → Josian Deelawon
+Posted (Le Mauricien): FCC – ДЕЛО О ЧЕМОДАНАХ НА 114 МИЛЛИОНОВ РУПИЙ: Kobita Jugnauth допрошена по поводу документов и часов класса люкс
+  dup check: new (Air Mauritius has discontinued direct flights to Shanghai, requiring passengers to transit via Kuala Lumpur; description of a travel itinerary to Shan)
+  not about Mauritius: RÉCIT DE VOYAGE – Shanghai, entre les lanternes du passé et l’éclat des tours de verre et d’acier
+Skipped foreign news (Le Mauricien): RÉCIT DE VOYAGE – Shanghai, entre les lanternes du passé et l’éclat des tours de verre et d’acier
+LLM usage this run: 8 requests, 12549 tokens
