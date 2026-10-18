@@ -1,22 +1,4 @@
-### check 1/5 at 17:11
-  dup check: new (Le ministre de la Santé Anil Kumar Bachoo a lancé le 17 octobre un appel à reconstituer les réserves nationales de sang lors d’un camp de santé et de )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): ФЛАК | В ЭТУ СУББОТУ — Донорство крови: Анил Башу призывает восстановить национальные запасы
-  dup check: new (Interview with Father Alain Romaine, author of «Sans nom, sans souliers», providing his analysis and statements about the need for justice and systemi)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): ИНТЕРВЬЮ | Отец Ален Ромен (священник и автор книги «Без имени, без обуви»): «Не будет прочного мира без справедливости»
-  dup check: new (Указано, что замена повреждённого оборудования на станции Barkly может занять до года, и что станция не будет обслуживаться в ближайшее время; это нов)
-Posted (Le Mauricien): METRO EXPRESS: станция Barkly остановлена, возвращение под вопросом
+### check 1/5 at 17:46
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Deux mois après, Sydney Pierre claque la porte du PTr  : De la fidélité au PM et PTR aux b == Политика: Sydney Pierre покидает PTr и ряды правящего большинства
-LLM usage this run: 10 requests, 16317 tokens
-### check 2/5 at 17:15
-  dup check: new (В статье сообщается о том, что операция Элодии Томас была проведена с участием индийской медицинской делегации: 14 индийских специалистов, включая ней)
-  proofread: Элодии Тома → Élodie Thomas; Элодию Тома → Élodie Thomas; Камп-Левье → Camp-Levieux
-Posted (L'Express): Операция Élodie Thomas: эти индийские и маврикийские врачи объединили свои навыки, чтобы спасти ей жизнь
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Crise de l’eau : Face à la bombe à retardement sociale, le PM prend les manettes == Кризис с водой: создан межведомственный комитет под председательством премьер-министра
-LLM usage this run: 4 requests, 6878 tokens
-### check 3/5 at 17:19
-### check 4/5 at 17:23
-### check 5/5 at 17:27
+Skipped duplicate (Defimedia): Jeunesse mauricienne : «Regardez-nous» == Факторы, стоящие за недавними инцидентами
+LLM usage this run: 1 requests, 1686 tokens
