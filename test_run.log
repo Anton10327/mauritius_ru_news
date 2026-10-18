@@ -1,14 +1,61 @@
-POST   Ювенальная преступность: является ли уголовная юстиция единственным ответом?
-SKIP(feature)  Рак груди: две женщины, два пути к жизни
-POST   За пределами насилия — реальность районов
-SKIP(feature)  Мониша Нандлолл Бунллолл: мечта, рожденная дома
-SKIP(feature)  Saveria Roméo, кондитерская в конце возвращения
-SKIP(feature)  Маврикийская молодежь: «Посмотрите на нас»
-Bad LLM answer from GigaChat-3-Ultra: Expecting value: line 1 column 94 (char 93); raw: {"choices":[{"message":{"content":"{\"mauritius\": true, \"news\": true, \"title\": \"Скачки: Tamarisk Tree объединил всех\", \"summary\":На ипподроме Champ-de-Mars на Маврикии в рамках 19-го дня скачек произошла неожиданность: победу в главном заезде одержал Tamarisk Tree, опередив фаворитов Future
-  written by GigaChat-3-Pro
-POST   Tamarisk Tree одержал победу на главной гонке 19-го дня на Маврикии
-POST   Отменённый экзамен: кандидаты в тревоге
-POST   Операция Элодии Тома: индийские и маврикийские врачи объединили усилия, чтобы спасти ей жизнь
-POST   Две автоматические повышения для Готама Сингха Таукур, несмотря на дело о нравах 2007 года
-SKIP(feature)  Розовый октябрь: за каждым диагнозом — женщина, мечты и жизнь, напоминает психолог д-р Анджум Хира Д
-POST   Пособия за риск полицейских: депутат Khushal Lobine призывает пересмотреть потолок в 1 045 рупий в м
+Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary models: ['GigaChat-3-Ultra', 'GigaChat-3-Pro', 'qwen/qwen3.8-27b', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b']
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-840a9f63-4812-48ab-8774-3065251da2e0","object":"chat.completion","created":1792347000,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.008457622,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-ff8c9156-c4ec-4cb3-95a5-75d3da6deb66","object":"chat.completion","created":1792347001,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
+openai/gpt-oss-20b 200 {"id":"chatcmpl-8757c78f-b3be-4a66-ac94-727ba48d264c","object":"chat.completion","created":1792347001,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So reply \"ok\"."},"logprobs":null,"finish_reason":"stop"}
+== Defimedia: https://defimedia.info/rss.xml
+Newest: « Papa, tu as grossi ! » : ces mots écrits d’Elodie qui font sourire ses parents | https://defimedia.info/papa-tu-grossi-ces-mots-ecrits-delodie-qui-font-sourire-ses-parents
+Article text: 6755 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/181026_nilmala_hansley_elodie.jpg
+  same headline as #134: « Papa, tu as grossi ! » : ces mots écrits d’Elodie qui font sourire ses parents
+Duplicate of recent post #: 134
+LLM usage so far: 3 requests, 217 tokens
+-- Post that would be sent:
+
+== L'Express: https://lexpress.mu/
+Newest: Reprise parlementaire : Crise de l’eau, violences et projets de loi sensibles | https://lexpress.mu/s/crise-de-leau-violences-et-projets-de-loi-sensibles-563753
+Article text: 10719 chars | photo: https://lexpress.mu/storage/articles/yG6vdAs26iOQxDY4cwQDSxsOLFvfHBIvZVexB2kz.jpg
+  same headline as #140: Reprise parlementaire : Crise de l’eau, violences et projets de loi sensibles
+Duplicate of recent post #: 140
+LLM usage so far: 3 requests, 217 tokens
+-- Post that would be sent:
+
+== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
+Newest: Coup de feu blessant – Élodie Thomas L’enquête passe sous le contrôle élargi de l’IPCC | https://www.lemauricien.com/actualites/societe/coup-de-feu-blessant-elodie-thomas-lenquete-passe-sous-le-controle-elargi-de-lipcc/720996/
+Article text: 3516 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-2026-10-18T100259.517.webp
+  same headline as #139: Coup de feu blessant – Élodie Thomas L’enquête passe sous le contrôle élargi de 
+Duplicate of recent post #: 139
+LLM usage so far: 3 requests, 217 tokens
+-- Post that would be sent:
+
+== Inside News: https://inside.news/feed/
+Newest: Réprimer le chaos sans fabriquer l’injustice : où s’arrête la fermeté de l’État ? | https://www.inside.news/troubles-arrestations-fermete-etat-injustice-maurice/
+Article text: 1548 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/f158ae4e-144e-454c-844e-80ca7231fca9-1-1024x578.png
+  same headline as #131: Réprimer le chaos sans fabriquer l’injustice : où s’arrête la fermeté de l’État 
+Duplicate of recent post #: 131
+LLM usage so far: 3 requests, 217 tokens
+-- Post that would be sent:
+
+== Wazaa: https://www.wazaa.mu/feed/
+Newest: Île Maurice : couvre-feu nocturne assoupli à 22 h dans 17 régions après des troubles | https://www.wazaa.mu/ile-maurice-couvre-feu-nocturne-assoupli-a-22-h-dans-17-regions-apres-des-troubles/
+Article text: 661 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/08/1787074962.jpeg
+  dup check: new (Curfew start time eased from 20:30 to 22:00 and applied to 17 regions starting Friday night 16 octobre, lasting through the weekend.)
+  proofread: изменён → изменен
+Duplicate of recent post #: None
+LLM usage so far: 6 requests, 4465 tokens
+-- Post that would be sent:
+<b>Маврикий: ночной комендантский час смягчен до 22:00 в 17 регионах после беспорядков</b>
+
+На Маврикии изменён режим комендантского часа: он начинается в 22:00 вместо 20:30 и заканчивается в 4:30 вместо 5:00. Изменения вступили в силу вечером 16 октября и действуют на выходных. Мера введена после волны насилия, грабежей и вандализма с 12 октября. Изначально с 13 октября комендантский час действовал в 15 зонах, затем его продлили ещё на две ночи и расширили до 17 зон.
+
+🔗 <a href="https://www.wazaa.mu/ile-maurice-couvre-feu-nocturne-assoupli-a-22-h-dans-17-regions-apres-des-troubles/">Wazaa</a>
+== Top FM: https://topfm.mu/
+Newest: Octobre rose : Derrière chaque diagnostic, une femme, des rêves et une vie, rappelle la psychologue Dr Anjum Heera Durgahee | https://topfm.mu/actualites/octobre-rose-derriere-chaque-diagnostic-une-femme-des-reves-et-une-vie-rappelle-la-psychologue-dr
+Article text: 2590 chars | photo: https://topfm.mu/sites/default/files/2026-10/2025-Thumbnail-%5BWEB-%2B-FB%5D-Recovered-Recovered-Recovered-Recovered_1.png
+  same headline as #126: Octobre rose : Derrière chaque diagnostic, une femme, des rêves et une vie, rapp
+Duplicate of recent post #: 126
+LLM usage so far: 6 requests, 4465 tokens
+-- Post that would be sent:
+
