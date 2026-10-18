@@ -14,3 +14,10 @@ LLM usage this run: 8 requests, 12549 tokens
   dup check: new (Car wash observed inside the Ministry of Education premises during the water crisis, involving the Permanent Secretary's vehicle, highlighting misuse )
 Posted (Le Mauricien): Несмотря на запрет: мойка автомобиля в министерстве образования
 LLM usage this run: 3 requests, 4072 tokens
+### check 3/5 at 12:43
+  dup check: new (Khushal Lobine, député de la circonscription no 15, dénonce une indemnité de risque de Rs 35 par jour comme dérisoire et réclame une revalorisation su)
+  proofread: Хушал Лобин → Khushal Lobine
+Posted (Defimedia): Полиция: надбавка за риск в размере 35 рупий в день — «смехотворная», считает Khushal Lobine
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Réservoir de Mare-aux-Vacoas : les prélèvements d’eau passent sous les 50 000 m³ par jour == Mare-aux-Vacoas: тревога сохраняется при уровне заполнения 34,4%
+LLM usage this run: 4 requests, 6047 tokens
