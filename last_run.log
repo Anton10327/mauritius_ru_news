@@ -1,20 +1,4 @@
-### check 1/5 at 10:24
-Posted (Le Mauricien): Приём в 7-й класс: Forest-Side Secondary College отсутствует в списке
-  proofread: Идрис Хосани → Idris Hosanee; Кюрпайпа → Curepipe; Ибрагим Алладин → Ibrahim Alladin; Идрисе Хосани → Idris Hosanee; Кюрпайпа → Curepipe
-Posted (Defimedia): Idris Hosanee: тихая нить Curepipe
-  not about Mauritius: La France sonnée au lendemain d'une journée de mobilisation ayant viré au chaos
-Skipped foreign news (Defimedia): La France sonnée au lendemain d'une journée de mobilisation ayant viré au chaos
-LLM usage this run: 7 requests, 10066 tokens
-### check 2/5 at 10:28
-### check 3/5 at 10:32
-  not about Mauritius: Inde : un camion hors de contrôle fait 13 morts
-Skipped foreign news (Defimedia): Inde : un camion hors de contrôle fait 13 morts
-  not about Mauritius: Cisjordanie occupée : des colons israéliens attaquent des diplomates européens et un maire français
-Skipped foreign news (Defimedia): Cisjordanie occupée : des colons israéliens attaquent des diplomates européens et un maire français
-LLM usage this run: 2 requests, 3247 tokens
-### check 4/5 at 10:36
+### check 1/5 at 11:08
   dup: nothing new ()
-Skipped duplicate (Inside News): Mineurs dès 12 ans : ce que changerait réellement la réforme envisagée du Children’s Act == Реформа: снижение возраста уголовной ответственности до 12 лет вызывает вопросы
-Posted (Top FM): Дело Кистнена: шесть лет спустя — ответов всё ещё нет, сожалеет адвокат Рама Валайден
-LLM usage this run: 4 requests, 5312 tokens
-### check 5/5 at 10:40
+Skipped duplicate (L'Express): Tensions à travers le pays : Nouvelles arrestations et deux suspects poursuivis sous la Po == Комендантский час: девять человек арестованы в ночь с пятницы на субботу
+LLM usage this run: 1 requests, 1701 tokens
