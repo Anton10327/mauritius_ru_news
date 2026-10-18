@@ -1,12 +1,5 @@
-### check 1/5 at 19:32
-  dup check: new (Déploiement d’une mission médicale d’urgence à Maurice avec Dr Rakesh Jalla (KIMS Hospitals) qui rapporte le succès de la mission, mobilisation de prè)
-  proofread: Элодии Тома → Элодии Томас
-Posted (Defimedia): Закулисье экстренной медицинской миссии: индийские врачи срочно прибыли на Маврикий для операции 27-летней Elodie Thomas
-  dup check: new (Указано, что почти сто человек арестованы, среди них несовершеннолетние и полицейский — информация о количестве арестованных и задержании полицейского)
-  proofread: жёсткости → жёсткости
-Posted (Inside News): Подавить хаос, не создавая несправедливости: где предел жёсткости государства?
-LLM usage this run: 6 requests, 8950 tokens
-### check 2/5 at 19:36
-### check 3/5 at 19:40
-### check 4/5 at 19:44
-### check 5/5 at 19:48
+### check 1/5 at 19:59
+  dup check: new (Maurice sollicite l’expertise saoudienne en matière d’eau et le ministre saoudien Adel bin Ahmed Al‑Jubeir réaffirme le soutien de l’Arabie saoudite à)
+  proofread: Ritish Ramful → Ritish Ramful (имя латиницей оставлено без изменений); Abdulrahman Abdulmohsen Al-Fadley → Abdulrahman Abdulmohsen Al-Fadley (имя латиницей оставлено без изменений)
+Posted (L'Express): Водный кризис: Маврикий запрашивает саудовскую экспертизу
+LLM usage this run: 3 requests, 4418 tokens
