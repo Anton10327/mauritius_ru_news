@@ -167,6 +167,10 @@ DUP_PROMPT = (
     "прямой эфир того, о чём уже написали, материал печатного номера или обзор, "
     "пересказывающий вчерашние события) — это дубль, даже если статья новее. "
     "Если есть новый важный факт — не дубль, даже если тема та же. "
+    "Но дополнительные подробности, цитаты, мнения и комментарии к уже "
+    "опубликованной истории без нового события — это дубль; особенно если это "
+    "та же история от того же СМИ в тот же день (например, годовщина дела и "
+    "комментарий адвоката к ней). "
     "Ответь строго JSON в таком порядке полей: "
     '{"new_facts": "какие новые важные факты есть, или пусто", '
     '"is_duplicate": true или false, "duplicate_of": номер самого похожего или null}.'
@@ -541,9 +545,13 @@ def find_duplicate(orig_title, lead, recent):
     similar = sorted((i for i in idx[:-DUP_LATEST] if score(recent[i]) > 0),
                      key=lambda i: -score(recent[i]))[:DUP_SIMILAR]
     shown = sorted(set(latest) | set(similar))
+    # Similar posts are shown in full (that is where repeats hide); the
+    # latest unrelated ones only briefly, to save tokens
+    full = set(similar) | {i for i in latest if score(recent[i]) >= 0.3}
     when = lambda x: time.strftime("%d.%m %H:%M", time.gmtime(x.get("t", 0) + 4 * 3600))
     listing = "\n".join(f"{i + 1}. [{when(recent[i])}] {recent[i].get('orig') or recent[i]['title']}"
-                         f" — {recent[i].get('summary', '')[:90]}" for i in shown)
+                         f" — {recent[i].get('summary', '')[:600 if i in full else 90]}"
+                         for i in shown)
     msg = (f"Новая статья:\n{orig_title}\n{lead[:700]}\n\n"
            f"Уже опубликовано:\n{listing}")
     free = [m for m in DUP_MODELS if m not in _llm_state["exhausted"]]
@@ -569,6 +577,7 @@ def find_duplicate(orig_title, lead, recent):
             return None
         data = _parse_json(r.json()["choices"][0]["message"]["content"]) or {}
         if data.get("is_duplicate") is not True:
+            print(f"  dup check: new ({str(data.get('new_facts', ''))[:150]})")
             return None
         dup = data.get("duplicate_of")
         try:
@@ -1058,7 +1067,7 @@ def main():
             seen.append(uid)
             seen_set.add(uid)
         recent.append({"t": time.time(), "title": title, "source": source,
-                       "orig": post["orig"], "summary": post["summary"][:200]})
+                       "orig": post["orig"], "summary": post["summary"][:600]})
         recent = recent[-RECENT_MAX:]
         save_seen(seen)      # save after every post, so a cut-off run can't repost
         save_recent(recent)

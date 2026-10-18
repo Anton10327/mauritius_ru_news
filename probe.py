@@ -1,12 +1,16 @@
-"""Full post pipeline on fresh articles with GigaChat (posts nothing)."""
-import bot
-n = 0
-for src in bot.FEEDS:
-    if n >= 3: break
-    e, link, img = bot.newest_entry(src)
-    if not e: continue
-    post = bot.build_post(src[0], e, link, [])
-    if post.get("foreign") or not post["text"]: continue
-    n += 1
-    print(f"\n## {src[0]} — written by: {bot._llm_state['model']}\n{post['text']}")
-print("\nGigaChat used today:", bot._state_get("giga_used"))
+"""Re-judge the Kistnen case with the new duplicate rules (posts nothing)."""
+import json, bot
+recent = json.loads(bot.RECENT_FILE.read_text(encoding="utf-8"))
+first = [x for x in recent if "Soopramanien Kistnen" in x.get("orig", "")][0]
+first["summary"] = ("18 октября 2026 года исполняется шесть лет со дня обнаружения обгоревшего тела бывшего активиста MSM "
+    "Soopramanien Kistnen в поле сахарного тростника в Telfair, Мока. Изначально признанное самоубийство, дело было "
+    "переквалифицировано в убийство. Адвокат семьи Rama Valayden сожалеет, что расследование не продвинулось; образцы ДНК, "
+    "отправленные в Англию, до сих пор не дали результатов.")
+idx = recent.index(first) + 1
+recent = recent[:idx]  # what the bot knew before the second article
+url = "https://topfm.mu/actualites/affaire-kistnen-six-ans-apres-toujours-pas-de-reponses-deplore-me-rama-valayden"
+body, _ = bot.article_text(url)
+print("article text:", len(body), "chars")
+d = bot.find_duplicate("Affaire Kistnen : six ans après, toujours pas de réponses, déplore Me Rama Valayden",
+                       body.replace("Publicité", "").strip(), recent)
+print("RESULT duplicate_of:", d, "->", recent[d-1]["orig"] if d else None)
