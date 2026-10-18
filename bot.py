@@ -109,7 +109,16 @@ PROMPT = (
     "Ниже статья с маврикийского сайта на французском; в ней бывают цитаты "
     "на маврикийском креольском (например: «Li guet nou», «Nou pou res», "
     "«monn trouv lamor»). Верни строго JSON вида "
-    '{"mauritius": true или false, "title": "...", "summary": "..."}. '
+    '{"mauritius": true или false, "news": true или false, "title": "...", "summary": "..."}. '
+    "news — есть ли в статье новость, то есть недавнее событие или решение: "
+    "происшествие, решение властей, заявление, суд, забастовка, цены, "
+    "результат матча или скачек, открытие, мероприятие, назначение. "
+    "news = false для материалов без события: портрет или история жизни "
+    "частного человека (как он учился, сделал карьеру, открыл своё дело, "
+    "«мечта», «путь к успеху»), лайфстайл, рецепты, советы, гороскопы, "
+    "реклама и промо-статьи, ностальгия и воспоминания. Если поводом "
+    "для портрета стала свежая новость о человеке (награда, назначение, "
+    "происшествие), news = true. "
     "mauritius — решай по главному событию статьи, а не по отдельным фразам. "
     "true, только если: событие происходит на Маврикии (включая Rodrigues, "
     "Agaléga, Chagos); или его участники — маврикийцы, маврикийские власти, "
@@ -435,8 +444,10 @@ def summarize(title, body):
         _llm_state["model"] = model
         if model != SUMMARY_MODELS[0]:
             print(f"  written by {model}")
-        local = data.get("mauritius")
-        local = not (local is False or str(local).lower() == "false")
+        no = lambda v: v is False or str(v).lower() == "false"
+        # True, or why the article is skipped: "foreign" / "feature"
+        local = "foreign" if no(data.get("mauritius")) else \
+            "feature" if no(data.get("news")) else True
         return ru_title, ru_summary, local
     _llm_state["disabled"] = True
     if set(SUMMARY_MODELS) <= _llm_state["exhausted"]:
@@ -881,9 +892,10 @@ def build_post(source, entry, link, recent=(), force=False):
         print(f"Too little text ({len(body)} chars), title only: {link}")
     if result:
         title, summary, local = result
-        if not local:
-            post["foreign"] = True
-            print(f"  not about Mauritius: {orig_title[:100]}")
+        if local is not True:
+            post["foreign"] = True  # skipped, same handling as foreign news
+            print(f"  {'not about Mauritius' if local == 'foreign' else 'not news (portrait/lifestyle)'}: "
+                  f"{orig_title[:100]}")
             return post
     else:
         title = translate(orig_title)
