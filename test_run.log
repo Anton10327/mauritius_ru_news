@@ -1,3 +1,46 @@
-article text: 1037 chars
-  dup: nothing new ()
-RESULT duplicate_of: 172 -> Affaire Soopramanien Kistnen : six ans après sa mort, le mystère demeure
+
+######## qwen/qwen3.8-27b
+  FIXED  | Несмотря на дело о нравах 2007 года: два автоматических повышения для Gautam Singh Taukoor
+  FIXED  | Дело о чемоданах: Kobita Jugnauth прошла третий допрос в FCC
+  FIXED  | GRNO: задержан за бросание посылки на территорию тюрьмы
+  FIXED  | Отставка: Sydney Pierre покинул Партию труда
+  MISSED | Экзамены отложены: более 33 000 кандидатов затронут по всей стране
+  kept    | []
+  kept    | []
+  kept    | []
+
+######## GigaChat-3-Lightning
+  FIXED  | Несмотря на дело о нравах 2007 года: две автоматические повышения для Gautam Singh Taukoor
+  MISSED | Дело о чемоданах: Kobita Jugnauth прошла третье допроса в FCC
+  MISSED | GRNO: задержан за бросание посылки в территорию тюрьмы
+  FIXED  | Отставка: Sydney Pierre покинул Партию труда
+  MISSED | Экзамены отложены: более 33 000 кандидатов затронут по всей стране
+  CHANGED | []
+  CHANGED | []
+  kept    | []
+
+######## GigaChat-3-Pro
+  FIXED  | Несмотря на дело о нравах 2007 года: два автоматических повышения для Gautam Singh Taukoor
+  FIXED  | Дело о чемоданах: Kobita Jugnauth прошла третий допрос в FCC
+  FIXED  | GRNO: задержан за бросание посылки на территорию тюрьмы
+  FIXED  | Отставка: Сидни Пьер покинул Партию труда
+  FIXED  | Экзамены отложены: более 33 000 кандидатов затронуты по всей стране
+  kept    | []
+  kept    | []
+  kept    | []
+
+######## GigaChat-3-Ultra
+  FIXED  | Несмотря на дело о нравах 2007 года: два автоматических повышения для Gautam Singh Taukoor
+  FIXED  | Дело о чемоданах: Kobita Jugnauth прошла третий допрос в FCC
+  FIXED  | GRNO: задержан за бросание посылки на территорию тюрьмы
+  FIXED  | Отставка: Sydney Pierre покинул Партию труда
+  FIXED  | Экзамены отложены: более 33 000 кандидатов затронуты по всей стране
+  kept    | []
+  kept    | []
+  kept    | []
+
+model: fixed / missed / changed a correct text
+  qwen/qwen3.8-27b         4 / 1 / 0
+  GigaChat-3-Lightning     2 / 3 / 2
+  GigaChat-3-Pro           5 / 0 / 0
+  GigaChat-3-Ultra         5 / 0 / 0
