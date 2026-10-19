@@ -1,17 +1,14 @@
-"""Duplicate check on the real Taukoor repeat (posts nothing)."""
+"""Replay every post of the last 48h through the duplicate check with
+GigaChat-3-Pro: which published posts would it have stopped? (posts nothing)"""
 import json, bot
 rec = json.load(open(bot.STATE_DIR / "recent.json", encoding="utf-8"))
-def run(idx, label):
-    e = rec[idx]
-    print(label, "->", bot.find_duplicate(e["orig"], e["summary"], rec[:idx]))
-for i, e in enumerate(rec):
-    if "оставили под стражей до 26" in e["title"]: run(i, "Taukoor remand (expect duplicate)")
-    if "Élodie Thomas ранена пулей: трое" in e["title"]: run(i, "3 police officers bailed (expect new)")
-    if "сержант Gautam Singh Taukoor снова в суде" in e["title"]: run(i, "first court post (expect new)")
-for m in ["GigaChat-3-Pro", "GigaChat-3-Ultra"]:
-    bot.DUP_MODELS[:] = [m]
-    print("=====", m)
-    for i, e in enumerate(rec):
-        if "оставили под стражей до 26" in e["title"]: run(i, "remand (expect dup)")
-        if "Élodie Thomas ранена пулей: трое" in e["title"]: run(i, "bailed (expect new)")
-        if "сержант Gautam Singh Taukoor снова в суде" in e["title"]: run(i, "first court (expect new)")
+bot.DUP_MODELS[:] = ["GigaChat-3-Pro"]
+flag = 0
+for i in range(len(rec)):
+    e = rec[i]
+    d = bot.find_duplicate(e.get("orig") or e["title"], e["summary"], rec[:i])
+    if d:
+        flag += 1
+        p = rec[:i][d - 1]
+        print(f"\n#{i} {e['source']}: {e['title']}\n   {e['summary'][:260]}\n   == {p['source']}: {p['title']}\n   {p['summary'][:260]}")
+print(f"\nwould stop {flag} of {len(rec)} published posts")
