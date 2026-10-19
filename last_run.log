@@ -15,3 +15,13 @@ Posted (Defimedia): Quartier-Militaire: трёхлетняя девочка се
   proofread: вопросы финансовой преступности, возврата активов и создание → вопросы финансовой преступности, возврата активов и создания
 Posted (Inside News): Парламент: правительство хочет принять новые полномочия по комендантскому часу уже со вторника
 LLM usage this run: 9 requests, 13643 tokens
+### check 2/5 at 09:02
+  dup check: new (Publication du calendrier révisé du National Certificate of Education (NCE) pour les Grades 4 et 5 avec les nouvelles dates précises des épreuves (20,)
+  proofread: Grades 4 и 5 → классы 4 и 5
+Posted (Inside News): NCE, Grades 4 и 5: следует придерживаться пересмотренного расписания
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Éducation : reprise des cours et nouveau calendrier pour plusieurs examens == NCE, Grades 4 и 5: следует придерживаться пересмотренного расписания
+  dup check: new (Deven Anacootee, journalist from Pima Info, is scheduled to appear before the Cybercrime Unit on Tuesday 20 October; the article notes that investigat)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Социальные сети: CCID выходит на администраторов
+LLM usage this run: 7 requests, 10166 tokens
