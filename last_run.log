@@ -11,3 +11,8 @@ LLM usage this run: 7 requests, 11070 tokens
   not about Mauritius: Video : France – plus de 2 400 arrestations, Macron condamne les violences
 Skipped foreign news (Inside News): Video : France – plus de 2 400 arrestations, Macron condamne les violences
 LLM usage this run: 2 requests, 3512 tokens
+### check 3/5 at 11:07
+  dup check: new (В статье сообщается о введении комендантского часа в ночь с четверга 15 октября на 20:30‑5:00, охватившего 17 регионов, включая Порт-Луи и Beau‑Bassin)
+  proofread: 
+Posted (L'Express): Напряжённость по всему острову | Комендантский час: ночь под ритм полицейских блокпостов
+LLM usage this run: 3 requests, 5388 tokens
