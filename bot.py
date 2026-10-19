@@ -691,6 +691,7 @@ def _sound(word):
     w = unicodedata.normalize("NFKD", w)
     w = "".join(c for c in w if not unicodedata.combining(c))
     w = "".join(_CYR2LAT.get(c, c) for c in w)
+    w = w.replace("ch", "sh")  # French ch = Russian ш (Sèche ~ Сеш)
     for a, b in (("ou", "u"), ("ph", "f"), ("qu", "k"), ("ck", "k"), ("c", "k"),
                  ("q", "k"), ("w", "v"), ("y", "i"), ("x", "ks"), ("dj", "j"),
                  ("zh", "j"), ("sh", "ch"), ("tch", "ch"), ("h", ""), ("ee", "i"),
@@ -727,11 +728,55 @@ _NOT_NAMES = set()
 _VOWELS = set("aeiou")
 
 
+_LINKS = {"d", "de", "du", "des", "la", "le", "les", "l", "aux", "en", "sur", "or"}
+
+
+def _latinize_compounds(text, original):
+    """Hyphenated Cyrillic place names -> the Latin original:
+    "Пудр-Дор-Виллаж" -> "Poudre d'Or Village", "Роуз-Хилл" -> "Rose-Hill"."""
+    from difflib import SequenceMatcher
+    toks = list(re.finditer(r"[A-Za-zÀ-ÿ]+", original))
+    spans = {}
+    for i, t in enumerate(toks):
+        if not t.group(0)[0].isupper() or _not_name(t.group(0)):
+            continue
+        for j in range(i + 1, min(i + 5, len(toks))):
+            last = toks[j].group(0)
+            gap = original[toks[j - 1].end():toks[j].start()]
+            if not re.fullmatch(r"\s?[-'’]?\s?", gap) or gap == "":
+                break
+            if not last[0].isupper() and last.lower() not in _LINKS:
+                break
+            if last[0].isupper():
+                words = [toks[k].group(0) for k in range(i, j + 1)]
+                span = original[t.start():toks[j].end()]
+                spans.setdefault(_sound("".join(words)), span)
+                spans.setdefault(_sound("".join(words[:-1])) + _sound_latin(last), span)
+                # silent final e in each part: Rose-Hill ~ Роуз-Хилл
+                spans.setdefault("".join(re.sub(r"(?<=..)e$", "", _sound(w)) for w in words), span)
+
+    def sub(m):
+        word = m.group(0)
+        stems = [word] + [word[:-len(e)] for e in _RU_ENDINGS if word.lower().endswith(e)]
+        best, score = None, 0
+        for st in stems:
+            key = _sound(st)
+            for k, span in spans.items():
+                if k[:1] != key[:1] or abs(len(k) - len(key)) > 3:
+                    continue
+                r = SequenceMatcher(None, key, k).ratio()
+                if r > score:
+                    best, score = span, r
+        return best if score >= 0.8 else word
+    return re.sub(r"\b[А-ЯЁ][а-яё]+(?:-[А-ЯЁа-яё][а-яё]*)+\b", sub, text)
+
+
 def latinize_names(text, original):
     """Replace Cyrillic spellings of names from the original article with the
     Latin original ("Риши" -> "Rishi", "Кандосе" -> "Candos")."""
     if not text or not original:
         return text
+    text = _latinize_compounds(text, original)
     from difflib import SequenceMatcher
     def at_start(src, pos):  # first word of a line or sentence (or after a colon)
         return re.search(r"(^|[.!?:…«\"—–-]\s*|\n\s*)$", src[max(0, pos - 3):pos]) is not None \
@@ -784,7 +829,8 @@ def latinize_names(text, original):
         return latin if latin else word
     # Capitalised Cyrillic words (not at the start of a sentence: those are
     # usually ordinary words, but names are still checked)
-    return re.sub(r"\b[А-ЯЁ][а-яё]{2,}(?:-[А-ЯЁ][а-яё]+)*\b", sub, text)
+    # (not a part of a hyphenated name: "Бай-дю-Томбо" is handled as a whole)
+    return re.sub(r"(?<!-)\b[А-ЯЁ][а-яё]{2,}(?:-[А-ЯЁ][а-яё]+)*\b(?!-)", sub, text)
 
 
 _NOT_NAMES.update(_sound(w) for w in _NOT_NAMES_FR)
