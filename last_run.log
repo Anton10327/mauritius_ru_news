@@ -1,14 +1,9 @@
-### check 1/5 at 15:44
-  dup check: new (8‑year‑old child burned by hot drink on Air Mauritius flight MK015 from Paris to Mauritius on 19 Oct; incident and medical assistance at airport.)
-  proofread: ребенок → ребёнок
-Posted (L'Express): На рейсе Air Mauritius: 8-летний ребёнок случайно получил ожог горячим напитком от родителя
-LLM usage this run: 3 requests, 4564 tokens
-### check 2/5 at 15:48
-  same headline as #61: Diabète  — Glucomètres : un marché de Rs 35,7 millions voit l’offre moins chère 
-Skipped duplicate (Inside News): Glucomètres : un marché de Rs 35,7 millions soulève des questions == Диабет — Глюкометры: тендер на 35,7 млн рупий, более дешёвое предложение давнего поставщик
-### check 3/5 at 15:52
-### check 4/5 at 15:56
-  dup: nothing new ()
-Skipped duplicate (Top FM): Un enfant de 8 ans accidentellement brûlé à bord du Vol MK 015 Paris-Maurice : Air Mauriti == На рейсе Air Mauritius: 8-летний ребёнок случайно получил ожог горячим напитком от родител
-LLM usage this run: 1 requests, 2119 tokens
-### check 5/5 at 16:00
+### check 1/5 at 16:17
+  proofread: Mohamad Ally Oozeer → Mohamad Ally Oozeer; Deputy Commissioner of Police (DCP) → заместитель комиссара полиции
+Posted (L'Express): Вопросы… Mohamad Ally Oozeer: «Полиция постоянно пересматривает свою оперативную стратегию в зависимости от развития ситуации»
+  dup check: new (Le gouvernement annonce que le couvre‑feu en vigueur ne sera pas reconduit à compter du 19 octobre, marquant la décision officielle d’annuler le couvr)
+Posted (L'Express): Офис премьер-министра: комендантский час не будет продлен с сегодняшнего вечера
+  dup check: new (L'ouverture du deuxième dialogue de partenariat entre Maurice et l'Union européenne au Maritim Resort and Spa, avec des priorités sur le commerce, l'i)
+  proofread: Janmajaising Bissoondoyal → Janmajaising Bissoondoyal (имя не требует перевода); Oskar Benedikt → Oskar Benedikt (имя не требует перевода)
+Posted (Top FM): Маврикий–ЕС: усиленное партнерство в торговле, инвестициях, устойчивом развитии и климате
+LLM usage this run: 8 requests, 11716 tokens
