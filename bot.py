@@ -93,7 +93,9 @@ PROOF_PROMPT = (
     "латинское написание из оригинала («Правинд Жогно» → «Pravind Jugnauth», "
     "«четверо-Борнс» → «Quatre-Bornes», "
     "«Элоди Томас» → «Élodie Thomas»); слова «премьер-министр», «министр» и т. п. "
-    "оставь по-русски. "
+    "оставь по-русски. Цитата в кавычках на французском, английском или "
+    "креольском — тоже ошибка: переведи её на русский по смыслу, сохранив "
+    "кавычки («Who cares?» → «Кому какое дело?»). "
     "Верни строго JSON: {\"title\": \"...\", \"summary\": \"...\", "
     "\"changes\": [\"было → стало\", ...]}. Если ошибок нет, верни текст как есть."
 )
@@ -133,7 +135,8 @@ PROMPT = (
     "маврикийской. "
     "title — полный перевод заголовка на русский. Цитаты в кавычках тоже "
     "переводи на русский по смыслу, сохраняя кавычки; ни одного слова на "
-    "французском или креольском в title остаться не должно. "
+    "французском, английском или креольском в title остаться не должно "
+    "(«Who cares?» → «Кому какое дело?»). "
     "summary — пересказ своими словами на русском в 2–4 предложениях, "
     "грамотным живым русским языком, как в хорошем новостном издании "
     "(проверь согласование слов в роде, числе и падеже), "
@@ -628,7 +631,11 @@ def _safe_edit(old, new, original=""):
     latin = lambda t: re.findall(r"[A-Za-zÀ-ÿ](?:[A-Za-zÀ-ÿ'’.-]*[A-Za-zÀ-ÿ])?", t)
     if digits(old) != digits(new):
         return False
-    old_l, new_l = latin(old), latin(new)
+    # words of a foreign quote («Who cares?») may be translated away
+    quoted = set(latin(" ".join(re.findall(r"«([^»]*)»|\"([^\"]*)\"", old) and
+                                [q for pair in re.findall(r"«([^»]*)»|\"([^\"]*)\"", old)
+                                 for q in pair])))
+    old_l, new_l = [w for w in latin(old) if w not in quoted], latin(new)
     allowed = set(w.lower() for w in old_l + latin(original))
     if any(w not in new_l for w in old_l) or any(w.lower() not in allowed for w in new_l):
         return False
