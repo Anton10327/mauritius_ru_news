@@ -645,6 +645,7 @@ def _safe_edit(old, new, original=""):
 _FIXES = [
     (r"\b([Вв]) Маврики(и|й)\b", lambda m: ("Н" if m.group(1) == "В" else "н") + "а Маврики" + m.group(2)),
     (r"\b([Ии])з Маврикия\b", lambda m: ("С" if m.group(1) == "И" else "с") + " Маврикия"),
+    (r'"([^"\n]{1,200})"', r"«\1»"),  # Russian quotes
     (r"\b([Вв]) Родригес[еа]?\b", lambda m: ("Н" if m.group(1) == "В" else "н") + "а Rodrigues"),
 ]
 
