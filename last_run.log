@@ -1,30 +1,13 @@
-### check 1/5 at 11:49
+### check 1/5 at 12:25
   dup: nothing new ()
-Skipped duplicate (Defimedia): Non-respect du couvre-feu : deux personnes arrêtées dans la nuit de dimanche à lundi == Комендантский час: два ареста за ночь, инцидентов не зафиксировано
-  dup check: new (Сержант Gautam Singh Taukoor продлен в полицейском заключении до 26 октября — новое решение суда, не упомянуто в ранее опубликованных материалах.)
-Posted (Defimedia): Выстрел в Camp-Levieux: сержанта Taukoor оставили под стражей до 26 октября
-  dup check: new (Introduction of new residence requirements for Basic Retirement Pension applicants born on or before 31 December 1966, with specific years of residenc)
-  proofread: 
-Posted (Inside News): Базовая пенсия: новые правила проживания для некоторых заявителей
-  dup check: new (Новые данные о ночных беспорядках на острове Реюньон 17‑18 октября: 18 арестов и 11 полицейских/жандармов получили ранения; инциденты произошли в Ле П)
-  not about Mauritius: La Réunion : 18 interpellations et 11 membres des forces de l’ordre blessés
-Skipped foreign news (Inside News): La Réunion : 18 interpellations et 11 membres des forces de l’ordre blessés
-LLM usage this run: 9 requests, 14915 tokens
-### check 2/5 at 11:53
-  dup check: new (L’enquête de l’IPCC élargit son champ d’investigation aux secours apportés à Élodie Thomas après la fusillade : examen des interventions des unités pr)
-  proofread: Элои Том → Элои Томас
-Posted (Inside News): Дело Элои Thomas: расследование также изучает оказание помощи после стрельбы
-  dup: nothing new ()
-Skipped duplicate (Top FM): L’Assemblée nationale : Neuf projets de loi sur la criminalité et renforcement des pouvoir == Парламент: правительство хочет принять новые полномочия по комендантскому часу уже со втор
-  dup: nothing new ()
-Skipped duplicate (Top FM): Réservoirs d’eau et pompe : près de 24 000 demandes enregistrées, dont plus de 10 000 en l == Помощь CWA: 7 245 проверок завершено из 23 911 заявок
-LLM usage this run: 5 requests, 8057 tokens
-### check 3/5 at 11:57
-### check 4/5 at 12:01
-  dup check: new (Citizens in multiple villages (Saint‑Pierre, Fond‑du‑Sac, Écroignard, Montagne‑Blanche) organized patrols and alerted police; Prime Minister Navin Ram)
-  proofread: напряженность → напряжённость; Navin Ramgoolam → Navin Ramgoolam
-Posted (L'Express): Напряженность по всей стране: граждане мобилизуются для защиты своих деревень
-  not about Mauritius: VIDEO :Tragédie à Kolkata – 19 morts dans une bousculade pendant Durga Puja
-Skipped foreign news (Inside News): VIDEO :Tragédie à Kolkata – 19 morts dans une bousculade pendant Durga Puja
-LLM usage this run: 4 requests, 6698 tokens
-### check 5/5 at 12:05
+Skipped duplicate (Le Mauricien): COUVRE-FEU SUR LES RÉSEAUX SOCIAUX : La Cybercrime Unit sur la piste des auteurs de messag == Беспорядки: полиция проверяет несколько групп WhatsApp, включая «The Burning Paradise»
+  dup check: new (В статье сообщается, что несмотря на продолжающиеся беспорядки, около 40 студентов и сотрудников Университета Массаригн (UDM) продолжили занятия в очн)
+  proofread: Элоди Тома → Элоди Томас
+Posted (Le Mauricien): CAMP-LEVIEUX — На кампусе UDM: очные занятия продолжались несмотря на беспорядки
+  dup check: new (PAJ félicite 80 adolescents de 15 centres ANFEN formés comme jeunes ambassadeurs, leur slogan ToPaTouSel, et leur rôle de sensibilisation auprès d’aut)
+  not news (portrait/lifestyle): PAJ : Félicitons les 80 adolescents des 15 centres ANFEN
+Skipped foreign news (Le Mauricien): PAJ : Félicitons les 80 adolescents des 15 centres ANFEN
+  dup check: new (Le 19 octobre, les avocats de Maneesh Gobin et Lilram Deal ont contesté la compétence de la Financial Crimes Division (FCD) de la Cour suprême, avec u)
+  proofread: Maneesh Gobin → Maneesh Гобин; Lilram Deal → Lilram Дил
+Posted (Defimedia): FCD: Maneesh Gobin и Lilram Deal оспаривают юрисдикцию суда
+LLM usage this run: 9 requests, 16276 tokens
