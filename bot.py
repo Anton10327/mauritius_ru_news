@@ -784,6 +784,9 @@ def latinize_names(text, original):
     Latin original ("Риши" -> "Rishi", "Кандосе" -> "Candos")."""
     if not text or not original:
         return text
+    # Le Mauricien writes headlines in CAPITALS ("SOREZE : ..."): match as Title case
+    original = re.sub(r"\b[A-ZÀ-Ý]{3,}(?:-[A-ZÀ-Ý]+)*\b",
+                      lambda m: "-".join(p.capitalize() for p in m.group(0).split("-")), original)
     text = _latinize_compounds(text, original)
     from difflib import SequenceMatcher
     def at_start(src, pos):  # first word of a line or sentence (or after a colon)
@@ -795,7 +798,8 @@ def latinize_names(text, original):
         if _not_name(w):
             continue
         for k in _latin_keys(w):
-            names.setdefault(k, w)
+            if k not in names or (names[k].isascii() and not w.isascii()):
+                names[k] = w  # prefer the accented spelling: Sorèze over SOREZE
             nxt = re.match(r"\s+([A-ZÀ-Ý][a-zà-ÿ]+)", original[m.end():])
             in_name = (bool(nxt) and not _not_name(nxt.group(1))  # "Gautam Singh"
                        or (re.match(r"\s*:", original[m.end():]) is not None  # "Vacoas : ..."
@@ -855,7 +859,7 @@ camp-levieux cite-la-cure roche-bois sainte-croix plaine-verte vallee-pitot tran
 grande-riviere grand-river grand-gaube poste-de-flacq belle-mare trou-d'eau-douce
 saint-pierre quartier-militaire montagne-blanche nouvelle-france new-grove l'escalier
 rodrigues agalega chagos ebene reduit floreal candos midlands mare-aux-vacoas lalmatie
-solitude la-louise cassis stanley camp-de-masque camp-diable chamarel case-noyale
+solitude la-louise soreze glen-park cassis stanley camp-de-masque camp-diable chamarel case-noyale
 beau-champ olivia laventure mapou piton terre-rouge baie-du-tombeau arsenal""".split())
 
 
