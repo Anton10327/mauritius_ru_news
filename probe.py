@@ -5,6 +5,6 @@ def run(idx, label):
     e = rec[idx]
     print(label, "->", bot.find_duplicate(e["orig"], e["summary"], rec[:idx]))
 for i, e in enumerate(rec):
-    if "maintenu en cellule" in e.get("orig", ""): run(i, "Taukoor remand (expect duplicate)")
+    if "оставили под стражей до 26" in e["title"]: run(i, "Taukoor remand (expect duplicate)")
     if "Élodie Thomas ранена пулей: трое" in e["title"]: run(i, "3 police officers bailed (expect new)")
     if "сержант Gautam Singh Taukoor снова в суде" in e["title"]: run(i, "first court post (expect new)")
