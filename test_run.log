@@ -3,21 +3,21 @@ Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary mode
 Google Translate failed: TooManyRequests
 Автобусное сообщение прервано во вторник утром
 == LLM: https://api.groq.com/openai/v1/chat/completions
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-b4c5ee95-bed1-44f6-87c7-290fd069507f","object":"chat.completion","created":1792437304,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.096796046,"prompt_tokens":16,"prompt_t
-openai/gpt-oss-120b 200 {"id":"chatcmpl-1308231d-3d83-48a9-8675-d1b734f9720c","object":"chat.completion","created":1792437304,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
-openai/gpt-oss-20b 200 {"id":"chatcmpl-8d1cd637-15e2-4886-93f3-669c12855872","object":"chat.completion","created":1792437305,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants reply \"ok\"."},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time"
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-d98576df-6ea0-4a1d-a77e-cb2e3942a1a9","object":"chat.completion","created":1792437599,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.02016005,"prompt_tokens":16,"prompt_ti
+openai/gpt-oss-120b 200 {"id":"chatcmpl-91b79617-7a7f-483e-8acc-7ec0e51088fd","object":"chat.completion","created":1792437599,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
+openai/gpt-oss-20b 200 {"id":"chatcmpl-3f596f3f-63b6-439d-b9a2-5e918ddaf6be","object":"chat.completion","created":1792437599,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants reply \"ok\"."},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time"
 == Defimedia: https://defimedia.info/rss.xml
 Newest: Message à la nation : Navin Ramgoolam annonce des consultations urgentes après les troubles récents | https://defimedia.info/message-la-nation-navin-ramgoolam-annonce-des-consultations-urgentes-apres-les-troubles-recents
 Article text: 2884 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Navin%20ramgoolam%20.jpg
-  dup check: new (Премьер-министр Маврикия Navin Ramgoolam объявил о необходимости срочных консультаций после недавних беспорядков, что ранее не было анонсировано в опу)
+  dup check: new (Премьер-министр Маврикия объявил о проведении срочных консультаций после недавних беспорядков (конкретно — с неправительственными организациями по воп)
   written by GigaChat-3-Pro
   proofread: Navin Ramgoolam → Навин Рамгулам; Elodie Thomas → Элоди Томас
 Duplicate of recent post #: None
-LLM usage so far: 6 requests, 5105 tokens
+LLM usage so far: 6 requests, 5072 tokens
 -- Post that would be sent:
 <b>Обращение к нации: Navin Ramgoolam объявляет о срочных консультациях после недавних беспорядков</b>
 
-Премьер-министр Маврикия Navin Ramgoolam сообщил об отмене комендантского часа по всей стране и запуске срочных консультаций с НКО и экспертами для анализа причин недавних волнений. Он подчеркнул важность поддержки молодёжи и решения проблемы водоснабжения в условиях засухи. Также он поблагодарил полицию, силы SMF и медиков за восстановление порядка и сообщил о стабильном состоянии пострадавшей Elodie Thomas.
+Премьер-министр Маврикия Navin Ramgoolam объявил о снятии комендантского часа по всей стране и запуске срочных консультаций с НКО и экспертами для анализа причин недавних волнений. Он подчеркнул важность поддержки молодёжи и решения проблемы водоснабжения в условиях засухи. Также он сообщил об улучшении состояния пострадавшей Elodie Thomas и поблагодарил медицинский персонал.
 
 🔗 <a href="https://defimedia.info/message-la-nation-navin-ramgoolam-annonce-des-consultations-urgentes-apres-les-troubles-recents">Defimedia</a>
 == L'Express: https://lexpress.mu/
@@ -25,7 +25,7 @@ Newest: Junior l Information et communication : Comment reconnaître les fake ne
 Article text: 5040 chars | photo: https://lexpress.mu/storage/articles/cJ9OTCkOEf79X2EdHe0mLqimXb70rqNvEaRIH8Hu.jpg
   same headline as #132: Information et communication : Comment reconnaître les fake news ?
 Duplicate of recent post #: 132
-LLM usage so far: 6 requests, 5105 tokens
+LLM usage so far: 6 requests, 5072 tokens
 -- Post that would be sent:
 
 == Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
@@ -33,7 +33,7 @@ Newest: SOREZE  : La passagère d’une moto tuée dans un accident | https://
 Article text: 784 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-2026-10-19T123307.123.webp
   same headline as #125: SOREZE  : La passagère d’une moto tuée dans un accident
 Duplicate of recent post #: 125
-LLM usage so far: 6 requests, 5105 tokens
+LLM usage so far: 6 requests, 5072 tokens
 -- Post that would be sent:
 
 == Inside News: https://inside.news/feed/
@@ -41,20 +41,21 @@ Newest: Glucomètres : un marché de Rs 35,7 millions soulève des questions | h
 Article text: 833 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/ee33c71f-427a-482c-b5f3-f7eec6a9f336-Removed.png
   same headline as #32: Diabète  — Glucomètres : un marché de Rs 35,7 millions voit l’offre moins chère 
 Duplicate of recent post #: 32
-LLM usage so far: 6 requests, 5105 tokens
+LLM usage so far: 6 requests, 5072 tokens
 -- Post that would be sent:
 
 == Wazaa: https://www.wazaa.mu/feed/
 Newest: 200 arrestations prévues alors que la police mauricienne enquête sur des groupes WhatsApp liés aux émeutes | https://www.wazaa.mu/200-arrestations-prevues-alors-que-la-police-mauricienne-enquete-sur-des-groupes-whatsapp-lies-aux-emeutes/
 Article text: 1538 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1792431741.jpeg
-  dup check: new (В статье указано, что ожидается более 200 арестов в ближайшие дни и что двое подозреваемых уже обвиняются по закону о борьбе с терроризмом (POTA); оди)
+  dup check: new (В статье указано, что ожидается более 200 арестов в ближайшие дни и что двое подозреваемых уже обвиняются по закону о борьбе с терроризмом (POTA). Так)
   written by GigaChat-3-Pro
+  proofread: 
 Duplicate of recent post #: None
-LLM usage so far: 9 requests, 8922 tokens
+LLM usage so far: 9 requests, 8589 tokens
 -- Post that would be sent:
-<b>Полиция Маврикия планирует более 200 арестов по делу о беспорядках и группах WhatsApp</b>
+<b>Ожидается более 200 арестов по делу о беспорядках и группах WhatsApp на Маврикии</b>
 
-На Маврикии продолжаются расследования массовых беспорядков прошлой недели и предполагаемой онлайн-инсинуации к насилию. Ожидается свыше 200 арестов в ближайшие дни; особое внимание уделяется группам WhatsApp, включая «The Burning Paradise» и «GenZ». Два человека уже обвинены по закону о борьбе с терроризмом, ещё несколько задержаний ожидаются на этой неделе.
+Полиция Маврикия продолжает расследование массовых беспорядков прошлой недели и онлайн-инцидентов. Ожидается свыше 200 арестов в ближайшие дни; особое внимание уделяется группам WhatsApp, включая «The Burning Paradise» и «GenZ». Двое подозреваемых уже обвинены по закону о борьбе с терроризмом: это житель Roches-Noires (30 лет) и студент из Camp-Diable (18 лет). Также задержан Jayesh Julloo из Flacq за призывы к распространению коктейлей Molotov.
 
 🔗 <a href="https://www.wazaa.mu/200-arrestations-prevues-alors-que-la-police-mauricienne-enquete-sur-des-groupes-whatsapp-lies-aux-emeutes/">Wazaa</a>
 == Top FM: https://topfm.mu/
@@ -62,6 +63,6 @@ Newest: Sécheresse : le Premier ministre, Dr Navin Ramgoolam reconnaît les dif
 Article text: 818 chars | photo: https://topfm.mu/sites/default/files/oembed_thumbnails/2026-10/owQ9O2NP0Lb3gOr5GFz8NWQRLctf9hsRyIoVT7GDJqg.jpg
   same headline as #131: Sécheresse : le Premier ministre, Dr Navin Ramgoolam reconnaît les difficultés q
 Duplicate of recent post #: 131
-LLM usage so far: 9 requests, 8922 tokens
+LLM usage so far: 9 requests, 8589 tokens
 -- Post that would be sent:
 
