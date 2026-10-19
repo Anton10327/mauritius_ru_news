@@ -1,17 +1,12 @@
-### check 1/5 at 17:08
-  dup check: new (Déclaration du député Ehsan Juman annonçant qu’il a eu (ou va avoir) une réunion avec le Premier ministre Navin Ramgoolam le 19 octobre, précisant que)
+### check 1/5 at 17:55
+  dup check: new (Présentation du 4ᵉ édition du Showcase Indian Ocean (anciennement API Mauritius Forum), tenu à l'InterContinental Mauritius Resort, réunissant plus de)
+Posted (Le Mauricien): НЕДВИЖИМОСТЬ — Showcase Indian Ocean: площадка для экспериментов в сфере роскошного гостеприимства
+  dup check: new (Middlesex University Mauritius organized a symposium on mental health and diversity, in collaboration with the Rotary Club of Helvetia Happiness, gath)
+  not news (portrait/lifestyle): SANTÉ MENTALE ET DIVERSITÉ :  Middlesex réunit des experts pour repenser le bien-être
+Skipped foreign news (Le Mauricien): SANTÉ MENTALE ET DIVERSITÉ :  Middlesex réunit des experts pour repenser le bien-être
+  dup check: new (Eshan Juman a effectivement rencontré le Premier ministre et a déclaré l'échange "positif" dans une déclaration à RadioPlus cet après‑midi.)
   proofread: 
-Posted (Defimedia): «В PTr у нас есть эта свобода. Я сказал то, что думаю», — заявил Ehsan Juman незадолго до встречи с премьер-министром
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Île Maurice en déficit de 5 000 professionnels de la tech alors que le chômage des diplômé == Структурные реформы: Маврикий должен восполнять дефицит в 5000 IT-специалистов в год
-  dup check: new (Annulation du spectacle national prévu le 24 octobre 2026 au Port‑Louis Waterfront, annoncée par le ministère des Arts et de la Culture en raison des )
-  proofread: отменен → отменён
-Posted (Defimedia): Divali 2026: национальный концерт, запланированный на 24 октября на набережной Port-Louis, отменён
-  dup check: new (Shiv Khera a été invité par le Mauritius Institute of Directors (MIoD) et Excelerate Consulting et a prononcé une conférence le vendredi 16 octobre lo)
-  not news (portrait/lifestyle): Leadership l Shiv Khera : «Le caractère est bien plus important que les compétences»
-Skipped foreign news (L'Express): Leadership l Shiv Khera : «Le caractère est bien plus important que les compétences»
-LLM usage this run: 9 requests, 14813 tokens
-### check 2/5 at 17:12
-### check 3/5 at 17:16
-### check 4/5 at 17:20
-### check 5/5 at 17:24
+Posted (Defimedia): Eshan Juman встретился с Navin Ramgoolam после своих высказываний на RadioPlus: он назвал беседу «позитивной»
+  dup check: new (Robin Hurreeram, brother of former minister Bobby Hurreeram, was heard by the Central CID about WhatsApp messages related to recent incidents; he deni)
+Posted (Defimedia): Сообщения, распространявшиеся в WhatsApp: Robin Hurreeram допрошен Central CID
+LLM usage this run: 11 requests, 17621 tokens
