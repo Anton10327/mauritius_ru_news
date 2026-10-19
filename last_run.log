@@ -1,12 +1,11 @@
-### check 1/5 at 13:10
-  dup check: new (59‑year‑old man severely burned after his mattress caught fire in Roches‑Noires on the night of 18‑19 octobre, hospitalized in serious condition.)
-Posted (Defimedia): Roches-Noires: 59-летний мужчина получил тяжёлые ожоги после возгорания матраса
+### check 1/5 at 13:56
+  dup check: new (Signing of a protocol of agreement on energy cooperation between Mauritius and Saudi Arabia on 12 October in Riyadh, with discussion of a planned LNG‑)
+  proofread: 
+Posted (Inside News): Маврикий — Саудовская Аравия: рассматривается электростанция на СПГ мощностью до 500 МВт
+  dup check: new (Annonce d'une indemnité spéciale pour les policiers mobilisés pendant les troubles, décision prise par le Premier ministre Navin Ramgoolam le 19 octob)
+Posted (Defimedia): Общественные беспорядки: специальная компенсация для мобилизованных полицейских, объявил Ramgoolam
   dup: nothing new ()
-Skipped duplicate (L'Express): Policiers : Rs 35 par jour pour faire face au risque ? == Полиция: надбавка за риск в размере 35 рупий в день — «смехотворная», считает Khushal Lobi
+Skipped duplicate (Defimedia): À bord d’un vol d’Air Mauritius : un enfant brûlé par de l’eau chaude == АЭРОПОРТ SSR | Сегодня утром — дежурство медиков при посадке рейса MK 015
   dup: nothing new ()
-Skipped duplicate (Top FM): Élodie Thomas : les médecins indiens saluent un rétablissement miraculeux == Elodie Thomas ранена пулей — доктор Kapil Khandelwal, индийский нейрохирург: «Я был уверен
-LLM usage this run: 5 requests, 8993 tokens
-### check 2/5 at 13:14
-### check 3/5 at 13:18
-### check 4/5 at 13:22
-### check 5/5 at 13:26
+Skipped duplicate (Wazaa): Sergent Gautam Singh Taukoor, 57 ans, devant le tribunal après la fusillade de Camp-Levieu == Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor снова в суде
+LLM usage this run: 8 requests, 13441 tokens
