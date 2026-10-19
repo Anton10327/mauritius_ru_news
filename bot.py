@@ -672,7 +672,13 @@ ouest centre hopital ecole college universite banque bureau conseil comite commi
 association federation union syndicat parti eglise mosquee temple video photos live
 affaire selon apres avant depuis pendant pension tour commentaire commentaires interview
 operation university national nationale diabete diabetes glucometre glucometres blog papa
-maman video videos photo exclusif urgent dossier rapport budget diable groupe hindi renvoi france inde""".split()
+maman video videos photo exclusif urgent dossier rapport budget diable groupe hindi renvoi france inde
+francais francaise francaises anglais anglaise indien indienne indiens chinois chinoise
+malgache malgaches reunionnais reunionnaise seychellois seychelloise britannique
+americain americaine africain africaine sud-africain europeen europeenne allemand allemande
+italien italienne russe russes pakistanais bangladais nepalais sri-lankais australien
+australienne mauriciens mauriciennes rodriguais comorien comorienne kenyan japonais
+espagnol espagnole portugais belge suisse canadien canadienne emirati saoudien""".split()
 
 
 def _sound(word):
@@ -729,12 +735,12 @@ def latinize_names(text, original):
     names, mid = {}, {}  # mid: the word was capitalised mid-sentence, so surely a name
     for m in re.finditer(r"\b[A-ZÀ-Ý][a-zà-ÿ]{2,}(?:-[A-ZÀ-Ý][a-zà-ÿ]+)*\b", original):
         w = m.group(0)
-        if _sound(w) in _NOT_NAMES:
+        if _not_name(w):
             continue
         for k in _latin_keys(w):
             names.setdefault(k, w)
             nxt = re.match(r"\s+([A-ZÀ-Ý][a-zà-ÿ]+)", original[m.end():])
-            in_name = (bool(nxt) and _sound(nxt.group(1)) not in _NOT_NAMES  # "Gautam Singh"
+            in_name = (bool(nxt) and not _not_name(nxt.group(1))  # "Gautam Singh"
                        or re.match(r"\s*:", original[m.end():]) is not None)  # "Vacoas : ..."
             mid[k] = mid.get(k, False) or in_name or not at_start(original, m.start())
 
@@ -774,6 +780,17 @@ def latinize_names(text, original):
 
 
 _NOT_NAMES.update(_sound(w) for w in _NOT_NAMES_FR)
+
+
+def _not_name(word):
+    """A capitalised French word that is not a name (Français, Ministre...)."""
+    import unicodedata
+    plain = "".join(c for c in unicodedata.normalize("NFKD", word.lower())
+                    if not unicodedata.combining(c))
+    return plain in _NOT_NAMES_PLAIN or _sound(word) in _NOT_NAMES
+
+
+_NOT_NAMES_PLAIN = set(_NOT_NAMES_FR)
 
 
 def fix_caps_title(title, original_title):
