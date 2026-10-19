@@ -1,19 +1,4 @@
-### check 1/5 at 07:09
-  proofread: 
-Posted (L'Express): 10 км по шоссе: Мари Перье устанавливает новый рекорд Маврикия
-LLM usage this run: 2 requests, 2749 tokens
-### check 2/5 at 07:13
-  dup check: new (Overall victory of Yannick Lincoln et Simon Stiebjahn in the 11ᵉ édition du CIEL Fundsmith Colin Mayer Tour, winning all three stages and the general )
-Bad LLM answer from GigaChat-3-Ultra: Expecting value: line 1 column 152 (char 151); raw: {"choices":[{"message":{"content":"{\"mauritius\": true, \"news\": true, \"title\": \"Велосипедный спорт: Линкольн–Штибьян безоговорочно побеждают, Де Витт–Доменг меняют ход борьбы\", \"summary\":На Маврикии завершилась 11-я гонка CIEL Fundsmith Colin Mayer Tour VTT в Ферни. Маврикиец Yannick Lincol
-  written by GigaChat-3-Pro
-Posted (L'Express): Велогонка CIEL Fundsmith Colin Mayer Tour 2026: Lincoln–Stiebjahn и De Witt–Domaingue одержали победы
-LLM usage this run: 4 requests, 6948 tokens
-### check 3/5 at 07:17
-  dup check: new (Prévisions météorologiques détaillées pour le lundi 19 octobre à Maurice : averses matinales dans l'Est et le plateau central, vents jusqu'à 50 km/h, )
-  not news (portrait/lifestyle): Météo : quelques averses au réveil, puis du beau temps ce lundi
-Skipped foreign news (Inside News): Météo : quelques averses au réveil, puis du beau temps ce lundi
-LLM usage this run: 2 requests, 3435 tokens
-### check 4/5 at 07:21
-### check 5/5 at 07:25
-  same headline as #82: Circuit de la Zone 7 | Beach-volley : Maurice à la conquête du doublé à Moroni
-Skipped duplicate (L'Express): Circuit de la Zone 7 | Beach-Volley : Maurice Signe un doublé en or aux Comores == Зона 7, 2-й этап | Пляжный волейбол: Маврикий стремится к дублю в Морони
+### check 1/5 at 07:45
+  dup: nothing new ()
+Skipped duplicate (Top FM): Après une semaine de tensions : Quelle suite pour le couvre-feu ? Un nouveau point attendu == Комендантский час: последняя ночь ожидается в это воскресенье, что произойдет в 4:30 в пон
+LLM usage this run: 1 requests, 1815 tokens
