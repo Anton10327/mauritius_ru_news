@@ -678,7 +678,9 @@ malgache malgaches reunionnais reunionnaise seychellois seychelloise britannique
 americain americaine africain africaine sud-africain europeen europeenne allemand allemande
 italien italienne russe russes pakistanais bangladais nepalais sri-lankais australien
 australienne mauriciens mauriciennes rodriguais comorien comorienne kenyan japonais
-espagnol espagnole portugais belge suisse canadien canadienne emirati saoudien""".split()
+espagnol espagnole portugais belge suisse canadien canadienne emirati saoudien
+policier policiers policiere indian program programme aeroport incidents incident comment
+rating express impots administration expert""".split()
 
 
 def _sound(word):
@@ -710,6 +712,8 @@ def _latin_keys(word):
     """Ways a French name may sound in Russian spelling:
     Perrier ~ Перье, Marie ~ Мари, Valence ~ Валанс."""
     keys = {_sound(word), _sound_latin(word)}
+    if re.search(r"(ey|y)$", word.lower()):  # English names: Sydney ~ Сидни
+        keys.add(_sound(re.sub(r"(ey|y)$", "i", word.lower())))
     for k in list(keys):
         k2 = re.sub(r"ier$", "ie", re.sub(r"(?<=.{3})(er|ez)$", "e", k))
         keys |= {k2, re.sub(r"en(?=[^aeiou]|$)", "an", k2)}
@@ -769,7 +773,10 @@ def latinize_names(text, original):
                 if r > score:
                     found, score = latin, r
         # Longer words tolerate more spelling difference
-        return found if score >= (0.82 if len(_sound(word)) >= 6 else 0.88) else None
+        need = 0.82 if len(_sound(word)) >= 6 else 0.88
+        if initial:  # a sentence-initial word is usually an ordinary word
+            need = max(need, 0.9)
+        return found if score >= need else None
 
     def sub(m):
         word = m.group(0)
