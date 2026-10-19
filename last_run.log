@@ -1,21 +1,5 @@
-### check 1/5 at 15:09
-  dup check: new (Maurice must fill a deficit of 5 000 IT specialists per year, as highlighted by the World Bank calling for reforms of skills, labour market and busine)
-Posted (L'Express): Структурные реформы: Маврикий должен восполнять дефицит в 5000 IT-специалистов в год
-LLM usage this run: 3 requests, 4771 tokens
-### check 2/5 at 15:13
-### check 3/5 at 15:17
-### check 4/5 at 15:21
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Humeur : Est-ce qu’on a définitivement éteint l’incendie ? == PoTA против погромщиков: разноречивые отклики в юридической среде
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Faits et effets : Pas de quoi s’extasier… == Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor снова в суде
-  dup check: new (Incendie de plusieurs hectares de canne à sucre dans la région de Casela cette semaine.)
-  proofread: Элиодии Тома → Элоди Томас
-Posted (Le Mauricien): Окна: Что мы сделали с нашими детьми?
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Pris sur le vif : Conséquences == ИНТЕРВЬЮ | Отец Ален Ромен (священник и автор книги «Без имени, без обуви»): «Не будет про
-LLM usage this run: 6 requests, 11526 tokens
-### check 5/5 at 15:25
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Carnet de camille : Quand le passé nous appelle == Разграбление магазина Save Mart в Cité-La-Ferme: украдено товаров на 3 млн рупий, задержан
-LLM usage this run: 1 requests, 1874 tokens
+### check 1/5 at 15:44
+  dup check: new (8‑year‑old child burned by hot drink on Air Mauritius flight MK015 from Paris to Mauritius on 19 Oct; incident and medical assistance at airport.)
+  proofread: ребенок → ребёнок
+Posted (L'Express): На рейсе Air Mauritius: 8-летний ребёнок случайно получил ожог горячим напитком от родителя
+LLM usage this run: 3 requests, 4564 tokens
