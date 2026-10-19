@@ -1,26 +1,5 @@
-### check 1/5 at 17:55
-  dup check: new (Présentation du 4ᵉ édition du Showcase Indian Ocean (anciennement API Mauritius Forum), tenu à l'InterContinental Mauritius Resort, réunissant plus de)
-Posted (Le Mauricien): НЕДВИЖИМОСТЬ — Showcase Indian Ocean: площадка для экспериментов в сфере роскошного гостеприимства
-  dup check: new (Middlesex University Mauritius organized a symposium on mental health and diversity, in collaboration with the Rotary Club of Helvetia Happiness, gath)
-  not news (portrait/lifestyle): SANTÉ MENTALE ET DIVERSITÉ :  Middlesex réunit des experts pour repenser le bien-être
-Skipped foreign news (Le Mauricien): SANTÉ MENTALE ET DIVERSITÉ :  Middlesex réunit des experts pour repenser le bien-être
-  dup check: new (Eshan Juman a effectivement rencontré le Premier ministre et a déclaré l'échange "positif" dans une déclaration à RadioPlus cet après‑midi.)
+### check 1/5 at 18:32
+  dup check: new (Детали встречи: Eshan Juman уточнил, что разговор не касался возможного министерского поста, а был использован для передачи премьер‑министру требовани)
   proofread: 
-Posted (Defimedia): Eshan Juman встретился с Navin Ramgoolam после своих высказываний на RadioPlus: он назвал беседу «позитивной»
-  dup check: new (Robin Hurreeram, brother of former minister Bobby Hurreeram, was heard by the Central CID about WhatsApp messages related to recent incidents; he deni)
-Posted (Defimedia): Сообщения, распространявшиеся в WhatsApp: Robin Hurreeram допрошен Central CID
-LLM usage this run: 11 requests, 17621 tokens
-### check 2/5 at 17:59
-  dup check: new (Paul Bérenger announces that Sydney Pierre will likely sit on the opposition front bench tomorrow, mentioning ongoing discussions with the Speaker abo)
-  proofread: Fron Militan Progresis → Front Militan Progressif
-Posted (Defimedia): Сидни Pierre на передовой скамье оппозиции: Paul Bérenger говорит «вероятно, да»
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Fille de 3 ans grièvement blessée lors d’une attaque de Rottweiler au Quartier-Militaire == Quartier-Militaire: трёхлетняя девочка серьёзно пострадала после укуса двумя ротвейлерами
-LLM usage this run: 4 requests, 5997 tokens
-### check 3/5 at 18:03
-  dup check: new (В статье поднимается новая тема — массовое раскрытие медицинской информации о госпитализированной пациентке, обсуждается нарушение конфиденциальности )
-  not news (portrait/lifestyle): Tensions à travers l’île : Les héros oubliés, les patients invisibles
-Skipped foreign news (L'Express): Tensions à travers l’île : Les héros oubliés, les patients invisibles
-LLM usage this run: 2 requests, 4267 tokens
-### check 4/5 at 18:07
-### check 5/5 at 18:11
+Posted (Defimedia): Eshan Juman встретился с премьер-министром: «Я сказал им, что нужно действовать… иначе будет слишком поздно»
+LLM usage this run: 3 requests, 4776 tokens
