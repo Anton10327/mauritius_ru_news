@@ -10,3 +10,12 @@ Posted (Inside News): Базовая пенсия: новые правила п�
   not about Mauritius: La Réunion : 18 interpellations et 11 membres des forces de l’ordre blessés
 Skipped foreign news (Inside News): La Réunion : 18 interpellations et 11 membres des forces de l’ordre blessés
 LLM usage this run: 9 requests, 14915 tokens
+### check 2/5 at 11:53
+  dup check: new (L’enquête de l’IPCC élargit son champ d’investigation aux secours apportés à Élodie Thomas après la fusillade : examen des interventions des unités pr)
+  proofread: Элои Том → Элои Томас
+Posted (Inside News): Дело Элои Thomas: расследование также изучает оказание помощи после стрельбы
+  dup: nothing new ()
+Skipped duplicate (Top FM): L’Assemblée nationale : Neuf projets de loi sur la criminalité et renforcement des pouvoir == Парламент: правительство хочет принять новые полномочия по комендантскому часу уже со втор
+  dup: nothing new ()
+Skipped duplicate (Top FM): Réservoirs d’eau et pompe : près de 24 000 demandes enregistrées, dont plus de 10 000 en l == Помощь CWA: 7 245 проверок завершено из 23 911 заявок
+LLM usage this run: 5 requests, 8057 tokens
