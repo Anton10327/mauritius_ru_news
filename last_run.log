@@ -27,3 +27,9 @@ LLM usage this run: 9 requests, 14627 tokens
   proofread: «виновное бездействие» → «виновное бездействие»; Роуз-Хилл → Роуз-Хилл; подписка о невыезде → подписку о невыезде
 Posted (Defimedia): Élodie Thomas ранена пулей: трое полицейских, арестованных за «виновное бездействие», освобождены под подписку
 LLM usage this run: 3 requests, 4824 tokens
+### check 5/5 at 14:12
+  dup check: new (В статье сообщается о росте торгового дефицита Маврикия в августе 2026 г. до 20,7 млрд рупий, что на 16,7 % больше, чем в августе 2025 г., а также при)
+Posted (Top FM): Внешняя торговля: торговый дефицит Маврикия вырос до 20,7 млрд рупий в августе 2026 года
+  dup: nothing new ()
+Skipped duplicate (Top FM): Don de sang à Flacq : une mobilisation pour reconstituer les réserves nationales de sang == ФЛАК | В ЭТУ СУББОТУ — Донорство крови: Анил Башу призывает восстановить национальные запа
+LLM usage this run: 4 requests, 6861 tokens
