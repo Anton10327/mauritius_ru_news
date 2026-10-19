@@ -1,23 +1,12 @@
-### check 1/5 at 10:59
-  dup check: new (71‑летняя пенсионерка подала в суд на своего сына за угрозы поджога их дома после отказа дать деньги; инцидент произошёл 18 октября в Baie‑du‑Tombeau,)
-Posted (Defimedia): На фоне предполагаемой наркозависимости: мать обвиняет сына в угрозах сжечь её и поджечь их дом
+### check 1/5 at 11:49
   dup: nothing new ()
-Skipped duplicate (L'Express): Tir à Camp-Levieux : le sergent Gautam Singh Taukoor devant le tribunal de Rose-Hill ce lu == Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor снова в суде
-  dup check: new (Mauritius Revenue Authority extended the tax filing and payment deadline for individual taxpayers to 30 October 2026 – without penalties or interest –)
-Posted (Inside News): Налоги: последний срок — 30 октября без штрафов и процентов
-LLM usage this run: 7 requests, 11070 tokens
-### check 2/5 at 11:03
-  dup check: new (Plus de 2 400 arrestations lors des manifestations du 17 octobre en France, incendie grave à l'hôtel de ville de Limoges, condamnation des pillages et)
-  not about Mauritius: Video : France – plus de 2 400 arrestations, Macron condamne les violences
-Skipped foreign news (Inside News): Video : France – plus de 2 400 arrestations, Macron condamne les violences
-LLM usage this run: 2 requests, 3512 tokens
-### check 3/5 at 11:07
-  dup check: new (В статье сообщается о введении комендантского часа в ночь с четверга 15 октября на 20:30‑5:00, охватившего 17 регионов, включая Порт-Луи и Beau‑Bassin)
+Skipped duplicate (Defimedia): Non-respect du couvre-feu : deux personnes arrêtées dans la nuit de dimanche à lundi == Комендантский час: два ареста за ночь, инцидентов не зафиксировано
+  dup check: new (Сержант Gautam Singh Taukoor продлен в полицейском заключении до 26 октября — новое решение суда, не упомянуто в ранее опубликованных материалах.)
+Posted (Defimedia): Выстрел в Camp-Levieux: сержанта Taukoor оставили под стражей до 26 октября
+  dup check: new (Introduction of new residence requirements for Basic Retirement Pension applicants born on or before 31 December 1966, with specific years of residenc)
   proofread: 
-Posted (L'Express): Напряжённость по всему острову | Комендантский час: ночь под ритм полицейских блокпостов
-LLM usage this run: 3 requests, 5388 tokens
-### check 4/5 at 11:11
-### check 5/5 at 11:15
-  dup: nothing new ()
-Skipped duplicate (Top FM): Crise de l’eau : Mare-aux-Vacoas à 34,4%, une situation de plus en plus préoccupante == Mare-aux-Vacoas: тревога сохраняется при уровне заполнения 34,4%
-LLM usage this run: 1 requests, 2080 tokens
+Posted (Inside News): Базовая пенсия: новые правила проживания для некоторых заявителей
+  dup check: new (Новые данные о ночных беспорядках на острове Реюньон 17‑18 октября: 18 арестов и 11 полицейских/жандармов получили ранения; инциденты произошли в Ле П)
+  not about Mauritius: La Réunion : 18 interpellations et 11 membres des forces de l’ordre blessés
+Skipped foreign news (Inside News): La Réunion : 18 interpellations et 11 membres des forces de l’ordre blessés
+LLM usage this run: 9 requests, 14915 tokens
