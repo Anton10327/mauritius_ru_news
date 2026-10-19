@@ -656,13 +656,15 @@ ouest centre hopital ecole college universite banque bureau conseil comite commi
 association federation union syndicat parti eglise mosquee temple video photos live
 affaire selon apres avant depuis pendant pension tour commentaire commentaires interview
 operation university national nationale diabete diabetes glucometre glucometres blog papa
-maman video videos photo exclusif urgent dossier rapport budget diable""".split()
+maman video videos photo exclusif urgent dossier rapport budget diable groupe hindi renvoi france inde""".split()
 
 
 def _sound(word):
     """Rough pronunciation key, comparable between French and Russian spellings."""
     import unicodedata
-    w = unicodedata.normalize("NFKD", word.lower())
+    w = word.lower().replace("ç", "s").replace("ье", "ie")
+    w = re.sub(r"c(?=[eiyéèê])", "s", w)  # French soft c: Valence, Cité
+    w = unicodedata.normalize("NFKD", w)
     w = "".join(c for c in w if not unicodedata.combining(c))
     w = "".join(_CYR2LAT.get(c, c) for c in w)
     for a, b in (("ou", "u"), ("ph", "f"), ("qu", "k"), ("ck", "k"), ("c", "k"),
@@ -682,7 +684,21 @@ def _sound_latin(word):
     return re.sub(r"(?<=[aeiou])[tdsx]$", "", w) or w
 
 
+def _latin_keys(word):
+    """Ways a French name may sound in Russian spelling:
+    Perrier ~ Перье, Marie ~ Мари, Valence ~ Валанс."""
+    keys = {_sound(word), _sound_latin(word)}
+    for k in list(keys):
+        k2 = re.sub(r"ier$", "ie", re.sub(r"(?<=.{3})(er|ez)$", "e", k))
+        keys |= {k2, re.sub(r"en(?=[^aeiou]|$)", "an", k2)}
+    for k in list(keys):
+        if len(k) > 4 and k.endswith("e"):
+            keys.add(k[:-1])
+    return keys
+
+
 _NOT_NAMES = set()
+_VOWELS = set("aeiou")
 
 
 def latinize_names(text, original):
@@ -699,7 +715,7 @@ def latinize_names(text, original):
         w = m.group(0)
         if _sound(w) in _NOT_NAMES:
             continue
-        for k in (_sound(w), _sound_latin(w)):
+        for k in _latin_keys(w):
             names.setdefault(k, w)
             nxt = re.match(r"\s+([A-ZÀ-Ý][a-zà-ÿ]+)", original[m.end():])
             in_name = (bool(nxt) and _sound(nxt.group(1)) not in _NOT_NAMES  # "Gautam Singh"
@@ -718,7 +734,10 @@ def latinize_names(text, original):
             if len(key) < 3:
                 continue
             for k, latin in pool.items():
-                if k[0] != key[0] or abs(len(k) - len(key)) > 2:
+                # same first sound, and the second matches too unless both are
+                # vowels (Джагнот ~ Jugnauth), so "Франция" never meets "Fenty"
+                if k[0] != key[0] or abs(len(k) - len(key)) > 2 or (
+                        k[1:2] != key[1:2] and not (k[1:2] in _VOWELS and key[1:2] in _VOWELS)):
                     continue
                 # Short words need an exact match: "После" ~ "Paul" scores 0.86
                 if min(len(key), len(k)) <= 4 and key != k:
