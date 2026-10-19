@@ -1,27 +1,17 @@
-### check 1/5 at 08:19
-  dup check: new (Указано, что в пятницу было арестовано 16 подростков (13‑17 лет), а также приведены конкретные цифры ущерба: повреждены 8 полицейских постов, 162 каме)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Подстрекательские беспорядки: несовершеннолетние без требований, отправленные на передовую
-  dup check: new (Award ceremony for top SC and HSC students by Hindi Speaking Union, presence of President Dharam Gokhool and Education Minister Mahend Gungapersad, re)
-Posted (Le Mauricien): Hindi Speaking Union: награждены десять лучших учеников SC и HSC
+### check 1/5 at 08:58
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Émeutes d’octobre 2026  : Les réseaux sociaux, entre liberté d’expression et dangereuse ca == Трения на Маврикии: Avinash Ramtohul: «Социальные сети не должны становиться инструментом 
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): LA DÉBACLE: UN SYMPTÔME == В Сен-Пьере, вчера — епископ Jean-Michaël Durhône: «Насилие — не выход из страдания»
-LLM usage this run: 8 requests, 13526 tokens
-### check 2/5 at 08:23
-  dup check: new (Maurice a accueilli plus d'un million de touristes (1 042 241) entre janvier et septembre 2026, soit une hausse de 3,4 % par rapport à la même période)
-Posted (Le Mauricien): ТУРИСТИЧЕСКАЯ ИНДУСТРИЯ 2026: Маврикий преодолел отметку в миллион туристов
-  dup: nothing new ()
-Skipped duplicate (Top FM): Pénurie d’eau à Curepipe : des habitants privés d’eau malgré le nouveau calendrier de dist == Водный кризис: краны пересохли, гнев нарастает
-  dup check: new (Le ministre de l’Énergie et des Services publics, Patrick Assirvaden, sera interrogé sur l’éligibilité des habitants de Rodrigues au programme de subv)
-  proofread: Patrick Assirvaden → Patrick Assirваден
-Posted (Top FM): Национальное собрание возобновляет работу во вторник: водоснабжение, Elodie Thomas и другие вопросы в повестке дня
-LLM usage this run: 7 requests, 11477 tokens
-### check 3/5 at 08:27
-  dup check: new (Новый публичный призыв лидера Rassemblement Mauricien Нандо Бодха в Facebook к восстановлению доверия, оживлению экономики и извлечению уроков из неда)
-  proofread: 
-Posted (Defimedia): Nando Bodha настаивает на срочности восстановления доверия, перезапуска экономики и извлечения уроков из прошлого
-LLM usage this run: 3 requests, 4271 tokens
-### check 4/5 at 08:31
-### check 5/5 at 08:35
+Skipped duplicate (L'Express): Lettre ouverte au Premier ministre : Mais encore? == Энергетика: Маврикий и Саудовская Аравия исследуют новые проекты, включая ГЭС на СПГ мощно
+  dup check: new (Article introduces the issue of insurance coverage for merchants affected by the recent riots, highlighting gaps between expected and actual contract )
+Proofreading GigaChat-3-Pro failed 429: {"status":429,"message":"Too Many Requests"}
+
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Бунты, комендантский час и страхование: кто понесет убытки?
+Duplicate check failed 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on t
+  proofread by qwen/qwen3.8-27b
+  proofread: Квартье-Милитер → Quartier-Militaire
+Posted (Defimedia): Quartier-Militaire: трёхлетняя девочка серьёзно пострадала после укуса двумя ротвейлерами
+  dup check: new (Le gouvernement prévoit d’accélérer l’examen du Police (Amendment) Bill afin d’élargir les pouvoirs du commissaire de police pour imposer un couvre‑fe)
+  proofread by qwen/qwen3.8-27b
+  proofread: вопросы финансовой преступности, возврата активов и создание → вопросы финансовой преступности, возврата активов и создания
+Posted (Inside News): Парламент: правительство хочет принять новые полномочия по комендантскому часу уже со вторника
+LLM usage this run: 9 requests, 13643 tokens
