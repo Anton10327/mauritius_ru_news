@@ -76,7 +76,7 @@ LLM_MODELS = [m.strip() for m in (os.environ.get("LLM_MODELS", "").strip() or
 GIGA_KEY = os.environ.get("GIGACHAT_AUTH_KEY", "").strip()
 GIGA_URL = "https://api.giga.chat/v1/chat/completions"
 GIGA_OAUTH = "https://ngw.devices.sberbank.ru:9443/api/v2/oauth"
-GIGA_DAILY_CAP = {"GigaChat-3-Ultra": 130_000, "GigaChat-3-Pro": 100_000}
+GIGA_DAILY_CAP = {"GigaChat-3-Ultra": 130_000, "GigaChat-3-Pro": 250_000}  # Pro also proofreads and checks repeats
 SUMMARY_MODELS = ([m for m in GIGA_DAILY_CAP] if GIGA_KEY else []) + \
                  (LLM_MODELS if LLM_KEY else [])
 # Proofreading pass. Only Qwen: in tests gpt-oss over-edited and changed meaning
@@ -100,7 +100,7 @@ PROOF_PROMPT = (
 
 # Duplicate checks are a reasoning task: a different model order works better
 # Qwen is kept for writing; repeats are judged by gpt-oss only
-DUP_MODELS = ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
+DUP_MODELS = (["GigaChat-3-Pro"] if GIGA_KEY else []) + ["openai/gpt-oss-120b", "openai/gpt-oss-20b"]
 ARTICLE_CHARS = 2500     # article text sent to the model (keeps within free limits)
 MIN_TEXT_FOR_SUMMARY = 80   # less text than this -> no summary, title only
 
@@ -185,6 +185,8 @@ DUP_PROMPT = (
     "содержание под стражей продлено, дело отложено до новой даты. Не дубль — "
     "если появились новые обвиняемые или задержанные, освобождение под залог, "
     "новое или снятое обвинение, приговор, признание вины. "
+    "Итог соревнования (победа, медаль, счёт финала) — не дубль, если раньше "
+    "писали только о выходе в финал или о ходе турнира. "
     "Ответь строго JSON в таком порядке полей: "
     '{"new_facts": "какие новые важные факты есть, или пусто", '
     '"is_duplicate": true или false, "duplicate_of": номер самого похожего или null}.'
@@ -570,27 +572,36 @@ def find_duplicate(orig_title, lead, recent):
                          for i in shown)
     msg = (f"Новая статья:\n{orig_title}\n{lead[:700]}\n\n"
            f"Уже опубликовано:\n{listing}")
-    free = [m for m in DUP_MODELS if m not in _llm_state["exhausted"]]
-    if not free:
-        return None
-    model = free[0]
+    free = [m for m in DUP_MODELS if m not in _llm_state["exhausted"]
+            and not (m.startswith("GigaChat") and (_giga["dead"] or _giga_over_cap(m)))]
     messages = [{"role": "system", "content": DUP_PROMPT},
                 {"role": "user", "content": msg}]
-    try:
-        r = _llm_call(model, messages, 600)
-        if r.status_code == 429:
+    r = None
+    for model in free:
+        try:
+            r = _llm_call(model, messages, 600)
+        except Exception as ex:
+            print(f"Duplicate check {model} failed: {ex}")
+            r = None
+            continue
+        if r.status_code == 429 and not model.startswith("GigaChat"):
             wait = float(r.headers.get("retry-after", "0") or 0)
             if "per minute" in r.text and not wait:
                 wait = 30
             if not 0 < wait <= 60:
-                print(f"Duplicate check skipped, limit reached for {model}")
+                print(f"Duplicate check: limit reached for {model}")
                 _llm_state["exhausted"].add(model)
-                return None
+                continue
             time.sleep(wait + 1)
             r = _llm_call(model, messages, 600)
-        if not r.ok:
-            print(f"Duplicate check failed {r.status_code}: {r.text[:150]}")
-            return None
+        if r.ok:
+            break
+        print(f"Duplicate check {model} failed {r.status_code}: {r.text[:150]}")
+        if model.startswith("GigaChat") and r.status_code in (402, 429):
+            _llm_state["exhausted"].add(model)
+    if r is None or not r.ok:
+        return None
+    try:
         data = _parse_json(r.json()["choices"][0]["message"]["content"]) or {}
         if data.get("is_duplicate") is not True:
             print(f"  dup check: new ({str(data.get('new_facts', ''))[:150]})")
