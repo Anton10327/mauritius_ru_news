@@ -17,3 +17,8 @@ Posted (Defimedia): Сидни Pierre на передовой скамье оп�
   dup: nothing new ()
 Skipped duplicate (Wazaa): Fille de 3 ans grièvement blessée lors d’une attaque de Rottweiler au Quartier-Militaire == Quartier-Militaire: трёхлетняя девочка серьёзно пострадала после укуса двумя ротвейлерами
 LLM usage this run: 4 requests, 5997 tokens
+### check 3/5 at 18:03
+  dup check: new (В статье поднимается новая тема — массовое раскрытие медицинской информации о госпитализированной пациентке, обсуждается нарушение конфиденциальности )
+  not news (portrait/lifestyle): Tensions à travers l’île : Les héros oubliés, les patients invisibles
+Skipped foreign news (L'Express): Tensions à travers l’île : Les héros oubliés, les patients invisibles
+LLM usage this run: 2 requests, 4267 tokens
