@@ -741,7 +741,8 @@ def latinize_names(text, original):
             names.setdefault(k, w)
             nxt = re.match(r"\s+([A-ZÀ-Ý][a-zà-ÿ]+)", original[m.end():])
             in_name = (bool(nxt) and not _not_name(nxt.group(1))  # "Gautam Singh"
-                       or re.match(r"\s*:", original[m.end():]) is not None)  # "Vacoas : ..."
+                       or (re.match(r"\s*:", original[m.end():]) is not None  # "Vacoas : ..."
+                           and _plain(w) in _MU_PLACES))  # but not "Tourisme : ..."
             mid[k] = mid.get(k, False) or in_name or not at_start(original, m.start())
 
     def best(word, initial):
@@ -780,6 +781,27 @@ def latinize_names(text, original):
 
 
 _NOT_NAMES.update(_sound(w) for w in _NOT_NAMES_FR)
+
+
+# Mauritian towns and villages: a headline starting "Vacoas :" names a place,
+# while "Tourisme :", "Éducation :" are just rubrics
+_MU_PLACES = set("""port-louis curepipe vacoas phoenix vacoas-phoenix quatre-bornes rose-hill
+beau-bassin beau-bassin-rose-hill moka mahebourg flacq centre-de-flacq goodlands triolet
+grand-baie pamplemousses riviere-du-rempart riviere-noire tamarin flic-en-flac bambous
+souillac rose-belle plaisance chemin-grenier surinam bel-air bel-ombre le-morne
+trou-aux-cerises trou-aux-biches pereybere cap-malheureux albion coromandel petite-riviere
+camp-levieux cite-la-cure roche-bois sainte-croix plaine-verte vallee-pitot tranquebar
+grande-riviere grand-river grand-gaube poste-de-flacq belle-mare trou-d'eau-douce
+saint-pierre quartier-militaire montagne-blanche nouvelle-france new-grove l'escalier
+rodrigues agalega chagos ebene reduit floreal candos midlands mare-aux-vacoas lalmatie
+solitude la-louise cassis stanley camp-de-masque camp-diable chamarel case-noyale
+beau-champ olivia laventure mapou piton terre-rouge baie-du-tombeau arsenal""".split())
+
+
+def _plain(word):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFKD", word.lower())
+                   if not unicodedata.combining(c))
 
 
 def _not_name(word):
