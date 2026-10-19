@@ -8,3 +8,10 @@ for i, e in enumerate(rec):
     if "оставили под стражей до 26" in e["title"]: run(i, "Taukoor remand (expect duplicate)")
     if "Élodie Thomas ранена пулей: трое" in e["title"]: run(i, "3 police officers bailed (expect new)")
     if "сержант Gautam Singh Taukoor снова в суде" in e["title"]: run(i, "first court post (expect new)")
+for m in ["GigaChat-3-Pro", "GigaChat-3-Ultra"]:
+    bot.DUP_MODELS[:] = [m]
+    print("=====", m)
+    for i, e in enumerate(rec):
+        if "оставили под стражей до 26" in e["title"]: run(i, "remand (expect dup)")
+        if "Élodie Thomas ранена пулей: трое" in e["title"]: run(i, "bailed (expect new)")
+        if "сержант Gautam Singh Taukoor снова в суде" in e["title"]: run(i, "first court (expect new)")
