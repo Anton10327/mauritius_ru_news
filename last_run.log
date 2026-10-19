@@ -1,5 +1,7 @@
-### check 1/5 at 05:24
-### check 2/5 at 05:28
-### check 3/5 at 05:32
-### check 4/5 at 05:36
-### check 5/5 at 05:40
+### check 1/5 at 06:02
+  dup check: new (Prévisions météo pour le lundi 19 octobre : températures minimales 16‑18 °C (hauts) et 20‑22 °C (côtes), maximales 22‑24 °C (plateau central) et 27‑29)
+  not news (portrait/lifestyle): La météo du lundi 19 octobre
+Skipped foreign news (Le Mauricien): La météo du lundi 19 octobre
+  dup: nothing new ()
+Skipped duplicate (L'Express): En couverture : Les grands titres de l'express de ce lundi 19 octobre 2026 == На первой полосе: главные заголовки l'express за воскресенье, 18 октября 2026 года
+LLM usage this run: 3 requests, 5487 tokens
