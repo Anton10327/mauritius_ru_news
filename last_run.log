@@ -10,3 +10,15 @@ LLM usage this run: 4 requests, 6791 tokens
   dup: nothing new ()
 Skipped duplicate (Wazaa): Étudiant de 18 ans parmi deux inculpés sous la loi antiterroriste après les émeutes à l’îl == Беспорядки: двое, включая 18-летнего студента, арестованы и временно обвинены по антитерро
 LLM usage this run: 1 requests, 1761 tokens
+### check 5/5 at 09:48
+  dup check: new (Упоминается, что количество арестов может превысить 200 в ближайшие дни, а также что два подозреваемых (житель Roches-Noires, 30 лет, и ещё один) уже )
+  proofread: 
+Posted (Defimedia): Беспорядки: полиция проверяет несколько групп WhatsApp, включая «The Burning Paradise»
+  dup check: new (В статье упоминается, что в 2026 году всё ещё действует закон 1863 года, регулирующий распределение воды, а также план правительства по опреснению мор)
+  not news (portrait/lifestyle): [Blog] En 2026, une loi de 1863 décide encore qui a de l'eau
+Skipped foreign news (Defimedia): [Blog] En 2026, une loi de 1863 décide encore qui a de l'eau
+  dup check: new (Сергент Гаутам Сингх Таукур (57 лет) вновь предстал перед судом округа Роуз-Хилл 19 октября, где ему предъявлены обвинения «Using Firearm to Intimidat)
+Posted (Defimedia): Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor снова в суде
+  dup check: new (Le procès des douze prévenus pour violation du couvre‑feu reprend le lundi 19 octobre devant la cour intermédiaire, après leur première comparution le)
+Posted (Defimedia): Нарушение комендантского часа: возобновление процесса над 12 обвиняемыми в этот понедельник
+LLM usage this run: 11 requests, 18177 tokens
