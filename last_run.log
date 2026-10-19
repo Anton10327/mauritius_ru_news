@@ -1,35 +1,12 @@
-### check 1/5 at 13:56
-  dup check: new (Signing of a protocol of agreement on energy cooperation between Mauritius and Saudi Arabia on 12 October in Riyadh, with discussion of a planned LNG‑)
-  proofread: 
-Posted (Inside News): Маврикий — Саудовская Аравия: рассматривается электростанция на СПГ мощностью до 500 МВт
-  dup check: new (Annonce d'une indemnité spéciale pour les policiers mobilisés pendant les troubles, décision prise par le Premier ministre Navin Ramgoolam le 19 octob)
-Posted (Defimedia): Общественные беспорядки: специальная компенсация для мобилизованных полицейских, объявил Ramgoolam
+### check 1/5 at 14:30
+  dup check: new (Maurice won gold in the Beach Volleyball Zone 7 Tour Round 2 in Moroni (Comoros); the men's pair Gilbert Alfred‑Akash Doobraz won all three matches 2‑)
+  proofread: Gilbert Alfred-Akash Doobraz → Gilbert Alfred–Akash Doobraz; Valentine Paul–Joanita Latour → Valentine Paul-Joanita Latour; на Beach Volleyball Zone 7 Tour – Round 2 → на Beach Volleyball Zone 7 Tour – Round 2; в Itsandra-Mdjini на Коморах → в Itsandra-Mdjini на Коморах; у Реюньона в финале → у Реюн
+Posted (Le Mauricien): ПЛЯЖНЫЙ ВОЛЕЙБОЛ – Золото для Маврикия на пути к континентальной квалификации!
   dup: nothing new ()
-Skipped duplicate (Defimedia): À bord d’un vol d’Air Mauritius : un enfant brûlé par de l’eau chaude == АЭРОПОРТ SSR | Сегодня утром — дежурство медиков при посадке рейса MK 015
+Skipped duplicate (Le Mauricien): MESSE DE SAINT-PIERRE : Mgr Durhône samedi : « Pour une véritable paix, tout commence par  == Месса за мир | Монсеньор Jean Мишель Durhône: «Мир также требует работы ради социальной сп
+  dup check: new (Announcement of the death of Khodadeen Sumodhee (Bhai Sam) on 6 October 2026 at age 96, his former role as permanent secretary to Sir Abdool Razack Mo)
+  not news (portrait/lifestyle): Nécrologie :  Khodadeen Sumodhee, un homme de conviction
+Skipped foreign news (Le Mauricien): Nécrologie :  Khodadeen Sumodhee, un homme de conviction
   dup: nothing new ()
-Skipped duplicate (Wazaa): Sergent Gautam Singh Taukoor, 57 ans, devant le tribunal après la fusillade de Camp-Levieu == Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor снова в суде
-LLM usage this run: 8 requests, 13441 tokens
-### check 2/5 at 14:00
-  dup check: new (Premier ministre Navin Ramgoolam a tenu une réunion ce matin du 19 octobre avec le commissaire de police, les responsables du National Security Servic)
-Posted (L'Express): [Срочная новость] Комендантский час: премьер-министр ожидает подробный доклад перед принятием решения
-  dup check: new (Tourists present in Mauritius this week are choosing to stay in their hotels or limit their movements, causing a drop in activity for some tourism ope)
-  proofread: Plaisanciers de Маврикия → Plaisanciers de Maurice
-Posted (L'Express): Tourisme: отмен пока нет, но уже меньше выездов
-  dup: nothing new ()
-Skipped duplicate (Top FM): Couvre-feu : les activités économiques sous pression, entre sécurité et pertes de revenus == Влияние комендантского часа на МСП: местные предприятия сталкиваются с потерей доходов и с
-  dup check: new (Sunil Dowarkasing, former MP and Greenpeace strategist, warns that Mauritius could face an energy crisis as early as late November or early December, )
-  not news (portrait/lifestyle): Après la crise de l’eau, l'île Maurice doit-elle se préparer à une crise énergétique ?
-Skipped foreign news (Top FM): Après la crise de l’eau, l'île Maurice doit-elle se préparer à une crise énergétique ?
-LLM usage this run: 9 requests, 14627 tokens
-### check 3/5 at 14:04
-### check 4/5 at 14:08
-  dup check: new (Три полицейских, арестованных за «culpable omission» в деле Элодии Томас, 19 октября получили условно‑освобождение под залог 25 000 рупий и обязательс)
-  proofread: «виновное бездействие» → «виновное бездействие»; Роуз-Хилл → Роуз-Хилл; подписка о невыезде → подписку о невыезде
-Posted (Defimedia): Élodie Thomas ранена пулей: трое полицейских, арестованных за «виновное бездействие», освобождены под подписку
-LLM usage this run: 3 requests, 4824 tokens
-### check 5/5 at 14:12
-  dup check: new (В статье сообщается о росте торгового дефицита Маврикия в августе 2026 г. до 20,7 млрд рупий, что на 16,7 % больше, чем в августе 2025 г., а также при)
-Posted (Top FM): Внешняя торговля: торговый дефицит Маврикия вырос до 20,7 млрд рупий в августе 2026 года
-  dup: nothing new ()
-Skipped duplicate (Top FM): Don de sang à Flacq : une mobilisation pour reconstituer les réserves nationales de sang == ФЛАК | В ЭТУ СУББОТУ — Донорство крови: Анил Башу призывает восстановить национальные запа
-LLM usage this run: 4 requests, 6861 tokens
+Skipped duplicate (Le Mauricien): Solace for the Nation == Law and Order Out of Control: выстрел, который разжёг тлеющие угли скрытого раскола
+LLM usage this run: 7 requests, 13048 tokens
