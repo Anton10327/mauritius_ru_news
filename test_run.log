@@ -1,89 +1,62 @@
-  dup check: new (Упоминается конкретная дата 18 октября 2026 года как шестилетие со дня обнаружения тела Soopramanien Kistnen и отмечается, что изначально смерть была )
-  dup check: new (В ночь с 17 на 18 октября 2026 года полиция Маврикия задержала 13 человек за нарушение комендантского часа, из которых 11 (включая одну женщину) остав)
-  dup check: new (Адвокат семьи Рама Валайден выражает разочарование по поводу отсутствия ответов в деле Кистнена спустя шесть лет. Это новая цитата и позиция, не отраж)
-  dup check: new (Депутат Khushal Lobine требует увеличить надбавку за риск для полицейских (35 рупий в день) и пересмотреть условия службы, включая оплату вызовов из о)
-  dup check: new (Указано, что комендантский час на Маврикии действует до 4:30 утра понедельника и это его третья и последняя ночь; также приведены новые уточнённые циф)
-  dup check: new (Оценка экономического ущерба от насилия на Маврикии: 270–470 млн рупий, затронуто около 17 450 тонн сахарного тростника и банковский сектор (ущерб 2,2)
-  dup check: new (Министерство здравоохранения Маврикия заключило контракт на 35,7 млн рупий (без НДС) с Advanced Healthcare Ltd (VivaChek), отклонив предложение Pharma)
-  dup check: new (В статье рассказаны личные истории двух женщин, Koushmalee Ramkoosalsing-Tour и Nayegee Auguste, которые делятся своим опытом борьбы с раком молочной )
-  dup check: new (Gautam Singh Taukoor получил два автоматических повышения по службе (от капрала до сержанта) несмотря на то, что в 2007 году был временно обвинён в де)
-  dup check: new (В статье впервые сообщается о перебоях с водоснабжением в городах Curepipe, Vacoas, Floréal и Saint-Pierre на Маврикии: некоторые районы получают воду)
-  dup check: new (Операция Элои Томас была проведена совместно с 14 индийскими специалистами, включая восемь профильных врачей, которые прибыли на Маврикий 12 октября и)
-  dup check: new (30-летняя Me Monisha Nundloll Bungloll 25 сентября 2026 года принесла присягу как адвокат; она дочь полицейского и сотрудницы подразделения по борьбе )
-  dup check: new (Победа Tamarisk Tree в главной гонке 19-го дня сезона на ипподроме Champ-de-Mars; жокей Manoel Nunes выиграл три гонки за день и укрепил лидерство в з)
-  dup check: new (Dr Anjum Heera Durgahee организовала встречу для женщин с онкологией в рамках «Октября розового» при поддержке AfrAsia Foundation и муниципалитета Cur)
-  dup check: new (В статье впервые подробно описано состояние Élodie Thomas после операции: она перенесла семичасовую операцию, восемь дней находилась между жизнью и см)
-  dup check: new (В статье указано, что делегация индийских специалистов из KIMS Hospitals во главе с Dr Rakesh Jalla прибыла на Маврикий по срочному запросу Минздрава )
-  dup check: new (Министр иностранных дел Маврикия запросил саудовскую экспертизу для преодоления водного кризиса (опреснение морской воды, переработка сточных вод); Са)
-  dup check: new (В статье впервые цитируется индийский нейрохирург Kapil Khandelwal, который лично руководил операцией и прибыл на Маврикий с командой; он выражает уве)
-  dup: nothing new (Elodie Thomas, после критической операции и между жизнью и смертью, начала снова общаться письменно с родителями; её первые слова отцу были «Папа, ты )
+Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary models: ['GigaChat-3-Ultra', 'GigaChat-3-Pro', 'qwen/qwen3.8-27b', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b']
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-54a85982-40d5-4e07-a0e0-4e4deb30e442","object":"chat.completion","created":1792437014,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.541891596,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-3fe6946e-88f5-42cb-a569-dad56133b2d6","object":"chat.completion","created":1792437014,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
+openai/gpt-oss-20b 200 {"id":"chatcmpl-db4e7978-eb3e-45dd-91dd-68e6bf495616","object":"chat.completion","created":1792437014,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So respond \"ok\"."},"logprobs":null,"finish_reason":"stop
+== Defimedia: https://defimedia.info/rss.xml
+Newest: Message à la nation : Navin Ramgoolam annonce des consultations urgentes après les troubles récents | https://defimedia.info/message-la-nation-navin-ramgoolam-annonce-des-consultations-urgentes-apres-les-troubles-recents
+Article text: 2884 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Navin%20ramgoolam%20.jpg
+  dup check: new (Премьер-министр Маврикия Navin Ramgoolam объявил о проведении срочных консультаций после недавних беспорядков. Это заявление сделано в обращении к нац)
+  written by GigaChat-3-Pro
+  proofread: Navin Ramgoolam → Навин Рамгулам; Elodie Thomas → Элоди Томас
+Duplicate of recent post #: None
+LLM usage so far: 6 requests, 5092 tokens
+-- Post that would be sent:
+<b>Обращение к нации: Navin Ramgoolam объявляет о срочных консультациях после недавних беспорядков</b>
 
-#52 Defimedia: "Папа, ты растолстел!": эти слова, написанные Elodie, заставили улыбнуться её родителей
-   27-летняя Elodie Thomas на Маврикии начала снова общаться письменно после критической операции, в ходе которой она была ранена выстрелом и находилась между жизнью и смертью. Её первые слова отцу «Папа, ты растолстел!» принесли родителям облегчение после дней т
-   == Le Mauricien: Драма В CAMP-Levieux — С 9 по 17 октября 2026 — Élodie Thomas: восемь дней между жизнью и … жизнью!
-   27-летняя Élodie Thomas получила пулевое ранение в шею во время полицейской операции в Camp-Levieux 9 октября 2026 года. Мать двухлетней девочки перенесла семичасовую операцию и восемь дней находилась между жизнью и смертью, но уже делает первые шаги с ходунка
-  dup check: new (Профсоюз Police Fighters Union впервые требует пересмотреть надбавку за риск (Risk Allowance) в размере 300 рупий в месяц; ранее публиковались только )
-  dup check: new (В статье упоминается, что епископ Jean Michaël Durhône посетил госпитализированную Élodie Thomas и раскритиковал «вуайеризм» в социальных сетях вокруг)
-  dup check: new (Расследование стрельбы, тяжело ранившей Élodie Thomas в Camp Levieux 9 октября, передано под расширенный контроль IPCC; комиссия проверяет бездействие)
-  dup check: new (В статье указано, что после двухмесячного перерыва парламент Маврикия соберётся 20 октября и рассмотрит рост насилия в регионах, комендантский час, во)
-  dup: nothing new (Министерство образования Маврикия официально подтвердило, что все классы возобновят занятия в обычном режиме с понедельника 19 октября 2026 года; роди)
+Премьер-министр Маврикия Navin Ramgoolam объявил об отмене комендантского часа по всей стране и сообщил о начале срочных консультаций с НКО и экспертами для анализа причин недавних волнений. Он подчеркнул важность поддержки молодёжи и решения проблемы водоснабжения в условиях засухи. Также он поблагодарил полицию и медиков за восстановление порядка и заботу о пострадавшей Elodie Thomas.
 
-#59 Inside News: Возвращение в понедельник: все классы должны возобновить занятия в обычном режиме
-   Министерство образования Маврикия подтвердило, что в понедельник, 19 октября 2026 года, все классы в государственных и частных школах, от дошкольных до старших, а также в специализированных учебных заведениях, возобновят занятия в обычном режиме после нескольк
-   == Inside News: Комендантский час: последняя ночь ожидается в это воскресенье, что произойдет в 4:30 в понедельник?
-   На Маврикии в воскресенье, 18 октября, начинается третья и последняя ночь комендантского часа, который должен завершиться в 4:30 в понедельник, 19 октября, если не будет издан новый указ. Мера действует с 22:00 до 4:30, а затронутые районы определяются местным
-  dup check: new (В новой статье впервые приводятся конкретные цифры по задержанным несовершеннолетним: 16 подростков в возрасте от 13 до 17 лет, включая школьников; вс)
-  dup check: new (В новой статье сообщается о церемонии награждения 10 лучших учеников экзаменов SC и HSC, прошедшей в Réduit с участием президента Республики Dharam Go)
-  dup check: new (В статье перечислены вопросы повестки дня Национального собрания: обсуждение безденежной оплаты в автобусах, проекта шоссе M4 и повышения акцизов на с)
-  dup check: new (Статья объясняет, что стандартные полисы страхования от пожара на Маврикии не покрывают ущерб от бунтов без специальных расширений на беспорядки и заб)
-  dup check: new (В статье впервые сообщается о нападении двух ротвейлеров на трёхлетнюю девочку в Quartier-Militaire 18 октября, её госпитализации в тяжёлом состоянии )
-  dup check: new (В статье указано, что во вторник, 20 октября, Национальное собрание Маврикия рассмотрит Police (Amendment) Bill — законопроект о расширении полномочий)
-  dup check: new (Сержант Gautam Singh Taukoор вновь предстал перед окружным судом Rose-Hill 19 октября; ему предъявлены два предварительных обвинения: «Использование о)
-  dup check: new (В статье указано, что 12 обвиняемых по делу о нарушении комендантского часа признали вину на первом слушании и остались под стражей; также уточнены ме)
-  dup check: new (Полицейский с почти 25-летним стажем задержан за ДТП на кольцевой развязке Mapou утром 17 октября, алкотест положительный; министр транспорта Osman Ma)
-  dup check: new (Уровень воды в Mare-aux-Vacoas упал до 34,6 % (ранее не указывался точный процент), общий уровень наполнения резервуаров — 54,6 %. Правительство задей)
-  dup check: new (В ночь с 18 на 19 октября полиция задержала двух человек за нарушение комендантского часа. В ранее опубликованных статьях сообщалось о 13 арестах в пр)
-  dup check: new (В статье указано, что комендантский час действовал в ночь с 15 на 16 октября (а не с 17 на 18), и затронуты другие регионы: Port-Louis, Beau-Bassin–Ro)
-  dup: nothing new (Сержант Gautam Singh Taukoor вновь предстал перед окружным судом Rose-Hill 19 октября; ему предъявлены предварительные обвинения в применении оружия д)
+🔗 <a href="https://defimedia.info/message-la-nation-navin-ramgoolam-annonce-des-consultations-urgentes-apres-les-troubles-recents">Defimedia</a>
+== L'Express: https://lexpress.mu/
+Newest: Junior l Information et communication : Comment reconnaître les fake news ? | https://lexpress.mu/s/information-et-communication-comment-reconnaitre-les-fake-news-563789
+Article text: 5040 chars | photo: https://lexpress.mu/storage/articles/cJ9OTCkOEf79X2EdHe0mLqimXb70rqNvEaRIH8Hu.jpg
+  same headline as #132: Information et communication : Comment reconnaître les fake news ?
+Duplicate of recent post #: 132
+LLM usage so far: 6 requests, 5092 tokens
+-- Post that would be sent:
 
-#84 Defimedia: Выстрел в Camp-Levieux: сержанта Taukoor оставили под стражей до 26 октября
-   Сержант Gautam Singh Taukoor, 57 лет, вновь предстал перед окружным судом Rose-Hill 19 октября. Его подозревают в выстреле в сторону 27-летней Élodie Thomas в Camp-Levieux 9 октября. Ему предъявлены предварительные обвинения в применении оружия для устрашения 
-   == Defimedia: Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor снова в суде
-   Сержант Gautam Singh Taukoor, 57 лет, вновь предстал перед окружным судом Rose-Hill в понедельник, 19 октября. Его обвиняют в том, что 9 октября в Camp-Levieux он выстрелил в 27-летнюю Élodie Thomas. Ему предъявлены два предварительных обвинения: «Использовани
-  dup check: new (В статье впервые опубликованы новые правила проживания для заявителей на базовую пенсию по старости: требования к срокам и возрасту, а также размер еж)
-  dup check: new (Расследование стрельбы в Camp-Levieux расширяется: IPCC теперь проверяет не только применение силы, но и соблюдение процедур оказания помощи Элои Тома)
-  dup check: new (В статье впервые упоминается, что жители нескольких регионов Маврикия (Saint-Pierre, Fond-du-Sac, Écroignard и Montagne-Blanche) организовали патрули )
-  dup check: new (В статье впервые сообщается, что 40 студентов-заочников и преподавателей UDM в Camp-Levieux были вынуждены присутствовать на очных занятиях вечером во)
-  dup check: new (В статье указано, что с пятницы по воскресенье полиция Маврикия задержала 22 человека за нарушение комендантского часа (ранее публиковалось только о 1)
-  dup check: new (Belinda Purmessur заявила, что её сын Ellvin не знал о комендантском часе и был задержан по пути в больницу; он — один из 12 подозреваемых, арестованн)
-  dup check: new (В статье описан новый случай задержания в аэропорту SSR: 21-летний гражданин Франции Mengavio Damenzo Bodie, прибывший из Парижа, задержан с 344 г кок)
-  dup check: new (Chetan Baboolall предупреждает о рисках для индивидуальных свобод из-за новых полномочий по наблюдению и прослушиванию в законопроекте National Crime )
-  dup check: new (В статье описан новый случай: 19 октября в Roches-Noires мужчина получил тяжёлые ожоги из-за возгорания матраса около 00:45, его состояние тяжёлое, по)
-  dup check: new (Премьер-министр Маврикия Navin Ramgoolam утром 19 октября провёл совещание с комиссаром полиции и руководством служб безопасности для оценки ситуации,)
-  dup check: new (Трое полицейских, арестованных за «виновное бездействие» по делу об огнестрельном ранении Élodie Thomas, освобождены под подписку о невыезде: каждый в)
-  dup check: new (В статье приведены новые точные цифры торгового дефицита Маврикия за август 2026 года (Rs 20,7 млрд), его динамика по сравнению с августом 2025 (+16,7)
-  dup check: new (Маврикийские пары Gilbert Alfred–Akash Doobraz и Valentine Paul–Joanita Latour выиграли золото на Beach Volleyball Zone 7 Tour – Round 2 в Itsandra-Md)
-  dup check: new (Всемирный банк призвал Маврикий ускорить структурные реформы из-за дефицита около 5000 IT-специалистов в год и высокой доли неработающей молодёжи (51%)
-  dup check: new (В статье впервые упоминается, что беспорядки и поджоги на Маврикии начались 12 октября 2026 года с района Sainte Croix после гибели Элоди Томас. Также)
-  dup check: new (В статье описан новый инцидент: 8-летний ребёнок получил ожог на борту рейса Air Mauritius MK015 из Парижа, когда родитель пролил на него горячий напи)
-  dup check: new (Офис премьер-министра Маврикия официально объявил, что комендантский час не будет продлён с 19 октября; решение принято на фоне благоприятного развити)
-  dup check: new (Открытие второго диалога партнерства Маврикий–ЕС в Balaclava; призыв главы МИД к лучшему доступу маврикийских товаров на рынок ЕС и более доступному к)
-  dup: nothing new (Суд над двенадцатью обвиняемыми в нарушении комендантского часа отложен на среду, 21 октября; заседание перенесено из промежуточного суда в Межрайонны)
+== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
+Newest: SOREZE  : La passagère d’une moto tuée dans un accident | https://www.lemauricien.com/le-mauricien/soreze-la-passagere-dune-moto-tuee-dans-un-accident/721092/
+Article text: 784 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-2026-10-19T123307.123.webp
+  same headline as #125: SOREZE  : La passagère d’une moto tuée dans un accident
+Duplicate of recent post #: 125
+LLM usage so far: 6 requests, 5092 tokens
+-- Post that would be sent:
 
-#111 Defimedia: Нарушение комендантского часа: суд над двенадцатью обвиняемыми перенесён на среду
-   Суд над двенадцатью обвиняемыми в нарушении комендантского часа отложен на среду, 21 октября, и продолжится в Межрайонном суде. В понедельник, 19 октября, были заслушаны несколько полицейских, включая заместителя комиссара полиции Oozeer, который объяснил прич
-   == Defimedia: Нарушение комендантского часа: возобновление процесса над 12 обвиняемыми в этот понедельник
-   В понедельник, 19 октября, в промежуточном суде возобновляется процесс над 12 людьми, обвиняемыми в нарушении комендантского часа. На первом слушании 16 октября все они признали вину и остались под стражей. Инциденты произошли в ночь с 13 на 14 октября в Bambo
-  dup check: new (Ehsan Juman сообщил о назначенной встрече с премьер-министром Navin Ramgoolam, инициированной самим премьером; встреча назначена на 19 октября после п)
-  dup check: new (Отмена национального концерта в честь Divali 2026, который должен был пройти вечером 24 октября на набережной Port-Louis; указаны исполнители Udit Nar)
-  dup check: new (Eshan Juman встретился с премьер-министром и призвал к смене экономической стратегии, заявив о необходимости конкретных действий; встреча охарактеризо)
-  dup check: new (Представители музыкальной индустрии встретились с премьер-министром Навином Рамгуламом для обсуждения последствий комендантского часа и проблем сектор)
-  dup check: new (В статье впервые упоминается конкретный случай жителя района Port-Louis-Jin Fei в Baie-du-Tombeau, который сообщил о протечке водопровода более месяца)
-  dup check: new (В новой статье указано, что в крови водителя мотоцикла не обнаружено алкоголя и он задержан для выяснения обстоятельств происшествия. В ранее опублико)
-  dup check: new (В статье упоминается, что предприниматели требуют срочной компенсации из-за отсутствия страхового покрытия после недели беспорядков; также указано, чт)
-  dup check: new (Премьер-министр Маврикия Navin Ramgoolam анонсировал консультации с неправительственными организациями для поддержки несовершеннолетних и предоставлен)
-  dup check: new (Премьер-министр Маврикия Navin Ramgoolam заявил, что состояние Élodie Thomas остаётся стабильным и призвал уважать её частную жизнь и семью. Это перво)
-  dup check: new (Премьер-министр Маврикия Navin Ramgoolam признал серьёзность засухи и заверил, что предпринимаются меры для обеспечения достойных условий жизни каждом)
-  dup check: new (В статье впервые упоминается, что на Маврикии 15–16 октября из-за ситуации с безопасностью были временно закрыты все школы после протестов и актов нас)
+== Inside News: https://inside.news/feed/
+Newest: Glucomètres : un marché de Rs 35,7 millions soulève des questions | https://www.inside.news/glucometres-maurice-marche-public-35-millions/
+Article text: 833 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/ee33c71f-427a-482c-b5f3-f7eec6a9f336-Removed.png
+  same headline as #32: Diabète  — Glucomètres : un marché de Rs 35,7 millions voit l’offre moins chère 
+Duplicate of recent post #: 32
+LLM usage so far: 6 requests, 5092 tokens
+-- Post that would be sent:
 
-would stop 4 of 132 published posts; LLM 67 calls, 96747 tokens
+== Wazaa: https://www.wazaa.mu/feed/
+Newest: 200 arrestations prévues alors que la police mauricienne enquête sur des groupes WhatsApp liés aux émeutes | https://www.wazaa.mu/200-arrestations-prevues-alors-que-la-police-mauricienne-enquete-sur-des-groupes-whatsapp-lies-aux-emeutes/
+Article text: 1538 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1792431741.jpeg
+  dup: nothing new (В статье говорится, что ожидается более 200 арестов в ближайшие дни и что двое подозреваемых уже обвиняются по закону о борьбе с терроризмом (POTA). Э)
+Duplicate of recent post #: 74
+LLM usage so far: 7 requests, 7030 tokens
+-- Post that would be sent:
+
+== Top FM: https://topfm.mu/
+Newest: Sécheresse : le Premier ministre, Dr Navin Ramgoolam reconnaît les difficultés qui pèsent sur le quotidien des Mauriciens, et assure que des efforts sont en cours | https://topfm.mu/actualites/secheresse-le-premier-ministre-dr-navin-ramgoolam-reconnait-les-difficultes-qui-pesent-sur-le
+Article text: 818 chars | photo: https://topfm.mu/sites/default/files/oembed_thumbnails/2026-10/owQ9O2NP0Lb3gOr5GFz8NWQRLctf9hsRyIoVT7GDJqg.jpg
+  same headline as #131: Sécheresse : le Premier ministre, Dr Navin Ramgoolam reconnaît les difficultés q
+Duplicate of recent post #: 131
+LLM usage so far: 7 requests, 7030 tokens
+-- Post that would be sent:
+
