@@ -3,59 +3,76 @@ Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary mode
 Google Translate failed: TooManyRequests
 Автобусное сообщение прервано во вторник утром
 == LLM: https://api.groq.com/openai/v1/chat/completions
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-840a9f63-4812-48ab-8774-3065251da2e0","object":"chat.completion","created":1792347000,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.008457622,"prompt_tokens":16,"prompt_t
-openai/gpt-oss-120b 200 {"id":"chatcmpl-ff8c9156-c4ec-4cb3-95a5-75d3da6deb66","object":"chat.completion","created":1792347001,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
-openai/gpt-oss-20b 200 {"id":"chatcmpl-8757c78f-b3be-4a66-ac94-727ba48d264c","object":"chat.completion","created":1792347001,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So reply \"ok\"."},"logprobs":null,"finish_reason":"stop"}
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-1529ca55-9a23-4b29-8f15-8edda2eff812","object":"chat.completion","created":1792385917,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.177311782,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-09356dfb-29eb-4e66-b88c-6ffcf1e64430","object":"chat.completion","created":1792385917,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
+openai/gpt-oss-20b 200 {"id":"chatcmpl-2272ffa3-0d31-419b-96f2-784110df1899","object":"chat.completion","created":1792385917,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants reply \"ok\"."},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time"
 == Defimedia: https://defimedia.info/rss.xml
-Newest: « Papa, tu as grossi ! » : ces mots écrits d’Elodie qui font sourire ses parents | https://defimedia.info/papa-tu-grossi-ces-mots-ecrits-delodie-qui-font-sourire-ses-parents
-Article text: 6755 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/181026_nilmala_hansley_elodie.jpg
-  same headline as #134: « Papa, tu as grossi ! » : ces mots écrits d’Elodie qui font sourire ses parents
-Duplicate of recent post #: 134
-LLM usage so far: 3 requests, 217 tokens
+Newest: Éducation : reprise des cours et nouveau calendrier pour plusieurs examens | https://defimedia.info/education-reprise-des-cours-et-nouveau-calendrier-pour-plusieurs-examens
+Article text: 1374 chars | photo: https://files.defimedia.info/sites/default/files/classes.jpg
+  dup check: new (Announce reopening of schools on 19 octobre et nouveaux calendriers précis pour les examens nationaux des Grades 4 et 5 (20, 21 et 28 octobre) et du N)
+  proofread: edit rejected (changed numbers, names or length)
+Duplicate of recent post #: None
+LLM usage so far: 6 requests, 5131 tokens
 -- Post that would be sent:
+<b>Образование: возобновление занятий и новое расписание для нескольких экзаменов</b>
 
+Школы на Маврикии возобновляют работу в понедельник, 19 октября, после закрытия из-за беспорядков и вандализма. Несколько национальных экзаменов были перенесены, а даты для School Certificate (SC) и Higher School Certificate (HSC), отменённых 13 октября, обсуждаются с Cambridge. Учебный год в средней школе продлён до 5 ноября для проведения внутренних оценок.
+
+🔗 <a href="https://defimedia.info/education-reprise-des-cours-et-nouveau-calendrier-pour-plusieurs-examens">Defimedia</a>
 == L'Express: https://lexpress.mu/
-Newest: Reprise parlementaire : Crise de l’eau, violences et projets de loi sensibles | https://lexpress.mu/s/crise-de-leau-violences-et-projets-de-loi-sensibles-563753
-Article text: 10719 chars | photo: https://lexpress.mu/storage/articles/yG6vdAs26iOQxDY4cwQDSxsOLFvfHBIvZVexB2kz.jpg
-  same headline as #140: Reprise parlementaire : Crise de l’eau, violences et projets de loi sensibles
-Duplicate of recent post #: 140
-LLM usage so far: 3 requests, 217 tokens
+Newest: En couverture : Les grands titres de l'express de ce lundi 19 octobre 2026 | https://lexpress.mu/s/les-grands-titres-de-lexpress-de-ce-lundi-19-octobre-2026-563766
+Article text: 1892 chars | photo: https://lexpress.mu/storage/articles/JpfO6PkRXBDc5Gh4O6bDDbdctjIuKyy7fsAGg31o.jpg
+  dup check: new (Déficit de 5 000 informaticiens par an à combler)
+  proofread: 
+Duplicate of recent post #: None
+LLM usage so far: 9 requests, 9797 tokens
 -- Post that would be sent:
+<b>На первой полосе: главные заголовки l&#x27;express за понедельник, 19 октября 2026 года</b>
 
+На Маврикии обостряется напряженность: введен комендантский час, полиция получает надбавку 35 рупий в день за риск, а дефицит IT-специалистов достигает 5000 человек в год. Всемирный банк предлагает восемь структурных реформ для перезапуска экономики. В культуре президент MASA Joëlle Coret называет принятие «Закона о статусе артиста» приоритетом.
+
+🔗 <a href="https://lexpress.mu/s/les-grands-titres-de-lexpress-de-ce-lundi-19-octobre-2026-563766">L&#x27;Express</a>
 == Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
-Newest: Coup de feu blessant – Élodie Thomas L’enquête passe sous le contrôle élargi de l’IPCC | https://www.lemauricien.com/actualites/societe/coup-de-feu-blessant-elodie-thomas-lenquete-passe-sous-le-controle-elargi-de-lipcc/720996/
-Article text: 3516 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-2026-10-18T100259.517.webp
-  same headline as #139: Coup de feu blessant – Élodie Thomas L’enquête passe sous le contrôle élargi de 
-Duplicate of recent post #: 139
-LLM usage so far: 3 requests, 217 tokens
+Newest: INDUSTRIE TOURISTIQUE 2026  : Maurice franchit le cap du million de touristes | https://www.lemauricien.com/le-mauricien/industrie-touristique-2026-maurice-franchit-le-cap-du-million-de-touristes/720971/
+Article text: 5513 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-7-10.webp
+  same headline as #136: INDUSTRIE TOURISTIQUE 2026  : Maurice franchit le cap du million de touristes
+Duplicate of recent post #: 136
+LLM usage so far: 9 requests, 9797 tokens
 -- Post that would be sent:
 
 == Inside News: https://inside.news/feed/
-Newest: Réprimer le chaos sans fabriquer l’injustice : où s’arrête la fermeté de l’État ? | https://www.inside.news/troubles-arrestations-fermete-etat-injustice-maurice/
-Article text: 1548 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/f158ae4e-144e-454c-844e-80ca7231fca9-1-1024x578.png
-  same headline as #131: Réprimer le chaos sans fabriquer l’injustice : où s’arrête la fermeté de l’État 
-Duplicate of recent post #: 131
-LLM usage so far: 3 requests, 217 tokens
+Newest: NCE, Grades 4 et 5 : le calendrier révisé à conserver | https://www.inside.news/calendrier-revise-nce-grades-4-5-octobre-2026/
+Article text: 1639 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/1990aacf-f5e5-4b24-85dd-5cfe86b916ae-Removed.png
+  dup check: new (Publication du calendrier révisé du National Certificate of Education (NCE) pour les Grades 4 et 5 avec les nouvelles dates précises des épreuves (20,)
+  proofread: Grades 4 и 5 → Grades 4 et 5
+Duplicate of recent post #: None
+LLM usage so far: 12 requests, 14475 tokens
 -- Post that would be sent:
+<b>NCE, Grades 4 и 5: следует придерживаться пересмотренного расписания</b>
 
+Министерство образования Маврикия и Cabinet министров опубликовали обновлённое расписание перенесённых национальных экзаменов. Для Grades 4 и 5 экзамены по французскому и азиатским/арабскому/креольским языкам назначены на 20 октября, по английскому и истории-географии — на 21 октября, по математике и наукам — на 28 октября. Для NCE экзамены пройдут 21, 28 и 29 октября в те же часы и центрах, что и планировалось; третий триместр продлён до 5 ноября. Школы призывают использовать официальный PDF MES и обращаться по указанным телефонам и почте.
+
+🔗 <a href="https://www.inside.news/calendrier-revise-nce-grades-4-5-octobre-2026/">Inside News</a>
 == Wazaa: https://www.wazaa.mu/feed/
 Newest: Île Maurice : couvre-feu nocturne assoupli à 22 h dans 17 régions après des troubles | https://www.wazaa.mu/ile-maurice-couvre-feu-nocturne-assoupli-a-22-h-dans-17-regions-apres-des-troubles/
 Article text: 661 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/08/1787074962.jpeg
-  dup check: new (Curfew start time eased from 20:30 to 22:00 and applied to 17 regions starting Friday night 16 octobre, lasting through the weekend.)
-  proofread: изменён → изменен
-Duplicate of recent post #: None
-LLM usage so far: 6 requests, 4465 tokens
--- Post that would be sent:
-<b>Маврикий: ночной комендантский час смягчен до 22:00 в 17 регионах после беспорядков</b>
+  dup check: new (Le couvre‑feu nocturne a été assoupli le vendredi 16 octobre : il commence désormais à 22 h au lieu de 20 h 30 et se termine à 4 h 30 au lieu de 5 h, )
+LLM limit reached for GigaChat-3-Ultra: {"status":429,"message":"Too Many Requests"}
 
-На Маврикии изменён режим комендантского часа: он начинается в 22:00 вместо 20:30 и заканчивается в 4:30 вместо 5:00. Изменения вступили в силу вечером 16 октября и действуют на выходных. Мера введена после волны насилия, грабежей и вандализма с 12 октября. Изначально с 13 октября комендантский час действовал в 15 зонах, затем его продлили ещё на две ночи и расширили до 17 зон.
+  written by GigaChat-3-Pro
+Duplicate of recent post #: None
+LLM usage so far: 15 requests, 18619 tokens
+-- Post that would be sent:
+<b>На Маврикии ночной комендантский час смягчен до 22:00 в 17 регионах после беспорядков</b>
+
+С пятницы, 16 октября, на Маврикии смягчили режим ночного комендантского часа — он теперь начинается не в 20:30, а в 22:00 и длится до 4:30. Решение принято из-за волны насилия, грабежей и актов вандализма, которые начались 12 октября. Изначально комендантский час действовал с 20:30 до 5:00 в 15 зонах, затем был продлён ещё на две ночи и расширен до 17 регионов.
 
 🔗 <a href="https://www.wazaa.mu/ile-maurice-couvre-feu-nocturne-assoupli-a-22-h-dans-17-regions-apres-des-troubles/">Wazaa</a>
 == Top FM: https://topfm.mu/
-Newest: Octobre rose : Derrière chaque diagnostic, une femme, des rêves et une vie, rappelle la psychologue Dr Anjum Heera Durgahee | https://topfm.mu/actualites/octobre-rose-derriere-chaque-diagnostic-une-femme-des-reves-et-une-vie-rappelle-la-psychologue-dr
-Article text: 2590 chars | photo: https://topfm.mu/sites/default/files/2026-10/2025-Thumbnail-%5BWEB-%2B-FB%5D-Recovered-Recovered-Recovered-Recovered_1.png
-  same headline as #126: Octobre rose : Derrière chaque diagnostic, une femme, des rêves et une vie, rapp
-Duplicate of recent post #: 126
-LLM usage so far: 6 requests, 4465 tokens
+Newest: Pénurie d’eau à Curepipe : des habitants privés d’eau malgré le nouveau calendrier de distribution | https://topfm.mu/actualites/penurie-deau-curepipe-des-habitants-prives-deau-malgre-le-nouveau-calendrier-de-distribution
+Article text: 1335 chars | photo: https://topfm.mu/sites/default/files/2026-10/ROBINET.jpg
+  dup: nothing new ()
+Duplicate of recent post #: 107
+LLM usage so far: 16 requests, 20459 tokens
 -- Post that would be sent:
 
