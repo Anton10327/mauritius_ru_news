@@ -1,39 +1,8 @@
-### check 1/5 at 12:25
+### check 1/5 at 13:10
+  dup check: new (59‑year‑old man severely burned after his mattress caught fire in Roches‑Noires on the night of 18‑19 octobre, hospitalized in serious condition.)
+Posted (Defimedia): Roches-Noires: 59-летний мужчина получил тяжёлые ожоги после возгорания матраса
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): COUVRE-FEU SUR LES RÉSEAUX SOCIAUX : La Cybercrime Unit sur la piste des auteurs de messag == Беспорядки: полиция проверяет несколько групп WhatsApp, включая «The Burning Paradise»
-  dup check: new (В статье сообщается, что несмотря на продолжающиеся беспорядки, около 40 студентов и сотрудников Университета Массаригн (UDM) продолжили занятия в очн)
-  proofread: Элоди Тома → Элоди Томас
-Posted (Le Mauricien): CAMP-LEVIEUX — На кампусе UDM: очные занятия продолжались несмотря на беспорядки
-  dup check: new (PAJ félicite 80 adolescents de 15 centres ANFEN formés comme jeunes ambassadeurs, leur slogan ToPaTouSel, et leur rôle de sensibilisation auprès d’aut)
-  not news (portrait/lifestyle): PAJ : Félicitons les 80 adolescents des 15 centres ANFEN
-Skipped foreign news (Le Mauricien): PAJ : Félicitons les 80 adolescents des 15 centres ANFEN
-  dup check: new (Le 19 octobre, les avocats de Maneesh Gobin et Lilram Deal ont contesté la compétence de la Financial Crimes Division (FCD) de la Cour suprême, avec u)
-  proofread: Maneesh Gobin → Maneesh Гобин; Lilram Deal → Lilram Дил
-Posted (Defimedia): FCD: Maneesh Gobin и Lilram Deal оспаривают юрисдикцию суда
-LLM usage this run: 9 requests, 16276 tokens
-### check 2/5 at 12:29
-  dup check: new (Incident on Air Mauritius flight MK 015: a child suffered burns from hot water spilled on board; emergency services on standby at landing; no details )
-Posted (Le Mauricien): АЭРОПОРТ SSR | Сегодня утром — дежурство медиков при посадке рейса MK 015
+Skipped duplicate (L'Express): Policiers : Rs 35 par jour pour faire face au risque ? == Полиция: надбавка за риск в размере 35 рупий в день — «смехотворная», считает Khushal Lobi
   dup: nothing new ()
-Skipped duplicate (Defimedia): Au Cœur de l’Info : les causes et les conséquences des troubles au centre des débats == Трения на Маврикии: Avinash Ramtohul: «Социальные сети не должны становиться инструментом 
-  same headline as #143: AÉROPORT SSR | Ce matin Stand-by médical à l’atterrissage de MK 015
-Skipped duplicate (Le Mauricien): Aéroport SSR – ce matin : Stand-by médical à l’atterrissage de MK 015 == АЭРОПОРТ SSR | Сегодня утром — дежурство медиков при посадке рейса MK 015
-  dup check: new (22 personnes arrêtées entre vendredi et dimanche pour non‑respect du couvre‑feu, dont deux libérées sous condition de comparaître devant le tribunal l)
-  proofread: 
-Posted (Le Mauricien): КОМЕНДАНТСКИЙ ЧАС: более двадцати задержаний
-LLM usage this run: 7 requests, 10980 tokens
-### check 3/5 at 12:33
-  dup check: new (Identité du suspect arrêté : Ellvin Purmessur, 23 ans, fils de Belinda Purmessur, ainsi que la déclaration de la mère sur les circonstances de l’arres)
-  proofread: 
-Posted (Defimedia): Нарушение комендантского часа: Belinda высказалась после ареста своего сына Ellvin Purmessur
-  dup check: new (Arrest of a 21‑year‑old French man (Mengavio Damenzo Bodie) at Sir Seewoosagur Ramgoolam Airport on 11 october with 37 cocaine pellets (344 g) and 7 h)
-  proofread: Mengavio Damenzo Bodie, un ressortissant français de 21 ans, homme à tout faire habitant Limoges, a été arrêté par les éléments de l’Anti Drug and Smuggling Unit (ADSU) à son arrivée à l’aéroport sir Seewoosagur Ramgoolam (SSR), le dimanche 11 octobre. Au total, 37 boulettes de cocaïne pesant 344 gr
-Posted (L'Express): Аэропорт SSR: задержан 21-летний француз, изъято 37 шариков кокаина и семь — гашиша
-  dup check: new (Организована первая в Африке конференция по цифровому налогообложению на Маврикии, проходящая с 19 по 21 октября, с темой «Propelling Tax Administrati)
-Posted (Inside News): Цифровое налогообложение: Маврикий принимает первую африканскую конференцию
-  dup check: new (Le leader de l’opposition Chetan Baboolall alerte spécifiquement sur les risques du National Crime Agency Bill lors de sa première lecture prévue dema)
-  proofread: Четеран Бабуллал → Четан Бабуллал
-Posted (Top FM): Законопроект о Национальном агентстве по борьбе с преступностью: Chetan Baboolall предупреждает о рисках, связанных с полномочиями по наблюдению и прослушиванию
-LLM usage this run: 12 requests, 17880 tokens
-### check 4/5 at 12:37
-### check 5/5 at 12:41
+Skipped duplicate (Top FM): Élodie Thomas : les médecins indiens saluent un rétablissement miraculeux == Elodie Thomas ранена пулей — доктор Kapil Khandelwal, индийский нейрохирург: «Я был уверен
+LLM usage this run: 5 requests, 8993 tokens
