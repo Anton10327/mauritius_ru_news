@@ -1,24 +1,12 @@
-### check 1/5 at 09:32
-  dup check: new (Новые цифры по схеме Water Tank and Domestic Water Pump Grant Scheme: 7 245 завершённых проверок и 23 911 заявок (по сравнению с ранее сообщёнными 1 8)
-Posted (Inside News): Помощь CWA: 7 245 проверок завершено из 23 911 заявок
+### check 1/5 at 10:09
   dup: nothing new ()
-Skipped duplicate (L'Express): Plumes engagées | Treize ans : pas encore de moustache, déjà un dossier == Ситуация вызывает вопросы: в 13 лет уже замешаны в беспорядках
-LLM usage this run: 4 requests, 6791 tokens
-### check 2/5 at 09:36
-### check 3/5 at 09:40
-### check 4/5 at 09:44
+Skipped duplicate (Inside News): Metro Express : les trains reprennent, mais Barkly reste à quai == METRO EXPRESS: станция Barkly остановлена, возвращение под вопросом
+  dup check: new (Le ministre des Transports terrestres, Osman Mahomed, a confirmé l’affaire et a commenté l’incertitude concernant la saisie du véhicule du policier, i)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Полицейский, не прошедший алкотест: никаких поблажек не обещано, но конфискация автомобиля под вопросом
+  dup check: new (Уровень заполнения резервуара Mare-aux-Vacoas упал до 34,6 % (ранее сообщалось 34,4 %). Правительство планирует задействовать девять новых скважин, ко)
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Inside News): Водный кризис: Mare-aux-Vacoas на уровне 34,6 %, ускоряется бурение скважин
   dup: nothing new ()
-Skipped duplicate (Wazaa): Étudiant de 18 ans parmi deux inculpés sous la loi antiterroriste après les émeutes à l’îl == Беспорядки: двое, включая 18-летнего студента, арестованы и временно обвинены по антитерро
-LLM usage this run: 1 requests, 1761 tokens
-### check 5/5 at 09:48
-  dup check: new (Упоминается, что количество арестов может превысить 200 в ближайшие дни, а также что два подозреваемых (житель Roches-Noires, 30 лет, и ещё один) уже )
-  proofread: 
-Posted (Defimedia): Беспорядки: полиция проверяет несколько групп WhatsApp, включая «The Burning Paradise»
-  dup check: new (В статье упоминается, что в 2026 году всё ещё действует закон 1863 года, регулирующий распределение воды, а также план правительства по опреснению мор)
-  not news (portrait/lifestyle): [Blog] En 2026, une loi de 1863 décide encore qui a de l'eau
-Skipped foreign news (Defimedia): [Blog] En 2026, une loi de 1863 décide encore qui a de l'eau
-  dup check: new (Сергент Гаутам Сингх Таукур (57 лет) вновь предстал перед судом округа Роуз-Хилл 19 октября, где ему предъявлены обвинения «Using Firearm to Intimidat)
-Posted (Defimedia): Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor снова в суде
-  dup check: new (Le procès des douze prévenus pour violation du couvre‑feu reprend le lundi 19 octobre devant la cour intermédiaire, après leur première comparution le)
-Posted (Defimedia): Нарушение комендантского часа: возобновление процесса над 12 обвиняемыми в этот понедельник
-LLM usage this run: 11 requests, 18177 tokens
+Skipped duplicate (Inside News): Examens SC/HSC : l’incertitude persiste pour les candidats touchés par les perturbations == SC и HSC: переговоры с Cambridge о переносе отложенных экзаменов
+LLM usage this run: 8 requests, 13131 tokens
