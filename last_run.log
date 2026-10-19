@@ -1,23 +1,13 @@
-### check 1/5 at 16:17
-  proofread: Mohamad Ally Oozeer → Mohamad Ally Oozeer; Deputy Commissioner of Police (DCP) → заместитель комиссара полиции
-Posted (L'Express): Вопросы… Mohamad Ally Oozeer: «Полиция постоянно пересматривает свою оперативную стратегию в зависимости от развития ситуации»
-  dup check: new (Le gouvernement annonce que le couvre‑feu en vigueur ne sera pas reconduit à compter du 19 octobre, marquant la décision officielle d’annuler le couvr)
-Posted (L'Express): Офис премьер-министра: комендантский час не будет продлен с сегодняшнего вечера
-  dup check: new (L'ouverture du deuxième dialogue de partenariat entre Maurice et l'Union européenne au Maritim Resort and Spa, avec des priorités sur le commerce, l'i)
-  proofread: Janmajaising Bissoondoyal → Janmajaising Bissoondoyal (имя не требует перевода); Oskar Benedikt → Oskar Benedikt (имя не требует перевода)
-Posted (Top FM): Маврикий–ЕС: усиленное партнерство в торговле, инвестициях, устойчивом развитии и климате
-LLM usage this run: 8 requests, 11716 tokens
-### check 2/5 at 16:21
+### check 1/5 at 17:08
+  dup check: new (Déclaration du député Ehsan Juman annonçant qu’il a eu (ou va avoir) une réunion avec le Premier ministre Navin Ramgoolam le 19 octobre, précisant que)
+  proofread: 
+Posted (Defimedia): «В PTr у нас есть эта свобода. Я сказал то, что думаю», — заявил Ehsan Juman незадолго до встречи с премьер-министром
   dup: nothing new ()
-Skipped duplicate (Top FM): Attaque de deux chiens dangereux sur une fillette de 3 ans : la MSAW pointe du doigt la né == Quartier-Militaire: трёхлетняя девочка серьёзно пострадала после укуса двумя ротвейлерами
-LLM usage this run: 1 requests, 2148 tokens
-### check 3/5 at 16:25
-### check 4/5 at 16:29
-  dup check: new (Парламентари большинства собрались в офисе премьер‑министра (PMO) 19 октября перед возобновлением работы Национального собрания — факт, ранее не упоми)
-Posted (Defimedia): Встреча в офисе премьер-министра перед возобновлением парламентской работы
-  dup check: new (Le procès des douze prévenus pour violation du couvre‑feu a été reporté au mercredi 21 octobre (au lieu du lundi 19 octobre), avec l’audition du Deput)
-Posted (Defimedia): Нарушение комендантского часа: суд над двенадцатью обвиняемыми перенесён на среду
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Annonce du PMO : fin du couvre-feu == Офис премьер-министра: комендантский час не будет продлен с сегодняшнего вечера
-LLM usage this run: 7 requests, 10953 tokens
-### check 5/5 at 16:33
+Skipped duplicate (Wazaa): Île Maurice en déficit de 5 000 professionnels de la tech alors que le chômage des diplômé == Структурные реформы: Маврикий должен восполнять дефицит в 5000 IT-специалистов в год
+  dup check: new (Annulation du spectacle national prévu le 24 octobre 2026 au Port‑Louis Waterfront, annoncée par le ministère des Arts et de la Culture en raison des )
+  proofread: отменен → отменён
+Posted (Defimedia): Divali 2026: национальный концерт, запланированный на 24 октября на набережной Port-Louis, отменён
+  dup check: new (Shiv Khera a été invité par le Mauritius Institute of Directors (MIoD) et Excelerate Consulting et a prononcé une conférence le vendredi 16 octobre lo)
+  not news (portrait/lifestyle): Leadership l Shiv Khera : «Le caractère est bien plus important que les compétences»
+Skipped foreign news (L'Express): Leadership l Shiv Khera : «Le caractère est bien plus important que les compétences»
+LLM usage this run: 9 requests, 14813 tokens
