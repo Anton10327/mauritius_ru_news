@@ -23,3 +23,15 @@ Skipped duplicate (Le Mauricien): La caricature du Mauricien du 15 octobre 2026 
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): La caricature du Mauricien du 16 octobre 2026 == В Sainte-Croix в машине полицейского нашли синтетические наркотики
 LLM usage this run: 7 requests, 12633 tokens
+### check 5/5 at 20:09
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La caricature du Mauricien du 17 octobre 2026 == В Sainte-Croix в машине полицейского нашли синтетические наркотики
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La caricature du weekend  du 18 octobre 2026 == В Sainte-Croix в машине полицейского нашли синтетические наркотики
+  dup check: new (Указаны имя погибшей (Sakina Balgobin), точное место происшествия (Сорез, автотрасса), результаты алкотеста (отрицательный), что водитель был помещён )
+  written by GigaChat-3-Pro
+  proofread: Сорвез → Сорез
+Posted (Le Mauricien): Сорез: пассажирка мотоцикла погибла в аварии
+  dup: nothing new ()
+Skipped duplicate (L'Express): Coopération Maurice-UE :  Navin Ramgoolam reçoit une délégation d'ambassadeurs européens == Маврикий–ЕС: усиленное партнерство в торговле, инвестициях, устойчивом развитии и климате
+LLM usage this run: 6 requests, 11430 tokens
