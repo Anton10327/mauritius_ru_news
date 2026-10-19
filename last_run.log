@@ -1,9 +1,13 @@
-### check 1/5 at 18:32
-  dup check: new (Детали встречи: Eshan Juman уточнил, что разговор не касался возможного министерского поста, а был использован для передачи премьер‑министру требовани)
+### check 1/5 at 19:16
+  dup check: new (Accident on 19 october in Poudre‑d’Or Village: a motorbike collided with a van, killing the rider and injuring a passenger who was taken to SSRN hospi)
+  written by GigaChat-3-Pro
   proofread: 
-Posted (Defimedia): Eshan Juman встретился с премьер-министром: «Я сказал им, что нужно действовать… иначе будет слишком поздно»
-LLM usage this run: 3 requests, 4776 tokens
-### check 2/5 at 18:36
-### check 3/5 at 18:40
-### check 4/5 at 18:44
-### check 5/5 at 18:48
+Posted (Defimedia): Пудр-Дор-Виллаж: один погибший и один пострадавший в аварии с участием мотоцикла и фургона
+  dup check: new (Meeting of Roshan Boolkah (Union des artistes), Joëlle Coret (MASA) and Bruno Raya (OSB Crew) with the Prime Minister’s Office about the curfew’s impa)
+  written by GigaChat-3-Pro
+Posted (L'Express): Комендантский час: музыка под угрозой
+  dup check: new (Mobilisation des jeunes au Portugal contre la crise du logement : installation de campements à Lisbonne (place Dom Pedro IV) et à Porto avec environ 5)
+  written by GigaChat-3-Pro
+  not about Mauritius: Au Portugal : la mobilisation des jeunes contre la crise du logement prend de l’ampleur
+Skipped foreign news (Top FM): Au Portugal : la mobilisation des jeunes contre la crise du logement prend de l’ampleur
+LLM usage this run: 8 requests, 12392 tokens
