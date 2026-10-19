@@ -22,3 +22,8 @@ Skipped duplicate (Top FM): Couvre-feu : les activités économiques sous pressi
 Skipped foreign news (Top FM): Après la crise de l’eau, l'île Maurice doit-elle se préparer à une crise énergétique ?
 LLM usage this run: 9 requests, 14627 tokens
 ### check 3/5 at 14:04
+### check 4/5 at 14:08
+  dup check: new (Три полицейских, арестованных за «culpable omission» в деле Элодии Томас, 19 октября получили условно‑освобождение под залог 25 000 рупий и обязательс)
+  proofread: «виновное бездействие» → «виновное бездействие»; Роуз-Хилл → Роуз-Хилл; подписка о невыезде → подписку о невыезде
+Posted (Defimedia): Élodie Thomas ранена пулей: трое полицейских, арестованных за «виновное бездействие», освобождены под подписку
+LLM usage this run: 3 requests, 4824 tokens
