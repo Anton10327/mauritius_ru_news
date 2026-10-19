@@ -7,3 +7,9 @@ Posted (Inside News): Возвращение в понедельник: все �
 LLM usage this run: 4 requests, 6336 tokens
 ### check 2/5 at 06:40
 Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+### check 3/5 at 06:44
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup check: new (Plus de 1 800 interpellations en France après les violences du 17 octobre, dépassement du chiffre précédent de 1 200 annoncé par le ministre de l’Inté)
+  not about Mauritius: France : plus de 1 800 interpellations après les violences du 17 octobre
+Skipped foreign news (Defimedia): France : plus de 1 800 interpellations après les violences du 17 octobre
+LLM usage this run: 2 requests, 3753 tokens
