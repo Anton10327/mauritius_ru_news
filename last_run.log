@@ -10,3 +10,16 @@ LLM usage this run: 3 requests, 4780 tokens
   not news (portrait/lifestyle): Questions à…  Joëlle Coret : «La SAA est une priorité majeure»
 Skipped foreign news (L'Express): Questions à…  Joëlle Coret : «La SAA est une priorité majeure»
 LLM usage this run: 2 requests, 4201 tokens
+### check 4/5 at 20:05
+  dup check: new (Annonce d'un événement culinaire « Zarlor des Chefs à 4 mains 2026 » organisé du 26 septembre au 3 octobre par l'Office de Tourisme Intercommunal de l)
+  written by GigaChat-3-Pro
+  not news (portrait/lifestyle): RESTAURATION — Zarlor des Chefs à 4 mains 2026 : Les trésors culinaires des îles sœurs à l’honneur
+Skipped foreign news (Le Mauricien): RESTAURATION — Zarlor des Chefs à 4 mains 2026 : Les trésors culinaires des îles sœurs à l’honneur
+  dup check: new (Arrest of police constable Yanish Sookharee (23) with two packages of synthetic cannabinoids worth Rs 120 000 found in his car in Sainte‑Croix; provis)
+  written by GigaChat-3-Pro
+Posted (Le Mauricien): В Sainte-Croix в машине полицейского нашли синтетические наркотики
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La caricature du Mauricien du 15 octobre 2026 == В Sainte-Croix в машине полицейского нашли синтетические наркотики
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La caricature du Mauricien du 16 octobre 2026 == В Sainte-Croix в машине полицейского нашли синтетические наркотики
+LLM usage this run: 7 requests, 12633 tokens
