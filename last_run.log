@@ -1,16 +1,16 @@
-### check 1/5 at 20:27
-  dup check: new (Появилась информация о том, что после недели хаоса пострадавшие торговцы и владельцы недвижимости без страховки требуют срочной компенсации от государ)
+### check 1/5 at 21:04
+  dup check: new (Interview with Joëlle Coret, president of MASA, stating that the 'Status of the Artist Act' (SAA) is a major priority and describing a meeting with th)
   written by GigaChat-3-Pro
-  proofread: Au sommaire de ce Lundi 19 Octobre 2026 : → Au sommaire de ce lundi 19 octobre 2026 :
-Posted (Defimedia): Если нет страховки — не выиграть дом: последствия беспорядков и новые вызовы на Маврикии
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Message à la nation : Navin Ramgoolam annonce des consultations urgentes après les trouble == Офис премьер-министра: комендантский час не будет продлен с сегодняшнего вечера
-  dup check: new (Premier ministre Navin Ramgoolam annonce des consultations avec les ONG pour garantir de meilleures perspectives d’avenir aux enfants impliqués dans l)
+  not news (portrait/lifestyle): Questions à…  Joëlle Coret : «La SAA est une priorité majeure»
+Skipped foreign news (L'Express): Questions à…  Joëlle Coret : «La SAA est une priorité majeure»
+  dup check: new (Finance Minister Jyoti Jeetun will attend the Financial Times Africa Summit in London on 21‑22 October 2026 to promote Mauritius as a gateway for inte)
+  written by GigaChat-3-Pro
+  proofread: Джйоти Джеетун → Jyoti Jeetun
+Posted (L'Express): Министр финансов Маврикия Jyoti Jeetun представит страну на саммите Financial Times в Лондоне
+  dup check: new (Premier ministre Navin Ramgoolam déclare que l’état d’Élodie Thomas demeure stable et lance un appel au respect de sa vie privée et de celle de sa fam)
   written by GigaChat-3-Pro
   proofread: Navin Ramgoolam → Навин Рамгулам
-Posted (Top FM): Инциденты с участием несовершеннолетних: премьер-министр Navin Ramgoolam объявил о консультациях с НПО для обеспечения лучшего будущего каждому ребёнку
-LLM usage this run: 7 requests, 11453 tokens
-### check 2/5 at 20:31
-### check 3/5 at 20:35
-### check 4/5 at 20:39
-### check 5/5 at 20:43
+Posted (Top FM): Дело Élodie Thomas: её состояние стабильно, заявил премьер-министр Navin Ramgoolam и призвал уважать частную жизнь семьи
+  dup: nothing new ()
+Skipped duplicate (Top FM): Incidents : « Nous besoin tir ban lesson de seki inn passé et construire nou pays pou enn  == Власть, ослабленная на всех фронтах!
+LLM usage this run: 9 requests, 15099 tokens
