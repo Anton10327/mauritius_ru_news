@@ -1,25 +1,4 @@
-### check 1/5 at 14:30
-  dup check: new (Maurice won gold in the Beach Volleyball Zone 7 Tour Round 2 in Moroni (Comoros); the men's pair Gilbert Alfred‑Akash Doobraz won all three matches 2‑)
-  proofread: Gilbert Alfred-Akash Doobraz → Gilbert Alfred–Akash Doobraz; Valentine Paul–Joanita Latour → Valentine Paul-Joanita Latour; на Beach Volleyball Zone 7 Tour – Round 2 → на Beach Volleyball Zone 7 Tour – Round 2; в Itsandra-Mdjini на Коморах → в Itsandra-Mdjini на Коморах; у Реюньона в финале → у Реюн
-Posted (Le Mauricien): ПЛЯЖНЫЙ ВОЛЕЙБОЛ – Золото для Маврикия на пути к континентальной квалификации!
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): MESSE DE SAINT-PIERRE : Mgr Durhône samedi : « Pour une véritable paix, tout commence par  == Месса за мир | Монсеньор Jean Мишель Durhône: «Мир также требует работы ради социальной сп
-  dup check: new (Announcement of the death of Khodadeen Sumodhee (Bhai Sam) on 6 October 2026 at age 96, his former role as permanent secretary to Sir Abdool Razack Mo)
-  not news (portrait/lifestyle): Nécrologie :  Khodadeen Sumodhee, un homme de conviction
-Skipped foreign news (Le Mauricien): Nécrologie :  Khodadeen Sumodhee, un homme de conviction
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Solace for the Nation == Law and Order Out of Control: выстрел, который разжёг тлеющие угли скрытого раскола
-LLM usage this run: 7 requests, 13048 tokens
-### check 2/5 at 14:34
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): COOPÉRATION MAURICE-ARABIE SAOUDITE : Riyad disposé à apporter son expertise face à la cri == Водный кризис: Маврикий запрашивает саудовскую экспертизу
-  dup: nothing new ()
-Skipped duplicate (L'Express): Tir à Camp-Levieux : Gautam Singh Taukoor maintenu en cellule jusqu’au 26 octobre == Выстрел в Camp-Levieux: сержанта Taukoor оставили под стражей до 26 октября
-  dup: nothing new ()
-Skipped duplicate (Inside News): Crise de l’eau : Maurice se tourne vers l’Arabie saoudite pour le dessalement == Водный кризис: Маврикий запрашивает саудовскую экспертизу
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Don de sang : le gouvernement vise au moins 100 pintes par semaine == ФЛАК | В ЭТУ СУББОТУ — Донорство крови: Анил Башу призывает восстановить национальные запа
-LLM usage this run: 4 requests, 8443 tokens
-### check 3/5 at 14:38
-### check 4/5 at 14:42
-### check 5/5 at 14:46
+### check 1/5 at 15:09
+  dup check: new (Maurice must fill a deficit of 5 000 IT specialists per year, as highlighted by the World Bank calling for reforms of skills, labour market and busine)
+Posted (L'Express): Структурные реформы: Маврикий должен восполнять дефицит в 5000 IT-специалистов в год
+LLM usage this run: 3 requests, 4771 tokens
