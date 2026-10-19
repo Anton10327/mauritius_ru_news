@@ -20,3 +20,10 @@ Skipped duplicate (Top FM): L’Assemblée nationale : Neuf projets de loi sur l
 Skipped duplicate (Top FM): Réservoirs d’eau et pompe : près de 24 000 demandes enregistrées, dont plus de 10 000 en l == Помощь CWA: 7 245 проверок завершено из 23 911 заявок
 LLM usage this run: 5 requests, 8057 tokens
 ### check 3/5 at 11:57
+### check 4/5 at 12:01
+  dup check: new (Citizens in multiple villages (Saint‑Pierre, Fond‑du‑Sac, Écroignard, Montagne‑Blanche) organized patrols and alerted police; Prime Minister Navin Ram)
+  proofread: напряженность → напряжённость; Navin Ramgoolam → Navin Ramgoolam
+Posted (L'Express): Напряженность по всей стране: граждане мобилизуются для защиты своих деревень
+  not about Mauritius: VIDEO :Tragédie à Kolkata – 19 morts dans une bousculade pendant Durga Puja
+Skipped foreign news (Inside News): VIDEO :Tragédie à Kolkata – 19 morts dans une bousculade pendant Durga Puja
+LLM usage this run: 4 requests, 6698 tokens
