@@ -1,37 +1,12 @@
-### check 1/5 at 19:53
-  dup check: new (Resident of Baie-du-Tombeau reports a water leak persisting for over a month in the Port‑Louis‑Jin Fei area, with no intervention despite a promise fr)
+### check 1/5 at 20:27
+  dup check: new (Появилась информация о том, что после недели хаоса пострадавшие торговцы и владельцы недвижимости без страховки требуют срочной компенсации от государ)
   written by GigaChat-3-Pro
-Posted (L'Express): «Who cares?»: житель Baie-du-Tombeau жалуется на утечку воды
-LLM usage this run: 3 requests, 4780 tokens
-### check 2/5 at 19:57
-### check 3/5 at 20:01
-  dup check: new (Interview with Joëlle Coret, president of MASA, about a meeting invited by the DPM with the Prime Minister to discuss collaboration with artists and t)
+  proofread: Au sommaire de ce Lundi 19 Octobre 2026 : → Au sommaire de ce lundi 19 octobre 2026 :
+Posted (Defimedia): Если нет страховки — не выиграть дом: последствия беспорядков и новые вызовы на Маврикии
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Message à la nation : Navin Ramgoolam annonce des consultations urgentes après les trouble == Офис премьер-министра: комендантский час не будет продлен с сегодняшнего вечера
+  dup check: new (Premier ministre Navin Ramgoolam annonce des consultations avec les ONG pour garantir de meilleures perspectives d’avenir aux enfants impliqués dans l)
   written by GigaChat-3-Pro
-  not news (portrait/lifestyle): Questions à…  Joëlle Coret : «La SAA est une priorité majeure»
-Skipped foreign news (L'Express): Questions à…  Joëlle Coret : «La SAA est une priorité majeure»
-LLM usage this run: 2 requests, 4201 tokens
-### check 4/5 at 20:05
-  dup check: new (Annonce d'un événement culinaire « Zarlor des Chefs à 4 mains 2026 » organisé du 26 septembre au 3 octobre par l'Office de Tourisme Intercommunal de l)
-  written by GigaChat-3-Pro
-  not news (portrait/lifestyle): RESTAURATION — Zarlor des Chefs à 4 mains 2026 : Les trésors culinaires des îles sœurs à l’honneur
-Skipped foreign news (Le Mauricien): RESTAURATION — Zarlor des Chefs à 4 mains 2026 : Les trésors culinaires des îles sœurs à l’honneur
-  dup check: new (Arrest of police constable Yanish Sookharee (23) with two packages of synthetic cannabinoids worth Rs 120 000 found in his car in Sainte‑Croix; provis)
-  written by GigaChat-3-Pro
-Posted (Le Mauricien): В Sainte-Croix в машине полицейского нашли синтетические наркотики
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Mauricien du 15 octobre 2026 == В Sainte-Croix в машине полицейского нашли синтетические наркотики
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Mauricien du 16 octobre 2026 == В Sainte-Croix в машине полицейского нашли синтетические наркотики
-LLM usage this run: 7 requests, 12633 tokens
-### check 5/5 at 20:09
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Mauricien du 17 octobre 2026 == В Sainte-Croix в машине полицейского нашли синтетические наркотики
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du weekend  du 18 octobre 2026 == В Sainte-Croix в машине полицейского нашли синтетические наркотики
-  dup check: new (Указаны имя погибшей (Sakina Balgobin), точное место происшествия (Сорез, автотрасса), результаты алкотеста (отрицательный), что водитель был помещён )
-  written by GigaChat-3-Pro
-  proofread: Сорвез → Сорез
-Posted (Le Mauricien): Сорез: пассажирка мотоцикла погибла в аварии
-  dup: nothing new ()
-Skipped duplicate (L'Express): Coopération Maurice-UE :  Navin Ramgoolam reçoit une délégation d'ambassadeurs européens == Маврикий–ЕС: усиленное партнерство в торговле, инвестициях, устойчивом развитии и климате
-LLM usage this run: 6 requests, 11430 tokens
+  proofread: Navin Ramgoolam → Навин Рамгулам
+Posted (Top FM): Инциденты с участием несовершеннолетних: премьер-министр Navin Ramgoolam объявил о консультациях с НПО для обеспечения лучшего будущего каждому ребёнку
+LLM usage this run: 7 requests, 11453 tokens
