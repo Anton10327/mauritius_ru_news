@@ -22,3 +22,16 @@ Skipped duplicate (Le Mauricien): Aéroport SSR – ce matin : Stand-by médical
   proofread: 
 Posted (Le Mauricien): КОМЕНДАНТСКИЙ ЧАС: более двадцати задержаний
 LLM usage this run: 7 requests, 10980 tokens
+### check 3/5 at 12:33
+  dup check: new (Identité du suspect arrêté : Ellvin Purmessur, 23 ans, fils de Belinda Purmessur, ainsi que la déclaration de la mère sur les circonstances de l’arres)
+  proofread: 
+Posted (Defimedia): Нарушение комендантского часа: Belinda высказалась после ареста своего сына Ellvin Purmessur
+  dup check: new (Arrest of a 21‑year‑old French man (Mengavio Damenzo Bodie) at Sir Seewoosagur Ramgoolam Airport on 11 october with 37 cocaine pellets (344 g) and 7 h)
+  proofread: Mengavio Damenzo Bodie, un ressortissant français de 21 ans, homme à tout faire habitant Limoges, a été arrêté par les éléments de l’Anti Drug and Smuggling Unit (ADSU) à son arrivée à l’aéroport sir Seewoosagur Ramgoolam (SSR), le dimanche 11 octobre. Au total, 37 boulettes de cocaïne pesant 344 gr
+Posted (L'Express): Аэропорт SSR: задержан 21-летний француз, изъято 37 шариков кокаина и семь — гашиша
+  dup check: new (Организована первая в Африке конференция по цифровому налогообложению на Маврикии, проходящая с 19 по 21 октября, с темой «Propelling Tax Administrati)
+Posted (Inside News): Цифровое налогообложение: Маврикий принимает первую африканскую конференцию
+  dup check: new (Le leader de l’opposition Chetan Baboolall alerte spécifiquement sur les risques du National Crime Agency Bill lors de sa première lecture prévue dema)
+  proofread: Четеран Бабуллал → Четан Бабуллал
+Posted (Top FM): Законопроект о Национальном агентстве по борьбе с преступностью: Chetan Baboolall предупреждает о рисках, связанных с полномочиями по наблюдению и прослушиванию
+LLM usage this run: 12 requests, 17880 tokens
