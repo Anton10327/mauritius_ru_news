@@ -12,3 +12,16 @@ Skipped duplicate (Inside News): Examens SC/HSC : l’incertitude persiste pour 
 LLM usage this run: 8 requests, 13131 tokens
 ### check 2/5 at 10:13
 ### check 3/5 at 10:17
+### check 4/5 at 10:21
+  dup check: new (AI contributes to one‑third of US growth, almost none in France; IMF forecast global GDP growth 3.1% in 2026 driven by AI investments; Kristalina Geor)
+  not about Mauritius: « Nous on se pose la question de freiner… »: l’IA génère déjà un tiers de la croissance américaine, 
+Skipped foreign news (Le Mauricien): « Nous on se pose la question de freiner… »: l’IA génère déjà un tiers de la croissance américaine, 
+  dup check: new (Arrest of a 31‑year‑old mechanic in Vallée‑des‑Prêtres on 17 october with a makeshift pipe suspected of containing heroin and a bottle of suspected me)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Валь-де-Prêtres: задержан мужчина с веществами, подозреваемыми в том, что это героин и метадон
+  dup check: new (Deux personnes arrêtées pour violation du couvre‑feu dans la nuit du dimanche 18 au lundi 19 octobre, aucun incident signalé.)
+Posted (Le Mauricien): Комендантский час: два ареста за ночь, инцидентов не зафиксировано
+  dup check: new (FMP leader Paul Bérenger warns that the Police Amendment Bill would give the police commissioner authority to impose a nationwide curfew and calls for)
+  proofread: Front Militan Progresis → Front Militan Progressif
+Posted (Le Mauricien): Законопроект о поправках в полицию — основные свободы: FMP предупреждает о рисках злоупотреблений
+LLM usage this run: 11 requests, 17783 tokens
