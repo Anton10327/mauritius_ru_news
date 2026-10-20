@@ -3,3 +3,13 @@
 Skipped duplicate (L'Express): Jean Claude de l’Estrac : «Notre principale faiblesse est notre incapacité à tirer les leç == ФЛАК | В ЭТУ СУББОТУ — Донорство крови: Анил Башу призывает восстановить национальные запа
 LLM usage this run: 1 requests, 2183 tokens
 ### check 2/5 at 16:11
+### check 3/5 at 16:15
+  dup check: new (Élodie Thomas écrit de nouveau et reconnaît chacun de ceux qui viennent la voir; elle enchaine quotidiennement séances de physiothérapie et tests médi)
+  proofread: Элоди Тома → Элоди Томас; Jonathan Thomas → Джонатан Томас; Anil Bachoo → Анил Баху
+Posted (L'Express): Выстрел в Camp-Levieux: состояние здоровья Élodie Thomas продолжает улучшаться
+  dup: nothing new (Pravind Jugnauth утверждает, что ответил на 37 вопросов следователей и назвал дело "политической манипуляцией"; его адвокат Raouf Gulbal заявил, что з)
+Skipped duplicate (Inside News): CCID : Pravind Jugnauth répond aux 37 questions et dénonce une « manipulation politique » == Оборудование для прослушки телефонов: Pravind Jugnauth снова в CCID
+  dup check: new (Pravind Jugnauth впервые публично заявляет, что Navin Ramgoolam должен «выиграть свою месть» за 10 лет пребывания в оппозиции и характеризует ситуацию)
+  proofread: «Правинд Джагнот» → «Pravind Jugnauth»; «бизин арет тир со реванс ки 10 ан ли ти дан лопозисьон…» → «Navin Ramgoolam bizin aret tir so revanche ki 10 ans li ti dan lopozisyon…»
+Posted (Top FM): Pravind Jugnauth: «Navin Ramgoolam должен прекратить мстить за 10 лет, проведённых в оппозиции…»
+LLM usage this run: 7 requests, 10962 tokens
