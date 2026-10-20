@@ -10,3 +10,16 @@ Posted (Le Mauricien): ФЛИК-АН-ФЛАК: 2 ареста после угр�
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): Cybercrime Unit — Couvre-feu sur les réseaux sociaux :  Le frère de l’ex-ministre Hurreera == Robin Харрирэм отрицает любое участие в «The Burning Paradise»
 LLM usage this run: 8 requests, 14622 tokens
+### check 2/5 at 15:03
+  dup: nothing new (Сидни Пьер официально занял место на передовой скамье оппозиции в Национальном собрании Маврикия после выхода из правительства и Лейбористской партии.)
+Skipped duplicate (Defimedia): Parlement : Sydney Pierre placé au premier rang de l’opposition == Сидни Pierre на передовой скамье оппозиции: Paul Bérenger говорит «вероятно, да»
+  dup check: new (В статье говорится о заявлении премьер-министра Навина Рамгулама в парламенте 20 октября, что за беспорядками стоит определённая координация и что аре)
+  proofread: Navin Ramgoolam → Навин Рамгулам
+Posted (Le Mauricien): PNQ — Беспорядки: арестован «барон» наркобизнеса, обсуждается координация инцидентов
+  dup check: new (Премьер-министр Маврикия Navin Ramgoolam сообщил в Национальном собрании, что с ноября 2024 года Financial Crimes Commission инициировала 1849 расслед)
+  proofread: Navin Ramgoolam → Навин Рамгулам
+Posted (Defimedia): FCC: 1 849 расследований с ноября 2024 года, получено пять приговоров
+  dup check: new (В статье описан новый инцидент: 19 октября в Palma (Quatre-Bornes) подозреваемый укусил двух полицейских при аресте; оба офицера получили травмы и был)
+  proofread: Quatre-Bornes → четверых-Борнс
+Posted (Defimedia): Palma: подозреваемый укусил двух полицейских при задержании
+LLM usage this run: 10 requests, 15977 tokens
