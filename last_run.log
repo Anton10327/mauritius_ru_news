@@ -34,3 +34,15 @@ Posted (Defimedia): Полицейское расследование: мужч�
   dup: nothing new ()
 Skipped duplicate (Inside News): Couvre-feu : douze prévenus toujours détenus, décision attendue mercredi == Нарушение комендантского часа: суд над двенадцатью обвиняемыми перенесён на среду
 LLM usage this run: 7 requests, 11410 tokens
+### check 4/5 at 15:11
+  dup check: new (Stéphanie Anquetil задаёт вопрос премьер-министру Navin Ramgoolam о предполагаемой причастности бывшего министра к беспорядкам — это новый факт, так к)
+  proofread: 
+Posted (Defimedia): Беспорядки: Stéphanie Anquetil спрашивает Ramgoolam о предполагаемом участии бывшего министра
+  not about Mauritius: Plumes engagées : Expression of gratitude to the Lord (Part One)
+Skipped foreign news (L'Express): Plumes engagées : Expression of gratitude to the Lord (Part One)
+  dup: nothing new (FMI prévoit désormais une croissance économique de 2,7 % pour Maurice en 2026 (contre 2,8 % précédemment), et estime la croissance mondiale à 3,1 % po)
+Skipped duplicate (Inside News): Croissance à 2,7 % : le FMI revoit à la baisse les perspectives de Maurice == Ювенальная преступность: является ли уголовная юстиция единственным ответом?
+  dup check: new (В статье описано новое событие: 17 октября в Копенгагене произошли столкновения между участниками марша движения Det Danske Folk и их противниками, чт)
+  not about Mauritius: Copenhague : huit arrestations après des affrontements
+Skipped foreign news (Inside News): Copenhague : huit arrestations après des affrontements
+LLM usage this run: 7 requests, 11538 tokens
