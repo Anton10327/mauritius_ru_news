@@ -1,8 +1,62 @@
-Could not read article https://defimedia.info/node/185852: 404 Client Error: Not Found for url: https://defimedia.info/node/185852
-http://defimedia.info/node/185885
-Participation présumée à une émeute : deux suspects réclament leur libération sous caution
-Cinq personnes, inculpées à titre provisoire de « taking part in a riot » (participation à une émeute), ont été reconduites en cellule policière jusqu’au 27 octobre 2026 après leur comparution, ce mardi 20 octobre, devant le tribunal de Port-Louis. La police a maintenu son objection à leur remise en liberté.
-Il s’agit de Jérôme Roger Agathe, un soudeur de 42 ans habitant Cassis ; de Dhiyven Lofur, un laveur de voitures de 19 ans domicilié à Baie-du-Tombeau ; de Jordy Jefferson Ip Kiun Chong, un « helper » de 42 ans sans domicile fixe ; ainsi que de Néhémie Luc Jean et de Louis Mike Dambel, tous deux âgés de 60 ans et domiciliés à Sainte-Croix.
-Les faits qui leur sont reprochés remontent au 12 octobre 2026, à Sainte-Croix.
-Lors de l’audience, Me Neil Pillay et Me Akshaye Kaniah ont demandé la remise en liberté sous caution de leurs clients respectifs, Jérôme Roger Agathe et Dhiyven Lofur.
-Le magistrat Arshaad Toorbuth a fixé les débats sur ces demandes au 26 octobre 2026.
+Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary models: ['GigaChat-3-Ultra', 'GigaChat-3-Pro', 'qwen/qwen3.8-27b', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b']
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-b43e09f6-6a1b-49ad-ad6b-f64d70490dc1","object":"chat.completion","created":1792500879,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.031481927,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-c3ce7a0f-305d-4079-9526-d083af670fdd","object":"chat.completion","created":1792500880,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
+openai/gpt-oss-20b 200 {"id":"chatcmpl-c5942c06-981a-4d40-bb94-9d0214318075","object":"chat.completion","created":1792500880,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So respond with \"ok\"."},"logprobs":null,"finish_reason":
+== Defimedia: https://defimedia.info/rss.xml
+Newest: Politique sur le cannabis : la National Drug Control Commission se prononcera sur les recommandations | https://defimedia.info/politique-sur-le-cannabis-la-national-drug-control-commission-se-prononcera-sur-les-recommandations
+Article text: 1872 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Ramgoolam%20cannabis.jpg
+  dup check: new (Le rapport d’évaluation de la réforme de la politique nationale sur le cannabis a été finalisé et soumis au Bureau du Premier ministre; il sera examin)
+  proofread by qwen/qwen3.8-27b
+  proofread: 20 октября 2026 года окончательный отчет об оценке реформы национальной политики по каннабису передан в Бюро премьер-министра → 20 октября 2026 года окончательный отчет об оценке реформы национальной политики по каннабису был передан в Бюро премьер-министра; Работу по оценке с января по июль 2026 го
+Duplicate of recent post #: None
+LLM usage so far: 6 requests, 5398 tokens
+-- Post that would be sent:
+<b>Политика в отношении каннабиса: Национальная комиссия по контролю над наркотиками вынесет решение по рекомендациям</b>
+
+Премьер-министр Маврикия Navin Ramgoolam сообщил, что 20 октября 2026 года окончательный отчет об оценке реформы национальной политики по каннабису был передан в Бюро премьер-министра. Документ рассмотрит National Drug Control Commission, которая должна принять решение по рекомендациям. Работу по оценке с января по июль 2026 года вел технический комитет под руководством Kunal Naik; проведено 18 заседаний и национальные консультации.
+
+🔗 <a href="https://defimedia.info/politique-sur-le-cannabis-la-national-drug-control-commission-se-prononcera-sur-les-recommandations">Defimedia</a>
+== L'Express: https://lexpress.mu/
+Newest: Coup de feu à Camp-Levieux : L’état de santé d’Élodie Thomas continue d’évoluer favorablement | https://lexpress.mu/s/letat-de-sante-delodie-thomas-continue-devoluer-favorablement-563843
+Article text: 1268 chars | photo: https://lexpress.mu/storage/articles/XclJmyK85q2Un3ptd4GQFxFvBR7HKy51bBdxUXJP.jpg
+  same headline as #152: Coup de feu à Camp-Levieux : L’état de santé d’Élodie Thomas continue d’évoluer 
+Duplicate of recent post #: 152
+LLM usage so far: 6 requests, 5398 tokens
+-- Post that would be sent:
+
+== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
+Newest: PNQ- Émeutes : un baron de la drogue arrêté, une coordination des incidents évoquée | https://www.lemauricien.com/actualites/societe/pnq-emeutes-un-baron-de-la-drogue-arrete-une-coordination-des-incidents-evoquee/721200/
+Article text: 5110 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2025/10/2025-10-07_12-51-08.jpg
+  same headline as #138: PNQ- Émeutes : un baron de la drogue arrêté, une coordination des incidents évoq
+Duplicate of recent post #: 138
+LLM usage so far: 6 requests, 5398 tokens
+-- Post that would be sent:
+
+== Inside News: https://inside.news/feed/
+Newest: Don de sang à Maurice : après une semaine d’interruption, les collectes reprennent | https://www.inside.news/don-sang-maurice-reprise-collectes-octobre-2026/
+Article text: 1658 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/601a9536-fc99-4bb0-8bf7-5154056a06ea__1_-Removed.png
+  dup: nothing new ()
+Duplicate of recent post #: 1
+LLM usage so far: 7 requests, 7754 tokens
+-- Post that would be sent:
+
+== Wazaa: https://www.wazaa.mu/feed/
+Newest: L’industrie textile subit des retards d’une semaine après les troubles et le couvre-feu | https://www.wazaa.mu/lindustrie-textile-subit-des-retards-dune-semaine-apres-les-troubles-et-le-couvre-feu/
+Article text: 5287 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1792500173.jpeg
+  dup: nothing new ()
+Duplicate of recent post #: 141
+LLM usage so far: 8 requests, 10129 tokens
+-- Post that would be sent:
+
+== Top FM: https://topfm.mu/
+Newest: Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37 questions du CCID mais exige plus de clarté | https://topfm.mu/actualites/enquete-sur-les-equipements-decoute-pravind-jugnauth-repond-37-questions-du-ccid-mais-exige-plus-de
+Article text: 949 chars | photo: https://topfm.mu/sites/default/files/media-icons/generic/video.png
+  same headline as #154: Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37 questions du
+Duplicate of recent post #: 154
+LLM usage so far: 8 requests, 10129 tokens
+-- Post that would be sent:
+
