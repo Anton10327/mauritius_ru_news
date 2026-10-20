@@ -150,7 +150,10 @@ PROMPT = (
     "Bruneau Laurette, Port-Louis, Sainte-Croix, Business Mauritius); названия "
     "городов и районов никогда не переводи по частям: Quatre-Bornes, Rose-Hill, "
     "Beau-Bassin, Vacoas, Curepipe, Grand-Baie, Mahébourg, Rivière-Noire, "
-    "Pamplemousses, Flacq, Plaine-Verte, Roche-Bois, Pointe-aux-Sables. Про остров "
+    "Pamplemousses, Flacq, Plaine-Verte, Roche-Bois, Pointe-aux-Sables. "
+    "Исключение — зарубежная география: страны, их столицы и другие города за "
+    "пределами Маврикия пиши по-русски, как принято в русских СМИ (Сингапур, "
+    "Лондон, Париж, Лилль, Нью-Дели, Реюньон, Мадагаскар), а не латиницей. Про остров "
     "пиши «на Маврикии», «на Маврикий», «с Маврикия» (не «в Маврикии»); склонять их "
     "не нужно, при необходимости добавь русское слово: «премьер-министр Navin "
     "Ramgoolam», «в городе Curepipe». Рупии — «рупий». Словарик: couvre-feu — комендантский "
@@ -689,7 +692,13 @@ australienne mauriciens mauriciennes rodriguais comorien comorienne kenyan japon
 espagnol espagnole portugais belge suisse canadien canadienne emirati saoudien
 policier policiers policiere indian program programme aeroport incidents incident comment
 rating express impots administration expert african commissioner office officer
-chief minister court committee commissions""".split()
+chief minister court committee commissions
+singapour singapore london londres paris lille lyon marseille bordeaux toulouse nice
+nantes montpellier strasbourg valence narbonne rennes delhi new-delhi mumbai bombay
+chennai calcutta kolkata bangalore pekin beijing shanghai dubai doha abu riyad
+johannesburg durban pretoria nairobi antananarivo tananarive saint-denis moroni
+maputo canberra melbourne tokyo moscou washington bruxelles
+geneve rome berlin madrid lisbonne""".split()
 
 
 def _sound(word):
@@ -808,15 +817,15 @@ def _align_names(text, original):
                     ok = False
                 else:
                     out.extend(gap)
+            # a sentence-initial word is usually not a name part ("Активиста
+            # Bruneau"): it needs a close match ("Франсуа Mark" ~ François Mark)
             starts = re.search(r"(^|[.!?:«\"—]\s*)$", text[:m.start()]) is not None
-            if ok and out and isinstance(out[0], list) and starts:
-                ok = False  # "Активиста Bruneau ...": a sentence-initial word is not a name part
             if ok and out and isinstance(out[0], list):  # Cyrillic words first
                 cyr = out.pop(0)
                 first = run.index(out[0]) if out and out[0] in run else -1
                 gap = run[max(0, first - len(cyr)):first] if first > 0 else []
                 if not gap or SequenceMatcher(None, _sound("".join(cyr)),
-                                              _sound("".join(gap))).ratio() < 0.5:
+                                              _sound("".join(gap))).ratio() < (0.75 if starts else 0.5):
                     ok = False
                 else:
                     out = gap + out
