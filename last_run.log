@@ -1,47 +1,9 @@
-### check 1/5 at 16:51
-  same headline as #120: Équipements d’écoute téléphonique : Pravind Jugnauth de retour au CCID
-Skipped duplicate (Defimedia): Équipements d’écoute téléphonique : Pravind Jugnauth déplore la manière dont l’enquête est == Оборудование для прослушки телефонов: Pravind Jugnauth снова в CCID
-  dup: nothing new (В статье указано, что после недели перерыва сбор крови возобновился и описано конкретное мероприятие по донорству 17 октября во Флаке с участием минис)
-Skipped duplicate (Inside News): Don de sang à Maurice : après une semaine d’interruption, les collectes reprennent == ФЛАК | В ЭТУ СУББОТУ — Донорство крови: Анил Башу призывает восстановить национальные запа
-  dup: nothing new ()
-Skipped duplicate (Wazaa): L’industrie textile subit des retards d’une semaine après les troubles et le couvre-feu == Постконфликтная ситуация — текстиль: неделя перебоев, задержки поставок
-  dup check: new (Pravind Jugnauth a répondu à 37 questions du CCID et a exigé plus de clarté sur l’enquête, ce qui n’était pas mentionné dans les précédents articles.)
-  proofread by qwen/qwen3.8-27b
-  proofread: Правинд Джагнот → Pravind Jugnauth; Раоуф Гулбул → Raouf Gulbul
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Photo download failed: HTTP 404 for https://topfm.mu/sites/default/files/media-icons/generic/video.png
-Photo failed: https://topfm.mu/sites/default/files/media-icons/generic/video.png — sending text only
-Posted (Top FM): Расследование по прослушивающему оборудованию: Pravind Jugnauth ответил на 37 вопросов CCID, но требует большей ясности
-LLM usage this run: 5 requests, 9513 tokens
-### check 2/5 at 16:55
-  dup check: new (Pravind Jugnauth a déclaré que l’enquête était «une tentative de manipulation politique claire», citation not present in earlier reports.)
-  proofread by qwen/qwen3.8-27b
-  proofread: Правинд Джугнаут → Pravind Jugnauth; третье допрос → третий допрос
-Posted (Defimedia): Расследование по оборудованию для прослушки: «Это расследование — явная попытка политической манипуляции», — заявил Pravind Jugnauth
-  dup check: new (Le Premier ministre Navin Ramgoolam a annoncé lors du PMQT du 20 octobre que le rapport d’évaluation de la réforme de la politique nationale sur le ca)
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Политика в отношении каннабиса: Национальная комиссия по контролю над наркотиками вынесет решение по рекомендациям
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Disparition d’une employée bangladaise : elle n’a pas quitté Maurice, affirme Ramgoolam == Бангладешская гражданка пропала без вести с 3 апреля: отъезд с Маврикия не зафиксирован
-  dup check: new (Le Mauritius Council of Social Service (MACOSS) a publié un communiqué le 20 octobre 2026, signé par son président Suraj Ray, appelant à donner davant)
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Социальный мир: MACOSS призывает дать молодежи больше возможностей
-LLM usage this run: 10 requests, 17867 tokens
-### check 3/5 at 16:59
-### check 4/5 at 17:03
-  dup check: new (Présence du prêtre brésilien João Gomes à Maurice pour la Journée mondiale des animaux, promotion d'une politique publique en faveur des animaux, init)
-  not news (portrait/lifestyle): Dans le cadre de la Journée mondiale des animaux — De Netflix à Maurice : le père João Gomes plaide 
-Skipped foreign news (Le Mauricien): Dans le cadre de la Journée mondiale des animaux — De Netflix à Maurice : le père João Gomes plaide 
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): VTT – Fundsmith Colin Mayer 2026 – Une domination sans partage du binôme Lincoln–Stiebjahn == Велогонка CIEL Fundsmith Colin Mayer Tour 2026: Lincoln–Stiebjahn и De Witt–Domaingue одер
-  dup check: new (Назначение Ромео Калисте новым тренером сборной Маврикия по боксу для участия в чемпионате Африки 2026 в Киншасе; участие пяти элитных боксеров и Шлоэ)
-  proofread by qwen/qwen3.8-27b
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): БОКС – На фоне Игр островов Индийского океана 2027 с новым тренером
-  dup check: new (Analyse constitutionnelle : l’article 35 de la Constitution mauricienne ne prévoit pas la perte automatique du siège d’un député qui quitte son parti,)
+### check 1/5 at 17:35
+  dup check: new (La Banque de Maurice a révisé sa directive sur le Cash Reserve Requirement (CRR), avec entrée en vigueur le 14 octobre, précisant les ratios pour les )
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  proofread: 
-Posted (Le Mauricien): Закон против перехода в другую партию: случай Sydney Pierre выявляет пробел в нашей Constitution
-LLM usage this run: 9 requests, 18546 tokens
-### check 5/5 at 17:07
+  proofread: о обязательных → об обязательных
+Posted (L'Express): Банковская ликвидность: новая директива об обязательных резервах от Банка Маврикия
+  same headline as #108: Bain-de-Rosnay : Un dauphin retrouvé mort
+Skipped duplicate (L'Express): Bain-de-Rosnay : Un dauphin retrouvé mort, son espèce reste à identifier == Bain-de-Rosnay: найден мёртвый дельфин
+LLM usage this run: 3 requests, 5428 tokens
