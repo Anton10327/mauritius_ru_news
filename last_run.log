@@ -1,21 +1,19 @@
-### check 1/5 at 17:35
-  dup check: new (La Banque de Maurice a révisé sa directive sur le Cash Reserve Requirement (CRR), avec entrée en vigueur le 14 octobre, précisant les ratios pour les )
+### check 1/5 at 18:15
+  dup check: new (Inauguration of a new police post in Cent Gaulettes on 16 October 2026, attended by Police Commissioner Rampersad Sooroojebally and other officers; th)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  proofread: о обязательных → об обязательных
-Posted (L'Express): Банковская ликвидность: новая директива об обязательных резервах от Банка Маврикия
-  same headline as #108: Bain-de-Rosnay : Un dauphin retrouvé mort
-Skipped duplicate (L'Express): Bain-de-Rosnay : Un dauphin retrouvé mort, son espèce reste à identifier == Bain-de-Rosnay: найден мёртвый дельфин
-LLM usage this run: 3 requests, 5428 tokens
-### check 2/5 at 17:39
-### check 3/5 at 17:43
-  dup: nothing new ()
-Skipped duplicate (Wazaa): La police interroge le frère d’un ancien ministre, alors que 12 suspects du procès relatif == Сообщения, распространявшиеся в WhatsApp: Robin Hurreeram допрошен Central CID
-LLM usage this run: 1 requests, 2312 tokens
-### check 4/5 at 17:47
-  dup check: new (Показано, что после беспорядков 17 октября во Франции товары, украденные в магазинах (сумки, одежда, парфюмерия, предметы роскоши), появляются на улиц)
+Posted (Inside News): Cent Gaulettes: открыт новый полицейский участок для усиления местной безопасности
+  dup check: new (Le ministre Patrick Assirvaden a indiqué que 28 306 demandes ont été reçues dans le cadre du programme d’aide aux réservoirs d’eau et pompes domestiqu)
   written by qwen/qwen3.8-27b
-  not about Mauritius: Video: France – Après les pillages du 17 octobre, le butin s’affiche en ligne et dans la rue
-Skipped foreign news (Inside News): Video: France – Après les pillages du 17 octobre, le butin s’affiche en ligne et dans la rue
-LLM usage this run: 2 requests, 4606 tokens
-### check 5/5 at 17:51
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Программа по водонакопительным бакам может быть расширена на семьи, у которых уже есть резервуары
+  dup check: new (Тестimonies of Mauritian diaspora in France after the October 17 protests, including the reported number of 500 000–800 000 participants in French str)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Насилие 17 октября | Голоса диаспоры во Франции: между гневом, тревогой и страхом за будущее
+  dup check: new (Введение новых сертификатов рождения, брака и смерти с усиленными мерами безопасности, действующих с 19 октября 2026 года, включая серийные номера и с)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Inside News): Свидетельства о рождении, браке и смерти: что меняется на Маврикии с 19 октября
+LLM usage this run: 12 requests, 21081 tokens
