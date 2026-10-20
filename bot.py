@@ -121,8 +121,12 @@ PROMPT = (
     "остров или регион за пределами Маврикия). ru — только для foreign: "
     "название по-русски в именительном падеже, как в русских СМИ "
     "(Irlande → Ирландия, Congo → ДР Конго, Comores → Коморы, Kinshasa → "
-    "Киншаса, Singapour → Сингапур). Затем в title и summary пиши person, org "
-    "и mu_place ТОЧНО как orig, латиницей, не склоняя и не переводя частично "
+    "Киншаса, Singapour → Сингапур). ru также для org, у которых есть обычное "
+    "русское название: Assemblée nationale → Национальное собрание, Parti "
+    "travailliste → Лейбористская партия, Banque de Maurice → Банк Маврикия, "
+    "Cour suprême → Верховный суд, Cour intermédiaire → Промежуточный суд, "
+    "министерства, полиция; такие org пиши по-русски. Затем в title и summary пиши person, "
+    "остальные org и mu_place ТОЧНО как orig, латиницей, не склоняя и не переводя частично "
     "(никаких «Клёэ Gabriel» или «Матьё Souprayen» — только «Chloé Gabriel»); "
     "foreign — только по-русски, склоняя как обычные слова («в Ирландии», "
     "«на Коморах»). "
@@ -964,7 +968,8 @@ def apply_names(text, names, source_text=""):
     # some models write non-breaking hyphens and spaces (Poudre‑d’Or, 20 %)
     text = text.replace("\u2011", "-").replace("\u2010", "-").replace("\u00a0", " ").replace("\u202f", " ")
     latin_names = [n["orig"].strip() for n in names
-                   if n.get("type") != "foreign" and re.search(r"[A-Za-zÀ-ÿ]", n["orig"])]
+                   if n.get("type") != "foreign" and not n.get("ru")
+                   and re.search(r"[A-Za-zÀ-ÿ]", n["orig"])]
     for n in names:
         ru, orig = (n.get("ru") or "").strip(), n["orig"].strip()
         if n.get("type") != "foreign" or not ru or not re.search(r"[A-Za-zÀ-ÿ]", orig):
@@ -1165,9 +1170,8 @@ def proofread(title, summary, original="", names=()):
             and (m.startswith("GigaChat") or (LLM_KEY and not _llm_state["disabled"]))]
     if not free:
         return title, summary
-    listing = "\n".join(f"{n['orig']} → {n['ru']}" if n.get("type") == "foreign" and n.get("ru")
-                         else n["orig"] for n in names)
-    foreign = [n["orig"] for n in names if n.get("type") == "foreign"]
+    listing = "\n".join(f"{n['orig']} → {n['ru']}" if n.get("ru") else n["orig"] for n in names)
+    foreign = [n["orig"] for n in names if n.get("ru")]  # these may leave the text
     messages = [{"role": "system", "content": PROOF_PROMPT},
                 {"role": "user", "content": f"Заголовок: {title}\nТекст: {summary}\n\n"
                                             + (f"Обязательные написания (латиницей — точно так; "
