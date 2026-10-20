@@ -1,40 +1,6 @@
-### check 1/5 at 13:52
-  dup check: new (В статье приведены свежие данные за первое полугодие 2026 года: зарегистрировано 244 новых диагноза ВИЧ на Маврикии, причём более половины связаны с г)
-Posted (Defimedia): ВИЧ: более половины диагнозов связаны с гетеросексуальными контактами
-  dup check: new (Deven Anacootee, после допроса в Cybercrime Unit, заявил, что не знает страницу Facebook Pima Info. Это его прямое заявление о незнании страницы, кото)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Deven Anacootee: «Я не знаю страницу Pima Info»
-  dup check: new (В статье впервые названы имена пяти подозреваемых в участии в беспорядках (Jérôme Roger Agathe, Dhiyven Lofur, Jordy Jefferson Ip Kiun Chong, Néhémie )
-  proofread: «taking part in a riot» → «участии в беспорядках»; «helper» → «помощник»; «Me Neil Pillay et Me Akshaye Kaniah» → «Адвокаты Нил Пилли и Акшай Каня»
-Posted (Defimedia): Предполагаемое участие в беспорядках: двое подозреваемых требуют освобождения под залог
-  dup check: new (Упоминается, что уровень воды в Mare-aux-Vacoas достиг 34,2%, и это подаётся как тревожный показатель. В уже опубликованных статьях есть близкая цифра)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Водный кризис: от Vacoas до Curepipe кран пересыхает, а тревога растёт
-LLM usage this run: 12 requests, 19401 tokens
-### check 2/5 at 13:56
+### check 1/5 at 14:23
   dup: nothing new ()
-Skipped duplicate (Wazaa): Policier et deux autres arrêtés à Quatre-Bornes pour une saisie de cannabis de plus d’un m == Подозрение в торговле каннабисом: арестованы полицейский и еще двое подозреваемых
-  dup: nothing new (Премьер-министр Маврикия Navin Ramgoolam анонсировал открытие срочных консультаций с НПО и специалистами для выяснения причин недавних беспорядков, а )
-Skipped duplicate (Inside News): Après les émeutes, Ramgoolam promet d’agir : quelles solutions pour la jeunesse ? == Инциденты с участием несовершеннолетних: премьер-министр Navin Ramgoolam объявил о консуль
-LLM usage this run: 2 requests, 4582 tokens
-### check 3/5 at 14:00
-  same headline as #128: Équipements d’écoute téléphonique : Pravind Jugnauth de retour au CCID
-Skipped duplicate (Inside News): Équipements d’écoute téléphonique : Pravind Jugnauth de retour au CCID pour la suite de so == Оборудование для прослушки телефонов: Pravind Jugnauth снова в CCID
-### check 4/5 at 14:04
-  dup check: new (Me Callichurn утверждает, что его клиент Deven Anacootee не считает себя затронутым заявлениями Bruneau Laurette. Это новая цитата адвоката и его пози)
-  proofread: Брюно Лоре → Брюно Лоретт (по оригиналу); Судеш Калличурн → Судеш Калличурн; девяносто-девять → девяносто девять
-Posted (Defimedia): Адвокат Callichurn: «Deven Anacootee не считает себя причастным к заявлениям Bruneau Лоре»
-  dup check: new (Премьер-министр Навин Рамгулам в ответ на вопрос оппозиции заявил, что «барон наркотрафика был арестован», не раскрывая его личность. Это первое публи)
-  proofread: Navin Ramgoolam → Навин Рамгулам; Chetan Baboolall → Четан Бабуолл
-Posted (Defimedia): PNQ о беспорядках: «Арестован наркобарон», — утверждает Ramgoolam
-  dup check: new (В статье приведена прямая цитата ответа премьер-министра Navin Ramgoolam на вопрос лидера оппозиции Chetan Baboolall о предполагаемых израильских устр)
-  proofread: Chetan Baboolall → Четан Бабулалла; Navin Ramgoolam → Навин Рамгулам; "It's a figment of his imagination..." → "Это плод его воображения..."
-Posted (Defimedia): Предполагаемое израильское оборудование для слежки за WhatsApp: Ramgoolam отвечает Baboolall
-  dup check: new (В статье упоминается, что адвокат Yousouf Jan Mahomed поднимает вопрос о полномочиях IPCC и рисках конфликтов интересов при расследовании стрельбы с у)
-  proofread: Элоид Тома → Элоиди Томас; Soobrayen Tirvassen → Собрайен Тирвассен; Me Yousouf Jan Mahomed → Ме Ёссуф Жан Махомед
-Posted (Defimedia): Дело Élodie Thomas: IPCC перед испытанием своих полномочий
-LLM usage this run: 12 requests, 19361 tokens
-### check 5/5 at 14:08
-  proofread: Krepalloo Sunghoon → Креспаллу Сунхун
-Posted (L'Express): Водохранилище La Nicolière заполнено на 39,4%: фермеры обеспокоены за свои урожаи
-LLM usage this run: 2 requests, 2903 tokens
+Skipped duplicate (L'Express): Plumes engagées : Quand la colère embrase les rues == Юбилейный спектакль — Pa Per Revé : Les Enfants d’Un Rêve: 25 лет на сцене, мечта на бис
+  same headline as #138: Me Callichurn : «Deven Anacootee ne se sent pas concerné par les déclarations de
+Skipped duplicate (Inside News): Cybercrime Unit : Deven Anacootee entendu, son avocat affirme qu’il ne se sent pas concern == Адвокат Callichurn: «Deven Anacootee не считает себя причастным к заявлениям Bruneau Лоре»
+LLM usage this run: 1 requests, 2200 tokens
