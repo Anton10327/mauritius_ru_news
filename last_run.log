@@ -11,3 +11,9 @@ Posted (Defimedia): Предполагаемое участие в беспор�
   proofread: edit rejected (changed numbers, names or length)
 Posted (L'Express): Водный кризис: от Vacoas до Curepipe кран пересыхает, а тревога растёт
 LLM usage this run: 12 requests, 19401 tokens
+### check 2/5 at 13:56
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Policier et deux autres arrêtés à Quatre-Bornes pour une saisie de cannabis de plus d’un m == Подозрение в торговле каннабисом: арестованы полицейский и еще двое подозреваемых
+  dup: nothing new (Премьер-министр Маврикия Navin Ramgoolam анонсировал открытие срочных консультаций с НПО и специалистами для выяснения причин недавних беспорядков, а )
+Skipped duplicate (Inside News): Après les émeutes, Ramgoolam promet d’agir : quelles solutions pour la jeunesse ? == Инциденты с участием несовершеннолетних: премьер-министр Navin Ramgoolam объявил о консуль
+LLM usage this run: 2 requests, 4582 tokens
