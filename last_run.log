@@ -8,3 +8,11 @@ Posted (Defimedia): Законопроект о поправках к закон
 Skipped foreign news (Le Mauricien): Photographie : Dilo Dibout ? L’île Maurice autrement
 LLM usage this run: 6 requests, 11196 tokens
 ### check 2/5 at 07:28
+### check 3/5 at 07:32
+  dup check: new (В статье упоминается, что максимальные наказания за нападение собак предусмотрены Animal Welfare Act и приводятся конкретные суммы штрафа (до 100 000 )
+  proofread: Было: ...в Quartier-Militaire... Стало: ...в Bonne Veine (Quartier-Militaire)...
+Posted (Defimedia): Девочка, на которую напали два ротвейлера: штраф до 100 000 рупий и пять лет тюрьмы, напоминает MSAW
+  dup check: new (Pravind Jugnauth de nouveau attendu au CCID ce mardi 20 octobre dans le cadre d’une enquête sur l’acquisition d’équipements d’écoute téléphonique sous)
+  proofread: Правинд Джагнот → Pravind Jugnauth
+Posted (Defimedia): Оборудование для прослушки телефонов: Pravind Jugnauth снова ожидается в CCID во вторник
+LLM usage this run: 6 requests, 10398 tokens
