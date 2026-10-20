@@ -744,6 +744,7 @@ def _sound(word):
     w = unicodedata.normalize("NFKD", w)
     w = "".join(c for c in w if not unicodedata.combining(c))
     w = "".join(_CYR2LAT.get(c, c) for c in w)
+    w = re.sub(r"ch(?=[lr])", "k", w)  # Члоэ (a misspelt Chloé) ~ kl
     w = w.replace("ch", "sh")  # French ch = Russian ш (Sèche ~ Сеш)
     for a, b in (("ou", "u"), ("ph", "f"), ("qu", "k"), ("ck", "k"), ("c", "k"),
                  ("q", "k"), ("w", "v"), ("y", "i"), ("x", "ks"), ("dj", "j"),
@@ -1064,11 +1065,13 @@ def latinize_names(text, original, lenient=False):
         if initial:  # a sentence-initial word is usually an ordinary word
             need = max(need, 0.9)
         if lenient:  # candidates are only the article's real names
-            need -= 0.17
+            need -= 0.12
         return found if score >= need else None
 
     def sub(m):
         word = m.group(0)
+        if re.match(r"(Маврики|Маврикий|Родриг|Порт-Луи)", word):
+            return word  # the country itself is always in Russian
         latin = best(word, at_start(text, m.start()))
         return latin if latin else word
     # Capitalised Cyrillic words (not at the start of a sentence: those are
