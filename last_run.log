@@ -11,3 +11,14 @@ Posted (Le Mauricien): После бурной недели — возобнов
   dup check: new (В статье указано, что с 13 октября арестовано 188 человек — это конкретное число впервые появляется в этой публикации. В ранее опубликованных материал)
 Posted (L'Express): Напряжённость по всему острову: с 13 октября арестованы 188 человек
 LLM usage this run: 12 requests, 20777 tokens
+### check 2/5 at 09:55
+  dup: nothing new (Освобождение под залог трёх полицейских, подозреваемых в виновном бездействии после ранения Élodie Thomas; сумма залога и обязательства каждого.)
+Skipped duplicate (Le Mauricien): Camp-Levieux — COUP DE FEU SUR ÉLODIE THOMAS : Liberté conditionnelle à 3 policiers pour a == Élodie Thomas ранена пулей: трое полицейских, арестованных за «виновное бездействие», осво
+  dup: nothing new (В статье говорится, что в парламенте 20 октября будет поднят вопрос о возможной причастности организованных преступных сетей к беспорядкам и обсуждены)
+Skipped duplicate (Le Mauricien): Reprise parlementaire : émeutes, couvre-feu et crise de l’eau au cœur de la PNQ == Возобновление работы парламента: кризис с водой, насилие и чувствительные законопроекты
+  dup check: new (В статье сообщается, что лидер оппозиции Chetan Baboolall планирует задать Private Notice Question (PNQ) премьер-министру Navin Ramgoolam по поводу не)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): PNQ: Chetan Baboolall обращается к Navin Ramgoolam по поводу недавней напряженности по всей стране
+  same headline as #128: Pillage au London Way de Mahébourg : un suspect de 20 ans arrêté
+Skipped duplicate (Wazaa): Jeune de 20 ans arrêté pour pillages et incendies sur London Way à Mahébourg == Грабеж на London Way в Mahébourg: задержан 20-летний подозреваемый
+LLM usage this run: 5 requests, 9546 tokens
