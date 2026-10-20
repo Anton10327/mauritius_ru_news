@@ -1,62 +1,107 @@
-Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary models: ['GigaChat-3-Ultra', 'GigaChat-3-Pro', 'qwen/qwen3.8-27b', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b']
-== Translation (Google, then MyMemory)
+LLM per-minute limit, waiting 30s
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
+  written by openai/gpt-oss-120b
+
+===  PNQ : Navin Ramgoolam confirme l’arrestation d’un baron de la drogue
+names: Navin Ramgoolam (person); Chetan Baboolall (person); Assemblée nationale (org)
+PNQ: Navin Ramgoolam подтверждает арест наркобарона 
+ Премьер‑министр Navin Ramgoolam сообщил во время сессии Private Notice Question, проведённой 20 октября в Национальном собрании, что в стране задержан как минимум один наркобарон. Он не назвал подозреваемого и детали задержания, но отметил, что разведывательные службы считают, что наркокартели финансировали недавние беспорядки. Кроме того, Ramgoolam обсудил возможные координированные атаки на полицейские посты и инфраструктуру, защитил введённый комендантский час и объявил о создании кризисного комитета по водным проблемам, первая встреча которого запланирована на 22 октября.
+  written by openai/gpt-oss-120b
+
+===  Violences du 17 octobre | Paroles de la diaspora en France : Entre colère, inquiétude et peur de l’a
+names: Jenika Farineaux (person); Archad Burahee (person); France→Франция (foreign)
+Насилие 17 октября: слова диаспоры во Франции — гнев, тревога и страх перед будущим 
+ После массовых протестов 17 октября во Франции, в которых участвовали от 500 000 до 800 000 человек, представители маврикийской диаспоры в стране выразили тревогу за будущее. Jenika Фарино, руководитель магазина Darty, и Архад Burahee, лицензированный агент FIFA, отметили рост цен, рост стоимости топлива выше двух евро за литр и общее ухудшение социального климата. Они также подчеркнули, что на Маврикии продолжаются беспорядки, частично сдерживаемые комендантским часом, введённым 12 октября.
+  written by openai/gpt-oss-120b
+
+===  Water Tanks : le programme pourrait être étendu aux familles qui possèdent déjà un réservoir d’eau
+names: Patrick Assirvaden (person); Raviraj Beechook (person); Central Water Authority (org); Mare-aux-Vacoas (mu_place); La Nicolière (mu_place)
+Водяные резервуары: программа может быть расширена на семьи, уже имеющие резервуар 
+ Министр общественных услуг Patrick Assirvaden сообщил в Национальном собрании, что в рамках программы помощи в получении водяных резервуаров и насосов уже получено 28 306 заявок. Программа сначала ориентирована на семьи без резервуаров, но может быть расширена и на тех, кто уже имеет резервуар. Министр также предупредил, что уровень воды в резервуаре Mare-aux-Vacoas может упасть до 20 % к ноябрю без новых осадков; сейчас он составляет 34,2 % против 39,4 % в La Nicolière.
+LLM per-minute limit, waiting 10s
+  written by openai/gpt-oss-120b
+
+===  La police interroge le frère d’un ancien ministre, alors que 12 suspects du procès relatif au couvre
+names: Robin Hurreeram (person); Bobby Hurreeram (person); Shefali Ganoo-Arekion (person); Michel Ah Sen (person); Kevin Moorgen (person); Oozeer (person); Rajeshwar Kumarsing Sawaruth (person); Rishvant Alhodur (person); Mohammad Zuhell Fakermahamood (person); Louis Jason Evans Plaignant (person); Muhammad Umar Shamtally (person); Central CID (org); Bureau du Procureur général (org); Cour intermédiaire (org); Quatre-Bornes (mu_place); Bassin Road (mu_place); Bambous (mu_place); Morcellement Eau Bonne (mu_place); Coteau Raffin (mu_place); La Gaulette (mu_place)
+Полиция допрашивает брата бывшего министра, а суд над 12 подозреваемыми в нарушении комендантского часа отложен 
+ Сегодня полиция Центрального CID допросила Robin Hurreeram, брата бывшего министра Bobby Hurreeram, по поводу распространения сообщений в WhatsApp во время недавних беспорядков. Одновременно суд над двенадцатью мужчинами, обвиняемыми в нарушении комендантского часа, отложен до среды, 21 октября. Обвинение возглавляют Michel Ах Sen и Kevin Moorgen из Бюро генпрокурора, а в заседании выступил заместитель делегата полиции Оозер. Подозреваемые находятся под предварительным заключением.
+LLM per-minute limit, waiting 17s
+  written by openai/gpt-oss-120b
+
+===  Bain-de-Rosnay : Un dauphin retrouvé mort, son espèce reste à identifier
+names: Bain-de-Rosnay (mu_place); Poudre-d’Or (mu_place); Grand-Gaube (mu_place); Marine Science Division (org); Fisheries Protection Service (org); National Coast Guard (org); île d’Ambre (mu_place)
+Bain-de-Rosnay: найден мертвый дельфин, его вид нужно определить 
+ Вчера, 19 октября, рыбаки в районе Bain-de-Rosnay обнаружили труп дельфина. Корабль береговой охраны из Poudre‑д’Ор и Гран‑Гоб прибыл на место, а службы Marine Science Division, Fisheries Protection Service и National Coast Guard начали работу. Тело было перемещено к станции разгрузки рыбы, а затем временно размещено на острове Ambre из‑за плохих морских условий. Дальнейшее определение вида будет проведено с помощью ДНК‑анализа.
+LLM per-minute limit, waiting 10s
+  written by openai/gpt-oss-120b
+
+===  Liquidités bancaires : Nouvelle directive des réserves obligatoires par la Banque de Maurice
+names: Banque de Maurice (org); BoM (org); Banking Act 2004 (org)
+Банковские ликвидности: новая директива обязательных резервов от Банка Маврикия 
+ Банк Маврикия (BoM) с 14 октября ввёл новую версию директивы по обязательным резервам (CRR). Banking обязаны держать резервы в размере 9 % от средних депозитов в рупиях и в валюте для резидентов, а для GBC, Authorised Companies и нерезидентов – 4,5 % от депозитов в валюте. Резервы рассчитываются за 28‑дневный период и должны находиться на счетах в BoM, исключая средства в Overnight Deposit Facility. Директива направлена на укрепление финансовой стабильности.
+LLM per-minute limit, waiting 4s
+LLM limit reached for openai/gpt-oss-120b: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5021, Req
+  written by openai/gpt-oss-20b
+
+===  Loi anti-transfugisme : Le cas de Sydney Pierre met en lumiÃ¨re une lacune de notre Constitutionâ¨â
+names: Sydney Pierre (person); Parti travailliste (org); Assemblée nationale (org); Maurice (mu_place)
+Закон против трансфугизма: случай Sydney Pierre раскрывает недостаток нашей Конституции 
+ Sydney Pierre, депутат, покинул Лейбористскую партию и перешёл в оппозицию 16 октября 2026 года, что вызвало вопросы о конституционных последствиях смены партийной принадлежности. В текущей Конституции Маврикия отставка депутата от партии не приводит к автоматической потере места в Национальном собрании. Если бы существовал закон «anti‑transfugisme», его решение могло бы привести к освобождению места и последующим частичным выборам. Вопрос о том, как сохраняется доверие избирателей и соблюдается партийная дисциплина, остаётся открытым.
+  written by openai/gpt-oss-20b
+
+===  BOXE – Les JIOI 2027 en toile de fond  avec un nouvel entraÃ®neur en poste
+names: Chloé Gabriel (person); Roméo Caliste (person); Pascal Telvar (person); Richard Sunee (person); l'Amb (org); International Boxing Association (org); World Boxing (org); Mathieu Souprayen (person); Fabrice Valérie (person); Ivans Frontin (person); Ziggy Agathe (person); Merven Clair (person); Ravind Nadooa (person); Ferdinand Ilunga Luyoyo (person); République démocratique du Congo→ДР Конго (foreign); Comores→Коморы (foreign); Ireland→Ирландия (foreign); Kenya→Кения (foreign)
+Бокс – JIOI 2027 на фоне с новым тренером 
+ Маврикийская федерация бокса объявила о назначении нового тренера, Roméo Caliste, для подготовки команды к чемпионату Африки 2026 в Республике Демократическом Конго и к JIOI 2027 на Коморах. В составе сборной находятся пять боксеров, включая Члоэ Gabriel, и шесть спортсменов, представляющих Маврикий. Руководитель федерации, Pascal Telvar, подчеркнул, что новый тренер принесет свежий импульс, а также отметил, что подготовка к JIOI уже начата. В чемпионате в Конго ожидается участие 38 стран, что считается рекордом.
+LLM per-minute limit, waiting 9s
+Bad LLM answer from openai/gpt-oss-20b: 'NoneType' object has no attribute 'get'; raw: {"id":"chatcmpl-7d3b5627-5066-44b1-b7a1-2182d72f8e0f","object":"chat.completion","created":1792506229,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"","reasoning":"We need to parse article: It's about a cycling tour in France? Not Mauritius. So mauritius 
 Google Translate failed: TooManyRequests
-Автобусное сообщение прервано во вторник утром
-== LLM: https://api.groq.com/openai/v1/chat/completions
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-b94df287-86d2-4f8c-b03c-00b54b9a87c1","object":"chat.completion","created":1792501972,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.003999257,"prompt_tokens":16,"prompt_t
-openai/gpt-oss-120b 200 {"id":"chatcmpl-37d1155b-e42e-4bc5-8f20-2fbfdc35be85","object":"chat.completion","created":1792501973,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
-openai/gpt-oss-20b 200 {"id":"chatcmpl-1cbc4ecc-a919-4513-a722-dd2ffd87498e","object":"chat.completion","created":1792501973,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So respond \"ok\"."},"logprobs":null,"finish_reason":"stop
-== Defimedia: https://defimedia.info/rss.xml
-Newest: Paix sociale : le MACOSS appelle à donner davantage de place aux jeunes | https://defimedia.info/paix-sociale-le-macoss-appelle-donner-davantage-de-place-aux-jeunes
-Article text: 2453 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Jeunesse.jpeg
-  same headline as #155: Paix sociale : le MACOSS appelle à donner davantage de place aux jeunes
-Duplicate of recent post #: 155
-LLM usage so far: 3 requests, 217 tokens
--- Post that would be sent:
 
-== L'Express: https://lexpress.mu/
-Newest: Bain-de-Rosnay : Un dauphin retrouvé mort, son espèce reste à identifier | https://lexpress.mu/s/un-dauphin-retrouve-mort-son-espece-reste-a-identifier-563846
-Article text: 1355 chars | photo: https://lexpress.mu/storage/articles/xIWlNF9WqXpEiEDANGzL0jNMtyYWhcKwUFLMovP6.jpg
-  same headline as #110: Bain-de-Rosnay : Un dauphin retrouvé mort
-Duplicate of recent post #: 110
-LLM usage so far: 3 requests, 217 tokens
--- Post that would be sent:
+===  VTT – Fundsmith Colin Mayer 2026 – Une domination sans partage du binÃ´me LincolnâStiebjahn
+names: Chloé Gabriel (person); Roméo Caliste (person); Pascal Telvar (person); Richard Sunee (person); l'Amb (org); International Boxing Association (org); World Boxing (org); Mathieu Souprayen (person); Fabrice Valérie (person); Ivans Frontin (person); Ziggy Agathe (person); Merven Clair (person); Ravind Nadooa (person); Ferdinand Ilunga Luyoyo (person); République démocratique du Congo→ДР Конго (foreign); Comores→Коморы (foreign); Ireland→Ирландия (foreign); Kenya→Кения (foreign)
+Катание на горных велосипедах – кузнец фонда Colin Mayer 2026 – Нераздельное господство биномиала LincolnâStiebjahn 
+ 
+Google Translate failed: TooManyRequests
 
-== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
-Newest: Loi anti-transfugisme : Le cas de Sydney Pierre met en lumière une lacune de notre Constitution   | https://www.lemauricien.com/le-mauricien/loi-anti-transfugisme-le-cas-de-sydney-pierre-met-en-lumiere-une-lacune-de-notre-constitution/721143/
-Article text: 5148 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-2026-10-18T083721.945.webp
-  same headline as #157: Loi anti-transfugisme : Le cas de Sydney Pierre met en lumière une lacune de not
-Duplicate of recent post #: 157
-LLM usage so far: 3 requests, 217 tokens
--- Post that would be sent:
+===  Paix sociale : le MACOSS appelle à donner davantage de place aux jeunes
+names: Chloé Gabriel (person); Roméo Caliste (person); Pascal Telvar (person); Richard Sunee (person); l'Amb (org); International Boxing Association (org); World Boxing (org); Mathieu Souprayen (person); Fabrice Valérie (person); Ivans Frontin (person); Ziggy Agathe (person); Merven Clair (person); Ravind Nadooa (person); Ferdinand Ilunga Luyoyo (person); République démocratique du Congo→ДР Конго (foreign); Comores→Коморы (foreign); Ireland→Ирландия (foreign); Kenya→Кения (foreign)
+Социальный мир: MACOSS призывает к большему пространству для молодежи 
+ 
+Google Translate failed: TooManyRequests
 
-== Inside News: https://inside.news/feed/
-Newest: Don de sang à Maurice : après une semaine d’interruption, les collectes reprennent | https://www.inside.news/don-sang-maurice-reprise-collectes-octobre-2026/
-Article text: 1658 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/601a9536-fc99-4bb0-8bf7-5154056a06ea__1_-Removed.png
-  dup check: new (Reprise des collectes de sang à Maurice après une semaine d’interruption; campagne de don de sang organisée le 17 octobre à Flacq; le ministre de la S)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Duplicate of recent post #: None
-LLM usage so far: 6 requests, 5410 tokens
--- Post that would be sent:
-<b>Донорство крови на Маврикии: сборы возобновились после недельного перерыва</b>
+===  Disparition d’une employée bangladaise : elle n’a pas quitté Maurice, affirme Ramgoolam
+names: Chloé Gabriel (person); Roméo Caliste (person); Pascal Telvar (person); Richard Sunee (person); l'Amb (org); International Boxing Association (org); World Boxing (org); Mathieu Souprayen (person); Fabrice Valérie (person); Ivans Frontin (person); Ziggy Agathe (person); Merven Clair (person); Ravind Nadooa (person); Ferdinand Ilunga Luyoyo (person); République démocratique du Congo→ДР Конго (foreign); Comores→Коморы (foreign); Ireland→Ирландия (foreign); Kenya→Кения (foreign)
+Исчезновение бангладешской сотрудницы: она не покидала Маврикий, говорит Ramgoolam 
+ 
+Google Translate failed: TooManyRequests
 
-Власти Маврикия возобновили кампании по сбору крови после недельной паузы, вызванной недавними беспорядками. 17 октября во Flacq прошла акция, организованная Министерством здравоохранения совместно с индийским посольством. Министр Anil Kumar Bachoo подтвердил, что обычно госпрограммы собирают не менее 100 пинт крови в неделю, и призвал добровольцев активно участвовать, чтобы обеспечить больницы необходимым запасом для операций и экстренных случаев.
+===  Politique sur le cannabis : la National Drug Control Commission se prononcera sur les recommandation
+names: Chloé Gabriel (person); Roméo Caliste (person); Pascal Telvar (person); Richard Sunee (person); l'Amb (org); International Boxing Association (org); World Boxing (org); Mathieu Souprayen (person); Fabrice Valérie (person); Ivans Frontin (person); Ziggy Agathe (person); Merven Clair (person); Ravind Nadooa (person); Ferdinand Ilunga Luyoyo (person); République démocratique du Congo→ДР Конго (foreign); Comores→Коморы (foreign); Ireland→Ирландия (foreign); Kenya→Кения (foreign)
+Политика в отношении каннабиса: Национальная комиссия по контролю над наркотиками выносит решение по рекомендациям 
+ 
+Google Translate failed: TooManyRequests
 
-🔗 <a href="https://www.inside.news/don-sang-maurice-reprise-collectes-octobre-2026/">Inside News</a>
-== Wazaa: https://www.wazaa.mu/feed/
-Newest: L’industrie textile subit des retards d’une semaine après les troubles et le couvre-feu | https://www.wazaa.mu/lindustrie-textile-subit-des-retards-dune-semaine-apres-les-troubles-et-le-couvre-feu/
-Article text: 5287 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1792500173.jpeg
-  dup: nothing new ()
-Duplicate of recent post #: 139
-LLM usage so far: 7 requests, 7803 tokens
--- Post that would be sent:
+===  Enquête sur les équipements d’écoute : «Cette enquête est une tentative de manipulation politique cl
+names: Chloé Gabriel (person); Roméo Caliste (person); Pascal Telvar (person); Richard Sunee (person); l'Amb (org); International Boxing Association (org); World Boxing (org); Mathieu Souprayen (person); Fabrice Valérie (person); Ivans Frontin (person); Ziggy Agathe (person); Merven Clair (person); Ravind Nadooa (person); Ferdinand Ilunga Luyoyo (person); République démocratique du Congo→ДР Конго (foreign); Comores→Коморы (foreign); Ireland→Ирландия (foreign); Kenya→Кения (foreign)
+Опрос прослушивающего оборудования: «Этот опрос является явной попыткой политического манипулирования», - говорит Pravind Jugnauth 
+ 
+Google Translate failed: TooManyRequests
 
-== Top FM: https://topfm.mu/
-Newest: Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37 questions du CCID mais exige plus de clarté | https://topfm.mu/actualites/enquete-sur-les-equipements-decoute-pravind-jugnauth-repond-37-questions-du-ccid-mais-exige-plus-de
-Article text: 949 chars | photo: https://topfm.mu/sites/default/files/media-icons/generic/video.png
-  same headline as #152: Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37 questions du
-Duplicate of recent post #: 152
-LLM usage so far: 7 requests, 7803 tokens
--- Post that would be sent:
+===  Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37 questions du CCID mais exige plu
+names: Chloé Gabriel (person); Roméo Caliste (person); Pascal Telvar (person); Richard Sunee (person); l'Amb (org); International Boxing Association (org); World Boxing (org); Mathieu Souprayen (person); Fabrice Valérie (person); Ivans Frontin (person); Ziggy Agathe (person); Merven Clair (person); Ravind Nadooa (person); Ferdinand Ilunga Luyoyo (person); République démocratique du Congo→ДР Конго (foreign); Comores→Коморы (foreign); Ireland→Ирландия (foreign); Kenya→Кения (foreign)
+Опрос слухового оборудования: Pravind Jugnauth отвечает на 37 вопросов CCID, но требует большей ясности 
+ 
+Google Translate failed: TooManyRequests
 
+===  L’industrie textile subit des retards d’une semaine après les troubles et le couvre-feu - Wazaa FM
+names: Chloé Gabriel (person); Roméo Caliste (person); Pascal Telvar (person); Richard Sunee (person); l'Amb (org); International Boxing Association (org); World Boxing (org); Mathieu Souprayen (person); Fabrice Valérie (person); Ivans Frontin (person); Ziggy Agathe (person); Merven Clair (person); Ravind Nadooa (person); Ferdinand Ilunga Luyoyo (person); République démocratique du Congo→ДР Конго (foreign); Comores→Коморы (foreign); Ireland→Ирландия (foreign); Kenya→Кения (foreign)
+Текстильная промышленность страдает от недельных задержек после беспорядков и комендантского часа - Wazaa FM 
+ 
+Google Translate failed: TooManyRequests
+
+===  Équipements d’écoute téléphonique : Pravind Jugnauth déplore la manière dont l’enquête est menée
+names: Chloé Gabriel (person); Roméo Caliste (person); Pascal Telvar (person); Richard Sunee (person); l'Amb (org); International Boxing Association (org); World Boxing (org); Mathieu Souprayen (person); Fabrice Valérie (person); Ivans Frontin (person); Ziggy Agathe (person); Merven Clair (person); Ravind Nadooa (person); Ferdinand Ilunga Luyoyo (person); République démocratique du Congo→ДР Конго (foreign); Comores→Коморы (foreign); Ireland→Ирландия (foreign); Kenya→Кения (foreign)
+Оборудование для прослушивания телефонных разговоров: Pravind Jugnauth сожалеет о том, как проводится расследование 
+ 
+
+LLM 9 calls, 26402 tokens
