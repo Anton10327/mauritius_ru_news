@@ -1,11 +1,9 @@
-### check 1/5 at 22:28
+### check 1/5 at 23:11
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-GigaChat balance: GigaChat-Max 24,995,934, GigaChat 249,987,840, GigaChat-Ultra 49,257,754, GigaChat-Pro 39,273,551; 365 days to go
-  dup: nothing new ()
-Skipped duplicate (Inside News): Communiqué de la police == Оборудование для прослушки: полиция утверждает, что предъявила Pravind Jugnauth документы 
-LLM usage this run: 1 requests, 2343 tokens
-### check 2/5 at 22:32
-### check 3/5 at 22:36
-### check 4/5 at 22:40
-### check 5/5 at 22:44
+  dup check: new (Состоялась острая словесная перепалка в парламенте между депутатами Rajesh Bhagwan, Paul Bérenger и Joanna Bérenger, включая конкретную реплику Bhagwa)
+LLM per-minute limit, waiting 30s
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Парламент: Острая перепалка между Rajesh Bhagwan, Paul Bérenger и Joanna Bérenger
+LLM usage this run: 3 requests, 5510 tokens
