@@ -1,30 +1,7 @@
-### check 1/5 at 11:17
-  dup check: new (В статье указано, что были заслушаны 24 свидетеля и завершены прения сторон; также уточняется дата следующего заседания — среда, 21 октября. Эти детал)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Двадцать четыре свидетеля заслушаны, решение по 12 обвиняемым ожидается в среду
-  dup check: new (В статье указано, что авария произошла в деревне Poudre-d’Or Village (а не просто в районе Poudre-d’Or), погибший — 21-летний житель Petit-Raffray, ег)
-Posted (L'Express): Poudre-d’Or: 21-летний мотоциклист погиб, его 18-летний пассажир в критическом состоянии
-  dup check: new (В статье появляется новая цитата и позиция: Lindsay Morvan, президент Mouvement pour le Progrès de Roche-Bois, впервые публично призывает к исправлени)
-  proofread: Линдси Морван → Линдси Морван (имя совпадает); Roche-Bois → Roche-Bois (название совпадает); Движения за прогресс в Roche-Bois → Движения за прогресс в Roche-Bois (корректно); заявил о необходимости → заявил о необходимости (корректно); НПО не могут → НПО не могут (корректно)
-Posted (Top FM): Инциденты с участием несовершеннолетних: Lindsay Morvan призывает устранить пробелы в системе
-  dup check: new (В статье впервые упоминается позиция омбудсмена по делам детей Anita Ghoorah, которая настаивает на необходимости консультаций с НПО при рассмотрении )
-  proofread: Anita Ghoorah → Анита Гхур
-Posted (Top FM): Специальный комитет по возрасту уголовной ответственности: омбудсмен по делам детей призывает к консультациям с НПО
-LLM usage this run: 12 requests, 19751 tokens
-### check 2/5 at 11:21
-  dup check: new (Sidharta Hawoldar публично призвал к милосердию в отношении несовершеннолетних, арестованных во время недавних беспорядков; он связал причины недоволь)
-Bad LLM answer from GigaChat-3-Ultra: Expecting value: line 1 column 154 (char 153); raw: {"choices":[{"message":{"content":"{\"mauritius\": true, \"news\": true, \"title\": \"Недавние беспорядки: Сидхарт Хаволдар призывает к снисхождению к арестованным несовершеннолетним\", \"summary\":Старший адвокат Сидхарт Хаволдар считает, что недавние беспорядки на Маврикии подпитывались бедностью 
-  written by GigaChat-3-Pro
-  not news (portrait/lifestyle): Troubles récents : Sidharta Hawoldar plaide pour la clémence envers les mineurs arrêtés
-Skipped foreign news (Top FM): Troubles récents : Sidharta Hawoldar plaide pour la clémence envers les mineurs arrêtés
-  dup check: new (Упоминается, что четыре правозащитные организации Маврикия (NHRC, EOC, IPCC и OOC) усиливают сотрудничество в связи с 40-летием Африканской хартии пра)
-Posted (Top FM): 40-летие Африканской хартии: два мероприятия запланированы на 21 и 23 октября
-  not news (portrait/lifestyle): Tempo La So : Kris Kaunhye cite l’intégrité de Lee Kuan Yew en exemple pour Maurice
-Skipped foreign news (Top FM): Tempo La So : Kris Kaunhye cite l’intégrité de Lee Kuan Yew en exemple pour Maurice
-LLM usage this run: 7 requests, 11226 tokens
-### check 3/5 at 11:25
-### check 4/5 at 11:29
-### check 5/5 at 11:33
+### check 1/5 at 11:58
   dup: nothing new ()
-Skipped duplicate (Defimedia): [En Images] Enquête sur les équipements d’écoute téléphonique : Pravind Jugnauth au CCID == Оборудование для прослушки телефонов: Pravind Jugnauth снова ожидается в CCID во вторник
-LLM usage this run: 1 requests, 2195 tokens
+Skipped duplicate (L'Express): Parlement : plusieurs projets de loi sur la criminalité à l’agenda == Парламент: правительство хочет принять новые полномочия по комендантскому часу уже со втор
+  dup check: new (В статье указано, что Pravind Jugnauth прибыл в Центральное управление уголовного розыска (CCID) 20 октября около 10:30 и был сопровождаем своим адвок)
+  proofread: в Central Barracks → на территории Central Barracks; Raouf Gulbul → Раоуха Гулбуля
+Posted (L'Express): Оборудование для прослушки телефонов: Pravind Jugnauth снова в CCID
+LLM usage this run: 4 requests, 7093 tokens
