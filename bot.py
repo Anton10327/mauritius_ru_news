@@ -698,7 +698,8 @@ nantes montpellier strasbourg valence narbonne rennes delhi new-delhi mumbai bom
 chennai calcutta kolkata bangalore pekin beijing shanghai dubai doha abu riyad
 johannesburg durban pretoria nairobi antananarivo tananarive saint-denis moroni
 maputo canberra melbourne tokyo moscou washington bruxelles
-geneve rome berlin madrid lisbonne""".split()
+geneve rome berlin madrid lisbonne constitution senat loi code penal etat-major
+cabinet conseil-des-ministres opposition majorite""".split()
 
 
 def _sound(word):
