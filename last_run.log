@@ -20,3 +20,17 @@ LLM usage this run: 2 requests, 4582 tokens
 ### check 3/5 at 14:00
   same headline as #128: Équipements d’écoute téléphonique : Pravind Jugnauth de retour au CCID
 Skipped duplicate (Inside News): Équipements d’écoute téléphonique : Pravind Jugnauth de retour au CCID pour la suite de so == Оборудование для прослушки телефонов: Pravind Jugnauth снова в CCID
+### check 4/5 at 14:04
+  dup check: new (Me Callichurn утверждает, что его клиент Deven Anacootee не считает себя затронутым заявлениями Bruneau Laurette. Это новая цитата адвоката и его пози)
+  proofread: Брюно Лоре → Брюно Лоретт (по оригиналу); Судеш Калличурн → Судеш Калличурн; девяносто-девять → девяносто девять
+Posted (Defimedia): Адвокат Callichurn: «Deven Anacootee не считает себя причастным к заявлениям Bruneau Лоре»
+  dup check: new (Премьер-министр Навин Рамгулам в ответ на вопрос оппозиции заявил, что «барон наркотрафика был арестован», не раскрывая его личность. Это первое публи)
+  proofread: Navin Ramgoolam → Навин Рамгулам; Chetan Baboolall → Четан Бабуолл
+Posted (Defimedia): PNQ о беспорядках: «Арестован наркобарон», — утверждает Ramgoolam
+  dup check: new (В статье приведена прямая цитата ответа премьер-министра Navin Ramgoolam на вопрос лидера оппозиции Chetan Baboolall о предполагаемых израильских устр)
+  proofread: Chetan Baboolall → Четан Бабулалла; Navin Ramgoolam → Навин Рамгулам; "It's a figment of his imagination..." → "Это плод его воображения..."
+Posted (Defimedia): Предполагаемое израильское оборудование для слежки за WhatsApp: Ramgoolam отвечает Baboolall
+  dup check: new (В статье упоминается, что адвокат Yousouf Jan Mahomed поднимает вопрос о полномочиях IPCC и рисках конфликтов интересов при расследовании стрельбы с у)
+  proofread: Элоид Тома → Элоиди Томас; Soobrayen Tirvassen → Собрайен Тирвассен; Me Yousouf Jan Mahomed → Ме Ёссуф Жан Махомед
+Posted (Defimedia): Дело Élodie Thomas: IPCC перед испытанием своих полномочий
+LLM usage this run: 12 requests, 19361 tokens
