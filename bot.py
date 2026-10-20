@@ -76,7 +76,11 @@ LLM_MODELS = [m.strip() for m in (os.environ.get("LLM_MODELS", "").strip() or
 GIGA_KEY = os.environ.get("GIGACHAT_AUTH_KEY", "").strip()
 GIGA_URL = "https://api.giga.chat/v1/chat/completions"
 GIGA_OAUTH = "https://ngw.devices.sberbank.ru:9443/api/v2/oauth"
-GIGA_DAILY_CAP = {"GigaChat-3-Ultra": 250_000, "GigaChat-3-Pro": 350_000}  # Pro also proofreads and checks repeats
+# Paid GigaChat packages are spread evenly until this date (one year);
+# the daily budget is recomputed every day from the remaining balance
+GIGA_UNTIL = "2027-10-20"
+GIGA_BALANCE_URL = "https://api.giga.chat/v1/balance"
+GIGA_DAILY_CAP = {"GigaChat-3-Ultra": 135_000, "GigaChat-3-Pro": 105_000}  # if the balance is unknown
 SUMMARY_MODELS = ([m for m in GIGA_DAILY_CAP] if GIGA_KEY else []) + \
                  (LLM_MODELS if LLM_KEY else [])
 # Proofreading pass. Only Qwen: in tests gpt-oss over-edited and changed meaning
@@ -387,10 +391,45 @@ def _giga_post(model, messages, max_tokens):
     return r
 
 
+def _giga_cap(model):
+    """Today's token budget for a model: what is left in its paid package,
+    spread evenly over the days until GIGA_UNTIL. The balance is asked once
+    a day; if that fails, the fixed GIGA_DAILY_CAP is used."""
+    pool = "GigaChat-Ultra" if "Ultra" in model else "GigaChat-Pro" if "Pro" in model else None
+    today = time.strftime("%Y-%m-%d", time.gmtime(time.time() + 4 * 3600))
+    bal = _state_get("giga_balance", {})
+    if bal.get("date") != today and not os.environ.get("BOT_TEST"):
+        try:
+            r = requests.get(GIGA_BALANCE_URL, timeout=30, verify=_giga_verify(),
+                             headers={"Authorization": f"Bearer {_giga_token()}"})
+            r.raise_for_status()
+            bal = {"date": today, **{b["usage"]: b["value"] for b in r.json().get("balance", [])}}
+            _state_set("giga_balance", bal)
+            days = _giga_days_left()
+            print("GigaChat balance: " + ", ".join(f"{k} {v:,}" for k, v in bal.items() if k != "date")
+                  + f"; {days} days to go")
+            if days in (30, 7, 1):
+                alert("giga_end", f"⏳ Пакеты GigaChat рассчитаны до {GIGA_UNTIL}, осталось {days} дн. "
+                      "После этого бот перейдёт на бесплатные модели Groq (качество "
+                      "пересказов ниже). Можно купить новый пакет на developers.sber.ru.")
+        except Exception as e:
+            print(f"GigaChat balance check failed: {e}")
+    if pool and bal.get(pool) is not None:
+        return int(bal[pool] / _giga_days_left())
+    return GIGA_DAILY_CAP.get(model, 0)
+
+
+def _giga_days_left():
+    import datetime
+    end = datetime.date.fromisoformat(GIGA_UNTIL)
+    now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+    return max(1, (end - now).days)
+
+
 def _giga_over_cap(model):
     today = time.strftime("%Y-%m-%d", time.gmtime(time.time() + 4 * 3600))
     g = _state_get("giga_used", {})
-    return g.get("date") == today and g.get(model, 0) >= GIGA_DAILY_CAP.get(model, 0)
+    return g.get("date") == today and g.get(model, 0) >= _giga_cap(model)
 
 
 def _llm_post(model, messages, max_tokens):

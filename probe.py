@@ -1,9 +1,6 @@
-"""Ask GigaChat for the token balance (posts nothing)."""
-import bot, requests
-tok = bot._giga_token()
-for url in ["https://api.giga.chat/v1/balance", "https://gigachat.devices.sberbank.ru/api/v1/balance"]:
-    try:
-        r = requests.get(url, headers={"Authorization": f"Bearer {tok}"}, timeout=30, verify=bot._giga_verify())
-        print(url, r.status_code, r.text[:600])
-    except Exception as e:
-        print(url, "FAIL", e)
+"""Daily GigaChat budgets from the balance (posts nothing)."""
+import os, bot
+os.environ.pop("BOT_TEST", None)  # allow the balance request in this probe
+bot._state_set("giga_balance", {})
+for m in ("GigaChat-3-Ultra", "GigaChat-3-Pro"):
+    print(m, "daily budget:", f"{bot._giga_cap(m):,}", "| days left:", bot._giga_days_left())
