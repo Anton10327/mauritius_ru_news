@@ -13,3 +13,17 @@ Photo download failed: HTTP 404 for https://topfm.mu/sites/default/files/media-i
 Photo failed: https://topfm.mu/sites/default/files/media-icons/generic/video.png — sending text only
 Posted (Top FM): Расследование по прослушивающему оборудованию: Pravind Jugnauth ответил на 37 вопросов CCID, но требует большей ясности
 LLM usage this run: 5 requests, 9513 tokens
+### check 2/5 at 16:55
+  dup check: new (Pravind Jugnauth a déclaré que l’enquête était «une tentative de manipulation politique claire», citation not present in earlier reports.)
+  proofread by qwen/qwen3.8-27b
+  proofread: Правинд Джугнаут → Pravind Jugnauth; третье допрос → третий допрос
+Posted (Defimedia): Расследование по оборудованию для прослушки: «Это расследование — явная попытка политической манипуляции», — заявил Pravind Jugnauth
+  dup check: new (Le Premier ministre Navin Ramgoolam a annoncé lors du PMQT du 20 octobre que le rapport d’évaluation de la réforme de la politique nationale sur le ca)
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Политика в отношении каннабиса: Национальная комиссия по контролю над наркотиками вынесет решение по рекомендациям
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Disparition d’une employée bangladaise : elle n’a pas quitté Maurice, affirme Ramgoolam == Бангладешская гражданка пропала без вести с 3 апреля: отъезд с Маврикия не зафиксирован
+  dup check: new (Le Mauritius Council of Social Service (MACOSS) a publié un communiqué le 20 octobre 2026, signé par son président Suraj Ray, appelant à donner davant)
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Социальный мир: MACOSS призывает дать молодежи больше возможностей
+LLM usage this run: 10 requests, 17867 tokens
