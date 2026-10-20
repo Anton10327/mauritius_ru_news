@@ -734,6 +734,8 @@ def _latin_keys(word):
 
 _NOT_NAMES = set()
 _VOWELS = set("aeiou")
+# u~a (Hurreeram ~ Харрирам), a~e (ram ~ рэм), e~i, o~u
+_VOWEL_SWAPS = [{"u", "a"}, {"a", "e"}, {"e", "i"}, {"o", "u"}]
 
 
 _LINKS = {"d", "de", "du", "des", "la", "le", "les", "l", "aux", "en", "sur", "or"}
@@ -820,13 +822,22 @@ def latinize_names(text, original):
             for k, latin in pool.items():
                 # same first sound, and the second matches too unless both are
                 # vowels (Джагнот ~ Jugnauth), so "Франция" never meets "Fenty"
-                if k[0] != key[0] or abs(len(k) - len(key)) > 2 or (
-                        k[1:2] != key[1:2] and not (k[1:2] in _VOWELS and key[1:2] in _VOWELS)):
+                same = lambda a, b: a == b or (a in _VOWELS and b in _VOWELS)
+                if not same(k[0], key[0]) or abs(len(k) - len(key)) > 2 or \
+                        not same(k[1:2], key[1:2]):
                     continue
                 # Short words need an exact match: "После" ~ "Paul" scores 0.86
                 if min(len(key), len(k)) <= 4 and key != k:
                     continue
                 r = SequenceMatcher(None, key, k).ratio()
+                # Vowels differ, consonants identical: English spelling of an
+                # Indian name (Hurreeram ~ Харрирэм)
+                sk = lambda x: re.sub(r"[aeiou]", "", x)
+                if not initial and len(key) >= 6 and len(sk(key)) >= 3 and sk(key) == sk(k) \
+                        and len(key) == len(k) and all(  # vowels differ only in
+                            x == y or {x, y} in _VOWEL_SWAPS  # English-style ways
+                            for x, y in zip(key, k)):
+                    r = max(r, 0.9)
                 if r > score:
                     found, score = latin, r
         # Longer words tolerate more spelling difference
