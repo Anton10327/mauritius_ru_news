@@ -1,15 +1,7 @@
-### check 1/5 at 21:50
-### check 2/5 at 21:54
-### check 3/5 at 21:58
-  same headline as #102: Beau-Bassin : appel pour retrouver un 4x4 volé lors du pillage d’Ihsan Supermarc
-Skipped duplicate (Defimedia): Pillage d’Ihsan Supermarché : le 4x4 volé retrouvé calciné derrière la prison de Beau-Bass == Beau-Bassin: призыв найти украденный внедорожник во время разграбления супермаркета Ihsan
-  dup check: new (В статье сообщается, что 20 октября обвинение потребовало тюремного срока для доктора Нишана Мохипута по второй отдельной жалобе о нападении на полову)
-  proofread: «conditional discharge» → «условное освобождение»
-Posted (Defimedia): Посягательство на нравственность: прокуратура вновь требует тюремного заключения для доктора Nishan Moheeputh по другому делу
-LLM usage this run: 3 requests, 5828 tokens
-### check 4/5 at 22:02
-  dup check: new (Статья описывает ситуацию в районе «Anba Larivier» (Roche-Bois), где более ста человек живут в условиях крайней бедности уже 30 лет, и упоминает убийс)
-  not news (portrait/lifestyle): «Anba Larivier», à Roche-Bois : Le visage de l’extrême pauvreté
-Skipped foreign news (L'Express): «Anba Larivier», à Roche-Bois : Le visage de l’extrême pauvreté
-LLM usage this run: 2 requests, 4906 tokens
-### check 5/5 at 22:06
+### check 1/5 at 22:28
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+GigaChat balance: GigaChat-Max 24,995,934, GigaChat 249,987,840, GigaChat-Ultra 49,257,754, GigaChat-Pro 39,273,551; 365 days to go
+  dup: nothing new ()
+Skipped duplicate (Inside News): Communiqué de la police == Оборудование для прослушки: полиция утверждает, что предъявила Pravind Jugnauth документы 
+LLM usage this run: 1 requests, 2343 tokens
