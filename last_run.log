@@ -3,3 +3,10 @@
 Skipped duplicate (Inside News): Déclaration d’impôt : la MRA prolonge le délai jusqu’au 30 octobre, ce qu’il faut savoir == Налоги: последний срок — 30 октября без штрафов и процентов
 LLM usage this run: 1 requests, 2273 tokens
 ### check 2/5 at 18:58
+### check 3/5 at 19:02
+  dup: nothing new ()
+Skipped duplicate (L'Express): Génération en colère : Apprend-on encore aux jeunes à être des citoyens ? == Драма В CAMP-Levieux — С 9 по 17 октября 2026 — Élodie Thomas: восемь дней между жизнью и 
+  dup check: new (В статье сообщается, что после протестов и беспорядков власти Франции ввели ночные ограничения в Париже и ряде других городов; премьер-министр Себасть)
+  not about Mauritius: Violences en France : Paris impose des restrictions nocturnes, plusieurs villes renforcent la sécuri
+Skipped foreign news (Inside News): Violences en France : Paris impose des restrictions nocturnes, plusieurs villes renforcent la sécuri
+LLM usage this run: 3 requests, 6935 tokens
