@@ -1,11 +1,4 @@
-### check 1/5 at 06:12
-  dup check: new (В статье указано, что с 13 октября было произведено 188 арестов, включая несовершеннолетнего «Lavabo», 16 лет. Также сообщается о трёх других полицейс)
-Posted (L'Express): Главные заголовки L'Express за вторник, 20 октября 2026 года
-LLM usage this run: 3 requests, 5192 tokens
-### check 2/5 at 06:16
-### check 3/5 at 06:20
-### check 4/5 at 06:24
-### check 5/5 at 06:28
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Reprise parlementaire ce mardi : Elodie Thomas et les troubles sociaux au menu du Premier  == Возобновление работы парламента: кризис с водой, насилие и чувствительные законопроекты
-LLM usage this run: 1 requests, 2226 tokens
+### check 1/5 at 06:53
+  not news (portrait/lifestyle): Vous cherchez un emploi ? Plus de 80 postes ouverts à Maurice — toutes les offres, conditions et dat
+Skipped foreign news (Inside News): Vous cherchez un emploi ? Plus de 80 postes ouverts à Maurice — toutes les offres, conditions et dat
+LLM usage this run: 1 requests, 1937 tokens
