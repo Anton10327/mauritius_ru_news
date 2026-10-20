@@ -1,11 +1,11 @@
-### check 1/5 at 11:58
+### check 1/5 at 12:34
+  dup check: new (В статье описан новый случай: 16-летняя девушка подала заявление в полицию из-за угроз на Snapchat и распространения интимных материалов о ней через T)
+Posted (Defimedia): Заявление в полицию: 16-летняя девушка сообщает об угрозах в Snapchat и распространении интимных материалов в Telegram
+  dup check: new (Deven Anacootee был вызван в Cybercrime Unit 20 октября, его допрос перенесли с воскресенья на вторник; он явился с тремя адвокатами. Это первое упоми)
+  proofread: девиант Анакути → Девен Анакути; Центральные казармы на Маврикии → Центральные казармы на Маврикие
+Posted (Defimedia): Расследование CCID: Deven Anacootee вызван в подразделение по киберпреступности
   dup: nothing new ()
-Skipped duplicate (L'Express): Parlement : plusieurs projets de loi sur la criminalité à l’agenda == Парламент: правительство хочет принять новые полномочия по комендантскому часу уже со втор
-  dup check: new (В статье указано, что Pravind Jugnauth прибыл в Центральное управление уголовного розыска (CCID) 20 октября около 10:30 и был сопровождаем своим адвок)
-  proofread: в Central Barracks → на территории Central Barracks; Raouf Gulbul → Раоуха Гулбуля
-Posted (L'Express): Оборудование для прослушки телефонов: Pravind Jugnauth снова в CCID
-LLM usage this run: 4 requests, 7093 tokens
-### check 2/5 at 12:02
-### check 3/5 at 12:06
-### check 4/5 at 12:10
-### check 5/5 at 12:14
+Skipped duplicate (Defimedia): Suivez en direct la PNQ axée sur les troubles à l’ordre public, le couvre-feu et la crise  == СОЦИАЛЬНЫЕ БЕСПОРЯДКИ – РЕАКЦИЯ ЛИДЕРА MSM
+  dup: nothing new (В статье указано, что 19 октября обвинение завершило допрос свидетелей по делу о нарушении комендантского часа и что все двенадцать обвиняемых будут д)
+Skipped duplicate (Defimedia): Non-respect du couvre-feu : les douze prévenus témoigneront le 21 octobre == Нарушение комендантского часа: суд над двенадцатью обвиняемыми перенесён на среду
+LLM usage this run: 8 requests, 13197 tokens
