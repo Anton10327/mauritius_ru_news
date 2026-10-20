@@ -1,13 +1,7 @@
-### check 1/5 at 19:27
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Situation sociale : quelles leçons en tirer ? == В центре внимания — беспорядки на Маврикии: помимо насилия, социальные разломы, которые ну
-  dup check: new (Полиция утверждает, что представила Pravind Jugnauth документы с его подписью о закупке и использовании систем перехвата и слежки в период его премьер)
-  proofread: «под предупреждением» → «under warning»; "явной попыткой политической манипуляции" → "явной попыткой политического манипулирования"
-Posted (Defimedia): Оборудование для прослушки: полиция утверждает, что предъявила Pravind Jugnauth документы с его подписью
-LLM usage this run: 4 requests, 7498 tokens
-### check 2/5 at 19:31
-### check 3/5 at 19:35
-### check 4/5 at 19:39
-  same headline as #106: Équipements d’écoute téléphonique : Pravind Jugnauth de retour au CCID
-Skipped duplicate (L'Express): Équipements d’écoute téléphonique : Pravind Jugnauth a maintenu son droit au silence, affi == Оборудование для прослушки телефонов: Pravind Jugnauth снова в CCID
-### check 5/5 at 19:43
+### check 1/5 at 20:07
+  dup check: new (Президент Dharambeer Gokhool публично похвалил Джонатана Томаса за «образцовое поведение» после ранения его жены Элои Томас; это заявление сделано 20 )
+  proofread: Вутона → Вутон
+Posted (Defimedia): Dharambeer Gokhool похвалил «образцовое поведение» Jonathan Thomas
+  dup: nothing new (Chetan Baboolall выразил опасения по поводу Police (Amendment) Bill, заявив, что страна управляется доверием, а не страхом. Он отметил, что законопрое)
+Skipped duplicate (Defimedia): Police (Amendment) Bill - Chetan Baboolall : «Un pays n’est pas gouverné par la peur, mais == PNQ: Chetan Baboolall обращается к Navin Ramgoolam по поводу недавней напряженности по все
+LLM usage this run: 4 requests, 7444 tokens
