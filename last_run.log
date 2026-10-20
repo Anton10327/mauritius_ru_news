@@ -23,3 +23,14 @@ Posted (Defimedia): FCC: 1 849 расследований с ноября 2024 �
   proofread: Quatre-Bornes → четверых-Борнс
 Posted (Defimedia): Palma: подозреваемый укусил двух полицейских при задержании
 LLM usage this run: 10 requests, 15977 tokens
+### check 3/5 at 15:07
+  same headline as #122: Équipements d’écoute téléphonique : Pravind Jugnauth de retour au CCID
+Skipped duplicate (Defimedia): Enquête sur les équipements d’écoute téléphonique : déclaration de Pravind Jugnauth == Оборудование для прослушки телефонов: Pravind Jugnauth снова в CCID
+  dup check: new (В статье говорится о последствиях недавних социальных напряжений и ограничений на логистику для текстильной отрасли Маврикия, включая задержки поставо)
+Posted (Defimedia): Постконфликтная ситуация — текстиль: неделя перебоев, задержки поставок
+  dup check: new (В статье описан новый инцидент: 17-летняя девушка сообщила в полицию о сексуальных домогательствах со стороны неизвестного мужчины в автобусе по пути )
+  proofread: «школьница» → «девушка»; «в учебное заведение» → «в учебное заведение» (оставлено); «у конечной остановки» → «у конечной остановки» (оставлено)
+Posted (Defimedia): Полицейское расследование: мужчину разыскивают по подозрению в домогательствах к школьнице в автобусе
+  dup: nothing new ()
+Skipped duplicate (Inside News): Couvre-feu : douze prévenus toujours détenus, décision attendue mercredi == Нарушение комендантского часа: суд над двенадцатью обвиняемыми перенесён на среду
+LLM usage this run: 7 requests, 11410 tokens
