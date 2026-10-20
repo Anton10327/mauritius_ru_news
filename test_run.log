@@ -1,95 +1,62 @@
-  not news (portrait/lifestyle): «Dekriptaz Turf» | Écurie Foo Kune : le titre déjà assuré ?
+Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary models: ['GigaChat-3-Ultra', 'GigaChat-3-Pro', 'qwen/qwen3.8-27b', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b']
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-bc36abaa-00e9-464c-90ac-93c7cd0bc97c","object":"chat.completion","created":1792519629,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.068071222,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-be1b4c32-4993-4a2b-ba64-005e01a1d8fb","object":"chat.completion","created":1792519629,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
+openai/gpt-oss-20b 200 {"id":"chatcmpl-e542f02b-f238-47e0-b080-d74de391e627","object":"chat.completion","created":1792519630,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So respond \"ok\"."},"logprobs":null,"finish_reason":"stop
+== Defimedia: https://defimedia.info/rss.xml
+Newest: Police (Amendment) Bill : le texte adopté sans amendement à l’Assemblée nationale | https://defimedia.info/police-amendment-bill-le-texte-adopte-sans-amendement-lassemblee-nationale
+Article text: 945 chars | photo: https://files.defimedia.info/sites/default/files/2026-09/Casernes%20centrales.jpg
+  same headline as #151: Police (Amendment) Bill : le texte adopté sans amendement à l’Assemblée national
+Duplicate of recent post #: 151
+LLM usage so far: 3 requests, 217 tokens
+-- Post that would be sent:
 
-===  «Dekriptaz Turf» | Écurie Foo Kune : le titre déjà assuré ?
-names: Dekriptaz Turf (org); Foo Kune (org)
-«Dekriptaz Turf» | Écurie Foo Kune : le titre déjà assuré ? 
- 
-  proofread: Navin Ramgoolam → Навин Рамгулам; Chetan Baboolall → Четан Бабуолл
+== L'Express: https://lexpress.mu/
+Newest: «Anba Larivier», à Roche-Bois : Le visage de l’extrême pauvreté | https://lexpress.mu/s/le-visage-de-lextreme-pauvrete-563834
+Article text: 6037 chars | photo: https://lexpress.mu/storage/articles/fbJQI9yBC97zywHF5bFb3x8I1FwlKFyMAlBqaGLy.jpg
+  dup check: new (Статья описывает ситуацию в районе «Anba Larivier» (Roche-Bois), где более 100 человек живут в условиях крайней бедности уже более 30 лет, и упоминает)
+  not news (portrait/lifestyle): «Anba Larivier», à Roche-Bois : Le visage de l’extrême pauvreté
+Duplicate of recent post #: None
+LLM usage so far: 5 requests, 5203 tokens
+-- Post that would be sent:
 
-===  PNQ : Navin Ramgoolam confirme l’arrestation d’un baron de la drogue
-names: Navin Ramgoolam (person); Chetan Baboolall (person); Assemblée nationale→Национальное собрание (org)
-PNQ: Navin Ramgoolam подтверждает арест «барона» наркоторговли 
- Премьер-министр Navin Ramgoolam подтвердил арест как минимум одного «барона» наркоторговли на фоне недавних беспорядков в стране. Об этом он сообщил 20 октября в Национальном собрании в ответ на PNQ лидера оппозиции Chetan Baboolall. Глава правительства не назвал имя и обстоятельства задержания, но заявил, что разведка располагает данными о возможном финансировании беспорядков со стороны наркоторговцев. Он также упомянул о потенциально скоординированных атаках на полицейские участки, камеры Safe City и инфраструктуру, а также объявил о создании кризисного комитета по водоснабжению под своим председательством.
-  proofread: edit rejected (changed numbers, names or length)
+== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
+Newest: Après le cauchemar des émeutes : Barkly veut panser ses blessures et conjurer la stigmatisation | https://www.lemauricien.com/actualites/societe/apres-le-cauchemar-des-emeutes-barkly-veut-panser-ses-blessures-et-conjurer-la-stigmatisation-2/721166/
+Article text: 6644 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-11-7.webp
+  dup check: new (В статье описываются эмоциональные заявления жителей Beau-Bassin о стигматизации и боли после беспорядков, а также цитируются высказывания адвоката Gi)
+Duplicate of recent post #: None
+LLM usage so far: 8 requests, 11158 tokens
+-- Post that would be sent:
+<b>После кошмара беспорядков: Barkly хочет залечить раны и преодолеть стигматизацию</b>
 
-===  Violences du 17 octobre | Paroles de la diaspora en France : Entre colère, inquiétude et peur de l’a
-names: Jenika Farineaux (person); Archad Burahee (person); Darty (org); FIFA→ФИФА (org)
-Насилие 17 октября | Голоса диаспоры во Франции: между гневом, тревогой и страхом за будущее 
- Маврикийская диаспора во Франции с тревогой следит за событиями на Маврикии и во Франции после протестов 17 октября, в которых участвовали от 500 до 800 тысяч человек. Менеджер магазина Darty Jenika Farineaux и бывший сотрудник FIFA Archad Burahee говорят о росте стоимости жизни, дорогом топливе и разрыве диалога, опасаясь за будущее детей. На Маврикии тем временем сохраняются беспорядки, которые едва сдерживает введенный 12 октября комендантский час.
-  proofread: edit rejected (changed numbers, names or length)
+Район Barkly в Beau-Bassin пытается оправиться после недавних беспорядков: сожжённый полицейский участок, обгоревшие машины и полностью разгромленная станция метро. Жители, включая Gilbert Larché, осуждают насилие, но отвергают стигматизацию и требуют уважения достоинства их сообщества. Они подчёркивают, что ущерб не только материальный, но и репутационный, и призывают не отождествлять всех с зачинщиками.
 
-===  Water Tanks : le programme pourrait être étendu aux familles qui possèdent déjà un réservoir d’eau
-names: Patrick Assirvaden (person); Raviraj Beechook (person); Assemblée nationale→Национальное собрание (org); Central Water Authority (org); Mare-aux-Vacoas (mu_place); La Nicolière (mu_place)
-Водяные баки: программу могут расширить на семьи, у которых уже есть резервуар для воды 
- Министр общественных услуг Patrick Assirvaden сообщил в Национальном собрании, что получено 28 306 заявок на помощь в получении водяных баков и бытовых насосов. С 19 октября заявки принимают онлайн и в офисах Central Water Authority. Сначала программа нацелена на семьи без резервуаров из-за засухи, но затем может быть расширена. Уровень воды в Mare-aux-Vacoas может упасть до 20% к ноябрю без дождей; сейчас там 34,2%, в La Nicolière — 39,4%.
+🔗 <a href="https://www.lemauricien.com/actualites/societe/apres-le-cauchemar-des-emeutes-barkly-veut-panser-ses-blessures-et-conjurer-la-stigmatisation-2/721166/">Le Mauricien</a>
+== Inside News: https://inside.news/feed/
+Newest: Violences en France : Paris impose des restrictions nocturnes, plusieurs villes renforcent la sécurité | https://www.inside.news/france-emeutes-couvre-feu-paris-villes-octobre-2026/
+Article text: 2342 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/2d3b1926-4532-4e02-b02e-cd733b78ac9b-Removed-1024x576.png
+  dup check: new (В статье сообщается о введении ночных ограничений в Париже и других городах Франции после протестов, а также о призыве премьер-министра к местным влас)
+  not about Mauritius: Violences en France : Paris impose des restrictions nocturnes, plusieurs villes renforcent la sécuri
+Duplicate of recent post #: None
+LLM usage so far: 10 requests, 15543 tokens
+-- Post that would be sent:
 
-===  La police interroge le frère d’un ancien ministre, alors que 12 suspects du procès relatif au couvre
-names: Robin Hurreeram (person); Bobby Hurreeram (person); Shefali Ganoo-Arekion (person); Michel Ah Sen (person); Kevin Moorgen (person); DCP Oozeer (person); Rajeshwar Kumarsing Sawaruth (person); Rishvant Alhodur (person); Mohammad Zuhell Fakermahamood (person); Louis Jason Evans Plaignant (person); Muhammad Umar Shamtally (person); Central CID (org); Cour intermédiaire→Промежуточный суд (org); Bureau du Procureur général (DPP)→Бюро генерального прокурора (DPP) (org); Quatre-Bornes (mu_place); Bassin Road (mu_place); Bambous (mu_place); Morcellement Eau Bonne (mu_place); Coteau Raffin (mu_place); La Gaulette (mu_place)
-Полиция допросила брата бывшего министра, а суд перенёс слушание по делу 12 подозреваемых о нарушении комендантского часа 
- Полиция Маврикия допросила Robin Hurreeram, брата бывшего министра Bobby Hurreeram, по поводу распространения сообщений в WhatsApp во время недавних беспорядков; после допроса его отпустили. Параллельно в Промежуточном суде перенесли на среду, 21 октября, рассмотрение дела 12 человек, обвинённых в нарушении комендантского часа; все они остаются под стражей. Обвинение поддерживают сотрудники Бюро генерального прокурора, а на слушании выступили полицейские, включая заместителя DCP Oozeer.
-  proofread: «его вид» → «его вид» (оставлено как есть); «были задействованы» → «были задействованы» (оставлено как есть); «на île d’Ambre» → «на île d’Ambre» (осталось без изменений, так как это название места, написанное латиницей)
+== Wazaa: https://www.wazaa.mu/feed/
+Newest: L’UE promet un soutien à l’eau et à l’énergie à l’Île Maurice d’ici 2027 | https://www.wazaa.mu/lue-promet-un-soutien-a-leau-et-a-lenergie-a-lile-maurice-dici-2027/
+Article text: 2225 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1792514533.jpeg
+  dup: nothing new (В статье упоминается, что поддержка ЕС будет оказана через прямые субсидии и техническую экспертизу в ключевых секторах развития Маврикия (управление )
+Duplicate of recent post #: 91
+LLM usage so far: 11 requests, 17865 tokens
+-- Post that would be sent:
 
-===  Bain-de-Rosnay : Un dauphin retrouvé mort, son espèce reste à identifier
-names: Bain-de-Rosnay (mu_place); Poudre-d’Or (mu_place); Grand-Gaube (mu_place); île d’Ambre (mu_place); Marine Science Division (org); Fisheries Protection Service (org); National Coast Guard (org)
-Bain-de-Rosnay: найден мертвый дельфин, его вид еще предстоит установить 
- Вчера, 19 октября, рыбаки обнаружили тушу дельфина в Bain-de-Rosnay. Из-за сильного разложения и повреждения живота вид определить не удалось, поэтому были взяты образцы для ДНК-анализа. На место прибыли береговая охрана Poudre-d’Or и Grand-Gaube, а также Marine Science Division, Fisheries Protection Service и National Coast Guard. Туша временно размещена у рыбоприемного пункта, затем для безопасности перемещена на île d’Ambre; окончательные меры по ее хранению и утилизации планируется принять 21 октября.
-  proofread: Банковские резервы: Новая директива обязательных резервов от Банка Маврикия → Банк Маврикия обновил директиву по обязательным резервам
+== Top FM: https://topfm.mu/
+Newest: Subvention pour les réservoirs : plus de 28 000 demandes déjà enregistrées | https://topfm.mu/actualites/subvention-pour-les-reservoirs-plus-de-28-000-demandes-deja-enregistrees
+Article text: 2242 chars | photo: https://topfm.mu/sites/default/files/2026-10/WATER-TANK.jpg
+  same headline as #148: Subvention pour les réservoirs : plus de 28 000 demandes déjà enregistrées
+Duplicate of recent post #: 148
+LLM usage so far: 11 requests, 17865 tokens
+-- Post that would be sent:
 
-===  Liquidités bancaires : Nouvelle directive des réserves obligatoires par la Banque de Maurice
-names: Banque de Maurice→Банк Маврикия (org)
-Банк Маврикия обновил директиву по обязательным резервам 
- Банк Маврикия (BoM) пересмотрел директиву по Cash Reserve Requirement (CRR), определяющую минимальный объем ликвидности, который банки должны хранить в центробанке. Новые правила вступают в силу 14 октября и устанавливают резервные требования в 9% для депозитов в рупиях и 9% для валютных депозитов резидентов, а для GBC, Authorised Companies и нерезидентов — 4,5%. Reserve должны поддерживаться в течение 28 дней, а BoM оставляет за собой право пересматривать ставки.
-
-===  Loi anti-transfugisme : Le cas de Sydney Pierre met en lumiÃ¨re une lacune de notre Constitutionâ¨â
-names: Sydney Pierre (person); Parti travailliste→Лейбористская партия (org); Assemblée nationale→Национальное собрание (org)
-Закон против смены партий: дело Sydney Pierre выявляет пробел в Конституции 
- 16 октября 2026 года депутат Sydney Pierre покинул Лейбористскую партию и перешёл в оппозицию, что поставило вопрос о конституционной норме. В действующей Конституции Маврикия переход депутата в другую фракцию не ведёт к потере мандата, поскольку статья 35 не предусматривает смену партий как основание для вакансии. Если бы существовал закон против «политического перебежничества», его уход мог бы повлечь частичные выборы, чтобы избиратели снова решили, кто будет их представлять в Национальном собрании.
-  proofread: edit rejected (changed numbers, names or length)
-
-===  BOXE – Les JIOI 2027 en toile de fond  avec un nouvel entraÃ®neur en poste
-names: Chloé Gabriel (person); Roméo Caliste (person); Richard Sunee (person); Pascal Telvar (person); Ravind Nadooa (person); Mathieu Souprayen (person); Fabrice Valérie (person); Ivans Frontin (person); Ziggy Agathe (person); Merven Clair (person); Ferdinand Ilunga Luyoyo (person); Fédération mauricienne de boxe (org); AMB (org); International Boxing Association (org); Africa Boxing (org); World Boxing (org); Fédération congolaise de boxe (org); Irlande→Ирландия (foreign); République démocratique du Congo→Демократическая Республика Конго (foreign); Kinshasa→Киншаса (foreign); Comores→Коморы (foreign); Kenya→Кения (foreign)
-БОКС — На фоне Игр островов Индийского океана 2027 с новым тренером 
- Пять элитных боксёров Маврикия и Chloé Gabriel из Ирландии отправились в Демократическую Республику Конго на чемпионат Africa 2026 в Киншасе. На фоне подготовки к Играм островов Индийского океана на Коморах в августе 2027 года федерация назначила новым тренером Roméo Caliste вместо Richard Sunee. Делегация во главе с Ravind Nadooa рассчитывает на медали; матчи проходят сегодня, финалы — 1 ноября. Ожидается рекорд — 38 стран.
-  proofread: третий допрос → третий этап
-
-===  VTT – Fundsmith Colin Mayer 2026 – Une domination sans partage du binÃ´me LincolnâStiebjahn
-names: Yannick Lincoln (person); Simon Stiebjahn (person); Southern Sports Club (org); CIEL Fundsmith Colin Mayer Tour (org); Carla De Witt (person); Stéphanie Domaingue (person); Glorious Forties (org); Guillaume Deurweilher (person); Fabien Piffarelly (person); Pif Paf (org); Jérémy Lenclume (person); Quentin Soubadou (person); Team GCCC (org); Kimberley Le Court (person); Heidi Dalton (person); Ready and Rusty (org); Géraldine Harel (person); Carin Stofberg (person); Tailwind Nutrition (org); Ferney (mu_place)
-VTT – CIEL Fundsmith Colin Mayer Tour 2026 – Полное доминирование дуэта Lincoln–Stiebjahn 
- На Маврикии завершилась 11-я гонка CIEL Fundsmith Colin Mayer Tour в Ferney. Дуэт Yannick Lincoln и Simon Stiebjahn из Southern Sports Club выиграл третий этап за 1:26:41 и всю гонку за 5:21:06, не уступив ни одного этапа. В женской категории победили Carla De Witt и Stéphanie Domaingue из Glorious Forties с общим временем 7:42:27. Второе место у Guillaume Deurweilher и Fabien Piffarelly из Pif Paf (+15:44), третье — у Jérémy Lenclume и Quentin Soubadou из Team GCCC (5:44:05).
-
-===  Paix sociale : le MACOSS appelle à donner davantage de place aux jeunes
-names: MACOSS (org); Suraj Ray (person)
-Социальный мир: MACOSS призывает дать молодежи больше возможностей 
- 20 октября MACOSS опубликовал заявление, подписанное президентом Suraj Ray, с призывом предоставить молодежи пространства для участия и ответственности ради укрепления социального мира. Организация подчеркивает роль молодежи в будущем страны и призывает к взаимопомощи, ответственному диалогу и уважению. MACOSS также выступает за борьбу с неравенством и доступ к образованию, работе и услугам, а также за восстановление доверия и диалога в обществе.
-  proofread: Navin Ramgoolam → Навин Рамгулум; Passport and Immigration Office → Passport and Immigration Office
-
-===  Disparition d’une employée bangladaise : elle n’a pas quitté Maurice, affirme Ramgoolam
-names: Navin Ramgoolam (person); Joanna Bérenger (person); Fron Militan Progresis (org); Beau-Bassin (mu_place); Goodlands (mu_place); Passport and Immigration Office (org)
-Пропажа бангладешской сотрудницы: она не покидала Маврикий, утверждает Ramgoolam 
- Премьер-министр Navin Ramgoolam сообщил, что пропавшая с 3 апреля 2026 года бангладешская работница M.M.A.B. не покидала Маврикий, согласно данным Passport and Immigration Office. Заявление было сделано 20 октября в ответ на запрос депутата Joanna Bérenger из Fron Militan Progresis. Полиция допросила таксистов и соседей, но местонахождение женщины, уехавшей на такси с паспортом, до сих пор не установлено. С начала года на острове числятся пропавшими 2 926 иностранцев, включая 2 225 граждан Бангладеш.
-  proofread: edit rejected (changed numbers, names or length)
-
-===  Politique sur le cannabis : la National Drug Control Commission se prononcera sur les recommandation
-names: National Drug Control Commission (org); Navin Ramgoolam (person); Arvin Babajee (person); Kunal Naik (person); National Agency for Drug Control (org); International Drug Policy Consortium (org); Organisation mondiale de la santé→Всемирная организация здравоохранения (org); Maurice (mu_place)
-Политика в отношении каннабиса: Национальная комиссия по контролю над наркотиками вынесет решение по рекомендациям 
- Премьер-министр Navin Ramgoolam сообщил, что 20 октября 2026 года оценка реформы национальной политики по каннабису передана в его канцелярию. Вопрос рассмотрит National Drug Control Commission. Работу с января по июль 2026 года вёл технический комитет под руководством Kunal Naik, проведено 18 заседаний и консультации с International Drug Policy Consortium в Лондоне и ВОЗ на Маврикии.
-  proofread: третье допрос → третий допрос
-
-===  Enquête sur les équipements d’écoute : «Cette enquête est une tentative de manipulation politique cl
-names: Pravind Jugnauth (person); Raouf Gulbul (person); Central Criminal Investigation Department (CCID) (org); Casernes centrales (mu_place)
-Расследование по прослушке: «Это расследование — явная попытка политической манипуляции», — заявил Pravind Jugnauth 
- Бывший премьер-министр Маврикия Pravind Jugnauth 20 октября явился в Central Criminal Investigation Department (CCID) в Casernes centrales по делу о предполагаемой незаконной закупке и использовании оборудования для перехвата данных и слежки в период его полномочий. Это был его третий допрос после 17 и 29 сентября. Адвокат Raouf Gulbul заявил, что клиент отвечал на вопросы и требует доступа к материалам для справедливого расследования. Jugnauth назвал дело попыткой политической манипуляции и раскритиковал рост тарифов и невыполненные обещания действующего правительства.
-  proofread: Центральное управление уголовного розыска (CCID) → Центральное управление уголовного розыска (CCID); Раоуф Гулбул → Раоуф Гулбул
-
-===  Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37 questions du CCID mais exige plu
-names: Pravind Jugnauth (person); Raouf Gulbul (person); Mouvement Socialiste Militant (org); CCID→Центральное управление уголовного розыска (org)
-Расследование по прослушивающему оборудованию: Pravind Jugnauth ответил на 37 вопросов CCID, но требует большей ясности 
- Бывший премьер-министр и лидер партии Mouvement Socialiste Militant (MSM) Pravind Jugnauth 20 октября 2026 года в четвёртый раз явился в Центральное управление уголовного розыска (CCID) для допроса по делу о закупке и вводе в эксплуатацию оборудования для прослушивания коммуникаций. Его адвокат Raouf Gulbul сообщил, что клиент ответил на 37 вопросов следователей, однако некоторые запросы защиты остались без ответа.
-  proofread: «Это представляет» → «представляет»
-
-===  L’industrie textile subit des retards d’une semaine après les troubles et le couvre-feu - Wazaa FM
-names: François de Grivel (person); V Formula (org); Nitish Rama (person); Beedasee (person)
-Текстильная промышленность Маврикия отстаёт на неделю из-за беспорядков и комендантского часа 
- Экспортный текстильный сектор Маврикии пытается наверстать заказы с задержкой в неделю и более, возросшие расходы на сверхурочные и возможные штрафы покупателей после недели серьёзных сбоев из-за недавних социальных волнений и комендантского часа. По словам промышленника François de Grivel, производство упало примерно на 20% в пострадавшую неделю; фабрики закрывались в 15:00–17:00 из-за комендантского часа. Директор V Formula Nitish Rama сообщил о переносе ряда заказов на неделю и более; приоритет — завершить отложенные заказы. Эксперт Beedasee предупредил о росте издержек и давлении на денежные потоки и конкурентоспособность.
-
-LLM 31 calls, 54890 tokens
