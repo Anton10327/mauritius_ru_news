@@ -11,3 +11,14 @@ Posted (Top FM): Инциденты с участием несовершенно
   proofread: Anita Ghoorah → Анита Гхур
 Posted (Top FM): Специальный комитет по возрасту уголовной ответственности: омбудсмен по делам детей призывает к консультациям с НПО
 LLM usage this run: 12 requests, 19751 tokens
+### check 2/5 at 11:21
+  dup check: new (Sidharta Hawoldar публично призвал к милосердию в отношении несовершеннолетних, арестованных во время недавних беспорядков; он связал причины недоволь)
+Bad LLM answer from GigaChat-3-Ultra: Expecting value: line 1 column 154 (char 153); raw: {"choices":[{"message":{"content":"{\"mauritius\": true, \"news\": true, \"title\": \"Недавние беспорядки: Сидхарт Хаволдар призывает к снисхождению к арестованным несовершеннолетним\", \"summary\":Старший адвокат Сидхарт Хаволдар считает, что недавние беспорядки на Маврикии подпитывались бедностью 
+  written by GigaChat-3-Pro
+  not news (portrait/lifestyle): Troubles récents : Sidharta Hawoldar plaide pour la clémence envers les mineurs arrêtés
+Skipped foreign news (Top FM): Troubles récents : Sidharta Hawoldar plaide pour la clémence envers les mineurs arrêtés
+  dup check: new (Упоминается, что четыре правозащитные организации Маврикия (NHRC, EOC, IPCC и OOC) усиливают сотрудничество в связи с 40-летием Африканской хартии пра)
+Posted (Top FM): 40-летие Африканской хартии: два мероприятия запланированы на 21 и 23 октября
+  not news (portrait/lifestyle): Tempo La So : Kris Kaunhye cite l’intégrité de Lee Kuan Yew en exemple pour Maurice
+Skipped foreign news (Top FM): Tempo La So : Kris Kaunhye cite l’intégrité de Lee Kuan Yew en exemple pour Maurice
+LLM usage this run: 7 requests, 11226 tokens
