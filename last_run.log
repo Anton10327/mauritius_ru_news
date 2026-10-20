@@ -1,24 +1,13 @@
-### check 1/5 at 10:29
-  dup check: new (Министр обороны Великобритании Уэс Стритинг заявил в Палате общин 19 октября 2026 года, что Лондон работает над соглашением по базе Диего-Гарсия, кото)
-  proofread: Wes Streeting → Уэс Стритинг
-Posted (Defimedia): Diego Garcia: Лондон хочет соглашение «приемлемое для всех нас, включая президента Трампа»
-  dup check: new (В статье сообщается о находке мёртвого дельфина в Bain-de-Rosnay, обнаруженного рыбаками и зафиксированного береговой охраной Poudre-d’Or и Grand-Gaub)
-  proofread: мертвый → мёртвый
-Posted (L'Express): Bain-de-Rosnay: найден мёртвый дельфин
-LLM usage this run: 6 requests, 8829 tokens
-### check 2/5 at 10:33
-  dup check: new (В статье указано, что более 100 фейковых профилей идентифицированы и 22 страницы Facebook находятся под следствием CCID; также говорится о вызове неск)
-Posted (L'Express): Более 100 фальшивых профилей и 22 страницы Facebook в поле зрения CCID
-LLM usage this run: 3 requests, 5083 tokens
-### check 3/5 at 10:37
-### check 4/5 at 10:41
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Assemblée nationale : troubles à l’ordre public, couvre-feu et crise de l’eau au cœur de l == PNQ: Chetan Baboolall обращается к Navin Ramgoolam по поводу недавней напряженности по все
-  dup check: new (В статье упоминается, что ЕС намерен поддержать Маврикий в управлении водными ресурсами, возобновляемой энергетике и прибрежной устойчивости через суб)
-  proofread: Navin Ramgoolam → Навин Рамгулам; Oskar Benedikt → Оскар Бенедикт
-Posted (Defimedia): Маврикий — ЕС: поддержка в сфере воды и энергетики, соглашение по рыболовству ожидается в декабре, деловой форум запланирован на 2027 год
-  dup check: new (Meta получила 24 часа на доказательство нейтральности в президентской кампании в Бразилии, иначе грозит штраф $200,000. Это требование касается кампан)
-  not about Mauritius: Au Brésil, Meta sommée de prouver sous 24 heures sa neutralité dans la présidentielle
-Skipped foreign news (Le Mauricien): Au Brésil, Meta sommée de prouver sous 24 heures sa neutralité dans la présidentielle
-LLM usage this run: 6 requests, 11240 tokens
-### check 5/5 at 10:45
+### check 1/5 at 11:17
+  dup check: new (В статье указано, что были заслушаны 24 свидетеля и завершены прения сторон; также уточняется дата следующего заседания — среда, 21 октября. Эти детал)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Двадцать четыре свидетеля заслушаны, решение по 12 обвиняемым ожидается в среду
+  dup check: new (В статье указано, что авария произошла в деревне Poudre-d’Or Village (а не просто в районе Poudre-d’Or), погибший — 21-летний житель Petit-Raffray, ег)
+Posted (L'Express): Poudre-d’Or: 21-летний мотоциклист погиб, его 18-летний пассажир в критическом состоянии
+  dup check: new (В статье появляется новая цитата и позиция: Lindsay Morvan, президент Mouvement pour le Progrès de Roche-Bois, впервые публично призывает к исправлени)
+  proofread: Линдси Морван → Линдси Морван (имя совпадает); Roche-Bois → Roche-Bois (название совпадает); Движения за прогресс в Roche-Bois → Движения за прогресс в Roche-Bois (корректно); заявил о необходимости → заявил о необходимости (корректно); НПО не могут → НПО не могут (корректно)
+Posted (Top FM): Инциденты с участием несовершеннолетних: Lindsay Morvan призывает устранить пробелы в системе
+  dup check: new (В статье впервые упоминается позиция омбудсмена по делам детей Anita Ghoorah, которая настаивает на необходимости консультаций с НПО при рассмотрении )
+  proofread: Anita Ghoorah → Анита Гхур
+Posted (Top FM): Специальный комитет по возрасту уголовной ответственности: омбудсмен по делам детей призывает к консультациям с НПО
+LLM usage this run: 12 requests, 19751 tokens
