@@ -3,29 +3,23 @@ Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary mode
 Google Translate failed: TooManyRequests
 Автобусное сообщение прервано во вторник утром
 == LLM: https://api.groq.com/openai/v1/chat/completions
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-b43e09f6-6a1b-49ad-ad6b-f64d70490dc1","object":"chat.completion","created":1792500879,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.031481927,"prompt_tokens":16,"prompt_t
-openai/gpt-oss-120b 200 {"id":"chatcmpl-c3ce7a0f-305d-4079-9526-d083af670fdd","object":"chat.completion","created":1792500880,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
-openai/gpt-oss-20b 200 {"id":"chatcmpl-c5942c06-981a-4d40-bb94-9d0214318075","object":"chat.completion","created":1792500880,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So respond with \"ok\"."},"logprobs":null,"finish_reason":
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-d72abc95-e3bb-42da-aca1-a1e327cf5c23","object":"chat.completion","created":1792501104,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.004191625,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-d74b64ab-7f16-4326-b6ab-6964b4cfde6b","object":"chat.completion","created":1792501104,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just respond \"ok\"."},"logprobs":null,"finish_reason"
+openai/gpt-oss-20b 200 {"id":"chatcmpl-1c342414-68ba-4a59-b820-7cb42f77820f","object":"chat.completion","created":1792501104,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So just output \"ok\"."},"logprobs":null,"finish_reason":"
 == Defimedia: https://defimedia.info/rss.xml
-Newest: Politique sur le cannabis : la National Drug Control Commission se prononcera sur les recommandations | https://defimedia.info/politique-sur-le-cannabis-la-national-drug-control-commission-se-prononcera-sur-les-recommandations
-Article text: 1872 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Ramgoolam%20cannabis.jpg
-  dup check: new (Le rapport d’évaluation de la réforme de la politique nationale sur le cannabis a été finalisé et soumis au Bureau du Premier ministre; il sera examin)
-  proofread by qwen/qwen3.8-27b
-  proofread: 20 октября 2026 года окончательный отчет об оценке реформы национальной политики по каннабису передан в Бюро премьер-министра → 20 октября 2026 года окончательный отчет об оценке реформы национальной политики по каннабису был передан в Бюро премьер-министра; Работу по оценке с января по июль 2026 го
-Duplicate of recent post #: None
-LLM usage so far: 6 requests, 5398 tokens
+Newest: Paix sociale : le MACOSS appelle à donner davantage de place aux jeunes | https://defimedia.info/paix-sociale-le-macoss-appelle-donner-davantage-de-place-aux-jeunes
+Article text: 2453 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Jeunesse.jpeg
+  same headline as #157: Paix sociale : le MACOSS appelle à donner davantage de place aux jeunes
+Duplicate of recent post #: 157
+LLM usage so far: 3 requests, 219 tokens
 -- Post that would be sent:
-<b>Политика в отношении каннабиса: Национальная комиссия по контролю над наркотиками вынесет решение по рекомендациям</b>
 
-Премьер-министр Маврикия Navin Ramgoolam сообщил, что 20 октября 2026 года окончательный отчет об оценке реформы национальной политики по каннабису был передан в Бюро премьер-министра. Документ рассмотрит National Drug Control Commission, которая должна принять решение по рекомендациям. Работу по оценке с января по июль 2026 года вел технический комитет под руководством Kunal Naik; проведено 18 заседаний и национальные консультации.
-
-🔗 <a href="https://defimedia.info/politique-sur-le-cannabis-la-national-drug-control-commission-se-prononcera-sur-les-recommandations">Defimedia</a>
 == L'Express: https://lexpress.mu/
 Newest: Coup de feu à Camp-Levieux : L’état de santé d’Élodie Thomas continue d’évoluer favorablement | https://lexpress.mu/s/letat-de-sante-delodie-thomas-continue-devoluer-favorablement-563843
 Article text: 1268 chars | photo: https://lexpress.mu/storage/articles/XclJmyK85q2Un3ptd4GQFxFvBR7HKy51bBdxUXJP.jpg
   same headline as #152: Coup de feu à Camp-Levieux : L’état de santé d’Élodie Thomas continue d’évoluer 
 Duplicate of recent post #: 152
-LLM usage so far: 6 requests, 5398 tokens
+LLM usage so far: 3 requests, 219 tokens
 -- Post that would be sent:
 
 == Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
@@ -33,7 +27,7 @@ Newest: PNQ- Émeutes : un baron de la drogue arrêté, une coordination des inc
 Article text: 5110 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2025/10/2025-10-07_12-51-08.jpg
   same headline as #138: PNQ- Émeutes : un baron de la drogue arrêté, une coordination des incidents évoq
 Duplicate of recent post #: 138
-LLM usage so far: 6 requests, 5398 tokens
+LLM usage so far: 3 requests, 219 tokens
 -- Post that would be sent:
 
 == Inside News: https://inside.news/feed/
@@ -41,7 +35,7 @@ Newest: Don de sang à Maurice : après une semaine d’interruption, les collec
 Article text: 1658 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/601a9536-fc99-4bb0-8bf7-5154056a06ea__1_-Removed.png
   dup: nothing new ()
 Duplicate of recent post #: 1
-LLM usage so far: 7 requests, 7754 tokens
+LLM usage so far: 4 requests, 2568 tokens
 -- Post that would be sent:
 
 == Wazaa: https://www.wazaa.mu/feed/
@@ -49,7 +43,7 @@ Newest: L’industrie textile subit des retards d’une semaine après les troub
 Article text: 5287 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1792500173.jpeg
   dup: nothing new ()
 Duplicate of recent post #: 141
-LLM usage so far: 8 requests, 10129 tokens
+LLM usage so far: 5 requests, 4902 tokens
 -- Post that would be sent:
 
 == Top FM: https://topfm.mu/
@@ -57,6 +51,6 @@ Newest: Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37
 Article text: 949 chars | photo: https://topfm.mu/sites/default/files/media-icons/generic/video.png
   same headline as #154: Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37 questions du
 Duplicate of recent post #: 154
-LLM usage so far: 8 requests, 10129 tokens
+LLM usage so far: 5 requests, 4902 tokens
 -- Post that would be sent:
 
