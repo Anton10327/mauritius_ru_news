@@ -688,7 +688,8 @@ italien italienne russe russes pakistanais bangladais nepalais sri-lankais austr
 australienne mauriciens mauriciennes rodriguais comorien comorienne kenyan japonais
 espagnol espagnole portugais belge suisse canadien canadienne emirati saoudien
 policier policiers policiere indian program programme aeroport incidents incident comment
-rating express impots administration expert""".split()
+rating express impots administration expert african commissioner office officer
+chief minister court committee commissions""".split()
 
 
 def _sound(word):
@@ -696,6 +697,7 @@ def _sound(word):
     import unicodedata
     w = word.lower().replace("ç", "s").replace("ье", "ie")
     w = re.sub(r"c(?=[eiyéèê])", "s", w)  # French soft c: Valence, Cité
+    w = re.sub(r"g(?=[eiyéèê])", "j", w)  # and soft g: Roger ~ Роже
     w = unicodedata.normalize("NFKD", w)
     w = "".join(c for c in w if not unicodedata.combining(c))
     w = "".join(_CYR2LAT.get(c, c) for c in w)
@@ -738,6 +740,81 @@ _VOWELS = set("aeiou")
 _VOWEL_SWAPS = [{"u", "a"}, {"a", "e"}, {"e", "i"}, {"o", "u"}]
 
 
+def _fr(word):
+    """French reading of one word: oi = уа, silent final consonant and e."""
+    w = re.sub(r"oi[xst]?$", "ua", word.lower()).replace("oi", "ua")
+    k = re.sub(r"(?<=[aeiou])[tdsx]$", "", _sound(w))
+    k = re.sub(r"(?<=.{3})(er|ez)$", "e", k)
+    return re.sub(r"(?<=..)e$", "", k)
+
+
+def _align_names(text, original):
+    """A name the model left half in Latin ("Роже Agathe", "Louis Майк Dambel"):
+    the Latin words anchor it to the full name in the article, so the Cyrillic
+    words between them are replaced by the article's words in that place."""
+    from difflib import SequenceMatcher
+    runs = [m.group(0).split() for m in
+            re.finditer(r"[A-ZÀ-Ý][\w'’-]*(?:\s+[A-ZÀ-Ý][\w'’-]*)+", original)]
+    tok = r"[A-ZÀ-ÝА-ЯЁ][\w'’-]*"
+
+    def sub(m):
+        words = m.group(0).split()
+        latin = [w for w in words if re.match(r"[A-Za-zÀ-ÿ]", w)]
+        if not latin or len(latin) == len(words):
+            return m.group(0)
+        for run in runs:
+            if not all(w in run for w in latin):
+                continue
+            # split both into segments around the Latin anchors
+            out, i = [], 0
+            ok = True
+            for w in words:
+                if w in latin:
+                    j = run.index(w, i) if w in run[i:] else -1
+                    if j < 0:
+                        ok = False
+                        break
+                    gap = run[i:j]
+                    if gap and out and isinstance(out[-1], list):
+                        cyr = out.pop()
+                        r = SequenceMatcher(None, _sound("".join(cyr)),
+                                            _sound("".join(gap))).ratio()
+                        if r < 0.5:
+                            ok = False
+                            break
+                        out.extend(gap)
+                    elif gap or (out and isinstance(out[-1], list)):
+                        ok = False
+                        break
+                    out.append(w)
+                    i = j + 1
+                else:
+                    if out and isinstance(out[-1], list):
+                        out[-1].append(w)
+                    else:
+                        out.append([w])
+            if ok and out and isinstance(out[-1], list):  # Cyrillic words at the end
+                cyr, gap = out.pop(), run[i:]
+                if not gap or SequenceMatcher(None, _sound("".join(cyr)),
+                                              _sound("".join(gap))).ratio() < 0.5:
+                    ok = False
+                else:
+                    out.extend(gap)
+            if ok and out and isinstance(out[0], list):  # Cyrillic words first
+                cyr = out.pop(0)
+                first = run.index(out[0]) if out and out[0] in run else -1
+                gap = run[max(0, first - len(cyr)):first] if first > 0 else []
+                if not gap or SequenceMatcher(None, _sound("".join(cyr)),
+                                              _sound("".join(gap))).ratio() < 0.5:
+                    ok = False
+                else:
+                    out = gap + out
+            if ok and all(isinstance(x, str) for x in out):
+                return " ".join(out)
+        return m.group(0)
+    return re.sub(rf"{tok}(?:\s+{tok})+", sub, text)
+
+
 _LINKS = {"d", "de", "du", "des", "la", "le", "les", "l", "aux", "en", "sur", "or"}
 
 
@@ -748,7 +825,8 @@ def _latinize_compounds(text, original):
     toks = list(re.finditer(r"[A-Za-zÀ-ÿ]+", original))
     spans = {}
     for i, t in enumerate(toks):
-        if not t.group(0)[0].isupper() or _not_name(t.group(0)):
+        followed = original[t.end():t.end() + 1] == "-"  # Sainte-Croix is a name
+        if not t.group(0)[0].isupper() or (_not_name(t.group(0)) and not followed):
             continue
         for j in range(i + 1, min(i + 5, len(toks))):
             last = toks[j].group(0)
@@ -764,6 +842,7 @@ def _latinize_compounds(text, original):
                 spans.setdefault(_sound("".join(words[:-1])) + _sound_latin(last), span)
                 # silent final e in each part: Rose-Hill ~ Роуз-Хилл
                 spans.setdefault("".join(re.sub(r"(?<=..)e$", "", _sound(w)) for w in words), span)
+                spans.setdefault("".join(_fr(w) for w in words), span)  # Sainte-Croix ~ Сент-Круа
 
     def sub(m):
         word = m.group(0)
@@ -789,7 +868,7 @@ def latinize_names(text, original):
     # Le Mauricien writes headlines in CAPITALS ("SOREZE : ..."): match as Title case
     original = re.sub(r"\b[A-ZÀ-Ý]{3,}(?:-[A-ZÀ-Ý]+)*\b",
                       lambda m: "-".join(p.capitalize() for p in m.group(0).split("-")), original)
-    text = _latinize_compounds(text, original)
+    text = _align_names(_latinize_compounds(text, original), original)
     from difflib import SequenceMatcher
     def at_start(src, pos):  # first word of a line or sentence (or after a colon)
         return re.search(r"(^|[.!?:…«\"—–-]\s*|\n\s*)$", src[max(0, pos - 3):pos]) is not None \
@@ -870,7 +949,7 @@ camp-levieux cite-la-cure roche-bois sainte-croix plaine-verte vallee-pitot tran
 grande-riviere grand-river grand-gaube poste-de-flacq belle-mare trou-d'eau-douce
 saint-pierre quartier-militaire montagne-blanche nouvelle-france new-grove l'escalier
 rodrigues agalega chagos ebene reduit floreal candos midlands mare-aux-vacoas lalmatie
-solitude la-louise soreze glen-park cassis stanley camp-de-masque camp-diable chamarel case-noyale
+solitude la-louise sainte-croix soreze glen-park cassis stanley camp-de-masque camp-diable chamarel case-noyale
 beau-champ olivia laventure mapou piton terre-rouge baie-du-tombeau arsenal""".split())
 
 
