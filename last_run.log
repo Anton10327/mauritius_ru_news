@@ -28,3 +28,19 @@ Skipped duplicate (Defimedia): Disparition d’une employée bangladaise : elle 
 Posted (Defimedia): Социальный мир: MACOSS призывает дать молодежи больше возможностей
 LLM usage this run: 10 requests, 17867 tokens
 ### check 3/5 at 16:59
+### check 4/5 at 17:03
+  dup check: new (Présence du prêtre brésilien João Gomes à Maurice pour la Journée mondiale des animaux, promotion d'une politique publique en faveur des animaux, init)
+  not news (portrait/lifestyle): Dans le cadre de la Journée mondiale des animaux — De Netflix à Maurice : le père João Gomes plaide 
+Skipped foreign news (Le Mauricien): Dans le cadre de la Journée mondiale des animaux — De Netflix à Maurice : le père João Gomes plaide 
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): VTT – Fundsmith Colin Mayer 2026 – Une domination sans partage du binôme Lincoln–Stiebjahn == Велогонка CIEL Fundsmith Colin Mayer Tour 2026: Lincoln–Stiebjahn и De Witt–Domaingue одер
+  dup check: new (Назначение Ромео Калисте новым тренером сборной Маврикия по боксу для участия в чемпионате Африки 2026 в Киншасе; участие пяти элитных боксеров и Шлоэ)
+  proofread by qwen/qwen3.8-27b
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): БОКС – На фоне Игр островов Индийского океана 2027 с новым тренером
+  dup check: new (Analyse constitutionnelle : l’article 35 de la Constitution mauricienne ne prévoit pas la perte automatique du siège d’un député qui quitte son parti,)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+Posted (Le Mauricien): Закон против перехода в другую партию: случай Sydney Pierre выявляет пробел в нашей Constitution
+LLM usage this run: 9 requests, 18546 tokens
