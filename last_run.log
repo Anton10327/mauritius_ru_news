@@ -16,3 +16,9 @@ LLM usage this run: 3 requests, 5510 tokens
 Posted (L'Express): La Cure Waves отправляется на Rodrigues после матча с Orlando Pirates
 LLM usage this run: 3 requests, 6229 tokens
 ### check 3/5 at 23:19
+### check 4/5 at 23:23
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Maurice-Union européenne — Deuxième dialogue : Infrastructures portuaires, eau, énergie et == Маврикий–ЕС: усиленное партнерство в торговле, инвестициях, устойчивом развитии и климате
+LLM usage this run: 1 requests, 2446 tokens
