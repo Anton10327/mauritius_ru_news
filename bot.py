@@ -111,7 +111,21 @@ PROMPT = (
     "Ниже статья с маврикийского сайта на французском; в ней бывают цитаты "
     "на маврикийском креольском (например: «Li guet nou», «Nou pou res», "
     "«monn trouv lamor»). Верни строго JSON вида "
-    '{"mauritius": true или false, "news": true или false, "title": "...", "summary": "..."}. '
+    '{"mauritius": true или false, "news": true или false, '
+    '"names": [{"orig": "...", "type": "...", "ru": "..."}], "title": "...", "summary": "..."}. '
+    "names — СНАЧАЛА выпиши все имена собственные из статьи, которые войдут "
+    "в заголовок или пересказ: orig — точно как в статье (с диакритикой, "
+    "полное имя: «Chloé Gabriel», «Sainte-Croix»); type — person (человек), "
+    "org (организация, партия, команда, компания, суд, полиция как ведомство), "
+    "mu_place (место на Маврикии, Rodrigues, Agaléga), foreign (страна, город, "
+    "остров или регион за пределами Маврикия). ru — только для foreign: "
+    "название по-русски в именительном падеже, как в русских СМИ "
+    "(Irlande → Ирландия, Congo → ДР Конго, Comores → Коморы, Kinshasa → "
+    "Киншаса, Singapour → Сингапур). Затем в title и summary пиши person, org "
+    "и mu_place ТОЧНО как orig, латиницей, не склоняя и не переводя частично "
+    "(никаких «Клёэ Gabriel» или «Матьё Souprayen» — только «Chloé Gabriel»); "
+    "foreign — только по-русски, склоняя как обычные слова («в Ирландии», "
+    "«на Коморах»). "
     "news — есть ли в статье новость, то есть недавнее событие или решение: "
     "происшествие, решение властей, заявление, суд, забастовка, цены, "
     "результат матча или скачек, открытие, мероприятие, назначение. "
@@ -213,7 +227,8 @@ TEST_FEEDS = []
 # --------------------------------------------------------------------------
 
 translator = GoogleTranslator(source="auto", target="ru")
-_llm_state = {"disabled": False, "model": None, "exhausted": set(), "tokens": 0, "calls": 0}
+_llm_state = {"disabled": False, "model": None, "exhausted": set(), "tokens": 0, "calls": 0,
+              "names": []}
 
 
 def load_seen():
@@ -407,7 +422,7 @@ def summarize(title, body):
         exhausted = False
         for attempt in range(2):
             try:
-                r = _llm_call(model, messages)
+                r = _llm_call(model, messages, 1200)  # names list + text
             except Exception as e:
                 print(f"LLM request failed ({model}): {type(e).__name__} {str(e)[:200]}")
                 if model.startswith("GigaChat"):  # e.g. certificate or network problem
@@ -470,6 +485,8 @@ def summarize(title, body):
         # True, or why the article is skipped: "foreign" / "feature"
         local = "foreign" if no(data.get("mauritius")) else \
             "feature" if no(data.get("news")) else True
+        names = data.get("names") if isinstance(data.get("names"), list) else []
+        _llm_state["names"] = [n for n in names if isinstance(n, dict) and n.get("orig")]
         return ru_title, ru_summary, local
     _llm_state["disabled"] = True
     if set(SUMMARY_MODELS) <= _llm_state["exhausted"]:
@@ -634,7 +651,7 @@ def find_duplicate(orig_title, lead, recent):
     return None
 
 
-def _safe_edit(old, new, original=""):
+def _safe_edit(old, new, original="", removable=()):
     """Accept a proofread version only if it kept the numbers, kept every Latin
     word, added only Latin words found in the original article, kept the size."""
     if not new or not isinstance(new, str):
@@ -647,7 +664,8 @@ def _safe_edit(old, new, original=""):
     quoted = set(latin(" ".join(re.findall(r"«([^»]*)»|\"([^\"]*)\"", old) and
                                 [q for pair in re.findall(r"«([^»]*)»|\"([^\"]*)\"", old)
                                  for q in pair])))
-    old_l, new_l = [w for w in latin(old) if w not in quoted], latin(new)
+    gone = quoted | set(latin(" ".join(removable)))  # foreign places go Russian
+    old_l, new_l = [w for w in latin(old) if w not in gone], latin(new)
     allowed = set(w.lower() for w in old_l + latin(original))
     if any(w not in new_l for w in old_l) or any(w.lower() not in allowed for w in new_l):
         return False
@@ -717,6 +735,7 @@ def _sound(word):
     w = word.lower().replace("ç", "s").replace("ье", "ie")
     w = re.sub(r"c(?=[eiyéèê])", "s", w)  # French soft c: Valence, Cité
     w = re.sub(r"g(?=[eiyéèê])", "j", w)  # and soft g: Roger ~ Роже
+    w = re.sub(r"ch(?=[lr])", "k", w)  # Chloé, Christophe: к
     w = unicodedata.normalize("NFKD", w)
     w = "".join(c for c in w if not unicodedata.combining(c))
     w = "".join(_CYR2LAT.get(c, c) for c in w)
@@ -806,7 +825,7 @@ def _align_names(text, original):
                         cyr = out.pop()
                         r = SequenceMatcher(None, _sound("".join(cyr)),
                                             _sound("".join(gap))).ratio()
-                        if r < 0.5:
+                        if r < (0.3 if len(cyr) == len(gap) == 1 else 0.5):
                             ok = False
                             break
                         out.extend(gap)
@@ -825,7 +844,7 @@ def _align_names(text, original):
                 sim = lambda g: SequenceMatcher(None, _sound("".join(cyr)), _sound("".join(g))).ratio()
                 gaps = [run[i:i + n] for n in {len(cyr), len(cyr) + 1, len(run) - i} if run[i:i + n]]
                 gap = max(gaps, key=sim) if gaps else []
-                if not gap or sim(gap) < 0.5:
+                if not gap or sim(gap) < (0.3 if len(cyr) == len(gap) == 1 else 0.5):
                     out.extend(cyr)  # not part of the name: keep these words
                 else:
                     out.extend(gap)
@@ -912,7 +931,55 @@ def _latinize_compounds(text, original):
     return re.sub(r"\b[А-ЯЁ][а-яё]+(?:-[А-ЯЁа-яё][а-яё]*)+\b", sub, text)
 
 
-def latinize_names(text, original):
+def _decline(ru, prep):
+    """Russian place name after a preposition: в Ирландии, из Ирландии, на Коморах."""
+    low = prep.lower()
+    if " " in ru or re.search(r"[оиуэюе]$", ru):  # ДР Конго, Сочи: not declined
+        return ru
+    loc = low in ("в", "во", "на", "о", "об")
+    gen = low in ("из", "с", "со", "до", "для", "от", "у", "около", "возле", "из-за")
+    if not (loc or gen):
+        return ru
+    if ru.endswith("ия"):
+        return ru[:-2] + "ии"
+    if ru.endswith("а"):
+        return ru[:-1] + ("е" if loc else ("и" if ru[-2:-1] in "гкхжшчщ" else "ы"))
+    if ru.endswith("я"):
+        return ru[:-1] + ("е" if loc else "и")
+    if ru.endswith("ы") or ru.endswith("и"):
+        return ru[:-1] + ("ах" if loc else "")
+    if ru.endswith("ь"):
+        return ru[:-1] + ("и" if loc else "я")
+    return ru + ("е" if loc else "а")
+
+
+def apply_names(text, names, source_text=""):
+    """Make the text follow the names list the model wrote first:
+    foreign places in Russian, people/organisations/Mauritian places in Latin."""
+    if not text:
+        return text
+    latin_names = [n["orig"].strip() for n in names
+                   if n.get("type") != "foreign" and re.search(r"[A-Za-zÀ-ÿ]", n["orig"])]
+    for n in names:
+        ru, orig = (n.get("ru") or "").strip(), n["orig"].strip()
+        if n.get("type") != "foreign" or not ru or not re.search(r"[A-Za-zÀ-ÿ]", orig):
+            continue
+        # a Latin foreign name left in the text -> the Russian one, declined
+        def put(m, ru=ru):
+            prev = m.group(1) or ""
+            name = ru[3:] if ru.startswith("ДР ") and prev.lower().startswith("республик") else ru
+            return (prev + " " if prev else "") + (_decline(name, prev) if prev else name)
+        text = re.sub(rf"(?:\b(\w+(?:-\w+)?)\s+)?(?<![\w-]){re.escape(orig)}(?![\w-])", put, text)
+    if latin_names:
+        # Cyrillic spellings of the listed names -> Latin; only real names are
+        # candidates now, so matching can be lenient
+        text = latinize_names(text, ".\n".join(latin_names), lenient=True)
+    elif source_text:
+        text = latinize_names(text, source_text)
+    return text
+
+
+def latinize_names(text, original, lenient=False):
     """Replace Cyrillic spellings of names from the original article with the
     Latin original ("Риши" -> "Rishi", "Кандосе" -> "Candos")."""
     if not text or not original:
@@ -952,7 +1019,7 @@ def latinize_names(text, original):
     def best(word, initial):
         # A word seen only at the start of a sentence ("Examens reportés") may be
         # an ordinary word: use it only for a capitalised word mid-sentence
-        pool = {k: v for k, v in names.items() if mid[k] or not initial}
+        pool = {k: v for k, v in names.items() if mid[k] or not initial or lenient}
         cands = [word] + [word[:-len(e)] for e in _RU_ENDINGS
                           if word.lower().endswith(e) and len(word) - len(e) >= 3]
         found, score = None, 0
@@ -985,6 +1052,8 @@ def latinize_names(text, original):
         need = 0.82 if len(_sound(word)) >= 6 else 0.88
         if initial:  # a sentence-initial word is usually an ordinary word
             need = max(need, 0.9)
+        if lenient:  # candidates are only the article's real names
+            need -= 0.17
         return found if score >= need else None
 
     def sub(m):
@@ -1083,16 +1152,22 @@ def _apply_fixes(text, fixes):
     return text
 
 
-def proofread(title, summary, original=""):
+def proofread(title, summary, original="", names=()):
     """Second pass that fixes Russian language errors. Returns (title, summary)."""
     free = [m for m in PROOF_MODELS if m not in _llm_state["exhausted"]
             and not (m.startswith("GigaChat") and (_giga["dead"] or _giga_over_cap(m)))
             and (m.startswith("GigaChat") or (LLM_KEY and not _llm_state["disabled"]))]
     if not free:
         return title, summary
+    listing = "\n".join(f"{n['orig']} → {n['ru']}" if n.get("type") == "foreign" and n.get("ru")
+                         else n["orig"] for n in names)
+    foreign = [n["orig"] for n in names if n.get("type") == "foreign"]
     messages = [{"role": "system", "content": PROOF_PROMPT},
                 {"role": "user", "content": f"Заголовок: {title}\nТекст: {summary}\n\n"
-                                            f"Оригинал (для написания имён):\n{original[:1200]}"}]
+                                            + (f"Обязательные написания (латиницей — точно так; "
+                                               f"зарубежные места — по-русски, склоняя):\n{listing}\n\n"
+                                               if listing else "")
+                                            + f"Оригинал (для написания имён):\n{original[:1200]}"}]
     d = None
     for model in free:
         try:
@@ -1121,9 +1196,9 @@ def proofread(title, summary, original=""):
     if d is None:
         return title, summary
     new_t, new_s = (d.get("title") or "").strip(), (d.get("summary") or "").strip()
-    new_t, new_s = latinize_names(new_t, original), latinize_names(new_s, original)
-    out_t = new_t if _safe_edit(title, new_t, original) else title
-    out_s = new_s if (not summary or _safe_edit(summary, new_s, original)) else summary
+    new_t, new_s = apply_names(new_t, names, original), apply_names(new_s, names, original)
+    out_t = new_t if _safe_edit(title, new_t, original, foreign) else title
+    out_s = new_s if (not summary or _safe_edit(summary, new_s, original, foreign)) else summary
     # A rejected whole-text edit can still carry safe name fixes
     # («Элоди Томас» → «Élodie Thomas»): apply those one by one
     if out_t == title or out_s == summary:
@@ -1192,19 +1267,21 @@ def build_post(source, entry, link, recent=(), force=False):
         print(f"Too little text ({len(body)} chars), title only: {link}")
     if result:
         title, summary, local = result
+        names = _llm_state.get("names") or []
         if local is not True:
             post["foreign"] = True  # skipped, same handling as foreign news
             print(f"  {'not about Mauritius' if local == 'foreign' else 'not news (portrait/lifestyle)'}: "
                   f"{orig_title[:100]}")
             return post
     else:
+        names = []
         title = translate(orig_title)
         summary = translate(feed_text[:450]) if feed_text and len(feed_text) > 40 else ""
-    title, summary = proofread(title, summary, f"{orig_title}\n{body[:1500]}")
+    title, summary = proofread(title, summary, f"{orig_title}\n{body[:1500]}", names)
     title, summary = fix_russian(title), fix_russian(summary)
     source_text = f"{orig_title}\n{body}"
-    title = fix_caps_title(latinize_names(title, source_text), orig_title)
-    summary = latinize_names(summary, source_text)
+    title = fix_caps_title(apply_names(title, names, source_text), orig_title)
+    summary = apply_names(summary, names, source_text)
     post["title"], post["summary"] = title, summary
 
     footer = f'🔗 <a href="{html.escape(link)}">{html.escape(source)}</a>'
