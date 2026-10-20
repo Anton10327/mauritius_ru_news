@@ -1,36 +1,4 @@
-### check 1/5 at 18:15
-  dup check: new (Inauguration of a new police post in Cent Gaulettes on 16 October 2026, attended by Police Commissioner Rampersad Sooroojebally and other officers; th)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): Cent Gaulettes: открыт новый полицейский участок для усиления местной безопасности
-  dup check: new (Le ministre Patrick Assirvaden a indiqué que 28 306 demandes ont été reçues dans le cadre du programme d’aide aux réservoirs d’eau et pompes domestiqu)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Программа по водонакопительным бакам может быть расширена на семьи, у которых уже есть резервуары
-  dup check: new (Тестimonies of Mauritian diaspora in France after the October 17 protests, including the reported number of 500 000–800 000 participants in French str)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Насилие 17 октября | Голоса диаспоры во Франции: между гневом, тревогой и страхом за будущее
-  dup check: new (Введение новых сертификатов рождения, брака и смерти с усиленными мерами безопасности, действующих с 19 октября 2026 года, включая серийные номера и с)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Свидетельства о рождении, браке и смерти: что меняется на Маврикии с 19 октября
-LLM usage this run: 12 requests, 21081 tokens
-### check 2/5 at 18:19
-  dup: nothing new ()
-Skipped duplicate (L'Express): PNQ : Navin Ramgoolam confirme l’arrestation d’un baron de la drogue == PNQ о беспорядках: «Арестован наркобарон», — утверждает Ramgoolam
-  dup check: new (Pravind Jugnauth a profité de son interrogatoire de 4 heures au Central Barracks le 20 octobre pour lancer une offensive politique contre le gouvernem)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): От центральных казарм до социального кризиса: Pravind Jugnauth атакует итоги правления Ramgoolam
-LLM usage this run: 4 requests, 7843 tokens
-### check 3/5 at 18:23
-### check 4/5 at 18:27
-### check 5/5 at 18:31
-  dup check: new (L'écurie Foo Kune se dirige tout droit vers le titre du Dekriptaz Turf après une semaine de repos forcé, avec un aperçu des hauts faits de la dernière)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): «Dekriptaz Turf»: конюшня Foo Kune — титул уже обеспечен?
-LLM usage this run: 3 requests, 4621 tokens
+### check 1/5 at 18:54
+  dup: nothing new (MRA официально продлила срок подачи налоговой декларации до 30 октября и объявила, что в этот период не будут применяться штрафы и проценты. Указана д)
+Skipped duplicate (Inside News): Déclaration d’impôt : la MRA prolonge le délai jusqu’au 30 octobre, ce qu’il faut savoir == Налоги: последний срок — 30 октября без штрафов и процентов
+LLM usage this run: 1 requests, 2273 tokens
