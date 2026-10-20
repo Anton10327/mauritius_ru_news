@@ -3,9 +3,9 @@ Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary mode
 Google Translate failed: TooManyRequests
 Автобусное сообщение прервано во вторник утром
 == LLM: https://api.groq.com/openai/v1/chat/completions
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-d72abc95-e3bb-42da-aca1-a1e327cf5c23","object":"chat.completion","created":1792501104,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.004191625,"prompt_tokens":16,"prompt_t
-openai/gpt-oss-120b 200 {"id":"chatcmpl-d74b64ab-7f16-4326-b6ab-6964b4cfde6b","object":"chat.completion","created":1792501104,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just respond \"ok\"."},"logprobs":null,"finish_reason"
-openai/gpt-oss-20b 200 {"id":"chatcmpl-1c342414-68ba-4a59-b820-7cb42f77820f","object":"chat.completion","created":1792501104,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So just output \"ok\"."},"logprobs":null,"finish_reason":"
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-37313b51-0eca-4917-969d-858f64732ada","object":"chat.completion","created":1792501435,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.021581183,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-87caaad7-5305-4602-9425-5c7b232030b9","object":"chat.completion","created":1792501435,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just respond \"ok\"."},"logprobs":null,"finish_reason"
+openai/gpt-oss-20b 200 {"id":"chatcmpl-0ad2dbec-9b32-400d-8f16-9a2da4c9b1e8","object":"chat.completion","created":1792501435,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So just output \"ok\"."},"logprobs":null,"finish_reason":"
 == Defimedia: https://defimedia.info/rss.xml
 Newest: Paix sociale : le MACOSS appelle à donner davantage de place aux jeunes | https://defimedia.info/paix-sociale-le-macoss-appelle-donner-davantage-de-place-aux-jeunes
 Article text: 2453 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Jeunesse.jpeg
@@ -23,19 +23,25 @@ LLM usage so far: 3 requests, 219 tokens
 -- Post that would be sent:
 
 == Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
-Newest: PNQ- Émeutes : un baron de la drogue arrêté, une coordination des incidents évoquée | https://www.lemauricien.com/actualites/societe/pnq-emeutes-un-baron-de-la-drogue-arrete-une-coordination-des-incidents-evoquee/721200/
-Article text: 5110 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2025/10/2025-10-07_12-51-08.jpg
-  same headline as #138: PNQ- Émeutes : un baron de la drogue arrêté, une coordination des incidents évoq
-Duplicate of recent post #: 138
-LLM usage so far: 3 requests, 219 tokens
+Newest: Loi anti-transfugisme : Le cas de Sydney Pierre met en lumière une lacune de notre Constitution   | https://www.lemauricien.com/le-mauricien/loi-anti-transfugisme-le-cas-de-sydney-pierre-met-en-lumiere-une-lacune-de-notre-constitution/721143/
+Article text: 5148 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-2026-10-18T083721.945.webp
+  dup check: new (Статья раскрывает конституционный пробел в Маврикийской конституции (статья 35) относительно потери мандата депутатом, который покидает свою партию, и)
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+Duplicate of recent post #: None
+LLM usage so far: 6 requests, 5774 tokens
 -- Post that would be sent:
+<b>Закон против смены партий: случай Sydney Pierre выявил пробел в нашей Constitution</b>
 
+16 октября 2026 года депутат Sydney Pierre покинул Лейбористскую партию и перешёл в оппозицию, что поставило вопрос о конституционных правилах смены партийной принадлежности. В действующей Constitution Маврикия уход депутата из партии не ведёт к автоматической потере мандата, и статья 35 не предусматривает смену политической лояльности как основание для вакансии. Если бы действовал закон против «переходов», его место стало бы вакантным и потребовались бы довыборы.
+
+🔗 <a href="https://www.lemauricien.com/le-mauricien/loi-anti-transfugisme-le-cas-de-sydney-pierre-met-en-lumiere-une-lacune-de-notre-constitution/721143/">Le Mauricien</a>
 == Inside News: https://inside.news/feed/
 Newest: Don de sang à Maurice : après une semaine d’interruption, les collectes reprennent | https://www.inside.news/don-sang-maurice-reprise-collectes-octobre-2026/
 Article text: 1658 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/601a9536-fc99-4bb0-8bf7-5154056a06ea__1_-Removed.png
   dup: nothing new ()
 Duplicate of recent post #: 1
-LLM usage so far: 4 requests, 2568 tokens
+LLM usage so far: 7 requests, 8169 tokens
 -- Post that would be sent:
 
 == Wazaa: https://www.wazaa.mu/feed/
@@ -43,7 +49,7 @@ Newest: L’industrie textile subit des retards d’une semaine après les troub
 Article text: 5287 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1792500173.jpeg
   dup: nothing new ()
 Duplicate of recent post #: 141
-LLM usage so far: 5 requests, 4902 tokens
+LLM usage so far: 8 requests, 10503 tokens
 -- Post that would be sent:
 
 == Top FM: https://topfm.mu/
@@ -51,6 +57,6 @@ Newest: Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37
 Article text: 949 chars | photo: https://topfm.mu/sites/default/files/media-icons/generic/video.png
   same headline as #154: Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37 questions du
 Duplicate of recent post #: 154
-LLM usage so far: 5 requests, 4902 tokens
+LLM usage so far: 8 requests, 10503 tokens
 -- Post that would be sent:
 
