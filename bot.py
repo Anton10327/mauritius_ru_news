@@ -76,7 +76,7 @@ LLM_MODELS = [m.strip() for m in (os.environ.get("LLM_MODELS", "").strip() or
 GIGA_KEY = os.environ.get("GIGACHAT_AUTH_KEY", "").strip()
 GIGA_URL = "https://api.giga.chat/v1/chat/completions"
 GIGA_OAUTH = "https://ngw.devices.sberbank.ru:9443/api/v2/oauth"
-GIGA_DAILY_CAP = {"GigaChat-3-Ultra": 130_000, "GigaChat-3-Pro": 250_000}  # Pro also proofreads and checks repeats
+GIGA_DAILY_CAP = {"GigaChat-3-Ultra": 250_000, "GigaChat-3-Pro": 350_000}  # Pro also proofreads and checks repeats
 SUMMARY_MODELS = ([m for m in GIGA_DAILY_CAP] if GIGA_KEY else []) + \
                  (LLM_MODELS if LLM_KEY else [])
 # Proofreading pass. Only Qwen: in tests gpt-oss over-edited and changed meaning
@@ -411,6 +411,7 @@ def summarize(title, body):
     or None if the model is unavailable (no key, daily limit, error)."""
     if _llm_state["disabled"] or not SUMMARY_MODELS:
         return None
+    _llm_state["names"] = []  # this article's names only
     content = f"Заголовок: {title}\n\nТекст статьи:\n{body[:ARTICLE_CHARS] or '(текст недоступен)'}"
     messages = [{"role": "system", "content": PROMPT},
                 {"role": "user", "content": content}]
@@ -928,7 +929,9 @@ def _latinize_compounds(text, original):
                 if r > score:
                     best, score = span, r
         return best if score >= 0.8 else word
-    return re.sub(r"\b[А-ЯЁ][а-яё]+(?:-[А-ЯЁа-яё][а-яё]*)+\b", sub, text)
+    def sub_mixed(m):  # only words with some Cyrillic in them
+        return sub(m) if re.search(r"[А-Яа-яЁё]", m.group(0)) else m.group(0)
+    return re.sub(r"\b[A-ZÀ-ÝА-ЯЁ][\wÀ-ÿ’']*(?:-[\wÀ-ÿ’']+)+", sub_mixed, text)
 
 
 def _decline(ru, prep):
@@ -958,6 +961,8 @@ def apply_names(text, names, source_text=""):
     foreign places in Russian, people/organisations/Mauritian places in Latin."""
     if not text:
         return text
+    # some models write non-breaking hyphens and spaces (Poudre‑d’Or, 20 %)
+    text = text.replace("\u2011", "-").replace("\u2010", "-").replace("\u00a0", " ").replace("\u202f", " ")
     latin_names = [n["orig"].strip() for n in names
                    if n.get("type") != "foreign" and re.search(r"[A-Za-zÀ-ÿ]", n["orig"])]
     for n in names:
@@ -1035,7 +1040,8 @@ def latinize_names(text, original, lenient=False):
                         not same(k[1:2], key[1:2]):
                     continue
                 # Short words need an exact match: "После" ~ "Paul" scores 0.86
-                if min(len(key), len(k)) <= 4 and key != k:
+                if min(len(key), len(k)) <= 4 and key != k and not (
+                        lenient and SequenceMatcher(None, key, k).ratio() >= 0.7):
                     continue
                 r = SequenceMatcher(None, key, k).ratio()
                 # Vowels differ, consonants identical: English spelling of an
