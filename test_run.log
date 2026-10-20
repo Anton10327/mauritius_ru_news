@@ -1,56 +1,8 @@
-Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary models: ['GigaChat-3-Ultra', 'GigaChat-3-Pro', 'qwen/qwen3.8-27b', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b']
-== Translation (Google, then MyMemory)
-Google Translate failed: TooManyRequests
-Автобусное сообщение прервано во вторник утром
-== LLM: https://api.groq.com/openai/v1/chat/completions
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-3d4324be-5c4e-4474-9806-1f1e4f4d9a73","object":"chat.completion","created":1792499396,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.04949021,"prompt_tokens":16,"prompt_ti
-openai/gpt-oss-120b 200 {"id":"chatcmpl-670d2a1e-beaa-416a-a02b-604747522dbe","object":"chat.completion","created":1792499397,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
-openai/gpt-oss-20b 200 {"id":"chatcmpl-356bf056-b78f-4b94-8cfc-d68aa9791054","object":"chat.completion","created":1792499397,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So just output \"ok\"."},"logprobs":null,"finish_reason":"
-== Defimedia: https://defimedia.info/rss.xml
-Newest: Affaire Élodie Thomas : « We are playing with fire », lance Bérenger à Ramgoolam | https://defimedia.info/affaire-elodie-thomas-we-are-playing-fire-lance-berenger-ramgoolam
-Article text: 1543 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Berenger%20pnqt.jpg
-  same headline as #148: Affaire Élodie Thomas : « We are playing with fire », lance Bérenger à Ramgoolam
-Duplicate of recent post #: 148
-LLM usage so far: 3 requests, 218 tokens
--- Post that would be sent:
-
-== L'Express: https://lexpress.mu/
-Newest: Coup de feu à Camp-Levieux : L’état de santé d’Élodie Thomas continue d’évoluer favorablement | https://lexpress.mu/s/letat-de-sante-delodie-thomas-continue-devoluer-favorablement-563843
-Article text: 1268 chars | photo: https://lexpress.mu/storage/articles/XclJmyK85q2Un3ptd4GQFxFvBR7HKy51bBdxUXJP.jpg
-  same headline as #152: Coup de feu à Camp-Levieux : L’état de santé d’Élodie Thomas continue d’évoluer 
-Duplicate of recent post #: 152
-LLM usage so far: 3 requests, 218 tokens
--- Post that would be sent:
-
-== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
-Newest: PNQ- Émeutes : un baron de la drogue arrêté, une coordination des incidents évoquée | https://www.lemauricien.com/actualites/societe/pnq-emeutes-un-baron-de-la-drogue-arrete-une-coordination-des-incidents-evoquee/721200/
-Article text: 5110 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2025/10/2025-10-07_12-51-08.jpg
-  same headline as #138: PNQ- Émeutes : un baron de la drogue arrêté, une coordination des incidents évoq
-Duplicate of recent post #: 138
-LLM usage so far: 3 requests, 218 tokens
--- Post that would be sent:
-
-== Inside News: https://inside.news/feed/
-Newest: Don de sang à Maurice : après une semaine d’interruption, les collectes reprennent | https://www.inside.news/don-sang-maurice-reprise-collectes-octobre-2026/
-Article text: 1658 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/601a9536-fc99-4bb0-8bf7-5154056a06ea__1_-Removed.png
-  dup: nothing new (В статье упоминается, что после недели перерыва из-за недавних беспорядков возобновляются кампании по сбору крови на Маврикии. Также указано, что 17 о)
-Duplicate of recent post #: 1
-LLM usage so far: 4 requests, 2456 tokens
--- Post that would be sent:
-
-== Wazaa: https://www.wazaa.mu/feed/
-Newest: Premier ministre confirme l’arrestation d’un baron de la drogue lors d’une séance parlementaire sur les couvre-feux | https://www.wazaa.mu/premier-ministre-confirme-larrestation-dun-baron-de-la-drogue-lors-dune-seance-parlementaire-sur-les-couvre-feux/
-Article text: 1770 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/08/1785602558.jpeg
-  dup: nothing new ()
-Duplicate of recent post #: 131
-LLM usage so far: 5 requests, 4853 tokens
--- Post that would be sent:
-
-== Top FM: https://topfm.mu/
-Newest: Pravind Jugnauth : « Navin Ramgoolam bizin aret tir so revanche ki 10 ans li ti dan lopozisyon… » | https://topfm.mu/actualites/pravind-jugnauth-navin-ramgoolam-bizin-aret-tir-so-revanche-ki-10-ans-li-ti-dan-lopozisyon
-Article text: 890 chars | photo: https://topfm.mu/sites/default/files/oembed_thumbnails/2026-10/5dXNfcxVXLGx2w0NJTWPsPEVqMk2fnCr5WURrvXpSkk.jpg
-  same headline as #153: Pravind Jugnauth : « Navin Ramgoolam bizin aret tir so revanche ki 10 ans li ti 
-Duplicate of recent post #: 153
-LLM usage so far: 5 requests, 4853 tokens
--- Post that would be sent:
-
+Could not read article https://defimedia.info/node/185852: 404 Client Error: Not Found for url: https://defimedia.info/node/185852
+http://defimedia.info/node/185885
+Participation présumée à une émeute : deux suspects réclament leur libération sous caution
+Cinq personnes, inculpées à titre provisoire de « taking part in a riot » (participation à une émeute), ont été reconduites en cellule policière jusqu’au 27 octobre 2026 après leur comparution, ce mardi 20 octobre, devant le tribunal de Port-Louis. La police a maintenu son objection à leur remise en liberté.
+Il s’agit de Jérôme Roger Agathe, un soudeur de 42 ans habitant Cassis ; de Dhiyven Lofur, un laveur de voitures de 19 ans domicilié à Baie-du-Tombeau ; de Jordy Jefferson Ip Kiun Chong, un « helper » de 42 ans sans domicile fixe ; ainsi que de Néhémie Luc Jean et de Louis Mike Dambel, tous deux âgés de 60 ans et domiciliés à Sainte-Croix.
+Les faits qui leur sont reprochés remontent au 12 octobre 2026, à Sainte-Croix.
+Lors de l’audience, Me Neil Pillay et Me Akshaye Kaniah ont demandé la remise en liberté sous caution de leurs clients respectifs, Jérôme Roger Agathe et Dhiyven Lofur.
+Le magistrat Arshaad Toorbuth a fixé les débats sur ces demandes au 26 octobre 2026.
