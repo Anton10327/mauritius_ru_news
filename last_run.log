@@ -1,25 +1,11 @@
-### check 1/5 at 12:34
-  dup check: new (В статье описан новый случай: 16-летняя девушка подала заявление в полицию из-за угроз на Snapchat и распространения интимных материалов о ней через T)
-Posted (Defimedia): Заявление в полицию: 16-летняя девушка сообщает об угрозах в Snapchat и распространении интимных материалов в Telegram
-  dup check: new (Deven Anacootee был вызван в Cybercrime Unit 20 октября, его допрос перенесли с воскресенья на вторник; он явился с тремя адвокатами. Это первое упоми)
-  proofread: девиант Анакути → Девен Анакути; Центральные казармы на Маврикии → Центральные казармы на Маврикие
-Posted (Defimedia): Расследование CCID: Deven Anacootee вызван в подразделение по киберпреступности
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Suivez en direct la PNQ axée sur les troubles à l’ordre public, le couvre-feu et la crise  == СОЦИАЛЬНЫЕ БЕСПОРЯДКИ – РЕАКЦИЯ ЛИДЕРА MSM
-  dup: nothing new (В статье указано, что 19 октября обвинение завершило допрос свидетелей по делу о нарушении комендантского часа и что все двенадцать обвиняемых будут д)
-Skipped duplicate (Defimedia): Non-respect du couvre-feu : les douze prévenus témoigneront le 21 octobre == Нарушение комендантского часа: суд над двенадцатью обвиняемыми перенесён на среду
-LLM usage this run: 8 requests, 13197 tokens
-### check 2/5 at 12:38
-  same headline as #120: Affaire Élodie Thomas : trois policiers libérés sous caution, Taukoor maintenu e
-Skipped duplicate (L'Express): Affaire Élodie Thomas : Le sergent Taukoor reconduit en cellule == Дело Élodie Thomas: троих полицейских освободили под залог, Taukoor оставлен под стражей
-  not about Mauritius: Économie circulaire : le COMESA mise sur le recyclage et la valorisation des déchets
-Skipped foreign news (Top FM): Économie circulaire : le COMESA mise sur le recyclage et la valorisation des déchets
-LLM usage this run: 1 requests, 1899 tokens
-### check 3/5 at 12:42
-### check 4/5 at 12:46
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Après le cauchemar des émeutes : Barkly veut panser ses blessures et conjurer la stigmatis == Комендантский час: последняя ночь ожидается в это воскресенье, что произойдет в 4:30 в пон
-  dup: nothing new (В статье упоминается, что отец пострадавшей девочки (37 лет), сотрудник Special Support Unit, подал заявление в полицию вечером того же дня и дал объя)
-Skipped duplicate (Le Mauricien): Quartier-Militaire et Chebel : 2 mineures grièvement blessées après des attaques de chiens == Quartier-Militaire: трёхлетняя девочка серьёзно пострадала после укуса двумя ротвейлерами
-LLM usage this run: 2 requests, 3987 tokens
-### check 5/5 at 12:50
+### check 1/5 at 13:12
+  dup check: new (В статье приводятся новые мнения экспертов — антрополога Dr Jonathan Ravat, психолога и активиста Salim Muthy — о социальных причинах насилия на Маври)
+  proofread: Au Cœur de l’Info - troubles à Maurice : au-delà de la violence, les fractures sociales à réparar → В центре внимания — беспорядки на Маврикии: помимо насилия, социальные разломы, которые нужно устранить; L’anthropologue Dr Jonathan Ravat, la psychologue clinicienne et Chief Operations Officer de Ko
+Posted (Defimedia): В центре внимания — беспорядки на Маврикии: помимо насилия, социальные разломы, которые нужно устранить
+  dup check: new (В статье впервые упоминается конкретный случай кражи 4x4 Mitsubishi (красного, номер 2907 MR) из супермаркета Ihsan Supermarché в Beau-Bassin во время)
+  proofread: Ihsan Akash → Ihsan Акэш
+Posted (Defimedia): Beau-Bassin: призыв найти украденный внедорожник во время разграбления супермаркета Ihsan
+  dup check: new (Deven Anacootee a été entendu par la Cyber Crime Unit du CCID le 20 octobre et, à sa sortie des Casernes centrales, il s’est adressé à la presse aux c)
+  proofread: Facebook-страница → страница Facebook
+Posted (L'Express): Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
+LLM usage this run: 9 requests, 15487 tokens
