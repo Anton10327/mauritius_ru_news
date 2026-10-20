@@ -1,37 +1,4 @@
-### check 1/5 at 15:32
-  dup check: new (В статье говорится, что премьер-министр Навин Рамгулам ответил на вопросы депутатов о деле Элои Томас во время Prime Minister’s Question Time 20 октяб)
-  proofread: Navin Ramgoolam → Навин Рамгулам; Camp-Levieux → Camp-Levieux (название не требует перевода); фургон → фургон (слово употреблено корректно); контрольно-пропускной пункт → контрольно-пропускной пункт (корректно); произведён выстрел → произведён выстрел (верное согласование); Gautam Singh Taukoor → Го
-Posted (Defimedia): Дело Элои Thomas: Ramgoolam говорит о попытке фургона проехать через контрольно-пропускной пункт
-  dup check: new (Статья содержит мнение Roukaya Kasenally о рисках дезинформации в социальных сетях и описывает эволюцию медиасреды на Маврикии с 1999 по 2026 год, что)
-  not news (portrait/lifestyle): Réseaux sociaux | Roukaya Kasenally : la désinformation, un danger en temps de crise
-Skipped foreign news (L'Express): Réseaux sociaux | Roukaya Kasenally : la désinformation, un danger en temps de crise
+### check 1/5 at 16:07
   dup: nothing new ()
-Skipped duplicate (Inside News): Maurice manquerait de 5 000 informaticiens par an : où sont les compétences ? == Структурные реформы: Маврикий должен восполнять дефицит в 5000 IT-специалистов в год
-  dup check: new (В статье премьер-министр Маврикия Навин Рамгулам впервые публично заявил, что есть признаки координации атак на полицейские участки и камеры системы S)
-  proofread: Четан Бабулаллу → Четан Бабулалл
-Posted (Top FM): Беспорядки: Navin Ramgoolam говорит о скоординированных атаках и защищает законность комендантского часа
-LLM usage this run: 9 requests, 15650 tokens
-### check 2/5 at 15:36
-  dup check: new (В статье описан новый эпизод: в Национальном собрании произошёл напряжённый обмен между Полем Беранже и Навином Рамгуламом, где Беранже заявил Рамгула)
-  proofread: Элои Том → Элои Тома
-Posted (Defimedia): Дело Элои Thomas: «Мы играем с огнём», — бросает Bérenger Ramgoolam
-  dup check: new (Pravind Jugnauth публично отреагировал на отставку Sydney Pierre, заявив: «Li bon ki li'n démissioné» и отметив, что население теперь видит направлени)
-  proofread: Джагнов → Джагнот
-Posted (Top FM): Pravind Jugnauth отреагировал на уход Sydney Pierre из Лейбористской партии
-LLM usage this run: 6 requests, 8614 tokens
-### check 3/5 at 15:40
-  dup: nothing new ()
-Skipped duplicate (L'Express): Plumes engagées : Augmented, are we? == Ювенальная преступность: является ли уголовная юстиция единственным ответом?
-LLM usage this run: 1 requests, 1825 tokens
-### check 4/5 at 15:44
-  dup: nothing new (Премьер-министр Маврикия Navin Ramgoolam подтвердил в парламенте 20 октября арест крупного наркобарона, не раскрывая его личность. Он также уточнил, ч)
-Skipped duplicate (Wazaa): Premier ministre confirme l’arrestation d’un baron de la drogue lors d’une séance parlemen == PNQ о беспорядках: «Арестован наркобарон», — утверждает Ramgoolam
-LLM usage this run: 1 requests, 1816 tokens
-### check 5/5 at 15:48
-  dup check: new (В статье упоминается, что форум для инвесторов между Маврикием и ЕС запланирован на 2027 год. Это конкретная дата форума впервые указана в этой публик)
-  proofread: Balaclava → Балаклава
-Posted (Inside News): Маврикий — Европейский союз: новая встреча для привлечения инвесторов
-  dup check: new (Премьер-министр Маврикия доктор Навин Рамгулам в Национальном собрании 20 октября сообщил, что по данным иммиграционной службы пропавшая гражданка Бан)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Бангладешская гражданка пропала без вести с 3 апреля: отъезд с Маврикия не зафиксирован
-LLM usage this run: 6 requests, 8671 tokens
+Skipped duplicate (L'Express): Jean Claude de l’Estrac : «Notre principale faiblesse est notre incapacité à tirer les leç == ФЛАК | В ЭТУ СУББОТУ — Донорство крови: Анил Башу призывает восстановить национальные запа
+LLM usage this run: 1 requests, 2183 tokens
