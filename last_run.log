@@ -46,3 +46,15 @@ Skipped duplicate (Inside News): Croissance à 2,7 % : le FMI revoit à la baiss
   not about Mauritius: Copenhague : huit arrestations après des affrontements
 Skipped foreign news (Inside News): Copenhague : huit arrestations après des affrontements
 LLM usage this run: 7 requests, 11538 tokens
+### check 5/5 at 15:15
+  dup: nothing new (В статье приводится новая цитата антрополога Jonathan Ravat о необходимости перехода от политической эксплуатации к ответственности, а также его взгля)
+Skipped duplicate (Defimedia): Dr Jonathan Ravat : «Il faut passer de la récupération politique à la responsabilité polit == В центре внимания — беспорядки на Маврикии: помимо насилия, социальные разломы, которые ну
+  not news (portrait/lifestyle): Formation sur la sécurité alimentaire : Le pays mise sur la lutte intégrée contre les ravageurs agri
+Skipped foreign news (L'Express): Formation sur la sécurité alimentaire : Le pays mise sur la lutte intégrée contre les ravageurs agri
+  dup check: new (В статье сообщается, что два офицера FCC (Комиссии по финансовым преступлениям) отправились во Францию для допроса свидетеля в рамках расследования пр)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Предполагаемое вымогательство взятки в 350 млн рупий: два офицера FCC отправились во Францию для допроса свидетеля
+  dup check: new (В статье приведена прямая цитата спикера Национального собрания, адресованная Полю Беранже: «If you are not happy with the way I am dealing with thing)
+  proofread: Paul Bérenger → Поль Беренгер; Shirin Aumeeruddy-Cziffra → Ширин Аумёрбади-Циффра; Raviraj Beechook → Равирадж Бичук; «If you are not happy with the way I am dealing with things, you can always do the needful.» → «Если вас не устраивает то, как я веду дела, вы всегда можете сделать то, что нужно»
+Posted (Defimedia): Спикер Bérenger: «Если вас не устраивает то, как я веду дела, вы всегда можете сделать то, что нужно»
+LLM usage this run: 8 requests, 12722 tokens
