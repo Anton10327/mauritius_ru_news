@@ -731,6 +731,8 @@ def _latin_keys(word):
     for k in list(keys):
         if len(k) > 4 and k.endswith("e"):
             keys.add(k[:-1])
+            # Laurette ~ Лоре(т): the consonant before a silent e may be dropped too
+            keys.add(re.sub(r"(?<=[aeiou])[tdsx]$", "", k[:-1]))
     return keys
 
 
@@ -753,8 +755,14 @@ def _align_names(text, original):
     the Latin words anchor it to the full name in the article, so the Cyrillic
     words between them are replaced by the article's words in that place."""
     from difflib import SequenceMatcher
-    runs = [m.group(0).split() for m in
-            re.finditer(r"[A-ZÀ-Ý][\w'’-]*(?:\s+[A-ZÀ-Ý][\w'’-]*)+", original)]
+    runs = []
+    for m in re.finditer(r"[A-ZÀ-Ý][\w'’-]*(?:\s+[A-ZÀ-Ý][\w'’-]*)+", original):
+        # only name words: not "L'activiste", "Le", "Me", "Ministre"...
+        run = [w for w in m.group(0).split()
+               if not re.match(r"[LDldQq][u]?[’']", w) and not _not_name(w)
+               and w not in ("Le", "La", "Les", "Me", "Mme", "Mr", "M.", "Dr")]
+        if len(run) >= 2:
+            runs.append(run)
     tok = r"[A-ZÀ-ÝА-ЯЁ][\w'’-]*"
 
     def sub(m):
@@ -800,6 +808,9 @@ def _align_names(text, original):
                     ok = False
                 else:
                     out.extend(gap)
+            starts = re.search(r"(^|[.!?:«\"—]\s*)$", text[:m.start()]) is not None
+            if ok and out and isinstance(out[0], list) and starts:
+                ok = False  # "Активиста Bruneau ...": a sentence-initial word is not a name part
             if ok and out and isinstance(out[0], list):  # Cyrillic words first
                 cyr = out.pop(0)
                 first = run.index(out[0]) if out and out[0] in run else -1
