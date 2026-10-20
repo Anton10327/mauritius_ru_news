@@ -9,3 +9,9 @@ Skipped duplicate (Defimedia): Suivez en direct la PNQ axée sur les troubles à
   dup: nothing new (В статье указано, что 19 октября обвинение завершило допрос свидетелей по делу о нарушении комендантского часа и что все двенадцать обвиняемых будут д)
 Skipped duplicate (Defimedia): Non-respect du couvre-feu : les douze prévenus témoigneront le 21 octobre == Нарушение комендантского часа: суд над двенадцатью обвиняемыми перенесён на среду
 LLM usage this run: 8 requests, 13197 tokens
+### check 2/5 at 12:38
+  same headline as #120: Affaire Élodie Thomas : trois policiers libérés sous caution, Taukoor maintenu e
+Skipped duplicate (L'Express): Affaire Élodie Thomas : Le sergent Taukoor reconduit en cellule == Дело Élodie Thomas: троих полицейских освободили под залог, Taukoor оставлен под стражей
+  not about Mauritius: Économie circulaire : le COMESA mise sur le recyclage et la valorisation des déchets
+Skipped foreign news (Top FM): Économie circulaire : le COMESA mise sur le recyclage et la valorisation des déchets
+LLM usage this run: 1 requests, 1899 tokens
