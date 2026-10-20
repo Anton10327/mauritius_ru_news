@@ -23,3 +23,7 @@ LLM usage this run: 6 requests, 8614 tokens
   dup: nothing new ()
 Skipped duplicate (L'Express): Plumes engagées : Augmented, are we? == Ювенальная преступность: является ли уголовная юстиция единственным ответом?
 LLM usage this run: 1 requests, 1825 tokens
+### check 4/5 at 15:44
+  dup: nothing new (Премьер-министр Маврикия Navin Ramgoolam подтвердил в парламенте 20 октября арест крупного наркобарона, не раскрывая его личность. Он также уточнил, ч)
+Skipped duplicate (Wazaa): Premier ministre confirme l’arrestation d’un baron de la drogue lors d’une séance parlemen == PNQ о беспорядках: «Арестован наркобарон», — утверждает Ramgoolam
+LLM usage this run: 1 requests, 1816 tokens
