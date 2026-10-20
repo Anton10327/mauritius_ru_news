@@ -10,3 +10,11 @@ Skipped duplicate (L'Express): Génération en colère : Apprend-on encore aux j
   not about Mauritius: Violences en France : Paris impose des restrictions nocturnes, plusieurs villes renforcent la sécuri
 Skipped foreign news (Inside News): Violences en France : Paris impose des restrictions nocturnes, plusieurs villes renforcent la sécuri
 LLM usage this run: 3 requests, 6935 tokens
+### check 4/5 at 19:06
+  dup check: new (В статье указано, что супермаркет SaveMax в Bambous был полностью сожжён и причинённый ущерб оценивается в 15 млн рупий; магазин в Camp-Levieux подвер)
+  proofread: в Bambous → в Бамбус; Chartreuse — группа Chartreuse
+Posted (Le Mauricien): Беспорядки — Camp-Levieux и Bambous: SaveMax — главная цель мародёров
+  dup check: new (В статье указано, что водитель фургона был официально обвинён в непредумышленном убийстве и предстал перед судом 20 октября. Это новый факт по сравнен)
+  proofread: направлявшийся к Piton → направлявшийся в сторону Piton
+Posted (Defimedia): Poudre-d’Or: трагическая гибель для Sunveer Bhomul, 21 года
+LLM usage this run: 6 requests, 11482 tokens
