@@ -12,3 +12,9 @@ LLM usage this run: 3 requests, 5428 tokens
   dup: nothing new ()
 Skipped duplicate (Wazaa): La police interroge le frère d’un ancien ministre, alors que 12 suspects du procès relatif == Сообщения, распространявшиеся в WhatsApp: Robin Hurreeram допрошен Central CID
 LLM usage this run: 1 requests, 2312 tokens
+### check 4/5 at 17:47
+  dup check: new (Показано, что после беспорядков 17 октября во Франции товары, украденные в магазинах (сумки, одежда, парфюмерия, предметы роскоши), появляются на улиц)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Video: France – Après les pillages du 17 octobre, le butin s’affiche en ligne et dans la rue
+Skipped foreign news (Inside News): Video: France – Après les pillages du 17 octobre, le butin s’affiche en ligne et dans la rue
+LLM usage this run: 2 requests, 4606 tokens
