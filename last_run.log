@@ -27,3 +27,11 @@ LLM usage this run: 1 requests, 1825 tokens
   dup: nothing new (Премьер-министр Маврикия Navin Ramgoolam подтвердил в парламенте 20 октября арест крупного наркобарона, не раскрывая его личность. Он также уточнил, ч)
 Skipped duplicate (Wazaa): Premier ministre confirme l’arrestation d’un baron de la drogue lors d’une séance parlemen == PNQ о беспорядках: «Арестован наркобарон», — утверждает Ramgoolam
 LLM usage this run: 1 requests, 1816 tokens
+### check 5/5 at 15:48
+  dup check: new (В статье упоминается, что форум для инвесторов между Маврикием и ЕС запланирован на 2027 год. Это конкретная дата форума впервые указана в этой публик)
+  proofread: Balaclava → Балаклава
+Posted (Inside News): Маврикий — Европейский союз: новая встреча для привлечения инвесторов
+  dup check: new (Премьер-министр Маврикия доктор Навин Рамгулам в Национальном собрании 20 октября сообщил, что по данным иммиграционной службы пропавшая гражданка Бан)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Бангладешская гражданка пропала без вести с 3 апреля: отъезд с Маврикия не зафиксирован
+LLM usage this run: 6 requests, 8671 tokens
