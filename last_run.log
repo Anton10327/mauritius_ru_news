@@ -7,3 +7,8 @@ Skipped duplicate (Defimedia): Pillage d’Ihsan Supermarché : le 4x4 volé ret
   proofread: «conditional discharge» → «условное освобождение»
 Posted (Defimedia): Посягательство на нравственность: прокуратура вновь требует тюремного заключения для доктора Nishan Moheeputh по другому делу
 LLM usage this run: 3 requests, 5828 tokens
+### check 4/5 at 22:02
+  dup check: new (Статья описывает ситуацию в районе «Anba Larivier» (Roche-Bois), где более ста человек живут в условиях крайней бедности уже 30 лет, и упоминает убийс)
+  not news (portrait/lifestyle): «Anba Larivier», à Roche-Bois : Le visage de l’extrême pauvreté
+Skipped foreign news (L'Express): «Anba Larivier», à Roche-Bois : Le visage de l’extrême pauvreté
+LLM usage this run: 2 requests, 4906 tokens
