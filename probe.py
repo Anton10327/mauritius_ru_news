@@ -1,29 +1,9 @@
-"""Names-list approach on real recent articles (posts nothing)."""
-import json, re, requests, bot
-seen = json.load(open(bot.STATE_DIR / "seen.json", encoding="utf-8"))
-urls = []
-for uid in reversed(seen):
-    if uid.startswith("wp:Le Mauricien:"):
-        pid = uid.rsplit(":", 1)[1]
-        try:
-            d = requests.get(f"https://www.lemauricien.com/wp-json/wp/v2/posts/{pid}?_fields=link,title",
-                             headers=bot.UA, timeout=20).json()
-        except Exception:
-            continue
-        if "BOXE" in d.get("title", {}).get("rendered", "") or len([u for u in urls if "lemauricien" in u]) < 3:
-            urls.append(d["link"])
-    elif "inside.news/?p=" not in uid:
-        urls.append(uid.replace("http://", "https://"))
-    if len(urls) >= 16:
-        break
-src = lambda u: next((s[0] for s in bot.FEEDS if s[0].split()[0].lower().replace("'", "") in u.replace("-", "")), "Source")
-for u in urls:
-    e = bot.page_entry(u)
-    if not e or not e["title"]:
-        continue
-    post = bot.build_post(src(u), e, u, [])
-    print("\n=== ", e["title"][:100])
-    print("names:", "; ".join(f"{n['orig']}{'→' + n['ru'] if n.get('ru') else ''} ({n.get('type')})"
-                              for n in bot._llm_state.get("names") or []))
-    print(post.get("title"), "\n", post.get("summary"))
-print(f"\nLLM {bot._llm_state['calls']} calls, {bot._llm_state['tokens']} tokens")
+"""Ask GigaChat for the token balance (posts nothing)."""
+import bot, requests
+tok = bot._giga_token()
+for url in ["https://api.giga.chat/v1/balance", "https://gigachat.devices.sberbank.ru/api/v1/balance"]:
+    try:
+        r = requests.get(url, headers={"Authorization": f"Bearer {tok}"}, timeout=30, verify=bot._giga_verify())
+        print(url, r.status_code, r.text[:600])
+    except Exception as e:
+        print(url, "FAIL", e)
