@@ -5,3 +5,8 @@ Skipped duplicate (L'Express): Plumes engagées : Quand la colère embrase les r
 Skipped duplicate (Inside News): Cybercrime Unit : Deven Anacootee entendu, son avocat affirme qu’il ne se sent pas concern == Адвокат Callichurn: «Deven Anacootee не считает себя причастным к заявлениям Bruneau Лоре»
 LLM usage this run: 1 requests, 2200 tokens
 ### check 2/5 at 14:27
+### check 3/5 at 14:31
+  dup check: new (CSE Velocity получила премию «Best Newcomer» на STEM Racing World Finals 2026 в Сингапуре; это первое упоминание о победе именно этой команды и новой )
+  proofread: «Best Newcomer» 2026 года → «Best Newcomer» 2026 года
+Posted (L'Express): STEM Racing World Finals 2026: команда CSE Velocity получает награду «Best Newcomer» в Singapour
+LLM usage this run: 3 requests, 5405 tokens
