@@ -1,31 +1,8 @@
-### check 1/5 at 09:51
-  dup check: new (В статье указано, что трое полицейских освобождены под залог Rs 25 000 и обязательство на Rs 100 000 каждый; сержант Gautam Singh Taukoor оставлен в к)
-  proofread: Элоиза Тома → Элоида Томас; Taukоur → Таукоур
-Posted (Le Mauricien): Дело Élodie Thomas: троих полицейских освободили под залог, Taukoor оставлен под стражей
-  dup check: new (Статья сообщает о новых актах насилия в Sainte-Croix, включая нападения на пост полиции Abercrombie с коктейлями Молотова и угрозами жизни офицеров. Э)
-  proofread: «SOS Patrimoine en Péril» → «SOS Patrimoine en Péril»; «странице Facebook» → «своей странице Facebook»
-Posted (Le Mauricien): Наследие: полицейский участок Abercrombie (1860) — крепкий как скала, несмотря на нападения
-  dup check: new (В статье говорится о возобновлении занятий после четырёх дней вынужденных каникул, упоминается обращение Викаша Рамдани к Министерству образования с п)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): После бурной недели — возобновление занятий: титанические усилия, чтобы наверстать отставание
-  dup check: new (В статье указано, что с 13 октября арестовано 188 человек — это конкретное число впервые появляется в этой публикации. В ранее опубликованных материал)
-Posted (L'Express): Напряжённость по всему острову: с 13 октября арестованы 188 человек
-LLM usage this run: 12 requests, 20777 tokens
-### check 2/5 at 09:55
-  dup: nothing new (Освобождение под залог трёх полицейских, подозреваемых в виновном бездействии после ранения Élodie Thomas; сумма залога и обязательства каждого.)
-Skipped duplicate (Le Mauricien): Camp-Levieux — COUP DE FEU SUR ÉLODIE THOMAS : Liberté conditionnelle à 3 policiers pour a == Élodie Thomas ранена пулей: трое полицейских, арестованных за «виновное бездействие», осво
-  dup: nothing new (В статье говорится, что в парламенте 20 октября будет поднят вопрос о возможной причастности организованных преступных сетей к беспорядкам и обсуждены)
-Skipped duplicate (Le Mauricien): Reprise parlementaire : émeutes, couvre-feu et crise de l’eau au cœur de la PNQ == Возобновление работы парламента: кризис с водой, насилие и чувствительные законопроекты
-  dup check: new (В статье сообщается, что лидер оппозиции Chetan Baboolall планирует задать Private Notice Question (PNQ) премьер-министру Navin Ramgoolam по поводу не)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): PNQ: Chetan Baboolall обращается к Navin Ramgoolam по поводу недавней напряженности по всей стране
-  same headline as #128: Pillage au London Way de Mahébourg : un suspect de 20 ans arrêté
-Skipped duplicate (Wazaa): Jeune de 20 ans arrêté pour pillages et incendies sur London Way à Mahébourg == Грабеж на London Way в Mahébourg: задержан 20-летний подозреваемый
-LLM usage this run: 5 requests, 9546 tokens
-### check 3/5 at 09:59
-### check 4/5 at 10:03
-  dup check: new (В статье впервые упоминается, что Robin Hurreeram публично отрицает свою причастность к рассылке сообщений в группе «The Burning Paradise». Ранее публ)
-  proofread: «The Burning Paradise» → "The Burning Paradise"
-Posted (L'Express): Robin Харрирэм отрицает любое участие в «The Burning Paradise»
-LLM usage this run: 3 requests, 4923 tokens
-### check 5/5 at 10:07
+### check 1/5 at 10:29
+  dup check: new (Министр обороны Великобритании Уэс Стритинг заявил в Палате общин 19 октября 2026 года, что Лондон работает над соглашением по базе Диего-Гарсия, кото)
+  proofread: Wes Streeting → Уэс Стритинг
+Posted (Defimedia): Diego Garcia: Лондон хочет соглашение «приемлемое для всех нас, включая президента Трампа»
+  dup check: new (В статье сообщается о находке мёртвого дельфина в Bain-de-Rosnay, обнаруженного рыбаками и зафиксированного береговой охраной Poudre-d’Or и Grand-Gaub)
+  proofread: мертвый → мёртвый
+Posted (L'Express): Bain-de-Rosnay: найден мёртвый дельфин
+LLM usage this run: 6 requests, 8829 tokens
