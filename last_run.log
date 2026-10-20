@@ -8,3 +8,8 @@ LLM usage this run: 1 requests, 1627 tokens
   dup: nothing new ()
 Skipped duplicate (Top FM): Rentrée parlementaire : Élodie Thomas et les enquêtes de la FCC au cœur des débats == Возобновление работы парламента — дело Элои Томас: расследование и ответственность полиции
 LLM usage this run: 1 requests, 2213 tokens
+### check 3/5 at 08:09
+  dup check: new (В статье впервые сообщается о результатах июньского 2026 года отчёта Pesticides Regulatory Office, где зафиксированы превышения максимальных допустимы)
+  proofread: угре из Триоле → угорь из Триоле
+Posted (Top FM): Остатки пестицидов: превышения до 317 раз допустимого предела в овощах
+LLM usage this run: 3 requests, 5445 tokens
