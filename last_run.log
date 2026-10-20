@@ -1,15 +1,13 @@
-### check 1/5 at 13:12
-  dup check: new (В статье приводятся новые мнения экспертов — антрополога Dr Jonathan Ravat, психолога и активиста Salim Muthy — о социальных причинах насилия на Маври)
-  proofread: Au Cœur de l’Info - troubles à Maurice : au-delà de la violence, les fractures sociales à réparar → В центре внимания — беспорядки на Маврикии: помимо насилия, социальные разломы, которые нужно устранить; L’anthropologue Dr Jonathan Ravat, la psychologue clinicienne et Chief Operations Officer de Ko
-Posted (Defimedia): В центре внимания — беспорядки на Маврикии: помимо насилия, социальные разломы, которые нужно устранить
-  dup check: new (В статье впервые упоминается конкретный случай кражи 4x4 Mitsubishi (красного, номер 2907 MR) из супермаркета Ihsan Supermarché в Beau-Bassin во время)
-  proofread: Ihsan Akash → Ihsan Акэш
-Posted (Defimedia): Beau-Bassin: призыв найти украденный внедорожник во время разграбления супермаркета Ihsan
-  dup check: new (Deven Anacootee a été entendu par la Cyber Crime Unit du CCID le 20 octobre et, à sa sortie des Casernes centrales, il s’est adressé à la presse aux c)
-  proofread: Facebook-страница → страница Facebook
-Posted (L'Express): Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
-LLM usage this run: 9 requests, 15487 tokens
-### check 2/5 at 13:16
-### check 3/5 at 13:20
-### check 4/5 at 13:24
-### check 5/5 at 13:28
+### check 1/5 at 13:52
+  dup check: new (В статье приведены свежие данные за первое полугодие 2026 года: зарегистрировано 244 новых диагноза ВИЧ на Маврикии, причём более половины связаны с г)
+Posted (Defimedia): ВИЧ: более половины диагнозов связаны с гетеросексуальными контактами
+  dup check: new (Deven Anacootee, после допроса в Cybercrime Unit, заявил, что не знает страницу Facebook Pima Info. Это его прямое заявление о незнании страницы, кото)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Deven Anacootee: «Я не знаю страницу Pima Info»
+  dup check: new (В статье впервые названы имена пяти подозреваемых в участии в беспорядках (Jérôme Roger Agathe, Dhiyven Lofur, Jordy Jefferson Ip Kiun Chong, Néhémie )
+  proofread: «taking part in a riot» → «участии в беспорядках»; «helper» → «помощник»; «Me Neil Pillay et Me Akshaye Kaniah» → «Адвокаты Нил Пилли и Акшай Каня»
+Posted (Defimedia): Предполагаемое участие в беспорядках: двое подозреваемых требуют освобождения под залог
+  dup check: new (Упоминается, что уровень воды в Mare-aux-Vacoas достиг 34,2%, и это подаётся как тревожный показатель. В уже опубликованных статьях есть близкая цифра)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Водный кризис: от Vacoas до Curepipe кран пересыхает, а тревога растёт
+LLM usage this run: 12 requests, 19401 tokens
