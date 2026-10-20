@@ -1,2 +1,3 @@
-https://api.giga.chat/v1/balance 200 {"balance":[{"usage":"GigaChat","value":249987840},{"usage":"GigaChat-Ultra","value":49257754},{"usage":"GigaChat-Pro","value":39273551},{"usage":"GigaChat-Max","value":24995934}]}
-https://gigachat.devices.sberbank.ru/api/v1/balance 200 {"balance":[{"usage":"GigaChat-Ultra","value":49257754},{"usage":"GigaChat-Pro","value":39273551},{"usage":"GigaChat-Max","value":24995934},{"usage":"GigaChat","value":249987840}]}
+GigaChat balance: GigaChat-Ultra 49,257,754, GigaChat-Pro 39,273,551, GigaChat-Max 24,995,934, GigaChat 249,987,840; 365 days to go
+GigaChat-3-Ultra daily budget: 134,952 | days left: 365
+GigaChat-3-Pro daily budget: 107,598 | days left: 365
