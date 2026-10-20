@@ -3,67 +3,60 @@ Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary mode
 Google Translate failed: TooManyRequests
 Автобусное сообщение прервано во вторник утром
 == LLM: https://api.groq.com/openai/v1/chat/completions
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-e82b0061-7a64-4ad8-a948-96938d0290e9","object":"chat.completion","created":1792501717,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.071512403,"prompt_tokens":16,"prompt_t
-openai/gpt-oss-120b 200 {"id":"chatcmpl-1d322f02-6294-4238-a1f6-22649e5198a8","object":"chat.completion","created":1792501717,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just respond \"ok\"."},"logprobs":null,"finish_reason"
-openai/gpt-oss-20b 200 {"id":"chatcmpl-bb2da519-3e1b-4e69-b553-bb7bddb97a48","object":"chat.completion","created":1792501718,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So respond \"ok\"."},"logprobs":null,"finish_reason":"stop
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-b94df287-86d2-4f8c-b03c-00b54b9a87c1","object":"chat.completion","created":1792501972,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.003999257,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-37d1155b-e42e-4bc5-8f20-2fbfdc35be85","object":"chat.completion","created":1792501973,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
+openai/gpt-oss-20b 200 {"id":"chatcmpl-1cbc4ecc-a919-4513-a722-dd2ffd87498e","object":"chat.completion","created":1792501973,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So respond \"ok\"."},"logprobs":null,"finish_reason":"stop
 == Defimedia: https://defimedia.info/rss.xml
 Newest: Paix sociale : le MACOSS appelle à donner davantage de place aux jeunes | https://defimedia.info/paix-sociale-le-macoss-appelle-donner-davantage-de-place-aux-jeunes
 Article text: 2453 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Jeunesse.jpeg
-  same headline as #157: Paix sociale : le MACOSS appelle à donner davantage de place aux jeunes
-Duplicate of recent post #: 157
-LLM usage so far: 3 requests, 218 tokens
+  same headline as #155: Paix sociale : le MACOSS appelle à donner davantage de place aux jeunes
+Duplicate of recent post #: 155
+LLM usage so far: 3 requests, 217 tokens
 -- Post that would be sent:
 
 == L'Express: https://lexpress.mu/
-Newest: Liquidités bancaires : Nouvelle directive des réserves obligatoires par la Banque de Maurice | https://lexpress.mu/s/nouvelle-directive-des-reserves-obligatoires-par-la-banque-de-maurice-563826
-Article text: 3155 chars | photo: https://lexpress.mu/storage/articles/gkbm2xXoXFooM51EaeP9BL3MxXMSVIVg8r3cChBB.jpg
-  dup check: new (La Banque de Maurice a révisé sa directive sur le Cash Reserve Requirement (CRR) avec entrée en vigueur le 14 octobre, précisant les ratios pour les d)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: о обязательных → об обязательных
-Duplicate of recent post #: None
-LLM usage so far: 6 requests, 5499 tokens
+Newest: Bain-de-Rosnay : Un dauphin retrouvé mort, son espèce reste à identifier | https://lexpress.mu/s/un-dauphin-retrouve-mort-son-espece-reste-a-identifier-563846
+Article text: 1355 chars | photo: https://lexpress.mu/storage/articles/xIWlNF9WqXpEiEDANGzL0jNMtyYWhcKwUFLMovP6.jpg
+  same headline as #110: Bain-de-Rosnay : Un dauphin retrouvé mort
+Duplicate of recent post #: 110
+LLM usage so far: 3 requests, 217 tokens
 -- Post that would be sent:
-<b>Банковская ликвидность: новое указание об обязательных резервах от Банка Маврикия</b>
 
-Банк Маврикия (BoM) пересмотрел директиву об обязательных резервах, которая вступила в силу 14 октября. Документ устанавливает нормативы для депозитов в рупиях и иностранной валюте, а также правила их формирования и начисления процентов. Новые правила направлены на обеспечение осторожного управления ликвидностью и поддержание финансовой стабильности на острове.
-
-🔗 <a href="https://lexpress.mu/s/nouvelle-directive-des-reserves-obligatoires-par-la-banque-de-maurice-563826">L&#x27;Express</a>
 == Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
 Newest: Loi anti-transfugisme : Le cas de Sydney Pierre met en lumière une lacune de notre Constitution   | https://www.lemauricien.com/le-mauricien/loi-anti-transfugisme-le-cas-de-sydney-pierre-met-en-lumiere-une-lacune-de-notre-constitution/721143/
 Article text: 5148 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-2026-10-18T083721.945.webp
-  same headline as #159: Loi anti-transfugisme : Le cas de Sydney Pierre met en lumière une lacune de not
-Duplicate of recent post #: 159
-LLM usage so far: 6 requests, 5499 tokens
+  same headline as #157: Loi anti-transfugisme : Le cas de Sydney Pierre met en lumière une lacune de not
+Duplicate of recent post #: 157
+LLM usage so far: 3 requests, 217 tokens
 -- Post that would be sent:
 
 == Inside News: https://inside.news/feed/
 Newest: Don de sang à Maurice : après une semaine d’interruption, les collectes reprennent | https://www.inside.news/don-sang-maurice-reprise-collectes-octobre-2026/
 Article text: 1658 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/601a9536-fc99-4bb0-8bf7-5154056a06ea__1_-Removed.png
-  dup: nothing new ()
-Duplicate of recent post #: 1
-LLM usage so far: 7 requests, 7830 tokens
--- Post that would be sent:
-
-== Wazaa: https://www.wazaa.mu/feed/
-Newest: L’industrie textile subit des retards d’une semaine après les troubles et le couvre-feu | https://www.wazaa.mu/lindustrie-textile-subit-des-retards-dune-semaine-apres-les-troubles-et-le-couvre-feu/
-Article text: 5287 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1792500173.jpeg
-  dup check: new (В статье приведено новое заявление известного текстильного промышленника Франсуа де Гривеля о падении производства отрасли (примерно на …), чего нет в)
+  dup check: new (Reprise des collectes de sang à Maurice après une semaine d’interruption; campagne de don de sang organisée le 17 octobre à Flacq; le ministre de la S)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
 Duplicate of recent post #: None
-LLM usage so far: 10 requests, 13230 tokens
+LLM usage so far: 6 requests, 5410 tokens
 -- Post that would be sent:
-<b>Текстильная промышленность столкнулась с недельной задержкой после беспорядков и комендантского часа</b>
+<b>Донорство крови на Маврикии: сборы возобновились после недельного перерыва</b>
 
-Маврикийский текстильный сектор испытывает трудности с восстановлением после социальных потрясений и введения комендантского часа. По словам промышленника François de Grivel, производство упало на 20%, а сроки доставки заказов сдвинулись минимум на неделю из-за сбоев в логистике. Компании вынуждены нести дополнительные расходы на сверхурочные, чтобы избежать штрафов со стороны зарубежных покупателей, хотя отмены заказов пока остаются редкостью.
+Власти Маврикия возобновили кампании по сбору крови после недельной паузы, вызванной недавними беспорядками. 17 октября во Flacq прошла акция, организованная Министерством здравоохранения совместно с индийским посольством. Министр Anil Kumar Bachoo подтвердил, что обычно госпрограммы собирают не менее 100 пинт крови в неделю, и призвал добровольцев активно участвовать, чтобы обеспечить больницы необходимым запасом для операций и экстренных случаев.
 
-🔗 <a href="https://www.wazaa.mu/lindustrie-textile-subit-des-retards-dune-semaine-apres-les-troubles-et-le-couvre-feu/">Wazaa</a>
+🔗 <a href="https://www.inside.news/don-sang-maurice-reprise-collectes-octobre-2026/">Inside News</a>
+== Wazaa: https://www.wazaa.mu/feed/
+Newest: L’industrie textile subit des retards d’une semaine après les troubles et le couvre-feu | https://www.wazaa.mu/lindustrie-textile-subit-des-retards-dune-semaine-apres-les-troubles-et-le-couvre-feu/
+Article text: 5287 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1792500173.jpeg
+  dup: nothing new ()
+Duplicate of recent post #: 139
+LLM usage so far: 7 requests, 7803 tokens
+-- Post that would be sent:
+
 == Top FM: https://topfm.mu/
 Newest: Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37 questions du CCID mais exige plus de clarté | https://topfm.mu/actualites/enquete-sur-les-equipements-decoute-pravind-jugnauth-repond-37-questions-du-ccid-mais-exige-plus-de
 Article text: 949 chars | photo: https://topfm.mu/sites/default/files/media-icons/generic/video.png
-  same headline as #154: Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37 questions du
-Duplicate of recent post #: 154
-LLM usage so far: 10 requests, 13230 tokens
+  same headline as #152: Enquête sur les équipements d'écoute : Pravind Jugnauth répond à 37 questions du
+Duplicate of recent post #: 152
+LLM usage so far: 7 requests, 7803 tokens
 -- Post that would be sent:
 
