@@ -1,5 +1,8 @@
-### check 1/5 at 23:51
-### check 2/5 at 23:55
-### check 3/5 at 23:59
-### check 4/5 at 00:03
-### check 5/5 at 00:07
+### check 1/5 at 00:23
+  dup check: new (В статье впервые сообщается о конкретном факте ограбления ювелирного магазина Koumal Bijoux в Лионе с деталями по видео, что ранее не публиковалось. О)
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+GigaChat balance: GigaChat 249,987,840, GigaChat-Ultra 49,257,754, GigaChat-Pro 39,271,201, GigaChat-Max 24,995,934; 364 days to go
+  not about Mauritius: France : une bijouterie pillée à Lyon, les images de vidéosurveillance témoignent de la violence
+Skipped foreign news (Inside News): France : une bijouterie pillée à Lyon, les images de vidéosurveillance témoignent de la violence
+LLM usage this run: 2 requests, 4669 tokens
