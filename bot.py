@@ -1078,6 +1078,9 @@ def latinize_names(text, original, lenient=False):
     # usually ordinary words, but names are still checked)
     # (not a part of a hyphenated name: "Бай-дю-Томбо" is handled as a whole)
     text = re.sub(r"(?<!-)\b[А-ЯЁ][а-яё]{2,}(?:-[А-ЯЁ][а-яё]+)*\b(?!-)", sub, text)
+    # a name may have become half-Latin only now ("Ричард Сюне" -> "Richard
+    # Сюне"): align once more
+    text = _align_names(text, original)
     for t, c in caps.items():  # no Latin match: keep the headline as it was
         text = text.replace(t, c)
     return text
