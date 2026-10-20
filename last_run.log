@@ -7,3 +7,11 @@ LLM per-minute limit, waiting 30s
   proofread by qwen/qwen3.8-27b
 Posted (L'Express): Парламент: Острая перепалка между Rajesh Bhagwan, Paul Bérenger и Joanna Bérenger
 LLM usage this run: 3 requests, 5510 tokens
+### check 2/5 at 23:15
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (La Cure Waves SC will hold a preparation camp on Rodrigues from 21 to 28 october, including two friendly matches, following their recent friendly agai)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): La Cure Waves отправляется на Rodrigues после матча с Orlando Pirates
+LLM usage this run: 3 requests, 6229 tokens
