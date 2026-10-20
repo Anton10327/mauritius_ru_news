@@ -11,3 +11,11 @@ Skipped duplicate (Inside News): Maurice manquerait de 5 000 informaticiens par 
   proofread: Четан Бабулаллу → Четан Бабулалл
 Posted (Top FM): Беспорядки: Navin Ramgoolam говорит о скоординированных атаках и защищает законность комендантского часа
 LLM usage this run: 9 requests, 15650 tokens
+### check 2/5 at 15:36
+  dup check: new (В статье описан новый эпизод: в Национальном собрании произошёл напряжённый обмен между Полем Беранже и Навином Рамгуламом, где Беранже заявил Рамгула)
+  proofread: Элои Том → Элои Тома
+Posted (Defimedia): Дело Элои Thomas: «Мы играем с огнём», — бросает Bérenger Ramgoolam
+  dup check: new (Pravind Jugnauth публично отреагировал на отставку Sydney Pierre, заявив: «Li bon ki li'n démissioné» и отметив, что население теперь видит направлени)
+  proofread: Джагнов → Джагнот
+Posted (Top FM): Pravind Jugnauth отреагировал на уход Sydney Pierre из Лейбористской партии
+LLM usage this run: 6 requests, 8614 tokens
