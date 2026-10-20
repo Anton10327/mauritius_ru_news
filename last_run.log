@@ -1,17 +1,8 @@
-### check 1/5 at 08:01
-  not news (portrait/lifestyle): Jeunesse et contestation : « Une rupture de confiance » entre les jeunes et les institutions, selon 
-Skipped foreign news (Top FM): Jeunesse et contestation : « Une rupture de confiance » entre les jeunes et les institutions, selon 
-  same headline as #128: Les grands titres de l'express de ce mardi 20 octobre 2026
-Skipped duplicate (Top FM): 🔴 Les grands titres de Top FM de ce mardi 20 octobre 2026 == Главные заголовки L'Express за вторник, 20 октября 2026 года
-LLM usage this run: 1 requests, 1627 tokens
-### check 2/5 at 08:05
-  dup: nothing new ()
-Skipped duplicate (Top FM): Rentrée parlementaire : Élodie Thomas et les enquêtes de la FCC au cœur des débats == Возобновление работы парламента — дело Элои Томас: расследование и ответственность полиции
-LLM usage this run: 1 requests, 2213 tokens
-### check 3/5 at 08:09
-  dup check: new (В статье впервые сообщается о результатах июньского 2026 года отчёта Pesticides Regulatory Office, где зафиксированы превышения максимальных допустимы)
-  proofread: угре из Триоле → угорь из Триоле
-Posted (Top FM): Остатки пестицидов: превышения до 317 раз допустимого предела в овощах
-LLM usage this run: 3 requests, 5445 tokens
-### check 4/5 at 08:13
-### check 5/5 at 08:17
+### check 1/5 at 08:36
+  dup check: new (В новой статье сообщается о задержании полицейского и двух других подозреваемых по подозрению в торговле каннабисом, обнаружении более 600 граммов кан)
+Posted (Defimedia): Подозрение в торговле каннабисом: арестованы полицейский и еще двое подозреваемых
+  dup check: new (В статье сообщается о задержании 20-летнего подозреваемого по делу о грабеже супермаркета London Way и поджоге двух автомобилей в Махёрбюрге, а также )
+Posted (Defimedia): Грабеж на London Way в Mahébourg: задержан 20-летний подозреваемый
+  dup: nothing new (Sydney Pierre официально присоединился к FMP и займёт место на передовой скамье оппозиции в парламенте, начиная с возобновления работы 20 октября.)
+Skipped duplicate (L'Express): Reprise parlementaire : Sydney Pierre rejoint le FMP et siégera au «front bench» de l’oppo == Сидни Pierre на передовой скамье оппозиции: Paul Bérenger говорит «вероятно, да»
+LLM usage this run: 7 requests, 10664 tokens
