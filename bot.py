@@ -142,7 +142,9 @@ PROMPT = (
     "(проверь согласование слов в роде, числе и падеже), "
     "до 600 символов: что произошло, где, кто, что дальше; ключевые цифры "
     "(число пострадавших, арестованных, суммы, даты) сохраняй. "
-    "Только факты из статьи, без оценок и без выдумок. Если текст статьи "
+    "Только факты из статьи, без оценок и без выдумок; должности и звания "
+    "людей бери только из статьи, не добавляй свои (кто сейчас премьер-министр, "
+    "министр или лидер оппозиции, ты можешь не знать). Если текст статьи "
     "короткий (объявление в 1–3 предложения), просто точно переведи его на "
     "русский, ничего не добавляя и не додумывая. "
     "Имена и фамилии людей, названия мест, организаций, партий и компаний "
@@ -160,6 +162,8 @@ PROMPT = (
     "час; Assemblée nationale — Национальное собрание; DPP — генпрокурор (DPP); "
     "IPCC — комиссия по жалобам на полицию (IPCC); SMF — спецподразделение SMF; "
     "CWA — водоканал CWA; Premier ministre — премьер-министр; "
+    "MSM — партия MSM (Militant Socialist Movement); MMM — партия MMM; "
+    "Parti travailliste — Лейбористская партия; "
     "rogue and vagabond — бродяжничество с подозрительными целями; "
     "provisional charge — предварительное обвинение; "
     "taking part in a riot — участие в беспорядках. Английские юридические "
@@ -806,7 +810,7 @@ def _align_names(text, original):
                             ok = False
                             break
                         out.extend(gap)
-                    elif gap or (out and isinstance(out[-1], list)):
+                    elif gap or (out and isinstance(out[-1], list) and len(out) > 1):
                         ok = False
                         break
                     out.append(w)
@@ -817,12 +821,16 @@ def _align_names(text, original):
                     else:
                         out.append([w])
             if ok and out and isinstance(out[-1], list):  # Cyrillic words at the end
-                cyr, gap = out.pop(), run[i:]
-                if not gap or SequenceMatcher(None, _sound("".join(cyr)),
-                                              _sound("".join(gap))).ratio() < 0.5:
-                    ok = False
+                cyr = out.pop()
+                sim = lambda g: SequenceMatcher(None, _sound("".join(cyr)), _sound("".join(g))).ratio()
+                gaps = [run[i:i + n] for n in {len(cyr), len(cyr) + 1, len(run) - i} if run[i:i + n]]
+                gap = max(gaps, key=sim) if gaps else []
+                if not gap or sim(gap) < 0.5:
+                    out.extend(cyr)  # not part of the name: keep these words
                 else:
                     out.extend(gap)
+                    if len(cyr) == 1:
+                        learned[cyr[0]] = " ".join(gap)
             # a sentence-initial word is usually not a name part ("Активиста
             # Bruneau"): it needs a close match ("Франсуа Mark" ~ François Mark)
             starts = re.search(r"(^|[.!?:«\"—]\s*)$", text[:m.start()]) is not None
@@ -832,13 +840,23 @@ def _align_names(text, original):
                 gap = run[max(0, first - len(cyr)):first] if first > 0 else []
                 if not gap or SequenceMatcher(None, _sound("".join(cyr)),
                                               _sound("".join(gap))).ratio() < (0.75 if starts else 0.5):
-                    ok = False
+                    out = cyr + out  # "Маврикия Pravind ...": not part of the name
                 else:
                     out = gap + out
             if ok and all(isinstance(x, str) for x in out):
                 return " ".join(out)
         return m.group(0)
-    return re.sub(rf"{tok}(?:\s+{tok})+", sub, text)
+    learned = {}
+    text = re.sub(rf"{tok}(?:\s+{tok})+", sub, text)
+    # the same surname elsewhere in the text, alone or declined ("Джагнова")
+    for cyr, lat in learned.items():
+        stem = cyr
+        for e in _RU_ENDINGS:
+            if cyr.lower().endswith(e) and len(cyr) - len(e) >= 3:
+                stem = cyr[:-len(e)]
+                break
+        text = re.sub(rf"\b{re.escape(stem)}(?:{'|'.join(_RU_ENDINGS)})?\b", lat, text)
+    return text
 
 
 _LINKS = {"d", "de", "du", "des", "la", "le", "les", "l", "aux", "en", "sur", "or"}
