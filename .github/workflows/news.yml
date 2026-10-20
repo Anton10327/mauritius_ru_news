@@ -79,10 +79,10 @@ jobs:
               exit 1 )
           }
           # Test modes write their own log and never touch the bot's state
-          if [ "${{ inputs.probe }}" = "true" ]; then python probe.py 2>&1 | tee state/test_run.log; save_state test_run.log; exit 0; fi
-          if [ "${{ inputs.dupeval }}" = "true" ]; then python bot.py --dupeval 2>&1 | tee state/test_run.log; save_state test_run.log; exit 0; fi
+          if [ "${{ inputs.probe }}" = "true" ]; then BOT_TEST=1 python probe.py 2>&1 | tee state/test_run.log; save_state test_run.log; exit 0; fi
+          if [ "${{ inputs.dupeval }}" = "true" ]; then BOT_TEST=1 python bot.py --dupeval 2>&1 | tee state/test_run.log; save_state test_run.log; exit 0; fi
           if [ "${{ inputs.test }}" = "true" ] || [ "${{ inputs.compare }}" = "true" ]; then
-            python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee state/test_run.log || true
+            BOT_TEST=1 python bot.py ${{ inputs.test && '--test' || '' }} ${{ inputs.compare && '--compare' || '' }} 2>&1 | tee state/test_run.log || true
             git -C state checkout -- seen.json recent.json state.json 2>/dev/null || true
             save_state test_run.log; exit 0
           fi

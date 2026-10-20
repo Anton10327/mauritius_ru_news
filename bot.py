@@ -425,6 +425,7 @@ def summarize(title, body):
     messages = [{"role": "system", "content": PROMPT},
                 {"role": "user", "content": content}]
     models = [m for m in SUMMARY_MODELS if m not in _llm_state["exhausted"]]
+    unavailable = []  # models the provider says do not exist
     for model in models:
         if model.startswith("GigaChat") and (_giga["dead"] or _giga_over_cap(model)):
             _llm_state["exhausted"].add(model)
@@ -475,6 +476,7 @@ def summarize(title, body):
             return None
         if r.status_code in (400, 404) and "model" in r.text.lower():
             print(f"Model {model} unavailable ({r.text[:150]}), trying next")
+            unavailable.append(model)
             continue
         if not r.ok:
             print(f"LLM error {r.status_code}: {r.text[:300]}")
@@ -505,6 +507,12 @@ def summarize(title, body):
               "заголовки, без пересказов. Лимит восстанавливается сам, "
               "ничего делать не нужно.")
         return None
+    if not unavailable:
+        # models answered, just not usefully (empty or broken answer): this
+        # article gets a translated headline, nothing to warn the owner about
+        print("No usable answer from the models for this article")
+        _llm_state["disabled"] = False
+        return None
     alert("models",
           "⚠️ Ни одна модель из LLM_MODELS не ответила — похоже, Groq их "
           "переименовал или убрал.\n\nБот публикует только переведённые "
@@ -529,6 +537,9 @@ def _state_set(key, value):
 
 
 def alert(kind, text):
+    if os.environ.get("BOT_TEST"):  # test and probe runs never message the owner
+        print(f"(alert suppressed in test run: {kind})")
+        return
     """Private message to the owner, at most once per day for each kind."""
     if not ADMIN_ID:
         return
