@@ -159,7 +159,12 @@ PROMPT = (
     "Ramgoolam», «в городе Curepipe». Рупии — «рупий». Словарик: couvre-feu — комендантский "
     "час; Assemblée nationale — Национальное собрание; DPP — генпрокурор (DPP); "
     "IPCC — комиссия по жалобам на полицию (IPCC); SMF — спецподразделение SMF; "
-    "CWA — водоканал CWA; Premier ministre — премьер-министр. "
+    "CWA — водоканал CWA; Premier ministre — премьер-министр; "
+    "rogue and vagabond — бродяжничество с подозрительными целями; "
+    "provisional charge — предварительное обвинение; "
+    "taking part in a riot — участие в беспорядках. Английские юридические "
+    "термины (названия статей и обвинений) переводи на русский по смыслу, "
+    "а не оставляй по-английски. "
     "Маврикийский креольский: «mari» перед прилагательным или глаголом — "
     "«очень, сильно» («mo mari kontan» — «я очень рад»), а не «муж»; «mo» — "
     "«я, мой», «to» — «ты», «li» — «он/она», «nou» — «мы», «zot» — «они»; "
@@ -845,6 +850,14 @@ def _latinize_compounds(text, original):
     from difflib import SequenceMatcher
     toks = list(re.finditer(r"[A-Za-zÀ-ÿ]+", original))
     spans = {}
+
+    def put(key, span):
+        # prefer the article's own spelling over a CAPITALS headline turned
+        # into Title case: "Flic-en-Flac" over "Flic-En-Flac", "Sorèze" over "Soreze"
+        old = spans.get(key)
+        natural = lambda x: (not x.isascii()) + any(w[0].islower() for w in re.split(r"[\s'’-]", x) if w)
+        if old is None or natural(span) > natural(old):
+            spans[key] = span
     for i, t in enumerate(toks):
         followed = original[t.end():t.end() + 1] == "-"  # Sainte-Croix is a name
         if not t.group(0)[0].isupper() or (_not_name(t.group(0)) and not followed):
@@ -859,11 +872,11 @@ def _latinize_compounds(text, original):
             if last[0].isupper():
                 words = [toks[k].group(0) for k in range(i, j + 1)]
                 span = original[t.start():toks[j].end()]
-                spans.setdefault(_sound("".join(words)), span)
-                spans.setdefault(_sound("".join(words[:-1])) + _sound_latin(last), span)
+                put(_sound("".join(words)), span)
+                put(_sound("".join(words[:-1])) + _sound_latin(last), span)
                 # silent final e in each part: Rose-Hill ~ Роуз-Хилл
-                spans.setdefault("".join(re.sub(r"(?<=..)e$", "", _sound(w)) for w in words), span)
-                spans.setdefault("".join(_fr(w) for w in words), span)  # Sainte-Croix ~ Сент-Круа
+                put("".join(re.sub(r"(?<=..)e$", "", _sound(w)) for w in words), span)
+                put("".join(_fr(w) for w in words), span)  # Sainte-Croix ~ Сент-Круа
 
     def sub(m):
         word = m.group(0)
@@ -889,6 +902,16 @@ def latinize_names(text, original):
     # Le Mauricien writes headlines in CAPITALS ("SOREZE : ..."): match as Title case
     original = re.sub(r"\b[A-ZÀ-Ý]{3,}(?:-[A-ZÀ-Ý]+)*\b",
                       lambda m: "-".join(p.capitalize() for p in m.group(0).split("-")), original)
+    # A headline in CAPITALS copied from Le Mauricien ("ФЛИК-АН-ФЛАК"): compare
+    # in Title case so it can be matched (short abbreviations like МВД stay)
+    caps = {}
+
+    def title(m):
+        t = "-".join(p.capitalize() for p in m.group(0).split("-"))
+        caps[t] = m.group(0)
+        return t
+    # only names: hyphenated (ФЛИК-АН-ФЛАК) or a headline place before a colon (СОРЕЗ:)
+    text = re.sub(r"\b[А-ЯЁ]{2,}(?:-[А-ЯЁ]{2,})+\b|\b[А-ЯЁ]{4,}\b(?=\s*:)", title, text)
     text = _align_names(_latinize_compounds(text, original), original)
     from difflib import SequenceMatcher
     def at_start(src, pos):  # first word of a line or sentence (or after a colon)
@@ -953,7 +976,10 @@ def latinize_names(text, original):
     # Capitalised Cyrillic words (not at the start of a sentence: those are
     # usually ordinary words, but names are still checked)
     # (not a part of a hyphenated name: "Бай-дю-Томбо" is handled as a whole)
-    return re.sub(r"(?<!-)\b[А-ЯЁ][а-яё]{2,}(?:-[А-ЯЁ][а-яё]+)*\b(?!-)", sub, text)
+    text = re.sub(r"(?<!-)\b[А-ЯЁ][а-яё]{2,}(?:-[А-ЯЁ][а-яё]+)*\b(?!-)", sub, text)
+    for t, c in caps.items():  # no Latin match: keep the headline as it was
+        text = text.replace(t, c)
+    return text
 
 
 _NOT_NAMES.update(_sound(w) for w in _NOT_NAMES_FR)
