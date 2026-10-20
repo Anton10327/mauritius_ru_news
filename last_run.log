@@ -4,3 +4,7 @@ Skipped foreign news (Top FM): Jeunesse et contestation : « Une rupture de conf
   same headline as #128: Les grands titres de l'express de ce mardi 20 octobre 2026
 Skipped duplicate (Top FM): 🔴 Les grands titres de Top FM de ce mardi 20 octobre 2026 == Главные заголовки L'Express за вторник, 20 октября 2026 года
 LLM usage this run: 1 requests, 1627 tokens
+### check 2/5 at 08:05
+  dup: nothing new ()
+Skipped duplicate (Top FM): Rentrée parlementaire : Élodie Thomas et les enquêtes de la FCC au cœur des débats == Возобновление работы парламента — дело Элои Томас: расследование и ответственность полиции
+LLM usage this run: 1 requests, 2213 tokens
