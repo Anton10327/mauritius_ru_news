@@ -1,17 +1,1 @@
-### check 1/5 at 22:01
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (L'Express): Law and order : The scars of unrest: three generations remember == Главные заголовки L'Express за вторник, 20 октября 2026 года
-LLM usage this run: 1 requests, 2181 tokens
-### check 2/5 at 22:05
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Premier ministre Navin Ramgoola a déposé le 21 octobre une motion à l’Assemblée nationale pour créer un comité parlementaire restreint chargé d’examin)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Юношеская преступность: Navin Ramgoolam предлагает создать парламентский комитет для изучения причин и ответственности родителей
-LLM usage this run: 3 requests, 5837 tokens
-### check 3/5 at 22:09
-### check 4/5 at 22:13
-### check 5/5 at 22:17
+### check 1/5 at 22:42
