@@ -17,3 +17,19 @@ Posted (L'Express): «Duke of Edinburgh Award»: 3 млн рупий на 60-л�
   proofread by qwen/qwen3.8-27b
 Posted (L'Express): Внешняя торговля: Дефицит достиг 20,7 млрд рупий из-за топлива
 LLM usage this run: 10 requests, 20846 tokens
+### check 2/5 at 17:11
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (CPI a augmenté de 1,7 % entre juin (112,2) et septembre 2026 (114,1), l’inflation annuelle moyenne sur 12 mois s’établit à 4,1 % contre 3,4 % l’an pré)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): Инфляция: цены на Маврикии снова выросли на 1,7% за три месяца
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : le sergent Gautam Taukoor de nouveau entendu par l’IPCC == Дело Élodie Thomas: троих полицейских освободили под залог, Taukoor оставлен под стражей
+  dup check: new (Указано, что девочке будет оказана медицинская помощь – её направят в больницу. Это новое важное событие, которого нет в ранее опубликованных материал)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Шестилетняя девочка стала жертвой сексуального насилия: подозреваемый — её дядя, ребёнка госпитализируют
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Immatriculations de véhicules à l’Île Maurice chutent de 25,4 % malgré une reprise tardive == За девять месяцев авторынок сократил продажи до 23 641 автомобиля
+LLM usage this run: 8 requests, 16328 tokens
