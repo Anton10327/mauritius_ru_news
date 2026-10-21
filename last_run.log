@@ -1,16 +1,12 @@
-### check 1/5 at 09:03
+### check 1/5 at 09:37
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Vidéo à caractère sexuel impliquant une fillette de 6 ans : la police ouvre une enquête == Сексуальное насилие над шестилетней девочкой: «Непростительно», — отреагировала Deputy Pri
-  not news (portrait/lifestyle): JOURNÉE MONDIALE DU CAFÉ : Miko Coffee Mauritius privilégie la formation et l’excellence
-Skipped foreign news (Le Mauricien): JOURNÉE MONDIALE DU CAFÉ : Miko Coffee Mauritius privilégie la formation et l’excellence
-  same headline as #96: PNQ sur les troubles : « Un baron de la drogue a été arrêté », affirme Ramgoolam
-Skipped duplicate (L'Express): Navin Ramgoolam : «Au moins un baron de la drogue a été arrêté» == PNQ о беспорядках: «Арестован наркобарон», — утверждает Ramgoolam
-  proofread: «Un couple arrêté pour vol à l’étalage» → «пару задержали за кражу в магазине»; «Une femme (37 ans)» → «женщину (37 лет)»; «après le déclenchement du portique antivol» → «после срабатывания антикражных ворот»; «plusieurs vêtements dÃ©pourvus de leurs antivols» → «несколько вещей без датчиков»; «à lâ
-Posted (Le Mauricien): Bagatelle: пару задержали за кражу в магазине
-LLM usage this run: 4 requests, 8438 tokens
-### check 2/5 at 09:07
-### check 3/5 at 09:11
-### check 4/5 at 09:15
-### check 5/5 at 09:19
+  dup check: new (В статье сообщается, что 21 октября состоится решающая встреча между Mauritius Examinations Syndicate (MES) и Cambridge для обсуждения вариантов решен)
+Posted (Defimedia): Отменённые экзамены SC-HSC: решающая встреча MES и Cambridge в эту среду
+  not about Mauritius: Climat: le monde sur une trajectoire de réchauffement de 2,6°C d'ici 2100
+Skipped foreign news (Defimedia): Climat: le monde sur une trajectoire de réchauffement de 2,6°C d'ici 2100
+  same headline as #111: Affaire Élodie Thomas : « We are playing with fire », lance Bérenger à Ramgoolam
+Skipped duplicate (L'Express): Ambiance : «We are playing with fire» == Дело Элои Thomas: «Мы играем с огнём», — бросает Bérenger Ramgoolam
+  dup check: new (В статье сообщается, что Statistics Mauritius опубликует 21 октября индекс цен на строительство за третий квартал 2026 года. Это конкретная дата публи)
+Posted (Inside News): Строительство на Маврикии: продолжают ли расти затраты?
+LLM usage this run: 7 requests, 13505 tokens
