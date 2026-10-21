@@ -32,3 +32,16 @@ Skipped duplicate (Top FM): Shiv Khera appelle Navin Ramgoolam à bâtir la nati
   dup: nothing new ()
 Skipped duplicate (Top FM): Abus sexuels présumés sur une fillette de six ans : vague de colère et cri du cœur des Mau == Сексуальное насилие над шестилетней девочкой: «Непростительно», — отреагировала Deputy Pri
 LLM usage this run: 7 requests, 15554 tokens
+### check 3/5 at 17:56
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Ravindra Chimajee (alias « Kris ») remains in provisional detention at Beau‑Bassin prison after a hearing on 20 octobre; his next appearance before th)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Дело о 155,7 килограммах каннабиса: Ravindra Chimajee остается под стражей, следующее заседание 4 ноября
+  dup check: new (Annonce du SHE-EO Leadership Bootcamp à Maurice, initiative internationale pour le leadership féminin en partenariat avec ONU Femmes, réunissant plus )
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: ООН-женщины → ONU Femmes
+Posted (Top FM): SHE-EO Leadership Bootcamp: Маврикий в центре мирового женского лидерства
+LLM usage this run: 6 requests, 11972 tokens
