@@ -17,3 +17,19 @@ Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reache
 Posted (L'Express): PNQ: Резервуары для воды — уже рассмотрено 9 239 заявок
 LLM usage this run: 8 requests, 18831 tokens
 ### check 2/5 at 13:58
+### check 3/5 at 14:02
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Повышенная оплата за риск: Mauritius Labour Congress требует распространить ее на другие профессии
+  dup check: new (21‑летний студент Университета Маврикия был избит телескопической дубинкой в метро Rose‑Hill 20 октября, получив серьёзную травму головы; ранее такие )
+LLM per-minute limit, waiting 30s
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Rose-Hill: 21-летний студент получил ранение в голову от удара телескопической дубинкой
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Полиция: некоторые подразделения требуют компенсации и признания их заслуг
+LLM usage this run: 7 requests, 12612 tokens
