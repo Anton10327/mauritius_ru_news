@@ -28,3 +28,20 @@ Posted (L'Express): Напряжённость по всему острову: �
   proofread: Navin Ramgoolam → Навин Рамгулам
 Posted (Inside News): Водный кризис: Ramgoolam возглавит чрезвычайный комитет, жители ждут результатов
 LLM usage this run: 12 requests, 23779 tokens
+### check 3/5 at 11:17
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Kim Le Court сохранила первое место в женском рейтинге UCI Africa Tour 2026 с 2 248 очками; её ближайшие преследовательницы — Ashleigh Moolman-Pasio ()
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+Posted (Le Mauricien): UCI Africa Tour – Kim Ле Кур сохраняет лидерство в африканском рейтинге
+  dup check: new (Lawyer Sanjeev Teeluckdharry filed an affidavit on 16 July 2026 asking the Supreme Court to block the signing of the Acquisition and Cross‑Servicing A)
+  proofread by qwen/qwen3.8-27b
+  proofread: Санджив Тилакдхарри → Sanjeev Teeluckdharry; Конгресса граждан Маврикия → Congrès Citoyen Mauricien
+Posted (Defimedia): Логистическое соглашение Маврикий–США: адвокат Sanjeev Teeluckdharry оспаривает его конституционность
+  dup: nothing new ()
+Skipped duplicate (Inside News): Météo : Agueda reste loin de Maurice, des averses attendues dans l’après-midi == Погода на Маврикии: ожидаются дожди в среду, 21 октября
+  dup check: new (В статье сообщается о победе французской велосипедистки Aurélie Halbwachs‑Lincoln на индивидуальном тайм‑трее чемпионатов Африки 2006 года (10 ноября )
+  not news (portrait/lifestyle): Aurélie Halbwachs-Lincoln : Toujours dans la course, vingt ans après !
+Skipped foreign news (L'Express): Aurélie Halbwachs-Lincoln : Toujours dans la course, vingt ans après !
+LLM usage this run: 9 requests, 19763 tokens
