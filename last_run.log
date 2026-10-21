@@ -18,3 +18,11 @@ Posted (Top FM): Сокращение штата в Pesticides Regulatory Office
 LLM usage this run: 10 requests, 19494 tokens
 ### check 2/5 at 16:16
 ### check 3/5 at 16:20
+### check 4/5 at 16:24
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Министр агро-промышленности Арвин Булил назвал три приоритетные зоны для восстановления лесов (Montagne-des-Signaux и др.), сообщил, что на Маврикии о)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Деградировавшие леса: три приоритетные зоны для лесовосстановления
+LLM usage this run: 3 requests, 6777 tokens
