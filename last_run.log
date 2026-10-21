@@ -34,3 +34,10 @@ LLM usage this run: 4 requests, 7445 tokens
   proofread: Mandela Cu → Mandela Cup
 Posted (L'Express): Бокс: Merven Clair и Fabrice Valérie зададут тон!
 LLM usage this run: 2 requests, 4055 tokens
+### check 5/5 at 10:26
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Статья описывает новое событие: 28 августа в Сан-Паулу, Бразилия, двое мужчин на мотоцикле разбили окно автомобиля и похитили телефон у женщины-контен)
+  not about Mauritius: Brésil : une vitre pulvérisée en pleine circulation, un vol spectaculaire filmé à São Paulo
+Skipped foreign news (Inside News): Brésil : une vitre pulvérisée en pleine circulation, un vol spectaculaire filmé à São Paulo
+LLM usage this run: 2 requests, 4799 tokens
