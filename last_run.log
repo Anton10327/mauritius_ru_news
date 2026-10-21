@@ -1,5 +1,13 @@
-### check 1/5 at 07:10
-### check 2/5 at 07:14
-### check 3/5 at 07:18
-### check 4/5 at 07:22
-### check 5/5 at 07:26
+### check 1/5 at 07:55
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new (301 955 деклараций по подоходному налогу уже подано; выплачено возвратов на Rs 826,8 млн; собрано налогов на Rs 2,27 млрд. Упомянут ускорившийся темп )
+Skipped duplicate (Defimedia): Impôt sur le revenu : 301 955 déclarations déjà déposées == Налоги: последний срок — 30 октября без штрафов и процентов
+  not about Mauritius: [Blog] Le malaise français
+Skipped foreign news (Defimedia): [Blog] Le malaise français
+  dup: nothing new (Pravind Jugnauth обвиняет полицию в распространении ложных сведений и заявляет, что опровергнет их в суде; он отказывается вступать в публичную полеми)
+Skipped duplicate (Defimedia): Équipements d’écoute : Pravind Jugnauth évoque des « faussetés » dans le communiqué de la  == Оборудование для прослушки: полиция утверждает, что предъявила Pravind Jugnauth документы 
+  dup check: new (В статье впервые упоминается реакция Deputy Prime Minister на видео с сексуальным насилием над шестилетней девочкой, а также информация о том, что мин)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Сексуальное насилие над шестилетней девочкой: «Непростительно», — отреагировала Deputy Prime Minister
+LLM usage this run: 6 requests, 12423 tokens
