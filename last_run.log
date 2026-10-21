@@ -16,3 +16,9 @@ Posted (Top FM): Использование пестицидов: Arvin Boolell 
 LLM usage this run: 10 requests, 19514 tokens
 ### check 2/5 at 12:33
 ### check 3/5 at 12:37
+### check 4/5 at 12:41
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (Inside News): Droits humains : quatre institutions mobilisées pour mieux informer les Mauriciens == 40-летие Африканской хартии: два мероприятия запланированы на 21 и 23 октября
+LLM usage this run: 1 requests, 2279 tokens
