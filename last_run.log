@@ -69,3 +69,21 @@ Skipped foreign news (Le Mauricien): Sheila Bunwaree : « Sans justice sociale, 
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): La caricature du Mauricien du 21 octobre 2026 == Велоспорт – Чемпионаты Африки на шоссе: золото для Tristan Hardy, серебро для Halbwachs-Li
 LLM usage this run: 7 requests, 19283 tokens
+### check 5/5 at 17:23
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Police Amendment Bill – Navin Ramgoolam : « Pas un État d’urgence par la petite porte » == Законопроект о поправках к закону о полиции: расширение комендантского часа и увеличение ш
+  dup check: new (Министр жилья и земель Шакель Мохамед выступил с заявлением о необходимости признания дискриминации в стране и о различиях между прежней и текущей опп)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Shakeel Mohamed, министр Жилища и Земли: «Политическому классу нужно смотреть в лицо реальности дискриминации в стране»
+  dup check: new (Concert de Stogie T le 23 octobre à 19h au Café du Vieux Conseil à Port‑Louis, avec le rappeur sud‑africain Tumi Molekane (Stogie T) en tête d’affiche)
+  written by qwen/qwen3.8-27b
+Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
+Posted (L'Express): Концерт Stogie T: южноафриканский рэп в гостях у Café du Vieux Conseil
+  dup check: new (Le ministre des Infrastructures nationales, Ajay Gunness, a indiqué que le rapport d’évaluation de l’impact environnemental du projet d’autoroute M4 s)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Авторoute M4: отчет об экологическом воздействии ожидается в ноябре
+LLM usage this run: 9 requests, 20790 tokens
