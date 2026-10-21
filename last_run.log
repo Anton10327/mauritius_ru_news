@@ -11,3 +11,12 @@ Skipped duplicate (L'Express): Ambiance : «We are playing with fire» == Дел
 Posted (Inside News): Строительство на Маврикии: продолжают ли расти затраты?
 LLM usage this run: 7 requests, 13505 tokens
 ### check 2/5 at 09:41
+### check 3/5 at 09:45
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new (В статье указано, что Akshaye Boodhun признал создание группы WhatsApp «Burning Paradise» после допроса в присутствии адвоката. Также уточняется его в)
+Skipped duplicate (Wazaa): Jeune de 18 ans avoue avoir créé le groupe WhatsApp « Burning Paradise » après les trouble == Предварительно обвинённый по закону о борьбе с терроризмом: Akshaye Boodhun, 18-летний уче
+  dup check: new (Премьер-министр Навин Рамгулам сообщил в парламенте, что тесты на алкоголь и наркотики сержанта Gautam Singh Taukoor дали отрицательный результат. Так)
+  proofread: Navin Ramgoolam → Навин Рамгулам; Élodie Thomas → Элои Томас; SMF → SMF
+Posted (Top FM): Стрельба в Camp-Levieux: тесты на алкоголь и наркотики у сержанта отрицательные, заявил Navin Ramgoolam
+LLM usage this run: 4 requests, 8678 tokens
