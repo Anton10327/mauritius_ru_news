@@ -45,3 +45,17 @@ Skipped duplicate (Inside News): Météo : Agueda reste loin de Maurice, des ave
   not news (portrait/lifestyle): Aurélie Halbwachs-Lincoln : Toujours dans la course, vingt ans après !
 Skipped foreign news (L'Express): Aurélie Halbwachs-Lincoln : Toujours dans la course, vingt ans après !
 LLM usage this run: 9 requests, 19763 tokens
+### check 4/5 at 11:21
+  same headline as #120: Poudre-d’Or : fin tragique pour Sunveer Bhomul, 21 ans
+Skipped duplicate (Defimedia): Accident mortel à Poudre-d’Or : Sunveer Bhomul, 21 ans, fauché au lendemain de son anniver == Poudre-d’Or: трагическая гибель для Sunveer Bhomul, 21 года
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (L'Express): Dispositifs d’écoute téléphonique : Face à des documents signés de sa main, Pravind Jugnau == Оборудование для прослушки: полиция утверждает, что предъявила Pravind Jugnauth документы 
+  same headline as #65: Plus de 100 faux profils identifiés et 22 pages Facebook dans le collimateur du 
+Skipped duplicate (Inside News): Émeutes : plus de 100 faux profils et 22 pages Facebook examinés par le CCID == Более 100 фальшивых профилей и 22 страницы Facebook в поле зрения CCID
+  dup check: new (Déclaration du député d'opposition Franco Quirin : il affirme que tous les habitants d’une région affectée ne sont pas des suspects et critique les re)
+  proofread by qwen/qwen3.8-27b
+  proofread: Франко Кирин → Franco Quirin
+Posted (Le Mauricien): Franco Quirin, депутат от оппозиции: «Не все жители пострадавшего района — подозреваемые»
+LLM usage this run: 4 requests, 8497 tokens
