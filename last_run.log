@@ -1,29 +1,19 @@
-### check 1/5 at 16:12
+### check 1/5 at 17:07
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Début des épreuves du Primary School Achievement Certificate (PSAC) le 22 octobre 2026 avec 16 264 candidats attendus à Maurice et Rodrigues, mobilisa)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): PSAC 2026: 16 264 кандидата ждут в экзаменационных центрах с четверга
   dup: nothing new ()
-Skipped duplicate (L'Express): Consommation l Pesticides : 20 échantillons de fruits et légumes contiennent des produits  == Остатки пестицидов: превышения до 317 раз допустимого предела в овощах
-  dup check: new (Un homme de 35 ans est décédé le 20 octobre à l’hôpital Jawaharlal Nehru, neuf jours après être tombé du stade King George V à Curepipe le 11 octobre,)
+Skipped duplicate (Defimedia): Pesticides à Maurice : le gouvernement veut renforcer les contrôles et la traçabilité == Использование пестицидов: Arvin Boolell объявляет об усилении правовой базы и системе QR-к
+  dup check: new (Allocation of Rs 3 million by the ministry for the 60th anniversary of the Duke of Edinburgh International Award in Mauritius, including Rs 105 000 fo)
+LLM per-minute limit, waiting 30s
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Curepipe: 35-летний мужчина скончался через девять дней после падения на стадионе King George V
-  dup check: new (Hindu House announced, via its president Luxshmee Ramdhun‑Bundhun at a press conference on 21 october, that the Divali celebrations on 8 november will)
+Posted (L'Express): «Duke of Edinburgh Award»: 3 млн рупий на 60-летие программы
+  dup check: new (В августе 2026 года дефицит торгового баланса товаров на Маврикии составил Rs 20,707 млрд, что на 6,1 % больше, чем в июле, и на 16,7 % больше, чем в )
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (L'Express): Дивали: Hindu House призывает к миру и единству
-  dup check: new (Le ministre de l’Agro‑industrie, Dr Arvin Boolell, indique que les effectifs du Pesticides Regulatory Office sont passés de cinq à trois agents et jus)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Top FM): Сокращение штата в Pesticides Regulatory Office: Arvin Boolell обосновывает уменьшение численности персонала
-LLM usage this run: 10 requests, 19494 tokens
-### check 2/5 at 16:16
-### check 3/5 at 16:20
-### check 4/5 at 16:24
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Министр агро-промышленности Арвин Булил назвал три приоритетные зоны для восстановления лесов (Montagne-des-Signaux и др.), сообщил, что на Маврикии о)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Деградировавшие леса: три приоритетные зоны для лесовосстановления
-LLM usage this run: 3 requests, 6777 tokens
-### check 5/5 at 16:28
+Posted (L'Express): Внешняя торговля: Дефицит достиг 20,7 млрд рупий из-за топлива
+LLM usage this run: 10 requests, 20846 tokens
