@@ -15,3 +15,12 @@ Skipped duplicate (Inside News): Couvre-feu à Maurice : le Parlement adopte de 
   dup: nothing new ()
 Skipped duplicate (L'Express): Crise de l’eau | Triolet : les planteurs à bout face au manque d’eau == Водохранилище La Nicolière заполнено на 39,4%: фермеры обеспокоены за свои урожаи
 LLM usage this run: 6 requests, 15597 tokens
+### check 2/5 at 19:44
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Plus de 250 morts en quelques jours à cause de frappes de drones au Soudan, dont au moins 153 victimes dans un seul marché; extension des attaques à l)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Soudan : plus de 250 morts en quelques jours, les drones sèment la terreur jusque dans les marchés
+Skipped foreign news (Inside News): Soudan : plus de 250 morts en quelques jours, les drones sèment la terreur jusque dans les marchés
+LLM usage this run: 2 requests, 5169 tokens
