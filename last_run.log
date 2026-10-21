@@ -1,89 +1,17 @@
-### check 1/5 at 17:07
+### check 1/5 at 17:48
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Début des épreuves du Primary School Achievement Certificate (PSAC) le 22 octobre 2026 avec 16 264 candidats attendus à Maurice et Rodrigues, mobilisa)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): PSAC 2026: 16 264 кандидата ждут в экзаменационных центрах с четверга
+Posted (L'Express): Малый и средний бизнес: акты вандализма довели активность до предела
+LLM per-minute limit, waiting 12s
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Dagotière: NHDC берет на себя обслуживание зеленых зон в Résidence Lavande
   dup: nothing new ()
-Skipped duplicate (Defimedia): Pesticides à Maurice : le gouvernement veut renforcer les contrôles et la traçabilité == Использование пестицидов: Arvin Boolell объявляет об усилении правовой базы и системе QR-к
-  dup check: new (Allocation of Rs 3 million by the ministry for the 60th anniversary of the Duke of Edinburgh International Award in Mauritius, including Rs 105 000 fo)
-LLM per-minute limit, waiting 30s
+Skipped duplicate (Wazaa): 130 000 Mauriciens vivent dans la pauvreté, selon les statistiques gouvernementales == Бедность: затронуты 130 000 маврикийцев
+  dup check: new (Contracts worth Rs 10,455,999.50 awarded to Olympia Ltd by the Ministry of Youth and Sports since December 2024, disclosed by Minister Nagalingum in t)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (L'Express): «Duke of Edinburgh Award»: 3 млн рупий на 60-летие программы
-  dup check: new (В августе 2026 года дефицит торгового баланса товаров на Маврикии составил Rs 20,707 млрд, что на 6,1 % больше, чем в июле, и на 16,7 % больше, чем в )
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Внешняя торговля: Дефицит достиг 20,7 млрд рупий из-за топлива
-LLM usage this run: 10 requests, 20846 tokens
-### check 2/5 at 17:11
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (CPI a augmenté de 1,7 % entre juin (112,2) et septembre 2026 (114,1), l’inflation annuelle moyenne sur 12 mois s’établit à 4,1 % contre 3,4 % l’an pré)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): Инфляция: цены на Маврикии снова выросли на 1,7% за три месяца
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : le sergent Gautam Taukoor de nouveau entendu par l’IPCC == Дело Élodie Thomas: троих полицейских освободили под залог, Taukoor оставлен под стражей
-  dup check: new (Указано, что девочке будет оказана медицинская помощь – её направят в больницу. Это новое важное событие, которого нет в ранее опубликованных материал)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Шестилетняя девочка стала жертвой сексуального насилия: подозреваемый — её дядя, ребёнка госпитализируют
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Immatriculations de véhicules à l’Île Maurice chutent de 25,4 % malgré une reprise tardive == За девять месяцев авторынок сократил продажи до 23 641 автомобиля
-LLM usage this run: 8 requests, 16328 tokens
-### check 3/5 at 17:15
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Seizure of Rs 1,245,050 by Police des Jeux on 20 oct 2026 at the home of a 69‑year‑old man in Port‑Louis; items seized include notes with football mat)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Предполагаемые нелегальные ставки: у 69-летнего мужчины изъяли 1,24 млн рупий
-  written by qwen/qwen3.8-27b
-Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
-Posted (L'Express): Дорожная безопасность: новые лежачие полицейские запланированы в 11-м избирательном округе
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Non-respect du couvre-feu : l’un des prévenus déjà condamné pour la même infraction durant == Комендантский час: двенадцать обвиняемых принесли извинения и попросили о снисхождении, пр
-  dup check: new (Tourism professionals report no widespread cancellations after recent social unrest but warn of potential impacts on bookings and the image of Mauriti)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: 
-Posted (L'Express): После социальных волнений: туристический сектор настороже
-LLM usage this run: 8 requests, 17644 tokens
-### check 4/5 at 17:19
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Tristan Hardy (Kenya) won gold in the U19 African road time‑trial championship in Kisumu, completing 20.4 km in 26 min 49 s; Aurélie Halbwachs‑Lincoln)
-LLM per-minute limit, waiting 30s
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
-  written by openai/gpt-oss-120b
-Posted (Le Mauricien): Велоспорт – Чемпионаты Африки на шоссе: золото для Tristan Hardy, серебро для Halbwachs-Lincoln
-  dup check: new (Annonce de deux nouveaux événements artistiques à L’Aventure du Sucre : une exposition immersive dédiée à Jeanne Barret le 22 octobre et la deuxième é)
-  written by openai/gpt-oss-120b
-Posted (Le Mauricien): Приключение сахара: когда художники осваивают наследие
-  dup check: new (В статье приведено заявление социолога Шейлы Бунварее (основательницы Institute of Social Development and Peace), которой ранее не цитировали в канале)
-  written by openai/gpt-oss-120b
-  not about Mauritius: Sheila Bunwaree : « Sans justice sociale, la paix reste très fragile »
-Skipped foreign news (Le Mauricien): Sheila Bunwaree : « Sans justice sociale, la paix reste très fragile »
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Mauricien du 21 octobre 2026 == Велоспорт – Чемпионаты Африки на шоссе: золото для Tristan Hardy, серебро для Halbwachs-Li
-LLM usage this run: 7 requests, 19283 tokens
-### check 5/5 at 17:23
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Police Amendment Bill – Navin Ramgoolam : « Pas un État d’urgence par la petite porte » == Законопроект о поправках к закону о полиции: расширение комендантского часа и увеличение ш
-  dup check: new (Министр жилья и земель Шакель Мохамед выступил с заявлением о необходимости признания дискриминации в стране и о различиях между прежней и текущей опп)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Shakeel Mohamed, министр Жилища и Земли: «Политическому классу нужно смотреть в лицо реальности дискриминации в стране»
-  dup check: new (Concert de Stogie T le 23 octobre à 19h au Café du Vieux Conseil à Port‑Louis, avec le rappeur sud‑africain Tumi Molekane (Stogie T) en tête d’affiche)
-  written by qwen/qwen3.8-27b
-Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
-Posted (L'Express): Концерт Stogie T: южноафриканский рэп в гостях у Café du Vieux Conseil
-  dup check: new (Le ministre des Infrastructures nationales, Ajay Gunness, a indiqué que le rapport d’évaluation de l’impact environnemental du projet d’autoroute M4 s)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Авторoute M4: отчет об экологическом воздействии ожидается в ноябре
-LLM usage this run: 9 requests, 20790 tokens
+Posted (L'Express): Olympia Ltd: контракты на сумму 10,46 млн рупий с декабря 2024 года
+LLM usage this run: 8 requests, 16238 tokens
