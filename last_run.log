@@ -1,57 +1,16 @@
-### check 1/5 at 17:48
+### check 1/5 at 18:21
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Les bureaux de la Sécurité sociale seront exceptionnellement ouverts durant trois week-ends en octobre et novembre 2026 pour aider les futurs bénéfici)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (L'Express): Малый и средний бизнес: акты вандализма довели активность до предела
-LLM per-minute limit, waiting 12s
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Dagotière: NHDC берет на себя обслуживание зеленых зон в Résidence Lavande
+Posted (L'Express): Заявки на «State Age Pension»: офисы Службы социального обеспечения будут открыты три выходных
   dup: nothing new ()
-Skipped duplicate (Wazaa): 130 000 Mauriciens vivent dans la pauvreté, selon les statistiques gouvernementales == Бедность: затронуты 130 000 маврикийцев
-  dup check: new (Contracts worth Rs 10,455,999.50 awarded to Olympia Ltd by the Ministry of Youth and Sports since December 2024, disclosed by Minister Nagalingum in t)
+Skipped duplicate (Defimedia): SAP : ouverture exceptionnelle des bureaux de la Sécurité sociale durant trois week-ends == Заявки на «State Age Pension»: офисы Службы социального обеспечения будут открыты три выхо
+  dup check: new (Подписан усиленный экономический договор между ЕС и Маврикием (а также Коморскими островами, Мадагаскаром и Сейшельскими островами) 10 июня 2026 года )
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (L'Express): Olympia Ltd: контракты на сумму 10,46 млн рупий с декабря 2024 года
-LLM usage this run: 8 requests, 16238 tokens
-### check 2/5 at 17:52
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Macron a dénoncé mercredi des dirigeants étrangers, notamment Donald Trump et Benjamin Netanyahu, pour leurs commentaires « inacceptables et stupides )
-  written by qwen/qwen3.8-27b
-  not about Mauritius: Macron dénonce "des dirigeants qui font campagne sur le dos de la France" en visant Trump et Netanya
-Skipped foreign news (Defimedia): Macron dénonce "des dirigeants qui font campagne sur le dos de la France" en visant Trump et Netanya
-  dup check: new (Le 21 octobre, l’avocat Mᵉ Vyas Adheen a assisté à la deuxième séance d’enquête de l’Independent Police Complaints Commission au siège de l’institutio)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: во вторник → в среду
-Posted (L'Express): Стрельба в Camp-Levieux: адвокат сержанта Taukoor требует справедливого расследования
+Posted (Inside News): Маврикий и Евросоюз: соглашение на 9,7 миллиарда евро открывает новые перспективы для предприятий
   dup: nothing new ()
-Skipped duplicate (Top FM): Shiv Khera appelle Navin Ramgoolam à bâtir la nation et à perpétuer l’héritage de son père == НЕДВИЖИМОСТЬ — Showcase Indian Ocean: площадка для экспериментов в сфере роскошного гостеп
-  dup: nothing new ()
-Skipped duplicate (Top FM): Abus sexuels présumés sur une fillette de six ans : vague de colère et cri du cœur des Mau == Сексуальное насилие над шестилетней девочкой: «Непростительно», — отреагировала Deputy Pri
-LLM usage this run: 7 requests, 15554 tokens
-### check 3/5 at 17:56
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Ravindra Chimajee (alias « Kris ») remains in provisional detention at Beau‑Bassin prison after a hearing on 20 octobre; his next appearance before th)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Top FM): Дело о 155,7 килограммах каннабиса: Ravindra Chimajee остается под стражей, следующее заседание 4 ноября
-  dup check: new (Annonce du SHE-EO Leadership Bootcamp à Maurice, initiative internationale pour le leadership féminin en partenariat avec ONU Femmes, réunissant plus )
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: ООН-женщины → ONU Femmes
-Posted (Top FM): SHE-EO Leadership Bootcamp: Маврикий в центре мирового женского лидерства
-LLM usage this run: 6 requests, 11972 tokens
-### check 4/5 at 18:00
-### check 5/5 at 18:04
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Le ministre des Affaires étrangères Ritish Ramful a indiqué que le Protocole de Malabo de 2014, visant à renforcer les pouvoirs législatifs du Parleme)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: Пан африканского → Пан-африканского; Пан африканского → Пан-африканского
-Posted (L'Express): Protocole Malabo: Маврикий сохраняет осторожность в отношении расширенных полномочий Пан-африканского парламента
-LLM usage this run: 3 requests, 6411 tokens
+Skipped duplicate (Top FM): Abus sexuels présumés sur une fillette de six ans : la protection de la victime au cœur de == Сексуальное насилие над шестилетней девочкой: «Непростительно», — отреагировала Deputy Pri
+LLM usage this run: 8 requests, 17176 tokens
