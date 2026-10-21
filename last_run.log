@@ -12,3 +12,10 @@ Posted (L'Express): Бедность: затронуты 130 000 маврики�
   not about Mauritius: Italie : Milan touchée par les pillages, affrontements à Turin et Bologne
 Skipped foreign news (Inside News): Italie : Milan touchée par les pillages, affrontements à Turin et Bologne
 LLM usage this run: 10 requests, 20289 tokens
+### check 2/5 at 10:14
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Sydney Pierre будет гостем в программе «Au Cœur de l’Info» сегодня, 21 октября, после своей отставки из правительства и Лейбористской партии. Он присо)
+  proofread: Au Cœur de l’Info → В центре новостей
+Posted (Defimedia): «В центре новостей»: Sydney Pierre — гость этой среды
+LLM usage this run: 3 requests, 4687 tokens
