@@ -23,3 +23,18 @@ Skipped duplicate (L'Express): Tragédie familiale : Jushveer Bhomul pleure son 
   proofread by qwen/qwen3.8-27b
 Posted (Inside News): Кризис воды: обещано дополнительно 30 000 кубометров до конца октября, но будет ли выдержан график?
 LLM usage this run: 4 requests, 8684 tokens
+### check 5/5 at 12:08
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Dr Vasu Kamlesh‑singh Shadhu, 35‑year‑old Mauritian, won the Mister Global Social Impact 2026 title on 10 October in Thailand; the contest had 40 dele)
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Mister Global Social Impact 2026: маврикиец награждён за приверженность борьбе с раком
+  same headline as #88: Palma : un suspect mord deux policiers lors de son arrestation
+Skipped duplicate (Defimedia): Recherché pour maltraitance : il mord deux policiers lors de son arrestation == Palma: подозреваемый укусил двух полицейских при задержании
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Non-respect du couvre-feu : reprise du procès des 12 prévenus ce mercredi == Нарушение комендантского часа: суд над двенадцатью обвиняемыми перенесён на среду
+  dup check: new (Le Wetlands Bill 2026 sera réintroduit au Parlement après de nouvelles consultations et sera harmonisé avec le ESA Bill, avec une première lecture att)
+  proofread by qwen/qwen3.8-27b
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): «Закон о водно-болотных угодьях» будет повторно внесен после консультаций
+LLM usage this run: 7 requests, 14597 tokens
