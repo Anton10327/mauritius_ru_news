@@ -13,3 +13,17 @@ Posted (L'Express): Видео с участием 6-летней девочки
   not about Mauritius: Indonésie : manifestations contre le gouvernement, plus de 9 000 policiers mobilisés à Jakarta
 Skipped foreign news (Inside News): Indonésie : manifestations contre le gouvernement, plus de 9 000 policiers mobilisés à Jakarta
 LLM usage this run: 8 requests, 15833 tokens
+### check 2/5 at 13:14
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Importations alimentaires de janvier à août 2026 atteignent Rs 40,55 milliards, hausse de 3,8 % sur un an; citation de Dawood Jhurry (directeur de Suc)
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Продовольственный счет: 40,55 млрд рупий за восемь месяцев
+  not about Mauritius: Perturbations climatiques : Pluies abondantes, routes coupées et écoles fermées aux Seychelles
+Skipped foreign news (L'Express): Perturbations climatiques : Pluies abondantes, routes coupées et écoles fermées aux Seychelles
+  dup check: new (В новой статье сообщается о конфликте в парламенте, в котором участвуют Chief Whip Stéphanie Anquetil и Whip Joanna Bérenger, а также министр (Rajesh))
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Парламент — Сведение счетов: отзыв Wetlands Bill спровоцировал словесные перепалки
+  dup: nothing new ()
+Skipped duplicate (L'Express): Arianne Navarre-Marie : «Impardonnable» == Видео с участием 6-летней девочки: подозреваемый задержан в Grand-Baie
+LLM usage this run: 8 requests, 18114 tokens
