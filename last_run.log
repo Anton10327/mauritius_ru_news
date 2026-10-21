@@ -1,29 +1,18 @@
-### check 1/5 at 15:38
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Tourism sector in France worries about impact of October 17 violence on upcoming weeks; quotes from an Indian business traveler and Christelle Chassag)
-  written by qwen/qwen3.8-27b
-  not about Mauritius: Après les violences en France, le secteur touristique s'interroge pour les semaines à venir
-Skipped foreign news (Defimedia): Après les violences en France, le secteur touristique s'interroge pour les semaines à venir
-  dup check: new (Angelo Thomas, former kickboxing champion, remains missing ahead of his trial and is reportedly in Madagascar; a warrant has been issued and the proce)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: Мадагаскаре → Мадагаскаре; Diego-Suarez → Диего-Суарес
-Posted (L'Express): Бывший чемпион по кикбоксингу Angelo Thomas: не найден перед судом, предположительно находится на Мадагаскаре
-LLM usage this run: 5 requests, 11851 tokens
-### check 2/5 at 15:42
+### check 1/5 at 16:12
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
   dup: nothing new ()
-Skipped duplicate (Top FM): Diego Garcia : Londres rejette la proposition de vendre la base aux États-Unis pour six mi == Diego Garcia: британский депутат предложил продать базу США
-LLM usage this run: 1 requests, 2517 tokens
-### check 3/5 at 15:46
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Ryanair CEO Michael O’Leary warned on 20 october 2026 that European airline ticket prices could rise by 10‑20 % in 2027 due to higher fuel costs and p)
+Skipped duplicate (L'Express): Consommation l Pesticides : 20 échantillons de fruits et légumes contiennent des produits  == Остатки пестицидов: превышения до 317 раз допустимого предела в овощах
+  dup check: new (Un homme de 35 ans est décédé le 20 octobre à l’hôpital Jawaharlal Nehru, neuf jours après être tombé du stade King George V à Curepipe le 11 octobre,)
   written by qwen/qwen3.8-27b
-  not about Mauritius: Billets d’avion : Ryanair redoute jusqu’à 20 % de hausse en Europe en 2027
-Skipped foreign news (Inside News): Billets d’avion : Ryanair redoute jusqu’à 20 % de hausse en Europe en 2027
-LLM usage this run: 2 requests, 5044 tokens
-### check 4/5 at 15:50
-### check 5/5 at 15:54
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Curepipe: 35-летний мужчина скончался через девять дней после падения на стадионе King George V
+  dup check: new (Hindu House announced, via its president Luxshmee Ramdhun‑Bundhun at a press conference on 21 october, that the Divali celebrations on 8 november will)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Дивали: Hindu House призывает к миру и единству
+  dup check: new (Le ministre de l’Agro‑industrie, Dr Arvin Boolell, indique que les effectifs du Pesticides Regulatory Office sont passés de cinq à trois agents et jus)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Сокращение штата в Pesticides Regulatory Office: Arvin Boolell обосновывает уменьшение численности персонала
+LLM usage this run: 10 requests, 19494 tokens
