@@ -51,3 +51,21 @@ Skipped duplicate (Defimedia): Non-respect du couvre-feu : l’un des prévenus 
   proofread: 
 Posted (L'Express): После социальных волнений: туристический сектор настороже
 LLM usage this run: 8 requests, 17644 tokens
+### check 4/5 at 17:19
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Tristan Hardy (Kenya) won gold in the U19 African road time‑trial championship in Kisumu, completing 20.4 km in 26 min 49 s; Aurélie Halbwachs‑Lincoln)
+LLM per-minute limit, waiting 30s
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
+  written by openai/gpt-oss-120b
+Posted (Le Mauricien): Велоспорт – Чемпионаты Африки на шоссе: золото для Tristan Hardy, серебро для Halbwachs-Lincoln
+  dup check: new (Annonce de deux nouveaux événements artistiques à L’Aventure du Sucre : une exposition immersive dédiée à Jeanne Barret le 22 octobre et la deuxième é)
+  written by openai/gpt-oss-120b
+Posted (Le Mauricien): Приключение сахара: когда художники осваивают наследие
+  dup check: new (В статье приведено заявление социолога Шейлы Бунварее (основательницы Institute of Social Development and Peace), которой ранее не цитировали в канале)
+  written by openai/gpt-oss-120b
+  not about Mauritius: Sheila Bunwaree : « Sans justice sociale, la paix reste très fragile »
+Skipped foreign news (Le Mauricien): Sheila Bunwaree : « Sans justice sociale, la paix reste très fragile »
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La caricature du Mauricien du 21 octobre 2026 == Велоспорт – Чемпионаты Африки на шоссе: золото для Tristan Hardy, серебро для Halbwachs-Li
+LLM usage this run: 7 requests, 19283 tokens
