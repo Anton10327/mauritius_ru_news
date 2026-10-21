@@ -1,43 +1,14 @@
-### check 1/5 at 10:10
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Школьный календарь 2027: начало занятий для 1 и 7 классов предложено на 11 января
-  dup check: new (Указано, что Mauritius Revenue Authority уже обработала 78 215 заявлений на возврат налога и выплатила в общей сложности Rs 826 9 миллионов (Rs 826 87)
-Posted (Inside News): Налоги: MRA уже вернула налогоплательщикам 826,9 млн рупий
-  dup check: new (Министр Ашок Суброн признал разрыв между данными National Empowerment Foundation и реальной многомерной бедностью, а также сообщил об отсутствии стати)
-  proofread: Ashok Subron → Ашок Суброн; National Empowerment Foundation → Национальный фонд расширения возможностей; Statistics Mauritius → Статистическое управление Маврикия
-Posted (L'Express): Бедность: затронуты 130 000 маврикийцев
-  dup check: new (Статья сообщает о массовых беспорядках в Италии (Милан, Турин, Болонья) 17–18 октября 2026 года: столкновения с полицией, вандализм и поджоги мобильны)
-  not about Mauritius: Italie : Milan touchée par les pillages, affrontements à Turin et Bologne
-Skipped foreign news (Inside News): Italie : Milan touchée par les pillages, affrontements à Turin et Bologne
-LLM usage this run: 10 requests, 20289 tokens
-### check 2/5 at 10:14
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Sydney Pierre будет гостем в программе «Au Cœur de l’Info» сегодня, 21 октября, после своей отставки из правительства и Лейбористской партии. Он присо)
-  proofread: Au Cœur de l’Info → В центре новостей
-Posted (Defimedia): «В центре новостей»: Sydney Pierre — гость этой среды
-LLM usage this run: 3 requests, 4687 tokens
-### check 3/5 at 10:18
+### check 1/5 at 11:09
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
   dup: nothing new ()
-Skipped duplicate (L'Express): Saisie de Rs 1,1 M de cannabis : Trois hommes arrêtés, dont un policier suspendu == Торговля наркотиками в Résidences Kennedy: отстранённый от службы полицейский задержан с 6
-  dup check: new (В статье упоминается, что уменьшение объёма воды в Mare-aux-Vacoas приводит к снижению давления в сети и усугубляет трудности с водоснабжением Vacoas,)
-  proofread: семьи в Vacoas → семьи в Вакоасе; Floréal → Флореаль
-Posted (Top FM): Кризис водоснабжения: снижение притока воды в Mare-aux-Vacoas приводит к падению давления в сети
-LLM usage this run: 4 requests, 7445 tokens
-### check 4/5 at 10:22
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  proofread: Mandela Cu → Mandela Cup
-Posted (L'Express): Бокс: Merven Clair и Fabrice Valérie зададут тон!
-LLM usage this run: 2 requests, 4055 tokens
-### check 5/5 at 10:26
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Статья описывает новое событие: 28 августа в Сан-Паулу, Бразилия, двое мужчин на мотоцикле разбили окно автомобиля и похитили телефон у женщины-контен)
-  not about Mauritius: Brésil : une vitre pulvérisée en pleine circulation, un vol spectaculaire filmé à São Paulo
-Skipped foreign news (Inside News): Brésil : une vitre pulvérisée en pleine circulation, un vol spectaculaire filmé à São Paulo
-LLM usage this run: 2 requests, 4799 tokens
+Skipped duplicate (L'Express): Poursuite sous la loi anti-terroriste : attention à la perception véhiculée == Выстрел в Camp-Levieux: сержанта Taukoor оставили под стражей до 26 октября
+  dup check: new (Арестован 55-летний безработный мужчина из Camp-Levieux за кражу трёх шоколадок Poulain стоимостью Rs 705 в супермаркете Tangs Way (Beau-Bassin) 20 ок)
+  proofread: подозреваемый → безработный
+Posted (Le Mauricien): Beau-Bassin: 55-летний мужчина задержан за кражу трёх шоколадок на сумму 705 рупий
+  dup check: new (В статье указано, что в ответ на вопрос лидера оппозиции лидер палаты сообщил об аресте первого наркоторговца. Это конкретное заявление о задержании н)
+Posted (Le Mauricien): Национальное собрание — Главное за вчерашнее заседание — Премьер-министр: «Беспорядки нельзя сводить только к нехватке воды»
+  dup check: new (В статье упоминается новый факт: в Национальном собрании произошёл обмен репликами между Paul Bérenger и премьер-министром Navin Ramgoolam, где Беренд)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Национальное собрание — Инциденты в Camp-Levieux от 9 октября: столкновение Bérenger и Ramgoolam из-за подоплёки дела Élodie Thomas
+LLM usage this run: 10 requests, 18802 tokens
