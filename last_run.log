@@ -1,32 +1,18 @@
-### check 1/5 at 13:10
+### check 1/5 at 13:54
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Un enfant de 9 ans a été agressé par un camarade à l’école Aimé Césaire de Camp‑Levieux le 20 octobre, blessé au bassin et nécessitant une interventio)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Camp-Levieux: 9-летний школьник пострадал от нападения одноклассника
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Communiqué de la police : L’ex-PM Jugnauth confronté à des documents portant sa signature == Оборудование для прослушки: полиция утверждает, что предъявила Pravind Jugnauth документы 
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): За девять месяцев авторынок сократил продажи до 23 641 автомобиля
-  dup check: new (Le suspect dans l’affaire de la vidéo a été appréhendé le mercredi 21 octobre à Grand‑Baie, ce qui constitue une arrestation qui n’était pas mentionné)
-  proofread by qwen/qwen3.8-27b
-  proofread: Гранд-Бе → Grand-Baie
-Posted (L'Express): Видео с участием 6-летней девочки: подозреваемый задержан в Grand-Baie
-  dup check: new (Manifestations en Indonésie le 20 octobre 2026 à Jakarta, Bandung et Yogyakarta pour le deuxième anniversaire du président Prabowo Subianto, avec plus)
-  not about Mauritius: Indonésie : manifestations contre le gouvernement, plus de 9 000 policiers mobilisés à Jakarta
-Skipped foreign news (Inside News): Indonésie : manifestations contre le gouvernement, plus de 9 000 policiers mobilisés à Jakarta
-LLM usage this run: 8 requests, 15833 tokens
-### check 2/5 at 13:14
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Importations alimentaires de janvier à août 2026 atteignent Rs 40,55 milliards, hausse de 3,8 % sur un an; citation de Dawood Jhurry (directeur de Suc)
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Продовольственный счет: 40,55 млрд рупий за восемь месяцев
-  not about Mauritius: Perturbations climatiques : Pluies abondantes, routes coupées et écoles fermées aux Seychelles
-Skipped foreign news (L'Express): Perturbations climatiques : Pluies abondantes, routes coupées et écoles fermées aux Seychelles
-  dup check: new (В новой статье сообщается о конфликте в парламенте, в котором участвуют Chief Whip Stéphanie Anquetil и Whip Joanna Bérenger, а также министр (Rajesh))
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Парламент — Сведение счетов: отзыв Wetlands Bill спровоцировал словесные перепалки
-  dup: nothing new ()
-Skipped duplicate (L'Express): Arianne Navarre-Marie : «Impardonnable» == Видео с участием 6-летней девочки: подозреваемый задержан в Grand-Baie
-LLM usage this run: 8 requests, 18114 tokens
-### check 3/5 at 13:18
-### check 4/5 at 13:22
-### check 5/5 at 13:26
+Skipped duplicate (Wazaa): Calendrier scolaire 2027 proposé pour l’Île Maurice visant 174 jours répartis sur 3 trimes == Школьный календарь 2027: начало занятий для 1 и 7 классов предложено на 11 января
+  dup check: new (Crash of a French Air Force Mirage 2000D near Nancy on 20 oct 2026, killing one crew member and the second crew member (a navigator) still missing; ai)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: France : un Mirage 2000D s’écrase près de Nancy, un mort et un militaire recherché
+Skipped foreign news (Inside News): France : un Mirage 2000D s’écrase près de Nancy, un mort et un militaire recherché
+  dup check: new (Le programme a déjà examiné 9 239 demandes, chiffre qui n’apparaît pas dans les articles précédents (qui ne mentionnaient que le total de 28 306 deman)
+  written by qwen/qwen3.8-27b
+Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
+Posted (L'Express): PNQ: Резервуары для воды — уже рассмотрено 9 239 заявок
+LLM usage this run: 8 requests, 18831 tokens
