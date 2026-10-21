@@ -12,3 +12,17 @@ Skipped duplicate (Inside News): Émeutes : un « baron de la drogue » arrêté
 Skipped duplicate (Top FM): Police (Amendment) Bill - Couvre-feu : Le Parlement élargit le dispositif légal, Navin Ram == Законопроект Police (Amendment) Bill принят без поправок в Национальном собрании
 LLM usage this run: 2 requests, 4390 tokens
 ### check 3/5 at 08:35
+### check 4/5 at 08:39
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Akshaye Boodhun, 18 лет, признаёт себя создателем группы WhatsApp «Burning Paradise» и временно обвинён по статье 8 POTA. Он утверждает, что не имел н)
+  proofread: Akshaye Boodhun → Акшай Будхун; "Burning Paradise" → "Burning Paradise"; CCID → CCID; Roche-Noire → Рош-Нуар
+Posted (Defimedia): Предварительно обвинённый по закону о борьбе с терроризмом: Akshaye Boodhun, 18-летний ученик колледжа, признаёт, что создал группу «Burning Paradise» в WhatsApp
+  dup check: new (В статье впервые раскрывается, что арестованный 12 октября «барон наркобизнеса» — это мужчина 47 лет из Бамбуса; его задержание связано с расследовани)
+  proofread: «наркобарон» → «барон наркоторговли»; Quadragénaire (фр.) → сорокалетний
+Posted (Defimedia): Беспорядки 12 октября: предполагаемый «наркобарон» из Bambous
+  dup check: new (В статье указано, что полицейский Bhavish Nazeer (Yan) уже отстранён от должности и находится под следствием по нескольким делам о краже. Также назван)
+Posted (Defimedia): Торговля наркотиками в Résidences Kennedy: отстранённый от службы полицейский задержан с 691 г каннабиса
+  dup check: new (В статье упоминается жительница по имени Anastasia, которая заявляет об исчерпании своих запасов воды и призывает власти к действиям. Это новая конкре)
+Posted (Top FM): Кризис с водой: в Vacoas, Curepipe и Floréal жители на пределе из-за затянувшейся ситуации
+LLM usage this run: 12 requests, 22860 tokens
