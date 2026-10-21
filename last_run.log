@@ -1,24 +1,14 @@
-### check 1/5 at 09:37
+### check 1/5 at 10:10
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье сообщается, что 21 октября состоится решающая встреча между Mauritius Examinations Syndicate (MES) и Cambridge для обсуждения вариантов решен)
-Posted (Defimedia): Отменённые экзамены SC-HSC: решающая встреча MES и Cambridge в эту среду
-  not about Mauritius: Climat: le monde sur une trajectoire de réchauffement de 2,6°C d'ici 2100
-Skipped foreign news (Defimedia): Climat: le monde sur une trajectoire de réchauffement de 2,6°C d'ici 2100
-  same headline as #111: Affaire Élodie Thomas : « We are playing with fire », lance Bérenger à Ramgoolam
-Skipped duplicate (L'Express): Ambiance : «We are playing with fire» == Дело Элои Thomas: «Мы играем с огнём», — бросает Bérenger Ramgoolam
-  dup check: new (В статье сообщается, что Statistics Mauritius опубликует 21 октября индекс цен на строительство за третий квартал 2026 года. Это конкретная дата публи)
-Posted (Inside News): Строительство на Маврикии: продолжают ли расти затраты?
-LLM usage this run: 7 requests, 13505 tokens
-### check 2/5 at 09:41
-### check 3/5 at 09:45
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (В статье указано, что Akshaye Boodhun признал создание группы WhatsApp «Burning Paradise» после допроса в присутствии адвоката. Также уточняется его в)
-Skipped duplicate (Wazaa): Jeune de 18 ans avoue avoir créé le groupe WhatsApp « Burning Paradise » après les trouble == Предварительно обвинённый по закону о борьбе с терроризмом: Akshaye Boodhun, 18-летний уче
-  dup check: new (Премьер-министр Навин Рамгулам сообщил в парламенте, что тесты на алкоголь и наркотики сержанта Gautam Singh Taukoor дали отрицательный результат. Так)
-  proofread: Navin Ramgoolam → Навин Рамгулам; Élodie Thomas → Элои Томас; SMF → SMF
-Posted (Top FM): Стрельба в Camp-Levieux: тесты на алкоголь и наркотики у сержанта отрицательные, заявил Navin Ramgoolam
-LLM usage this run: 4 requests, 8678 tokens
-### check 4/5 at 09:49
-### check 5/5 at 09:53
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Школьный календарь 2027: начало занятий для 1 и 7 классов предложено на 11 января
+  dup check: new (Указано, что Mauritius Revenue Authority уже обработала 78 215 заявлений на возврат налога и выплатила в общей сложности Rs 826 9 миллионов (Rs 826 87)
+Posted (Inside News): Налоги: MRA уже вернула налогоплательщикам 826,9 млн рупий
+  dup check: new (Министр Ашок Суброн признал разрыв между данными National Empowerment Foundation и реальной многомерной бедностью, а также сообщил об отсутствии стати)
+  proofread: Ashok Subron → Ашок Суброн; National Empowerment Foundation → Национальный фонд расширения возможностей; Statistics Mauritius → Статистическое управление Маврикия
+Posted (L'Express): Бедность: затронуты 130 000 маврикийцев
+  dup check: new (Статья сообщает о массовых беспорядках в Италии (Милан, Турин, Болонья) 17–18 октября 2026 года: столкновения с полицией, вандализм и поджоги мобильны)
+  not about Mauritius: Italie : Milan touchée par les pillages, affrontements à Turin et Bologne
+Skipped foreign news (Inside News): Italie : Milan touchée par les pillages, affrontements à Turin et Bologne
+LLM usage this run: 10 requests, 20289 tokens
