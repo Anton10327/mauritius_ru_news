@@ -14,3 +14,12 @@ LLM usage this run: 3 requests, 6040 tokens
   proofread: Виджей Бундун → Vijay Bundhun; Anil Bachoo → Anil Bachoo; Federation of Public Sector and Other Unions → Federation of Public Sector and Other Unions; Sri Kauvery Medical Care (India) Limited → Sri Kauvery Medical Care (India) Limited
 Posted (Top FM): Набор индийских медсестёр: Vijay Bundhun осуждает провал местного планирования
 LLM usage this run: 3 requests, 5823 tokens
+### check 4/5 at 12:04
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (L'Express): Tragédie familiale : Jushveer Bhomul pleure son jumeau Sunveer == Poudre-d’Or: трагическая гибель для Sunveer Bhomul, 21 года
+  dup check: new (Le gouvernement a annoncé le 14 octobre la mise en place de neuf nouveaux forages qui fourniront 30 000 m³ d’eau supplémentaires dans la zone alimenté)
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): Кризис воды: обещано дополнительно 30 000 кубометров до конца октября, но будет ли выдержан график?
+LLM usage this run: 4 requests, 8684 tokens
