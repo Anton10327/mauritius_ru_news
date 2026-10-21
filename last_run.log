@@ -12,3 +12,19 @@ Posted (Le Mauricien): Национальное собрание — Главн�
   proofread: edit rejected (changed numbers, names or length)
 Posted (Le Mauricien): Национальное собрание — Инциденты в Camp-Levieux от 9 октября: столкновение Bérenger и Ramgoolam из-за подоплёки дела Élodie Thomas
 LLM usage this run: 10 requests, 18802 tokens
+### check 2/5 at 11:13
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Статья сообщает о проведении форума FIFAfrica26 на Маврикии с 28 сентября по 1 октября, где обсуждались цифровые права и свобода интернета. Это новое )
+  proofread: 
+Posted (Le Mauricien): FIFAfrica26: на Маврикии обсудили цифровые права и свободу в интернете
+  dup check: new (В статье указано, что по программе Water Tank and Pump Scheme поступило 29 508 заявок и выдано 525 купонов. Это новые цифры по количеству заявок и рас)
+  proofread: Curepipe → Кюрипип; Vacoas → Вакоас; Phoenix → Финикс; Simla Ramjuttun → Симла Рамджуттун; Sabir → Сабир
+Posted (Defimedia): Водный кризис: вода есть в расписании, но не в кране
+  dup check: new (В статье впервые упоминается имя арестованного наркобарона — S. H., 47 лет, и место его ареста (Résidence La Ferme). Это конкретная личность и детали )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Напряжённость по всему острову: наркобарон S.H. — первая крупная фигура, задержанная в борьбе с преступными сетями
+  dup check: new (Премьер-министр Маврикия Navin Ramgoolam объявил о создании межминистерского комитета по водному кризису, который будет координировать действия правит)
+  proofread: Navin Ramgoolam → Навин Рамгулам
+Posted (Inside News): Водный кризис: Ramgoolam возглавит чрезвычайный комитет, жители ждут результатов
+LLM usage this run: 12 requests, 23779 tokens
