@@ -11,3 +11,11 @@ LLM per-minute limit, waiting 38s
   proofread by qwen/qwen3.8-27b
 Posted (Top FM): Дело Mamy Ravatomanga: адвокат Khushal Lobine оспаривает аргументы FCC и обвиняет Мадагаскар в политическом давлении
 LLM usage this run: 6 requests, 13681 tokens
+### check 2/5 at 14:31
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (UK announces deployment of RAF Typhoon fighter jets and an A400M transport aircraft to Saudi Arabia for defensive missions against Houthi missiles and)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Arabie saoudite : Londres engage ses avions Typhoon face à la menace des missiles et drones houthis
+Skipped foreign news (Inside News): Arabie saoudite : Londres engage ses avions Typhoon face à la menace des missiles et drones houthis
+LLM usage this run: 2 requests, 5284 tokens
