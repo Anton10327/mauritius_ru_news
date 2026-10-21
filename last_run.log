@@ -1,25 +1,15 @@
-### check 1/5 at 12:29
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Un garçon de neuf ans a été hospitalisé et opéré en urgence des testicules après un coup de pied reçu dans une salle d’examen le 20 octobre. Il s’agit)
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Предполагаемое нападение в экзаменационном классе: девятилетнего ученика прооперировали в экстренном порядке
-  dup: nothing new ()
-Skipped duplicate (Inside News): Textile : des livraisons retardées, les entreprises mauriciennes tentent de rattraper le t == Постконфликтная ситуация — текстиль: неделя перебоев, задержки поставок
-  dup check: new (В статье указано, что подозреваемый – дядя ребёнка, возраст 27 лет, и что полиция активно его разыскивает. Ранее в публикациях (126, 131) сообщалось л)
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Подозреваемые в сексуальных домогательствах к шестилетней девочке: полиция разыскивает её дядю, семья требует справедливости
-  dup check: new (Le ministre de l’Agro‑industrie, Dr Arvin Boolell, a annoncé le renforcement du cadre légal sur l’utilisation des pesticides à Maurice ainsi que la mi)
-  proofread by qwen/qwen3.8-27b
-  proofread: Арвин Булелл → Arvin Boolell
-Posted (Top FM): Использование пестицидов: Arvin Boolell объявляет об усилении правовой базы и системе QR-кодов
-LLM usage this run: 10 requests, 19514 tokens
-### check 2/5 at 12:33
-### check 3/5 at 12:37
-### check 4/5 at 12:41
+### check 1/5 at 13:10
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
   dup: nothing new ()
-Skipped duplicate (Inside News): Droits humains : quatre institutions mobilisées pour mieux informer les Mauriciens == 40-летие Африканской хартии: два мероприятия запланированы на 21 и 23 октября
-LLM usage this run: 1 requests, 2279 tokens
-### check 5/5 at 12:45
+Skipped duplicate (Le Mauricien): Communiqué de la police : L’ex-PM Jugnauth confronté à des documents portant sa signature == Оборудование для прослушки: полиция утверждает, что предъявила Pravind Jugnauth документы 
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): За девять месяцев авторынок сократил продажи до 23 641 автомобиля
+  dup check: new (Le suspect dans l’affaire de la vidéo a été appréhendé le mercredi 21 octobre à Grand‑Baie, ce qui constitue une arrestation qui n’était pas mentionné)
+  proofread by qwen/qwen3.8-27b
+  proofread: Гранд-Бе → Grand-Baie
+Posted (L'Express): Видео с участием 6-летней девочки: подозреваемый задержан в Grand-Baie
+  dup check: new (Manifestations en Indonésie le 20 octobre 2026 à Jakarta, Bandung et Yogyakarta pour le deuxième anniversaire du président Prabowo Subianto, avec plus)
+  not about Mauritius: Indonésie : manifestations contre le gouvernement, plus de 9 000 policiers mobilisés à Jakarta
+Skipped foreign news (Inside News): Indonésie : manifestations contre le gouvernement, plus de 9 000 policiers mobilisés à Jakarta
+LLM usage this run: 8 requests, 15833 tokens
