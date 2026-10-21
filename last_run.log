@@ -1,13 +1,17 @@
-### check 1/5 at 19:03
+### check 1/5 at 19:40
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Указано экономическое ущерб от волнений — около Rs 490 млн для частного сектора, чего ранее в публикациях не сообщалось.)
-LLM per-minute limit, waiting 30s
+  dup check: new (UN agencies call for urgent coordinated pre‑emptive action against the unprecedented El Niño event, warning it could literally exceed current monitori)
   written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Освещение: Цена социального мира
-LLM usage this run: 3 requests, 6147 tokens
-### check 2/5 at 19:07
-### check 3/5 at 19:11
-### check 4/5 at 19:15
-### check 5/5 at 19:19
+  not about Mauritius: El Niño pourrait "dépasser littéralement les échelles de suivi" actuelles, selon l'ONU
+Skipped foreign news (Defimedia): El Niño pourrait "dépasser littéralement les échelles de suivi" actuelles, selon l'ONU
+  dup check: new (South Africa announced a reduction of fuel taxes (3 rand per litre of diesel and 1.5 rand per litre of gasoline) to mitigate record pump prices caused)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: L'Afrique du Sud allège les taxes sur les carburants face à la flambée des prix
+Skipped foreign news (Defimedia): L'Afrique du Sud allège les taxes sur les carburants face à la flambée des prix
+  dup: nothing new ()
+Skipped duplicate (Inside News): Couvre-feu à Maurice : le Parlement adopte de nouveaux pouvoirs pour la police == Законопроект Police (Amendment) Bill принят без поправок в Национальном собрании
+  dup: nothing new ()
+Skipped duplicate (L'Express): Crise de l’eau | Triolet : les planteurs à bout face au manque d’eau == Водохранилище La Nicolière заполнено на 39,4%: фермеры обеспокоены за свои урожаи
+LLM usage this run: 6 requests, 15597 tokens
