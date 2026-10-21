@@ -59,3 +59,19 @@ Skipped duplicate (Inside News): Émeutes : plus de 100 faux profils et 22 pages
   proofread: Франко Кирин → Franco Quirin
 Posted (Le Mauricien): Franco Quirin, депутат от оппозиции: «Не все жители пострадавшего района — подозреваемые»
 LLM usage this run: 4 requests, 8497 tokens
+### check 5/5 at 11:25
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Observation on 21 october of a man watering a median on the bypass extension in Flic‑en‑Flac, raising questions about whether the water is potable and)
+  proofread by qwen/qwen3.8-27b
+  proofread: Флик-ан-Флаке → Flic-en-Flac; авеню Kestrel → авеню Kestrel; Cascavelle → Cascavelle; Central Water Authority → Central Water Authority
+Posted (Le Mauricien): Сухая погода в Flic-en-Flac — вода для полива насыпи: питьевая или нет и откуда она берётся?
+  dup check: new (Déclaration du ministre des Affaires étrangères, Ritish Ramful, devant l'Assemblée nationale, suite à l'intervention de la députée de Rodrigues, Roxan)
+  proofread by qwen/qwen3.8-27b
+  proofread: депутат от Rodrigues Роксаны Колле → депутат от Rodrigues Roxana Collet; Глава МИД Ритиш Рамфул → Глава МИД Ritish Ramful; ПРООН → Программа развития ООН; МОМ → Международная организация по миграции
+Posted (Top FM): Маврикий и международные организации: выгоды, но и вызовы, которые предстоит преодолеть
+  dup: nothing new ()
+Skipped duplicate (Top FM): Résidus de pesticides à Maurice : des résultats alarmants, les planteurs réclament formati == Остатки пестицидов: превышения до 317 раз допустимого предела в овощах
+  dup: nothing new ()
+Skipped duplicate (Top FM): Drogue, pauvreté et vie chère : les Mauriciens réclament des actions urgentes == Напряжённость по всему острову: наркобарон S.H. — первая крупная фигура, задержанная в бор
+LLM usage this run: 8 requests, 17730 tokens
