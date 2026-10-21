@@ -1,34 +1,9 @@
-### check 1/5 at 18:21
+### check 1/5 at 19:03
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Les bureaux de la Sécurité sociale seront exceptionnellement ouverts durant trois week-ends en octobre et novembre 2026 pour aider les futurs bénéfici)
+  dup check: new (Указано экономическое ущерб от волнений — около Rs 490 млн для частного сектора, чего ранее в публикациях не сообщалось.)
+LLM per-minute limit, waiting 30s
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (L'Express): Заявки на «State Age Pension»: офисы Службы социального обеспечения будут открыты три выходных
-  dup: nothing new ()
-Skipped duplicate (Defimedia): SAP : ouverture exceptionnelle des bureaux de la Sécurité sociale durant trois week-ends == Заявки на «State Age Pension»: офисы Службы социального обеспечения будут открыты три выхо
-  dup check: new (Подписан усиленный экономический договор между ЕС и Маврикием (а также Коморскими островами, Мадагаскаром и Сейшельскими островами) 10 июня 2026 года )
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): Маврикий и Евросоюз: соглашение на 9,7 миллиарда евро открывает новые перспективы для предприятий
-  dup: nothing new ()
-Skipped duplicate (Top FM): Abus sexuels présumés sur une fillette de six ans : la protection de la victime au cœur de == Сексуальное насилие над шестилетней девочкой: «Непростительно», — отреагировала Deputy Pri
-LLM usage this run: 8 requests, 17176 tokens
-### check 2/5 at 18:25
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Le syndicat Casino Employees Union (CEU) a présenté le 21 octobre 2026 trois propositions pour protéger les ~600 employés des Casinos de Maurice dans )
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Top FM): В случае приватизации Casinos de Maurice: CEU выдвигает 3 предложения для защиты сотрудников
-LLM usage this run: 3 requests, 6070 tokens
-### check 3/5 at 18:29
-### check 4/5 at 18:33
-### check 5/5 at 18:37
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Возобновление передачи «Nou Lar Nou Lamizik» после недели перерыва; интервью с ро-дригуйским артистом Jeckel Collet (слэмер, актёр, певец); представле)
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): «Nou Lar Nou Lamizik» : «Leritaz Collet» avec Jeckel
-Skipped foreign news (L'Express): «Nou Lar Nou Lamizik» : «Leritaz Collet» avec Jeckel
-LLM usage this run: 2 requests, 4672 tokens
+Posted (L'Express): Освещение: Цена социального мира
+LLM usage this run: 3 requests, 6147 tokens
