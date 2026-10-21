@@ -33,3 +33,21 @@ Posted (Defimedia): Шестилетняя девочка стала жертв�
   dup: nothing new ()
 Skipped duplicate (Wazaa): Immatriculations de véhicules à l’Île Maurice chutent de 25,4 % malgré une reprise tardive == За девять месяцев авторынок сократил продажи до 23 641 автомобиля
 LLM usage this run: 8 requests, 16328 tokens
+### check 3/5 at 17:15
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Seizure of Rs 1,245,050 by Police des Jeux on 20 oct 2026 at the home of a 69‑year‑old man in Port‑Louis; items seized include notes with football mat)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Предполагаемые нелегальные ставки: у 69-летнего мужчины изъяли 1,24 млн рупий
+  written by qwen/qwen3.8-27b
+Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
+Posted (L'Express): Дорожная безопасность: новые лежачие полицейские запланированы в 11-м избирательном округе
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Non-respect du couvre-feu : l’un des prévenus déjà condamné pour la même infraction durant == Комендантский час: двенадцать обвиняемых принесли извинения и попросили о снисхождении, пр
+  dup check: new (Tourism professionals report no widespread cancellations after recent social unrest but warn of potential impacts on bookings and the image of Mauriti)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+Posted (L'Express): После социальных волнений: туристический сектор настороже
+LLM usage this run: 8 requests, 17644 tokens
