@@ -1,29 +1,13 @@
-### check 1/5 at 15:04
+### check 1/5 at 15:38
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (L'Express): Chagos : Londres veut un accord acceptable pour l’île Maurice, les États-Unis et le Royaum == Diego Garcia: Лондон хочет соглашение «приемлемое для всех нас, включая президента Трампа»
-LLM usage this run: 1 requests, 2379 tokens
-### check 2/5 at 15:08
-### check 3/5 at 15:12
-### check 4/5 at 15:16
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Pravind Jugnauth a déclaré « Zot pa pe fer bann zafer kouma bizin dapre lalwa », une citation qui n’apparaît pas dans les précédents articles.)
+  dup check: new (Tourism sector in France worries about impact of October 17 violence on upcoming weeks; quotes from an Indian business traveler and Christelle Chassag)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Après les violences en France, le secteur touristique s'interroge pour les semaines à venir
+Skipped foreign news (Defimedia): Après les violences en France, le secteur touristique s'interroge pour les semaines à venir
+  dup check: new (Angelo Thomas, former kickboxing champion, remains missing ahead of his trial and is reportedly in Madagascar; a warrant has been issued and the proce)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  proofread: Misie Moustas → Misie Moustas Leaks; «политической манипуляции» → «политической манипуляции»
-Posted (Le Mauricien): Утечка Misie Moustas Leaks: судьба экс-премьера MSM зависит от решения генпрокурора
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Mauricien du 20 octobre 2026 == Утечка Misie Moustas Leaks: судьба экс-премьера MSM зависит от решения генпрокурора
-  dup check: new (Заявление министра труда Реза Утиме о недавних беспорядках, его оценка ситуации и призыв к солидарности; упоминание роли министра труда, которого ране)
-LLM per-minute limit, waiting 30s
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
-  written by openai/gpt-oss-120b
-Posted (Le Mauricien): Reza Uteem, министр труда: «Мы будем стоять едиными»
-  dup check: new (48 civilians killed in attacks in Menaka region, Mali; attacks attributed to ISIS affiliates; reported by Reuters on 20 Oct; reprisals against civilia)
-  written by openai/gpt-oss-120b
-  not about Mauritius: Mali : 48 civils tués à Ménaka, la population prise au piège des groupes armés
-Skipped foreign news (Inside News): Mali : 48 civils tués à Ménaka, la population prise au piège des groupes armés
-LLM usage this run: 8 requests, 20480 tokens
-### check 5/5 at 15:20
+  proofread: Мадагаскаре → Мадагаскаре; Diego-Suarez → Диего-Суарес
+Posted (L'Express): Бывший чемпион по кикбоксингу Angelo Thomas: не найден перед судом, предположительно находится на Мадагаскаре
+LLM usage this run: 5 requests, 11851 tokens
