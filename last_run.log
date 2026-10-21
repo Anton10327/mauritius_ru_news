@@ -24,3 +24,5 @@ Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (c
   not about Mauritius: Soudan : plus de 250 morts en quelques jours, les drones sèment la terreur jusque dans les marchés
 Skipped foreign news (Inside News): Soudan : plus de 250 morts en quelques jours, les drones sèment la terreur jusque dans les marchés
 LLM usage this run: 2 requests, 5169 tokens
+### check 3/5 at 19:48
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
