@@ -1,32 +1,18 @@
-### check 1/5 at 19:40
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+### check 1/5 at 20:18
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (UN agencies call for urgent coordinated pre‑emptive action against the unprecedented El Niño event, warning it could literally exceed current monitori)
-  written by qwen/qwen3.8-27b
-  not about Mauritius: El Niño pourrait "dépasser littéralement les échelles de suivi" actuelles, selon l'ONU
-Skipped foreign news (Defimedia): El Niño pourrait "dépasser littéralement les échelles de suivi" actuelles, selon l'ONU
-  dup check: new (South Africa announced a reduction of fuel taxes (3 rand per litre of diesel and 1.5 rand per litre of gasoline) to mitigate record pump prices caused)
-  written by qwen/qwen3.8-27b
-  not about Mauritius: L'Afrique du Sud allège les taxes sur les carburants face à la flambée des prix
-Skipped foreign news (Defimedia): L'Afrique du Sud allège les taxes sur les carburants face à la flambée des prix
   dup: nothing new ()
-Skipped duplicate (Inside News): Couvre-feu à Maurice : le Parlement adopte de nouveaux pouvoirs pour la police == Законопроект Police (Amendment) Bill принят без поправок в Национальном собрании
-  dup: nothing new ()
-Skipped duplicate (L'Express): Crise de l’eau | Triolet : les planteurs à bout face au manque d’eau == Водохранилище La Nicolière заполнено на 39,4%: фермеры обеспокоены за свои урожаи
-LLM usage this run: 6 requests, 15597 tokens
-### check 2/5 at 19:44
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:425: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Plus de 250 morts en quelques jours à cause de frappes de drones au Soudan, dont au moins 153 victimes dans un seul marché; extension des attaques à l)
+Skipped duplicate (Le Mauricien): Police Amendment Bill – Joe Lesjongard, député de l’opposition : « Une peine plus sévère n == Franco Quirin, депутат от оппозиции: «Не все жители пострадавшего района — подозреваемые»
+  dup check: new (5‑летний юбилей работы отделения паллиативной помощи в клинике Ferrière de Bon Secours; единственное в Маврикии отделение паллиативной помощи в клиник)
   written by qwen/qwen3.8-27b
-  not about Mauritius: Soudan : plus de 250 morts en quelques jours, les drones sèment la terreur jusque dans les marchés
-Skipped foreign news (Inside News): Soudan : plus de 250 morts en quelques jours, les drones sèment la terreur jusque dans les marchés
-LLM usage this run: 2 requests, 5169 tokens
-### check 3/5 at 19:48
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 4/5 at 19:52
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 5/5 at 19:56
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  not news (portrait/lifestyle): CLINIQUE FERRIÈRE DE BON SECOURS – 5 ans d’accompagnement : Des témoignages axés sur le soulagement 
+Skipped foreign news (Le Mauricien): CLINIQUE FERRIÈRE DE BON SECOURS – 5 ans d’accompagnement : Des témoignages axés sur le soulagement 
+  dup check: new (Alexandre Mayer became African elite men's individual time trial champion for the first time; Aurélie Halbwachs‑Lincoln retained her vice‑championship)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Двойной триумф Африки: Маврикий на вершине континентального велоспорта
+  dup check: new (Anya Mooroogen, 12‑year‑old student of Tamil origin, won the national "Chinese Bridge" competition in May and performed in China; her background, age,)
+  written by qwen/qwen3.8-27b
+  not news (portrait/lifestyle): Du temple tamoul à la scène chinoise :  Anya Mooroogen, 12 ans, passionnée de mandarin
+Skipped foreign news (L'Express): Du temple tamoul à la scène chinoise :  Anya Mooroogen, 12 ans, passionnée de mandarin
+LLM usage this run: 8 requests, 18402 tokens
