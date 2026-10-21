@@ -1,6 +1,11 @@
-"""Daily GigaChat budgets from the balance (posts nothing)."""
-import os, bot
-os.environ.pop("BOT_TEST", None)  # allow the balance request in this probe
-bot._state_set("giga_balance", {})
-for m in ("GigaChat-3-Ultra", "GigaChat-3-Pro"):
-    print(m, "daily budget:", f"{bot._giga_cap(m):,}", "| days left:", bot._giga_days_left())
+"""Writer + proofreader on the road-safety article (posts nothing)."""
+import bot
+u = "https://lexpress.mu/s/" 
+import json
+seen = json.load(open(bot.STATE_DIR / "seen.json", encoding="utf-8"))
+for uid in reversed(seen[-300:]):
+    if "lexpress" in uid and ("dos-d-ane" in uid or "ralentisseur" in uid or "securite-routiere" in uid):
+        e = bot.page_entry(uid); p = bot.build_post("L'Express", e, uid, [])
+        print(p.get("title")); print(p.get("summary")); break
+else:
+    print("article not found")
