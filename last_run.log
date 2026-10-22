@@ -8,3 +8,9 @@ Skipped duplicate (Top FM): Divali 2026 : la Hindu House appelle à l’unité e
 Posted (Top FM): После нападения двух ротвейлеров: Meera Appadoo требует от полиции и MSAW дойти до заводчиков
 LLM usage this run: 4 requests, 7455 tokens
 ### check 2/5 at 08:19
+### check 3/5 at 08:23
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new (В статье говорится о превышении максимальных пределов остатков пестицидов в некоторых местных овощах по результатам анализов июня 2026 года: из 44 обр)
+Skipped duplicate (Top FM): Résidus de pesticides : des dépassements des limites maximales relevés dans certains légum == Pesticides: в перце обнаружены остатки в концентрации более чем в 317 раз выше допустимого
+LLM usage this run: 1 requests, 2423 tokens
