@@ -16,3 +16,13 @@ Posted (Defimedia): «В центре новостей»: бунты — кто 
   same headline as #115: PSAC 2026 : 16 264 candidats attendus dans les centres d’examen à partir de ce j
 Skipped duplicate (Defimedia): PSAC 2026 : 16 264 candidats attendus dans les centres d’examen dès ce jeudi == PSAC 2026: 16 264 кандидата ждут в экзаменационных центрах с четверга
 LLM usage this run: 9 requests, 17736 tokens
+### check 2/5 at 12:22
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup check: new (Un atelier de validation a été organisé par l’OIM, en collaboration avec le gouvernement, au Caudan Arts Centre, à Port-Louis, afin de renforcer les m)
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Торговля людьми: пострадавшие по-прежнему недостаточно охвачены поддержкой
+  dup: nothing new ()
+Skipped duplicate (Inside News): 2. Agueda s’affaiblit et ne menace pas les Mascareignes == Погода на Маврикии: ожидаются дожди в среду, 21 октября
+LLM usage this run: 4 requests, 8741 tokens
