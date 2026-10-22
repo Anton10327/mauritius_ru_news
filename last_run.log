@@ -1,36 +1,12 @@
-### check 1/5 at 12:18
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Annonce d'une prochaine communication du MES prévue jeudi pour clarifier la situation des examens annulés du SC et HSC.)
-  proofread by qwen/qwen3.8-27b
-  proofread: Министерства образования → MES; и Mauritius Examinations Syndicate → и MES
-Posted (Defimedia): SC и HSC — экзамены отменены: ожидается заявление MES
-  dup check: new (Vice‑president Robert Hungley a prononcé un discours mettant la responsabilité sociale, le respect des travailleurs et la protection de l’environnemen)
-  proofread by qwen/qwen3.8-27b
-  proofread: Роберт Хангли → Robert Hungley; Росин Нгорима → Rosheen Ngorima
-Posted (Defimedia): Robert Hungley: «Экономический рост должен уважать работников»
-Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Dr Farhad Aumeer, député du Parti travailliste, sera invité à l’émission « Au Cœur de l’Info » le jeudi 22 octobre après‑midi.)
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): «В центре новостей»: бунты — кто виноват и как исправить?
-  same headline as #115: PSAC 2026 : 16 264 candidats attendus dans les centres d’examen à partir de ce j
-Skipped duplicate (Defimedia): PSAC 2026 : 16 264 candidats attendus dans les centres d’examen dès ce jeudi == PSAC 2026: 16 264 кандидата ждут в экзаменационных центрах с четверга
-LLM usage this run: 9 requests, 17736 tokens
-### check 2/5 at 12:22
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Un atelier de validation a été organisé par l’OIM, en collaboration avec le gouvernement, au Caudan Arts Centre, à Port-Louis, afin de renforcer les m)
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Торговля людьми: пострадавшие по-прежнему недостаточно охвачены поддержкой
-  dup: nothing new ()
-Skipped duplicate (Inside News): 2. Agueda s’affaiblit et ne menace pas les Mascareignes == Погода на Маврикии: ожидаются дожди в среду, 21 октября
-LLM usage this run: 4 requests, 8741 tokens
-### check 3/5 at 12:26
-### check 4/5 at 12:30
-### check 5/5 at 12:34
+### check 1/5 at 13:01
+  same headline as #152: Baie-du-Tombeau : une adolescente de 17 ans retrouvée morte dans une maison aban
+Skipped duplicate (Defimedia): Ado de 17 ans retrouvée morte dans une maison abandonnée à Baie-du-Tombeau : le rapport d’ == Baie-du-Tombeau: 17-летнюю девушку нашли мёртвой в заброшенном доме
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
   dup: nothing new ()
-Skipped duplicate (Inside News): Crise de l’eau : 28 306 demandes d’aide, mais combien de familles réellement servies ? == Программа по водонакопительным бакам может быть расширена на семьи, у которых уже есть рез
-LLM usage this run: 1 requests, 2396 tokens
+Skipped duplicate (Inside News): Émeutes : qui est le « baron de la drogue » évoqué par le Premier ministre ? == PNQ о беспорядках: «Арестован наркобарон», — утверждает Ramgoolam
+  not about Mauritius: Podcast Episode 3: Nursery & Pre-Primary Education – Dukesbridge
+Skipped foreign news (Defimedia): Podcast Episode 3: Nursery & Pre-Primary Education – Dukesbridge
+  not about Mauritius: Échos de l’Éducation – Episode 1 Dukesbridge: Rishi & Shannon
+Skipped foreign news (Defimedia): Échos de l’Éducation – Episode 1 Dukesbridge: Rishi & Shannon
+LLM usage this run: 3 requests, 6392 tokens
