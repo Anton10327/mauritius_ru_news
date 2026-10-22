@@ -1,34 +1,64 @@
-models: ['GigaChat-2', 'GigaChat-2-Max', 'GigaChat-2-Pro', 'GigaChat-3-Lightning', 'GigaChat-3-Pro', 'GigaChat-3-Ultra', 'Embeddings', 'Embeddings-2', 'EmbeddingsGigaR', 'GigaEmbeddings-3B-2025-09']
-  dup check: new (Chetan Baboolall намерен задать премьер-министру Navin Ramgoolam Private Notice Question о недавних беспорядках, водном кризисе и мерах властей; указа)
-  dup check: new (Евросоюз намерен поддержать Маврикий в управлении водными ресурсами, возобновляемой энергетике и прибрежной устойчивости через гранты и обмен техничес)
-  dup check: new (Deven Anacootee был вызван в Cybercrime Unit CCID 20 октября для допроса по делу о публикациях в соцсетях во время беспорядков; его вызов перенесли с )
-  dup: nothing new (Deven Anacootee заявил прессе после допроса в CCID, что против него не выдвинуто обвинений и он не знаком со страницей Facebook Pima Info.)
-  dup: nothing new (Deven Anacootee заявил, что не знает страницу Facebook Pima Info.)
-  dup check: new (В статье перечислены новые имена обвиняемых в участии в беспорядках (Jérôme Роже Agathe, Dhiyven Lofur, Джорджефферсон Ип Kiun Chong, Néhémie Люк Жан )
-  dup: nothing new (Заявление адвоката Soodesh Callichurn о том, что его клиент Deven Anacootee не считает себя причастным к заявлениям Bruneau Laurette и чувствует себя )
-  dup check: new (Премьер-министр Маврикия Navin Ramgoolam заявил в парламенте 20 октября, что арестован наркобарон (без раскрытия личности); также сообщил о задержании)
-  dup check: new (Премьер-министр Navin Ramgoolam отверг обвинения в использовании израильского оборудования для перехвата сообщений WhatsApp как «выдумку» и поинтересо)
-  dup check: new (IPCC инициировала два расследования по жалобам Элоид Томас и водителя Soobrayen Tirvassen; запросила записи Safe City, изъяла документы в участке и с )
-  dup check: new (В новой статье сообщается о двух арестах в Flic-en-Flac за угрозы и ношение опасного оружия, а также об эвакуации автомобиля без страховки. Это новые )
-  dup check: new (Премьер-министр Navin Ramgoolam заявил о «некоторой координации» за беспорядками и поддержал законность комендантского часа, а также сообщил, что огра)
-  dup check: new (Комиссия по финансовым преступлениям (FCC) с ноября 2024 года инициировала 1 849 расследований, из которых 1 029 завершены; передано генпрокурору 103 )
-  dup check: new (Расследование предполагаемого вымогательства взятки в 350 млн рупий с участием бывшего советника Jean Karl Elysée, начатое FCC 11 сентября 2026 года п)
-GigaChat-3-Pro: flags 3 of 177; 14 calls, 15168 tokens
-GigaChat-3-Lightning: flags 0 of 177; 0 calls, 0 tokens
-GigaChat-2: flags 0 of 177; 0 calls, 0 tokens
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
 
-#### GigaChat-3-Lightning vs Pro
-#20 Pro=DUP GigaChat-3-Lightning=new: Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
-      ~ Расследование CCID: Deven Anacootee вызван в подразделение по киберпреступности
-#22 Pro=DUP GigaChat-3-Lightning=new: Deven Anacootee: «Я не знаю страницу Pima Info»
-      ~ Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
-#25 Pro=DUP GigaChat-3-Lightning=new: Адвокат Callichurn: «Deven Anacootee не считает себя причастным к заявлениям Bruneau Лоре»
-      ~ Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
+The above exception was the direct cause of the following exception:
 
-#### GigaChat-2 vs Pro
-#20 Pro=DUP GigaChat-2=new: Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
-      ~ Расследование CCID: Deven Anacootee вызван в подразделение по киберпреступности
-#22 Pro=DUP GigaChat-2=new: Deven Anacootee: «Я не знаю страницу Pima Info»
-      ~ Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
-#25 Pro=DUP GigaChat-2=new: Адвокат Callichurn: «Deven Anacootee не считает себя причастным к заявлениям Bruneau Лоре»
-      ~ Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connection.py", line 248, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<HTTPSConnection(host='api.giga.chat', port=443) at 0x7fba6690f1a0>, 'Connection to api.giga.chat timed out. (connect timeout=30)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/urllib3/util/retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/models (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7fba6690f1a0>, 'Connection to api.giga.chat timed out. (connect timeout=30)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mauritius_ru_news/mauritius_ru_news/probe.py", line 4, in <module>
+    r = requests.get("https://api.giga.chat/v1/models", headers={"Authorization": f"Bearer {tok}"},
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.15/x64/lib/python3.12/site-packages/requests/adapters.py", line 717, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/models (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7fba6690f1a0>, 'Connection to api.giga.chat timed out. (connect timeout=30)'))
