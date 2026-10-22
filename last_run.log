@@ -31,3 +31,10 @@ Skipped duplicate (L'Express): La paix n’est pas un argument partisan == Де�
 Skipped foreign news (Le Mauricien): Charte africaine des droits de l’homme et des peuples — 40e anniversaire : Le VP Hungley dénonce la 
 LLM usage this run: 8 requests, 15714 tokens
 ### check 3/5 at 09:34
+### check 4/5 at 09:38
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье сообщается о локальных дождях, ожидаемых в этот четверг 22 октября на западе, юго-западе и центральном плато Маврикия. Это новый прогноз пого)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Погода: сегодня днём ожидаются локальные ливни
+LLM usage this run: 3 requests, 6166 tokens
