@@ -32,3 +32,16 @@ Posted (Defimedia): Ваши деньги: сколько вам стоит ро
   proofread by qwen/qwen3.8-27b
 Posted (L'Express): «Wetlands Bill»: законопроект отозван, несмотря на возможность поправок
 LLM usage this run: 11 requests, 22894 tokens
+### check 3/5 at 14:25
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup check: new (Festival Nou Leritaz opened on 21 October 2026 at the Institut français de Maurice with the presence of President Dharam Gokhool, marking the second e)
+  proofread by qwen/qwen3.8-27b
+  proofread: вторую редакция → вторую редакцию
+Posted (L'Express): Festival Nou Leritaz: маврикийское наследие в центре передачи
+  dup check: new (40ᵉ anniversaire de l’entrée en vigueur de la Charte africaine des droits de l’homme, commémoré à la Middlesex University, Flic-en-Flac, avec une tabl)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Protection des droits fondamentaux : un enjeu majeur, selon Satyajit Boolell
+Skipped foreign news (Top FM): Protection des droits fondamentaux : un enjeu majeur, selon Satyajit Boolell
+LLM usage this run: 5 requests, 11613 tokens
