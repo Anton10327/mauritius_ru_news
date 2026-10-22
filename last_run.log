@@ -1,39 +1,14 @@
-### check 1/5 at 07:02
+### check 1/5 at 07:37
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье Sydney Pierre впервые публично объясняет причины своей отставки из Лейбористской партии и правительства, заявляя о расхождении своих убеждени)
-  proofread: «Au Cœur de l’Info» → "В центре новостей"; "Mes convictions ne correspondent plus à la ligne du PTr" → "Мои убеждения больше не соответствуют линии Лейбористской партии"
-Posted (Defimedia): В центре новостей: Sydney Pierre — «Мои убеждения больше не соответствуют линии Лейбористской партии»
-  dup check: new (В статье говорится о мобилизации полиции и местных жителей для поиска мужчины, подозреваемого в сексуальном насилии над своей племянницей. Указаны кон)
-  proofread: 
-Posted (Defimedia): Полицейская и гражданская мобилизация для поиска мужчины, подозреваемого в сексуальных домогательствах к племяннице
-  dup check: new (В статье упоминается, что Eco-Sud требует объяснений по мерам после анализа образцов перца. В ранее опубликованных статьях такого требования от этой о)
-  proofread: Triolet → Триоле
-Posted (Defimedia): Pesticides: в перце обнаружены остатки в концентрации более чем в 317 раз выше допустимого предела
-  not news (portrait/lifestyle): PSAC : entre pression et confiance, les parents veulent surtout rassurer
-Skipped foreign news (L'Express): PSAC : entre pression et confiance, les parents veulent surtout rassurer
-LLM usage this run: 10 requests, 19225 tokens
-### check 2/5 at 07:06
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  not news (portrait/lifestyle): Your headcount is flat. Your bench is not
-Skipped foreign news (L'Express): Your headcount is flat. Your bench is not
-  dup: nothing new (Прогноз погоды на 22 октября: утром переменная облачность с кратковременными дождями на севере, востоке и центральном плато; днём локальные ливни возм)
-Skipped duplicate (Top FM): 🌡Bulletin prévision pour Maurice de ce jeudi 22 octobre 2026 == Погода на Маврикии: ожидаются дожди в среду, 21 октября
-  dup check: new (В статье анонсировано создание Высокоуровневого министерского комитета под председательством премьер-министра, состоящего из девяти министров, для раз)
-  not news (portrait/lifestyle): An eight-pillar strategy for national water security
-Skipped foreign news (L'Express): An eight-pillar strategy for national water security
-LLM usage this run: 4 requests, 8977 tokens
-### check 3/5 at 07:10
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (Премьер-министр Маврикия Navin Ramgoolam объявил о создании межминистерского комитета по водному кризису и назначил первое заседание на 22 октября. В )
-Skipped duplicate (Top FM): Crise de l’eau : Navin Ramgoolam réunit huit ministères ce jeudi pour examiner les solutio == Водный кризис: Ramgoolam возглавит чрезвычайный комитет, жители ждут результатов
-LLM usage this run: 1 requests, 2301 tokens
-### check 4/5 at 07:14
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new (В статье указано, что 21 октября Промежуточный суд признал виновными двенадцать мужчин по делу о нарушении комендантского часа. Прокуратура требует тю)
+Skipped duplicate (Defimedia): Non-respect du couvre-feu : les douze hommes fixés sur leur sort le 27 octobre == Комендантский час: двенадцать обвиняемых принесли извинения и попросили о снисхождении, пр
+  dup check: new (Сержант Gowtamsing Taukoor был повторно допрошен IPCC 21 октября; эта вторая сессия допроса ранее не упоминалась в опубликованных материалах.)
+  proofread: Элоди Тома → Элоди Томас; Gowtamsing Taukoor → Gowtamsing Taukoor
+Posted (Defimedia): Élodie Thomas ранена пулей: как продвигается расследование IPCC?
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): La météo du jeudi 22 octobre 2026 == Погода на Маврикии: ожидаются дожди в среду, 21 октября
-LLM usage this run: 1 requests, 2339 tokens
-### check 5/5 at 07:18
+Skipped duplicate (L'Express): Financial Crimes Commission : 1 029 enquêtes sur 1 849 bouclées depuis novembre 2024 == FCC: 1 849 расследований с ноября 2024 года, получено пять приговоров
+  dup check: new (Депутат Adrien Duval в Национальном собрании потребовал от премьер-министра Navin Ramgoolam предъявить сержанту Gautam Singh Taukoor обвинение в попыт)
+  proofread: Адриен Дюваль → Адриен Дюваль; Готаму Таукуру → Готаму Сингху Таукуру; "Involuntary Wounds and Blows by Imprudence" → "неумышленное причинение вреда по неосторожности"; Directeur des poursuites publiques → генпрокурор (DPP); Independent Police Complaints Commission → комиссия по жалобам на полицию (
+Posted (L'Express): Élodie Thomas: Adrien Duval требует предъявить сержанту Gautam Сингху Taukoor обвинение в покушении на убийство
+LLM usage this run: 8 requests, 17025 tokens
