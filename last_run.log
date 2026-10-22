@@ -14,3 +14,19 @@ Skipped duplicate (Defimedia): Examens de Cambridge : les épreuves annulées le
   dup: nothing new ()
 Skipped duplicate (L'Express): Menace de cyberattaques : plusieurs sites du gouvernement mis hors ligne == CERT-MU предупреждает об опасных уязвимостях в PHP
 LLM usage this run: 6 requests, 13144 tokens
+### check 2/5 at 16:07
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup check: new (Deployment of 30 000‑liter mobile water tanks by the Central Water Authority in the localities of Phoenix, Curepipe, Alma, Quartier‑Militaire and Midl)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Водный кризис: уровень воды в водохранилище Mare-aux-Vacoas может упасть до 20%
+  dup: nothing new ()
+Skipped duplicate (L'Express): Faux compte Facebook : Rakesh Bhuckory dépose une nouvelle plainte au CCID == CCID: глава аппарата канцелярии премьер-министра Rakesh Bhuckory подал жалобу на фальшивый
+  dup check: new (Le délai pour le Water Tank Scheme a été prolongé d’une semaine supplémentaire, soit jusqu’au lendemain (demain).)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Патрик Ассирваден → Patrick Assirvaden; Хаут-Плейнс-Вильгемс → Hautes Plaines Wilhems
+Posted (Le Mauricien): Из-за засухи срок подачи заявок на резервуары для воды продлён
+LLM usage this run: 7 requests, 13905 tokens
