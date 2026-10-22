@@ -1,35 +1,6 @@
-### check 1/5 at 20:11
+### check 1/5 at 20:54
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): ROSE-HILL : Une dispute à l’université dégénère en agression à la station de métro == Rose-Hill: 21-летний студент получил ранение в голову от удара телескопической дубинкой
-Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Shirin Aumeeruddy‑Cziffra will appear as a guest on the radio program «Au Cœur de l’Info» and the Prime Minister has filed a motion to create a Select)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Shirin Aumeeruddy-Cziffra, l'invitée de l’émission «Au Cœur de l’Info», ce vendredi
-Skipped foreign news (Defimedia): Shirin Aumeeruddy-Cziffra, l'invitée de l’émission «Au Cœur de l’Info», ce vendredi
-  dup check: new (Cambridge a tranché : pas de reprise des examens annulés du SC et du HSC, dans le sillage des incidents qui ont secoué le pays la semaine dernière. Le)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: «Мы нашли его, снимающим видео на пляже, он был без обуви» → «Мы нашли его, когда он снимал видео на пляже, он был босиком»; На Маврикии разыскивают подозреваемого в сексуальном насилии над шестилетней племянницей; по сообщениям жителей, он был замечен на пляже Bain-des-Dames и скрылся, сменив внешн
-Posted (Defimedia): «Мы нашли его, когда он снимал видео на пляже, он был босиком»
-  dup check: new (PRO (Pesticides Regulatory Office) has published new data on pesticide usage in fruits and vegetables, indicating that while the molecules used have c)
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): Pesticides sur nos fruits et légumes : À dix ans d’intervalle, les molécules ont changé, pas les abu
-Skipped foreign news (L'Express): Pesticides sur nos fruits et légumes : À dix ans d’intervalle, les molécules ont changé, pas les abu
-LLM usage this run: 8 requests, 19466 tokens
-### check 2/5 at 20:15
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Une stagiaire de 21 ans a signalé des attouchements sexuels sur son lieu de travail, dans un hôtel de Flic-en-Flac, survenus fin de semaine dernière. )
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Flic-en-Flac: стажёрка стала жертвой сексуальных домогательств
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): Рыболовство: 12-недельное обучение для повышения квалификации и безопасности в море
-LLM usage this run: 5 requests, 9315 tokens
-### check 3/5 at 20:19
-### check 4/5 at 20:23
-### check 5/5 at 20:27
+Skipped duplicate (Wazaa): La Banque de Maurice injecte 15 millions de dollars sur le marché des changes == Банк Маврикия продал валюту на сумму $125 млн с января по октябрь
+LLM usage this run: 1 requests, 2446 tokens
