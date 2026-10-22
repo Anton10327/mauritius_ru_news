@@ -1,19 +1,9 @@
-### check 1/5 at 10:02
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:435: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-Duplicate check GigaChat-3-Pro failed 429: {"status":429,"message":"Too Many Requests"}
-
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Enquête urgente de la police après la découverte du corps d’une jeune fille de 17 ans dans == Baie-du-Tombeau: 17-летнюю девушку нашли мёртвой в заброшенном доме
-  dup: nothing new ()
-Skipped duplicate (L'Express): Disparition d’une ressortissante Bangladaise : toujours recherchée depuis avril par la pol == Бангладешская гражданка пропала без вести с 3 апреля: отъезд с Маврикия не зафиксирован
-LLM usage this run: 2 requests, 4789 tokens
-### check 2/5 at 10:06
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:435: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+### check 1/5 at 10:45
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
   dup: nothing new ()
-Skipped duplicate (L'Express): Une fillette de six ans aurait été victime d’abus sexuels répétés par son oncle == Видео с участием 6-летней девочки: подозреваемый задержан в Grand-Baie
-LLM usage this run: 1 requests, 2059 tokens
-### check 3/5 at 10:10
-### check 4/5 at 10:14
-### check 5/5 at 10:18
+Skipped duplicate (L'Express): The AI Play: What is at stake for investors? == Двадцать четыре свидетеля заслушаны, решение по 12 обвиняемым ожидается в среду
+  dup check: new (Статья сообщает о проведении встречи COMESA Green Industries Connect 19 октября в Хараре, где обсуждается развитие экономики замкнутого цикла и создан)
+  proofread: «устойчивое производство» → «устойчивое производство и цепочки создания стоимости»; «сближение бизнеса, инвесторов и властей» → «сближение бизнеса, инвесторов и властей»
+Posted (Inside News): Экономика замкнутого цикла: COMESA хочет превратить отходы в промышленные возможности
+LLM usage this run: 4 requests, 7142 tokens
