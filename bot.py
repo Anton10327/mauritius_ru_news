@@ -56,6 +56,7 @@ RECENT_HOURS = 48                  # remember posts from this period for duplica
 RECENT_MAX = 400
 DUP_LATEST = 5                     # duplicate check sees the latest posts...
 DUP_SIMILAR = 8                    # ...plus the most similar ones from RECENT_HOURS
+DUP_COMPACT = False                # shorter listing: only the 5 closest candidates
 MAX_SEEN = 2000          # how many item IDs to remember
 FIRST_RUN_POSTS = 3      # on the very first run, post only the latest N items
 MAX_POSTS_PER_RUN = 4    # posts per check; the rest wait for the next check
@@ -660,6 +661,19 @@ def find_duplicate(orig_title, lead, recent):
     # no need to spend tokens asking the model
     if max((len(_norm_title(x.get("orig", "")) & probe) for x in recent), default=0) < 2:
         return None
+    if DUP_COMPACT:
+        # Only real candidates: posts sharing 2+ significant words, the 5 closest;
+        # the 3 closest in full, the others by their first sentence
+        common = lambda x: len(_norm_title(x.get("orig", "")) & probe)
+        cand = sorted((i for i in range(len(recent)) if common(recent[i]) >= 2),
+                      key=lambda i: (-common(recent[i]), -score(recent[i])))[:5]
+        full = set(cand[:3])
+        first = lambda t: (re.split(r"(?<=[.!?])\s", t, maxsplit=1)[0])[:200]
+        when = lambda x: time.strftime("%d.%m %H:%M", time.gmtime(x.get("t", 0) + 4 * 3600))
+        listing = "\n".join(f"{i + 1}. [{when(recent[i])}] {recent[i].get('orig') or recent[i]['title']}"
+                             f" — {recent[i].get('summary', '')[:600] if i in full else first(recent[i].get('summary', ''))}"
+                             for i in sorted(cand))
+        return _ask_duplicate(orig_title, lead, recent, listing)
     idx = list(range(len(recent)))
     latest = idx[-DUP_LATEST:]
     similar = sorted((i for i in idx[:-DUP_LATEST] if score(recent[i]) > 0),
@@ -672,6 +686,10 @@ def find_duplicate(orig_title, lead, recent):
     listing = "\n".join(f"{i + 1}. [{when(recent[i])}] {recent[i].get('orig') or recent[i]['title']}"
                          f" — {recent[i].get('summary', '')[:600 if i in full else 90]}"
                          for i in shown)
+    return _ask_duplicate(orig_title, lead, recent, listing)
+
+
+def _ask_duplicate(orig_title, lead, recent, listing):
     msg = (f"Новая статья:\n{orig_title}\n{lead[:700]}\n\n"
            f"Уже опубликовано:\n{listing}")
     free = [m for m in DUP_MODELS if m not in _llm_state["exhausted"]

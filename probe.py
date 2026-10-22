@@ -1,31 +1,28 @@
-"""Names-list approach on real recent articles (posts nothing)."""
-import json, re, requests, bot
-bot.SUMMARY_MODELS[:] = ["GigaChat-2-Max"]
-bot.DUP_MODELS[:] = []
-seen = json.load(open(bot.STATE_DIR / "seen.json", encoding="utf-8"))
-urls = []
-for uid in reversed(seen):
-    if uid.startswith("wp:Le Mauricien:"):
-        pid = uid.rsplit(":", 1)[1]
-        try:
-            d = requests.get(f"https://www.lemauricien.com/wp-json/wp/v2/posts/{pid}?_fields=link,title",
-                             headers=bot.UA, timeout=20).json()
-        except Exception:
-            continue
-        if "BOXE" in d.get("title", {}).get("rendered", "") or len([u for u in urls if "lemauricien" in u]) < 3:
-            urls.append(d["link"])
-    elif "inside.news/?p=" not in uid:
-        urls.append(uid.replace("http://", "https://"))
-    if len(urls) >= 8:
-        break
-src = lambda u: next((s[0] for s in bot.FEEDS if s[0].split()[0].lower().replace("'", "") in u.replace("-", "")), "Source")
-for u in urls:
-    e = bot.page_entry(u)
-    if not e or not e["title"]:
-        continue
-    post = bot.build_post(src(u), e, u, [])
-    print("\n=== ", e["title"][:100])
-    print("names:", "; ".join(f"{n['orig']}{'→' + n['ru'] if n.get('ru') else ''} ({n.get('type')})"
-                              for n in bot._llm_state.get("names") or []))
-    print(post.get("title"), "\n", post.get("summary"))
-print(f"\nLLM {bot._llm_state['calls']} calls, {bot._llm_state['tokens']} tokens")
+"""Duplicate check: current vs compact listing, on gpt-oss-120b (Groq, free),
+last 24h of posts. Then the disagreements once more on GigaChat-3-Pro."""
+import json, time, bot
+rec = json.load(open(bot.STATE_DIR / "recent.json", encoding="utf-8"))
+start = next(i for i, e in enumerate(rec) if e["t"] > time.time() - 24 * 3600)
+cases = list(range(start, len(rec)))
+def run(model, compact, idx):
+    bot.DUP_MODELS[:] = [model]
+    bot.DUP_COMPACT = compact
+    bot._llm_state.update(calls=0, tokens=0)
+    bot._llm_state["exhausted"].discard(model)
+    out = {i: bot.find_duplicate(rec[i].get("orig") or rec[i]["title"], rec[i]["summary"], rec[:i]) for i in idx}
+    return out, bot._llm_state["calls"], bot._llm_state["tokens"]
+old, c1, t1 = run("openai/gpt-oss-120b", False, cases)
+new, c2, t2 = run("openai/gpt-oss-120b", True, cases)
+print(f"{len(cases)} posts | current: {c1} calls, {t1} tokens ({t1 // max(c1,1)}/call), flags {sum(1 for v in old.values() if v)}"
+      f" | compact: {c2} calls, {t2} tokens ({t2 // max(c2,1)}/call), flags {sum(1 for v in new.values() if v)}")
+diff = [i for i in cases if bool(old[i]) != bool(new[i])]
+for i in cases:
+    if old[i] or new[i]:
+        d = old[i] or new[i]
+        print(f"#{i} current={'DUP' if old[i] else 'new'} compact={'DUP' if new[i] else 'new'}: {rec[i]['title'][:80]}\n      ~ {rec[d-1]['title'][:80]}")
+print(f"\n{len(diff)} disagreements; checking them on GigaChat-3-Pro")
+po, pc, pt = run("GigaChat-3-Pro", False, diff[:15])
+pn, pc2, pt2 = run("GigaChat-3-Pro", True, diff[:15])
+for i in diff[:15]:
+    print(f"#{i} Pro current={'DUP' if po[i] else 'new'} Pro compact={'DUP' if pn[i] else 'new'}: {rec[i]['title'][:80]}")
+print(f"Pro tokens: current {pt}, compact {pt2}")
