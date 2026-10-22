@@ -1,4 +1,34 @@
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Дорожная безопасность: новые лежачие полицейские запланированы в 11-м избирательном округе
-Министр транспорта Osman Mahomed сообщил о планах установки новых лежачих полицейских в районах Vieux-Grand-Port и Rose-Belle. Уже установлены ограничители в Bananes, Deux-Bras и Rivière-des-Créoles, а новые объекты запланированы в La Rosa, Bois-des-Amourettes и других местах. Работы зависят от получения разрешений и финансирования, при этом ведомство генерального атторнея рассматривает поправки к регламенту 2002 года для внедрения более дешевых резиновых ограничителей.
+models: ['GigaChat-2', 'GigaChat-2-Max', 'GigaChat-2-Pro', 'GigaChat-3-Lightning', 'GigaChat-3-Pro', 'GigaChat-3-Ultra', 'Embeddings', 'Embeddings-2', 'EmbeddingsGigaR', 'GigaEmbeddings-3B-2025-09']
+  dup check: new (Chetan Baboolall намерен задать премьер-министру Navin Ramgoolam Private Notice Question о недавних беспорядках, водном кризисе и мерах властей; указа)
+  dup check: new (Евросоюз намерен поддержать Маврикий в управлении водными ресурсами, возобновляемой энергетике и прибрежной устойчивости через гранты и обмен техничес)
+  dup check: new (Deven Anacootee был вызван в Cybercrime Unit CCID 20 октября для допроса по делу о публикациях в соцсетях во время беспорядков; его вызов перенесли с )
+  dup: nothing new (Deven Anacootee заявил прессе после допроса в CCID, что против него не выдвинуто обвинений и он не знаком со страницей Facebook Pima Info.)
+  dup: nothing new (Deven Anacootee заявил, что не знает страницу Facebook Pima Info.)
+  dup check: new (В статье перечислены новые имена обвиняемых в участии в беспорядках (Jérôme Роже Agathe, Dhiyven Lofur, Джорджефферсон Ип Kiun Chong, Néhémie Люк Жан )
+  dup: nothing new (Заявление адвоката Soodesh Callichurn о том, что его клиент Deven Anacootee не считает себя причастным к заявлениям Bruneau Laurette и чувствует себя )
+  dup check: new (Премьер-министр Маврикия Navin Ramgoolam заявил в парламенте 20 октября, что арестован наркобарон (без раскрытия личности); также сообщил о задержании)
+  dup check: new (Премьер-министр Navin Ramgoolam отверг обвинения в использовании израильского оборудования для перехвата сообщений WhatsApp как «выдумку» и поинтересо)
+  dup check: new (IPCC инициировала два расследования по жалобам Элоид Томас и водителя Soobrayen Tirvassen; запросила записи Safe City, изъяла документы в участке и с )
+  dup check: new (В новой статье сообщается о двух арестах в Flic-en-Flac за угрозы и ношение опасного оружия, а также об эвакуации автомобиля без страховки. Это новые )
+  dup check: new (Премьер-министр Navin Ramgoolam заявил о «некоторой координации» за беспорядками и поддержал законность комендантского часа, а также сообщил, что огра)
+  dup check: new (Комиссия по финансовым преступлениям (FCC) с ноября 2024 года инициировала 1 849 расследований, из которых 1 029 завершены; передано генпрокурору 103 )
+  dup check: new (Расследование предполагаемого вымогательства взятки в 350 млн рупий с участием бывшего советника Jean Karl Elysée, начатое FCC 11 сентября 2026 года п)
+GigaChat-3-Pro: flags 3 of 177; 14 calls, 15168 tokens
+GigaChat-3-Lightning: flags 0 of 177; 0 calls, 0 tokens
+GigaChat-2: flags 0 of 177; 0 calls, 0 tokens
+
+#### GigaChat-3-Lightning vs Pro
+#20 Pro=DUP GigaChat-3-Lightning=new: Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
+      ~ Расследование CCID: Deven Anacootee вызван в подразделение по киберпреступности
+#22 Pro=DUP GigaChat-3-Lightning=new: Deven Anacootee: «Я не знаю страницу Pima Info»
+      ~ Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
+#25 Pro=DUP GigaChat-3-Lightning=new: Адвокат Callichurn: «Deven Anacootee не считает себя причастным к заявлениям Bruneau Лоре»
+      ~ Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
+
+#### GigaChat-2 vs Pro
+#20 Pro=DUP GigaChat-2=new: Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
+      ~ Расследование CCID: Deven Anacootee вызван в подразделение по киберпреступности
+#22 Pro=DUP GigaChat-2=new: Deven Anacootee: «Я не знаю страницу Pima Info»
+      ~ Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
+#25 Pro=DUP GigaChat-2=new: Адвокат Callichurn: «Deven Anacootee не считает себя причастным к заявлениям Bruneau Лоре»
+      ~ Напряжённость по всему острову: Deven Anacootee объясняет ситуацию после посещения CCID
