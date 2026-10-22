@@ -14,3 +14,21 @@ Skipped foreign news (Defimedia): Stories of Hope : Mieux comprendre, mieux pré
   proofread by qwen/qwen3.8-27b
 Posted (Defimedia): Валютные операции: в сентябре 2026 года обменено 1,37 млрд долларов
 LLM usage this run: 9 requests, 18107 tokens
+### check 2/5 at 14:21
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup check: new (Introduction of a new episode on breast cancer screening, featuring Dr. Ramawad Soobrah outlining warning signs and risk factors, and Anita Reega‑Jogh)
+  not news (portrait/lifestyle): Stories of Hope : Mieux comprendre, mieux prévenir​
+Skipped foreign news (Defimedia): Stories of Hope : Mieux comprendre, mieux prévenir​
+  dup check: new (Rakesh Bhuckory, Chief of Staff du PMO, a complaint was filed at the Central Criminal Investigation Department on 22 October 2026 against a fake Faceb)
+  proofread by qwen/qwen3.8-27b
+  proofread: Ракеш Бхуккори → Rakesh Bhuckory
+Posted (Defimedia): CCID: глава аппарата канцелярии премьер-министра Rakesh Bhuckory подал жалобу на фальшивый аккаунт в Facebook, использующий должность Chief of Staff канцелярии премьер-министра
+  dup check: new (Statistiques Mauritius ont publié le Construction Price Index du troisième trimestre 2026, indiquant une hausse de 1,4 % de l’indice des prix de la co)
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Ваши деньги: сколько вам стоит рост цен на стройматериалы?
+  dup check: new (Le Wetlands Bill a été retiré du parlement malgré la possibilité d’amendements, décision prise par le ministre de l’Agroindustrie Arvin Boolell, ce qu)
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): «Wetlands Bill»: законопроект отозван, несмотря на возможность поправок
+LLM usage this run: 11 requests, 22894 tokens
