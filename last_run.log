@@ -28,3 +28,9 @@ Skipped duplicate (Inside News): 2. Agueda s’affaiblit et ne menace pas les Ma
 LLM usage this run: 4 requests, 8741 tokens
 ### check 3/5 at 12:26
 ### check 4/5 at 12:30
+### check 5/5 at 12:34
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (Inside News): Crise de l’eau : 28 306 demandes d’aide, mais combien de familles réellement servies ? == Программа по водонакопительным бакам может быть расширена на семьи, у которых уже есть рез
+LLM usage this run: 1 requests, 2396 tokens
