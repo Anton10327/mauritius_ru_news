@@ -27,3 +27,13 @@ Posted (Top FM): Экзамены PSAC: тысячи школьников на �
 LLM usage this run: 10 requests, 18525 tokens
 ### check 3/5 at 07:45
 ### check 4/5 at 07:49
+### check 5/5 at 07:53
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new (Доклад по реформе политики в отношении каннабиса передан премьер-министру и будет рассмотрен Национальной комиссией по контролю над наркотиками; рабоч)
+Skipped duplicate (L'Express): Cannabis : Le rapport finalisé, la décision revient à la «National Drug Control Commission == Политика в отношении каннабиса: Национальная комиссия по контролю над наркотиками вынесет 
+  dup: nothing new ()
+Skipped duplicate (Inside News): Météo à Maurice : des averses localisées attendues ce jeudi == Погода на Маврикии: ожидаются дожди в среду, 21 октября
+  dup: nothing new (Индекс цен на строительство вырос на 5,8% за год (сентябрь 2026 к сентябрю 2025), а также на 0,2% только за сентябрь. Приведены конкретные значения ин)
+Skipped duplicate (Top FM): Construction : bâtir une maison coûte 5,8 % plus cher en un an == Строительство на Маврикии: продолжают ли расти затраты?
+LLM usage this run: 3 requests, 6387 tokens
