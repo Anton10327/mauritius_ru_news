@@ -1,46 +1,18 @@
-### check 1/5 at 11:31
+### check 1/5 at 12:18
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Arrest of a 34‑year‑old detainee who escaped from the Barkly police station during the October 12‑13 riots; he was recaptured by the CID of Quatre‑Bor)
+  dup check: new (Annonce d'une prochaine communication du MES prévue jeudi pour clarifier la situation des examens annulés du SC et HSC.)
   proofread by qwen/qwen3.8-27b
-  proofread: БАРКЛИ → BARKLY; CID Quatre-Bornes → Criminal Investigation Division Quatre-Bornes
-Posted (Le Mauricien): BARKLY: задержан после побега во время беспорядков
-  dup check: new (Сержант Гаутам Сингх Таукур был вчера допрошен IPCC в течение более пяти часов, ему показали кадры с камер наблюдения в Camp‑Levieux; адвокат Me Vyas )
+  proofread: Министерства образования → MES; и Mauritius Examinations Syndicate → и MES
+Posted (Defimedia): SC и HSC — экзамены отменены: ожидается заявление MES
+  dup check: new (Vice‑president Robert Hungley a prononcé un discours mettant la responsabilité sociale, le respect des travailleurs et la protection de l’environnemen)
   proofread by qwen/qwen3.8-27b
-  proofread: Элои Тома → Élodie Thomas; Таукур → Taukoor; IPCC → комиссия по жалобам на полицию (IPCC); Kamp-Levieux → Camp-Levieux; Ratsitatane → Ratsitatane; Tribeca Mall → Tribeca Mall; Moka Detention Centre → Moka Detention Centre
-Posted (Le Mauricien): Camp-Levieux — выстрел, ранивший Élodie Thomas: допрос сержанта Taukoor в IPCC длился более пяти часов
-  same headline as #63: INCULPÉ SOUS LE POTA : Akshaye Boodhun, un collégien de 18 ans, admet être à l’o
-Skipped duplicate (Le Mauricien): CYBERCRIME UNIT — Inculpé provisoirement sous la PoTA : Akshaye Boodhun, 18 ans, revendiqu == Предварительно обвинённый по закону о борьбе с терроризмом: Akshaye Boodhun, 18-летний уче
-  dup: nothing new ()
-Skipped duplicate (L'Express): Écoutes téléphoniques : Pravind Jugnauth a répondu «à sa façon, mais n’a pas gardé le sile == Расследование по прослушивающему оборудованию: Pravind Jugnauth ответил на 37 вопросов CCI
-LLM usage this run: 7 requests, 15303 tokens
-### check 2/5 at 11:35
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  proofread: Роберт Хангли → Robert Hungley; Росин Нгорима → Rosheen Ngorima
+Posted (Defimedia): Robert Hungley: «Экономический рост должен уважать работников»
 Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Le programme détaillé des épreuves du PSAC : le français et les sciences le 22 octobre, l’anglais le 23 octobre, puis l’histoire‑géographie et les lan)
+  dup check: new (Dr Farhad Aumeer, député du Parti travailliste, sera invité à l’émission « Au Cœur de l’Info » le jeudi 22 octobre après‑midi.)
   proofread by qwen/qwen3.8-27b
-Posted (Inside News): PSAC: французский язык и науки в расписании на этот четверг
-  dup check: new (Appeal by the Director of Public Prosecutions to increase Wazil Ally Meerkhan’s sentence for the 2020 murder of WPC Dimple Raghoo from 23 to 30 years.)
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Апелляционный суд — убийство констебля полиции Dimple Raghoo — генпрокурор: увеличить срок Meerkhan до 30 лет вместо 23!
-  dup check: new (Fréquence annuelle des épisodes de chaleur extrême passée de ~5 événements dans les années 1960 à 102 au cours de la décennie actuelle, selon une enqu)
-  not about Mauritius: Climat : des épisodes de chaleur plus étendus soulèvent de nouvelles inquiétudes
-Skipped foreign news (Inside News): Climat : des épisodes de chaleur plus étendus soulèvent de nouvelles inquiétudes
-  dup check: new (Protests by French students against study conditions and cost of living turned violent with riots, looting and over 2,000 arrests; US President Donald)
-  not about Mauritius: Emeutes en France - propos controversés de Donald Trump : Emmanuel Macron recadre le président des E
-Skipped foreign news (Top FM): Emeutes en France - propos controversés de Donald Trump : Emmanuel Macron recadre le président des E
-LLM usage this run: 10 requests, 23109 tokens
-### check 3/5 at 11:39
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Top FM): Réforme du cannabis à Maurice : un comité d’experts passe au crible les modèles de décrimi == Политика в отношении каннабиса: Национальная комиссия по контролю над наркотиками вынесет 
-Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Le ministre de l’Éducation, Mahen Gungapersad, a salué publiquement les propos de l’auteur Shiv Khera sur l’importance du caractère d’un dirigeant lor)
-  proofread by qwen/qwen3.8-27b
-  proofread: Махен Гунгареперсад → Mahen Gungapersad; Шива Кхеры → Shiv Khera; Шива Кхера → Shiv Khera
-Posted (Top FM): Mahen Gungapersad поддержал видение Shiv Khera о важности лидерства
-LLM usage this run: 4 requests, 8212 tokens
-### check 4/5 at 11:43
-### check 5/5 at 11:47
+Posted (Defimedia): «В центре новостей»: бунты — кто виноват и как исправить?
+  same headline as #115: PSAC 2026 : 16 264 candidats attendus dans les centres d’examen à partir de ce j
+Skipped duplicate (Defimedia): PSAC 2026 : 16 264 candidats attendus dans les centres d’examen dès ce jeudi == PSAC 2026: 16 264 кандидата ждут в экзаменационных центрах с четверга
+LLM usage this run: 9 requests, 17736 tokens
