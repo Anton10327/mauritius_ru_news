@@ -7,3 +7,11 @@ Skipped duplicate (L'Express): The AI Play: What is at stake for investors? == �
   proofread: «устойчивое производство» → «устойчивое производство и цепочки создания стоимости»; «сближение бизнеса, инвесторов и властей» → «сближение бизнеса, инвесторов и властей»
 Posted (Inside News): Экономика замкнутого цикла: COMESA хочет превратить отходы в промышленные возможности
 LLM usage this run: 4 requests, 7142 tokens
+### check 2/5 at 10:49
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Posted (Defimedia): Перепрограммированные экзамены: Министерство образования публикует руководство, чтобы помочь ученикам лучше справляться со стрессом
+  dup check: new (В статье указано, что в 2026 году ожидается 16 275 кандидатов на экзамен PSAC (против 14 842 в 2025), то есть рост на 1 433 кандидата. Также уточнено )
+  proofread: «Rodrigues» → «Родригес»; "les épreuves écrites débutent ce jeudi" → "письменные экзамены стартуют в четверг"; "contre 14 842 en 2025" → "чем в 2025 году"
+Posted (Top FM): PSAC 2026: 16 275 кандидатов ожидают с четверга, 22 октября, задействовано 362 центра
+LLM usage this run: 5 requests, 10005 tokens
