@@ -46,3 +46,11 @@ Posted (L'Express): Festival Nou Leritaz: маврикийское наслед�
 Skipped foreign news (Top FM): Protection des droits fondamentaux : un enjeu majeur, selon Satyajit Boolell
 LLM usage this run: 5 requests, 11613 tokens
 ### check 4/5 at 14:29
+### check 5/5 at 14:33
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Le gouvernement prévoit quatre nouveaux règlements pour durcir le contrôle des pesticides (limites maximales de résidus, cadre des prélèvements, règle)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): Новые регламенты по контролю за использованием пестицидов
+LLM usage this run: 3 requests, 5952 tokens
