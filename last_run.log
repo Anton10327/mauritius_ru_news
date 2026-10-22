@@ -1,56 +1,21 @@
-### check 1/5 at 14:17
+### check 1/5 at 14:54
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (CWA a déployé des réservoirs mobiles de 30 000 litres (30 m³) dans plusieurs régions, avec vidéo Facebook montrant les tanks équipés de robinets pour )
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Уровень воды в Mare-aux-Vacoas падает: CWA развернула резервуары по 30 000 литров в нескольких регионах
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Premières épreuves du PSAC 2026 : élèves et parents témoignent == Экзамены PSAC: тысячи школьников на Маврикии начинают испытания в этот четверг
-Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Importance of HPV vaccination for cervical cancer prevention in Mauritius, as explained by Dr. Davina Soobrayen Jhugroo of the Ministry of Health.)
-  not news (portrait/lifestyle): Stories of Hope : Mieux comprendre, mieux prévenir |​Episode 2 : prévenir le cancer du col de l’utér
-Skipped foreign news (Defimedia): Stories of Hope : Mieux comprendre, mieux prévenir |​Episode 2 : prévenir le cancer du col de l’utér
-  dup check: new (Les opérations de change ont atteint 1,37 milliard de dollars en septembre 2026, avec 667,7 millions de dollars d’achats et 704,7 millions de dollars )
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Валютные операции: в сентябре 2026 года обменено 1,37 млрд долларов
-LLM usage this run: 9 requests, 18107 tokens
-### check 2/5 at 14:21
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Introduction of a new episode on breast cancer screening, featuring Dr. Ramawad Soobrah outlining warning signs and risk factors, and Anita Reega‑Jogh)
-  not news (portrait/lifestyle): Stories of Hope : Mieux comprendre, mieux prévenir​
-Skipped foreign news (Defimedia): Stories of Hope : Mieux comprendre, mieux prévenir​
-  dup check: new (Rakesh Bhuckory, Chief of Staff du PMO, a complaint was filed at the Central Criminal Investigation Department on 22 October 2026 against a fake Faceb)
-  proofread by qwen/qwen3.8-27b
-  proofread: Ракеш Бхуккори → Rakesh Bhuckory
-Posted (Defimedia): CCID: глава аппарата канцелярии премьер-министра Rakesh Bhuckory подал жалобу на фальшивый аккаунт в Facebook, использующий должность Chief of Staff канцелярии премьер-министра
-  dup check: new (Statistiques Mauritius ont publié le Construction Price Index du troisième trimestre 2026, indiquant une hausse de 1,4 % de l’indice des prix de la co)
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Ваши деньги: сколько вам стоит рост цен на стройматериалы?
-  dup check: new (Le Wetlands Bill a été retiré du parlement malgré la possibilité d’amendements, décision prise par le ministre de l’Agroindustrie Arvin Boolell, ce qu)
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): «Wetlands Bill»: законопроект отозван, несмотря на возможность поправок
-LLM usage this run: 11 requests, 22894 tokens
-### check 3/5 at 14:25
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Festival Nou Leritaz opened on 21 October 2026 at the Institut français de Maurice with the presence of President Dharam Gokhool, marking the second e)
-  proofread by qwen/qwen3.8-27b
-  proofread: вторую редакция → вторую редакцию
-Posted (L'Express): Festival Nou Leritaz: маврикийское наследие в центре передачи
-  dup check: new (40ᵉ anniversaire de l’entrée en vigueur de la Charte africaine des droits de l’homme, commémoré à la Middlesex University, Flic-en-Flac, avec une tabl)
+  dup check: new (Meta a été condamné à une amende de 25 milliards de dollars par un juge du Nouveau‑Mexique, suite à un jury qui a reconnu plus de 43 millions de viola)
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): Protection des droits fondamentaux : un enjeu majeur, selon Satyajit Boolell
-Skipped foreign news (Top FM): Protection des droits fondamentaux : un enjeu majeur, selon Satyajit Boolell
-LLM usage this run: 5 requests, 11613 tokens
-### check 4/5 at 14:29
-### check 5/5 at 14:33
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Le gouvernement prévoit quatre nouveaux règlements pour durcir le contrôle des pesticides (limites maximales de résidus, cadre des prélèvements, règle)
+  not about Mauritius: Protection des données personnelles : comprendre la plus lourde amende jamais infligée à Meta
+Skipped foreign news (Defimedia): Protection des données personnelles : comprendre la plus lourde amende jamais infligée à Meta
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup check: new (45‑year‑old man arrested in Port‑Louis for sexual remarks towards a 13‑year‑old girl, arrested 21 Oct 2026 and awaiting court hearing)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Inside News): Новые регламенты по контролю за использованием пестицидов
-LLM usage this run: 3 requests, 5952 tokens
+  proofread: Порт-Луи → Port-Louis; площади Иммиграции → площади Immigration; Тру-Фанфарон → Trou-Fanfaron
+Posted (Defimedia): Port-Louis: арестован 45-летний мужчина за сексуальные домогательства к 13-летней девочке
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): CERT-MU предупреждает об опасных уязвимостях в PHP
+  dup check: new (Premier cas humain documenté du virus Shamonda, patient immunodéprimé décédé à Lyon début octobre, aucune menace sanitaire identifiée pour la populati)
+  written by GigaChat-2-Max
+  not about Mauritius: Virus Shamonda : ce que l’on sait du premier cas humain documenté
+Skipped foreign news (Defimedia): Virus Shamonda : ce que l’on sait du premier cas humain documenté
+LLM usage this run: 9 requests, 18287 tokens
