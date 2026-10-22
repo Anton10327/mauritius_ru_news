@@ -1,27 +1,20 @@
-### check 1/5 at 19:30
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Le ministre de la Santé Anil Bachoo a indiqué que 7 674 mammographies ont été réalisées dans les établissements publics entre 2021 et 2025 et a annonc)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Аниль Бачо → Anil Bachoo; Роз-Белль → Rose-Belle
-Posted (L'Express): Борьба с раком груди: больше обследований и усилий по улучшению доступа к диагностике
-Bad LLM answer from GigaChat-2-Max: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"К сожалению, иногда генеративные языковые модели могут создавать некорректные ответы, основанные на открытых источниках. Во избежание неправильного толкования, ответы на вопросы, связанные с чувствительными темами, временно ограничены. Благодарим за понимание.","ro
-  written by qwen/qwen3.8-27b
-  not about Mauritius: Ukraine : Poutine met en garde contre une guerre mondiale, Zelensky ouvre la voie à un compromis
-Skipped foreign news (Inside News): Ukraine : Poutine met en garde contre une guerre mondiale, Zelensky ouvre la voie à un compromis
-Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Les activités boursières de la semaine ont été dominées par les Blue chips, avec 5,6 millions de titres échangés pour un montant total de Rs 165,4 mil)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Analyse boursière : Les Blue chips mobilisent l’essentiel des échanges
-Skipped foreign news (L'Express): Analyse boursière : Les Blue chips mobilisent l’essentiel des échanges
-LLM usage this run: 7 requests, 15027 tokens
-### check 2/5 at 19:34
-### check 3/5 at 19:38
-### check 4/5 at 19:42
+### check 1/5 at 20:11
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
   dup: nothing new ()
-Skipped duplicate (Defimedia): Dr Vasoodeven Vuddamalay, anthropologue : « Il faut, à tout prix, lutter contre une ethnic == Бедность: затронуты 130 000 маврикийцев
-LLM usage this run: 1 requests, 2488 tokens
-### check 5/5 at 19:46
+Skipped duplicate (Le Mauricien): ROSE-HILL : Une dispute à l’université dégénère en agression à la station de métro == Rose-Hill: 21-летний студент получил ранение в голову от удара телескопической дубинкой
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup check: new (Shirin Aumeeruddy‑Cziffra will appear as a guest on the radio program «Au Cœur de l’Info» and the Prime Minister has filed a motion to create a Select)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Shirin Aumeeruddy-Cziffra, l'invitée de l’émission «Au Cœur de l’Info», ce vendredi
+Skipped foreign news (Defimedia): Shirin Aumeeruddy-Cziffra, l'invitée de l’émission «Au Cœur de l’Info», ce vendredi
+  dup check: new (Cambridge a tranché : pas de reprise des examens annulés du SC et du HSC, dans le sillage des incidents qui ont secoué le pays la semaine dernière. Le)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: «Мы нашли его, снимающим видео на пляже, он был без обуви» → «Мы нашли его, когда он снимал видео на пляже, он был босиком»; На Маврикии разыскивают подозреваемого в сексуальном насилии над шестилетней племянницей; по сообщениям жителей, он был замечен на пляже Bain-des-Dames и скрылся, сменив внешн
+Posted (Defimedia): «Мы нашли его, когда он снимал видео на пляже, он был босиком»
+  dup check: new (PRO (Pesticides Regulatory Office) has published new data on pesticide usage in fruits and vegetables, indicating that while the molecules used have c)
+  written by qwen/qwen3.8-27b
+  not news (portrait/lifestyle): Pesticides sur nos fruits et légumes : À dix ans d’intervalle, les molécules ont changé, pas les abu
+Skipped foreign news (L'Express): Pesticides sur nos fruits et légumes : À dix ans d’intervalle, les molécules ont changé, pas les abu
+LLM usage this run: 8 requests, 19466 tokens
