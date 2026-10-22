@@ -1,39 +1,9 @@
-### check 1/5 at 07:37
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (В статье указано, что 21 октября Промежуточный суд признал виновными двенадцать мужчин по делу о нарушении комендантского часа. Прокуратура требует тю)
-Skipped duplicate (Defimedia): Non-respect du couvre-feu : les douze hommes fixés sur leur sort le 27 octobre == Комендантский час: двенадцать обвиняемых принесли извинения и попросили о снисхождении, пр
-  dup check: new (Сержант Gowtamsing Taukoor был повторно допрошен IPCC 21 октября; эта вторая сессия допроса ранее не упоминалась в опубликованных материалах.)
-  proofread: Элоди Тома → Элоди Томас; Gowtamsing Taukoor → Gowtamsing Taukoor
-Posted (Defimedia): Élodie Thomas ранена пулей: как продвигается расследование IPCC?
-  dup: nothing new ()
-Skipped duplicate (L'Express): Financial Crimes Commission : 1 029 enquêtes sur 1 849 bouclées depuis novembre 2024 == FCC: 1 849 расследований с ноября 2024 года, получено пять приговоров
-  dup check: new (Депутат Adrien Duval в Национальном собрании потребовал от премьер-министра Navin Ramgoolam предъявить сержанту Gautam Singh Taukoor обвинение в попыт)
-  proofread: Адриен Дюваль → Адриен Дюваль; Готаму Таукуру → Готаму Сингху Таукуру; "Involuntary Wounds and Blows by Imprudence" → "неумышленное причинение вреда по неосторожности"; Directeur des poursuites publiques → генпрокурор (DPP); Independent Police Complaints Commission → комиссия по жалобам на полицию (
-Posted (L'Express): Élodie Thomas: Adrien Duval требует предъявить сержанту Gautam Сингху Taukoor обвинение в покушении на убийство
-LLM usage this run: 8 requests, 17025 tokens
-### check 2/5 at 07:41
+### check 1/5 at 08:15
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
   dup: nothing new ()
-Skipped duplicate (L'Express): Affaire Jean Karl Elysée l Pot-de-vin présumé de Rs 350 millions : l’enquête se poursuit == Предполагаемое вымогательство взятки в 350 млн рупий: два офицера FCC отправились во Франц
-  dup check: new (Министр образования Mahend Gungapersad анонсировал подготовку нового документа-ориентира (blueprint) для сектора образования, но не представил детальн)
-Posted (Inside News): Реформа образования: представлен план, но детали ещё предстоит уточнить
-  dup check: new (В статье указано, что с начала года на дорогах погибло 121 человек (против 99 в тот же период прошлого года) и подчёркивается рост числа смертей. Это )
-Posted (Top FM): Безопасность на дорогах: 121 погибший на наших дорогах с начала года
-  dup check: new (В статье упоминается, что экзамены PSAC проходят в особом контексте этого года из-за недавних закрытий школ, которые нарушили подготовку учеников. При)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Экзамены PSAC: тысячи школьников на Маврикии начинают испытания в этот четверг
-LLM usage this run: 10 requests, 18525 tokens
-### check 3/5 at 07:45
-### check 4/5 at 07:49
-### check 5/5 at 07:53
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (Доклад по реформе политики в отношении каннабиса передан премьер-министру и будет рассмотрен Национальной комиссией по контролю над наркотиками; рабоч)
-Skipped duplicate (L'Express): Cannabis : Le rapport finalisé, la décision revient à la «National Drug Control Commission == Политика в отношении каннабиса: Национальная комиссия по контролю над наркотиками вынесет 
-  dup: nothing new ()
-Skipped duplicate (Inside News): Météo à Maurice : des averses localisées attendues ce jeudi == Погода на Маврикии: ожидаются дожди в среду, 21 октября
-  dup: nothing new (Индекс цен на строительство вырос на 5,8% за год (сентябрь 2026 к сентябрю 2025), а также на 0,2% только за сентябрь. Приведены конкретные значения ин)
-Skipped duplicate (Top FM): Construction : bâtir une maison coûte 5,8 % plus cher en un an == Строительство на Маврикии: продолжают ли расти затраты?
-LLM usage this run: 3 requests, 6387 tokens
+Skipped duplicate (Top FM): Divali 2026 : la Hindu House appelle à l’unité et à la paix == Дивали: Hindu House призывает к миру и единству
+  dup check: new (В статье упоминается, что активистка Meera Appadoo призывает полицию и Mauritius Society for Animal Welfare проверить происхождение двух ротвейлеров, )
+  proofread: Meera Appadoo → Мира Аппадо
+Posted (Top FM): После нападения двух ротвейлеров: Meera Appadoo требует от полиции и MSAW дойти до заводчиков
+LLM usage this run: 4 requests, 7455 tokens
