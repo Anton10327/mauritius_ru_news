@@ -11,3 +11,5 @@ LLM usage this run: 2 requests, 5440 tokens
 Could not read Le Mauricien: ConnectionError HTTPSConnectionPool(host='www.lemauricien.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link (Caused by NewConnectionError("HTTPSConnection(host='www.lemauricien.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
 ### check 3/5 at 22:41
 Could not read Le Mauricien: ConnectionError HTTPSConnectionPool(host='www.lemauricien.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link (Caused by NewConnectionError("HTTPSConnection(host='www.lemauricien.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
+### check 4/5 at 22:45
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
