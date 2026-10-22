@@ -1,17 +1,2 @@
-### check 1/5 at 22:33
-Could not read Le Mauricien: ConnectionError HTTPSConnectionPool(host='www.lemauricien.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link (Caused by NewConnectionError("HTTPSConnection(host='www.lemauricien.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (OMS предупреждает о более сложной эпидемии Эболы в Африке после распространения вируса в Нигерию; в Нигерии обнаружен первый случай в Западной Африке,)
-  written by qwen/qwen3.8-27b
-  not about Mauritius: L'Afrique face à une épidémie "plus complexe" d'Ebola après sa propagation au Nigeria, selon l'OMS
-Skipped foreign news (Defimedia): L'Afrique face à une épidémie "plus complexe" d'Ebola après sa propagation au Nigeria, selon l'OMS
-LLM usage this run: 2 requests, 5440 tokens
-### check 2/5 at 22:37
-Could not read Le Mauricien: ConnectionError HTTPSConnectionPool(host='www.lemauricien.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link (Caused by NewConnectionError("HTTPSConnection(host='www.lemauricien.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
-### check 3/5 at 22:41
-Could not read Le Mauricien: ConnectionError HTTPSConnectionPool(host='www.lemauricien.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link (Caused by NewConnectionError("HTTPSConnection(host='www.lemauricien.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
-### check 4/5 at 22:45
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 5/5 at 22:49
+### check 1/5 at 23:16
 Could not read Le Mauricien: ConnectionError HTTPSConnectionPool(host='www.lemauricien.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link (Caused by NewConnectionError("HTTPSConnection(host='www.lemauricien.com', port=443): Failed to establish a new connection: [Errno 111] Connection refused"))
