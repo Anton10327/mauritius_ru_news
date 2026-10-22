@@ -16,3 +16,25 @@ Duplicate check: limit reached for openai/gpt-oss-120b
   proofread by qwen/qwen3.8-27b
 Posted (Defimedia): Водный кризис: водоканал CWA и полиция усиливают контроль и грозят штрафами
 LLM usage this run: 7 requests, 12751 tokens
+### check 2/5 at 18:19
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup check: new (Les jumeaux de Dev Jokhoo, ancien commissaire des prisons, actuellement en Grade 5, ont participé aux épreuves du PSAC et jugent les sujets abordables)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Рауль Ривет → Raoul Rivet; Дев Джоккоо → Dev Jokhoo; Совета по экзаменам Маврикия → Mauritius Examinations Syndicate (MES)
+Posted (Defimedia): PSAC 2026: ученики и родители делятся впечатлениями о первом дне экзаменов
+  dup check: new (Second case of sexual assault on a six‑year‑old reported in Beau‑Bassin shelter; suspect is also a minor living in the same shelter; child hospitalize)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Бэу-Бассэн → Beau-Bassin; Бэу-Бассэна → Beau-Bassin
+Posted (Defimedia): Beau-Bassin: второй случай сексуального насилия над шестилетним ребенком за два дня
+  dup check: new (Le commun La Voix du Peuple annonce 43 mobilisations jusqu’en 2029 pour réclamer le montant intégral de Rs 15 545 de la pension de vieillesse à partir)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+Posted (L'Express): Пенсия по старости: движение La Voix du Peuple объявило о 43 акциях протеста до 2029 года
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Abus sexuel sur sa nièce de 6 ans : toujours aucune trace du suspect == Полицейская и гражданская мобилизация для поиска мужчины, подозреваемого в сексуальных дом
+LLM usage this run: 10 requests, 18518 tokens
