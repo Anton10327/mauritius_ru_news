@@ -1,17 +1,10 @@
-### check 1/5 at 21:25
-Could not read Le Mauricien: ConnectTimeout HTTPSConnectionPool(host='www.lemauricien.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lemauricien.com', port=443) at 0x7f4cc8cbb440>, 'Connection to www.lemauricien.com timed out. (connect timeout=30)'))
+### check 1/5 at 21:58
+Could not read Le Mauricien: ConnectTimeout HTTPSConnectionPool(host='www.lemauricien.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lemauricien.com', port=443) at 0x7f74b9953440>, 'Connection to www.lemauricien.com timed out. (connect timeout=30)'))
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (MauBank reported a 30 % increase in profit before tax to Rs 1.18 billion for the fiscal year ended 30 June 2026 (profit before tax Rs 908 million in 2)
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Le Premier ministre Navin Ramgoolam dévoile un plan en plusieurs phases pour lutter contre == Водный кризис: задействованы 14 скважин, ожидается дополнительная вода в объёме 10 тысяч к
   written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Финансовая отчетность: прибыль до налогообложения MauBank выросла на 30 %
-LLM usage this run: 3 requests, 6311 tokens
-### check 2/5 at 21:29
-Could not read Le Mauricien: ConnectTimeout HTTPSConnectionPool(host='www.lemauricien.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lemauricien.com', port=443) at 0x7f52fcb171a0>, 'Connection to www.lemauricien.com timed out. (connect timeout=30)'))
-### check 3/5 at 21:33
-Could not read Le Mauricien: ConnectTimeout HTTPSConnectionPool(host='www.lemauricien.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lemauricien.com', port=443) at 0x7f685f42abd0>, 'Connection to www.lemauricien.com timed out. (connect timeout=30)'))
-### check 4/5 at 21:37
-Could not read Le Mauricien: ConnectTimeout HTTPSConnectionPool(host='www.lemauricien.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lemauricien.com', port=443) at 0x7f3ee7a72d20>, 'Connection to www.lemauricien.com timed out. (connect timeout=30)'))
-### check 5/5 at 21:41
-Could not read Le Mauricien: ConnectTimeout HTTPSConnectionPool(host='www.lemauricien.com', port=443): Max retries exceeded with url: /wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.lemauricien.com', port=443) at 0x7f5cdda4f380>, 'Connection to www.lemauricien.com timed out. (connect timeout=30)'))
+  not news (portrait/lifestyle): Anaïs Angeline : «C’est dans les moments difficiles qu’on doit se rappeler ce qui nous unit»
+Skipped foreign news (L'Express): Anaïs Angeline : «C’est dans les moments difficiles qu’on doit se rappeler ce qui nous unit»
+LLM usage this run: 2 requests, 5232 tokens
