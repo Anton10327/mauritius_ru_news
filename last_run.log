@@ -38,3 +38,22 @@ Posted (L'Express): Пенсия по старости: движение La Voix
   dup: nothing new ()
 Skipped duplicate (Defimedia): Abus sexuel sur sa nièce de 6 ans : toujours aucune trace du suspect == Полицейская и гражданская мобилизация для поиска мужчины, подозреваемого в сексуальных дом
 LLM usage this run: 10 requests, 18518 tokens
+### check 3/5 at 18:23
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup: nothing new ()
+Skipped duplicate (L'Express): «Police (Amendment) Bill» | Couvre-feu : des pouvoirs élargis pour le commissaire de polic == Законопроект Police (Amendment) Bill принят без поправок в Национальном собрании
+  dup check: new (Un toxicomane de 33 ans a agressé sa mère de 64 ans à Camp-Yoloff pour réclamer Rs 1 000, l'ayant giflé et projetée au sol. La victime a été blessée e)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Пожилую женщину избил сын-наркоман ради тысячи рупий
+  dup check: new (Pascal Praud denounced judicial laxity, noting that out of 30 convictions related to the 17 October riots only eight resulted in a custodial sentence;)
+  written by GigaChat-2-Max
+  not about Mauritius: Émeutes en France : des peines jugées trop faibles provoquent la colère
+Skipped foreign news (Inside News): Émeutes en France : des peines jugées trop faibles provoquent la colère
+  dup check: new (Le prix du Brent a dépassé 110 dollars le baril suite à de nouvelles attaques au Royaume d’Arabie Saoudite, renforçant les inquiétudes sur l’approvisi)
+  written by GigaChat-2-Max
+  not about Mauritius: Le Brent dépasse 110 dollars : la pression monte sur les pays importateurs comme Maurice
+Skipped foreign news (Inside News): Le Brent dépasse 110 dollars : la pression monte sur les pays importateurs comme Maurice
+LLM usage this run: 8 requests, 14904 tokens
