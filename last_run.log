@@ -1,5 +1,15 @@
-### check 1/5 at 06:25
-### check 2/5 at 06:29
-### check 3/5 at 06:33
-### check 4/5 at 06:37
-### check 5/5 at 06:41
+### check 1/5 at 07:02
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье Sydney Pierre впервые публично объясняет причины своей отставки из Лейбористской партии и правительства, заявляя о расхождении своих убеждени)
+  proofread: «Au Cœur de l’Info» → "В центре новостей"; "Mes convictions ne correspondent plus à la ligne du PTr" → "Мои убеждения больше не соответствуют линии Лейбористской партии"
+Posted (Defimedia): В центре новостей: Sydney Pierre — «Мои убеждения больше не соответствуют линии Лейбористской партии»
+  dup check: new (В статье говорится о мобилизации полиции и местных жителей для поиска мужчины, подозреваемого в сексуальном насилии над своей племянницей. Указаны кон)
+  proofread: 
+Posted (Defimedia): Полицейская и гражданская мобилизация для поиска мужчины, подозреваемого в сексуальных домогательствах к племяннице
+  dup check: new (В статье упоминается, что Eco-Sud требует объяснений по мерам после анализа образцов перца. В ранее опубликованных статьях такого требования от этой о)
+  proofread: Triolet → Триоле
+Posted (Defimedia): Pesticides: в перце обнаружены остатки в концентрации более чем в 317 раз выше допустимого предела
+  not news (portrait/lifestyle): PSAC : entre pression et confiance, les parents veulent surtout rassurer
+Skipped foreign news (L'Express): PSAC : entre pression et confiance, les parents veulent surtout rassurer
+LLM usage this run: 10 requests, 19225 tokens
