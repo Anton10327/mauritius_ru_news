@@ -1,35 +1,16 @@
-### check 1/5 at 13:01
-  same headline as #152: Baie-du-Tombeau : une adolescente de 17 ans retrouvée morte dans une maison aban
-Skipped duplicate (Defimedia): Ado de 17 ans retrouvée morte dans une maison abandonnée à Baie-du-Tombeau : le rapport d’ == Baie-du-Tombeau: 17-летнюю девушку нашли мёртвой в заброшенном доме
+### check 1/5 at 13:39
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Le garçon a effectivement subi une intervention chirurgicale après l’agression, le ministère de l’Éducation a ouvert une enquête et une assistance psy)
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): ОБРАЗОВАНИЕ — Camp-Levieux: школьнику провели операцию после нападения в школе
   dup: nothing new ()
-Skipped duplicate (Inside News): Émeutes : qui est le « baron de la drogue » évoqué par le Premier ministre ? == PNQ о беспорядках: «Арестован наркобарон», — утверждает Ramgoolam
-  not about Mauritius: Podcast Episode 3: Nursery & Pre-Primary Education – Dukesbridge
-Skipped foreign news (Defimedia): Podcast Episode 3: Nursery & Pre-Primary Education – Dukesbridge
-  not about Mauritius: Échos de l’Éducation – Episode 1 Dukesbridge: Rishi & Shannon
-Skipped foreign news (Defimedia): Échos de l’Éducation – Episode 1 Dukesbridge: Rishi & Shannon
-LLM usage this run: 3 requests, 6392 tokens
-### check 2/5 at 13:05
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Skipped duplicate (Le Mauricien): VIVRE-ENSEMBLE : Le MACOSS appelle à consolider paix sociale et solidarité nationale == Социальный мир: MACOSS призывает дать молодежи больше возможностей
 Duplicate check: limit reached for openai/gpt-oss-120b
-  dup: nothing new ()
-Skipped duplicate (L'Express): Cyclisme : Belle première pour Alexandre Mayer, Tristan Hardy conserve son titre == Велоспорт – Чемпионаты Африки на шоссе: золото для Tristan Hardy, серебро для Halbwachs-Li
-  not about Mauritius: Échos Dukesbridge –  Episode 2: Lucas
-Skipped foreign news (Defimedia): Échos Dukesbridge –  Episode 2: Lucas
-  dup check: new (Investissements à Maurice : portefeuille déclaré de Rs 649,7 milliards, dont seulement Rs 138,8 milliards déjà dépensés; nouvelles statistiques sur le)
+  dup check: new (Organisation de la deuxième manche du FEI Jumping World Challenge 2026 au Club d’Équitation du Nord (CEN), ainsi que la tenue du cinquième Challenge I)
   proofread by qwen/qwen3.8-27b
-Posted (Inside News): Инвестиции на Маврикии: заявлено проектов на 649,7 млрд рупий, но сколько из них действительно реализовано?
-  dup check: new (S.H. suspected of ordering pillaging acts through ‘jockeys’ (new allegation of involvement of jockeys).)
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Грабежи и беспорядки в Bambous: S.H. подозревают в организации действий с привлечением «жокеев»
-LLM usage this run: 8 requests, 17037 tokens
-### check 3/5 at 13:09
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  proofread: Клуб д’Экитасьон дю Нор → Club d’Équitation du Nord
+Posted (Le Mauricien): Конный спорт — Club d’Équitation du Nord принимает второй этап FEI Jumping World Challenge 2026
   dup: nothing new ()
-Skipped duplicate (Top FM): Parlement – Débats sur le Wetlands Bill : Joanna Bérenger réclame des éclaircissements sur == Парламент — Сведение счетов: отзыв Wetlands Bill спровоцировал словесные перепалки
-LLM usage this run: 1 requests, 2279 tokens
-### check 4/5 at 13:13
-### check 5/5 at 13:17
+Skipped duplicate (Le Mauricien): PARLEMENT — Poches de pauvreté — Ashok Subron, ministre de la Sécurité sociale : « Nous so == Бедность: затронуты 130 000 маврикийцев
+LLM usage this run: 8 requests, 17889 tokens
