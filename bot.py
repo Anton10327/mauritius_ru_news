@@ -402,7 +402,8 @@ def _giga_cap(model):
     """Today's token budget for a model: what is left in its paid package,
     spread evenly over the days until GIGA_UNTIL. The balance is asked once
     a day; if that fails, the fixed GIGA_DAILY_CAP is used."""
-    pool = "GigaChat-Ultra" if "Ultra" in model else "GigaChat-Pro" if "Pro" in model else None
+    pool = ("GigaChat-Ultra" if "Ultra" in model else "GigaChat-Pro" if "Pro" in model
+            else "GigaChat-Max" if "Max" in model else "GigaChat")  # Lite: GigaChat-2, 3-Lightning
     today = time.strftime("%Y-%m-%d", time.gmtime(time.time() + 4 * 3600))
     bal = _state_get("giga_balance", {})
     if bal.get("date") != today and not os.environ.get("BOT_TEST"):
