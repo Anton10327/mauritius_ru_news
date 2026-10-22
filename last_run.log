@@ -1,35 +1,18 @@
-### check 1/5 at 16:03
+### check 1/5 at 16:46
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Réforme — Système des pensions — SAP : Ouverture exceptionnelle des bureaux de la SÉCU == Заявки на «State Age Pension»: офисы Службы социального обеспечения будут открыты три выхо
-  dup check: new (Chetan Baboolall souligne la crise de l'eau en citant le niveau du réservoir de Mare-aux-Vacoas à 34 % le 6 octobre, contre 88,6 % l'année précédente,)
+  dup check: new (13 accidents mortels et 124 accidents non mortels enregistrés dans le secteur de la construction entre janvier 2024 et le 15 octobre 2026, 1 655 inspe)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Чэтан Бабуллал → Chetan Baboolall
-Posted (Le Mauricien): Лидер оппозиции раскритиковал правительство за отказ от законопроекта о защите болот
+Posted (L'Express): На стройках Маврикия с января 2024 года зафиксировано 137 несчастных случаев
+  dup check: new (Confirmed imported case of Bundibugyo Ebola virus in Abuja, Nigeria; patient arrived 3 Oct, symptoms 11 Oct, lab confirmation 20 Oct; 44 contacts bein)
+Bad LLM answer from GigaChat-2-Max: Expecting ',' delimiter: line 28 column 6 (char 469); raw: {"choices":[{"message":{"content":"{\n  \"mauritius\": false,\n  \"news\": true,\n  \"names\": [\n    {\n      \"orig\": \"Africa CDC\",\n      \"type\": \"org\"\n    },\n    {\n      \"orig\": \"République démocratique du Congo\",\n      \"type\": \"foreign\",\n      \"ru\": \"ДР Конго\"\n    },\n 
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Ebola atteint le Nigeria : l’Afrique convoque une réunion d’urgence
+Skipped foreign news (Inside News): Ebola atteint le Nigeria : l’Afrique convoque une réunion d’urgence
 Duplicate check: limit reached for openai/gpt-oss-120b
   dup: nothing new ()
-Skipped duplicate (Defimedia): Examens de Cambridge : les épreuves annulées le 13 octobre ne seront pas reprogrammées == Отменённые экзамены 13 октября: Cambridge присваивает оценки на основе экспертной оценки
+Skipped duplicate (Wazaa): Le vice-président exige que la croissance des entreprises respecte les travailleurs et les == Robert Hungley: «Экономический рост должен уважать работников»
   dup: nothing new ()
-Skipped duplicate (L'Express): Menace de cyberattaques : plusieurs sites du gouvernement mis hors ligne == CERT-MU предупреждает об опасных уязвимостях в PHP
-LLM usage this run: 6 requests, 13144 tokens
-### check 2/5 at 16:07
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Deployment of 30 000‑liter mobile water tanks by the Central Water Authority in the localities of Phoenix, Curepipe, Alma, Quartier‑Militaire and Midl)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Водный кризис: уровень воды в водохранилище Mare-aux-Vacoas может упасть до 20%
-  dup: nothing new ()
-Skipped duplicate (L'Express): Faux compte Facebook : Rakesh Bhuckory dépose une nouvelle plainte au CCID == CCID: глава аппарата канцелярии премьер-министра Rakesh Bhuckory подал жалобу на фальшивый
-  dup check: new (Le délai pour le Water Tank Scheme a été prolongé d’une semaine supplémentaire, soit jusqu’au lendemain (demain).)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Патрик Ассирваден → Patrick Assirvaden; Хаут-Плейнс-Вильгемс → Hautes Plaines Wilhems
-Posted (Le Mauricien): Из-за засухи срок подачи заявок на резервуары для воды продлён
-LLM usage this run: 7 requests, 13905 tokens
-### check 3/5 at 16:11
-### check 4/5 at 16:15
-### check 5/5 at 16:19
+Skipped duplicate (Top FM): Examens de Cambridge annulés : comment les notes des candidats seront-elles calculées ? Ex == SC и HSC — экзамены отменены: ожидается заявление MES
+LLM usage this run: 8 requests, 18623 tokens
