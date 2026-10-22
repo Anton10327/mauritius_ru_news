@@ -1,31 +1,18 @@
-### check 1/5 at 17:30
+### check 1/5 at 18:15
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Sydney Pierre заявляет, что хотя он сидит рядом с Fron Militan Progresis (FMP) в Национальном собрании, он ещё не вступил в эту партию.)
-LLM request failed (GigaChat-2-Max): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7fb0cc089e
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Sydney Pierre: «Я пока не вступил в партию Fron Militan Progresis»
-  dup check: new (Un mort et huit blessés lors d'une attaque contre l'aéroport international King Fahd de Dammam en Arabie saoudite, avec des détails sur la victime déc)
-  written by qwen/qwen3.8-27b
-  not about Mauritius: Arabie saoudite : un mort et huit blessés dans une attaque contre l’aéroport de Dammam
-Skipped foreign news (Inside News): Arabie saoudite : un mort et huit blessés dans une attaque contre l’aéroport de Dammam
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Émouvances de Shakti Callikan : quand les couleurs racontent notre histoire
+Skipped foreign news (Le Mauricien): Émouvances de Shakti Callikan : quand les couleurs racontent notre histoire
+  dup check: new (Long Beach hotel hosts exclusive Reformer Pilates residency (19‑28 octobre 2026) with KORA and instructor Claudia Harris; details of dates, location, )
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Long Beach accueille KORA pour une expérience exclusive de Reformer Pilates à Maurice
+Skipped foreign news (Le Mauricien): Long Beach accueille KORA pour une expérience exclusive de Reformer Pilates à Maurice
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): QUATRE-BORNES — Trafic de Drogue : Un constable arrêté avec deux autres suspects == Торговля наркотиками в Résidences Kennedy: отстранённый от службы полицейский задержан с 6
 Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Me Satyajit Boolell, président de la National Human Rights Commission (NHRC), qualifie l’affaire d’atroce et de scandaleuse, et l’alerte de Pédostop e)
-  written by qwen/qwen3.8-27b
-Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
-Posted (Top FM): Дело о предполагаемом насилии над 6-летней девочкой: Pédostop призывает не распространять видео
-  dup: nothing new ()
-Skipped duplicate (Top FM): Abus sexuels présumés sur une fillette de 6 ans : mobilisation citoyenne dans les secteurs == Полицейская и гражданская мобилизация для поиска мужчины, подозреваемого в сексуальных дом
-LLM usage this run: 8 requests, 18494 tokens
-### check 2/5 at 17:34
-### check 3/5 at 17:38
-  same headline as #157: Sydney Pierre : «Je n’ai pas encore rejoint le Fron Militan Progresis»
-Skipped duplicate (L'Express): Sydney Pierre : «Je n’ai pas encore rejoint le Fron Militan Progresis» == Sydney Pierre: «Я пока не вступил в партию Fron Militan Progresis»
-### check 4/5 at 17:42
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Police et citoyens lancent une vaste chasse à l’homme en Île Maurice pour un suspect d’abu == Полицейская и гражданская мобилизация для поиска мужчины, подозреваемого в сексуальных дом
-LLM usage this run: 1 requests, 2355 tokens
-### check 5/5 at 17:46
+  dup check: new (Treize avertissements émis pour lavage de voitures avec eau potable, un cas signalé à la police pour non‑respect des restrictions, 118 contrôles effec)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Водный кризис: водоканал CWA и полиция усиливают контроль и грозят штрафами
+LLM usage this run: 7 requests, 12751 tokens
