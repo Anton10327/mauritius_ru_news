@@ -1,28 +1,16 @@
-### check 1/5 at 13:39
+### check 1/5 at 14:17
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Le garçon a effectivement subi une intervention chirurgicale après l’agression, le ministère de l’Éducation a ouvert une enquête et une assistance psy)
+  dup check: new (CWA a déployé des réservoirs mobiles de 30 000 litres (30 m³) dans plusieurs régions, avec vidéo Facebook montrant les tanks équipés de robinets pour )
   proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): ОБРАЗОВАНИЕ — Camp-Levieux: школьнику провели операцию после нападения в школе
+Posted (Defimedia): Уровень воды в Mare-aux-Vacoas падает: CWA развернула резервуары по 30 000 литров в нескольких регионах
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): VIVRE-ENSEMBLE : Le MACOSS appelle à consolider paix sociale et solidarité nationale == Социальный мир: MACOSS призывает дать молодежи больше возможностей
+Skipped duplicate (Defimedia): Premières épreuves du PSAC 2026 : élèves et parents témoignent == Экзамены PSAC: тысячи школьников на Маврикии начинают испытания в этот четверг
 Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Organisation de la deuxième manche du FEI Jumping World Challenge 2026 au Club d’Équitation du Nord (CEN), ainsi que la tenue du cinquième Challenge I)
+  dup check: new (Importance of HPV vaccination for cervical cancer prevention in Mauritius, as explained by Dr. Davina Soobrayen Jhugroo of the Ministry of Health.)
+  not news (portrait/lifestyle): Stories of Hope : Mieux comprendre, mieux prévenir |​Episode 2 : prévenir le cancer du col de l’utér
+Skipped foreign news (Defimedia): Stories of Hope : Mieux comprendre, mieux prévenir |​Episode 2 : prévenir le cancer du col de l’utér
+  dup check: new (Les opérations de change ont atteint 1,37 milliard de dollars en septembre 2026, avec 667,7 millions de dollars d’achats et 704,7 millions de dollars )
   proofread by qwen/qwen3.8-27b
-  proofread: Клуб д’Экитасьон дю Нор → Club d’Équitation du Nord
-Posted (Le Mauricien): Конный спорт — Club d’Équitation du Nord принимает второй этап FEI Jumping World Challenge 2026
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): PARLEMENT — Poches de pauvreté — Ashok Subron, ministre de la Sécurité sociale : « Nous so == Бедность: затронуты 130 000 маврикийцев
-LLM usage this run: 8 requests, 17889 tokens
-### check 2/5 at 13:43
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-Duplicate check: limit reached for openai/gpt-oss-120b
-  dup: nothing new ()
-Skipped duplicate (Inside News): Impôts : plus de 301 000 déclarations reçues, nouveau délai au 30 octobre == Налоги: MRA уже вернула налогоплательщикам 826,9 млн рупий
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Plus de 16 000 candidats passent l’examen national du primaire dans toute l’île Maurice == PSAC 2026: 16 264 кандидата ждут в экзаменационных центрах с четверга
-LLM usage this run: 2 requests, 4773 tokens
-### check 3/5 at 13:47
-### check 4/5 at 13:51
-### check 5/5 at 13:55
+Posted (Defimedia): Валютные операции: в сентябре 2026 года обменено 1,37 млрд долларов
+LLM usage this run: 9 requests, 18107 tokens
