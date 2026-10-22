@@ -12,3 +12,16 @@ Skipped duplicate (L'Express): Financial Crimes Commission : 1 029 enquêtes sur
   proofread: Адриен Дюваль → Адриен Дюваль; Готаму Таукуру → Готаму Сингху Таукуру; "Involuntary Wounds and Blows by Imprudence" → "неумышленное причинение вреда по неосторожности"; Directeur des poursuites publiques → генпрокурор (DPP); Independent Police Complaints Commission → комиссия по жалобам на полицию (
 Posted (L'Express): Élodie Thomas: Adrien Duval требует предъявить сержанту Gautam Сингху Taukoor обвинение в покушении на убийство
 LLM usage this run: 8 requests, 17025 tokens
+### check 2/5 at 07:41
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (L'Express): Affaire Jean Karl Elysée l Pot-de-vin présumé de Rs 350 millions : l’enquête se poursuit == Предполагаемое вымогательство взятки в 350 млн рупий: два офицера FCC отправились во Франц
+  dup check: new (Министр образования Mahend Gungapersad анонсировал подготовку нового документа-ориентира (blueprint) для сектора образования, но не представил детальн)
+Posted (Inside News): Реформа образования: представлен план, но детали ещё предстоит уточнить
+  dup check: new (В статье указано, что с начала года на дорогах погибло 121 человек (против 99 в тот же период прошлого года) и подчёркивается рост числа смертей. Это )
+Posted (Top FM): Безопасность на дорогах: 121 погибший на наших дорогах с начала года
+  dup check: new (В статье упоминается, что экзамены PSAC проходят в особом контексте этого года из-за недавних закрытий школ, которые нарушили подготовку учеников. При)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Экзамены PSAC: тысячи школьников на Маврикии начинают испытания в этот четверг
+LLM usage this run: 10 requests, 18525 tokens
