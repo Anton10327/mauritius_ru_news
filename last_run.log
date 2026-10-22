@@ -14,3 +14,20 @@ Skipped duplicate (Le Mauricien): CYBERCRIME UNIT — Inculpé provisoirement so
   dup: nothing new ()
 Skipped duplicate (L'Express): Écoutes téléphoniques : Pravind Jugnauth a répondu «à sa façon, mais n’a pas gardé le sile == Расследование по прослушивающему оборудованию: Pravind Jugnauth ответил на 37 вопросов CCI
 LLM usage this run: 7 requests, 15303 tokens
+### check 2/5 at 11:35
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup check: new (Le programme détaillé des épreuves du PSAC : le français et les sciences le 22 octobre, l’anglais le 23 octobre, puis l’histoire‑géographie et les lan)
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): PSAC: французский язык и науки в расписании на этот четверг
+  dup check: new (Appeal by the Director of Public Prosecutions to increase Wazil Ally Meerkhan’s sentence for the 2020 murder of WPC Dimple Raghoo from 23 to 30 years.)
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Апелляционный суд — убийство констебля полиции Dimple Raghoo — генпрокурор: увеличить срок Meerkhan до 30 лет вместо 23!
+  dup check: new (Fréquence annuelle des épisodes de chaleur extrême passée de ~5 événements dans les années 1960 à 102 au cours de la décennie actuelle, selon une enqu)
+  not about Mauritius: Climat : des épisodes de chaleur plus étendus soulèvent de nouvelles inquiétudes
+Skipped foreign news (Inside News): Climat : des épisodes de chaleur plus étendus soulèvent de nouvelles inquiétudes
+  dup check: new (Protests by French students against study conditions and cost of living turned violent with riots, looting and over 2,000 arrests; US President Donald)
+  not about Mauritius: Emeutes en France - propos controversés de Donald Trump : Emmanuel Macron recadre le président des E
+Skipped foreign news (Top FM): Emeutes en France - propos controversés de Donald Trump : Emmanuel Macron recadre le président des E
+LLM usage this run: 10 requests, 23109 tokens
