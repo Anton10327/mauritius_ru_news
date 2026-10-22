@@ -1,26 +1,16 @@
-### check 1/5 at 10:45
+### check 1/5 at 11:31
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Arrest of a 34‑year‑old detainee who escaped from the Barkly police station during the October 12‑13 riots; he was recaptured by the CID of Quatre‑Bor)
+  proofread by qwen/qwen3.8-27b
+  proofread: БАРКЛИ → BARKLY; CID Quatre-Bornes → Criminal Investigation Division Quatre-Bornes
+Posted (Le Mauricien): BARKLY: задержан после побега во время беспорядков
+  dup check: new (Сержант Гаутам Сингх Таукур был вчера допрошен IPCC в течение более пяти часов, ему показали кадры с камер наблюдения в Camp‑Levieux; адвокат Me Vyas )
+  proofread by qwen/qwen3.8-27b
+  proofread: Элои Тома → Élodie Thomas; Таукур → Taukoor; IPCC → комиссия по жалобам на полицию (IPCC); Kamp-Levieux → Camp-Levieux; Ratsitatane → Ratsitatane; Tribeca Mall → Tribeca Mall; Moka Detention Centre → Moka Detention Centre
+Posted (Le Mauricien): Camp-Levieux — выстрел, ранивший Élodie Thomas: допрос сержанта Taukoor в IPCC длился более пяти часов
+  same headline as #63: INCULPÉ SOUS LE POTA : Akshaye Boodhun, un collégien de 18 ans, admet être à l’o
+Skipped duplicate (Le Mauricien): CYBERCRIME UNIT — Inculpé provisoirement sous la PoTA : Akshaye Boodhun, 18 ans, revendiqu == Предварительно обвинённый по закону о борьбе с терроризмом: Akshaye Boodhun, 18-летний уче
   dup: nothing new ()
-Skipped duplicate (L'Express): The AI Play: What is at stake for investors? == Двадцать четыре свидетеля заслушаны, решение по 12 обвиняемым ожидается в среду
-  dup check: new (Статья сообщает о проведении встречи COMESA Green Industries Connect 19 октября в Хараре, где обсуждается развитие экономики замкнутого цикла и создан)
-  proofread: «устойчивое производство» → «устойчивое производство и цепочки создания стоимости»; «сближение бизнеса, инвесторов и властей» → «сближение бизнеса, инвесторов и властей»
-Posted (Inside News): Экономика замкнутого цикла: COMESA хочет превратить отходы в промышленные возможности
-LLM usage this run: 4 requests, 7142 tokens
-### check 2/5 at 10:49
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-Posted (Defimedia): Перепрограммированные экзамены: Министерство образования публикует руководство, чтобы помочь ученикам лучше справляться со стрессом
-  dup check: new (В статье указано, что в 2026 году ожидается 16 275 кандидатов на экзамен PSAC (против 14 842 в 2025), то есть рост на 1 433 кандидата. Также уточнено )
-  proofread: «Rodrigues» → «Родригес»; "les épreuves écrites débutent ce jeudi" → "письменные экзамены стартуют в четверг"; "contre 14 842 en 2025" → "чем в 2025 году"
-Posted (Top FM): PSAC 2026: 16 275 кандидатов ожидают с четверга, 22 октября, задействовано 362 центра
-LLM usage this run: 5 requests, 10005 tokens
-### check 3/5 at 10:53
-### check 4/5 at 10:57
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Объявлено о более чем 50 категориях вакансий на Маврикии с конкретными секторами (образование, здравоохранение, инженерия и др.), указаны сроки подачи)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Работа на Маврикии: объявлено более 50 категорий должностей, приём заявок закрывается уже 26 октября
-LLM usage this run: 3 requests, 6838 tokens
-### check 5/5 at 11:01
+Skipped duplicate (L'Express): Écoutes téléphoniques : Pravind Jugnauth a répondu «à sa façon, mais n’a pas gardé le sile == Расследование по прослушивающему оборудованию: Pravind Jugnauth ответил на 37 вопросов CCI
+LLM usage this run: 7 requests, 15303 tokens
