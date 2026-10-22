@@ -24,3 +24,9 @@ Skipped duplicate (Top FM): 🌡Bulletin prévision pour Maurice de ce jeudi 22 
   not news (portrait/lifestyle): An eight-pillar strategy for national water security
 Skipped foreign news (L'Express): An eight-pillar strategy for national water security
 LLM usage this run: 4 requests, 8977 tokens
+### check 3/5 at 07:10
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new (Премьер-министр Маврикия Navin Ramgoolam объявил о создании межминистерского комитета по водному кризису и назначил первое заседание на 22 октября. В )
+Skipped duplicate (Top FM): Crise de l’eau : Navin Ramgoolam réunit huit ministères ce jeudi pour examiner les solutio == Водный кризис: Ramgoolam возглавит чрезвычайный комитет, жители ждут результатов
+LLM usage this run: 1 requests, 2301 tokens
