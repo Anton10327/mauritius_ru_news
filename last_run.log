@@ -10,3 +10,18 @@ Skipped foreign news (Defimedia): Podcast Episode 3: Nursery & Pre-Primary Educa
   not about Mauritius: Échos de l’Éducation – Episode 1 Dukesbridge: Rishi & Shannon
 Skipped foreign news (Defimedia): Échos de l’Éducation – Episode 1 Dukesbridge: Rishi & Shannon
 LLM usage this run: 3 requests, 6392 tokens
+### check 2/5 at 13:05
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup: nothing new ()
+Skipped duplicate (L'Express): Cyclisme : Belle première pour Alexandre Mayer, Tristan Hardy conserve son titre == Велоспорт – Чемпионаты Африки на шоссе: золото для Tristan Hardy, серебро для Halbwachs-Li
+  not about Mauritius: Échos Dukesbridge –  Episode 2: Lucas
+Skipped foreign news (Defimedia): Échos Dukesbridge –  Episode 2: Lucas
+  dup check: new (Investissements à Maurice : portefeuille déclaré de Rs 649,7 milliards, dont seulement Rs 138,8 milliards déjà dépensés; nouvelles statistiques sur le)
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): Инвестиции на Маврикии: заявлено проектов на 649,7 млрд рупий, но сколько из них действительно реализовано?
+  dup check: new (S.H. suspected of ordering pillaging acts through ‘jockeys’ (new allegation of involvement of jockeys).)
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Грабежи и беспорядки в Bambous: S.H. подозревают в организации действий с привлечением «жокеев»
+LLM usage this run: 8 requests, 17037 tokens
