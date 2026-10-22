@@ -31,3 +31,14 @@ Skipped foreign news (Inside News): Climat : des épisodes de chaleur plus éten
   not about Mauritius: Emeutes en France - propos controversés de Donald Trump : Emmanuel Macron recadre le président des E
 Skipped foreign news (Top FM): Emeutes en France - propos controversés de Donald Trump : Emmanuel Macron recadre le président des E
 LLM usage this run: 10 requests, 23109 tokens
+### check 3/5 at 11:39
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (Top FM): Réforme du cannabis à Maurice : un comité d’experts passe au crible les modèles de décrimi == Политика в отношении каннабиса: Национальная комиссия по контролю над наркотиками вынесет 
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup check: new (Le ministre de l’Éducation, Mahen Gungapersad, a salué publiquement les propos de l’auteur Shiv Khera sur l’importance du caractère d’un dirigeant lor)
+  proofread by qwen/qwen3.8-27b
+  proofread: Махен Гунгареперсад → Mahen Gungapersad; Шива Кхеры → Shiv Khera; Шива Кхера → Shiv Khera
+Posted (Top FM): Mahen Gungapersad поддержал видение Shiv Khera о важности лидерства
+LLM usage this run: 4 requests, 8212 tokens
