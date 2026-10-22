@@ -27,3 +27,13 @@ LLM usage this run: 8 requests, 18623 tokens
   proofread: Осман Махомед → Osman Mahomed
 Posted (L'Express): Электронные платежи в автобусах: получены три заявки
 LLM usage this run: 3 requests, 5882 tokens
+### check 5/5 at 17:02
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup check: new (Interception of 44 drug packets (cocaïne and haschich) valued at Rs 5.67 million at Plaisance airport, involving a 21‑year‑old French passenger.)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Плейнсенс → Plaisance
+Posted (Defimedia): Аэропорт Plaisance: перехвачено наркотиков на сумму 5,67 млн рупий
+LLM usage this run: 3 requests, 5746 tokens
