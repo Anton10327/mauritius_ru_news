@@ -1,9 +1,5 @@
 """1) GigaChat model list; 2) duplicate check: Lite vs Pro on the last 48h (posts nothing)."""
 import json, requests, bot
-tok = bot._giga_token()
-r = requests.get("https://api.giga.chat/v1/models", headers={"Authorization": f"Bearer {tok}"},
-                 timeout=30, verify=bot._giga_verify())
-print("models:", [m["id"] for m in r.json().get("data", [])])
 rec = json.load(open(bot.STATE_DIR / "recent.json", encoding="utf-8"))
 res = {}
 for m in ["GigaChat-3-Pro", "GigaChat-3-Lightning", "GigaChat-2"]:
