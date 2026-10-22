@@ -1,39 +1,20 @@
-### check 1/5 at 16:46
+### check 1/5 at 17:30
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (13 accidents mortels et 124 accidents non mortels enregistrés dans le secteur de la construction entre janvier 2024 et le 15 octobre 2026, 1 655 inspe)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): На стройках Маврикия с января 2024 года зафиксировано 137 несчастных случаев
-  dup check: new (Confirmed imported case of Bundibugyo Ebola virus in Abuja, Nigeria; patient arrived 3 Oct, symptoms 11 Oct, lab confirmation 20 Oct; 44 contacts bein)
-Bad LLM answer from GigaChat-2-Max: Expecting ',' delimiter: line 28 column 6 (char 469); raw: {"choices":[{"message":{"content":"{\n  \"mauritius\": false,\n  \"news\": true,\n  \"names\": [\n    {\n      \"orig\": \"Africa CDC\",\n      \"type\": \"org\"\n    },\n    {\n      \"orig\": \"République démocratique du Congo\",\n      \"type\": \"foreign\",\n      \"ru\": \"ДР Конго\"\n    },\n 
+  dup check: new (Sydney Pierre заявляет, что хотя он сидит рядом с Fron Militan Progresis (FMP) в Национальном собрании, он ещё не вступил в эту партию.)
+LLM request failed (GigaChat-2-Max): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7fb0cc089e
   written by qwen/qwen3.8-27b
-  not about Mauritius: Ebola atteint le Nigeria : l’Afrique convoque une réunion d’urgence
-Skipped foreign news (Inside News): Ebola atteint le Nigeria : l’Afrique convoque une réunion d’urgence
-Duplicate check: limit reached for openai/gpt-oss-120b
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Le vice-président exige que la croissance des entreprises respecte les travailleurs et les == Robert Hungley: «Экономический рост должен уважать работников»
-  dup: nothing new ()
-Skipped duplicate (Top FM): Examens de Cambridge annulés : comment les notes des candidats seront-elles calculées ? Ex == SC и HSC — экзамены отменены: ожидается заявление MES
-LLM usage this run: 8 requests, 18623 tokens
-### check 2/5 at 16:50
-### check 3/5 at 16:54
-### check 4/5 at 16:58
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Le ministre du Transport terrestre Osman Mahomed a annoncé que trois offres ont été reçues suite à l’appel d’offres international lancé en juillet pou)
-  written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Осман Махомед → Osman Mahomed
-Posted (L'Express): Электронные платежи в автобусах: получены три заявки
-LLM usage this run: 3 requests, 5882 tokens
-### check 5/5 at 17:02
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Posted (L'Express): Sydney Pierre: «Я пока не вступил в партию Fron Militan Progresis»
+  dup check: new (Un mort et huit blessés lors d'une attaque contre l'aéroport international King Fahd de Dammam en Arabie saoudite, avec des détails sur la victime déc)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Arabie saoudite : un mort et huit blessés dans une attaque contre l’aéroport de Dammam
+Skipped foreign news (Inside News): Arabie saoudite : un mort et huit blessés dans une attaque contre l’aéroport de Dammam
 Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (Interception of 44 drug packets (cocaïne and haschich) valued at Rs 5.67 million at Plaisance airport, involving a 21‑year‑old French passenger.)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Плейнсенс → Plaisance
-Posted (Defimedia): Аэропорт Plaisance: перехвачено наркотиков на сумму 5,67 млн рупий
-LLM usage this run: 3 requests, 5746 tokens
+  dup check: new (Me Satyajit Boolell, président de la National Human Rights Commission (NHRC), qualifie l’affaire d’atroce et de scandaleuse, et l’alerte de Pédostop e)
+  written by qwen/qwen3.8-27b
+Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
+Posted (Top FM): Дело о предполагаемом насилии над 6-летней девочкой: Pédostop призывает не распространять видео
+  dup: nothing new ()
+Skipped duplicate (Top FM): Abus sexuels présumés sur une fillette de 6 ans : mobilisation citoyenne dans les secteurs == Полицейская и гражданская мобилизация для поиска мужчины, подозреваемого в сексуальных дом
+LLM usage this run: 8 requests, 18494 tokens
