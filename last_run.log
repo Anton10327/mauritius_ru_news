@@ -1,17 +1,1 @@
-### check 1/5 at 05:52
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-GigaChat balance: GigaChat-Ultra 49,120,929, GigaChat-Pro 39,162,803, GigaChat-Max 24,995,934, GigaChat 249,987,840; 363 days to go
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Le vice-Premier ministre condamne l’abus sexuel impardonnable d’une fillette de six ans == Сексуальное насилие над шестилетней девочкой: «Непростительно», — отреагировала Deputy Pri
-LLM usage this run: 1 requests, 2105 tokens
-### check 2/5 at 05:56
-### check 3/5 at 06:00
-### check 4/5 at 06:04
-Could not read Wazaa: ChunkedEncodingError Response ended prematurely
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (L'Express): En couverture : Les grands titres de l'express de ce jeudi 22 octobre 2026 == Главные заголовки L'Express за вторник, 20 октября 2026 года
-LLM usage this run: 1 requests, 2205 tokens
-### check 5/5 at 06:08
+### check 1/5 at 06:25
