@@ -80,7 +80,9 @@ GIGA_OAUTH = "https://ngw.devices.sberbank.ru:9443/api/v2/oauth"
 # the daily budget is recomputed every day from the remaining balance
 GIGA_UNTIL = "2027-10-20"
 GIGA_BALANCE_URL = "https://api.giga.chat/v1/balance"
-GIGA_DAILY_CAP = {"GigaChat-3-Ultra": 135_000, "GigaChat-3-Pro": 105_000}  # if the balance is unknown
+# Writers in order: Ultra, then Max (its own package), then Pro
+GIGA_DAILY_CAP = {"GigaChat-3-Ultra": 135_000, "GigaChat-2-Max": 68_000,
+                  "GigaChat-3-Pro": 105_000}  # used only if the balance is unknown
 SUMMARY_MODELS = ([m for m in GIGA_DAILY_CAP] if GIGA_KEY else []) + \
                  (LLM_MODELS if LLM_KEY else [])
 # Proofreading pass. Only Qwen: in tests gpt-oss over-edited and changed meaning
