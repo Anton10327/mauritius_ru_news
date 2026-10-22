@@ -10,3 +10,22 @@ LLM usage this run: 3 requests, 6383 tokens
 ### check 2/5 at 18:59
 ### check 3/5 at 19:03
 ### check 4/5 at 19:07
+### check 5/5 at 19:11
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Le ministre des Infrastructures nationales Ajay Gunness a de nouveau plaidé non coupable le 22 octobre 2026 devant la cour de Curepipe après que le de)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Суд над министром Ajay Gunness: изменено второе обвинение
+  dup check: new (Three new formal trials were launched on 22 october before the intermediate court for incidents that occurred 12‑15 october 2026. The first case invol)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Эшли Линди Дюваля → Ashley Lindsy Duval
+Posted (Defimedia): Инциденты 12–15 октября: три новых дела в промежуточном суде
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup check: new (14 boreholes mobilised since 13 Oct in Plaines‑Wilhems, 10 reservoirs of 30 000 litre installed by CWA, 8 000 m³/day from mobile stations, trucks‑cite)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+Posted (Defimedia): Водный кризис: объявлены меры по укреплению водоснабжения
+LLM usage this run: 9 requests, 15170 tokens
