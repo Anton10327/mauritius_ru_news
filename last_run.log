@@ -1,31 +1,18 @@
-### check 1/5 at 18:55
+### check 1/5 at 19:30
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Announcement of mobilising 14 new boreholes and an additional 10 000 m³ of water to be supplied to La Marie starting next week, as decided in the inte)
+  dup check: new (Le ministre de la Santé Anil Bachoo a indiqué que 7 674 mammographies ont été réalisées dans les établissements publics entre 2021 et 2025 et a annonc)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамгулам → Navin Ramgoolam; Ла Мари → La Marie
-Posted (L'Express): Водный кризис: задействованы 14 скважин, ожидается дополнительная вода в объёме 10 тысяч кубометров в неделю
-LLM usage this run: 3 requests, 6383 tokens
-### check 2/5 at 18:59
-### check 3/5 at 19:03
-### check 4/5 at 19:07
-### check 5/5 at 19:11
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Le ministre des Infrastructures nationales Ajay Gunness a de nouveau plaidé non coupable le 22 octobre 2026 devant la cour de Curepipe après que le de)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Суд над министром Ajay Gunness: изменено второе обвинение
-  dup check: new (Three new formal trials were launched on 22 october before the intermediate court for incidents that occurred 12‑15 october 2026. The first case invol)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Эшли Линди Дюваля → Ashley Lindsy Duval
-Posted (Defimedia): Инциденты 12–15 октября: три новых дела в промежуточном суде
+  proofread: Аниль Бачо → Anil Bachoo; Роз-Белль → Rose-Belle
+Posted (L'Express): Борьба с раком груди: больше обследований и усилий по улучшению доступа к диагностике
+Bad LLM answer from GigaChat-2-Max: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"К сожалению, иногда генеративные языковые модели могут создавать некорректные ответы, основанные на открытых источниках. Во избежание неправильного толкования, ответы на вопросы, связанные с чувствительными темами, временно ограничены. Благодарим за понимание.","ro
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Ukraine : Poutine met en garde contre une guerre mondiale, Zelensky ouvre la voie à un compromis
+Skipped foreign news (Inside News): Ukraine : Poutine met en garde contre une guerre mondiale, Zelensky ouvre la voie à un compromis
 Duplicate check: limit reached for openai/gpt-oss-120b
-  dup check: new (14 boreholes mobilised since 13 Oct in Plaines‑Wilhems, 10 reservoirs of 30 000 litre installed by CWA, 8 000 m³/day from mobile stations, trucks‑cite)
+  dup check: new (Les activités boursières de la semaine ont été dominées par les Blue chips, avec 5,6 millions de titres échangés pour un montant total de Rs 165,4 mil)
   written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: 
-Posted (Defimedia): Водный кризис: объявлены меры по укреплению водоснабжения
-LLM usage this run: 9 requests, 15170 tokens
+  not news (portrait/lifestyle): Analyse boursière : Les Blue chips mobilisent l’essentiel des échanges
+Skipped foreign news (L'Express): Analyse boursière : Les Blue chips mobilisent l’essentiel des échanges
+LLM usage this run: 7 requests, 15027 tokens
