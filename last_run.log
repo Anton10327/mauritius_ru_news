@@ -38,3 +38,12 @@ LLM usage this run: 8 requests, 15714 tokens
   proofread: edit rejected (changed numbers, names or length)
 Posted (L'Express): Погода: сегодня днём ожидаются локальные ливни
 LLM usage this run: 3 requests, 6166 tokens
+### check 5/5 at 09:42
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Meta и её платформы Instagram и Facebook стали объектом коллективного иска в Австралии из-за предполагаемого вреда детям, что подтверждается заявление)
+  not about Mauritius: Australie : Meta visé par une action de groupe pour son impact sur les enfants
+Skipped foreign news (Defimedia): Australie : Meta visé par une action de groupe pour son impact sur les enfants
+  dup check: new (В статье приведены новые прогнозы по урожаю: производство личи в 2026 году ожидается на уровне 600 тонн (падение на 90% к 2025), а манго — снижение на)
+Posted (Defimedia): Летние фрукты: почему урожаи личи и манго должны сократиться
+LLM usage this run: 5 requests, 10802 tokens
