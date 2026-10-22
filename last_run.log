@@ -1,49 +1,10 @@
-### check 1/5 at 09:26
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+### check 1/5 at 10:02
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:435: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье упоминается, что депутат Joanna Bérenger из FMP задала премьер-министру Navin Ramgoolam вопрос о местонахождении пропавшей Monowara Begum и м)
-  proofread: Joanna Bérenger → Жоанна Беренже; Fron Militan Progresis (FMP) → Fron Militan Progresis; Navin Ramgoolam → Навин Рамгулам; Monowara Begum → Моновара Бегум; Beau-Bassin → Бо-Бассен
-Posted (Le Mauricien): PMQT | Бывшая сиделка семьи Uteem: никаких следов Monowaráры Begum, пропавшей без вести с 3 апреля
-  dup check: new (Организация LespriSEXY впервые публично выступила с призывом к национальной мобилизации и усилению цифрового образования для защиты детей от опасносте)
-Posted (Le Mauricien): Видео несовершеннолетних в соцсетях: LespriSEXY требует усилить цифровое просвещение
-  dup check: new (В статье сообщается о создании Высокой министерской комиссии по водному кризису под председательством премьер-министра, включающей восемь министров. Э)
-Proofreading GigaChat-3-Pro failed: Expecting ',' delimiter: line 1 column 785 (char 784)
-  proofread by qwen/qwen3.8-27b
-  proofread: Маврикия → Mauritius; Маврикия → Mauritius; Маврикия → Mauritius
-Posted (Le Mauricien): Водная чрезвычайная ситуация на Mauritius: восьмиступенчатая стратегия национальной водной безопасности — Часть 1: Расширение поставок до углубления кризиса
-  dup check: new (В статье указано, что 1842 человека подали свои мнения в Technical Working Group по вопросу каннабиса и что были собраны экспертные заключения иностра)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): PMQT — Борьба с наркотиками: доклад о каннабисе рассмотрят на следующем заседании NDCC
-LLM usage this run: 13 requests, 25067 tokens
-### check 2/5 at 09:30
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье сообщается о новой мобилизации полиции и гражданских лиц вечером 21 октября в Cassis для поиска Франсуа Векранжа, включая описание его внешно)
-  not about Mauritius: Cassis : Une mobilisation policière et citoyenne pour retrouver François Veckranges
-Skipped foreign news (L'Express): Cassis : Une mobilisation policière et citoyenne pour retrouver François Veckranges
-  dup check: new (В статье анонсирован Национальный форум морских наук (National Ocean Science Forum), который пройдёт 28–29 января 2027 года в Réduit, с указанием мест)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Морские науки: исследователей приглашают подать доклады на форум 2027 года
+Duplicate check GigaChat-3-Pro failed 429: {"status":429,"message":"Too Many Requests"}
+
   dup: nothing new ()
-Skipped duplicate (L'Express): La paix n’est pas un argument partisan == Дело Élodie Thomas: троих полицейских освободили под залог, Taukoor оставлен под стражей
-  dup check: new (Вице-президент Роберт Хангли осудил стигматизацию жителей рабочих кварталов, что является новым заявлением высокопоставленного лица по теме прав челов)
-  not about Mauritius: Charte africaine des droits de l’homme et des peuples — 40e anniversaire : Le VP Hungley dénonce la 
-Skipped foreign news (Le Mauricien): Charte africaine des droits de l’homme et des peuples — 40e anniversaire : Le VP Hungley dénonce la 
-LLM usage this run: 8 requests, 15714 tokens
-### check 3/5 at 09:34
-### check 4/5 at 09:38
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье сообщается о локальных дождях, ожидаемых в этот четверг 22 октября на западе, юго-западе и центральном плато Маврикия. Это новый прогноз пого)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Погода: сегодня днём ожидаются локальные ливни
-LLM usage this run: 3 requests, 6166 tokens
-### check 5/5 at 09:42
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:432: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Meta и её платформы Instagram и Facebook стали объектом коллективного иска в Австралии из-за предполагаемого вреда детям, что подтверждается заявление)
-  not about Mauritius: Australie : Meta visé par une action de groupe pour son impact sur les enfants
-Skipped foreign news (Defimedia): Australie : Meta visé par une action de groupe pour son impact sur les enfants
-  dup check: new (В статье приведены новые прогнозы по урожаю: производство личи в 2026 году ожидается на уровне 600 тонн (падение на 90% к 2025), а манго — снижение на)
-Posted (Defimedia): Летние фрукты: почему урожаи личи и манго должны сократиться
-LLM usage this run: 5 requests, 10802 tokens
+Skipped duplicate (Wazaa): Enquête urgente de la police après la découverte du corps d’une jeune fille de 17 ans dans == Baie-du-Tombeau: 17-летнюю девушку нашли мёртвой в заброшенном доме
+  dup: nothing new ()
+Skipped duplicate (L'Express): Disparition d’une ressortissante Bangladaise : toujours recherchée depuis avril par la pol == Бангладешская гражданка пропала без вести с 3 апреля: отъезд с Маврикия не зафиксирован
+LLM usage this run: 2 requests, 4789 tokens
