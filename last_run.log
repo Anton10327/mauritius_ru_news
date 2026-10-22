@@ -19,3 +19,10 @@ Posted (Defimedia): CERT-MU предупреждает об опасных уя�
   not about Mauritius: Virus Shamonda : ce que l’on sait du premier cas humain documenté
 Skipped foreign news (Defimedia): Virus Shamonda : ce que l’on sait du premier cas humain documenté
 LLM usage this run: 9 requests, 18287 tokens
+### check 2/5 at 14:58
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Duplicate check: limit reached for openai/gpt-oss-120b
+  dup: nothing new ()
+Skipped duplicate (L'Express): PQ | Organisations internationales : Rodrigues parmi les bénéficiaires == Маврикий и международные организации: выгоды, но и вызовы, которые предстоит преодолеть
+LLM usage this run: 1 requests, 2382 tokens
