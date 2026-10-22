@@ -18,3 +18,9 @@ Skipped foreign news (L'Express): Analyse boursière : Les Blue chips mobilisent
 LLM usage this run: 7 requests, 15027 tokens
 ### check 2/5 at 19:34
 ### check 3/5 at 19:38
+### check 4/5 at 19:42
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Dr Vasoodeven Vuddamalay, anthropologue : « Il faut, à tout prix, lutter contre une ethnic == Бедность: затронуты 130 000 маврикийцев
+LLM usage this run: 1 requests, 2488 tokens
