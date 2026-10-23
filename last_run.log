@@ -18,3 +18,6 @@ LLM usage this run: 6 requests, 10453 tokens
 ### check 2/5 at 19:38
 ### check 3/5 at 19:42
 Could not read Top FM: ReadTimeout HTTPSConnectionPool(host='topfm.mu', port=443): Read timed out. (read timeout=30)
+### check 4/5 at 19:46
+Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
+Could not read Top FM: ReadTimeout HTTPSConnectionPool(host='topfm.mu', port=443): Read timed out. (read timeout=30)
