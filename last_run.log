@@ -1,11 +1,13 @@
-### check 1/5 at 07:26
-### check 2/5 at 07:30
-### check 3/5 at 07:34
-### check 4/5 at 07:38
-### check 5/5 at 07:42
+### check 1/5 at 08:04
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье впервые упоминается новый доклад Charles Telfair Centre с конкретным показателем гендерного разрыва в оплате труда — 20,9% на Маврикии. Указа)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Гендерное равенство: что означает разрыв в зарплатах 20,9% на Маврикии?
-LLM usage this run: 3 requests, 6312 tokens
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Blog] Les pesticides à Maurice : assez de débats, place aux solutions ! == Pesticides: в перце обнаружены остатки в концентрации более чем в 317 раз выше допустимого
+  dup: nothing new (Премьер-министр Навин Рамгулам внёс в секретариат Национальной ассамблеи предложение о создании Select Committee для изучения проблемы подростковой пр)
+Skipped duplicate (Le Mauricien): ASSEMBLÉE NATIONALE — Mardi prochain : Mineurs émeutiers : motion sur le Select Committe à == Юношеская преступность: Navin Ramgoolam предлагает создать парламентский комитет для изуче
+  dup check: new (В статье приведены новые точные уровни заполнения трёх водохранилищ: Mare-aux-Vacoas — 33,9 % (на 22 октября 2026), La Nicolière — 39,2 %, La Ferme — )
+  proofread: уровень воды ... упал → уровень воды ... снизился
+Posted (Top FM): Засуха: три резервуара около 30 %, тревога нарастает
+  dup: nothing new ()
+Skipped duplicate (Top FM): Réseaux sociaux et jalousie dans le couple : quand un simple « like » déclenche des confli == Предварительно обвинённый по закону о борьбе с терроризмом: Akshaye Boodhun, 18-летний уче
+LLM usage this run: 6 requests, 11426 tokens
