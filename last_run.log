@@ -11,3 +11,15 @@ Posted (L'Express): Coromandel: 77-летняя женщина умерла че
   dup check: new (В статье сообщается о краже предметов на сумму 1 миллион рупий из дома в Plaine-Verte, произошедшей между 20 и 22 октября. Указаны конкретные украденн)
 Posted (Defimedia): Plaine-Verte: кража имущества на сумму 1 миллион рупий в доме
 LLM usage this run: 8 requests, 11375 tokens
+### check 2/5 at 09:56
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Проведено около 400 консультаций и 140 офтальмологических операций на Маврикии в рамках миссии французского профессора Stéphanie Baillif; министр здра)
+Posted (Le Mauricien): Офтальмология: 140 операций и 400 консультаций проведены благодаря французскому опыту
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Un ressortissant français arrêté à l’aéroport de Plaisance après avoir avalé des drogues d == Аэропорт Plaisance: перехвачено наркотиков на сумму 5,67 млн рупий
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Crise de l’eau : 14 forages, 10 réservoirs et plus de 50 % du volume habituel manque à La  == Водный кризис: задействованы 14 скважин, ожидается дополнительная вода в объёме 10 тысяч к
+  dup: nothing new ()
+Skipped duplicate (Inside News): Sécurité sur les chantiers : 13 morts et 124 accidents non mortels depuis janvier 2024 == На стройках Маврикия с января 2024 года зафиксировано 137 несчастных случаев
+LLM usage this run: 6 requests, 6885 tokens
