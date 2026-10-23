@@ -16,3 +16,10 @@ Posted (Defimedia): Инциденты 13 октября: семерым муж�
 Posted (L'Express): Quatre-Bornes: мужчина тяжело ранен после падения с деревянных лесов
 LLM usage this run: 10 requests, 16627 tokens
 ### check 2/5 at 15:43
+### check 3/5 at 15:47
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Launch of a new onion variety 'Red Ruby' by the Food and Agricultural Research and Extension Institute (FAREI) in Réduit on 22 october 2026, aimed at )
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Местное производство: Red Ruby, новый сорт лука для снижения зависимости от импорта
+LLM usage this run: 3 requests, 4750 tokens
