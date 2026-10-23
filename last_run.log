@@ -1,20 +1,13 @@
-### check 1/5 at 09:11
+### check 1/5 at 09:52
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (В статье указано, что после первых экзаменов PSAC ученики выходили из школ с улыбками и вздохами облегчения; некоторые делились впечатлениями о сложно)
-Skipped duplicate (L'Express): PSAC : premières épreuves pour 16 260 candidats, premier soulagement == PSAC: французский язык и науки в расписании на этот четверг
+  dup: nothing new (В статье указано, что три новых формальных процесса были поданы в промежуточный суд 22 октября 2026 года по инцидентам с 12 по 15 октября. В общей сло)
+Skipped duplicate (Defimedia): Incidents survenus entre le 12 et le 15 octobre 2026 : procès formels contre dix-huit pers == Инциденты 12–15 октября: три новых дела в промежуточном суде
   dup: nothing new ()
-Skipped duplicate (Inside News): State Age Pension : les bureaux de la Sécurité sociale ouverts pendant trois week-ends == Заявки на «State Age Pension»: офисы Службы социального обеспечения будут открыты три выхо
-  dup check: new (В статье указано, что несколько государственных цифровых платформ были временно отключены по соображениям безопасности после обнаружения двух критичес)
-Posted (Inside News): Кибербезопасность: несколько государственных сервисов временно отключены в качестве меры предосторожности
-LLM usage this run: 5 requests, 10137 tokens
-### check 2/5 at 09:15
-### check 3/5 at 09:19
-### check 4/5 at 09:23
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (TIBOK — маврикийская стартап-компания, которая будет представлять страну на мировой арене Startup World Cup 2026 в Сан-Франциско с 4 по 6 ноября. Она )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Startup World Cup 2026: TIBOK продвигает маврикийские инновации в мировой финал
-LLM usage this run: 3 requests, 5455 tokens
-### check 5/5 at 09:27
+Skipped duplicate (Inside News): Marché des changes : la Banque de Maurice injecte 15 millions de dollars == Банк Маврикия продал валюту на сумму $125 млн с января по октябрь
+  dup check: new (Raymonde Lila Samy, 77 ans, est décédée le 22 octobre à l’hôpital Dr A. G. Jeetoo après un accident de la route survenu le 8 octobre à Coromandel; ell)
+  proofread: Корондейл → Коронадель; Port-Louis → Порт-Луи
+Posted (L'Express): Coromandel: 77-летняя женщина умерла через две недели после ДТП
+  dup check: new (В статье сообщается о краже предметов на сумму 1 миллион рупий из дома в Plaine-Verte, произошедшей между 20 и 22 октября. Указаны конкретные украденн)
+Posted (Defimedia): Plaine-Verte: кража имущества на сумму 1 миллион рупий в доме
+LLM usage this run: 8 requests, 11375 tokens
