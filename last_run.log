@@ -5,3 +5,12 @@
 Skipped duplicate (Defimedia): SC/HSC : comment seront attribuées les notes des épreuves annulées ? == Отменённые экзамены 13 октября: Cambridge присваивает оценки на основе экспертной оценки
 LLM usage this run: 1 requests, 2088 tokens
 ### check 2/5 at 06:58
+### check 3/5 at 07:02
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье указано, что два дополнительных проекта по переброске воды в район La Marie запланированы к февралю 2027 года. Это конкретная дата и новые пр)
+Bad LLM answer from GigaChat-3-Ultra: Expecting property name enclosed in double quotes: line 1 column 779 (char 778); raw: {"choices":[{"message":{"content":"{\"mauritius\": true, \"news\": true, \"names\": [{\"orig\": \"La Marie\", \"type\": \"mu_place\", \"ru\": null}, {\"orig\": \"Mare-Longue\", \"type\": \"mu_place\", \"ru\": null}, {\"orig\": \"Mare-aux-Vacoas\", \"type\": \"mu_place\", \"ru\": null}, {\"orig\": \"
+  written by GigaChat-2-Max
+  proofread: 
+Posted (Defimedia): Как правительство планирует усилить водоснабжение Ла Marie
+LLM usage this run: 4 requests, 9376 tokens
