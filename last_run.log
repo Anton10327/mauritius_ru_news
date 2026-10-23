@@ -19,3 +19,11 @@ LLM request failed (GigaChat-2-Max): ReadTimeout HTTPSConnectionPool(host='api.g
   proofread: 
 Posted (Top FM): Усыновление детей на Маврикии: два законопроекта вынесены на общественное обсуждение
 LLM usage this run: 10 requests, 16476 tokens
+### check 2/5 at 20:59
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Информация о текущем положении участников гонки «Fun Rallye 2»: лидер Ritesh Ramdarshan с 108 очками, соперники Xavier Lachkar (90), Shayan Ramdenee ()
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): «Fun Rallye 2» : Décryptage de la course au titre
+Skipped foreign news (L'Express): «Fun Rallye 2» : Décryptage de la course au titre
+LLM usage this run: 2 requests, 3514 tokens
