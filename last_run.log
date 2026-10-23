@@ -1,27 +1,7 @@
-### check 1/5 at 12:06
+### check 1/5 at 12:42
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Joakim, которому скоро исполнится три года, до сих пор не имеет свидетельства о рождении и проживает у своей двоюродной бабушки Nathalie Telcide после)
-  not news (portrait/lifestyle): Joakim, bientôt trois ans : Le combat d’une grande tante pour lui donner une identité
-Skipped foreign news (L'Express): Joakim, bientôt trois ans : Le combat d’une grande tante pour lui donner une identité
-  dup check: new (В статье упоминается, что в повестке дня Национального собрания на следующий вторник запланировано 38 вопросов премьер-министру (PQ) из 89, адресованн)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Национальное собрание — в следующий вторник: 38 парламентских вопросов из 89 в повестке дня, адресованных Ramgoolam
-  dup: nothing new ()
-Skipped duplicate (Top FM): MTPA : fraude, corruption, favoritisme… la FCC épingle les failles dans les procédures de  == MTPA: FCC выявила шесть основных уязвимостей в процедурах закупок
-LLM usage this run: 6 requests, 8746 tokens
-### check 2/5 at 12:10
-### check 3/5 at 12:14
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Festival Nou Leritaz : la mémoire et les traditions vivantes == Festival Nou Leritaz: маврикийское наследие в центре передачи
-LLM usage this run: 1 requests, 1317 tokens
-### check 4/5 at 12:18
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (AGUEDA — тропический шторм, движущийся на запад со скоростью 6 км/ч; по состоянию на 23 октября в 10:00 он находился на координатах 5,7° ю.ш., 49,4° в)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Метеоточка: тропический шторм «Агуэда» движется на запад со скоростью 6 км/ч, влияния на Маскаренские острова не ожидается
-LLM usage this run: 3 requests, 4748 tokens
-### check 5/5 at 12:22
+  dup check: new (В статье упоминается, что Alexandre Mayer впервые завоевал титул чемпиона Африки среди элитных мужчин в индивидуальной гонке с раздельным стартом. Это)
+  proofread: Одри Эльбваш → Одри Эльбвахс
+Posted (Le Mauricien): ВЕЛОСПОРТ — Tristan Hardy сохраняет титул U19, Alexandre Mayer впервые становится чемпионом
+LLM usage this run: 3 requests, 5777 tokens
