@@ -1,33 +1,20 @@
-### check 1/5 at 17:35
+### check 1/5 at 18:18
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Maxi Clean : Le quotidien de ceux qui œuvrent pour un pays propre
-Skipped foreign news (L'Express): Maxi Clean : Le quotidien de ceux qui œuvrent pour un pays propre
-  dup check: new (Premier ministre Navin Ramgoolam a lancé un appel à la « solidarité nationale » lors de la réunion interministérielle, ce qui n’était pas mentionné da)
+  dup check: new (Сержант Гаутам Сингх Таукоор оспаривает версию водителя фургона, отрицает, что направлял оружие в сторону виска Руди Субрайена, и утверждает, что води)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: 
-Posted (Le Mauricien): Премьер-министр Navin Ramgoolam призвал к национальной солидарности на фоне водного кризиса
+Posted (Defimedia): Стрельба в Camp-Levieux: сержант Gautam Singh Taukoor оспаривает показания водителя
+  dup check: new (Corps de Frank Jeffrey Marie, décédé le 3 janvier 2025, est toujours à la morgue près de deux ans après son décès et aucune famille ne l’a réclamé.)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамголам → Navin Ramgoolam; Дачьяна Чолоша → Dacian Cioloș; Моника-Сесилия Ситару → Monica-Cecilia Sitaru
-Posted (L'Express): Navin Ramgoolam встретился с румынским кандидатом на пост генерального секретаря Международной организации франкоязычных стран
-  same headline as #79: Procès d’Ajay Gunness : accusation modifiée, le ministre plaide de nouveau non c
-Skipped duplicate (L'Express): Cour de Curepipe : Ajay Gunness plaide à nouveau non coupable après une accusation modifié == Суд над министром Ajay Gunness: изменено второе обвинение
-LLM usage this run: 6 requests, 9809 tokens
-### check 2/5 at 17:39
-### check 3/5 at 17:43
-### check 4/5 at 17:47
-### check 5/5 at 17:51
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Участие сборной Маврикия в чемпионате мира по «blackball» (20‑28 октября 2026), текущая позиция 8‑я из 14 команд, победа над Индией, комментарии капит)
+  proofread: Фрэнка Джеффри Мари → Frank Jeffrey Marie
+Posted (Defimedia): На Маврикии ищут родственников погибшего в ДТП мужчины, чей труп почти два года находится в морге
+  dup check: new (Découverte d'irrégularités financières de plus de Rs 2,1 millions au sein de La Fraternité mauricienne des malades et handicapés et dépôt d'une plaint)
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): Garish Gujadhur : «L’équipe trouve son rythme et gagne en confiance»
-Skipped foreign news (L'Express): Garish Gujadhur : «L’équipe trouve son rythme et gagne en confiance»
-  dup check: new ( shooting incident in Trappes and La Verrière (Yvelines) on 23 october 2026 resulting in one death and four injuries (including a 12‑year‑old), suspec)
-  written by GigaChat-2-Max
-  not about Mauritius: [VIDEO] France : Trappes–La Verrière frappées par une fusillade, un mort et quatre blessés
-Skipped foreign news (Inside News): [VIDEO] France : Trappes–La Verrière frappées par une fusillade, un mort et quatre blessés
-LLM usage this run: 4 requests, 8118 tokens
+  proofread by qwen/qwen3.8-27b
+  proofread: в полицию Line Barracks → в штаб полиции Line Barracks
+Posted (L'Express): Обнаружены финансовые нарушения на сумму 2,1 млн рупий в благотворительной организации
+  same headline as #101: Assemblée nationale — Mardi prochain : 38 PQ sur 89 à l’ordre du jour adressées 
+Skipped duplicate (Le Mauricien): Assemblée nationale — Mardi prochain : 38 PQ sur 89 à l’ordre du jour adressées à Ramgoola == Национальное собрание — в следующий вторник: 38 парламентских вопросов из 89 в повестке дн
+LLM usage this run: 9 requests, 15495 tokens
