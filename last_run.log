@@ -24,3 +24,12 @@ LLM usage this run: 7 requests, 12995 tokens
 Skipped duplicate (L'Express): Questions à… Myriam Blin : «L’égalité des genres constitue un levier de croissance économi == Гендерное равенство: что означает разрыв в зарплатах 20,9% на Маврикии?
 LLM usage this run: 1 requests, 1497 tokens
 ### check 3/5 at 20:22
+### check 4/5 at 20:26
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Charity Golf Tournament organized by Mont-Choisy raised Rs 607 750 for the Fondation Mère Marie Augustine, marking the 5‑year anniversary of the palli)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+Posted (Le Mauricien): MONT-CHOISY — Благотворительный турнир по гольфу: Fondation Mère Marie Augustine собрал 607 750 рупий
+LLM usage this run: 3 requests, 5450 tokens
