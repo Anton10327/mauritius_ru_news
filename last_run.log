@@ -11,3 +11,17 @@ Posted (Le Mauricien): Полумарафон – в это воскресень
 LLM usage this run: 5 requests, 7539 tokens
 ### check 2/5 at 10:34
 ### check 3/5 at 10:38
+### check 4/5 at 10:42
+  same headline as #146: Coromandel : Une septuagénaire meurt deux semaines après un accident de la route
+Skipped duplicate (Defimedia): Accident à Coromandel : une septuagénaire décède après deux semaines d’hospitalisation == Coromandel: 77-летняя женщина умерла через две недели после ДТП
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Amarjeet Beegoo и Kreepalloo Sunghoon предлагают ввести обязательный полевой журнал для фермеров, а также усилить контроль, обучение и внедрение альте)
+  proofread: Amarjeet Beegoo → Амарджит Бегу; Kreepalloo Sunghoon → Криппаллу Сунхун
+Posted (Defimedia): Остатки пестицидов: Amarjeet Beegoo выступает за обязательное ведение полевого журнала
+  dup check: new (В новой статье указано, что подросток была освобождена из тюрьмы за неделю до обнаружения тела; также уточняется причина смерти — асфиксия вследствие )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Найдена мёртвой в заброшенном доме: подросток вышла из тюрьмы неделю назад
+  dup check: new (COMESA Business Council разрабатывает региональный бизнес-визу для облегчения перемещения предпринимателей и профессионалов между 21 страной-членом; и)
+Posted (Defimedia): В рамках COMESA рассматривается введение деловой визы для облегчения мобильности специалистов
+LLM usage this run: 9 requests, 14115 tokens
