@@ -10,3 +10,10 @@ Skipped duplicate (Defimedia): [Vidéo] Coup de feu à Camp-Levieux : le sergent
 LLM usage this run: 5 requests, 7821 tokens
 ### check 2/5 at 13:22
 ### check 3/5 at 13:26
+### check 4/5 at 13:30
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Brent a atteint 113,17 $ le baril le 22 octobre 2026, hausse d’environ 4 % et risque accru pour la facture énergétique de Maurice.)
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): Нефть: Brent превысил 113 долларов, новое давление для Маврикия
+LLM usage this run: 3 requests, 4692 tokens
