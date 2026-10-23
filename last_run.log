@@ -1,35 +1,12 @@
-### check 1/5 at 11:24
+### check 1/5 at 12:06
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье описан новый инцидент: нападение двух сотрудников приюта для детей со стороны воспитанников в Beau-Bassin, произошедшее 20 октября. Указаны д)
-  proofread: Бо-Бассен → Бо-Бассен
-Posted (Defimedia): В приюте в Beau-Bassin: двое сотрудников подверглись нападению со стороны воспитанников
-  dup: nothing new ()
-Skipped duplicate (L'Express): Pesticides : Arvin Boolell promet de colmater les failles de la loi == Использование пестицидов: Arvin Boolell объявляет об усилении правовой базы и системе QR-к
-  dup check: new (В новой статье указано, что допрос сержанта Gautam Taukoor перед IPCC возобновился в пятницу 23 октября и что на этот раз будут обсуждаться конкретные)
-  proofread: «Using Firearm to Intimidate» → «Использование огнестрельного оружия для устрашения»; "Involuntary Wounds and Blows by Imprudence" → «Непредумышленные ранения и удары по неосторожности"
-Posted (Defimedia): Выстрел в Camp-Levieux: сержанта Taukoor снова допросила комиссия по жалобам на полицию
-Posted (Defimedia): MTPA: FCC выявила шесть основных уязвимостей в процедурах закупок
-LLM usage this run: 9 requests, 13403 tokens
-### check 2/5 at 11:28
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье сообщается о проведении стратегического диалога между Комиссией Индийского океана и Европейским союзом 20 октября в Маврикии, с участием гене)
-  proofread: 
-Posted (L'Express): COI-ЕС: стратегический диалог с прицелом на 2028 год
-  dup check: new (Инцидент с нападением на двух сотрудников Metro-Express (один инспектор билетов и капитан поезда) со стороны четырёх пассажиров, произошедший в среду )
-  proofread: подверглись нападкам → подверглись нападению
-Posted (Le Mauricien): METRO-EXPRESS: двое сотрудников подверглись нападению со стороны четырёх пассажиров
-  dup check: new (В статье упоминается, что в рамках офтальмологической миссии во Франции было проведено 140 операций и 400 консультаций с участием французских специали)
-  not news (portrait/lifestyle): La caricature du Mauricien du 23 octobre 2026
-Skipped foreign news (Le Mauricien): La caricature du Mauricien du 23 octobre 2026
-LLM usage this run: 8 requests, 12860 tokens
-### check 3/5 at 11:32
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Объявлен новый набор в программу Service to Mauritius 2026 с дедлайном подачи заявок до 11 ноября; указаны целевые категории выпускников и перечень во)
+  dup check: new (Joakim, которому скоро исполнится три года, до сих пор не имеет свидетельства о рождении и проживает у своей двоюродной бабушки Nathalie Telcide после)
+  not news (portrait/lifestyle): Joakim, bientôt trois ans : Le combat d’une grande tante pour lui donner une identité
+Skipped foreign news (L'Express): Joakim, bientôt trois ans : Le combat d’une grande tante pour lui donner une identité
+  dup check: new (В статье упоминается, что в повестке дня Национального собрания на следующий вторник запланировано 38 вопросов премьер-министру (PQ) из 89, адресованн)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Service to Mauritius 2026: приём заявок открыт до 11 ноября
-LLM usage this run: 3 requests, 3566 tokens
-### check 4/5 at 11:36
-### check 5/5 at 11:40
+Posted (Le Mauricien): Национальное собрание — в следующий вторник: 38 парламентских вопросов из 89 в повестке дня, адресованных Ramgoolam
+  dup: nothing new ()
+Skipped duplicate (Top FM): MTPA : fraude, corruption, favoritisme… la FCC épingle les failles dans les procédures de  == MTPA: FCC выявила шесть основных уязвимостей в процедурах закупок
+LLM usage this run: 6 requests, 8746 tokens
