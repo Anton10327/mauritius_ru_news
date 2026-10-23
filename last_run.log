@@ -1,3 +1,10 @@
 ### check 1/5 at 05:37
 ### check 2/5 at 05:41
 ### check 3/5 at 05:45
+### check 4/5 at 05:49
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+GigaChat balance: GigaChat-Ultra 48,985,520, GigaChat-Pro 39,006,941, GigaChat-Max 24,914,350, GigaChat 249,660,117; 362 days to go
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La météo du vendredi 23 octobre 2026 == Погода: сегодня днём ожидаются локальные ливни
+LLM usage this run: 1 requests, 2429 tokens
