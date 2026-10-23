@@ -2,3 +2,10 @@
 ### check 2/5 at 07:30
 ### check 3/5 at 07:34
 ### check 4/5 at 07:38
+### check 5/5 at 07:42
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье впервые упоминается новый доклад Charles Telfair Centre с конкретным показателем гендерного разрыва в оплате труда — 20,9% на Маврикии. Указа)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Гендерное равенство: что означает разрыв в зарплатах 20,9% на Маврикии?
+LLM usage this run: 3 requests, 6312 tokens
