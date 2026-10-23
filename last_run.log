@@ -10,3 +10,10 @@ Posted (Inside News): Кибербезопасность: несколько г�
 LLM usage this run: 5 requests, 10137 tokens
 ### check 2/5 at 09:15
 ### check 3/5 at 09:19
+### check 4/5 at 09:23
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (TIBOK — маврикийская стартап-компания, которая будет представлять страну на мировой арене Startup World Cup 2026 в Сан-Франциско с 4 по 6 ноября. Она )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Startup World Cup 2026: TIBOK продвигает маврикийские инновации в мировой финал
+LLM usage this run: 3 requests, 5455 tokens

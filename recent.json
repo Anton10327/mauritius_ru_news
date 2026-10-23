@@ -1069,5 +1069,12 @@
 "source": "Inside News",
 "orig": "Cybersécurité : plusieurs services gouvernementaux suspendus par précaution",
 "summary": "Власти Маврикия временно отключили ряд государственных цифровых платформ после предупреждения о двух критических уязвимостях в языке PHP, известных как «PHP2Shell» (CVE-2026-109618 и CVE-2026-109619). По данным Computer Emergency Response Team of Mauritius (CERT-MU), их уровень серьёзности высок. Отключение, инициированное Government Online Centre (GOC) и Central Information Systems Division (CISD), является превентивной мерой для установки исправлений; подтверждённых взломов или утечек нет. Дата полного восстановления сервисов не уточняется."
+},
+{
+"t": 1792733023.4403923,
+"title": "Startup World Cup 2026: TIBOK продвигает маврикийские инновации в мировой финал",
+"source": "Le Mauricien",
+"orig": "Startup World Cup 2026 : TIBOK propulse l’innovation mauricienne en finale mondiale",
+"summary": "Маврикийская стартап-платформа TIBOK, инкубированная в Turbine и основанная доктором Stéphane Bach, представит Маврикий на мировом финале Startup World Cup в Сан-Франциско с 4 по 6 ноября. Команда выйдет на сцену перед более чем 2500 международными инвесторами с цифровой платформой здравоохранения на базе ИИ My Medical Intelligence. TIBOK ищет партнеров для финансирования поездки и участия делегации."
 }
 ]
