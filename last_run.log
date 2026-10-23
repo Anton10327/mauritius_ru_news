@@ -11,3 +11,10 @@ Posted (Le Mauricien): ИНФОРМАЦИОННЫЕ ПЛАТФОРМЫ — Уя�
 Posted (Wazaa): Cambridge выставит оценочные баллы после отмены 8 экзаменов на Маврикии
 LLM usage this run: 6 requests, 10814 tokens
 ### check 2/5 at 14:00
+### check 3/5 at 14:04
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (12 families have lived for 30 years in the former Dubreuil tea‑factory quarters and are still waiting for legal title to the land; they have launched )
+  not news (portrait/lifestyle): Dubreuil : 30 ans à attendre leur terre
+Skipped foreign news (L'Express): Dubreuil : 30 ans à attendre leur terre
+LLM usage this run: 2 requests, 4412 tokens
