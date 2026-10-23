@@ -14,3 +14,12 @@ Bad LLM answer from GigaChat-3-Ultra: Expecting property name enclosed in double
   proofread: 
 Posted (Defimedia): Как правительство планирует усилить водоснабжение Ла Marie
 LLM usage this run: 4 requests, 9376 tokens
+### check 4/5 at 07:06
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье цитируется заявление министра окружающей среды Rajesh Bhagwan о том, что отзыв Wetlands Bill необходим для согласования с Environment Act 202)
+  proofread: Rajesh Bhagwan → Rajesh Bhagwan; Wetlands Bill → Wetlands Bill; Business Mauritius → Business Mauritius; AHRIM → AHRIM; PNUD → ПРООН; "It is essential that the buy-in of all stakeholders be ensured to avoid practical difficulties in the eventual implementation further down the line" → "Важно обеспеч
+Posted (Le Mauricien): Законопроект о водно-болотных угодьях — Rajesh Bhagwan: «Участие всех заинтересованных сторон необходимо»
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): DIWALI 2026 : La Hindu House lance un appel à la paix et à l’unité nationale == Дивали: Hindu House призывает к миру и единству
+LLM usage this run: 4 requests, 7883 tokens
