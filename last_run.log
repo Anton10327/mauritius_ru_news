@@ -34,3 +34,10 @@ Skipped duplicate (Defimedia): Examens du SC et du HSC : Cambridge maintient le 
 Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
 Posted (Defimedia): Госпитали: привлечение иностранных специалистов для лечения, недоступного на Маврикии
 LLM usage this run: 7 requests, 11408 tokens
+### check 4/5 at 22:09
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  written by qwen/qwen3.8-27b
+  not about Mauritius: [Junior] Manifestations, violences et colère populaire : Quand la rue devient le théâtre des tension
+Skipped foreign news (L'Express): [Junior] Manifestations, violences et colère populaire : Quand la rue devient le théâtre des tension
+LLM usage this run: 1 requests, 2883 tokens
