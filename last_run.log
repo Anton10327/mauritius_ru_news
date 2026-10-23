@@ -19,3 +19,15 @@ LLM usage this run: 6 requests, 9809 tokens
 ### check 2/5 at 17:39
 ### check 3/5 at 17:43
 ### check 4/5 at 17:47
+### check 5/5 at 17:51
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Участие сборной Маврикия в чемпионате мира по «blackball» (20‑28 октября 2026), текущая позиция 8‑я из 14 команд, победа над Индией, комментарии капит)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Garish Gujadhur : «L’équipe trouve son rythme et gagne en confiance»
+Skipped foreign news (L'Express): Garish Gujadhur : «L’équipe trouve son rythme et gagne en confiance»
+  dup check: new ( shooting incident in Trappes and La Verrière (Yvelines) on 23 october 2026 resulting in one death and four injuries (including a 12‑year‑old), suspec)
+  written by GigaChat-2-Max
+  not about Mauritius: [VIDEO] France : Trappes–La Verrière frappées par une fusillade, un mort et quatre blessés
+Skipped foreign news (Inside News): [VIDEO] France : Trappes–La Verrière frappées par une fusillade, un mort et quatre blessés
+LLM usage this run: 4 requests, 8118 tokens
