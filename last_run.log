@@ -1,20 +1,12 @@
-### check 1/5 at 13:18
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+### check 1/5 at 13:56
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье указано, что это пятый процесс по делам о нарушении комендантского часа и перечислены конкретные имена обвиняемых (Louis Abraham Casimir, Sam)
-Posted (Defimedia): Нарушение комендантского часа: пятое дело передано в Промежуточный суд
-  dup: nothing new (В статье упоминается, что отключение затронуло платформы, управляемые Government Online Centre и Central Information Systems Division, а также содержи)
-Skipped duplicate (L'Express): Menace informatique mondiale : Maurice en état d’alerte == Кибербезопасность: несколько государственных сервисов временно отключены в качестве меры п
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Vidéo] Coup de feu à Camp-Levieux : le sergent Taukoor reconduit en détention policière a == Выстрел в Camp-Levieux: сержанта Taukoor снова допросила комиссия по жалобам на полицию
-LLM usage this run: 5 requests, 7821 tokens
-### check 2/5 at 13:22
-### check 3/5 at 13:26
-### check 4/5 at 13:30
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Brent a atteint 113,17 $ le baril le 22 octobre 2026, hausse d’environ 4 % et risque accru pour la facture énergétique de Maurice.)
+  dup check: new (Le ministère des Technologies de l'information, de la communication et de l'innovation a annoncé que plusieurs sites internet et services en ligne du )
   proofread by qwen/qwen3.8-27b
-Posted (Inside News): Нефть: Brent превысил 113 долларов, новое давление для Маврикия
-LLM usage this run: 3 requests, 4692 tokens
-### check 5/5 at 13:34
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): ИНФОРМАЦИОННЫЕ ПЛАТФОРМЫ — Уязвимости безопасности: сайты правительства Маврикия отключены для предотвращения кибератак
+  dup check: new (В статье указано, что отменено 8 экзаменационных компонентов, а вместо их переноса студенты получат «оценённые баллы» именно по сертификатам Certifica)
+  proofread by qwen/qwen3.8-27b
+  proofread: Cambridge выставит оценочные баллы после отмены 8 экзаменов на Маврикии → Cambridge выставит оценочные баллы после отмены 8 экзаменов на Île Maurice; Маврикийский экзаменационный синдикат → Syndicat mauricien des examens
+Posted (Wazaa): Cambridge выставит оценочные баллы после отмены 8 экзаменов на Маврикии
+LLM usage this run: 6 requests, 10814 tokens
