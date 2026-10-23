@@ -8,3 +8,10 @@ Posted (Le Mauricien): Последствия 13 октября — Cambridge: �
 LLM usage this run: 3 requests, 5279 tokens
 ### check 2/5 at 14:32
 ### check 3/5 at 14:36
+### check 4/5 at 14:40
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Новые удары России по Киеву 21‑22 октября, 15 раненых, повреждения метро на Южном мосту; удар по Харькову — 1 погибший, 4 раненых; украинские сотни др)
+  not about Mauritius: Guerre en Ukraine : nouvelles frappes russes sur Kyiv, Moscou visée par des centaines de drones
+Skipped foreign news (Le Mauricien): Guerre en Ukraine : nouvelles frappes russes sur Kyiv, Moscou visée par des centaines de drones
+LLM usage this run: 2 requests, 4508 tokens
