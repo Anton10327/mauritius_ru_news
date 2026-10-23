@@ -1,32 +1,19 @@
-### check 1/5 at 19:34
-Could not read Top FM: ConnectionError HTTPSConnectionPool(host='topfm.mu', port=443): Read timed out.
+### check 1/5 at 20:14
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (L'Express): HSC et SC l  Épreuves annulées du 13 octobre : Cambridge attribuera des notes calculées == Cambridge выставит оценочные баллы после отмены 8 экзаменов на Маврикии
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Conseil des ministres : une prime de Rs 10 000 aux policiers et pompiers mobilisés lors de == Полицейским, бойцам SMF и пожарным выплатят премию в размере 10 тысяч рупий
-  dup check: new (Séisme de magnitude 7,0 au nord du Tibet (près de Nagqu) le 22 octobre 2026, 16 morts, 76 blessés, plus de 12 000 personnes évacuées, 339 habitations )
+  dup check: new (Mobilisation de 70 000 membres des forces de l'ordre en France pour une journée de manifestation très encadrée, ainsi que la première rencontre du pré)
   written by GigaChat-2-Max
-  not about Mauritius: [VIDEOS] Chine : un séisme de magnitude 7 fait 16 morts et 76 blessés au Tibet
-Skipped foreign news (Inside News): [VIDEOS] Chine : un séisme de magnitude 7 fait 16 morts et 76 blessés au Tibet
-  dup check: new (287 incidents signalés après le passage de la tempête tropicale Agueda, incluant glissements de terrain, chutes d’arbres et inondations dans plusieurs)
+  not about Mauritius: Manifestations en France : 70.000 membres des forces de l'ordre mobilisés samedi
+Skipped foreign news (Defimedia): Manifestations en France : 70.000 membres des forces de l'ordre mobilisés samedi
+  dup check: new (Первая партия сорта Red Ruby уже доступна на рынке по субсидированной цене; уточнён период посадки – с апреля по ноябрь, а массовое производство ожида)
   written by GigaChat-2-Max
-  not about Mauritius: Seychelles : 287 incidents signalés après le passage de la tempête tropicale Agueda
-Skipped foreign news (L'Express): Seychelles : 287 incidents signalés après le passage de la tempête tropicale Agueda
-LLM usage this run: 6 requests, 10453 tokens
-### check 2/5 at 19:38
-### check 3/5 at 19:42
-Could not read Top FM: ReadTimeout HTTPSConnectionPool(host='topfm.mu', port=443): Read timed out. (read timeout=30)
-### check 4/5 at 19:46
-Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
-Could not read Top FM: ReadTimeout HTTPSConnectionPool(host='topfm.mu', port=443): Read timed out. (read timeout=30)
-### check 5/5 at 19:50
-Could not read article https://www.inside.news/france-70000-policiers-gendarmes-manifestations-24-octobre/: HTTPSConnectionPool(host='www.inside.news', port=443): Read timed out. (read timeout=30)
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Mobilisation de 70 000 policiers et gendarmes en France pour le week‑end du 24 octobre, dispositif exceptionnel annoncé par le ministre de l’Intérieur)
+  proofread by qwen/qwen3.8-27b
+  proofread: Фрэнсис Дэвид → Fabrice David; Институтом продовольственных исследований и расширения (FAREI) → Food and Agricultural Research and Extension Institute (FAREI)
+Posted (Le Mauricien): На Маврикии представили новый сорт лука Red Ruby
+Could not read article https://lexpress.mu/s/myriam-blin-legalite-des-genres-constitue-un-levier-de-croissance-economique-563963: HTTPSConnectionPool(host='lexpress.mu', port=443): Read timed out. (read timeout=30)
+Site not responding, will retry next check (1/3): https://lexpress.mu/s/myriam-blin-legalite-des-genres-constitue-un-levier-de-croissance-economique-563963
+  dup check: new (Annonce de la quatrième édition du SHE-EO Leadership Bootcamp 2026 et Global Business Exchange, organisée par la Female Founders Initiative Global, qu)
   written by GigaChat-2-Max
-  not about Mauritius: France : 70 000 policiers et gendarmes mobilisés face aux risques de nouvelles violences
-Skipped foreign news (Inside News): France : 70 000 policiers et gendarmes mobilisés face aux risques de nouvelles violences
-LLM usage this run: 2 requests, 4053 tokens
+  not news (portrait/lifestyle): [En images] SHE-EO Leadership Bootcamp 2026 : les femmes entrepreneures réunies à Plaine-Magnien
+Skipped foreign news (Defimedia): [En images] SHE-EO Leadership Bootcamp 2026 : les femmes entrepreneures réunies à Plaine-Magnien
+LLM usage this run: 7 requests, 12995 tokens
