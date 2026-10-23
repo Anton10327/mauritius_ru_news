@@ -1,32 +1,17 @@
-### check 1/5 at 15:39
+### check 1/5 at 16:09
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Police officer allegedly forced a 46‑year‑old resident of Flic‑en‑Flac into a container, beat him and stole Rs 220 000 from his bag at the Wholesale M)
+  dup check: new (Maurice a remporté la médaille d'argent au relais mixte aux Championnats d'Afrique de cyclisme à Kisumu (Kenya) avec un chrono de 56'17, à 12"89 de l')
   proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Избит в контейнере в Belle-Rive: житель Flic-en-Flac утверждает, что у него украли 220 000 рупий
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Maurice-UE : commerce, pêche et sécurité maritime au cœur des échanges == Дипломатия: посол Маврикия в Европейском союзе вручил верительные грамоты
-  dup check: new (Семь обвиняемых признали себя виновными 23 октября 2026 г. и их приговор будет вынесен 26 октября 2026 г. — новые детали по делу, не упомянутые в ране)
+Posted (Le Mauricien): ВЕЛОСПОРТ – Чемпионат Африки 2026 (2-й день): Маврикий уступает корону в смешанной эстафете ЮАР с отставанием в 12 секунд
+  dup check: new (Acquittement de Manisha Devi Ramkhalawan, épouse du constable Ashvin Ramkhalawan, 13 ans après le meurtre du constable en mai 2013 à Roche‑Terre; la C)
   proofread by qwen/qwen3.8-27b
-  proofread: Медине → Médine; Камп-де-Маске → Camp-de-Masque; Бель-Этане → Bel-Étang; Kevin Moorghen → Me Kevin Moorghen; повреждение государственного имущества → damaging public property
-Posted (Defimedia): Инциденты 13 октября: семерым мужчинам объявят приговор в понедельник
-  dup check: new (Man injured in Quatre-Bornes after falling from a wooden scaffold on 21 october; transported to Princess Margaret Orthopaedic Centre; condition now st)
+Posted (L'Express): Тринадцать лет спустя после трагедии: констебль, смертельно заколотый ножом, его жена оправдана
+  dup check: new (Police intensify patrols nationwide after lifting the curfew, deploying additional units to sensitive areas to prevent incidents and reassure the publ)
   proofread by qwen/qwen3.8-27b
-  proofread: Катр-Борн → Quatre-Bornes; получил тяжёлые травмы при падении деревянных лесов → получил тяжёлые травмы при падении с деревянных лесов
-Posted (L'Express): Quatre-Bornes: мужчина тяжело ранен после падения с деревянных лесов
-LLM usage this run: 10 requests, 16627 tokens
-### check 2/5 at 15:43
-### check 3/5 at 15:47
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Launch of a new onion variety 'Red Ruby' by the Food and Agricultural Research and Extension Institute (FAREI) in Réduit on 22 october 2026, aimed at )
+  proofread: Порт-Луи → Port-Louis; центр → marché central
+Posted (Le Mauricien): Закон и порядок — после комендантского часа: полицейские патрули усиливаются
+  dup check: new (Supreme Court sentenced Darcy Roger Addison and Jim Norbert Herry to 20 years each for involvement in an international heroin trafficking operation of)
   proofread by qwen/qwen3.8-27b
-Posted (Top FM): Местное производство: Red Ruby, новый сорт лука для снижения зависимости от импорта
-LLM usage this run: 3 requests, 4750 tokens
-### check 4/5 at 15:51
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Top FM): Agression sexuelle présumée sur une fillette de six ans : Mobilisation citoyenne et présen == Полицейская и гражданская мобилизация для поиска мужчины, подозреваемого в сексуальных дом
-LLM usage this run: 1 requests, 1400 tokens
-### check 5/5 at 15:55
+Posted (Top FM): Трафик героина на 92 млн рупий: 20 лет каторжных работ для двух сообщников сети, руководимой из тюрьмы
+LLM usage this run: 12 requests, 23970 tokens
