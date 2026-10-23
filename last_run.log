@@ -1,12 +1,6 @@
-### check 1/5 at 06:12
+### check 1/5 at 06:54
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (В статье перечислены заголовки и краткие темы, которые уже были опубликованы в канале: PSAC 2026 (16 275 кандидатов), инфляция (+1,7% за квартал, годо)
-Skipped duplicate (L'Express): Les grands titres de l'express de ce vendredi 23 octobre 2026 == Водохранилище Mare-aux-Vacoas может опуститься до 20% к концу ноября
-  dup check: new (В статье приведён новый прогноз роста экономики Маврикия на 2026 год — 2,7% от Всемирного банка. Это конкретная цифра и источник (Всемирный банк), кот)
-Posted (Defimedia): Маврикий: почему Всемирный банк прогнозирует рост на 2,7% в 2026 году
-LLM usage this run: 4 requests, 8430 tokens
-### check 2/5 at 06:16
-### check 3/5 at 06:20
-### check 4/5 at 06:24
-### check 5/5 at 06:28
+  dup: nothing new ()
+Skipped duplicate (Defimedia): SC/HSC : comment seront attribuées les notes des épreuves annulées ? == Отменённые экзамены 13 октября: Cambridge присваивает оценки на основе экспертной оценки
+LLM usage this run: 1 requests, 2088 tokens
