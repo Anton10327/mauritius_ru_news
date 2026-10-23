@@ -21,3 +21,12 @@ Could not read Top FM: ReadTimeout HTTPSConnectionPool(host='topfm.mu', port=443
 ### check 4/5 at 19:46
 Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
 Could not read Top FM: ReadTimeout HTTPSConnectionPool(host='topfm.mu', port=443): Read timed out. (read timeout=30)
+### check 5/5 at 19:50
+Could not read article https://www.inside.news/france-70000-policiers-gendarmes-manifestations-24-octobre/: HTTPSConnectionPool(host='www.inside.news', port=443): Read timed out. (read timeout=30)
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Mobilisation de 70 000 policiers et gendarmes en France pour le week‑end du 24 octobre, dispositif exceptionnel annoncé par le ministre de l’Intérieur)
+  written by GigaChat-2-Max
+  not about Mauritius: France : 70 000 policiers et gendarmes mobilisés face aux risques de nouvelles violences
+Skipped foreign news (Inside News): France : 70 000 policiers et gendarmes mobilisés face aux risques de nouvelles violences
+LLM usage this run: 2 requests, 4053 tokens
