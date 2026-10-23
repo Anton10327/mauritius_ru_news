@@ -1,22 +1,10 @@
-### check 1/5 at 08:36
+### check 1/5 at 09:11
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new (В статье указано, что после первых экзаменов PSAC ученики выходили из школ с улыбками и вздохами облегчения; некоторые делились впечатлениями о сложно)
+Skipped duplicate (L'Express): PSAC : premières épreuves pour 16 260 candidats, premier soulagement == PSAC: французский язык и науки в расписании на этот четверг
   dup: nothing new ()
-Skipped duplicate (Defimedia): Réseaux sociaux : un appel au respect de l’intimité et à l’éducation numérique == Видео несовершеннолетних в соцсетях: LespriSEXY требует усилить цифровое просвещение
-  dup: nothing new (Mauritius Examinations Syndicate официально подтвердил, что отменённые экзамены SC, HSC и квалификации Cambridge не будут перенесены; оценки выставят )
-Skipped duplicate (Inside News): Examens Cambridge annulés : pas de rattrapage, les notes seront calculées selon les règles == Отменённые экзамены 13 октября: Cambridge присваивает оценки на основе экспертной оценки
-LLM usage this run: 2 requests, 4032 tokens
-### check 2/5 at 08:40
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  not about Mauritius: La Réunion : face aux violences urbaines, de nouvelles interdictions sur l’alcool, les carburants et
-Skipped foreign news (L'Express): La Réunion : face aux violences urbaines, de nouvelles interdictions sur l’alcool, les carburants et
-LLM usage this run: 1 requests, 2903 tokens
-### check 3/5 at 08:44
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Inside News): Météo à Maurice ce vendredi : des averses localisées attendues dans l’après-midi == Погода: сегодня днём ожидаются локальные ливни
-LLM usage this run: 1 requests, 2178 tokens
-### check 4/5 at 08:48
-### check 5/5 at 08:52
+Skipped duplicate (Inside News): State Age Pension : les bureaux de la Sécurité sociale ouverts pendant trois week-ends == Заявки на «State Age Pension»: офисы Службы социального обеспечения будут открыты три выхо
+  dup check: new (В статье указано, что несколько государственных цифровых платформ были временно отключены по соображениям безопасности после обнаружения двух критичес)
+Posted (Inside News): Кибербезопасность: несколько государственных сервисов временно отключены в качестве меры предосторожности
+LLM usage this run: 5 requests, 10137 tokens
