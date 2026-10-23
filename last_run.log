@@ -17,3 +17,20 @@ LLM per-minute limit, waiting 5s
 Posted (Defimedia): Социальные беспорядки: Премьер-министр запустит национальные консультации на следующей неделе
 LLM usage this run: 8 requests, 13881 tokens
 ### check 2/5 at 22:01
+### check 3/5 at 22:05
+Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Réforme de l’adoption à Maurice : deux projets de loi soumis à des consultations publiques == Усыновление детей на Маврикии: два законопроекта вынесены на общественное обсуждение
+  dup check: new (Назначение Жерара Буссье на пост Chief Secretary for Resource Mobilisation and Strategic Delivery, его переход из Deputy Financial Secretary, дата наз)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Инвестиционные проекты: Gerard Bussier скоро назначат на стратегическую должность
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Examens du SC et du HSC : Cambridge maintient le recours aux « Assessed Grades » pour les  == Последствия 13 октября — Cambridge: оценочные баллы за пропущенные экзамены
+  dup check: new (Le Conseil des ministres a approuvé le 23 octobre 2026 le "Visiting Doctor Scheme", permettant d’appeler temporairement des médecins spécialistes étra)
+  written by qwen/qwen3.8-27b
+Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
+Posted (Defimedia): Госпитали: привлечение иностранных специалистов для лечения, недоступного на Маврикии
+LLM usage this run: 7 requests, 11408 tokens
