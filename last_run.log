@@ -1,26 +1,10 @@
-### check 1/5 at 12:42
+### check 1/5 at 13:18
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье упоминается, что Alexandre Mayer впервые завоевал титул чемпиона Африки среди элитных мужчин в индивидуальной гонке с раздельным стартом. Это)
-  proofread: Одри Эльбваш → Одри Эльбвахс
-Posted (Le Mauricien): ВЕЛОСПОРТ — Tristan Hardy сохраняет титул U19, Alexandre Mayer впервые становится чемпионом
-LLM usage this run: 3 requests, 5777 tokens
-### check 2/5 at 12:46
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье упоминается, что доклад был представлен 21 октября в Hôtel Voilà à Moka и опубликован Charles Telfair Centre. Также перечислены дополнительны)
-Bad LLM answer from GigaChat-3-Ultra: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"Как и любая языковая модель, GigaChat не обладает собственным мнением и не транслирует мнение своих разработчиков. Ответ сгенерирован нейросетевой моделью, обученной на открытых данных, в которых может содержаться неточная или ошибочная информация. Во избежание неп
-  written by GigaChat-2-Max
-Posted (Wazaa): На Маврикии женщины зарабатывают на 20,9% меньше мужчин
-LLM usage this run: 4 requests, 7639 tokens
-### check 3/5 at 12:50
-### check 4/5 at 12:54
-  same headline as #58: Baie-du-Tombeau : une adolescente de 17 ans retrouvée morte dans une maison aban
-Skipped duplicate (Le Mauricien): BAIE-DU-TOMBEAU : Une ado de 17 ans retrouvée morte dans une maison == Baie-du-Tombeau: 17-летнюю девушку нашли мёртвой в заброшенном доме
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В новой статье сообщается о новом инциденте: 38-летняя женщина-полицейский в Rivière-Noire утверждает, что была ударена по лицу 62-летней гражданкой Ю)
-  proofread: Yves-Cantin → Ив-Кантен
-Posted (Le Mauricien): Rivière-Noire: женщину-полицейского ударила по лицу гражданка ЮАР
-LLM usage this run: 3 requests, 4664 tokens
-### check 5/5 at 12:58
+  dup check: new (В статье указано, что это пятый процесс по делам о нарушении комендантского часа и перечислены конкретные имена обвиняемых (Louis Abraham Casimir, Sam)
+Posted (Defimedia): Нарушение комендантского часа: пятое дело передано в Промежуточный суд
+  dup: nothing new (В статье упоминается, что отключение затронуло платформы, управляемые Government Online Centre и Central Information Systems Division, а также содержи)
+Skipped duplicate (L'Express): Menace informatique mondiale : Maurice en état d’alerte == Кибербезопасность: несколько государственных сервисов временно отключены в качестве меры п
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Vidéo] Coup de feu à Camp-Levieux : le sergent Taukoor reconduit en détention policière a == Выстрел в Camp-Levieux: сержанта Taukoor снова допросила комиссия по жалобам на полицию
+LLM usage this run: 5 requests, 7821 tokens
