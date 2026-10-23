@@ -1,19 +1,17 @@
-### check 1/5 at 15:03
+### check 1/5 at 15:39
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Папа Леон XIV не сможет присутствовать на встрече в Ассизи 27 октября из‑за рекомендаций врачей после операции по удалению опухоли лёгкого; отмена уча)
-  not about Mauritius: Le pape n'assistera pas à la rencontre d'Assise
-Skipped foreign news (Defimedia): Le pape n'assistera pas à la rencontre d'Assise
-  dup check: new (Abhimanu Kundasamy présenté ses lettres de créance en tant que nouvel ambassadeur de Maurice auprès de l'Union européenne le 22 octobre, avec la prése)
+  dup check: new (Police officer allegedly forced a 46‑year‑old resident of Flic‑en‑Flac into a container, beat him and stole Rs 220 000 from his bag at the Wholesale M)
   proofread by qwen/qwen3.8-27b
-Posted (L'Express): Дипломатия: посол Маврикия в Европейском союзе вручил верительные грамоты
-  same headline as #98: Crise de l’eau : 14 forages mobilisés et 10 000 m³ d’eau supplémentaires attendu
-Skipped duplicate (L'Express): Crise de l’eau : 14 forages mobilisés, 10 000 m³ supplémentaires attendus à la Marie == Водный кризис: задействованы 14 скважин, ожидается дополнительная вода в объёме 10 тысяч к
-  dup check: new (Во время экзамена PSAC в школе Coromandel произошла драка между двумя учениками, полиция была вызвана в экзаменационный зал, MES (Министерство образов)
+Posted (Le Mauricien): Избит в контейнере в Belle-Rive: житель Flic-en-Flac утверждает, что у него украли 220 000 рупий
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Maurice-UE : commerce, pêche et sécurité maritime au cœur des échanges == Дипломатия: посол Маврикия в Европейском союзе вручил верительные грамоты
+  dup check: new (Семь обвиняемых признали себя виновными 23 октября 2026 г. и их приговор будет вынесен 26 октября 2026 г. — новые детали по делу, не упомянутые в ране)
   proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): PSAC: драка в экзаменационном зале
-LLM usage this run: 8 requests, 13893 tokens
-### check 2/5 at 15:07
-### check 3/5 at 15:11
-### check 4/5 at 15:15
-### check 5/5 at 15:19
+  proofread: Медине → Médine; Камп-де-Маске → Camp-de-Masque; Бель-Этане → Bel-Étang; Kevin Moorghen → Me Kevin Moorghen; повреждение государственного имущества → damaging public property
+Posted (Defimedia): Инциденты 13 октября: семерым мужчинам объявят приговор в понедельник
+  dup check: new (Man injured in Quatre-Bornes after falling from a wooden scaffold on 21 october; transported to Princess Margaret Orthopaedic Centre; condition now st)
+  proofread by qwen/qwen3.8-27b
+  proofread: Катр-Борн → Quatre-Bornes; получил тяжёлые травмы при падении деревянных лесов → получил тяжёлые травмы при падении с деревянных лесов
+Posted (L'Express): Quatre-Bornes: мужчина тяжело ранен после падения с деревянных лесов
+LLM usage this run: 10 requests, 16627 tokens
