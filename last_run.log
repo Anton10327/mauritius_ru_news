@@ -23,3 +23,9 @@ LLM usage this run: 10 requests, 16627 tokens
   proofread by qwen/qwen3.8-27b
 Posted (Top FM): Местное производство: Red Ruby, новый сорт лука для снижения зависимости от импорта
 LLM usage this run: 3 requests, 4750 tokens
+### check 4/5 at 15:51
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:438: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (Top FM): Agression sexuelle présumée sur une fillette de six ans : Mobilisation citoyenne et présen == Полицейская и гражданская мобилизация для поиска мужчины, подозреваемого в сексуальных дом
+LLM usage this run: 1 requests, 1400 tokens
