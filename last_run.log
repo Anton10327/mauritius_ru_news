@@ -27,3 +27,13 @@ Skipped foreign news (Inside News): Russie–Ukraine : 540 personnes échangées
 LLM usage this run: 4 requests, 7015 tokens
 ### check 3/5 at 14:43
 ### check 4/5 at 14:47
+### check 5/5 at 14:51
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Xavier-Luc Duval публично потребовал больше автономии для CWA и указал на нехватку квалифицированных кадров как причину проблем с водоснабжением. Такж)
+  proofread: 
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Photo download failed: HTTP 404 for https://topfm.mu/sites/default/files/media-icons/generic/video.png
+Photo failed: https://topfm.mu/sites/default/files/media-icons/generic/video.png — sending text only
+Posted (Top FM): Кризис водоснабжения: Xavier-Luc Duval требует больше автономии для Central Water Authority
+LLM usage this run: 3 requests, 4735 tokens
