@@ -3,65 +3,62 @@ Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary mode
 Google Translate failed: TooManyRequests
 Автобусное сообщение прервано во вторник утром
 == LLM: https://api.groq.com/openai/v1/chat/completions
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-b03103c4-6870-453d-8f5a-3da8624dedb0","object":"chat.completion","created":1792732648,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.015973521,"prompt_tokens":16,"prompt_t
-openai/gpt-oss-120b 200 {"id":"chatcmpl-e8c2ec59-ef38-4e29-ae42-ec8dbe521a93","object":"chat.completion","created":1792732648,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
-openai/gpt-oss-20b 200 {"id":"chatcmpl-9b23f896-8d9d-45c3-a27c-df60cc9f0aa9","object":"chat.completion","created":1792732648,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants reply \"ok\"."},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time"
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-0801bb01-35ef-41c5-b4a1-b1068a18f22e","object":"chat.completion","created":1792868090,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.167198278,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-f0f24332-ca7c-479f-b41d-1545d11cfc23","object":"chat.completion","created":1792868091,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just respond \"ok\"."},"logprobs":null,"finish_reason"
+openai/gpt-oss-20b 200 {"id":"chatcmpl-289f6e54-1914-4554-8f99-81445de59253","object":"chat.completion","created":1792868091,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants reply \"ok\"."},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time"
 == Defimedia: https://defimedia.info/rss.xml
-Newest: Réseaux sociaux : un appel au respect de l’intimité et à l’éducation numérique | https://defimedia.info/reseaux-sociaux-un-appel-au-respect-de-lintimite-et-leducation-numerique
-Article text: 3100 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/gaelle%20thumnb%20.png
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:436: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+Newest: Colère sociale: 410.000 manifestants samedi en France | https://defimedia.info/colere-sociale-410000-manifestants-samedi-en-france
+Article text: 661 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/D4BH767-Preview_W.jpg
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (В статье упоминается, что LespriSEXY призывает сделать цифровое благополучие национальным приоритетом и выражает обеспокоенность публикацией кадров ар)
-Duplicate of recent post #: 89
-LLM usage so far: 4 requests, 1144 tokens
+  dup check: new (410 000 человек протестовали в субботу по всей Франции (110 000 в Париже); сравнение с прошлой неделей (550 000); данные Министерства внутренних дел и)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Colère sociale: 410.000 manifestants samedi en France
+Duplicate of recent post #: None
+LLM usage so far: 5 requests, 3842 tokens
 -- Post that would be sent:
 
 == L'Express: https://lexpress.mu/
-Newest: PSAC : premières épreuves pour 16 260 candidats, premier soulagement | https://lexpress.mu/s/psac-premieres-epreuves-pour-16-260-candidats-premier-soulagement-563951
-Article text: 4962 chars | photo: https://lexpress.mu/storage/articles/ewn3fonq3Wn9CnhL0PfhkmhwdNJDZK8hJJYJJiz4.jpg
-  dup check: new (В статье указано, что первые экзамены PSAC прошли вчера (французский и науки), сегодня — английский; описаны эмоции кандидатов после экзаменов. В опуб)
+Newest: Interview | Mirella Rassou : «Une personne en fin de vie bien accompagnée partira sereinement» | https://lexpress.mu/s/mirella-rassou-une-personne-en-fin-de-vie-bien-accompagnee-partira-sereinement-563997
+Article text: 15163 chars | photo: https://lexpress.mu/storage/articles/Y4ya3gdBggyXHH3b9z45qBpvwAl9zdZxQyUaj7VS.jpg
+  dup check: new (Interview with Mirella Rassou about end‑of‑life accompaniment and her new book «Accompagner la vie», including her background as former nurse and midw)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Interview | Mirella Rassou : «Une personne en fin de vie bien accompagnée partira sereinement»
 Duplicate of recent post #: None
-LLM usage so far: 7 requests, 5587 tokens
+LLM usage so far: 7 requests, 7772 tokens
 -- Post that would be sent:
-<b>PSAC: первые экзамены для 16 260 кандидатов, первое облегчение</b>
 
-Вчера на Маврикии начались первые экзамены PSAC для 16 260 учащихся: прошли французский и естественные науки, сегодня — английский. После испытаний у школ дети улыбались, хотя признаются в усталости; родители тоже испытывают тревогу. Мать Marie Gina Allas говорит о давлении и поддержке сына, надеясь на хорошие результаты и поступление в выбранный колледж в следующем году.
-
-🔗 <a href="https://lexpress.mu/s/psac-premieres-epreuves-pour-16-260-candidats-premier-soulagement-563951">L&#x27;Express</a>
 == Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
-Newest: ASSEMBLÉE NATIONALE — Mardi prochain : Mineurs émeutiers : motion sur le Select Committe à l’agenda | https://www.lemauricien.com/le-mauricien/assemblee-nationale-mardi-prochain-mineurs-emeutiers-motion-sur-le-select-committe-a-lagenda/721384/
-Article text: 2243 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/05/PARLEMENT-ASSEMBLEE-NATIONALE.jpg
-  dup check: new (Премьер-министр Navin Ramgoolam внес предложение о создании Select Committee, который будет рассмотрен на заседании Национального собрания во вторник.)
-  proofread: Navin Ramgoolam → Навин Рамгулам; Shirin Aumeeruddy-Cziffra → Ширин Аумёрди-Циффра; Leader of the House → лидер правительственной фракции
-Duplicate of recent post #: None
-LLM usage so far: 10 requests, 10373 tokens
+Newest: GRAND-BASSIN | Ce dimanche –   La Mangal Mahadev Shakti Swaroopa Association organise une prière spéciale | https://www.lemauricien.com/actualites/societe/grand-bassin-ce-dimanche-la-mangal-mahadev-shakti-swaroopa-association-organise-une-priere-speciale/721572/
+Article text: 1208 chars | photo: https://www.lemauricien.com/wp-content/uploads/2016/08/grand-bassin.jpg
+  same headline as #124: GRAND-BASSIN | Ce dimanche –   La Mangal Mahadev Shakti Swaroopa Association org
+Duplicate of recent post #: 124
+LLM usage so far: 7 requests, 7772 tokens
 -- Post that would be sent:
-<b>Национальное собрание — в следующий вторник: несовершеннолетние участники беспорядков — в повестке дня вопрос о специальном комитете</b>
 
-Премьер-министр Navin Ramgoolam подал в секретариат Национального собрания проект резолюции о создании специального комитета для изучения проблемы подростковой преступности, включая ответственность родителей и минимальный возраст уголовной ответственности. Ожидается, что этот вопрос будет рассмотрен на парламентском заседании во вторник. Члены комитета будут назначены спикером Shirin Aumeeruddy-Cziffra после принятия резолюции; комитет сможет вызывать заинтересованные стороны и экспертов для слушаний.
-
-🔗 <a href="https://www.lemauricien.com/le-mauricien/assemblee-nationale-mardi-prochain-mineurs-emeutiers-motion-sur-le-select-committe-a-lagenda/721384/">Le Mauricien</a>
 == Inside News: https://inside.news/feed/
-Newest: Cybersécurité : plusieurs services gouvernementaux suspendus par précaution | https://www.inside.news/php2shell-sites-gouvernementaux-maurice-hors-ligne/
-Article text: 1715 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/attack-php.png
-  same headline as #153: Cybersécurité : plusieurs services gouvernementaux suspendus par précaution
-Duplicate of recent post #: 153
-LLM usage so far: 10 requests, 10373 tokens
+Newest: Pétrole : le Brent frôle 115 dollars, quelles conséquences pour Maurice ? | https://www.inside.news/petrole-brent-115-dollars-consequences-maurice/
+Article text: 2058 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/9317a110-f447-4b04-9133-b6f2573febe0-Removed-1024x576.png
+  dup check: new (Brent atteint 114,72 $ le 23 octobre, son plus haut depuis le 4 mai, ainsi que le dépassement du seuil de 100 $ du WTI; nouvelles attaques contre des )
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Pétrole : le Brent frôle 115 dollars, quelles conséquences pour Maurice ?
+Duplicate of recent post #: None
+LLM usage so far: 9 requests, 11994 tokens
 -- Post that would be sent:
 
 == Wazaa: https://www.wazaa.mu/feed/
-Newest: Prévisions météo : averses d’après-midi dans 3 régions le 22 octobre | https://www.wazaa.mu/previsions-meteo-averses-dapres-midi-dans-3-regions-le-22-octobre/
-Article text: 1226 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1792705340.png
+Newest: Le Cabinet approuve un programme de médecins visiteurs pour attirer des spécialistes étrangers à l’île Maurice | https://www.wazaa.mu/le-cabinet-approuve-un-programme-de-medecins-visiteurs-pour-attirer-des-specialistes-etrangers-a-lile-maurice/
+Article text: 1737 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/08/1787607743.jpeg
   dup: nothing new ()
-Duplicate of recent post #: 93
-LLM usage so far: 11 requests, 11254 tokens
+Duplicate of recent post #: 64
+LLM usage so far: 10 requests, 13335 tokens
 -- Post that would be sent:
 
 == Top FM: https://topfm.mu/
-Newest: Dossier Chagos : un texte exigeant le consentement des Chagossiens au cœur des débats aux Lords ce vendredi | https://topfm.mu/actualites/dossier-chagos-un-texte-exigeant-le-consentement-des-chagossiens-au-coeur-des-debats-aux-lords-ce
-Article text: 1561 chars | photo: https://topfm.mu/sites/default/files/chagos%400.33x_2.jpg
-  same headline as #152: Dossier Chagos : un texte exigeant le consentement des Chagossiens au cœur des d
-Duplicate of recent post #: 152
-LLM usage so far: 11 requests, 11254 tokens
+Newest: Eau : quatre forages bientôt connectés au réseau pour renforcer l’approvisionnement dans les Plaines-Wilhems | https://topfm.mu/actualites/eau-quatre-forages-bientot-connectes-au-reseau-pour-renforcer-lapprovisionnement-dans-les-plaines
+Article text: 1162 chars | photo: https://topfm.mu/sites/default/files/2026-10/pat.jpg
+  same headline as #118: Eau : quatre forages bientôt connectés au réseau pour renforcer l’approvisionnem
+Duplicate of recent post #: 118
+LLM usage so far: 10 requests, 13335 tokens
 -- Post that would be sent:
 
