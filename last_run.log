@@ -12,3 +12,11 @@ Posted (Le Mauricien): Авиация | Жемчужина Маврикия Air 
 LLM usage this run: 7 requests, 10714 tokens
 ### check 2/5 at 16:08
 ### check 3/5 at 16:12
+### check 4/5 at 16:16
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье упоминается, что Reform Party требует срочных действий по вопросам засухи, электроснабжения, образования и здравоохранения. Конкретно указано)
+  written by GigaChat-2-Max
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Партия реформ требует срочных мер по засухе, электричеству, образованию и здравоохранению
+LLM usage this run: 3 requests, 4910 tokens
