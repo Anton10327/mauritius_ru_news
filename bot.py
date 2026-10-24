@@ -880,9 +880,11 @@ _VOWELS = set("aeiou")
 _VOWEL_SWAPS = [{"u", "a"}, {"a", "e"}, {"e", "i"}, {"o", "u"}]
 
 
-def _fr(word):
+def _fr(word, oi=True):
     """French reading of one word: oi = уа, silent final consonant and e."""
-    w = re.sub(r"oi[xst]?$", "ua", word.lower()).replace("oi", "ua")
+    w = re.sub(r"e?aux?$", "o", word.lower())  # aux, eau, eaux = о
+    if oi:
+        w = re.sub(r"oi[xst]?$", "ua", w).replace("oi", "ua")
     k = re.sub(r"(?<=[aeiou])[tdsx]$", "", _sound(w))
     k = re.sub(r"(?<=.{3})(er|ez)$", "e", k)
     return re.sub(r"(?<=..)e$", "", k)
@@ -981,7 +983,7 @@ def _align_names(text, original):
 _LINKS = {"d", "de", "du", "des", "la", "le", "les", "l", "aux", "en", "sur", "or"}
 
 
-def _latinize_compounds(text, original):
+def _latinize_compounds(text, original, lenient=False):
     """Hyphenated Cyrillic place names -> the Latin original:
     "Пудр-Дор-Виллаж" -> "Poudre d'Or Village", "Роуз-Хилл" -> "Rose-Hill"."""
     from difflib import SequenceMatcher
@@ -1014,6 +1016,7 @@ def _latinize_compounds(text, original):
                 # silent final e in each part: Rose-Hill ~ Роуз-Хилл
                 put("".join(re.sub(r"(?<=..)e$", "", _sound(w)) for w in words), span)
                 put("".join(_fr(w) for w in words), span)  # Sainte-Croix ~ Сент-Круа
+                put("".join(_fr(w, oi=False) for w in words), span)  # Pointe read as Поинт
 
     def sub(m):
         word = m.group(0)
@@ -1027,7 +1030,7 @@ def _latinize_compounds(text, original):
                 r = SequenceMatcher(None, key, k).ratio()
                 if r > score:
                     best, score = span, r
-        return best if score >= 0.8 else word
+        return best if score >= (0.72 if lenient else 0.8) else word
     def sub_mixed(m):  # only words with some Cyrillic in them
         return sub(m) if re.search(r"[А-Яа-яЁё]", m.group(0)) else m.group(0)
     return re.sub(r"\b[A-ZÀ-ÝА-ЯЁ][\wÀ-ÿ’']*(?:-[\wÀ-ÿ’']+)+", sub_mixed, text)
@@ -1102,7 +1105,7 @@ def latinize_names(text, original, lenient=False):
         return t
     # only names: hyphenated (ФЛИК-АН-ФЛАК) or a headline place before a colon (СОРЕЗ:)
     text = re.sub(r"\b[А-ЯЁ]{2,}(?:-[А-ЯЁ]{2,})+\b|\b[А-ЯЁ]{4,}\b(?=\s*:)", title, text)
-    text = _align_names(_latinize_compounds(text, original), original)
+    text = _align_names(_latinize_compounds(text, original, lenient), original)
     from difflib import SequenceMatcher
     def at_start(src, pos):  # first word of a line or sentence (or after a colon)
         return re.search(r"(^|[.!?:…«\"—–-]\s*|\n\s*)$", src[max(0, pos - 3):pos]) is not None \
@@ -1159,7 +1162,7 @@ def latinize_names(text, original, lenient=False):
         if initial:  # a sentence-initial word is usually an ordinary word
             need = max(need, 0.9)
         if lenient:  # candidates are only the article's real names
-            need -= 0.12
+            need -= 0.12 if len(_sound(word)) >= 6 else 0.16
         return found if score >= need else None
 
     def sub(m):
