@@ -1,30 +1,14 @@
-### check 1/5 at 10:47
+### check 1/5 at 11:24
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье описан новый случай мошенничества: 66-летняя пенсионерка из Albion потеряла более 1,2 млн рупий в результате телефонного обмана через WhatsAp)
-  proofread: 
-Posted (L'Express): Albion: пенсионерку обманули более чем на 1,2 млн рупий после звонка в WhatsApp
-  dup check: new (Перевозка 40 000 тонн российского дизельного топлива в США впервые с 2022 года; дата погрузки — 22 октября, порт Приморск; прибытие ожидается 7 ноября)
-  not about Mauritius: Trump–Poutine : du diesel russe en route vers les États-Unis, une première depuis 2022
-Skipped foreign news (Inside News): Trump–Poutine : du diesel russe en route vers les États-Unis, une première depuis 2022
-  dup check: new (13 участников зарегистрировались на двухдневные соревнования по слалому, организованные Motor Racing Club в Вакоасе; 70 человек стартуют в субботу и 6)
-  proofread: Cent trente participants se sont inscrits aux deux jours de compétition de slalom organisée par le Motor Racing Club (MRC), ce week-end, sur le parking du Metro Express, à Vacoas. L'objectif : démocratiser le sport automobile à Maurice. À cette occasion, ces lieux accueilleront également un festival
-Posted (Le Mauricien): Vacoas — автоспорт: соревнования по слалому и гастрономический фестиваль для всей семьи в эти выходные
-  dup check: new (Указано, что полиция была уведомлена 20 октября после сигнала через горячую линию 113; министерство по вопросам гендерного равенства и семейного благо)
-  proofread: «causing a child to be sexually abused» → «вовлечение ребёнка в сексуальное насилие»; «в Port-Louis» → «в Порт-Луи»
-Posted (Top FM): Дело о сексуальном насилии над шестилетней девочкой: подозрение пало на её дядю по материнской линии
-LLM usage this run: 11 requests, 17948 tokens
-### check 2/5 at 10:51
-### check 3/5 at 10:55
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  proofread: Joëlle Coret → Джоэль Корет; présidente de la MASA → президент MASA; hospitalisée à Londres → госпитализирована в Лондоне; son état de santé compromet son retour à Maurice → её состояние здоровья ставит под угрозу возвращение на Маврикий; Union des Artistes (UOA) → Союз артистов (UOA); Son état de s
-Posted (L'Express): Joëlle Coret, президент MASA, госпитализирована в Лондоне: её состояние здоровья ставит под угрозу возвращение на Маврикий
-LLM usage this run: 2 requests, 3858 tokens
-### check 4/5 at 10:59
-### check 5/5 at 11:03
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  proofread: полу-приватизации → полуприватизации
-Posted (L'Express): Гражданская авиация: Narendranath Gopee предупреждает против полу-приватизации
-LLM usage this run: 2 requests, 3435 tokens
+  dup: nothing new (Dirish Noonaram был допрошен FCC под предупреждением (Under Warning); расследование касается контрактов, выданных Банком Маврикия компании Verde Front)
+Skipped duplicate (Le Mauricien): FCC | Opération Savat Dodo –   Dirish Noonaram Under Warning sur  des contrats de surveill == Директор Verde Frontier Solutions Ltd вызван на допрос по делу о контрактах Банка Маврикия
+  dup check: new (Создан межминистерский комитет под руководством заместителя премьер-министра для контроля за исполнением рекомендаций Комиссии «Правда и справедливост)
+Posted (Defimedia): Комиссия «Истина и правосудие»: межведомственный комитет для контроля за выполнением рекомендаций
+  dup check: new (Elodie Thomas продолжает восстановление после огнестрельного ранения, уже может ходить и находится под наблюдением врачей. 13 октября ей успешно прове)
+  proofread: Элоди Тома → Элоди Томас
+Posted (Defimedia): Ранена пулей: Elodie Thomas продолжает восстановление
+  dup check: new (В статье упоминается, что сержант Taukoor был повторно допрошен и теперь сталкивается с версией водителя фургона (Rudy Soobrayen), которую он оспарива)
+  proofread: Комиссия по жалобам на полицию → Комиссия по жалобам на полицию
+Posted (Le Mauricien): CAMP-LEVIEUX | Выстрел, попавший в Élodie Thomas — сержанта Taukoor сопоставляют с версией водителя
+LLM usage this run: 10 requests, 12562 tokens
