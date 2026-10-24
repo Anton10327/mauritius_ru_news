@@ -16,3 +16,17 @@ LLM usage this run: 3 requests, 5112 tokens
 Posted (L'Express): Дорожная авария: сотрудник больницы Jawaharlal Nehru погиб в Mare-d’Albert
 LLM usage this run: 3 requests, 4634 tokens
 ### check 3/5 at 17:28
+### check 4/5 at 17:32
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Le tribunal de Bambous a été saccagé le 13 octobre 2026, avec destruction de dossiers et menace sur les pièces à conviction, appelant à des mesures ur)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Суд Бамбуса → Суд Bambous; Ювир Бандху → Yuvir Bandhu
+Posted (Defimedia): Уничтоженные дела, утраченные доказательства: правосудие сталкивается со своими слабостями
+  dup check: new (Arrest of a 69‑year‑old suspected bookmaker operating an illegal betting network via WhatsApp; seizure of Rs 1.2 million in cash and computer equipmen)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Порт-Луи → Port-Louis
+Posted (Defimedia): Незаконные ставки: изъято 1,2 млн рупий, подозреваемый букмекер действовал через WhatsApp
+LLM usage this run: 6 requests, 8363 tokens
