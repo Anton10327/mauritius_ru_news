@@ -1,17 +1,1 @@
-### check 1/5 at 19:21
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Заявление президента Reform Party Дениса Лами о беспокойстве по поводу системы «Assessed Grades», риск неравенства при отборе лауреатов и распределени)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Партия реформ → Reform Party; Денис Лами → Denis Lamy
-Posted (Defimedia): Reform Party обеспокоена последствиями системы оценивания экзаменов Кембриджа на Маврикии
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Elodie Thomas blessée par balle - le sergent Gowtamsing Taukoor : «Mo pann met fizi lor la == Выстрел в Camp-Levieux: сержанта Taukoor снова допросила комиссия по жалобам на полицию
-LLM usage this run: 4 requests, 6206 tokens
-### check 2/5 at 19:25
-### check 3/5 at 19:29
-### check 4/5 at 19:33
-  same headline as #95: Affaire Élodie Thomas : l’IPCC lance un appel à témoins pour faire avancer l’enq
-Skipped duplicate (L'Express): Affaire Élodie Thomas : l’IPCC lance un appel à témoins == Дело Эло́ди Thomaś: комиссия по жалобам на полицию (IPCC) обращается к свидетелям для про
-### check 5/5 at 19:37
+### check 1/5 at 19:56
