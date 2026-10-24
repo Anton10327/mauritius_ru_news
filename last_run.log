@@ -1,43 +1,13 @@
-### check 1/5 at 18:21
+### check 1/5 at 18:55
+  same headline as #124: Accident à Mare-d’Albert : un motocycliste de 58 ans perd la vie
+Skipped duplicate (Defimedia): Mare-d’Albert : Ashok Jeeha, 58 ans, perd la vie dans une collision entre une moto et une  == Наезд в Mare-d’Albert: мотоциклист погиб в аварии
+  same headline as #91: Crise de l'eau : Patrick Assirvaden envisage la réquisition de 15 à 20 forages s
+Skipped duplicate (L'Express): Crise de l’eau : Patrick Assirvaden envisage la réquisition de 15 à 20 forages supplémenta == Водный кризис: Patrick Assirvaden рассматривает реквизицию 15–20 дополнительных скважин по
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Record jackpot of Rs 88.9 million won in the Rodrigues Lotto draw on Wednesday, the second‑largest ever win in Rodrigues, with the winning ticket sold)
+  dup check: new (Announcement that four specific boreholes (installations) will be connected to the water network soon, with locations Trianon, Côte-d’Or and Valentina)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Жану Клоду Янг Кит → Jean Claude Young Keet
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Le Mauricien): Житель Родригеса выиграл рекордный джекпот лотереи Loto — 88,9 млн рупий
-  dup check: new (Министр туризма Ричард Дуваль заявил, что сразу после своего назначения вызвал бывшее руководство MTPA для допроса, что является новым фактом, не упом)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Ричард Дюваль → Richard Duval
-Posted (Le Mauricien): Министр туризма Richard Duval: «Не потерплю коррупции и мошенничества»
-  dup check: new (Announce of a verdict on Diego Maradona's death to be delivered on 22 December 2026, six months after trial start, including details of alleged neglig)
-  written by GigaChat-2-Max
-  not about Mauritius: Mort de Diego Maradona : le verdict attendu le 22 décembre
-Skipped foreign news (Top FM): Mort de Diego Maradona : le verdict attendu le 22 décembre
-LLM usage this run: 8 requests, 12785 tokens
-### check 2/5 at 18:25
-### check 3/5 at 18:29
-### check 4/5 at 18:33
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Группа WhatsApp насчитывает более 600 участников; CCID (Central Criminal Investigation Department) активно расследует обстоятельства создания группы, )
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Акшай Будун → Akshaye Boodhun; Камп-Дьябль → Camp-Diable; Камп-Левьё → Camp-Levieux; Элоди Томас → Elodie Thomas
-Posted (Defimedia): Создатель группы WhatsApp объяснил мотивы создания после инцидента в Camp-Levieux
-  dup check: new (Возраст погибшего мотоциклиста (58 лет) и возраст водителя фургона (59 лет) указаны впервые; уточнено, что погибший не был сотрудником больницы, а обы)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Наезд в Mare-d’Albert: мотоциклист погиб в аварии
-  dup check: new (An annual Hindu religious ceremony called Loka Shanti Kalyanam and Tepotsavam 2026 was held on Saturday 24 octobre at the public beach of Mont‑Choisy,)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): На пляже Mont-Choisy пройдут молитвы за мир во всём мире на фестивале Loka Shanti Kalyanam и Tepotsavam
-  dup check: new (Интервью с Филиппом Эспиталье-Ноэлем, бывшим руководителем Rogers, который после более чем 20 лет возвращается к обсуждению трансформаций Маврикия, со)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Philippe Espitalier-Noël : «Il faut que nos jeunes aient envie de construire leur avenir ici»
-Skipped foreign news (Defimedia): Philippe Espitalier-Noël : «Il faut que nos jeunes aient envie de construire leur avenir ici»
-LLM usage this run: 11 requests, 17393 tokens
-### check 5/5 at 18:37
+  proofread: 
+Posted (Top FM): На Маврикии четыре новые скважины подключат к сети водоснабжения
+LLM usage this run: 3 requests, 4968 tokens
