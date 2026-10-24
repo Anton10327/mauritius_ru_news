@@ -20,3 +20,12 @@ LLM usage this run: 3 requests, 4968 tokens
   not news (portrait/lifestyle): Centre de la Trinité à Rose-Hill : Quinze ans à construire un avenir pour ceux qui risquent d’être o
 Skipped foreign news (L'Express): Centre de la Trinité à Rose-Hill : Quinze ans à construire un avenir pour ceux qui risquent d’être o
 LLM usage this run: 2 requests, 3943 tokens
+### check 4/5 at 19:07
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Раскрыты детали утечки системы прослушивания Misie Moustas при правительстве Правинда Джунага; граждане обнаружили, что их телефонные разговоры были п)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Центральное подразделение CID → Central CID
+Posted (Le Mauricien): Расследование системы прослушки Misie Moustas: свидетели узнали о перехвате разговоров
+LLM usage this run: 3 requests, 5101 tokens
