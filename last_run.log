@@ -15,3 +15,10 @@ LLM usage this run: 4 requests, 4900 tokens
 Skipped duplicate (L'Express): Eau, électricité, pesticides et examens : Le Reform Party interpelle les autorités == Партия реформ требует срочных мер по засухе, электричеству, образованию и здравоохранению
 LLM usage this run: 1 requests, 1440 tokens
 ### check 3/5 at 16:49
+### check 4/5 at 16:53
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  written by GigaChat-2-Max
+  not about Mauritius: [Who cares] Pesticides abandonnés en pleine nature : Le scandale des déchets toxiques
+Skipped foreign news (L'Express): [Who cares] Pesticides abandonnés en pleine nature : Le scandale des déchets toxiques
+LLM usage this run: 1 requests, 2537 tokens
