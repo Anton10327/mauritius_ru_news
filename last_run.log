@@ -1,39 +1,9 @@
-### check 1/5 at 14:35
+### check 1/5 at 15:04
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Joëlle Coret a été victime d’un malaise le 22 octobre après avoir prononcé un discours lors de la deuxième édition de l’International Freelance Confer)
-  proofread: 
-Posted (Defimedia): Англия: состояние здоровья Joëlle Coret, президента MASA, оценивается как тревожное после недомогания
-  dup check: new (Sydney Pierre официально присоединился к FMP, что подтверждено Paul Bérenger на пресс-конференции. Также указано, что региональное отделение Rose-Hill)
-  proofread: Fron Militan Progresis → Фронт воинственного прогресса; "Sydney Pierre li byin parmi nou. Li fine integre FMP" → "Сидни Пьер теперь среди нас. Он полностью интегрируется в ФМП"; "Partie travailliste" → "Лейбористская партия"; "Assemblée nationale" → "Национальное собрание"; "Navin Ramgoolam" → "Нави
-Posted (Defimedia): Политика: Sydney Pierre официально присоединился к ФМП
-  dup check: new (В статье сообщается, что OCEP College de Port-Louis ожидает решения от Private Secondary Education Authority (PSEA) о предоставлении статуса «grant-ai)
-  proofread: «grant-aided» → «grant-in-aid»; Dr Reza Saumtally (депутат) → Dr Reza Saumtally, депутат
-Posted (Defimedia): После полемики вокруг Forest-Side Secondary College — Grant-in-aid: OCEP College в Port-Louis, принадлежащий депутату Saumtally, ожидает разрешения от Private Secondary Education Authority
-  dup check: new (Vinesh Moheeputh, член Reform Party, утверждает, что до 65% воды теряется в трубопроводах; он призывает правительство инвестировать в решение проблемы)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Водный кризис: до 65 % потерь в трубопроводах, утверждает Reform Party
-LLM usage this run: 12 requests, 18545 tokens
-### check 2/5 at 14:39
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (Доктор Нитин Аучараз подчёркивает, что ни одна женщина не защищена полностью от рака груди; перечисляет три ключевых правила: знать факторы риска, рас)
-Skipped duplicate (L'Express): Dr Nitin Aucharaz : «Aucune femme n’est complètement protégée» == Борьба с раком груди: больше обследований и усилий по улучшению доступа к диагностике
-  dup check: new ()
-Bad LLM answer from GigaChat-3-Ultra: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"Генеративные языковые модели не обладают собственным мнением — их ответы являются обобщением информации, находящейся в открытом доступе. Чтобы избежать ошибок и неправильного толкования, разговоры на чувствительные темы могут быть ограничены.","role":"assistant"},"
-  written by GigaChat-2-Max
-  not about Mauritius: Russie–Ukraine : 540 personnes échangées, dont des prisonniers présumés morts
-Skipped foreign news (Inside News): Russie–Ukraine : 540 personnes échangées, dont des prisonniers présumés morts
-LLM usage this run: 4 requests, 7015 tokens
-### check 3/5 at 14:43
-### check 4/5 at 14:47
-### check 5/5 at 14:51
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Xavier-Luc Duval публично потребовал больше автономии для CWA и указал на нехватку квалифицированных кадров как причину проблем с водоснабжением. Такж)
-  proofread: 
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Photo download failed: HTTP 404 for https://topfm.mu/sites/default/files/media-icons/generic/video.png
-Photo failed: https://topfm.mu/sites/default/files/media-icons/generic/video.png — sending text only
-Posted (Top FM): Кризис водоснабжения: Xavier-Luc Duval требует больше автономии для Central Water Authority
-LLM usage this run: 3 requests, 4735 tokens
+  dup: nothing new ()
+Skipped duplicate (L'Express): Jasmine Toulouse-Olivier : «Nou bizin poz nou bann bon kestion : ki zafer ki reinir nou ?  == Банк Маврикия продал валюту на сумму $125 млн с января по октябрь
+  dup check: new (Вице-президент Роберт Хангли на конференции в Миддлсексском университете осудил стигматизацию креольской общины и жителей неблагополучных кварталов, ч)
+  proofread: Robert Hungley → Robert Hungley (имя не требует перевода); Navin Ramgoolam → Navin Ramgoolam (имя не требует перевода); Sheila Bunwaree → Sheila Bunwaree (имя не требует перевода); Middlesex → Мидлсекс (название университета переведено на русский)
+Posted (Le Mauricien): «Переход от слов к делу»: обзор ситуации
+LLM usage this run: 4 requests, 5401 tokens
