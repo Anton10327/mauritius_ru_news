@@ -1,21 +1,13 @@
-### check 1/5 at 13:35
+### check 1/5 at 14:05
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (IPCC официально обратилась к свидетелям с просьбой предоставить информацию, которая может продвинуть расследование по делу о стрельбе 9 октября в Camp)
-  proofread: L’Independent Police Complaints Commission (IPCC) → Комиссия по жалобам на полицию (IPCC); l’auteur du tir → подозреваемого в выстреле; non-assistance à personne en danger → неоказания помощи
-Posted (Defimedia): Дело Эло́ди Thomaś: комиссия по жалобам на полицию (IPCC) обращается к свидетелям для продвижения расследования
   dup: nothing new ()
-Skipped duplicate (L'Express): Traitement du cancer à Maurice : Le parcours de soins expliqué par le C-Care Cancer Centre == ОБРАЗОВАНИЕ — Camp-Levieux: школьнику провели операцию после нападения в школе
-  dup check: new (Xavier-Luc Duval заявил, что около 34 000 молодых людей на Маврикии не имеют работы, учёбы или профессионального обучения; он назвал это «бомбой замед)
-  proofread: 
-Posted (Defimedia): 34 000 молодых людей без работы, учёбы и профессиональной подготовки: Xavier-Luc Duval бьёт тревогу
-LLM usage this run: 7 requests, 9662 tokens
-### check 2/5 at 13:39
-### check 3/5 at 13:43
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (В статье уточнено, что проекты законов касаются как внутренних, так и международных усыновлений; первый проект предусматривает создание Mauritius Chil)
-Skipped duplicate (Wazaa): Consultations publiques lancées pour deux projets de réforme cruciaux de l’adoption d’enfa == Усыновление детей на Маврикии: два законопроекта вынесены на общественное обсуждение
-LLM usage this run: 1 requests, 1400 tokens
-### check 4/5 at 13:47
-### check 5/5 at 13:51
+Skipped duplicate (Le Mauricien): Law and Order POST-ÉMEUTES  –   Une prime de Rs 10 000 du GM  à des policiers, SMF et pomp == Полицейским, бойцам SMF и пожарным выплатят премию в размере 10 тысяч рупий
+  dup check: new (Правительство Великобритании запустило кампанию Be Ready с призывом к домохозяйствам иметь запасы на 72 часа в случае перебоев с водой, электричеством)
+  not about Mauritius: ROYAUME-UNI : LE GOUVERNEMENT APPELLE LES MÉNAGES À SE PRÉPARER À 72 HEURES DE CRISE
+Skipped foreign news (Le Mauricien): ROYAUME-UNI : LE GOUVERNEMENT APPELLE LES MÉNAGES À SE PRÉPARER À 72 HEURES DE CRISE
+  dup: nothing new ()
+Skipped duplicate (L'Express): MTPA : graves failles dans les procédures d’attribution des marchés publics == MTPA: FCC выявила шесть основных уязвимостей в процедурах закупок
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Francophonie : Le candidat roumain sollicite  le soutien de Maurice == Navin Ramgoolam встретился с румынским кандидатом на пост генерального секретаря Междунаро
+LLM usage this run: 5 requests, 6439 tokens
