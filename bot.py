@@ -775,6 +775,7 @@ _FIXES = [
     # a police term the models keep leaving in English
     (r"\s*(?:«|\")?under warning(?:»|\")?", " в качестве подозреваемого"),
     (r"\b([Вв]) Родригес[еа]?\b", lambda m: ("Н" if m.group(1) == "В" else "н") + "а Rodrigues"),
+    (r"\bРодригес(?:а|е|у|ом)?\b", "Rodrigues"),  # «жителя Родригеса» -> Rodrigues
 ]
 
 
@@ -1167,7 +1168,7 @@ def latinize_names(text, original, lenient=False):
 
     def sub(m):
         word = m.group(0)
-        if re.match(r"(Маврики|Маврикий|Родриг|Порт-Луи)", word):
+        if re.match(r"Маврик", word):
             return word  # the country itself is always in Russian
         latin = best(word, at_start(text, m.start()))
         return latin if latin else word
