@@ -1,17 +1,12 @@
-### check 1/5 at 15:34
+### check 1/5 at 16:04
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Leevy Frivet подал иск на Rs 8,715 млн против государства и комиссара полиции в связи с его арестом по делу «Moustass Leaks», утверждая необоснованнос)
-Posted (Defimedia): Экс-журналист Leevy Frivet требует 8,7 млн рупий от государства и комиссара полиции по делу «Moustass Leaks»
-  not about Mauritius: Fabrice Laroche-Coralie : «Si personne ne peut prévoir ce que l’avenir lui réserve, il est possible 
-Skipped foreign news (L'Express): Fabrice Laroche-Coralie : «Si personne ne peut prévoir ce que l’avenir lui réserve, il est possible 
-  dup check: new (В новой статье указано, что цена Brent достигла 114,72 доллара за баррель — это новый максимум по сравнению с ранее опубликованной ценой в 113,17 долл)
-Bad LLM answer from GigaChat-3-Ultra: Expecting value: line 1 column 144 (char 143); raw: {"choices":[{"message":{"content":"{\"mauritius\": false, \"news\": true, \"names\": [], \"title\": \"Нефть: Brent приблизился к 115 долларам, какие последствия для Маврикия?\", \"summary\":Цены на нефть достигли максимума за более чем пять месяцев: Brent 23 октября поднялся до 114,72 доллара за бар
+  dup check: new (В статье сообщается о новой операции по изъятию 2,4 кг бумаги с подозрительным веществом стоимостью 17 млн рупий и двух арестах, что ранее не публиков)
+Posted (Defimedia): Двое арестованы: изъято 2,4 кг бумаги, пропитанной подозрительным веществом, стоимостью 17 млн рупий
+  dup: nothing new ()
+Skipped duplicate (L'Express): SC-HSC : Les épreuves annulées et le précédent de 2021 relancent les interrogations == Cambridge выставит оценочные баллы после отмены 8 экзаменов на Маврикии
+  dup check: new (В новой статье упоминается пересмотр заказа на три Airbus A350-900 и объявление о тендере (call for proposals) по приобретению пяти узкофюзеляжных сам)
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): Pétrole : le Brent frôle 115 dollars, quelles conséquences pour Maurice ?
-Skipped foreign news (Inside News): Pétrole : le Brent frôle 115 dollars, quelles conséquences pour Maurice ?
-LLM usage this run: 7 requests, 14304 tokens
-### check 2/5 at 15:38
-### check 3/5 at 15:42
-### check 4/5 at 15:46
-### check 5/5 at 15:50
+  proofread: Андре Вильйоэн → Андре Вильёэн
+Posted (Le Mauricien): Авиация | Жемчужина Маврикия Air Mauritius: стратегический план устойчивого развития
+LLM usage this run: 7 requests, 10714 tokens
