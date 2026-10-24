@@ -1,22 +1,12 @@
-### check 1/5 at 13:01
+### check 1/5 at 13:35
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Paul Bérenger публично призвал к созданию Select Committee для реформы полиции и консолидации Police Service Act с включением National Crime Agency, а)
-  proofread: Select Committee → Select Committee; "Police Service Act" → "Police Service Act"; "National Crime Agency" → "National Crime Agency"; Ébène → Эбен
-Posted (Defimedia): Реформа полиции: Paul Bérenger требует создания Select Committee
-  dup: nothing new (Упоминается, что Министерство по вопросам гендерного равенства и семейного благополучия взяло дело под свой контроль и обещает семье необходимую подде)
-Skipped duplicate (Defimedia): Agression sexuelle présumée sur une fillette de six ans - sa famille : «Nous sommes débous == Дело о сексуальном насилии над шестилетней девочкой: подозрение пало на её дядю по материн
-LLM usage this run: 4 requests, 4200 tokens
-### check 2/5 at 13:05
-### check 3/5 at 13:09
-### check 4/5 at 13:13
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В новой статье говорится о предполагаемых мошенничествах с использованием страниц «Zaki Shop» на Facebook и TikTok, где продавались электронные гаджет)
+  dup check: new (IPCC официально обратилась к свидетелям с просьбой предоставить информацию, которая может продвинуть расследование по делу о стрельбе 9 октября в Camp)
+  proofread: L’Independent Police Complaints Commission (IPCC) → Комиссия по жалобам на полицию (IPCC); l’auteur du tir → подозреваемого в выстреле; non-assistance à personne en danger → неоказания помощи
+Posted (Defimedia): Дело Эло́ди Thomaś: комиссия по жалобам на полицию (IPCC) обращается к свидетелям для продвижения расследования
+  dup: nothing new ()
+Skipped duplicate (L'Express): Traitement du cancer à Maurice : Le parcours de soins expliqué par le C-Care Cancer Centre == ОБРАЗОВАНИЕ — Camp-Levieux: школьнику провели операцию после нападения в школе
+  dup check: new (Xavier-Luc Duval заявил, что около 34 000 молодых людей на Маврикии не имеют работы, учёбы или профессионального обучения; он назвал это «бомбой замед)
   proofread: 
-Posted (L'Express): Предполагаемые мошенничества на Facebook и TikTok: «Zaki Shop» в центре внимания нескольких заявителей
-  dup check: new (В статье сообщается о смерти двух священников в диоцезе Порт-Луи: отец Робер Далэ скончался вечером 19 октября, а отец Клод Эспиталье Ноэль — 22 октяб)
-  proofread: отец Robert Dalais → отец Роберт Далэ
-Posted (Le Mauricien): НЕКРОЛОГ — Епархия Port-Louis теряет двух священников за три дня
-LLM usage this run: 6 requests, 9886 tokens
-### check 5/5 at 13:17
+Posted (Defimedia): 34 000 молодых людей без работы, учёбы и профессиональной подготовки: Xavier-Luc Duval бьёт тревогу
+LLM usage this run: 7 requests, 9662 tokens
