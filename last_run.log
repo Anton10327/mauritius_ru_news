@@ -14,3 +14,14 @@ Posted (Defimedia): После полемики вокруг Forest-Side Seconda
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Водный кризис: до 65 % потерь в трубопроводах, утверждает Reform Party
 LLM usage this run: 12 requests, 18545 tokens
+### check 2/5 at 14:39
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new (Доктор Нитин Аучараз подчёркивает, что ни одна женщина не защищена полностью от рака груди; перечисляет три ключевых правила: знать факторы риска, рас)
+Skipped duplicate (L'Express): Dr Nitin Aucharaz : «Aucune femme n’est complètement protégée» == Борьба с раком груди: больше обследований и усилий по улучшению доступа к диагностике
+  dup check: new ()
+Bad LLM answer from GigaChat-3-Ultra: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"Генеративные языковые модели не обладают собственным мнением — их ответы являются обобщением информации, находящейся в открытом доступе. Чтобы избежать ошибок и неправильного толкования, разговоры на чувствительные темы могут быть ограничены.","role":"assistant"},"
+  written by GigaChat-2-Max
+  not about Mauritius: Russie–Ukraine : 540 personnes échangées, dont des prisonniers présumés morts
+Skipped foreign news (Inside News): Russie–Ukraine : 540 personnes échangées, dont des prisonniers présumés morts
+LLM usage this run: 4 requests, 7015 tokens
