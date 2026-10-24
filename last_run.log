@@ -1,19 +1,8 @@
-### check 1/5 at 09:07
+### check 1/5 at 09:38
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье сообщается о новом предполагаемом случае сексуального насилия (изнасилования) в Pointe-aux-Sables: 23-летняя женщина подала жалобу на своего )
-  proofread: в дом → в доме
-Posted (L'Express): Предполагаемое изнасилование в Pointe-aux-Sables: 23-летняя девушка обвиняет отчима, уехавшего в Англию
-  dup check: new (Объявлено о плановом отключении электричества в ряде районов юга Маврикия 25 октября с 8:30 до 15:00 из-за работ CEB; указаны конкретные улицы и район)
-  proofread: Sonneville Road → Sonneville Road; Prud'homme Road → Prud'homme Road; Maisonnette Road → Maisonnette Road; Railway Road → Railway Road; le morcellement BASF → жилой квартал BASF
-Posted (Le Mauricien): Работы CEB: несколько районов юга останутся без электричества 25 октября
-LLM usage this run: 6 requests, 9297 tokens
-### check 2/5 at 09:11
-### check 3/5 at 09:15
-### check 4/5 at 09:19
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Министерство образования совместно с Mauritius Telecom Foundation предоставит ученикам 9–13 классов, которые являются слепыми или слабовидящими, ноутб)
-Posted (Le Mauricien): Образование: ноутбуки и адаптированное оборудование для слепых и слабовидящих учащихся
-LLM usage this run: 3 requests, 3964 tokens
-### check 5/5 at 09:23
+  not news (portrait/lifestyle): Trail de Rodrigues | Arnaud Meunier : cette fois, il vivra le Trail en retrait
+Skipped foreign news (L'Express): Trail de Rodrigues | Arnaud Meunier : cette fois, il vivra le Trail en retrait
+  dup check: new (В статье сообщается о проведении региональной учебной сессии на Маврикии с 19 по 23 октября, посвящённой интегрированной борьбе с вредителями сельскох)
+Posted (Inside News): Сельское хозяйство на Маврикии: ядерная техника для защиты урожая
+LLM usage this run: 4 requests, 7116 tokens
