@@ -1,19 +1,13 @@
-### check 1/5 at 15:04
+### check 1/5 at 15:34
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (L'Express): Jasmine Toulouse-Olivier : «Nou bizin poz nou bann bon kestion : ki zafer ki reinir nou ?  == Банк Маврикия продал валюту на сумму $125 млн с января по октябрь
-  dup check: new (Вице-президент Роберт Хангли на конференции в Миддлсексском университете осудил стигматизацию креольской общины и жителей неблагополучных кварталов, ч)
-  proofread: Robert Hungley → Robert Hungley (имя не требует перевода); Navin Ramgoolam → Navin Ramgoolam (имя не требует перевода); Sheila Bunwaree → Sheila Bunwaree (имя не требует перевода); Middlesex → Мидлсекс (название университета переведено на русский)
-Posted (Le Mauricien): «Переход от слов к делу»: обзор ситуации
-LLM usage this run: 4 requests, 5401 tokens
-### check 2/5 at 15:08
-### check 3/5 at 15:12
-### check 4/5 at 15:16
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Paul Bérenger заявил, что отчёт NADC о реформе политики по каннабису не опубликован более месяца после завершения; подчеркнул срочность из-за распрост)
-  proofread: Fron Militan Progresis → Fron Militan Progression (в оригинале — FMP); National Agency for Drug Control → Национальное агентство по контролю за наркотиками
-Posted (Top FM): Борьба с наркотиками: Paul Bérenger сожалеет о задержке публикации отчёта NADC
-LLM usage this run: 3 requests, 4494 tokens
-### check 5/5 at 15:20
+  dup check: new (Leevy Frivet подал иск на Rs 8,715 млн против государства и комиссара полиции в связи с его арестом по делу «Moustass Leaks», утверждая необоснованнос)
+Posted (Defimedia): Экс-журналист Leevy Frivet требует 8,7 млн рупий от государства и комиссара полиции по делу «Moustass Leaks»
+  not about Mauritius: Fabrice Laroche-Coralie : «Si personne ne peut prévoir ce que l’avenir lui réserve, il est possible 
+Skipped foreign news (L'Express): Fabrice Laroche-Coralie : «Si personne ne peut prévoir ce que l’avenir lui réserve, il est possible 
+  dup check: new (В новой статье указано, что цена Brent достигла 114,72 доллара за баррель — это новый максимум по сравнению с ранее опубликованной ценой в 113,17 долл)
+Bad LLM answer from GigaChat-3-Ultra: Expecting value: line 1 column 144 (char 143); raw: {"choices":[{"message":{"content":"{\"mauritius\": false, \"news\": true, \"names\": [], \"title\": \"Нефть: Brent приблизился к 115 долларам, какие последствия для Маврикия?\", \"summary\":Цены на нефть достигли максимума за более чем пять месяцев: Brent 23 октября поднялся до 114,72 доллара за бар
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Pétrole : le Brent frôle 115 dollars, quelles conséquences pour Maurice ?
+Skipped foreign news (Inside News): Pétrole : le Brent frôle 115 dollars, quelles conséquences pour Maurice ?
+LLM usage this run: 7 requests, 14304 tokens
