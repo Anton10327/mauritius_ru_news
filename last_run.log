@@ -1,17 +1,10 @@
-### check 1/5 at 06:10
+### check 1/5 at 06:52
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-GigaChat balance: GigaChat-Ultra 48,844,114, GigaChat-Pro 38,893,714, GigaChat-Max 24,847,062, GigaChat 249,660,117; 361 days to go
-  dup: nothing new ()
-Skipped duplicate (L'Express): En couverture : Les grands titres de l'express de ce samedi 24 octobre 2026 == Полицейским, бойцам SMF и пожарным выплатят премию в размере 10 тысяч рупий
-LLM usage this run: 1 requests, 1209 tokens
-### check 2/5 at 06:14
-### check 3/5 at 06:18
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье сообщается, что лето 2026 года стало самым смертоносным в Европе по числу смертей от жары: более 50 000 человек умерли из-за высоких температ)
-  not about Mauritius: «Le pire été jamais enregistré» : la canicule a tué plus de 50 000 personnes dans les villes europée
-Skipped foreign news (Defimedia): «Le pire été jamais enregistré» : la canicule a tué plus de 50 000 personnes dans les villes europée
-LLM usage this run: 2 requests, 3751 tokens
-### check 4/5 at 06:22
-### check 5/5 at 06:26
+  dup check: new (UN Secretary-General António Guterres выпустил официальное послание ко Дню ООН 2026, в котором призвал к диалогу вместо раскола и сотрудничеству вмест)
+  not about Mauritius: [Blog] United Nations at 81: Renewing Our Commitment to Dialogue and Cooperation
+Skipped foreign news (Defimedia): [Blog] United Nations at 81: Renewing Our Commitment to Dialogue and Cooperation
+  dup check: new (Прогноз на субботу 24 октября: утром солнечно, днём локальные (иногда умеренные) ливни в основном на западе, юго-западе и центральном плато; температу)
+  proofread: 
+Posted (Inside News): Погода в субботу, 24 октября: до 31 °C перед ливнями во второй половине дня
+LLM usage this run: 5 requests, 7648 tokens
