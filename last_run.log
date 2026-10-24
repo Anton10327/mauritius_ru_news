@@ -1,27 +1,16 @@
-### check 1/5 at 14:05
+### check 1/5 at 14:35
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Law and Order POST-ÉMEUTES  –   Une prime de Rs 10 000 du GM  à des policiers, SMF et pomp == Полицейским, бойцам SMF и пожарным выплатят премию в размере 10 тысяч рупий
-  dup check: new (Правительство Великобритании запустило кампанию Be Ready с призывом к домохозяйствам иметь запасы на 72 часа в случае перебоев с водой, электричеством)
-  not about Mauritius: ROYAUME-UNI : LE GOUVERNEMENT APPELLE LES MÉNAGES À SE PRÉPARER À 72 HEURES DE CRISE
-Skipped foreign news (Le Mauricien): ROYAUME-UNI : LE GOUVERNEMENT APPELLE LES MÉNAGES À SE PRÉPARER À 72 HEURES DE CRISE
-  dup: nothing new ()
-Skipped duplicate (L'Express): MTPA : graves failles dans les procédures d’attribution des marchés publics == MTPA: FCC выявила шесть основных уязвимостей в процедурах закупок
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Francophonie : Le candidat roumain sollicite  le soutien de Maurice == Navin Ramgoolam встретился с румынским кандидатом на пост генерального секретаря Междунаро
-LLM usage this run: 5 requests, 6439 tokens
-### check 2/5 at 14:09
-### check 3/5 at 14:13
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Top FM): Émeutes : Xavier-Luc Duval pointe des jeunes de toutes les communautés == 34 000 молодых людей без работы, учёбы и профессиональной подготовки: Xavier-Luc Duval бьё
-LLM usage this run: 1 requests, 1309 tokens
-### check 4/5 at 14:17
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (Упоминание о недавних беспорядках и кризисе воды как проявлении социальных проблем; цитата Duval о том, что события были шокирующими, но предсказуемым)
-Skipped duplicate (Le Mauricien): Xavier-Luc Duval alerte sur une « bombe à retardement » sociale == 34 000 молодых людей без работы, учёбы и профессиональной подготовки: Xavier-Luc Duval бьё
-LLM usage this run: 1 requests, 1393 tokens
-### check 5/5 at 14:21
+  dup check: new (Joëlle Coret a été victime d’un malaise le 22 octobre après avoir prononcé un discours lors de la deuxième édition de l’International Freelance Confer)
+  proofread: 
+Posted (Defimedia): Англия: состояние здоровья Joëlle Coret, президента MASA, оценивается как тревожное после недомогания
+  dup check: new (Sydney Pierre официально присоединился к FMP, что подтверждено Paul Bérenger на пресс-конференции. Также указано, что региональное отделение Rose-Hill)
+  proofread: Fron Militan Progresis → Фронт воинственного прогресса; "Sydney Pierre li byin parmi nou. Li fine integre FMP" → "Сидни Пьер теперь среди нас. Он полностью интегрируется в ФМП"; "Partie travailliste" → "Лейбористская партия"; "Assemblée nationale" → "Национальное собрание"; "Navin Ramgoolam" → "Нави
+Posted (Defimedia): Политика: Sydney Pierre официально присоединился к ФМП
+  dup check: new (В статье сообщается, что OCEP College de Port-Louis ожидает решения от Private Secondary Education Authority (PSEA) о предоставлении статуса «grant-ai)
+  proofread: «grant-aided» → «grant-in-aid»; Dr Reza Saumtally (депутат) → Dr Reza Saumtally, депутат
+Posted (Defimedia): После полемики вокруг Forest-Side Secondary College — Grant-in-aid: OCEP College в Port-Louis, принадлежащий депутату Saumtally, ожидает разрешения от Private Secondary Education Authority
+  dup check: new (Vinesh Moheeputh, член Reform Party, утверждает, что до 65% воды теряется в трубопроводах; он призывает правительство инвестировать в решение проблемы)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Водный кризис: до 65 % потерь в трубопроводах, утверждает Reform Party
+LLM usage this run: 12 requests, 18545 tokens
