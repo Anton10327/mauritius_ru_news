@@ -1,18 +1,19 @@
-### check 1/5 at 17:55
+### check 1/5 at 18:21
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Le Cabinet approuve un programme de médecins visiteurs pour attirer des spécialistes étran == Госпитали: привлечение иностранных специалистов для лечения, недоступного на Маврикии
-LLM usage this run: 1 requests, 1338 tokens
-### check 2/5 at 17:59
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Сообщается, что более года спустя после Assises de l’Éducation всё ещё не опубликован Blueprint de l’Éducation, вызывая тревогу у профсоюзов и работни)
+  dup check: new (Record jackpot of Rs 88.9 million won in the Rodrigues Lotto draw on Wednesday, the second‑largest ever win in Rodrigues, with the winning ticket sold)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Махенд Гунгерасад → Mahend Gungapersad
-Posted (L'Express): План развития образования на Маврикии: дорожная карта отсутствует
-LLM usage this run: 3 requests, 4894 tokens
-### check 3/5 at 18:03
-### check 4/5 at 18:07
-### check 5/5 at 18:11
+  proofread: Жану Клоду Янг Кит → Jean Claude Young Keet
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Le Mauricien): Житель Родригеса выиграл рекордный джекпот лотереи Loto — 88,9 млн рупий
+  dup check: new (Министр туризма Ричард Дуваль заявил, что сразу после своего назначения вызвал бывшее руководство MTPA для допроса, что является новым фактом, не упом)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Ричард Дюваль → Richard Duval
+Posted (Le Mauricien): Министр туризма Richard Duval: «Не потерплю коррупции и мошенничества»
+  dup check: new (Announce of a verdict on Diego Maradona's death to be delivered on 22 December 2026, six months after trial start, including details of alleged neglig)
+  written by GigaChat-2-Max
+  not about Mauritius: Mort de Diego Maradona : le verdict attendu le 22 décembre
+Skipped foreign news (Top FM): Mort de Diego Maradona : le verdict attendu le 22 décembre
+LLM usage this run: 8 requests, 12785 tokens
