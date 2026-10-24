@@ -1,24 +1,9 @@
-### check 1/5 at 12:29
+### check 1/5 at 13:01
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Shirin Aumeeruddy-Cziffra заявила, что не устраивает walk-out, а приостанавливает сессию; она прокомментировала работу Select Committees по вопросам д)
-  proofread: «Я не делаю walk-out» → «Я не делаю walk-out», но лучше перевести как «Я не устраиваю walk-out» или заменить на русское выражение (например, «я не ухожу из зала»)
-Posted (Defimedia): Напряжённость в Национальном собрании — Shirin Aumeeruddy-Cziffra: «Я не делаю walk-out, я приостанавливаю заседание»
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Plan stratégique - Air Mauritius : dix chantiers pour repartir du bon pied == Andre Viljoen представил десять стратегий для восстановления Air Mauritius
-  dup check: new (Статья рассказывает о праздновании Дивали на Маврикии, традициях и личных историях трёх женщин. В опубликованных ранее материалах нет информации о пра)
-  not news (portrait/lifestyle): [Supplément Spécial] Divali : quand Maurice s’illumine
-Skipped foreign news (Defimedia): [Supplément Spécial] Divali : quand Maurice s’illumine
-  dup check: new (Доктор Манжит Баичу заявила о рисках для здоровья, связанных с остатками пестицидов в окружающей среде и пище; партия Reform под руководством Роши Бха)
-  proofread: Dr Manjeeta Baichoo → Доктор Манжита Байчу; Roshi Bhadain → Роши Бхадай
-Posted (Le Mauricien): Пестициды, рак и продовольственная безопасность: Reform Party бьёт тревогу
-LLM usage this run: 9 requests, 12175 tokens
-### check 2/5 at 12:33
-### check 3/5 at 12:37
-### check 4/5 at 12:41
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  not news (portrait/lifestyle): Dr Goutham Gandham : «Notre objectif est de prolonger la vie tout en préservant la qualité de vie»
-Skipped foreign news (L'Express): Dr Goutham Gandham : «Notre objectif est de prolonger la vie tout en préservant la qualité de vie»
-LLM usage this run: 1 requests, 2764 tokens
-### check 5/5 at 12:45
+  dup check: new (Paul Bérenger публично призвал к созданию Select Committee для реформы полиции и консолидации Police Service Act с включением National Crime Agency, а)
+  proofread: Select Committee → Select Committee; "Police Service Act" → "Police Service Act"; "National Crime Agency" → "National Crime Agency"; Ébène → Эбен
+Posted (Defimedia): Реформа полиции: Paul Bérenger требует создания Select Committee
+  dup: nothing new (Упоминается, что Министерство по вопросам гендерного равенства и семейного благополучия взяло дело под свой контроль и обещает семье необходимую подде)
+Skipped duplicate (Defimedia): Agression sexuelle présumée sur une fillette de six ans - sa famille : «Nous sommes débous == Дело о сексуальном насилии над шестилетней девочкой: подозрение пало на её дядю по материн
+LLM usage this run: 4 requests, 4200 tokens
