@@ -9,3 +9,10 @@ Posted (Le Mauricien): «Переход от слов к делу»: обзор 
 LLM usage this run: 4 requests, 5401 tokens
 ### check 2/5 at 15:08
 ### check 3/5 at 15:12
+### check 4/5 at 15:16
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Paul Bérenger заявил, что отчёт NADC о реформе политики по каннабису не опубликован более месяца после завершения; подчеркнул срочность из-за распрост)
+  proofread: Fron Militan Progresis → Fron Militan Progression (в оригинале — FMP); National Agency for Drug Control → Национальное агентство по контролю за наркотиками
+Posted (Top FM): Борьба с наркотиками: Paul Bérenger сожалеет о задержке публикации отчёта NADC
+LLM usage this run: 3 requests, 4494 tokens
