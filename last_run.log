@@ -11,3 +11,9 @@ Skipped duplicate (L'Express): Traitement du cancer à Maurice : Le parcours de 
 Posted (Defimedia): 34 000 молодых людей без работы, учёбы и профессиональной подготовки: Xavier-Luc Duval бьёт тревогу
 LLM usage this run: 7 requests, 9662 tokens
 ### check 2/5 at 13:39
+### check 3/5 at 13:43
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new (В статье уточнено, что проекты законов касаются как внутренних, так и международных усыновлений; первый проект предусматривает создание Mauritius Chil)
+Skipped duplicate (Wazaa): Consultations publiques lancées pour deux projets de réforme cruciaux de l’adoption d’enfa == Усыновление детей на Маврикии: два законопроекта вынесены на общественное обсуждение
+LLM usage this run: 1 requests, 1400 tokens
