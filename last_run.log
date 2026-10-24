@@ -12,3 +12,15 @@ Posted (Defimedia): Ранена пулей: Elodie Thomas продолжает 
   proofread: Комиссия по жалобам на полицию → Комиссия по жалобам на полицию
 Posted (Le Mauricien): CAMP-LEVIEUX | Выстрел, попавший в Élodie Thomas — сержанта Taukoor сопоставляют с версией водителя
 LLM usage this run: 10 requests, 12562 tokens
+### check 2/5 at 11:28
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В новой статье сообщается о вооружённом нападении на церковь во время похорон в Иордании, в результате которого погибли семь человек и 40 получили ран)
+  not about Mauritius: [Video] Jordanie : sept morts et 40 blessés dans une attaque contre une église pendant des funéraill
+Skipped foreign news (Inside News): [Video] Jordanie : sept morts et 40 blessés dans une attaque contre une église pendant des funéraill
+  dup check: new (В статье впервые упоминается заявление Stéphanie Anquetil, Chief Whip правительства Маврикия, о необходимости пересмотреть систему защиты детей и усил)
+  proofread: Главный парламентский организатор правительства → Главный парламентский организатор (Chief Whip) правительства
+Posted (Top FM): Предполагаемые сексуальные надругательства над двумя детьми 6 лет за 48 часов: Stéphanie Anquetil бьёт тревогу
+  dup: nothing new ()
+Skipped duplicate (L'Express): Yovanee Veerapen : «Une bonne alimentation est complémentaire avec le traitement médical c == BARKLY: задержан после побега во время беспорядков
+LLM usage this run: 6 requests, 7664 tokens
