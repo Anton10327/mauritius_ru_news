@@ -1,39 +1,8 @@
-### check 1/5 at 16:41
+### check 1/5 at 17:20
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В новой статье говорится, что после госпитализации в больницу Jeetoo медицинский персонал заметил сильный стресс у девушки и она решилась рассказать о)
+  dup check: new (В статье перечислены конкретные уязвимости: отсутствие письменных процедур, недостаток контроля, дисфункция комитетов и недостаточное отслеживание дос)
   written by GigaChat-2-Max
-  proofread: Пойнт-О-Сабль → Пойнт-О-Сабля
-Posted (Le Mauricien): ПОИНТ-О-САБЛЬ: Девушка обвинила сожителя матери в сексуальном насилии
-  dup: nothing new ()
-Skipped duplicate (L'Express): Octobre Rose : comprendre le cancer du sein pour mieux agir == Борьба с раком груди: больше обследований и усилий по улучшению доступа к диагностике
-LLM usage this run: 4 requests, 4900 tokens
-### check 2/5 at 16:45
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (В статье упоминается, что заседание Reform Party проходило в «Labourdonnais Waterfront Hotel» 24 октября и партия рассмотрела вопросы водоснабжения, э)
-Skipped duplicate (L'Express): Eau, électricité, pesticides et examens : Le Reform Party interpelle les autorités == Партия реформ требует срочных мер по засухе, электричеству, образованию и здравоохранению
-LLM usage this run: 1 requests, 1440 tokens
-### check 3/5 at 16:49
-### check 4/5 at 16:53
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  written by GigaChat-2-Max
-  not about Mauritius: [Who cares] Pesticides abandonnés en pleine nature : Le scandale des déchets toxiques
-Skipped foreign news (L'Express): [Who cares] Pesticides abandonnés en pleine nature : Le scandale des déchets toxiques
-LLM usage this run: 1 requests, 2537 tokens
-### check 5/5 at 16:57
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  written by GigaChat-2-Max
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Исчезновение индийца на Маврикии: родственники просят вмешаться Индию
-  dup check: new (Смерть Daryl Collard 31 года после падения на стадионе George V 11 октября; ранее в опубликованных статьях не было информации о его травме и смерти.)
-  written by GigaChat-2-Max
-  proofread: Джорджа V → Джорджа V (оставлено латиницей по требованию); Кюрпипе → Кюрпип (склонение географического названия); Роз-Бель → Роз-Бель (оставлено как топоним); Джавахарлал Неру → Джавахарлал Неру (оставлено как название больницы); футбольного клуба Ливерпуль → футбольного клуба «Ливерпуль»
-Posted (Defimedia): Фанат футбола погиб через девять дней после падения на стадионе George V
-  dup check: new (В статье указано, что 26 октября 2026 года был вынесен второй вердикт по делу о сговоре с целью кражи (семь человек), а также анонсирован третий верди)
-  written by GigaChat-2-Max
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Второй вердикт по инцидентам октября вынесут в понедельник
-LLM usage this run: 8 requests, 11238 tokens
+  proofread: 
+Posted (Le Mauricien): Финансовая комиссия выявила недостатки в закупочной деятельности Управления по продвижению туризма Маврикия
+LLM usage this run: 3 requests, 5112 tokens
