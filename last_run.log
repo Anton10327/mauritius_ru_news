@@ -4,3 +4,12 @@
   dup: nothing new ()
 Skipped duplicate (Wazaa): Le Cabinet approuve un programme de médecins visiteurs pour attirer des spécialistes étran == Госпитали: привлечение иностранных специалистов для лечения, недоступного на Маврикии
 LLM usage this run: 1 requests, 1338 tokens
+### check 2/5 at 17:59
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Сообщается, что более года спустя после Assises de l’Éducation всё ещё не опубликован Blueprint de l’Éducation, вызывая тревогу у профсоюзов и работни)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Махенд Гунгерасад → Mahend Gungapersad
+Posted (L'Express): План развития образования на Маврикии: дорожная карта отсутствует
+LLM usage this run: 3 requests, 4894 tokens
