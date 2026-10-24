@@ -15,3 +15,9 @@ Posted (Le Mauricien): Vacoas — автоспорт: соревнования �
 Posted (Top FM): Дело о сексуальном насилии над шестилетней девочкой: подозрение пало на её дядю по материнской линии
 LLM usage this run: 11 requests, 17948 tokens
 ### check 2/5 at 10:51
+### check 3/5 at 10:55
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:441: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  proofread: Joëlle Coret → Джоэль Корет; présidente de la MASA → президент MASA; hospitalisée à Londres → госпитализирована в Лондоне; son état de santé compromet son retour à Maurice → её состояние здоровья ставит под угрозу возвращение на Маврикий; Union des Artistes (UOA) → Союз артистов (UOA); Son état de s
+Posted (L'Express): Joëlle Coret, президент MASA, госпитализирована в Лондоне: её состояние здоровья ставит под угрозу возвращение на Маврикий
+LLM usage this run: 2 requests, 3858 tokens
