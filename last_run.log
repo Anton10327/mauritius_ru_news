@@ -1,19 +1,8 @@
-### check 1/5 at 09:10
+### check 1/5 at 09:41
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье упоминается, что президент BACECA Ravi Gutty комментирует влияние недавних беспорядков и комендантского часа на стройплощадки, начиная с 12 о)
-Posted (Defimedia): Строительство: задержки, нехватка воды и рост цен на материалы подрывают сектор
-  dup check: new (В статье описано новое событие: нападение на семью в Barkly с проникновением в дом, повреждением имущества и насильственным уводом молодого человека; )
-  proofread: в полиции Барклай → в полицию Барклая
-Posted (L'Express): В Barkly: на семью напали, молодого человека увезли силой
-  dup check: new (Статья рассказывает о 30-летии Caudan Waterfront, его роли в трансформации экономики Порт-Луи и содержит мнения основателя René Leclézio, урбаниста Za)
-  not news (portrait/lifestyle): Caudan Waterfront -30 ans déjà : Une transformation économique qui accompagne celle de Port-Louis
-Skipped foreign news (Le Mauricien): Caudan Waterfront -30 ans déjà : Une transformation économique qui accompagne celle de Port-Louis
-  dup check: new (Министр земель и жилья Маврикия Shakeel Mohamed объявил на саммите Al Baraka в Лондоне о планах сделать Маврикий региональным центром исламских финанс)
-  proofread: 
-Posted (Top FM): Вакф: Shakeel Mohamed хочет сделать Маврикий региональным центром исламских финансов
-LLM usage this run: 11 requests, 19267 tokens
-### check 2/5 at 09:14
-### check 3/5 at 09:18
-### check 4/5 at 09:22
-### check 5/5 at 09:26
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): 40-часовая рабочая неделя: ожидаемая реформа и требуемые гарантии
+  dup: nothing new ()
+Skipped duplicate (L'Express): Kronik KC Ranze : Éclats d’une nation == Coromandel: 77-летняя женщина умерла через две недели после ДТП
+LLM usage this run: 3 requests, 4983 tokens
