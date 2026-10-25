@@ -1,24 +1,6 @@
-### check 1/5 at 14:25
+### check 1/5 at 14:56
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (В статье говорится, что Франсуа Векранжанс всё ещё находится в розыске после предполагаемого сексуального насилия над своей племянницей и крестницей 6)
-Skipped duplicate (Defimedia): Abus présumés sur une fillette de 6 ans : François Veckranges toujours introuvable == Дело о сексуальном насилии над шестилетней девочкой: подозрение пало на её дядю по материн
-  dup: nothing new (Ожидается понижение температуры на 2 градуса начиная с завтрашнего дня и приход фронта, который повлияет на погоду уже сегодня вечером; также упомянут)
-Skipped duplicate (Top FM): Météo : une baisse de 2 degrés attendue demain == Погода в субботу, 24 октября: до 31 °C перед ливнями во второй половине дня
-LLM usage this run: 2 requests, 2234 tokens
-### check 2/5 at 14:29
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Закрытие всех пляжей эмирата Рас-эль-Хайма из-за загрязнения побережья нефтепродуктами; власти не установили источник и судно, вызвавшее загрязнение; )
-  not about Mauritius: Pollution marine : toutes les plages de Ras Al Khaimah fermées
-Skipped foreign news (Inside News): Pollution marine : toutes les plages de Ras Al Khaimah fermées
-LLM usage this run: 2 requests, 3430 tokens
-### check 3/5 at 14:33
-### check 4/5 at 14:37
-### check 5/5 at 14:41
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье сообщается, что Бюро премьер-министра Маврикия объявило о поиске оператора для внедрения и обслуживания электронного паспорта; крайний срок п)
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Электронный паспорт: Маврикий ищет поставщика услуг
-LLM usage this run: 3 requests, 4839 tokens
+  proofread: Wendip Appaya → Вендип Апайя; Vida Loca → Виджа Лок; Maurice Vitto Laurent Jeevanji → Морис Витто Лоран Дживанжи; Jean Lino Albert → Жан Лино Альбер
+Posted (L'Express): Дело Wendip Appaya: финансирование поездки на Мадагаскар, след Vida Loca и происхождение средств
+LLM usage this run: 2 requests, 4136 tokens
