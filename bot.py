@@ -143,7 +143,9 @@ PROMPT = (
     "латиницей — только компании, клубы, ассоциации, партии с аббревиатурой. "
     "Международные конвенции, договоры и законы тоже по-русски: Convention "
     "des Nations unies relative aux droits de l'enfant → Конвенция ООН о "
-    "правах ребёнка, Civil Code → Гражданский кодекс. Затем в title и summary пиши person, "
+    "правах ребёнка, Civil Code → Гражданский кодекс. Спортивные и прочие "
+    "события тоже по-русски: Championnats d'Afrique de cyclisme → чемпионат "
+    "Африки по велоспорту, Jeux des îles → Игры островов Индийского океана. Затем в title и summary пиши person, "
     "остальные org и mu_place ТОЧНО как orig, латиницей, не склоняя и не переводя частично "
     "(никаких «Клёэ Gabriel» или «Матьё Souprayen» — только «Chloé Gabriel»); "
     "foreign — только по-русски, склоняя как обычные слова («в Ирландии», "
@@ -826,7 +828,8 @@ johannesburg durban pretoria nairobi antananarivo tananarive saint-denis moroni
 maputo canberra melbourne tokyo moscou washington bruxelles
 geneve rome berlin madrid lisbonne constitution senat loi code penal etat-major
 cabinet conseil-des-ministres opposition majorite convention conventions traite accord
-charte protocole declaration nations unies onu""".split()
+charte protocole declaration nations unies onu championnat championnats coupe jeux tournoi
+festival salon semaine journee mondial mondiaux olympiques""".split()
 
 
 def _sound(word):
