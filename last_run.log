@@ -1,20 +1,8 @@
-### check 1/5 at 15:55
+### check 1/5 at 16:24
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Упоминается о проведении 29 октября в Pointe-aux-Sables практического антизагрязнительного учения с использованием оборудования для борьбы с разливами)
-  proofread: 
-Posted (Inside News): Pointe-aux-Sables: учения по ликвидации разливов нефти в море 29 октября
-LLM usage this run: 3 requests, 4693 tokens
-### check 2/5 at 15:59
-### check 3/5 at 16:03
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-Posted (L'Express): Олимпийские игры юношества: Маврикий представил состав своей делегации
-LLM usage this run: 2 requests, 4579 tokens
-### check 4/5 at 16:07
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (Xavier Duval связывает рост насилия среди молодёжи с провалами в образовании, наркотиками, проблемами жилья и отсутствием перспектив; требует создания)
-Skipped duplicate (Le Mauricien): Violences et délinquances chez les jeunes- Xavier Duval : « L’Extended Programme et les 5  == 34 000 молодых людей без работы, учёбы и профессиональной подготовки: Xavier-Luc Duval бьё
-LLM usage this run: 1 requests, 1270 tokens
-### check 5/5 at 16:11
+  not about Mauritius: Plus chaud, plus haut : l’océan fragilise les îles
+Skipped foreign news (Defimedia): Plus chaud, plus haut : l’océan fragilise les îles
+  not about Mauritius: Climat : les politiques actuelles mènent vers un réchauffement de 2,8 °C
+Skipped foreign news (Defimedia): Climat : les politiques actuelles mènent vers un réchauffement de 2,8 °C
+LLM usage this run: 2 requests, 4255 tokens
