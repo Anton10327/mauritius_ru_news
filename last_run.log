@@ -15,3 +15,19 @@ Posted (Defimedia): Риск кибератаки: 10–15% государств
   dup: nothing new (Paul Bérenger заявил, что в её нынешнем виде NCA опасна для страны; представил нового члена партии Sydney Pierre (ранее уже был представлен на региона)
 Skipped duplicate (L'Express): Paul Bérenger, leader du FPM : «Dans sa forme actuelle, la NCA est dangereuse pour le pays == PSAC: драка в экзаменационном зале
 LLM usage this run: 7 requests, 10936 tokens
+### check 4/5 at 15:08
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье представлен новый важный факт: бывший секретарь по иностранным делам Виджай Макхан в своём новом интервью и книге анализирует геополитические)
+  not news (portrait/lifestyle): Vijay Makhan, ancien secrétaire aux Affaires étrangères   « Maurice doit se penser  comme un État oc
+Skipped foreign news (Le Mauricien): Vijay Makhan, ancien secrétaire aux Affaires étrangères   « Maurice doit se penser  comme un État oc
+  dup check: new (Paul Bérenger exige le retrait de l'abaissement de l'âge de la responsabilité pénale de 14 à 12 ans des attributions du comité parlementaire proposé s)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Committee
+  leftovers fixed by GigaChat-3-Pro; still left: Committee
+Posted (Le Mauricien): Национальное агентство по борьбе с преступностью — Bérenger требует создания Select Committee
+  dup: nothing new (В статье указано, что 10-я юбилейная редакция «Durgotsav» прошла в Grand-Bassin с участием тысяч верующих и официальных лиц (Премьер-министр Навин Рам)
+Skipped duplicate (L'Express): [Diapo] «Durgotsav» : Grand-Bassin rassemble des milliers de fidèles dans la ferveur, avec == В Grand-Bassin пройдет специальная молитва у статуи Durga Maa
+  dup check: new (La Hindu House a lancé les célébrations nationales de Divali à Cassis le 24 octobre sous le thème « A Light for World Peace » et la présidente Luxshme)
+Posted (Top FM): Фестиваль огней: Hindu House запускает национальные празднования призывом к единству… «Мы желаем, чтобы единство и мир царили на Маврикии и во всём мире», — заявила Luxshmee Ramdhun-Bundhun
+LLM usage this run: 10 requests, 14338 tokens
