@@ -1,20 +1,13 @@
-### check 1/5 at 10:12
+### check 1/5 at 11:05
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье указано, что семь мужчин в возрасте от 18 до 24 лет предстали перед судом 23 октября; это конкретное заседание и возрастная группа обвиняемых)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Час расплаты перед судом для более чем 40 человек на фоне беспорядков в стране
-  dup check: new (В новой статье упоминается, что четвёртая редакция SHE-CEO Leadership Bootcamp проходит в Maritim Resort & Spa Mauritius и что Rebeka Marthe решила ор)
-  proofread: Turtle Bay, Balaclava → Тёртл-Бей, Балаклава; Robert Hungley → Роберт Хангли; Arianne Navarre-Marie → Арианн Наварр-Мари; Rosheen Ngorima → Розин Нгорима
-Posted (Le Mauricien): «SHE-CEO Leadership Bootcamp»: женщины-предпринимательницы из 24 стран на связи
-LLM usage this run: 6 requests, 11067 tokens
-### check 2/5 at 10:16
-### check 3/5 at 10:20
-### check 4/5 at 10:24
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Проводится впервые Diwali Week в Caudan Waterfront с 3 по 7 ноября; приглашённая гостья — Shruti Haasan, дочь актёра Kamal Haasan и актрисы Sarika Tha)
-  proofread: Shruti Haasan → Шрути Хаасан
-Posted (Le Mauricien): CAUDAN WATERFRONT: Неделя Дивали с 3 ноября
-LLM usage this run: 3 requests, 5004 tokens
-### check 5/5 at 10:28
+  not news (portrait/lifestyle): Harry Poonoosamy : la radio qui rassemble
+Skipped foreign news (Defimedia): Harry Poonoosamy : la radio qui rassemble
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Blog] From the Community School to the Foundation Programme in Literacy, Numeracy and ski == В приюте в Beau-Bassin: двое сотрудников подверглись нападению со стороны воспитанников
+  dup check: new (Анонсирован перенос двух крупных международных конференций (Форум мировых данных ООН и Саудовский статистический форум) с ноября 2024 года на 2027 год)
+  not about Mauritius: Arabie saoudite : plusieurs grands sommets internationaux reportés à 2027
+Skipped foreign news (Inside News): Arabie saoudite : plusieurs grands sommets internationaux reportés à 2027
+  dup check: new (Пациентка 84 лет упала с кровати в больнице Victoria, после чего ей потребовалась операция на мозге; дочь подала жалобу о предполагаемой медицинской х)
+Posted (L'Express): Предполагаемая врачебная халатность в больнице Victoria: 84-летняя пациентка упала с кровати и перенесла операцию на головном мозге
+LLM usage this run: 7 requests, 12048 tokens
