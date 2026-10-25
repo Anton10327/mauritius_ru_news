@@ -14,3 +14,14 @@ LLM usage this run: 4 requests, 5584 tokens
   dup: nothing new ()
 Skipped duplicate (Inside News): Achats de la MTPA : la FCC décrit un système exposé aux abus == Финансовая комиссия выявила недостатки в закупочной деятельности Управления по продвижению
 LLM usage this run: 1 requests, 809 tokens
+### check 4/5 at 14:09
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  proofread: «Geet Gawai» → «Гит Гавай»
+Posted (Le Mauricien): PHOENIX | Центр культуры Indira Gandhi — Дивали отметят 30 октября
+  dup check: new (В статье упоминается новый случай предполагаемого сексуального насилия в приюте с участием шестилетней девочки и 15-летнего подростка, а также призыв )
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Ombudsperson, for, Chief
+  leftovers fixed by GigaChat-3-Pro; still left: Ombudsperson, for, Chief
+Posted (Top FM): Дело о предполагаемом сексуальном насилии в приюте: защита уязвимых детей в центре внимания
+LLM usage this run: 6 requests, 8322 tokens
