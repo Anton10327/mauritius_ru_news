@@ -4,3 +4,9 @@
   proofread: 
 Posted (Top FM): Использование пестицидов: доктор Manjeeta Baichoo предупреждает о рисках для здоровья
 LLM usage this run: 2 requests, 3247 tokens
+### check 2/5 at 08:40
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье сообщается, что правительство Маврикия рассматривает возможность снижения возраста уголовной ответственности с 14 до 12 лет через возможную п)
+Posted (Top FM): Преступность несовершеннолетних: тюрьма — не место для реабилитации, предупреждают представители гражданского общества
+LLM usage this run: 3 requests, 5404 tokens
