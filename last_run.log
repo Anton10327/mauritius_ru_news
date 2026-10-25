@@ -1,17 +1,1 @@
-### check 1/5 at 00:04
-### check 2/5 at 00:08
-### check 3/5 at 00:12
-  dup check: new (В статье сообщается о праздновании 80-летия Vespa на Маврикии: 15 винтажных скутеров проехали от Bagatelle до Port-Louis и далее к Caudan Waterfront, )
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-GigaChat balance: GigaChat-Max 24,715,076, GigaChat 249,660,117, GigaChat-Ultra 48,513,698, GigaChat-Pro 38,655,381; 359 days to go
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Наследие двухколёсного транспорта: Vespa отмечает 80-летие на Маврикии
-  not news (portrait/lifestyle): Stop considering normal what’s abnormal!
-Skipped foreign news (L'Express): Stop considering normal what’s abnormal!
-  dup check: new (Интервью с Патриком Бихарри, в котором он призывает Маврикий сосредоточиться на доверительном искусственном интеллекте и местных компетенциях вместо г)
-  not news (portrait/lifestyle): Entretien : Patrick Beeharry : «Maurice doit miser sur une IA de confiance plutôt que sur la course 
-Skipped foreign news (L'Express): Entretien : Patrick Beeharry : «Maurice doit miser sur une IA de confiance plutôt que sur la course 
-LLM usage this run: 6 requests, 10480 tokens
-### check 4/5 at 00:16
-### check 5/5 at 00:20
+### check 1/5 at 00:33
