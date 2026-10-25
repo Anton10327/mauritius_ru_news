@@ -7,3 +7,10 @@
   leftovers fixed by GigaChat-3-Pro; still left: Silver, Bank
 Posted (L'Express): Банк Серебряный Банк: цифры банковского краха
 LLM usage this run: 3 requests, 4322 tokens
+### check 2/5 at 18:10
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Rottweiler : au-delà de la race, les facteurs de risque
+Skipped foreign news (Defimedia): Rottweiler : au-delà de la race, les facteurs de risque
+LLM usage this run: 1 requests, 2829 tokens
