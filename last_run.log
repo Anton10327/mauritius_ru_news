@@ -11,3 +11,9 @@ LLM usage this run: 3 requests, 4693 tokens
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
 Posted (L'Express): Олимпийские игры юношества: Маврикий представил состав своей делегации
 LLM usage this run: 2 requests, 4579 tokens
+### check 4/5 at 16:07
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new (Xavier Duval связывает рост насилия среди молодёжи с провалами в образовании, наркотиками, проблемами жилья и отсутствием перспектив; требует создания)
+Skipped duplicate (Le Mauricien): Violences et délinquances chez les jeunes- Xavier Duval : « L’Extended Programme et les 5  == 34 000 молодых людей без работы, учёбы и профессиональной подготовки: Xavier-Luc Duval бьё
+LLM usage this run: 1 requests, 1270 tokens
