@@ -1,12 +1,10 @@
-### check 1/5 at 09:41
+### check 1/5 at 10:12
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье указано, что семь мужчин в возрасте от 18 до 24 лет предстали перед судом 23 октября; это конкретное заседание и возрастная группа обвиняемых)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): 40-часовая рабочая неделя: ожидаемая реформа и требуемые гарантии
-  dup: nothing new ()
-Skipped duplicate (L'Express): Kronik KC Ranze : Éclats d’une nation == Coromandel: 77-летняя женщина умерла через две недели после ДТП
-LLM usage this run: 3 requests, 4983 tokens
-### check 2/5 at 09:45
-### check 3/5 at 09:49
-### check 4/5 at 09:53
-### check 5/5 at 09:57
+Posted (L'Express): Час расплаты перед судом для более чем 40 человек на фоне беспорядков в стране
+  dup check: new (В новой статье упоминается, что четвёртая редакция SHE-CEO Leadership Bootcamp проходит в Maritim Resort & Spa Mauritius и что Rebeka Marthe решила ор)
+  proofread: Turtle Bay, Balaclava → Тёртл-Бей, Балаклава; Robert Hungley → Роберт Хангли; Arianne Navarre-Marie → Арианн Наварр-Мари; Rosheen Ngorima → Розин Нгорима
+Posted (Le Mauricien): «SHE-CEO Leadership Bootcamp»: женщины-предпринимательницы из 24 стран на связи
+LLM usage this run: 6 requests, 11067 tokens
