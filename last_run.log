@@ -1,39 +1,6 @@
-### check 1/5 at 19:03
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+### check 1/5 at 19:35
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Статья описывает процедуру после сообщения о потенциально опасной собаке: необходимость проверки фактов, оценки условий содержания животного и соблюде)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Chiens dangereux : et après le signalement ?
-Skipped foreign news (Defimedia): Chiens dangereux : et après le signalement ?
   dup: nothing new ()
-Skipped duplicate (Defimedia): Une patiente de 84 ans opérée à la tête après une chute à l’hôpital Victoria : sa fille po == Предполагаемая врачебная халатность в больнице Victoria: 84-летняя пациентка упала с крова
-  dup check: new (128 personnes interpellées lors des violences à Barcelone le 24 octobre, dont 72 mineurs (certains de 14 ans); 15 policiers blessés, dont 4 gravement;)
-  written by GigaChat-2-Max
-  not about Mauritius: [videos] Espagne : 128 interpellations après une soirée de violences à Barcelone
-Skipped foreign news (Inside News): [videos] Espagne : 128 interpellations après une soirée de violences à Barcelone
-  written by GigaChat-2-Max
-  not about Mauritius: Mauriciens de France : «devoir encore prouver qu’on a sa place»
-Skipped foreign news (Defimedia): Mauriciens de France : «devoir encore prouver qu’on a sa place»
-LLM usage this run: 6 requests, 10192 tokens
-### check 2/5 at 19:07
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (L'OMS a annoncé le 21 octobre un nouveau cadre international pour suivre les risques sanitaires liés à la chaleur extrême, en ciblant spécifiquement l)
-  written by GigaChat-2-Max
-  not about Mauritius: Chaleur extrême : l’OMS alerte sur les risques pour les femmes enceintes et les enfants
-Skipped foreign news (Inside News): Chaleur extrême : l’OMS alerte sur les risques pour les femmes enceintes et les enfants
-LLM usage this run: 2 requests, 2913 tokens
-### check 3/5 at 19:11
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Emballages alimentaires : Caractère a tourné la page du plastique
-Skipped foreign news (L'Express): Emballages alimentaires : Caractère a tourné la page du plastique
-LLM usage this run: 1 requests, 2873 tokens
-### check 4/5 at 19:15
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 5/5 at 19:19
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+Skipped duplicate (Le Mauricien): Crise dans l’approvisionnement en eau –  Le gouvernement intensifie sa riposte == Водный кризис: Patrick Assirvaden рассматривает реквизицию 15–20 дополнительных скважин по
+LLM usage this run: 1 requests, 1433 tokens
