@@ -1,18 +1,1 @@
-### check 1/5 at 06:15
-### check 2/5 at 06:19
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-GigaChat balance: GigaChat 249,660,117, GigaChat-Ultra 48,706,926, GigaChat-Pro 38,785,326, GigaChat-Max 24,775,687; 360 days to go
-  dup check: new (Обновлённое число погибших в Газе — 74 540 человек, а также число раненых — не менее 175 678 с октября 2023 года; за последние сутки зарегистрировано )
-  not about Mauritius: Gaza : le bilan de la guerre génocidaire menée par Israël atteint 74 540 morts
-Skipped foreign news (Defimedia): Gaza : le bilan de la guerre génocidaire menée par Israël atteint 74 540 morts
-LLM usage this run: 2 requests, 3260 tokens
-### check 3/5 at 06:23
-### check 4/5 at 06:27
-### check 5/5 at 06:31
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Прогноз на воскресенье, 25 октября: ожидаются дожди во второй половине дня и ночью; максимальная температура воздуха — 29 °C, минимальная — 16 °C в са)
-  not news (portrait/lifestyle): Météo dimanche 25 octobre : des averses attendues dans l’après-midi et la nuit
-Skipped foreign news (Inside News): Météo dimanche 25 octobre : des averses attendues dans l’après-midi et la nuit
-LLM usage this run: 2 requests, 3770 tokens
+### check 1/5 at 06:52
