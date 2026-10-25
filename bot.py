@@ -1278,6 +1278,76 @@ def _apply_fixes(text, fixes):
     return text
 
 
+LEFTOVER_PROMPT = (
+    "Ты редактор русскоязычного новостного канала. В заголовке или тексте "
+    "остались иностранные слова, которые не являются именами людей, названиями "
+    "мест или компаний: они перечислены ниже. Переведи на русский именно их, "
+    "по смыслу и согласовав с предложением (Pesticides → Пестициды, "
+    "Agricultural Services → сельскохозяйственная служба, walk-out → "
+    "демонстративный уход). Всё остальное, включая имена латиницей, оставь "
+    "без изменений. Верни строго JSON: {\"title\": \"...\", \"summary\": \"...\"}."
+)
+
+
+def _latin_words(text):
+    return re.findall(r"[A-Za-zÀ-ÿ](?:[A-Za-zÀ-ÿ'’-]*[A-Za-zÀ-ÿ])?", text or "")
+
+
+def foreign_leftovers(title, summary, names):
+    """Latin words that are not part of a listed name or an abbreviation."""
+    text = f"{title} {summary}"
+    allowed = set()
+    for n in names:
+        if n.get("type") == "foreign" or n.get("ru"):
+            continue
+        if n.get("type") == "org":  # an organisation counts only as a whole name
+            text = re.sub(re.escape(n.get("orig", "")), " ", text, flags=re.I)
+        else:  # people and places: a surname alone is fine too
+            allowed |= {w.lower() for w in _latin_words(n.get("orig", ""))}
+    left = []
+    for w in _latin_words(text):
+        if w.lower() in allowed or (w.isupper() and len(w) <= 6) or re.fullmatch(r"[A-Z]{1,3}\d*", w):
+            continue
+        if w not in left:
+            left.append(w)
+    return left
+
+
+def fix_leftovers(title, summary, names, original=""):
+    """Systematic last check: any foreign word outside the names list is
+    sent back to the proofreading model to be translated."""
+    if not names:
+        return title, summary
+    left = foreign_leftovers(title, summary, names)
+    if not left:
+        return title, summary
+    print(f"  foreign words left: {', '.join(left)}")
+    free = [m for m in PROOF_MODELS if m not in _llm_state["exhausted"]
+            and not (m.startswith("GigaChat") and (_giga["dead"] or _giga_over_cap(m)))
+            and (m.startswith("GigaChat") or (LLM_KEY and not _llm_state["disabled"]))]
+    msg = (f"Заголовок: {title}\nТекст: {summary}\n\nИностранные слова, которые нужно "
+           f"перевести: {', '.join(left)}")
+    for model in free:
+        try:
+            r = _llm_call(model, [{"role": "system", "content": LEFTOVER_PROMPT},
+                                  {"role": "user", "content": msg}], 700)
+            if not r.ok:
+                continue
+            d = _parse_json(r.json()["choices"][0]["message"]["content"]) or {}
+        except Exception as e:
+            print(f"  leftover fix failed ({model}): {e}")
+            continue
+        new_t, new_s = (d.get("title") or "").strip(), (d.get("summary") or "").strip()
+        ok_t = new_t and _safe_edit(title, new_t, original, left)
+        ok_s = not summary or (new_s and _safe_edit(summary, new_s, original, left))
+        out_t = new_t if ok_t else title
+        out_s = new_s if (ok_s and summary) else summary
+        still = foreign_leftovers(out_t, out_s, names)
+        print(f"  leftovers fixed by {model}; still left: {', '.join(still) or 'none'}")
+        return out_t, out_s
+    return title, summary
+
+
 def proofread(title, summary, original="", names=()):
     """Second pass that fixes Russian language errors. Returns (title, summary)."""
     free = [m for m in PROOF_MODELS if m not in _llm_state["exhausted"]
@@ -1407,6 +1477,7 @@ def build_post(source, entry, link, recent=(), force=False):
     source_text = f"{orig_title}\n{body}"
     title = fix_caps_title(apply_names(title, names, source_text), orig_title)
     summary = apply_names(summary, names, source_text)
+    title, summary = fix_leftovers(title, summary, names, source_text)
     post["title"], post["summary"] = title, summary
 
     footer = f'🔗 <a href="{html.escape(link)}">{html.escape(source)}</a>'
