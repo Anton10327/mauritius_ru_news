@@ -13,3 +13,10 @@ Skipped duplicate (L'Express): Voyages ministériels : Rs 42,7 millions pour 109
   proofread: Элои Тома → Элои Томас
 Posted (Le Mauricien): Две недели после операции — Élodie Thomas продолжает восстанавливаться
 LLM usage this run: 9 requests, 13519 tokens
+### check 2/5 at 17:11
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье упоминается, что жена погибшего Soopramanien Kistnen (Simla Kistnen) обвиняет власти в неисполнении предвыборных обещаний и говорит об исполь)
+  proofread: Сопраманиен Кистнен → Сопраманиен Кистнен (по оригиналу); в поле сахарного тростника → в поле сахарного тростника; Top FM → Top FM
+Posted (Top FM): Дело Kistnen: Simla Kistnen осуждает невыполненные обещания, а слушатели Top FM говорят об использовании в предвыборных целях
+LLM usage this run: 3 requests, 5042 tokens
