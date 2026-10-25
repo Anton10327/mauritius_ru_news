@@ -1,12 +1,5 @@
 [
 {
-"t": 1792732313.3831322,
-"title": "Кибербезопасность: несколько государственных сервисов временно отключены в качестве меры предосторожности",
-"source": "Inside News",
-"orig": "Cybersécurité : plusieurs services gouvernementaux suspendus par précaution",
-"summary": "Власти Маврикия временно отключили ряд государственных цифровых платформ после предупреждения о двух критических уязвимостях в языке PHP, известных как «PHP2Shell» (CVE-2026-109618 и CVE-2026-109619). По данным Computer Emergency Response Team of Mauritius (CERT-MU), их уровень серьёзности высок. Отключение, инициированное Government Online Centre (GOC) и Central Information Systems Division (CISD), является превентивной мерой для установки исправлений; подтверждённых взломов или утечек нет. Дата полного восстановления сервисов не уточняется."
-},
-{
 "t": 1792733023.4403923,
 "title": "Startup World Cup 2026: TIBOK продвигает маврикийские инновации в мировой финал",
 "source": "Le Mauricien",
