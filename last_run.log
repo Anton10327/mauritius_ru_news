@@ -1,24 +1,9 @@
-### check 1/5 at 17:38
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В новой статье сообщается о падении строительной краны на пути монорельса в Сан-Паулу 24 октября, травме оператора крана и эвакуации пассажиров без по)
-  not about Mauritius: [video] Brésil : un monotrilho percute une grue tombée sur la voie à São Paulo
-Skipped foreign news (Inside News): [video] Brésil : un monotrilho percute une grue tombée sur la voie à São Paulo
-  dup check: new (В статье упоминается, что первый урожай нового сорта лука Red Ruby уже поступил на рынок по субсидированной цене. В ранее опубликованной информации об)
-  proofread: Реди → Réduit
-Posted (L'Express): Местное производство: FAREI запускает новый сорт красного лука Red Ruby
-LLM usage this run: 5 requests, 8734 tokens
-### check 2/5 at 17:42
+### check 1/5 at 18:06
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): État de droit : jusqu’où l’État peut-il aller pour rétablir l’ordre ?
-Skipped foreign news (Defimedia): État de droit : jusqu’où l’État peut-il aller pour rétablir l’ordre ?
-  dup check: new (Упоминается новый случай нападения ротвейлеров на трёхлетнюю девочку в Quartier-Militaire 18 октября, с деталями о травме и госпитализации ребёнка. Та)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Rottweiler : une puissance à maîtriser
-Skipped foreign news (Defimedia): Rottweiler : une puissance à maîtriser
-LLM usage this run: 3 requests, 7200 tokens
-### check 3/5 at 17:46
-### check 4/5 at 17:50
-### check 5/5 at 17:54
+  proofread: Джоанна Беренгер → Джоанна Беренжер
+  foreign words left: Silver, Bank
+  leftovers fixed by GigaChat-3-Pro; still left: Silver, Bank
+Posted (L'Express): Банк Серебряный Банк: цифры банковского краха
+LLM usage this run: 3 requests, 4322 tokens
