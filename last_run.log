@@ -33,3 +33,5 @@ Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (c
   not news (portrait/lifestyle): Emballages alimentaires : Caractère a tourné la page du plastique
 Skipped foreign news (L'Express): Emballages alimentaires : Caractère a tourné la page du plastique
 LLM usage this run: 1 requests, 2873 tokens
+### check 4/5 at 19:15
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
