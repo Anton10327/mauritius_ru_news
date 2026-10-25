@@ -1,25 +1,10 @@
-### check 1/5 at 17:07
+### check 1/5 at 17:38
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (1.314 interpellations, 53 membres des forces de l'ordre blessés, 75 interventions pour incendies, 24 commerces pillés, 289 actions de voie publique, 4)
-  not about Mauritius: Manifestations de samedi en France : 1.314 interpellations, 53 membres des forces de l'ordre blessés
-Skipped foreign news (Defimedia): Manifestations de samedi en France : 1.314 interpellations, 53 membres des forces de l'ordre blessés
-  dup check: new (Суммарные расходы на министерские миссии с декабря 2024 по настоящее время составили около 42,7 млн рупий; проведено 109 официальных зарубежных миссий)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): С декабря 2024 года по настоящее время — министерские поездки: 42,7 млн рупий, но без детализации расходов
-  dup: nothing new ()
-Skipped duplicate (L'Express): Voyages ministériels : Rs 42,7 millions pour 109 missions à l’étranger depuis décembre 202 == С декабря 2024 года по настоящее время — министерские поездки: 42,7 млн рупий, но без дета
-  dup check: new (Упоминается, что Эло́ди Томас по-прежнему находится в отделении интенсивной терапии (ICU) и испытывает трудности с речью; цитируется близкий человек о)
-  proofread: Элои Тома → Элои Томас
-Posted (Le Mauricien): Две недели после операции — Élodie Thomas продолжает восстанавливаться
-LLM usage this run: 9 requests, 13519 tokens
-### check 2/5 at 17:11
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье упоминается, что жена погибшего Soopramanien Kistnen (Simla Kistnen) обвиняет власти в неисполнении предвыборных обещаний и говорит об исполь)
-  proofread: Сопраманиен Кистнен → Сопраманиен Кистнен (по оригиналу); в поле сахарного тростника → в поле сахарного тростника; Top FM → Top FM
-Posted (Top FM): Дело Kistnen: Simla Kistnen осуждает невыполненные обещания, а слушатели Top FM говорят об использовании в предвыборных целях
-LLM usage this run: 3 requests, 5042 tokens
-### check 3/5 at 17:15
-### check 4/5 at 17:19
-### check 5/5 at 17:23
+  dup check: new (В новой статье сообщается о падении строительной краны на пути монорельса в Сан-Паулу 24 октября, травме оператора крана и эвакуации пассажиров без по)
+  not about Mauritius: [video] Brésil : un monotrilho percute une grue tombée sur la voie à São Paulo
+Skipped foreign news (Inside News): [video] Brésil : un monotrilho percute une grue tombée sur la voie à São Paulo
+  dup check: new (В статье упоминается, что первый урожай нового сорта лука Red Ruby уже поступил на рынок по субсидированной цене. В ранее опубликованной информации об)
+  proofread: Реди → Réduit
+Posted (L'Express): Местное производство: FAREI запускает новый сорт красного лука Red Ruby
+LLM usage this run: 5 requests, 8734 tokens
