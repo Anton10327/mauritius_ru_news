@@ -6,3 +6,13 @@ Skipped duplicate (Le Mauricien): Crise dans l’approvisionnement en eau –  
 LLM usage this run: 1 requests, 1433 tokens
 ### check 2/5 at 19:39
 ### check 3/5 at 19:43
+### check 4/5 at 19:47
+  same headline as #99: Beaux-Songes : Des restes humains découverts dans de hautes herbes
+Skipped duplicate (Defimedia): Beaux-Songes : des restes humains découverts près d’une rivière == Beaux-Songes: обнаружены человеческие останки
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Профиль предпринимателя Михира Лалбахадура: бывший школьник, теперь 24‑летний владелец семейного бизнеса по импорту и распределению фруктов, обслужива)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Mihir Lalbahadoor : de l’étal de son père aux marchés de gros
+Skipped foreign news (Defimedia): Mihir Lalbahadoor : de l’étal de son père aux marchés de gros
+LLM usage this run: 2 requests, 4526 tokens
