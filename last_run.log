@@ -1,19 +1,9 @@
-### check 1/5 at 18:06
+### check 1/5 at 18:34
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Пять молодых людей из Родригеса выбраны для представления на EU Youth Sounding Board — это новая инициатива, о которой ранее не сообщалось. Также указ)
   written by GigaChat-2-Max
-  proofread: Джоанна Беренгер → Джоанна Беренжер
-  foreign words left: Silver, Bank
-  leftovers fixed by GigaChat-3-Pro; still left: Silver, Bank
-Posted (L'Express): Банк Серебряный Банк: цифры банковского краха
-LLM usage this run: 3 requests, 4322 tokens
-### check 2/5 at 18:10
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Rottweiler : au-delà de la race, les facteurs de risque
-Skipped foreign news (Defimedia): Rottweiler : au-delà de la race, les facteurs de risque
-LLM usage this run: 1 requests, 2829 tokens
-### check 3/5 at 18:14
-### check 4/5 at 18:18
-### check 5/5 at 18:22
+  foreign words left: Rodrigues, Youth
+  leftovers fixed by GigaChat-3-Pro; still left: Youth
+Posted (L'Express): Пять молодых жителей Родригеса представят свой остров на европейской платформе
+LLM usage this run: 4 requests, 5528 tokens
