@@ -1311,8 +1311,14 @@ def foreign_leftovers(title, summary, names, original=""):
     for n in names:
         if n.get("type") == "foreign" or n.get("ru"):
             continue
-        if whole_only(n):  # an organisation or multi-word place counts only as a whole name
-            text = re.sub(re.escape(n.get("orig", "")), " ", text, flags=re.I)
+        if whole_only(n):  # an organisation or multi-word place counts only as a whole
+            # name, or as 2+ of its words in a row ("Silver Bank" of "Silver Bank Ltd")
+            ws = n.get("orig", "").split()
+            parts = sorted({" ".join(ws[i:j]) for i in range(len(ws))
+                            for j in range(i + 2, len(ws) + 1)} | {n.get("orig", "")}, key=len, reverse=True)
+            for part in parts:
+                if part.strip():
+                    text = re.sub(re.escape(part), " ", text, flags=re.I)
         else:  # people and places: a surname alone is fine too
             allowed |= {w.lower() for w in _latin_words(n.get("orig", ""))}
     left = []
