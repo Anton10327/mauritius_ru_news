@@ -1086,7 +1086,9 @@ def apply_names(text, names, source_text=""):
     # Commission, Championnats d'Afrique): matching them word by word turns
     # «Конституции» into «Constitutional». They are only matched whole, as a
     # hyphenated name (Eco-Sud ~ Эко-Суд); single words come from people and places.
-    orgs = [n["orig"].strip() for n in names if n.get("type") == "org" and not n.get("ru")]
+    # (the same for multi-word places: Musée de l'esclavage, Jardin de Pamplemousses)
+    orgs = [n["orig"].strip() for n in names if not n.get("ru") and (
+        n.get("type") == "org" or (n.get("type") == "mu_place" and " " in n["orig"].strip()))]
     latin_names = [n for n in latin_names if n not in orgs]
     if orgs:
         text = _latinize_compounds(text, ".\n".join(orgs), lenient=True)
@@ -1299,7 +1301,8 @@ def foreign_leftovers(title, summary, names, original=""):
     allowed = {"dr", "me", "mme", "st", "ste", "mr", "sir"}
     # proper names the model did not list: capitalised in the middle of a
     # sentence in the article (but not just a word of an organisation's name)
-    org_words = {w.lower() for n in names if n.get("type") == "org"
+    whole_only = lambda n: n.get("type") == "org" or (n.get("type") == "mu_place" and " " in n.get("orig", "").strip())
+    org_words = {w.lower() for n in names if whole_only(n)
                  for w in _latin_words(n.get("orig", ""))}
     for m in re.finditer(r"(?<=[a-zà-ÿ,;]\s)([A-ZÀ-Ý][\w'’-]+)", original or ""):
         w = m.group(1)
@@ -1308,7 +1311,7 @@ def foreign_leftovers(title, summary, names, original=""):
     for n in names:
         if n.get("type") == "foreign" or n.get("ru"):
             continue
-        if n.get("type") == "org":  # an organisation counts only as a whole name
+        if whole_only(n):  # an organisation or multi-word place counts only as a whole name
             text = re.sub(re.escape(n.get("orig", "")), " ", text, flags=re.I)
         else:  # people and places: a surname alone is fine too
             allowed |= {w.lower() for w in _latin_words(n.get("orig", ""))}
