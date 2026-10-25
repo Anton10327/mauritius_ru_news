@@ -1,28 +1,8 @@
-### check 1/5 at 13:57
-### check 2/5 at 14:01
+### check 1/5 at 14:25
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (L'Express): Air Mauritius  : Dix «Game Changers» pour transformer la compagnie == Andre Viljoen представил десять стратегий для восстановления Air Mauritius
-  dup check: new (Конференция-дебат о переосмыслении музеев и колониального наследия прошла 22 октября в Музее трансатлантической работорговли с участием Россилы Госсан)
-  proofread: Rossila Goussanou → Росила Гуссану
-Posted (Top FM): «А что, если музей должен сменить кожу?»: в Musée межконтинентального рабства в Port-Louis прошла дискуссия о переосмыслении музеев и колониального наследия
-LLM usage this run: 4 requests, 5584 tokens
-### check 3/5 at 14:05
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Inside News): Achats de la MTPA : la FCC décrit un système exposé aux abus == Финансовая комиссия выявила недостатки в закупочной деятельности Управления по продвижению
-LLM usage this run: 1 requests, 809 tokens
-### check 4/5 at 14:09
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  proofread: «Geet Gawai» → «Гит Гавай»
-Posted (Le Mauricien): PHOENIX | Центр культуры Indira Gandhi — Дивали отметят 30 октября
-  dup check: new (В статье упоминается новый случай предполагаемого сексуального насилия в приюте с участием шестилетней девочки и 15-летнего подростка, а также призыв )
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Ombudsperson, for, Chief
-  leftovers fixed by GigaChat-3-Pro; still left: Ombudsperson, for, Chief
-Posted (Top FM): Дело о предполагаемом сексуальном насилии в приюте: защита уязвимых детей в центре внимания
-LLM usage this run: 6 requests, 8322 tokens
-### check 5/5 at 14:13
+  dup: nothing new (В статье говорится, что Франсуа Векранжанс всё ещё находится в розыске после предполагаемого сексуального насилия над своей племянницей и крестницей 6)
+Skipped duplicate (Defimedia): Abus présumés sur une fillette de 6 ans : François Veckranges toujours introuvable == Дело о сексуальном насилии над шестилетней девочкой: подозрение пало на её дядю по материн
+  dup: nothing new (Ожидается понижение температуры на 2 градуса начиная с завтрашнего дня и приход фронта, который повлияет на погоду уже сегодня вечером; также упомянут)
+Skipped duplicate (Top FM): Météo : une baisse de 2 degrés attendue demain == Погода в субботу, 24 октября: до 31 °C перед ливнями во второй половине дня
+LLM usage this run: 2 requests, 2234 tokens
