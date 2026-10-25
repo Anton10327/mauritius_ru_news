@@ -1082,6 +1082,14 @@ def apply_names(text, names, source_text=""):
             name = ru[3:] if ru.startswith("ДР ") and prev.lower().startswith("республик") else ru
             return (prev + " " if prev else "") + (_decline(name, prev) if prev else name)
         text = re.sub(rf"(?:\b(\w+(?:-\w+)?)\s+)?(?<![\w-]){re.escape(orig)}(?![\w-])", put, text)
+    # Organisation names are full of ordinary words (Constitutional Review
+    # Commission, Championnats d'Afrique): matching them word by word turns
+    # «Конституции» into «Constitutional». They are only matched whole, as a
+    # hyphenated name (Eco-Sud ~ Эко-Суд); single words come from people and places.
+    orgs = [n["orig"].strip() for n in names if n.get("type") == "org" and not n.get("ru")]
+    latin_names = [n for n in latin_names if n not in orgs]
+    if orgs:
+        text = _latinize_compounds(text, ".\n".join(orgs), lenient=True)
     if latin_names:
         # Cyrillic spellings of the listed names -> Latin; only real names are
         # candidates now, so matching can be lenient
