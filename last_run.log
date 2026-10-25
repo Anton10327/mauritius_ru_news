@@ -1,23 +1,7 @@
-### check 1/5 at 15:22
+### check 1/5 at 15:55
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (L'Express): Le temps des actes ! == Полицейским, бойцам SMF и пожарным выплатят премию в размере 10 тысяч рупий
-  dup check: new (В новой статье впервые приводится точное время прохождения дистанции сборной Маврикия (56 минут 17,278 секунды) и указано отставание от ЮАР в секундах)
-Posted (Inside News): Видеоролик: чемпионат Африки по велоспорту — Маврикий завоевал серебро в смешанной эстафете
-  dup check: new (Обнаружены человеческие останки в траве, дата и место находки (24 октября, Beaux-Songes), описание найденных предметов одежды и наличие удостоверения )
-  proofread: удостоверение личности → удостоверение личности; поместило его под пломбы → поместило его под пломбу; в морг госпиталя Victoria в Кандо → в морг госпиталя Victoria в Кандо; Scene of Crime Office → сотрудники Scene of Crime Office; кинологи SMF с собакой Ares → кинологи SMF с собакой Ares; Стэнли и Р
-  foreign words left: Victoria, of, Office
-  leftovers fixed by GigaChat-3-Pro; still left: Victoria, of, Office
-Posted (L'Express): Beaux-Songes: обнаружены человеческие останки
-LLM usage this run: 8 requests, 11489 tokens
-### check 2/5 at 15:26
-### check 3/5 at 15:30
-### check 4/5 at 15:34
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Прогноз на вечер 25 октября: начало дождей, туман в горах, волны до 2,5 м; минимальные температуры ночью 16–18 °C в горах и 20–22 °C у побережья. Это )
+  dup check: new (Упоминается о проведении 29 октября в Pointe-aux-Sables практического антизагрязнительного учения с использованием оборудования для борьбы с разливами)
   proofread: 
-Posted (Inside News): Погода: дожди с вечера этого воскресенья, сильное волнение на море и понижение температуры в понедельник
-LLM usage this run: 3 requests, 5112 tokens
-### check 5/5 at 15:38
+Posted (Inside News): Pointe-aux-Sables: учения по ликвидации разливов нефти в море 29 октября
+LLM usage this run: 3 requests, 4693 tokens
