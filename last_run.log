@@ -1,14 +1,1 @@
-### check 1/5 at 12:10
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (Министр энергетики и коммунальных услуг Patrick Assirvaden уточнил, что первые подключения новых скважин могут быть реализованы в течение 15–20 дней; )
-Skipped duplicate (Defimedia): Crise Hydrique : vingt forages supplémentaires recherchés en urgence == Водный кризис: Patrick Assirvaden рассматривает реквизицию 15–20 дополнительных скважин по
-  dup: nothing new (В статье упоминается, что Совет министров принял к сведению рекомендации Комиссии «Истина и правосудие» 23 октября и что для их реализации создаётся м)
-Skipped duplicate (L'Express): «Truth and Justice Commission» : Les recommandations de nouveau sur la table == Комиссия «Истина и правосудие»: межведомственный комитет для контроля за выполнением реком
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Enjeu — Séquelles des incidents de Camp-Levieux sur fond de pénurie d’eau — Ambiance labre == CAMP-LEVIEUX | Выстрел, попавший в Élodie Thomas — сержанта Taukoor сопоставляют с версией
-LLM usage this run: 3 requests, 3490 tokens
-### check 2/5 at 12:14
-### check 3/5 at 12:18
-### check 4/5 at 12:22
-### check 5/5 at 12:26
+### check 1/5 at 12:51
