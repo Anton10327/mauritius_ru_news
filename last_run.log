@@ -16,3 +16,12 @@ Skipped foreign news (Inside News): [videos] Espagne : 128 interpellations aprè
   not about Mauritius: Mauriciens de France : «devoir encore prouver qu’on a sa place»
 Skipped foreign news (Defimedia): Mauriciens de France : «devoir encore prouver qu’on a sa place»
 LLM usage this run: 6 requests, 10192 tokens
+### check 2/5 at 19:07
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (L'OMS a annoncé le 21 octobre un nouveau cadre international pour suivre les risques sanitaires liés à la chaleur extrême, en ciblant spécifiquement l)
+  written by GigaChat-2-Max
+  not about Mauritius: Chaleur extrême : l’OMS alerte sur les risques pour les femmes enceintes et les enfants
+Skipped foreign news (Inside News): Chaleur extrême : l’OMS alerte sur les risques pour les femmes enceintes et les enfants
+LLM usage this run: 2 requests, 2913 tokens
