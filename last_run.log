@@ -11,3 +11,9 @@ Skipped foreign news (Inside News): Arabie saoudite : plusieurs grands sommets i
   dup check: new (Пациентка 84 лет упала с кровати в больнице Victoria, после чего ей потребовалась операция на мозге; дочь подала жалобу о предполагаемой медицинской х)
 Posted (L'Express): Предполагаемая врачебная халатность в больнице Victoria: 84-летняя пациентка упала с кровати и перенесла операцию на головном мозге
 LLM usage this run: 7 requests, 12048 tokens
+### check 2/5 at 11:09
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  proofread: Права природы → права природы
+Posted (Le Mauricien): ЭКОЛОГИЯ — Constitutional комиссия по пересмотру — Права природы: Eco-Sud сохраняет давление с пятью предложениями
+LLM usage this run: 2 requests, 3959 tokens
