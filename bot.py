@@ -1293,10 +1293,18 @@ def _latin_words(text):
     return re.findall(r"[A-Za-zÀ-ÿ](?:[A-Za-zÀ-ÿ'’-]*[A-Za-zÀ-ÿ])?", text or "")
 
 
-def foreign_leftovers(title, summary, names):
+def foreign_leftovers(title, summary, names, original=""):
     """Latin words that are not part of a listed name or an abbreviation."""
     text = f"{title} {summary}"
-    allowed = set()
+    allowed = {"dr", "me", "mme", "st", "ste", "mr", "sir"}
+    # proper names the model did not list: capitalised in the middle of a
+    # sentence in the article (but not just a word of an organisation's name)
+    org_words = {w.lower() for n in names if n.get("type") == "org"
+                 for w in _latin_words(n.get("orig", ""))}
+    for m in re.finditer(r"(?<=[a-zà-ÿ,;]\s)([A-ZÀ-Ý][\w'’-]+)", original or ""):
+        w = m.group(1)
+        if w.lower() not in org_words and not _not_name(w):
+            allowed |= {x.lower() for x in _latin_words(w)}
     for n in names:
         if n.get("type") == "foreign" or n.get("ru"):
             continue
@@ -1318,7 +1326,7 @@ def fix_leftovers(title, summary, names, original=""):
     sent back to the proofreading model to be translated."""
     if not names:
         return title, summary
-    left = foreign_leftovers(title, summary, names)
+    left = foreign_leftovers(title, summary, names, original)
     if not left:
         return title, summary
     print(f"  foreign words left: {', '.join(left)}")
@@ -1342,7 +1350,7 @@ def fix_leftovers(title, summary, names, original=""):
         ok_s = not summary or (new_s and _safe_edit(summary, new_s, original, left))
         out_t = new_t if ok_t else title
         out_s = new_s if (ok_s and summary) else summary
-        still = foreign_leftovers(out_t, out_s, names)
+        still = foreign_leftovers(out_t, out_s, names, original)
         print(f"  leftovers fixed by {model}; still left: {', '.join(still) or 'none'}")
         return out_t, out_s
     return title, summary
