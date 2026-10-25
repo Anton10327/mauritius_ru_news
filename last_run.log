@@ -8,3 +8,10 @@ Posted (Top FM): Mauritius Digital Promotion Agency (MDPA): скоро откр�
 LLM usage this run: 3 requests, 5936 tokens
 ### check 2/5 at 11:45
 ### check 3/5 at 11:49
+### check 4/5 at 11:53
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Обнаружен конкретный овощ (ангуива из Триоле) с уровнем хлороталоната, превышающим допустимый предел в 317,5 раз; указано количество проанализированны)
+  proofread: угре → угри
+Posted (Top FM): Pesticides: в одном из овощей обнаружен хлорофталонил в концентрации, превышающей допустимый предел в 317,5 раза
+LLM usage this run: 3 requests, 4704 tokens
