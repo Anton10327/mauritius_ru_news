@@ -9,3 +9,11 @@ Skipped duplicate (Le Mauricien): Réforme de l’adoption :  Deux projets de lo
   proofread: edit rejected (changed numbers, names or length)
 Posted (Le Mauricien): Отмена экзаменов SC и HSC на Маврикии: кандидаты получат оценочные баллы
 LLM usage this run: 4 requests, 6714 tokens
+### check 2/5 at 20:09
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Mario Armel, 79‑year‑old singer, hospitalized with two tumors (including one in the gallbladder), mentions fighting cancer for his wife Patricia and c)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Mario Armel : « Pour Patricia, j’ai combattu un cancer »
+Skipped foreign news (Defimedia): Mario Armel : « Pour Patricia, j’ai combattu un cancer »
+LLM usage this run: 2 requests, 4273 tokens
