@@ -25,3 +25,11 @@ Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (c
   not about Mauritius: Chaleur extrême : l’OMS alerte sur les risques pour les femmes enceintes et les enfants
 Skipped foreign news (Inside News): Chaleur extrême : l’OMS alerte sur les risques pour les femmes enceintes et les enfants
 LLM usage this run: 2 requests, 2913 tokens
+### check 3/5 at 19:11
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Emballages alimentaires : Caractère a tourné la page du plastique
+Skipped foreign news (L'Express): Emballages alimentaires : Caractère a tourné la page du plastique
+LLM usage this run: 1 requests, 2873 tokens
