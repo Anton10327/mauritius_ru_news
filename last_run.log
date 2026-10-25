@@ -1,34 +1,13 @@
-### check 1/5 at 14:56
+### check 1/5 at 15:22
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  proofread: Wendip Appaya → Вендип Апайя; Vida Loca → Виджа Лок; Maurice Vitto Laurent Jeevanji → Морис Витто Лоран Дживанжи; Jean Lino Albert → Жан Лино Альбер
-Posted (L'Express): Дело Wendip Appaya: финансирование поездки на Мадагаскар, след Vida Loca и происхождение средств
-LLM usage this run: 2 requests, 4136 tokens
-### check 2/5 at 15:00
-### check 3/5 at 15:04
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье сообщается о новом трагическом событии: 17 октября в аварии на мотоцикле погибла Сакина Биби Балгобин, дочь Куршилы Балгобин. Это новое проис)
-Posted (Defimedia): Смертельное ДТП в Sorèze: через пять лет после сына Kurshida Balgobin теряет дочь
-  dup check: new (Упоминается новая глобальная уязвимость «PHP2shell», из-за которой 10–15% правительственных сервисов Маврикия остаются офлайн. Это новое событие, связ)
-Posted (Defimedia): Риск кибератаки: 10–15% государственных сервисов Маврикия всё ещё недоступны
-  dup: nothing new (Paul Bérenger заявил, что в её нынешнем виде NCA опасна для страны; представил нового члена партии Sydney Pierre (ранее уже был представлен на региона)
-Skipped duplicate (L'Express): Paul Bérenger, leader du FPM : «Dans sa forme actuelle, la NCA est dangereuse pour le pays == PSAC: драка в экзаменационном зале
-LLM usage this run: 7 requests, 10936 tokens
-### check 4/5 at 15:08
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье представлен новый важный факт: бывший секретарь по иностранным делам Виджай Макхан в своём новом интервью и книге анализирует геополитические)
-  not news (portrait/lifestyle): Vijay Makhan, ancien secrétaire aux Affaires étrangères   « Maurice doit se penser  comme un État oc
-Skipped foreign news (Le Mauricien): Vijay Makhan, ancien secrétaire aux Affaires étrangères   « Maurice doit se penser  comme un État oc
-  dup check: new (Paul Bérenger exige le retrait de l'abaissement de l'âge de la responsabilité pénale de 14 à 12 ans des attributions du comité parlementaire proposé s)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Committee
-  leftovers fixed by GigaChat-3-Pro; still left: Committee
-Posted (Le Mauricien): Национальное агентство по борьбе с преступностью — Bérenger требует создания Select Committee
-  dup: nothing new (В статье указано, что 10-я юбилейная редакция «Durgotsav» прошла в Grand-Bassin с участием тысяч верующих и официальных лиц (Премьер-министр Навин Рам)
-Skipped duplicate (L'Express): [Diapo] «Durgotsav» : Grand-Bassin rassemble des milliers de fidèles dans la ferveur, avec == В Grand-Bassin пройдет специальная молитва у статуи Durga Maa
-  dup check: new (La Hindu House a lancé les célébrations nationales de Divali à Cassis le 24 octobre sous le thème « A Light for World Peace » et la présidente Luxshme)
-Posted (Top FM): Фестиваль огней: Hindu House запускает национальные празднования призывом к единству… «Мы желаем, чтобы единство и мир царили на Маврикии и во всём мире», — заявила Luxshmee Ramdhun-Bundhun
-LLM usage this run: 10 requests, 14338 tokens
-### check 5/5 at 15:12
+  dup: nothing new ()
+Skipped duplicate (L'Express): Le temps des actes ! == Полицейским, бойцам SMF и пожарным выплатят премию в размере 10 тысяч рупий
+  dup check: new (В новой статье впервые приводится точное время прохождения дистанции сборной Маврикия (56 минут 17,278 секунды) и указано отставание от ЮАР в секундах)
+Posted (Inside News): Видеоролик: чемпионат Африки по велоспорту — Маврикий завоевал серебро в смешанной эстафете
+  dup check: new (Обнаружены человеческие останки в траве, дата и место находки (24 октября, Beaux-Songes), описание найденных предметов одежды и наличие удостоверения )
+  proofread: удостоверение личности → удостоверение личности; поместило его под пломбы → поместило его под пломбу; в морг госпиталя Victoria в Кандо → в морг госпиталя Victoria в Кандо; Scene of Crime Office → сотрудники Scene of Crime Office; кинологи SMF с собакой Ares → кинологи SMF с собакой Ares; Стэнли и Р
+  foreign words left: Victoria, of, Office
+  leftovers fixed by GigaChat-3-Pro; still left: Victoria, of, Office
+Posted (L'Express): Beaux-Songes: обнаружены человеческие останки
+LLM usage this run: 8 requests, 11489 tokens
