@@ -1,30 +1,15 @@
-### check 1/5 at 16:24
+### check 1/5 at 17:07
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  not about Mauritius: Plus chaud, plus haut : l’océan fragilise les îles
-Skipped foreign news (Defimedia): Plus chaud, plus haut : l’océan fragilise les îles
-  not about Mauritius: Climat : les politiques actuelles mènent vers un réchauffement de 2,8 °C
-Skipped foreign news (Defimedia): Climat : les politiques actuelles mènent vers un réchauffement de 2,8 °C
-LLM usage this run: 2 requests, 4255 tokens
-### check 2/5 at 16:28
-### check 3/5 at 16:32
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (1.314 interpellations, 53 membres des forces de l'ordre blessés, 75 interventions pour incendies, 24 commerces pillés, 289 actions de voie publique, 4)
+  not about Mauritius: Manifestations de samedi en France : 1.314 interpellations, 53 membres des forces de l'ordre blessés
+Skipped foreign news (Defimedia): Manifestations de samedi en France : 1.314 interpellations, 53 membres des forces de l'ordre blessés
+  dup check: new (Суммарные расходы на министерские миссии с декабря 2024 по настоящее время составили около 42,7 млн рупий; проведено 109 официальных зарубежных миссий)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): С декабря 2024 года по настоящее время — министерские поездки: 42,7 млн рупий, но без детализации расходов
   dup: nothing new ()
-Skipped duplicate (Top FM): Langues au Parlement : La Hindu House appelle à ne laisser aucune langue ancestrale de côt == Президент Hindu House призвала Парламент учитывать все языки предков
-LLM usage this run: 1 requests, 1183 tokens
-### check 4/5 at 16:36
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье упоминается новый случай: 17-летняя Hema, забеременевшая в 2025 году после второй сексуальной агрессии со стороны отца; ранее она подверглась)
-Proofreading GigaChat-3-Pro failed: Expecting ',' delimiter: line 1 column 880 (char 879)
-  proofread by qwen/qwen3.8-27b
-  proofread: за психологической помощью детям — жертвам насилия со стороны Family Support Service стоят истории разрывов контакта → за психологической помощью детям — жертвам насилия со стороны Family Support Service стоят истории разрыва контакта; показано, как уязвимые подростки выпадают из системы → показано,
-Posted (Le Mauricien): Защита несовершеннолетних — государственное психологическое сопровождение: между поддержкой и забвением
-LLM usage this run: 4 requests, 6272 tokens
-### check 5/5 at 16:40
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  proofread: в State House → в Государственном доме; президент Маврикия Dharam Gokhool → президент Маврикия Дхарам Гокхул; Michaël Randrianirina → Михаэль Рандрианирина
-Posted (L'Express): Дипломатия Мадагаскар—Маврикий: Olga Ramiarinjanahary официально вступила в должность посла
-LLM usage this run: 2 requests, 4138 tokens
+Skipped duplicate (L'Express): Voyages ministériels : Rs 42,7 millions pour 109 missions à l’étranger depuis décembre 202 == С декабря 2024 года по настоящее время — министерские поездки: 42,7 млн рупий, но без дета
+  dup check: new (Упоминается, что Эло́ди Томас по-прежнему находится в отделении интенсивной терапии (ICU) и испытывает трудности с речью; цитируется близкий человек о)
+  proofread: Элои Тома → Элои Томас
+Posted (Le Mauricien): Две недели после операции — Élodie Thomas продолжает восстанавливаться
+LLM usage this run: 9 requests, 13519 tokens
