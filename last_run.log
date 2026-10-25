@@ -1,22 +1,8 @@
-### check 1/5 at 11:05
+### check 1/5 at 11:41
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  not news (portrait/lifestyle): Harry Poonoosamy : la radio qui rassemble
-Skipped foreign news (Defimedia): Harry Poonoosamy : la radio qui rassemble
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Blog] From the Community School to the Foundation Programme in Literacy, Numeracy and ski == В приюте в Beau-Bassin: двое сотрудников подверглись нападению со стороны воспитанников
-  dup check: new (Анонсирован перенос двух крупных международных конференций (Форум мировых данных ООН и Саудовский статистический форум) с ноября 2024 года на 2027 год)
-  not about Mauritius: Arabie saoudite : plusieurs grands sommets internationaux reportés à 2027
-Skipped foreign news (Inside News): Arabie saoudite : plusieurs grands sommets internationaux reportés à 2027
-  dup check: new (Пациентка 84 лет упала с кровати в больнице Victoria, после чего ей потребовалась операция на мозге; дочь подала жалобу о предполагаемой медицинской х)
-Posted (L'Express): Предполагаемая врачебная халатность в больнице Victoria: 84-летняя пациентка упала с кровати и перенесла операцию на головном мозге
-LLM usage this run: 7 requests, 12048 tokens
-### check 2/5 at 11:09
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:444: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  proofread: Права природы → права природы
-Posted (Le Mauricien): ЭКОЛОГИЯ — Constitutional комиссия по пересмотру — Права природы: Eco-Sud сохраняет давление с пятью предложениями
-LLM usage this run: 2 requests, 3959 tokens
-### check 3/5 at 11:13
-### check 4/5 at 11:17
-### check 5/5 at 11:21
+  not news (portrait/lifestyle): Taleb Durgahee, Businessman and Community Leader : Dipin Mezon — The Bread That Binds People Togethe
+Skipped foreign news (Defimedia): Taleb Durgahee, Businessman and Community Leader : Dipin Mezon — The Bread That Binds People Togethe
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Mauritius Digital Promotion Agency (MDPA): скоро откроется филиал на Rodrigues для облегчения доступа к государственным онлайн-услугам
+LLM usage this run: 3 requests, 5936 tokens
