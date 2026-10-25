@@ -26,3 +26,9 @@ LLM usage this run: 2 requests, 4273 tokens
   not news (portrait/lifestyle): Questions à...  Dr Cynthia Leste Boodoo : «L’exposition aux pesticides a été associée à une baisse d
 Skipped foreign news (L'Express): Questions à...  Dr Cynthia Leste Boodoo : «L’exposition aux pesticides a été associée à une baisse d
 LLM usage this run: 2 requests, 3952 tokens
+### check 5/5 at 20:21
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Info Soirée] : « Ene bolfam 84 ans ine bizin perce so latet » == Предполагаемая врачебная халатность в больнице Victoria: 84-летняя пациентка упала с крова
+LLM usage this run: 1 requests, 1469 tokens
