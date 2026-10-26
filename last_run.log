@@ -1,38 +1,13 @@
-### check 1/5 at 10:38
+### check 1/5 at 11:34
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new (Le sergent Gautam Singh Taukoor a été maintenu en détention provisoire jusqu’au 30 octobre lors de sa comparution devant la cour de Rose-Hill le 26 oc)
-Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : le sergent Gautam Singh Taukoor maintenu en détention jusqu’a == Albion: пенсионерку обманули более чем на 1,2 млн рупий после звонка в WhatsApp
-  dup check: new (Сержант Gautam Singh Taukoor 26 октября предстал перед судом и оставлен под стражей до следующей явки 30 октября; полиция выступила против его освобож)
-  proofread: Элодии Тома → Элодии Томас; Gautam Singh Taukoor → Гаутам Сингх Таукур
-Posted (L'Express): Дело Élodie Thomas: сержант Taukoor оставлен под стражей
-  dup check: new (Рост индекса цен на строительство на 5,8% за год и достижение уровня в 156 пунктов по состоянию на сентябрь 2026 года; также указано увеличение трансп)
-Posted (Le Mauricien): Экономика | строительство — Statistics Mauritius — Построить дом на Маврикии становится всё дороже
-  dup check: new (Депутат Joanna Bérenger утверждает, что 62 маврикийских вкладчика могут потерять большую часть своих депозитов в Silver Bank и требует создания комисс)
-Posted (Inside News): Депутат утверждает, что 62 маврикийских вкладчика рискуют потерять большую часть своих вкладов, и требует создать комиссию по расследованию
-LLM usage this run: 10 requests, 15269 tokens
-### check 2/5 at 10:42
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье сообщается о результатах матчей сборной Маврикия на FIFA U-15 World Cup Festival 2026: ничья с Гайаной (1:1) и поражение от Вьетнама (1:4), а)
-  proofread: в ничью → вничью; Баку (Азербайджан) → Баку (Азербайджан); Гайана (1:1) → Гайана (1:1); Вьетнам (1:4) → Вьетнам (1:4); гол Danishen Ramasawmy → гол Danishen Ramasавмми; Baby Dodos n’ont pu préserver leur avantage. → не смогли сохранить преимущество.; Au retour des vest → Во втором тайме
-Posted (L'Express): Фестиваль FIFA U-15 World Cup: сборная Маврикия сыграла вничью, а затем уступила
-  not about Mauritius: Birmingham : un Boeing 737 de Jet2 quitte la piste sous les rafales de Boelo
-Skipped foreign news (Inside News): Birmingham : un Boeing 737 de Jet2 quitte la piste sous les rafales de Boelo
-LLM usage this run: 4 requests, 7978 tokens
-### check 3/5 at 10:46
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  not news (portrait/lifestyle): Plumes engagées : My mirror, my tribe
-Skipped foreign news (L'Express): Plumes engagées : My mirror, my tribe
-  dup check: new (В статье приведена новая цитата Padma Bhugobaun о роли полиции: «Sans la police, le public ne pourrait pas vivre en paix…» — это высказывание ранее не)
-  not news (portrait/lifestyle): Korek Pa Korek - Padma Bhugobaun : « Sans la police, le public ne pourrait pas vivre en paix… »
-Skipped foreign news (Top FM): Korek Pa Korek - Padma Bhugobaun : « Sans la police, le public ne pourrait pas vivre en paix… »
-LLM usage this run: 3 requests, 5276 tokens
-### check 4/5 at 10:50
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  not about Mauritius: Plumes engagées : Eau… la fontaine de vie
-Skipped foreign news (L'Express): Plumes engagées : Eau… la fontaine de vie
-LLM usage this run: 1 requests, 2747 tokens
-### check 5/5 at 10:54
+  not about Mauritius: Plumes engagée :  Golden
+Skipped foreign news (L'Express): Plumes engagée :  Golden
+  dup check: new (Luxshmee Ramdhun-Bundhun a appelé le Select Committee sur l’utilisation du kreol morisien à élargir sa réflexion aux langues ancestrales parlées à Mau)
+  proofread: Select Committee → Select Committee (оставлено как есть); Assemblée nationale → Национальное собрание; Cassis → Касис
+Posted (Le Mauricien): Дивали в Hindu House — Luxshmee Ramdhun-Bundhun призывает признать исконные языки
+  not news (portrait/lifestyle): Plumes engagées : Ferme les yeux
+Skipped foreign news (L'Express): Plumes engagées : Ferme les yeux
+  dup check: new (27–28 октября в Caudan Arts Centre пройдёт региональный семинар по качеству высшего образования, организованный ЮНЕСКО и Quality Assurance Authority; )
+Posted (Inside News): Высшее образование: Маврикий и Сейшелы объединяются вокруг качества
+LLM usage this run: 8 requests, 15205 tokens
