@@ -1,12 +1,10 @@
-### check 1/5 at 06:10
+### check 1/5 at 06:46
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La météo du lundi 26 octobre == Погода: дожди с вечера этого воскресенья, сильное волнение на море и понижение температуры
-  dup: nothing new ()
-Skipped duplicate (L'Express): En couverture : Les grands titres de l'express de ce lundi 26 octobre 2026 == Погода в субботу, 24 октября: до 31 °C перед ливнями во второй половине дня
-LLM usage this run: 2 requests, 2030 tokens
-### check 2/5 at 06:14
-### check 3/5 at 06:18
-### check 4/5 at 06:22
-### check 5/5 at 06:26
+  dup check: new (Лула избран на четвёртый президентский срок, набрав 51,76% голосов; это первый случай в истории Бразилии, когда Лула занимает пост президента четыре р)
+  not about Mauritius: Lula décroche un quatrième mandat inédit, le Brésil reste à gauche
+Skipped foreign news (Defimedia): Lula décroche un quatrième mandat inédit, le Brésil reste à gauche
+  dup check: new (Лула заявил, что его победа на выборах сохранила демократию в Бразилии и призвал искать точки согласия; он также намерен работать с консервативным Кон)
+  not about Mauritius: « Le Brésil n’est l’arrière-cour de personne » : Lula affirme que sa victoire a préservé la démocrat
+Skipped foreign news (Defimedia): « Le Brésil n’est l’arrière-cour de personne » : Lula affirme que sa victoire a préservé la démocrat
+LLM usage this run: 4 requests, 7458 tokens
