@@ -443,7 +443,7 @@ def _giga_cap(model):
 def _giga_days_left():
     import datetime
     end = datetime.date.fromisoformat(GIGA_UNTIL)
-    now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+    now = datetime.datetime.fromtimestamp(time.time() + 4 * 3600, datetime.timezone.utc).date()
     return max(1, (end - now).days)
 
 
