@@ -1,78 +1,58 @@
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Rottweiler : au-delà de la race, les facteurs de risque
+Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary models: ['GigaChat-3-Ultra', 'GigaChat-2-Max', 'GigaChat-3-Pro', 'qwen/qwen3.8-27b', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b']
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-f7ae3e9f-cfd9-495c-b699-2ff56acf46a7","object":"chat.completion","created":1793023907,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.144067602,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-152f644a-09ae-40b1-aca1-0c55644488cd","object":"chat.completion","created":1793023907,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just respond \"ok\"."},"logprobs":null,"finish_reason"
+openai/gpt-oss-20b 200 {"id":"chatcmpl-8ebd6e95-70de-4d4d-adc9-131409ef212a","object":"chat.completion","created":1793023907,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So just output \"ok\"."},"logprobs":null,"finish_reason":"
+== Defimedia: https://defimedia.info/rss.xml
+Newest: Monowara Begum : Me Rama Valayden veut qu’elle puisse témoigner avant toute expulsion | https://defimedia.info/monowara-begum-me-rama-valayden-veut-quelle-puisse-temoigner-avant-toute-expulsion
+Article text: 1351 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Monowara%20Begum-290526.jpg
+  same headline as #114: Monowara Begum : Me Rama Valayden veut qu’elle puisse témoigner avant toute expu
+Duplicate of recent post #: 114
+LLM usage so far: 3 requests, 219 tokens
+-- Post that would be sent:
 
-===  Rottweiler : au-delà de la race, les facteurs de risque
-names: Dr Shweta Goburdhone (person); Peggy Murden (person); Meera Appadoo (person)
-Rottweiler : au-delà de la race, les facteurs de risque 
- 
-  written by GigaChat-2-Max
-  proofread: Джоанна Беренжер → Жоанна Беренжер
-  foreign words left: Silver, Bank
-  leftovers fixed by GigaChat-3-Pro; still left: none
+== L'Express: https://lexpress.mu/
+Newest: «Extended Programme» : Xavier-Luc Duval rappelle les chiffres à l’ancienne ministre de l’Éducation | https://lexpress.mu/s/xavier-luc-duval-rappelle-les-chiffres-a-lancienne-ministre-de-leducation-564081
+Article text: 1792 chars | photo: https://lexpress.mu/storage/articles/wDYGgNM2BFYkP3zWg7OvVJLrYsTYv4e3TJKoIWfC.jpg
+  same headline as #121: «Extended Programme» : Xavier-Luc Duval rappelle les chiffres à l’ancienne minis
+Duplicate of recent post #: 121
+LLM usage so far: 3 requests, 219 tokens
+-- Post that would be sent:
 
-===  Silver Bank : Les chiffres d’un naufrage bancaire
-names: Joanna Bérenger (person); Navin Ramgoolam (person); Silver Bank Ltd (org); Assemblée nationale→Национальное собрание (org)
-Банк Серебряный Банк: цифры банковского краха 
- Премьер-министр Navin Ramgoolam ответил на парламентский запрос оппозиционного депутата Joanna Bérenger относительно ситуации в банке Silver Bank Ltd. Согласно представленным данным, банк имеет депозиты на сумму 7,5 млрд рупий, из которых 8,1 млрд рупий составляют проблемные кредиты — это почти 98% кредитного портфеля банка. Правительство исключило дополнительную компенсацию вкладчикам и проведение публичного расследования.
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Rottweiler : une puissance à maîtriser
+== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
+Newest: Australie — Agression au couteau du Mauricien Martin Bacosse à Baulkham Hills — Un retour du travail qui bascule dans la violence | https://www.lemauricien.com/actualites/faits-divers/australie-agression-au-couteau-du-mauricien-martin-bacosse-a-baulkham-hills-un-retour-du-travail-qui-bascule-dans-la-violence/721744/
+Article text: 7146 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-2026-10-26T122841.735.webp
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Duplicate of recent post #: 117
+LLM usage so far: 4 requests, 1408 tokens
+-- Post that would be sent:
 
-===  Rottweiler : une puissance à maîtriser
-names: Quartier-Militaire→Quartier-Militaire (mu_place); Flacq→Flacq (mu_place); Khalil Beebeejaun→Khalil Beebeejaun (person)
-Rottweiler : une puissance à maîtriser 
- 
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): État de droit : jusqu’où l’État peut-il aller pour rétablir l’ordre ?
+== Inside News: https://inside.news/feed/
+Newest: Crise de l’eau : Le MSM dénonce le retard du ministre Assirvaden | https://www.inside.news/crise-eau-msm-lesjongard-assirvaden-secheresse-maurice/
+Article text: 3082 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/msm.jpeg
+  same headline as #88: Crise de l’eau : Le MSM dénonce le retard du ministre Assirvaden
+Duplicate of recent post #: 88
+LLM usage so far: 4 requests, 1408 tokens
+-- Post that would be sent:
 
-===  État de droit : jusqu’où l’État peut-il aller pour rétablir l’ordre ?
-names: Navin Ramgoolam (person); Noren Seeburn (person); Parvez Dookhy (person)
-État de droit : jusqu’où l’État peut-il aller pour rétablir l’ordre ? 
- 
-  written by GigaChat-2-Max
-  proofread: Food and Agricultural Research and Extension Institute → Институт пищевых исследований и распространения технологий сельского хозяйства
-  foreign words left: Red, Ruby, Extension, Institute
-  leftovers fixed by GigaChat-3-Pro; still left: none
+== Wazaa: https://www.wazaa.mu/feed/
+Newest: Enquête policière lancée après la découverte de restes humains près d’une rivière locale | https://www.wazaa.mu/enquete-policiere-lancee-apres-la-decouverte-de-restes-humains-pres-dune-riviere-locale/
+Article text: 948 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/08/1786956142.jpeg
+  same headline as #118: Enquête policière lancée après la découverte de restes humains près d’une rivièr
+Duplicate of recent post #: 118
+LLM usage so far: 4 requests, 1408 tokens
+-- Post that would be sent:
 
-===  Production locale : Le FAREI lance une nouvelle variété d’oignon rouge
-names: Food and Agricultural Research and Extension Institute→Институт пищевых исследований и распространения технологий сельского хозяйства (org); Red Ruby→Ред Руби (mu_place)
-На Маврикии выведен новый сорт красного лука Красный рубин 
- Институт по распространению сельскохозяйственных знаний и пищевых исследований представил новый сорт красного лука Красный рубин, разработанный за девять лет. Сорт предназначен для снижения зависимости острова от импортных семян и луковиц. Ежегодно Маврикий тратит около 465 миллионов рупий на закупку лука, покрывая лишь треть потребности собственным производством.
-  written by GigaChat-2-Max
-  proofread: 
+== Top FM: https://topfm.mu/
+Newest: Affaire « Burning Paradise » : Akshaye Boodhun obtient la liberté sous caution | https://topfm.mu/actualites/affaire-burning-paradise-akshaye-boodhun-obtient-la-liberte-sous-caution
+Article text: 1507 chars | photo: https://topfm.mu/sites/default/files/2026-10/akshay.jpg
+  same headline as #119: Affaire « Burning Paradise » : Akshaye Boodhun obtient la liberté sous caution
+Duplicate of recent post #: 119
+LLM usage so far: 4 requests, 1408 tokens
+-- Post that would be sent:
 
-===  Affaire Kistnen : Simla Kistnen dénonce des engagements non tenus et des auditeurs de Top FM parlent
-names: Kistnen (person); Soopramanien Kistnen (person); Simla Kistnen (person); Top FM (org); Coze Do Mo Pep (org); Telfair (mu_place); MSM (org)
-Дело Kistnen: Simla Kistnen осуждает невыполненные обещания, слушатели Top FM говорят об избирательной манипуляции 
- Спустя шесть лет после обнаружения обгоревшего тела Soopramanien Kistnen в тростниковом поле в Telfair его вдова Simla Kistnen продолжает бороться за выяснение обстоятельств смерти мужа и справедливость. Она утверждает, что предвыборные обещания не выполнены, и напоминает, что фото супруга широко использовалось в ходе кампании. Слушатели передачи Coze Do Mo Pep на радио Top FM выразили возмущение тем, что борьба семьи была использована в политических целях.
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: edit rejected (changed numbers, names or length)
-
-===  Deux semaines aprÃ¨s son opÃ©ration â   Ãlodie Thomas poursuit sa convalescence
-names: Élodie Thomas (person)
-Élodie Thomas продолжает восстановление через две недели после операции 
- Через две недели после огнестрельного ранения Élodie Thomas остается в отделении интенсивной терапии больницы на севере острова. Несмотря на трудности с речью и сильную усталость, врачи постепенно вводят физическую активность в процесс реабилитации. Общаться пациентка предпочитает письменно.
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамгулам → Navin Ramgoolam
-
-===  Voyages ministériels : Rs 42,7 millions pour 109 missions à l’étranger depuis décembre 2024
-names: Premier ministre→премьер-министр (org); Navin Ramgoolam (person); Joanna Bérenger (person)
-Официальные поездки министров: 42,7 млн рупий за 109 зарубежных миссий с декабря 2024 года 
- Премьер-министр Navin Ramgoolam сообщил, что с декабря 2024 года министры совершили 109 официальных поездок за границу, потратив около 42,7 млн рупий. Средняя стоимость каждой миссии составила примерно 392 тыс. рупий. Отчётность по этим поездкам предоставляется Совету министров, однако документы считаются конфиденциальными и не публикуются.
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-
-===  De décembre 2024 à ce jour - Missions ministérielles : Rs 42,7 M, mais pas de détail des dépenses
-names: Joanna Bérenger (person); Premier ministre Navin Ramgoolam (person); Bureau du Premier ministre→канцелярия премьер-министра (org); Parlement→Национальное собрание (org); Conseil des ministres→Совет министров (org); Cabinet Highlights (org)
-Министерские командировки с декабря 2024 года: потрачено 42,7 млн рупий, детали расходов неизвестны 
- За период с декабря 2024 года министры Маврикия совершили 109 официальных зарубежных поездок общей стоимостью около 42,7 миллиона рупий. Депутат Национального собрания Joanna Bérenger выразила обеспокоенность отсутствием прозрачности в расходовании государственных средств, отметив, что общая сумма не позволяет полноценно контролировать расходы. Канцелярия премьер-министра отказалась предоставить детализированную информацию, ссылаясь на конфиденциальность документов Совета министров.
-  written by GigaChat-2-Max
-  not about Mauritius: Manifestations de samedi en France : 1.314 interpellations, 53 membres des forces de l'ordre blessés
-
-===  Manifestations de samedi en France : 1.314 interpellations, 53 membres des forces de l'ordre blessés
-names: France→Франция (foreign); Paris→Париж (foreign); Marseille→Марсель (foreign); Bordeaux→Бордо (foreign); Toulouse→Тулуза (foreign); Tours→Тур (foreign)
-Manifestations de samedi en France : 1.314 interpellations, 53 membres des forces de l'ordre blessés, selon l'Intérieur 
- 
-
-LLM 18 calls, 21434 tokens
