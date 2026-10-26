@@ -13,3 +13,11 @@ Skipped duplicate (Wazaa): Employé de traiteur arrêté après vol de bijoux de
   not news (portrait/lifestyle): Gouvernance : L’audit interne face aux nouveaux risques
 Skipped foreign news (L'Express): Gouvernance : L’audit interne face aux nouveaux risques
 LLM usage this run: 4 requests, 5880 tokens
+### check 2/5 at 14:08
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Xavier-Luc Duval связывает недавние беспорядки и кризис воды с социальными проблемами, такими как стоимость жизни, нестабильность занятости, жильё, об)
+  written by GigaChat-2-Max
+  proofread: Xavier-Luc Duval → Ксавье-Люк Дюваль; PMSD → PMSD (название партии); leader du PMSD → лидер партии PMSD
+Posted (Le Mauricien): Лидер PMSD Xavier-Luc Duval: «Социальные трудности нельзя игнорировать»
+LLM usage this run: 3 requests, 5213 tokens
