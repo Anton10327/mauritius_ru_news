@@ -41,3 +41,22 @@ Posted (Defimedia): Адвокат требует гарантии показа�
   not news (portrait/lifestyle): Prévention des inondations | Saison des grosses pluies : les drains sous surveillance
 Skipped foreign news (L'Express): Prévention des inondations | Saison des grosses pluies : les drains sous surveillance
 LLM usage this run: 11 requests, 15594 tokens
+### check 3/5 at 18:00
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Callum Ormiston (South Africa) won the men's elite road race in a solo finish, surprising the Eritrean favorites; Alexandre Mayer achieved the best Ma)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Ористон → Ormiston; Майер → Mayer
+Posted (L'Express): Чемпионат Африки по велоспорту: Ormiston удивил эритрейских фаворитов, Mayer занял 11-е место
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Кватр-Борно → Quatre-Bornes; Кватр-Борно → Quatre-Bornes; больницу Виктория → Victoria Hospital
+Posted (Le Mauricien): Престарелый житель Quatre-Bornes с болезнью Альцгеймера найден раненым на частной территории
+  dup: nothing new ()
+Skipped duplicate (L'Express): Tensions dans le pays : 28 mois de prison pour l’instigateur, deux ans pour les six autres == События 13 октября: семерым подсудимым назначены сроки до 28 месяцев тюрьмы
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Мартин Бакосс → Martin Bacosse
+Posted (L'Express): Житель Маврикия получил ножевое ранение, пытаясь задержать грабителей в Австралии
+LLM usage this run: 8 requests, 11315 tokens
