@@ -1,19 +1,5 @@
 [
 {
-"t": 1792818462.2905333,
-"title": "Предполагаемое изнасилование в Pointe-aux-Sables: 23-летняя девушка обвиняет отчима, уехавшего в Англию",
-"source": "L'Express",
-"orig": "Viol présumé à Pointe-aux-Sables : Une jeune femme de 23 ans accuse son beau-père, parti en Angleterre",
-"summary": "23-летняя девушка подала заявление об изнасиловании на своего 44-летнего отчима в полицию Pointe-aux-Sables 22 октября. По её словам, инцидент произошёл в январе 2026 года в доме в Débarcadère, Pointe-aux-Sables, а отчим, британец чагосского происхождения, месяц назад уехал в Англию. После госпитализации в больницу Dr A. G. Jeetoo в Port-Louis она рассказала о случившемся матери и обратилась в полицию."
-},
-{
-"t": 1792818523.9746594,
-"title": "Работы CEB: несколько районов юга останутся без электричества 25 октября",
-"source": "Le Mauricien",
-"orig": "Travaux du CEB : plusieurs secteurs du Sud privés d’électricité ce 25 octobre",
-"summary": "В воскресенье, 25 октября, с 8:30 до 15:00 из-за плановых работ Central Electricity Board (CEB) электричество отключат в Saint-Aubin, Rivière-des-Anguilles и соседних районах. Перебои затронут Sonneville Road, Prud'homme Road, Maisonnette Road, Railway Road, жилой квартал BASF и часть Route Royale. Восстановление подачи начнётся по завершении работ, возможно, раньше 15:00."
-},
-{
 "t": 1792819181.2667265,
 "title": "Образование: ноутбуки и адаптированное оборудование для слепых и слабовидящих учащихся",
 "source": "Le Mauricien",
@@ -747,5 +733,19 @@
 "source": "Le Mauricien",
 "orig": "CEB : des coupures de courant programmées dans cinq régions du 26 au 29 octobre",
 "summary": "С 26 по 29 октября Central Electricity Board (CEB) проведёт плановые отключения электричества в пяти регионах Маврикия. Перебои, связанные с обслуживанием и модернизацией сети, затронут Deux-Bras, Flic-en-Flac, Melville, Bois-Rouge и Quatre-Bornes и могут длиться до восьми часов. Жителей просят принять меры предосторожности; питание могут восстановить без предупреждения."
+},
+{
+"t": 1792992031.3156538,
+"title": "Пестициды — лучшее регулирование использования при защите малых плантаторов",
+"source": "Le Mauricien",
+"orig": "Pesticides — Mieux contrôler l’utilisation tout en protégeant les petits planteurs",
+"summary": "По данным Pesticides Regulatory Office, в июне 2026 года в шести из 44 проверенных образцов фруктов и овощей на Маврикии были обнаружены превышения допустимых остатков пестицидов. Отбор проб проводился в различных регионах, включая Calodyne, Triolet и Quatre-Bornes. Отчет также выявил использование веществ, не рекомендуемых для определенных культур, что подчеркивает необходимость усиления контроля за применением химикатов."
+},
+{
+"t": 1792992091.8828938,
+"title": "Конференция СМИ ЕС в Брюсселе: директор по издательской деятельности La Sentinelle обсудит ИИ и честность журналистики",
+"source": "L'Express",
+"orig": "European Union media conference in Brussels :  La Sentinelle director of publications to discuss AI and journalism integrity",
+"summary": "Nad Sivaramen, директор по издательской деятельности La Sentinelle и главный редактор l’express, выступит на шестой конференции Connecting Media Communities в Брюсселе 29–30 октября. Он расскажет о том, как новостные редакции могут использовать инструменты искусственного интеллекта для исследований и фактчекинга, сохраняя при этом редакционную независимость. Sivaramen также подчеркнет уязвимость небольших медиарынков, таких как Маврикий, перед дезинформацией и финансовым давлением."
 }
 ]
