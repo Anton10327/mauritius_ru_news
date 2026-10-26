@@ -1,14 +1,10 @@
-### check 1/5 at 06:46
+### check 1/5 at 07:19
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Лула избран на четвёртый президентский срок, набрав 51,76% голосов; это первый случай в истории Бразилии, когда Лула занимает пост президента четыре р)
-  not about Mauritius: Lula décroche un quatrième mandat inédit, le Brésil reste à gauche
-Skipped foreign news (Defimedia): Lula décroche un quatrième mandat inédit, le Brésil reste à gauche
-  dup check: new (Лула заявил, что его победа на выборах сохранила демократию в Бразилии и призвал искать точки согласия; он также намерен работать с консервативным Кон)
-  not about Mauritius: « Le Brésil n’est l’arrière-cour de personne » : Lula affirme que sa victoire a préservé la démocrat
-Skipped foreign news (Defimedia): « Le Brésil n’est l’arrière-cour de personne » : Lula affirme que sa victoire a préservé la démocrat
-LLM usage this run: 4 requests, 7458 tokens
-### check 2/5 at 06:50
-### check 3/5 at 06:54
-### check 4/5 at 06:58
-### check 5/5 at 07:02
+  dup check: new (Речь идёт о новом отзыве продукции Arla Protein Pudding на Маврикии из-за риска наличия осколков стекла, с указанием конкретных сортов и дат годности.)
+  foreign words left: Foods
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Риск наличия осколков стекла: отзыв нескольких партий Arla Protein Pudding на Маврикии
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Fusillade à Camp-Levieux – Affaire Élodie Thomas — L’IPCC lance un appel à témoins == Дело Эло́ди Thomaś: комиссия по жалобам на полицию (IPCC) обращается к свидетелям для про
+LLM usage this run: 5 requests, 5867 tokens
