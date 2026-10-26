@@ -15,3 +15,20 @@ Skipped duplicate (Le Mauricien): FMP — Paul Bérenger face à la presse : Des
   proofread: edit rejected (changed numbers, names or length)
 Posted (Top FM): Вода, пестициды и набор на госслужбу в центре парламентских вопросов во вторник
 LLM usage this run: 10 requests, 15385 tokens
+### check 2/5 at 12:28
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Joe Lesjongard (MSM) публично обвинил министра энергетики Assirvaden в игнорировании предупреждений метеостанции о засухе с конца 2025 года и раскрити)
+  proofread: Патрик Ассирваден → Патрик Ассирведен
+Posted (Inside News): Кризис с водой: MSM обвиняет министра Assirvaden в промедлении
+  dup check: new (В статье сообщается, что первоначально запланированная на 14 октября мирная демонстрация против пенсионной реформы, организованная Plateform Komin Sin)
+  proofread: Ашвин Гуддей → Ашвин Гуддей
+  foreign words left: Jardin, Compagnie
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Top FM): Акция против пенсионной реформы: Платформа Komin Sindikal приглашает население на митинг 31 октября
+  dup check: new (В новой статье упоминается, что министр труда Реза Утем подтвердил выделение бюджета на исследование и заявил о цели определить условия внедрения 40-ч)
+Posted (Top FM): 40-часовая рабочая неделя: исследование по оценке выполнимости ожидается к апрелю 2027 года
+  dup check: new (Указан новый пороговый уровень заполнения водохранилища Mare-aux-Vacoas (20 %), при котором возникают трудности с обработкой воды из-за увеличения кол)
+  proofread: Лормеш Джугру → Лормеш Джугру
+Posted (Top FM): Mare-aux-Vacoas на 33%: до какой степени можно использовать наши водные резервы?
+LLM usage this run: 13 requests, 17391 tokens
