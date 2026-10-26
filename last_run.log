@@ -1,105 +1,18 @@
-### check 1/5 at 17:52
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Le ministère de la Jeunesse et des Sports a demandé des explications à la Fédération mauricienne de boxe sur la présence d’un entraîneur sans certific)
+### check 1/5 at 19:32
+  dup check: new (Shafick Osman a officiellement soumis le 23 octobre 2026 un mémorandum de 12 piliers à la Commission de révision constitutionnelle de Maurice, intitul)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Чемпионат Африки по боксу: Министерство требует объяснений по поводу тренера без сертификата IBA
-  dup check: new (В статье указано, что уровень воды в резервуаре Mare‑aux‑Vacoas может упасть до 20 % к ноябрю, а также планируется бурение ещё 15‑20 скважин по всему )
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  foreign words left: Trianon, Côte-d'Or
-  leftovers fixed by qwen/qwen3.8-27b; still left: Trianon, Côte-d'Or
-Posted (Le Mauricien): Водный кризис: ожидается дополнительный объем воды 11,2 млн литров в день, правительство рассматривает возможность бурения еще 20 скважин
-  dup check: new (Un infirmier de 36 ans agressé physiquement et verbalement par un proche d’une patiente aux urgences dans la nuit du 24 au 25 octobre, avec blessures )
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Медбрат атакован родственником пациентки в больнице
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): PETIT-RAFFRAY  : Arrêté pour avoir volé des bijoux lors d’un mariage == Кража на свадебном приёме в Petit-Raffray: похищены украшения на 425 000 рупий, задержан с
-LLM usage this run: 11 requests, 14136 tokens
-### check 2/5 at 17:56
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Maurice reprend les importations de bétail en provenance de Namibie après une suspension liée à la fièvre aphteuse, suite à une amélioration de la sit)
+  proofread: Шафик Осман → Shafick Osman
+Posted (Defimedia): Shafick Osman представил меморандум из 12 пунктов для геополитической деколонизации государства
+  dup check: new (Distribution de 2 862 coupons du Water Tank and Pump Scheme par la Development Bank of Mauritius, 35 817 demandes enregistrées, 19 563 enquêtes réalis)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
   proofread: 
-  foreign words left: Karas
-  leftovers fixed by qwen/qwen3.8-27b; still left: Karas
-Posted (Le Mauricien): Маврикий возобновляет импорт скота из Namibie через месяц после приостановки
-  dup check: new (Perturbations de la distribution d'eau potable le mardi 27 octobre dans de nombreuses localités de l'Est (Mont Ida, Médine, Bel Étang, etc.) en raison)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Подача воды: несколько восточных районов останутся без воды во вторник, начиная с 9 часов утра и до позднего вечера
-  dup check: new (Me Rama Valayden a écrit au Premier ministre Navin Ramgoolam pour obtenir une garantie écrite que Monowara Begum, ressortissante bangladaise disparue )
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Рам Валайден → Rama Valayden; Навину Рамгуламу → Navin Ramgoolam; Монавара Бегум → Monowara Begum
-Posted (Defimedia): Адвокат требует гарантии показаний для пропавшей гражданки Бангладеш
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Prévention des inondations | Saison des grosses pluies : les drains sous surveillance
-Skipped foreign news (L'Express): Prévention des inondations | Saison des grosses pluies : les drains sous surveillance
-LLM usage this run: 11 requests, 15594 tokens
-### check 3/5 at 18:00
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Callum Ormiston (South Africa) won the men's elite road race in a solo finish, surprising the Eritrean favorites; Alexandre Mayer achieved the best Ma)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Ористон → Ormiston; Майер → Mayer
-Posted (L'Express): Чемпионат Африки по велоспорту: Ormiston удивил эритрейских фаворитов, Mayer занял 11-е место
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Кватр-Борно → Quatre-Bornes; Кватр-Борно → Quatre-Bornes; больницу Виктория → Victoria Hospital
-Posted (Le Mauricien): Престарелый житель Quatre-Bornes с болезнью Альцгеймера найден раненым на частной территории
-  dup: nothing new ()
-Skipped duplicate (L'Express): Tensions dans le pays : 28 mois de prison pour l’instigateur, deux ans pour les six autres == События 13 октября: семерым подсудимым назначены сроки до 28 месяцев тюрьмы
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Мартин Бакосс → Martin Bacosse
-Posted (L'Express): Житель Маврикия получил ножевое ранение, пытаясь задержать грабителей в Австралии
-LLM usage this run: 8 requests, 11315 tokens
-### check 4/5 at 18:04
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Возраст найденного человека предположительно 53 года; уточнённые детали одежды (пара синих джинсов, чёрная куртка, футболка); полиция связалась с женщ)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Wazaa): Полиция расследует обнаружение человеческих останков возле реки в районе Beaux-Songes
-  dup: nothing new ()
-Skipped duplicate (L'Express): Affaire Élodie Thomas : le sergent Taukoor maintenu en détention jusqu’au 30 octobre == Дело Élodie Thomas: сержант Taukoor оставлен под стражей
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Australie — Agression au couteau du Mauricien Martin Bacosse à Baulkham Hills — Un retour  == Житель Маврикия получил ножевое ранение, пытаясь задержать грабителей в Австралии
-  dup check: new (Akshaye Boodhun, 18‑летний, получил освобождение под залог 26 октября в суде округа Суйяка; DPP снял возражение; условия: четыре залога по 5 000 рупий)
-LLM error 502: <html>
-<head><title>502 Bad Gateway</title></head>
-<body>
-<center><h1>502 Bad Gateway</h1></center>
-<hr><center>nginx</center>
-</body>
-</html>
-
-Google Translate failed: TooManyRequests
-  proofread by qwen/qwen3.8-27b
-  proofread: Акшайе Будхун → Akshaye Boodhun
-Posted (Top FM): Дело «Горящий рай»: Akshaye Boodhun освобожден под залог
-LLM usage this run: 7 requests, 9131 tokens
-### check 5/5 at 18:08
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В 2026 году с января по август остров Родригес посетило 72 000 туристов, что меньше, чем 78 000 в 2025 году; комиссар по туризму Ален Вонг Со объясняе)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Родригесе → Rodrigues; Родригес → Rodrigues
-  foreign words left: Air
-  leftovers fixed by qwen/qwen3.8-27b; still left: Air
-Posted (Top FM): Туризм на Rodrigues: 72 тысячи посетителей с января по август 2026 года против 78 тысяч в прошлом году
-  dup check: new (Xavier‑Luc Duval répond spécifiquement aux déclarations de l’ancienne ministre Leela Devi Dookun‑Luchoomun concernant le « Extended Programme » et rap)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Ксавье-Люк Дюваль → Xavier-Luc Duval; Леелой Деви Дукун-Лучуман → Leela Devi Dookun-Luchoomun; Дюваля → Duval
-  foreign words left: Extended, Programme
+  foreign words left: Bank
   leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (L'Express): Лидер PMSD раскритиковал образовательную реформу бывшего министра
-LLM usage this run: 8 requests, 10182 tokens
+Posted (Defimedia): Программа резервуаров для воды: выдано уже 2862 купона, проверки продолжаются
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Inculpé sous la POTA : Akshaye Boodhun, créateur du groupe «Burning Paradise», libéré sous == Дело «Горящий рай»: Akshaye Boodhun освобожден под залог
+  dup: nothing new ()
+Skipped duplicate (L'Express): Réservoirs d’eau et pompes : 35 817 demandes, 2 862 coupons distribués == Программа резервуаров для воды: выдано уже 2862 купона, проверки продолжаются
+LLM usage this run: 9 requests, 10671 tokens
