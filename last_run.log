@@ -18,3 +18,26 @@ Posted (L'Express): Медбрат атакован родственником �
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): PETIT-RAFFRAY  : Arrêté pour avoir volé des bijoux lors d’un mariage == Кража на свадебном приёме в Petit-Raffray: похищены украшения на 425 000 рупий, задержан с
 LLM usage this run: 11 requests, 14136 tokens
+### check 2/5 at 17:56
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Maurice reprend les importations de bétail en provenance de Namibie après une suspension liée à la fièvre aphteuse, suite à une amélioration de la sit)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+  foreign words left: Karas
+  leftovers fixed by qwen/qwen3.8-27b; still left: Karas
+Posted (Le Mauricien): Маврикий возобновляет импорт скота из Namibie через месяц после приостановки
+  dup check: new (Perturbations de la distribution d'eau potable le mardi 27 octobre dans de nombreuses localités de l'Est (Mont Ida, Médine, Bel Étang, etc.) en raison)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Подача воды: несколько восточных районов останутся без воды во вторник, начиная с 9 часов утра и до позднего вечера
+  dup check: new (Me Rama Valayden a écrit au Premier ministre Navin Ramgoolam pour obtenir une garantie écrite que Monowara Begum, ressortissante bangladaise disparue )
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Рам Валайден → Rama Valayden; Навину Рамгуламу → Navin Ramgoolam; Монавара Бегум → Monowara Begum
+Posted (Defimedia): Адвокат требует гарантии показаний для пропавшей гражданки Бангладеш
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Prévention des inondations | Saison des grosses pluies : les drains sous surveillance
+Skipped foreign news (L'Express): Prévention des inondations | Saison des grosses pluies : les drains sous surveillance
+LLM usage this run: 11 requests, 15594 tokens
