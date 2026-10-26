@@ -1,54 +1,20 @@
-### check 1/5 at 15:24
+### check 1/5 at 17:52
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Суд вынес приговоры семи обвиняемым по делу инцидентов 13 октября: Альваро Алекссан Хоффтед получил максимальный срок 28 месяцев за заговор и поджог, )
-LLM request failed (GigaChat-2-Max): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7f687c8338
-  written by qwen/qwen3.8-27b
+  dup check: new (Le ministère de la Jeunesse et des Sports a demandé des explications à la Fédération mauricienne de boxe sur la présence d’un entraîneur sans certific)
+  written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: охранника CWA → охранника Central Water Authority (CWA)
-Posted (Defimedia): События 13 октября: семерым подсудимым назначены сроки до 28 месяцев тюрьмы
-  dup check: new (Сообщение о новых пожарах, возникающих в рамках протестов молодых людей в разных странах (Франция, Бельгия, Испания, Португалия, Италия, Германия, Алб)
-LLM per-minute limit, waiting 11s
-  written by qwen/qwen3.8-27b
-  not about Mauritius: Fenêtres — Qui met le feu au monde ?
-Skipped foreign news (Le Mauricien): Fenêtres — Qui met le feu au monde ?
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): Point et interrogation :  Jeunesse au cœur de l’émancipation
-Skipped foreign news (Le Mauricien): Point et interrogation :  Jeunesse au cœur de l’émancipation
-LLM per-minute limit, waiting 31s
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): Humeur — Questions d’actualité
-Skipped foreign news (Le Mauricien): Humeur — Questions d’actualité
-LLM usage this run: 7 requests, 16469 tokens
-### check 2/5 at 15:28
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (IPCC объявила о запуске публичного обращения к свидетелям и поиске видеоматериалов с камер наблюдения, чтобы прояснить инцидент.)
-LLM request failed (GigaChat-2-Max): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7066bfc870
-  written by qwen/qwen3.8-27b
+Posted (Defimedia): Чемпионат Африки по боксу: Министерство требует объяснений по поводу тренера без сертификата IBA
+  dup check: new (В статье указано, что уровень воды в резервуаре Mare‑aux‑Vacoas может упасть до 20 % к ноябрю, а также планируется бурение ещё 15‑20 скважин по всему )
+  written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Camp-Levieux | Дело Élodie Thomas: комиссия по жалобам на полицию (IPCC) ищет доказательства, чтобы разрешить противоречия в показаниях
-  dup check: new (Полицейский, обвиняемый в применении силы, дал показания комиссии по расследованию полицейских нарушений; упомянуто, что премьер-министр на прошлой не)
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): Faits et effets — Lendemains désenchantés
-Skipped foreign news (Le Mauricien): Faits et effets — Lendemains désenchantés
-  dup check: new (Sydney Pierre, бывший депутат PTr, перешёл в оппозицию (FMP), дал ряд публичных заявлений о своей позиции, критике правительства и изменении возраста )
-LLM per-minute limit, waiting 30s
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
-  written by openai/gpt-oss-120b
-Posted (Le Mauricien): Sydney Pierre, бывший депутат PTr, перешёл в FMP: «Я чувствую себя более комфортно в оппозиции, чем в правительстве»
-  dup check: new (Школы (lékol) возобновили занятия с прошлого месяца после зимних каникул, учащиеся готовятся к экзаменам.)
-  written by openai/gpt-oss-120b
-Posted (Le Mauricien): Пойман на лету — школа или бардак?
-LLM usage this run: 9 requests, 19921 tokens
-### check 3/5 at 15:32
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Annulation d'un match de football prévu dans une région, opposition du Premier ministre Navin Ramgoolam, et rumeurs d'implication de deux membres du g)
-LLM request failed (GigaChat-2-Max): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x72e023eea7
-  written by qwen/qwen3.8-27b
+  foreign words left: Trianon, Côte-d'Or
+  leftovers fixed by qwen/qwen3.8-27b; still left: Trianon, Côte-d'Or
+Posted (Le Mauricien): Водный кризис: ожидается дополнительный объем воды 11,2 млн литров в день, правительство рассматривает возможность бурения еще 20 скважин
+  dup check: new (Un infirmier de 36 ans agressé physiquement et verbalement par un proche d’une patiente aux urgences dans la nuit du 24 au 25 octobre, avec blessures )
+  written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Горячие точки
-LLM usage this run: 3 requests, 5714 tokens
-### check 4/5 at 15:36
-### check 5/5 at 15:40
+Posted (L'Express): Медбрат атакован родственником пациентки в больнице
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): PETIT-RAFFRAY  : Arrêté pour avoir volé des bijoux lors d’un mariage == Кража на свадебном приёме в Petit-Raffray: похищены украшения на 425 000 рупий, задержан с
+LLM usage this run: 11 requests, 14136 tokens
