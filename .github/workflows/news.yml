@@ -47,7 +47,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install feedparser requests deep-translator trafilatura
+      - run: pip install feedparser requests deep-translator trafilatura babel
 
       - name: Run bot
         shell: bash

@@ -1047,6 +1047,9 @@ def _decline(ru, prep):
         return ru
     loc = low in ("в", "во", "на", "о", "об")
     gen = low in ("из", "с", "со", "до", "для", "от", "у", "около", "возле", "из-за")
+    if low in ("через", "про", "сквозь"):  # accusative: через Индию
+        return (ru[:-2] + "ию" if ru.endswith("ия") else ru[:-1] + "у" if ru.endswith("а")
+                else ru[:-1] + "ю" if ru.endswith("я") else ru)
     if not (loc or gen):
         return ru
     if ru.endswith("ия"):
@@ -1062,6 +1065,52 @@ def _decline(ru, prep):
     return ru + ("е" if loc else "а")
 
 
+_COUNTRIES = None
+
+
+def _countries():
+    """Country names in French and English -> Russian, from the CLDR data in
+    Babel (complete and maintained, not a hand-made list)."""
+    global _COUNTRIES
+    if _COUNTRIES is None:
+        _COUNTRIES = {}
+        try:
+            from babel import Locale
+            ru = Locale("ru").territories
+            fix = {"CD": "ДР Конго", "CG": "Республика Конго", "US": "США",
+                   "GB": "Великобритания", "RE": "Реюньон", "MU": "Маврикий",
+                   "SC": "Сейшелы", "AE": "ОАЭ", "KR": "Южная Корея"}
+            for lang in ("fr", "en"):
+                for code, name in Locale(lang).territories.items():
+                    if len(code) == 2 and code.isalpha() and code in ru:
+                        name = re.sub(r"^(La |Le |Les |L’|L')", "", name)
+                        _COUNTRIES[name.lower()] = fix.get(code, ru[code])
+            _COUNTRIES.update({"congo": "Конго", "rdc": "ДР Конго", "usa": "США",
+                               "uk": "Великобритания", "émirats arabes unis": "ОАЭ"})
+        except Exception as e:
+            print(f"Country names unavailable: {e}")
+    return _COUNTRIES
+
+
+def _with_countries(text, names):
+    """Add any country written in Latin in the text to the names list as a
+    foreign place, so it gets its Russian name."""
+    known = {n.get("orig", "").lower() for n in names}
+    # a country word inside a person's name (Jean France) is not a country
+    for n in names:
+        if n.get("type") == "person":
+            known |= {w.lower() for w in n.get("orig", "").split()}
+    text = re.sub(r"[A-ZÀ-Ý][\wÀ-ÿ'’-]+\s(?=[A-ZÀ-Ý])|(?<=[A-Za-zÀ-ÿ]\s)[A-ZÀ-Ý][\wÀ-ÿ'’-]+", " ", text or "")
+    extra = []
+    for w in set(re.findall(r"[A-ZÀ-Ý][\wÀ-ÿ'’-]+(?:\s[A-ZÀ-Ý][\wÀ-ÿ'’-]+)?", text or "")):
+        for cand in (w, w.split()[0]):
+            ru = _countries().get(cand.lower())
+            if ru and cand.lower() not in known and ru != "Маврикий":
+                extra.append({"orig": cand, "type": "foreign", "ru": ru})
+                known.add(cand.lower())
+    return list(names) + extra
+
+
 def apply_names(text, names, source_text=""):
     """Make the text follow the names list the model wrote first:
     foreign places in Russian, people/organisations/Mauritian places in Latin."""
@@ -1069,6 +1118,7 @@ def apply_names(text, names, source_text=""):
         return text
     # some models write non-breaking hyphens and spaces (Poudre‑d’Or, 20 %)
     text = text.replace("\u2011", "-").replace("\u2010", "-").replace("\u00a0", " ").replace("\u202f", " ")
+    names = _with_countries(text, names)
     latin_names = [n["orig"].strip() for n in names
                    if n.get("type") != "foreign" and not n.get("ru")
                    and re.search(r"[A-Za-zÀ-ÿ]", n["orig"])]
@@ -1079,7 +1129,13 @@ def apply_names(text, names, source_text=""):
         # a Latin foreign name left in the text -> the Russian one, declined
         def put(m, ru=ru):
             prev = m.group(1) or ""
+            after = m.string[m.end():m.end() + 30]
+            if re.match(r"[A-Za-zÀ-ÿ]", prev[-1:] or "x") and prev[:1].isupper() or \
+                    re.match(r"\s[A-ZÀ-Ý][a-zà-ÿ]", after):
+                return m.group(0)  # part of a Latin name: Jean France, Air Seychelles
             name = ru[3:] if ru.startswith("ДР ") and prev.lower().startswith("республик") else ru
+            if prev == "в" and re.match(r"(Фр|Вр|Вл|Вс)", name):
+                prev = "во"  # во Франции
             return (prev + " " if prev else "") + (_decline(name, prev) if prev else name)
         text = re.sub(rf"(?:\b(\w+(?:-\w+)?)\s+)?(?<![\w-]){re.escape(orig)}(?![\w-])", put, text)
     # Organisation names are full of ordinary words (Constitutional Review
@@ -1306,7 +1362,7 @@ def foreign_leftovers(title, summary, names, original=""):
                  for w in _latin_words(n.get("orig", ""))}
     for m in re.finditer(r"(?<=[a-zà-ÿ,;]\s)([A-ZÀ-Ý][\w'’-]+)", original or ""):
         w = m.group(1)
-        if w.lower() not in org_words and not _not_name(w):
+        if w.lower() not in org_words and not _not_name(w) and w.lower() not in _countries():
             allowed |= {x.lower() for x in _latin_words(w)}
     for n in names:
         if n.get("type") == "foreign" or n.get("ru"):
