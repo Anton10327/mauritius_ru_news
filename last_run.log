@@ -1,71 +1,17 @@
-### check 1/5 at 11:34
+### check 1/5 at 12:24
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  not about Mauritius: Plumes engagée :  Golden
-Skipped foreign news (L'Express): Plumes engagée :  Golden
-  dup check: new (Luxshmee Ramdhun-Bundhun a appelé le Select Committee sur l’utilisation du kreol morisien à élargir sa réflexion aux langues ancestrales parlées à Mau)
-  proofread: Select Committee → Select Committee (оставлено как есть); Assemblée nationale → Национальное собрание; Cassis → Касис
-Posted (Le Mauricien): Дивали в Hindu House — Luxshmee Ramdhun-Bundhun призывает признать исконные языки
-  not news (portrait/lifestyle): Plumes engagées : Ferme les yeux
-Skipped foreign news (L'Express): Plumes engagées : Ferme les yeux
-  dup check: new (27–28 октября в Caudan Arts Centre пройдёт региональный семинар по качеству высшего образования, организованный ЮНЕСКО и Quality Assurance Authority; )
-Posted (Inside News): Высшее образование: Маврикий и Сейшелы объединяются вокруг качества
-LLM usage this run: 8 requests, 15205 tokens
-### check 2/5 at 11:38
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье упоминается, что Red Ruby может быть выращена вне сезона и позволяет фермерам сохранять семена для последующих посадок. Эти детали не были яв)
-Posted (Inside News): Red Ruby: Маврикий выводит новый сорт лука, чтобы снизить зависимость от импорта
-  dup: nothing new (Joëlle Coret по-прежнему находится в отделении интенсивной терапии в Лондоне; она была госпитализирована после приступа на конференции во время выступ)
-Skipped duplicate (Le Mauricien): MASA/UNION DES ARTISTES : Joëlle Coret toujours admise aux soins intensifs à Londres == Англия: состояние здоровья Joëlle Coret, президента MASA, оценивается как тревожное после 
-  dup check: new (Le gouvernement mauricien a approuvé la mise en consultation publique d’un projet de Child Adoption Bill et prévoit de créer une Mauritius Child Adopt)
+  dup check: new (Конференция Africa Kaizen Annual Conference 2026 проходит на Маврикии с 26 по 27 октября в отеле Ravenala Attitude Hotel; тема — «Sustainable Kaizen f)
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Bill
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Inside News): Усыновление на Маврикии: новый закон для лучшей защиты детей
-  dup check: new (Joanna Bérenger от FMP подала письменные вопросы (Written Answers) в Национальную библиотеку, требуя отчётов по миссиям министров и стоимости Silver B)
-  proofread: FMP → Fron Progresis Militan (FMP); Silver Bank Saga → афера Silver Bank
-Posted (Le Mauricien): «шахматная доска политики» — Письменные ответы: двойная атака Joanna Bérenger
-LLM usage this run: 11 requests, 14250 tokens
-### check 3/5 at 11:42
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Babita Thanoo, после перенесённого рака груди, делает борьбу за общественное здоровье своим главным приоритетом и требует полного запрета пестицидов, )
-  not news (portrait/lifestyle): Babita Thanoo : «L’agroécologie sauvera nos vies et protégera nos enfants»
-Skipped foreign news (Defimedia): Babita Thanoo : «L’agroécologie sauvera nos vies et protégera nos enfants»
-  dup check: new (Объявлено о намерении правительства ужесточить контроль и санкции за использование запрещённых пестицидов при выращивании овощей вне сезона, чтобы защ)
-Posted (Defimedia): Фрукты и овощи не по сезону: остерегайтесь избытка пестицидов
-Posted (Defimedia): Ювенальная преступность: до какой степени можно привлекать родителей к уголовной ответственности?
-  dup check: new (В статье указано, что на заседании парламента 27 октября 2026 года будет обсуждаться влияние недавних беспорядков на общественную безопасность и эконо)
-Posted (Defimedia): Парламент во вторник: недавние беспорядки в центре вопросов к премьер-министру
-LLM usage this run: 10 requests, 16287 tokens
-### check 4/5 at 11:46
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье сообщается, что суд Bail and Remand Court 19 октября 2026 года отказал в освобождении под залог полицейскому Neeraj Pagoo по делу о ввозе нар)
-  proofread: Bail and Remand Court → суд по освобождению под залог; в сговоре с целью импорта наркотиков → в сговоре с целью ввоза наркотиков; француженка Lisa Lily Ilona Romain → француженка Лиза Лили Илона Ромен
-Posted (Defimedia): Импорт наркотиков на сумму более 61 млн рупий: BRC отказала в освобождении под залог полицейскому Neeraj Pagoo
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Air Mauritius – Le plan de transformation à l’épreuve de son exécution == Air Mauritius: рассматриваются пять узкофюзеляжных самолётов, три A350 пересматриваются
-  dup check: new (Создана новая государственная компания National Health Infrastructure Ltd, которая будет заниматься планированием, строительством, управлением и обслу)
-  proofread: Visiting Doctor Scheme → Visiting Doctor Scheme (название программы переведено как есть); Le gouvernement a approuvé la création d’une société publique chargée des infrastructures sanitaires. Un programme permettant de faire venir temporairement des spécialistes étrangers est également envisagé. → П
-Posted (Inside News): Государственные больницы: новая компания для управления инфраструктурой и оборудованием
-  dup check: new (Упоминается, что показания Эло́ди Томас будут сопоставлены с видеозаписями и баллистической экспертизой — это уточняет ход расследования. Также говори)
-  proofread: Элодь Тома → Элоди Томас
-Posted (L'Express): Выстрел в Камп-Левьё: Élodie Thomas в центре расследования с противоречивыми версиями — её показания станут решающими
-LLM usage this run: 10 requests, 14331 tokens
-### check 5/5 at 11:50
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье описан новый дорожный инцидент в Индии: автобус с 30 пассажирами упал в ущелье, но был остановлен деревом; все пассажиры спасены, один-два че)
-  not about Mauritius: [Video] Inde : un arbre stoppe un bus tombé dans une gorge, 30 passagers évacués
-Skipped foreign news (Inside News): [Video] Inde : un arbre stoppe un bus tombé dans une gorge, 30 passagers évacués
-  dup check: new (Le gouvernement a annoncé la création d’un comité interministériel pour suivre les recommandations de la Truth and Justice Commission, présidé par la )
-  proofread: межминистерский комитет → межминистерский комитет
-Posted (Inside News): Комиссия Truth and Justice: правительство возобновляет контроль за выполнением рекомендаций, без публичного графика
-  dup check: new (В статье упоминается, что из-за новых ограничений на орошение в условиях водного кризиса фермеры вынуждены сокращать посевы овощей и опасаются дефицит)
-Posted (Top FM): Риск дефицита овощей: фермеры бьют тревогу, министерство рассчитывает на импорт
-  dup check: new (Вопрос о бесплатности номера 170 Central Water Authority будет поднят депутатом Véronique Leu-Govind; ранее в опубликованных статьях не упоминалось, ч)
+  foreign words left: Kaizen
+  leftovers fixed by GigaChat-3-Pro; still left: Africa
+Posted (Inside News): [видео] Africa Кайдзен 2026: Маврикий в центре дискуссии об африканской производительности
+  dup check: new (Обнаружены две критические уязвимости в PHP (CVE-2026-109618 и CVE-2026-109619, объединённые под названием PHP2Shell), которые позволяют удалённое вып)
+  not about Mauritius: Deux failles critiques de PHP : mettre WordPress à jour ne suffit pas — comment protéger votre site 
+Skipped foreign news (Inside News): Deux failles critiques de PHP : mettre WordPress à jour ne suffit pas — comment protéger votre site 
+  dup: nothing new (Paul Bérenger и руководство FMP выразили опасения, что создание Select Committee может привести к снижению возраста уголовной ответственности с 14 лет)
+Skipped duplicate (Le Mauricien): FMP — Paul Bérenger face à la presse : Des réserves exprimées autour du Select Committee s == Национальное агентство по борьбе с преступностью — Bérenger требует создания Select Commit
+  dup check: new (В статье упоминается, что депутат Véronique Leu-Govind поднимет вопрос о бесплатности телефонного номера 170 службы Central Water Authority (CWA) и сп)
   proofread: edit rejected (changed numbers, names or length)
-Failed to post https://topfm.mu/actualites/eau-pesticides-et-recrutements-publics-au-coeur-des-questions-parlementaires-ce-mardi: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-LLM usage this run: 11 requests, 16373 tokens
+Posted (Top FM): Вода, пестициды и набор на госслужбу в центре парламентских вопросов во вторник
+LLM usage this run: 10 requests, 15385 tokens
