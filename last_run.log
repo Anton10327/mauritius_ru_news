@@ -1,36 +1,22 @@
-### check 1/5 at 14:45
+### check 1/5 at 15:24
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Leela Devi Dookun-Luchoomun публично потребовала отставки Mahend Gungapersad на пресс-конференции MSM 26 октября.)
-  written by GigaChat-2-Max
-  proofread: Махенд Гунгаперсад → Махенд Гунгаперсад
-  foreign words left: Assessed, grant-aided, College
-  leftovers fixed by GigaChat-3-Pro; still left: Assessed, grant-aided, College
-Posted (Defimedia): Leela Devi Dookun-Luchoomun требует отставки Mahend Gungapersad
-  written by GigaChat-2-Max
-  not about Mauritius: Manifestations en France : 267 membres des forces de l'ordre et 150 manifestants blessés, dont trois
-Skipped foreign news (Defimedia): Manifestations en France : 267 membres des forces de l'ordre et 150 manifestants blessés, dont trois
-  dup check: new (Cloe Gabriel обеспечила себе как минимум медаль на Чемпионатах Африки 2026, победив в третьем раунде и выйдя в полуфинал; это первое упоминание о её в)
-  written by GigaChat-2-Max
+  dup check: new (Суд вынес приговоры семи обвиняемым по делу инцидентов 13 октября: Альваро Алекссан Хоффтед получил максимальный срок 28 месяцев за заговор и поджог, )
+LLM request failed (GigaChat-2-Max): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7f687c8338
+  written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  proofread: Клёэ Габриэль → Cloe Gabriel; Лилиан Ншимириману → Liliane Nshimirimanu
-Posted (Le Mauricien): Чемпионка Маврикия Cloe Gabriel обеспечила себе медаль на чемпионате Африки
-LLM usage this run: 8 requests, 11040 tokens
-### check 2/5 at 14:49
-### check 3/5 at 14:53
-### check 4/5 at 14:57
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Mauritian cyclists Alexandre Mayer et Tristan Hardy ont remporté les championnats d'Afrique de leurs catégories au Kenya, et le ministre de la Jeuness)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Маврикийские велосипедисты стали чемпионами Африки
-LLM usage this run: 3 requests, 5140 tokens
-### check 5/5 at 15:01
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Travel, Holiday & Leisure Expo held 23‑25 octobre 2026 au Tribeca Mall à Trianon, plus de 20 exposants, promotions de 35 % à 40 % pour les visiteurs.)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Travel, Holiday & Leisure Expo : Un rendez-vous réussi pour les vacances
-Skipped foreign news (L'Express): Travel, Holiday & Leisure Expo : Un rendez-vous réussi pour les vacances
-LLM usage this run: 2 requests, 3874 tokens
+  proofread: охранника CWA → охранника Central Water Authority (CWA)
+Posted (Defimedia): События 13 октября: семерым подсудимым назначены сроки до 28 месяцев тюрьмы
+  dup check: new (Сообщение о новых пожарах, возникающих в рамках протестов молодых людей в разных странах (Франция, Бельгия, Испания, Португалия, Италия, Германия, Алб)
+LLM per-minute limit, waiting 11s
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Fenêtres — Qui met le feu au monde ?
+Skipped foreign news (Le Mauricien): Fenêtres — Qui met le feu au monde ?
+  written by qwen/qwen3.8-27b
+  not news (portrait/lifestyle): Point et interrogation :  Jeunesse au cœur de l’émancipation
+Skipped foreign news (Le Mauricien): Point et interrogation :  Jeunesse au cœur de l’émancipation
+LLM per-minute limit, waiting 31s
+  written by qwen/qwen3.8-27b
+  not news (portrait/lifestyle): Humeur — Questions d’actualité
+Skipped foreign news (Le Mauricien): Humeur — Questions d’actualité
+LLM usage this run: 7 requests, 16469 tokens
