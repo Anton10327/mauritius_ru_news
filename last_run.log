@@ -1,59 +1,15 @@
-### check 1/5 at 13:14
+### check 1/5 at 14:04
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье сообщается, что Луис Инасиу Лула да Силва переизбран президентом Бразилии с 51,8% голосов против 48,2% у Флавио Болсонару; это его четвёртый )
-  not about Mauritius: Brésil : Lula décroche un quatrième mandat, Bolsonaro veut l'annulation du scrutin
-Skipped foreign news (Defimedia): Brésil : Lula décroche un quatrième mandat, Bolsonaro veut l'annulation du scrutin
-  proofread: Pamplemousses → Памплемусса; Riche-Terre → Риш-Терр; Kalpanа Koonjoo-Shah → Калпана Кунжу-Шах
-Posted (Defimedia): Суд отклонил возражение защиты по поводу приобщения записей камер видеонаблюдения в деле Kalpana Koonjoo-Shah
+  dup check: new (В статье анонсирована дискуссия с участием CEO Eco-Sud, плантера и консультанта по разумному земледелию о злоупотреблении пестицидами на Маврикии. Это)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Au Cœur de l’Info : les pesticides à Maurice, entre abus et risques pour la santé
+Skipped foreign news (Defimedia): Au Cœur de l’Info : les pesticides à Maurice, entre abus et risques pour la santé
   dup: nothing new ()
-Skipped duplicate (Defimedia): Sécheresse : Mare-aux-Vacoas témoigne d’une situation préoccupante == Mare-aux-Vacoas на 33%: до какой степени можно использовать наши водные резервы?
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Pénurie d’eau : Joe Lesjongard estime que le gouvernement a tardé à agir == Кризис с водой: MSM обвиняет министра Assirvaden в промедлении
-LLM usage this run: 6 requests, 10026 tokens
-### check 2/5 at 13:18
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Le MSM prévoit d’organiser un rassemblement dans la circonscription no 5 (Pamplemousses/Triolet) en novembre; l’annonce a été faite par le président d)
+Skipped duplicate (Le Mauricien): Affaire Kalpana Koonjoo-Shah : objection rejetée sur les images CCTV, procès renvoyé au 3  == Суд отклонил возражение защиты по поводу приобщения записей камер видеонаблюдения в деле K
+  same headline as #81: Vol en pleine réception de mariage à Petit-Raffray : Rs 425 000 de bijoux dérobé
+Skipped duplicate (Wazaa): Employé de traiteur arrêté après vol de bijoux de mariage estimé à 425 000 Rs à Petit-Raff == Кража на свадебном приёме в Petit-Raffray: похищены украшения на 425 000 рупий, задержан с
   written by GigaChat-2-Max
-  proofread: Джо Лесжонгар → Джо Лесжонгар
-Posted (Defimedia): Партия MSM планирует митинг в округе №5 в ноябре
-  dup: nothing new (В статье упоминается, что индекс разработан исследователями Darden School of Business и Karsh Institute for Democracy — это дополнительная информация )
-Skipped duplicate (Wazaa): Indice mondial du capitalisme 2025 : Île Maurice en tête parmi 54 pays d’Afrique == Международный рейтинг 2025: Маврикий — 1-е место в Африке и 48-е в мировом рейтинге капита
-  dup check: new (Рамгулам представил макет 108-футовой статуи Ханумана на Ганга Талоу; молитвы за мир, гармонию и единство страны; молитвы о дожде в период засухи; мол)
-  written by GigaChat-2-Max
-  proofread: раскрыл → представил
-Posted (Le Mauricien): Navin Ramgoolam представил макет гигантской статуи Ханумана высотой 108 футов
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Coiffure — Maison Sasha : 31 ans d’allure et de signature == Дело Эло́ди Thomaś: комиссия по жалобам на полицию (IPCC) обращается к свидетелям для про
-LLM usage this run: 8 requests, 9798 tokens
-### check 3/5 at 13:22
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup: nothing new ()
-Skipped duplicate (L'Express): Parlement : Après les passes d’armes, un nouveau mardi électrique en vue == Парламент во вторник: недавние беспорядки в центре вопросов к премьер-министру
-  dup check: new (В статье приведены новые точные цифры по уровню заполнения резервуаров (Mare-aux-Vacoas — 33,7 %, La Nicolière — 36,1 %) и производству воды в Mare-au)
-  written by GigaChat-2-Max
-  proofread: Джо Лесжонгар → Джо Лесжонгар (имя не меняется); Mare-aux-Vacoas → Mare-aux-Vacoas (название не меняется); La Nicolière → Ла-Никольер (переведено по-русски); Patrick Assirvaden → Патрик Асирваден (имя не меняется); Joe Lesjongard accuse le gouvernement de huit mois d’inaction malgré les alertes mété
-Posted (Le Mauricien): Кризис воды: водохранилище Mare-aux-Vacoas заполнено всего на 33,7%, Joe Lesjongard обвиняет правительство в восьми месяцах бездействия
-  dup check: new (Leela Devi Dookun-Luchoomun a dénoncé un « échec de pilotage » du secteur éducatif lors d’une conférence de presse du MSM le 26 octobre, en soulignant)
-  written by GigaChat-2-Max
-  proofread: Леела Деви Дукун-Лучумун → Леела Деви Дукун-Лучумун (исправлено написание); Forest Side Secondary School → Forest Side Secondary School (исправлено название школы)
-Posted (Le Mauricien): Бывший министр образования критикует текущее руководство сектора
-  dup check: new (Экспорт Маврикия за первое полугодие 2026 года составил Rs 54 млрд, рост всего на 0,2%; занятость в экспортных компаниях снизилась на 7,2% по данным M)
-  written by GigaChat-2-Max
-  proofread: число работников → число работников
-Posted (Top FM): Export Маврикия достиг 54 миллиардов рупий за первое полугодие, занятость снизилась на 7,2%
-LLM usage this run: 10 requests, 13703 tokens
-### check 4/5 at 13:26
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В новой статье сообщается, что между маем и августом 2026 года было зафиксировано 34 нарушения при проверках на местах; проведено 17 контрольных опера)
-  written by GigaChat-2-Max
-Posted (Top FM): Борьба с одноразовым пластиком: конфисковано более 173 тысяч изделий за четыре месяца
-  dup check: new (В статье обсуждается рост стоимости жизни и покупательной способности, а также реакция слушателей Top FM на повышение минимальной зарплаты с 16 500 до)
-  written by GigaChat-2-Max
-  proofread: слушатели выразили обеспокоенность → слушатели выразили беспокойство
-Posted (Top FM): На Top FM обсуждают рост расходов и сложности семейного бюджета
-LLM usage this run: 6 requests, 8305 tokens
-### check 5/5 at 13:30
+  not news (portrait/lifestyle): Gouvernance : L’audit interne face aux nouveaux risques
+Skipped foreign news (L'Express): Gouvernance : L’audit interne face aux nouveaux risques
+LLM usage this run: 4 requests, 5880 tokens
