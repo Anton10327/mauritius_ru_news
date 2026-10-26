@@ -1,37 +1,13 @@
-### check 1/5 at 12:24
+### check 1/5 at 13:14
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Конференция Africa Kaizen Annual Conference 2026 проходит на Маврикии с 26 по 27 октября в отеле Ravenala Attitude Hotel; тема — «Sustainable Kaizen f)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Kaizen
-  leftovers fixed by GigaChat-3-Pro; still left: Africa
-Posted (Inside News): [видео] Africa Кайдзен 2026: Маврикий в центре дискуссии об африканской производительности
-  dup check: new (Обнаружены две критические уязвимости в PHP (CVE-2026-109618 и CVE-2026-109619, объединённые под названием PHP2Shell), которые позволяют удалённое вып)
-  not about Mauritius: Deux failles critiques de PHP : mettre WordPress à jour ne suffit pas — comment protéger votre site 
-Skipped foreign news (Inside News): Deux failles critiques de PHP : mettre WordPress à jour ne suffit pas — comment protéger votre site 
-  dup: nothing new (Paul Bérenger и руководство FMP выразили опасения, что создание Select Committee может привести к снижению возраста уголовной ответственности с 14 лет)
-Skipped duplicate (Le Mauricien): FMP — Paul Bérenger face à la presse : Des réserves exprimées autour du Select Committee s == Национальное агентство по борьбе с преступностью — Bérenger требует создания Select Commit
-  dup check: new (В статье упоминается, что депутат Véronique Leu-Govind поднимет вопрос о бесплатности телефонного номера 170 службы Central Water Authority (CWA) и сп)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Вода, пестициды и набор на госслужбу в центре парламентских вопросов во вторник
-LLM usage this run: 10 requests, 15385 tokens
-### check 2/5 at 12:28
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Joe Lesjongard (MSM) публично обвинил министра энергетики Assirvaden в игнорировании предупреждений метеостанции о засухе с конца 2025 года и раскрити)
-  proofread: Патрик Ассирваден → Патрик Ассирведен
-Posted (Inside News): Кризис с водой: MSM обвиняет министра Assirvaden в промедлении
-  dup check: new (В статье сообщается, что первоначально запланированная на 14 октября мирная демонстрация против пенсионной реформы, организованная Plateform Komin Sin)
-  proofread: Ашвин Гуддей → Ашвин Гуддей
-  foreign words left: Jardin, Compagnie
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Top FM): Акция против пенсионной реформы: Платформа Komin Sindikal приглашает население на митинг 31 октября
-  dup check: new (В новой статье упоминается, что министр труда Реза Утем подтвердил выделение бюджета на исследование и заявил о цели определить условия внедрения 40-ч)
-Posted (Top FM): 40-часовая рабочая неделя: исследование по оценке выполнимости ожидается к апрелю 2027 года
-  dup check: new (Указан новый пороговый уровень заполнения водохранилища Mare-aux-Vacoas (20 %), при котором возникают трудности с обработкой воды из-за увеличения кол)
-  proofread: Лормеш Джугру → Лормеш Джугру
-Posted (Top FM): Mare-aux-Vacoas на 33%: до какой степени можно использовать наши водные резервы?
-LLM usage this run: 13 requests, 17391 tokens
-### check 3/5 at 12:32
-### check 4/5 at 12:36
-### check 5/5 at 12:40
+  dup check: new (В статье сообщается, что Луис Инасиу Лула да Силва переизбран президентом Бразилии с 51,8% голосов против 48,2% у Флавио Болсонару; это его четвёртый )
+  not about Mauritius: Brésil : Lula décroche un quatrième mandat, Bolsonaro veut l'annulation du scrutin
+Skipped foreign news (Defimedia): Brésil : Lula décroche un quatrième mandat, Bolsonaro veut l'annulation du scrutin
+  proofread: Pamplemousses → Памплемусса; Riche-Terre → Риш-Терр; Kalpanа Koonjoo-Shah → Калпана Кунжу-Шах
+Posted (Defimedia): Суд отклонил возражение защиты по поводу приобщения записей камер видеонаблюдения в деле Kalpana Koonjoo-Shah
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Sécheresse : Mare-aux-Vacoas témoigne d’une situation préoccupante == Mare-aux-Vacoas на 33%: до какой степени можно использовать наши водные резервы?
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Pénurie d’eau : Joe Lesjongard estime que le gouvernement a tardé à agir == Кризис с водой: MSM обвиняет министра Assirvaden в промедлении
+LLM usage this run: 6 requests, 10026 tokens
