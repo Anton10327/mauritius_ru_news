@@ -1,16 +1,8 @@
-### check 1/5 at 05:26
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 2/5 at 05:30
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+### check 1/5 at 06:10
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Указаны новые детали прогноза на утро понедельника: ожидаются дожди, порывы ветра до 50 км/ч и волнение моря высотой 3 метра за рифами; также уточнено)
-  proofread: 
-Posted (Inside News): Погода: дожди в понедельник утром и сильное волнение за рифами
-LLM usage this run: 3 requests, 4928 tokens
-### check 3/5 at 05:34
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 4/5 at 05:38
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 5/5 at 05:42
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La météo du lundi 26 octobre == Погода: дожди с вечера этого воскресенья, сильное волнение на море и понижение температуры
+  dup: nothing new ()
+Skipped duplicate (L'Express): En couverture : Les grands titres de l'express de ce lundi 26 octobre 2026 == Погода в субботу, 24 октября: до 31 °C перед ливнями во второй половине дня
+LLM usage this run: 2 requests, 2030 tokens
