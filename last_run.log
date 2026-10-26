@@ -1,14 +1,6 @@
-### check 1/5 at 07:19
+### check 1/5 at 08:00
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Речь идёт о новом отзыве продукции Arla Protein Pudding на Маврикии из-за риска наличия осколков стекла, с указанием конкретных сортов и дат годности.)
-  foreign words left: Foods
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Риск наличия осколков стекла: отзыв нескольких партий Arla Protein Pudding на Маврикии
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Fusillade à Camp-Levieux – Affaire Élodie Thomas — L’IPCC lance un appel à témoins == Дело Эло́ди Thomaś: комиссия по жалобам на полицию (IPCC) обращается к свидетелям для про
-LLM usage this run: 5 requests, 5867 tokens
-### check 2/5 at 07:23
-### check 3/5 at 07:27
-### check 4/5 at 07:31
-### check 5/5 at 07:35
+  dup check: new (Маврикий занял 1-е место в Африке и 48-е место в мировом рейтинге капитализма согласно Global Capitalism Index 2025, опубликованному Democracy & Capit)
+Posted (Defimedia): Международный рейтинг 2025: Маврикий — 1-е место в Африке и 48-е в мировом рейтинге капитализма
+LLM usage this run: 3 requests, 5320 tokens
