@@ -27,3 +27,21 @@ Posted (Le Mauricien): Navin Ramgoolam представил макет гига�
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): Coiffure — Maison Sasha : 31 ans d’allure et de signature == Дело Эло́ди Thomaś: комиссия по жалобам на полицию (IPCC) обращается к свидетелям для про
 LLM usage this run: 8 requests, 9798 tokens
+### check 3/5 at 13:22
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup: nothing new ()
+Skipped duplicate (L'Express): Parlement : Après les passes d’armes, un nouveau mardi électrique en vue == Парламент во вторник: недавние беспорядки в центре вопросов к премьер-министру
+  dup check: new (В статье приведены новые точные цифры по уровню заполнения резервуаров (Mare-aux-Vacoas — 33,7 %, La Nicolière — 36,1 %) и производству воды в Mare-au)
+  written by GigaChat-2-Max
+  proofread: Джо Лесжонгар → Джо Лесжонгар (имя не меняется); Mare-aux-Vacoas → Mare-aux-Vacoas (название не меняется); La Nicolière → Ла-Никольер (переведено по-русски); Patrick Assirvaden → Патрик Асирваден (имя не меняется); Joe Lesjongard accuse le gouvernement de huit mois d’inaction malgré les alertes mété
+Posted (Le Mauricien): Кризис воды: водохранилище Mare-aux-Vacoas заполнено всего на 33,7%, Joe Lesjongard обвиняет правительство в восьми месяцах бездействия
+  dup check: new (Leela Devi Dookun-Luchoomun a dénoncé un « échec de pilotage » du secteur éducatif lors d’une conférence de presse du MSM le 26 octobre, en soulignant)
+  written by GigaChat-2-Max
+  proofread: Леела Деви Дукун-Лучумун → Леела Деви Дукун-Лучумун (исправлено написание); Forest Side Secondary School → Forest Side Secondary School (исправлено название школы)
+Posted (Le Mauricien): Бывший министр образования критикует текущее руководство сектора
+  dup check: new (Экспорт Маврикия за первое полугодие 2026 года составил Rs 54 млрд, рост всего на 0,2%; занятость в экспортных компаниях снизилась на 7,2% по данным M)
+  written by GigaChat-2-Max
+  proofread: число работников → число работников
+Posted (Top FM): Export Маврикия достиг 54 миллиардов рупий за первое полугодие, занятость снизилась на 7,2%
+LLM usage this run: 10 requests, 13703 tokens
