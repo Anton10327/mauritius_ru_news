@@ -11,3 +11,19 @@ Skipped duplicate (Defimedia): Sécheresse : Mare-aux-Vacoas témoigne d’une s
   dup: nothing new ()
 Skipped duplicate (Defimedia): Pénurie d’eau : Joe Lesjongard estime que le gouvernement a tardé à agir == Кризис с водой: MSM обвиняет министра Assirvaden в промедлении
 LLM usage this run: 6 requests, 10026 tokens
+### check 2/5 at 13:18
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Le MSM prévoit d’organiser un rassemblement dans la circonscription no 5 (Pamplemousses/Triolet) en novembre; l’annonce a été faite par le président d)
+  written by GigaChat-2-Max
+  proofread: Джо Лесжонгар → Джо Лесжонгар
+Posted (Defimedia): Партия MSM планирует митинг в округе №5 в ноябре
+  dup: nothing new (В статье упоминается, что индекс разработан исследователями Darden School of Business и Karsh Institute for Democracy — это дополнительная информация )
+Skipped duplicate (Wazaa): Indice mondial du capitalisme 2025 : Île Maurice en tête parmi 54 pays d’Afrique == Международный рейтинг 2025: Маврикий — 1-е место в Африке и 48-е в мировом рейтинге капита
+  dup check: new (Рамгулам представил макет 108-футовой статуи Ханумана на Ганга Талоу; молитвы за мир, гармонию и единство страны; молитвы о дожде в период засухи; мол)
+  written by GigaChat-2-Max
+  proofread: раскрыл → представил
+Posted (Le Mauricien): Navin Ramgoolam представил макет гигантской статуи Ханумана высотой 108 футов
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Coiffure — Maison Sasha : 31 ans d’allure et de signature == Дело Эло́ди Thomaś: комиссия по жалобам на полицию (IPCC) обращается к свидетелям для про
+LLM usage this run: 8 requests, 9798 tokens
