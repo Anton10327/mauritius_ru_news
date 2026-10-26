@@ -35,3 +35,9 @@ Posted (Defimedia): Сотрудники Concentrix требуют соблюд�
   proofread: Рима Калисте → Romeo Caliste; Рима Калисте → Romeo Caliste
 Posted (Defimedia): Тренер боксеров Romeo Caliste получил разрешение IBA выступать в углу ринга
 LLM usage this run: 5 requests, 7909 tokens
+### check 5/5 at 19:48
+  dup check: new (Peninsula Restaurant открыто в январе 2026 года и 23 октября провело частный вечер в Bagatelle, представив новую карту блюд северной Индии, расширяя м)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Nouveauté culinaire : Peninsula Restaurant dévoile une nouvelle carte aux saveurs de l’Inde
+Skipped foreign news (L'Express): Nouveauté culinaire : Peninsula Restaurant dévoile une nouvelle carte aux saveurs de l’Inde
+LLM usage this run: 2 requests, 3838 tokens
