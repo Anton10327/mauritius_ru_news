@@ -45,3 +45,14 @@ Posted (Le Mauricien): Бывший министр образования кри
   proofread: число работников → число работников
 Posted (Top FM): Export Маврикия достиг 54 миллиардов рупий за первое полугодие, занятость снизилась на 7,2%
 LLM usage this run: 10 requests, 13703 tokens
+### check 4/5 at 13:26
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В новой статье сообщается, что между маем и августом 2026 года было зафиксировано 34 нарушения при проверках на местах; проведено 17 контрольных опера)
+  written by GigaChat-2-Max
+Posted (Top FM): Борьба с одноразовым пластиком: конфисковано более 173 тысяч изделий за четыре месяца
+  dup check: new (В статье обсуждается рост стоимости жизни и покупательной способности, а также реакция слушателей Top FM на повышение минимальной зарплаты с 16 500 до)
+  written by GigaChat-2-Max
+  proofread: слушатели выразили обеспокоенность → слушатели выразили беспокойство
+Posted (Top FM): На Top FM обсуждают рост расходов и сложности семейного бюджета
+LLM usage this run: 6 requests, 8305 tokens
