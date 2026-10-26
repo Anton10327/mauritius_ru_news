@@ -27,3 +27,15 @@ Posted (Inside News): Усыновление на Маврикии: новый �
   proofread: FMP → Fron Progresis Militan (FMP); Silver Bank Saga → афера Silver Bank
 Posted (Le Mauricien): «шахматная доска политики» — Письменные ответы: двойная атака Joanna Bérenger
 LLM usage this run: 11 requests, 14250 tokens
+### check 3/5 at 11:42
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Babita Thanoo, после перенесённого рака груди, делает борьбу за общественное здоровье своим главным приоритетом и требует полного запрета пестицидов, )
+  not news (portrait/lifestyle): Babita Thanoo : «L’agroécologie sauvera nos vies et protégera nos enfants»
+Skipped foreign news (Defimedia): Babita Thanoo : «L’agroécologie sauvera nos vies et protégera nos enfants»
+  dup check: new (Объявлено о намерении правительства ужесточить контроль и санкции за использование запрещённых пестицидов при выращивании овощей вне сезона, чтобы защ)
+Posted (Defimedia): Фрукты и овощи не по сезону: остерегайтесь избытка пестицидов
+Posted (Defimedia): Ювенальная преступность: до какой степени можно привлекать родителей к уголовной ответственности?
+  dup check: new (В статье указано, что на заседании парламента 27 октября 2026 года будет обсуждаться влияние недавних беспорядков на общественную безопасность и эконо)
+Posted (Defimedia): Парламент во вторник: недавние беспорядки в центре вопросов к премьер-министру
+LLM usage this run: 10 requests, 16287 tokens
