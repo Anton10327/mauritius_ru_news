@@ -13,3 +13,12 @@ LLM usage this run: 4 requests, 5304 tokens
   dup: nothing new (В новой статье уточняется, что операция ADSU включала два отдельных этапа: перехват посылки из Лондона в аэропорту имени Сивусагура Рамгулама и послед)
 Skipped duplicate (L'Express): Colis de Londres et perquisition à Trou-d’Eau-Douce : L’ADSU saisit plus de Rs 18 millions == Двое арестованы: изъято 2,4 кг бумаги, пропитанной подозрительным веществом, стоимостью 17
 LLM usage this run: 1 requests, 1000 tokens
+### check 4/5 at 10:08
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (Министр Девен Нагалингем сообщил о выделении 105 000 рупий на проведение мероприятий в честь 60-летия Duke of Edinburgh’s Award на Маврикии и анонсиро)
+  proofread: Duke of Edinburgh’s Award → Duke of Edinburgh’s International Award; на Rodrigues → на Родригесе
+  foreign words left: Award
+  leftovers fixed by GigaChat-3-Pro; still left: Award
+Posted (L'Express): В Национальном собрании: 60-летие премии Duke of Edinburgh’s International Award на Маврикии — 105 000 рупий на празднование
+LLM usage this run: 4 requests, 5617 tokens
