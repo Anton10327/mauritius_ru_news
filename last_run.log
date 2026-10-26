@@ -22,3 +22,14 @@ LLM usage this run: 7 requests, 15602 tokens
 ### check 2/5 at 09:21
 ### check 3/5 at 09:25
 ### check 4/5 at 09:29
+### check 5/5 at 09:33
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+Duplicate check GigaChat-3-Pro failed: HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x70304d936a20>, 'Connection to api.giga.chat timed out. (connect timeout=120)'))
+  dup check: new (Maurice elected president of the Bureau of the Nairobi Convention (COP12), taking regional coordination role on marine and coastal protection.)
+LLM request failed (GigaChat-3-Ultra): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x70304d93e4
+LLM per-minute limit, waiting 30s
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
+  written by openai/gpt-oss-120b
+Posted (Inside News): Конвенция Найроби: Маврикий принимает председательство на COP12
+LLM usage this run: 2 requests, 4388 tokens
