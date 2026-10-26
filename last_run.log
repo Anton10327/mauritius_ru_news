@@ -9,3 +9,10 @@ Posted (Le Mauricien): Vacoas: изъяты 28 полосок синтетиче
 LLM usage this run: 3 requests, 5348 tokens
 ### check 2/5 at 08:43
 ### check 3/5 at 08:47
+### check 4/5 at 08:51
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье указаны новые даты и регионы плановых отключений электричества (26, 27 и 29 октября в Deux-Bras, Flic-en-Flac, Melville, Bois-Rouge и Quatre-)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): CEB: плановые отключения электричества в пяти регионах с 26 по 29 октября
+LLM usage this run: 3 requests, 5761 tokens
