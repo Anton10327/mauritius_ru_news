@@ -1,26 +1,18 @@
-### check 1/5 at 14:04
+### check 1/5 at 14:45
 /home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
   now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (В статье анонсирована дискуссия с участием CEO Eco-Sud, плантера и консультанта по разумному земледелию о злоупотреблении пестицидами на Маврикии. Это)
+  dup check: new (Leela Devi Dookun-Luchoomun публично потребовала отставки Mahend Gungapersad на пресс-конференции MSM 26 октября.)
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): Au Cœur de l’Info : les pesticides à Maurice, entre abus et risques pour la santé
-Skipped foreign news (Defimedia): Au Cœur de l’Info : les pesticides à Maurice, entre abus et risques pour la santé
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Affaire Kalpana Koonjoo-Shah : objection rejetée sur les images CCTV, procès renvoyé au 3  == Суд отклонил возражение защиты по поводу приобщения записей камер видеонаблюдения в деле K
-  same headline as #81: Vol en pleine réception de mariage à Petit-Raffray : Rs 425 000 de bijoux dérobé
-Skipped duplicate (Wazaa): Employé de traiteur arrêté après vol de bijoux de mariage estimé à 425 000 Rs à Petit-Raff == Кража на свадебном приёме в Petit-Raffray: похищены украшения на 425 000 рупий, задержан с
+  proofread: Махенд Гунгаперсад → Махенд Гунгаперсад
+  foreign words left: Assessed, grant-aided, College
+  leftovers fixed by GigaChat-3-Pro; still left: Assessed, grant-aided, College
+Posted (Defimedia): Leela Devi Dookun-Luchoomun требует отставки Mahend Gungapersad
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): Gouvernance : L’audit interne face aux nouveaux risques
-Skipped foreign news (L'Express): Gouvernance : L’audit interne face aux nouveaux risques
-LLM usage this run: 4 requests, 5880 tokens
-### check 2/5 at 14:08
-/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
-  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
-  dup check: new (Xavier-Luc Duval связывает недавние беспорядки и кризис воды с социальными проблемами, такими как стоимость жизни, нестабильность занятости, жильё, об)
+  not about Mauritius: Manifestations en France : 267 membres des forces de l'ordre et 150 manifestants blessés, dont trois
+Skipped foreign news (Defimedia): Manifestations en France : 267 membres des forces de l'ordre et 150 manifestants blessés, dont trois
+  dup check: new (Cloe Gabriel обеспечила себе как минимум медаль на Чемпионатах Африки 2026, победив в третьем раунде и выйдя в полуфинал; это первое упоминание о её в)
   written by GigaChat-2-Max
-  proofread: Xavier-Luc Duval → Ксавье-Люк Дюваль; PMSD → PMSD (название партии); leader du PMSD → лидер партии PMSD
-Posted (Le Mauricien): Лидер PMSD Xavier-Luc Duval: «Социальные трудности нельзя игнорировать»
-LLM usage this run: 3 requests, 5213 tokens
-### check 3/5 at 14:12
-### check 4/5 at 14:16
-### check 5/5 at 14:20
+  proofread by qwen/qwen3.8-27b
+  proofread: Клёэ Габриэль → Cloe Gabriel; Лилиан Ншимириману → Liliane Nshimirimanu
+Posted (Le Mauricien): Чемпионка Маврикия Cloe Gabriel обеспечила себе медаль на чемпионате Африки
+LLM usage this run: 8 requests, 11040 tokens
