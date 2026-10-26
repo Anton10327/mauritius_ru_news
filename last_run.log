@@ -20,3 +20,24 @@ LLM per-minute limit, waiting 31s
   not news (portrait/lifestyle): Humeur — Questions d’actualité
 Skipped foreign news (Le Mauricien): Humeur — Questions d’actualité
 LLM usage this run: 7 requests, 16469 tokens
+### check 2/5 at 15:28
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (IPCC объявила о запуске публичного обращения к свидетелям и поиске видеоматериалов с камер наблюдения, чтобы прояснить инцидент.)
+LLM request failed (GigaChat-2-Max): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7066bfc870
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Camp-Levieux | Дело Élodie Thomas: комиссия по жалобам на полицию (IPCC) ищет доказательства, чтобы разрешить противоречия в показаниях
+  dup check: new (Полицейский, обвиняемый в применении силы, дал показания комиссии по расследованию полицейских нарушений; упомянуто, что премьер-министр на прошлой не)
+  written by qwen/qwen3.8-27b
+  not news (portrait/lifestyle): Faits et effets — Lendemains désenchantés
+Skipped foreign news (Le Mauricien): Faits et effets — Lendemains désenchantés
+  dup check: new (Sydney Pierre, бывший депутат PTr, перешёл в оппозицию (FMP), дал ряд публичных заявлений о своей позиции, критике правительства и изменении возраста )
+LLM per-minute limit, waiting 30s
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
+  written by openai/gpt-oss-120b
+Posted (Le Mauricien): Sydney Pierre, бывший депутат PTr, перешёл в FMP: «Я чувствую себя более комфортно в оппозиции, чем в правительстве»
+  dup check: new (Школы (lékol) возобновили занятия с прошлого месяца после зимних каникул, учащиеся готовятся к экзаменам.)
+  written by openai/gpt-oss-120b
+Posted (Le Mauricien): Пойман на лету — школа или бардак?
+LLM usage this run: 9 requests, 19921 tokens
