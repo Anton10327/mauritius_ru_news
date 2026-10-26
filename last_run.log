@@ -11,3 +11,12 @@ Posted (Le Mauricien): Экономика | строительство — Stati
   dup check: new (Депутат Joanna Bérenger утверждает, что 62 маврикийских вкладчика могут потерять большую часть своих депозитов в Silver Bank и требует создания комисс)
 Posted (Inside News): Депутат утверждает, что 62 маврикийских вкладчика рискуют потерять большую часть своих вкладов, и требует создать комиссию по расследованию
 LLM usage this run: 10 requests, 15269 tokens
+### check 2/5 at 10:42
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье сообщается о результатах матчей сборной Маврикия на FIFA U-15 World Cup Festival 2026: ничья с Гайаной (1:1) и поражение от Вьетнама (1:4), а)
+  proofread: в ничью → вничью; Баку (Азербайджан) → Баку (Азербайджан); Гайана (1:1) → Гайана (1:1); Вьетнам (1:4) → Вьетнам (1:4); гол Danishen Ramasawmy → гол Danishen Ramasавмми; Baby Dodos n’ont pu préserver leur avantage. → не смогли сохранить преимущество.; Au retour des vest → Во втором тайме
+Posted (L'Express): Фестиваль FIFA U-15 World Cup: сборная Маврикия сыграла вничью, а затем уступила
+  not about Mauritius: Birmingham : un Boeing 737 de Jet2 quitte la piste sous les rafales de Boelo
+Skipped foreign news (Inside News): Birmingham : un Boeing 737 de Jet2 quitte la piste sous les rafales de Boelo
+LLM usage this run: 4 requests, 7978 tokens
