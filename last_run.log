@@ -54,3 +54,18 @@ Posted (Inside News): Государственные больницы: нова�
   proofread: Элодь Тома → Элоди Томас
 Posted (L'Express): Выстрел в Камп-Левьё: Élodie Thomas в центре расследования с противоречивыми версиями — её показания станут решающими
 LLM usage this run: 10 requests, 14331 tokens
+### check 5/5 at 11:50
+/home/runner/work/mauritius_ru_news/mauritius_ru_news/bot.py:446: DeprecationWarning: datetime.datetime.utcfromtimestamp() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.fromtimestamp(timestamp, datetime.UTC).
+  now = datetime.datetime.utcfromtimestamp(time.time() + 4 * 3600).date()
+  dup check: new (В статье описан новый дорожный инцидент в Индии: автобус с 30 пассажирами упал в ущелье, но был остановлен деревом; все пассажиры спасены, один-два че)
+  not about Mauritius: [Video] Inde : un arbre stoppe un bus tombé dans une gorge, 30 passagers évacués
+Skipped foreign news (Inside News): [Video] Inde : un arbre stoppe un bus tombé dans une gorge, 30 passagers évacués
+  dup check: new (Le gouvernement a annoncé la création d’un comité interministériel pour suivre les recommandations de la Truth and Justice Commission, présidé par la )
+  proofread: межминистерский комитет → межминистерский комитет
+Posted (Inside News): Комиссия Truth and Justice: правительство возобновляет контроль за выполнением рекомендаций, без публичного графика
+  dup check: new (В статье упоминается, что из-за новых ограничений на орошение в условиях водного кризиса фермеры вынуждены сокращать посевы овощей и опасаются дефицит)
+Posted (Top FM): Риск дефицита овощей: фермеры бьют тревогу, министерство рассчитывает на импорт
+  dup check: new (Вопрос о бесплатности номера 170 Central Water Authority будет поднят депутатом Véronique Leu-Govind; ранее в опубликованных статьях не упоминалось, ч)
+  proofread: edit rejected (changed numbers, names or length)
+Failed to post https://topfm.mu/actualites/eau-pesticides-et-recrutements-publics-au-coeur-des-questions-parlementaires-ce-mardi: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+LLM usage this run: 11 requests, 16373 tokens
