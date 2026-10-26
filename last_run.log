@@ -1,43 +1,11 @@
-### check 1/5 at 19:32
-  dup check: new (Shafick Osman a officiellement soumis le 23 octobre 2026 un mémorandum de 12 piliers à la Commission de révision constitutionnelle de Maurice, intitul)
-  written by GigaChat-2-Max
+### check 1/5 at 20:29
+  dup check: new (Скандал с «призрачными» учителями, получающими зарплату от государства без учеников; предупреждение Комиссии Индийского океана о повышенном риске жары)
+  written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  proofread: Шафик Осман → Shafick Osman
-Posted (Defimedia): Shafick Osman представил меморандум из 12 пунктов для геополитической деколонизации государства
-  dup check: new (Distribution de 2 862 coupons du Water Tank and Pump Scheme par la Development Bank of Mauritius, 35 817 demandes enregistrées, 19 563 enquêtes réalis)
-  written by GigaChat-2-Max
+Posted (Defimedia): «Привилегия класса»: скандал с «призрачными» учителями, климатическая тревога и политическое давление
+  dup: nothing new ()
+Skipped duplicate (L'Express): Finance : Maurice ambitionne de devenir un pôle régional du «Waqf» == Вакф: Shakeel Mohamed хочет сделать Маврикий региональным центром исламских финансов
+  written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  proofread: 
-  foreign words left: Bank
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (Defimedia): Программа резервуаров для воды: выдано уже 2862 купона, проверки продолжаются
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Inculpé sous la POTA : Akshaye Boodhun, créateur du groupe «Burning Paradise», libéré sous == Дело «Горящий рай»: Akshaye Boodhun освобожден под залог
-  dup: nothing new ()
-Skipped duplicate (L'Express): Réservoirs d’eau et pompes : 35 817 demandes, 2 862 coupons distribués == Программа резервуаров для воды: выдано уже 2862 купона, проверки продолжаются
-LLM usage this run: 9 requests, 10671 tokens
-### check 2/5 at 19:36
-  dup: nothing new ()
-Skipped duplicate (L'Express): 80 ans de Vespa à Maurice : Une icône, de multiples histoires d’amour == Наследие двухколёсного транспорта: Vespa отмечает 80-летие на Маврикии
-  dup: nothing new ()
-Skipped duplicate (Top FM): Disparition de la Bangladaise Munawara Begum : pas de renvoi avant sa déposition, réclame  == Адвокат требует гарантии показаний для пропавшей гражданки Бангладеш
-  same headline as #84: Procès de Kalpana Koonjoo-Shah : la cour rejette l’objection de la défense à la 
-Skipped duplicate (Top FM): Procès de Kalpana Koonjoo-Shah : la défense conteste la production des images CCTV, la cou == Суд отклонил возражение защиты по поводу приобщения записей камер видеонаблюдения в деле K
-LLM usage this run: 2 requests, 2592 tokens
-### check 3/5 at 19:40
-### check 4/5 at 19:44
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Сотрудники Concentrix требуют соблюдения первоначальных условий увольнения
-  dup check: new (Romeo Caliste affirme avoir reçu l’autorisation de l’International Boxing Association (IBA) pour accompagner les boxeurs mauriciens et donner les cons)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Рима Калисте → Romeo Caliste; Рима Калисте → Romeo Caliste
-Posted (Defimedia): Тренер боксеров Romeo Caliste получил разрешение IBA выступать в углу ринга
-LLM usage this run: 5 requests, 7909 tokens
-### check 5/5 at 19:48
-  dup check: new (Peninsula Restaurant открыто в январе 2026 года и 23 октября провело частный вечер в Bagatelle, представив новую карту блюд северной Индии, расширяя м)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Nouveauté culinaire : Peninsula Restaurant dévoile une nouvelle carte aux saveurs de l’Inde
-Skipped foreign news (L'Express): Nouveauté culinaire : Peninsula Restaurant dévoile une nouvelle carte aux saveurs de l’Inde
-LLM usage this run: 2 requests, 3838 tokens
+Posted (Le Mauricien): GOLF: Stuart Hancock и Sabrina Ramdin прошли квалификацию на Pro-Am турнира AfrAsia Bank Mauritius Open
+LLM usage this run: 6 requests, 10872 tokens
