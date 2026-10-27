@@ -1,20 +1,6 @@
-### check 1/5 at 08:40
-  dup check: new (Объявлен национальный конкурс STEM & Sustainable AI Artefacts Competition 2026, University Edition для студентов Маврикия с дедлайном регистрации до 6)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Искусственный интеллект: конкурс для превращения идей студентов в решения повседневных задач, регистрация до 6 ноября
-  dup check: new (В новой статье сообщается о новом инциденте: 25 октября в Cottage врач подал жалобу на агрессию после дорожной ссоры, утверждая, что был избит и обрыз)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Дорожная агрессия в Cottage: 43-летний врач подал жалобу об избиении после спора на дороге
-Posted (Top FM): Шумовое загрязнение: выписано 109 штрафов, из них 33 — за мотоциклы
-LLM usage this run: 8 requests, 12377 tokens
-### check 2/5 at 08:44
-### check 3/5 at 08:48
-### check 4/5 at 08:52
-  dup check: new (Открытие нового моста Beau Champs 24 октября, стоимость проекта Rs 186,9 млн, технические детали (бетонный мост длиной 23 м, реконструкция участка дор)
-  proofread: Beau Champs → Бо-Шам; Bel Ombre → Бел-Омбр; Rivière-Noire → Ривьер-Нуар; Savanne → Саванн; Govindranath Gunness → Говинданатх Ганнесс
-Posted (Le Mauricien): Beau Champs: новый мост за 186,9 млн рупий для повышения безопасности дорожного движения
-  dup check: new (В статье говорится о том, что лидер оппозиции Chetan Baboolall направит Private Notice Question премьер-министру 27 октября с вопросами по делу Kistne)
-  proofread: Chetna Baboolall → Четан Бабулалль; Soopramanien Kistnen → Супраманиен Кистнен
-Posted (L'Express): Дело Kistnen: премьер-министр допрошен по поводу расследования
-LLM usage this run: 6 requests, 9162 tokens
-### check 5/5 at 08:56
+### check 1/5 at 09:19
+  dup check: new (Jérôme Roger Agathe et Dhiyven Lofur ont comparu aujourd’hui devant le tribunal de district de Port-Louis Nord pour leurs demandes de remise en libert)
+  foreign words left: Nord
+  leftovers fixed by GigaChat-3-Pro; still left: Nord
+Posted (L'Express): Напряженность в Sainte-Croix: судьба двух подозреваемых решится сегодня
+LLM usage this run: 4 requests, 5574 tokens
