@@ -1,29 +1,14 @@
-### check 1/5 at 11:28
-  dup check: new (Joe Lesjongard выступил с критикой правительства на пресс-конференции MSM, обвинив в отсутствии подготовки к кризису водоснабжения; Leela Devi Dookun-)
-  proofread: 
-Posted (L'Express): Joe Lesjongard: «Страна могла сгореть из-за воды»
-  dup: nothing new ()
-Skipped duplicate (Inside News): Banque de Maurice : Rs 1 707 milliards d’avoirs extérieurs nets, un chiffre impressionnant == Банк Маврикия: Внешние активы страны достигли положительного баланса в 1,707 трлн рупий
-  dup check: new (В статье приведены новые точные цифры по уровню провалов в рамках Extended Programme: 96% в 2022 году, 91% в 2023 и 92% в 2024. Эти данные не были опу)
-  foreign words left: Extended, Programme
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Top FM): Образование: PMSD отвечает на критику MSM и призывает правительство не повторять ошибок прежнего режима
-LLM usage this run: 8 requests, 11909 tokens
-### check 2/5 at 11:32
-  dup check: new (Joe Lesjongard утверждает, что на данный момент арестован только один наркоторговец в связи с расследованием беспорядков; он выражает обеспокоенность )
-  proofread: Joe Lesjongard → Джо Лежонгар (имя собственное); Jimmy Jean Louis → Джимми Жан Луи (имя собственное)
-Posted (Top FM): Tempo La So: Joe Lesjongard задаётся вопросом о числе арестованных наркоторговцев после беспорядков
-LLM usage this run: 3 requests, 4815 tokens
-### check 3/5 at 11:36
-  dup check: new (Dev Jokhoo, бывший начальник тюрем и заместитель комиссара полиции Маврикия, призывает к внедрению мер по снижению переполненности тюрем. Он предлагае)
+### check 1/5 at 12:15
+  dup check: new (Le ministère de l’Égalité des genres et du Bien-être de la famille a publié un communiqué le 26 octobre, invitant à soumettre des observations sur les)
+  proofread: Code Civil Mauricien → Code Civil Mauricien (Amendment) Bill
+Posted (Defimedia): Усыновление детей: министерство запускает общественные консультации по двум законопроектам
+  dup check: new (В новой статье сообщается о новом инциденте: взрыв бочки с гербицидом в Camp-Marcelin, Flacq, в результате которого пара 38 и 35 лет получила тяжёлые )
+  proofread: Flacq → Флак
+Posted (Defimedia): Camp-Marcelin, Flacq: пара в реанимации после взрыва бочки с гербицидом
+  dup check: new (Élodie Thomas теперь может сидеть и ходить без ходунков, согласно заявлению её мужа 27 октября; ранее сообщалось только о пребывании в отделении интен)
+  proofread: «Элоди теперь может ходить без ходунков» → «Элоди теперь может ходить без ходунков»; Camp-Levieux → Camp-Levieux (оставлено как есть по оригиналу); RadioPlus → RadioPlus (оставлено как есть по оригиналу)
+Posted (Defimedia): Раненая пулей: «Élodie теперь может ходить без ходунков», — сообщил её муж
+  dup check: new (В статье указано, что Akshaye Boodhun, обвиняемый по закону о борьбе с терроризмом (POTA), был освобождён под залог после десяти дней содержания под с)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Перенаселение тюрем — Dev Jokhoo: «Нам не нужно отправлять всех в тюрьму»
-LLM usage this run: 3 requests, 4953 tokens
-### check 4/5 at 11:40
-  dup: nothing new (Joe Lesjongard уточнил, что Dead Stock Level (критический уровень) для Mare-aux-Vacoas составляет 18–20%, и при текущем уровне в 33,7% остаётся около )
-Skipped duplicate (Le Mauricien): MSM — JOE LESJONGARD : « Desam pa pou kapav tir delo dan Mare-aux-Vacoas… » == Кризис воды: водохранилище Mare-aux-Vacoas заполнено всего на 33,7%, Joe Lesjongard обвиня
-LLM usage this run: 1 requests, 1010 tokens
-### check 5/5 at 11:44
-  dup: nothing new ()
-Skipped duplicate (L'Express): Parlement : Le point sur l’enquête dans l’affaire Kistnen == Дело Kistnen: премьер-министр допрошен по поводу расследования
-LLM usage this run: 1 requests, 819 tokens
+Posted (Defimedia): Промежуточный суд: по октябрьским инцидентам вынесен второй приговор и подано новое обвинение
+LLM usage this run: 12 requests, 18422 tokens
