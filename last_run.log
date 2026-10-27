@@ -8,3 +8,15 @@ LLM usage this run: 3 requests, 4828 tokens
 Posted (Defimedia): Третий суд за нарушение комендантского часа: семь человек признали вину
 LLM usage this run: 3 requests, 6056 tokens
 ### check 3/5 at 07:35
+### check 4/5 at 07:39
+  dup check: new (26 октября 2026 года компания Riveo через Loisirs des Îles Ltd объявила о начале работ по созданию Eco-Park на острове Île aux Cerfs, включая первый э)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: filaos
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (L'Express): Île aux Cerfs: стартовала экологическая реставрация
+  dup check: new (В статье указано, что депутат Dr Farhad Aumeer задаст вопросы премьер-министру Navin Ramgoolam об оценке разведывательных возможностей и уровня операт)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Prime
+  leftovers fixed by GigaChat-3-Pro; still left: Prime
+Posted (Top FM): PMQT: беспорядки, ущерб полиции, огнестрельное оружие — вопросы, которые ждут премьер-министра
+LLM usage this run: 8 requests, 10155 tokens
