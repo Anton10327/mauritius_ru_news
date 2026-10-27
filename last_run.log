@@ -17,3 +17,28 @@ LLM usage this run: 5 requests, 9835 tokens
   proofread: Ширин Омерудди-Цифра → Shirin Aumeeruddy-Cziffra
 Posted (L'Express): Спикер Национального собрания напомнила министрам об обязательствах дать 18 парламентских ответов
 LLM usage this run: 3 requests, 4713 tokens
+### check 3/5 at 15:16
+  dup check: new (Полицейский службы Emergency Response Service (ERS) получил травму руки при столкновении с автомобилем во время дорожного контроля в Plaine-Lauzun 26 )
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Плейн-Лозун → Plaine-Lauzun; ERS → Emergency Response Service (ERS)
+Posted (Defimedia): Дорожная проверка в Plaine-Lauzun: полицейский ранен, найдено несколько видов оружия
+  dup check: new (Le rapport d’audit interne de la Cargo Handling Corporation Ltd (CHCL) a été transmis à la Financial Crimes Commission (FCC) pour enquête, et le Premi)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+  foreign words left: Cargo, Handling, Corporation, Ltd
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Defimedia): Отчет внутреннего аудита CHCL передан Комиссии по финансовым преступлениям
+  dup check: new (Le gouvernement envisage le démantèlement d'Airport Holdings Ltd et une réorganisation de sa structure, annoncé par le Premier ministre Navin Ramgoola)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  foreign words left: Mauritius
+  leftovers fixed by qwen/qwen3.8-27b; still left: Mauritius
+Posted (Defimedia): Правительство рассматривает возможность ликвидации Airport Holdings
+  dup check: new (Premier ministre Navin Ramgoolam a annoncé, lors du PMQT du mardi 27 octobre, qu'il envisageait de relancer le Youth Employment Programme lancé en 201)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Навин Рамголлан → Navin Ramgoolam
+Posted (Defimedia): Правительство рассматривает возможность возобновления Программы занятости молодёжи
+LLM usage this run: 14 requests, 20272 tokens
