@@ -1,13 +1,15 @@
-### check 1/5 at 21:29
+### check 1/5 at 22:13
+Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='www.inside.news', port=443): Read timed out. (read timeout=30)
   dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « Zot servi sikolozi pou gayn zenfan » == Шестилетняя девочка стала жертвой предполагаемого насилия: François Veckranges по-прежнему
-LLM usage this run: 1 requests, 1117 tokens
-### check 2/5 at 21:33
-  same headline as #118: PNQ – Affaire Kistnen : un 2e téléphone considéré comme introuvable depuis six a
-Skipped duplicate (Inside News): Affaire Kistnen : un deuxième téléphone retrouvé après six ans == PNQ — дело Kistnen: второй мобильный телефон, считавшийся утерянным шесть лет, обнаружен у
-### check 3/5 at 21:37
-### check 4/5 at 21:41
-### check 5/5 at 21:45
+Skipped duplicate (Defimedia): [Explainer] Chaleur, pluies et cyclones : ce que prévoit la météo pour l’été 2026-2027 == Прогноз погоды: летние дожди к середине ноября, до 37 °C и от пяти до семи циклонических о
+  dup check: new (Palestinians protested Israeli demolitions in the West Bank; Israeli soldiers used a stun grenade in Hebron; UN reports over 3,000 residents displaced)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Cisjordanie : des Palestiniens manifestent contre les démolitions israéliennes alors qu’Israël vote
+Skipped foreign news (Defimedia): Cisjordanie : des Palestiniens manifestent contre les démolitions israéliennes alors qu’Israël vote
   dup: nothing new ()
-Skipped duplicate (Wazaa): Plus de 150 000 patients inscrits alors que l’Île Maurice fait progresser le système de sa == Цифровая медицинская карта — E-Health: более 150 000 пациентов уже зарегистрированы
-LLM usage this run: 1 requests, 1374 tokens
+Skipped duplicate (L'Express): Exportations : Près de Rs 110 milliards attendues en 2026 == Экономика — Экспорт: ожидаемый рост на 2%, до 110 млрд рупий в 2026 году
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: Тайский яхт → Тайская яхта; Семь членов → Семь членов
+Posted (L'Express): Тайская яхта Dreamer: сколько килограммов наркотиков могли выбросить в воду?
+LLM usage this run: 6 requests, 11101 tokens
