@@ -1,24 +1,17 @@
-### check 1/5 at 19:08
-  dup check: new (Союзы требуют пропорционального применения санкций по Закону о дорожном движении, предлагают смягчить наказания за мелкие правонарушения водителей‑про)
+### check 1/5 at 19:52
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Explosion à Camp-Marcelin : Steeven Cathapermal décède, son épouse grièvement brûlée == Мужчина погиб после взрыва контейнера с гербицидом в Flacq
+  dup check: new (Prime Minister Navin Ramgoolam stated that the Criminal Justice Bill is not an emergency measure and does not grant new powers of arrest, search or de)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (L'Express): Закон о дорожном движении: профсоюзы требуют соразмерных санкций
-LLM per-minute limit, waiting 30s
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
-  written by openai/gpt-oss-120b
-  not about Mauritius: AUDIT INTERNE : Les auditeurs face au défi de voir au-delà des chiffres
-Skipped foreign news (Le Mauricien): AUDIT INTERNE : Les auditeurs face au défi de voir au-delà des chiffres
-LLM usage this run: 4 requests, 7913 tokens
-### check 2/5 at 19:12
-### check 3/5 at 19:16
-  written by qwen/qwen3.8-27b
-  not about Mauritius: [video] Gabon : une plateforme pétrolière sombre au large de Mayumba, 110 personnes secourues
-Skipped foreign news (Inside News): [video] Gabon : une plateforme pétrolière sombre au large de Mayumba, 110 personnes secourues
-LLM usage this run: 1 requests, 2845 tokens
-### check 4/5 at 19:20
-### check 5/5 at 19:24
-  dup check: new (Новый случай предполагаемого сексуального насилия над 6‑летней девочкой; подозреваемый — 25‑летний Франсуа Векранжес из Транкебара, который уже неделю)
+Posted (Defimedia): Закон об уголовном правосудии: «Иммунитет — не подарок», заявил Navin Ramgoolam
+  dup check: new (Заявление оппозиционного лидера Четана Бабула (Chetan Baboolall) в парламенте, где он предостерегает от широких полномочий иммунитета для информаторов)
+LLM per-minute limit, waiting 1s
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Top FM): Шестилетняя девочка стала жертвой предполагаемого насилия: François Veckranges по-прежнему не найден
-LLM usage this run: 3 requests, 5218 tokens
+Posted (Defimedia): Закон об уголовном правосудии: Chetan Baboolall предупреждает о полномочиях по предоставлению иммунитета информаторам
+  dup check: new (Inondations soudaines à Phuket (Thaïlande) du 25‑26 octobre, routes transformées en torrents, coulées de boue à Patong, dommages aux maisons, commerce)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: [video] Thaïlande : Phuket sous les eaux, Patong frappée par des crues soudaines
+Skipped foreign news (Inside News): [video] Thaïlande : Phuket sous les eaux, Patong frappée par des crues soudaines
+LLM usage this run: 9 requests, 16752 tokens
