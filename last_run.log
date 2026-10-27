@@ -1,30 +1,15 @@
-### check 1/5 at 13:01
-  dup check: new (В статье указано, что система E-Health развернута в 30 медицинских учреждениях на востоке и в центре страны, зарегистрировано более 150 000 пациентов )
-  proofread: в около тридцати → примерно в тридцати; Keshav Jokhun → Кишав Джокхун
-Posted (Defimedia): Цифровая медицинская карта — E-Health: более 150 000 пациентов уже зарегистрированы
-  dup check: new (CEB готовится к летнему пику потребления электроэнергии с большей маржой производства, чем в 2025 году; три новых солнечных проекта будут подключены к)
-Posted (Defimedia): Электроэнергетика: CEB готовится к летнему пику, между новыми мощностями и управлением спросом
-  dup check: new (В статье впервые подробно раскрываются условия предоставления иммунитета и сокращения наказания по Criminal Justice Bill 2026: защита от использования)
-Posted (Defimedia): Criminal Justice Bill 2026 — иммунитет и сокращение срока: предусмотренные условия
-  dup check: new (В статье впервые упоминается, что тюремные надзиратели также требуют признания и выплаты аналогичной премии в размере 10 000 рупий вслед за решением п)
-  proofread: Hanson Mungra → Хансон Мунгра
-Posted (L'Express): Премия в 10 000 рупий: тюремные надзиратели тоже требуют признания
-LLM usage this run: 12 requests, 18066 tokens
-### check 2/5 at 13:05
-### check 3/5 at 13:09
-### check 4/5 at 13:13
-  dup check: new (В статье сообщается о проведении 23 октября 2026 года сессии Mauritius Institute of Directors и Eagle Insurance по теме кибербезопасности, где обсужда)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Кибербезопасность: искусственный интеллект ставит маврикийских руководителей перед новыми вызовами
+### check 1/5 at 13:44
+Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='www.inside.news', port=443): Read timed out. (read timeout=30)
+  dup check: new (Найден второй телефон Soopramanien Kistnen, который считался утерянным шесть лет; данные с первого телефона были получены экспертами в Лондоне; собран)
+  proofread: Navin Ramgoolam → Навин Рамгулам; Soopramanien Kistnen → Супраманиен Кистнен; второй мобильный телефон, считавшийся утерянным шесть лет, обнаружен у полиции → второй мобильный телефон, считавшийся утерянным шесть лет, обнаружен у полиции (исправлено согласование); «Kistnen Papers» → «Досье Кистнена»
+Posted (Le Mauricien): PNQ — дело Kistnen: второй мобильный телефон, считавшийся утерянным шесть лет, обнаружен у полиции
+  dup check: new (76% молодых маврикийцев 18–25 лет хотят эмигрировать; уровень безработицы в этой группе — 20%, что вчетверо выше среднего по стране. Премьер-министр Н)
+  proofread: Navin Ramgoolam → Навин Рамгулам; Adrien Duval → Адриен Дюваль; Youth Employment Programme → программа занятости молодежи; Moody's → Moody’s; Skills Development Scheme for Professionals → программа развития навыков для профессионалов
+  foreign words left: Development, for
+  leftovers fixed by GigaChat-3-Pro; still left: Development, for
+Posted (Le Mauricien): Эмиграция молодежи: 76% молодых людей 18–25 лет рассматривают возможность покинуть Маврикий, Ramgoolam говорит о бюджетных ограничениях
+  same headline as #117: Le débat sur l’Extended Programme oppose désormais directement Leela Devi Dookun
+Skipped duplicate (Le Mauricien): Xavier-Luc Duval remet  Dookun-Luchoomun à sa place == Дебаты по Extended Programme: Leela Devi Dookun-Luchoomun и Xavier-Luc Duval обменялись об
   dup: nothing new ()
-Skipped duplicate (Defimedia): Prévisions de la MEXA : les exportations pourraient atteindre Rs 110 milliards en 2026 == Экономика — Экспорт: ожидаемый рост на 2%, до 110 млрд рупий в 2026 году
-  dup check: new (В статье сообщается о приговоре двенадцати обвиняемым за нарушение комендантского часа, введённого 13–14 октября: сроки от трёх до двенадцати месяцев )
-  proofread: время в СИЗО → время, проведённое в СИЗО
-Posted (Defimedia): Нарушение комендантского часа: от трёх до двенадцати месяцев тюрьмы для двенадцати обвиняемых
-  dup check: new (Премьер-министр Navin Ramgoolam объявил в Национальном собрании о начале рассмотрения механизмов позитивной дискриминации для трудоустройства в неблаг)
-Posted (Defimedia): Положительная дискриминация: запущено обсуждение
-LLM usage this run: 10 requests, 15238 tokens
-### check 5/5 at 13:17
-  dup check: new (Введена новая пошлина в размере 1000 рупий за каждое разрешение на таможенное оформление для импортеров продуктов питания, вступившая в силу с 12 октя)
-Posted (Defimedia): Импорт продуктов питания: новый сбор в 1000 рупий, который может увеличить счета
-LLM usage this run: 3 requests, 4706 tokens
+Skipped duplicate (Wazaa): Le président des médias dominants accuse le gouvernement d’inaction face à une crise de l’ == Кризис воды: водохранилище Mare-aux-Vacoas заполнено всего на 33,7%, Joe Lesjongard обвиня
+LLM usage this run: 8 requests, 12607 tokens
