@@ -1,48 +1,12 @@
-### check 1/5 at 12:15
-  dup check: new (Le ministère de l’Égalité des genres et du Bien-être de la famille a publié un communiqué le 26 octobre, invitant à soumettre des observations sur les)
-  proofread: Code Civil Mauricien → Code Civil Mauricien (Amendment) Bill
-Posted (Defimedia): Усыновление детей: министерство запускает общественные консультации по двум законопроектам
-  dup check: new (В новой статье сообщается о новом инциденте: взрыв бочки с гербицидом в Camp-Marcelin, Flacq, в результате которого пара 38 и 35 лет получила тяжёлые )
-  proofread: Flacq → Флак
-Posted (Defimedia): Camp-Marcelin, Flacq: пара в реанимации после взрыва бочки с гербицидом
-  dup check: new (Élodie Thomas теперь может сидеть и ходить без ходунков, согласно заявлению её мужа 27 октября; ранее сообщалось только о пребывании в отделении интен)
-  proofread: «Элоди теперь может ходить без ходунков» → «Элоди теперь может ходить без ходунков»; Camp-Levieux → Camp-Levieux (оставлено как есть по оригиналу); RadioPlus → RadioPlus (оставлено как есть по оригиналу)
-Posted (Defimedia): Раненая пулей: «Élodie теперь может ходить без ходунков», — сообщил её муж
-  dup check: new (В статье указано, что Akshaye Boodhun, обвиняемый по закону о борьбе с терроризмом (POTA), был освобождён под залог после десяти дней содержания под с)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Промежуточный суд: по октябрьским инцидентам вынесен второй приговор и подано новое обвинение
-LLM usage this run: 12 requests, 18422 tokens
-### check 2/5 at 12:19
-  dup check: new (Devianee Ramchurn представила в суде 27 октября ходатайство об отказе от временного обвинения в отмывании денег; это первое судебное действие по её де)
-  proofread: Vacoas-Phoenix → Ваоас-Феникс; Pamplemousses → Памплемусс
-Posted (Defimedia): Дело о чемоданах с 113,8 млн рупий: Devianee Ramchurn требует снять предварительное обвинение
-  proofread: Rajesh Bhagwan → министр по вопросам окружающей среды Rajesh Bhagwan
-Posted (L'Express): Экология: министр Rajesh Bhagwan похвалил Caractère Ltée
-  dup check: new (Прогноз роста экспорта на 2% в 2026 году (110 млрд рупий) и упоминание, что сектор текстиля/одежды остаётся под давлением. В ранее опубликованных мате)
-  proofread: 
-  foreign words left: Export
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Le Mauricien): Экономика — Экспорт: ожидаемый рост на 2%, до 110 млрд рупий в 2026 году
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): MISSING — Résidence des Uteem : Rebondissements dans l’affaire Monowara Begum == Адвокат требует гарантии показаний для пропавшей гражданки Бангладеш
-LLM usage this run: 10 requests, 13937 tokens
-### check 3/5 at 12:23
-Posted (L'Express): Упаковки: бумага пытается потеснить пластик
-  same headline as #41: ÉCONOMIE | CONSTRUCTION — STATISTICS MAURITIUS — Construire sa maison coûte touj
-Skipped duplicate (Inside News): Construire sa maison coûte 5,8 % plus cher à Maurice == Экономика | строительство — Statistics Mauritius — Построить дом на Маврикии становится вс
-  dup check: new (В статье сообщается о новом аресте — задержан бизнесмен Shemir Sokataly, а также приводится мнение бывшего министра иностранных дел Anil Gayan о необх)
-  proofread: Shemir Sokataly → Ширм Сокатали; Anil Gayan → Анил Гайян
-Posted (Top FM): Арест магнатов с Мадагаскара: Anil Gayan считает, что Маврикий должен исключить любой риск политической вендетты перед действиями
-  dup check: new (В статье указано общее число арестов (217), включая 25 несовершеннолетних, а также уточнено количество задержанных и освобождённых на момент публикаци)
-  proofread: Akshaye Boodhun → Акшей Будхун; Moka → Мока; Flacq → Флак
-  foreign words left: Burning
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Top FM): 217 арестов после недавних беспорядков на Маврикии
-LLM usage this run: 9 requests, 13230 tokens
-### check 4/5 at 12:27
-  proofread: 
-Posted (Top FM): Бедность и неустойчивость: какую помощь получают уязвимые семьи?
-LLM usage this run: 2 requests, 3662 tokens
-### check 5/5 at 12:31
-  same headline as #83: Fièvre aphteuse : Maurice reprend les importations de bétail namibien après un m
-Skipped duplicate (Inside News): Fièvre aphteuse : Maurice reprend les importations de bétail namibien == Маврикий возобновляет импорт скота из Namibie через месяц после приостановки
+### check 1/5 at 13:01
+  dup check: new (В статье указано, что система E-Health развернута в 30 медицинских учреждениях на востоке и в центре страны, зарегистрировано более 150 000 пациентов )
+  proofread: в около тридцати → примерно в тридцати; Keshav Jokhun → Кишав Джокхун
+Posted (Defimedia): Цифровая медицинская карта — E-Health: более 150 000 пациентов уже зарегистрированы
+  dup check: new (CEB готовится к летнему пику потребления электроэнергии с большей маржой производства, чем в 2025 году; три новых солнечных проекта будут подключены к)
+Posted (Defimedia): Электроэнергетика: CEB готовится к летнему пику, между новыми мощностями и управлением спросом
+  dup check: new (В статье впервые подробно раскрываются условия предоставления иммунитета и сокращения наказания по Criminal Justice Bill 2026: защита от использования)
+Posted (Defimedia): Criminal Justice Bill 2026 — иммунитет и сокращение срока: предусмотренные условия
+  dup check: new (В статье впервые упоминается, что тюремные надзиратели также требуют признания и выплаты аналогичной премии в размере 10 000 рупий вслед за решением п)
+  proofread: Hanson Mungra → Хансон Мунгра
+Posted (L'Express): Премия в 10 000 рупий: тюремные надзиратели тоже требуют признания
+LLM usage this run: 12 requests, 18066 tokens
