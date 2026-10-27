@@ -1,12 +1,11 @@
-### check 1/5 at 10:35
+### check 1/5 at 11:28
+  dup check: new (Joe Lesjongard выступил с критикой правительства на пресс-конференции MSM, обвинив в отсутствии подготовки к кризису водоснабжения; Leela Devi Dookun-)
+  proofread: 
+Posted (L'Express): Joe Lesjongard: «Страна могла сгореть из-за воды»
   dup: nothing new ()
-Skipped duplicate (Inside News): Distribution d’eau : douze localités de l’Est touchées par des perturbations ce mardi == Подача воды: несколько восточных районов останутся без воды во вторник, начиная с 9 часов 
-  same headline as #97: Réforme constitutionnelle à Maurice : Shafick Osman soumet un mémorandum de 12 p
-Skipped duplicate (Top FM): Réforme constitutionnelle : Shafick Osman propose 12 piliers pour une « île Maurice décolo == Shafick Osman представил меморандум из 12 пунктов для геополитической деколонизации госуда
-LLM usage this run: 1 requests, 913 tokens
-### check 2/5 at 10:39
-### check 3/5 at 10:43
-### check 4/5 at 10:47
-  same headline as #32: Risque de présence de fragments de verre : rappel de plusieurs lots d’Arla Prote
-Skipped duplicate (Inside News): Risque de fragments de verre : rappel de plusieurs desserts Arla à Maurice == Риск наличия осколков стекла: отзыв нескольких партий Arla Protein Pudding на Маврикии
-### check 5/5 at 10:51
+Skipped duplicate (Inside News): Banque de Maurice : Rs 1 707 milliards d’avoirs extérieurs nets, un chiffre impressionnant == Банк Маврикия: Внешние активы страны достигли положительного баланса в 1,707 трлн рупий
+  dup check: new (В статье приведены новые точные цифры по уровню провалов в рамках Extended Programme: 96% в 2022 году, 91% в 2023 и 92% в 2024. Эти данные не были опу)
+  foreign words left: Extended, Programme
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Top FM): Образование: PMSD отвечает на критику MSM и призывает правительство не повторять ошибок прежнего режима
+LLM usage this run: 8 requests, 11909 tokens
