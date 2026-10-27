@@ -1,9 +1,13 @@
-### check 1/5 at 06:13
-GigaChat balance: GigaChat 249,660,117, GigaChat-Ultra 48,376,527, GigaChat-Pro 38,547,156, GigaChat-Max 24,643,776; 358 days to go
-  dup: nothing new (В статье перечислены новые заголовки печатного номера, включая критику Джо Lesjongard в адрес министра энергетики и упоминание ожидаемых экспортных до)
-Skipped duplicate (L'Express): Les grands titres de l'express de ce mardi 27 octobre 2026 == Кризис воды: водохранилище Mare-aux-Vacoas заполнено всего на 33,7%, Joe Lesjongard обвиня
-LLM usage this run: 1 requests, 1050 tokens
-### check 2/5 at 06:17
-### check 3/5 at 06:21
-### check 4/5 at 06:25
-### check 5/5 at 06:29
+### check 1/5 at 06:54
+  dup check: new (Эксперты, назначенные ООН, утверждают в опубликованном отчёте, что режим прекращения огня не остановил действия Израиля, которые они квалифицируют как)
+  not about Mauritius: Gaza : le cessez-le-feu n’a pas empêché Israël de commettre un génocide, selon des experts mandatés 
+Skipped foreign news (Defimedia): Gaza : le cessez-le-feu n’a pas empêché Israël de commettre un génocide, selon des experts mandatés 
+  dup check: new (В новой статье сообщается о подозрении в адрес адвоката, который якобы передал телефон своему клиенту — задержанному по делу о хранении 792 граммов ка)
+  proofread: «Private Interview» → «частного интервью»; «Drug Dealing» → «сбыта наркотиков»
+Posted (Defimedia): Изъятие каннабиса в Trou-d’Eau-Douce: адвоката подозревают в передаче телефона предполагаемому дилеру
+  not about Mauritius: Meilleur entraîneur : Luis de la Fuente succède à Luis Enrique
+Skipped foreign news (L'Express): Meilleur entraîneur : Luis de la Fuente succède à Luis Enrique
+  dup check: new (В новой статье сообщается о задержании малазийского повара с 17,88 кг каннабиса на сумму 25,5 млн рупий в аэропорту Plaisance 23 октября. Это новое со)
+  proofread: в аэропорту имени сэра Сивусагура Рамгулама → в аэропорту имени сэра Сивусагура Рамгулама; Sia Guan Kueh → Sia Guan Kueh; Plaisance → Пленсанс; Dubaï → Дубай; Malaisie → Малайзия; Thaïlande → Таиланд
+Posted (Defimedia): Plaisance: изъято каннабиса на 25,5 млн рупий у малайзийского повара
+LLM usage this run: 9 requests, 16377 tokens
