@@ -1,26 +1,18 @@
-### check 1/5 at 13:44
-Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='www.inside.news', port=443): Read timed out. (read timeout=30)
-  dup check: new (Найден второй телефон Soopramanien Kistnen, который считался утерянным шесть лет; данные с первого телефона были получены экспертами в Лондоне; собран)
-  proofread: Navin Ramgoolam → Навин Рамгулам; Soopramanien Kistnen → Супраманиен Кистнен; второй мобильный телефон, считавшийся утерянным шесть лет, обнаружен у полиции → второй мобильный телефон, считавшийся утерянным шесть лет, обнаружен у полиции (исправлено согласование); «Kistnen Papers» → «Досье Кистнена»
-Posted (Le Mauricien): PNQ — дело Kistnen: второй мобильный телефон, считавшийся утерянным шесть лет, обнаружен у полиции
-  dup check: new (76% молодых маврикийцев 18–25 лет хотят эмигрировать; уровень безработицы в этой группе — 20%, что вчетверо выше среднего по стране. Премьер-министр Н)
-  proofread: Navin Ramgoolam → Навин Рамгулам; Adrien Duval → Адриен Дюваль; Youth Employment Programme → программа занятости молодежи; Moody's → Moody’s; Skills Development Scheme for Professionals → программа развития навыков для профессионалов
-  foreign words left: Development, for
-  leftovers fixed by GigaChat-3-Pro; still left: Development, for
-Posted (Le Mauricien): Эмиграция молодежи: 76% молодых людей 18–25 лет рассматривают возможность покинуть Маврикий, Ramgoolam говорит о бюджетных ограничениях
-  same headline as #117: Le débat sur l’Extended Programme oppose désormais directement Leela Devi Dookun
-Skipped duplicate (Le Mauricien): Xavier-Luc Duval remet  Dookun-Luchoomun à sa place == Дебаты по Extended Programme: Leela Devi Dookun-Luchoomun и Xavier-Luc Duval обменялись об
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Le président des médias dominants accuse le gouvernement d’inaction face à une crise de l’ == Кризис воды: водохранилище Mare-aux-Vacoas заполнено всего на 33,7%, Joe Lesjongard обвиня
-LLM usage this run: 8 requests, 12607 tokens
-### check 2/5 at 13:48
-Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='www.inside.news', port=443): Read timed out. (read timeout=30)
-### check 3/5 at 13:52
+### check 1/5 at 14:24
+  dup check: new (Премьер-министр Navin Ramgoolam заявил, что команда иностранных следователей из Великобритании обнаружила ранее проигнорированную важную улику по делу)
   written by GigaChat-2-Max
-  not about Mauritius: [videos] Turquie : une tornade frappe Antalya, plusieurs ouvriers tués
-Skipped foreign news (Inside News): [videos] Turquie : une tornade frappe Antalya, plusieurs ouvriers tués
-LLM usage this run: 1 requests, 2629 tokens
-### check 4/5 at 13:56
-### check 5/5 at 14:00
-  same headline as #114: Beau Champs : un nouveau pont de Rs 186,9 millions pour améliorer la sécurité ro
-Skipped duplicate (Inside News): Beau Champs : un nouveau pont de Rs 186,9 millions ouvert à la circulation == Beau Champs: новый мост за 186,9 млн рупий для повышения безопасности дорожного движения
+  proofread: «Private Notice Question» → «частный запрос в парламенте»
+Posted (Defimedia): По делу об убийстве бывшего агента MSM обнаружено важное доказательство
+  dup check: new ()
+  written by GigaChat-2-Max
+  not about Mauritius: Crises du coût de la vie : les leçons du passé face aux choix économiques d’aujourd’hui
+Skipped foreign news (Defimedia): Crises du coût de la vie : les leçons du passé face aux choix économiques d’aujourd’hui
+  dup: nothing new ()
+Skipped duplicate (L'Express): Non-respect du couvre-feu : Douze hommes condamnés à des peines allant jusqu’à un an de pr == Нарушение комендантского часа: от трёх до двенадцати месяцев тюрьмы для двенадцати обвиняе
+  dup check: new (В статье упоминается дело Élodie Thomas, которая была тяжело ранена полицейским — это новый факт, не отражённый в ранее опубликованных материалах. Так)
+  written by GigaChat-2-Max
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Reform, Party
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Le Mauricien): Партия реформ критикует проблемы управления водой и электричеством
+LLM usage this run: 10 requests, 13104 tokens
