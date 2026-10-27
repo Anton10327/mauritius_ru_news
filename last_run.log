@@ -18,3 +18,19 @@ Posted (L'Express): Книга «Racines et perspectives 2»: Alain Jeannot ст
   proofread by qwen/qwen3.8-27b
 Posted (Le Mauricien): Закон об усыновлении детей: публичные консультации по новому правовому режиму
 LLM usage this run: 10 requests, 17130 tokens
+### check 2/5 at 17:26
+  dup check: new (Сообщается о новой инициативе краудфандинга между Маврикием и островом Родригес, финансируемой платформой Small Step Matters, включая три проекта и уч)
+  written by qwen/qwen3.8-27b
+  not news (portrait/lifestyle): Financement participatif : Collaboration fructueuse entre Maurice et Rodrigues
+Skipped foreign news (L'Express): Financement participatif : Collaboration fructueuse entre Maurice et Rodrigues
+  dup check: new (Annonce du lancement d'un nouveau Sport Hub à La Source, Belle‑Rose/Quatre‑Bornes, prévu pour janvier 2027, et gratuité d'accès au complexe sportif Da)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Belle-Rose/Quatre-Bornes: новый Sport Hub для поощрения занятий спортом среди молодежи
+  dup check: new (IRP (Independent Review Panel) rejected Health Focus Ltd's contestation regarding the selection of Healthcare Ltd for a glucose meter contract worth R)
+LLM per-minute limit, waiting 6s
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Used 516,
+  written by openai/gpt-oss-120b
+  foreign words left: Health, Focus, Ltd, Healthcare
+Posted (Le Mauricien): Общественный контроль — Глюкометры: IRP отклонил протест Health Focus Ltd
+LLM usage this run: 7 requests, 14563 tokens
