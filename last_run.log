@@ -7,3 +7,11 @@ LLM usage this run: 4 requests, 5574 tokens
 ### check 2/5 at 09:23
 ### check 3/5 at 09:27
 ### check 4/5 at 09:31
+### check 5/5 at 09:35
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Parlement : la PNQ de Chetan Baboolall axée sur le meurtre de Soopramanien Kistnen ce mard == Дело Kistnen: премьер-министр допрошен по поводу расследования
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Un médecin de 43 ans agressé après un différend entre automobilistes == Дорожная агрессия в Cottage: 43-летний врач подал жалобу об избиении после спора на дороге
+  dup: nothing new ()
+Skipped duplicate (L'Express): Troubles à Centre-de-Flacq et à Bel-Étang : 28 mois de prison pour l’instigateur, deux ans == События 13 октября: семерым подсудимым назначены сроки до 28 месяцев тюрьмы
+LLM usage this run: 3 requests, 3114 tokens
