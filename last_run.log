@@ -16,3 +16,18 @@ Posted (Le Mauricien): На Маврикии ищут экологичные а�
   proofread: Александра Майера → Alexandre Mayer
 Posted (Le Mauricien): Чемпионат Африки по велоспорту 2026 года: сборная Маврикия вернулась домой с двумя континентальными титулами
 LLM usage this run: 10 requests, 16791 tokens
+### check 2/5 at 15:48
+  dup check: new (Государство рассматривает возможность сделать бесплатной горячую линию 170 Центрального водного управления (CWA) после обращения депутата Вероник Леу-)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Бесплатность горячей линии водоканала CWA рассматривается правительством
+  dup check: new (Joanna Bérenger, députée du FMP, commente la décision de son parti de quitter le gouvernement et affirme que la paix durable nécessite la justice soci)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Joanna Bérenger : «Il ne peut pas y avoir de paix durable sans justice sociale»
+Skipped foreign news (Defimedia): Joanna Bérenger : «Il ne peut pas y avoir de paix durable sans justice sociale»
+  dup check: new (Premier ministre Navin Ramgoolam a déclaré qu'aucune nouvelle taxe de solidarité n'est prévue pour le moment pour les entreprises des secteurs bancair)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Навин Рамгулам → Navin Ramgoolam
+Posted (Defimedia): Премьер-министр Navin Ramgoolam заявил об отсутствии планов вводить новый солидарный налог для бизнеса
+LLM usage this run: 8 requests, 12333 tokens
