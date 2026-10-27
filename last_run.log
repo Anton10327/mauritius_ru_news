@@ -1,35 +1,11 @@
-### check 1/5 at 18:17
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Décès de Steeven Cathapermal : son frère David le décrit comme «une personne formidable» == Мужчина погиб после взрыва контейнера с гербицидом в Flacq
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Policier blessé lors d’une attaque à Plaine-Lauzun, un passager arrêté == Дорожная проверка в Plaine-Lauzun: полицейский ранен, найдено несколько видов оружия
-  dup check: new (В статье указаны новые экономические последствия кризиса воды: потери банковских процентов — Rs 210 000 в месяц для инвестора, приостановка обслуживан)
+### check 1/5 at 19:08
+  dup check: new (Союзы требуют пропорционального применения санкций по Закону о дорожном движении, предлагают смягчить наказания за мелкие правонарушения водителей‑про)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (L'Express): Кризис с водой: финансовые потери малого бизнеса и недовольство жителей
-  dup check: new (Arrest of Malagasy businessman Shemir Sokataly, director of Maeva Group, in Flic-en-Flac, Mauritius, linked to a suspected project to attack the high‑)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: Tsiafahy → Тсиафахи
-  foreign words left: Casernes, centrales
-Posted (Le Mauricien): Мадагаскар — проект побега: мадагаскарский бизнесмен Shemir Sokataly задержан в Flic-en-Flac
-LLM usage this run: 8 requests, 14165 tokens
-### check 2/5 at 18:21
-### check 3/5 at 18:25
-### check 4/5 at 18:29
-  dup check: new (Annonce du ministre de l'Agro-industrie Arvin Boolett d'un renforcement des contrôles et d'une campagne de sensibilisation sur l'usage des pesticides,)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Пестициды: Arvin Boolell объявил об усилении проверок и просвещения
-LLM usage this run: 3 requests, 5438 tokens
-### check 5/5 at 18:33
-  dup check: new (MMS (Mauritius Meteorological Services) forecasts above‑normal temperatures and a rainfall deficit for the summer 2026‑2027 season; Dr Booneeady, Acti)
+Posted (L'Express): Закон о дорожном движении: профсоюзы требуют соразмерных санкций
 LLM per-minute limit, waiting 30s
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Лето 2026-2027: MMS озвучивает прогноз
-  dup check: new (Lancement le 26 octobre d'un programme de formation de 30 heures à Phoenix, intitulé « Use of Communication Tools in Nursing », organisé par Premium C)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): Здравоохранение: новый курс для улучшения общения с пациентами
-LLM usage this run: 6 requests, 9602 tokens
+LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
+  written by openai/gpt-oss-120b
+  not about Mauritius: AUDIT INTERNE : Les auditeurs face au défi de voir au-delà des chiffres
+Skipped foreign news (Le Mauricien): AUDIT INTERNE : Les auditeurs face au défi de voir au-delà des chiffres
+LLM usage this run: 4 requests, 7913 tokens
