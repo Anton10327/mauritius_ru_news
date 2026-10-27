@@ -12,3 +12,17 @@ Posted (Defimedia): Раненая пулей: «Élodie теперь может
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Промежуточный суд: по октябрьским инцидентам вынесен второй приговор и подано новое обвинение
 LLM usage this run: 12 requests, 18422 tokens
+### check 2/5 at 12:19
+  dup check: new (Devianee Ramchurn представила в суде 27 октября ходатайство об отказе от временного обвинения в отмывании денег; это первое судебное действие по её де)
+  proofread: Vacoas-Phoenix → Ваоас-Феникс; Pamplemousses → Памплемусс
+Posted (Defimedia): Дело о чемоданах с 113,8 млн рупий: Devianee Ramchurn требует снять предварительное обвинение
+  proofread: Rajesh Bhagwan → министр по вопросам окружающей среды Rajesh Bhagwan
+Posted (L'Express): Экология: министр Rajesh Bhagwan похвалил Caractère Ltée
+  dup check: new (Прогноз роста экспорта на 2% в 2026 году (110 млрд рупий) и упоминание, что сектор текстиля/одежды остаётся под давлением. В ранее опубликованных мате)
+  proofread: 
+  foreign words left: Export
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Le Mauricien): Экономика — Экспорт: ожидаемый рост на 2%, до 110 млрд рупий в 2026 году
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): MISSING — Résidence des Uteem : Rebondissements dans l’affaire Monowara Begum == Адвокат требует гарантии показаний для пропавшей гражданки Бангладеш
+LLM usage this run: 10 requests, 13937 tokens
