@@ -11,3 +11,14 @@ Skipped foreign news (L'Express): Meilleur entraîneur : Luis de la Fuente succ�
   proofread: в аэропорту имени сэра Сивусагура Рамгулама → в аэропорту имени сэра Сивусагура Рамгулама; Sia Guan Kueh → Sia Guan Kueh; Plaisance → Пленсанс; Dubaï → Дубай; Malaisie → Малайзия; Thaïlande → Таиланд
 Posted (Defimedia): Plaisance: изъято каннабиса на 25,5 млн рупий у малайзийского повара
 LLM usage this run: 9 requests, 16377 tokens
+### check 2/5 at 06:58
+  dup check: new (Alexia Putellas a remporté le Ballon d’Or féminin 2026; elle est désormais joueuse du London City Lionesses et succède à Aitana Bonmati, qui avait gag)
+  not about Mauritius: Ballon d’Or féminin : le grand retour d’Alexia Putellas
+Skipped foreign news (L'Express): Ballon d’Or féminin : le grand retour d’Alexia Putellas
+  dup check: new (Harry Kane стал первым англичанином, получившим Ballon d’Or 2026; церемония прошла в Лондоне 26 октября 2026 года. Победа была определена голосованием)
+  not about Mauritius: Ballon d’Or 2026 : l’Anglais Harry Kane couronné à Londres
+Skipped foreign news (L'Express): Ballon d’Or 2026 : l’Anglais Harry Kane couronné à Londres
+  dup check: new (В статье впервые упоминается, что Луис Инасиу Лула да Силва одержал победу на выборах после поражения в первом туре от Флавио Болсонару. Также указано)
+  not about Mauritius: [Blog] Lula’s victory may be a turning point for Latin America
+Skipped foreign news (Defimedia): [Blog] Lula’s victory may be a turning point for Latin America
+LLM usage this run: 6 requests, 10849 tokens
