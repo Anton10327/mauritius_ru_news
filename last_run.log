@@ -1,72 +1,18 @@
-### check 1/5 at 15:08
-  dup check: new (Le Premier ministre Navin Ramgoolam a annoncé la réalisation d'un audit du dispositif policier mauricien avec l'appui des autorités françaises, visant)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамголам → Navin Ramgoolam; Фархада Амера → Farhad Aumeer
-Posted (Le Mauricien): Безопасность на Маврикии: аудит с французской поддержкой выявит слабые места полицейской системы
+### check 1/5 at 15:44
   dup: nothing new ()
-Skipped duplicate (L'Express): Sydney, Australie : Le Mauricien Martin Bacosse blessé au couteau en tentant d’empêcher un == Житель Маврикия получил ножевое ранение, пытаясь задержать грабителей в Австралии
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Tras (par Henri Favory): Depi lasenn an 1983 ziska ban lekol an 2026, enn memwar vivan ki kontign in
-Skipped foreign news (Le Mauricien): Tras (par Henri Favory): Depi lasenn an 1983 ziska ban lekol an 2026, enn memwar vivan ki kontign in
-LLM usage this run: 5 requests, 9835 tokens
-### check 2/5 at 15:12
-  dup check: new (Сообщение о том, что из 113 ожидаемых письменных ответов парламентских вопросов получено только 95, а 18 всё ещё не получены; уточнение, что Спикер Ши)
+Skipped duplicate (Defimedia): Navin Ramgoolam à Chetan Baboolall : «You think you're dealing with the MSM?» == PNQ о подозрительной смерти Soopramanien Kistnen: Navin Ramgoolam опровергает Pravind Jugn
+  dup check: new (Nine former officials of the defunct Silver Bank left Mauritius between Jan 2023 and Feb 2025; eight of them are being targeted for inclusion on Inter)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Ширин Омерудди-Цифра → Shirin Aumeeruddy-Cziffra
-Posted (L'Express): Спикер Национального собрания напомнила министрам об обязательствах дать 18 парламентских ответов
-LLM usage this run: 3 requests, 4713 tokens
-### check 3/5 at 15:16
-  dup check: new (Полицейский службы Emergency Response Service (ERS) получил травму руки при столкновении с автомобилем во время дорожного контроля в Plaine-Lauzun 26 )
+  proofread: Навин Рамгулам → Navin Ramgoolam; ОАЭ → Объединённые Арабские Эмираты
+Posted (Defimedia): Дело Silver Bank: девять бывших руководителей покинули Маврикий, начато сотрудничество с Интерполом
+  dup check: new (Le ministre de l'Environnement Rajesh Bhagwan a organisé hier un atelier d'une journée au Caudan Arts Centre intitulé « One‑day Joint Workshop on Buye)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Плейн-Лозун → Plaine-Lauzun; ERS → Emergency Response Service (ERS)
-Posted (Defimedia): Дорожная проверка в Plaine-Lauzun: полицейский ранен, найдено несколько видов оружия
-  dup check: new (Le rapport d’audit interne de la Cargo Handling Corporation Ltd (CHCL) a été transmis à la Financial Crimes Commission (FCC) pour enquête, et le Premi)
+Posted (Le Mauricien): На Маврикии ищут экологичные альтернативы пластику
+  dup check: new (Maurice won two continental titles and three silver medals at the African Cycling Championships 2026 in Kenya (Team Maurice MCB achievements).)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: 
-  foreign words left: Cargo, Handling, Corporation, Ltd
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (Defimedia): Отчет внутреннего аудита CHCL передан Комиссии по финансовым преступлениям
-  dup check: new (Le gouvernement envisage le démantèlement d'Airport Holdings Ltd et une réorganisation de sa structure, annoncé par le Premier ministre Navin Ramgoola)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  foreign words left: Mauritius
-  leftovers fixed by qwen/qwen3.8-27b; still left: Mauritius
-Posted (Defimedia): Правительство рассматривает возможность ликвидации Airport Holdings
-  dup check: new (Premier ministre Navin Ramgoolam a annoncé, lors du PMQT du mardi 27 octobre, qu'il envisageait de relancer le Youth Employment Programme lancé en 201)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамголлан → Navin Ramgoolam
-Posted (Defimedia): Правительство рассматривает возможность возобновления Программы занятости молодёжи
-LLM usage this run: 14 requests, 20272 tokens
-### check 4/5 at 15:20
-  dup check: new (Navin Ramgoolam publicly denies Pravind Jugnauth's claim about the police having obtained all Safe City images; Chetan Baboolall raised a supplementar)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: ПНР → PNQ; Суоприманиена Кистнена → Soopramanien Kistnen; Навин Рамгулам → Navin Ramgoolam; Правинда Жугнаута → Pravind Jugnauth; парламента → парламента; Чэтэн Бабулаал → Chetan Baboolall; Правинд Жугнаут → Pravind Jugnauth
-Posted (Defimedia): PNQ о подозрительной смерти Soopramanien Kistnen: Navin Ramgoolam опровергает Pravind Jugnauth
-  dup check: new (Le Premier ministre Navin Ramgoolam a annoncé la mise en place d’un audit des capacités de la police (renseignement, gestion des foules, réponse rapid)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамгулам → Navin Ramgoolam
-Posted (Defimedia): После недавних беспорядков правительство планирует аудит полицейских сил
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Vidéo] Non-respect du couvre-feu : des proches des douze condamnés présents au tribunal == Нарушение комендантского часа: от трёх до двенадцати месяцев тюрьмы для двенадцати обвиняе
-  dup check: new (Умер 38‑летний мужчина Стевен Катапермал после взрыва; ранее сообщалось только о его критическом состоянии в реанимации.)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Флаке → Flacq; Стивен Катапермал → Steeven Cathapermal; Камп-Марселене → Camp-Marcelin; Флака → Flacq; Дженисса → Jenissa
-Posted (Defimedia): Мужчина погиб после взрыва контейнера с гербицидом в Flacq
-LLM usage this run: 10 requests, 16457 tokens
-### check 5/5 at 15:24
-  dup: nothing new ()
-Skipped duplicate (L'Express): Fléau social : Nous n’avons qu’une vie, pourquoi la laisser gâcher par la drogue ? == Перенаселение тюрем — Dev Jokhoo: «Нам не нужно отправлять всех в тюрьму»
-  written by GigaChat-2-Max
-  not about Mauritius: BLACK-OUT : Gérer l'énergie au quotidien
-Skipped foreign news (L'Express): BLACK-OUT : Gérer l'énergie au quotidien
-  dup: nothing new ()
-Skipped duplicate (L'Express): Affaire Kistnen : un téléphone disparu depuis six ans refait surface == PNQ — дело Kistnen: второй мобильный телефон, считавшийся утерянным шесть лет, обнаружен у
-LLM usage this run: 3 requests, 5046 tokens
+  proofread: Александра Майера → Alexandre Mayer
+Posted (Le Mauricien): Чемпионат Африки по велоспорту 2026 года: сборная Маврикия вернулась домой с двумя континентальными титулами
+LLM usage this run: 10 requests, 16791 tokens
