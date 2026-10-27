@@ -1,8 +1,5 @@
-### check 1/5 at 05:30
-### check 2/5 at 05:34
-### check 3/5 at 05:38
-### check 4/5 at 05:42
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La météo du mardi 27 octobre 2026 == Погода: дожди в понедельник утром и сильное волнение за рифами
-LLM usage this run: 1 requests, 1372 tokens
-### check 5/5 at 05:46
+### check 1/5 at 06:13
+GigaChat balance: GigaChat 249,660,117, GigaChat-Ultra 48,376,527, GigaChat-Pro 38,547,156, GigaChat-Max 24,643,776; 358 days to go
+  dup: nothing new (В статье перечислены новые заголовки печатного номера, включая критику Джо Lesjongard в адрес министра энергетики и упоминание ожидаемых экспортных до)
+Skipped duplicate (L'Express): Les grands titres de l'express de ce mardi 27 octobre 2026 == Кризис воды: водохранилище Mare-aux-Vacoas заполнено всего на 33,7%, Joe Lesjongard обвиня
+LLM usage this run: 1 requests, 1050 tokens
