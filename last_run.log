@@ -1,33 +1,12 @@
-### check 1/5 at 14:24
-  dup check: new (Премьер-министр Navin Ramgoolam заявил, что команда иностранных следователей из Великобритании обнаружила ранее проигнорированную важную улику по делу)
+### check 1/5 at 15:08
+  dup check: new (Le Premier ministre Navin Ramgoolam a annoncé la réalisation d'un audit du dispositif policier mauricien avec l'appui des autorités françaises, visant)
   written by GigaChat-2-Max
-  proofread: «Private Notice Question» → «частный запрос в парламенте»
-Posted (Defimedia): По делу об убийстве бывшего агента MSM обнаружено важное доказательство
-  dup check: new ()
-  written by GigaChat-2-Max
-  not about Mauritius: Crises du coût de la vie : les leçons du passé face aux choix économiques d’aujourd’hui
-Skipped foreign news (Defimedia): Crises du coût de la vie : les leçons du passé face aux choix économiques d’aujourd’hui
+  proofread by qwen/qwen3.8-27b
+  proofread: Навин Рамголам → Navin Ramgoolam; Фархада Амера → Farhad Aumeer
+Posted (Le Mauricien): Безопасность на Маврикии: аудит с французской поддержкой выявит слабые места полицейской системы
   dup: nothing new ()
-Skipped duplicate (L'Express): Non-respect du couvre-feu : Douze hommes condamnés à des peines allant jusqu’à un an de pr == Нарушение комендантского часа: от трёх до двенадцати месяцев тюрьмы для двенадцати обвиняе
-  dup check: new (В статье упоминается дело Élodie Thomas, которая была тяжело ранена полицейским — это новый факт, не отражённый в ранее опубликованных материалах. Так)
+Skipped duplicate (L'Express): Sydney, Australie : Le Mauricien Martin Bacosse blessé au couteau en tentant d’empêcher un == Житель Маврикия получил ножевое ранение, пытаясь задержать грабителей в Австралии
   written by GigaChat-2-Max
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Reform, Party
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Le Mauricien): Партия реформ критикует проблемы управления водой и электричеством
-LLM usage this run: 10 requests, 13104 tokens
-### check 2/5 at 14:28
-  dup check: new (Речь идёт о прибытии около 60 индийских медсестёр в государственные больницы Маврикия для работы в кардиологии и онкологии, а также об увеличении числ)
-  written by GigaChat-2-Max
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Профсоюзы настаивают: приоритет местным медсестрам
-LLM usage this run: 3 requests, 4476 tokens
-### check 3/5 at 14:32
-  dup: nothing new ()
-Skipped duplicate (L'Express): Construction : Les coûts en hausse de 5,8 % sur un an == Экономика | строительство — Statistics Mauritius — Построить дом на Маврикии становится вс
-LLM usage this run: 1 requests, 437 tokens
-### check 4/5 at 14:36
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Cour — Accusés dans les émeutes du 13 octobre : Sept jeunes condamnés à des peines d’empri == Промежуточный суд: по октябрьским инцидентам вынесен второй приговор и подано новое обвине
-LLM usage this run: 1 requests, 1101 tokens
-### check 5/5 at 14:40
+  not news (portrait/lifestyle): Tras (par Henri Favory): Depi lasenn an 1983 ziska ban lekol an 2026, enn memwar vivan ki kontign in
+Skipped foreign news (Le Mauricien): Tras (par Henri Favory): Depi lasenn an 1983 ziska ban lekol an 2026, enn memwar vivan ki kontign in
+LLM usage this run: 5 requests, 9835 tokens
