@@ -42,3 +42,22 @@ Posted (Defimedia): Правительство рассматривает воз
   proofread: Навин Рамголлан → Navin Ramgoolam
 Posted (Defimedia): Правительство рассматривает возможность возобновления Программы занятости молодёжи
 LLM usage this run: 14 requests, 20272 tokens
+### check 4/5 at 15:20
+  dup check: new (Navin Ramgoolam publicly denies Pravind Jugnauth's claim about the police having obtained all Safe City images; Chetan Baboolall raised a supplementar)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: ПНР → PNQ; Суоприманиена Кистнена → Soopramanien Kistnen; Навин Рамгулам → Navin Ramgoolam; Правинда Жугнаута → Pravind Jugnauth; парламента → парламента; Чэтэн Бабулаал → Chetan Baboolall; Правинд Жугнаут → Pravind Jugnauth
+Posted (Defimedia): PNQ о подозрительной смерти Soopramanien Kistnen: Navin Ramgoolam опровергает Pravind Jugnauth
+  dup check: new (Le Premier ministre Navin Ramgoolam a annoncé la mise en place d’un audit des capacités de la police (renseignement, gestion des foules, réponse rapid)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Навин Рамгулам → Navin Ramgoolam
+Posted (Defimedia): После недавних беспорядков правительство планирует аудит полицейских сил
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Vidéo] Non-respect du couvre-feu : des proches des douze condamnés présents au tribunal == Нарушение комендантского часа: от трёх до двенадцати месяцев тюрьмы для двенадцати обвиняе
+  dup check: new (Умер 38‑летний мужчина Стевен Катапермал после взрыва; ранее сообщалось только о его критическом состоянии в реанимации.)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Флаке → Flacq; Стивен Катапермал → Steeven Cathapermal; Камп-Марселене → Camp-Marcelin; Флака → Flacq; Дженисса → Jenissa
+Posted (Defimedia): Мужчина погиб после взрыва контейнера с гербицидом в Flacq
+LLM usage this run: 10 requests, 16457 tokens
