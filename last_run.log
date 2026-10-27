@@ -26,3 +26,16 @@ Posted (Le Mauricien): Экономика — Экспорт: ожидаемый
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): MISSING — Résidence des Uteem : Rebondissements dans l’affaire Monowara Begum == Адвокат требует гарантии показаний для пропавшей гражданки Бангладеш
 LLM usage this run: 10 requests, 13937 tokens
+### check 3/5 at 12:23
+Posted (L'Express): Упаковки: бумага пытается потеснить пластик
+  same headline as #41: ÉCONOMIE | CONSTRUCTION — STATISTICS MAURITIUS — Construire sa maison coûte touj
+Skipped duplicate (Inside News): Construire sa maison coûte 5,8 % plus cher à Maurice == Экономика | строительство — Statistics Mauritius — Построить дом на Маврикии становится вс
+  dup check: new (В статье сообщается о новом аресте — задержан бизнесмен Shemir Sokataly, а также приводится мнение бывшего министра иностранных дел Anil Gayan о необх)
+  proofread: Shemir Sokataly → Ширм Сокатали; Anil Gayan → Анил Гайян
+Posted (Top FM): Арест магнатов с Мадагаскара: Anil Gayan считает, что Маврикий должен исключить любой риск политической вендетты перед действиями
+  dup check: new (В статье указано общее число арестов (217), включая 25 несовершеннолетних, а также уточнено количество задержанных и освобождённых на момент публикаци)
+  proofread: Akshaye Boodhun → Акшей Будхун; Moka → Мока; Flacq → Флак
+  foreign words left: Burning
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Top FM): 217 арестов после недавних беспорядков на Маврикии
+LLM usage this run: 9 requests, 13230 tokens
