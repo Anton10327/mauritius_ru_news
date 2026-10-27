@@ -10,3 +10,10 @@ Skipped duplicate (L'Express): Sydney, Australie : Le Mauricien Martin Bacosse b
   not news (portrait/lifestyle): Tras (par Henri Favory): Depi lasenn an 1983 ziska ban lekol an 2026, enn memwar vivan ki kontign in
 Skipped foreign news (Le Mauricien): Tras (par Henri Favory): Depi lasenn an 1983 ziska ban lekol an 2026, enn memwar vivan ki kontign in
 LLM usage this run: 5 requests, 9835 tokens
+### check 2/5 at 15:12
+  dup check: new (Сообщение о том, что из 113 ожидаемых письменных ответов парламентских вопросов получено только 95, а 18 всё ещё не получены; уточнение, что Спикер Ши)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Ширин Омерудди-Цифра → Shirin Aumeeruddy-Cziffra
+Posted (L'Express): Спикер Национального собрания напомнила министрам об обязательствах дать 18 парламентских ответов
+LLM usage this run: 3 requests, 4713 tokens
