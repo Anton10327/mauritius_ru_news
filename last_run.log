@@ -1,49 +1,17 @@
-### check 1/5 at 15:44
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Navin Ramgoolam à Chetan Baboolall : «You think you're dealing with the MSM?» == PNQ о подозрительной смерти Soopramanien Kistnen: Navin Ramgoolam опровергает Pravind Jugn
-  dup check: new (Nine former officials of the defunct Silver Bank left Mauritius between Jan 2023 and Feb 2025; eight of them are being targeted for inclusion on Inter)
+### check 1/5 at 16:21
+  dup check: new (Эксклюзивное интервью с Гленом Стюардом (Chairman de Stewards Inc.), в котором он рассказывает о своём пути от Южной Африки к международным финансовым)
+  written by GigaChat-2-Max
+  not about Mauritius: Glen Steward (Chairman de Stewards Inc.) : « L’exécution disciplinée, la crédibilité et la résilienc
+Skipped foreign news (Le Mauricien): Glen Steward (Chairman de Stewards Inc.) : « L’exécution disciplinée, la crédibilité et la résilienc
+  dup check: new (Store Beautés de Chine in Curepipe will close its doors at the end of October 2026 after 65 years of operation.)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Beautés de Chine, 65 ans d’histoire et de souvenirs avant de fermer ses portes
+Skipped foreign news (Le Mauricien): Beautés de Chine, 65 ans d’histoire et de souvenirs avant de fermer ses portes
+  dup check: new (Maurice finished fourth in Group R of the FIFA U15 World Cup & Festival, ending the group stage with 4 points (1 win, 1 draw, 3 losses) and a 2-1 defe)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамгулам → Navin Ramgoolam; ОАЭ → Объединённые Арабские Эмираты
-Posted (Defimedia): Дело Silver Bank: девять бывших руководителей покинули Маврикий, начато сотрудничество с Интерполом
-  dup check: new (Le ministre de l'Environnement Rajesh Bhagwan a organisé hier un atelier d'une journée au Caudan Arts Centre intitulé « One‑day Joint Workshop on Buye)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): На Маврикии ищут экологичные альтернативы пластику
-  dup check: new (Maurice won two continental titles and three silver medals at the African Cycling Championships 2026 in Kenya (Team Maurice MCB achievements).)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Александра Майера → Alexandre Mayer
-Posted (Le Mauricien): Чемпионат Африки по велоспорту 2026 года: сборная Маврикия вернулась домой с двумя континентальными титулами
-LLM usage this run: 10 requests, 16791 tokens
-### check 2/5 at 15:48
-  dup check: new (Государство рассматривает возможность сделать бесплатной горячую линию 170 Центрального водного управления (CWA) после обращения депутата Вероник Леу-)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Бесплатность горячей линии водоканала CWA рассматривается правительством
-  dup check: new (Joanna Bérenger, députée du FMP, commente la décision de son parti de quitter le gouvernement et affirme que la paix durable nécessite la justice soci)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Joanna Bérenger : «Il ne peut pas y avoir de paix durable sans justice sociale»
-Skipped foreign news (Defimedia): Joanna Bérenger : «Il ne peut pas y avoir de paix durable sans justice sociale»
-  dup check: new (Premier ministre Navin Ramgoolam a déclaré qu'aucune nouvelle taxe de solidarité n'est prévue pour le moment pour les entreprises des secteurs bancair)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамгулам → Navin Ramgoolam
-Posted (Defimedia): Премьер-министр Navin Ramgoolam заявил об отсутствии планов вводить новый солидарный налог для бизнеса
-LLM usage this run: 8 requests, 12333 tokens
-### check 3/5 at 15:52
-### check 4/5 at 15:56
-  dup check: new (Merven Clair s’est qualifié pour les demi-finales du championnat d’Afrique élites 2026 à Kinshasa, assurant ainsi à la Mauricie une médaille de bronze)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Боксёр Merven Clair вышел в полуфинал чемпионата Африки, Fabrice Valérie проиграл в центре скандала
-  dup check: new (Новые повышения тарифов на морские перевозки из Азии, объявленные компаниями CMA CGM, Maersk и MSC в октябре, с указанием изменения Peak Season Surcha)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: 
-Posted (L'Express): Морские перевозки: тарифы снова растут
-LLM usage this run: 6 requests, 9053 tokens
-### check 5/5 at 16:00
-  dup: nothing new ()
-Skipped duplicate (Top FM): Parlement - affaire Kistnen : Navin Ramgoolam confirme la thèse du meurtre et fait état de == По делу об убийстве бывшего агента MSM обнаружено важное доказательство
-LLM usage this run: 1 requests, 1515 tokens
+  proofread: Брунея-Даруссалана → Брунея-Даруссалама
+Posted (Le Mauricien): Сборная Маврикия U15 заняла четвёртое место в группе R чемпионата мира ФИФА
+  same headline as #25: Affaire Élodie Thomas : Le sergent Taukoor maintenu en détention
+Skipped duplicate (Le Mauricien): CAMP-LEVIEUX | AFFAIRE ÉLODIE THOMAS : La détention préventive du sergent Taukoor prolongé == Дело Élodie Thomas: сержант Taukoor оставлен под стражей
+LLM usage this run: 7 requests, 12277 tokens
