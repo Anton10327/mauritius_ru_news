@@ -15,3 +15,8 @@ Skipped duplicate (Wazaa): Le président des médias dominants accuse le gouvern
 LLM usage this run: 8 requests, 12607 tokens
 ### check 2/5 at 13:48
 Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='www.inside.news', port=443): Read timed out. (read timeout=30)
+### check 3/5 at 13:52
+  written by GigaChat-2-Max
+  not about Mauritius: [videos] Turquie : une tornade frappe Antalya, plusieurs ouvriers tués
+Skipped foreign news (Inside News): [videos] Turquie : une tornade frappe Antalya, plusieurs ouvriers tués
+LLM usage this run: 1 requests, 2629 tokens
