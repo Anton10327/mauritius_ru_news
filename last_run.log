@@ -1,44 +1,16 @@
-### check 1/5 at 17:22
-  dup check: new (Анонс теледебата «Pesticides et cancer : danger public numéro un ?» с участием Murvind Beetun, Sanjay Sembhoo, Avinash Lakohmayya, Mohammad Tabrez Pan)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  foreign words left: Au, ur, de, l’Info
-  leftovers fixed by qwen/qwen3.8-27b; still left: Au, ur, de, l’Info
-Posted (Defimedia): Au Cœur de l’Info: Пестициды и рак: главная общественная опасность?
+### check 1/5 at 18:17
   dup: nothing new ()
-Skipped duplicate (L'Express): Airport Holdings Ltd : le démantèlement se précise == Правительство рассматривает возможность ликвидации Airport Holdings
-LLM per-minute limit, waiting 2s
+Skipped duplicate (Defimedia): Décès de Steeven Cathapermal : son frère David le décrit comme «une personne formidable» == Мужчина погиб после взрыва контейнера с гербицидом в Flacq
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Policier blessé lors d’une attaque à Plaine-Lauzun, un passager arrêté == Дорожная проверка в Plaine-Lauzun: полицейский ранен, найдено несколько видов оружия
+  dup check: new (В статье указаны новые экономические последствия кризиса воды: потери банковских процентов — Rs 210 000 в месяц для инвестора, приостановка обслуживан)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  proofread: в Rose-Hill → в Rose-Hill; Собрание из 44 хроник → Сборник из 44 хроник; Jean-Pierre Sauzier, Jacques Malié → Jean-Pierre Sauzier, Jacques Malié
-  foreign words left: et, perspectives, Chroniques, de, notre, histoire
-Posted (L'Express): Книга «Racines et perspectives 2»: Alain Jeannot ставит в диалог историю и вызовы современности
-  dup check: new (Создание Mauritius Child Adoption Authority; штрафы до 1 млн рупий или до 10 лет тюрьмы за незаконные действия, включая финансовые транзакции; совет м)
+Posted (L'Express): Кризис с водой: финансовые потери малого бизнеса и недовольство жителей
+  dup check: new (Arrest of Malagasy businessman Shemir Sokataly, director of Maeva Group, in Flic-en-Flac, Mauritius, linked to a suspected project to attack the high‑)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Закон об усыновлении детей: публичные консультации по новому правовому режиму
-LLM usage this run: 10 requests, 17130 tokens
-### check 2/5 at 17:26
-  dup check: new (Сообщается о новой инициативе краудфандинга между Маврикием и островом Родригес, финансируемой платформой Small Step Matters, включая три проекта и уч)
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): Financement participatif : Collaboration fructueuse entre Maurice et Rodrigues
-Skipped foreign news (L'Express): Financement participatif : Collaboration fructueuse entre Maurice et Rodrigues
-  dup check: new (Annonce du lancement d'un nouveau Sport Hub à La Source, Belle‑Rose/Quatre‑Bornes, prévu pour janvier 2027, et gratuité d'accès au complexe sportif Da)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Belle-Rose/Quatre-Bornes: новый Sport Hub для поощрения занятий спортом среди молодежи
-  dup check: new (IRP (Independent Review Panel) rejected Health Focus Ltd's contestation regarding the selection of Healthcare Ltd for a glucose meter contract worth R)
-LLM per-minute limit, waiting 6s
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Used 516,
-  written by openai/gpt-oss-120b
-  foreign words left: Health, Focus, Ltd, Healthcare
-Posted (Le Mauricien): Общественный контроль — Глюкометры: IRP отклонил протест Health Focus Ltd
-LLM usage this run: 7 requests, 14563 tokens
-### check 3/5 at 17:30
-  dup check: new (Annonce de la réforme du waqf à Maurice présentée par le ministre Shakeel Mohamed lors du 5ᵉ AlBaraka Summit les 13-14 octobre 2026 à Londres, prévoya)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): Waqf: Маврикий хочет модернизировать закон 1941 года, чтобы привлечь исламскую социальную финансовую отрасль
-LLM usage this run: 3 requests, 5486 tokens
-### check 4/5 at 17:34
-### check 5/5 at 17:38
+  proofread: Tsiafahy → Тсиафахи
+  foreign words left: Casernes, centrales
+Posted (Le Mauricien): Мадагаскар — проект побега: мадагаскарский бизнесмен Shemir Sokataly задержан в Flic-en-Flac
+LLM usage this run: 8 requests, 14165 tokens
