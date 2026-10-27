@@ -1,28 +1,10 @@
-### check 1/5 at 19:52
+### check 1/5 at 20:41
   dup: nothing new ()
-Skipped duplicate (Defimedia): Explosion à Camp-Marcelin : Steeven Cathapermal décède, son épouse grièvement brûlée == Мужчина погиб после взрыва контейнера с гербицидом в Flacq
-  dup check: new (Prime Minister Navin Ramgoolam stated that the Criminal Justice Bill is not an emergency measure and does not grant new powers of arrest, search or de)
+Skipped duplicate (Le Mauricien): Cour de Pamplemousses — Vol allégué à l’étalage : Le DVD de vidéosurveillance admissible c == Суд отклонил возражение защиты по поводу приобщения записей камер видеонаблюдения в деле K
+  dup check: new (Annonce du Bhajan Jamming Festival 2026 qui aura lieu les 29 et 30 octobre à l’Indoor Stadium du Complexe sportif national de Côte-d’Or, organisé par )
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Закон об уголовном правосудии: «Иммунитет — не подарок», заявил Navin Ramgoolam
-  dup check: new (Заявление оппозиционного лидера Четана Бабула (Chetan Baboolall) в парламенте, где он предостерегает от широких полномочий иммунитета для информаторов)
-LLM per-minute limit, waiting 1s
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Закон об уголовном правосудии: Chetan Baboolall предупреждает о полномочиях по предоставлению иммунитета информаторам
-  dup check: new (Inondations soudaines à Phuket (Thaïlande) du 25‑26 octobre, routes transformées en torrents, coulées de boue à Patong, dommages aux maisons, commerce)
-  written by qwen/qwen3.8-27b
-  not about Mauritius: [video] Thaïlande : Phuket sous les eaux, Patong frappée par des crues soudaines
-Skipped foreign news (Inside News): [video] Thaïlande : Phuket sous les eaux, Patong frappée par des crues soudaines
-LLM usage this run: 9 requests, 16752 tokens
-### check 2/5 at 19:56
-  dup: nothing new ()
-Skipped duplicate (Top FM): Mobilisation de la Platform Komin Syndikal prévue ce samedi == Акция против пенсионной реформы: Платформа Komin Sindikal приглашает население на митинг 3
-LLM usage this run: 1 requests, 1058 tokens
-### check 3/5 at 20:00
-### check 4/5 at 20:04
-### check 5/5 at 20:08
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): Believe in – Tranquebar | Josic Fineau : «J’aime que les enfants ne manquent de rien»
-Skipped foreign news (L'Express): Believe in – Tranquebar | Josic Fineau : «J’aime que les enfants ne manquent de rien»
-LLM usage this run: 1 requests, 3062 tokens
+  foreign words left: Festival, Indoor
+  leftovers fixed by qwen/qwen3.8-27b; still left: Festival, Indoor
+Posted (L'Express): «Bhajan Jamming Festival 2026»: два вечера духовных песен в Côte-d’Or
+LLM usage this run: 5 requests, 7195 tokens
