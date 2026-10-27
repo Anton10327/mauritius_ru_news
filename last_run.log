@@ -10,3 +10,8 @@ LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large f
 Skipped foreign news (Le Mauricien): AUDIT INTERNE : Les auditeurs face au défi de voir au-delà des chiffres
 LLM usage this run: 4 requests, 7913 tokens
 ### check 2/5 at 19:12
+### check 3/5 at 19:16
+  written by qwen/qwen3.8-27b
+  not about Mauritius: [video] Gabon : une plateforme pétrolière sombre au large de Mayumba, 110 personnes secourues
+Skipped foreign news (Inside News): [video] Gabon : une plateforme pétrolière sombre au large de Mayumba, 110 personnes secourues
+LLM usage this run: 1 requests, 2845 tokens
