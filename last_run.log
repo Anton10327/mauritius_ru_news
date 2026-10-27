@@ -1,17 +1,12 @@
-### check 1/5 at 09:19
-  dup check: new (Jérôme Roger Agathe et Dhiyven Lofur ont comparu aujourd’hui devant le tribunal de district de Port-Louis Nord pour leurs demandes de remise en libert)
-  foreign words left: Nord
-  leftovers fixed by GigaChat-3-Pro; still left: Nord
-Posted (L'Express): Напряженность в Sainte-Croix: судьба двух подозреваемых решится сегодня
-LLM usage this run: 4 requests, 5574 tokens
-### check 2/5 at 09:23
-### check 3/5 at 09:27
-### check 4/5 at 09:31
-### check 5/5 at 09:35
+### check 1/5 at 09:56
+  dup: nothing new (Chetan Baboolall планирует задать Private Notice Question по делу Kistnen во время парламентских заседаний 27 октября, требуя уточнений о возобновлённ)
+Skipped duplicate (Le Mauricien): PNQ-Affaire Kistnen : Chetan Baboolall réclame des précisions sur l’enquête rouverte == Дело Kistnen: премьер-министр допрошен по поводу расследования
+  dup check: new (В новой статье сообщается, что во вторник 27 октября на Маврикии ожидается улучшение погоды после дождей понедельника: в основном ясная погода утром и)
+  not news (portrait/lifestyle): Météo : retour des éclaircies ce mardi, quelques averses dans l’Ouest
+Skipped foreign news (Inside News): Météo : retour des éclaircies ce mardi, quelques averses dans l’Ouest
   dup: nothing new ()
-Skipped duplicate (Defimedia): Parlement : la PNQ de Chetan Baboolall axée sur le meurtre de Soopramanien Kistnen ce mard == Дело Kistnen: премьер-министр допрошен по поводу расследования
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Un médecin de 43 ans agressé après un différend entre automobilistes == Дорожная агрессия в Cottage: 43-летний врач подал жалобу об избиении после спора на дороге
-  dup: nothing new ()
-Skipped duplicate (L'Express): Troubles à Centre-de-Flacq et à Bel-Étang : 28 mois de prison pour l’instigateur, deux ans == События 13 октября: семерым подсудимым назначены сроки до 28 месяцев тюрьмы
-LLM usage this run: 3 requests, 3114 tokens
+Skipped duplicate (Wazaa): Le personnel de Concentrix exprime d’importants doutes sur les termes convenus avant la fe == Сотрудники Concentrix требуют соблюдения первоначальных условий увольнения
+  dup check: new (В статье впервые упоминается, что Leela Devi Dookun-Luchoomun и Xavier-Luc Duval теперь напрямую спорят о реформе Extended Programme. Также приводится)
+  proofread: бывший министр образования → бывший министр просвещения; Nine-Year Schooling → девятилетнее школьное образование
+Posted (Inside News): Дебаты по Extended Programme: Leela Devi Dookun-Luchoomun и Xavier-Luc Duval обменялись обвинениями
+LLM usage this run: 7 requests, 9822 tokens
