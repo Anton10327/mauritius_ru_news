@@ -14,3 +14,8 @@ LLM usage this run: 8 requests, 11909 tokens
   proofread: Joe Lesjongard → Джо Лежонгар (имя собственное); Jimmy Jean Louis → Джимми Жан Луи (имя собственное)
 Posted (Top FM): Tempo La So: Joe Lesjongard задаётся вопросом о числе арестованных наркоторговцев после беспорядков
 LLM usage this run: 3 requests, 4815 tokens
+### check 3/5 at 11:36
+  dup check: new (Dev Jokhoo, бывший начальник тюрем и заместитель комиссара полиции Маврикия, призывает к внедрению мер по снижению переполненности тюрем. Он предлагае)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Перенаселение тюрем — Dev Jokhoo: «Нам не нужно отправлять всех в тюрьму»
+LLM usage this run: 3 requests, 4953 tokens
