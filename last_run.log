@@ -16,3 +16,9 @@ LLM usage this run: 4 requests, 7913 tokens
 Skipped foreign news (Inside News): [video] Gabon : une plateforme pétrolière sombre au large de Mayumba, 110 personnes secourues
 LLM usage this run: 1 requests, 2845 tokens
 ### check 4/5 at 19:20
+### check 5/5 at 19:24
+  dup check: new (Новый случай предполагаемого сексуального насилия над 6‑летней девочкой; подозреваемый — 25‑летний Франсуа Векранжес из Транкебара, который уже неделю)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Шестилетняя девочка стала жертвой предполагаемого насилия: François Veckranges по-прежнему не найден
+LLM usage this run: 3 requests, 5218 tokens
