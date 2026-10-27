@@ -1,22 +1,6 @@
-### check 1/5 at 09:56
-  dup: nothing new (Chetan Baboolall планирует задать Private Notice Question по делу Kistnen во время парламентских заседаний 27 октября, требуя уточнений о возобновлённ)
-Skipped duplicate (Le Mauricien): PNQ-Affaire Kistnen : Chetan Baboolall réclame des précisions sur l’enquête rouverte == Дело Kistnen: премьер-министр допрошен по поводу расследования
-  dup check: new (В новой статье сообщается, что во вторник 27 октября на Маврикии ожидается улучшение погоды после дождей понедельника: в основном ясная погода утром и)
-  not news (portrait/lifestyle): Météo : retour des éclaircies ce mardi, quelques averses dans l’Ouest
-Skipped foreign news (Inside News): Météo : retour des éclaircies ce mardi, quelques averses dans l’Ouest
+### check 1/5 at 10:35
   dup: nothing new ()
-Skipped duplicate (Wazaa): Le personnel de Concentrix exprime d’importants doutes sur les termes convenus avant la fe == Сотрудники Concentrix требуют соблюдения первоначальных условий увольнения
-  dup check: new (В статье впервые упоминается, что Leela Devi Dookun-Luchoomun и Xavier-Luc Duval теперь напрямую спорят о реформе Extended Programme. Также приводится)
-  proofread: бывший министр образования → бывший министр просвещения; Nine-Year Schooling → девятилетнее школьное образование
-Posted (Inside News): Дебаты по Extended Programme: Leela Devi Dookun-Luchoomun и Xavier-Luc Duval обменялись обвинениями
-LLM usage this run: 7 requests, 9822 tokens
-### check 2/5 at 10:00
-### check 3/5 at 10:04
-  dup: nothing new (В статье описывается ситуация в городе Curepipe: жители сталкиваются с повторяющимися отключениями воды, задержками автоцистерн и вынуждены приспосабл)
-Skipped duplicate (L'Express): Crise de l’eau : Le ras-le-bol monte à Curepipe face aux robinets à sec == Водный кризис: ожидается дополнительный объем воды 11,2 млн литров в день, правительство р
-LLM usage this run: 1 requests, 820 tokens
-### check 4/5 at 10:08
-### check 5/5 at 10:12
-  dup check: new (В статье упоминается, что депутат Farhad Aumeer хочет получить подробности о механизмах оповещения и оперативной подготовке полиции во время октябрьск)
-Posted (Inside News): Парламент: Silver Bank, водный кризис и октябрьские беспорядки в центре вопросов
-LLM usage this run: 3 requests, 4887 tokens
+Skipped duplicate (Inside News): Distribution d’eau : douze localités de l’Est touchées par des perturbations ce mardi == Подача воды: несколько восточных районов останутся без воды во вторник, начиная с 9 часов 
+  same headline as #97: Réforme constitutionnelle à Maurice : Shafick Osman soumet un mémorandum de 12 p
+Skipped duplicate (Top FM): Réforme constitutionnelle : Shafick Osman propose 12 piliers pour une « île Maurice décolo == Shafick Osman представил меморандум из 12 пунктов для геополитической деколонизации госуда
+LLM usage this run: 1 requests, 913 tokens
