@@ -26,3 +26,7 @@ LLM usage this run: 3 requests, 4476 tokens
   dup: nothing new ()
 Skipped duplicate (L'Express): Construction : Les coûts en hausse de 5,8 % sur un an == Экономика | строительство — Statistics Mauritius — Построить дом на Маврикии становится вс
 LLM usage this run: 1 requests, 437 tokens
+### check 4/5 at 14:36
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Cour — Accusés dans les émeutes du 13 octobre : Sept jeunes condamnés à des peines d’empri == Промежуточный суд: по октябрьским инцидентам вынесен второй приговор и подано новое обвине
+LLM usage this run: 1 requests, 1101 tokens
