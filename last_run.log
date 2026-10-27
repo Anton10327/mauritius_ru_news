@@ -1,18 +1,4 @@
-### check 1/5 at 20:41
+### check 1/5 at 21:29
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Cour de Pamplemousses — Vol allégué à l’étalage : Le DVD de vidéosurveillance admissible c == Суд отклонил возражение защиты по поводу приобщения записей камер видеонаблюдения в деле K
-  dup check: new (Annonce du Bhajan Jamming Festival 2026 qui aura lieu les 29 et 30 octobre à l’Indoor Stadium du Complexe sportif national de Côte-d’Or, organisé par )
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  foreign words left: Festival, Indoor
-  leftovers fixed by qwen/qwen3.8-27b; still left: Festival, Indoor
-Posted (L'Express): «Bhajan Jamming Festival 2026»: два вечера духовных песен в Côte-d’Or
-LLM usage this run: 5 requests, 7195 tokens
-### check 2/5 at 20:45
-### check 3/5 at 20:49
-### check 4/5 at 20:53
-  written by qwen/qwen3.8-27b
-Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
-Posted (L'Express): Disciples d’Escoffier Mauritius: посвящение 11 новых членов
-LLM usage this run: 1 requests, 3299 tokens
-### check 5/5 at 20:57
+Skipped duplicate (Defimedia): [Info Soirée] : « Zot servi sikolozi pou gayn zenfan » == Шестилетняя девочка стала жертвой предполагаемого насилия: François Veckranges по-прежнему
+LLM usage this run: 1 requests, 1117 tokens
