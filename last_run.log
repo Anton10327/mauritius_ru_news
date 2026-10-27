@@ -16,3 +16,9 @@ Skipped duplicate (L'Express): Non-respect du couvre-feu : Douze hommes condamn�
   leftovers fixed by GigaChat-3-Pro; still left: none
 Posted (Le Mauricien): Партия реформ критикует проблемы управления водой и электричеством
 LLM usage this run: 10 requests, 13104 tokens
+### check 2/5 at 14:28
+  dup check: new (Речь идёт о прибытии около 60 индийских медсестёр в государственные больницы Маврикия для работы в кардиологии и онкологии, а также об увеличении числ)
+  written by GigaChat-2-Max
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Профсоюзы настаивают: приоритет местным медсестрам
+LLM usage this run: 3 requests, 4476 tokens
