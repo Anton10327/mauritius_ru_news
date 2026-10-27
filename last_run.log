@@ -1,43 +1,20 @@
-### check 1/5 at 16:21
-  dup check: new (Эксклюзивное интервью с Гленом Стюардом (Chairman de Stewards Inc.), в котором он рассказывает о своём пути от Южной Африки к международным финансовым)
-  written by GigaChat-2-Max
-  not about Mauritius: Glen Steward (Chairman de Stewards Inc.) : « L’exécution disciplinée, la crédibilité et la résilienc
-Skipped foreign news (Le Mauricien): Glen Steward (Chairman de Stewards Inc.) : « L’exécution disciplinée, la crédibilité et la résilienc
-  dup check: new (Store Beautés de Chine in Curepipe will close its doors at the end of October 2026 after 65 years of operation.)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Beautés de Chine, 65 ans d’histoire et de souvenirs avant de fermer ses portes
-Skipped foreign news (Le Mauricien): Beautés de Chine, 65 ans d’histoire et de souvenirs avant de fermer ses portes
-  dup check: new (Maurice finished fourth in Group R of the FIFA U15 World Cup & Festival, ending the group stage with 4 points (1 win, 1 draw, 3 losses) and a 2-1 defe)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Брунея-Даруссалана → Брунея-Даруссалама
-Posted (Le Mauricien): Сборная Маврикия U15 заняла четвёртое место в группе R чемпионата мира ФИФА
-  same headline as #25: Affaire Élodie Thomas : Le sergent Taukoor maintenu en détention
-Skipped duplicate (Le Mauricien): CAMP-LEVIEUX | AFFAIRE ÉLODIE THOMAS : La détention préventive du sergent Taukoor prolongé == Дело Élodie Thomas: сержант Taukoor оставлен под стражей
-LLM usage this run: 7 requests, 12277 tokens
-### check 2/5 at 16:25
-  dup check: new (Третий за неделю случай предполагаемого сексуального насилия над несовершеннолетней в Транкебаре: 9‑летняя девочка обвиняет 24‑летнего кузена в сексуа)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Top FM): Предполагаемое насилие над несовершеннолетним: третий случай за неделю
-LLM usage this run: 3 requests, 5092 tokens
-### check 3/5 at 16:29
-  dup check: new (Новый случай дорожного гнева в районе Bagatelle Motor City: 33‑летний водитель Toyota Corolla подал жалобу после того, как его обвинили в опасном обго)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: 
-Posted (Defimedia): На Bagatelle водитель пожаловался на случай агрессивного поведения на дороге после обгона
+### check 1/5 at 17:22
+  dup check: new (Анонс теледебата «Pesticides et cancer : danger public numéro un ?» с участием Murvind Beetun, Sanjay Sembhoo, Avinash Lakohmayya, Mohammad Tabrez Pan)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  proofread: 
-  foreign words left: Thaïlande
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (Defimedia): Vallé Advenature Park признан лучшим парком приключений на островах Индийского океана
-  dup check: new (Prévisions météo pour l'été 2026 à Maurice : températures pouvant atteindre 37 °C, pluies d'été attendues vers la mi-novembre, et prévision de cinq à )
+  foreign words left: Au, ur, de, l’Info
+  leftovers fixed by qwen/qwen3.8-27b; still left: Au, ur, de, l’Info
+Posted (Defimedia): Au Cœur de l’Info: Пестициды и рак: главная общественная опасность?
+  dup: nothing new ()
+Skipped duplicate (L'Express): Airport Holdings Ltd : le démantèlement se précise == Правительство рассматривает возможность ликвидации Airport Holdings
+LLM per-minute limit, waiting 2s
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  proofread: Служба метеорологии Маврикия (MMS) → Mauritius Meteorological Services (MMS); На Rodrigues → На Rodrigues
-Posted (Defimedia): Прогноз погоды: летние дожди к середине ноября, до 37 °C и от пяти до семи циклонических образований
-LLM usage this run: 9 requests, 14718 tokens
-### check 4/5 at 16:33
-### check 5/5 at 16:37
+  proofread: в Rose-Hill → в Rose-Hill; Собрание из 44 хроник → Сборник из 44 хроник; Jean-Pierre Sauzier, Jacques Malié → Jean-Pierre Sauzier, Jacques Malié
+  foreign words left: et, perspectives, Chroniques, de, notre, histoire
+Posted (L'Express): Книга «Racines et perspectives 2»: Alain Jeannot ставит в диалог историю и вызовы современности
+  dup check: new (Создание Mauritius Child Adoption Authority; штрафы до 1 млн рупий или до 10 лет тюрьмы за незаконные действия, включая финансовые транзакции; совет м)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Закон об усыновлении детей: публичные консультации по новому правовому режиму
+LLM usage this run: 10 requests, 17130 tokens
