@@ -21,3 +21,21 @@ LLM usage this run: 7 requests, 12277 tokens
   proofread by qwen/qwen3.8-27b
 Posted (Top FM): Предполагаемое насилие над несовершеннолетним: третий случай за неделю
 LLM usage this run: 3 requests, 5092 tokens
+### check 3/5 at 16:29
+  dup check: new (Новый случай дорожного гнева в районе Bagatelle Motor City: 33‑летний водитель Toyota Corolla подал жалобу после того, как его обвинили в опасном обго)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+Posted (Defimedia): На Bagatelle водитель пожаловался на случай агрессивного поведения на дороге после обгона
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+  foreign words left: Thaïlande
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Defimedia): Vallé Advenature Park признан лучшим парком приключений на островах Индийского океана
+  dup check: new (Prévisions météo pour l'été 2026 à Maurice : températures pouvant atteindre 37 °C, pluies d'été attendues vers la mi-novembre, et prévision de cinq à )
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: Служба метеорологии Маврикия (MMS) → Mauritius Meteorological Services (MMS); На Rodrigues → На Rodrigues
+Posted (Defimedia): Прогноз погоды: летние дожди к середине ноября, до 37 °C и от пяти до семи циклонических образований
+LLM usage this run: 9 requests, 14718 tokens
