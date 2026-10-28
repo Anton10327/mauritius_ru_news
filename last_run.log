@@ -1,13 +1,1 @@
-### check 1/5 at 01:39
-### check 2/5 at 01:43
-Duplicate check GigaChat-3-Pro failed: HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x77ec82951010>, 'Connection to api.giga.chat timed out. (connect timeout=120)'))
-  dup check: new (Simla Kistnen, veuve de Soopramanien Kistnen, a déclaré dans une interview télévisée (TéléPlus) que le gouvernement (Alliance du Changement) a exploit)
-LLM request failed (GigaChat-3-Ultra): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x77ec829504
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: Scotland Yard → Скотленд-Ярд
-Posted (Wazaa): Вдова из Kistnen обвиняет правительство в использовании дела об убийстве шестилетней давности в электоральных целях
-LLM usage this run: 3 requests, 5882 tokens
-### check 3/5 at 01:47
-### check 4/5 at 01:51
-### check 5/5 at 01:55
+### check 1/5 at 02:18
