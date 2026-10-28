@@ -19,3 +19,8 @@ Posted (Defimedia): Злоупотребление пестицидами: вл�
 Skipped duplicate (L'Express): Essaimer plutot que centraliser == Конвенция Найроби: Маврикий принимает председательство на COP12
 LLM usage this run: 7 requests, 9740 tokens
 ### check 4/5 at 09:38
+### check 5/5 at 09:42
+  dup check: new (В статье говорится о том, что на конференции Института внутренних аудиторов никто не поднял руку в ответ на вопрос об участии организации хотя бы в од)
+  not about Mauritius: The board did not say
+Skipped foreign news (L'Express): The board did not say
+LLM usage this run: 2 requests, 3148 tokens
