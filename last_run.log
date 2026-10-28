@@ -22,3 +22,17 @@ Posted (Defimedia): Профсоюзы проведут митинг проти�
   not news (portrait/lifestyle): Perspectives économiques - SBM Insights : croissance de 2,9 % en 2026 et 3,5 % en 2027
 Skipped foreign news (Defimedia): Perspectives économiques - SBM Insights : croissance de 2,9 % en 2026 et 3,5 % en 2027
 LLM usage this run: 12 requests, 16954 tokens
+### check 2/5 at 14:55
+  same headline as #163: School Certificate : un candidat repéré avec des lunettes connectées
+Skipped duplicate (L'Express): «School Certificate» : Un élève pris avec des lunettes connectées en salle d’examen == На экзамене по химии поймали кандидата с умными очками
+  dup check: new (China announces sending a special envoy to the Middle East to address escalation risks, with statements from spokesperson Guo Jiakun about dialogue an)
+  written by GigaChat-2-Max
+  not about Mauritius: Moyen-Orient : la Chine annonce une mission diplomatique face au risque d’escalade
+Skipped foreign news (Inside News): Moyen-Orient : la Chine annonce une mission diplomatique face au risque d’escalade
+  dup: nothing new ()
+Skipped duplicate (Inside News): Silver Bank : Rs 7 milliards de pertes présumées, neuf anciens responsables recherchés == Дело Silver Bank: девять бывших руководителей покинули Маврикий, начато сотрудничество с И
+  dup check: new (Train collision south of Madrid with at least 10 dead, occurring during election campaign, new accident details.)
+  written by GigaChat-2-Max
+  not about Mauritius: Espagne : au moins 10 morts dans une collision entre deux trains au sud de Madrid
+Skipped foreign news (Defimedia): Espagne : au moins 10 morts dans une collision entre deux trains au sud de Madrid
+LLM usage this run: 5 requests, 8230 tokens
