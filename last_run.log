@@ -18,3 +18,8 @@ Skipped duplicate (Defimedia): « Au Cœur de l'Info » :– Pas de progrès san
   leftovers fixed by qwen/qwen3.8-27b; still left: Lalit, Nationalité
 Posted (Defimedia): Пересмотр конституции: 106 депутатов, меньше министров, креольский язык в парламенте и светское государство — среди предложений Lalit
 LLM usage this run: 5 requests, 7350 tokens
+### check 4/5 at 22:06
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Portrait l Rudy Soobaroyen : du collège du Saint-Esprit à Melbourne, un parcours de la finance à l’é
+Skipped foreign news (L'Express): Portrait l Rudy Soobaroyen : du collège du Saint-Esprit à Melbourne, un parcours de la finance à l’é
+LLM usage this run: 1 requests, 2870 tokens
