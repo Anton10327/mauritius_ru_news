@@ -1,30 +1,12 @@
-### check 1/5 at 07:17
-  dup check: new (В статье описан новый случай кражи: в гараже в Vallée-des-Prêtres украли 30 000 рупий из незапертой машины, владелец сообщил о происшествии полиции. Э)
+### check 1/5 at 08:05
+  dup check: new (Запуск программы Improvement of Counter/Customer Services Scheme с бюджетом 800 000 рупий на 2026–27 финансовый год и лимитом финансирования до 50 000)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): VALLÉE-DES-PRÊTRES: 30 000 рупий украдены из автомобиля в гараже
-LLM usage this run: 3 requests, 4451 tokens
-### check 2/5 at 07:21
-  dup check: new (Snapchat впервые предстанет перед жюри по обвинениям в зависимости у молодёжи, вместе с Instagram (Meta), который уже был осуждён в этом году. Это пер)
-  not about Mauritius: Réseaux sociaux et santé mentale : Snapchat face à un jury pour la première fois avec Instagram
-Skipped foreign news (Defimedia): Réseaux sociaux et santé mentale : Snapchat face à un jury pour la première fois avec Instagram
-  dup check: new (Сержант Ramuth утверждает, что видел сержанта Taukoor с оружием в руках и в позиции для стрельбы после проезда фургона Элоди Томас. Это заявление сдел)
-  proofread: Элодия Томас → Элоди Томас
-Posted (Defimedia): Дело Elodie Thomas: сержант утверждает, что видел Taukoor с оружием и в положении для стрельбы
-LLM usage this run: 5 requests, 9040 tokens
-### check 3/5 at 07:25
-  dup check: new (Girish Ramjuttun demande une révision des salaires dans l’hôtellerie et soulève la concurrence avec le secteur de la croisière; aucune information sim)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Hard Talk: Girish Ramjuttun призывает пересмотреть зарплаты в гостиничном секторе
-  dup check: new (В статье упоминается, что в эфире Hard Talk 16 июля 2026 года Georges Ah Yan из Fron Komin La Voix Lepep заявил о росте преступности и наркоторговли в)
-  proofread: Georges Ah Yan → Жорж Ах Янь
-Posted (Top FM): Mahébourg: жители обеспокоены ростом преступности и наркоторговли
-LLM usage this run: 6 requests, 7992 tokens
-### check 4/5 at 07:29
-  dup check: new (В статье упоминается интервью с Aurèle Andréy, где он говорит о значении темы «FAM MOTER TRAIL» для 17-й редакции Trail de Rodrigues и роли женщин в д)
-  not news (portrait/lifestyle): Aurèle André : «FAM MOTER TRAIL est un sursaut vers l’avenir»
-Skipped foreign news (L'Express): Aurèle André : «FAM MOTER TRAIL est un sursaut vers l’avenir»
-  dup check: new (В статье обсуждается экономика голубого сектора (économie bleue) и обозначаются Mahébourg и Grand-Port как будущие стратегические центры. Это новая те)
-  not news (portrait/lifestyle): L'économie bleue au centre des débats : Mahébourg et Grand-Port comme futurs pôles stratégiques
-Skipped foreign news (Top FM): L'économie bleue au centre des débats : Mahébourg et Grand-Port comme futurs pôles stratégiques
-LLM usage this run: 4 requests, 6807 tokens
-### check 5/5 at 07:33
+Posted (Le Mauricien): ГОСУДАРСТВЕННАЯ СЛУЖБА: 800 000 рупий на улучшение обслуживания в окнах
+  dup check: new (Steven Cité скончался от ожогов, полученных при взрыве бочки с гербицидом в Camp-Marcelin; его жена остаётся в реанимации. В ранее опубликованных стат)
+  proofread: avenue Saint-Joseph → авеню Сен-Жозеф; hôpital sir Anerood Jugnauth → госпиталь сэра Анеруда Джагнота
+Posted (L'Express): Взрыв в Camp-Marcelin: Steven Cité скончался от ожогов, его жена по-прежнему в реанимации
+  dup: nothing new ()
+Skipped duplicate (L'Express): La pluie n’est pas coupable == Общественное здравоохранение — Visiting Doctor Scheme: иностранные специалисты на помощь в
+  dup check: new (Выделены дополнительные Rs 196,5 млн на очистку стоков и рек; очищено уже 359,7 км дренажей (осталось 175 км); для рек и водотоков осталось почистить )
+Posted (Le Mauricien): Сезон циклонов: дополнительно выделено 196,5 млн рупий, предстоит обработать более 300 км дрен и русел рек
+LLM usage this run: 10 requests, 16585 tokens
