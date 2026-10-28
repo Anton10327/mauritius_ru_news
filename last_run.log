@@ -3,3 +3,9 @@
   proofread: Роше-Буа → РОШ-БУА; Alfred-Besnard → Альфреда-Бенара
 Posted (Le Mauricien): Roche-Bois: молодого человека нашли без сознания на дороге
 LLM usage this run: 3 requests, 4061 tokens
+### check 2/5 at 09:30
+  not news (portrait/lifestyle): The winter of discontent
+Skipped foreign news (L'Express): The winter of discontent
+  dup check: new (С 30 октября водители смогут оплачивать определённые дорожные штрафы онлайн через MauPass, MauCAS или банковскую карту; система сначала коснётся наруш)
+Posted (Inside News): Онлайн-оплата дорожных штрафов с 30 октября: что изменится для водителей
+LLM usage this run: 4 requests, 6366 tokens
