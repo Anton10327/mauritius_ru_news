@@ -1,17 +1,13 @@
-### check 1/5 at 20:13
-  dup check: new (Le rapport de 35 pages du National Economic and Social Council (NESC) sur la gestion de l’eau, présenté au gouvernement en 2014, est ressorti après 12)
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): «National Economic and Social Council» :  Douze ans après, ses recommandations sur l’eau sortent du 
-Skipped foreign news (L'Express): «National Economic and Social Council» :  Douze ans après, ses recommandations sur l’eau sortent du 
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Échiquier politique — Rendez-vous : Ramgoolam au sommet du Commonwealth dimanche == Navin Ramgoolam выступит на саммите Сообщества, затем поедет на Парижский форум мира
-LLM usage this run: 3 requests, 6061 tokens
-### check 2/5 at 20:17
-### check 3/5 at 20:21
-  dup check: new (Отсутствие победителя в розыгрыше Loto и Loto Plus 28 октября, а также текущие оценки джекпотов: около Rs 25 млн для Loto и Rs 55 млн для Loto Plus.)
+### check 1/5 at 21:08
+  dup check: new (Arrestation de deux officiers de la NCG pour complicité dans le scandale lié au téléphone du capitaine du yacht thaïlandais, révélant un réseau d'infi)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Loto и Loto Plus: в среду 28 октября не нашлось большого победителя
-LLM usage this run: 3 requests, 4756 tokens
-### check 4/5 at 20:25
-### check 5/5 at 20:29
+  proofread: капитана тайского яхта → капитана тайского яхты
+  foreign words left: Concentrix
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Defimedia): Что находится в телефоне, который заставляет NCG дрожать
+  dup check: new (Constable Ashley Lindsay Duval (38, Rose‑Belle police) pleaded not guilty on 28 October 2026 at the Intermediate Court in Port‑Louis for alleged curfe)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): В Промежуточном суде: констебль Ashley Lindsay Duval признал себя невиновным
+LLM usage this run: 7 requests, 11414 tokens
