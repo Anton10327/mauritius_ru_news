@@ -9,3 +9,12 @@ Skipped foreign news (L'Express): The winter of discontent
   dup check: new (С 30 октября водители смогут оплачивать определённые дорожные штрафы онлайн через MauPass, MauCAS или банковскую карту; система сначала коснётся наруш)
 Posted (Inside News): Онлайн-оплата дорожных штрафов с 30 октября: что изменится для водителей
 LLM usage this run: 4 requests, 6366 tokens
+### check 3/5 at 09:34
+  dup check: new (В статье сообщается о расследовании предполагаемой морской поставки более одной тонны каннабиса между Таиландом и Маврикием, проведённом Anti Drug and)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Предполагаемый морской трафик между Таиландом и Маврикием: ADSU расследует две поставки более тонны каннабиса в общей сложности
+  dup check: new (В статье впервые сообщается, что правительство рассматривает возможность не только исключения нарушителей из реестра Small Farmers Welfare Fund, но и )
+Posted (Defimedia): Злоупотребление пестицидами: власти рассматривают санкции против недобросовестных плантаторов
+  dup: nothing new ()
+Skipped duplicate (L'Express): Essaimer plutot que centraliser == Конвенция Найроби: Маврикий принимает председательство на COP12
+LLM usage this run: 7 requests, 9740 tokens
