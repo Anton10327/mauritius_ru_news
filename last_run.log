@@ -1,26 +1,5 @@
-### check 1/5 at 08:49
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Blog] La réduction de la dette publique doit-elle être prioritaire face à la hausse du co == CEB: плановые отключения электричества в пяти регионах с 26 по 29 октября
-  dup: nothing new (В статье упоминается, что сорт Red Ruby может выращиваться в разных регионах острова, включая период межсезонья. Это уточнение о возможности культивац)
-Skipped duplicate (Inside News): Oignons : Maurice importe encore 65 % de sa consommation == Red Ruby: Маврикий выводит новый сорт лука, чтобы снизить зависимость от импорта
-  dup: nothing new (Министр Shakeel Mohamed представил в Лондоне амбиции Маврикия стать мировой платформой для развития и управления вакфом, приглашая исламские банки, уп)
-Skipped duplicate (Le Mauricien): FINANCE ISLAMIQUE : Maurice se positionne comme un hub mondial du Waqf == Waqf: Маврикий хочет модернизировать закон 1941 года, чтобы привлечь исламскую социальную 
-  dup: nothing new (Прогноз на лето 2026-2027: ожидается снижение осадков на 20% по сравнению с нормой, общий объём дождей около 1100 мм за сезон; температура может дости)
-Skipped duplicate (Le Mauricien): Été 2026-2027 : 20 % de pluie en moins, jusqu’à 36 °C et cinq à sept tempêtes prévues == Лето 2026-2027: MMS озвучивает прогноз
-LLM usage this run: 4 requests, 4151 tokens
-### check 2/5 at 08:53
-  dup check: new (Речь министра транспорта о лишении лицензии такси в Queen Victoria и угрозе санкций для четырёх операторов Camp Ithier; предложение новой маршрутки Qu)
-  proofread: «внутри коллиматора» → «под прицелом»; "Национальная земельно-транспортная администрация" → "Национальная земельно-транспортная администрация (NLTA)"; Osman Mahomed → Осман Мохомед
-Posted (Top FM): Транспорт: лицензия на такси отозвана в Queen Victoria, четыре оператора «под прицелом» NLTA в Camp Ithier; предложен шаттл Queen Victoria–Flacq как альтернатива
-  dup check: new (В статье приведены новые важные цифры: в 2025 году зарегистрировано 778 случаев сексуального насилия и эксплуатации несовершеннолетних, что на 14,1% б)
-Posted (Top FM): Сексуальные преступления против несовершеннолетних: число случаев постоянно растёт с 2012 года
-  dup check: new (Министр труда и промышленных отношений Reza Uteem заявил о необходимости углубленного анализа рынка труда для понимания расхождения между 32 000 безра)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Рынок труда: 32 000 безработных на фоне 65 000 иностранных работников
-LLM usage this run: 9 requests, 13780 tokens
-### check 3/5 at 08:57
-### check 4/5 at 09:01
-  dup: nothing new ()
-Skipped duplicate (L'Express): Affaire Kistnen : le deuxième téléphone portable retrouvé six ans après == PNQ — дело Kistnen: второй мобильный телефон, считавшийся утерянным шесть лет, обнаружен у
-LLM usage this run: 1 requests, 908 tokens
-### check 5/5 at 09:05
+### check 1/5 at 09:26
+  dup check: new (Обнаружен молодой человек 25 лет, найденный без сознания на дороге в Roche-Bois; он сообщил о нападении, но не смог дать деталей. Это новое происшеств)
+  proofread: Роше-Буа → РОШ-БУА; Alfred-Besnard → Альфреда-Бенара
+Posted (Le Mauricien): Roche-Bois: молодого человека нашли без сознания на дороге
+LLM usage this run: 3 requests, 4061 tokens
