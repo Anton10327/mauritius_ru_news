@@ -1,11 +1,1 @@
-### check 1/5 at 23:28
-  dup check: new (Départ de la délégation de dix athlètes mauriciens pour les Jeux Olympiques de la Jeunesse Dakar 2026, présentation officielle de la délégation au Mau)
-LLM per-minute limit, waiting 30s
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
-  written by openai/gpt-oss-120b
-Posted (Le Mauricien): Молодые спортсмены Маврикия готовы представлять страну на Юношеских Олимпийских играх в Дакаре 2026
-LLM usage this run: 2 requests, 5245 tokens
-### check 2/5 at 23:32
-### check 3/5 at 23:36
-### check 4/5 at 23:40
-### check 5/5 at 23:44
+### check 1/5 at 00:15
