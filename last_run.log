@@ -1,14 +1,12 @@
-### check 1/5 at 05:41
-GigaChat balance: GigaChat-Ultra 48,239,554, GigaChat-Pro 38,438,844, GigaChat-Max 24,574,647, GigaChat 249,660,117; 357 days to go
-  dup: nothing new (Прогноз погоды на 28 октября: частично облачно, возможны локальные дожди в южных и восточных районах и на центральном плато; минимальные температуры о)
-Skipped duplicate (Inside News): Météo : un mercredi matin nuageux, avec quelques averses localisées == Прогноз погоды: летние дожди к середине ноября, до 37 °C и от пяти до семи циклонических о
-LLM usage this run: 1 requests, 1474 tokens
-### check 2/5 at 05:45
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Importateurs avertissent : des frais de dédouanement de 1 000 roupies pourraient faire gri == Импорт продуктов питания: новый сбор в 1000 рупий, который может увеличить счета
-  dup check: new (Компания Stewards Inc. начала торги на Nasdaq Capital Market 10 сентября, и это первый случай размещения аффилированной или инвестиционной компании с )
-Posted (L'Express): Glen Steward: «Мы — первая компания с маврикийскими корнями, разместившая аффилированную или портфельную компанию на Nasdaq»
-LLM usage this run: 4 requests, 5019 tokens
-### check 3/5 at 05:49
-### check 4/5 at 05:53
-### check 5/5 at 05:57
+### check 1/5 at 06:28
+  dup check: new (В статье указаны новые детали по делу Kistnen: обнаружены и изъяты второй телефон «Kaya» спустя шесть лет, уничтожены 98% данных системы Safe City, а )
+  foreign words left: l'express, Kaya
+  leftovers fixed by GigaChat-3-Pro; still left: Kaya
+Posted (L'Express): Главные заголовки «Экспресс» за среду, 28 октября 2026 года
+  dup check: new (В статье представлены предварительные результаты выборов в Израиле: ни одна из сторон не получила большинства, лагерь Гади Эйзенкота имеет 52 места, а)
+  not about Mauritius: Élections en Israël: pas de majorité, et maintenant ?
+Skipped foreign news (Defimedia): Élections en Israël: pas de majorité, et maintenant ?
+  dup check: new (Циклон Арнаб обрушился на Индию, власти эвакуировали около 100 000 человек; скорость ветра достигала 125–135 км/ч с порывами до 150 км/ч.)
+  not about Mauritius: Le cyclone Arnab s'abat sur l'Inde, des milliers de personnes évacuées
+Skipped foreign news (Defimedia): Le cyclone Arnab s'abat sur l'Inde, des milliers de personnes évacuées
+LLM usage this run: 8 requests, 14056 tokens
