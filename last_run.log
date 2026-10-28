@@ -27,3 +27,13 @@ Skipped foreign news (Top FM): Japon : 34 jours de pluie consécutifs, Tokyo bat
 Skipped foreign news (Top FM): Royaume-Uni : les réseaux sociaux interdits aux moins de 16 ans à partir de mars 2027
 LLM usage this run: 6 requests, 10036 tokens
 ### check 3/5 at 10:19
+### check 4/5 at 10:23
+  dup check: new (Divsha Jharittaya заняла третье место в 19-м международном конкурсе Chinese Bridge World Chinese Language среди школьников; она участвовала как предст)
+  proofread: GaÃ«tan Raynal → Gaëtan Raynal; UniversitÃ© de Maurice → Университет Маврикия; Institut Confucius de Maurice → Institut Confucius de Maurice; Tianjin, en Chine → Тяньцзинь, Китай; courant septembre → в сентябре; lâinstitution → учреждение; pourvu → обеспечила; maÃ®trise → владение; guerre de la guit
+  foreign words left: Gaëtan
+  leftovers fixed by GigaChat-3-Pro; still left: Gaëtan
+Posted (Le Mauricien): КОНКУРС — Chinese Bridge World Chinese Language: Divsha Jharittaya завоевала третью премию мира
+  dup check: new (В статье указано, что с 30 октября по 1 ноября будут временно закрыты дороги в Plaine-Champagne, La Nicolière и Chamarel из-за проведения трёх этапов )
+  proofread: Plaine-Champagne → Плаин-Шампань; La Nicolière → Ла-Никольер; Chamarel → Шамарель
+Posted (Le Mauricien): Ралли: дороги будут перекрыты в Plaine-Champagne, La Nicolière и Chamarel с 30 октября по 1 ноября
+LLM usage this run: 7 requests, 9738 tokens
