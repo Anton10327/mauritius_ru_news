@@ -42,3 +42,10 @@ Skipped foreign news (Defimedia): Cambodge : 200 résidents d'une croisière au 
 Skipped foreign news (Defimedia): Brenda Thanacoody : «Les épreuves du HSC auraient pu être organisées plus tard»
 LLM usage this run: 7 requests, 9810 tokens
 ### check 4/5 at 13:23
+### check 5/5 at 13:27
+  dup check: new (Создан Select Committee, посвящённый статусу креольского языка Креол Морисен в парламенте Маврикия, объявленный в рамках Международного дня креольских)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Арно Карпорэн → Arnaud Carpooran; Лайонел ЛаЖуа → Lionel Lajoie
+Posted (Top FM): Комитет парламента займётся статусом маврикийского креольского языка
+LLM usage this run: 3 requests, 4949 tokens
