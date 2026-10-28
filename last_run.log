@@ -34,3 +34,18 @@ Skipped duplicate (Le Mauricien): Meurtre présumé à La Caverne: agressé à s
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): FLACQ — Explosion d’un bidon herbicide : Un père de 3 enfants succombe à ses graves brûlur == Мужчина погиб после взрыва контейнера с гербицидом в Flacq
 LLM usage this run: 8 requests, 12441 tokens
+### check 4/5 at 12:31
+  dup check: new (Résultats des élections législatives israéliennes du 28 octobre 2026 : participation nationale de 77,7 %, 66,2 % des urnes dépouillées, Benjamin Netan)
+  written by GigaChat-2-Max
+  not about Mauritius: Election en Israël : Netanyahu en tête, le vote arabe pourrait décider du prochain gouvernement
+Skipped foreign news (Inside News): Election en Israël : Netanyahu en tête, le vote arabe pourrait décider du prochain gouvernement
+  dup check: new (28 octobre 2026 – nouvelle activité éruptive du volcan Dukono à Halmahera avec une colonne de cendres atteignant ~2100 m, observations aéronautiques e)
+  written by GigaChat-2-Max
+  not about Mauritius: [video]Dukono : nouvelles cendres à Halmahera, cinq mois après la mort de trois randonneurs
+Skipped foreign news (Inside News): [video]Dukono : nouvelles cendres à Halmahera, cinq mois après la mort de trois randonneurs
+  dup check: new (Сообщение о текущих протечках воды в улицах острова, приводящих к потере литров воды, несмотря на призывы к экономии; отсутствие реакции на сообщения )
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Шьям Тану → Shiam Thanoo
+Posted (Top FM): Утечки воды: литры теряются, пока население призывают экономить
+LLM usage this run: 7 requests, 12079 tokens
