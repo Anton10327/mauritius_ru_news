@@ -1,26 +1,16 @@
-### check 1/5 at 09:26
-  dup check: new (Обнаружен молодой человек 25 лет, найденный без сознания на дороге в Roche-Bois; он сообщил о нападении, но не смог дать деталей. Это новое происшеств)
-  proofread: Роше-Буа → РОШ-БУА; Alfred-Besnard → Альфреда-Бенара
-Posted (Le Mauricien): Roche-Bois: молодого человека нашли без сознания на дороге
-LLM usage this run: 3 requests, 4061 tokens
-### check 2/5 at 09:30
-  not news (portrait/lifestyle): The winter of discontent
-Skipped foreign news (L'Express): The winter of discontent
-  dup check: new (С 30 октября водители смогут оплачивать определённые дорожные штрафы онлайн через MauPass, MauCAS или банковскую карту; система сначала коснётся наруш)
-Posted (Inside News): Онлайн-оплата дорожных штрафов с 30 октября: что изменится для водителей
-LLM usage this run: 4 requests, 6366 tokens
-### check 3/5 at 09:34
-  dup check: new (В статье сообщается о расследовании предполагаемой морской поставки более одной тонны каннабиса между Таиландом и Маврикием, проведённом Anti Drug and)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Предполагаемый морской трафик между Таиландом и Маврикием: ADSU расследует две поставки более тонны каннабиса в общей сложности
-  dup check: new (В статье впервые сообщается, что правительство рассматривает возможность не только исключения нарушителей из реестра Small Farmers Welfare Fund, но и )
-Posted (Defimedia): Злоупотребление пестицидами: власти рассматривают санкции против недобросовестных плантаторов
-  dup: nothing new ()
-Skipped duplicate (L'Express): Essaimer plutot que centraliser == Конвенция Найроби: Маврикий принимает председательство на COP12
-LLM usage this run: 7 requests, 9740 tokens
-### check 4/5 at 09:38
-### check 5/5 at 09:42
-  dup check: new (В статье говорится о том, что на конференции Института внутренних аудиторов никто не поднял руку в ответ на вопрос об участии организации хотя бы в од)
-  not about Mauritius: The board did not say
-Skipped foreign news (L'Express): The board did not say
-LLM usage this run: 2 requests, 3148 tokens
+### check 1/5 at 10:11
+  dup check: new (Сержант Ramuth впервые публично заявил, что видел сержанта Taukoor с оружием в положении для стрельбы непосредственно перед тем, как 27-летняя Élodie )
+Bad LLM answer from GigaChat-3-Ultra: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"К сожалению, иногда генеративные языковые модели могут создавать некорректные ответы, основанные на открытых источниках. Во избежание неправильного толкования, ответы на вопросы, связанные с чувствительными темами, временно ограничены. Благодарим за понимание.","ro
+  written by GigaChat-2-Max
+  proofread: Рамут → Рамут (имя собственное); Таукоор → Таукоор (имя собственное)
+Posted (Wazaa): Сержант Ramuth утверждает, что коллега направил оружие перед стрельбой
+  dup check: new (В статье сообщается о новом событии: 27 октября в Vacoas мужчина (32 года) был жестоко избит шестью нападавшими у себя дома и скончался от полученных )
+  proofread: La Caverne → Ла-Каверн (склоняется); в чёрном → в чёрных
+Posted (L'Express): Vacoas: мужчина скончался после жестокого нападения в своём доме
+  dup check: new (В статье упоминается, что в Roche-Bois был найден молодой человек без сознания на дороге (новое событие), а также приводятся новые детали о погоде: ож)
+  not news (portrait/lifestyle): La caricature du Mauricien du 27 octobre 2026
+Skipped foreign news (Le Mauricien): La caricature du Mauricien du 27 octobre 2026
+  dup check: new (Циклон Arnab обрушился на юго-восточное побережье Индии, вызвав эвакуацию десятков тысяч человек; скорость ветра достигала 140 км/ч; по состоянию на у)
+  not about Mauritius: Les côtes du sud-est de l'Inde balayées par les vents et les pluies du cyclone Arnab
+Skipped foreign news (Defimedia): Les côtes du sud-est de l'Inde balayées par les vents et les pluies du cyclone Arnab
+LLM usage this run: 11 requests, 19145 tokens
