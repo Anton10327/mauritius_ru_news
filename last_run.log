@@ -20,3 +20,17 @@ Posted (Defimedia): Simla Kistnen: «Моими страданиями восп�
   same headline as #96: Air Mauritius : le gouvernement envisage le démantèlement d’Airport Holdings
 Skipped duplicate (L'Express): PMQT l Airport Holdings Ltd : le gouvernement envisage son démantèlement == Правительство рассматривает возможность ликвидации Airport Holdings
 LLM usage this run: 9 requests, 16476 tokens
+### check 3/5 at 12:27
+  dup check: new (Министерство образования опубликовало уточнения по экзаменам Cambridge SC, HSC, GCE и IGCSE 2026 года и механизму оценочных баллов (assessed mark), а )
+  written by GigaChat-2-Max
+  proofread: «assessed mark» → «оцениваемая отметка»
+Posted (Inside News): Экзамены 2026 года: важные даты и детали для кандидатов
+  dup check: new (В статье упоминается, что на Маврикии количество осадков может быть немного ниже нормы, а первые летние дожди ожидаются в конце ноября. Также отмечает)
+  written by GigaChat-2-Max
+  proofread: Служба метеорологии Маврикия (MMS) → Служба метеорологии Маврикия (MMS); El Niño → Эль-Ниньо; « Nous nous attendons, avec ce phÃ©nomÃ¨ne El NiÃ±o et ...» → «Мы ожидаем, что при этом явлении Эль-Ниньо и ...»
+Posted (Le Mauricien): Предупреждение Службы метеорологии Маврикия: Эль-Ниньо грозит аномально жарким летом
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Meurtre présumé à La Caverne: agressé à son domicile par six individus, un homme de 32 ans == Vacoas: мужчина скончался после жестокого нападения в своём доме
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): FLACQ — Explosion d’un bidon herbicide : Un père de 3 enfants succombe à ses graves brûlur == Мужчина погиб после взрыва контейнера с гербицидом в Flacq
+LLM usage this run: 8 requests, 12441 tokens
