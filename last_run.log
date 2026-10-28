@@ -1,58 +1,16 @@
-### check 1/5 at 12:19
-  dup check: new (Арестован новый подозреваемый (52-летний безработный из Sainte-Croix) по делу о краже на сумму 1 миллион рупий в Plaine-Verte; он признался во время д)
-  proofread: Criminal Investigation Division de Metro Nord → Criminal Investigation Division de Metro Nord
-Posted (Le Mauricien): Plaine-Verte: задержан за кражу предметов на сумму 1 млн рупий
-  dup check: new (Создана новая государственная компания National Health Infrastructure Ltd, которой поручено обслуживание и модернизация более 130 медицинских учрежден)
-Posted (Le Mauricien): Общественное здравоохранение: обслуживание более 130 медучреждений поручено новой компании
-  dup check: new (Lux Island Resorts зафиксировала рост выручки на 5% до 2,4 млрд рупий за квартал, завершившийся 30 сентября; компания также снизила долговую нагрузку.)
-Posted (Le Mauricien): Гостиничный сектор — финансовые показатели: Lux Island Resorts держит курс несмотря на геополитическую напряженность
+### check 1/5 at 13:11
   dup: nothing new ()
-Skipped duplicate (Inside News): Exportations : Rs 110 milliards attendus en 2026, mais les emplois continuent de diminuer == Экономика — Экспорт: ожидаемый рост на 2%, до 110 млрд рупий в 2026 году
-LLM usage this run: 10 requests, 15223 tokens
-### check 2/5 at 12:23
-  dup check: new (Новая статья сообщает о проведении 4-го этапа Лиги национального выездки 2026 года, который состоится 7 ноября в клубе верховой езды Северного округа.)
-Posted (Le Mauricien): Верховая езда – выездка: Клуб верховой езды Севера принимает 4-й этап Национальной лиги по выездке 2026
-  dup check: new (В новой статье впервые указано, что все восемь членов экипажа (семь арестованных ранее и восьмой задержанный 27 октября) помещены в предварительное за)
-Posted (Le Mauricien): Торговля наркотиками — на фоне беспорядков: яхта Dreamer, как предполагается, перевезла крупные партии наркотиков
-  dup check: new (В статье приводится новое интервью вдовы Simla Kistnen, в котором она заявляет о чувстве быть оставленной без внимания и упоминает визиты политических)
-  proofread: Telfair → Телфер; в поле сахарного тростника → в поле сахарного тростника
-Posted (Defimedia): Simla Kistnen: «Моими страданиями воспользовались, чтобы выиграть выборы»
-  same headline as #96: Air Mauritius : le gouvernement envisage le démantèlement d’Airport Holdings
-Skipped duplicate (L'Express): PMQT l Airport Holdings Ltd : le gouvernement envisage son démantèlement == Правительство рассматривает возможность ликвидации Airport Holdings
-LLM usage this run: 9 requests, 16476 tokens
-### check 3/5 at 12:27
-  dup check: new (Министерство образования опубликовало уточнения по экзаменам Cambridge SC, HSC, GCE и IGCSE 2026 года и механизму оценочных баллов (assessed mark), а )
-  written by GigaChat-2-Max
-  proofread: «assessed mark» → «оцениваемая отметка»
-Posted (Inside News): Экзамены 2026 года: важные даты и детали для кандидатов
-  dup check: new (В статье упоминается, что на Маврикии количество осадков может быть немного ниже нормы, а первые летние дожди ожидаются в конце ноября. Также отмечает)
-  written by GigaChat-2-Max
-  proofread: Служба метеорологии Маврикия (MMS) → Служба метеорологии Маврикия (MMS); El Niño → Эль-Ниньо; « Nous nous attendons, avec ce phÃ©nomÃ¨ne El NiÃ±o et ...» → «Мы ожидаем, что при этом явлении Эль-Ниньо и ...»
-Posted (Le Mauricien): Предупреждение Службы метеорологии Маврикия: Эль-Ниньо грозит аномально жарким летом
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Meurtre présumé à La Caverne: agressé à son domicile par six individus, un homme de 32 ans == Vacoas: мужчина скончался после жестокого нападения в своём доме
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): FLACQ — Explosion d’un bidon herbicide : Un père de 3 enfants succombe à ses graves brûlur == Мужчина погиб после взрыва контейнера с гербицидом в Flacq
-LLM usage this run: 8 requests, 12441 tokens
-### check 4/5 at 12:31
-  dup check: new (Résultats des élections législatives israéliennes du 28 octobre 2026 : participation nationale de 77,7 %, 66,2 % des urnes dépouillées, Benjamin Netan)
-  written by GigaChat-2-Max
-  not about Mauritius: Election en Israël : Netanyahu en tête, le vote arabe pourrait décider du prochain gouvernement
-Skipped foreign news (Inside News): Election en Israël : Netanyahu en tête, le vote arabe pourrait décider du prochain gouvernement
-  dup check: new (28 octobre 2026 – nouvelle activité éruptive du volcan Dukono à Halmahera avec une colonne de cendres atteignant ~2100 m, observations aéronautiques e)
-  written by GigaChat-2-Max
-  not about Mauritius: [video]Dukono : nouvelles cendres à Halmahera, cinq mois après la mort de trois randonneurs
-Skipped foreign news (Inside News): [video]Dukono : nouvelles cendres à Halmahera, cinq mois après la mort de trois randonneurs
-  dup check: new (Сообщение о текущих протечках воды в улицах острова, приводящих к потере литров воды, несмотря на призывы к экономии; отсутствие реакции на сообщения )
+Skipped duplicate (Inside News): Troubles d’octobre : Maurice sollicite la France pour évaluer sa police == После недавних беспорядков правительство планирует аудит полицейских сил
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Шьям Тану → Shiam Thanoo
-Posted (Top FM): Утечки воды: литры теряются, пока население призывают экономить
-LLM usage this run: 7 requests, 12079 tokens
-### check 5/5 at 12:35
-  dup check: new (Саботаж судна Bellone, стоимость операции, возможная продажа, подозрения в исчезновении деталей, комментарий эксперта Алана Мальерба о финансовых поте)
+Posted (Inside News): Контролируемые цены: QR-код поможет потребителям проверять тарифы
+  dup check: new (В статье указана новая цифра – ожидаемые поступления от компаний в размере Rs 58,9 млрд за 2026‑2027 годы, а также упомянуто, что депутат Ram Etwareea)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Гран-Бэй → Grand-Baie
-Posted (Top FM): Потопление судна Bellone вызвало вопросы к Управлению портов Маврикия
-LLM usage this run: 3 requests, 4691 tokens
+  proofread: Рам Этварея → Ram Etwareea; Навин Рамгулам → Navin Ramgoolam
+Posted (L'Express): От предприятий ждут налоговых поступлений на сумму 58,9 млрд рупий в 2026–2027 годах
+  dup check: new (Jayesh Julloo, 21‑year‑old leader of WhatsApp group « GEN Z », was released on bail (Rs 15 000) after the DPP office withdrew opposition; he also sign)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Участника группы «GEN Z»: выпущен под залог
+LLM usage this run: 9 requests, 15292 tokens
