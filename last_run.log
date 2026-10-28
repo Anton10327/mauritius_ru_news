@@ -1,67 +1,11 @@
-### check 1/5 at 11:22
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  dup check: new (В статье утверждается, что изменение климата должно быть объявлено "чрезвычайной ситуацией в области здравоохранения мирового масштаба" для того, чтоб)
-  not about Mauritius: Santé : le changement climatique doit être déclaré "urgence sanitaire mondiale", dit un rapport de r
-Skipped foreign news (Defimedia): Santé : le changement climatique doit être déclaré "urgence sanitaire mondiale", dit un rapport de r
+### check 1/5 at 12:19
+  dup check: new (Арестован новый подозреваемый (52-летний безработный из Sainte-Croix) по делу о краже на сумму 1 миллион рупий в Plaine-Verte; он признался во время д)
+  proofread: Criminal Investigation Division de Metro Nord → Criminal Investigation Division de Metro Nord
+Posted (Le Mauricien): Plaine-Verte: задержан за кражу предметов на сумму 1 млн рупий
+  dup check: new (Создана новая государственная компания National Health Infrastructure Ltd, которой поручено обслуживание и модернизация более 130 медицинских учрежден)
+Posted (Le Mauricien): Общественное здравоохранение: обслуживание более 130 медучреждений поручено новой компании
+  dup check: new (Lux Island Resorts зафиксировала рост выручки на 5% до 2,4 млрд рупий за квартал, завершившийся 30 сентября; компания также снизила долговую нагрузку.)
+Posted (Le Mauricien): Гостиничный сектор — финансовые показатели: Lux Island Resorts держит курс несмотря на геополитическую напряженность
   dup: nothing new ()
-Skipped duplicate (Defimedia): Vacoas : un homme de 32 ans décède après une agression présumée par six hommes encagoulés  == Vacoas: мужчина скончался после жестокого нападения в своём доме
-  dup: nothing new ()
-Skipped duplicate (L'Express): Violation du couvre-feu : Douze hommes condamnés à des peines allant de trois mois à un an == Нарушение комендантского часа: от трёх до двенадцати месяцев тюрьмы для двенадцати обвиняе
-  dup check: new (Полиция официально запросила экспертизу Франции для пересмотра своих стратегий вмешательства; это конкретное решение о привлечении французских специал)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Maurice
-  leftovers fixed by GigaChat-3-Pro; still left: Maurice
-Posted (L'Express): Напряженность в стране: полиция привлекает французскую экспертизу для пересмотра своих стратегий вмешательства
-LLM usage this run: 8 requests, 11261 tokens
-### check 2/5 at 11:26
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  dup check: new (Cyclone Arnab has hit Andhra Pradesh with winds up to 140 km/h; more than 180,000 people were evacuated in Andhra Pradesh and Odisha. No deaths report)
-  not about Mauritius: [videos] Cyclone Arnab touche l’Inde : plus de 180 000 personnes évacuées
-Skipped foreign news (Inside News): [videos] Cyclone Arnab touche l’Inde : plus de 180 000 personnes évacuées
-  dup check: new (В статье упоминается, что правительство Маврикия планирует усилить морскую безопасность через приобретение нового оборудования и усиление международно)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Морская безопасность: новое оборудование для усиления наблюдения за маврикийскими водами
-  dup: nothing new (В новой статье уточняется, что 26 октября семь молодых людей были осуждены за участие в сговоре с целью кражи и вандализма во время комендантского час)
-Skipped duplicate (Inside News): Émeutes d’octobre : sept jeunes condamnés, douze autres personnes écopent de peines de pri == Нарушение комендантского часа: от трёх до двенадцати месяцев тюрьмы для двенадцати обвиняе
-  dup check: new (В статье упоминается, что премьер-министр представил в Парламенте меры по удержанию молодых талантов и поощрению маврикийцев за рубежом к вкладу в раз)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Эмиграция: 76% опрошенных молодых маврикийцев рассматривают такой вариант
-LLM usage this run: 9 requests, 15181 tokens
-### check 3/5 at 11:30
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  dup check: new (Министр энергетики Patrick Assirvaden заявил, что потеря ёмкости водохранилища Mare-aux-Vacoas составляет 150 000 м³ за период с 1997 по 2026 год (мен)
-  proofread: Patrick Assirvaden → Патрик Ассирваден; Mare-aux-Vacoas → Мари-о-Вакоа
-Posted (Defimedia): Mare-aux-Vacoas: «Потеря объёма хранения незначительна», — заявил Patrick Assirvaden
-  dup: nothing new (В статье упоминается, что Navin Ramgoolam не уточнил детали изменений в Airport Holdings Ltd и привёл цифру активов компании — Rs 47,8 миллиардов. В о)
-Skipped duplicate (Defimedia): Démantèlement ou restructuration : l’avenir d’Airport Holdings Ltd reste incertain == Правительство рассматривает возможность ликвидации Airport Holdings
-  dup: nothing new (упоминается, что журналисты и адвокаты могли быть под наблюдением; также говорится о возможной важности двух мобильных телефонов для следствия (но не )
-Skipped duplicate (Defimedia): Affaire Kistnen : suppression massive des données informatiques à la police == PNQ — дело Kistnen: второй мобильный телефон, считавшийся утерянным шесть лет, обнаружен у
-  dup check: new (26 октября в районе Phoenix Mall подросток 17 лет был избит группой примерно из 15 человек и госпитализирован. Мотив нападения неизвестен, ведётся рас)
-  proofread: у станции метро → у станции метро
-Posted (Defimedia): Phoenix: 17-летнего подростка избила группа из примерно 15 человек
-LLM usage this run: 8 requests, 12098 tokens
-### check 4/5 at 11:34
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Accident fatal à Saint-Pierre: une femme de 81 ans percutée par une fourgonnette == Saint-Pierre: 80-летняя женщина скончалась после наезда фургона
-  dup check: new (22 октября в Pointe-aux-Piments произошло нападение на 60-летнего торговца с использованием сабли; подозреваемый перепрыгнул через забор и потребовал )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Пуэнт-о-Пим: подозреваемый перепрыгнул через забор и напал на торговца
-  dup: nothing new (В статье уточняется, что из девяти человек, покинувших Маврикий в связи с делом Silver Bank, шесть были допрошены как свидетели и трое — под предупреж)
-Skipped duplicate (L'Express): Silver Bank : des mandats d’arrêt envisagés contre neuf personnes ayant quitté Maurice == Дело Silver Bank: девять бывших руководителей покинули Маврикий, начато сотрудничество с И
-  dup: nothing new ()
-Skipped duplicate (Inside News): 76 % des jeunes envisagent de quitter Maurice : le gouvernement évoque de nouvelles mesure == Эмиграция молодежи: 76% молодых людей 18–25 лет рассматривают возможность покинуть Маврики
-LLM usage this run: 6 requests, 7806 tokens
-### check 5/5 at 11:38
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  dup check: new (Министерство туризма объявило о планах цифровизации выдачи лицензий на прогулочные суда к концу ноября 2026 года; система будет размещена на Националь)
-  proofread: Richard Duval → Ричард Дюваль
-Posted (Top FM): Лицензии на прогулочные суда станут цифровыми к концу ноября
-  dup check: new (Le PNUD a réuni des représentants du gouvernement, du secteur privé et de la société civile pour une première session du UNDP Mauritius Catalyst Circl)
-  proofread: «25 by 35» → «25 к 35»
-Posted (Top FM): Продовольственная безопасность: ПРООН мобилизует партнеров для укрепления местного производства
-  dup: nothing new ()
-Skipped duplicate (Top FM): Mare-aux-Vacoas : une étude de 1996 sert toujours de base à l’estimation des pertes de sto == Mare-aux-Vacoas: «Потеря объёма хранения незначительна», — заявил Patrick Assirvaden
-  dup: nothing new (Премьер-министр Navin Ramgoolam сообщил о намерении внести изменения в свою резолюцию по созданию парламентского комитета по делам несовершеннолетних )
-Skipped duplicate (Top FM): Comité parlementaire sur la délinquance juvénile : Navin Ramgoolam envisage de modifier sa == Парламент: создание комитета по подростковой преступности и Criminal Justice Bill в центре
-LLM usage this run: 8 requests, 11348 tokens
+Skipped duplicate (Inside News): Exportations : Rs 110 milliards attendus en 2026, mais les emplois continuent de diminuer == Экономика — Экспорт: ожидаемый рост на 2%, до 110 млрд рупий в 2026 году
+LLM usage this run: 10 requests, 15223 tokens
