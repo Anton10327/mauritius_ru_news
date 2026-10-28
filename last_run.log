@@ -11,3 +11,11 @@ Skipped foreign news (Defimedia): Réseaux sociaux et santé mentale : Snapchat 
   proofread: Элодия Томас → Элоди Томас
 Posted (Defimedia): Дело Elodie Thomas: сержант утверждает, что видел Taukoor с оружием и в положении для стрельбы
 LLM usage this run: 5 requests, 9040 tokens
+### check 3/5 at 07:25
+  dup check: new (Girish Ramjuttun demande une révision des salaires dans l’hôtellerie et soulève la concurrence avec le secteur de la croisière; aucune information sim)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Hard Talk: Girish Ramjuttun призывает пересмотреть зарплаты в гостиничном секторе
+  dup check: new (В статье упоминается, что в эфире Hard Talk 16 июля 2026 года Georges Ah Yan из Fron Komin La Voix Lepep заявил о росте преступности и наркоторговли в)
+  proofread: Georges Ah Yan → Жорж Ах Янь
+Posted (Top FM): Mahébourg: жители обеспокоены ростом преступности и наркоторговли
+LLM usage this run: 6 requests, 7992 tokens
