@@ -14,3 +14,15 @@ Skipped foreign news (Le Mauricien): La caricature du Mauricien du 27 octobre 20
   not about Mauritius: Les côtes du sud-est de l'Inde balayées par les vents et les pluies du cyclone Arnab
 Skipped foreign news (Defimedia): Les côtes du sud-est de l'Inde balayées par les vents et les pluies du cyclone Arnab
 LLM usage this run: 11 requests, 19145 tokens
+### check 2/5 at 10:15
+  dup check: new (В статье сообщается о гибели 80-летней женщины после наезда фургона в Saint-Pierre утром 28 октября. Это новое происшествие, не упоминавшееся ранее ср)
+  proofread: 
+Posted (L'Express): Saint-Pierre: 80-летняя женщина скончалась после наезда фургона
+  same headline as #143: Criminal Justice Bill : «L’immunité n’est pas un cadeau», affirme Navin Ramgoola
+Skipped duplicate (Top FM): Criminal Justice Bill adopté : « Nous ne voulons pas seulement arrêter les exécutants, mai == Закон об уголовном правосудии: «Иммунитет — не подарок», заявил Navin Ramgoolam
+  dup check: new (Япония: в Токио зафиксирован 34-й день подряд дождей, что является рекордом с 1886 года (предыдущий рекорд — 33 дня в 2019 году). Это необычно для кон)
+  not about Mauritius: Japon : 34 jours de pluie consécutifs, Tokyo bat un record vieux de 140 ans
+Skipped foreign news (Top FM): Japon : 34 jours de pluie consécutifs, Tokyo bat un record vieux de 140 ans
+  not about Mauritius: Royaume-Uni : les réseaux sociaux interdits aux moins de 16 ans à partir de mars 2027
+Skipped foreign news (Top FM): Royaume-Uni : les réseaux sociaux interdits aux moins de 16 ans à partir de mars 2027
+LLM usage this run: 6 requests, 10036 tokens
