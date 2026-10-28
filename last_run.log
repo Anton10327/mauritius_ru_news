@@ -14,3 +14,15 @@ Posted (L'Express): От предприятий ждут налоговых по
   proofread by qwen/qwen3.8-27b
 Posted (Le Mauricien): Участника группы «GEN Z»: выпущен под залог
 LLM usage this run: 9 requests, 15292 tokens
+### check 2/5 at 13:15
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Saba Sadool : «Briser les tabous autour de la santé mentale et libérer la parole autour de la souffr
+Skipped foreign news (L'Express): Saba Sadool : «Briser les tabous autour de la santé mentale et libérer la parole autour de la souffr
+  dup check: new (Указано, что £78 000 были переданы британским следователям (ex‑Scotland Yard) для расследования убийства Кистнена – эта финансовая деталь ранее не упо)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Кая Киштнена → Kaya Kistnen; Соопраманиена Киштнена → Soopramanien (Kaya) Kistnen; Навин Рамголам → Navin Ramgoolam
+Posted (Le Mauricien): Премьер-министр: пропавший телефон жертвы убийства Kaya Kistnen найден британскими экспертами
+  dup: nothing new ()
+Skipped duplicate (Inside News): Airport Holdings : la holding créée pendant la crise d’Air Mauritius appelée à disparaître == Правительство рассматривает возможность ликвидации Airport Holdings
+LLM usage this run: 5 requests, 10218 tokens
