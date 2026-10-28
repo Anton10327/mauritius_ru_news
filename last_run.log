@@ -1,51 +1,17 @@
-### check 1/5 at 13:11
+### check 1/5 at 14:07
+  dup check: new (Arrestation d'une policière suite à la blessure par balle d'une manifestante lors des troubles d’octobre – fait inédit par rapport aux articles publié)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): Октябрьские волнения: вопросы остаются после задержаний и расследований
+  dup check: new (Navin Ramgoolam will attend the Commonwealth Heads of Government Meeting in Antigua‑Barbuda from 1‑4 November 2026 and the Paris Peace Forum on 10‑11 )
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Навин Рамголам → Navin Ramgoolam
+Posted (L'Express): Navin Ramgoolam выступит на саммите Сообщества, затем поедет на Парижский форум мира
   dup: nothing new ()
-Skipped duplicate (Inside News): Troubles d’octobre : Maurice sollicite la France pour évaluer sa police == После недавних беспорядков правительство планирует аудит полицейских сил
+Skipped duplicate (Wazaa): Île Maurice sollicite des avis de recherche Interpol pour neuf anciens dirigeants de Silve == Дело Silver Bank: девять бывших руководителей покинули Маврикий, начато сотрудничество с И
+  dup check: new (Упоминание о том, что лобби, выступающее за сохранение пластика, начало проявлять активность («Le lobby pour le maintien du plastique commence à se ma)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Inside News): Контролируемые цены: QR-код поможет потребителям проверять тарифы
-  dup check: new (В статье указана новая цифра – ожидаемые поступления от компаний в размере Rs 58,9 млрд за 2026‑2027 годы, а также упомянуто, что депутат Ram Etwareea)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Рам Этварея → Ram Etwareea; Навин Рамгулам → Navin Ramgoolam
-Posted (L'Express): От предприятий ждут налоговых поступлений на сумму 58,9 млрд рупий в 2026–2027 годах
-  dup check: new (Jayesh Julloo, 21‑year‑old leader of WhatsApp group « GEN Z », was released on bail (Rs 15 000) after the DPP office withdrew opposition; he also sign)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Участника группы «GEN Z»: выпущен под залог
-LLM usage this run: 9 requests, 15292 tokens
-### check 2/5 at 13:15
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Saba Sadool : «Briser les tabous autour de la santé mentale et libérer la parole autour de la souffr
-Skipped foreign news (L'Express): Saba Sadool : «Briser les tabous autour de la santé mentale et libérer la parole autour de la souffr
-  dup check: new (Указано, что £78 000 были переданы британским следователям (ex‑Scotland Yard) для расследования убийства Кистнена – эта финансовая деталь ранее не упо)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Кая Киштнена → Kaya Kistnen; Соопраманиена Киштнена → Soopramanien (Kaya) Kistnen; Навин Рамголам → Navin Ramgoolam
-Posted (Le Mauricien): Премьер-министр: пропавший телефон жертвы убийства Kaya Kistnen найден британскими экспертами
-  dup: nothing new ()
-Skipped duplicate (Inside News): Airport Holdings : la holding créée pendant la crise d’Air Mauritius appelée à disparaître == Правительство рассматривает возможность ликвидации Airport Holdings
-LLM usage this run: 5 requests, 10218 tokens
-### check 3/5 at 13:19
-  dup check: new (Réparation des feux de signalisation de 27 sites endommagés le 12 octobre, coût de plus de Rs 2,5 millions, travaux prévus pour se terminer début nove)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Осман Махомед → Osman Mahomed
-Posted (Defimedia): Osman Mahomed: светофоры починят к началу ноября
-  dup check: new (Около 200 пассажиров длительного круиза «Odyssey», отправившегося из Северной Ирландии в октябре 2024 года, были высажены и оставлены в порту Сианукви)
-  written by GigaChat-2-Max
-  not about Mauritius: Cambodge : 200 résidents d'une croisière au long cours abandonnés en escale
-Skipped foreign news (Defimedia): Cambodge : 200 résidents d'une croisière au long cours abandonnés en escale
-  dup check: new (Brenda Thanacoody, former director of the Mauritius Examinations Syndicate, comments that safety should be priority and questions the cancellation of )
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Brenda Thanacoody : «Les épreuves du HSC auraient pu être organisées plus tard»
-Skipped foreign news (Defimedia): Brenda Thanacoody : «Les épreuves du HSC auraient pu être organisées plus tard»
-LLM usage this run: 7 requests, 9810 tokens
-### check 4/5 at 13:23
-### check 5/5 at 13:27
-  dup check: new (Создан Select Committee, посвящённый статусу креольского языка Креол Морисен в парламенте Маврикия, объявленный в рамках Международного дня креольских)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Арно Карпорэн → Arnaud Carpooran; Лайонел ЛаЖуа → Lionel Lajoie
-Posted (Top FM): Комитет парламента займётся статусом маврикийского креольского языка
-LLM usage this run: 3 requests, 4949 tokens
+Posted (L'Express): Лобби против запрета пластика начинает действовать
+LLM usage this run: 10 requests, 14685 tokens
