@@ -19,3 +19,11 @@ Posted (Top FM): Hard Talk: Girish Ramjuttun призывает пересмот
   proofread: Georges Ah Yan → Жорж Ах Янь
 Posted (Top FM): Mahébourg: жители обеспокоены ростом преступности и наркоторговли
 LLM usage this run: 6 requests, 7992 tokens
+### check 4/5 at 07:29
+  dup check: new (В статье упоминается интервью с Aurèle Andréy, где он говорит о значении темы «FAM MOTER TRAIL» для 17-й редакции Trail de Rodrigues и роли женщин в д)
+  not news (portrait/lifestyle): Aurèle André : «FAM MOTER TRAIL est un sursaut vers l’avenir»
+Skipped foreign news (L'Express): Aurèle André : «FAM MOTER TRAIL est un sursaut vers l’avenir»
+  dup check: new (В статье обсуждается экономика голубого сектора (économie bleue) и обозначаются Mahébourg и Grand-Port как будущие стратегические центры. Это новая те)
+  not news (portrait/lifestyle): L'économie bleue au centre des débats : Mahébourg et Grand-Port comme futurs pôles stratégiques
+Skipped foreign news (Top FM): L'économie bleue au centre des débats : Mahébourg et Grand-Port comme futurs pôles stratégiques
+LLM usage this run: 4 requests, 6807 tokens
