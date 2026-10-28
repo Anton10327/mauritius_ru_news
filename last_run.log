@@ -49,3 +49,10 @@ Skipped foreign news (Inside News): [video]Dukono : nouvelles cendres à Halmahe
   proofread: Шьям Тану → Shiam Thanoo
 Posted (Top FM): Утечки воды: литры теряются, пока население призывают экономить
 LLM usage this run: 7 requests, 12079 tokens
+### check 5/5 at 12:35
+  dup check: new (Саботаж судна Bellone, стоимость операции, возможная продажа, подозрения в исчезновении деталей, комментарий эксперта Алана Мальерба о финансовых поте)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Гран-Бэй → Grand-Baie
+Posted (Top FM): Потопление судна Bellone вызвало вопросы к Управлению портов Маврикия
+LLM usage this run: 3 requests, 4691 tokens
