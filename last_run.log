@@ -52,3 +52,16 @@ Skipped duplicate (L'Express): Silver Bank : des mandats d’arrêt envisagés c
   dup: nothing new ()
 Skipped duplicate (Inside News): 76 % des jeunes envisagent de quitter Maurice : le gouvernement évoque de nouvelles mesure == Эмиграция молодежи: 76% молодых людей 18–25 лет рассматривают возможность покинуть Маврики
 LLM usage this run: 6 requests, 7806 tokens
+### check 5/5 at 11:38
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup check: new (Министерство туризма объявило о планах цифровизации выдачи лицензий на прогулочные суда к концу ноября 2026 года; система будет размещена на Националь)
+  proofread: Richard Duval → Ричард Дюваль
+Posted (Top FM): Лицензии на прогулочные суда станут цифровыми к концу ноября
+  dup check: new (Le PNUD a réuni des représentants du gouvernement, du secteur privé et de la société civile pour une première session du UNDP Mauritius Catalyst Circl)
+  proofread: «25 by 35» → «25 к 35»
+Posted (Top FM): Продовольственная безопасность: ПРООН мобилизует партнеров для укрепления местного производства
+  dup: nothing new ()
+Skipped duplicate (Top FM): Mare-aux-Vacoas : une étude de 1996 sert toujours de base à l’estimation des pertes de sto == Mare-aux-Vacoas: «Потеря объёма хранения незначительна», — заявил Patrick Assirvaden
+  dup: nothing new (Премьер-министр Navin Ramgoolam сообщил о намерении внести изменения в свою резолюцию по созданию парламентского комитета по делам несовершеннолетних )
+Skipped duplicate (Top FM): Comité parlementaire sur la délinquance juvénile : Navin Ramgoolam envisage de modifier sa == Парламент: создание комитета по подростковой преступности и Criminal Justice Bill в центре
+LLM usage this run: 8 requests, 11348 tokens
