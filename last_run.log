@@ -13,3 +13,17 @@ Skipped duplicate (L'Express): Violation du couvre-feu : Douze hommes condamnés
   leftovers fixed by GigaChat-3-Pro; still left: Maurice
 Posted (L'Express): Напряженность в стране: полиция привлекает французскую экспертизу для пересмотра своих стратегий вмешательства
 LLM usage this run: 8 requests, 11261 tokens
+### check 2/5 at 11:26
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup check: new (Cyclone Arnab has hit Andhra Pradesh with winds up to 140 km/h; more than 180,000 people were evacuated in Andhra Pradesh and Odisha. No deaths report)
+  not about Mauritius: [videos] Cyclone Arnab touche l’Inde : plus de 180 000 personnes évacuées
+Skipped foreign news (Inside News): [videos] Cyclone Arnab touche l’Inde : plus de 180 000 personnes évacuées
+  dup check: new (В статье упоминается, что правительство Маврикия планирует усилить морскую безопасность через приобретение нового оборудования и усиление международно)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Морская безопасность: новое оборудование для усиления наблюдения за маврикийскими водами
+  dup: nothing new (В новой статье уточняется, что 26 октября семь молодых людей были осуждены за участие в сговоре с целью кражи и вандализма во время комендантского час)
+Skipped duplicate (Inside News): Émeutes d’octobre : sept jeunes condamnés, douze autres personnes écopent de peines de pri == Нарушение комендантского часа: от трёх до двенадцати месяцев тюрьмы для двенадцати обвиняе
+  dup check: new (В статье упоминается, что премьер-министр представил в Парламенте меры по удержанию молодых талантов и поощрению маврикийцев за рубежом к вкладу в раз)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Эмиграция: 76% опрошенных молодых маврикийцев рассматривают такой вариант
+LLM usage this run: 9 requests, 15181 tokens
