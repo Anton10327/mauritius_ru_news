@@ -28,3 +28,12 @@ LLM usage this run: 12 requests, 21695 tokens
 Skipped duplicate (Inside News): E-Health : plus d’un million d’opérations numériques, mais le dossier médical national res == Цифровая медицинская карта — E-Health: более 150 000 пациентов уже зарегистрированы
 LLM usage this run: 1 requests, 1390 tokens
 ### check 4/5 at 17:34
+### check 5/5 at 17:38
+  dup check: new (Открытие Africa Kaizen Annual Conference 2026 в отеле Ravenala Attitude в Балаклаве 26 октября, тема конференции «Sustainable Kaizen for a Competitive)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: министерства промышленности → министерство промышленности, малого и среднего предпринимательства и кооперативов
+Posted (L'Express): Африканская конференция: «кайзен» для укрепления промышленной конкурентоспособности
+  dup: nothing new ()
+Skipped duplicate (Top FM): Séga mauricien : entre tradition et modernité, un héritage qui perdure == Чемпионат Африки по боксу: Министерство требует объяснений по поводу тренера без сертифика
+LLM usage this run: 4 requests, 6988 tokens
