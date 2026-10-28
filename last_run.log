@@ -44,3 +44,15 @@ Skipped foreign news (Inside News): [VIDEOS] Espagne : au moins 10 morts dans la
   dup: nothing new ()
 Skipped duplicate (Top FM): Missions diplomatiques : deux rendez-vous internationaux à l’agenda de Navin Ramgoolam == Navin Ramgoolam выступит на саммите Сообщества, затем поедет на Парижский форум мира
 LLM usage this run: 3 requests, 4797 tokens
+### check 4/5 at 15:03
+  dup: nothing new ()
+Skipped duplicate (L'Express): Platform Komun Syndikal l  Pensions, emplois, pouvoir d’achat : les syndicats appellent à  == Профсоюзы проведут митинг против реформы пенсий и безработицы
+  dup check: new (Commemoration on 2 Nov 2026 of the 192nd anniversary of the arrival of Indian indentured labourers at Aapravasi Ghat; updated total estimate of 462,80)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): A Historic and Photographic Overview  : The First Indian Indentured Labourers Arriving  Before 2nd N
+Skipped foreign news (Le Mauricien): A Historic and Photographic Overview  : The First Indian Indentured Labourers Arriving  Before 2nd N
+  dup check: new (Le ministre de l’Énergie et des Services publics, Patrick Assirvaden, a effectué une visite sur le terrain le samedi 24 octobre pour faire le point su)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Водоканал CWA вводит дополнительные меры экстренной помощи из-за нехватки воды
+LLM usage this run: 6 requests, 10557 tokens
