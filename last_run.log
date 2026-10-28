@@ -9,3 +9,14 @@ Posted (Le Mauricien): Гостиничный сектор — финансов�
   dup: nothing new ()
 Skipped duplicate (Inside News): Exportations : Rs 110 milliards attendus en 2026, mais les emplois continuent de diminuer == Экономика — Экспорт: ожидаемый рост на 2%, до 110 млрд рупий в 2026 году
 LLM usage this run: 10 requests, 15223 tokens
+### check 2/5 at 12:23
+  dup check: new (Новая статья сообщает о проведении 4-го этапа Лиги национального выездки 2026 года, который состоится 7 ноября в клубе верховой езды Северного округа.)
+Posted (Le Mauricien): Верховая езда – выездка: Клуб верховой езды Севера принимает 4-й этап Национальной лиги по выездке 2026
+  dup check: new (В новой статье впервые указано, что все восемь членов экипажа (семь арестованных ранее и восьмой задержанный 27 октября) помещены в предварительное за)
+Posted (Le Mauricien): Торговля наркотиками — на фоне беспорядков: яхта Dreamer, как предполагается, перевезла крупные партии наркотиков
+  dup check: new (В статье приводится новое интервью вдовы Simla Kistnen, в котором она заявляет о чувстве быть оставленной без внимания и упоминает визиты политических)
+  proofread: Telfair → Телфер; в поле сахарного тростника → в поле сахарного тростника
+Posted (Defimedia): Simla Kistnen: «Моими страданиями воспользовались, чтобы выиграть выборы»
+  same headline as #96: Air Mauritius : le gouvernement envisage le démantèlement d’Airport Holdings
+Skipped duplicate (L'Express): PMQT l Airport Holdings Ltd : le gouvernement envisage son démantèlement == Правительство рассматривает возможность ликвидации Airport Holdings
+LLM usage this run: 9 requests, 16476 tokens
