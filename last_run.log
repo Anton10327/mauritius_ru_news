@@ -1,41 +1,18 @@
-### check 1/5 at 18:21
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Chirurgien esthétique condamné à un an de prison pour une deuxième affaire d’agression ind == Второе дело о сексуальном насилии: Dr Nishan Moheeputh приговорен к году тюрьмы и заключен
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Santé publique : une nouvelle entité pour la gestion des infrastructures == Общественное здравоохранение: обслуживание более 130 медучреждений поручено новой компании
-LLM per-minute limit, waiting 30s
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
-  written by openai/gpt-oss-120b
-Posted (L'Express): Повышение мировых облигационных ставок усложняет задачу Маврикия
-  dup check: new (Collision of two trains near Madrid resulting in at least 64 deaths, new major railway disaster in Spain during election campaign, details of location)
-  written by openai/gpt-oss-120b
-  not about Mauritius: Espagne : au moins 64 morts dans l'une des pires catastrophes ferroviaires du pays
-Skipped foreign news (Defimedia): Espagne : au moins 64 morts dans l'une des pires catastrophes ferroviaires du pays
-LLM usage this run: 5 requests, 10160 tokens
-### check 2/5 at 18:25
-  dup check: new (Мать была обманута мошенником, который выдал себя за её сына‑заключённого и вымогал у неё 75 000 рупий; инцидент произошёл 14 октября, жертва передала)
+### check 1/5 at 19:20
+  dup check: new (Vol de bijoux d'une valeur de Rs 700 000 à Triolet; arrestation d'une femme de ménage d'une trentaine d'années habitant Baie-du-Tombeau; la suspecte a)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): CHEBEL — Потеря 75 000 рупий: женщина стала жертвой мошенников, пытаясь спасти сына из тюрьмы
-  dup check: new (Plus de 18 familles ont reçu les clés de leur nouveau logement à Pointe-aux-Piments dans le cadre du programme Rent‑to‑Own, après jusqu’à 20 ans d’att)
+Posted (Defimedia): Triolet: украли ювелирные изделия стоимостью 700 000 рупий, задержана горничная
+  dup check: new (Предложение Новой Демократии о снятии (удалении) временных обвинений (suppression des accusations provisoires) — нового пункта, не упомянутого в ранее)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Photo download failed: HTTP 404 for https://topfm.mu/sites/default/files/media-icons/generic/video.png
-Photo failed: https://topfm.mu/sites/default/files/media-icons/generic/video.png — sending text only
-Posted (Top FM): После ожидания до 20 лет более 18 семей наконец получают ключи от нового дома
-  dup check: new (Новый случай исчезновения гражданки Бангладеш Мунавара Бегум, пропавшей в апреле 2023 года, и то, что министр труда Реза Утим был официально допрошен )
+Posted (Defimedia): Конституционная реформа: партия Nouveaux Démocrates предложила ограничить мандаты премьер-министра двумя и отменить предварительные обвинения
+  dup check: new (Isaac Herzog, président d'Israël, devra prochainement désigner le chef chargé de former le nouveau gouvernement après les élections législatives, avec)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Israël : Isaac Herzog, le discret président qui détient les clés du prochain gouvernement
+Skipped foreign news (Defimedia): Israël : Isaac Herzog, le discret président qui détient les clés du prochain gouvernement
+  dup check: new (June report of the Pesticides Regulatory Office (PRO) showing that 6 of 44 fruit and vegetable samples exceed maximum residue limits and 20 samples co)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Photo download failed: HTTP 404 for https://topfm.mu/sites/default/files/media-icons/generic/video.png
-Photo failed: https://topfm.mu/sites/default/files/media-icons/generic/video.png — sending text only
-Posted (Top FM): Дело Munawara Begum: Samad Goolamaully ставит вопросы министру Reza Uteem
-LLM usage this run: 9 requests, 16511 tokens
-### check 3/5 at 18:29
-### check 4/5 at 18:33
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): «Nou Lar Nou Lamizik» : Jimmy Gassel, le métissage au cœur de son univers musical
-Skipped foreign news (L'Express): «Nou Lar Nou Lamizik» : Jimmy Gassel, le métissage au cœur de son univers musical
-LLM usage this run: 1 requests, 2681 tokens
-### check 5/5 at 18:37
+Posted (L'Express): Сельскохозяйственные практики: сокращение использования пестицидов остается главной проблемой
+LLM usage this run: 11 requests, 19731 tokens
