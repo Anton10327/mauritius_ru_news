@@ -7,3 +7,9 @@ Skipped foreign news (L'Express): «National Economic and Social Council» :  Do
 Skipped duplicate (Le Mauricien): Échiquier politique — Rendez-vous : Ramgoolam au sommet du Commonwealth dimanche == Navin Ramgoolam выступит на саммите Сообщества, затем поедет на Парижский форум мира
 LLM usage this run: 3 requests, 6061 tokens
 ### check 2/5 at 20:17
+### check 3/5 at 20:21
+  dup check: new (Отсутствие победителя в розыгрыше Loto и Loto Plus 28 октября, а также текущие оценки джекпотов: около Rs 25 млн для Loto и Rs 55 млн для Loto Plus.)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Loto и Loto Plus: в среду 28 октября не нашлось большого победителя
+LLM usage this run: 3 requests, 4756 tokens
