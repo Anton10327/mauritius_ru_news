@@ -26,3 +26,18 @@ Posted (Le Mauricien): Премьер-министр: пропавший тел�
   dup: nothing new ()
 Skipped duplicate (Inside News): Airport Holdings : la holding créée pendant la crise d’Air Mauritius appelée à disparaître == Правительство рассматривает возможность ликвидации Airport Holdings
 LLM usage this run: 5 requests, 10218 tokens
+### check 3/5 at 13:19
+  dup check: new (Réparation des feux de signalisation de 27 sites endommagés le 12 octobre, coût de plus de Rs 2,5 millions, travaux prévus pour se terminer début nove)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Осман Махомед → Osman Mahomed
+Posted (Defimedia): Osman Mahomed: светофоры починят к началу ноября
+  dup check: new (Около 200 пассажиров длительного круиза «Odyssey», отправившегося из Северной Ирландии в октябре 2024 года, были высажены и оставлены в порту Сианукви)
+  written by GigaChat-2-Max
+  not about Mauritius: Cambodge : 200 résidents d'une croisière au long cours abandonnés en escale
+Skipped foreign news (Defimedia): Cambodge : 200 résidents d'une croisière au long cours abandonnés en escale
+  dup check: new (Brenda Thanacoody, former director of the Mauritius Examinations Syndicate, comments that safety should be priority and questions the cancellation of )
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Brenda Thanacoody : «Les épreuves du HSC auraient pu être organisées plus tard»
+Skipped foreign news (Defimedia): Brenda Thanacoody : «Les épreuves du HSC auraient pu être organisées plus tard»
+LLM usage this run: 7 requests, 9810 tokens
