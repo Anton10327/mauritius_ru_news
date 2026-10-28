@@ -15,3 +15,13 @@ Skipped duplicate (Wazaa): Île Maurice sollicite des avis de recherche Interpol
   proofread by qwen/qwen3.8-27b
 Posted (L'Express): Лобби против запрета пластика начинает действовать
 LLM usage this run: 10 requests, 14685 tokens
+### check 2/5 at 14:11
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Cour — Violation du couvre-feu : 12 hommes écopent de peines d’emprisonnement == Нарушение комендантского часа: от трёх до двенадцати месяцев тюрьмы для двенадцати обвиняе
+  dup: nothing new ()
+Skipped duplicate (Top FM): Drame à Camp-Marcelin : un père de famille meurt dans une explosion, son épouse dans un ét == Взрыв в Camp-Marcelin: Steven Cité скончался от ожогов, его жена по-прежнему в реанимации
+  dup check: new (Проект правительства по сокращению продолжительности рабочей недели до 40 часов в Маврикии, мнения юристов Мохамеда и Хадиджи Хосенбух о рисках для за)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Semaine de 40 heures : les juristes alertent sur les risques pour les salariés et les entreprises
+Skipped foreign news (Top FM): Semaine de 40 heures : les juristes alertent sur les risques pour les salariés et les entreprises
+LLM usage this run: 4 requests, 6926 tokens
