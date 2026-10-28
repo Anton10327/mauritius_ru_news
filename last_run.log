@@ -3,3 +3,11 @@
   proofread: edit rejected (changed numbers, names or length)
 Posted (Le Mauricien): VALLÉE-DES-PRÊTRES: 30 000 рупий украдены из автомобиля в гараже
 LLM usage this run: 3 requests, 4451 tokens
+### check 2/5 at 07:21
+  dup check: new (Snapchat впервые предстанет перед жюри по обвинениям в зависимости у молодёжи, вместе с Instagram (Meta), который уже был осуждён в этом году. Это пер)
+  not about Mauritius: Réseaux sociaux et santé mentale : Snapchat face à un jury pour la première fois avec Instagram
+Skipped foreign news (Defimedia): Réseaux sociaux et santé mentale : Snapchat face à un jury pour la première fois avec Instagram
+  dup check: new (Сержант Ramuth утверждает, что видел сержанта Taukoor с оружием в руках и в позиции для стрельбы после проезда фургона Элоди Томас. Это заявление сдел)
+  proofread: Элодия Томас → Элоди Томас
+Posted (Defimedia): Дело Elodie Thomas: сержант утверждает, что видел Taukoor с оружием и в положении для стрельбы
+LLM usage this run: 5 requests, 9040 tokens
