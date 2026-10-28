@@ -27,3 +27,16 @@ Skipped duplicate (Inside News): Émeutes d’octobre : sept jeunes condamnés, 
   proofread: edit rejected (changed numbers, names or length)
 Posted (Top FM): Эмиграция: 76% опрошенных молодых маврикийцев рассматривают такой вариант
 LLM usage this run: 9 requests, 15181 tokens
+### check 3/5 at 11:30
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup check: new (Министр энергетики Patrick Assirvaden заявил, что потеря ёмкости водохранилища Mare-aux-Vacoas составляет 150 000 м³ за период с 1997 по 2026 год (мен)
+  proofread: Patrick Assirvaden → Патрик Ассирваден; Mare-aux-Vacoas → Мари-о-Вакоа
+Posted (Defimedia): Mare-aux-Vacoas: «Потеря объёма хранения незначительна», — заявил Patrick Assirvaden
+  dup: nothing new (В статье упоминается, что Navin Ramgoolam не уточнил детали изменений в Airport Holdings Ltd и привёл цифру активов компании — Rs 47,8 миллиардов. В о)
+Skipped duplicate (Defimedia): Démantèlement ou restructuration : l’avenir d’Airport Holdings Ltd reste incertain == Правительство рассматривает возможность ликвидации Airport Holdings
+  dup: nothing new (упоминается, что журналисты и адвокаты могли быть под наблюдением; также говорится о возможной важности двух мобильных телефонов для следствия (но не )
+Skipped duplicate (Defimedia): Affaire Kistnen : suppression massive des données informatiques à la police == PNQ — дело Kistnen: второй мобильный телефон, считавшийся утерянным шесть лет, обнаружен у
+  dup check: new (26 октября в районе Phoenix Mall подросток 17 лет был избит группой примерно из 15 человек и госпитализирован. Мотив нападения неизвестен, ведётся рас)
+  proofread: у станции метро → у станции метро
+Posted (Defimedia): Phoenix: 17-летнего подростка избила группа из примерно 15 человек
+LLM usage this run: 8 requests, 12098 tokens
