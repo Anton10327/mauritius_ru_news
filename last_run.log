@@ -1,40 +1,15 @@
-### check 1/5 at 10:11
-  dup check: new (Сержант Ramuth впервые публично заявил, что видел сержанта Taukoor с оружием в положении для стрельбы непосредственно перед тем, как 27-летняя Élodie )
-Bad LLM answer from GigaChat-3-Ultra: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"К сожалению, иногда генеративные языковые модели могут создавать некорректные ответы, основанные на открытых источниках. Во избежание неправильного толкования, ответы на вопросы, связанные с чувствительными темами, временно ограничены. Благодарим за понимание.","ro
-  written by GigaChat-2-Max
-  proofread: Рамут → Рамут (имя собственное); Таукоор → Таукоор (имя собственное)
-Posted (Wazaa): Сержант Ramuth утверждает, что коллега направил оружие перед стрельбой
-  dup check: new (В статье сообщается о новом событии: 27 октября в Vacoas мужчина (32 года) был жестоко избит шестью нападавшими у себя дома и скончался от полученных )
-  proofread: La Caverne → Ла-Каверн (склоняется); в чёрном → в чёрных
-Posted (L'Express): Vacoas: мужчина скончался после жестокого нападения в своём доме
-  dup check: new (В статье упоминается, что в Roche-Bois был найден молодой человек без сознания на дороге (новое событие), а также приводятся новые детали о погоде: ож)
-  not news (portrait/lifestyle): La caricature du Mauricien du 27 octobre 2026
-Skipped foreign news (Le Mauricien): La caricature du Mauricien du 27 octobre 2026
-  dup check: new (Циклон Arnab обрушился на юго-восточное побережье Индии, вызвав эвакуацию десятков тысяч человек; скорость ветра достигала 140 км/ч; по состоянию на у)
-  not about Mauritius: Les côtes du sud-est de l'Inde balayées par les vents et les pluies du cyclone Arnab
-Skipped foreign news (Defimedia): Les côtes du sud-est de l'Inde balayées par les vents et les pluies du cyclone Arnab
-LLM usage this run: 11 requests, 19145 tokens
-### check 2/5 at 10:15
-  dup check: new (В статье сообщается о гибели 80-летней женщины после наезда фургона в Saint-Pierre утром 28 октября. Это новое происшествие, не упоминавшееся ранее ср)
-  proofread: 
-Posted (L'Express): Saint-Pierre: 80-летняя женщина скончалась после наезда фургона
-  same headline as #143: Criminal Justice Bill : «L’immunité n’est pas un cadeau», affirme Navin Ramgoola
-Skipped duplicate (Top FM): Criminal Justice Bill adopté : « Nous ne voulons pas seulement arrêter les exécutants, mai == Закон об уголовном правосудии: «Иммунитет — не подарок», заявил Navin Ramgoolam
-  dup check: new (Япония: в Токио зафиксирован 34-й день подряд дождей, что является рекордом с 1886 года (предыдущий рекорд — 33 дня в 2019 году). Это необычно для кон)
-  not about Mauritius: Japon : 34 jours de pluie consécutifs, Tokyo bat un record vieux de 140 ans
-Skipped foreign news (Top FM): Japon : 34 jours de pluie consécutifs, Tokyo bat un record vieux de 140 ans
-  not about Mauritius: Royaume-Uni : les réseaux sociaux interdits aux moins de 16 ans à partir de mars 2027
-Skipped foreign news (Top FM): Royaume-Uni : les réseaux sociaux interdits aux moins de 16 ans à partir de mars 2027
-LLM usage this run: 6 requests, 10036 tokens
-### check 3/5 at 10:19
-### check 4/5 at 10:23
-  dup check: new (Divsha Jharittaya заняла третье место в 19-м международном конкурсе Chinese Bridge World Chinese Language среди школьников; она участвовала как предст)
-  proofread: GaÃ«tan Raynal → Gaëtan Raynal; UniversitÃ© de Maurice → Университет Маврикия; Institut Confucius de Maurice → Institut Confucius de Maurice; Tianjin, en Chine → Тяньцзинь, Китай; courant septembre → в сентябре; lâinstitution → учреждение; pourvu → обеспечила; maÃ®trise → владение; guerre de la guit
-  foreign words left: Gaëtan
-  leftovers fixed by GigaChat-3-Pro; still left: Gaëtan
-Posted (Le Mauricien): КОНКУРС — Chinese Bridge World Chinese Language: Divsha Jharittaya завоевала третью премию мира
-  dup check: new (В статье указано, что с 30 октября по 1 ноября будут временно закрыты дороги в Plaine-Champagne, La Nicolière и Chamarel из-за проведения трёх этапов )
-  proofread: Plaine-Champagne → Плаин-Шампань; La Nicolière → Ла-Никольер; Chamarel → Шамарель
-Posted (Le Mauricien): Ралли: дороги будут перекрыты в Plaine-Champagne, La Nicolière и Chamarel с 30 октября по 1 ноября
-LLM usage this run: 7 requests, 9738 tokens
-### check 5/5 at 10:27
+### check 1/5 at 11:22
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup check: new (В статье утверждается, что изменение климата должно быть объявлено "чрезвычайной ситуацией в области здравоохранения мирового масштаба" для того, чтоб)
+  not about Mauritius: Santé : le changement climatique doit être déclaré "urgence sanitaire mondiale", dit un rapport de r
+Skipped foreign news (Defimedia): Santé : le changement climatique doit être déclaré "urgence sanitaire mondiale", dit un rapport de r
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Vacoas : un homme de 32 ans décède après une agression présumée par six hommes encagoulés  == Vacoas: мужчина скончался после жестокого нападения в своём доме
+  dup: nothing new ()
+Skipped duplicate (L'Express): Violation du couvre-feu : Douze hommes condamnés à des peines allant de trois mois à un an == Нарушение комендантского часа: от трёх до двенадцати месяцев тюрьмы для двенадцати обвиняе
+  dup check: new (Полиция официально запросила экспертизу Франции для пересмотра своих стратегий вмешательства; это конкретное решение о привлечении французских специал)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Maurice
+  leftovers fixed by GigaChat-3-Pro; still left: Maurice
+Posted (L'Express): Напряженность в стране: полиция привлекает французскую экспертизу для пересмотра своих стратегий вмешательства
+LLM usage this run: 8 requests, 11261 tokens
