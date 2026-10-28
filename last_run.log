@@ -1,30 +1,24 @@
-### check 1/5 at 14:07
-  dup check: new (Arrestation d'une policière suite à la blessure par balle d'une manifestante lors des troubles d’octobre – fait inédit par rapport aux articles publié)
+### check 1/5 at 14:51
+  dup check: new (Partial election results in Israel after counting 51.8% of votes: Netanyahu's Likud bloc holds 55 seats, opposition 49, Arab parties 16, no clear majo)
+  written by GigaChat-2-Max
+  not about Mauritius: Israël: aucune majorité après dépouillement de la moitié des voix, Netanyahu et son camp en tête
+Skipped foreign news (Defimedia): Israël: aucune majorité après dépouillement de la moitié des voix, Netanyahu et son camp en tête
+  dup check: new (Случай подозрения в использовании подключённых очков во время практического экзамена по химии School Certificate в Маврикии; передача дела в Cambridge)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Inside News): Октябрьские волнения: вопросы остаются после задержаний и расследований
-  dup check: new (Navin Ramgoolam will attend the Commonwealth Heads of Government Meeting in Antigua‑Barbuda from 1‑4 November 2026 and the Paris Peace Forum on 10‑11 )
+  proofread: Кембриджскую международную образовательную организацию → Cambridge International Education
+  foreign words left: Cambridge, International, Education
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Defimedia): На экзамене по химии поймали кандидата с умными очками
+  dup check: new (Запланированное профсоюзное собрание 31 октября в Port‑Louis, инициированное Платформой Komin Syndikal, с требованиями по реформе пенсий, социальному )
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамголам → Navin Ramgoolam
-Posted (L'Express): Navin Ramgoolam выступит на саммите Сообщества, затем поедет на Парижский форум мира
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Île Maurice sollicite des avis de recherche Interpol pour neuf anciens dirigeants de Silve == Дело Silver Bank: девять бывших руководителей покинули Маврикий, начато сотрудничество с И
-  dup check: new (Упоминание о том, что лобби, выступающее за сохранение пластика, начало проявлять активность («Le lobby pour le maintien du plastique commence à se ma)
+  proofread: 
+  foreign words left: Marie-Reine-de-la-Paix
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Defimedia): Профсоюзы проведут митинг против реформы пенсий и безработицы
+  dup check: new (SBM Insights prévoit une croissance du PIB mauricien de 2,9 % en 2026 et de 3,5 % en 2027, avec analyse des pressions internationales, géopolitiques e)
   written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Лобби против запрета пластика начинает действовать
-LLM usage this run: 10 requests, 14685 tokens
-### check 2/5 at 14:11
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Cour — Violation du couvre-feu : 12 hommes écopent de peines d’emprisonnement == Нарушение комендантского часа: от трёх до двенадцати месяцев тюрьмы для двенадцати обвиняе
-  dup: nothing new ()
-Skipped duplicate (Top FM): Drame à Camp-Marcelin : un père de famille meurt dans une explosion, son épouse dans un ét == Взрыв в Camp-Marcelin: Steven Cité скончался от ожогов, его жена по-прежнему в реанимации
-  dup check: new (Проект правительства по сокращению продолжительности рабочей недели до 40 часов в Маврикии, мнения юристов Мохамеда и Хадиджи Хосенбух о рисках для за)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Semaine de 40 heures : les juristes alertent sur les risques pour les salariés et les entreprises
-Skipped foreign news (Top FM): Semaine de 40 heures : les juristes alertent sur les risques pour les salariés et les entreprises
-LLM usage this run: 4 requests, 6926 tokens
-### check 3/5 at 14:15
-### check 4/5 at 14:19
-### check 5/5 at 14:23
+  not news (portrait/lifestyle): Perspectives économiques - SBM Insights : croissance de 2,9 % en 2026 et 3,5 % en 2027
+Skipped foreign news (Defimedia): Perspectives économiques - SBM Insights : croissance de 2,9 % en 2026 et 3,5 % en 2027
+LLM usage this run: 12 requests, 16954 tokens
