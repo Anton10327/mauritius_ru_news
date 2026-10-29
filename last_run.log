@@ -1,37 +1,13 @@
-### check 1/5 at 10:57
-  dup check: new (Три ребёнка (2, 3 и 6 лет) госпитализированы после случайного отравления шампунем от вшей и сиропом Притизон; инцидент произошёл в Curepipe, подробнос)
-  foreign words left: Candos
-  leftovers fixed by GigaChat-3-Pro; still left: Candos
-Posted (L'Express): Curepipe: трое детей в возрасте 2, 3 и 6 лет госпитализированы после случайного проглатывания токсичных веществ
-  dup check: new (Обнаружение десятков подозрительных бочек с возможными пестицидами в районе Ла-Николер, близ реки; начало расследования полицией для установления прои)
-  proofread: La Nicolière → Ла-Николер
-  foreign words left: l'environnement
-  leftovers fixed by GigaChat-3-Pro; still left: l'environnement
-Posted (Inside News): Пестициды в Salazie: брошенные канистры у ручья, начато расследование
-  dup: nothing new (В статье упоминается, что LALIT представила документ на 41 страницу с предложениями по укреплению демократии и прав, включая ограничение полномочий ис)
-Skipped duplicate (L'Express): Réforme constitutionnelle : LALIT réclame une réduction des pouvoirs de l’exécutif et une  == Пересмотр конституции: 106 депутатов, меньше министров, креольский язык в парламенте и све
-  dup check: new (Night Market fera son retour à Port-Louis du 12 décembre au 4 janvier; l'édition sera plus structurée et mieux organisée selon le député Eshan Juman, )
-  proofread: Eshan Juman → Ишан Джуман
-  foreign words left: Est
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Top FM): Ночной рынок возвращается в Port-Louis с 12 декабря по 4 января
-LLM usage this run: 13 requests, 15221 tokens
-### check 2/5 at 11:01
-  dup check: new (В статье сообщается о смерти 84-летней Ирэн Манон в больнице Виктория после падения с кровати и последующей операции, а также приводится заключение па)
-  foreign words left: Victoria
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (L'Express): Предполагаемая врачебная халатность: смерть после падения в больнице, дочь обвиняет в халатности
-  dup check: new (Упоминание мнения Virginie Bissessur, présidente de Pédostop, о необходимости чётких правил и ограничений для защиты детей в интернете; акцент на роли)
-  not about Mauritius: Enfants sur les réseaux sociaux : l’importance de l’encadrement parental
-Skipped foreign news (Top FM): Enfants sur les réseaux sociaux : l’importance de l’encadrement parental
-LLM usage this run: 6 requests, 8961 tokens
-### check 3/5 at 11:05
-  dup check: new (В статье говорится о публикации Вижая Макхана, в которой он анализирует геополитические изменения в Индийском океане и призывает Маврикий позициониров)
-  proofread: Vijay Makhan → Виджай Махан
-Posted (Top FM): Геополитика: Vijay Makhan призывает Маврикий утвердиться как океаническое государство
-LLM usage this run: 3 requests, 4580 tokens
-### check 4/5 at 11:09
-  dup check: new (В новой статье описан новый случай: 74-летняя пенсионерка подверглась нападению со стороны своего племянника, который требовал у неё деньги; он угрожа)
-Posted (Le Mauricien): PLAINE-VERTE: 74-летнюю пенсионерку угрожал зарезать собственный племянник
-LLM usage this run: 3 requests, 4554 tokens
-### check 5/5 at 11:13
+### check 1/5 at 11:57
+  dup check: new (Innodis inauguré deux centrales photovoltaïques à Arsenal le 28 octobre, capacité totale de 4,2 MWc, production prévue >6,5 GWh/an, réduction CO2 esti)
+  proofread: введена в эксплуатацию → введена в строй; вырабатывать → производить
+Posted (Defimedia): Проект в Arsenal: Innodis планирует 12,5 ГВт·ч солнечной электроэнергии в год
+  dup check: new (В новой статье указано имя погибшей (Santi Jugurnauth, 81 ans), уточнено место происшествия (Branch Road, Petit-Verger) и время (около 8 часов утра). )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): На Маврикии, в Petit-Verger, Saint-Pierre, 81-летнюю Santi Jugurnauth насмерть сбил фургон у её дома
+  dup check: new (Убийство Selven Iyempermal, 34 лет, в La Caverne (Vacoas) вечером во вторник; он был избит шестью людьми и скончался рано утром в среду. Следствие рас)
+Posted (Defimedia): Убийство Selven Iyempermal: основная версия — сведение счетов, связанное с наркоторговлей
+  dup check: new (В статье упоминается новый конфликт между Полем Беранже и Раджешем Багваном в Национальной ассамблее, а также раскрыта информация о собственности близ)
+  proofread: Paul Bérenger → Поль Бере́нже; Rajesh Bhagwan → Раджеш Багван; Navin Ramgoolam → Навин Рамгулам; Élodie Thomas → Элоди Томас
+Posted (L'Express): Война бывших
+LLM usage this run: 12 requests, 19319 tokens
