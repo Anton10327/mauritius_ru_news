@@ -23,3 +23,10 @@ LLM usage this run: 4 requests, 4562 tokens
   proofread: Lia Guan Kueh → Lia Guan Kueh (без изменений); Dubai → Дубай (без изменений); Mahébourg → Махёрбур; Moka Detention Centre → центр содержания под стражей Moka Detention Centre; Customs Anti-Narcotics Section → подразделение по борьбе с наркотиками; Anti Drug and Smuggling Unit → подразделение по борь
 Posted (Le Mauricien): Аэропорт имени сэра Сивусагура Рамгулама: гражданин Малайзии задержан с 17,8 кг каннабиса
 LLM usage this run: 3 requests, 4525 tokens
+### check 5/5 at 10:16
+  same headline as #121: Non-respect du couvre-feu : huit personnes connaîtront leurs peines le 3 novembr
+Skipped duplicate (Defimedia): Non-respect du couvre-feu : huit accusés connaîtront leur sort le 3 novembre == Нарушение комендантского часа: восемь человек узнают о своем приговоре 3 ноября
+  dup check: new (IPCC заслушала восемь членов SMF, присутствовавших на блокпосту 9 октября; также планируется допрос трёх полицейских с того же места. Это новые детали)
+  proofread: Элодия Томас → Элоди Томас
+Posted (Defimedia): Дело Elodie Thomas: комиссия по жалобам на полицию допросила восемь бойцов SMF
+LLM usage this run: 3 requests, 3953 tokens
