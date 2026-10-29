@@ -9,3 +9,15 @@ Posted (Defimedia): Задержан подозреваемый в краже л
 LLM usage this run: 4 requests, 6475 tokens
 ### check 2/5 at 17:02
 ### check 3/5 at 17:06
+### check 4/5 at 17:10
+  dup check: new (Premier ministre Navin Ramgoolam a prononcé de nouvelles déclarations : il a qualifié le meurtre d’Elodie Thomas d’« acte impardonnable » et a décrit )
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Навин Рамгулам → Navin Ramgoolam
+Posted (Le Mauricien): Премьер-министр Navin Ramgoolam представил законопроект против заговоров молчания по серьёзным преступлениям
+  dup check: new (Premier‑minister Navin Ramgoolam a présidé, le jeudi 29 octobre, une première réunion de trois heures avec des ONG œuvrant auprès des jeunes et des fa)
+LLM per-minute limit, waiting 2s
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Социальные беспорядки: Navin Ramgoolam начал консультации с НПО для выяснения причин социального неблагополучия
+LLM usage this run: 6 requests, 11656 tokens
