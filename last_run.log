@@ -35,3 +35,20 @@ Posted (Le Mauricien): БОКС – Чемпионат Африки среди �
   dup check: new (В статье говорится о внутреннем аудите Cargo Handling Corporation, выявившем слабые места в процедурах снабжения, управлении персоналом и контроле за )
 Posted (L'Express): PMQT | Cargo Handling Corporation: выявлены недостатки во внутренних процедурах
 LLM usage this run: 12 requests, 20195 tokens
+### check 4/5 at 12:09
+  dup check: new (В статье упоминается, что на борту яхты Dreamer было изъято около 1,5 тонны каннабиса и гашиша общей стоимостью 2,7 млрд рупий. Также впервые прямо ст)
+  written by GigaChat-2-Max
+  proofread: 
+Posted (L'Express): Изъятие 1,5 тонны наркотиков: удивительные совпадения с октябрьскими волнениями?
+  dup check: new (В статье указано, что депутат Roshan Jhummun запросил у премьер-министра Navin Ramgoolam идентичность иностранных и маврикийских руководителей Silver )
+  written by GigaChat-2-Max
+  proofread: взаимная правовая помощь → взаимная правовая помощь
+  foreign words left: Toxic
+  leftovers fixed by GigaChat-3-Pro; still left: Toxic
+Posted (Le Mauricien): Toxic Loans: Запрошены взаимная правовая помощь против девяти подозреваемых по делу Silver Bank
+  dup check: new (Roshi Bhadain, leader of the Reform Party, publicly contests the parliamentary answers regarding the Kistnen case and announces an upcoming press conf)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Роши Бхадайн → Roshi Bhadain; Соопраманиена Кистнена → Soopramanien Kistnen
+Posted (Top FM): Дело Kistnen: Roshi Bhadain оспаривает парламентские ответы и настаивает на финансовой версии
+LLM usage this run: 10 requests, 14707 tokens
