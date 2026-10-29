@@ -56,6 +56,7 @@ RECENT_HOURS = 48                  # remember posts from this period for duplica
 RECENT_MAX = 400
 DUP_LATEST = 5                     # duplicate check sees the latest posts...
 DUP_SIMILAR = 8                    # ...plus the most similar ones from RECENT_HOURS
+CLASSIFY_ENABLED = False          # cheap first pass (Lite) for foreign news / features
 DUP_COMPACT = True                 # shorter listing: only the 5 closest candidates (2-3x fewer tokens)
 MAX_SEEN = 2000          # how many item IDs to remember
 FIRST_RUN_POSTS = 3      # on the very first run, post only the latest N items
@@ -474,6 +475,39 @@ def _parse_json(text):
     text = text.replace("\u0301", "").replace("\u0300", "")  # stress marks: Бере́нже
     m = re.search(r"\{.*\}", text, re.S)
     return json.loads(m.group(0)) if m else None
+
+
+# Cheap first pass: is it Mauritian news at all? Done by a model from the big
+# Lite package, so foreign news and features don't cost Ultra tokens.
+CLASSIFY_MODELS = ["GigaChat-3-Lightning"]
+_RULES = PROMPT[PROMPT.index("news — есть ли"):PROMPT.index("title — полный перевод")]
+CLASSIFY_PROMPT = (
+    "Ты редактор русскоязычного новостного канала о Маврикии. Ниже начало "
+    "статьи с маврикийского сайта. Реши, подходит ли она для канала. Верни "
+    'строго JSON: {"mauritius": true или false, "news": true или false}. ' + _RULES)
+
+
+def classify(title, body):
+    """(mauritius, news) from the cheap model, or None if it is unavailable."""
+    if not GIGA_KEY:
+        return None
+    msgs = [{"role": "system", "content": CLASSIFY_PROMPT},
+            {"role": "user", "content": f"Заголовок: {title}\n\nНачало статьи:\n{body[:1200]}"}]
+    for model in CLASSIFY_MODELS:
+        if _giga["dead"] or _giga_over_cap(model) or model in _llm_state["exhausted"]:
+            continue
+        try:
+            r = _llm_call(model, msgs, 60)
+            if not r.ok:
+                continue
+            d = _parse_json(r.json()["choices"][0]["message"]["content"]) or {}
+        except Exception as e:
+            print(f"  classify failed ({model}): {e}")
+            continue
+        no = lambda v: v is False or str(v).lower() == "false"
+        if "mauritius" in d and "news" in d:
+            return (not no(d["mauritius"]), not no(d["news"]))
+    return None
 
 
 def summarize(title, body):
@@ -1557,6 +1591,13 @@ def build_post(source, entry, link, recent=(), force=False):
         return post
 
     # 2) summary. Without real article text it would be invented: title only
+    if len(body) >= MIN_TEXT_FOR_SUMMARY and CLASSIFY_ENABLED:
+        c = classify(orig_title, body)
+        if c and not (c[0] and c[1]):
+            post["foreign"] = True
+            print(f"  {'not about Mauritius' if not c[0] else 'not news (portrait/lifestyle)'}"
+                  f" (first pass): {orig_title[:100]}")
+            return post
     result = summarize(orig_title, body) if len(body) >= MIN_TEXT_FOR_SUMMARY else None
     if result is None and body and len(body) < MIN_TEXT_FOR_SUMMARY:
         print(f"Too little text ({len(body)} chars), title only: {link}")

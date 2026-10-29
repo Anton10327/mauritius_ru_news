@@ -1,30 +1,35 @@
-"""Names-list approach on real recent articles (posts nothing)."""
-import json, re, requests, bot
-bot.DUP_MODELS[:] = []
-seen = json.load(open(bot.STATE_DIR / "seen.json", encoding="utf-8"))
-urls = []
-for uid in reversed(seen):
-    if uid.startswith("wp:Le Mauricien:"):
-        pid = uid.rsplit(":", 1)[1]
-        try:
-            d = requests.get(f"https://www.lemauricien.com/wp-json/wp/v2/posts/{pid}?_fields=link,title",
-                             headers=bot.UA, timeout=20).json()
-        except Exception:
-            continue
-        if "BOXE" in d.get("title", {}).get("rendered", "") or len([u for u in urls if "lemauricien" in u]) < 3:
-            urls.append(d["link"])
-    elif "inside.news/?p=" not in uid:
-        urls.append(uid.replace("http://", "https://"))
-    if len(urls) >= 10:
-        break
-src = lambda u: next((s[0] for s in bot.FEEDS if s[0].split()[0].lower().replace("'", "") in u.replace("-", "")), "Source")
-for u in urls:
-    e = bot.page_entry(u)
-    if not e or not e["title"]:
-        continue
-    post = bot.build_post(src(u), e, u, [])
-    print("\n=== ", e["title"][:100])
-    print("names:", "; ".join(f"{n['orig']}{'→' + n['ru'] if n.get('ru') else ''} ({n.get('type')})"
-                              for n in bot._llm_state.get("names") or []))
-    print(post.get("title"), "\n", post.get("summary"))
-print(f"\nLLM {bot._llm_state['calls']} calls, {bot._llm_state['tokens']} tokens")
+"""First-pass classifier (Lite) vs the decisions Ultra made (posts nothing)."""
+import json, bot
+neg = set(l.strip()[:100] for l in open("labels_neg.txt", encoding="utf-8") if l.strip())
+pos = set((e.get("orig") or "")[:100] for e in json.load(open(bot.STATE_DIR / "recent.json", encoding="utf-8")))
+cases = []
+for src in bot.FEEDS:
+    kind = src[2] if len(src) > 2 else "rss"
+    try:
+        items, _ = bot.collect(src[0], src[1], kind, src[3] if len(src) > 3 else None, set())
+    except Exception as ex:
+        print("skip", src[0], ex); continue
+    for e, uid, img, ts in items[:25]:
+        if kind == "html":
+            e = bot.page_entry(uid)
+            if not e: continue
+        t = (e.get("title") or "").strip()
+        lab = True if t[:100] in pos else False if t[:100] in neg else None
+        if lab is None: continue
+        link = e.get("link", uid).replace("http://", "https://", 1)
+        body, _ = bot.article_text(link)
+        if len(body) >= bot.MIN_TEXT_FOR_SUMMARY:
+            cases.append((t, body, lab))
+print(len(cases), "labelled articles:", sum(1 for c in cases if c[2]), "posted,", sum(1 for c in cases if not c[2]), "skipped")
+for m in ["GigaChat-3-Lightning", "GigaChat-2"]:
+    bot.CLASSIFY_MODELS[:] = [m]
+    bot._llm_state.update(calls=0, tokens=0)
+    lost, caught, missed = [], 0, 0
+    for t, body, lab in cases:
+        c = bot.classify(t, body)
+        ok = c is None or (c[0] and c[1])
+        if lab and not ok: lost.append((t, c))
+        if not lab: caught += (not ok); missed += ok
+    print(f"\n{m}: would wrongly drop {len(lost)} real posts; catches {caught} of {caught+missed} skipped; "
+          f"{bot._llm_state['tokens']} tokens / {bot._llm_state['calls']} calls")
+    for t, c in lost: print("   LOST:", t[:100], c)
