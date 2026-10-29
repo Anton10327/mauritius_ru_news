@@ -15,3 +15,17 @@ Skipped duplicate (L'Express): «Criminal Justice (Offenders Assisting Investiga
   dup: nothing new ()
 Skipped duplicate (Defimedia): Suite aux récents troubles : Navin Ramgoolam préside une première réunion avec les ONG == Социальные беспорядки: Navin Ramgoolam начал консультации с НПО для выяснения причин социа
 LLM usage this run: 7 requests, 13129 tokens
+### check 2/5 at 18:02
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Ouverture de la route de liaison Julius Nyerere à Ébène pour décongestionner le trafic à R == Ébène | Дорога Julius Nyerere B1-M1 Link Road: маршрут Трибека-Порт-Луи теперь минует Rédu
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Affaire Kistnen : des zones d’ombre subsistent, estime Roshi Bhadain == Дело Kistnen: Roshi Bhadain оспаривает парламентские ответы и настаивает на финансовой вер
+  dup: nothing new ()
+Skipped duplicate (L'Express): Logement l «Rent-to-Own» : 18 familles plus proches du rêve de devenir propriétaires == После ожидания до 20 лет более 18 семей наконец получают ключи от нового дома
+  dup check: new (Vijay Makbin urges Mauritius to seize the upcoming Commonwealth summit (Nov 1‑4 in Antigua and Barbuda) to restart Chagos discussions, referencing Ed )
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: Чagos → Chagos
+  foreign words left: agos
+Posted (Top FM): Чagos: Vijay Makhan призывает Маврикий использовать саммит Содружества для возобновления переговоров
+LLM usage this run: 6 requests, 9807 tokens
