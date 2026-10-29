@@ -1,61 +1,26 @@
-Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary models: ['GigaChat-3-Ultra', 'GigaChat-2-Max', 'GigaChat-3-Pro', 'qwen/qwen3.8-27b', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b']
-== Translation (Google, then MyMemory)
-Google Translate failed: TooManyRequests
-Автобусное сообщение прервано во вторник утром
-== LLM: https://api.groq.com/openai/v1/chat/completions
-qwen/qwen3.8-27b 200 {"id":"chatcmpl-36e9ee0d-40fd-457f-b9b3-541334b99297","object":"chat.completion","created":1793298422,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.003993724,"prompt_tokens":16,"prompt_t
-openai/gpt-oss-120b 200 {"id":"chatcmpl-2cbf33d0-14d0-42e1-b72d-fb857f09d098","object":"chat.completion","created":1793298423,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
-openai/gpt-oss-20b 200 {"id":"chatcmpl-acb3166f-769d-433d-952d-1bf35469c909","object":"chat.completion","created":1793298423,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says: \"Reply with: ok\". So output \"ok\"."},"logprobs":null,"finish_reason":"stop"
-== Defimedia: https://defimedia.info/rss.xml
-Newest: À Tamarin : giflée, frappée et traînée sur la route, une jeune femme accuse son cousin | https://defimedia.info/tamarin-giflee-frappee-et-trainee-sur-la-route-une-jeune-femme-accuse-son-cousin
-Article text: 1320 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Tamarin%20-%20photo%20illustration.jpg
-  same headline as #165: À Tamarin : giflée, frappée et traînée sur la route, une jeune femme accuse son 
-Duplicate of recent post #: 165
-LLM usage so far: 3 requests, 217 tokens
--- Post that would be sent:
+78 labelled articles: 71 posted, 7 skipped
 
-== L'Express: https://lexpress.mu/
-Newest: 80ᵉ anniversaire  l  Restaurant Lai Min : Une histoire de famille depuis 1946 | https://lexpress.mu/s/restaurant-lai-min-une-histoire-de-famille-depuis-1946-564197
-Article text: 3613 chars | photo: https://lexpress.mu/storage/articles/LMxZFBxVNYE6WG2NB7azDrSipDL4Oi2aNt35D3fu.jpg
-  dup check: new (Restaurant Lai Min celebrates its 80th anniversary; press conference on 27 october; history since 1946; family founders Jean Pierre Lai Min and brothe)
-LLM per-minute limit, waiting 30s
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): 80ᵉ anniversaire  l  Restaurant Lai Min : Une histoire de famille depuis 1946
-Duplicate of recent post #: None
-LLM usage so far: 5 requests, 4217 tokens
--- Post that would be sent:
+GigaChat-3-Lightning: would wrongly drop 14 real posts; catches 7 of 7 skipped; 35943 tokens / 78 calls
+   LOST: [Info Soirée] : « LE YACHT DE LA TENTATION » (False, False)
+   LOST: Santé publique - Pesticides : contrôler les légumes ne suffit pas (False, False)
+   LOST: Transbordement de 1,500 kilos de cannabis : le téléphone du capitaine du Dreamer, pièce maîtresse de (False, True)
+   LOST: Éducation l  PSAC : au-delà des notes, l’enjeu de l’accompagnement (True, False)
+   LOST: Pratiques agricoles :  La réduction des pesticides reste un défi majeur (True, False)
+   LOST: La guerre des ex (False, False)
+   LOST: Éclairage l  MPC : la hausse des taux obligataires mondiaux complique l’équation mauricienne (False, True)
+   LOST: Rendez-vous — Après CHOGM : Ramgoolam invité par Macron au Forum de Paris pour la Paix (True, False)
+   LOST: Intelligence artificielle : un concours invite les étudiants à créer des solutions durables (True, False)
+   LOST: Chagos : Vijay Makhan appelle Maurice à saisir l’occasion du sommet du Commonwealth pour relancer le (True, False)
+   LOST: Géopolitique : Vijay Makhan appelle Maurice à s’affirmer comme un État océanique (True, False)
+   LOST: Hard Talk : Girish Ramjuttun demande une révision des salaires dans l’hôtellerie (True, False)
+   LOST: Dossier Chagos : un référendum réclamé aux Lords, le gouvernement britannique s’y oppose (False, False)
+   LOST: Affaire Munawara Begum : Samad Goolamaully interpelle le ministre Reza Uteem (False, True)
 
-== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
-Newest: Turquie / Deux morts et cinq blessés après l’effondrement d’une colonne rocheuse en Cappadoce | https://www.lemauricien.com/actualites/international/turquie-deux-morts-et-cinq-blesses-apres-leffondrement-dune-colonne-rocheuse-en-cappadoce/722096/
-Article text: 1193 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/download.jpeg
-  dup check: new (Deux morts et cinq blessés après l’effondrement d’une colonne rocheuse en Cappadoce le 29 octobre, déclaration du gouverneur de Nevşehir, Huseyin Kok,)
-  written by qwen/qwen3.8-27b
-  not about Mauritius: Turquie / Deux morts et cinq blessés après l’effondrement d’une colonne rocheuse en Cappadoce
-Duplicate of recent post #: None
-LLM usage so far: 7 requests, 8523 tokens
--- Post that would be sent:
-
-== Inside News: https://inside.news/feed/
-Newest: Crise de l’eau : Mare-Longue pourrait doubler sa capacité, mais quand les robinets couleront-ils normalement ? | https://www.inside.news/crise-eau-mare-longue-30000-metres-cubes-mare-aux-vacoas/
-Article text: 2880 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/file_000000001c4082118b3e5cbfbf8b70e1-1024x576.png
-  dup: nothing new ()
-Duplicate of recent post #: 144
-LLM usage so far: 8 requests, 10034 tokens
--- Post that would be sent:
-
-== Wazaa: https://www.wazaa.mu/feed/
-Newest: Date limite fiscale à Maurice: vendredi 30 octobre, avertissements de la MRA concernant des pénalités de 2 000 Rs | https://www.wazaa.mu/date-limite-fiscale-a-maurice-vendredi-30-octobre-avertissements-de-la-mra-concernant-des-penalites-de-2-000-rs/
-Article text: 2310 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/08/1787852558.jpeg
-  dup: nothing new ()
-Duplicate of recent post #: 95
-LLM usage so far: 9 requests, 11399 tokens
--- Post that would be sent:
-
-== Top FM: https://topfm.mu/
-Newest: Épreuves du SC et du HSC annulées : Mahend Gungapersad dénonce la position de Leela Devi Dookun-Luchoomun | https://topfm.mu/actualites/epreuves-du-sc-et-du-hsc-annulees-mahend-gungapersad-denonce-la-position-de-leela-devi-dookun
-Article text: 1440 chars | photo: https://topfm.mu/sites/default/files/2026-10/HSC%400.33x.jpg
-  dup: nothing new ()
-Duplicate of recent post #: 125
-LLM usage so far: 10 requests, 12799 tokens
--- Post that would be sent:
-
+GigaChat-2: would wrongly drop 7 real posts; catches 6 of 7 skipped; 35099 tokens / 78 calls
+   LOST: New Beginnings lance The Vertical Climb, un podcast offrant de nouvelles perspectives sur le leaders (True, False)
+   LOST: Éducation l  PSAC : au-delà des notes, l’enjeu de l’accompagnement (True, False)
+   LOST: Pratiques agricoles :  La réduction des pesticides reste un défi majeur (True, False)
+   LOST: La guerre des ex (False, True)
+   LOST: Intelligence artificielle : un concours invite les étudiants à créer des solutions durables (True, False)
+   LOST: Géopolitique : Vijay Makhan appelle Maurice à s’affirmer comme un État océanique (True, False)
+   LOST: Dossier Chagos : un référendum réclamé aux Lords, le gouvernement britannique s’y oppose (False, True)
