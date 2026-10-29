@@ -13,3 +13,15 @@ LLM usage this run: 4 requests, 6618 tokens
 Skipped duplicate (Wazaa): Agent de police en service, 21 ans, arrêté après avoir vendu du cannabis à des agents infi == Подозреваемый полицейский Национальной береговой охраны продал каннабис агентам антинаркот
 LLM usage this run: 1 requests, 1445 tokens
 ### check 4/5 at 13:47
+### check 5/5 at 13:51
+  dup check: new (В статье сообщается, что телефон капитана яхты Dreamer может стать ключевым доказательством: в нём, по сообщениям, находятся изображения операции и пе)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+Posted (Defimedia): Переноска 1,5 тонны каннабиса: телефон капитана яхты Dreamer стал ключевым доказательством расследования
+  dup check: new (Arrest of 30‑year‑old Shalfaz Hasine Dilloo by CID de Port‑Louis Nord on 29 october for the theft of two aluminium donation boxes (≈Rs 10 000) from th)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Порт-Луи-Норд → Port-Louis Nord; Шальфазасина Диллуа → Shalfaz Hasine Dilloo; Плейн-Верт → Plaine-Verte
+Posted (Defimedia): На Маврикии задержан подозреваемый в краже денег из мечети
+LLM usage this run: 6 requests, 11008 tokens
