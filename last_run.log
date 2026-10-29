@@ -25,3 +25,10 @@ Skipped duplicate (Inside News): Trafic de drogue présumé : huit hommes arrêt
 Skipped duplicate (Le Mauricien): PMQT — Année financière 2026-27 : Recettes fiscales de Rs 58,9 milliards provenant des ent == От предприятий ждут налоговых поступлений на сумму 58,9 млрд рупий в 2026–2027 годах
 LLM usage this run: 3 requests, 4665 tokens
 ### check 3/5 at 15:20
+### check 4/5 at 15:24
+  dup check: new (Увеличилось число задержанных до 14 человек (9 тайцев, 5 мавриканцев, включая полицейского NCG); задержаны три судна под полицейским контролем; изъяты)
+LLM request failed (GigaChat-2-Max): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x793160a051
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Дело яхты Dreamer: задержаны девять тайцев и пять маврикийцев, включая сотрудника NCG, три судна взяты под полицейский контроль
+LLM usage this run: 3 requests, 6410 tokens
