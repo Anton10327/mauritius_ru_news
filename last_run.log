@@ -1,27 +1,22 @@
-### check 1/5 at 13:35
-  dup check: new (Arrest of a 21‑year‑old National Coast Guard policeman on 28 october for allegedly selling two parcels of cannabis (total 2.10 g) to ADSU agents posin)
+### check 1/5 at 14:25
+  dup check: new (Les neuf suspects thaïlandais ont été reconduits en cellule policière jusqu’au 5 novembre après leur comparution devant le tribunal de Port‑Louis le 2)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
   proofread: 
-Posted (Defimedia): Подозреваемый полицейский Национальной береговой охраны продал каннабис агентам антинаркотического подразделения
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Cour intermédiaire — Violation de couvre-feu : 12 personnes dans le box des accusés, dont  == Нарушение комендантского часа: двенадцать человек извинились, приговор вынесут 30 октября
-LLM usage this run: 4 requests, 6618 tokens
-### check 2/5 at 13:39
-### check 3/5 at 13:43
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Agent de police en service, 21 ans, arrêté après avoir vendu du cannabis à des agents infi == Подозреваемый полицейский Национальной береговой охраны продал каннабис агентам антинаркот
-LLM usage this run: 1 requests, 1445 tokens
-### check 4/5 at 13:47
-### check 5/5 at 13:51
-  dup check: new (В статье сообщается, что телефон капитана яхты Dreamer может стать ключевым доказательством: в нём, по сообщениям, находятся изображения операции и пе)
+  foreign words left: Dreamer
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Defimedia): Девятеро тайских подозреваемых останутся под стражей до 5 ноября
+  dup check: new (Arrest of a 29‑year‑old man in Rose‑Belle on 28 octobre, seizure of 2.8 g of heroin by the ADSU, details of the stop (Nissan March, Letord road) and s)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: 
-Posted (Defimedia): Переноска 1,5 тонны каннабиса: телефон капитана яхты Dreamer стал ключевым доказательством расследования
-  dup check: new (Arrest of 30‑year‑old Shalfaz Hasine Dilloo by CID de Port‑Louis Nord on 29 october for the theft of two aluminium donation boxes (≈Rs 10 000) from th)
+Posted (Le Mauricien): На Маврикии задержан 29-летний мужчина с героином весом почти 3 грамма
+  dup check: new (Новые цифры: ежедневно регистрируется 300‑500 заявок; к текущему моменту получено более 36 000 заявок; Development Bank of Mauritius выдала более 3 00)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Порт-Луи-Норд → Port-Louis Nord; Шальфазасина Диллуа → Shalfaz Hasine Dilloo; Плейн-Верт → Plaine-Verte
-Posted (Defimedia): На Маврикии задержан подозреваемый в краже денег из мечети
-LLM usage this run: 6 requests, 11008 tokens
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Программа грантов на резервуары и насосы для воды: ежедневно регистрируется от 300 до 500 заявок
+  dup check: new (Снижение новых диагнозов ВИЧ на Маврикии в первой половине 2026 года на 15,3 % (244 случая), снижение на 25 % среди местных жителей и рост на 115 % ср)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Здоровье – ВИЧ: снижение числа диагнозов сопровождается тревожными сигналами
+LLM usage this run: 13 requests, 18316 tokens
