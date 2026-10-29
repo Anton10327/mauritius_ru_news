@@ -1,20 +1,18 @@
-### check 1/5 at 07:39
-  dup check: new (В новой статье впервые сообщается, что двое офицеров Национальной береговой охраны (NCG) были арестованы 27 и 28 октября по подозрению в сговоре с эки)
+### check 1/5 at 08:25
+  dup check: new (Министр искусств и культуры Mahen Gondeea уточнил, что на данный момент правительство не планирует вносить новый Artist Bill в парламент, но продолжае)
+  foreign words left: Artist
+  leftovers fixed by GigaChat-3-Pro; still left: Artist
+Posted (L'Express): PQ | «Статус артиста»: правительство продолжает пересмотр закона перед внесением новых предложений
+  dup check: new (В новой статье уточняется, что последняя гидрографическая и седиментологическая оценка водохранилища Mare-aux-Vacoas проводилась в 1996 году компанией)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Трафик 1500 кг каннабиса: двух офицеров NCG подозревают в сговоре
-  dup check: new (Air Mauritius пересматривает заказ на три дополнительных Airbus A350-900 и рассматривает возможность приобретения до пяти среднемагистральных самолёто)
-Posted (Defimedia): Пересмотр флота: Air Mauritius пересматривает заказы на A350 и рассматривает пять среднемагистральных самолётов
-  dup check: new (В статье указано, что на 26 октября 2026 года уже доставлено 72 дома из 200 запланированных в Pointe-aux-Piments; также уточняется, что передача ключе)
-  proofread: Pointe-aux-Симс → Pointe-aux-Пимент
-Posted (Le Mauricien): Социальное жильё: 72 дома уже сданы из 200 запланированных в Pointe-aux-Piments
-  dup check: new (Министр труда Reza Uteem признал, что текущие критерии Youth Employment Programme (требование Higher School Certificate или более высокой квалификации)
-  proofread: Reza Uteem → Реза Утём
-Posted (Inside News): Занятость молодежи: критерии YEP исключают около 80 % соответствующих безработных
-LLM usage this run: 12 requests, 21175 tokens
-### check 2/5 at 07:43
-### check 3/5 at 07:47
-  dup check: new (Министр государственной службы и административных реформ заявил, что создание централизованной ячейки перераспределения госслужащих (Centralized Redep)
-Posted (L'Express): Госслужба: централизованная ячейка перераспределения пока не будет создана
-LLM usage this run: 3 requests, 5020 tokens
-### check 4/5 at 07:51
-### check 5/5 at 07:55
+  foreign words left: Ltd
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (L'Express): Маврикий | Mare-aux-Vacoas: оценочная потеря ёмкости хранения 0,15 млн м³ за 30 лет
+  dup check: new (Две участницы программы Water Tank and Water Pump Grant Scheme сообщили о требовании доплатить 5000 рупий сверх обещанной субсидии в 15000 рупий при п)
+Posted (Defimedia): Схема грантов на водяные баки и насосы: двое получателей жалуются на доплату в 5 000 рупий
+  dup check: new (Правительство готовит поправки к Cyber Security and Cybercrime Act 2021 для борьбы с кибербуллингом и онлайн-харрасментом, министр информации подтверд)
+  proofread: «midnight mode» → «ночной режим»
+  foreign words left: Cyber
+  leftovers fixed by GigaChat-3-Pro; still left: Cyber
+Posted (L'Express): Правительство Маврикия готовит новый правовой режим против онлайн-злоупотреблений
+LLM usage this run: 15 requests, 20137 tokens
