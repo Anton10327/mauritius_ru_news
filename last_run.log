@@ -33,3 +33,9 @@ LLM usage this run: 6 requests, 9807 tokens
   dup: nothing new ()
 Skipped duplicate (Top FM): Affaire du yacht ‘Dreamer’ : 14 arrestations, dont un policier de la National Coast Guard == Дело яхты Dreamer: задержаны девять тайцев и пять маврикийцев, включая сотрудника NCG, три
 LLM usage this run: 1 requests, 1525 tokens
+### check 4/5 at 18:10
+  dup check: new (Chetan Baboolall réclame la création d'un Select Committee pour examiner l'ensemble des neuf projets de loi annoncés dans le cadre de la réforme du sy)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Chetan Baboolall: «Слушайте адвокатуру! Слушайте жертв! Слушайте страну!»
+LLM usage this run: 3 requests, 5621 tokens
