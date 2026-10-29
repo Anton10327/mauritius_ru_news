@@ -17,3 +17,18 @@ Posted (Defimedia): Отмена экзаменов SC/HSC: «Мы действ�
   proofread by qwen/qwen3.8-27b
 Posted (Defimedia): Неуважение к комендантскому часу: еще 20 приговоров, два дела отложены до января 2027 года
 LLM usage this run: 11 requests, 18035 tokens
+### check 2/5 at 12:54
+  dup check: new (Сведения о расходах на официальные поездки министров Маврикия за период с декабря 2024 года: 42,7 млн рупий, 109 миссий, средняя стоимость 392 000 руп)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Навин Рамголам → Navin Ramgoolam; Джоанны Беренжер → Joanna Bérenger
+Posted (Inside News): Официальные поездки министров Маврикия за границу обошлись бюджету почти в 43 миллиона рупий
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Procurement — Audit interne à la CHCL : rapport soumis à la FCC == PMQT | Cargo Handling Corporation: выявлены недостатки во внутренних процедурах
+  dup: nothing new ()
+Skipped duplicate (Inside News): Glucomètres : une offre inférieure de Rs 10 millions écartée, la sécurité des patients inv == Общественный контроль — Глюкометры: IRP отклонил протест Health Focus Ltd
+  dup check: new (Arrest of former police officer Kevin Rangilal and his detention in Vacoas Detention Centre; mention of perquisition at the home of SP Ashik Jagai wit)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Подозрение в причастности бывших высокопоставленных полицейских к наркотрафику
+LLM usage this run: 8 requests, 12900 tokens
