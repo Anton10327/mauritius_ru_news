@@ -471,6 +471,7 @@ def _llm_post(model, messages, max_tokens):
 
 def _parse_json(text):
     text = re.sub(r"<think>.*?</think>", "", text or "", flags=re.S)
+    text = text.replace("\u0301", "").replace("\u0300", "")  # stress marks: Бере́нже
     m = re.search(r"\{.*\}", text, re.S)
     return json.loads(m.group(0)) if m else None
 
@@ -1351,6 +1352,26 @@ def _latin_words(text):
     return re.findall(r"[A-Za-zÀ-ÿ](?:[A-Za-zÀ-ÿ'’-]*[A-Za-zÀ-ÿ])?", text or "")
 
 
+_MIXED = re.compile(r"\b(?=[\wÀ-ÿ'’-]*[A-Za-zÀ-ÿ])(?=[\wÀ-ÿ'’-]*[А-Яа-яЁё])[\wÀ-ÿ'’-]+")
+
+
+def fix_mixed_words(text, names):
+    """A word half in Latin, half in Cyrillic ("Bérengerнже"): keep the listed
+    name it starts with, drop the rest."""
+    tokens = sorted({w for n in names if n.get("type") != "foreign"
+                     for w in _latin_words(n.get("orig", ""))}, key=len, reverse=True)
+
+    def sub(m):
+        w = m.group(0)
+        lat = re.match(r"[A-Za-zÀ-ÿ'’-]+", w)
+        if lat:
+            for t in tokens:
+                if lat.group(0).lower().startswith(t.lower()[:max(4, len(t) - 2)]):
+                    return t
+        return w
+    return _MIXED.sub(sub, text or "")
+
+
 def foreign_leftovers(title, summary, names, original=""):
     """Latin words that are not part of a listed name or an abbreviation."""
     text = f"{title} {summary}"
@@ -1377,8 +1398,8 @@ def foreign_leftovers(title, summary, names, original=""):
                     text = re.sub(re.escape(part), " ", text, flags=re.I)
         else:  # people and places: a surname alone is fine too
             allowed |= {w.lower() for w in _latin_words(n.get("orig", ""))}
-    left = []
-    for w in _latin_words(text):
+    left = [w for w in _MIXED.findall(text)]  # half-Latin words always need fixing
+    for w in _latin_words(_MIXED.sub(" ", text)):
         if w.lower() in allowed or (w.isupper() and len(w) <= 6) or re.fullmatch(r"[A-Z]{1,3}\d*", w):
             continue
         if w not in left:
@@ -1464,7 +1485,11 @@ def proofread(title, summary, original="", names=()):
     if d is None:
         return title, summary
     new_t, new_s = (d.get("title") or "").strip(), (d.get("summary") or "").strip()
-    new_t, new_s = apply_names(new_t, names, original), apply_names(new_s, names, original)
+    # An edit that turned a Latin name into Cyrillic (Paul Bérenger -> Поль Беренже)
+    # is rejected as it is; repairing it produced half-and-half words
+    # ("Bérengerнже"). Only stray non-breaking hyphens/spaces are normalised.
+    norm = lambda t: t.replace("\u2011", "-").replace("\u00a0", " ").replace("\u202f", " ")
+    new_t, new_s = norm(new_t), norm(new_s)
     out_t = new_t if _safe_edit(title, new_t, original, foreign) else title
     out_s = new_s if (not summary or _safe_edit(summary, new_s, original, foreign)) else summary
     # A rejected whole-text edit can still carry safe name fixes
@@ -1550,6 +1575,7 @@ def build_post(source, entry, link, recent=(), force=False):
     source_text = f"{orig_title}\n{body}"
     title = fix_caps_title(apply_names(title, names, source_text), orig_title)
     summary = apply_names(summary, names, source_text)
+    title, summary = fix_mixed_words(title, names), fix_mixed_words(summary, names)
     title, summary = fix_leftovers(title, summary, names, source_text)
     post["title"], post["summary"] = title, summary
 
