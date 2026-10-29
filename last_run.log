@@ -1,24 +1,17 @@
-### check 1/5 at 16:58
-  dup: nothing new ()
-Skipped duplicate (Inside News): Crise de l’eau : Mare-Longue pourrait doubler sa capacité, mais quand les robinets coulero == Mare-Longue–La Marie: объем подаваемой воды может удвоиться уже в воскресенье, объявил Pat
-  dup check: new (Arrest of a suspect (Azmath R., ~20 years old) caught red‑handed stealing a ladder in a second mosque in Petit‑Verger after being wanted for a theft i)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Пети-Вержере → Petit-Verger; Шемен-Гренье → Chemin-Grenier; мечети Шах Ахмад Нурани Сиддики → мечети mosquée Shah Ahmad Noorani Siddiqui
-Posted (Defimedia): Задержан подозреваемый в краже лестницы из мечети в Petit-Verger
-LLM usage this run: 4 requests, 6475 tokens
-### check 2/5 at 17:02
-### check 3/5 at 17:06
-### check 4/5 at 17:10
-  dup check: new (Premier ministre Navin Ramgoolam a prononcé de nouvelles déclarations : il a qualifié le meurtre d’Elodie Thomas d’« acte impardonnable » et a décrit )
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамгулам → Navin Ramgoolam
-Posted (Le Mauricien): Премьер-министр Navin Ramgoolam представил законопроект против заговоров молчания по серьёзным преступлениям
-  dup check: new (Premier‑minister Navin Ramgoolam a présidé, le jeudi 29 octobre, une première réunion de trois heures avec des ONG œuvrant auprès des jeunes et des fa)
-LLM per-minute limit, waiting 2s
+### check 1/5 at 17:58
+  dup check: new (L’avocat du capitaine du yacht Dreamer signale l’absence d’un interprète assermenté pour la suite de l’enquête, soulevant ainsi un problème procédural)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (L'Express): Социальные беспорядки: Navin Ramgoolam начал консультации с НПО для выяснения причин социального неблагополучия
-LLM usage this run: 6 requests, 11656 tokens
-### check 5/5 at 17:14
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Предполагаемый трафик каннабиса: адвокат капитана Yacht Dreamer требует переводчика для продолжения расследования
+  dup check: new (Arrestation d'un deuxième policier de la NCG le 29 octobre suite à la saisie de 2,10 g de cannabis et de Rs 3 800, après l'arrestation précédente d'un)
+LLM per-minute limit, waiting 3s
+  written by qwen/qwen3.8-27b
+Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
+  foreign words left: National, Coast, Guard, Anti-Drug, and, Smuggling, Unit
+Posted (Defimedia): Изъятие каннабиса в Mahébourg: задержан второй полицейский из NCG
+  dup: nothing new ()
+Skipped duplicate (L'Express): «Criminal Justice (Offenders Assisting Investigations and Prosecutions) Bill» : Navin Ramg == Премьер-министр Navin Ramgoolam представил законопроект против заговоров молчания по серьё
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Suite aux récents troubles : Navin Ramgoolam préside une première réunion avec les ONG == Социальные беспорядки: Navin Ramgoolam начал консультации с НПО для выяснения причин социа
+LLM usage this run: 7 requests, 13129 tokens
