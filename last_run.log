@@ -1,55 +1,19 @@
-### check 1/5 at 11:57
-  dup check: new (Innodis inauguré deux centrales photovoltaïques à Arsenal le 28 octobre, capacité totale de 4,2 MWc, production prévue >6,5 GWh/an, réduction CO2 esti)
-  proofread: введена в эксплуатацию → введена в строй; вырабатывать → производить
-Posted (Defimedia): Проект в Arsenal: Innodis планирует 12,5 ГВт·ч солнечной электроэнергии в год
-  dup check: new (В новой статье указано имя погибшей (Santi Jugurnauth, 81 ans), уточнено место происшествия (Branch Road, Petit-Verger) и время (около 8 часов утра). )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): На Маврикии, в Petit-Verger, Saint-Pierre, 81-летнюю Santi Jugurnauth насмерть сбил фургон у её дома
-  dup check: new (Убийство Selven Iyempermal, 34 лет, в La Caverne (Vacoas) вечером во вторник; он был избит шестью людьми и скончался рано утром в среду. Следствие рас)
-Posted (Defimedia): Убийство Selven Iyempermal: основная версия — сведение счетов, связанное с наркоторговлей
-  dup check: new (В статье упоминается новый конфликт между Полем Беранже и Раджешем Багваном в Национальной ассамблее, а также раскрыта информация о собственности близ)
-  proofread: Paul Bérenger → Поль Бере́нже; Rajesh Bhagwan → Раджеш Багван; Navin Ramgoolam → Навин Рамгулам; Élodie Thomas → Элоди Томас
-Posted (L'Express): Война бывших
-LLM usage this run: 12 requests, 19319 tokens
-### check 2/5 at 12:01
-  not about Mauritius: COP17 : 252 millions d'hectares de nature restaurés, niveau inédit selon l'ONU
-Skipped foreign news (Defimedia): COP17 : 252 millions d'hectares de nature restaurés, niveau inédit selon l'ONU
-  dup: nothing new ()
-Skipped duplicate (L'Express): PMQT | Émigration : 76 % des 18-25 ans envisagent de quitter Maurice == Эмиграция: 76% опрошенных молодых маврикийцев рассматривают такой вариант
-  dup check: new (Женщина 37 лет получила тяжёлые ожоги в Cottage и находится в реанимации; инцидент произошёл утром, обстоятельства выясняются полицией. Это новый случ)
-  proofread: Cottage → Коттедж; SSR N → SSRN (оставлено); Victoria → Виктория; Candos → Кандос; Piton → Питон
-Posted (Defimedia): В Cottage: 37-летняя женщина в реанимации после тяжёлых ожогов
-  dup check: new (Shiam Thannoo заявил, что 31 автомобиль задействован для распределения воды в случае крупных проблем. В статье также приводятся свидетельства жителей )
-  proofread: Shiam Thannoo → Шиям Танну
-Posted (Defimedia): Водный кризис: автоцистерны с трудом справляются со спросом
-LLM usage this run: 8 requests, 14031 tokens
-### check 3/5 at 12:05
-  dup check: new (В статье указано, что по состоянию на 26 октября зарегистрировано 35 817 заявок в рамках программы Water Tank and Pump Scheme, но выдано только 2 862 )
-Posted (Inside News): Резервуары для воды: более 35 000 заявок, но выдано только 2 862 купона
-  dup check: new (Указано, что на Парижском форуме мира особое внимание будет уделено защите детства и будущему молодых поколений через специальный Child Summit. Это ко)
-  proofread: Navin Ramgoolam → Навин Рамгулум; Emmanuel Macron → Эмманюэль Макрон; Antigua-et-Barbuda → Антигуа и Барбуда; Cambodge → Камбоджа; Phnom Penh → Пномпень
-Posted (Le Mauricien): После CHOGM: Ramgoolam приглашён Macron на Парижский форум мира
-  dup check: new (В статье указано, что Merven Clair выиграл полуфинал у конголезца Ngalekani Soireze Miere со счётом 5-0 и вышел в финал чемпионата Африки по боксу сре)
-  proofread: «бут-ревью» → «бут-ревью» (термин оставлен как устоявшийся спортивный термин); Нгалекани Суарез Мир → Нгалекани Суарез Мир
-Posted (Le Mauricien): БОКС – Чемпионат Африки среди элиты 2026 (ДР Конго): Merven Clair вышел в финал, Cloé Gabriel стала жертвой очередного «бут-ревью» в Киншасе
-  dup check: new (В статье говорится о внутреннем аудите Cargo Handling Corporation, выявившем слабые места в процедурах снабжения, управлении персоналом и контроле за )
-Posted (L'Express): PMQT | Cargo Handling Corporation: выявлены недостатки во внутренних процедурах
-LLM usage this run: 12 requests, 20195 tokens
-### check 4/5 at 12:09
-  dup check: new (В статье упоминается, что на борту яхты Dreamer было изъято около 1,5 тонны каннабиса и гашиша общей стоимостью 2,7 млрд рупий. Также впервые прямо ст)
-  written by GigaChat-2-Max
-  proofread: 
-Posted (L'Express): Изъятие 1,5 тонны наркотиков: удивительные совпадения с октябрьскими волнениями?
-  dup check: new (В статье указано, что депутат Roshan Jhummun запросил у премьер-министра Navin Ramgoolam идентичность иностранных и маврикийских руководителей Silver )
-  written by GigaChat-2-Max
-  proofread: взаимная правовая помощь → взаимная правовая помощь
-  foreign words left: Toxic
-  leftovers fixed by GigaChat-3-Pro; still left: Toxic
-Posted (Le Mauricien): Toxic Loans: Запрошены взаимная правовая помощь против девяти подозреваемых по делу Silver Bank
-  dup check: new (Roshi Bhadain, leader of the Reform Party, publicly contests the parliamentary answers regarding the Kistnen case and announces an upcoming press conf)
+### check 1/5 at 12:50
+  dup check: new (Financial Crimes Commission (FCC) issued a report in October 2026 identifying multiple weaknesses in the fund‑disbursement procedures for municipal pr)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Роши Бхадайн → Roshi Bhadain; Соопраманиена Кистнена → Soopramanien Kistnen
-Posted (Top FM): Дело Kistnen: Roshi Bhadain оспаривает парламентские ответы и настаивает на финансовой версии
-LLM usage this run: 10 requests, 14707 tokens
-### check 5/5 at 12:13
+Posted (Defimedia): Муниципальные проекты в Quatre-Bornes: FCC выявила недостатки в процедурах финансирования
+  dup check: new (Запуск консультаций между правительством и НКО по вопросам молодежи Маврикия 29 октября, обсуждение подростковой преступности, зависимостей и родитель)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Au Cœur de l’Info : violence juvénile, addictions et responsabilité parentale au cœur des débats
+Skipped foreign news (Defimedia): Au Cœur de l’Info : violence juvénile, addictions et responsabilité parentale au cœur des débats
+  dup check: new (Minister Mahend Gungapersad provides new details on the cancellation of certain School Certificate (SC) and Higher School Certificate (HSC) exams, des)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Махенд Гунгаперсад → Mahend Gungapersad; Лиелы Деви Дукун-Лучумун → Leela Devi Dookun-Luchoomun; Кембриджем → Cambridge
+Posted (Defimedia): Отмена экзаменов SC/HSC: «Мы действовали исключительно в интересах учеников», утверждает Mahend Gungapersad
+  dup check: new (В статье сообщается о 20 новых приговорах за нарушение комендантского часа и о том, что два судебных процесса отложены до января 2027 года, чего нет в)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Неуважение к комендантскому часу: еще 20 приговоров, два дела отложены до января 2027 года
+LLM usage this run: 11 requests, 18035 tokens
