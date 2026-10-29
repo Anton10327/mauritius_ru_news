@@ -10,3 +10,10 @@ Posted (Wazaa): Navin Ramgoolam примет участие в двух круп
   proofread: Mare-aux-Vacoas → Mare-aux-Vacoas (оставлено как есть); автоцистерны и поддержку покупки домашних резервуаров → автоцистерны и поддержке покупки домашних резервуаров (исправлен падеж); жители жалуются на часы подачи и утечки → жители жалуются на часы подачи и утечки (ошибок нет); оценки эффективност
 Posted (Inside News): Кризис воды: водохранилище Mare-aux-Vacoas под давлением, ответы властей проходят проверку
 LLM usage this run: 10 requests, 14670 tokens
+### check 2/5 at 10:04
+  dup: nothing new (В статье сообщается, что предложение о создании Select Committee по вопросам подростковой преступности не было представлено в Национальном собрании во)
+Skipped duplicate (L'Express): Délinquance juvénile : La motion pour la création d’un «Select Committee» reportée == Парламент: Silver Bank, водный кризис и октябрьские беспорядки в центре вопросов
+  dup check: new (В статье сообщается, что в Порт-Луи начались работы по уборке и ремонту после беспорядков; мэр города Кристель Пондар заявила о начале уборки, а также)
+  proofread: Christelle Pondard → Кристель Пондар
+Posted (Top FM): Port-Louis: начались работы по уборке и ремонту после беспорядков
+LLM usage this run: 4 requests, 4562 tokens
