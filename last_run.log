@@ -1,18 +1,7 @@
-### check 1/5 at 18:53
-### check 2/5 at 18:57
-  dup: nothing new ()
-Skipped duplicate (L'Express): Transition énergétique : Innodis inaugure deux centrales solaires d’une puissance cumulée  == Проект в Arsenal: Innodis планирует 12,5 ГВт·ч солнечной электроэнергии в год
-LLM usage this run: 1 requests, 1389 tokens
-### check 3/5 at 19:01
-  dup check: new (Lancement le 29 octobre du « Data Protection Guide for Financial Services » destiné au secteur financier, présenté par le ministre des Technologies de)
+### check 1/5 at 19:44
+  dup check: new (Reprise des importations de bétail namibien après suspension le 25 septembre 2026, aucune nouvelle propagation de la fièvre aphteuse depuis le 15 octo)
+LLM per-minute limit, waiting 30s
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Top FM): Финансовые услуги: новый гид для лучшей защиты данных
-LLM usage this run: 3 requests, 4464 tokens
-### check 4/5 at 19:05
-  dup check: new (Министр жилья Шакел Мохамед выступил в поддержку законопроекта Criminal Justice (Offenders Assisting Investigations and Prosecutions) Bill, приведя св)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Shakeel Mohamed: «Давайте сосредоточимся на том, что нас объединяет, а не на том, что нас разделяет»
-LLM usage this run: 3 requests, 5950 tokens
-### check 5/5 at 19:09
+Posted (Top FM): Скот из Намибии: возобновление импорта
+LLM usage this run: 3 requests, 5083 tokens
