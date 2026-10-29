@@ -1,35 +1,23 @@
-### check 1/5 at 15:12
-  dup check: new (Le ministre Patrick Assirvaden annonce que le volume d’eau acheminé de Mare-Longue vers La Marie pourrait doubler dès dimanche, passant de 15 000 à pr)
-LLM request failed (GigaChat-2-Max): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x75fa47de8a
-  written by qwen/qwen3.8-27b
+### check 1/5 at 16:00
+  dup check: new (Семь украденных мотоциклов разных марок в октябре; два подозреваемых задержаны подразделением DCIU North и объявлены недееспособными; детали мест краж)
+  written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Mare-Longue–La Marie: объем подаваемой воды может удвоиться уже в воскресенье, объявил Patrick Assirvaden
-  written by qwen/qwen3.8-27b
-Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
-Posted (Defimedia): New Beginnings запускает подкаст The Vertical Climb, предлагающий новый взгляд на лидерство на Маврикии
-  dup check: new (Угон с ножом: 69‑летний пенсионер в Sainte‑Croix был угрозой ножом тремя людьми 26 октября около 19:00, у него отобрали телефон и деньги (около Rs 4 5)
-  written by qwen/qwen3.8-27b
+  proofread: 
+Posted (Defimedia): Семь украденных мотоциклов: северное подразделение DCIU задерживает двух подозреваемых
+  dup check: new (Dhiyven Lofur a été libéré sous caution après avoir payé Rs 25 000 et signé une reconnaissance de dette de Rs 100 000, concernant les émeutes de Saint)
+  written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Sainte-Croix: 69-летний пенсионер подвергся нападению с ножом со стороны трех человек
-  dup check: new (WHO representative Dr Abdou Salam Gueye emphasizes prevention beyond residue checks; six samples of vegetables and fruits exceeded maximum residue lim)
-  written by qwen/qwen3.8-27b
+  proofread: Порт-Луи → Port-Louis; Сент-Круа → Sainte-Croix
+Posted (Defimedia): Беспорядки: подозреваемый освобождён под залог
+  dup check: new (Указано, что в результате операции было арестовано 14 человек: 7 тайских граждан (включая капитана) на борту яхты Dreamer, 2 тайских граждан в аэропор)
+  written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Общественное здоровье - Пестициды: контроль овощей недостаточно
-LLM usage this run: 10 requests, 19607 tokens
-### check 2/5 at 15:17
-  dup: nothing new ()
-Skipped duplicate (L'Express): La Caverne, Vacoas : «Belo» succombe à une violente agression == Vacoas: мужчина скончался после жестокого нападения в своём доме
-  dup: nothing new ()
-Skipped duplicate (Inside News): Trafic de drogue présumé : huit hommes arrêtés après l’interception du yacht Dreamer == Тайская яхта Dreamer: сколько килограммов наркотиков могли выбросить в воду?
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): PMQT — Année financière 2026-27 : Recettes fiscales de Rs 58,9 milliards provenant des ent == От предприятий ждут налоговых поступлений на сумму 58,9 млрд рупий в 2026–2027 годах
-LLM usage this run: 3 requests, 4665 tokens
-### check 3/5 at 15:20
-### check 4/5 at 15:24
-  dup check: new (Увеличилось число задержанных до 14 человек (9 тайцев, 5 мавриканцев, включая полицейского NCG); задержаны три судна под полицейским контролем; изъяты)
-LLM request failed (GigaChat-2-Max): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x793160a051
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Дело яхты Dreamer: задержаны девять тайцев и пять маврикийцев, включая сотрудника NCG, три судна взяты под полицейский контроль
-LLM usage this run: 3 requests, 6410 tokens
-### check 5/5 at 15:28
+  proofread: имени Сир Сивусагура Рамголлама → имени Sir Seewoosagur Ramgoolam; Национальной береговой охраны → National Coast Guard (NCG)
+  foreign words left: Thaïlande
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Defimedia): Подозреваемый трафик каннабиса между Таиландом и Маврикием: 14 задержанных
+  dup check: new (Netanyahu's camp intensified attacks on Israeli Arab parties after they achieved a historic result of 19 seats in the legislative elections, accusing )
+  written by GigaChat-2-Max
+  not about Mauritius: Israël : le camp de Netanyahu cible les partis arabes après leur score historique
+Skipped foreign news (Defimedia): Israël : le camp de Netanyahu cible les partis arabes après leur score historique
+LLM usage this run: 12 requests, 18620 tokens
