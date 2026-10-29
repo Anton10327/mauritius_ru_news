@@ -1,13 +1,8 @@
-### check 1/5 at 06:02
-  dup check: new (В новой статье указаны конкретные погодные условия на 29 октября: ожидаются дожди в Северном, Восточном регионах и на центральном плато; минимальная т)
-  not news (portrait/lifestyle): Météo : des averses attendues au Nord, à l’Est et sur le plateau central ce jeudi
-Skipped foreign news (Inside News): Météo : des averses attendues au Nord, à l’Est et sur le plateau central ce jeudi
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Explosion tragique d’un fût chimique: un père de trois enfants tué, sa femme blessée == Мужчина погиб после взрыва контейнера с гербицидом в Flacq
-  dup: nothing new ()
-Skipped duplicate (L'Express): En couverture : Les grands titres de l'express de ce jeudi 29 octobre 2026 == Главные заголовки «Экспресс» за среду, 28 октября 2026 года
-LLM usage this run: 4 requests, 5744 tokens
-### check 2/5 at 06:06
-### check 3/5 at 06:10
-### check 4/5 at 06:14
-### check 5/5 at 06:18
+### check 1/5 at 06:51
+  dup check: new (Заявление Высокого комиссара ООН по правам человека Волкера Тюрка с призывом к новому израильскому правительству изменить курс и соблюдать международн)
+  not about Mauritius: Élections en Israël : l'ONU appelle le futur gouvernement à «changer radicalement de cap»
+Skipped foreign news (Defimedia): Élections en Israël : l'ONU appelle le futur gouvernement à «changer radicalement de cap»
+  dup check: new (Прогноз Всемирного банка: мировые цены на продукты питания вырастут на 18% в период с 2025 по 2027 год, а цены на энергоносители — на 32% в этом году.)
+  not about Mauritius: Les prix alimentaires dans le monde en hausse de 18% entre 2025 et 2027, selon la Banque mondiale
+Skipped foreign news (Defimedia): Les prix alimentaires dans le monde en hausse de 18% entre 2025 et 2027, selon la Banque mondiale
+LLM usage this run: 4 requests, 8060 tokens
