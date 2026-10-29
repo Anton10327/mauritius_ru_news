@@ -16,3 +16,16 @@ Posted (Defimedia): Схема грантов на водяные баки и н
   leftovers fixed by GigaChat-3-Pro; still left: Cyber
 Posted (L'Express): Правительство Маврикия готовит новый правовой режим против онлайн-злоупотреблений
 LLM usage this run: 15 requests, 20137 tokens
+### check 2/5 at 08:29
+  dup check: new (В статье указано, что 28 октября арестованы восемь подозреваемых по делу о нападении на полицейский участок и кражах со взломом в ночь с 12 на 13 октя)
+  proofread: близкого → близкого родственника
+Posted (Defimedia): Погром полицейского участка и кражи со взломом: восемь арестов после недавних беспорядков
+  dup check: new (В статье описан новый случай мошенничества: 70-летняя жительница Plaine-Verte потеряла Rs 5 772 после покупок на TikTok, подав жалобу в полицию 27 окт)
+  proofread: рупий → рупии
+Posted (Le Mauricien): Plaine-Verte: пенсионерка 70 лет потеряла 5 772 рупии после покупок на TikTok
+  dup check: new (Проведена перлюстрация дома Ашика Джагая, бывшего главы Special Striking Team, в Валле-де-Претр 27 октября; никаких компрометирующих элементов не найд)
+  proofread: Vallée-des-Prêtres → Вале-де-Прётр
+Posted (Defimedia): Обыск у Ashik Jagai: компрометирующих материалов не обнаружено
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Pour une Constitution qui concilie efficacité gouvernementale et démocratie libérale == Искусственный интеллект: конкурс для превращения идей студентов в решения повседневных зад
+LLM usage this run: 10 requests, 13950 tokens
