@@ -888,6 +888,8 @@ _VOWEL_SWAPS = [{"u", "a"}, {"a", "e"}, {"e", "i"}, {"o", "u"}]
 def _fr(word, oi=True):
     """French reading of one word: oi = уа, silent final consonant and e."""
     w = re.sub(r"e?aux?$", "o", word.lower())  # aux, eau, eaux = о
+    w = re.sub(r"eu[xs]?$", "e", w).replace("eu", "e")  # Levieux ~ Левьё, Fleur ~ Флёр
+    w = re.sub(r"(?<=[aeiouy])[xs]$", "", w)  # silent final x/s
     if oi:
         w = re.sub(r"oi[xst]?$", "ua", w).replace("oi", "ua")
     k = re.sub(r"(?<=[aeiou])[tdsx]$", "", _sound(w))
