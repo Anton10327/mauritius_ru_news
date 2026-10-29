@@ -20,3 +20,23 @@ Posted (Defimedia): Программа грантов на резервуары 
   proofread by qwen/qwen3.8-27b
 Posted (Defimedia): Здоровье – ВИЧ: снижение числа диагнозов сопровождается тревожными сигналами
 LLM usage this run: 13 requests, 18316 tokens
+### check 2/5 at 14:29
+  dup check: new (Назначение нового посла Франции на Маврикий Алексиса Лойе, его встречи с прессой, планы по экономической дипломатии и инвестициям в водоочистку и упра)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Alexis Loyer : «Une vraie vocation d'investissement dans des solutions d'assainissement et de gestio
+Skipped foreign news (L'Express): Alexis Loyer : «Une vraie vocation d'investissement dans des solutions d'assainissement et de gestio
+  dup: nothing new ()
+Skipped duplicate (Inside News): Avant les fortes pluies, plus de 300 kilomètres de drains et de cours d’eau restent à trai == Сезон циклонов: дополнительно выделено 196,5 млн рупий, предстоит обработать более 300 км 
+  dup check: new (Inauguration of the Julius Nyerere B1-M1 Link Road in Ébène, attended by Minister Ajay Gunness and other officials; project cost Rs 332 million; built)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Эбэн → Ébène; Редьют → Réduit; торгового центра Tribeca → торгового центра Tribeca; севера острова → северу острова
+  foreign words left: Tribeka
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Le Mauricien): Ébène | Дорога Julius Nyerere B1-M1 Link Road: маршрут Трибека-Порт-Луи теперь минует Réduit
+  dup check: new (NGO collective (AILES, CUT, etc.) met in Port‑Louis demanding reform of Mauritius drug policy and calling for publication of the National Agency for D)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Порт-Луи → Port-Louis
+Posted (Defimedia): Негосударственные организации призывают реформировать антинаркотическую политику и опубликовать доклад о каннабисе
+LLM usage this run: 10 requests, 15262 tokens
