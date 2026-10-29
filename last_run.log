@@ -10,3 +10,10 @@ Posted (Defimedia): Налоговое управление Маврикия —
   proofread: Ashley Lindsay Duval → Эшли Линдайз Дюваль; Jean Alexandre Johanny Natchoo → Жан Александр Джоанни Натчу; La Gaulette → Ла-Голетта
 Posted (Defimedia): Владение оружием и нарушение комендантского часа: полицейский Duval и Johanny Natchoo заявили о непризнании вины
 LLM usage this run: 7 requests, 11739 tokens
+### check 2/5 at 09:19
+  dup: nothing new (Министр Patrick Assirvaden заявил, что возможность сделать горячую линию 170 бесплатной будет рассмотрена совместно с Mauritius Telecom; ранее в опубл)
+Skipped duplicate (Inside News): CWA : le gouvernement étudie la gratuité de la hotline 170 == Бесплатность горячей линии водоканала CWA рассматривается правительством
+  dup check: new (Предложение Nouveaux Démocrates по избирательной реформе: 42 депутата по мажоритарной системе и 20 мест по пропорциональной, два депутата на округ (вс)
+  proofread: «Новые демократы» → Nouveaux Démocrats
+Posted (Top FM): Реформа избирательной системы: «Новые демократы» предлагают 42 мандата по мажоритарной системе и 20 — по пропорциональной
+LLM usage this run: 4 requests, 6010 tokens
