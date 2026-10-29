@@ -9,3 +9,10 @@ Skipped foreign news (Defimedia): Bambous : une chute au travail bouleverse la v
 Skipped duplicate (Top FM): Épreuves du SC et du HSC annulées : Mahend Gungapersad dénonce la position de Leela Devi D == Отмена экзаменов SC/HSC: «Мы действовали исключительно в интересах учеников», утверждает M
 LLM usage this run: 4 requests, 7131 tokens
 ### check 2/5 at 21:31
+### check 3/5 at 21:35
+  dup check: new (24‑летняя женщина из Трамин заявила, что её избил и потянул за одежду её 30‑летний кузен‑рыбак 28 октября; она получила травмы и была госпитализирован)
+LLM per-minute limit, waiting 30s
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): В Tamarin: избитая и затасканная по дороге, молодая женщина обвиняет своего кузена
+LLM usage this run: 3 requests, 5256 tokens
