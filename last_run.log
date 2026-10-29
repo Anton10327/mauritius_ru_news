@@ -1,52 +1,12 @@
-### check 1/5 at 08:25
-  dup check: new (Министр искусств и культуры Mahen Gondeea уточнил, что на данный момент правительство не планирует вносить новый Artist Bill в парламент, но продолжае)
-  foreign words left: Artist
-  leftovers fixed by GigaChat-3-Pro; still left: Artist
-Posted (L'Express): PQ | «Статус артиста»: правительство продолжает пересмотр закона перед внесением новых предложений
-  dup check: new (В новой статье уточняется, что последняя гидрографическая и седиментологическая оценка водохранилища Mare-aux-Vacoas проводилась в 1996 году компанией)
+### check 1/5 at 09:15
+  same headline as #118: Diplomatie : Navin Ramgoolam au Sommet du  Commonwealth puis au Forum de Paris s
+Skipped duplicate (L'Express): Diplomatie : Ramgoolam attendu au Commonwealth et au Forum de Paris sur la Paix == Navin Ramgoolam выступит на саммите Сообщества, затем поедет на Парижский форум мира
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Étude hydrographique — Mare-aux-Vacoas : Perte de capacité estimée à 0,15 M de mètres cube == Маврикий | Mare-aux-Vacoas: оценочная потеря ёмкости хранения 0,15 млн м³ за 30 лет
+  dup check: new (В статье сообщается о крайнем сроке подачи налоговой декларации (30 октября) и новых штрафах за просрочку: Rs 2 000 в месяц, но не более Rs 5 000 для )
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Ltd
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (L'Express): Маврикий | Mare-aux-Vacoas: оценочная потеря ёмкости хранения 0,15 млн м³ за 30 лет
-  dup check: new (Две участницы программы Water Tank and Water Pump Grant Scheme сообщили о требовании доплатить 5000 рупий сверх обещанной субсидии в 15000 рупий при п)
-Posted (Defimedia): Схема грантов на водяные баки и насосы: двое получателей жалуются на доплату в 5 000 рупий
-  dup check: new (Правительство готовит поправки к Cyber Security and Cybercrime Act 2021 для борьбы с кибербуллингом и онлайн-харрасментом, министр информации подтверд)
-  proofread: «midnight mode» → «ночной режим»
-  foreign words left: Cyber
-  leftovers fixed by GigaChat-3-Pro; still left: Cyber
-Posted (L'Express): Правительство Маврикия готовит новый правовой режим против онлайн-злоупотреблений
-LLM usage this run: 15 requests, 20137 tokens
-### check 2/5 at 08:29
-  dup check: new (В статье указано, что 28 октября арестованы восемь подозреваемых по делу о нападении на полицейский участок и кражах со взломом в ночь с 12 на 13 октя)
-  proofread: близкого → близкого родственника
-Posted (Defimedia): Погром полицейского участка и кражи со взломом: восемь арестов после недавних беспорядков
-  dup check: new (В статье описан новый случай мошенничества: 70-летняя жительница Plaine-Verte потеряла Rs 5 772 после покупок на TikTok, подав жалобу в полицию 27 окт)
-  proofread: рупий → рупии
-Posted (Le Mauricien): Plaine-Verte: пенсионерка 70 лет потеряла 5 772 рупии после покупок на TikTok
-  dup check: new (Проведена перлюстрация дома Ашика Джагая, бывшего главы Special Striking Team, в Валле-де-Претр 27 октября; никаких компрометирующих элементов не найд)
-  proofread: Vallée-des-Prêtres → Вале-де-Прётр
-Posted (Defimedia): Обыск у Ashik Jagai: компрометирующих материалов не обнаружено
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Pour une Constitution qui concilie efficacité gouvernementale et démocratie libérale == Искусственный интеллект: конкурс для превращения идей студентов в решения повседневных зад
-LLM usage this run: 10 requests, 13950 tokens
-### check 3/5 at 08:33
-  dup check: new (В статье упоминается, что депутат Ravin Jugurnauth предложил использовать государственный земельный участок площадью около семи арпентов в Martinière )
-  proofread: Ravin Jugurnauth → Равин Джагурнаут; Ranjiv Woochit -> Ранжив Уочит
-Posted (L'Express): Surinam: участок почти в семь арпанов может принять солнечный проект
-  dup check: new (68 погибших и более 100 раненых в результате столкновения двух скоростных поездов к югу от Мадрида; это худшая железнодорожная катастрофа в Испании с )
-  not about Mauritius: Espagne : 68 morts dans une deuxième catastrophe ferroviaire en moins d’un an
-Skipped foreign news (Le Mauricien): Espagne : 68 morts dans une deuxième catastrophe ferroviaire en moins d’un an
-  dup: nothing new ()
-Skipped duplicate (Inside News): Exportations : Maurice vise Rs 110 milliards, mais les réexportations chutent de 26,9 % == Экономика — Экспорт: ожидаемый рост на 2%, до 110 млрд рупий в 2026 году
-  dup check: new (В статье упоминается, что министр иностранных дел Великобритании Эд Милибэнд 27 октября в Палате общин подтвердил позицию Лондона: текущие договоренно)
-  proofread: Ed Miliband → Эд Милибэнд
-Posted (Top FM): Досье Chagos: в Палате лордов требуют референдума, правительство Великобритании выступает против
-LLM usage this run: 9 requests, 14713 tokens
-### check 4/5 at 08:37
-  dup check: new (В новой статье впервые упоминается катастрофа на железной дороге в Испании с 68 погибшими, произошедшая менее чем за год до этого. Это новое событие и)
-  not news (portrait/lifestyle): La caricature du Mauricien du 27 octobre 2026
-Skipped foreign news (Le Mauricien): La caricature du Mauricien du 27 octobre 2026
-  dup check: new (10 réservoirs mobiles et 7 filtres déjà installés dans des rivières; mesures d’urgence approuvées le 9 octobre, mise en place de stations de forage, i)
-Posted (Top FM): Водный кризис — экстренные меры: 10 мобильных резервуаров и 7 фильтров уже установлены в реках
-LLM usage this run: 5 requests, 8816 tokens
-### check 5/5 at 08:41
+Posted (Defimedia): Налоговое управление Маврикия — подача декларации о доходах: штрафы после 30 октября
+  dup check: new (Ashley Lindsay Duval и Johanny Natchoo освобождены под залог 28 октября 2026 года; оба обвиняются в нарушении комендантского часа и незаконном хранени)
+  proofread: Ashley Lindsay Duval → Эшли Линдайз Дюваль; Jean Alexandre Johanny Natchoo → Жан Александр Джоанни Натчу; La Gaulette → Ла-Голетта
+Posted (Defimedia): Владение оружием и нарушение комендантского часа: полицейский Duval и Johanny Natchoo заявили о непризнании вины
+LLM usage this run: 7 requests, 11739 tokens
