@@ -1,5 +1,9 @@
-### check 1/5 at 05:08
-### check 2/5 at 05:12
-### check 3/5 at 05:16
-### check 4/5 at 05:20
-### check 5/5 at 05:24
+### check 1/5 at 06:02
+  dup check: new (В новой статье указаны конкретные погодные условия на 29 октября: ожидаются дожди в Северном, Восточном регионах и на центральном плато; минимальная т)
+  not news (portrait/lifestyle): Météo : des averses attendues au Nord, à l’Est et sur le plateau central ce jeudi
+Skipped foreign news (Inside News): Météo : des averses attendues au Nord, à l’Est et sur le plateau central ce jeudi
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Explosion tragique d’un fût chimique: un père de trois enfants tué, sa femme blessée == Мужчина погиб после взрыва контейнера с гербицидом в Flacq
+  dup: nothing new ()
+Skipped duplicate (L'Express): En couverture : Les grands titres de l'express de ce jeudi 29 octobre 2026 == Главные заголовки «Экспресс» за среду, 28 октября 2026 года
+LLM usage this run: 4 requests, 5744 tokens
