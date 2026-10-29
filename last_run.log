@@ -43,3 +43,15 @@ Posted (Le Mauricien): Новая специализированная един�
   proofread by qwen/qwen3.8-27b
 Posted (Top FM): Юные олимпийцы с Маврикия отправятся в Сенегал
 LLM usage this run: 6 requests, 8542 tokens
+### check 4/5 at 13:02
+  dup check: new (Упомянута предстоящая первая причастие 10‑летней дочери семьи, запланированное на субботу, чего нет в ранее опубликованных материалах.)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Стивена Сите → Steven Cité; Стивен → Steven; Джениса → Jenisa Cité-Cathapermal; произошел понедельник → произошел в понедельник
+Posted (L'Express): Взрыв в Camp-Marcelin: трагическая гибель Steven Cité, готовившегося к первому причастию дочери
+  dup check: new (Трасса: 9 октября в Camp-Levieux был произведён выстрел, в результате которого тяжело ранила Элодию Томас (27 лет). Сейчас расследование расширяется: )
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Элоди Томас → Élodie Thomas
+Posted (Inside News): Выстрел в Камп-Левьё: версии расходятся, расследование касается поведения полицейских
+LLM usage this run: 6 requests, 9202 tokens
