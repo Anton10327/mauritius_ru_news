@@ -1,16 +1,15 @@
-### check 1/5 at 19:44
-  dup check: new (Reprise des importations de bétail namibien après suspension le 25 septembre 2026, aucune nouvelle propagation de la fièvre aphteuse depuis le 15 octo)
-LLM per-minute limit, waiting 30s
+### check 1/5 at 20:36
+  dup check: new (Le versement des pensions sera avancé au vendredi 30 octobre au lieu du mardi 3 novembre, annoncé par le ministre Ashok Subron sur Facebook le 29 octo)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Top FM): Скот из Намибии: возобновление импорта
-LLM usage this run: 3 requests, 5083 tokens
-### check 2/5 at 19:48
-### check 3/5 at 19:52
-### check 4/5 at 19:56
-  dup check: new (Deux morts et cinq blessés après l’effondrement d’une colonne rocheuse en Cappadoce le 29 octobre, causé par un glissement de terrain après de fortes )
+  proofread: Министр социальной интеграции → Министерство социальной интеграции
+Posted (Defimedia): Пенсии: банковский перевод перенесен на пятницу, 30 октября
   written by qwen/qwen3.8-27b
-  not about Mauritius: Turquie / Deux morts et cinq blessés après l’effondrement d’une colonne rocheuse en Cappadoce
-Skipped foreign news (Le Mauricien): Turquie / Deux morts et cinq blessés après l’effondrement d’une colonne rocheuse en Cappadoce
-LLM usage this run: 2 requests, 4311 tokens
-### check 5/5 at 20:00
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Образование, PSAC: за пределами оценок — важность поддержки
+  dup check: new (Новые сообщения WhatsApp, указывающие на то, что капитан тайского яхты был информирован изнутри, чего ранее не сообщалось.)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: National Coast Guard → Национальная береговая охрана
+Posted (Defimedia): «Яхт искушения»: утечка информации в деле Dreamer и другие новости
+LLM usage this run: 8 requests, 14242 tokens
