@@ -32,3 +32,14 @@ Skipped duplicate (Inside News): Glucomètres : une offre inférieure de Rs 10 m
   proofread by qwen/qwen3.8-27b
 Posted (Le Mauricien): Подозрение в причастности бывших высокопоставленных полицейских к наркотрафику
 LLM usage this run: 8 requests, 12900 tokens
+### check 3/5 at 12:58
+  dup check: new (Inauguration of a new stroke unit at Dr A. G. Jeetoo Hospital in Port‑Louis on 28 October, allowing stroke patients to be treated locally instead of b)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Анилем Бачу → Anil Bachoo
+Posted (Le Mauricien): Новая специализированная единица по уходу за инсультами в больнице Jeetoo позволит избежать систематических переводов пациентов в Candos
+  dup check: new (Указано, что десять спортсменов Маврикия прибудут в Дакар в четверг 29 октября 2026 г. после прибытия руководителя делегации‑разведчика Юсуфа Байджу, )
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Юные олимпийцы с Маврикия отправятся в Сенегал
+LLM usage this run: 6 requests, 8542 tokens
