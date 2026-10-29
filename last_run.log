@@ -16,3 +16,12 @@ Skipped duplicate (L'Express): Réforme constitutionnelle : LALIT réclame une r
   leftovers fixed by GigaChat-3-Pro; still left: none
 Posted (Top FM): Ночной рынок возвращается в Port-Louis с 12 декабря по 4 января
 LLM usage this run: 13 requests, 15221 tokens
+### check 2/5 at 11:01
+  dup check: new (В статье сообщается о смерти 84-летней Ирэн Манон в больнице Виктория после падения с кровати и последующей операции, а также приводится заключение па)
+  foreign words left: Victoria
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (L'Express): Предполагаемая врачебная халатность: смерть после падения в больнице, дочь обвиняет в халатности
+  dup check: new (Упоминание мнения Virginie Bissessur, présidente de Pédostop, о необходимости чётких правил и ограничений для защиты детей в интернете; акцент на роли)
+  not about Mauritius: Enfants sur les réseaux sociaux : l’importance de l’encadrement parental
+Skipped foreign news (Top FM): Enfants sur les réseaux sociaux : l’importance de l’encadrement parental
+LLM usage this run: 6 requests, 8961 tokens
