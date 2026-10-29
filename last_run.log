@@ -1,33 +1,9 @@
-### check 1/5 at 16:00
-  dup check: new (Семь украденных мотоциклов разных марок в октябре; два подозреваемых задержаны подразделением DCIU North и объявлены недееспособными; детали мест краж)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: 
-Posted (Defimedia): Семь украденных мотоциклов: северное подразделение DCIU задерживает двух подозреваемых
-  dup check: new (Dhiyven Lofur a été libéré sous caution après avoir payé Rs 25 000 et signé une reconnaissance de dette de Rs 100 000, concernant les émeutes de Saint)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Порт-Луи → Port-Louis; Сент-Круа → Sainte-Croix
-Posted (Defimedia): Беспорядки: подозреваемый освобождён под залог
-  dup check: new (Указано, что в результате операции было арестовано 14 человек: 7 тайских граждан (включая капитана) на борту яхты Dreamer, 2 тайских граждан в аэропор)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: имени Сир Сивусагура Рамголлама → имени Sir Seewoosagur Ramgoolam; Национальной береговой охраны → National Coast Guard (NCG)
-  foreign words left: Thaïlande
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (Defimedia): Подозреваемый трафик каннабиса между Таиландом и Маврикием: 14 задержанных
-  dup check: new (Netanyahu's camp intensified attacks on Israeli Arab parties after they achieved a historic result of 19 seats in the legislative elections, accusing )
-  written by GigaChat-2-Max
-  not about Mauritius: Israël : le camp de Netanyahu cible les partis arabes après leur score historique
-Skipped foreign news (Defimedia): Israël : le camp de Netanyahu cible les partis arabes après leur score historique
-LLM usage this run: 12 requests, 18620 tokens
-### check 2/5 at 16:04
+### check 1/5 at 16:58
   dup: nothing new ()
-Skipped duplicate (L'Express): Marché du travail : Le défi de rapprocher les compétences locales des besoins des entrepri == Рынок труда: 32 000 безработных на фоне 65 000 иностранных работников
-LLM usage this run: 1 requests, 1098 tokens
-### check 3/5 at 16:08
-### check 4/5 at 16:12
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): INDUSTRIE — Énergies renouvelables : Innodis inaugure à Arsenal ses deux premières central == Проект в Arsenal: Innodis планирует 12,5 ГВт·ч солнечной электроэнергии в год
-LLM usage this run: 1 requests, 1436 tokens
-### check 5/5 at 16:16
+Skipped duplicate (Inside News): Crise de l’eau : Mare-Longue pourrait doubler sa capacité, mais quand les robinets coulero == Mare-Longue–La Marie: объем подаваемой воды может удвоиться уже в воскресенье, объявил Pat
+  dup check: new (Arrest of a suspect (Azmath R., ~20 years old) caught red‑handed stealing a ladder in a second mosque in Petit‑Verger after being wanted for a theft i)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Пети-Вержере → Petit-Verger; Шемен-Гренье → Chemin-Grenier; мечети Шах Ахмад Нурани Сиддики → мечети mosquée Shah Ahmad Noorani Siddiqui
+Posted (Defimedia): Задержан подозреваемый в краже лестницы из мечети в Petit-Verger
+LLM usage this run: 4 requests, 6475 tokens
