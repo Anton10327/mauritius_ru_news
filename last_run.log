@@ -21,3 +21,10 @@ LLM usage this run: 13 requests, 19295 tokens
 Skipped duplicate (L'Express): Championnats d'Afrique élites l Boxe : Merven Clair, l’or au bout des gants == БОКС – Чемпионат Африки среди элиты 2026 (ДР Конго): Merven Clair вышел в финал, Cloé Gabr
 LLM usage this run: 1 requests, 856 tokens
 ### check 4/5 at 09:18
+### check 5/5 at 09:22
+  dup check: new (Согласно исследованию Pédostop, 42% маврикийцев и 31% жителей Родригеса сообщили о том, что подвергались сексуальному насилию в течение жизни; исследо)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Rodrigues
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Top FM): Сексуализированное насилие: 42% маврикийцев затронуты, согласно исследованию Pédostop
+LLM usage this run: 4 requests, 4452 tokens
