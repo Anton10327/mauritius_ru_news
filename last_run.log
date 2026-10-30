@@ -1,34 +1,19 @@
-### check 1/5 at 14:21
-  written by GigaChat-2-Max
-  not about Mauritius: Rapport de la Banque mondiale: Le pétrole attendu à 106 millions de barils par jour en 2027
-Skipped foreign news (Defimedia): Rapport de la Banque mondiale: Le pétrole attendu à 106 millions de barils par jour en 2027
+### check 1/5 at 15:09
+  dup check: new (В статье указано, что только 23 000 из примерно 60 000 потенциально подпадающих под обязательство субъектов зарегистрировались как ответственные или о)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  foreign words left: Mauritius, Telecom
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (Le Mauricien): Ученики с нарушением зрения получат компьютеры и специализированное оборудование
-  dup: nothing new ()
-Skipped duplicate (L'Express): Approvisionnement en eau : Mare-Longue passe  de 15 000 à 30 000 m³ par jour == Mare-Longue–La Marie: объем подаваемой воды может удвоиться уже в воскресенье, объявил Pat
-  dup check: new ()
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): CYBERSÉCURITÉ : Augmenter la résilience numérique des entreprises
-Skipped foreign news (Le Mauricien): CYBERSÉCURITÉ : Augmenter la résilience numérique des entreprises
-LLM usage this run: 7 requests, 12625 tokens
-### check 2/5 at 14:25
-  dup check: new (NADC issued a vigilance bulletin warning of an increased risk of overdose in Mauritius in the coming days/weeks due to a recent large quantity of drug)
+Posted (Inside News): Защита данных: зарегистрировано всего 23 тысячи субъектов из потенциально затронутых 60 тысяч
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Куннал Найк → Kunal Naik
-Posted (Defimedia): На Маврикии предупреждают об опасности передозировок наркотиками в ближайшие дни
-  dup check: new (Annonce du Premier ministre Navin Ramgoolam d'un nouveau Business Facilitation Bill destiné à simplifier les démarches administratives et à accélérer )
+  proofread: Порт-Луи → Port-Louis; Филиппа Форжета → Philippe Forget; Девена Нагалиндума → Deven Nagalingum
+Posted (L'Express): На Маврикии пройдет культурная программа с загадками и концертом
+  dup check: new (Создан постоянный рабочий групп по высшему образованию, навыкам и исследованиям между Маврикием и Великобританией; совместное председательство министр)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамгулам → Dr Navin Ramgoolam; Business Facilitation Bill → Business Facilitation Bill; Economic Development Board → Economic Development Board (EDB)
-Posted (Top FM): На Маврикии готовят новый закон для упрощения иностранных инвестиций
-LLM usage this run: 6 requests, 9095 tokens
-### check 3/5 at 14:29
-### check 4/5 at 14:33
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): MAHÉBOURG : Un constable vend deux sachets de cannabis à ses collègues de l’ADSU == Подозреваемый полицейский Национальной береговой охраны продал каннабис агентам антинаркот
-LLM usage this run: 1 requests, 1497 tokens
-### check 5/5 at 14:37
+  proofread: Кавирадж Сукон → Kaviraj Sukon; Пол Бруммел → Paul Brummell
+Posted (Inside News): Маврикий и Великобритания создают постоянный рабочий орган по высшему образованию
+  dup check: new (Статья представляет нового автора (Anjani Murdan) и освещает работу профессора V. Y. Hookoomsing, выдающегося лингвиста, в области изучения и популяри)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Vinesh Hookoomsing en défense  du bhojpuri mauricien
+Skipped foreign news (Le Mauricien): Vinesh Hookoomsing en défense  du bhojpuri mauricien
+LLM usage this run: 10 requests, 12248 tokens
