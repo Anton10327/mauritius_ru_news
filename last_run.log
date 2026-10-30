@@ -1,33 +1,14 @@
-### check 1/5 at 17:44
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Stanley : un homme soupçonné d’avoir versé un pesticide dans le thé de son épouse == В Stanley мать и сын госпитализированы после отравления пестицидами, муж признался в добав
-  dup check: new (Arrestation de deux suspects le 30 octobre dans l’enquête du meurtre de Selven Iyempermal)
+### check 1/5 at 18:40
+  same headline as #145: Protection des données : seulement 23 000 entités enregistrées sur 60 000 potent
+Skipped duplicate (L'Express): Protection des données : Seules 23 000 entreprises enregistrées sur 60 000 == Защита данных: зарегистрировано всего 23 тысячи субъектов из потенциально затронутых 60 ты
+  dup check: new (Two detainees escaped (one on Monday, another on Wednesday) and were recaptured hours later; one escape involved a diversion at the Brisée‑Verdière po)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Селвена Айемпермала → Selven Iyempermal; Селвена Айемпермала → Selven Iyempermal; стало геморрагический шок → стал геморрагический шок
-Posted (Defimedia): Убийство Selven Iyempermal: задержаны двое подозреваемых
-  dup: nothing new ()
-Skipped duplicate (Inside News): Merven Clair rejoint la finale africaine après une victoire nette 5-0 == БОКС – Чемпионат Африки среди элиты 2026 (ДР Конго): Merven Clair вышел в финал, Cloé Gabr
-  dup check: new (Célébration du 25e anniversaire du vicariat apostolique de Rodrigues avec une année jubilaire débutant le samedi; rencontre de Mgr Michel Moura avec l)
+Posted (Le Mauricien): Полиция — два беглых заключенных пойманы через несколько часов после побега
+  same headline as #162: Mise en demeure : Menlo Park réclame 19,5 millions de dollars à la Banque de Mau
+Skipped duplicate (Defimedia): Mise en demeure : Menlo Park réclame 19,5 millions de dollars à la Banque de Maurice == Компания требует от Банка Маврикия почти $20 млн компенсации
+  dup check: new (Результаты парламентских выборов в Израиле: отсутствие большинства, 53 места у блока Нетаньяху, 48 у блока Эйзенкота, необходимость формирования коали)
   written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Родригес → Rodrigues; Святого Габриэля → Saint-Gabriel; Мишель Мура → Mgr Michel Moura
-Posted (Le Mauricien): На острове Rodrigues стартует юбилейный год апостольского викариата
-LLM usage this run: 8 requests, 10970 tokens
-### check 2/5 at 17:48
-  dup check: new (Мэр Лутчми Гунгабиссон заявил, что в выплатах муниципальных фондов Quatre-Bornes нет мошенничества, отреагировав на отчёт FCC.)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Кватр-Борно → Quatre-Bornes; Комиссии по борьбе с финансовыми преступлениями (FCC) → Financial Crimes Commission (FCC)
-Posted (Defimedia): Отчет FCC: мэр Quatre-Bornes утверждает об отсутствии мошенничества
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Компания требует от Банка Маврикия почти $20 млн компенсации
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Alerte urgente de l’agence nationale face à des risques de surdose à l’Île Maurice dans le == На Маврикии предупреждают об опасности передозировок наркотиками в ближайшие дни
-  dup: nothing new ()
-Skipped duplicate (L'Express): Alerte de la National Agency for Drug Control : Un «risque accru d’overdose» à Maurice == На Маврикии предупреждают об опасности передозировок наркотиками в ближайшие дни
-LLM usage this run: 7 requests, 10058 tokens
-### check 3/5 at 17:52
-### check 4/5 at 17:56
-### check 5/5 at 18:00
+  not about Mauritius: Élections en Israël : trouver une majorité, un casse-tête pour Netanyahu et Eisenkot
+Skipped foreign news (Defimedia): Élections en Israël : trouver une majorité, un casse-tête pour Netanyahu et Eisenkot
+LLM usage this run: 5 requests, 7528 tokens
