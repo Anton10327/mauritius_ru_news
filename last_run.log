@@ -1,44 +1,22 @@
-### check 1/5 at 19:35
-  dup check: new (Calendrier scolaire 2027 : dates des trimestres du primaire et du secondaire adoptées par le Conseil des ministres.)
+### check 1/5 at 20:26
+  dup check: new (Сообщается, что пока не принято решение о проведении Night Market в праздничный период; будет создан межминистерский комитет под председательством мин)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Школьный календарь на 2027 год: даты триместров для начальной и средней школы
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Marche pacifique ce samedi à Port-Louis : la Platform Komun Syndikal appelle les Mauricien == Port-Louis: пять участков дорог закрыты для движения в субботу
-  dup check: new (Air Mauritius объявила прибыль в размере 4,1 миллиарда рупий за финансовый год 2025‑2026, включая бухгалтерские корректировки, связанные с пандемией C)
+  foreign words left: rue
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Defimedia): Ночной рынок: решение о праздничном периоде не принято
+  dup check: new (Организовано мероприятие Divali Mahotsav 2026 в Фениксе, где дети разных общин собрались под лозунгом «C’est cela, Maurice !», призывая к миру и единс)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Финансовая отчетность: Air Mauritius объявляет о прибыли в 4,1 млрд рупий за 2025-2026 финансовый год
-  dup check: new (Création de deux grands pôles d'activités suite à la restructuration d'Airport Holdings Ltd : Aviation Group dirigé par Air Mauritius Ltd et Airport O)
+Posted (Defimedia): «Вот это и есть Маврикий!»: послание Mauritius Sanathan Dharma Temples Federation к празднику Divali 2026
+  dup check: new (Annonce de l'installation prochaine de ralentisseurs en caoutchouc à Maurice, avec modification des Road Traffic (Road Humps) Regulations 2002 par le )
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  foreign words left: Aviation, Airport, of, Ltd
-  leftovers fixed by qwen/qwen3.8-27b; still left: Aviation, Airport, of, Ltd
-Posted (Defimedia): Реорганизация Airport Holdings Ltd: создание двух крупных операционных блоков
-LLM usage this run: 11 requests, 16090 tokens
-### check 2/5 at 19:39
-  dup check: new (Binance a subi un vol record de 6,3 milliards de dollars, la plus importante perte de cryptomonnaies jamais enregistrée, avec suspension temporaire de)
-  written by qwen/qwen3.8-27b
-  not about Mauritius: Cryptomonnaies : Binance victime d’un vol record de 6,3 milliards de dollars
-Skipped foreign news (Defimedia): Cryptomonnaies : Binance victime d’un vol record de 6,3 milliards de dollars
-  dup: nothing new ()
-Skipped duplicate (Defimedia): SBM Holdings : Mahendra Vikramdass Punchoo démissionne de son poste de président == Belinda Wong Leung Pak-Vacher временно возглавила SBM Holdings
-  same headline as #161: Bilan financier : Air Mauritius annonce un profit de Rs 4,1 milliards pour l’exe
-Skipped duplicate (L'Express): Air Mauritius : Rs 4,1 milliards de bénéfices pour 2025-2026 == Финансовая отчетность: Air Mauritius объявляет о прибыли в 4,1 млрд рупий за 2025-2026 фин
-  dup: nothing new ()
-Skipped duplicate (Inside News): Décès d’une patiente de 84 ans à Candos : sa famille réclame des explications après une ch == Предполагаемая врачебная халатность: смерть после падения в больнице, дочь обвиняет в хала
-LLM usage this run: 4 requests, 7197 tokens
-### check 3/5 at 19:43
-  dup check: new (Arrestation de six personnes le 30 octobre, alors que précédemment seulement deux suspects avaient été arrêtés.)
+Posted (Defimedia): Дорожная безопасность: на Маврикии скоро установят резиновые лежачие полицейские
+  dup check: new (Nomination du Dr Dev Rajan Daliah comme directeur général de la National Transport Corporation (NTC) et nomination de George Malcom Oliver Louise comm)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (L'Express): В Vacoas: убийство Selven Iyempermal — задержаны шесть человек
-LLM usage this run: 3 requests, 5261 tokens
-### check 4/5 at 19:47
-### check 5/5 at 19:51
-  dup check: new (Annonce du calendrier scolaire 2027, discussions avec Meta sur la sécurité en ligne, nouveaux projets pour renforcer la transformation numérique, ains)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Совет министров: социальный кризис, нехватка воды, ликвидация AHL: ключевые решения правительства
-LLM usage this run: 3 requests, 4998 tokens
+  foreign words left: George
+  leftovers fixed by qwen/qwen3.8-27b; still left: George
+Posted (Defimedia): CNT: Dr Dev Rajan Daliah назначен генеральным директором
+LLM usage this run: 14 requests, 19748 tokens
