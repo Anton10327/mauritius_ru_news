@@ -1,24 +1,11 @@
-### check 1/5 at 09:50
-  dup check: new (В статье сообщается о смерти бабушки Вед Рамлуна (Mayawattee Danoo), что является новым событием, не упомянутым в ранее опубликованных материалах.)
-  proofread: Ved Ramlugun, или Вед Рамлугун — имя собственное не склоняется; исправлено согласование возраста: '17-летний' → '17-летний', но по-русски корректнее '17-летний'; уточнено название школы: 'Camp de Masque SSS Boys' переведено как 'школа Camp de Masque SSS Boys'.
-Posted (Defimedia): Скончалась Mayawattee Danoo, бабушка Ved Ramlugun
-  dup check: new (Правительство Маврикия одобрило контракт на найм около 60 индийских медсестёр через Sri Kauvery Medical Care (India) Limited для усиления специализиро)
+### check 1/5 at 10:41
+  dup check: new (Доктор Джимми Хармон представил три предложения по конституционной реформе, которые включают: 1) признание этнической принадлежности как фундаментальн)
+Posted (Le Mauricien): КОНСТИТУЦИЯ — консультации по реформе: три предложения для «видимой и справедливой» Конституции
+  dup check: new (Спикер Национальной ассамблеи сообщила о 113 парламентских вопросах, не получивших ответа с начала новой сессии; после обращений к министерствам получ)
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Limited
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Inside News): Государственные больницы: Маврикий нанимает индийских медсестёр, профсоюзы ставят под вопрос управление кадрами
+Posted (Le Mauricien): Национальное собрание — призыв к порядку: 18 парламентских вопросов всё ещё ждут ответов министров
+  same headline as #74: Possession d’armes et non-respect du couvre-feu : Le policier Duval et Johanny N
+Skipped duplicate (Defimedia): Non-respect de couvre-feu et possession d’armes : quinze personnes plaident coupable == Владение оружием и нарушение комендантского часа: полицейский Duval и Johanny Natchoo заяв
   dup: nothing new ()
-Skipped duplicate (Wazaa): La police traque un suspect local après un cambriolage de 1,4 million Rs dans une maison à == Baie-du-Tombeau: 76-летняя пенсионерка стала жертвой ограбления, ущерб оценивается в 1,4 м
-  not about Mauritius: Le Brésil dit non à Trump
-Skipped foreign news (L'Express): Le Brésil dit non à Trump
-LLM usage this run: 9 requests, 13106 tokens
-### check 2/5 at 09:54
-### check 3/5 at 09:58
-  dup: nothing new (Министр образования Mahend Gungapersad сообщил, что получил поддержку Совета министров для пересмотра протокола соглашения с Cambridge после отмены эк)
-Skipped duplicate (Defimedia): Examens du SC et du HSC annulés : Gungapersad compte revoir les accords avec Cambridge == Отмена экзаменов SC/HSC: «Мы действовали исключительно в интересах учеников», утверждает M
-LLM usage this run: 1 requests, 836 tokens
-### check 4/5 at 10:02
-  dup check: new (В статье упоминается, что капитан яхты — Suriya Samanboot. Это новое имя, которое ранее не публиковалось в канале.)
-Posted (L'Express): Дело «Dreamer»: кому предназначались 1,5 тонны каннабиса и гашиша?
-LLM usage this run: 3 requests, 4868 tokens
-### check 5/5 at 10:06
+Skipped duplicate (L'Express): JO de la Jeunesse- Dakar 2026 :  Les dix Mauriciens entrent dans leur bulle olympique == Юные олимпийцы с Маврикия отправятся в Сенегал
+LLM usage this run: 7 requests, 12562 tokens
