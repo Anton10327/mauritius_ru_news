@@ -11,3 +11,7 @@ Skipped foreign news (Le Mauricien): La météo de ce vendredi 30 octobre
 Posted (Wazaa): Изъятие наркотиков на Маврикии на сумму 2,7 млрд рупий, расследование возможной связи с беспорядками на острове
 LLM usage this run: 7 requests, 13002 tokens
 ### check 2/5 at 05:59
+### check 3/5 at 06:03
+  dup: nothing new ()
+Skipped duplicate (L'Express): En couverture : Les grands titres de l'express de ce vendredi 30 octobre 2026 == Изъятие 1,5 тонны наркотиков: удивительные совпадения с октябрьскими волнениями?
+LLM usage this run: 1 requests, 896 tokens
