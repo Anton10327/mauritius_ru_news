@@ -1,46 +1,13 @@
-### check 1/5 at 12:35
-  dup check: new (В статье утверждается, что капитан тайской яхты получил через WhatsApp информацию о других яхтах и инструкции на случай допроса; также упоминается вло)
-  foreign words left: List, of, doc
-  leftovers fixed by GigaChat-3-Pro; still left: doc
-Posted (Defimedia): Эксклюзив: переписка в WhatsApp компрометирует Национальную береговую охрану
-  dup check: new (В статье приведены новые точные цифры среднего уровня заполнения всех семи водохранилищ (51,6%) и сравнение с тем же периодом 2025 года (77%), а также)
+### check 1/5 at 13:28
+Posted (Defimedia): Сезонная занятость: эти крупные сети набирают сотрудников в конце года
+  dup check: new (В статье анонсировано прямое интервью с генеральным директором CWA Shiam Thannoo в эфире «Au Cœur de l’Info», где будут обсуждаться меры, инвестиции и)
+  not news (portrait/lifestyle): Au Cœur de l’Info – Crise de l’eau : amélioration ou simple accalmie ?
+Skipped foreign news (Defimedia): Au Cœur de l’Info – Crise de l’eau : amélioration ou simple accalmie ?
+  dup check: new (В статье впервые сообщается о новом инциденте: 69-летняя женщина подала жалобу на агрессию со стороны водителя в Cottage во вторник, подробности проис)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Резервуары: средний уровень заполнения 51,6% против 77% в 2025 году
-  dup check: new (Семеро обвиняемых признаны виновными, но освобождены от наказания; один оштрафован на 5000 рупий; четверо приговорены к четырём месяцам тюрьмы. Судья )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Нарушение комендантского часа: семерых обвиняемых освободили от наказания, одного оштрафовали, четверых приговорили к тюремному заключению
-  dup check: new (Арестованы два новых подозреваемых по делу о кражах оборудования в Grand-Bel-Air, Mahébourg и Beau-Vallon; общий ущерб оценивается в 428 000 рупий. Во)
-  proofread: 
-Posted (Defimedia): Кражи оборудования: задержаны двое подозреваемых, ущерб оценивается в 428 000 рупий
-LLM usage this run: 13 requests, 19866 tokens
-### check 2/5 at 12:39
-  dup: nothing new (Министр Assirvaden объявил, что объем воды из Mare-Longue в La Marie удвоится до 30 000 кубометров в сутки — это уже было опубликовано ранее (104). Др)
-Skipped duplicate (Le Mauricien): CRISE HYDRIQUE — Le ministre Assirvaden : Le volume d’eau de Mare-Longue vers La-Marie bie == Mare-Longue–La Marie: объем подаваемой воды может удвоиться уже в воскресенье, объявил Pat
-  dup: nothing new (В статье уточняется, что закон должен предоставить правовую основу для сотрудничества подозреваемых со следствием в обмен на иммунитет или смягчение н)
-Skipped duplicate (Inside News): Délinquants coopérants : la nouvelle loi vise les commanditaires, sous contrôle du DPP et  == Премьер-министр Navin Ramgoolam представил законопроект против заговоров молчания по серьё
-  dup: nothing new (В статье указано, что новая дорога B1–M1 соединяет Cybercity напрямую с автомагистралью M1 в направлении Порт-Луиса и северных регионов. Также уточняе)
-Skipped duplicate (Inside News): Ébène : la nouvelle route B1–M1 relie directement Cybercity à l’autoroute vers Port-Louis == Ébène | Дорога Julius Nyerere B1-M1 Link Road: маршрут Трибека-Порт-Луи теперь минует Rédu
-  dup: nothing new ()
-Skipped duplicate (Top FM): Municipalité de Quatre-Bornes : la FCC relève plusieurs failles dans la gestion des fonds  == Муниципальные проекты в Quatre-Bornes: FCC выявила недостатки в процедурах финансирования
-LLM usage this run: 4 requests, 3650 tokens
-### check 3/5 at 12:43
-  dup check: new (Арестован 36-летний Billtopher Perrine, подозреваемый в попытке ограбления с применением оружия и краже сумки у туристки на пляже Pointe-aux-Biches; о)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Pointe-aux-Biches: новые подробности по делу об атаке на туристов и краже на пляже
-  dup check: new (В статье обсуждается новая мера Cambridge — присвоение 'Assessed Marks' для отменённых экзаменов, а также приводятся мнения Faizal Jeerooburkhan и Arv)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Оценочные баллы: сохраняются сомнения в надёжности результатов
-  dup check: new (Министр Ашок Суброн публично поставил под сомнение систему НДС на строительные материалы, указав на неравное отношение к обычным гражданам при строите)
-  proofread: National Empowerment Foundation → Национальный фонд расширения возможностей
-  foreign words left: Smart
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Top FM): НДС на стройматериалы: Ashok Subron осуждает неравное обращение
-  dup check: new (В статье упоминается, что бывший ректор Soondress Sawmynaden в интервью на Top FM призвал правительство и Mauritius Examinations Syndicate к большей п)
-Proofreading GigaChat-3-Pro failed: Unterminated string starting at: line 1 column 949 (char 948)
-  proofread by qwen/qwen3.8-27b
-  foreign words left: Assessed, Mauritius
-  leftovers fixed by GigaChat-3-Pro; still left: Assessed, Mauritius
-Posted (Top FM): Cambridge – Assessed Mark: Soondress Sawmynaden призывает MES к прозрачности
-LLM usage this run: 15 requests, 18226 tokens
-### check 4/5 at 12:47
-### check 5/5 at 12:51
+Posted (Defimedia): Дорожная агрессия в Cottage: 69-летнюю водительницу атаковал другой автомобилист
+  dup check: new (Nando Bodha предлагает создать независимую чрезвычайную комиссию из экспертов для изучения проблемы молодежной преступности, указывает на необходимост)
+  foreign words left: Committee
+  leftovers fixed by GigaChat-3-Pro; still left: Committee
+Posted (Defimedia): Подростковая преступность: Nando Bodha требует независимую экстренную комиссию
+LLM usage this run: 11 requests, 16824 tokens
