@@ -1,24 +1,14 @@
-### check 1/5 at 10:41
-  dup check: new (Доктор Джимми Хармон представил три предложения по конституционной реформе, которые включают: 1) признание этнической принадлежности как фундаментальн)
-Posted (Le Mauricien): КОНСТИТУЦИЯ — консультации по реформе: три предложения для «видимой и справедливой» Конституции
-  dup check: new (Спикер Национальной ассамблеи сообщила о 113 парламентских вопросах, не получивших ответа с начала новой сессии; после обращений к министерствам получ)
+### check 1/5 at 11:43
+  dup check: new (В новой статье сообщается, что задержан ещё один сотрудник NCG — констебль Кевин Рунгилал, который работал в Operations Room и подозревается в содейст)
+  proofread: второй сотрудник NCG → второй сотрудник National Coast Guard
+  foreign words left: Operations
+  leftovers fixed by GigaChat-3-Pro; still left: Operations
+Posted (Defimedia): Импорт 1,5 тонны каннабиса: констебль Kevin Rungilal из NCG подозревается в сговоре с торговцами
+  dup check: new (Министр труда Reza Uteem публично выступил в защиту законопроекта о сотрудничестве преступников со следствием, опровергнув обвинения оппозиции в тайно)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Национальное собрание — призыв к порядку: 18 парламентских вопросов всё ещё ждут ответов министров
-  same headline as #74: Possession d’armes et non-respect du couvre-feu : Le policier Duval et Johanny N
-Skipped duplicate (Defimedia): Non-respect de couvre-feu et possession d’armes : quinze personnes plaident coupable == Владение оружием и нарушение комендантского часа: полицейский Duval и Johanny Natchoo заяв
-  dup: nothing new ()
-Skipped duplicate (L'Express): JO de la Jeunesse- Dakar 2026 :  Les dix Mauriciens entrent dans leur bulle olympique == Юные олимпийцы с Маврикия отправятся в Сенегал
-LLM usage this run: 7 requests, 12562 tokens
-### check 2/5 at 10:45
-  dup: nothing new (В статье упоминается, что премьер-министр Navin Ramgoolam был опрошен о возможности введения дополнительной солидарной налоговой ставки (taxation de s)
-Skipped duplicate (Inside News): Fiscalité : Rs 58,9 milliards attendues des entreprises, jusqu’où peut aller la pression f == От предприятий ждут налоговых поступлений на сумму 58,9 млрд рупий в 2026–2027 годах
-  dup check: new (В статье сообщается, что министерство энергетики и коммунальных услуг реализует меры по обеспечению водоснабжения с помощью бурения скважин. Эти скваж)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Водоснабжение: бурение скважин, чтобы продержаться до сезона дождей
-LLM usage this run: 4 requests, 4662 tokens
-### check 3/5 at 10:49
-### check 4/5 at 10:53
-### check 5/5 at 10:57
-  not about Mauritius: Conférence des médias à Bruxelles : «Deepfakes» et ingérences étrangères Les médias en première lign
-Skipped foreign news (L'Express): Conférence des médias à Bruxelles : «Deepfakes» et ingérences étrangères Les médias en première lign
-LLM usage this run: 1 requests, 2951 tokens
+Posted (Le Mauricien): Законопроект об оказании содействия расследованиям и уголовному преследованию: Reza Uteem — «Мы не проталкиваем законопроект тайно»
+  dup check: new (AMB утверждает, что обеспечила достаточные запасы картофеля, лука и чеснока до конца декабря 2026 года; это новое заявление о сроках снабжения этими п)
+Posted (Defimedia): Картофель, лук и чеснок: AMB гарантирует поставки до конца декабря 2026 года
+  dup check: new (CEB мобилизовал технические команды и развернул специальные устройства для обеспечения стабильного электроснабжения во время празднования Дивали; приз)
+Posted (Le Mauricien): Divali / Команды Central Electricity Board полностью мобилизованы и призывают к осторожности при использовании электроустановок
+LLM usage this run: 13 requests, 19695 tokens
