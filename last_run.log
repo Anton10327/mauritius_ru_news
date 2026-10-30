@@ -29,3 +29,9 @@ Skipped duplicate (L'Express): Air Mauritius : Rs 4,1 milliards de bénéfices p
   dup: nothing new ()
 Skipped duplicate (Inside News): Décès d’une patiente de 84 ans à Candos : sa famille réclame des explications après une ch == Предполагаемая врачебная халатность: смерть после падения в больнице, дочь обвиняет в хала
 LLM usage this run: 4 requests, 7197 tokens
+### check 3/5 at 19:43
+  dup check: new (Arrestation de six personnes le 30 octobre, alors que précédemment seulement deux suspects avaient été arrêtés.)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): В Vacoas: убийство Selven Iyempermal — задержаны шесть человек
+LLM usage this run: 3 requests, 5261 tokens
