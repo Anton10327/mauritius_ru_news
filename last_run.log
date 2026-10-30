@@ -1,23 +1,15 @@
-### check 1/5 at 07:27
-  dup check: new (Израиль: лагерь Нетаньяху лидирует после выборов, но не набирает большинства; коалиция правых и ультраправых получает 53 из 120 мест в Кнессете; блок )
-  not about Mauritius: Israël : le camp de Netanyahu en tête après les élections mais loin de la majorité
-Skipped foreign news (Defimedia): Israël : le camp de Netanyahu en tête après les élections mais loin de la majorité
-  dup check: new (Jenissa Catapermal-Cité перенесла хирургическую операцию и ей предстоят ещё две; также был объявлен призыв к донорству крови. В ранее опубликованных с)
-  proofread: Jenissa Catapermal-Cité → Дженисса Катапемаль-Сите; Steven Cité → Стивен Сите
-Posted (L'Express): Трагедия в Camp-Marcelin: Jenissa сделали операцию, запланированы ещё две
-  dup check: new (В статье говорится о проблеме перенаселения жилья на архипелаге Agalega (до 12–15 человек под одной крышей), а также о требовании жителей стать собств)
-Proofreading GigaChat-3-Pro failed: Expecting property name enclosed in double quotes: line 1 column 725 (char 724)
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): АГАЛЕГА — Право на достойное жильё: жители призывают срочно построить новые дома
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Pauvreté, drogue, chômage : les fractures sociales au cœur des échanges entre Ramgoolam et == Социальные беспорядки: Navin Ramgoolam начал консультации с НПО для выяснения причин социа
-LLM usage this run: 10 requests, 15241 tokens
-### check 2/5 at 07:31
-  dup check: new (В статье впервые упоминается, что анонимный представитель магазина (quincaillerie) объясняет причину доплаты в связи с заявлением производителя Duraco)
-  foreign words left: Water, and
-  leftovers fixed by GigaChat-3-Pro; still left: Water, and
-Posted (Top FM): Схема субсидий на водяные баки и насосы: несмотря на субсидию в 15 000 рупий, получатели жалуются на доплаты от 2 000 до 6 000 рупий
-LLM usage this run: 4 requests, 5450 tokens
-### check 3/5 at 07:35
-### check 4/5 at 07:39
-### check 5/5 at 07:43
+### check 1/5 at 08:18
+  dup check: new (В новой статье сообщается, что COP31 пройдёт с 9 по 20 ноября в Анталье (Турция), ожидается участие около 100 000 человек из 196 стран. Также уточняет)
+  not about Mauritius: COP 31  : Inside the Biggest Climate Meeting
+Skipped foreign news (Le Mauricien): COP 31  : Inside the Biggest Climate Meeting
+  dup check: new (В новой статье уточняется возраст погибшей (85 лет, а не 80 или 81), место происшествия — Petit Verger Branch Road, Saint-Pierre, и название организац)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: сотрудник-Operations, Officer
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (L'Express): ДТП в Saint-Pierre: 85-летняя Santi Jugurnauth насмерть сбита фургоном Central Water Authority
+  dup: nothing new (Платформа Komin Syndikal (PKS) объявила о призыве к мирной демонстрации в Порт-Луи в субботу, подчеркнув участие работников, обеспокоенных реформой пе)
+Skipped duplicate (Le Mauricien): SYNDICALISME — Réforme des pensions : La PKS appelle à une marche pacifique ce samedi == Профсоюзы проведут митинг против реформы пенсий и безработицы
+  dup check: new (1) Десять семей из SRM получили ключи от новых домов в Henrietta 30 октября. 2) Министр Ashok Subron объявил, что порог дохода для включения в SRM буд)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Henrietta, Melrose и Sébastopol: десять семей с невысоким доходом получили жильё, порог SRM повысят до 17 500 рупий в 2027 году
+LLM usage this run: 10 requests, 15391 tokens
