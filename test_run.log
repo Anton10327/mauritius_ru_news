@@ -1,26 +1,3 @@
-78 labelled articles: 71 posted, 7 skipped
-
-GigaChat-3-Lightning: would wrongly drop 14 real posts; catches 7 of 7 skipped; 35943 tokens / 78 calls
-   LOST: [Info Soirée] : « LE YACHT DE LA TENTATION » (False, False)
-   LOST: Santé publique - Pesticides : contrôler les légumes ne suffit pas (False, False)
-   LOST: Transbordement de 1,500 kilos de cannabis : le téléphone du capitaine du Dreamer, pièce maîtresse de (False, True)
-   LOST: Éducation l  PSAC : au-delà des notes, l’enjeu de l’accompagnement (True, False)
-   LOST: Pratiques agricoles :  La réduction des pesticides reste un défi majeur (True, False)
-   LOST: La guerre des ex (False, False)
-   LOST: Éclairage l  MPC : la hausse des taux obligataires mondiaux complique l’équation mauricienne (False, True)
-   LOST: Rendez-vous — Après CHOGM : Ramgoolam invité par Macron au Forum de Paris pour la Paix (True, False)
-   LOST: Intelligence artificielle : un concours invite les étudiants à créer des solutions durables (True, False)
-   LOST: Chagos : Vijay Makhan appelle Maurice à saisir l’occasion du sommet du Commonwealth pour relancer le (True, False)
-   LOST: Géopolitique : Vijay Makhan appelle Maurice à s’affirmer comme un État océanique (True, False)
-   LOST: Hard Talk : Girish Ramjuttun demande une révision des salaires dans l’hôtellerie (True, False)
-   LOST: Dossier Chagos : un référendum réclamé aux Lords, le gouvernement britannique s’y oppose (False, False)
-   LOST: Affaire Munawara Begum : Samad Goolamaully interpelle le ministre Reza Uteem (False, True)
-
-GigaChat-2: would wrongly drop 7 real posts; catches 6 of 7 skipped; 35099 tokens / 78 calls
-   LOST: New Beginnings lance The Vertical Climb, un podcast offrant de nouvelles perspectives sur le leaders (True, False)
-   LOST: Éducation l  PSAC : au-delà des notes, l’enjeu de l’accompagnement (True, False)
-   LOST: Pratiques agricoles :  La réduction des pesticides reste un défi majeur (True, False)
-   LOST: La guerre des ex (False, True)
-   LOST: Intelligence artificielle : un concours invite les étudiants à créer des solutions durables (True, False)
-   LOST: Géopolitique : Vijay Makhan appelle Maurice à s’affirmer comme un État océanique (True, False)
-   LOST: Dossier Chagos : un référendum réclamé aux Lords, le gouvernement britannique s’y oppose (False, True)
+  foreign words left: Cour, du, Nord, de
+  leftovers fixed by GigaChat-3-Pro; still left: none
+('Изъятие наркотиков на Маврикии на сумму 2,7 млрд рупий', 'Груз с яхты Dreamer перехватили у Baie-du-Tombeau. Премьер-министр Navin Ramgoolam допустил связь с беспорядками. Подозреваемый задержан 27 октября в аэропорту Sir Seewoosagur Ramgoolam; семеро предстанут сегодня перед Северным судом Port-Louis по обвинению в сговоре.')
