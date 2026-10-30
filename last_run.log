@@ -17,3 +17,25 @@ Posted (Inside News): Маврикий и Великобритания созд�
   not news (portrait/lifestyle): Vinesh Hookoomsing en défense  du bhojpuri mauricien
 Skipped foreign news (Le Mauricien): Vinesh Hookoomsing en défense  du bhojpuri mauricien
 LLM usage this run: 10 requests, 12248 tokens
+### check 2/5 at 15:13
+  dup check: new (В статье перечислены новые события, не упомянутые в ранее опубликованных материалах: ампутированный охранник, крупное плавание от Morne до La Preneuse)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): La caricature du Mauricien du 30 octobre 2026
+Skipped foreign news (Le Mauricien): La caricature du Mauricien du 30 octobre 2026
+  dup check: new (Первая редакция соревнования «La Grande Traversée de l’Ouest» – 10‑км заплыв в открытой воде от Le Morne до La Preneuse, запланированный на 1 ноября 2)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Элоди Одибер → Ælodie Audibert; Седрик Марин → Cédric Marin; Морна → Morne; Ла-Пренёз → La Preneuse
+Posted (Le Mauricien): Грандиозное заплывное путешествие на западе Маврикия: 10 км от Morne до La Preneuse
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Бамбу → Bambous; Жермен-Комаран → Germain-Comarmond
+  foreign words left: Germain-Comarmond
+  leftovers fixed by qwen/qwen3.8-27b; still left: Germain-Comarmond
+Posted (Le Mauricien): Bambous – охранник ампутировал руку после падения на стадионе Germain-Comarmond
+  dup check: new (Nando Bodha condemned the government's decision to lower the age of criminal responsibility, calling it a shortcut solution, and said the state failed)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Рассемблеман-Маврисиен → Rassemblement Mauricien
+Posted (Top FM): «Государство провалилось, целое поколение принесено в жертву», — утверждает Nando Bodha
+LLM usage this run: 11 requests, 14327 tokens
