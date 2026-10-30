@@ -23,3 +23,22 @@ Skipped duplicate (Inside News): Ébène : la nouvelle route B1–M1 relie direc
   dup: nothing new ()
 Skipped duplicate (Top FM): Municipalité de Quatre-Bornes : la FCC relève plusieurs failles dans la gestion des fonds  == Муниципальные проекты в Quatre-Bornes: FCC выявила недостатки в процедурах финансирования
 LLM usage this run: 4 requests, 3650 tokens
+### check 3/5 at 12:43
+  dup check: new (Арестован 36-летний Billtopher Perrine, подозреваемый в попытке ограбления с применением оружия и краже сумки у туристки на пляже Pointe-aux-Biches; о)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Pointe-aux-Biches: новые подробности по делу об атаке на туристов и краже на пляже
+  dup check: new (В статье обсуждается новая мера Cambridge — присвоение 'Assessed Marks' для отменённых экзаменов, а также приводятся мнения Faizal Jeerooburkhan и Arv)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Оценочные баллы: сохраняются сомнения в надёжности результатов
+  dup check: new (Министр Ашок Суброн публично поставил под сомнение систему НДС на строительные материалы, указав на неравное отношение к обычным гражданам при строите)
+  proofread: National Empowerment Foundation → Национальный фонд расширения возможностей
+  foreign words left: Smart
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Top FM): НДС на стройматериалы: Ashok Subron осуждает неравное обращение
+  dup check: new (В статье упоминается, что бывший ректор Soondress Sawmynaden в интервью на Top FM призвал правительство и Mauritius Examinations Syndicate к большей п)
+Proofreading GigaChat-3-Pro failed: Unterminated string starting at: line 1 column 949 (char 948)
+  proofread by qwen/qwen3.8-27b
+  foreign words left: Assessed, Mauritius
+  leftovers fixed by GigaChat-3-Pro; still left: Assessed, Mauritius
+Posted (Top FM): Cambridge – Assessed Mark: Soondress Sawmynaden призывает MES к прозрачности
+LLM usage this run: 15 requests, 18226 tokens
