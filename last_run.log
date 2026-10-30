@@ -1,31 +1,10 @@
-### check 1/5 at 15:50
-  dup check: new (Первая встреча консультаций с НПО, проведённая 29 октября, о которой ранее не сообщалось; а также объявление о предстоящей поездке Премьер‑министра за)
+### check 1/5 at 16:40
+  dup check: new (Supreme Court decision on 30 oct 2026 rejecting two constitutional challenges to the 2025 Finance Act pension reform; judges Aruna Narain and Iqbal Ma)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: 
-Posted (L'Express): Совет министров обсудил ситуацию с водой, консультации с НПО и поездку премьера
+Posted (Defimedia): Пенсия по старости: Верховный суд отклонил два иска
   dup: nothing new ()
-Skipped duplicate (L'Express): Affaire Kistnen : Le MSM réagit à la réponse fournie lors de la Private Notice Question == Дело Kistnen: соратники MSM считают заявления Navin Ramgoolam серьёзными
-LLM usage this run: 4 requests, 6537 tokens
-### check 2/5 at 15:54
-### check 3/5 at 15:58
-  dup check: new (Le projet de loi d'amendement à la police (Police Amendment Bill) autorise le commissaire de police à imposer un couvre‑feu à l’échelle nationale et d)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Нандо Бодха → Nando Bodha; Бодхи → Bodha; Кайлаш Трилочурн → Kailash Trilochurn; Дхараму Гохулу → Dharam Gokhool
-Posted (Top FM): Законопроект о полиции: Собрание Маврикия оспаривает полномочия комиссара
-LLM usage this run: 3 requests, 5225 tokens
-### check 4/5 at 16:02
+Skipped duplicate (Defimedia): Le MSM : «Il est temps que l'enquête sur la mort de Soopramanien Kistnen cesse d'être util == Дело Kistnen: соратники MSM считают заявления Navin Ramgoolam серьёзными
   dup: nothing new ()
-Skipped duplicate (L'Express): Délinquance juvénile : «Est-ce qu’on va criminaliser la misère ?» == Подростковая преступность: Nando Bodha требует независимую экстренную комиссию
-  dup: nothing new ()
-Skipped duplicate (Inside News): Logement social : dix familles du SRM reçoivent les clés d’une maison NHDC == Henrietta, Melrose и Sébastopol: десять семей с невысоким доходом получили жильё, порог SR
-LLM usage this run: 2 requests, 2851 tokens
-### check 5/5 at 16:06
-  dup check: new (LUX* Island Resorts reported a 5 % increase in quarterly revenue to Rs 2.4 billion for the quarter ended 30 September 2026, highlighting improved fina)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  foreign words left: Maldives
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (L'Express): Отельная группа LUX* Island Resorts увеличила квартальную выручку на 5% до 2,4 миллиарда рупий
-LLM usage this run: 4 requests, 6018 tokens
+Skipped duplicate (Le Mauricien): TRAFIC DE DROGUE — Opération au large de Maurice : 14 arrestations, dont 5 Mauriciens, en  == Дело яхты Dreamer: задержаны девять тайцев и пять маврикийцев, включая сотрудника NCG, три
+LLM usage this run: 5 requests, 7460 tokens
