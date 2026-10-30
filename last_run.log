@@ -8,3 +8,10 @@ Posted (L'Express): Совет министров обсудил ситуаци�
 Skipped duplicate (L'Express): Affaire Kistnen : Le MSM réagit à la réponse fournie lors de la Private Notice Question == Дело Kistnen: соратники MSM считают заявления Navin Ramgoolam серьёзными
 LLM usage this run: 4 requests, 6537 tokens
 ### check 2/5 at 15:54
+### check 3/5 at 15:58
+  dup check: new (Le projet de loi d'amendement à la police (Police Amendment Bill) autorise le commissaire de police à imposer un couvre‑feu à l’échelle nationale et d)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Нандо Бодха → Nando Bodha; Бодхи → Bodha; Кайлаш Трилочурн → Kailash Trilochurn; Дхараму Гохулу → Dharam Gokhool
+Posted (Top FM): Законопроект о полиции: Собрание Маврикия оспаривает полномочия комиссара
+LLM usage this run: 3 requests, 5225 tokens
