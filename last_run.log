@@ -1,64 +1,9 @@
-### check 1/5 at 15:09
-  dup check: new (В статье указано, что только 23 000 из примерно 60 000 потенциально подпадающих под обязательство субъектов зарегистрировались как ответственные или о)
+### check 1/5 at 15:50
+  dup check: new (Первая встреча консультаций с НПО, проведённая 29 октября, о которой ранее не сообщалось; а также объявление о предстоящей поездке Премьер‑министра за)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Inside News): Защита данных: зарегистрировано всего 23 тысячи субъектов из потенциально затронутых 60 тысяч
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Порт-Луи → Port-Louis; Филиппа Форжета → Philippe Forget; Девена Нагалиндума → Deven Nagalingum
-Posted (L'Express): На Маврикии пройдет культурная программа с загадками и концертом
-  dup check: new (Создан постоянный рабочий групп по высшему образованию, навыкам и исследованиям между Маврикием и Великобританией; совместное председательство министр)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Кавирадж Сукон → Kaviraj Sukon; Пол Бруммел → Paul Brummell
-Posted (Inside News): Маврикий и Великобритания создают постоянный рабочий орган по высшему образованию
-  dup check: new (Статья представляет нового автора (Anjani Murdan) и освещает работу профессора V. Y. Hookoomsing, выдающегося лингвиста, в области изучения и популяри)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Vinesh Hookoomsing en défense  du bhojpuri mauricien
-Skipped foreign news (Le Mauricien): Vinesh Hookoomsing en défense  du bhojpuri mauricien
-LLM usage this run: 10 requests, 12248 tokens
-### check 2/5 at 15:13
-  dup check: new (В статье перечислены новые события, не упомянутые в ранее опубликованных материалах: ампутированный охранник, крупное плавание от Morne до La Preneuse)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): La caricature du Mauricien du 30 octobre 2026
-Skipped foreign news (Le Mauricien): La caricature du Mauricien du 30 octobre 2026
-  dup check: new (Первая редакция соревнования «La Grande Traversée de l’Ouest» – 10‑км заплыв в открытой воде от Le Morne до La Preneuse, запланированный на 1 ноября 2)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Элоди Одибер → Ælodie Audibert; Седрик Марин → Cédric Marin; Морна → Morne; Ла-Пренёз → La Preneuse
-Posted (Le Mauricien): Грандиозное заплывное путешествие на западе Маврикия: 10 км от Morne до La Preneuse
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Бамбу → Bambous; Жермен-Комаран → Germain-Comarmond
-  foreign words left: Germain-Comarmond
-  leftovers fixed by qwen/qwen3.8-27b; still left: Germain-Comarmond
-Posted (Le Mauricien): Bambous – охранник ампутировал руку после падения на стадионе Germain-Comarmond
-  dup check: new (Nando Bodha condemned the government's decision to lower the age of criminal responsibility, calling it a shortcut solution, and said the state failed)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Рассемблеман-Маврисиен → Rassemblement Mauricien
-Posted (Top FM): «Государство провалилось, целое поколение принесено в жертву», — утверждает Nando Bodha
-LLM usage this run: 11 requests, 14327 tokens
-### check 3/5 at 15:17
+  proofread: 
+Posted (L'Express): Совет министров обсудил ситуацию с водой, консультации с НПО и поездку премьера
   dup: nothing new ()
-Skipped duplicate (Top FM): Alerte overdose : la NADC met en garde contre la disponibilité des drogues plus plus conce == На Маврикии предупреждают об опасности передозировок наркотиками в ближайшие дни
-LLM usage this run: 1 requests, 1040 tokens
-### check 4/5 at 15:21
-  dup check: new (Cyberattaque contre Binance avec un préjudice estimé à 6,3 milliards de dollars, suspicion de hackers nord‑coréens, suspension temporaire des retraits)
-  written by GigaChat-2-Max
-  not about Mauritius: Cyberattaque contre Binance : le préjudice est estimé à 6,3 milliards de dollars
-Skipped foreign news (Le Mauricien): Cyberattaque contre Binance : le préjudice est estimé à 6,3 milliards de dollars
-  dup check: new (Mother (47) and son (27) hospitalized after suspected pesticide poisoning; husband (53) allegedly confessed to adding pesticide to tea; incident occur)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Стэнли → Stanley; Бё-Басена-Роз-Хилла → Beau-Bassin/Rose-Hill
-Posted (Le Mauricien): В Stanley мать и сын госпитализированы после отравления пестицидами, муж признался в добавлении отравы в чай
-LLM usage this run: 5 requests, 7328 tokens
-### check 5/5 at 15:25
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Mahébourg : deux suspects arrêtés dans le cadre de 19 affaires de vol == Кражи оборудования: задержаны двое подозреваемых, ущерб оценивается в 428 000 рупий
-  dup check: new (Le Conseil des ministres a, le 30 octobre, décidé de transférer quotidiennement 7 000 m³ d’eau du réservoir de Mare‑Longue vers la station de traiteme)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Совет министров обсудил ситуацию с водоснабжением
-LLM usage this run: 4 requests, 6412 tokens
+Skipped duplicate (L'Express): Affaire Kistnen : Le MSM réagit à la réponse fournie lors de la Private Notice Question == Дело Kistnen: соратники MSM считают заявления Navin Ramgoolam серьёзными
+LLM usage this run: 4 requests, 6537 tokens
