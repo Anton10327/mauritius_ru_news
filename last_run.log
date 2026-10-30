@@ -15,3 +15,12 @@ LLM usage this run: 5 requests, 7460 tokens
   proofread by qwen/qwen3.8-27b
 Posted (L'Express): Правозащитный отчёт Маврикия представил в Сенегале министр Rajen Narsinghen
 LLM usage this run: 3 requests, 5081 tokens
+### check 4/5 at 16:52
+  dup check: new (Сержант полиции Гаутам Сингх Таукур выступил перед судом в Rose‑Hill 30 октября 2026 г. и потребовал своего освобождения под залог – новое судебное де)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Гаутам Сингх Таукур → Gautam Singh Taukoor; Серgeant → Сержант; Gautam Singh Taukoor предстал → Gautam Singh Taukoor предстал (исправление смешанного написания в оригинале текста); Элоди Томас → Élodie Thomas
+  foreign words left: Серgeant
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (L'Express): Полицейский Gautam Singh Taukoor требует освобождения под залог
+LLM usage this run: 4 requests, 5714 tokens
