@@ -12,3 +12,15 @@ Skipped duplicate (Defimedia): Mise en demeure : Menlo Park réclame 19,5 millio
   not about Mauritius: Élections en Israël : trouver une majorité, un casse-tête pour Netanyahu et Eisenkot
 Skipped foreign news (Defimedia): Élections en Israël : trouver une majorité, un casse-tête pour Netanyahu et Eisenkot
 LLM usage this run: 5 requests, 7528 tokens
+### check 2/5 at 18:44
+  dup: nothing new ()
+Skipped duplicate (L'Express): Rapport de la FCC : Le maire de Quatre-Bornes réfute tout soupçon de malversation == Отчет FCC: мэр Quatre-Bornes утверждает об отсутствии мошенничества
+  dup check: new (Показатели основных биржевых индексов Маврикия за неделю, завершившиеся 28 октября 2026 г.: SEMTRI = 11267,89 очков, SEMDEX = 2286,98 очков, SEM‑10 = )
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Analyse boursière : Les principaux indices en phase de consolidation
+Skipped foreign news (L'Express): Analyse boursière : Les principaux indices en phase de consolidation
+  dup check: new (ECB kept its three key interest rates unchanged (deposit rate at 2.50%, main refinancing rate at 2.65%, marginal lending facility at 2.90%) on 29 octo)
+  written by GigaChat-2-Max
+  not about Mauritius: BCE : les taux restent inchangés, Christine Lagarde quittera ses fonctions en février
+Skipped foreign news (Inside News): BCE : les taux restent inchangés, Christine Lagarde quittera ses fonctions en février
+LLM usage this run: 5 requests, 9074 tokens
