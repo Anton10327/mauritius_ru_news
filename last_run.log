@@ -1,34 +1,19 @@
-### check 1/5 at 18:40
-  same headline as #145: Protection des données : seulement 23 000 entités enregistrées sur 60 000 potent
-Skipped duplicate (L'Express): Protection des données : Seules 23 000 entreprises enregistrées sur 60 000 == Защита данных: зарегистрировано всего 23 тысячи субъектов из потенциально затронутых 60 ты
-  dup check: new (Two detainees escaped (one on Monday, another on Wednesday) and were recaptured hours later; one escape involved a diversion at the Brisée‑Verdière po)
-  written by GigaChat-2-Max
+### check 1/5 at 19:35
+  dup check: new (Calendrier scolaire 2027 : dates des trimestres du primaire et du secondaire adoptées par le Conseil des ministres.)
+  written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Полиция — два беглых заключенных пойманы через несколько часов после побега
-  same headline as #162: Mise en demeure : Menlo Park réclame 19,5 millions de dollars à la Banque de Mau
-Skipped duplicate (Defimedia): Mise en demeure : Menlo Park réclame 19,5 millions de dollars à la Banque de Maurice == Компания требует от Банка Маврикия почти $20 млн компенсации
-  dup check: new (Результаты парламентских выборов в Израиле: отсутствие большинства, 53 места у блока Нетаньяху, 48 у блока Эйзенкота, необходимость формирования коали)
-  written by GigaChat-2-Max
-  not about Mauritius: Élections en Israël : trouver une majorité, un casse-tête pour Netanyahu et Eisenkot
-Skipped foreign news (Defimedia): Élections en Israël : trouver une majorité, un casse-tête pour Netanyahu et Eisenkot
-LLM usage this run: 5 requests, 7528 tokens
-### check 2/5 at 18:44
+Posted (Defimedia): Школьный календарь на 2027 год: даты триместров для начальной и средней школы
   dup: nothing new ()
-Skipped duplicate (L'Express): Rapport de la FCC : Le maire de Quatre-Bornes réfute tout soupçon de malversation == Отчет FCC: мэр Quatre-Bornes утверждает об отсутствии мошенничества
-  dup check: new (Показатели основных биржевых индексов Маврикия за неделю, завершившиеся 28 октября 2026 г.: SEMTRI = 11267,89 очков, SEMDEX = 2286,98 очков, SEM‑10 = )
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Analyse boursière : Les principaux indices en phase de consolidation
-Skipped foreign news (L'Express): Analyse boursière : Les principaux indices en phase de consolidation
-  dup check: new (ECB kept its three key interest rates unchanged (deposit rate at 2.50%, main refinancing rate at 2.65%, marginal lending facility at 2.90%) on 29 octo)
-  written by GigaChat-2-Max
-  not about Mauritius: BCE : les taux restent inchangés, Christine Lagarde quittera ses fonctions en février
-Skipped foreign news (Inside News): BCE : les taux restent inchangés, Christine Lagarde quittera ses fonctions en février
-LLM usage this run: 5 requests, 9074 tokens
-### check 3/5 at 18:48
-### check 4/5 at 18:52
-### check 5/5 at 18:56
-  dup check: new (Nomination de Belinda Wong Leung Pak-Vacher à la présidence par intérim de SBM Holdings Ltd après la démission de Mahendra Vikramdass Punchoo le 30 oc)
-  written by GigaChat-2-Max
+Skipped duplicate (Defimedia): Marche pacifique ce samedi à Port-Louis : la Platform Komun Syndikal appelle les Mauricien == Port-Louis: пять участков дорог закрыты для движения в субботу
+  dup check: new (Air Mauritius объявила прибыль в размере 4,1 миллиарда рупий за финансовый год 2025‑2026, включая бухгалтерские корректировки, связанные с пандемией C)
+  written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (L'Express): Belinda Wong Leung Pak-Vacher временно возглавила SBM Holdings
-LLM usage this run: 3 requests, 4278 tokens
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Финансовая отчетность: Air Mauritius объявляет о прибыли в 4,1 млрд рупий за 2025-2026 финансовый год
+  dup check: new (Création de deux grands pôles d'activités suite à la restructuration d'Airport Holdings Ltd : Aviation Group dirigé par Air Mauritius Ltd et Airport O)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  foreign words left: Aviation, Airport, of, Ltd
+  leftovers fixed by qwen/qwen3.8-27b; still left: Aviation, Airport, of, Ltd
+Posted (Defimedia): Реорганизация Airport Holdings Ltd: создание двух крупных операционных блоков
+LLM usage this run: 11 requests, 16090 tokens
