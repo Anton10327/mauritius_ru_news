@@ -9,3 +9,10 @@ Skipped duplicate (Defimedia): Non-respect de couvre-feu et possession d’armes
   dup: nothing new ()
 Skipped duplicate (L'Express): JO de la Jeunesse- Dakar 2026 :  Les dix Mauriciens entrent dans leur bulle olympique == Юные олимпийцы с Маврикия отправятся в Сенегал
 LLM usage this run: 7 requests, 12562 tokens
+### check 2/5 at 10:45
+  dup: nothing new (В статье упоминается, что премьер-министр Navin Ramgoolam был опрошен о возможности введения дополнительной солидарной налоговой ставки (taxation de s)
+Skipped duplicate (Inside News): Fiscalité : Rs 58,9 milliards attendues des entreprises, jusqu’où peut aller la pression f == От предприятий ждут налоговых поступлений на сумму 58,9 млрд рупий в 2026–2027 годах
+  dup check: new (В статье сообщается, что министерство энергетики и коммунальных услуг реализует меры по обеспечению водоснабжения с помощью бурения скважин. Эти скваж)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Водоснабжение: бурение скважин, чтобы продержаться до сезона дождей
+LLM usage this run: 4 requests, 4662 tokens
