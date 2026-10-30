@@ -26,3 +26,13 @@ Posted (L'Express): Дело Kistnen: соратники MSM считают за
   dup: nothing new (В статье упоминается, что конфиденциальные документы по тендерам были доступны сотрудникам, не имеющим отношения к ним; данные хранятся за границей и )
 Skipped duplicate (Le Mauricien): Administrations régionales — Quatre-Bornes : La FCC relève de graves failles dans la gesti == Муниципальные проекты в Quatre-Bornes: FCC выявила недостатки в процедурах финансирования
 LLM usage this run: 10 requests, 15321 tokens
+### check 3/5 at 13:36
+  dup: nothing new (Открыта новая специализированная Stroke Unit в больнице Jeetoo, что позволит пациентам из Порт-Луи получать помощь без перевода в Кандус. Министерство)
+Skipped duplicate (Inside News): AVC : l’hôpital Jeetoo ouvre son unité spécialisée pour réduire les transferts vers Candos == Новая специализированная единица по уходу за инсультами в больнице Jeetoo позволит избежат
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): ЦЕНТР-ДЕ-ФЛАК: пожар частично уничтожил страховое бюро
+  dup check: new (Речь идёт о ежегодном приёме, организованном посольством Китая на Маврикии 29 октября для бывших участников китайских программ обучения. Присутствовал)
+  foreign words left: Hennessy
+  leftovers fixed by GigaChat-3-Pro; still left: Hennessy
+Posted (L'Express): Дипломатия: Китай не забывает выпускников своих программ — приём в Ébène
+LLM usage this run: 7 requests, 8314 tokens
