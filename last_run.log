@@ -1,25 +1,17 @@
-### check 1/5 at 08:18
-  dup check: new (В новой статье сообщается, что COP31 пройдёт с 9 по 20 ноября в Анталье (Турция), ожидается участие около 100 000 человек из 196 стран. Также уточняет)
-  not about Mauritius: COP 31  : Inside the Biggest Climate Meeting
-Skipped foreign news (Le Mauricien): COP 31  : Inside the Biggest Climate Meeting
-  dup check: new (В новой статье уточняется возраст погибшей (85 лет, а не 80 или 81), место происшествия — Petit Verger Branch Road, Saint-Pierre, и название организац)
+### check 1/5 at 09:06
+  dup check: new (Правительство Маврикия рассматривает возможность снижения возраста уголовной ответственности после недавних беспорядков; в настоящее время дети до 14 )
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: сотрудник-Operations, Officer
+Posted (Defimedia): [Блог] Преследование 12-летних: сделает ли это Маврикий безопаснее?
+  proofread: «устройство для метания посылок» → «устройство для метания посылок»; "lance-colis" → "метатель посылок"; ПВХ-труб → труб из ПВХ
+  foreign words left: SIM-карт
+  leftovers fixed by GigaChat-3-Pro; still left: SIM-карт
+Posted (L'Express): Тюрьма Melrose: самодельное устройство для метания посылок обнаружено на поле сахарного тростника... для доставки заключённым на расстоянии
+  dup check: new (В статье сообщается о развитии деятельности двух французских компаний (SOS Fuite d’Eau и GEORESEAUX FRANCE) на Маврикии, которые специализируются на п)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): КРИЗИС ВОДОСНАБЖЕНИЯ — Борьба с потерями воды: две французские компании расширяют деятельность на Маврикии
+  dup check: new (В статье упоминается конкретное лицо — Ashvin Gungaram из ассоциации AILES, который критикует текущую политику и требует срочных мер. В ранее опублико)
+  proofread: «Справка о благонадёжности» → «справка о морали»
+  foreign words left: Aide-Info-Liberté-Espoir-Solidarité
   leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (L'Express): ДТП в Saint-Pierre: 85-летняя Santi Jugurnauth насмерть сбита фургоном Central Water Authority
-  dup: nothing new (Платформа Komin Syndikal (PKS) объявила о призыве к мирной демонстрации в Порт-Луи в субботу, подчеркнув участие работников, обеспокоенных реформой пе)
-Skipped duplicate (Le Mauricien): SYNDICALISME — Réforme des pensions : La PKS appelle à une marche pacifique ce samedi == Профсоюзы проведут митинг против реформы пенсий и безработицы
-  dup check: new (1) Десять семей из SRM получили ключи от новых домов в Henrietta 30 октября. 2) Министр Ashok Subron объявил, что порог дохода для включения в SRM буд)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Henrietta, Melrose и Sébastopol: десять семей с невысоким доходом получили жильё, порог SRM повысят до 17 500 рупий в 2027 году
-LLM usage this run: 10 requests, 15391 tokens
-### check 2/5 at 08:22
-### check 3/5 at 08:26
-  dup check: new (В статье упоминается, что организаторы требуют восстановления пенсии по старости (rétablissement de la pension de vieillesse), чего нет в опубликованн)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Jardin, Compagnie
-  leftovers fixed by GigaChat-3-Pro; still left: Jardin, Compagnie
-Posted (Inside News): Пенсия в 60 лет: профсоюзы снова выходят на улицы, правительство перед лицом протестов
-LLM usage this run: 4 requests, 4854 tokens
-### check 4/5 at 08:30
-### check 5/5 at 08:34
+Posted (Top FM): Распространение наркотиков: активисты на местах требуют реформ антинаркотической политики
+LLM usage this run: 13 requests, 19295 tokens
