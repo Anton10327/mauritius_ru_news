@@ -1,52 +1,16 @@
-### check 1/5 at 13:28
-Posted (Defimedia): Сезонная занятость: эти крупные сети набирают сотрудников в конце года
-  dup check: new (В статье анонсировано прямое интервью с генеральным директором CWA Shiam Thannoo в эфире «Au Cœur de l’Info», где будут обсуждаться меры, инвестиции и)
-  not news (portrait/lifestyle): Au Cœur de l’Info – Crise de l’eau : amélioration ou simple accalmie ?
-Skipped foreign news (Defimedia): Au Cœur de l’Info – Crise de l’eau : amélioration ou simple accalmie ?
-  dup check: new (В статье впервые сообщается о новом инциденте: 69-летняя женщина подала жалобу на агрессию со стороны водителя в Cottage во вторник, подробности проис)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Дорожная агрессия в Cottage: 69-летнюю водительницу атаковал другой автомобилист
-  dup check: new (Nando Bodha предлагает создать независимую чрезвычайную комиссию из экспертов для изучения проблемы молодежной преступности, указывает на необходимост)
-  foreign words left: Committee
-  leftovers fixed by GigaChat-3-Pro; still left: Committee
-Posted (Defimedia): Подростковая преступность: Nando Bodha требует независимую экстренную комиссию
-LLM usage this run: 11 requests, 16824 tokens
-### check 2/5 at 13:32
-  dup check: new (В статье упоминается, что министр Assirvaden заявил о скором удвоении объёма воды из Mare-Longue в La Marie (новая цитата), а также приведены новые вы)
-  not news (portrait/lifestyle): La caricature du Mauricien du 29 octobre 2026
-Skipped foreign news (Le Mauricien): La caricature du Mauricien du 29 octobre 2026
-  dup check: new (В статье приводится прямая цитата ректора колледжа Bhujoharry Didier Moutou о том, что школа делает всё возможное, но остаётся безоружной перед лицом )
-  proofread: collège Bhujoharry → колледж Bhujoharry; Didier Moutou → Дидье Муту
-  foreign words left: Bhujoharry
-  leftovers fixed by GigaChat-3-Pro; still left: Bhujoharry
-Posted (Defimedia): Didier Moutou, ректор колледжа Bhujoharry: «Школа делает всё возможное, но остаётся безоружной»
-  dup check: new (В статье говорится, что близкие MSM считают серьёзными новые разоблачения Навина Рамгулама о втором телефоне жертвы и предполагаемом уничтожении цифро)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Дело Kistnen: соратники MSM считают заявления Navin Ramgoolam серьёзными
-  dup: nothing new (В статье упоминается, что конфиденциальные документы по тендерам были доступны сотрудникам, не имеющим отношения к ним; данные хранятся за границей и )
-Skipped duplicate (Le Mauricien): Administrations régionales — Quatre-Bornes : La FCC relève de graves failles dans la gesti == Муниципальные проекты в Quatre-Bornes: FCC выявила недостатки в процедурах финансирования
-LLM usage this run: 10 requests, 15321 tokens
-### check 3/5 at 13:36
-  dup: nothing new (Открыта новая специализированная Stroke Unit в больнице Jeetoo, что позволит пациентам из Порт-Луи получать помощь без перевода в Кандус. Министерство)
-Skipped duplicate (Inside News): AVC : l’hôpital Jeetoo ouvre son unité spécialisée pour réduire les transferts vers Candos == Новая специализированная единица по уходу за инсультами в больнице Jeetoo позволит избежат
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): ЦЕНТР-ДЕ-ФЛАК: пожар частично уничтожил страховое бюро
-  dup check: new (Речь идёт о ежегодном приёме, организованном посольством Китая на Маврикии 29 октября для бывших участников китайских программ обучения. Присутствовал)
-  foreign words left: Hennessy
-  leftovers fixed by GigaChat-3-Pro; still left: Hennessy
-Posted (L'Express): Дипломатия: Китай не забывает выпускников своих программ — приём в Ébène
-LLM usage this run: 7 requests, 8314 tokens
-### check 4/5 at 13:40
-  dup: nothing new (В новой статье уточнено, что кража произошла между 13 и 27 октября (ранее был указан только день обращения в полицию — среда). Также указано, что на м)
-Skipped duplicate (Le Mauricien): TRIOLET : Vol de Rs 700 000 de bijoux, une femme de ménage arrêtée == Triolet: украли ювелирные изделия стоимостью 700 000 рупий, задержана горничная
-  dup check: new (Road closures in Port‑Louis on 31 october for Pacific March: streets St George, Chaussée, Barracks, Poudrière and Dr Ferrière partially closed from 11)
+### check 1/5 at 14:21
+  written by GigaChat-2-Max
+  not about Mauritius: Rapport de la Banque mondiale: Le pétrole attendu à 106 millions de barils par jour en 2027
+Skipped foreign news (Defimedia): Rapport de la Banque mondiale: Le pétrole attendu à 106 millions de barils par jour en 2027
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Порт-Луи → Port-Louis
-  foreign words left: Chaussée, Poudrière, Ferrère
-  leftovers fixed by qwen/qwen3.8-27b; still left: Chaussée, Poudrière, Ferrère
-Posted (Le Mauricien): Port-Louis: пять участков дорог закрыты для движения в субботу
-LLM usage this run: 5 requests, 7176 tokens
-### check 5/5 at 13:44
-  same headline as #141: Pommes de terre, oignons et ail : l’AMB assure un approvisionnement jusqu’à fin 
-Skipped duplicate (Wazaa): AMB confirme l’approvisionnement en pommes de terre, oignons et ail jusqu’à fin décembre 2 == Картофель, лук и чеснок: AMB гарантирует поставки до конца декабря 2026 года
+  foreign words left: Mauritius, Telecom
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Le Mauricien): Ученики с нарушением зрения получат компьютеры и специализированное оборудование
+  dup: nothing new ()
+Skipped duplicate (L'Express): Approvisionnement en eau : Mare-Longue passe  de 15 000 à 30 000 m³ par jour == Mare-Longue–La Marie: объем подаваемой воды может удвоиться уже в воскресенье, объявил Pat
+  dup check: new ()
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): CYBERSÉCURITÉ : Augmenter la résilience numérique des entreprises
+Skipped foreign news (Le Mauricien): CYBERSÉCURITÉ : Augmenter la résilience numérique des entreprises
+LLM usage this run: 7 requests, 12625 tokens
