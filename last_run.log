@@ -12,3 +12,16 @@ Posted (Defimedia): Картофель, лук и чеснок: AMB гарант
   dup check: new (CEB мобилизовал технические команды и развернул специальные устройства для обеспечения стабильного электроснабжения во время празднования Дивали; приз)
 Posted (Le Mauricien): Divali / Команды Central Electricity Board полностью мобилизованы и призывают к осторожности при использовании электроустановок
 LLM usage this run: 13 requests, 19695 tokens
+### check 2/5 at 11:47
+  dup check: new (Премьер-министр Маврикия Навин Рамгулам заявил в парламенте о стирании примерно 98% данных из системы Safe City, что вызывает вопросы о сохранности и )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Inside News): Safe City: часть данных могла быть удалена, под вопросом — отслеживаемость системы
+  dup check: new (С 30 октября на Маврикии запускается онлайн-оплата определённых дорожных штрафов (Fixed Penalty Notices без лишения баллов) через портал Верховного су)
+  proofread: «фиксированных» → «фиксные»
+Posted (Inside News): Оплата штрафов за нарушение ПДД онлайн стартует в эту пятницу, но пока не для всех нарушений
+  dup: nothing new (Kushal Lobine, лидер Nouveaux-Démocrates и депутат большинства, поддержал законопроект Criminal Justice (Offenders Assisting Investigations and Prosec)
+Skipped duplicate (Le Mauricien): Criminal Justice (Offenders Assisting Investigations and Prosecutions) Bill -Kushal Lobine == Премьер-министр Navin Ramgoolam представил законопроект против заговоров молчания по серьё
+  dup check: new (Правительство Маврикия завершает подготовку нового Business Facilitation Bill, направленного на сокращение административных барьеров для инвесторов и )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Inside News): Деловой климат: Маврикий готовит новый закон для сокращения административных барьеров
+LLM usage this run: 10 requests, 12288 tokens
