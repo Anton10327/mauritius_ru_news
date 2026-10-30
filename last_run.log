@@ -1,42 +1,15 @@
-### check 1/5 at 11:43
-  dup check: new (В новой статье сообщается, что задержан ещё один сотрудник NCG — констебль Кевин Рунгилал, который работал в Operations Room и подозревается в содейст)
-  proofread: второй сотрудник NCG → второй сотрудник National Coast Guard
-  foreign words left: Operations
-  leftovers fixed by GigaChat-3-Pro; still left: Operations
-Posted (Defimedia): Импорт 1,5 тонны каннабиса: констебль Kevin Rungilal из NCG подозревается в сговоре с торговцами
-  dup check: new (Министр труда Reza Uteem публично выступил в защиту законопроекта о сотрудничестве преступников со следствием, опровергнув обвинения оппозиции в тайно)
+### check 1/5 at 12:35
+  dup check: new (В статье утверждается, что капитан тайской яхты получил через WhatsApp информацию о других яхтах и инструкции на случай допроса; также упоминается вло)
+  foreign words left: List, of, doc
+  leftovers fixed by GigaChat-3-Pro; still left: doc
+Posted (Defimedia): Эксклюзив: переписка в WhatsApp компрометирует Национальную береговую охрану
+  dup check: new (В статье приведены новые точные цифры среднего уровня заполнения всех семи водохранилищ (51,6%) и сравнение с тем же периодом 2025 года (77%), а также)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Законопроект об оказании содействия расследованиям и уголовному преследованию: Reza Uteem — «Мы не проталкиваем законопроект тайно»
-  dup check: new (AMB утверждает, что обеспечила достаточные запасы картофеля, лука и чеснока до конца декабря 2026 года; это новое заявление о сроках снабжения этими п)
-Posted (Defimedia): Картофель, лук и чеснок: AMB гарантирует поставки до конца декабря 2026 года
-  dup check: new (CEB мобилизовал технические команды и развернул специальные устройства для обеспечения стабильного электроснабжения во время празднования Дивали; приз)
-Posted (Le Mauricien): Divali / Команды Central Electricity Board полностью мобилизованы и призывают к осторожности при использовании электроустановок
-LLM usage this run: 13 requests, 19695 tokens
-### check 2/5 at 11:47
-  dup check: new (Премьер-министр Маврикия Навин Рамгулам заявил в парламенте о стирании примерно 98% данных из системы Safe City, что вызывает вопросы о сохранности и )
+Posted (Defimedia): Резервуары: средний уровень заполнения 51,6% против 77% в 2025 году
+  dup check: new (Семеро обвиняемых признаны виновными, но освобождены от наказания; один оштрафован на 5000 рупий; четверо приговорены к четырём месяцам тюрьмы. Судья )
   proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Safe City: часть данных могла быть удалена, под вопросом — отслеживаемость системы
-  dup check: new (С 30 октября на Маврикии запускается онлайн-оплата определённых дорожных штрафов (Fixed Penalty Notices без лишения баллов) через портал Верховного су)
-  proofread: «фиксированных» → «фиксные»
-Posted (Inside News): Оплата штрафов за нарушение ПДД онлайн стартует в эту пятницу, но пока не для всех нарушений
-  dup: nothing new (Kushal Lobine, лидер Nouveaux-Démocrates и депутат большинства, поддержал законопроект Criminal Justice (Offenders Assisting Investigations and Prosec)
-Skipped duplicate (Le Mauricien): Criminal Justice (Offenders Assisting Investigations and Prosecutions) Bill -Kushal Lobine == Премьер-министр Navin Ramgoolam представил законопроект против заговоров молчания по серьё
-  dup check: new (Правительство Маврикия завершает подготовку нового Business Facilitation Bill, направленного на сокращение административных барьеров для инвесторов и )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Деловой климат: Маврикий готовит новый закон для сокращения административных барьеров
-LLM usage this run: 10 requests, 12288 tokens
-### check 3/5 at 11:51
-  dup check: new (Дефицит торгового баланса Маврикия в августе 2026 года составил 20,7 млрд рупий; за первое полугодие дефицит достиг 113,1 млрд рупий (рост на 12,5% по)
-Posted (Top FM): Дефицит торгового баланса: 20,7 млрд рупий в августе 2026 года
-LLM usage this run: 3 requests, 2557 tokens
-### check 4/5 at 11:55
-  dup check: new (Организована новая панельная дискуссия «Cancer & Hope Talk», посвящённая поддержке пациентов с раком за пределами медицинского ухода, в рамках месяца )
-  proofread: «Cancer & Hope Talk» : Au-delà des soins, mieux accompagner les patients → «Cancer & Hope Talk»: не только лечение — как лучше сопровождать пациентов; Au-delà des soins, mieux accompagner les patients → не только лечение, но и поддержка: как лучше сопровождать пациентов; Briser le silence autour du 
-  foreign words left: Cancer, Hope
-  leftovers fixed by GigaChat-3-Pro; still left: Cancer, Hope
-Posted (L'Express): «Рак и надежда»: не только лечение — как лучше сопровождать пациентов
-LLM usage this run: 4 requests, 5438 tokens
-### check 5/5 at 11:59
-  dup: nothing new (упоминание о требовании публикации отчёта NADC как ключевого шага для поиска решений и пересмотра борьбы с наркотиками; цитата Jamie Cartick из Collec)
-Skipped duplicate (Top FM): Drogue : les organisations de terrain réclament la publication du rapport de la NADC pour  == Распространение наркотиков: активисты на местах требуют реформ антинаркотической политики
-LLM usage this run: 1 requests, 741 tokens
+Posted (Defimedia): Нарушение комендантского часа: семерых обвиняемых освободили от наказания, одного оштрафовали, четверых приговорили к тюремному заключению
+  dup check: new (Арестованы два новых подозреваемых по делу о кражах оборудования в Grand-Bel-Air, Mahébourg и Beau-Vallon; общий ущерб оценивается в 428 000 рупий. Во)
+  proofread: 
+Posted (Defimedia): Кражи оборудования: задержаны двое подозреваемых, ущерб оценивается в 428 000 рупий
+LLM usage this run: 13 requests, 19866 tokens
