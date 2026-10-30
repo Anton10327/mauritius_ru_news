@@ -11,3 +11,18 @@ Posted (Defimedia): Дорожная агрессия в Cottage: 69-летню�
   leftovers fixed by GigaChat-3-Pro; still left: Committee
 Posted (Defimedia): Подростковая преступность: Nando Bodha требует независимую экстренную комиссию
 LLM usage this run: 11 requests, 16824 tokens
+### check 2/5 at 13:32
+  dup check: new (В статье упоминается, что министр Assirvaden заявил о скором удвоении объёма воды из Mare-Longue в La Marie (новая цитата), а также приведены новые вы)
+  not news (portrait/lifestyle): La caricature du Mauricien du 29 octobre 2026
+Skipped foreign news (Le Mauricien): La caricature du Mauricien du 29 octobre 2026
+  dup check: new (В статье приводится прямая цитата ректора колледжа Bhujoharry Didier Moutou о том, что школа делает всё возможное, но остаётся безоружной перед лицом )
+  proofread: collège Bhujoharry → колледж Bhujoharry; Didier Moutou → Дидье Муту
+  foreign words left: Bhujoharry
+  leftovers fixed by GigaChat-3-Pro; still left: Bhujoharry
+Posted (Defimedia): Didier Moutou, ректор колледжа Bhujoharry: «Школа делает всё возможное, но остаётся безоружной»
+  dup check: new (В статье говорится, что близкие MSM считают серьёзными новые разоблачения Навина Рамгулама о втором телефоне жертвы и предполагаемом уничтожении цифро)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Дело Kistnen: соратники MSM считают заявления Navin Ramgoolam серьёзными
+  dup: nothing new (В статье упоминается, что конфиденциальные документы по тендерам были доступны сотрудникам, не имеющим отношения к ним; данные хранятся за границей и )
+Skipped duplicate (Le Mauricien): Administrations régionales — Quatre-Bornes : La FCC relève de graves failles dans la gesti == Муниципальные проекты в Quatre-Bornes: FCC выявила недостатки в процедурах финансирования
+LLM usage this run: 10 requests, 15321 tokens
