@@ -36,3 +36,14 @@ Posted (Le Mauricien): ЦЕНТР-ДЕ-ФЛАК: пожар частично у�
   leftovers fixed by GigaChat-3-Pro; still left: Hennessy
 Posted (L'Express): Дипломатия: Китай не забывает выпускников своих программ — приём в Ébène
 LLM usage this run: 7 requests, 8314 tokens
+### check 4/5 at 13:40
+  dup: nothing new (В новой статье уточнено, что кража произошла между 13 и 27 октября (ранее был указан только день обращения в полицию — среда). Также указано, что на м)
+Skipped duplicate (Le Mauricien): TRIOLET : Vol de Rs 700 000 de bijoux, une femme de ménage arrêtée == Triolet: украли ювелирные изделия стоимостью 700 000 рупий, задержана горничная
+  dup check: new (Road closures in Port‑Louis on 31 october for Pacific March: streets St George, Chaussée, Barracks, Poudrière and Dr Ferrière partially closed from 11)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Порт-Луи → Port-Louis
+  foreign words left: Chaussée, Poudrière, Ferrère
+  leftovers fixed by qwen/qwen3.8-27b; still left: Chaussée, Poudrière, Ferrère
+Posted (Le Mauricien): Port-Louis: пять участков дорог закрыты для движения в субботу
+LLM usage this run: 5 requests, 7176 tokens
