@@ -9,3 +9,9 @@ Skipped duplicate (Defimedia): Le MSM : «Il est temps que l'enquête sur la mor
 Skipped duplicate (Le Mauricien): TRAFIC DE DROGUE — Opération au large de Maurice : 14 arrestations, dont 5 Mauriciens, en  == Дело яхты Dreamer: задержаны девять тайцев и пять маврикийцев, включая сотрудника NCG, три
 LLM usage this run: 5 requests, 7460 tokens
 ### check 2/5 at 16:44
+### check 3/5 at 16:48
+  dup check: new (Rajen Narsinghen, junior minister of foreign affairs of Mauritius, participated in the 89th ordinary session of the African Commission on Human and Pe)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Правозащитный отчёт Маврикия представил в Сенегале министр Rajen Narsinghen
+LLM usage this run: 3 requests, 5081 tokens
