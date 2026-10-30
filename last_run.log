@@ -17,3 +17,7 @@ LLM usage this run: 9 requests, 13106 tokens
   dup: nothing new (Министр образования Mahend Gungapersad сообщил, что получил поддержку Совета министров для пересмотра протокола соглашения с Cambridge после отмены эк)
 Skipped duplicate (Defimedia): Examens du SC et du HSC annulés : Gungapersad compte revoir les accords avec Cambridge == Отмена экзаменов SC/HSC: «Мы действовали исключительно в интересах учеников», утверждает M
 LLM usage this run: 1 requests, 836 tokens
+### check 4/5 at 10:02
+  dup check: new (В статье упоминается, что капитан яхты — Suriya Samanboot. Это новое имя, которое ранее не публиковалось в канале.)
+Posted (L'Express): Дело «Dreamer»: кому предназначались 1,5 тонны каннабиса и гашиша?
+LLM usage this run: 3 requests, 4868 tokens
