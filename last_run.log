@@ -14,3 +14,17 @@ Skipped duplicate (Inside News): Merven Clair rejoint la finale africaine après
   proofread: Родригес → Rodrigues; Святого Габриэля → Saint-Gabriel; Мишель Мура → Mgr Michel Moura
 Posted (Le Mauricien): На острове Rodrigues стартует юбилейный год апостольского викариата
 LLM usage this run: 8 requests, 10970 tokens
+### check 2/5 at 17:48
+  dup check: new (Мэр Лутчми Гунгабиссон заявил, что в выплатах муниципальных фондов Quatre-Bornes нет мошенничества, отреагировав на отчёт FCC.)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Кватр-Борно → Quatre-Bornes; Комиссии по борьбе с финансовыми преступлениями (FCC) → Financial Crimes Commission (FCC)
+Posted (Defimedia): Отчет FCC: мэр Quatre-Bornes утверждает об отсутствии мошенничества
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Компания требует от Банка Маврикия почти $20 млн компенсации
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Alerte urgente de l’agence nationale face à des risques de surdose à l’Île Maurice dans le == На Маврикии предупреждают об опасности передозировок наркотиками в ближайшие дни
+  dup: nothing new ()
+Skipped duplicate (L'Express): Alerte de la National Agency for Drug Control : Un «risque accru d’overdose» à Maurice == На Маврикии предупреждают об опасности передозировок наркотиками в ближайшие дни
+LLM usage this run: 7 requests, 10058 tokens
