@@ -21,3 +21,11 @@ Skipped duplicate (L'Express): Délinquance juvénile : «Est-ce qu’on va crim
   dup: nothing new ()
 Skipped duplicate (Inside News): Logement social : dix familles du SRM reçoivent les clés d’une maison NHDC == Henrietta, Melrose и Sébastopol: десять семей с невысоким доходом получили жильё, порог SR
 LLM usage this run: 2 requests, 2851 tokens
+### check 5/5 at 16:06
+  dup check: new (LUX* Island Resorts reported a 5 % increase in quarterly revenue to Rs 2.4 billion for the quarter ended 30 September 2026, highlighting improved fina)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  foreign words left: Maldives
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (L'Express): Отельная группа LUX* Island Resorts увеличила квартальную выручку на 5% до 2,4 миллиарда рупий
+LLM usage this run: 4 requests, 6018 tokens
