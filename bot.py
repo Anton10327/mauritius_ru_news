@@ -1378,7 +1378,8 @@ LEFTOVER_PROMPT = (
     "остались иностранные слова, которые не являются именами людей, названиями "
     "мест или компаний: они перечислены ниже. Переведи на русский именно их, "
     "по смыслу и согласовав с предложением (Pesticides → Пестициды, "
-    "Agricultural Services → сельскохозяйственная служба, walk-out → "
+    "Agricultural Services → сельскохозяйственная служба, Cour du Nord de "
+    "Port-Louis → Северный суд Port-Louis, walk-out → "
     "демонстративный уход). Всё остальное, включая имена латиницей, оставь "
     "без изменений. Верни строго JSON: {\"title\": \"...\", \"summary\": \"...\"}."
 )
@@ -1408,8 +1409,22 @@ def fix_mixed_words(text, names):
     return _MIXED.sub(sub, text or "")
 
 
+# A name starting with one of these is a state body: it is written in Russian
+# (суд, министерство, полиция...), even if the model listed it as a Latin name
+_STATE_BODY = re.compile(r"^(cour|tribunal|court|minist\w*|assembl\w*|parlement|parliament|"
+                         r"police|commission|commissioner|conseil|council|municipalit\w*|"
+                         r"district|bureau|office|h[oô]pital|hospital|prison|département|"
+                         r"department|direction|service|agence|agency|autorité|authority|"
+                         r"cabinet|gouvernement|government|senat|sénat)\b", re.I)
+
+
+def _state_body(n):
+    return n.get("type") in ("org", "mu_place") and bool(_STATE_BODY.match(n.get("orig", "").strip()))
+
+
 def foreign_leftovers(title, summary, names, original=""):
     """Latin words that are not part of a listed name or an abbreviation."""
+    names = [n for n in names if not _state_body(n)]  # Cour du Nord... must be translated
     text = f"{title} {summary}"
     allowed = {"dr", "me", "mme", "st", "ste", "mr", "sir"}
     # proper names the model did not list: capitalised in the middle of a
