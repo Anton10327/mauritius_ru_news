@@ -1,30 +1,14 @@
-### check 1/5 at 09:06
-  dup check: new (Правительство Маврикия рассматривает возможность снижения возраста уголовной ответственности после недавних беспорядков; в настоящее время дети до 14 )
+### check 1/5 at 09:50
+  dup check: new (В статье сообщается о смерти бабушки Вед Рамлуна (Mayawattee Danoo), что является новым событием, не упомянутым в ранее опубликованных материалах.)
+  proofread: Ved Ramlugun, или Вед Рамлугун — имя собственное не склоняется; исправлено согласование возраста: '17-летний' → '17-летний', но по-русски корректнее '17-летний'; уточнено название школы: 'Camp de Masque SSS Boys' переведено как 'школа Camp de Masque SSS Boys'.
+Posted (Defimedia): Скончалась Mayawattee Danoo, бабушка Ved Ramlugun
+  dup check: new (Правительство Маврикия одобрило контракт на найм около 60 индийских медсестёр через Sri Kauvery Medical Care (India) Limited для усиления специализиро)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): [Блог] Преследование 12-летних: сделает ли это Маврикий безопаснее?
-  proofread: «устройство для метания посылок» → «устройство для метания посылок»; "lance-colis" → "метатель посылок"; ПВХ-труб → труб из ПВХ
-  foreign words left: SIM-карт
-  leftovers fixed by GigaChat-3-Pro; still left: SIM-карт
-Posted (L'Express): Тюрьма Melrose: самодельное устройство для метания посылок обнаружено на поле сахарного тростника... для доставки заключённым на расстоянии
-  dup check: new (В статье сообщается о развитии деятельности двух французских компаний (SOS Fuite d’Eau и GEORESEAUX FRANCE) на Маврикии, которые специализируются на п)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): КРИЗИС ВОДОСНАБЖЕНИЯ — Борьба с потерями воды: две французские компании расширяют деятельность на Маврикии
-  dup check: new (В статье упоминается конкретное лицо — Ashvin Gungaram из ассоциации AILES, который критикует текущую политику и требует срочных мер. В ранее опублико)
-  proofread: «Справка о благонадёжности» → «справка о морали»
-  foreign words left: Aide-Info-Liberté-Espoir-Solidarité
+  foreign words left: Limited
   leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Top FM): Распространение наркотиков: активисты на местах требуют реформ антинаркотической политики
-LLM usage this run: 13 requests, 19295 tokens
-### check 2/5 at 09:10
-### check 3/5 at 09:14
+Posted (Inside News): Государственные больницы: Маврикий нанимает индийских медсестёр, профсоюзы ставят под вопрос управление кадрами
   dup: nothing new ()
-Skipped duplicate (L'Express): Championnats d'Afrique élites l Boxe : Merven Clair, l’or au bout des gants == БОКС – Чемпионат Африки среди элиты 2026 (ДР Конго): Merven Clair вышел в финал, Cloé Gabr
-LLM usage this run: 1 requests, 856 tokens
-### check 4/5 at 09:18
-### check 5/5 at 09:22
-  dup check: new (Согласно исследованию Pédostop, 42% маврикийцев и 31% жителей Родригеса сообщили о том, что подвергались сексуальному насилию в течение жизни; исследо)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Rodrigues
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Top FM): Сексуализированное насилие: 42% маврикийцев затронуты, согласно исследованию Pédostop
-LLM usage this run: 4 requests, 4452 tokens
+Skipped duplicate (Wazaa): La police traque un suspect local après un cambriolage de 1,4 million Rs dans une maison à == Baie-du-Tombeau: 76-летняя пенсионерка стала жертвой ограбления, ущерб оценивается в 1,4 м
+  not about Mauritius: Le Brésil dit non à Trump
+Skipped foreign news (L'Express): Le Brésil dit non à Trump
+LLM usage this run: 9 requests, 13106 tokens
