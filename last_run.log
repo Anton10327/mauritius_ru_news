@@ -19,3 +19,8 @@ LLM usage this run: 12 requests, 15320 tokens
 Posted (Defimedia): Профсоюзный марш в Port-Louis: в центре требований — стоимость жизни и условия труда
 LLM usage this run: 3 requests, 4189 tokens
 ### check 3/5 at 16:59
+### check 4/5 at 17:03
+  dup check: new (Jose Luis Lopez Xique был приговорён к пожизненному заключению без права на условно-досрочное освобождение по трём обвинениям за убийство Kayli Arseth)
+  not about Mauritius: Assassinat de Kayli Arseth aux USA  : Jose Luis Lopez Xique condamné à la prison à perpétuité sous t
+Skipped foreign news (L'Express): Assassinat de Kayli Arseth aux USA  : Jose Luis Lopez Xique condamné à la prison à perpétuité sous t
+LLM usage this run: 2 requests, 3910 tokens
