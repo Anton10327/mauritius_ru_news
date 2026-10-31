@@ -1,21 +1,13 @@
-### check 1/5 at 17:39
-  not about Mauritius: [Blog] Manchester United’s Decline: My Tribulations!!!
-Skipped foreign news (Defimedia): [Blog] Manchester United’s Decline: My Tribulations!!!
-LLM usage this run: 1 requests, 3015 tokens
-### check 2/5 at 17:43
-### check 3/5 at 17:47
-  dup: nothing new ()
-Skipped duplicate (Top FM): Mobilisation de la Platform Komun Syndikal : Devanand Ramjuttun dénonce une « pire trahiso == Профсоюзный марш в Port-Louis: в центре требований — стоимость жизни и условия труда
-LLM usage this run: 1 requests, 945 tokens
-### check 4/5 at 17:51
-  dup check: new (Paul Bérenger, лидер FMP, публично раскритиковал предложение понизить возраст уголовной ответственности с 14 до 12 лет и обвинил вице-премьер-министра)
+### check 1/5 at 18:19
+  dup check: new (В статье описан новый случай: 17-летний Zaheerkhan Loolmahamed из Curepipe самостоятельно закупил и ежедневно раздаёт 45 галлонов воды нуждающимся, чт)
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Committee
-  leftovers fixed by GigaChat-3-Pro; still left: Committee
-Posted (Top FM): Paul Bérenger осудил предложение снизить возраст уголовной ответственности с 14 до 12 лет
-LLM usage this run: 4 requests, 5431 tokens
-### check 5/5 at 17:55
-  dup check: new (В статье впервые упоминается, что Франсуа Векранжес (36 лет) подозревается в сексуальных домогательствах к своей племяннице и крестнице 6 лет и до сих)
-  proofread: Векранжа → Векранж; нашел → нашел
-Posted (Top FM): François Veckranges по-прежнему не найден — Chetan Baboolall: «Поразительно, что полиция до сих пор его не задержала…»
-LLM usage this run: 3 requests, 4047 tokens
+Posted (Defimedia): В 17 лет он раздаёт 45 галлонов воды в Curepipe: «Я не могу сидеть сложа руки»
+  dup check: new (George Malcolm Oliver Louise назначен председателем совета директоров Mauritius Duty Free Paradise Co. Ltd.; решение принято на заседании Совета минис)
+  proofread: было: ...назначен председателем совета директоров компании... → стало: ...назначен председателем совета директоров компании... (исправлено управление и согласование); было: ...на заседании в пятницу, 30 октября 2026 года, согласно протоколу. → стало: ...на заседании в пятницу, 30 октября 2026 года, 
+Posted (Defimedia): Mauritius Duty Free Paradise: George Malcolm Oliver Louise назначен председателем совета директоров
+  dup check: new (В новой статье описан инцидент в Solferino, где 31-летний автомобилист был ранен ножом мотоциклистом, с которым он знаком. Пострадавший получил ранени)
+  proofread: 
+Posted (Defimedia): Solferino: автомобилист подвергся нападению с ножом со стороны мотоциклиста
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Agression mortelle de Selven Iyempermal - sa tante : «Linn grandi avek nou» == Смертельное нападение на Selven Iyempermal: Imtiyaz Chady предъявлено предварительное обви
+LLM usage this run: 10 requests, 13649 tokens
