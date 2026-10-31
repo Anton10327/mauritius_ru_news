@@ -257,8 +257,14 @@ DUP_PROMPT = (
     "Итог соревнования (победа, медаль, счёт финала) — не дубль, если раньше "
     "писали только о выходе в финал или о ходе турнира. "
     "Ответь строго JSON в таком порядке полей: "
-    '{"new_facts": "какие новые важные факты есть, или пусто", '
-    '"is_duplicate": true или false, "duplicate_of": номер самого похожего или null}.'
+    '{"same_story_as": номер опубликованного поста о том же событии, решении '
+    'или объявлении, или null, если такого нет; '
+    '"story_changed": true, только если с тех пор произошло что-то новое в '
+    'самой истории (новое решение или его отмена, новые задержанные или '
+    'пострадавшие, приговор, итог), а не просто больше подробностей, дат, '
+    'цифр или цитат; '
+    '"new_facts": "что именно нового, или пусто", '
+    '"is_duplicate": true или false, "duplicate_of": номер или null}.'
 )
 
 # Extra feeds checked only in test mode (to try a source before adding it)
@@ -774,10 +780,15 @@ def _ask_duplicate(orig_title, lead, recent, listing):
         return None
     try:
         data = _parse_json(r.json()["choices"][0]["message"]["content"]) or {}
-        if data.get("is_duplicate") is not True:
+        no = lambda v: v is False or str(v).lower() in ("false", "null", "none", "")
+        same = data.get("same_story_as")
+        # Same story and nothing happened in it since: a repeat, whatever the
+        # model's own is_duplicate says (it tends to count extra details as news)
+        story_repeat = same not in (None, "", "null") and no(data.get("story_changed"))
+        if data.get("is_duplicate") is not True and not story_repeat:
             print(f"  dup check: new ({str(data.get('new_facts', ''))[:150]})")
             return None
-        dup = data.get("duplicate_of")
+        dup = data.get("duplicate_of") or same
         try:
             dup = int(dup)
         except (TypeError, ValueError):

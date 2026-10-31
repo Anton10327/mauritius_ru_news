@@ -11,6 +11,6 @@ for m in ["GigaChat-3-Pro", "openai/gpt-oss-120b"]:
         print(" ", e["orig"][:70], "->", bot.find_duplicate(e["orig"], e["summary"], rec[:i]))
 # control: other posts of the same day must stay new
 bot.DUP_MODELS[:] = ["GigaChat-3-Pro"]
-others = [i for i in range(idx[0], len(rec)) if i not in idx][:12]
+others = [i for i in range(idx[0], len(rec)) if i not in idx][:30]
 flag = [(rec[i]["title"][:70], d) for i in others if (d := bot.find_duplicate(rec[i].get("orig") or rec[i]["title"], rec[i]["summary"], rec[:i]))]
 print("control: other posts flagged:", flag)
