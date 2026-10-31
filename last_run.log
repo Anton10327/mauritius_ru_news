@@ -7,3 +7,8 @@ LLM usage this run: 1 requests, 878 tokens
 ### check 4/5 at 13:49
   same headline as #97: Mise en demeure : Menlo Park réclame 19,5 millions de dollars à la Banque de Mau
 Skipped duplicate (L'Express): Mise en demeure :  Menlo Park réclame 19,5 millions USD à la Banque de Maurice == Компания требует от Банка Маврикия почти $20 млн компенсации
+### check 5/5 at 13:53
+  dup check: new (Статья посвящена обсуждению проблемы городской загруженности и предложениям по изменению городского планирования, в частности концепции «города 15 мин)
+  not news (portrait/lifestyle): Décongestion des villes : moins de voitures, plus de fluidité… comment repenser nos déplacements ?
+Skipped foreign news (Top FM): Décongestion des villes : moins de voitures, plus de fluidité… comment repenser nos déplacements ?
+LLM usage this run: 2 requests, 3025 tokens
