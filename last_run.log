@@ -1,19 +1,9 @@
-### check 1/5 at 09:00
-  dup: nothing new (Создан межминистерский комитет под председательством министра по делам местных органов власти для рассмотрения вопроса о ночных рынках и подготовки ре)
-Skipped duplicate (Le Mauricien): Fêtes de fin d’année : aucune décision prise sur la tenue des marchés nocturnes == Ночной рынок: решение о праздничном периоде не принято
+### check 1/5 at 09:39
   dup: nothing new ()
-Skipped duplicate (Wazaa): Air Mauritius : bénéfice annuel de 4,1 milliards de roupies == Финансовая отчетность: Air Mauritius объявляет о прибыли в 4,1 млрд рупий за 2025-2026 фин
-  dup: nothing new (В новой статье говорится о мобилизации Platform Komin Syndikal против экономических и социальных трудностей, но не уточняется, что протест связан с пе)
-Skipped duplicate (Top FM): Mobilisation de la Platform Komin Syndikal ce samedi == Пенсия в 60 лет: профсоюзы снова выходят на улицы, правительство перед лицом протестов
-  dup: nothing new (Мэр Quatre-Bornes Soobiraj Gungabissoon на пресс-конференции 30 октября подробно описал этапы, которые должны пройти платежи подрядчикам перед выплато)
-Skipped duplicate (Top FM): « Le système prend le temps qu’il le faut » : Le maire de Quatre-Bornes, Soobiraj Gungabis == Муниципальное управление в Quatre-Bornes: мэр уточнил, что это исследование FCC, а не расс
-LLM usage this run: 4 requests, 3345 tokens
-### check 2/5 at 09:04
-  same headline as #117: Drogues : la NADC met en garde contre un risque accru d’overdose à Maurice dans 
-Skipped duplicate (L'Express): Message d’alerte : La NADC met en garde contre un «risque accru d’overdose» == На Маврикии предупреждают об опасности передозировок наркотиками в ближайшие дни
-### check 3/5 at 09:08
-### check 4/5 at 09:12
-  not news (portrait/lifestyle): ODYSSEO — Exposition Archipel Mauritia : Une navigation immersive
-Skipped foreign news (Le Mauricien): ODYSSEO — Exposition Archipel Mauritia : Une navigation immersive
-LLM usage this run: 1 requests, 3052 tokens
-### check 5/5 at 09:16
+Skipped duplicate (Le Mauricien): Secteur aérien : Airport Holdings Ltd démantelé, Air Mauritius et AML à la tête de deux gr == Реорганизация Airport Holdings Ltd: создание двух крупных операционных блоков
+  dup check: new (В статье упоминается, что паром Bellone был задержан в Port-Louis после истечения срока действия его сертификатов о годности к плаванию; также указано)
+  proofread: 
+Posted (Inside News): Bellone: во сколько это обошлось Маврикию и какова судьба оборудования?
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Inside News): Agaléga: до 15 человек под одной крышей, семьи всё ещё ждут жильё
+LLM usage this run: 6 requests, 8894 tokens
