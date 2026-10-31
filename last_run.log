@@ -12,3 +12,7 @@ LLM usage this run: 4 requests, 3345 tokens
   same headline as #117: Drogues : la NADC met en garde contre un risque accru d’overdose à Maurice dans 
 Skipped duplicate (L'Express): Message d’alerte : La NADC met en garde contre un «risque accru d’overdose» == На Маврикии предупреждают об опасности передозировок наркотиками в ближайшие дни
 ### check 3/5 at 09:08
+### check 4/5 at 09:12
+  not news (portrait/lifestyle): ODYSSEO — Exposition Archipel Mauritia : Une navigation immersive
+Skipped foreign news (Le Mauricien): ODYSSEO — Exposition Archipel Mauritia : Une navigation immersive
+LLM usage this run: 1 requests, 3052 tokens
