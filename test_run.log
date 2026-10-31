@@ -1,3 +1,15 @@
-  foreign words left: Cour, du, Nord, de
-  leftovers fixed by GigaChat-3-Pro; still left: none
-('Изъятие наркотиков на Маврикии на сумму 2,7 млрд рупий', 'Груз с яхты Dreamer перехватили у Baie-du-Tombeau. Премьер-министр Navin Ramgoolam допустил связь с беспорядками. Подозреваемый задержан 27 октября в аэропорту Sir Seewoosagur Ramgoolam; семеро предстанут сегодня перед Северным судом Port-Louis по обвинению в сговоре.')
+calendar posts at [67, 77, 89, 129]
+==== GigaChat-3-Pro
+  dup: nothing new (Указана точная дата начала занятий для новых учеников 1, 7 и 10 классов — понедельник, 11 января; остальные ученики начинают во вторник, 12 января. Та)
+  Calendrier scolaire 2027 : la rentrée fixée au 11 janvier -> 68
+  dup check: new (В новой статье указаны точные даты начала занятий для всех учеников (12 января) и окончания учебного года (28 октября), а также уточнено, что первокла)
+  Calendrier scolaire 2027 : rentrée le 12 janvier et fin des classes le -> None
+  Calendrier scolaire 2027 : rentrée le 11 janvier pour les nouveaux ent -> None
+==== openai/gpt-oss-120b
+  dup check: new (Точная дата начала учебного года – 11 января (для 1, 7 и 10 классов) и 12 января (для остальных), а также конкретные даты окончания и начала триместро)
+  Calendrier scolaire 2027 : la rentrée fixée au 11 janvier -> None
+  dup: nothing new ()
+  Calendrier scolaire 2027 : rentrée le 12 janvier et fin des classes le -> 78
+  dup: nothing new ()
+  Calendrier scolaire 2027 : rentrée le 11 janvier pour les nouveaux ent -> 78
+control: other posts flagged: []
