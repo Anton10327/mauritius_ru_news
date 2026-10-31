@@ -11,3 +11,8 @@ Posted (L'Express): Молодёжные Олимпийские игры — Д�
   proofread: министр соцобеспечения → министр социального обеспечения
 Posted (L'Express): Политики на улице, но без партийных флагов
 LLM usage this run: 10 requests, 15541 tokens
+### check 2/5 at 11:24
+  dup check: new (В статье говорится о призыве организации Pedostop к борьбе с сексуальным насилием над несовершеннолетними и необходимости усиления профилактики, а так)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Нападения на несовершеннолетних: Pedostop призывает нарушить молчание и усилить профилактику
+LLM usage this run: 3 requests, 4254 tokens
