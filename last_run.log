@@ -1,14 +1,13 @@
-### check 1/5 at 13:37
-### check 2/5 at 13:41
-### check 3/5 at 13:45
-  dup: nothing new (В новой статье повторяется информация о назначении Dr Dev Rajan Daliah генеральным директором CNT и George Malcom Oliver Louise председателем совета M)
-Skipped duplicate (Wazaa): Le cabinet annonce trois nominations majeures, dont le nouveau PDG de CNT == CNT: Dr Dev Rajan Daliah назначен генеральным директором
-LLM usage this run: 1 requests, 878 tokens
-### check 4/5 at 13:49
-  same headline as #97: Mise en demeure : Menlo Park réclame 19,5 millions de dollars à la Banque de Mau
-Skipped duplicate (L'Express): Mise en demeure :  Menlo Park réclame 19,5 millions USD à la Banque de Maurice == Компания требует от Банка Маврикия почти $20 млн компенсации
-### check 5/5 at 13:53
-  dup check: new (Статья посвящена обсуждению проблемы городской загруженности и предложениям по изменению городского планирования, в частности концепции «города 15 мин)
-  not news (portrait/lifestyle): Décongestion des villes : moins de voitures, plus de fluidité… comment repenser nos déplacements ?
-Skipped foreign news (Top FM): Décongestion des villes : moins de voitures, plus de fluidité… comment repenser nos déplacements ?
-LLM usage this run: 2 requests, 3025 tokens
+### check 1/5 at 14:15
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Night markets à Port-Louis : le Cabinet prend Ehsan Juman à contre-pied == Ночной рынок: решение о праздничном периоде не принято
+  dup check: new (Paul Bérenger публично требует раскрыть личности бывших следователей Scotland Yard, участвующих в расследовании дела Kistnen; он называет отсутствие а)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Дело Kistnen: Bérenger требует раскрыть личности бывших следователей из Скотленд-Ярда
+  dup check: new (Президент Польши Karol Nawrocki прервал визит в Сенегал и вернулся в Варшаву, чтобы вмешаться в работу Конституционного суда. Это прямое столкновение )
+  not about Mauritius: Crise institutionnelle en Pologne : le président Nawrocki fait volte-face en plein vol et s’invite d
+Skipped foreign news (Inside News): Crise institutionnelle en Pologne : le président Nawrocki fait volte-face en plein vol et s’invite d
+  dup check: new (Mahmad Khodabaccus qualifie les déclarations de Paul Bérenger de « fake news » concernant un éventuel ralliement du PMSD au gouvernement.)
+  proofread: Fron Militan Progresis → Фронт прогрессивных бойцов
+Posted (Defimedia): «PMSD в правительстве»: Mahmad Khodabaccus назвал заявления Paul Bérenger «фейковой новостью»
+LLM usage this run: 9 requests, 13703 tokens
