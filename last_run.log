@@ -1,16 +1,24 @@
-### check 1/5 at 09:39
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Secteur aérien : Airport Holdings Ltd démantelé, Air Mauritius et AML à la tête de deux gr == Реорганизация Airport Holdings Ltd: создание двух крупных операционных блоков
-  dup check: new (В статье упоминается, что паром Bellone был задержан в Port-Louis после истечения срока действия его сертификатов о годности к плаванию; также указано)
-  proofread: 
-Posted (Inside News): Bellone: во сколько это обошлось Маврикию и какова судьба оборудования?
+### check 1/5 at 10:18
+Duplicate check GigaChat-3-Pro failed: HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7af313648f50>, 'Connection to api.giga.chat timed out. (connect timeout=120)'))
+  dup check: new (Article introduces a special supplement about leisure activities and hiking opportunities in Mauritius, describing trails, waterfalls, volcanic summit)
+LLM request failed (GigaChat-3-Ultra): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7af313463b
+  written by qwen/qwen3.8-27b
+  not news (portrait/lifestyle): [Supplément Spécial] Loisirs et découvertes : faites le plein d’expériences
+Skipped foreign news (Defimedia): [Supplément Spécial] Loisirs et découvertes : faites le plein d’expériences
+  dup check: new (Государство начало консультации с НКО по проблемам молодежи, обсуждение вопросов насилия, зависимостей и ответственности родителей; программа «Au Cœur)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  foreign words left: Au, ur, de, l’Info
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Defimedia): Юношеское насилие, зависимости и родительская ответственность: поддержка семей для предотвращения девиантного поведения среди молодежи
+  dup check: new (Утверждается, что один из задержанных подозреваемых, находясь в камере, руководит сетью («tirerait les ficelles de sa cellule»). Кроме того, в статье )
+LLM per-minute limit, waiting 10s
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
   proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Agaléga: до 15 человек под одной крышей, семьи всё ещё ждут жильё
-LLM usage this run: 6 requests, 8894 tokens
-### check 2/5 at 09:43
-  dup: nothing new (В статье упоминается, что протест прошёл 30 октября (в пятницу), несмотря на недавние меры по нормированию воды Центральным водным управлением. Жители)
-Skipped duplicate (Wazaa): Nouvelle découverte : les résidents se mobilisent face aux pénuries d’eau qui affectent la == Nouvelle-Découverte: жители мобилизуются из-за проблем с водоснабжением
-LLM usage this run: 1 requests, 882 tokens
-### check 3/5 at 09:47
-### check 4/5 at 09:51
-### check 5/5 at 09:55
+Posted (L'Express): Наркотрафик: след предполагаемого дилера, который, по данным разведки, руководит своей ячейкой
+  dup check: new (Lancement de l'application mobile MeadKonekt par Meaders Feeds lors du Meaders Symposium 2026, visant à digitaliser l'aviculture à Maurice; citation d)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Инновации: Meaders Feeds переводит птицеводство в цифровую эру
+LLM usage this run: 12 requests, 20429 tokens
