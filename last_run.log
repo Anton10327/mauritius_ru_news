@@ -8,3 +8,16 @@ Posted (Inside News): Вода: станция La Marie поднялась до 
   leftovers fixed by GigaChat-3-Pro; still left: Béренгер, National, Crime, Agency
 Posted (L'Express): Политика: FMP сохраняет давление по чувствимым досье
 LLM usage this run: 8 requests, 13077 tokens
+### check 2/5 at 19:00
+  dup check: new (В новой статье сообщается о дорожном происшествии в Вердене 31 октября, с описанием места аварии и состояния автомобилей. В опубликованных ранее матер)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): ДТП в Verdun
+  dup check: new (Mrinal Mossaë, 30 ans, a atteint le col du Thorong La (5 416 m) dans l'Himalaya et y a planté le drapeau mauricien le 27 octobre. C'est un exploit per)
+Posted (Defimedia): Маврикиец Mrinal Mossaë поднял флаг Маврикия на высоте 5416 метров в Гималаях
+  dup check: new (В статье впервые приводятся прямые слова и эмоции жены полицейского Bhavna, связанные с делом о Лизе Лили Ромен на посту полиции Соднака. Это новый фа)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Bhavna, жена полицейского из Sodnac: «Он играл с моими чувствами! Я не хочу, чтобы он сделал это с Lily»
+  dup check: new (В статье рассказывается о том, что Amélie Audibert предлагает бесплатно ежемесячное пространство для обсуждения горя и чествования ушедших. Она — grie)
+  not news (portrait/lifestyle): Portrait l Amélie Audibert : Offrir gratuitement un espace mensuel pour parler du deuil et honorer l
+Skipped foreign news (L'Express): Portrait l Amélie Audibert : Offrir gratuitement un espace mensuel pour parler du deuil et honorer l
+LLM usage this run: 11 requests, 16640 tokens
