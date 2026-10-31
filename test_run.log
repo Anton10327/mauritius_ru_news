@@ -1,14 +1,57 @@
-calendar posts at [67, 77, 89, 129]
-==== GigaChat-3-Pro
-  dup: nothing new (Указаны точные даты начала занятий для новых учеников (11 и 12 января) и конкретные даты окончания триместров.)
-  Calendrier scolaire 2027 : la rentrée fixée au 11 janvier -> 68
-  Calendrier scolaire 2027 : rentrée le 12 janvier et fin des classes le -> None
-  Calendrier scolaire 2027 : rentrée le 11 janvier pour les nouveaux ent -> None
-==== openai/gpt-oss-120b
-  dup check: new (Exact start dates of the school year: 1st, 7th and 10th grades begin on Monday, 11 January, other grades on Tuesday, 12 January.)
-  Calendrier scolaire 2027 : la rentrée fixée au 11 janvier -> None
+Python 3.12.15; LLM_API_KEY set: True; GIGACHAT_AUTH_KEY set: True; summary models: ['GigaChat-3-Ultra', 'GigaChat-2-Max', 'GigaChat-3-Pro', 'qwen/qwen3.8-27b', 'openai/gpt-oss-120b', 'openai/gpt-oss-20b']
+== Translation (Google, then MyMemory)
+Google Translate failed: TooManyRequests
+Автобусное сообщение прервано во вторник утром
+== LLM: https://api.groq.com/openai/v1/chat/completions
+qwen/qwen3.8-27b 200 {"id":"chatcmpl-8ed99c88-99a8-42a4-8165-c76c1de8845e","object":"chat.completion","created":1793471963,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"ok"},"logprobs":null,"finish_reason":"stop"}],"usage":{"queue_time":0.004198926,"prompt_tokens":16,"prompt_t
+openai/gpt-oss-120b 200 {"id":"chatcmpl-3a897482-133f-4eb9-8c4b-2443cd53ba08","object":"chat.completion","created":1793471963,"model":"openai/gpt-oss-120b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User wants \"Reply with: ok\". So just \"ok\"."},"logprobs":null,"finish_reason":"stop"}
+openai/gpt-oss-20b 200 {"id":"chatcmpl-372266a2-54b6-4905-aee3-7cbd0f22e5c6","object":"chat.completion","created":1793471963,"model":"openai/gpt-oss-20b","choices":[{"index":0,"message":{"role":"assistant","content":"ok","reasoning":"User says \"Reply with: ok\". So just output \"ok\"."},"logprobs":null,"finish_reason":"s
+== Defimedia: https://defimedia.info/rss.xml
+Newest: Info Soirée] : « ZOT INN FER TU PU BOYCOTT LAMARS » | https://defimedia.info/info-soiree-zot-inn-fer-tu-pu-boycott-lamars
+Article text: 1726 chars | photo: https://files.defimedia.info/sites/default/files/2026-10/Thumbnail%20IS%20311026.jpg
+  same headline as #129: Info Soirée] : « ZOT INN FER TU PU BOYCOTT LAMARS »
+Duplicate of recent post #: 129
+LLM usage so far: 3 requests, 217 tokens
+-- Post that would be sent:
+
+== L'Express: https://lexpress.mu/
+Newest: Au-delà de l'absence : Faire son deuil, apprendre à vivre autrement | https://lexpress.mu/s/faire-son-deuil-apprendre-a-vivre-autrement-564262
+Article text: 5503 chars | photo: https://lexpress.mu/storage/articles/pZa3gnTJJoycoHJHKvun0gkaTZTj1pjhnH5BfyJW.jpg
+  written by GigaChat-2-Max
+  not about Mauritius: Au-delà de l'absence : Faire son deuil, apprendre à vivre autrement
+Duplicate of recent post #: None
+LLM usage so far: 4 requests, 2924 tokens
+-- Post that would be sent:
+
+== Le Mauricien: https://www.lemauricien.com/wp-json/wp/v2/posts?per_page=20&_fields=id,date,title,link
+Newest: Réserves d’eau en forte baisse : la CWA appelle à la vigilance à l’approche de Divali | https://www.lemauricien.com/actualites/societe/reserves-deau-en-forte-baisse-la-cwa-appelle-a-la-vigilance-a-lapproche-de-divali/722197/
+Article text: 1234 chars | photo: https://lmwebstatic.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2026/10/website-image-7-13.webp
+  same headline as #108: Réserves d’eau en forte baisse : la CWA appelle à la vigilance à l’approche de D
+Duplicate of recent post #: 108
+LLM usage so far: 4 requests, 2924 tokens
+-- Post that would be sent:
+
+== Inside News: https://inside.news/feed/
+Newest: Calendrier scolaire 2027 : rentrée le 11 janvier pour les nouveaux entrants, le 12 pour tous les élèves | https://www.inside.news/calendrier-scolaire-2027-maurice-rentree-vacances/
+Article text: 1368 chars | photo: https://www.inside.news/wp-content/uploads/2026/10/2e226b4c-e329-4545-95b0-5df1b3caf8cf_no.png
+  same headline as #130: Calendrier scolaire 2027 : rentrée le 11 janvier pour les nouveaux entrants, le 
+Duplicate of recent post #: 130
+LLM usage so far: 4 requests, 2924 tokens
+-- Post that would be sent:
+
+== Wazaa: https://www.wazaa.mu/feed/
+Newest: Le cabinet annonce trois nominations majeures, dont le nouveau PDG de CNT | https://www.wazaa.mu/le-cabinet-annonce-trois-nominations-majeures-dont-le-nouveau-pdg-de-cnt/
+Article text: 816 chars | photo: https://www.wazaa.mu/wp-content/uploads/2026/10/1793439736.jpeg
   dup: nothing new ()
-  Calendrier scolaire 2027 : rentrée le 12 janvier et fin des classes le -> 78
-  dup: nothing new ()
-  Calendrier scolaire 2027 : rentrée le 11 janvier pour les nouveaux ent -> 78
-control: other posts flagged: []
+Duplicate of recent post #: 76
+LLM usage so far: 5 requests, 4322 tokens
+-- Post that would be sent:
+
+== Top FM: https://topfm.mu/
+Newest: François Veckranges toujours introuvable - Chetan Baboolall : « Li vreman sokan ki lapolis pankor gagn li ziska ler… » | https://topfm.mu/actualites/francois-veckranges-toujours-introuvable-chetan-baboolall-li-vreman-sokan-ki-lapolis-pankor-gagn-li
+Article text: 869 chars | photo: https://topfm.mu/sites/default/files/2026-10/Screenshot%202026-10-31%20175457.png
+  same headline as #116: François Veckranges toujours introuvable - Chetan Baboolall : « Li vreman sokan 
+Duplicate of recent post #: 116
+LLM usage so far: 5 requests, 4322 tokens
+-- Post that would be sent:
+
