@@ -8,3 +8,10 @@ Skipped foreign news (Le Mauricien): INDUSTRIE LOCALE — Phœnix Mall et Carref
   dup check: new (В новой статье указана точная дата окончания учебного года — 28 октября, а также уточнено, что новые ученики 1, 7 и 10 классов начнут занятия в понеде)
 Posted (Le Mauricien): Школьный календарь 2027: начало занятий 12 января, окончание — 28 октября
 LLM usage this run: 10 requests, 18022 tokens
+### check 2/5 at 08:18
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Чемпионат мира по борьбе: John Léopold против узбека Asadbek Saidturaev
+  dup check: new (В статье говорится о предстоящих промежуточных выборах в США 3 ноября, где демократы опережают республиканцев примерно на восемь пунктов по национальн)
+  not about Mauritius: L’extrême droite face au mur
+Skipped foreign news (L'Express): L’extrême droite face au mur
+LLM usage this run: 4 requests, 7493 tokens
