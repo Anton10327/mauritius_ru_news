@@ -7,3 +7,10 @@ LLM usage this run: 1 requests, 3015 tokens
   dup: nothing new ()
 Skipped duplicate (Top FM): Mobilisation de la Platform Komun Syndikal : Devanand Ramjuttun dénonce une « pire trahiso == Профсоюзный марш в Port-Louis: в центре требований — стоимость жизни и условия труда
 LLM usage this run: 1 requests, 945 tokens
+### check 4/5 at 17:51
+  dup check: new (Paul Bérenger, лидер FMP, публично раскритиковал предложение понизить возраст уголовной ответственности с 14 до 12 лет и обвинил вице-премьер-министра)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Committee
+  leftovers fixed by GigaChat-3-Pro; still left: Committee
+Posted (Top FM): Paul Bérenger осудил предложение снизить возраст уголовной ответственности с 14 до 12 лет
+LLM usage this run: 4 requests, 5431 tokens
