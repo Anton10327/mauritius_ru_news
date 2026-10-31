@@ -1,9 +1,6 @@
-### check 1/5 at 15:26
-  dup check: new (CWA призывает ограничить использование питьевой воды до основных нужд в связи с продолжающимся снижением запасов как в резервуарах, так и в подземных )
-  proofread: Центральное управление водоснабжения → Центральное управление водоснабжения (CWA); CWA приглашает → CWA призывает; семьи mauriciennes → маврикийские семьи; prÃ©cautions → осторожности; dâune baisse importante → значительного снижения; nappes souterraines → подземных источников; lâeau potable → питье
-Posted (Le Mauricien): Резкое падение запасов воды: CWA призывает к бдительности в преддверии Divali
-LLM usage this run: 3 requests, 4290 tokens
-### check 2/5 at 15:30
-### check 3/5 at 15:34
-### check 4/5 at 15:38
-### check 5/5 at 15:42
+### check 1/5 at 16:04
+  dup check: new (В статье упоминается новая компания AirWater Mauritius, которая использует технологию преобразования влажности воздуха в питьевую воду. Это новый пред)
+Posted (Defimedia): Кризис воды: как дефицит порождает новые рынки
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Интервью с профессором Arnaud Carpooran: «Если можно сдавать устный экзамен по английскому и французскому, я не вижу причин не делать этого для маврикийского креольского»
+LLM usage this run: 5 requests, 9313 tokens
