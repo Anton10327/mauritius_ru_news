@@ -11,3 +11,10 @@ Posted (Defimedia): Solferino: автомобилист подвергся на�
   dup: nothing new ()
 Skipped duplicate (Defimedia): Agression mortelle de Selven Iyempermal - sa tante : «Linn grandi avek nou» == Смертельное нападение на Selven Iyempermal: Imtiyaz Chady предъявлено предварительное обви
 LLM usage this run: 10 requests, 13649 tokens
+### check 2/5 at 18:23
+  dup check: new (В статье упоминается, что помимо пенсионной реформы, профсоюзы выдвигают дополнительные требования: протесты против увольнений, демонтажа системы соци)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Universal, Pension
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (L'Express): «Гнев работников больше не ограничивается только пенсией»: интервью с Reeaz Chuttoo
+LLM usage this run: 4 requests, 4757 tokens
