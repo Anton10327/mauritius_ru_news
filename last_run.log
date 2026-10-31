@@ -11,3 +11,16 @@ Skipped foreign news (Inside News): Crise institutionnelle en Pologne : le prés
   proofread: Fron Militan Progresis → Фронт прогрессивных бойцов
 Posted (Defimedia): «PMSD в правительстве»: Mahmad Khodabaccus назвал заявления Paul Bérenger «фейковой новостью»
 LLM usage this run: 9 requests, 13703 tokens
+### check 2/5 at 14:19
+  dup check: new (Арест 25-летнего мужчины в Quatre-Bornes за предполагаемые сексуальные домогательства к несовершеннолетней через видео в соцсетях; дата ареста — 30 ок)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Police, Child
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Видео в соцсетях: 25-летнего жителя Quatre-Bornes арестовали за предполагаемые высказывания сексуального характера в адрес несовершеннолетней
+  dup check: new (Сообщается о новом случае подозрения в мошенничестве на экзаменах с использованием умных очков и возможном наказании для кандидата (риск получить отме)
+  foreign words left: No
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Подозрение в списывании с помощью «умных очков»: кандидату на School Certificate грозит отметка «Нет результата»
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Protection des mineurs : un homme de 25 ans arrêté après la diffusion d’une vidéo troublan == Видео в соцсетях: 25-летнего жителя Quatre-Bornes арестовали за предполагаемые высказывани
+LLM usage this run: 9 requests, 9870 tokens
