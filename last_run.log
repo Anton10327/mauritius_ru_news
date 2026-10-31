@@ -1,10 +1,16 @@
-### check 1/5 at 16:04
-  dup check: new (В статье упоминается новая компания AirWater Mauritius, которая использует технологию преобразования влажности воздуха в питьевую воду. Это новый пред)
-Posted (Defimedia): Кризис воды: как дефицит порождает новые рынки
+### check 1/5 at 16:51
+  dup check: new (В статье описан новый предприниматель (Yaadil Domah, 38 лет), который начал продавать ведра и большие емкости для хранения воды в Curepipe; за три час)
   proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Интервью с профессором Arnaud Carpooran: «Если можно сдавать устный экзамен по английскому и французскому, я не вижу причин не делать этого для маврикийского креольского»
-LLM usage this run: 5 requests, 9313 tokens
-### check 2/5 at 16:08
-### check 3/5 at 16:12
-### check 4/5 at 16:16
-### check 5/5 at 16:20
+Posted (Defimedia): Кризис с водой на Маврикии: в Curepipe Yaadil Domah продаёт вёдра как практичное решение для домохозяйств
+  dup check: new (В статье сообщается о задержании двух молодых мужчин (19 и 21 год) по подозрению в сексуальном насилии над 11-летней девочкой, их появлении перед судо)
+Posted (Defimedia): Предполагаемые сексуальные надругательства над 11-летней девочкой: задержаны двое молодых людей
+  dup check: new (В статье впервые упоминается, что марш был организован Platform Komin Syndikal и прошёл 31 октября в Port-Louis; перечислены конкретные требования (чё)
+Proofreading GigaChat-3-Pro failed: Unterminated string starting at: line 1 column 832 (char 831)
+  proofread by qwen/qwen3.8-27b
+  proofread: Порт-Луи → Port-Louis
+  foreign words left: Jardin, Compagnie
+  leftovers fixed by GigaChat-3-Pro; still left: Jardin, Compagnie
+Posted (Defimedia): [В фотографиях] Профсоюзная демонстрация в Port-Louis
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Ressources en eau en forte baisse : la CWA appelle la population à limiter sa consommation == Резкое падение запасов воды: CWA призывает к бдительности в преддверии Divali
+LLM usage this run: 12 requests, 15320 tokens
