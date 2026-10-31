@@ -1,32 +1,13 @@
-### check 1/5 at 10:18
-Duplicate check GigaChat-3-Pro failed: HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7af313648f50>, 'Connection to api.giga.chat timed out. (connect timeout=120)'))
-  dup check: new (Article introduces a special supplement about leisure activities and hiking opportunities in Mauritius, describing trails, waterfalls, volcanic summit)
-LLM request failed (GigaChat-3-Ultra): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7af313463b
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): [Supplément Spécial] Loisirs et découvertes : faites le plein d’expériences
-Skipped foreign news (Defimedia): [Supplément Spécial] Loisirs et découvertes : faites le plein d’expériences
-  dup check: new (Государство начало консультации с НКО по проблемам молодежи, обсуждение вопросов насилия, зависимостей и ответственности родителей; программа «Au Cœur)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  foreign words left: Au, ur, de, l’Info
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (Defimedia): Юношеское насилие, зависимости и родительская ответственность: поддержка семей для предотвращения девиантного поведения среди молодежи
-  dup check: new (Утверждается, что один из задержанных подозреваемых, находясь в камере, руководит сетью («tirerait les ficelles de sa cellule»). Кроме того, в статье )
-LLM per-minute limit, waiting 10s
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Наркотрафик: след предполагаемого дилера, который, по данным разведки, руководит своей ячейкой
-  dup check: new (Lancement de l'application mobile MeadKonekt par Meaders Feeds lors du Meaders Symposium 2026, visant à digitaliser l'aviculture à Maurice; citation d)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Инновации: Meaders Feeds переводит птицеводство в цифровую эру
-LLM usage this run: 12 requests, 20429 tokens
-### check 2/5 at 10:24
-### check 3/5 at 10:26
-### check 4/5 at 10:30
-Duplicate check GigaChat-3-Pro failed: HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7deb7cee8ef0>, 'Connection to api.giga.chat timed out. (connect timeout=120)'))
-  dup: nothing new ()
-Skipped duplicate (Inside News): Des criminels pourront coopérer avec la justice contre une réduction de peine : ce que cha == Премьер-министр Navin Ramgoolam представил законопроект против заговоров молчания по серьё
-LLM usage this run: 1 requests, 1440 tokens
-### check 5/5 at 10:34
+### check 1/5 at 11:20
+  dup: nothing new (В статье указано, что 30 октября Промежуточный суд вынес приговоры по двенадцати делам о нарушении комендантского часа: четверо получили четыре месяца)
+Skipped duplicate (Defimedia): Non-respect du couvre-feu - Adeelah Hamuth : «Les sanctions doivent varier selon le degré  == Нарушение комендантского часа: семерых обвиняемых освободили от наказания, одного оштрафов
+  dup check: new (В статье сообщается о новой ситуации: помощник комиссара полиции обвиняется в коррупции и злоупотреблении положением перед FCC, включая использование )
+  proofread: 
+Posted (Defimedia): FCC: жалоба на помощника комиссара полиции
+  dup check: new (Thomas Harel присоединился к испанской команде Orihuela Cycling Team и будет выступать в категории 'espoirs' (юниоры) под руководством тренера Manuel )
+  proofread: Thomas Harel → Томас Арель; Orihuela Cycling Team → команда Orihuela Cycling Team; Manuel Mateo → Мануэль Матео; Université Catholique de Murcie → Католический университет Мурсии (UCAM); Espagne → Испания
+Posted (L'Express): Молодёжные Олимпийские игры — Дакар 2026. Велоспорт: Thomas Harel готовится к новому этапу на дорогах Испании
+  dup check: new (В новой статье упоминается, что министр социальной безопасности Ashok Subron выразил сожаление по поводу присутствия политиков на марше против пенсион)
+  proofread: министр соцобеспечения → министр социального обеспечения
+Posted (L'Express): Политики на улице, но без партийных флагов
+LLM usage this run: 10 requests, 15541 tokens
