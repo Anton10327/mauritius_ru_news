@@ -21,3 +21,7 @@ Posted (Defimedia): Bhavna, жена полицейского из Sodnac: «О�
   not news (portrait/lifestyle): Portrait l Amélie Audibert : Offrir gratuitement un espace mensuel pour parler du deuil et honorer l
 Skipped foreign news (L'Express): Portrait l Amélie Audibert : Offrir gratuitement un espace mensuel pour parler du deuil et honorer l
 LLM usage this run: 11 requests, 16640 tokens
+### check 3/5 at 19:04
+  dup: nothing new ()
+Skipped duplicate (Inside News): Air Mauritius annonce Rs 4,1 milliards de bénéfice, mais appelle elle-même à la prudence == Финансовая отчетность: Air Mauritius объявляет о прибыли в 4,1 млрд рупий за 2025-2026 фин
+LLM usage this run: 1 requests, 984 tokens
