@@ -707,6 +707,16 @@ def find_duplicate(orig_title, lead, recent):
         if x.get("orig") and same_title(orig_title, x["orig"]) and x.get("t", 0) > time.time() - 36 * 3600:
             print(f"  same headline as #{i}: {x['orig'][:80]}")
             return i
+    # Same specific subject before the colon within a day ("Calendrier scolaire
+    # 2027 : ...", "Budget 2027-28 : ..."): different papers on one decision.
+    # Only subjects with a number, so rubrics like "Crise de l'eau :" don't count.
+    subj = lambda t: re.sub(r"\s+", " ", t.split(":")[0].strip().lower()) if ":" in t else ""
+    s0 = subj(orig_title)
+    if s0 and len(s0.split()) >= 2 and re.search(r"\d", s0):
+        for i, x in enumerate(recent, 1):
+            if subj(x.get("orig") or "") == s0 and x.get("t", 0) > time.time() - 24 * 3600:
+                print(f"  same subject as #{i}: {s0}")
+                return i
     if not LLM_KEY or _llm_state["disabled"]:
         return None
     # Show the model the latest posts plus the most similar older ones

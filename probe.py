@@ -1,16 +1,30 @@
-"""Duplicate check on the four school-calendar posts, with GigaChat-3-Pro and gpt-oss (posts nothing)."""
-import json, bot
-rec = json.load(open(bot.STATE_DIR / "recent.json", encoding="utf-8"))
-idx = [i for i, e in enumerate(rec) if (e.get("orig") or "").startswith("Calendrier scolaire 2027")]
-print("calendar posts at", idx)
-for m in ["GigaChat-3-Pro", "openai/gpt-oss-120b"]:
-    bot.DUP_MODELS[:] = [m]
-    print("====", m)
-    for i in idx[1:]:
-        e = rec[i]
-        print(" ", e["orig"][:70], "->", bot.find_duplicate(e["orig"], e["summary"], rec[:i]))
-# control: other posts of the same day must stay new
-bot.DUP_MODELS[:] = ["GigaChat-3-Pro"]
-others = [i for i in range(idx[0], len(rec)) if i not in idx][:30]
-flag = [(rec[i]["title"][:70], d) for i in others if (d := bot.find_duplicate(rec[i].get("orig") or rec[i]["title"], rec[i]["summary"], rec[:i]))]
-print("control: other posts flagged:", flag)
+"""Names-list approach on real recent articles (posts nothing)."""
+import json, re, requests, bot
+bot.DUP_MODELS[:] = []
+seen = json.load(open(bot.STATE_DIR / "seen.json", encoding="utf-8"))
+urls = []
+for uid in reversed(seen):
+    if uid.startswith("wp:Le Mauricien:"):
+        pid = uid.rsplit(":", 1)[1]
+        try:
+            d = requests.get(f"https://www.lemauricien.com/wp-json/wp/v2/posts/{pid}?_fields=link,title",
+                             headers=bot.UA, timeout=20).json()
+        except Exception:
+            continue
+        if "BOXE" in d.get("title", {}).get("rendered", "") or len([u for u in urls if "lemauricien" in u]) < 3:
+            urls.append(d["link"])
+    elif "inside.news/?p=" not in uid:
+        urls.append(uid.replace("http://", "https://"))
+    if len(urls) >= 10:
+        break
+src = lambda u: next((s[0] for s in bot.FEEDS if s[0].split()[0].lower().replace("'", "") in u.replace("-", "")), "Source")
+for u in urls:
+    e = bot.page_entry(u)
+    if not e or not e["title"]:
+        continue
+    post = bot.build_post(src(u), e, u, [])
+    print("\n=== ", e["title"][:100])
+    print("names:", "; ".join(f"{n['orig']}{'→' + n['ru'] if n.get('ru') else ''} ({n.get('type')})"
+                              for n in bot._llm_state.get("names") or []))
+    print(post.get("title"), "\n", post.get("summary"))
+print(f"\nLLM {bot._llm_state['calls']} calls, {bot._llm_state['tokens']} tokens")
