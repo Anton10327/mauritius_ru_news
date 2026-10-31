@@ -1,12 +1,10 @@
-### check 1/5 at 07:25
-  dup: nothing new (В статье приведены конкретные цифры по арестам: 47 женщин, связанных с наркотрафиком (январь–июнь), и около двадцати молодых людей в возрасте 16–17 ле)
-Skipped duplicate (Le Mauricien): LUTTE CONTRE LA DROGUE — Collectif d’ONG — Nicolas Ritter : « Réformer pour reprendre le c == Негосударственные организации призывают реформировать антинаркотическую политику и опублик
-LLM usage this run: 1 requests, 1368 tokens
-### check 2/5 at 07:29
-### check 3/5 at 07:33
-### check 4/5 at 07:37
-### check 5/5 at 07:41
-  dup check: new (Прогноз погоды на субботу 31 октября: возможны утренние ливни в северных, восточных районах и на центральном плато; температура от 18°C до 32°C; ветер)
-  not news (portrait/lifestyle): Météo de samedi : quelques averses matinales et des rafales jusqu’à 50 km/h
-Skipped foreign news (Inside News): Météo de samedi : quelques averses matinales et des rafales jusqu’à 50 km/h
-LLM usage this run: 2 requests, 3342 tokens
+### check 1/5 at 08:14
+  dup check: new (Партия «Nouveaux Démocrates» представила 15 предложений по конституционной реформе, включая ограничение числа мандатов премьер-министра. Это новая ини)
+Posted (Inside News): Ограничение числа мандатов премьер-министра: конституционная реформа вновь в центре дебатов
+  dup check: new (В статье указано, что восемь скважин уже поставляют около 26 000 м³ воды в день в регион Mare-aux-Vacoas — эта конкретная цифра и мера по бурению не у)
+Posted (Le Mauricien): Водный кризис: уровень в Mare-aux-Vacoas — 33,9 %, более 38 000 заявок на помощь для резервуаров
+  not news (portrait/lifestyle): INDUSTRIE LOCALE — Phœnix Mall et Carrefour : Made in Moris en Fête, la production locale en mode cé
+Skipped foreign news (Le Mauricien): INDUSTRIE LOCALE — Phœnix Mall et Carrefour : Made in Moris en Fête, la production locale en mode cé
+  dup check: new (В новой статье указана точная дата окончания учебного года — 28 октября, а также уточнено, что новые ученики 1, 7 и 10 классов начнут занятия в понеде)
+Posted (Le Mauricien): Школьный календарь 2027: начало занятий 12 января, окончание — 28 октября
+LLM usage this run: 10 requests, 18022 tokens
