@@ -1,15 +1,5 @@
-### check 1/5 at 20:41
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Leadership
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (L'Express): «SHE-EO Лидерский буткемп»: 50 женщин-предпринимательниц отмечены наградами
-  dup check: new (В статье сообщается о трагической гибели 22-летнего маврикийца Yudhisingh Jussun в Великобритании и его службе в Blues and Royals; также упоминается п)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: the
-  leftovers fixed by GigaChat-3-Pro; still left: the
-Posted (Defimedia): [Вечерний выпуск]: «Юдхи был одним из нас, и он останется им навсегда»
-LLM usage this run: 7 requests, 10803 tokens
-### check 2/5 at 20:45
-### check 3/5 at 20:49
-### check 4/5 at 20:53
-### check 5/5 at 20:57
+### check 1/5 at 21:17
+GigaChat certificate download failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+  dup: nothing new ()
+Skipped duplicate (L'Express): «Child Adoption Bill» | Magali Freyneau : «La pauvreté ne doit pas être confondue avec un  == «Закон об усыновлении детей»: долгожданная реформа наконец в работе
+LLM usage this run: 1 requests, 1477 tokens
