@@ -1,22 +1,12 @@
-### check 1/5 at 17:22
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Une explosion brise le bonheur des cité-cattaperman : trois enfants sans leur père, dans l == Camp-Marcelin: муж погиб от ожогов, Jenissa Catapermal-Cité прооперирована после взрыва бо
-  dup check: new (В статье описывается необычное явление в храме: с 28 октября на статуе появляется густая золотистая жидкость, которую священник считает проявлением бо)
-  proofread: Samayapuram Mariamman → статуя Самайапурам Мариамман
-Posted (Defimedia): В храме Petit-Raffray: золотистая жидкость на статуе Самайапурам Мариамман заинтриговала верующих
-  dup: nothing new ()
-Skipped duplicate (Defimedia): À Cassis, une silhouette évoquant Mahadev attire les visiteurs == Убийство Selven Iyempermal: задержаны двое подозреваемых
-  dup check: new (В статье говорится о визите делегации из Танзании в Маврикий для изучения антикоррупционных практик. Это новое событие, не связанное с ранее опубликов)
-Posted (L'Express): Борьба с коррупцией: Танзания приезжает перенимать маврикийскую модель
-LLM usage this run: 8 requests, 10583 tokens
-### check 2/5 at 17:26
-  dup check: new (Речь идет о пересмотре национальной стратегии здоровья подростков 2024-2029 с участием молодежи 5–6 ноября; причины — изменения в семейных структурах,)
-Posted (Inside News): Здоровье подростков: Маврикий пересматривает стратегию в ответ на новые цифровые и социальные риски
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Ça va se savoir == Убийство Selven Iyempermal: задержаны двое подозреваемых
-  not about Mauritius: Cyberattaque de Binance : 90 % des actifs volés auraient été remplacés
-Skipped foreign news (Inside News): Cyberattaque de Binance : 90 % des actifs volés auraient été remplacés
-LLM usage this run: 5 requests, 5211 tokens
-### check 3/5 at 17:30
-### check 4/5 at 17:34
-### check 5/5 at 17:38
+### check 1/5 at 18:09
+GigaChat certificate download failed: HTTPSConnectionPool(host='gu-st.ru', port=443): Max retries exceeded with url: /content/lending/russian_trusted_root_ca_pem.crt (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+LLM request failed (GigaChat-3-Ultra): SSLError HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Max retries exceeded with url: /api/v2/oauth (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certifica
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  foreign words left: Export, Finance
+Posted (L'Express): Маврикий — Великобритания: £5 млрд финансовой мощности для поддержки инвестиций
+  dup check: new (Le ministre des Arts et de la Culture, Mahen Gondeea, a confirmé que le gouvernement révisera l'Artist Act 2023 pour mieux protéger les artistes, sans)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Закон об артистах: Mahen Gondeea подтвердил пересмотр закона, но не назвал сроки готовности поправок
+LLM usage this run: 5 requests, 9384 tokens
