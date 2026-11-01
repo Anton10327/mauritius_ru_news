@@ -1,19 +1,9 @@
-### check 1/5 at 13:47
-  dup check: new ()
-  not news (portrait/lifestyle): Toussaint : le père Jocelyn Grégoire dénonce les maux qui rongent la société mauricienne
-Skipped foreign news (Defimedia): Toussaint : le père Jocelyn Grégoire dénonce les maux qui rongent la société mauricienne
+### check 1/5 at 14:23
+  dup check: new (Статья описывает новую инициативу правительства Маврикия по созданию платформы «E-Diaspora» для мобилизации талантов маврикийской диаспоры на благо ст)
+  not news (portrait/lifestyle): Plateforme «E-Diaspora» : Mobiliser les talents mauriciens du monde au service du pays
+Skipped foreign news (L'Express): Plateforme «E-Diaspora» : Mobiliser les talents mauriciens du monde au service du pays
   dup: nothing new ()
-Skipped duplicate (Defimedia): Deuil : «Un moment de joie ne trahit pas la personne aimée» == Ученики с нарушением зрения получат компьютеры и специализированное оборудование
-  dup check: new (Директор CWA Shiam Thannoo заявил о возможном повышении тарифа на воду для домохозяйств на 50%, но уточнил, что такая мера не рассматривается в настоя)
+Skipped duplicate (Defimedia): Affaire Kistnen, élections villageoises et bilan gouvernemental : Pravind Jugnauth s’expri == Дело Kistnen: MSM обвиняет Navin Ramgoolam в использовании расследования в политических це
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Финансы в минусе — CWA: цена на воду и стоимость утечек
-  same headline as #101: Rivière-des-Anguilles : deux détenus s’évadent du poste de police
-Skipped duplicate (Defimedia): Évasion au poste de police de Rivière-des-Anguilles : les deux détenus retrouvés == Rivière-des-Anguilles: двое заключённых сбежали из полицейского участка
-LLM usage this run: 6 requests, 9865 tokens
-### check 2/5 at 13:51
-  dup: nothing new ()
-Skipped duplicate (L'Express): «Divali Mahotsav 2026» : La Mauritius Sanatan Dharma Temples Federation met l’accent sur l == «Вот это и есть Маврикий!»: послание Mauritius Sanathan Dharma Temples Federation к праздн
-LLM usage this run: 1 requests, 1369 tokens
-### check 3/5 at 13:55
-### check 4/5 at 13:59
-### check 5/5 at 14:03
+Posted (L'Express): Резервуар La Nicolière: проект по увеличению ёмкости хранения в шесть раз
+LLM usage this run: 5 requests, 9426 tokens
