@@ -1,42 +1,6 @@
-### check 1/5 at 18:09
-GigaChat certificate download failed: HTTPSConnectionPool(host='gu-st.ru', port=443): Max retries exceeded with url: /content/lending/russian_trusted_root_ca_pem.crt (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
-LLM request failed (GigaChat-3-Ultra): SSLError HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Max retries exceeded with url: /api/v2/oauth (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certifica
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  foreign words left: Export, Finance
-Posted (L'Express): Маврикий — Великобритания: £5 млрд финансовой мощности для поддержки инвестиций
-  dup check: new (Le ministre des Arts et de la Culture, Mahen Gondeea, a confirmé que le gouvernement révisera l'Artist Act 2023 pour mieux protéger les artistes, sans)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Top FM): Закон об артистах: Mahen Gondeea подтвердил пересмотр закона, но не назвал сроки готовности поправок
-LLM usage this run: 5 requests, 9384 tokens
-### check 2/5 at 18:13
-### check 3/5 at 18:17
-GigaChat certificate download failed: HTTPSConnectionPool(host='gu-st.ru', port=443): Max retries exceeded with url: /content/lending/russian_trusted_root_ca_pem.crt (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
-Duplicate check GigaChat-3-Pro failed: HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Max retries exceeded with url: /api/v2/oauth (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)')))
-  dup check: new (Rachel Sun et The Crew ont organisé trois soirées musicales High School Musical à Maurice et préparent une quatrième, suite à une vidéo TikTok qui a a)
-LLM request failed (GigaChat-3-Ultra): SSLError HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Max retries exceeded with url: /api/v2/oauth (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certifica
-LLM per-minute limit, waiting 30s
-LLM limit reached for qwen/qwen3.8-27b: {"error":{"message":"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` service tier `on_demand` on output tokens per minute (OTPM): Limit 1000, Requested 
-  written by openai/gpt-oss-120b
-  foreign words left: TikTok-видео
-Posted (Defimedia): Rachel Sun и The Crew: с экрана на танцпол
-  dup check: new (28‑year‑old man stabbed in the face in Rose‑Belle on 31 October after refusing to give money; suspect identified and arrested, investigation opened.)
-  written by openai/gpt-oss-120b
-Posted (Defimedia): Rose-Belle: человек был зарезан ножом после отказа отдать деньги
-  dup check: new (Arrest of the 18th suspect, Bryan Fu Kin Lew Tin Wah, on 31 october in the Dreamer cannabis trafficking case.)
-  written by openai/gpt-oss-120b
-Posted (Defimedia): Предполагаемый торговля каннабисом между Таиландом и Маврикием: арестован 18-й подозреваемый
-  dup check: new (Presentation of 9‑year‑old drummer Keila Vergest whose video went viral, highlighting her talent and popularity.)
-  written by openai/gpt-oss-120b
-  not about Mauritius: Keila Vergest, 9 ans et le rythme dans la peau
-Skipped foreign news (Defimedia): Keila Vergest, 9 ans et le rythme dans la peau
-LLM usage this run: 8 requests, 18270 tokens
-### check 4/5 at 18:21
-GigaChat certificate download failed: HTTPSConnectionPool(host='gu-st.ru', port=443): Read timed out. (read timeout=30)
-  dup: nothing new (Арест жителя Флореаля 31 октября с изъятием наркотиков (кокаин, синтетические наркотики, кристаллический метамфетамин) и денег; он помещён под стражу.)
-Skipped duplicate (Defimedia): Opération de l’ADSU : plusieurs types de drogues saisis sur un habitant de Floréal == Полиция — два беглых заключенных пойманы через несколько часов после побега
+### check 1/5 at 18:46
   dup: nothing new ()
-Skipped duplicate (Inside News): Airport Holdings Ltd démantelée : Air Mauritius et AML prendront la tête de deux pôles == Совет министров: социальный кризис, нехватка воды, ликвидация AHL: ключевые решения правит
-LLM usage this run: 2 requests, 2076 tokens
-### check 5/5 at 18:25
+Skipped duplicate (Defimedia): Sur les traces du cannabis thaïlandais : course contre la montre pour retrouver 1,5 tonne  == Предполагаемый торговля каннабисом между Таиландом и Маврикием: арестован 18-й подозреваем
+  dup: nothing new ()
+Skipped duplicate (Top FM): Affaire Dreamer : L’ADSU enquête sur de possibles fuites d’informations depuis l’Operation == Полиция расследует утечку секретных документов в деле о перевозке 1,5 тонны каннабиса
+LLM usage this run: 2 requests, 2083 tokens
