@@ -9,3 +9,11 @@ Skipped duplicate (Defimedia): À Cassis, une silhouette évoquant Mahadev attir
   dup check: new (В статье говорится о визите делегации из Танзании в Маврикий для изучения антикоррупционных практик. Это новое событие, не связанное с ранее опубликов)
 Posted (L'Express): Борьба с коррупцией: Танзания приезжает перенимать маврикийскую модель
 LLM usage this run: 8 requests, 10583 tokens
+### check 2/5 at 17:26
+  dup check: new (Речь идет о пересмотре национальной стратегии здоровья подростков 2024-2029 с участием молодежи 5–6 ноября; причины — изменения в семейных структурах,)
+Posted (Inside News): Здоровье подростков: Маврикий пересматривает стратегию в ответ на новые цифровые и социальные риски
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Ça va se savoir == Убийство Selven Iyempermal: задержаны двое подозреваемых
+  not about Mauritius: Cyberattaque de Binance : 90 % des actifs volés auraient été remplacés
+Skipped foreign news (Inside News): Cyberattaque de Binance : 90 % des actifs volés auraient été remplacés
+LLM usage this run: 5 requests, 5211 tokens
