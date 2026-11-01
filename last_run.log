@@ -1,12 +1,6 @@
-### check 1/5 at 19:20
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Du débarquement présumé aux messages retrouvés sur le téléphone du capitaine == Полиция расследует утечку секретных документов в деле о перевозке 1,5 тонны каннабиса
-LLM usage this run: 1 requests, 1357 tokens
-### check 2/5 at 19:24
-### check 3/5 at 19:28
-### check 4/5 at 19:32
-Posted (L'Express): Благотворительный турнир по гольфу собрал 607 750 рупий для паллиативной помощи
-LLM usage this run: 2 requests, 3575 tokens
-### check 5/5 at 19:36
-Posted (L'Express): Госпитализация в Лондоне: Joëlle Coret по-прежнему в критическом состоянии, но уже не в реанимации
-LLM usage this run: 2 requests, 3695 tokens
+### check 1/5 at 20:01
+  same headline as #90: Mauritius Police Force : Rs 53,5 millions prévus pour équiper les policiers de p
+Skipped duplicate (L'Express): Mauritius Police Force : Rs 53,5 millions prévues pour équiper les policiers de première l == Полиция Маврикия: 53,5 млн рупий выделено на оснащение сотрудников передовой
+  not news (portrait/lifestyle): Dr Idrice Ameer Goumany : un hommage à sa mémoire et à son engagement
+Skipped foreign news (Defimedia): Dr Idrice Ameer Goumany : un hommage à sa mémoire et à son engagement
+LLM usage this run: 1 requests, 2781 tokens
