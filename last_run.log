@@ -1,22 +1,12 @@
-### check 1/5 at 13:04
+### check 1/5 at 13:47
   dup check: new ()
-Posted (Defimedia): «Более концентрированные наркотики»: после предупреждения NADC — предупредить пользователей и подготовить спасателей
-  dup check: new ()
+  not news (portrait/lifestyle): Toussaint : le père Jocelyn Grégoire dénonce les maux qui rongent la société mauricienne
+Skipped foreign news (Defimedia): Toussaint : le père Jocelyn Grégoire dénonce les maux qui rongent la société mauricienne
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Deuil : «Un moment de joie ne trahit pas la personne aimée» == Ученики с нарушением зрения получат компьютеры и специализированное оборудование
+  dup check: new (Директор CWA Shiam Thannoo заявил о возможном повышении тарифа на воду для домохозяйств на 50%, но уточнил, что такая мера не рассматривается в настоя)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): В La Flora спасательные службы готовятся к худшему сценарию
-  dup check: new (Объявлено о создании Mauritius Telecom Foundation и планах ежегодно выделять две полные стипендии с 2027 года; указано, что каждая стипендия может фин)
-Posted (Inside News): Mauritius Telecom Foundation: две полные стипендии ежегодно с 2027 года
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): MARCHE PACIFIQUE ORGANISÉE PAR LA PLATEFORM KOMIN SYNDIKAL – La détermination reste palpab == [В фотографиях] Профсоюзная демонстрация в Port-Louis
-LLM usage this run: 10 requests, 14818 tokens
-### check 2/5 at 13:08
-  dup: nothing new ()
-Skipped duplicate (L'Express): Manifestation pacifique : Dans les rues de Port-Louis, la colère sociale cherche encore sa == [В фотографиях] Профсоюзная демонстрация в Port-Louis
-LLM usage this run: 1 requests, 773 tokens
-### check 3/5 at 13:12
-### check 4/5 at 13:16
-### check 5/5 at 13:20
-  dup check: new (В статье говорится о 192-й годовщине прибытия наёмных рабочих на Маврикий и церемонии возложения венков лидером MSM Пративом Джагнаутом в Aapravasi Gh)
-  proofread: Правинд Джагнот → Pravind Jugnauth
-Posted (L'Express): [Видео] Aapravasi Ghat: через 192 года после прибытия наёмных рабочих MSM отдаёт им дань уважения
-LLM usage this run: 3 requests, 3485 tokens
+Posted (Defimedia): Финансы в минусе — CWA: цена на воду и стоимость утечек
+  same headline as #101: Rivière-des-Anguilles : deux détenus s’évadent du poste de police
+Skipped duplicate (Defimedia): Évasion au poste de police de Rivière-des-Anguilles : les deux détenus retrouvés == Rivière-des-Anguilles: двое заключённых сбежали из полицейского участка
+LLM usage this run: 6 requests, 9865 tokens
