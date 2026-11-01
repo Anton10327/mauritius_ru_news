@@ -1,14 +1,21 @@
-### check 1/5 at 09:25
-  dup check: new (В Grand-Gaube 30 октября произошла смертельная авария с участием двух мотоциклистов: погибший 62-летний мужчина и молодой водитель 20 лет с пассажиром)
-  proofread: Grand-Gob → Гранд-Гауб
-Posted (L'Express): Grand-Gaube: 62-летний мотоциклист погиб в столкновении
-  dup check: new (В статье впервые упоминается возможная пролонгация контракта Gassen Dorsamy на посту директора CHCL и протесты профсоюзов против этого решения. Ранее )
-Posted (Inside News): Руководство CHCL: профсоюзы выступают против продления контракта генерального директора
-LLM usage this run: 6 requests, 8891 tokens
-### check 2/5 at 09:29
-  dup check: new (Air Mauritius представила список из десяти стратегий для будущего развития компании (Making MK future-fit), основанных на внутреннем опросе департамен)
-Posted (L'Express): «Пройдёт или сломается!»: Air Mauritius под руководством Andréy Viljoen публикует 10 стратегий и сообщает о прибыли в 78 млн евро за год
-LLM usage this run: 3 requests, 5532 tokens
-### check 3/5 at 09:33
-### check 4/5 at 09:37
-### check 5/5 at 09:41
+### check 1/5 at 10:10
+LLM request failed (GigaChat-3-Ultra): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7ed52d4aea
+  written by qwen/qwen3.8-27b
+  not news (portrait/lifestyle): [Écosphère] Industrie mauricienne : l’écologie à l’épreuve de la compétitivité
+Skipped foreign news (Defimedia): [Écosphère] Industrie mauricienne : l’écologie à l’épreuve de la compétitivité
+  dup check: new (Arrest of businessman Shemir Sokataly in Mauritius on 23 October and his pending possible transfer to Madagascar, under an international arrest warran)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Международный ордер на арест: Shemir Sokataly задержан на Маврикии, обсуждается его передача на Мадагаскар
+  dup check: new (Explosion of a plastic barrel on 26 october in Camp‑Marcelin, killing the husband Steven Cité and severely burning his wife Jenissa Catapermal‑Cité, w)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: пытал → пытался
+Posted (Inside News): Camp-Marcelin: муж погиб от ожогов, Jenissa Catapermal-Cité прооперирована после взрыва бочки
+  dup check: new (Opening of offices in Mauritius by Singapore‑based payment technology companies D3N Ltd and IF Security Solution (IFSS) to use the island as a hub for)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Singapore
+Posted (Le Mauricien): Финансовые услуги — Платёжные технологии: D3N делает Маврикий своим хабом для выхода на африканский рынок
+LLM usage this run: 10 requests, 19844 tokens
