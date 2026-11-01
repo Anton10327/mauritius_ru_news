@@ -32,3 +32,10 @@ Posted (Defimedia): Предполагаемый торговля каннаби
   not about Mauritius: Keila Vergest, 9 ans et le rythme dans la peau
 Skipped foreign news (Defimedia): Keila Vergest, 9 ans et le rythme dans la peau
 LLM usage this run: 8 requests, 18270 tokens
+### check 4/5 at 18:21
+GigaChat certificate download failed: HTTPSConnectionPool(host='gu-st.ru', port=443): Read timed out. (read timeout=30)
+  dup: nothing new (Арест жителя Флореаля 31 октября с изъятием наркотиков (кокаин, синтетические наркотики, кристаллический метамфетамин) и денег; он помещён под стражу.)
+Skipped duplicate (Defimedia): Opération de l’ADSU : plusieurs types de drogues saisis sur un habitant de Floréal == Полиция — два беглых заключенных пойманы через несколько часов после побега
+  dup: nothing new ()
+Skipped duplicate (Inside News): Airport Holdings Ltd démantelée : Air Mauritius et AML prendront la tête de deux pôles == Совет министров: социальный кризис, нехватка воды, ликвидация AHL: ключевые решения правит
+LLM usage this run: 2 requests, 2076 tokens
