@@ -1,13 +1,11 @@
-### check 1/5 at 20:01
-  same headline as #90: Mauritius Police Force : Rs 53,5 millions prévus pour équiper les policiers de p
-Skipped duplicate (L'Express): Mauritius Police Force : Rs 53,5 millions prévues pour équiper les policiers de première l == Полиция Маврикия: 53,5 млн рупий выделено на оснащение сотрудников передовой
-  not news (portrait/lifestyle): Dr Idrice Ameer Goumany : un hommage à sa mémoire et à son engagement
-Skipped foreign news (Defimedia): Dr Idrice Ameer Goumany : un hommage à sa mémoire et à son engagement
-LLM usage this run: 1 requests, 2781 tokens
-### check 2/5 at 20:05
-  dup: nothing new ()
-Skipped duplicate (Inside News): Port-Louis : les syndicats défilent sur le coût de la vie, l’emploi et les pensions == [В фотографиях] Профсоюзная демонстрация в Port-Louis
-LLM usage this run: 1 requests, 1357 tokens
-### check 3/5 at 20:09
-### check 4/5 at 20:13
-### check 5/5 at 20:17
+### check 1/5 at 20:41
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Leadership
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (L'Express): «SHE-EO Лидерский буткемп»: 50 женщин-предпринимательниц отмечены наградами
+  dup check: new (В статье сообщается о трагической гибели 22-летнего маврикийца Yudhisingh Jussun в Великобритании и его службе в Blues and Royals; также упоминается п)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: the
+  leftovers fixed by GigaChat-3-Pro; still left: the
+Posted (Defimedia): [Вечерний выпуск]: «Юдхи был одним из нас, и он останется им навсегда»
+LLM usage this run: 7 requests, 10803 tokens
