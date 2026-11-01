@@ -4,3 +4,8 @@
   dup: nothing new ()
 Skipped duplicate (Inside News): Jour férié : Maurice commémore lundi l’arrivée des travailleurs engagés == [Видео] Aapravasi Ghat: через 192 года после прибытия наёмных рабочих MSM отдаёт им дань у
 LLM usage this run: 1 requests, 1465 tokens
+### check 4/5 at 15:52
+  dup check: new (La Cour de district de Pamplemousses a rejeté l'objection de la défense concernant les images de vidéosurveillance dans l'affaire Koonjoo-Shah et auto)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Дело Koonjoo-Shah: суд отклонил возражение защиты и разрешил приобщить записи видеонаблюдения
+LLM usage this run: 3 requests, 4376 tokens
