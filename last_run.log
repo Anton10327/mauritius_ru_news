@@ -1,32 +1,10 @@
-### check 1/5 at 10:10
-LLM request failed (GigaChat-3-Ultra): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7ed52d4aea
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): [Écosphère] Industrie mauricienne : l’écologie à l’épreuve de la compétitivité
-Skipped foreign news (Defimedia): [Écosphère] Industrie mauricienne : l’écologie à l’épreuve de la compétitivité
-  dup check: new (Arrest of businessman Shemir Sokataly in Mauritius on 23 October and his pending possible transfer to Madagascar, under an international arrest warran)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Международный ордер на арест: Shemir Sokataly задержан на Маврикии, обсуждается его передача на Мадагаскар
-  dup check: new (Explosion of a plastic barrel on 26 october in Camp‑Marcelin, killing the husband Steven Cité and severely burning his wife Jenissa Catapermal‑Cité, w)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: пытал → пытался
-Posted (Inside News): Camp-Marcelin: муж погиб от ожогов, Jenissa Catapermal-Cité прооперирована после взрыва бочки
-  dup check: new (Opening of offices in Mauritius by Singapore‑based payment technology companies D3N Ltd and IF Security Solution (IFSS) to use the island as a hub for)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Singapore
-Posted (Le Mauricien): Финансовые услуги — Платёжные технологии: D3N делает Маврикий своим хабом для выхода на африканский рынок
-LLM usage this run: 10 requests, 19844 tokens
-### check 2/5 at 10:15
-### check 3/5 at 10:18
-### check 4/5 at 10:22
-Duplicate check GigaChat-3-Pro failed: HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7fbea4985e50>, 'Connection to api.giga.chat timed out. (connect timeout=120)'))
-  dup check: new (A new fraud alert from CERT-MU about a fake Rs 2 000 cash gift claim circulating on WhatsApp during Divali, warning the public not to click the link o)
-LLM request failed (GigaChat-3-Ultra): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7fbea4b790
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): Divali: внимание на мошеннический подарок в Rs 2 000, распространяемый в WhatsApp
-LLM usage this run: 3 requests, 5375 tokens
-### check 5/5 at 10:27
+### check 1/5 at 11:24
+  dup: nothing new ()
+Skipped duplicate (L'Express): Réforme des administrations locales : Le projet de loi attendu pour la prochaine session p == Импорт 1,5 тонны каннабиса: констебль Kevin Rungilal из NCG подозревается в сговоре с торг
+  dup: nothing new ()
+Skipped duplicate (Inside News): Maurice : la NADC alerte sur un risque accru d’overdose == На Маврикии предупреждают об опасности передозировок наркотиками в ближайшие дни
+  not about Mauritius: L’Amérique dit stop
+Skipped foreign news (L'Express): L’Amérique dit stop
+  not news (portrait/lifestyle): Roshny Nobin: A Life Tuned to Music, Education, Devotion and Belonging
+Skipped foreign news (Defimedia): Roshny Nobin: A Life Tuned to Music, Education, Devotion and Belonging
+LLM usage this run: 4 requests, 7396 tokens
