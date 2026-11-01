@@ -8,3 +8,14 @@ Skipped foreign news (L'Express): L’Amérique dit stop
   not news (portrait/lifestyle): Roshny Nobin: A Life Tuned to Music, Education, Devotion and Belonging
 Skipped foreign news (Defimedia): Roshny Nobin: A Life Tuned to Music, Education, Devotion and Belonging
 LLM usage this run: 4 requests, 7396 tokens
+### check 2/5 at 11:28
+  dup: nothing new (Запуск бесплатного журнала по безопасности дорожного движения, созданного в партнерстве между «L’express» и Motor Racing Club.)
+Skipped duplicate (L'Express): Sécurité routière : «L’express» et le Motor Racing Club lancent un magazine gratuit de sen == Импорт 1,5 тонны каннабиса: констебль Kevin Rungilal из NCG подозревается в сговоре с торг
+  dup: nothing new (Подтверждено 14 арестов и задержаны девять граждан Таиланда до 5 ноября; среди арестованных — полицейский Национальной береговой охраны.)
+Skipped duplicate (Inside News): Yacht Dreamer : des vidéos, 14 arrestations confirmées et des soupçons de complicité marit == Полиция расследует утечку секретных документов в деле о перевозке 1,5 тонны каннабиса
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Экономика: SBM Insights призывает к реформам для поддержки устойчивого роста
+  dup check: new (Побег двух заключённых из полицейского участка Rivière-des-Anguilles 31 октября; имена беглецов — Stéphane Perrine (29 лет) и Jeff Wendy Leonel Doming)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Rivière-des-Anguilles: двое заключённых сбежали из полицейского участка
+LLM usage this run: 7 requests, 10662 tokens
