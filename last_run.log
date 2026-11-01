@@ -1,23 +1,4 @@
-### check 1/5 at 18:46
+### check 1/5 at 19:20
   dup: nothing new ()
-Skipped duplicate (Defimedia): Sur les traces du cannabis thaïlandais : course contre la montre pour retrouver 1,5 tonne  == Предполагаемый торговля каннабисом между Таиландом и Маврикием: арестован 18-й подозреваем
-  dup: nothing new ()
-Skipped duplicate (Top FM): Affaire Dreamer : L’ADSU enquête sur de possibles fuites d’informations depuis l’Operation == Полиция расследует утечку секретных документов в деле о перевозке 1,5 тонны каннабиса
-LLM usage this run: 2 requests, 2083 tokens
-### check 2/5 at 18:50
-### check 3/5 at 18:54
-### check 4/5 at 18:58
-### check 5/5 at 19:02
-GigaChat certificate download failed: HTTPSConnectionPool(host='gu-st.ru', port=443): Max retries exceeded with url: /content/lending/russian_trusted_root_ca_pem.crt (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
-GigaChat certificate download failed: HTTPSConnectionPool(host='gu-st.ru', port=443): Max retries exceeded with url: /content/lending/russian_trusted_sub_ca_pem.crt (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
-Duplicate check GigaChat-3-Pro failed: HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Max retries exceeded with url: /api/v2/oauth (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1010)')))
-  dup check: new (Le Conseil des ministres a donné son aval à la publication des deux projets de loi (Child Adoption Bill et Code Civil Mauricien (Amendment) Bill) pour)
-LLM request failed (GigaChat-3-Ultra): SSLError HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Max retries exceeded with url: /api/v2/oauth (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certifica
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): «Закон об усыновлении детей»: долгожданная реформа наконец в работе
-  dup check: new (Brent crude reached $117.64 per barrel on 30 october 2026, its highest level of the month, with a 2.40 % rise on the session and a 13.63 % gain over 3)
-  written by qwen/qwen3.8-27b
-  not about Mauritius: Pétrole : le Brent atteint 117,64 dollars, Maurice surveille la facture importée
-Skipped foreign news (Inside News): Pétrole : le Brent atteint 117,64 dollars, Maurice surveille la facture importée
-LLM usage this run: 5 requests, 9714 tokens
+Skipped duplicate (Defimedia): Du débarquement présumé aux messages retrouvés sur le téléphone du capitaine == Полиция расследует утечку секретных документов в деле о перевозке 1,5 тонны каннабиса
+LLM usage this run: 1 requests, 1357 tokens
