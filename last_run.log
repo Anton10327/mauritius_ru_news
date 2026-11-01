@@ -1,16 +1,15 @@
-### check 1/5 at 14:23
-  dup check: new (Статья описывает новую инициативу правительства Маврикия по созданию платформы «E-Diaspora» для мобилизации талантов маврикийской диаспоры на благо ст)
-  not news (portrait/lifestyle): Plateforme «E-Diaspora» : Mobiliser les talents mauriciens du monde au service du pays
-Skipped foreign news (L'Express): Plateforme «E-Diaspora» : Mobiliser les talents mauriciens du monde au service du pays
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Affaire Kistnen, élections villageoises et bilan gouvernemental : Pravind Jugnauth s’expri == Дело Kistnen: MSM обвиняет Navin Ramgoolam в использовании расследования в политических це
+### check 1/5 at 15:06
+  dup check: new (План туризма до 2035 года с семью приоритетными направлениями (маркетинг, размещение, компетенции, устойчивость и локальные эффекты), но без конкретны)
   proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Резервуар La Nicolière: проект по увеличению ёмкости хранения в шесть раз
-LLM usage this run: 5 requests, 9426 tokens
-### check 2/5 at 14:27
-### check 3/5 at 14:31
-### check 4/5 at 14:35
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Trafic de drogue :  La NCG prise dans les vagues du yacht Dreamer == Полиция расследует утечку секретных документов в деле о перевозке 1,5 тонны каннабиса
-LLM usage this run: 1 requests, 1205 tokens
-### check 5/5 at 14:39
+  foreign words left: Tourisme
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Inside News): Туризм 2035: Маврикий готовит план из семи направлений, но сроки не определены
+  dup check: new (Объявлено о подготовке нового «Business Facilitation Bill», направленного на упрощение административных процедур и привлечение инвестиций; это заявлен)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Инвестиции: готовится новый «Business Facilitation Bill»
+  dup check: new (Прогноз погоды на лето 2026-2027: температура до 36–37°C и только 80% сезонных осадков; влияние Эль-Ниньо, изменение климата и океанических явлений.)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Метео — Маврикий под прямым влиянием Эль-Ниньо: жара и засуха снова в меню на лето
+  dup check: new ()
+Posted (Top FM): Экологический переход: обучение молодёжи и женщин техническим профессиям в сфере устойчивого развития
+LLM usage this run: 13 requests, 20422 tokens
