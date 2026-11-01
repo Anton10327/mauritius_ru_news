@@ -1,30 +1,12 @@
-### check 1/5 at 11:24
+### check 1/5 at 12:16
   dup: nothing new ()
-Skipped duplicate (L'Express): Réforme des administrations locales : Le projet de loi attendu pour la prochaine session p == Импорт 1,5 тонны каннабиса: констебль Kevin Rungilal из NCG подозревается в сговоре с торг
+Skipped duplicate (Le Mauricien): Crise de l’eau  De quoi limiter la casse…   Après la mise en opération de 8 forages et de  == Водный кризис: уровень в Mare-aux-Vacoas — 33,9 %, более 38 000 заявок на помощь для резер
   dup: nothing new ()
-Skipped duplicate (Inside News): Maurice : la NADC alerte sur un risque accru d’overdose == На Маврикии предупреждают об опасности передозировок наркотиками в ближайшие дни
-  not about Mauritius: L’Amérique dit stop
-Skipped foreign news (L'Express): L’Amérique dit stop
-  not news (portrait/lifestyle): Roshny Nobin: A Life Tuned to Music, Education, Devotion and Belonging
-Skipped foreign news (Defimedia): Roshny Nobin: A Life Tuned to Music, Education, Devotion and Belonging
-LLM usage this run: 4 requests, 7396 tokens
-### check 2/5 at 11:28
-  dup: nothing new (Запуск бесплатного журнала по безопасности дорожного движения, созданного в партнерстве между «L’express» и Motor Racing Club.)
-Skipped duplicate (L'Express): Sécurité routière : «L’express» et le Motor Racing Club lancent un magazine gratuit de sen == Импорт 1,5 тонны каннабиса: констебль Kevin Rungilal из NCG подозревается в сговоре с торг
-  dup: nothing new (Подтверждено 14 арестов и задержаны девять граждан Таиланда до 5 ноября; среди арестованных — полицейский Национальной береговой охраны.)
-Skipped duplicate (Inside News): Yacht Dreamer : des vidéos, 14 arrestations confirmées et des soupçons de complicité marit == Полиция расследует утечку секретных документов в деле о перевозке 1,5 тонны каннабиса
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Экономика: SBM Insights призывает к реформам для поддержки устойчивого роста
-  dup check: new (Побег двух заключённых из полицейского участка Rivière-des-Anguilles 31 октября; имена беглецов — Stéphane Perrine (29 лет) и Jeff Wendy Leonel Doming)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Rivière-des-Anguilles: двое заключённых сбежали из полицейского участка
-LLM usage this run: 7 requests, 10662 tokens
-### check 3/5 at 11:32
-  dup check: new (Упоминается новый подготовительный семинар ESAAMLG с 14 по 18 декабря 2026 года для банков и финансовых учреждений; акцент на необходимости продемонст)
-Posted (Inside News): Борьба с отмыванием денег: Маврикий готовится к тесту ESAAMLG, но календарь требует уточнения
-LLM usage this run: 3 requests, 4412 tokens
-### check 4/5 at 11:36
-### check 5/5 at 11:40
-  dup check: new (Министр труда Raj Pentiah уточнил, что создание централизованной ячейки для перераспределения госслужащих пока не планируется, несмотря на рекомендаци)
-Posted (Top FM): Перераспределение в госсекторе: централизованной ячейки пока не будет, уточнил Raj Pentiah
-LLM usage this run: 3 requests, 5467 tokens
+Skipped duplicate (Defimedia): Deux policiers de la NCG arrêtés dans une affaire de cannabis == Полиция расследует утечку секретных документов в деле о перевозке 1,5 тонны каннабиса
+  proofread: «Сирондан а сироте: са ну килтир» → «Загадки на вечер: наша культура»
+  foreign words left: à, siroter, sa, nou, kiltir
+  leftovers fixed by GigaChat-3-Pro; still left: à, siroter, sa, nou, kiltir
+Posted (L'Express): Загадки на вечер: наша культура | Когда загадки рассказывают душу Маврикия
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Echiquier politique – Six ans après Le Cold Case Kaya Kistnen enflamme l’antagonisme brûla == Дело Kistnen: соратники MSM считают заявления Navin Ramgoolam серьёзными
+LLM usage this run: 6 requests, 8415 tokens
