@@ -13,3 +13,11 @@ Posted (Le Mauricien): Метео — Маврикий под прямым вл�
   dup check: new ()
 Posted (Top FM): Экологический переход: обучение молодёжи и женщин техническим профессиям в сфере устойчивого развития
 LLM usage this run: 13 requests, 20422 tokens
+### check 2/5 at 15:10
+  dup check: new (Два законопроекта об усыновлении (Child Adoption Bill и The Code Civil Mauricien (Amendment) Bill) вынесены на общественное обсуждение до 6 ноября; Om)
+  proofread: Aneeta Ghoorah → Аниета Гурха (по оригиналу); NGO Safire → НПО Сафир
+Posted (Defimedia): «Закон об усыновлении»: интересы ребёнка на весах закона
+  dup check: new (Декларируется открытие нового вида паука на острове Вакоас у Маврикия. Это новое событие в области биологии и экологии, не связанное с предыдущим пост)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): На островке у Маврикия обнаружена новая «приливная» паукообразная: учёные «совершенно ошеломлены» открытием
+LLM usage this run: 6 requests, 10791 tokens
