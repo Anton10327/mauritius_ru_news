@@ -21,3 +21,11 @@ Posted (Le Mauricien): Финансовые услуги — Платёжные 
 LLM usage this run: 10 requests, 19844 tokens
 ### check 2/5 at 10:15
 ### check 3/5 at 10:18
+### check 4/5 at 10:22
+Duplicate check GigaChat-3-Pro failed: HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7fbea4985e50>, 'Connection to api.giga.chat timed out. (connect timeout=120)'))
+  dup check: new (A new fraud alert from CERT-MU about a fake Rs 2 000 cash gift claim circulating on WhatsApp during Divali, warning the public not to click the link o)
+LLM request failed (GigaChat-3-Ultra): ConnectTimeout HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.giga.chat', port=443) at 0x7fbea4b790
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): Divali: внимание на мошеннический подарок в Rs 2 000, распространяемый в WhatsApp
+LLM usage this run: 3 requests, 5375 tokens
