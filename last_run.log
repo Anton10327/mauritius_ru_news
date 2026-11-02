@@ -12,3 +12,10 @@ Skipped duplicate (L'Express): Accident à Bonne-Mère : Un ex-policier retrouv�
   dup: nothing new ()
 Skipped duplicate (Inside News): Crise de l’eau : Mare-Longue doit doubler ses transferts vers La Marie dès ce lundi == Вода: станция La Marie поднялась до 70 000 м³ в сутки, но остаётся ниже нормы
 LLM usage this run: 2 requests, 3055 tokens
+### check 3/5 at 15:06
+  not news (portrait/lifestyle): Au cimetière Saint-Georges, le souvenir des défunts toujours vivant
+Skipped foreign news (Defimedia): Au cimetière Saint-Georges, le souvenir des défunts toujours vivant
+  dup check: new (Министр Девен Нагалингем и команда CWA посетили канал на авеню Кретан 31 октября для оценки возможности использования воды из канала для снабжения NHD)
+  proofread: авеню Кретен → авеню Кретин; Девен Нагалингум → Девен Нагалингум
+Posted (Defimedia): Camp-Levieux: рассматривается возможность использования воды из канала на авеню Кретен
+LLM usage this run: 4 requests, 7394 tokens
