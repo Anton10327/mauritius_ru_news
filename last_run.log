@@ -23,3 +23,10 @@ LLM usage this run: 6 requests, 8883 tokens
   dup: nothing new ()
 Skipped duplicate (L'Express): Interview | Lindsay Prosper : «J’ai attrapé le virus de l’information» == Rodrigues удостоил 38 человек почётного гражданства и медали признания, в том числе Lindsa
 LLM usage this run: 1 requests, 1024 tokens
+### check 4/5 at 13:11
+  dup check: new (Объявлено о демонтаже Airport Holdings Ltd (AHL), принятом правительством под руководством премьер-министра Навина Рамгулама и утверждённом Советом ми)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Airport
+  leftovers fixed by GigaChat-3-Pro; still left: Airport
+Posted (Le Mauricien): Airport Holdings Ltd: через 5 лет карточный домик рушится…
+LLM usage this run: 4 requests, 6031 tokens
