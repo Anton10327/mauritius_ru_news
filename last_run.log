@@ -10,3 +10,12 @@ Posted (Inside News): Покупки в TikTok: пенсионерка из Plai
   dup: nothing new (Интервью с Арианной Наварр-Мари после участия в 192-й годовщине прибытия контрактных рабочих на Маврикий; её реакция на высказывания Правинда Джагнота)
 Skipped duplicate (Defimedia): Arianne Navarre-Marie : «Nou satisfe ki le pei pe avanse. Se vre, ki tou pa roz (…)» == Дело Kistnen: Bérenger требует раскрыть личности бывших следователей из Скотленд-Ярда
 LLM usage this run: 8 requests, 11703 tokens
+### check 2/5 at 13:03
+  dup check: new (Мошенничество с Rs 75 000 под предлогом помощи задержанному сыну — новый случай мошенничества, не упомянутый ранее в опубликованных статьях.)
+  proofread: «представились, что её сын задержан» → «представились, что её сын задержан» (исправлено согласование: «что её сын задержан»)
+Posted (Inside News): В Chebel мать потеряла 75 000 рупий, поверив, что помогает задержанному сыну
+  proofread: Representation of the People Act 1960-х годов → Representation of the People Act (закон о представительстве народа) 1960-х годов
+  foreign words left: of, the
+  leftovers fixed by GigaChat-3-Pro; still left: of, the
+Posted (Top FM): Реформа избирательной системы: Mohammed Hosenbux и Mohammed Hosenbux предлагают 50 мер, включая финансирование политических партий и право голоса для диаспоры и заключённых
+LLM usage this run: 6 requests, 8883 tokens
