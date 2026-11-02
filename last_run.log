@@ -1,20 +1,11 @@
-### check 1/5 at 16:52
-  dup check: new (Министр финансов Маврикия Jyoti Jeetun провела с 19 по 27 октября миссию в Великобритании и Германии для продвижения Маврикия как финансовой платформы)
+### check 1/5 at 18:04
+Posted (Defimedia): Государственный долг: сумма превысила 700 млрд рупий, соотношение снижается
+  dup check: new (CWA установит 10 новых резервуаров по 30 м³ каждый для усиления снабжения водой в районах Mare-aux-Vacoas; также начаты работы на сети и используется )
   proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Миссия Лондон–Берлин: укрепить роль Маврикия как финансовой платформы для Африки
+Posted (Defimedia): Водный кризис: CWA усиливает систему снабжения
   dup: nothing new ()
-Skipped duplicate (Inside News): Adoption à Maurice : une nouvelle autorité et un contrôle renforcé proposés == «Закон об усыновлении детей»: долгожданная реформа наконец в работе
-  dup check: new (Adrien Duval публично критикует Paul Bérenger и называет его плохим примером в политике, обвиняет в отсутствии парламентских вопросов за 7 лет и отсут)
-  proofread: 
-Posted (Top FM): Adrien Duval набрасывается на Paul Bérenger: «Мне нечему у него учиться»
-LLM usage this run: 7 requests, 11207 tokens
-### check 2/5 at 16:56
-  dup: nothing new (Заявление нескольких НПО о провале репрессивной политики в отношении наркотиков и призыв к реформе с акцентом на общественное здоровье и публикацию от)
-Skipped duplicate (Defimedia): Politique antidrogue : les ONG dénoncent l’échec de la répression et réclament un changeme == Paul Bérenger осудил предложение снизить возраст уголовной ответственности с 14 до 12 лет
-LLM usage this run: 1 requests, 1440 tokens
-### check 3/5 at 17:00
-  dup: nothing new (В статье упоминается новый иск компании Menlo Park против Банка Маврикия на сумму 19,5 миллионов долларов и заявление о наличии документов, подтвержда)
-Skipped duplicate (L'Express): Questions à...   Stéphane Adam : «Les documents ont parfois meilleure mémoire que ceux qui == Paul Bérenger осудил предложение снизить возраст уголовной ответственности с 14 до 12 лет
-LLM usage this run: 1 requests, 1061 tokens
-### check 4/5 at 17:04
-### check 5/5 at 17:08
+Skipped duplicate (L'Express): 192ᵉ anniversaire de l’arrivée des travailleurs engagés l Old Labourers’ Quarters : faire  == [Видео] Aapravasi Ghat: через 192 года после прибытия наёмных рабочих MSM отдаёт им дань у
+  dup check: new ()
+  not news (portrait/lifestyle): Pesticides dans les légumes locaux : les Mauriciens changent leurs habitudes
+Skipped foreign news (Defimedia): Pesticides dans les légumes locaux : les Mauriciens changent leurs habitudes
+LLM usage this run: 8 requests, 12824 tokens
