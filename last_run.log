@@ -8,3 +8,12 @@ Skipped duplicate (Wazaa): Île Maurice alloue 53,5 millions de roupies mauricie
   proofread: «право на получение» → «получение»
 Posted (Defimedia): Карта «Overseas Citizen of India» (OCI): право на получение расширено для маврикийцев до седьмого поколения, объявил верховный комиссар Индии
 LLM usage this run: 9 requests, 14374 tokens
+### check 2/5 at 14:04
+  dup check: new (В статье сообщается о гибели 22-летнего гражданина Маврикия Yudhisingh Jussun в ДТП на территории Великобритании 14 октября. Указано его участие в арм)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Великобритания: 22-летний маврикиец погиб в ДТП
+  dup: nothing new ()
+Skipped duplicate (L'Express): «Dreamer» : Un réseau familial, des complicités présumées à la NCG, un capitaine aux ordre == Полиция расследует утечку секретных документов в деле о перевозке 1,5 тонны каннабиса
+  dup: nothing new ()
+Skipped duplicate (Top FM): Fête des morts : quand l’amour transcende l’absence == Дело Kistnen: Bérenger требует раскрыть личности бывших следователей из Скотленд-Ярда
+LLM usage this run: 5 requests, 6910 tokens
