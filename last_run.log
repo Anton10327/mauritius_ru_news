@@ -1,31 +1,6 @@
-### check 1/5 at 18:59
-  dup: nothing new ()
-Skipped duplicate (Top FM): World Knits : 400 employés toujours sans salaire, Me Assad Peeroo réclame une rencontre av == World Knits: работники обратились к адвокату Assad Peeroo и требуют встречи с министром тр
-LLM usage this run: 1 requests, 1210 tokens
-### check 2/5 at 19:03
-  dup check: new (Un homme de 45 ans s’est présenté au poste de police et a déclaré reconnaître ses deux frères dans une vidéo Facebook, apportant ainsi un nouveau témo)
+### check 1/5 at 19:57
+  dup check: new (Death of a 37‑year‑old motorcyclist from Camp‑Le‑Juge in an accident on Chemin‑Grenier, where his bike hit a metal barrier; this specific victim, loca)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Селвена Иемпермала → Selven Iyempermal; Селвена Иемпермала → Selven Iyempermal; Имтиаз Хан Ахмад Чади → Imtiyaz Khan Ahmad Chady; Роз-Хилл → Rose-Hill
-Posted (Defimedia): Убийство Selven Iyempermal: мужчина утверждает, что узнал двух братьев в видео на Facebook
-  dup check: new (Identification of a new suspect, Nishal, suspected to be the sender and sponsor of the 1.5‑ton cannabis shipment.)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Нишал → Nishal
-Posted (Defimedia): Импорт 1,5 тонны каннабиса на борту судна Dreamer: подозреваемый Nishal назван отправителем и организатором
-  dup check: new (Le ministre des Arts et de la Culture, Mahen Goondeea, a prononcé un discours appelant à l’unité nationale lors de la commémoration du 192e anniversai)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Махен Гундея → Mahen Goondeea; Порт-Луи → Port-Louis
-Failed to post https://defimedia.info/mahen-goondeea-rend-hommage-aux-travailleurs-engages-et-appelle-lunite-nationale: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-  dup check: new (Présentation d'un portrait de Dean Bhoobun, 27‑ans, habitant de Goodlands, qui a choisi de devenir coiffeur depuis 2020. Aucun fait similaire n'est pr)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Dean Bhoobun, des ciseaux à la main et une passion en fil conducteur
-Skipped foreign news (L'Express): Dean Bhoobun, des ciseaux à la main et une passion en fil conducteur
-LLM usage this run: 11 requests, 16436 tokens
-### check 3/5 at 19:07
-  dup: nothing new (Le ministre des Arts et de la Culture, Mahen Goondeea, a rendu hommage aux travailleurs engagés et a appelé à l’unité nationale lors de la commémorati)
-Skipped duplicate (Defimedia): Mahen Goondeea rend hommage aux travailleurs engagés et appelle à l’unité nationale == [Видео] Aapravasi Ghat: через 192 года после прибытия наёмных рабочих MSM отдаёт им дань у
-LLM usage this run: 1 requests, 1628 tokens
-### check 4/5 at 19:11
-### check 5/5 at 19:15
+Posted (Defimedia): Наезд на металлическую преграду стал причиной гибели мотоциклиста
+LLM usage this run: 3 requests, 4536 tokens
