@@ -1,18 +1,1 @@
-### check 1/5 at 19:57
-  dup check: new (Death of a 37‑year‑old motorcyclist from Camp‑Le‑Juge in an accident on Chemin‑Grenier, where his bike hit a metal barrier; this specific victim, loca)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Наезд на металлическую преграду стал причиной гибели мотоциклиста
-LLM usage this run: 3 requests, 4536 tokens
-### check 2/5 at 20:01
-Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
-  dup check: new (Annonce d'une carte d'accès permanent pour l'Inde étendue jusqu'à la 7e génération et le pari d'un enseignant de transmettre la mémoire des travailleu)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): [Info Soirée] : « LE PARI AUDACIEUX D’UN ENSEIGNANT POUR HONORER NOS ANCÊTRES »
-Skipped foreign news (Defimedia): [Info Soirée] : « LE PARI AUDACIEUX D’UN ENSEIGNANT POUR HONORER NOS ANCÊTRES »
-  dup: nothing new ()
-Skipped duplicate (L'Express): «SBM Insights» :   Maurice face au défi de concilier croissance et rigueur budgétaire == Экономика: SBM Insights призывает к реформам для поддержки устойчивого роста
-LLM usage this run: 3 requests, 5697 tokens
-### check 3/5 at 20:05
-### check 4/5 at 20:09
-### check 5/5 at 20:13
+### check 1/5 at 20:58
