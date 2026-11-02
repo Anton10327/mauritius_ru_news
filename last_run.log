@@ -1,8 +1,13 @@
-### check 1/5 at 05:29
+### check 1/5 at 06:26
+GigaChat balance: GigaChat-Ultra 47,568,644, GigaChat-Pro 37,897,260, GigaChat-Max 24,343,416, GigaChat 249,589,075; 352 days to go
+  dup check: new (Статья рассказывает о праздновании Хэллоуина на Маврикии и участии сообщества косплееров, что является новым событием по сравнению с ранее опубликован)
+  not news (portrait/lifestyle): Halloween à Maurice : quand la communauté cosplay s’empare de la scène
+Skipped foreign news (Defimedia): Halloween à Maurice : quand la communauté cosplay s’empare de la scène
+  dup check: new (Экономист Ishvind Caleechurn прогнозирует возможный рост инфляции до 5,6% в этом году, что выше официальных ожиданий (5%). Это новый взгляд на экономи)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Ishvind Caleechurn, экономист: «Инфляция может вырасти до 5,6% в этом году»
+  not news (portrait/lifestyle): En couverture : Les grands titres de l'express de ce lundi 2 novembre 2026
+Skipped foreign news (L'Express): En couverture : Les grands titres de l'express de ce lundi 2 novembre 2026
   dup: nothing new ()
-Skipped duplicate (Inside News): Météo de lundi : une journée chaude, avec des averses possibles dans l’après-midi == Метео — Маврикий под прямым влиянием Эль-Ниньо: жара и засуха снова в меню на лето
-LLM usage this run: 1 requests, 1435 tokens
-### check 2/5 at 05:33
-### check 3/5 at 05:37
-### check 4/5 at 05:41
-### check 5/5 at 05:45
+Skipped duplicate (Defimedia): Gheerishsing Gopaul, président de la Mauritius Library Association : «L’éducation moderne  == Реформа избирательной системы: Mohammed и Mohammed Hosenbux предлагают 50 мер
+LLM usage this run: 7 requests, 12566 tokens
