@@ -9,3 +9,14 @@ Skipped duplicate (Defimedia): Meurtre de Selven Iyempermal à La Caverne : des 
   dup: nothing new (Смерть Юдхисинга Джуссуна в Англии; его мечта служить в британской армии и участие в похоронах с участием восьми солдат.)
 Skipped duplicate (L'Express): Décès en Angleterre : Yudhisingh Jussun, un rêve militaire et une vie consacrée aux défis == Дело Kistnen: Bérenger требует раскрыть личности бывших следователей из Скотленд-Ярда
 LLM usage this run: 6 requests, 7590 tokens
+### check 2/5 at 12:02
+  proofread: «самодельное пневматическое устройство для переброски посылок» → «самодельное пневматическое устройство, предназначенное для переброски предметов»
+  foreign words left: SIM-карт
+  leftovers fixed by GigaChat-3-Pro; still left: SIM-карт
+Posted (Inside News): Тюрьма Melrose: самодельное устройство для переброски посылок обнаружено в поле сахарного тростника
+  dup: nothing new ()
+Skipped duplicate (Top FM): Koze Do Mo Pep : le couvre-feu a-t-il détourné l’attention de la lutte antidrogue ? Les au == Дело Kistnen: Bérenger требует раскрыть личности бывших следователей из Скотленд-Ярда
+  dup check: new (Статья посвящена Beekrumsing Ramlallah — его роли как журналиста и политика в сохранении памяти наёмных рабочих Маврикия (Aapravasi Ghat) и спасении а)
+  not news (portrait/lifestyle): Beekrumsing Ramlallah, le gardien de la mémoire des travailleurs engagés
+Skipped foreign news (Top FM): Beekrumsing Ramlallah, le gardien de la mémoire des travailleurs engagés
+LLM usage this run: 6 requests, 8805 tokens
