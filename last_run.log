@@ -1,17 +1,13 @@
-### check 1/5 at 06:26
-GigaChat balance: GigaChat-Ultra 47,568,644, GigaChat-Pro 37,897,260, GigaChat-Max 24,343,416, GigaChat 249,589,075; 352 days to go
-  dup check: new (Статья рассказывает о праздновании Хэллоуина на Маврикии и участии сообщества косплееров, что является новым событием по сравнению с ранее опубликован)
-  not news (portrait/lifestyle): Halloween à Maurice : quand la communauté cosplay s’empare de la scène
-Skipped foreign news (Defimedia): Halloween à Maurice : quand la communauté cosplay s’empare de la scène
-  dup check: new (Экономист Ishvind Caleechurn прогнозирует возможный рост инфляции до 5,6% в этом году, что выше официальных ожиданий (5%). Это новый взгляд на экономи)
+### check 1/5 at 07:20
+  dup check: new (Дональд Трамп заявил о необходимости в будущем нанести Ирану "удар дубиной" и обсудил с Нетаньяху возможность возобновления ударов. Это новое заявлени)
+  not about Mauritius: Trump avertit que les États-Unis devront, "à un moment, donner un coup de massue" à l'Iran
+Skipped foreign news (Defimedia): Trump avertit que les États-Unis devront, "à un moment, donner un coup de massue" à l'Iran
+  dup check: new (Иран предупреждает о возможности более длительной войны после угроз Трампа; цитируется заявление Тегерана и слова Дональда Трампа о готовности атакова)
+  not about Mauritius: Après les menaces de Trump, l'Iran avertit qu'une nouvelle guerre pourrait être "plus longue"
+Skipped foreign news (Defimedia): Après les menaces de Trump, l'Iran avertit qu'une nouvelle guerre pourrait être "plus longue"
+  dup check: new (Мервен Клер завоевал серебро на чемпионате Африки по боксу в категории до 71 кг, а Хлё Габриэль — бронзу в категории до 54 кг; это новые спортивные до)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Ishvind Caleechurn, экономист: «Инфляция может вырасти до 5,6% в этом году»
-  not news (portrait/lifestyle): En couverture : Les grands titres de l'express de ce lundi 2 novembre 2026
-Skipped foreign news (L'Express): En couverture : Les grands titres de l'express de ce lundi 2 novembre 2026
+Posted (L'Express): Чемпионат Африки по боксу среди элиты 2026 | Маврикий увозит две медали
   dup: nothing new ()
-Skipped duplicate (Defimedia): Gheerishsing Gopaul, président de la Mauritius Library Association : «L’éducation moderne  == Реформа избирательной системы: Mohammed и Mohammed Hosenbux предлагают 50 мер
-LLM usage this run: 7 requests, 12566 tokens
-### check 2/5 at 06:30
-### check 3/5 at 06:34
-### check 4/5 at 06:38
-### check 5/5 at 06:42
+Skipped duplicate (Le Mauricien): FMP, affaire Kistnen : Les ex-limiers du Scotland Yard  dans le viseur de Bérenger == Дело Kistnen: Bérenger требует раскрыть личности бывших следователей из Скотленд-Ярда
+LLM usage this run: 8 requests, 14391 tokens
