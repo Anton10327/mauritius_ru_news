@@ -8,3 +8,7 @@ Skipped duplicate (Inside News): Adoption à Maurice : une nouvelle autorité et
   proofread: 
 Posted (Top FM): Adrien Duval набрасывается на Paul Bérenger: «Мне нечему у него учиться»
 LLM usage this run: 7 requests, 11207 tokens
+### check 2/5 at 16:56
+  dup: nothing new (Заявление нескольких НПО о провале репрессивной политики в отношении наркотиков и призыв к реформе с акцентом на общественное здоровье и публикацию от)
+Skipped duplicate (Defimedia): Politique antidrogue : les ONG dénoncent l’échec de la répression et réclament un changeme == Paul Bérenger осудил предложение снизить возраст уголовной ответственности с 14 до 12 лет
+LLM usage this run: 1 requests, 1440 tokens
