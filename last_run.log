@@ -1,32 +1,13 @@
-### check 1/5 at 08:28
-  dup check: new (Южная Корея планирует выделить рекордные 21,3 трлн вон (14,3 млрд евро) на ИИ и полупроводники в бюджете 2027 года; из них 4,7 трлн вон пойдут на пере)
-  not about Mauritius: La Corée du Sud prévoit un budget record pour l'IA en 2027
-Skipped foreign news (Defimedia): La Corée du Sud prévoit un budget record pour l'IA en 2027
+### check 1/5 at 09:30
+  dup: nothing new (Нападение на 19-летнего студента из Уганды в Флик-эн-Флаке 31 октября; подробности нападения и травмы пострадавшего.)
+Skipped duplicate (Defimedia): À Flic-en-Flac : un étudiant ougandais de 19 ans attaqué par cinq individus == Bellone: во сколько это обошлось Маврикию и какова судьба оборудования?
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Fête des morts – Entre recueillement et mémoire, un hommage à ceux qui nous ont quittés == Bellone: во сколько это обошлось Маврикию и какова судьба оборудования?
-  proofread: маврикийская делегация → делегация Маврикия; вошла в история → вошла в историю
-Posted (L'Express): Олимпийские юношеские игры: команда Маврикия вошла в историю
-  dup: nothing new (Статья поднимает вопрос управления прибрежной зоной и критикует фрагментарный подход к принятию решений, а также предлагает мораторий на строительство)
-Skipped duplicate (Le Mauricien): Gestion du littoral  : L’ONG Koste Pou Nou Lakot dénonce les failles d’un système à bout d == Bellone: во сколько это обошлось Маврикию и какова судьба оборудования?
-LLM usage this run: 6 requests, 10747 tokens
-### check 2/5 at 08:32
-  not about Mauritius: Réchauffement climatique : dégâts "irréversibles" sur glaciers et banquise au-delà de 1,5°C (ONU)
-Skipped foreign news (Defimedia): Réchauffement climatique : dégâts "irréversibles" sur glaciers et banquise au-delà de 1,5°C (ONU)
-  dup check: new (Победительница конкурса Miss Ability 2026 — Pouraneswaree Vythilingum; её история преодоления и достижения в конкурсе для людей с особенностями.)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Miss Ability 2026 — Pouraneswaree Vythilingum: когда отличие становится победой
-Posted (Defimedia): Ключевая ставка: комитет по денежно-кредитной политике перед тройным давлением инфляции, рупии и роста
-  not news (portrait/lifestyle): Kesho Gooriah, Career Development Consultant : “Too often, students choose their studies before cons
-Skipped foreign news (Defimedia): Kesho Gooriah, Career Development Consultant : “Too often, students choose their studies before cons
-LLM usage this run: 7 requests, 13829 tokens
-### check 3/5 at 08:36
-  proofread: Grades 9 à 13 → 9–13 классы; collèges publics et subventionnés → государственные и субсидируемые колледжи; claviers Perkins adaptés au braille → клавиатуры Perkins для Брайля
-Posted (Inside News): Слабовидящие учащиеся: для средней школы анонсированы компьютеры, клавиатуры Perkins и инструменты Brailler
-  dup: nothing new ()
-Skipped duplicate (L'Express): Arrivée des travailleurs engagés : Maurice rend hommage à ses bâtisseurs == [Видео] Aapravasi Ghat: через 192 года после прибытия наёмных рабочих MSM отдаёт им дань у
-LLM usage this run: 3 requests, 4141 tokens
-### check 4/5 at 08:40
-### check 5/5 at 08:44
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Le Premier ministre annonce une nouvelle loi facilitant les affaires à l’occasion du 110e  == Инвестиции: готовится новый «Business Facilitation Bill»
-LLM usage this run: 1 requests, 405 tokens
+Skipped duplicate (L'Express): Révolution numérique : L’IA va-t-elle dévorer l’information ? == Bellone: во сколько это обошлось Маврикию и какова судьба оборудования?
+  proofread: «duty of care» → обязанности по обеспечению безопасности
+  foreign words left: Mascareignes, duty, of, care
+  leftovers fixed by GigaChat-3-Pro; still left: Mascareignes
+Posted (Le Mauricien): Вечерние занятия в аудиториях во время беспорядков: «грубое нарушение» обязанности обеспечить безопасность
+  dup check: new (Правительство Маврикия намерено изменить правила для дорожных «лежачих полицейских», чтобы разрешить использование резиновых моделей; инструкции по из)
+  proofread: Кабинет министров → Кабинет министров
+Posted (Inside News): Лежачие полицейские из резины: правительство открывает путь, но без графика установки
+LLM usage this run: 8 requests, 10804 tokens
