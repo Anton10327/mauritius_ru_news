@@ -1,36 +1,10 @@
-### check 1/5 at 12:59
+### check 1/5 at 14:00
+Posted (Defimedia): Suttyhudeo Tengur требует публичного контроля за мерами правительства
+  dup check: new (В новой статье сообщается о смертельном ДТП в Bain-Bœuf с участием 25-летнего гражданина Мадагаскара Argent José Andriamandimby, который погиб на мест)
+Posted (Defimedia): Bain-Bœuf: 25-летний малагасиец погиб в ДТП
   dup: nothing new ()
-Skipped duplicate (L'Express): 192ᵉ anniversaire de l’arrivée des travailleurs engagés : L’Aapravasi Ghat au cœur des com == [Видео] Aapravasi Ghat: через 192 года после прибытия наёмных рабочих MSM отдаёт им дань у
-  dup check: new (В новой статье сообщается о ДТП с участием бывшего полицейского 31 октября в Bonne-Mère и обнаружении у него кристаллического метамфетамина. Это новое)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Авария в Bonne-Mère: у бывшего полицейского обнаружили метамфетамин
-  dup check: new (Потеря 5772 рупий пенсионеркой из Plaine-Verte при покупке через TikTok без получения товаров; подана жалоба в полицию.)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Покупки в TikTok: пенсионерка из Plaine-Verte теряет 5 772 рупий, не получив заказы
-  dup: nothing new (Интервью с Арианной Наварр-Мари после участия в 192-й годовщине прибытия контрактных рабочих на Маврикий; её реакция на высказывания Правинда Джагнота)
-Skipped duplicate (Defimedia): Arianne Navarre-Marie : «Nou satisfe ki le pei pe avanse. Se vre, ki tou pa roz (…)» == Дело Kistnen: Bérenger требует раскрыть личности бывших следователей из Скотленд-Ярда
-LLM usage this run: 8 requests, 11703 tokens
-### check 2/5 at 13:03
-  dup check: new (Мошенничество с Rs 75 000 под предлогом помощи задержанному сыну — новый случай мошенничества, не упомянутый ранее в опубликованных статьях.)
-  proofread: «представились, что её сын задержан» → «представились, что её сын задержан» (исправлено согласование: «что её сын задержан»)
-Posted (Inside News): В Chebel мать потеряла 75 000 рупий, поверив, что помогает задержанному сыну
-  proofread: Representation of the People Act 1960-х годов → Representation of the People Act (закон о представительстве народа) 1960-х годов
-  foreign words left: of, the
-  leftovers fixed by GigaChat-3-Pro; still left: of, the
-Posted (Top FM): Реформа избирательной системы: Mohammed Hosenbux и Mohammed Hosenbux предлагают 50 мер, включая финансирование политических партий и право голоса для диаспоры и заключённых
-LLM usage this run: 6 requests, 8883 tokens
-### check 3/5 at 13:07
-  dup: nothing new ()
-Skipped duplicate (L'Express): Interview | Lindsay Prosper : «J’ai attrapé le virus de l’information» == Rodrigues удостоил 38 человек почётного гражданства и медали признания, в том числе Lindsa
-LLM usage this run: 1 requests, 1024 tokens
-### check 4/5 at 13:11
-  dup check: new (Объявлено о демонтаже Airport Holdings Ltd (AHL), принятом правительством под руководством премьер-министра Навина Рамгулама и утверждённом Советом ми)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Airport
-  leftovers fixed by GigaChat-3-Pro; still left: Airport
-Posted (Le Mauricien): Airport Holdings Ltd: через 5 лет карточный домик рушится…
-LLM usage this run: 4 requests, 6031 tokens
-### check 5/5 at 13:15
-  dup: nothing new ()
-Skipped duplicate (L'Express): Arianne Navarre-Marie : «Un enfant qui sait lire, aucun contrat ne peut l’enfermer» == [Видео] Aapravasi Ghat: через 192 года после прибытия наёмных рабочих MSM отдаёт им дань у
-LLM usage this run: 1 requests, 1465 tokens
+Skipped duplicate (Wazaa): Île Maurice alloue 53,5 millions de roupies mauriciennes pour équiper les forces de police == Полиция Маврикия: 53,5 млн рупий выделено на оснащение сотрудников передовой
+  dup check: new (Объявлено расширение права на получение карты OCI для маврикийцев до седьмого поколения)
+  proofread: «право на получение» → «получение»
+Posted (Defimedia): Карта «Overseas Citizen of India» (OCI): право на получение расширено для маврикийцев до седьмого поколения, объявил верховный комиссар Индии
+LLM usage this run: 9 requests, 14374 tokens
