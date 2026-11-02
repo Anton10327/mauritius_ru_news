@@ -1,29 +1,3 @@
-### check 1/5 at 09:30
-  dup: nothing new (Нападение на 19-летнего студента из Уганды в Флик-эн-Флаке 31 октября; подробности нападения и травмы пострадавшего.)
-Skipped duplicate (Defimedia): À Flic-en-Flac : un étudiant ougandais de 19 ans attaqué par cinq individus == Bellone: во сколько это обошлось Маврикию и какова судьба оборудования?
-  dup: nothing new ()
-Skipped duplicate (L'Express): Révolution numérique : L’IA va-t-elle dévorer l’information ? == Bellone: во сколько это обошлось Маврикию и какова судьба оборудования?
-  proofread: «duty of care» → обязанности по обеспечению безопасности
-  foreign words left: Mascareignes, duty, of, care
-  leftovers fixed by GigaChat-3-Pro; still left: Mascareignes
-Posted (Le Mauricien): Вечерние занятия в аудиториях во время беспорядков: «грубое нарушение» обязанности обеспечить безопасность
-  dup check: new (Правительство Маврикия намерено изменить правила для дорожных «лежачих полицейских», чтобы разрешить использование резиновых моделей; инструкции по из)
-  proofread: Кабинет министров → Кабинет министров
-Posted (Inside News): Лежачие полицейские из резины: правительство открывает путь, но без графика установки
-LLM usage this run: 8 requests, 10804 tokens
-### check 2/5 at 09:34
-  not about Mauritius: Kimi Antonelli sacré plus jeune champion du monde de l’histoire de la Formule 1
-Skipped foreign news (Top FM): Kimi Antonelli sacré plus jeune champion du monde de l’histoire de la Formule 1
-  dup check: new (В статье говорится о том, что решение по поводу проведения Night Markets в Порт-Луи ещё не принято и обсуждается; приводится заявление президента ассо)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Ночные рынки в Port-Louis: решение пока не принято… Малый бизнес выражает обеспокоенность
-LLM usage this run: 4 requests, 8164 tokens
-### check 3/5 at 09:38
-### check 4/5 at 09:42
-### check 5/5 at 09:46
-  dup: nothing new ()
-Skipped duplicate (Wazaa): UKEF annonce une capacité de 5 milliards de livres sterling pour stimuler le développement == Маврикий — Великобритания: £5 млрд финансовой мощности для поддержки инвестиций
-  dup check: new (Статья поднимает проблему защиты прав иностранных работников на Маврикии и сложности с административными процедурами для них. Это новая тема, не связа)
-  not news (portrait/lifestyle): Travailleurs étrangers à Maurice : les failles du système de protection sous les projecteurs
-Skipped foreign news (Inside News): Travailleurs étrangers à Maurice : les failles du système de protection sous les projecteurs
-LLM usage this run: 3 requests, 4447 tokens
+### check 1/5 at 10:32
+Posted (L'Express): Rodrigues удостоил 38 человек почётного гражданства и медали признания, в том числе Lindsay Prosper
+LLM usage this run: 2 requests, 4178 tokens
