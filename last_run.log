@@ -1,26 +1,10 @@
-### check 1/5 at 15:51
-  dup check: new ()
-Posted (Defimedia): Внимание, фейк-ньюс!
-  dup check: new (Нападение на 19-летнего студента из Уганды с использованием сабли в Flic-en-Flac; студент госпитализирован после множественных ранений; инцидент произ)
-Posted (L'Express): Flic-en-Flac: пятеро мужчин напали на студента из Уганды с саблей
-  proofread: 
-Posted (L'Express): Гостиничный бизнес: квартальная выручка Sun Limited составила 1,5 млрд рупий
-LLM usage this run: 8 requests, 13347 tokens
-### check 2/5 at 15:55
-### check 3/5 at 15:59
-### check 4/5 at 16:03
-  dup check: new (Андре Вилжуэн (CEO Air Mauritius) представил новый стратегический план «10 Future-fit Game Changer Strategies» для трансформации и устойчивого развити)
-  proofread: Andréy Viljoen → Андре Вижон; Week-End Interview Andréy Viljoen : « MK et Maurice ont besoin que le plan réussisse » → Интервью выходного дня с Андре Вижоном: «MK и Маврикию нужно, чтобы план сработал»
-  foreign words left: Week-End, Future-fit
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Le Mauricien): Интервью выходного дня с Andréy Viljoen: «MK и Маврикию нужно, чтобы план сработал»
-LLM usage this run: 4 requests, 5830 tokens
-### check 5/5 at 16:07
-  not about Mauritius: [Blog] Israeli elections: Palestinians will be forgotten...
-Skipped foreign news (Defimedia): [Blog] Israeli elections: Palestinians will be forgotten...
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Affaire Dreamer : le yacht sous surveillance de la NCG au Port-Louis Waterfront == Полиция расследует утечку секретных документов в деле о перевозке 1,5 тонны каннабиса
+### check 1/5 at 16:52
+  dup check: new (Министр финансов Маврикия Jyoti Jeetun провела с 19 по 27 октября миссию в Великобритании и Германии для продвижения Маврикия как финансовой платформы)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Фаза консультаций завершена — Constitutional Review Commission: промежуточный доклад через несколько недель
-Posted (Defimedia): World Knits: работники обратились к адвокату Assad Peeroo и требуют встречи с министром труда
-LLM usage this run: 6 requests, 11597 tokens
+Posted (L'Express): Миссия Лондон–Берлин: укрепить роль Маврикия как финансовой платформы для Африки
+  dup: nothing new ()
+Skipped duplicate (Inside News): Adoption à Maurice : une nouvelle autorité et un contrôle renforcé proposés == «Закон об усыновлении детей»: долгожданная реформа наконец в работе
+  dup check: new (Adrien Duval публично критикует Paul Bérenger и называет его плохим примером в политике, обвиняет в отсутствии парламентских вопросов за 7 лет и отсут)
+  proofread: 
+Posted (Top FM): Adrien Duval набрасывается на Paul Bérenger: «Мне нечему у него учиться»
+LLM usage this run: 7 requests, 11207 tokens
