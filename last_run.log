@@ -1,31 +1,12 @@
-### check 1/5 at 11:58
-  dup check: new (В статье впервые сообщается официальная оценка потери ёмкости водохранилища Mare-aux-Vacoas: 150 000 м³ с 1997 года на основе гидрографической и седим)
+### check 1/5 at 12:59
+  dup: nothing new ()
+Skipped duplicate (L'Express): 192ᵉ anniversaire de l’arrivée des travailleurs engagés : L’Aapravasi Ghat au cœur des com == [Видео] Aapravasi Ghat: через 192 года после прибытия наёмных рабочих MSM отдаёт им дань у
+  dup check: new (В новой статье сообщается о ДТП с участием бывшего полицейского 31 октября в Bonne-Mère и обнаружении у него кристаллического метамфетамина. Это новое)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Mare-aux-Vacoas: потеряно 150 000 м³ ёмкости с 1997 года, согласно официальной оценке
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Arrivée des travailleurs engagés : l’histoire méconnue des premiers pionniers indiens == Дело Kistnen: Bérenger требует раскрыть личности бывших следователей из Скотленд-Ярда
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Meurtre de Selven Iyempermal à La Caverne : des ciseaux tachés de sang et des images CCTV  == Смертельное нападение на Selven Iyempermal: Imtiyaz Chady предъявлено предварительное обви
-  dup: nothing new (Смерть Юдхисинга Джуссуна в Англии; его мечта служить в британской армии и участие в похоронах с участием восьми солдат.)
-Skipped duplicate (L'Express): Décès en Angleterre : Yudhisingh Jussun, un rêve militaire et une vie consacrée aux défis == Дело Kistnen: Bérenger требует раскрыть личности бывших следователей из Скотленд-Ярда
-LLM usage this run: 6 requests, 7590 tokens
-### check 2/5 at 12:02
-  proofread: «самодельное пневматическое устройство для переброски посылок» → «самодельное пневматическое устройство, предназначенное для переброски предметов»
-  foreign words left: SIM-карт
-  leftovers fixed by GigaChat-3-Pro; still left: SIM-карт
-Posted (Inside News): Тюрьма Melrose: самодельное устройство для переброски посылок обнаружено в поле сахарного тростника
-  dup: nothing new ()
-Skipped duplicate (Top FM): Koze Do Mo Pep : le couvre-feu a-t-il détourné l’attention de la lutte antidrogue ? Les au == Дело Kistnen: Bérenger требует раскрыть личности бывших следователей из Скотленд-Ярда
-  dup check: new (Статья посвящена Beekrumsing Ramlallah — его роли как журналиста и политика в сохранении памяти наёмных рабочих Маврикия (Aapravasi Ghat) и спасении а)
-  not news (portrait/lifestyle): Beekrumsing Ramlallah, le gardien de la mémoire des travailleurs engagés
-Skipped foreign news (Top FM): Beekrumsing Ramlallah, le gardien de la mémoire des travailleurs engagés
-LLM usage this run: 6 requests, 8805 tokens
-### check 3/5 at 12:06
-  dup: nothing new ()
-Skipped duplicate (L'Express): Meurtre de Selven Iyempermal à Vacoas : Trois suspects remis à la MCIT, un homme maintenu  == Смертельное нападение на Selven Iyempermal: Imtiyaz Chady предъявлено предварительное обви
-LLM usage this run: 1 requests, 660 tokens
-### check 4/5 at 12:10
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Midterms : ce que changerait une majorité démocrate au Congrès pour Trump et les républica == Дело Kistnen: Bérenger требует раскрыть личности бывших следователей из Скотленд-Ярда
-LLM usage this run: 1 requests, 788 tokens
-### check 5/5 at 12:14
+Posted (Defimedia): Авария в Bonne-Mère: у бывшего полицейского обнаружили метамфетамин
+  dup check: new (Потеря 5772 рупий пенсионеркой из Plaine-Verte при покупке через TikTok без получения товаров; подана жалоба в полицию.)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Inside News): Покупки в TikTok: пенсионерка из Plaine-Verte теряет 5 772 рупий, не получив заказы
+  dup: nothing new (Интервью с Арианной Наварр-Мари после участия в 192-й годовщине прибытия контрактных рабочих на Маврикий; её реакция на высказывания Правинда Джагнота)
+Skipped duplicate (Defimedia): Arianne Navarre-Marie : «Nou satisfe ki le pei pe avanse. Se vre, ki tou pa roz (…)» == Дело Kistnen: Bérenger требует раскрыть личности бывших следователей из Скотленд-Ярда
+LLM usage this run: 8 requests, 11703 tokens
