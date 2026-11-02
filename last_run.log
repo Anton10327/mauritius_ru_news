@@ -15,3 +15,12 @@ LLM usage this run: 8 requests, 13347 tokens
   leftovers fixed by GigaChat-3-Pro; still left: none
 Posted (Le Mauricien): Интервью выходного дня с Andréy Viljoen: «MK и Маврикию нужно, чтобы план сработал»
 LLM usage this run: 4 requests, 5830 tokens
+### check 5/5 at 16:07
+  not about Mauritius: [Blog] Israeli elections: Palestinians will be forgotten...
+Skipped foreign news (Defimedia): [Blog] Israeli elections: Palestinians will be forgotten...
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Affaire Dreamer : le yacht sous surveillance de la NCG au Port-Louis Waterfront == Полиция расследует утечку секретных документов в деле о перевозке 1,5 тонны каннабиса
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Фаза консультаций завершена — Constitutional Review Commission: промежуточный доклад через несколько недель
+Posted (Defimedia): World Knits: работники обратились к адвокату Assad Peeroo и требуют встречи с министром труда
+LLM usage this run: 6 requests, 11597 tokens
