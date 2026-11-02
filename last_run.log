@@ -20,3 +20,10 @@ Posted (Top FM): Ночные рынки в Port-Louis: решение пока 
 LLM usage this run: 4 requests, 8164 tokens
 ### check 3/5 at 09:38
 ### check 4/5 at 09:42
+### check 5/5 at 09:46
+  dup: nothing new ()
+Skipped duplicate (Wazaa): UKEF annonce une capacité de 5 milliards de livres sterling pour stimuler le développement == Маврикий — Великобритания: £5 млрд финансовой мощности для поддержки инвестиций
+  dup check: new (Статья поднимает проблему защиты прав иностранных работников на Маврикии и сложности с административными процедурами для них. Это новая тема, не связа)
+  not news (portrait/lifestyle): Travailleurs étrangers à Maurice : les failles du système de protection sous les projecteurs
+Skipped foreign news (Inside News): Travailleurs étrangers à Maurice : les failles du système de protection sous les projecteurs
+LLM usage this run: 3 requests, 4447 tokens
