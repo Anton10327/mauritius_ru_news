@@ -20,3 +20,7 @@ Skipped duplicate (Top FM): Koze Do Mo Pep : le couvre-feu a-t-il détourné l�
   not news (portrait/lifestyle): Beekrumsing Ramlallah, le gardien de la mémoire des travailleurs engagés
 Skipped foreign news (Top FM): Beekrumsing Ramlallah, le gardien de la mémoire des travailleurs engagés
 LLM usage this run: 6 requests, 8805 tokens
+### check 3/5 at 12:06
+  dup: nothing new ()
+Skipped duplicate (L'Express): Meurtre de Selven Iyempermal à Vacoas : Trois suspects remis à la MCIT, un homme maintenu  == Смертельное нападение на Selven Iyempermal: Imtiyaz Chady предъявлено предварительное обви
+LLM usage this run: 1 requests, 660 tokens
