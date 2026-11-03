@@ -13,3 +13,7 @@ LLM usage this run: 7 requests, 15264 tokens
 ### check 2/5 at 12:56
   same headline as #68: Accident à Chemin-Grenier : un motocycliste de 37 ans perd la vie
 Skipped duplicate (L'Express): Chemin-Grenier : Kersley St-Cyr, 37 ans, perd la vie dans un accident de moto == Наезд на металлическую преграду стал причиной гибели мотоциклиста
+### check 3/5 at 13:00
+  dup check: new (Объявлена новая реформа местных органов власти (collectivités locales) на Маврикии; обсуждается вопрос о ресурсах и автономии муниципалитетов для улуч)
+Posted (Inside News): Местные сообщества: объявлена реформа, но будут ли у муниципалитетов средства действовать?
+LLM usage this run: 3 requests, 4103 tokens
