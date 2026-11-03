@@ -10,3 +10,11 @@ Skipped foreign news (Le Mauricien): Le footballeur espagnol Jesús de Miguel d�
   dup: nothing new ()
 Skipped duplicate (Inside News): Rs 53,5 millions pour équiper les policiers : quel retour sur investissement pour la sécur == Полиция Маврикия: 53,5 млн рупий выделено на оснащение сотрудников передовой
 LLM usage this run: 6 requests, 11369 tokens
+### check 2/5 at 14:46
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Politique — Meurtre de Kaya Kistnen : Bérenger réclame l’identité des ex-enquêteurs de Sco == Туризм 2035: Маврикий готовит план из семи направлений, но сроки не определены
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Grand-Bois: бангладешская работница найдена мёртвой в женском общежитии
+  dup: nothing new ()
+Skipped duplicate (Top FM): Fusillade à Camp-Levieux : un policier entendu par l’IPCC, Me Pravesh Nuckcheddy affirme q == Туризм 2035: Маврикий готовит план из семи направлений, но сроки не определены
+LLM usage this run: 4 requests, 4052 tokens
