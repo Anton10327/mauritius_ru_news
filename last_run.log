@@ -1,36 +1,12 @@
-### check 1/5 at 10:33
-  same headline as #78: Drame à Roche-Bois : une fillette d’un an meurt, le concubin de sa mère arrêté
-Skipped duplicate (Defimedia): Drame à Roche-Bois : arrestation du concubin de la mère de la fillette décédée == Трагедия в Roche-Bois: годовалая девочка умерла, сожитель матери арестован
-  dup: nothing new ()
-Skipped duplicate (Inside News): Esclavage, réparations et Chagos : jusqu’à quand le Commonwealth demandera-t-il aux ancien == Ramgoolam на саммите Содружества: что Маврикий может отстоять в Антигуа
-  dup: nothing new ()
-Skipped duplicate (L'Express): Roche-Bois : une fillette d’un an succombe à une grave lésion intestinale, son beau-père i == Трагедия в Roche-Bois: годовалая девочка умерла, сожитель матери арестован
-  dup check: new (В статье указано точное число арестованных (195) и количество несовершеннолетних среди них (26), а также цитируется заявление премьер-министра Navin R)
+### check 1/5 at 11:51
+  dup check: new ()
+  not about Mauritius: RAPPORT ANNUEL : Ascencia veut sensibiliser sur le développement durable
+Skipped foreign news (Le Mauricien): RAPPORT ANNUEL : Ascencia veut sensibiliser sur le développement durable
   proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Октябрьские беспорядки на Маврикии: 195 задержаний, 26 несовершеннолетних и вопрос, который государство не может обойти
-LLM usage this run: 5 requests, 7504 tokens
-### check 2/5 at 10:37
-  not about Mauritius: Jour d'élections décisives aux États-Unis pour Trump et la suite de son mandat
-Skipped foreign news (Defimedia): Jour d'élections décisives aux États-Unis pour Trump et la suite de son mandat
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Roche-Bois : Mort d’une fillette d’un an, un homme de 27 ans arrêté == Трагедия в Roche-Bois: годовалая девочка умерла, сожитель матери арестован
-  dup: nothing new ()
-Skipped duplicate (Inside News): Airport Holdings démantelée : qui assumera le bilan de cette restructuration de l’État ? == Airport Holdings Ltd: через 5 лет карточный домик рушится…
-  dup check: new (Упоминание о выделении дополнительного бюджета в размере Rs 196,5 млн на сезон дождей и циклонов; ранее не публиковалась информация об этом бюджете.)
-  proofread: Джей Дурга → Джей Дурга; Ажай Ганнес → Ажай Ганнес
-Posted (Top FM): Сезон циклонов и ливневых дождей: Jay Doorga прогнозирует эпизоды сильных дождей
-LLM usage this run: 6 requests, 8312 tokens
-### check 3/5 at 10:41
-  dup check: new (Объявлен новый крайний срок подачи заявок на субсидии для фермеров — до 29 декабря; также упомянута ревизия критериев программ поддержки сельского хоз)
-  proofread: 
-Posted (Top FM): Сельскохозяйственные субсидии: фермеры могут подавать заявки до 29 декабря
-  dup check: new (В статье говорится о повышении цены комплекта Water Tank and Pump Scheme до 16 000 рупий и временной приостановке приёма новых заявок из-за нехватки м)
-  proofread: 
-Posted (Top FM): Схема Water Tank and Pump Scheme: получатели страдают из-за роста цен и приостановки заявок
-  dup check: new (Сообщается о почти тысяче маврикийцев, получивших звонки и сообщения с номера +968 (Оман), что указывает на новую волну мошенничества; описаны конкрет)
-  foreign words left: Oman
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Top FM): Почти тысяча маврикийцев сообщили о звонках и сообщениях с кодом +968
-LLM usage this run: 10 requests, 13098 tokens
-### check 4/5 at 10:45
-### check 5/5 at 10:49
+Posted (L'Express): Государственные больницы Маврикия: профсоюзы бьют тревогу из-за нехватки персонала и задержек оплаты сверхурочных
+  dup check: new (Смерть 31-летней инженерши из Сиэтла после того, как она прекратила лечение эпилепсии по совету ChatGPT; подана жалоба родителей на OpenAI; ранее не п)
+  not about Mauritius: États-Unis : une ingénieure meurt après avoir suivi les conseils de ChatGPT pour arrêter son traitem
+Skipped foreign news (Le Mauricien): États-Unis : une ingénieure meurt après avoir suivi les conseils de ChatGPT pour arrêter son traitem
+  dup check: new (Участие Маврикия в World Travel Market с 3 по 5 ноября 2024 года для продвижения туризма за пределами пляжей и акцент на культурное наследие, устойчив)
+Posted (Le Mauricien): Маврикий участвует в World Travel Market
+LLM usage this run: 9 requests, 17346 tokens
