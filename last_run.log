@@ -1,28 +1,9 @@
-### check 1/5 at 17:47
-  not about Mauritius: Cancer du sein : Une maladie qui touche aussi les hommes
-Skipped foreign news (L'Express): Cancer du sein : Une maladie qui touche aussi les hommes
-  dup check: new (Статья сообщает о проведении трёхдневного семинара в Балаклаве с участием около 80 человек по инициативе WISER ActionFirst™ для улучшения систем ранне)
-  proofread: WISER ActionFirst™ → WISER ActionFirst; Rajesh Bhagwan → Раджеш Багван
-Posted (Le Mauricien): Изменение климата: Маврикий усиливает системы раннего предупреждения с WISER ActionFirst
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): 525 г каннабиса в рафиевых корзинах: три ареста после прибытия рейса с Мадагаскара
+### check 1/5 at 18:38
+Posted (Le Mauricien): (не)безопасность на дорогах — На 30 октября: тревожный рост (+22,5%) числа смертельных дтп
   dup: nothing new ()
-Skipped duplicate (Wazaa): Mère et son partenaire arrêtés après le décès d’une fillette d’un an dû à une déchirure in == Трагедия в Roche-Bois: годовалая девочка умерла, сожитель матери арестован
-LLM usage this run: 7 requests, 13442 tokens
-### check 2/5 at 17:51
-  dup check: new (Восстановление заброшенного источника воды в Cité Malherbes жителями из-за нехватки воды; инициатива граждан и быстрый результат за полдня работы.)
-Posted (Top FM): Curepipe: жители вернули к жизни исторический источник в Cité Malherbes
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Onex
-  leftovers fixed by GigaChat-3-Pro; still left: Onex
-Posted (Top FM): Маврикий: Неделя Дивали 2026 — пять дней торжеств с 3 по 7 ноября для демонстрации различных традиций
-  dup check: new (Передана информация о вручении ключей семье Ezekiel и их переезде в новый дом после операции ребенка; указано время события (3 ноября 2026, 18:00) и д)
-Posted (L'Express): Передача ключей | Малыш Ezekiel: новый дом, новый старт
-LLM usage this run: 9 requests, 11861 tokens
-### check 3/5 at 17:55
-### check 4/5 at 17:59
+Skipped duplicate (L'Express): Dekriptaz Turf  | Not In Doubt: course tactique ou “karos maryaz”? == «Закон об усыновлении детей»: долгожданная реформа наконец в работе
   dup: nothing new ()
-Skipped duplicate (Top FM): 192 ans après : la mémoire des travailleurs engagés reste vivante à Maurice == Маврикий — Великобритания: £5 млрд финансовой мощности для поддержки инвестиций
-LLM usage this run: 1 requests, 1179 tokens
-### check 5/5 at 18:03
-Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
+Skipped duplicate (Inside News): Crise de l’eau : des fournisseurs veulent faire grimper la subvention de Rs 15 000, le gou == Схема Water Tank and Pump Scheme: получатели страдают из-за роста цен и приостановки заяво
+  dup: nothing new ()
+Skipped duplicate (Top FM): Crise de l’eau et usage de pesticides : Arvin Boolell en discussion avec les planteurs == Ящур: Arvin Boolell выступает за региональное сотрудничество с Реюньоном
+LLM usage this run: 5 requests, 7711 tokens
