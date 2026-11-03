@@ -22,3 +22,10 @@ LLM usage this run: 4 requests, 6467 tokens
   not about Mauritius: Plumes engagées : Une cartouche d’encre, a writer’s voice…
 Skipped foreign news (L'Express): Plumes engagées : Une cartouche d’encre, a writer’s voice…
 LLM usage this run: 1 requests, 2592 tokens
+### check 4/5 at 12:03
+  dup check: new (Объявлены новые вакансии в различных секторах экономики Маврикия с указанием работодателей и максимальных зарплат до 164 700 рупий; сроки подачи заяво)
+Posted (Inside News): Работа на Маврикии: 11 работодателей нанимают, зарплаты до 164 700 рупий
+  dup check: new (В статье упоминается предложение Arvin Boolell о региональном сотрудничестве с Реюньоном по вопросам профилактики ящура и возможная совместная работа )
+  proofread: Арвин Булелл → Арвин Буллл
+Posted (Top FM): Ящур: Arvin Boolell выступает за региональное сотрудничество с Реюньоном
+LLM usage this run: 6 requests, 8390 tokens
