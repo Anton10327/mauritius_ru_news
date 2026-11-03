@@ -20,3 +20,15 @@ Skipped duplicate (Inside News): Airport Holdings démantelée : qui assumera le
   proofread: Джей Дурга → Джей Дурга; Ажай Ганнес → Ажай Ганнес
 Posted (Top FM): Сезон циклонов и ливневых дождей: Jay Doorga прогнозирует эпизоды сильных дождей
 LLM usage this run: 6 requests, 8312 tokens
+### check 3/5 at 10:41
+  dup check: new (Объявлен новый крайний срок подачи заявок на субсидии для фермеров — до 29 декабря; также упомянута ревизия критериев программ поддержки сельского хоз)
+  proofread: 
+Posted (Top FM): Сельскохозяйственные субсидии: фермеры могут подавать заявки до 29 декабря
+  dup check: new (В статье говорится о повышении цены комплекта Water Tank and Pump Scheme до 16 000 рупий и временной приостановке приёма новых заявок из-за нехватки м)
+  proofread: 
+Posted (Top FM): Схема Water Tank and Pump Scheme: получатели страдают из-за роста цен и приостановки заявок
+  dup check: new (Сообщается о почти тысяче маврикийцев, получивших звонки и сообщения с номера +968 (Оман), что указывает на новую волну мошенничества; описаны конкрет)
+  foreign words left: Oman
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Top FM): Почти тысяча маврикийцев сообщили о звонках и сообщениях с кодом +968
+LLM usage this run: 10 requests, 13098 tokens
