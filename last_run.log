@@ -1,24 +1,10 @@
-### check 1/5 at 12:52
-  dup check: new (В статье сообщается о 166 соглашениях и меморандумах, подписанных на третьем саммите Россия–Африка в Москве (ранее публиковались только данные по итог)
-  not about Mauritius: Sommet Russie – Afrique 2026 : Moscou annonce 166 accords, place aux projets!
-Skipped foreign news (Le Mauricien): Sommet Russie – Afrique 2026 : Moscou annonce 166 accords, place aux projets!
-  not news (portrait/lifestyle): Plumes engagées : Souhait d’une plume
-Skipped foreign news (L'Express): Plumes engagées : Souhait d’une plume
-  not news (portrait/lifestyle): Plumes engagées : Feu éteint dans la chair
-Skipped foreign news (L'Express): Plumes engagées : Feu éteint dans la chair
-  dup check: new (Принят без поправок Criminal Justice (Offenders Assisting Investigations and Prosecutions) Bill — новый закон о механизме сотрудничества с правосудием)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Правосудие: преступники смогут договариваться о сотрудничестве, но кто защитит невиновных?
-LLM usage this run: 7 requests, 15264 tokens
-### check 2/5 at 12:56
-  same headline as #68: Accident à Chemin-Grenier : un motocycliste de 37 ans perd la vie
-Skipped duplicate (L'Express): Chemin-Grenier : Kersley St-Cyr, 37 ans, perd la vie dans un accident de moto == Наезд на металлическую преграду стал причиной гибели мотоциклиста
-### check 3/5 at 13:00
-  dup check: new (Объявлена новая реформа местных органов власти (collectivités locales) на Маврикии; обсуждается вопрос о ресурсах и автономии муниципалитетов для улуч)
-Posted (Inside News): Местные сообщества: объявлена реформа, но будут ли у муниципалитетов средства действовать?
-LLM usage this run: 3 requests, 4103 tokens
-### check 4/5 at 13:04
-### check 5/5 at 13:08
-  dup check: new (В статье приведены новые актуальные данные о заполнении семи резервуаров страны на 30 октября: средний уровень — 51,4% (против 77,2% год назад), Mare-)
-Posted (L'Express): Резервуары: уровень заполнения упал до 51,4%
-LLM usage this run: 3 requests, 4779 tokens
+### check 1/5 at 13:50
+  not news (portrait/lifestyle): Commemoration of the 192nd Arrival Anniversary : High Time for Restorative Justice and Reparations  
+Skipped foreign news (Le Mauricien): Commemoration of the 192nd Arrival Anniversary : High Time for Restorative Justice and Reparations  
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Environ 475 ouvriers du textile sans salaire pendant 5 mois chez World Knits == World Knits: работники обратились к адвокату Assad Peeroo и требуют встречи с министром тр
+  dup: nothing new ()
+Skipped duplicate (Top FM): Affaire Dreamer — Plus d’une tonne de cannabis destinée à Maurice : Des embarcations volée == Импорт 1,5 тонны каннабиса на борту судна Dreamer: подозреваемый Nishal назван отправителе
+  dup: nothing new (Предупреждение CERT-MU о мошеннической рассылке с обещанием Rs 2000 от имени премьер-министра в преддверии Дивали; указание на высокий уровень угрозы )
+Skipped duplicate (Top FM): Cyberarnaque : une fausse promesse de Rs 2 000 au nom du Premier ministre, le CERT-MU met  == Резервуар La Nicolière: проект по увеличению ёмкости хранения в шесть раз
+LLM usage this run: 4 requests, 6078 tokens
