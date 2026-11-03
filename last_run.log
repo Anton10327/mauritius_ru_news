@@ -1,24 +1,12 @@
-### check 1/5 at 13:50
-  not news (portrait/lifestyle): Commemoration of the 192nd Arrival Anniversary : High Time for Restorative Justice and Reparations  
-Skipped foreign news (Le Mauricien): Commemoration of the 192nd Arrival Anniversary : High Time for Restorative Justice and Reparations  
+### check 1/5 at 14:42
+  not news (portrait/lifestyle): Plumes engagées : Zenes… enn lot letan
+Skipped foreign news (L'Express): Plumes engagées : Zenes… enn lot letan
+  dup check: new (Статья посвящена запуску новых компонентов по борьбе с незаконным рыболовством в западной части Индийского океана, реализуемых Европейским агентством )
+  not about Mauritius: COOPÉRATION RÉGIONALE – Pêche illégale dans l’océan Indien : La COI et l’EFCA s’engagent à mieux pro
+Skipped foreign news (Le Mauricien): COOPÉRATION RÉGIONALE – Pêche illégale dans l’océan Indien : La COI et l’EFCA s’engagent à mieux pro
+  dup check: new (Смерть футболиста Jesús de Miguel после тяжёлой травмы во время матча и его кончина в больнице.)
+  not about Mauritius: Le footballeur espagnol Jesús de Miguel décède à 30 ans après un violent choc en plein match
+Skipped foreign news (Le Mauricien): Le footballeur espagnol Jesús de Miguel décède à 30 ans après un violent choc en plein match
   dup: nothing new ()
-Skipped duplicate (Wazaa): Environ 475 ouvriers du textile sans salaire pendant 5 mois chez World Knits == World Knits: работники обратились к адвокату Assad Peeroo и требуют встречи с министром тр
-  dup: nothing new ()
-Skipped duplicate (Top FM): Affaire Dreamer — Plus d’une tonne de cannabis destinée à Maurice : Des embarcations volée == Импорт 1,5 тонны каннабиса на борту судна Dreamer: подозреваемый Nishal назван отправителе
-  dup: nothing new (Предупреждение CERT-MU о мошеннической рассылке с обещанием Rs 2000 от имени премьер-министра в преддверии Дивали; указание на высокий уровень угрозы )
-Skipped duplicate (Top FM): Cyberarnaque : une fausse promesse de Rs 2 000 au nom du Premier ministre, le CERT-MU met  == Резервуар La Nicolière: проект по увеличению ёмкости хранения в шесть раз
-LLM usage this run: 4 requests, 6078 tokens
-### check 2/5 at 13:54
-  dup: nothing new ()
-Skipped duplicate (Top FM): Santé des jeunes à Maurice : les adolescents invités à façonner les priorités nationales == Здоровье подростков: Маврикий пересматривает стратегию в ответ на новые цифровые и социаль
-LLM usage this run: 1 requests, 1326 tokens
-### check 3/5 at 13:58
-  dup: nothing new ()
-Skipped duplicate (Top FM): Travailleurs engagés : un héritage de courage et de résilience au cœur de l’identité mauri == Резервуар La Nicolière: проект по увеличению ёмкости хранения в шесть раз
-LLM usage this run: 1 requests, 1250 tokens
-### check 4/5 at 14:02
-### check 5/5 at 14:06
-  dup check: new (Статья сообщает о предстоящем переезде семьи Кристофера, Деборы и Эзекиля в новый дом и о первом дне рождения малыша Эзекиля Аарона Клема Гранде Сэнбл)
-  not news (portrait/lifestyle): À cinq jours de son premier anniversaire : Le combat d’Ézekiel pour guérir, un nouveau toit pour gra
-Skipped foreign news (L'Express): À cinq jours de son premier anniversaire : Le combat d’Ézekiel pour guérir, un nouveau toit pour gra
-LLM usage this run: 2 requests, 4066 tokens
+Skipped duplicate (Inside News): Rs 53,5 millions pour équiper les policiers : quel retour sur investissement pour la sécur == Полиция Маврикия: 53,5 млн рупий выделено на оснащение сотрудников передовой
+LLM usage this run: 6 requests, 11369 tokens
