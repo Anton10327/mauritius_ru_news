@@ -12,3 +12,8 @@ Skipped foreign news (Inside News): 33 pays appellent à faire des réserves : s
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): Lutte contre le trafic de drogue — AFFAIRE YACHT DREAMER : L’ADSU perce l’intrigue du Ware == Импорт 1,5 тонны каннабиса на борту судна Dreamer: подозреваемый Nishal назван отправителе
 LLM usage this run: 6 requests, 9312 tokens
+### check 2/5 at 20:27
+  written by GigaChat-2-Max
+  proofread: 
+Failed to post https://lexpress.mu/s/senior-counsel-et-senior-attorney-les-candidatures-ouvertes-jusquau-30-novembre-564357: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+LLM usage this run: 2 requests, 3212 tokens
