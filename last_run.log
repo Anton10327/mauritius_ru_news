@@ -1,27 +1,7 @@
-### check 1/5 at 14:42
-  not news (portrait/lifestyle): Plumes engagées : Zenes… enn lot letan
-Skipped foreign news (L'Express): Plumes engagées : Zenes… enn lot letan
-  dup check: new (Статья посвящена запуску новых компонентов по борьбе с незаконным рыболовством в западной части Индийского океана, реализуемых Европейским агентством )
-  not about Mauritius: COOPÉRATION RÉGIONALE – Pêche illégale dans l’océan Indien : La COI et l’EFCA s’engagent à mieux pro
-Skipped foreign news (Le Mauricien): COOPÉRATION RÉGIONALE – Pêche illégale dans l’océan Indien : La COI et l’EFCA s’engagent à mieux pro
-  dup check: new (Смерть футболиста Jesús de Miguel после тяжёлой травмы во время матча и его кончина в больнице.)
-  not about Mauritius: Le footballeur espagnol Jesús de Miguel décède à 30 ans après un violent choc en plein match
-Skipped foreign news (Le Mauricien): Le footballeur espagnol Jesús de Miguel décède à 30 ans après un violent choc en plein match
+### check 1/5 at 15:36
   dup: nothing new ()
-Skipped duplicate (Inside News): Rs 53,5 millions pour équiper les policiers : quel retour sur investissement pour la sécur == Полиция Маврикия: 53,5 млн рупий выделено на оснащение сотрудников передовой
-LLM usage this run: 6 requests, 11369 tokens
-### check 2/5 at 14:46
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Politique — Meurtre de Kaya Kistnen : Bérenger réclame l’identité des ex-enquêteurs de Sco == Туризм 2035: Маврикий готовит план из семи направлений, но сроки не определены
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Grand-Bois: бангладешская работница найдена мёртвой в женском общежитии
-  dup: nothing new ()
-Skipped duplicate (Top FM): Fusillade à Camp-Levieux : un policier entendu par l’IPCC, Me Pravesh Nuckcheddy affirme q == Туризм 2035: Маврикий готовит план из семи направлений, но сроки не определены
-LLM usage this run: 4 requests, 4052 tokens
-### check 3/5 at 14:50
-### check 4/5 at 14:54
-  dup check: new ()
-  not news (portrait/lifestyle): Jour des morts : Dans les cimetières, les vivants font revivre les souvenirs
-Skipped foreign news (L'Express): Jour des morts : Dans les cimetières, les vivants font revivre les souvenirs
-LLM usage this run: 2 requests, 3419 tokens
-### check 5/5 at 14:58
+Skipped duplicate (Le Mauricien): Commémoration — 192e anniversaire de l’arrivée des premiers travailleurs engagés — La PM p == Дело Koonjoo-Shah: суд отклонил возражение защиты и разрешил приобщить записи видеонаблюде
+  dup check: new (Упоминается подготовка нового Business Facilitation Bill для упрощения ведения бизнеса и инвестиций на Маврикии. Это новая законодательная инициатива,)
+  proofread: 
+Posted (Inside News): Инвестиции: новый закон для упрощения ведения бизнеса на Маврикии, но что на самом деле мешает?
+LLM usage this run: 4 requests, 5933 tokens
