@@ -1,13 +1,11 @@
-### check 1/5 at 18:38
-Posted (Le Mauricien): (не)безопасность на дорогах — На 30 октября: тревожный рост (+22,5%) числа смертельных дтп
+### check 1/5 at 19:25
+  dup check: new ()
+  proofread: в Flacq → во Флаке; Bel-Air → Бель-Эйр
+  foreign words left: Mall, de, by
+  leftovers fixed by GigaChat-3-Pro; still left: by
+Posted (L'Express): Ascencia: 3,6 млрд рупий инвестируются в два торговых центра на востоке
   dup: nothing new ()
-Skipped duplicate (L'Express): Dekriptaz Turf  | Not In Doubt: course tactique ou “karos maryaz”? == «Закон об усыновлении детей»: долгожданная реформа наконец в работе
+Skipped duplicate (Top FM): WTM London 2026 : Maurice mise sur les liaisons aériennes et les tour-opérateurs pour la s == Маврикий участвует в World Travel Market
   dup: nothing new ()
-Skipped duplicate (Inside News): Crise de l’eau : des fournisseurs veulent faire grimper la subvention de Rs 15 000, le gou == Схема Water Tank and Pump Scheme: получатели страдают из-за роста цен и приостановки заяво
-  dup: nothing new ()
-Skipped duplicate (Top FM): Crise de l’eau et usage de pesticides : Arvin Boolell en discussion avec les planteurs == Ящур: Arvin Boolell выступает за региональное сотрудничество с Реюньоном
-LLM usage this run: 5 requests, 7711 tokens
-### check 2/5 at 18:42
-### check 3/5 at 18:46
-### check 4/5 at 18:50
-### check 5/5 at 18:54
+Skipped duplicate (Top FM): Maintenance des drains : une rencontre déjà tenue entre la LDA, les municipalités et les c == Сезон циклонов и ливневых дождей: Jay Doorga прогнозирует эпизоды сильных дождей
+LLM usage this run: 6 requests, 8455 tokens
