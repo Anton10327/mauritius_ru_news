@@ -10,3 +10,11 @@ Skipped foreign news (Le Mauricien): États-Unis : une ingénieure meurt après 
   dup check: new (Участие Маврикия в World Travel Market с 3 по 5 ноября 2024 года для продвижения туризма за пределами пляжей и акцент на культурное наследие, устойчив)
 Posted (Le Mauricien): Маврикий участвует в World Travel Market
 LLM usage this run: 9 requests, 17346 tokens
+### check 2/5 at 11:55
+  dup check: new (Упоминание о 20-летней девушке-пилоте Nathalia Gadelha Filgueiras среди погибших и подробности её биографии (возраст получения лицензии, количество ча)
+  not about Mauritius: Crash aérien en Floride : à 20 ans, une jeune copilote parmi les neuf victimes, l’avion se serait di
+Skipped foreign news (Inside News): Crash aérien en Floride : à 20 ans, une jeune copilote parmi les neuf victimes, l’avion se serait di
+  dup check: new (Новая статья сообщает о кибератаке на системы охлаждения супермаркетов в девяти европейских странах, что привело к порче продуктов. Это новое событие,)
+  not about Mauritius: Cyberattaque en Europe : des pirates informatiques prennent les réfrigérateurs des supermarchés pour
+Skipped foreign news (Le Mauricien): Cyberattaque en Europe : des pirates informatiques prennent les réfrigérateurs des supermarchés pour
+LLM usage this run: 4 requests, 6467 tokens
