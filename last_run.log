@@ -17,3 +17,8 @@ LLM usage this run: 6 requests, 9312 tokens
   proofread: 
 Failed to post https://lexpress.mu/s/senior-counsel-et-senior-attorney-les-candidatures-ouvertes-jusquau-30-novembre-564357: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
 LLM usage this run: 2 requests, 3212 tokens
+### check 3/5 at 20:31
+  written by GigaChat-2-Max
+  proofread: Senior Counsel et Senior Attorney → Senior Counsel и Senior Attorney
+Failed to post https://lexpress.mu/s/senior-counsel-et-senior-attorney-les-candidatures-ouvertes-jusquau-30-novembre-564357: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+LLM usage this run: 2 requests, 2833 tokens
