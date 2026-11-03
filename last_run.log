@@ -9,3 +9,13 @@ Posted (L'Express): 525 г каннабиса в рафиевых корзина
   dup: nothing new ()
 Skipped duplicate (Wazaa): Mère et son partenaire arrêtés après le décès d’une fillette d’un an dû à une déchirure in == Трагедия в Roche-Bois: годовалая девочка умерла, сожитель матери арестован
 LLM usage this run: 7 requests, 13442 tokens
+### check 2/5 at 17:51
+  dup check: new (Восстановление заброшенного источника воды в Cité Malherbes жителями из-за нехватки воды; инициатива граждан и быстрый результат за полдня работы.)
+Posted (Top FM): Curepipe: жители вернули к жизни исторический источник в Cité Malherbes
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Onex
+  leftovers fixed by GigaChat-3-Pro; still left: Onex
+Posted (Top FM): Маврикий: Неделя Дивали 2026 — пять дней торжеств с 3 по 7 ноября для демонстрации различных традиций
+  dup check: new (Передана информация о вручении ключей семье Ezekiel и их переезде в новый дом после операции ребенка; указано время события (3 ноября 2026, 18:00) и д)
+Posted (L'Express): Передача ключей | Малыш Ezekiel: новый дом, новый старт
+LLM usage this run: 9 requests, 11861 tokens
