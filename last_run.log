@@ -5,3 +5,5 @@ Could not read Top FM: ConnectionError HTTPSConnectionPool(host='topfm.mu', port
   proofread: edit rejected (changed numbers, names or length)
 Posted (L'Express): PTR-PMSD: уравнение снова становится возможным
 LLM usage this run: 2 requests, 4190 tokens
+### check 4/5 at 07:55
+Could not read Top FM: ReadTimeout HTTPSConnectionPool(host='topfm.mu', port=443): Read timed out. (read timeout=30)
