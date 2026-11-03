@@ -17,3 +17,8 @@ LLM usage this run: 1 requests, 1326 tokens
 Skipped duplicate (Top FM): Travailleurs engagés : un héritage de courage et de résilience au cœur de l’identité mauri == Резервуар La Nicolière: проект по увеличению ёмкости хранения в шесть раз
 LLM usage this run: 1 requests, 1250 tokens
 ### check 4/5 at 14:02
+### check 5/5 at 14:06
+  dup check: new (Статья сообщает о предстоящем переезде семьи Кристофера, Деборы и Эзекиля в новый дом и о первом дне рождения малыша Эзекиля Аарона Клема Гранде Сэнбл)
+  not news (portrait/lifestyle): À cinq jours de son premier anniversaire : Le combat d’Ézekiel pour guérir, un nouveau toit pour gra
+Skipped foreign news (L'Express): À cinq jours de son premier anniversaire : Le combat d’Ézekiel pour guérir, un nouveau toit pour gra
+LLM usage this run: 2 requests, 4066 tokens
