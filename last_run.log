@@ -1,14 +1,11 @@
-### check 1/5 at 16:31
-Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
+### check 1/5 at 17:47
+  not about Mauritius: Cancer du sein : Une maladie qui touche aussi les hommes
+Skipped foreign news (L'Express): Cancer du sein : Une maladie qui touche aussi les hommes
+  dup check: new (Статья сообщает о проведении трёхдневного семинара в Балаклаве с участием около 80 человек по инициативе WISER ActionFirst™ для улучшения систем ранне)
+  proofread: WISER ActionFirst™ → WISER ActionFirst; Rajesh Bhagwan → Раджеш Багван
+Posted (Le Mauricien): Изменение климата: Маврикий усиливает системы раннего предупреждения с WISER ActionFirst
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): 525 г каннабиса в рафиевых корзинах: три ареста после прибытия рейса с Мадагаскара
   dup: nothing new ()
-Skipped duplicate (L'Express): Trafic de 1,5 tonne de cannabis et de haschich : Les sorties du Dornier ont été communiqué == Импорт 1,5 тонны каннабиса на борту судна Dreamer: подозреваемый Nishal назван отправителе
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Pravind Jugnauth rend hommage aux premiers travailleurs engagés == В храме Petit-Raffray: золотистая жидкость на статуе Самайапурам Мариамман заинтриговала в
-LLM usage this run: 2 requests, 2379 tokens
-### check 2/5 at 16:35
-  dup: nothing new ()
-Skipped duplicate (Inside News): Croissance économique : Maurice peut-elle redresser ses finances sans faire payer davantag == В храме Petit-Raffray: золотистая жидкость на статуе Самайапурам Мариамман заинтриговала в
-LLM usage this run: 1 requests, 555 tokens
-### check 3/5 at 16:39
-### check 4/5 at 16:43
-### check 5/5 at 16:47
+Skipped duplicate (Wazaa): Mère et son partenaire arrêtés après le décès d’une fillette d’un an dû à une déchirure in == Трагедия в Roche-Bois: годовалая девочка умерла, сожитель матери арестован
+LLM usage this run: 7 requests, 13442 tokens
