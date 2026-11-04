@@ -25,3 +25,9 @@ LLM usage this run: 6 requests, 8590 tokens
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): Crise de l’eau : la subvention de Rs 15 000 au centre d’un différend sur les prix des rése == Схема Water Tank and Pump Scheme: получатели страдают из-за роста цен и приостановки заяво
 LLM usage this run: 1 requests, 913 tokens
+### check 5/5 at 08:43
+  not news (portrait/lifestyle): Julien Guillot-Sestier : «L’IA absorbe les tâches routinières, laissant aux professionnels les activ
+Skipped foreign news (L'Express): Julien Guillot-Sestier : «L’IA absorbe les tâches routinières, laissant aux professionnels les activ
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Ascencia investira 3,58 milliards de roupies sri-lankaises dans deux centres commerciaux d == Ascencia: 3,6 млрд рупий инвестируются в два торговых центра на востоке
+LLM usage this run: 2 requests, 3840 tokens
