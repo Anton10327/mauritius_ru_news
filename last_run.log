@@ -1,27 +1,6 @@
-### check 1/5 at 14:53
+### check 1/5 at 15:50
   dup: nothing new ()
-Skipped duplicate (L'Express): World Knits : Quatre mois sans salaire pour des employés == World Knits: работники обратились к адвокату Assad Peeroo и требуют встречи с министром тр
+Skipped duplicate (Le Mauricien): Approvisionnement en eau  : forte baisse des réserves à Mare-aux-Vacoas et à La Ferme == Резервуары: уровень заполнения упал до 51,4%
   dup: nothing new ()
-Skipped duplicate (Inside News): Dette publique : le montant brut franchit Rs 700 milliards malgré la baisse du ratio == Государственный долг: сумма превысила 700 млрд рупий, соотношение снижается
-  dup check: new (Полиция приняла на себя три обвинения в преступной халатности против трёх полицейских по делу Элои Томас; ранее эти обвинения были поданы Независимой )
-  proofread: Элодии Томас → Элодии Томас; троим полицейским предварительное обвинение → троим полицейским предварительные обвинения; генпрокурор полиции → генпрокурор; Рамут → Рамут; Гурана → Гурана
-Posted (Le Mauricien): Дело Élodie Thomas — «Преступное бездействие»: полиция повторно предъявляет троим полицейским три предварительных обвинения
-  dup: nothing new (Долг домохозяйств Маврикия перед банками превысил 220 млрд рупий к концу сентября 2026 года; рост за год составил 12,6%.)
-Skipped duplicate (Inside News): Crédits bancaires : la dette des ménages mauriciens dépasse Rs 220 milliards == Nouvelle-Découverte: Babita Thannoo требует ввода в эксплуатацию резервуара в Eau-Bouillie
-LLM usage this run: 6 requests, 7300 tokens
-### check 2/5 at 14:57
-### check 3/5 at 15:01
-  dup check: new (Объявлена новая инициатива Commonwealth Nature Initiative с начальным финансированием 202,2 млн долларов и целью собрать дополнительно 1 млрд к 2030 г)
-  not about Mauritius: Commonwealth : 202 millions de dollars pour protéger la nature, quelles opportunités pour Maurice ?
-Skipped foreign news (Inside News): Commonwealth : 202 millions de dollars pour protéger la nature, quelles opportunités pour Maurice ?
-LLM usage this run: 2 requests, 3689 tokens
-### check 4/5 at 15:05
-  dup: nothing new ()
-Skipped duplicate (L'Express): Trafic de drogue : La mer, cette frontière que Maurice peine à contrôler == Торговля наркотиками — ось Таиланд/Маврикий: яхта Dreamer, след семьи Dussoye на востоке
-  dup check: new (В статье упоминается запуск новой платформы www.mauritius.name для участия граждан в законодательном процессе и инициатива Dave Kissoondoyal по законо)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: www, mauritius, name
-  leftovers fixed by GigaChat-3-Pro; still left: www, mauritius, name
-Posted (Le Mauricien): Dave Kissoondoyal: «Демократия не ослабевает, когда гражданам дают больше слова»
-LLM usage this run: 5 requests, 5255 tokens
-### check 5/5 at 15:09
+Skipped duplicate (Le Mauricien): Agriculture : Entre manque d’eau et pénurie de bras, les défis s’accumulent pour les plant == Ящур: Arvin Boolell выступает за региональное сотрудничество с Реюньоном
+LLM usage this run: 2 requests, 2926 tokens
