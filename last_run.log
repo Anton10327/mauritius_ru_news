@@ -8,3 +8,16 @@ Skipped duplicate (Inside News): Démantèlement d’Airport Holdings Ltd : l’
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): CANCER — Usage abusif de pesticides : Le ministre Bachoo veut encourager une alimentation  == Mare-aux-Vacoas: потеряно 150 000 м³ ёмкости с 1997 года, согласно официальной оценке
 LLM usage this run: 4 requests, 5815 tokens
+### check 2/5 at 11:54
+  proofread: rue Monseigneur Leen → улица Monseigneur Leen
+  foreign words left: D'Alembert
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Le Mauricien): Port-Louis: почти семь недель объездов на улице Monseigneur Leen
+  dup check: new (Упоминается новое критическое состояние водохранилища Mare-aux-Vacoas — уровень воды опустился ниже 35%, а станция La Marie сократила производство вдв)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Inside News): Водный кризис: уровень в Mare-aux-Vacoas упал ниже 35 %, CWA прибегает к экстренным мерам
+  dup: nothing new ()
+Skipped duplicate (Top FM): Pesticides et sécheresse : Arvin Boolell rassure les planteurs sur l’approvisionnement en  == Пестициды в овощах: торговцы требуют больше проверок
+  dup: nothing new ()
+Skipped duplicate (Top FM): Abolition de la charge provisoire : Khushal Lobine plaide pour un renforcement du bureau d == Mare-aux-Vacoas: потеряно 150 000 м³ ёмкости с 1997 года, согласно официальной оценке
+LLM usage this run: 8 requests, 10345 tokens
