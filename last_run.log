@@ -11,3 +11,14 @@ Skipped duplicate (Inside News): Strada Details : bien plus qu’un simple lavag
   dup check: new (В новой статье говорится о том, что расследование по делу о контрабанде наркотиков на яхте Dreamer теперь ориентируется на семью из региона Эст (Mauri)
 Posted (Le Mauricien): Торговля наркотиками — ось Таиланд/Маврикий: яхта Dreamer, след семьи Dussoye на востоке
 LLM usage this run: 9 requests, 9228 tokens
+### check 2/5 at 10:33
+  dup check: new (Мауританский дзюдоист Hayden Khenmah завершил выступление на 9-м месте в категории -81 кг на Олимпийских играх для молодежи (Дакар 2026), а также указ)
+  proofread: Gengashvili → Гегашвили
+Posted (Le Mauricien): Молодёжные Олимпийские игры – Дакар 2026 – Дзюдоист Hayden Khenmah занимает девятое место, бадминтон испытывает большие трудности
+  dup check: new (В статье описан новый случай: погибший Kersley St-Cyr (37 лет) из Chamouny, отец четырёх дочерей, ехавший на мотоцикле с пассажиром 19 лет. Причина и )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Chamouny: Kersley St-Cyr, отец четверых дочерей, насмерть сбит на дороге
+  dup check: new (В статье говорится о новых ключевых допросах (confrontations) в MCIT после показаний свидетеля-масона Жана Бруно Уэсли Фиделя, который опознал своих б)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Inside News): Убийство Selven Iyempermal в Vacoas: ключевые очные ставки в MCIT после показаний свидетеля
+LLM usage this run: 9 requests, 14485 tokens
