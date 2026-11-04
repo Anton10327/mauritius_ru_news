@@ -12,3 +12,13 @@ Posted (Top FM): Дело Élodie Thomas: реконструкция событ�
   proofread by qwen/qwen3.8-27b
 Posted (Top FM): Дивали: Центральная электросетевая корпорация обеспечивает бесперебойную подачу электроэнергии и призывает соблюдать осторожность
 LLM usage this run: 8 requests, 11454 tokens
+### check 2/5 at 20:52
+  dup check: new (Три бангладешских рабочего погибли в результате падения ящика со стеклянными панелями в Plaine-des-Papayes 4 ноября.)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Плейн-де-Папай → Plaine-des-Papayes
+Posted (L'Express): Три рабочих из Бангладеш погибли в Plaine-des-Papayes
+  written by GigaChat-2-Max
+  not about Mauritius: Au Portugal : la mobilisation des jeunes contre la crise du logement prend de l’ampleur
+Skipped foreign news (Top FM): Au Portugal : la mobilisation des jeunes contre la crise du logement prend de l’ampleur
+LLM usage this run: 4 requests, 4310 tokens
