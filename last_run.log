@@ -1,23 +1,12 @@
-### check 1/5 at 18:04
-  dup check: new (Собрано 3,42 млрд рупий по итогам налоговой кампании 2026 года; подано 324 921 деклараций; выплачено около 851 млн рупий в виде возвратов налогоплател)
+### check 1/5 at 18:58
+Duplicate check GigaChat-3-Pro failed: HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Read timed out. (read timeout=30)
+  dup check: new (Mention of possible postponement of village elections to 27 April 2027, discussion of pension reform, economic difficulties, the Kistnen affair, and t)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Wazaa): Налоговая служба Маврикия (MRA) собрала 3,42 млрд рупий по итогам кампании подачи налоговых деклараций 2026 года
-  foreign words left: nt
-  leftovers fixed by GigaChat-3-Pro; still left: nt
-Posted (L'Express): Дело Bounceback: Van Niekerk оправдан, HRID получает новый удар
+Posted (Le Mauricien): Reform Party: Roshi Bhadain осуждает отсутствие решений структурных проблем страны
   dup: nothing new ()
-Skipped duplicate (Inside News): Tourisme : Maurice négocie à Londres les contrats de la saison 2027-2028 == Маврикий участвует в World Travel Market
+Skipped duplicate (Le Mauricien): En Cour de Rose-Hill : Ivan Collendavelloo rejoint la défense d’Adrien Duval == Авария в Ébène: суд по делу Adrien Duval перенесён на 28 января 2027 года
   dup: nothing new ()
-Skipped duplicate (Top FM): Affaire Kistnen : « Akoz kass kinn touye Kistnen… », lance Roshi Bhadain, insistant sur la == Политика — Roshi Bhadain исключает любые союзы: «Я никогда не вернусь в парламент, если на
-LLM usage this run: 8 requests, 11873 tokens
-### check 2/5 at 18:08
-### check 3/5 at 18:12
-### check 4/5 at 18:16
-Could not read article https://www.lemauricien.com/actualites/politique/722400/722400/: 404 Client Error: Not Found for url: https://www.lemauricien.com/actualites/politique/722400/722400/
-Site not responding, will retry next check (1/3): https://www.lemauricien.com/actualites/politique/722400/722400/
-### check 5/5 at 18:20
-Could not read article https://www.lemauricien.com/actualites/politique/722400/722400/: 404 Client Error: Not Found for url: https://www.lemauricien.com/actualites/politique/722400/722400/
-Site not responding, will retry next check (2/3): https://www.lemauricien.com/actualites/politique/722400/722400/
-  not news (portrait/lifestyle): Éclairage l Deux ans au pouvoir : l’Alliance du changement à l’épreuve des réalités économiques et s
-Skipped foreign news (L'Express): Éclairage l Deux ans au pouvoir : l’Alliance du changement à l’épreuve des réalités économiques et s
-LLM usage this run: 1 requests, 2904 tokens
+Skipped duplicate (Le Mauricien): Quoi de mieux qu’un poème pour te rendre hommage? == Убийство Selven Iyempermal: мужчина утверждает, что узнал двух братьев в видео на Facebook
+  dup check: new (Объявлено о проведении фестиваля Seggae Zwe 7 ноября в стаде Anjalay с участием 17 артистов и временем открытия ворот в 17:00.)
+Posted (L'Express): Фестиваль Seggae Zwe пройдёт в эту субботу
+LLM usage this run: 8 requests, 11811 tokens
