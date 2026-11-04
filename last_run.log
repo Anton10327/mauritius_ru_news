@@ -8,3 +8,8 @@ Skipped duplicate (L'Express): Roche-Bois : Sa fille de 13 mois décède, son co
   dup: nothing new ()
 Skipped duplicate (Inside News): Trafic de 1,5 tonne de stupéfiants : le garde-côte écroué devant la justice, la piste des  == Импорт 1,5 тонны каннабиса на борту судна Dreamer: подозреваемый Nishal назван отправителе
 LLM usage this run: 4 requests, 2218 tokens
+### check 2/5 at 09:32
+  dup check: new (В статье говорится о возможности для маврикийцев напрямую подать заявки на работу в Emirates и Etihad Airways из Маврикия, с указанием зарплат, требов)
+  proofread: международный набор → международный набор; Маврикийцы могут подать заявку онлайн, не проживая в Эмиратах. → Маврикийцы могут подать заявку онлайн, не проживая в Эмиратах.; Для Emirates минимальный возраст — 21 год, рост — от 160 см, требуется знание английского и опыт в сфере обслуживания. → Для Emi
+Posted (Inside News): Emirates и Etihad Airways набирают персонал: маврикийцы могут подавать заявки напрямую с Маврикия
+LLM usage this run: 3 requests, 4341 tokens
