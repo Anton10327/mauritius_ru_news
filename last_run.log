@@ -1,31 +1,9 @@
-### check 1/5 at 18:58
-Duplicate check GigaChat-3-Pro failed: HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Read timed out. (read timeout=30)
-  dup check: new (Mention of possible postponement of village elections to 27 April 2027, discussion of pension reform, economic difficulties, the Kistnen affair, and t)
+### check 1/5 at 19:54
+  dup: nothing new ()
+Skipped duplicate (Inside News): Éducation musicale : 775 élèves testeront un nouveau programme dans dix écoles == Соглашение с Yamaha Corporation: 775 учеников в десяти школах получат блокфлейты
+  dup check: new (Подписан новый международный договор между Маврикием, Сейшелами и CGG для геофизического исследования зоны площадью 396 000 км² с целью оценки углевод)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Reform Party: Roshi Bhadain осуждает отсутствие решений структурных проблем страны
+Posted (Wazaa): Маврикий и Сейшельские Острова совместно с CGG начинают исследование морского дна площадью 396 000 км²
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): En Cour de Rose-Hill : Ivan Collendavelloo rejoint la défense d’Adrien Duval == Авария в Ébène: суд по делу Adrien Duval перенесён на 28 января 2027 года
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Quoi de mieux qu’un poème pour te rendre hommage? == Убийство Selven Iyempermal: мужчина утверждает, что узнал двух братьев в видео на Facebook
-  dup check: new (Объявлено о проведении фестиваля Seggae Zwe 7 ноября в стаде Anjalay с участием 17 артистов и временем открытия ворот в 17:00.)
-Posted (L'Express): Фестиваль Seggae Zwe пройдёт в эту субботу
-LLM usage this run: 8 requests, 11811 tokens
-### check 2/5 at 19:02
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): TEMPS SAUVAGE == Убийство Selven Iyempermal: мужчина утверждает, что узнал двух братьев в видео на Facebook
-  not news (portrait/lifestyle): NEVER WASTE A CRISIS
-Skipped foreign news (Le Mauricien): NEVER WASTE A CRISIS
-  not news (portrait/lifestyle): From a University Library to a Conversation with Shiv Khera
-Skipped foreign news (Le Mauricien): From a University Library to a Conversation with Shiv Khera
-  dup: nothing new ()
-Skipped duplicate (L'Express): [En images] Affaire Élodie Thomas : nouvelle reconstitution avec le chauffeur et trois pol == Дело Élodie Thomas — «Преступное бездействие»: полиция повторно предъявляет троим полицейс
-LLM usage this run: 4 requests, 6664 tokens
-### check 3/5 at 19:06
-  not news (portrait/lifestyle): Dossier l Marché du travail : la révolution de l’intelligence artificielle inquiète
-Skipped foreign news (L'Express): Dossier l Marché du travail : la révolution de l’intelligence artificielle inquiète
-LLM usage this run: 1 requests, 2972 tokens
-### check 4/5 at 19:10
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): ОАЭ – Ежедневное водоснабжение: дополнительно 7000 м³ воды направляют из Mare Longue в La Marie
-LLM usage this run: 2 requests, 3821 tokens
-### check 5/5 at 19:14
+Skipped duplicate (Top FM): Sécurité hydrique : Business Mauritius appelle à un effort national pour préserver les res == Кризис водоснабжения: Business Mauritius запускает Water-Saving Toolkit для вовлечения ком
+LLM usage this run: 5 requests, 8089 tokens
