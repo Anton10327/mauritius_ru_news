@@ -1,28 +1,13 @@
-### check 1/5 at 09:28
+### check 1/5 at 10:29
   dup: nothing new ()
-Skipped duplicate (Inside News): Emploi à Maurice : fonction publique, STC, Banque de Maurice et PSEA recrutent == Работа на Маврикии: 11 работодателей нанимают, зарплаты до 164 700 рупий
+Skipped duplicate (Inside News): Infanticide à Roche-Bois : l’autopsie conclut à des violences mortelles, le beau-père trad == Трагедия в Roche-Bois: годовалая девочка умерла, сожитель матери арестован
+  dup check: new (В новой статье описан новый случай: 44-летний Эдуар Кюри из Корей, Родригес, погиб в ДТП по дороге домой после визита к родственникам усопшего. В опуб)
+  proofread: на крыше → на крышу; где была констатирована смерть → где ему констатировали смерть
+  foreign words left: Rodrigues
+  leftovers fixed by GigaChat-3-Pro; still left: Rodrigues
+Posted (L'Express): Несчастный случай на Родригесе: отправившись поддержать скорбящих родственников, он погиб по дороге домой
   dup: nothing new ()
-Skipped duplicate (L'Express): Esclavage : Charles III dénonce un «chapitre honteux de l’histoire» et une «injustice mons == Вечерние занятия в аудиториях во время беспорядков: «грубое нарушение» обязанности обеспеч
-  dup: nothing new ()
-Skipped duplicate (L'Express): Roche-Bois : Sa fille de 13 mois décède, son compagnon arrêté == Трагедия в Roche-Bois: годовалая девочка умерла, сожитель матери арестован
-  dup: nothing new ()
-Skipped duplicate (Inside News): Trafic de 1,5 tonne de stupéfiants : le garde-côte écroué devant la justice, la piste des  == Импорт 1,5 тонны каннабиса на борту судна Dreamer: подозреваемый Nishal назван отправителе
-LLM usage this run: 4 requests, 2218 tokens
-### check 2/5 at 09:32
-  dup check: new (В статье говорится о возможности для маврикийцев напрямую подать заявки на работу в Emirates и Etihad Airways из Маврикия, с указанием зарплат, требов)
-  proofread: международный набор → международный набор; Маврикийцы могут подать заявку онлайн, не проживая в Эмиратах. → Маврикийцы могут подать заявку онлайн, не проживая в Эмиратах.; Для Emirates минимальный возраст — 21 год, рост — от 160 см, требуется знание английского и опыт в сфере обслуживания. → Для Emi
-Posted (Inside News): Emirates и Etihad Airways набирают персонал: маврикийцы могут подавать заявки напрямую с Маврикия
-LLM usage this run: 3 requests, 4341 tokens
-### check 3/5 at 09:36
-### check 4/5 at 09:40
-  dup check: new (В статье упоминается новый отчёт Pesticides Regulatory Office о наличии остатков неразрешённых пестицидов в овощах (20 из 44 образцов), а также реакци)
-  proofread: «нерекомендованных» → «нерекомендованных» (уже верно); Siva → Siva (имя не меняется по условию); Vinay → Vinay (имя не меняется по условию)
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Photo download failed: HTTP 404 for https://topfm.mu/sites/default/files/media-icons/generic/video.png
-Photo failed: https://topfm.mu/sites/default/files/media-icons/generic/video.png — sending text only
-Posted (Top FM): Пестициды в овощах: торговцы требуют больше проверок
-LLM usage this run: 3 requests, 3933 tokens
-### check 5/5 at 09:44
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Décès routiers à l’Île Maurice en hausse de 22,5 % : 125 décès enregistrés == (не)безопасность на дорогах — На 30 октября: тревожный рост (+22,5%) числа смертельных дтп
-LLM usage this run: 1 requests, 898 tokens
+Skipped duplicate (Inside News): Strada Details : bien plus qu’un simple lavage, l’art de sublimer votre voiture == Rodrigues удостоил 38 человек почётного гражданства и медали признания, в том числе Lindsa
+  dup check: new (В новой статье говорится о том, что расследование по делу о контрабанде наркотиков на яхте Dreamer теперь ориентируется на семью из региона Эст (Mauri)
+Posted (Le Mauricien): Торговля наркотиками — ось Таиланд/Маврикий: яхта Dreamer, след семьи Dussoye на востоке
+LLM usage this run: 9 requests, 9228 tokens
