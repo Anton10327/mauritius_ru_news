@@ -1,36 +1,10 @@
-### check 1/5 at 10:29
+### check 1/5 at 11:50
+  not news (portrait/lifestyle): A new dawn
+Skipped foreign news (L'Express): A new dawn
   dup: nothing new ()
-Skipped duplicate (Inside News): Infanticide à Roche-Bois : l’autopsie conclut à des violences mortelles, le beau-père trad == Трагедия в Roche-Bois: годовалая девочка умерла, сожитель матери арестован
-  dup check: new (В новой статье описан новый случай: 44-летний Эдуар Кюри из Корей, Родригес, погиб в ДТП по дороге домой после визита к родственникам усопшего. В опуб)
-  proofread: на крыше → на крышу; где была констатирована смерть → где ему констатировали смерть
-  foreign words left: Rodrigues
-  leftovers fixed by GigaChat-3-Pro; still left: Rodrigues
-Posted (L'Express): Несчастный случай на Родригесе: отправившись поддержать скорбящих родственников, он погиб по дороге домой
+Skipped duplicate (L'Express): Cour suprême : Appel à candidatures aux titres de «Senior Counsel» et «Senior Attorney» == Приём заявок на звание Senior Counsel и Senior Attorney открыт до 30 ноября
   dup: nothing new ()
-Skipped duplicate (Inside News): Strada Details : bien plus qu’un simple lavage, l’art de sublimer votre voiture == Rodrigues удостоил 38 человек почётного гражданства и медали признания, в том числе Lindsa
-  dup check: new (В новой статье говорится о том, что расследование по делу о контрабанде наркотиков на яхте Dreamer теперь ориентируется на семью из региона Эст (Mauri)
-Posted (Le Mauricien): Торговля наркотиками — ось Таиланд/Маврикий: яхта Dreamer, след семьи Dussoye на востоке
-LLM usage this run: 9 requests, 9228 tokens
-### check 2/5 at 10:33
-  dup check: new (Мауританский дзюдоист Hayden Khenmah завершил выступление на 9-м месте в категории -81 кг на Олимпийских играх для молодежи (Дакар 2026), а также указ)
-  proofread: Gengashvili → Гегашвили
-Posted (Le Mauricien): Молодёжные Олимпийские игры – Дакар 2026 – Дзюдоист Hayden Khenmah занимает девятое место, бадминтон испытывает большие трудности
-  dup check: new (В статье описан новый случай: погибший Kersley St-Cyr (37 лет) из Chamouny, отец четырёх дочерей, ехавший на мотоцикле с пассажиром 19 лет. Причина и )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Chamouny: Kersley St-Cyr, отец четверых дочерей, насмерть сбит на дороге
-  dup check: new (В статье говорится о новых ключевых допросах (confrontations) в MCIT после показаний свидетеля-масона Жана Бруно Уэсли Фиделя, который опознал своих б)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Убийство Selven Iyempermal в Vacoas: ключевые очные ставки в MCIT после показаний свидетеля
-LLM usage this run: 9 requests, 14485 tokens
-### check 3/5 at 10:37
-### check 4/5 at 10:41
-  dup check: new (Новые даты и условия выборов в Conseil de l’optique de Maurice: вторые выборы пройдут 10 декабря; кандидатам нужно минимум 5 лет опыта и поддержка пят)
-Posted (Top FM): Совет по оптометрии Маврикия: шесть мест на переизбрание на реформированных выборах
-LLM usage this run: 3 requests, 4201 tokens
-### check 5/5 at 10:45
+Skipped duplicate (Inside News): Démantèlement d’Airport Holdings Ltd : l’heure de vérité sur le gouffre de Rs 25 milliards == Airport Holdings Ltd: через 5 лет карточный домик рушится…
   dup: nothing new ()
-Skipped duplicate (L'Express): Meurtre de Selven Iyempermal : Il porte plainte après avoir reconnu ses deux frères dans u == Убийство Selven Iyempermal: мужчина утверждает, что узнал двух братьев в видео на Facebook
-  dup check: new (Выборы в США 3 ноября 2026 года: демократы одержали победы в традиционно республиканских штатах (Северная Каролина, Южная Каролина, Техас), сохранив п)
-  not about Mauritius: États-Unis : percée démocrate aux élections de mi-mandat, Trump face à un revers politique
-Skipped foreign news (Inside News): États-Unis : percée démocrate aux élections de mi-mandat, Trump face à un revers politique
-LLM usage this run: 3 requests, 3878 tokens
+Skipped duplicate (Le Mauricien): CANCER — Usage abusif de pesticides : Le ministre Bachoo veut encourager une alimentation  == Mare-aux-Vacoas: потеряно 150 000 м³ ёмкости с 1997 года, согласно официальной оценке
+LLM usage this run: 4 requests, 5815 tokens
