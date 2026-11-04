@@ -1,33 +1,14 @@
-### check 1/5 at 11:50
-  not news (portrait/lifestyle): A new dawn
-Skipped foreign news (L'Express): A new dawn
+### check 1/5 at 12:43
   dup: nothing new ()
-Skipped duplicate (L'Express): Cour suprême : Appel à candidatures aux titres de «Senior Counsel» et «Senior Attorney» == Приём заявок на звание Senior Counsel и Senior Attorney открыт до 30 ноября
+Skipped duplicate (Le Mauricien): ROCHE-BOIS — Après un « massage » : Décès d’Azelie Casimir (1 an) dans des circonstances t == Трагедия в Roche-Bois: годовалая девочка умерла, сожитель матери арестован
   dup: nothing new ()
-Skipped duplicate (Inside News): Démantèlement d’Airport Holdings Ltd : l’heure de vérité sur le gouffre de Rs 25 milliards == Airport Holdings Ltd: через 5 лет карточный домик рушится…
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): CANCER — Usage abusif de pesticides : Le ministre Bachoo veut encourager une alimentation  == Mare-aux-Vacoas: потеряно 150 000 м³ ёмкости с 1997 года, согласно официальной оценке
-LLM usage this run: 4 requests, 5815 tokens
-### check 2/5 at 11:54
-  proofread: rue Monseigneur Leen → улица Monseigneur Leen
-  foreign words left: D'Alembert
+Skipped duplicate (Le Mauricien): Aéroport : près de Rs 16,5 millions de cannabis saisis, un homme de 30 ans arrêté == 525 г каннабиса в рафиевых корзинах: три ареста после прибытия рейса с Мадагаскара
+  dup check: new (Вводится новое правило: с 1 января 2027 года на Маврикии при проверках будут приниматься только оригинал водительского удостоверения или его официальн)
+  foreign words left: Bambous, Traffic, Branch, Digital
+  leftovers fixed by GigaChat-3-Pro; still left: Bambous, Traffic, Branch, Digital
+Posted (Inside News): Водительские права: конец фотокопий с января 2027 года, MDPA проводит встречи с гражданами
+  dup check: new (Africa Specialty Risks (ASR) планирует собрать около 500 млн долларов премий в 2026 году и расширяет присутствие на Маврикии; завершён стратегический )
+  foreign words left: Vision
   leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Le Mauricien): Port-Louis: почти семь недель объездов на улице Monseigneur Leen
-  dup check: new (Упоминается новое критическое состояние водохранилища Mare-aux-Vacoas — уровень воды опустился ниже 35%, а станция La Marie сократила производство вдв)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Водный кризис: уровень в Mare-aux-Vacoas упал ниже 35 %, CWA прибегает к экстренным мерам
-  dup: nothing new ()
-Skipped duplicate (Top FM): Pesticides et sécheresse : Arvin Boolell rassure les planteurs sur l’approvisionnement en  == Пестициды в овощах: торговцы требуют больше проверок
-  dup: nothing new ()
-Skipped duplicate (Top FM): Abolition de la charge provisoire : Khushal Lobine plaide pour un renforcement du bureau d == Mare-aux-Vacoas: потеряно 150 000 м³ ёмкости с 1997 года, согласно официальной оценке
-LLM usage this run: 8 requests, 10345 tokens
-### check 3/5 at 11:58
-### check 4/5 at 12:02
-  dup: nothing new ()
-Skipped duplicate (L'Express): Henrietta : Les parents d’Ézekiel reçoivent les clés d’un nouveau départ == Передача ключей | Малыш Ezekiel: новый дом, новый старт
-  dup: nothing new ()
-Skipped duplicate (Inside News): Fête de Divali : un long week-end de lumière et de partage, le lundi 9 novembre officielle == Маврикий: Неделя Дивали 2026 — пять дней торжеств с 3 по 7 ноября для демонстрации различн
-  dup: nothing new ()
-Skipped duplicate (Top FM): Réserves d’eau en baisse : Mare-aux-Vacoas à 33% alors que l’été approche… == Водный кризис: уровень в Mare-aux-Vacoas упал ниже 35 %, CWA прибегает к экстренным мерам
-LLM usage this run: 3 requests, 2207 tokens
-### check 5/5 at 12:06
+Posted (Wazaa): Африканский перестраховщик отмечает 5 лет на Маврикии и объявляет о масштабной стратегической экспансии
+LLM usage this run: 10 requests, 12202 tokens
