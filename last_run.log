@@ -1,31 +1,11 @@
-### check 1/5 at 13:42
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Afrique
-  leftovers fixed by GigaChat-3-Pro; still left: Afrique
-Posted (L'Express): Concentrix: 13-й месяц выплат сохранён для 300 сотрудников
-  not about Mauritius: [video] Sept avions et un paquebot visés par des alertes à la bombe : qui cherche à semer la panique
-Skipped foreign news (Inside News): [video] Sept avions et un paquebot visés par des alertes à la bombe : qui cherche à semer la panique
-  dup check: new (В статье сообщается о задержании сотрудника тюрьмы после домашнего насилия с ножом в Порт-Луи — это новое событие. В опубликованном ранее посте речь ш)
-  proofread: отстранением → отстранением от должности; "сегодня будет смерть" → "сегодня будет смерть"; прохожие разоружили и задержали подозреваемого → прохожие разоружили и задержали подозреваемого
-  foreign words left: d’Entrecasteaux
-  leftovers fixed by GigaChat-3-Pro; still left: d’Entrecasteaux
-Posted (Le Mauricien): Port-Louis — Домашнее насилие: тюремный надзиратель арестован после того, как зарезал жену
-  dup check: new (Рекордный объём государственных доходов Маврикия — 235,5 млрд рупий в 2026 году (против 136 млрд пять лет назад), несмотря на кризис стоимости жизни и)
-  proofread: выручка → доходов
-Posted (Wazaa): Маврикий достиг рекордной выручки в 235 миллиардов рупий в период кризиса стоимости жизни
-LLM usage this run: 11 requests, 18988 tokens
-### check 2/5 at 13:46
+### check 1/5 at 14:53
   dup: nothing new ()
-Skipped duplicate (Top FM): Alimentation : l’ACIM alerte sur les défis qui pèsent sur les consommateurs == Suttyhudeo Tengur требует публичного контроля за мерами правительства
-  dup check: new (MCB увеличила свою программу финансирования устойчивых проектов с 10 до 25 млрд рупий и полностью использовала первую сумму; более 200 проектов уже по)
-Posted (Top FM): Устойчивое финансирование: MCB увеличивает свой финансовый пакет до 25 млрд рупий
-  proofread: Amit Bakhirta → Amit Bakhirta (имя уже верно); Manisha Dookhony → Manisha Dookhony (имя уже верно); на Маврикии → на Маврикии (уже правильно); экономическую → экономическую (правильно); пересматривать → пересматривать (верно); выручка → выручку (верно); восстановление безопасности → восстановление б
-Posted (Top FM): Комендантский час: экономическая деятельность под давлением между безопасностью и потерей доходов
-LLM usage this run: 6 requests, 8121 tokens
-WARNING: could not save state
-### check 3/5 at 13:50
-### check 4/5 at 13:54
-  dup check: new (В статье приведены конкретные цифры по итогам пятидневной операции Traffic Branch: 912 нарушений за пять дней (30 октября – 3 ноября), из них 227 прев)
-Posted (Le Mauricien): Безопасность на дорогах: за пять дней выявлено 912 нарушений, включая 227 случаев превышения скорости и 17 положительных тестов на алкоголь
-LLM usage this run: 3 requests, 4588 tokens
-### check 5/5 at 13:58
+Skipped duplicate (L'Express): World Knits : Quatre mois sans salaire pour des employés == World Knits: работники обратились к адвокату Assad Peeroo и требуют встречи с министром тр
+  dup: nothing new ()
+Skipped duplicate (Inside News): Dette publique : le montant brut franchit Rs 700 milliards malgré la baisse du ratio == Государственный долг: сумма превысила 700 млрд рупий, соотношение снижается
+  dup check: new (Полиция приняла на себя три обвинения в преступной халатности против трёх полицейских по делу Элои Томас; ранее эти обвинения были поданы Независимой )
+  proofread: Элодии Томас → Элодии Томас; троим полицейским предварительное обвинение → троим полицейским предварительные обвинения; генпрокурор полиции → генпрокурор; Рамут → Рамут; Гурана → Гурана
+Posted (Le Mauricien): Дело Élodie Thomas — «Преступное бездействие»: полиция повторно предъявляет троим полицейским три предварительных обвинения
+  dup: nothing new (Долг домохозяйств Маврикия перед банками превысил 220 млрд рупий к концу сентября 2026 года; рост за год составил 12,6%.)
+Skipped duplicate (Inside News): Crédits bancaires : la dette des ménages mauriciens dépasse Rs 220 milliards == Nouvelle-Découverte: Babita Thannoo требует ввода в эксплуатацию резервуара в Eau-Bouillie
+LLM usage this run: 6 requests, 7300 tokens
