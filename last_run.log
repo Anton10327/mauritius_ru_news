@@ -24,3 +24,7 @@ LLM usage this run: 4 requests, 6664 tokens
   not news (portrait/lifestyle): Dossier l Marché du travail : la révolution de l’intelligence artificielle inquiète
 Skipped foreign news (L'Express): Dossier l Marché du travail : la révolution de l’intelligence artificielle inquiète
 LLM usage this run: 1 requests, 2972 tokens
+### check 4/5 at 19:10
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): ОАЭ – Ежедневное водоснабжение: дополнительно 7000 м³ воды направляют из Mare Longue в La Marie
+LLM usage this run: 2 requests, 3821 tokens
