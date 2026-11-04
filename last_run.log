@@ -1,33 +1,10 @@
-### check 1/5 at 08:27
-  dup check: new (Суд по делу Adrien Duval перенесён на 28 января 2027 года; в команде его адвокатов теперь присутствует Me Ivan Collendavelloo.)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Авария в Ébène: суд по делу Adrien Duval перенесён на 28 января 2027 года
-  not news (portrait/lifestyle): Publications : «Essentielle» bouscule les codes
-Skipped foreign news (L'Express): Publications : «Essentielle» bouscule les codes
+### check 1/5 at 09:28
   dup: nothing new ()
-Skipped duplicate (L'Express): «LACASE»  : Un parfum d’été souffle sur la maison ! == Олимпийские юношеские игры: команда Маврикия вошла в историю
-  dup check: new ()
-  not about Mauritius: Midterms : la Caroline du Nord devient démocrate, la Géorgie le reste… Tous les résultats clés
-Skipped foreign news (Le Mauricien): Midterms : la Caroline du Nord devient démocrate, la Géorgie le reste… Tous les résultats clés
-LLM usage this run: 7 requests, 12665 tokens
-### check 2/5 at 08:31
-  not news (portrait/lifestyle): «Automoto» : Un marché sous pression
-Skipped foreign news (L'Express): «Automoto» : Un marché sous pression
-  dup: nothing new (Сбор налогов за 2026 год: Rs 3,42 млрд собрано и Rs 851,2 млн выплачено в виде возвратов; зарегистрировано 324 921 декларация.)
-Skipped duplicate (L'Express): Déclarations d’impôt : Rs 3,4 milliards collectées par la MRA == Miss Ability 2026 — Pouraneswaree Vythilingum: когда отличие становится победой
-  dup check: new (В новой статье сообщается о новом призыве правительства к экономии воды от 3 ноября и подтверждении серьёзности ситуации с водоснабжением. Это новое с)
-Posted (Inside News): Кризис водоснабжения: использование питьевой воды теперь должно быть ограничено только самым необходимым
+Skipped duplicate (Inside News): Emploi à Maurice : fonction publique, STC, Banque de Maurice et PSEA recrutent == Работа на Маврикии: 11 работодателей нанимают, зарплаты до 164 700 рупий
   dup: nothing new ()
-Skipped duplicate (L'Express): Ludovic Collet : «Le Trail de Rodrigues n’a pas à rougir face aux autres organisations» == Miss Ability 2026 — Pouraneswaree Vythilingum: когда отличие становится победой
-LLM usage this run: 6 requests, 8590 tokens
-### check 3/5 at 08:35
-### check 4/5 at 08:39
+Skipped duplicate (L'Express): Esclavage : Charles III dénonce un «chapitre honteux de l’histoire» et une «injustice mons == Вечерние занятия в аудиториях во время беспорядков: «грубое нарушение» обязанности обеспеч
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Crise de l’eau : la subvention de Rs 15 000 au centre d’un différend sur les prix des rése == Схема Water Tank and Pump Scheme: получатели страдают из-за роста цен и приостановки заяво
-LLM usage this run: 1 requests, 913 tokens
-### check 5/5 at 08:43
-  not news (portrait/lifestyle): Julien Guillot-Sestier : «L’IA absorbe les tâches routinières, laissant aux professionnels les activ
-Skipped foreign news (L'Express): Julien Guillot-Sestier : «L’IA absorbe les tâches routinières, laissant aux professionnels les activ
+Skipped duplicate (L'Express): Roche-Bois : Sa fille de 13 mois décède, son compagnon arrêté == Трагедия в Roche-Bois: годовалая девочка умерла, сожитель матери арестован
   dup: nothing new ()
-Skipped duplicate (Wazaa): Ascencia investira 3,58 milliards de roupies sri-lankaises dans deux centres commerciaux d == Ascencia: 3,6 млрд рупий инвестируются в два торговых центра на востоке
-LLM usage this run: 2 requests, 3840 tokens
+Skipped duplicate (Inside News): Trafic de 1,5 tonne de stupéfiants : le garde-côte écroué devant la justice, la piste des  == Импорт 1,5 тонны каннабиса на борту судна Dreamer: подозреваемый Nishal назван отправителе
+LLM usage this run: 4 requests, 2218 tokens
