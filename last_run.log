@@ -1,19 +1,12 @@
-### check 1/5 at 16:51
-  dup check: new (Статья анонсирует новую встречу Eco-Sud 10 ноября в Port-Louis по вопросам политики, прозрачности и независимости институтов в контексте конституционн)
-  proofread: «Политика, прозрачность и независимость институтов» → «политики, прозрачности и доступа к информации»
-Posted (Le Mauricien): Конституционная реформа: Eco-Sud возобновляет общественные обсуждения
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Top FM): Политика — Roshi Bhadain исключает любые союзы: «Я никогда не вернусь в парламент, если народ не изберёт меня…»
-LLM usage this run: 5 requests, 8609 tokens
-### check 2/5 at 16:55
-### check 3/5 at 16:59
-### check 4/5 at 17:03
+### check 1/5 at 18:04
+  dup check: new (Собрано 3,42 млрд рупий по итогам налоговой кампании 2026 года; подано 324 921 деклараций; выплачено около 851 млн рупий в виде возвратов налогоплател)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Wazaa): Налоговая служба Маврикия (MRA) собрала 3,42 млрд рупий по итогам кампании подачи налоговых деклараций 2026 года
+  foreign words left: nt
+  leftovers fixed by GigaChat-3-Pro; still left: nt
+Posted (L'Express): Дело Bounceback: Van Niekerk оправдан, HRID получает новый удар
   dup: nothing new ()
-Skipped duplicate (Inside News): Pertes d’eau : neuf experts singapouriens commencent leur diagnostic dans l’Est == Девять экспертов из Сингапура прибыли на Маврикий для устранения потерь воды
+Skipped duplicate (Inside News): Tourisme : Maurice négocie à Londres les contrats de la saison 2027-2028 == Маврикий участвует в World Travel Market
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Sécheresse — Water Tanks : pressions des fournisseurs sur la subvention == Схема Water Tank and Pump Scheme: получатели страдают из-за роста цен и приостановки заяво
-LLM usage this run: 2 requests, 1712 tokens
-### check 5/5 at 17:07
-  dup: nothing new ()
-Skipped duplicate (L'Express): «Water Tank Grant Scheme» : La CWA rappelle que les bénéficiaires ne doivent rien débourse == Схема Water Tank and Pump Scheme: получатели страдают из-за роста цен и приостановки заяво
-LLM usage this run: 1 requests, 926 tokens
+Skipped duplicate (Top FM): Affaire Kistnen : « Akoz kass kinn touye Kistnen… », lance Roshi Bhadain, insistant sur la == Политика — Roshi Bhadain исключает любые союзы: «Я никогда не вернусь в парламент, если на
+LLM usage this run: 8 requests, 11873 tokens
