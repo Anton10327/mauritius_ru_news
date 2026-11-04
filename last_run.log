@@ -20,3 +20,7 @@ Skipped foreign news (Le Mauricien): From a University Library to a Conversation
   dup: nothing new ()
 Skipped duplicate (L'Express): [En images] Affaire Élodie Thomas : nouvelle reconstitution avec le chauffeur et trois pol == Дело Élodie Thomas — «Преступное бездействие»: полиция повторно предъявляет троим полицейс
 LLM usage this run: 4 requests, 6664 tokens
+### check 3/5 at 19:06
+  not news (portrait/lifestyle): Dossier l Marché du travail : la révolution de l’intelligence artificielle inquiète
+Skipped foreign news (L'Express): Dossier l Marché du travail : la révolution de l’intelligence artificielle inquiète
+LLM usage this run: 1 requests, 2972 tokens
