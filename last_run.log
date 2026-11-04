@@ -1,20 +1,14 @@
-### check 1/5 at 19:54
+### check 1/5 at 20:48
   dup: nothing new ()
-Skipped duplicate (Inside News): Éducation musicale : 775 élèves testeront un nouveau programme dans dix écoles == Соглашение с Yamaha Corporation: 775 учеников в десяти школах получат блокфлейты
-  dup check: new (Подписан новый международный договор между Маврикием, Сейшелами и CGG для геофизического исследования зоны площадью 396 000 км² с целью оценки углевод)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Wazaa): Маврикий и Сейшельские Острова совместно с CGG начинают исследование морского дна площадью 396 000 км²
-  dup: nothing new ()
-Skipped duplicate (Top FM): Sécurité hydrique : Business Mauritius appelle à un effort national pour préserver les res == Кризис водоснабжения: Business Mauritius запускает Water-Saving Toolkit для вовлечения ком
-LLM usage this run: 5 requests, 8089 tokens
-### check 2/5 at 19:58
-### check 3/5 at 20:02
-  foreign words left: Fidence, Group, The, of
-  leftovers fixed by GigaChat-3-Pro; still left: Group, The, of, Fidence
-Posted (L'Express): Интервью с Mahen Govinda: «Обещание Группы Фиденси простое: международная компетенция без потери персональной ответственности»
-  dup check: new (Маврикий присоединился к региональному усиленному механизму против ННН-промысла (SWIOP), который охватывает девять стран и финансируется ЕС на 11 млн )
+Skipped duplicate (Le Mauricien): Réforme — Révision constitutionnelle : ReA soumet ses propositions à la commission == Конституционная реформа: Eco-Sud возобновляет общественные обсуждения
   written by GigaChat-2-Max
-Posted (Inside News): Маврикий присоединился к усиленному региональному механизму борьбы с незаконной рыбалкой
-LLM usage this run: 6 requests, 8508 tokens
-### check 4/5 at 20:06
-### check 5/5 at 20:10
+Posted (Top FM): Пояснения по профсоюзным вычетам: соглашение между PSEA и UPSEE остается неизменным
+  dup check: new (Reconstitution des faits menée avec le chauffeur Rudy Soobrayen, impliquant trois policiers, nouvelle étape des investigations le mercredi suivant le )
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Элоди Томас → Élodie Thomas; Руди Субрайена → Rudy Soobrayen; Руди Субрайеном → Rudy Soobrayen; Кешав Джуммун → Kheshaw Jhummun
+Posted (Top FM): Дело Élodie Thomas: реконструкция событий с участием водителя Rudy Soobrayen
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Дивали: Центральная электросетевая корпорация обеспечивает бесперебойную подачу электроэнергии и призывает соблюдать осторожность
+LLM usage this run: 8 requests, 11454 tokens
