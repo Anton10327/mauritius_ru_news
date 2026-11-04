@@ -15,3 +15,12 @@ LLM usage this run: 6 requests, 7300 tokens
   not about Mauritius: Commonwealth : 202 millions de dollars pour protéger la nature, quelles opportunités pour Maurice ?
 Skipped foreign news (Inside News): Commonwealth : 202 millions de dollars pour protéger la nature, quelles opportunités pour Maurice ?
 LLM usage this run: 2 requests, 3689 tokens
+### check 4/5 at 15:05
+  dup: nothing new ()
+Skipped duplicate (L'Express): Trafic de drogue : La mer, cette frontière que Maurice peine à contrôler == Торговля наркотиками — ось Таиланд/Маврикий: яхта Dreamer, след семьи Dussoye на востоке
+  dup check: new (В статье упоминается запуск новой платформы www.mauritius.name для участия граждан в законодательном процессе и инициатива Dave Kissoondoyal по законо)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: www, mauritius, name
+  leftovers fixed by GigaChat-3-Pro; still left: www, mauritius, name
+Posted (Le Mauricien): Dave Kissoondoyal: «Демократия не ослабевает, когда гражданам дают больше слова»
+LLM usage this run: 5 requests, 5255 tokens
