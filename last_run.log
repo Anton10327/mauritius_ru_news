@@ -1,28 +1,13 @@
-### check 1/5 at 13:03
-  dup: nothing new (Объявление о найме Licensing Officer в Rodrigues от MASA с дедлайном 30 ноября; детали обязанностей и условия (резиденство на Rodrigues).)
-Skipped duplicate (Inside News): Rodrigues : la MASA recrute un Licensing Officer, candidatures jusqu’au 30 novembre == Резервуары: уровень заполнения упал до 51,4%
-  proofread: отделяется → отделено
-Posted (Wazaa): Группа Aret Kokin Nu Laplaz ставит под сомнение Стратегический экологический план по трём проектам в Bel Ombre
-  dup check: new (Пожар в шале Deux-Bras, подозреваемые — два мужчины, ущерб 1,9 млн рупий)
-  proofread: 
-Posted (Le Mauricien): Deux-Bras / Подозрения в поджоге в шале
-  dup check: new (История о женщине с метастатическим раком и сборе средств на лечение в Индии; ранее не публиковалось.)
-  not news (portrait/lifestyle): Cancer métastasé : après avoir perdu son mari, Sucheeta Ramen se bat pour vivre et a besoin de Rs 2,
-Skipped foreign news (Inside News): Cancer métastasé : après avoir perdu son mari, Sucheeta Ramen se bat pour vivre et a besoin de Rs 2,
-LLM usage this run: 8 requests, 12781 tokens
-### check 2/5 at 13:07
+### check 1/5 at 14:07
+Bad LLM answer from GigaChat-3-Ultra: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"К сожалению, иногда генеративные языковые модели могут создавать некорректные ответы, основанные на открытых источниках. Во избежание неправильного толкования, ответы на вопросы, связанные с чувствительными темами, временно ограничены. Благодарим за понимание.","ro
+Bad LLM answer from GigaChat-2-Max: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"Как и любая языковая модель, GigaChat не обладает собственным мнением и не транслирует мнение своих разработчиков. Ответ сгенерирован нейросетевой моделью, обученной на открытых данных, в которых может содержаться неточная или ошибочная информация. Во избежание неп
+  written by GigaChat-3-Pro
+  not about Mauritius: Ukraine : 40 morts dans une frappe russe, trois centrales thermiques paralysées et Kyiv frappée par 
+Skipped foreign news (Inside News): Ukraine : 40 morts dans une frappe russe, trois centrales thermiques paralysées et Kyiv frappée par 
+  dup check: new (Рейд антинаркотической полиции в Quatre-Bornes с изъятием наркотиков на 2,5 млн рупий и задержанием одного подозреваемого; второй подозреваемый остаёт)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Парусная рыбалка — La Pirogue Marlin World Cup, 9–11 декабря
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): ENVIRONNEMENT — Projet RECOS — Rivière-Noire : 109 problèmes identifiés, dont 16 urgents == Rivière-Noire: десятилетний план действий для защиты побережья и прибрежных сообществ
-Posted (L'Express): Cottage: 69-летняя автомобилистка утверждает, что подверглась нападению со стороны водителя
-  dup check: new (NADC выпустила бюллетень бдительности и публично предупредила о повышенных рисках загрязнения наркотиков в стране; CEO NADC Kunal Naik прокомментирова)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Наркотики: NADC предупреждает о рисках заражения, связанных с веществами в обращении
-LLM usage this run: 8 requests, 13882 tokens
-### check 3/5 at 13:11
-### check 4/5 at 13:15
-  dup: nothing new ()
-Skipped duplicate (Inside News): Impôt sur le revenu : Rs 3,42 milliards collectés et Rs 851 millions remboursés aux contri == Налоговая служба Маврикия (MRA) собрала 3,42 млрд рупий по итогам кампании подачи налоговы
-LLM usage this run: 1 requests, 1518 tokens
-### check 5/5 at 13:19
+Posted (Wazaa): Полиция Маврикия разыскивает беглеца после антинаркотического рейда на 2,5 млн рупий в Quatre-Bornes
+  dup: nothing new (Четвёртая повестка Кобиты Джугнаут в FCC и упор г-жи Гульбуль на строгость расследования; сумма Rs 114 млн, найденных в четырёх чемоданах у дома Жозиа)
+Skipped duplicate (L'Express): Quatrième convocation de Kobita Jugnauth à la FCC : Mᵉ Gulbul insiste sur la rigueur de l’ == Grand-Bois: бангладешская работница найдена мёртвой в женском общежитии
+Posted (Le Mauricien): African Cristal Festival: CIRCUS! Advertising вновь названа «Агентством года» во второй раз подряд
+LLM usage this run: 9 requests, 18334 tokens
