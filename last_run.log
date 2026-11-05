@@ -1,12 +1,18 @@
-### check 1/5 at 19:27
-  dup check: new (Speculation about Xavier‑Luc Duval possibly returning to the National Assembly via the Best Loser System and a potential resignation of his son Adrien)
-  not news (portrait/lifestyle): Politique : Un bis repetita de 1991 pour les Duval ?
-Skipped foreign news (L'Express): Politique : Un bis repetita de 1991 pour les Duval ?
-  dup check: new (Le directeur général de la Central Water Authority, Shiam Thannoo, a demandé aux bénéficiaires du programme d’aide à l’achat de réservoirs d’eau de ne)
+### check 1/5 at 20:34
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup check: new (Déclaration de la députée Joanna Bérenger le 4 novembre sur un différend de paiement de six mois concernant les transporteurs de déchets à Mare‑Chicos)
   proofread by qwen/qwen3.8-27b
-Posted (Inside News): Резервуары для воды: CWA просит получателей не платить никаких доплат
-LLM usage this run: 5 requests, 10233 tokens
-### check 2/5 at 19:31
-### check 3/5 at 19:35
-### check 4/5 at 19:39
-### check 5/5 at 19:43
+Posted (Inside News): [видео] Mare-Chicose: заявлено о шестимесячной задолженности, существует риск сбоя в обработке отходов
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Вопросы к… Ahmad Sulliman: «Мы переживаем те же проблемы, что и при прежнем режиме, если не хуже»
+  dup check: new (Three Chagossian claimants (Bertrice Pompe, Louis Michel Mandarin, Louis Misley Mandarin) are contesting the UK-Mauritius agreement in a British court)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): Жители Чагоса оспаривают соглашение между Великобританией и Маврикием в британском суде
+  dup check: new (Annonce d'un concert gratuit à Lallmatie le dimanche 8 novembre à 19h30 avec le chanteur Chaitanya Devadhe, finaliste d'Indian Idol, pour célébrer Diw)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  foreign words left: Indian, Committee
+  leftovers fixed by qwen/qwen3.8-27b; still left: Indian, Committee
+Posted (L'Express): Звезда Indian Idol выступит на фестивале Дивали в Lallmatie
+LLM usage this run: 12 requests, 19882 tokens
