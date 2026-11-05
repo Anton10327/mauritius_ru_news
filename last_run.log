@@ -24,3 +24,11 @@ Posted (Inside News): National Empowerment Foundation объявила тенд�
 LLM usage this run: 9 requests, 13980 tokens
 ### check 3/5 at 12:08
 ### check 4/5 at 12:12
+### check 5/5 at 12:16
+Could not read article https://www.inside.news/stc-maintenance-oracle-e-business-suite-2026/: 503 Server Error: Service Unavailable for url: https://www.inside.news/stc-maintenance-oracle-e-business-suite-2026/
+  dup check: new (State Trading Corporation объявила о тендере на обслуживание своей системы Oracle E-Business Suite с дедлайном 2 декабря; опубликована ссылка на номер)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Oracle
+  leftovers fixed by GigaChat-3-Pro; still left: Oracle
+Posted (Inside News): State Trading Corporation объявила новый тендер на обслуживание системы Oracle
+LLM usage this run: 4 requests, 5251 tokens
