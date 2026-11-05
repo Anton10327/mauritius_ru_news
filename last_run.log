@@ -14,3 +14,11 @@ Skipped duplicate (Wazaa): Trois travailleurs bangladais tués dans l’effondre
 Skipped duplicate (Inside News): Ébène : une nouvelle liaison B1–M1 pour fluidifier la circulation, mais quel gain réel pou == Октябрьские беспорядки на Маврикии: 195 задержаний, 26 несовершеннолетних и вопрос, которы
 LLM usage this run: 2 requests, 1459 tokens
 ### check 4/5 at 09:49
+### check 5/5 at 09:53
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: de, moter
+  leftovers fixed by GigaChat-3-Pro; still left: de, moter
+Posted (L'Express): Trail de Rodrigues: тема, близкая RTA
+  dup: nothing new (В статье анонсируется церемония в честь организаций и спонсоров NICE 2026, которая пройдёт 5 ноября в Port-Louis. Указаны дата, время (14:00), место ()
+Skipped duplicate (Top FM): NICE 2026 : hommage aux ONG et sponsors engagés dans l’éducation civique des jeunes == Октябрьские беспорядки на Маврикии: 195 задержаний, 26 несовершеннолетних и вопрос, которы
+LLM usage this run: 4 requests, 5454 tokens
