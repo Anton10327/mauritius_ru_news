@@ -1,29 +1,13 @@
-### check 1/5 at 14:07
-Bad LLM answer from GigaChat-3-Ultra: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"К сожалению, иногда генеративные языковые модели могут создавать некорректные ответы, основанные на открытых источниках. Во избежание неправильного толкования, ответы на вопросы, связанные с чувствительными темами, временно ограничены. Благодарим за понимание.","ro
-Bad LLM answer from GigaChat-2-Max: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"Как и любая языковая модель, GigaChat не обладает собственным мнением и не транслирует мнение своих разработчиков. Ответ сгенерирован нейросетевой моделью, обученной на открытых данных, в которых может содержаться неточная или ошибочная информация. Во избежание неп
-  written by GigaChat-3-Pro
-  not about Mauritius: Ukraine : 40 morts dans une frappe russe, trois centrales thermiques paralysées et Kyiv frappée par 
-Skipped foreign news (Inside News): Ukraine : 40 morts dans une frappe russe, trois centrales thermiques paralysées et Kyiv frappée par 
-  dup check: new (Рейд антинаркотической полиции в Quatre-Bornes с изъятием наркотиков на 2,5 млн рупий и задержанием одного подозреваемого; второй подозреваемый остаёт)
+### check 1/5 at 15:09
+  dup check: new (В новой статье сообщается о начале расследования FCC против SMS Pariaz и допросе акционера Pazhany Thandrayen, что не упоминалось в ранее опубликованн)
+  foreign words left: Commission
+  leftovers fixed by GigaChat-3-Pro; still left: Commission
+Posted (L'Express): Расследование FCC в отношении SMS Pariaz: акционера Pazhany Thandrayen допрашивают
   proofread: edit rejected (changed numbers, names or length)
-Posted (Wazaa): Полиция Маврикия разыскивает беглеца после антинаркотического рейда на 2,5 млн рупий в Quatre-Bornes
-  dup: nothing new (Четвёртая повестка Кобиты Джугнаут в FCC и упор г-жи Гульбуль на строгость расследования; сумма Rs 114 млн, найденных в четырёх чемоданах у дома Жозиа)
-Skipped duplicate (L'Express): Quatrième convocation de Kobita Jugnauth à la FCC : Mᵉ Gulbul insiste sur la rigueur de l’ == Grand-Bois: бангладешская работница найдена мёртвой в женском общежитии
-Posted (Le Mauricien): African Cristal Festival: CIRCUS! Advertising вновь названа «Агентством года» во второй раз подряд
-LLM usage this run: 9 requests, 18334 tokens
-### check 2/5 at 14:11
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Содружество наций: Navin Ramgoolam напомнил, что Индийский океан также пострадал от рабства
-  dup check: new (Новый тендер на печать и поставку учебников для 7–9 классов с дедлайном подачи заявок до 24 ноября; ссылка на процедуру MOEHR/G/ONB 025/2026-2027.)
-Posted (Inside News): Учебники для 7–9 классов: новый тендер, решающим фактором станет своевременная поставка
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Alliance ou pas? — Bhadain : « Je ne rejoindrai pas un GM sans avoir été élu par le peuple == Политика — Roshi Bhadain исключает любые союзы: «Я никогда не вернусь в парламент, если на
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): CAMP-LEVIEUX — Affaire Élodie Thomas / Reconstitution des faits, hier, sans le Sgt Gautam  == Дело Élodie Thomas: реконструкция событий с участием водителя Rudy Soobrayen
-LLM usage this run: 7 requests, 11486 tokens
-### check 3/5 at 14:15
-  dup: nothing new ()
-Skipped duplicate (Top FM): Drogue : les centres de réhabilitation réclament davantage de moyens == Наркотики: NADC предупреждает о рисках заражения, связанных с веществами в обращении
-LLM usage this run: 1 requests, 1126 tokens
-### check 4/5 at 14:19
-### check 5/5 at 14:23
+Posted (Le Mauricien): Высшее образование: упрощение признания дипломов на уровне Африки
+  dup check: new ()
+Posted (L'Express): Выборы в США: прорыв демократов в Вашингтоне — новый сигнал для Африки?
+  dup check: new (Объявлен новый тендер на закупку капсул радиоактивного йода-131 для отделения ядерной медицины; указаны дата публикации (3 ноября), номер процедуры MH)
+  proofread: 
+Posted (Inside News): Ядерная медицина: Министерство здравоохранения объявляет тендер на капсулы с радиоактивным йодом
+LLM usage this run: 12 requests, 17523 tokens
