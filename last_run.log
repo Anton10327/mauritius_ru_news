@@ -1,29 +1,5 @@
-### check 1/5 at 21:36
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+### check 1/5 at 22:21
   written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Дорин Фонг Венг-Пурун → Doreen Fong Weng-Poorun; Национального гражданского воспитания (NICE) → Национальной инициативы по гражданскому воспитанию (NICE); Маврикия → Maurice; Родригеса → Rodrigues; Агалеги → Agaléga
-Posted (L'Express): «Недавние инциденты подтверждают нашу правоту», считает Doreen Fong Weng-Poorun
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Махенд Гунгаперсад → Mahend Gungapersad
-Posted (L'Express): Семинар по этике и прозрачности государственных закупок для 150 сотрудников министерства образования
-  dup check: new (Navin Ramgoolam a demandé une feuille de route claire pour le dossier des Chagos avec une première échéance en décembre 2026, suite à un entretien ave)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамгулам → Navin Ramgoolam
-Posted (Top FM): Navin Ramgoolam требует дорожной карты по Чагосу с первым сроком в декабре
-LLM usage this run: 7 requests, 9921 tokens
-### check 2/5 at 21:40
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 3/5 at 21:44
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  dup check: new (Prévisions météorologiques annonçant des averses le 5 novembre, notamment sur le plateau central et les zones élevées de l'île, avec températures maxi)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Le Plateau Central se prépare à la pluie, tandis que l’île prévoit des averses le 5 novembre
-Skipped foreign news (Wazaa): Le Plateau Central se prépare à la pluie, tandis que l’île prévoit des averses le 5 novembre
-LLM usage this run: 2 requests, 3971 tokens
-### check 4/5 at 21:48
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 5/5 at 21:52
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  not news (portrait/lifestyle): Analyse boursière : La Bourse clôture la semaine en hausse
+Skipped foreign news (L'Express): Analyse boursière : La Bourse clôture la semaine en hausse
+LLM usage this run: 1 requests, 2882 tokens
