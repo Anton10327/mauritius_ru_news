@@ -13,3 +13,11 @@ Skipped duplicate (Le Mauricien): AÉROPORT SSR — Trois Malaisiens arrêtés :
   dup: nothing new (Заявление бывшего премьер-министра Правинда Джагнота о кризисе с наркотиками и недавних смертях от передозировок; его комментарии по безопасности на ф)
 Skipped duplicate (Inside News): Trafic de drogue : Pravind Jugnauth sonne l’alarme et tire à boulets rouges == Изменение климата: Маврикий усиливает системы раннего предупреждения с WISER ActionFirst
 LLM usage this run: 9 requests, 13734 tokens
+### check 2/5 at 16:08
+  dup check: new (В статье впервые упоминается расследование возможных сговоров между поставщиками в рамках Water Tank Grant Scheme и решение Министерства энергетики и )
+Posted (L'Express): Схема субсидий на водяные баки: подозрения в сговоре поставщиков, страдают получатели
+  dup check: new (Объявлен новый государственный тендер на управление отходами после циклона: министерство ищет подрядчиков для трех лотов с дедлайном 30 ноября; процед)
+  proofread: 
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Inside News): Сезон циклонов: государство готовит управление отходами, но будут ли достаточными возможности реагирования?
+LLM usage this run: 6 requests, 10445 tokens
