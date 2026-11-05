@@ -1,38 +1,16 @@
-### check 1/5 at 20:34
+### check 1/5 at 21:36
 Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  dup check: new (Déclaration de la députée Joanna Bérenger le 4 novembre sur un différend de paiement de six mois concernant les transporteurs de déchets à Mare‑Chicos)
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): [видео] Mare-Chicose: заявлено о шестимесячной задолженности, существует риск сбоя в обработке отходов
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Вопросы к… Ahmad Sulliman: «Мы переживаем те же проблемы, что и при прежнем режиме, если не хуже»
-  dup check: new (Three Chagossian claimants (Bertrice Pompe, Louis Michel Mandarin, Louis Misley Mandarin) are contesting the UK-Mauritius agreement in a British court)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Inside News): Жители Чагоса оспаривают соглашение между Великобританией и Маврикием в британском суде
-  dup check: new (Annonce d'un concert gratuit à Lallmatie le dimanche 8 novembre à 19h30 avec le chanteur Chaitanya Devadhe, finaliste d'Indian Idol, pour célébrer Diw)
+  proofread: Дорин Фонг Венг-Пурун → Doreen Fong Weng-Poorun; Национального гражданского воспитания (NICE) → Национальной инициативы по гражданскому воспитанию (NICE); Маврикия → Maurice; Родригеса → Rodrigues; Агалеги → Agaléga
+Posted (L'Express): «Недавние инциденты подтверждают нашу правоту», считает Doreen Fong Weng-Poorun
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  foreign words left: Indian, Committee
-  leftovers fixed by qwen/qwen3.8-27b; still left: Indian, Committee
-Posted (L'Express): Звезда Indian Idol выступит на фестивале Дивали в Lallmatie
-LLM usage this run: 12 requests, 19882 tokens
-### check 2/5 at 20:38
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  dup check: new (Трудовые проблемы в текстильном секторе: до 600 работников группы World Knits, Kline Ltd и Universal Fabrics находятся в неопределённости, вопросы дос)
+  proofread: Махенд Гунгаперсад → Mahend Gungapersad
+Posted (L'Express): Семинар по этике и прозрачности государственных закупок для 150 сотрудников министерства образования
+  dup check: new (Navin Ramgoolam a demandé une feuille de route claire pour le dossier des Chagos avec une première échéance en décembre 2026, suite à un entretien ave)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Атма Шанто → Atma Shanto
-Posted (Top FM): До 600 работников текстильной отрасли оказались в подвешенном состоянии…
-LLM usage this run: 3 requests, 4598 tokens
-### check 3/5 at 20:42
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 4/5 at 20:46
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
-### check 5/5 at 20:50
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  dup check: new (Article links Mauritius water management to lessons from the Himalayas presented at UNFCCC COP31, introducing a new perspective not covered in the pre)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): UNFCCC COP31 / Learning from the Himalayas (Part 2) : Mauritius should stop treating water as a rain
-Skipped foreign news (L'Express): UNFCCC COP31 / Learning from the Himalayas (Part 2) : Mauritius should stop treating water as a rain
-LLM usage this run: 2 requests, 3890 tokens
+  proofread: Навин Рамгулам → Navin Ramgoolam
+Posted (Top FM): Navin Ramgoolam требует дорожной карты по Чагосу с первым сроком в декабре
+LLM usage this run: 7 requests, 9921 tokens
