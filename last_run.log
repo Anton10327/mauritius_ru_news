@@ -8,3 +8,10 @@ Skipped duplicate (Inside News): Port-Louis : la rue Monseigneur Leen partiellem
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): PLAINE-DES-PAPAYES — Hier après-midi / Fin atroce pour trois Bangladais tués dans un accid == Три рабочих из Бангладеш погибли в Plaine-des-Papayes
 LLM usage this run: 4 requests, 3878 tokens
+### check 2/5 at 10:44
+  dup check: new (Мэрия Port-Louis объявила о готовности к сезону сильных дождей: начата очистка ливневых стоков, приобретено новое оборудование для реагирования на чре)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Сезон сильных дождей: Port-Louis заявляет о готовности к любым сценариям
+  dup: nothing new ()
+Skipped duplicate (Top FM): Personnes en situation de handicap : Ashvin Gudday appelle à promouvoir l’inclusion == Равенство прав: EOC на передовой борьбы с дискриминацией по признаку инвалидности
+LLM usage this run: 4 requests, 4541 tokens
