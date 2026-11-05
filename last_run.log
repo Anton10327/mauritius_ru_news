@@ -1,24 +1,15 @@
-### check 1/5 at 15:09
-  dup check: new (В новой статье сообщается о начале расследования FCC против SMS Pariaz и допросе акционера Pazhany Thandrayen, что не упоминалось в ранее опубликованн)
-  foreign words left: Commission
-  leftovers fixed by GigaChat-3-Pro; still left: Commission
-Posted (L'Express): Расследование FCC в отношении SMS Pariaz: акционера Pazhany Thandrayen допрашивают
+### check 1/5 at 16:04
+  dup check: new (В статье описан конкретный случай нападения на жителя во время комендантского часа: его преследовали и избили за выход из дома по медицинским причинам)
+  proofread: направлявшийся в hôpital Jeetoo → направлявшийся в больницу Jeetoo; подвергся нападению в Vallée-des-Prêtres → подвергся нападению в районе Vallée-des-Prêtres; его машину блокировали мотоциклисты → его машину заблокировали мотоциклисты; оскорбили и потребовали выйти → оскорбляли и требовали выйти; о
+  foreign words left: hôpital
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Le Mauricien): В разгар комендантского часа: преследование и избиение на Champ-de-Mars
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Высшее образование: упрощение признания дипломов на уровне Африки
-  dup check: new ()
-Posted (L'Express): Выборы в США: прорыв демократов в Вашингтоне — новый сигнал для Африки?
-  dup check: new (Объявлен новый тендер на закупку капсул радиоактивного йода-131 для отделения ядерной медицины; указаны дата публикации (3 ноября), номер процедуры MH)
-  proofread: 
-Posted (Inside News): Ядерная медицина: Министерство здравоохранения объявляет тендер на капсулы с радиоактивным йодом
-LLM usage this run: 12 requests, 17523 tokens
-### check 2/5 at 15:13
-  not about Mauritius: BANQUES : Absa Group s’installe à Dubaï pour le lien Golfe/Afrique
-Skipped foreign news (Le Mauricien): BANQUES : Absa Group s’installe à Dubaï pour le lien Golfe/Afrique
-  proofread: National Certificate Level 1 → Национальный сертификат уровня 1
-  foreign words left: National
-  leftovers fixed by GigaChat-3-Pro; still left: National
-Posted (Top FM): Борьба с неграмотностью: 75 взрослых получили National Certificate Level 1
-LLM usage this run: 4 requests, 7076 tokens
-### check 3/5 at 15:17
-### check 4/5 at 15:21
-### check 5/5 at 15:25
+  foreign words left: kuthuvilakku
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Le Mauricien): Дивали | Rajen Narsinghen в Caudan: «Была искра, вы разжигали её несколько раз»
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): AÉROPORT SSR — Trois Malaisiens arrêtés : 76,14 kg de cannabis compressé thaï dissimulés d == Аэропорт: 10,94 кг каннабиса на 16,4 млн рупий в багаже малайзийца
+  dup: nothing new (Заявление бывшего премьер-министра Правинда Джагнота о кризисе с наркотиками и недавних смертях от передозировок; его комментарии по безопасности на ф)
+Skipped duplicate (Inside News): Trafic de drogue : Pravind Jugnauth sonne l’alarme et tire à boulets rouges == Изменение климата: Маврикий усиливает системы раннего предупреждения с WISER ActionFirst
+LLM usage this run: 9 requests, 13734 tokens
