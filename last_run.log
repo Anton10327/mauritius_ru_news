@@ -1,26 +1,13 @@
-### check 1/5 at 16:04
-  dup check: new (В статье описан конкретный случай нападения на жителя во время комендантского часа: его преследовали и избили за выход из дома по медицинским причинам)
-  proofread: направлявшийся в hôpital Jeetoo → направлявшийся в больницу Jeetoo; подвергся нападению в Vallée-des-Prêtres → подвергся нападению в районе Vallée-des-Prêtres; его машину блокировали мотоциклисты → его машину заблокировали мотоциклисты; оскорбили и потребовали выйти → оскорбляли и требовали выйти; о
-  foreign words left: hôpital
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Le Mauricien): В разгар комендантского часа: преследование и избиение на Champ-de-Mars
+### check 1/5 at 17:13
+  dup check: new (В статье упоминается участие президента республики Dharam Gokhool в Divali Mahotsav и его речь о значении праздника. В опубликованном посте 4 нет инфо)
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: kuthuvilakku
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Le Mauricien): Дивали | Rajen Narsinghen в Caudan: «Была искра, вы разжигали её несколько раз»
+Posted (Le Mauricien): Фестиваль Дивали в Phoenix: Dharam Gokhool призывает к национальному единству
+  dup check: new (Криштиану Роналдо объявил о завершении международной карьеры в составе сборной Португалии после 234 матчей. Это событие аналогично недавнему завершени)
+  not about Mauritius: RETRAITE DE CRISTIANO RONALDO AVEC LE PORTUGAL
+Skipped foreign news (Le Mauricien): RETRAITE DE CRISTIANO RONALDO AVEC LE PORTUGAL
+  dup check: new (В статье сообщается о новом событии — торнадо в городе Шапеко (Бразилия), повреждении аэропорта и приостановке полётов на неопределённый срок. Это соб)
+  not about Mauritius: [VIDEO]Brésil : une tornade endommage l’aéroport de Chapecó, les vols suspendus
+Skipped foreign news (Inside News): [VIDEO]Brésil : une tornade endommage l’aéroport de Chapecó, les vols suspendus
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): AÉROPORT SSR — Trois Malaisiens arrêtés : 76,14 kg de cannabis compressé thaï dissimulés d == Аэропорт: 10,94 кг каннабиса на 16,4 млн рупий в багаже малайзийца
-  dup: nothing new (Заявление бывшего премьер-министра Правинда Джагнота о кризисе с наркотиками и недавних смертях от передозировок; его комментарии по безопасности на ф)
-Skipped duplicate (Inside News): Trafic de drogue : Pravind Jugnauth sonne l’alarme et tire à boulets rouges == Изменение климата: Маврикий усиливает системы раннего предупреждения с WISER ActionFirst
-LLM usage this run: 9 requests, 13734 tokens
-### check 2/5 at 16:08
-  dup check: new (В статье впервые упоминается расследование возможных сговоров между поставщиками в рамках Water Tank Grant Scheme и решение Министерства энергетики и )
-Posted (L'Express): Схема субсидий на водяные баки: подозрения в сговоре поставщиков, страдают получатели
-  dup check: new (Объявлен новый государственный тендер на управление отходами после циклона: министерство ищет подрядчиков для трех лотов с дедлайном 30 ноября; процед)
-  proofread: 
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Сезон циклонов: государство готовит управление отходами, но будут ли достаточными возможности реагирования?
-LLM usage this run: 6 requests, 10445 tokens
-### check 3/5 at 16:12
-### check 4/5 at 16:16
-### check 5/5 at 16:20
+Skipped duplicate (Le Mauricien): JOURNÉE MONDIALE DE L’ALIMENTATION : L’ACIM prône une Alimentation saine et sans gaspillag == Изменение климата: Маврикий усиливает системы раннего предупреждения с WISER ActionFirst
+LLM usage this run: 8 requests, 13128 tokens
