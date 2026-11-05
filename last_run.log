@@ -1,27 +1,8 @@
-### check 1/5 at 18:28
-  dup check: new (Суд объявил о поиске временных переводчиков на тайском, непальском и португальском языках для обеспечения языковой поддержки в судебных процедурах.)
-Posted (Inside News): Правосудие: маврикийские суды ищут устных переводчиков по трём иностранным языкам
-  dup: nothing new ()
-Skipped duplicate (L'Express): Dossier Chagos : Navin Ramgoolam et Andy Burnham visent une feuille de route d’ici décembr == Содружество наций: Navin Ramgoolam напомнил, что Индийский океан также пострадал от рабств
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Île Maurice lance un kit d’outils de six semaines alors que les niveaux des réservoirs d’e == Кризис водоснабжения: Business Mauritius запускает Water-Saving Toolkit для вовлечения ком
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La douloureuse / Des recettes fiscales de Rs 3,42 milliards pour la MRA == Налоговая служба Маврикия (MRA) собрала 3,42 млрд рупий по итогам кампании подачи налоговы
-LLM usage this run: 6 requests, 8254 tokens
-### check 2/5 at 18:32
-  dup check: new (Maurice se classe huitième sur les 56 pays du Commonwealth en matière de préparation des jeunes à l’intelligence artificielle avec un score de 64,4/10)
-  proofread: 
-Posted (L'Express): По индексу Ayre: Маврикий — первая африканская страна Содружества по готовности молодёжи к искусственному интеллекту
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Министр труда Reza Uteem: «Удивительно, что до сих пор полиция не смогла привлечь к ответственности ни одного нелегального работодателя на Маврикии»
-  dup check: new (Объявление о наборе на должность Principal Transport Analyst в Министерстве наземного транспорта 4 ноября; подробности о квалификации и условиях работ)
-Posted (Inside News): Политика в сфере транспорта: министерство ищет главного аналитика
-  same headline as #80: Selon l’Ayre Index : Maurice, premier pays africain du Commonwealth pour la prép
-Skipped duplicate (Top FM): Intelligence artificielle : Maurice dans le top 8 du Commonwealth pour la préparation des  == По индексу Ayre: Маврикий — первая африканская страна Содружества по готовности молодёжи к
-LLM usage this run: 8 requests, 13953 tokens
-### check 3/5 at 18:36
-### check 4/5 at 18:40
-  proofread: Arvin Boolell → Арвин Булелл; ВОЗ, ПРООН → ВОЗ, Программа развития ООН
-Posted (Le Mauricien): Пестициды: Boolell грозит нарушителям
-LLM usage this run: 2 requests, 4058 tokens
-### check 5/5 at 18:44
+### check 1/5 at 19:27
+  dup check: new (Speculation about Xavier‑Luc Duval possibly returning to the National Assembly via the Best Loser System and a potential resignation of his son Adrien)
+  not news (portrait/lifestyle): Politique : Un bis repetita de 1991 pour les Duval ?
+Skipped foreign news (L'Express): Politique : Un bis repetita de 1991 pour les Duval ?
+  dup check: new (Le directeur général de la Central Water Authority, Shiam Thannoo, a demandé aux bénéficiaires du programme d’aide à l’achat de réservoirs d’eau de ne)
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): Резервуары для воды: CWA просит получателей не платить никаких доплат
+LLM usage this run: 5 requests, 10233 tokens
