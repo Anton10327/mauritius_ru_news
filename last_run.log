@@ -1,23 +1,13 @@
-### check 1/5 at 10:40
+### check 1/5 at 12:00
+  proofread: CEO Marcelo Aleman → CEO Марсело Алеман
+  foreign words left: blink, Emtel
+  leftovers fixed by GigaChat-3-Pro; still left: Blink, Emtel
+Posted (Le Mauricien): Мобильная связь — Эксклюзивно в приложении Blink: Emtel запускает тарифы Data Maxing
+  proofread: «A Hawker in suit» → «A Hawker in Suit»; Fron Militan Progresis → Фронт Милитан Прогресис
+Posted (L'Express): «A Hawker in Suit»: бывший полицейский Hissen Caramben изложил свою историю в книге
   dup: nothing new ()
-Skipped duplicate (L'Express): Fam moter trail : Un thème cher à la RTA == Trail de Rodrigues: тема, близкая RTA
-  dup: nothing new ()
-Skipped duplicate (L'Express): Hippisme : Board d’appel divisé, Van Niekerk blanchi == Дело Bounceback: Van Niekerk оправдан, HRID получает новый удар
-  dup: nothing new ()
-Skipped duplicate (Inside News): Port-Louis : la rue Monseigneur Leen partiellement fermée du 6 novembre au 21 décembre == Port-Louis: почти семь недель объездов на улице Monseigneur Leen
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): PLAINE-DES-PAPAYES — Hier après-midi / Fin atroce pour trois Bangladais tués dans un accid == Три рабочих из Бангладеш погибли в Plaine-des-Papayes
-LLM usage this run: 4 requests, 3878 tokens
-### check 2/5 at 10:44
-  dup check: new (Мэрия Port-Louis объявила о готовности к сезону сильных дождей: начата очистка ливневых стоков, приобретено новое оборудование для реагирования на чре)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Сезон сильных дождей: Port-Louis заявляет о готовности к любым сценариям
-  dup: nothing new ()
-Skipped duplicate (Top FM): Personnes en situation de handicap : Ashvin Gudday appelle à promouvoir l’inclusion == Равенство прав: EOC на передовой борьбы с дискриминацией по признаку инвалидности
-LLM usage this run: 4 requests, 4541 tokens
-### check 3/5 at 10:48
-  proofread: Государственной информационной службы → Государственная информационная служба
-Posted (Inside News): Правосудие и ответственность полиции: новое сообщение комиссии по жалобам на полицию от 4 ноября
-LLM usage this run: 2 requests, 3507 tokens
-### check 4/5 at 10:52
-### check 5/5 at 10:56
+Skipped duplicate (Le Mauricien): Water Stewardship Forum — Crise hydrique : GM et secteur privé plaident pour une mobilisat == Кризис водоснабжения: Business Mauritius запускает Water-Saving Toolkit для вовлечения ком
+  dup check: new (Опубликован новый тендер на поставку реагентов и расходных материалов для лабораторий биологического профиля от 4 ноября. Это отдельное событие, не св)
+  proofread: 
+Posted (Inside News): Здравоохранение: новый тендер на реагенты и лабораторные расходные материалы
+LLM usage this run: 9 requests, 13676 tokens
