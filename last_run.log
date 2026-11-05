@@ -8,3 +8,14 @@ Skipped duplicate (Wazaa): Île Maurice lance un kit d’outils de six semaines 
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): La douloureuse / Des recettes fiscales de Rs 3,42 milliards pour la MRA == Налоговая служба Маврикия (MRA) собрала 3,42 млрд рупий по итогам кампании подачи налоговы
 LLM usage this run: 6 requests, 8254 tokens
+### check 2/5 at 18:32
+  dup check: new (Maurice se classe huitième sur les 56 pays du Commonwealth en matière de préparation des jeunes à l’intelligence artificielle avec un score de 64,4/10)
+  proofread: 
+Posted (L'Express): По индексу Ayre: Маврикий — первая африканская страна Содружества по готовности молодёжи к искусственному интеллекту
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Министр труда Reza Uteem: «Удивительно, что до сих пор полиция не смогла привлечь к ответственности ни одного нелегального работодателя на Маврикии»
+  dup check: new (Объявление о наборе на должность Principal Transport Analyst в Министерстве наземного транспорта 4 ноября; подробности о квалификации и условиях работ)
+Posted (Inside News): Политика в сфере транспорта: министерство ищет главного аналитика
+  same headline as #80: Selon l’Ayre Index : Maurice, premier pays africain du Commonwealth pour la prép
+Skipped duplicate (Top FM): Intelligence artificielle : Maurice dans le top 8 du Commonwealth pour la préparation des  == По индексу Ayre: Маврикий — первая африканская страна Содружества по готовности молодёжи к
+LLM usage this run: 8 requests, 13953 tokens
