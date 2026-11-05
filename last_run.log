@@ -11,3 +11,14 @@ Skipped duplicate (Le Mauricien): Water Stewardship Forum — Crise hydrique : G
   proofread: 
 Posted (Inside News): Здравоохранение: новый тендер на реагенты и лабораторные расходные материалы
 LLM usage this run: 9 requests, 13676 tokens
+### check 2/5 at 12:04
+Posted (Le Mauricien): Rose-Hill: Предприниматель стал жертвой угроз и попытки вымогательства у своего ресторана
+  dup: nothing new ()
+Skipped duplicate (Inside News): Enseignement privé : la PSEA dément toute modification de l’accord sur le redéploiement du == Пояснения по профсоюзным вычетам: соглашение между PSEA и UPSEE остается неизменным
+  dup check: new (В статье сообщается о задержании гражданина Малайзии с 10,94 кг каннабиса на сумму Rs 16,4 млн в аэропорту Маврикия, что является новым событием.)
+  proofread: имени сэра Сивусагура Рамгулама → имени Сивусагура Рамгулама
+Posted (L'Express): Аэропорт: 10,94 кг каннабиса на 16,4 млн рупий в багаже малайзийца
+  dup check: new (National Empowerment Foundation объявила тендер на поставку 32 ноутбуков и 32 лицензий Microsoft Office Home & Business 2024 для маврикийских компаний)
+  proofread: «до 7 декабря 2026» → «до 7 декабря 2026 года»
+Posted (Inside News): National Empowerment Foundation объявила тендер на 32 ноутбука и 32 лицензии ПО
+LLM usage this run: 9 requests, 13980 tokens
