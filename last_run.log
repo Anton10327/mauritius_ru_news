@@ -1,34 +1,12 @@
-### check 1/5 at 12:00
-  proofread: CEO Marcelo Aleman → CEO Марсело Алеман
-  foreign words left: blink, Emtel
-  leftovers fixed by GigaChat-3-Pro; still left: Blink, Emtel
-Posted (Le Mauricien): Мобильная связь — Эксклюзивно в приложении Blink: Emtel запускает тарифы Data Maxing
-  proofread: «A Hawker in suit» → «A Hawker in Suit»; Fron Militan Progresis → Фронт Милитан Прогресис
-Posted (L'Express): «A Hawker in Suit»: бывший полицейский Hissen Caramben изложил свою историю в книге
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Water Stewardship Forum — Crise hydrique : GM et secteur privé plaident pour une mobilisat == Кризис водоснабжения: Business Mauritius запускает Water-Saving Toolkit для вовлечения ком
-  dup check: new (Опубликован новый тендер на поставку реагентов и расходных материалов для лабораторий биологического профиля от 4 ноября. Это отдельное событие, не св)
+### check 1/5 at 13:03
+  dup: nothing new (Объявление о найме Licensing Officer в Rodrigues от MASA с дедлайном 30 ноября; детали обязанностей и условия (резиденство на Rodrigues).)
+Skipped duplicate (Inside News): Rodrigues : la MASA recrute un Licensing Officer, candidatures jusqu’au 30 novembre == Резервуары: уровень заполнения упал до 51,4%
+  proofread: отделяется → отделено
+Posted (Wazaa): Группа Aret Kokin Nu Laplaz ставит под сомнение Стратегический экологический план по трём проектам в Bel Ombre
+  dup check: new (Пожар в шале Deux-Bras, подозреваемые — два мужчины, ущерб 1,9 млн рупий)
   proofread: 
-Posted (Inside News): Здравоохранение: новый тендер на реагенты и лабораторные расходные материалы
-LLM usage this run: 9 requests, 13676 tokens
-### check 2/5 at 12:04
-Posted (Le Mauricien): Rose-Hill: Предприниматель стал жертвой угроз и попытки вымогательства у своего ресторана
-  dup: nothing new ()
-Skipped duplicate (Inside News): Enseignement privé : la PSEA dément toute modification de l’accord sur le redéploiement du == Пояснения по профсоюзным вычетам: соглашение между PSEA и UPSEE остается неизменным
-  dup check: new (В статье сообщается о задержании гражданина Малайзии с 10,94 кг каннабиса на сумму Rs 16,4 млн в аэропорту Маврикия, что является новым событием.)
-  proofread: имени сэра Сивусагура Рамгулама → имени Сивусагура Рамгулама
-Posted (L'Express): Аэропорт: 10,94 кг каннабиса на 16,4 млн рупий в багаже малайзийца
-  dup check: new (National Empowerment Foundation объявила тендер на поставку 32 ноутбуков и 32 лицензий Microsoft Office Home & Business 2024 для маврикийских компаний)
-  proofread: «до 7 декабря 2026» → «до 7 декабря 2026 года»
-Posted (Inside News): National Empowerment Foundation объявила тендер на 32 ноутбука и 32 лицензии ПО
-LLM usage this run: 9 requests, 13980 tokens
-### check 3/5 at 12:08
-### check 4/5 at 12:12
-### check 5/5 at 12:16
-Could not read article https://www.inside.news/stc-maintenance-oracle-e-business-suite-2026/: 503 Server Error: Service Unavailable for url: https://www.inside.news/stc-maintenance-oracle-e-business-suite-2026/
-  dup check: new (State Trading Corporation объявила о тендере на обслуживание своей системы Oracle E-Business Suite с дедлайном 2 декабря; опубликована ссылка на номер)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Oracle
-  leftovers fixed by GigaChat-3-Pro; still left: Oracle
-Posted (Inside News): State Trading Corporation объявила новый тендер на обслуживание системы Oracle
-LLM usage this run: 4 requests, 5251 tokens
+Posted (Le Mauricien): Deux-Bras / Подозрения в поджоге в шале
+  dup check: new (История о женщине с метастатическим раком и сборе средств на лечение в Индии; ранее не публиковалось.)
+  not news (portrait/lifestyle): Cancer métastasé : après avoir perdu son mari, Sucheeta Ramen se bat pour vivre et a besoin de Rs 2,
+Skipped foreign news (Inside News): Cancer métastasé : après avoir perdu son mari, Sucheeta Ramen se bat pour vivre et a besoin de Rs 2,
+LLM usage this run: 8 requests, 12781 tokens
