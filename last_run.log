@@ -1,28 +1,10 @@
-### check 1/5 at 17:13
-  dup check: new (В статье упоминается участие президента республики Dharam Gokhool в Divali Mahotsav и его речь о значении праздника. В опубликованном посте 4 нет инфо)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Фестиваль Дивали в Phoenix: Dharam Gokhool призывает к национальному единству
-  dup check: new (Криштиану Роналдо объявил о завершении международной карьеры в составе сборной Португалии после 234 матчей. Это событие аналогично недавнему завершени)
-  not about Mauritius: RETRAITE DE CRISTIANO RONALDO AVEC LE PORTUGAL
-Skipped foreign news (Le Mauricien): RETRAITE DE CRISTIANO RONALDO AVEC LE PORTUGAL
-  dup check: new (В статье сообщается о новом событии — торнадо в городе Шапеко (Бразилия), повреждении аэропорта и приостановке полётов на неопределённый срок. Это соб)
-  not about Mauritius: [VIDEO]Brésil : une tornade endommage l’aéroport de Chapecó, les vols suspendus
-Skipped foreign news (Inside News): [VIDEO]Brésil : une tornade endommage l’aéroport de Chapecó, les vols suspendus
+### check 1/5 at 18:28
+  dup check: new (Суд объявил о поиске временных переводчиков на тайском, непальском и португальском языках для обеспечения языковой поддержки в судебных процедурах.)
+Posted (Inside News): Правосудие: маврикийские суды ищут устных переводчиков по трём иностранным языкам
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): JOURNÉE MONDIALE DE L’ALIMENTATION : L’ACIM prône une Alimentation saine et sans gaspillag == Изменение климата: Маврикий усиливает системы раннего предупреждения с WISER ActionFirst
-LLM usage this run: 8 requests, 13128 tokens
-### check 2/5 at 17:17
-  dup check: new (Объявлен новый международный тендер Mauritius Ports Authority на проектирование и поставку защитных систем для причалов порта Порт-Луи с требованием м)
-Posted (Inside News): Port-Louis: международный тендер для усиления защиты причалов
-  proofread: Touria Prayag → Touria Prayag (без изменений); Lutchmeeparsad Ramdhun → Lutchmeeparsad Ramdhun (без изменений); Government Information Service → Government Information Service (без изменений); Prime Minister's Office → канцелярия премьер-министра
-Posted (L'Express): Блуждающие слухи в канцелярии премьер-министра: предстоят перестановки в правительственной коммуникации
-  dup check: new (В статье описывается результат промежуточных выборов в США: демократы вернули контроль над обеими палатами Конгресса и победили во многих штатах, кото)
-  not about Mauritius: La vague bleue
-Skipped foreign news (L'Express): La vague bleue
+Skipped duplicate (L'Express): Dossier Chagos : Navin Ramgoolam et Andy Burnham visent une feuille de route d’ici décembr == Содружество наций: Navin Ramgoolam напомнил, что Индийский океан также пострадал от рабств
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Finances et banques — Sustainability Report 2026 : La finance durable de la MCB prend form == Устойчивое финансирование: MCB увеличивает свой финансовый пакет до 25 млрд рупий
-LLM usage this run: 8 requests, 14155 tokens
-### check 3/5 at 17:21
-Could not read Defimedia: ConnectionError HTTPSConnectionPool(host='defimedia.info', port=443): Read timed out.
-### check 4/5 at 17:25
-### check 5/5 at 17:29
+Skipped duplicate (Wazaa): Île Maurice lance un kit d’outils de six semaines alors que les niveaux des réservoirs d’e == Кризис водоснабжения: Business Mauritius запускает Water-Saving Toolkit для вовлечения ком
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La douloureuse / Des recettes fiscales de Rs 3,42 milliards pour la MRA == Налоговая служба Маврикия (MRA) собрала 3,42 млрд рупий по итогам кампании подачи налоговы
+LLM usage this run: 6 requests, 8254 tokens
