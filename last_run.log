@@ -11,3 +11,13 @@ Posted (Wazaa): Полиция Маврикия разыскивает бегл�
 Skipped duplicate (L'Express): Quatrième convocation de Kobita Jugnauth à la FCC : Mᵉ Gulbul insiste sur la rigueur de l’ == Grand-Bois: бангладешская работница найдена мёртвой в женском общежитии
 Posted (Le Mauricien): African Cristal Festival: CIRCUS! Advertising вновь названа «Агентством года» во второй раз подряд
 LLM usage this run: 9 requests, 18334 tokens
+### check 2/5 at 14:11
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Содружество наций: Navin Ramgoolam напомнил, что Индийский океан также пострадал от рабства
+  dup check: new (Новый тендер на печать и поставку учебников для 7–9 классов с дедлайном подачи заявок до 24 ноября; ссылка на процедуру MOEHR/G/ONB 025/2026-2027.)
+Posted (Inside News): Учебники для 7–9 классов: новый тендер, решающим фактором станет своевременная поставка
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Alliance ou pas? — Bhadain : « Je ne rejoindrai pas un GM sans avoir été élu par le peuple == Политика — Roshi Bhadain исключает любые союзы: «Я никогда не вернусь в парламент, если на
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): CAMP-LEVIEUX — Affaire Élodie Thomas / Reconstitution des faits, hier, sans le Sgt Gautam  == Дело Élodie Thomas: реконструкция событий с участием водителя Rudy Soobrayen
+LLM usage this run: 7 requests, 11486 tokens
