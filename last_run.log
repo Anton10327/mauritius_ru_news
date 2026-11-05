@@ -10,3 +10,13 @@ Posted (Le Mauricien): Deux-Bras / Подозрения в поджоге в ш�
   not news (portrait/lifestyle): Cancer métastasé : après avoir perdu son mari, Sucheeta Ramen se bat pour vivre et a besoin de Rs 2,
 Skipped foreign news (Inside News): Cancer métastasé : après avoir perdu son mari, Sucheeta Ramen se bat pour vivre et a besoin de Rs 2,
 LLM usage this run: 8 requests, 12781 tokens
+### check 2/5 at 13:07
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Парусная рыбалка — La Pirogue Marlin World Cup, 9–11 декабря
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): ENVIRONNEMENT — Projet RECOS — Rivière-Noire : 109 problèmes identifiés, dont 16 urgents == Rivière-Noire: десятилетний план действий для защиты побережья и прибрежных сообществ
+Posted (L'Express): Cottage: 69-летняя автомобилистка утверждает, что подверглась нападению со стороны водителя
+  dup check: new (NADC выпустила бюллетень бдительности и публично предупредила о повышенных рисках загрязнения наркотиков в стране; CEO NADC Kunal Naik прокомментирова)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Наркотики: NADC предупреждает о рисках заражения, связанных с веществами в обращении
+LLM usage this run: 8 requests, 13882 tokens
