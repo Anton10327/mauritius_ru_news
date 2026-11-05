@@ -23,3 +23,5 @@ Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (c
   not news (portrait/lifestyle): Le Plateau Central se prépare à la pluie, tandis que l’île prévoit des averses le 5 novembre
 Skipped foreign news (Wazaa): Le Plateau Central se prépare à la pluie, tandis que l’île prévoit des averses le 5 novembre
 LLM usage this run: 2 requests, 3971 tokens
+### check 4/5 at 21:48
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
