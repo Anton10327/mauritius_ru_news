@@ -8,3 +8,12 @@ Skipped duplicate (L'Express): Victoria Urban Terminal : Retour à la normale ce
   dup: nothing new ()
 Skipped duplicate (Inside News): Identité numérique : Maurice veut relier services publics, paiements et portefeuille élect == Цифровая инфраструктура: Маврикий хочет ускорить внедрение цифровой идентичности по пример
 LLM usage this run: 4 requests, 7895 tokens
+### check 2/5 at 15:42
+  not about Mauritius: L'UE somme TikTok de modifier ses flux personnalisés, accusés d'effets "nocifs"
+Skipped foreign news (Defimedia): L'UE somme TikTok de modifier ses flux personnalisés, accusés d'effets "nocifs"
+  proofread by qwen/qwen3.8-27b
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Театр | «Zagaferger Digizefgef»: сатира, обличающая злоупотребления властью
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : Élodie Thomas rentre chez elle après près d’un mois d’hospita == После почти месяца в больнице: Elodie Thomas возвращается домой в эту пятницу
+LLM usage this run: 4 requests, 8936 tokens
