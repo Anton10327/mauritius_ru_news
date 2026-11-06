@@ -14,3 +14,15 @@ Proofreading GigaChat-3-Pro failed: Unterminated string starting at: line 1 colu
   proofread by qwen/qwen3.8-27b
 Posted (Defimedia): Расследование сексуального насилия над ребёнком: разыскивается 36-летний Jean François Veckranges
 LLM usage this run: 13 requests, 21254 tokens
+### check 2/5 at 13:51
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Valises saisies en février 2025 : Kobita Jugnauth nie être propriétaire des montres trouvé == Дело о 114 млн рупий: Kobita Jugnauth в FCC в этот четверг
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Chagos : Ramgoolam et Burnham s’accordent sur une feuille de route d’ici à décembre == Navin Ramgoolam требует дорожной карты по Чагосу с первым сроком в декабре
+  dup check: new (Статья обсуждает падение цен на нефть ниже 100 долларов и возможные последствия для Маврикия. В опубликованных постах нет информации о текущих ценах н)
+  not about Mauritius: Pétrole sous les 100 dollars : pourquoi la baisse du baril ne changera pas la donne à Maurice
+Skipped foreign news (Defimedia): Pétrole sous les 100 dollars : pourquoi la baisse du baril ne changera pas la donne à Maurice
+  dup check: new (IPCC планирует завершить расследование по делу сержанта Говтамсинга Таукоора к концу ноября 2026 года; свидетельские показания полицейских ещё не собр)
+  proofread: Gowtamsing Taukoor → сержант Gowtamsing Taukoor
+Posted (Defimedia): Выстрел в Camp-Levieux: комиссия по жалобам на полицию (IPCC) планирует завершить расследование к концу ноября
+LLM usage this run: 7 requests, 8943 tokens
