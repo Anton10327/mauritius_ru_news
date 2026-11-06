@@ -1,20 +1,15 @@
-### check 1/5 at 09:30
+### check 1/5 at 10:38
+  dup check: new (Kobita Jugnauth была допрошена в FCC 5 ноября 2026 года по делу о двух чемоданах с Rs 114 млн, найденных у Josian Deelawon в феврале 2025 года; это но)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Дело о 114 млн рупий: Kobita Jugnauth в FCC в этот четверг
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Campus
+  leftovers fixed by GigaChat-3-Pro; still left: Campus
+Posted (Defimedia): Цифровая инфраструктура: Маврикий хочет ускорить внедрение цифровой идентичности по примеру Индии
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Kaizen, for, a, and, Africa, Initiative
+  leftovers fixed by GigaChat-3-Pro; still left: Kaizen, for, a, and, Africa, Initiative
+Posted (Le Mauricien): Каидзен — впервые: Маврикий принимает крупную африканскую конференцию по производительности
   dup: nothing new ()
-Skipped duplicate (L'Express): Après le drame du 9 octobre : Élodie Thomas attendue à la maison dès aujourd’hui == После почти месяца в больнице: Elodie Thomas возвращается домой в эту пятницу
-Could not read article https://localhost:3000/montagne-blanche-scenes-de-violence-au-poste-de-police: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /montagne-blanche-scenes-de-violence-au-poste-de-police (Caused by NewConnectionError("HTTPSConnection(host='localhost', port=3000): Failed to establish a new connection: [Errno 111] Connection refused"))
-  dup check: new (Нападение на мужчину в полицейском участке Montagne-Blanche с участием группы лиц и без арестов; видео инцидента распространяется в соцсетях.)
-Posted (Defimedia): Montagne-Blanche: сцены насилия в полицейском участке
-  dup check: new (Financial Crimes Commission выявила задержки платежей и административные недостатки в мэрии Quatre-Bornes; мэр утверждает, что нарушений не обнаружено)
-  proofread: Mairie de Quatre-Bornes : la FCC relève des failles dans les paiements et les contrôles internes → Мэрия Quatre-Bornes: FCC выявила недостатки в платежах и внутреннем контроле
-Posted (Inside News): Мэрия Quatre-Bornes: FCC выявила недостатки в платежах и внутреннем контроле
-LLM usage this run: 7 requests, 9653 tokens
-### check 2/5 at 09:34
-  dup: nothing new ()
-Skipped duplicate (Top FM): World Knits, Kline Ltd et Universal Fabrics : la FTU privilégie les négociations pour les  == До 600 работников текстильной отрасли оказались в подвешенном состоянии…
-LLM usage this run: 1 requests, 1011 tokens
-### check 3/5 at 09:38
-### check 4/5 at 09:42
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): CHOGM 20 — En marge du Leaders’ Retreat — Chagos Deal : Port-Louis et Londres lorgnent déc == Содружество наций: Navin Ramgoolam напомнил, что Индийский океан также пострадал от рабств
-LLM usage this run: 1 requests, 1425 tokens
-### check 5/5 at 09:46
+Skipped duplicate (L'Express): Affaire des valises de Rs 114 millions : Kobita Jugnauth questionne la FCC sur la fuite de == Дело о 114 млн рупий: Kobita Jugnauth в FCC в этот четверг
+LLM usage this run: 10 requests, 15330 tokens
