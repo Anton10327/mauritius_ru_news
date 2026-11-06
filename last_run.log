@@ -35,3 +35,11 @@ Skipped duplicate (Defimedia): Au Cœur de l’Info – Midterms américains : q
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): my.t Learning Hub: Mauritius Telecom запускает бесплатную платформу обучения по искусственному интеллекту
 LLM usage this run: 5 requests, 5770 tokens
+### check 4/5 at 13:59
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Assad Bhuglah : «Une victoire des démocrates était prévisible, mais Trump reste imprévisib == Дело Élodie Thomas — «Преступное бездействие»: полиция повторно предъявляет троим полицейс
+  not news (portrait/lifestyle): Fiscalité : Andersen in Mauritius publie sa Tax Card 2026/27
+Skipped foreign news (Le Mauricien): Fiscalité : Andersen in Mauritius publie sa Tax Card 2026/27
+  dup: nothing new (Закрытие улицы Monseigneur-Leen в Port-Louis до 21 декабря из-за строительных работ и организация временных объездов; исключение для местных жителей.)
+Skipped duplicate (Defimedia): Port-Louis : des déviations à la rue Monseigneur-Leen jusqu’au 21 décembre == Дело Élodie Thomas — «Преступное бездействие»: полиция повторно предъявляет троим полицейс
+LLM usage this run: 3 requests, 3802 tokens
