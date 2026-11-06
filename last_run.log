@@ -43,3 +43,9 @@ Skipped duplicate (Wazaa): Seulement 6 900 Mauriciens handicapés sur plus de 86
   not news (portrait/lifestyle): Politique : Comme un air de pré-campagne à Rodrigues
 Skipped foreign news (L'Express): Politique : Comme un air de pré-campagne à Rodrigues
 LLM usage this run: 2 requests, 4642 tokens
+### check 4/5 at 18:01
+  dup check: new (Maurice ranks second in the 2026 Ibrahim Index of African Governance with a score of 75, showing a long‑term decline from 2016‑2025.)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Gouvernance : Maurice reste deuxième en Afrique, mais recule sur dix ans
+Skipped foreign news (Inside News): Gouvernance : Maurice reste deuxième en Afrique, mais recule sur dix ans
+LLM usage this run: 2 requests, 4277 tokens
