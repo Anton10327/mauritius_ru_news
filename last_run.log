@@ -1,20 +1,12 @@
-### check 1/5 at 07:29
-Could not read article https://localhost:3000/apres-pres-dun-mois-elodie-thomas-rentre-la-maison-ce-vendredi: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /apres-pres-dun-mois-elodie-thomas-rentre-la-maison-ce-vendredi (Caused by NewConnectionError("HTTPSConnection(host='localhost', port=3000): Failed to establish a new connection: [Errno 111] Connection refused"))
-  dup check: new (Elodie Thomas regagne son domicile après un mois d'hospitalisation et une opération complexe; le ministre de la Santé a confirmé sa guérison à 90 %.)
-  proofread: Элоди Тома → Элоди Томас; Анил Баху → Анил Баху
-  foreign words left: hôpital
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): После почти месяца в больнице: Elodie Thomas возвращается домой в эту пятницу
-Could not read article https://localhost:3000/electricite-le-pic-estival-mettra-lepreuve-les-capacites-du-ceb: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /electricite-le-pic-estival-mettra-lepreuve-les-capacites-du-ceb (Caused by NewConnectionError("HTTPSConnection(host='localhost', port=3000): Failed to establish a new connection: [Errno 111] Connection refused"))
-  dup check: new (В статье говорится о прогнозируемой мощности производства электроэнергии CEB на лето 2027 года (675 MW) и ожидаемой нагрузке (600–610 MW), а также о д)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Электроэнергия: летний пик проверит возможности CEB
-LLM usage this run: 7 requests, 8276 tokens
-### check 2/5 at 07:33
-### check 3/5 at 07:37
-Could not read article https://localhost:3000/divali-le-ceb-mobilise-ses-equipes-face-la-hausse-de-la-demande-electrique: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /divali-le-ceb-mobilise-ses-equipes-face-la-hausse-de-la-demande-electrique (Caused by NewConnectionError("HTTPSConnection(host='localhost', port=3000): Failed to establish a new connection: [Errno 111] Connection refused"))
+### check 1/5 at 08:29
   dup: nothing new ()
-Skipped duplicate (Defimedia): Divali : le CEB mobilise ses équipes face à la hausse de la demande électrique == Дивали: Центральная электросетевая корпорация обеспечивает бесперебойную подачу электроэне
-LLM usage this run: 1 requests, 881 tokens
-### check 4/5 at 07:41
-### check 5/5 at 07:45
+Skipped duplicate (L'Express): Zoom sur les parcours et athlètes : Garder l'authenticité et le plaisir des sentiers rodri == Trail de Rodrigues: тема, близкая RTA
+  foreign words left: Route, Baie-du-Cap, Chamarel, Go
+  leftovers fixed by GigaChat-3-Pro; still left: Go
+Posted (Le Mauricien): Дорога Байе-дю-Кап–Шамарель: движение будет ограничено на три недели с 11 ноября
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Премия герцога Эдинбургского: в центре внимания — молодежь Rodrigues
+  dup check: new (В статье говорится о новых требованиях к Residential Care Homes: ежемесячная отчётность резидентов и сотрудников с дедлайном до 5 числа каждого месяца)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Защита пожилых людей: ежемесячная отчетность о жильцах и лицензионные сборы до 10 000 рупий
+LLM usage this run: 9 requests, 14182 tokens
