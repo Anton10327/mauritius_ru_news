@@ -16,3 +16,7 @@ Skipped foreign news (L'Express): «TEWF National Barista Competition 2026» : L
   proofread by qwen/qwen3.8-27b
 Posted (Inside News): На Маврикии подростковая беременность затронула почти тысячу девушек
 LLM usage this run: 10 requests, 17542 tokens
+### check 2/5 at 18:44
+  dup: nothing new ()
+Skipped duplicate (Top FM): Main-d’œuvre étrangère : Maurice renforce les contrôles dans le recrutement == На Маврикии открыт новый информационный пункт для предотвращения эксплуатации работников
+LLM usage this run: 1 requests, 1439 tokens
