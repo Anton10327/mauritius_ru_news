@@ -1,29 +1,10 @@
-### check 1/5 at 08:29
+### check 1/5 at 09:30
   dup: nothing new ()
-Skipped duplicate (L'Express): Zoom sur les parcours et athlètes : Garder l'authenticité et le plaisir des sentiers rodri == Trail de Rodrigues: тема, близкая RTA
-  foreign words left: Route, Baie-du-Cap, Chamarel, Go
-  leftovers fixed by GigaChat-3-Pro; still left: Go
-Posted (Le Mauricien): Дорога Байе-дю-Кап–Шамарель: движение будет ограничено на три недели с 11 ноября
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Премия герцога Эдинбургского: в центре внимания — молодежь Rodrigues
-  dup check: new (В статье говорится о новых требованиях к Residential Care Homes: ежемесячная отчётность резидентов и сотрудников с дедлайном до 5 числа каждого месяца)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Защита пожилых людей: ежемесячная отчетность о жильцах и лицензионные сборы до 10 000 рупий
-LLM usage this run: 9 requests, 14182 tokens
-### check 2/5 at 08:33
-  dup: nothing new ()
-Skipped duplicate (L'Express): Trail de Rodrigues : Un système de chronométrage électronique remis à la RTA == Trail de Rodrigues: тема, близкая RTA
-  dup: nothing new ()
-Skipped duplicate (Top FM): Élections de mi-mandat aux États-Unis : quel impact sur la guerre en Iran et les prix du p == Emirates и Etihad Airways набирают персонал: маврикийцы могут подавать заявки напрямую с М
-LLM usage this run: 2 requests, 1833 tokens
-### check 3/5 at 08:37
-### check 4/5 at 08:41
-### check 5/5 at 08:45
-Duplicate check GigaChat-3-Pro failed 500: {"status":500,"message":"","error_details":{"http_status":500,"user_message":"Internal Server Error"}}
-
-  dup check: new (Новые вакансии в компаниях Eclosia, MauBank, C‑Care, City Clinic, PSC и STC в разных секторах (здравоохранение, финансы, образование, администрация, о)
-Proofreading GigaChat-3-Pro failed 500: {"status":500,"message":"","error_details":{"http_status":500,"user_message":"Internal Server Error"}}
-
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): Работа на Маврикии: Eclosia, MauBank, C-Care, City Clinic, PSC и STC набирают сотрудников в нескольких секторах
-LLM usage this run: 3 requests, 5438 tokens
+Skipped duplicate (L'Express): Après le drame du 9 octobre : Élodie Thomas attendue à la maison dès aujourd’hui == После почти месяца в больнице: Elodie Thomas возвращается домой в эту пятницу
+Could not read article https://localhost:3000/montagne-blanche-scenes-de-violence-au-poste-de-police: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /montagne-blanche-scenes-de-violence-au-poste-de-police (Caused by NewConnectionError("HTTPSConnection(host='localhost', port=3000): Failed to establish a new connection: [Errno 111] Connection refused"))
+  dup check: new (Нападение на мужчину в полицейском участке Montagne-Blanche с участием группы лиц и без арестов; видео инцидента распространяется в соцсетях.)
+Posted (Defimedia): Montagne-Blanche: сцены насилия в полицейском участке
+  dup check: new (Financial Crimes Commission выявила задержки платежей и административные недостатки в мэрии Quatre-Bornes; мэр утверждает, что нарушений не обнаружено)
+  proofread: Mairie de Quatre-Bornes : la FCC relève des failles dans les paiements et les contrôles internes → Мэрия Quatre-Bornes: FCC выявила недостатки в платежах и внутреннем контроле
+Posted (Inside News): Мэрия Quatre-Bornes: FCC выявила недостатки в платежах и внутреннем контроле
+LLM usage this run: 7 requests, 9653 tokens
