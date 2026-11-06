@@ -1,35 +1,11 @@
-### check 1/5 at 10:38
-  dup check: new (Kobita Jugnauth была допрошена в FCC 5 ноября 2026 года по делу о двух чемоданах с Rs 114 млн, найденных у Josian Deelawon в феврале 2025 года; это но)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Дело о 114 млн рупий: Kobita Jugnauth в FCC в этот четверг
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Campus
-  leftovers fixed by GigaChat-3-Pro; still left: Campus
-Posted (Defimedia): Цифровая инфраструктура: Маврикий хочет ускорить внедрение цифровой идентичности по примеру Индии
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Kaizen, for, a, and, Africa, Initiative
-  leftovers fixed by GigaChat-3-Pro; still left: Kaizen, for, a, and, Africa, Initiative
-Posted (Le Mauricien): Каидзен — впервые: Маврикий принимает крупную африканскую конференцию по производительности
+### check 1/5 at 11:54
   dup: nothing new ()
-Skipped duplicate (L'Express): Affaire des valises de Rs 114 millions : Kobita Jugnauth questionne la FCC sur la fuite de == Дело о 114 млн рупий: Kobita Jugnauth в FCC в этот четверг
-LLM usage this run: 10 requests, 15330 tokens
-### check 2/5 at 10:42
-  dup check: new (Andy Burnham подтвердил возможность новых переговоров с администрацией Трампа по вопросу пересмотра соглашения о Чагосе ("Recast") для успокоения США )
-  proofread: «Recast» → «пересмотр»; «The Economist, citant des extraits d’une déclaration du Premier ministre britannique, Andy Burnham au magazine The Economist.» → «цитируя выдержки из заявления британского премьер-министра Энди Бернема журналу The Economist.»; «We are in discussion with our US friends to see
-  foreign words left: Chogm
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Le Mauricien): Дебрифинг после CHOGM: Andy Burnham говорит о пересмотре соглашения по Diego-Garcia
-  not news (portrait/lifestyle): Are We Worthy of Our Ancestors?
-Skipped foreign news (Le Mauricien): Are We Worthy of Our Ancestors?
-  dup: nothing new (Водитель фургона Rudy Soobrayen идентифицировал сержанта Sooraj Avinash Ramuth на параде идентификации IPCC как участника событий после стрельбы.)
-Skipped duplicate (Inside News): Affaire Élodie Thomas : un témoin identifie un policier, douze agents déjà entendus par l’ == Дело Élodie Thomas: реконструкция событий с участием водителя Rudy Soobrayen
-  foreign words left: Victoria
-  leftovers fixed by GigaChat-3-Pro; still left: Victoria
-Posted (Le Mauricien): NPQEA 2026: награды получили Vi-Deco Interiors, Princes Tuna и кардиологическое отделение больницы Victoria в Candos
-LLM usage this run: 9 requests, 15254 tokens
-### check 3/5 at 10:46
-  dup: nothing new (Доктор Пэреш Наик прибыл на Маврикий для проведения консультаций и сложных операций, а также высоко оценил профессионализм местных медицинских команд.)
-Skipped duplicate (Top FM): Santé : le Dr Paresh Naik salue les compétences des équipes médicales mauriciennes == Port-Louis: почти семь недель объездов на улице Monseigneur Leen
-LLM usage this run: 1 requests, 1381 tokens
-### check 4/5 at 10:50
-### check 5/5 at 10:54
+Skipped duplicate (Le Mauricien): La caricature du Mauricien du 4 novembre 2026 == Водный кризис: уровень в Mare-aux-Vacoas упал ниже 35 %, CWA прибегает к экстренным мерам
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La caricature du Mauricien du 5 novembre 2026 == Водный кризис: уровень в Mare-aux-Vacoas упал ниже 35 %, CWA прибегает к экстренным мерам
+  dup check: new (В статье сообщается о новом развитии дела: полиция передала расследование предполагаемых жестоких действий полиции в отношении 17-летнего подростка в )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Подросток, которого «избили» в участке в Quatre-Bornes: к делу подключается комиссия по жалобам на полицию
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La caricature  du 1 novembre 2026 == NPQEA 2026: награды получили Vi-Deco Interiors, Princes Tuna и кардиологическое отделение 
+LLM usage this run: 6 requests, 8005 tokens
