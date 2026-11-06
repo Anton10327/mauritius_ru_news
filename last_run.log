@@ -42,3 +42,9 @@ Posted (Defimedia): Victoria Urban Terminal: все магазины вновь 
   proofread by qwen/qwen3.8-27b
 Posted (Top FM): Проект NICE: скоро 200 молодых людей пройдут обучение дисциплине и гражданственности…
 LLM usage this run: 10 requests, 17880 tokens
+### check 5/5 at 15:04
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Праздник света: Radio Plus в центре празднований Дивали
+  dup: nothing new ()
+Skipped duplicate (L'Express): Chagos : Navin Ramgoolam réclame des avancées concrètes d’ici décembre == Navin Ramgoolam требует дорожной карты по Чагосу с первым сроком в декабре
+LLM usage this run: 3 requests, 5561 tokens
