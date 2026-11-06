@@ -1,58 +1,10 @@
-### check 1/5 at 11:54
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Mauricien du 4 novembre 2026 == Водный кризис: уровень в Mare-aux-Vacoas упал ниже 35 %, CWA прибегает к экстренным мерам
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Mauricien du 5 novembre 2026 == Водный кризис: уровень в Mare-aux-Vacoas упал ниже 35 %, CWA прибегает к экстренным мерам
-  dup check: new (В статье сообщается о новом развитии дела: полиция передала расследование предполагаемых жестоких действий полиции в отношении 17-летнего подростка в )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Подросток, которого «избили» в участке в Quatre-Bornes: к делу подключается комиссия по жалобам на полицию
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature  du 1 novembre 2026 == NPQEA 2026: награды получили Vi-Deco Interiors, Princes Tuna и кардиологическое отделение 
-LLM usage this run: 6 requests, 8005 tokens
-### check 2/5 at 11:58
-  dup check: new (Запущен новый информационный сервис для сопровождения процедур найма и предотвращения эксплуатации работников; 5 ноября в Балаклаве прошёл семинар по )
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: recruit, info, govmu, org
-  leftovers fixed by GigaChat-3-Pro; still left: recruit, info, govmu, org
-Posted (Inside News): На Маврикии открыт новый информационный пункт для предотвращения эксплуатации работников
-  dup check: new (В статье говорится о планах правительства Маврикия по усилению морской безопасности: установка семи прибрежных радаров в сентябре, создание центра коо)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Наркотики и морской трафик: придётся ли Маврикию ждать до 2029 года, чтобы усилить все средства наблюдения?
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): PARTENARIAT NSIF/MITD : 75 participants décrochent leur National Certificate Level (NCL1) == Борьба с неграмотностью: 75 взрослых получили National Certificate Level 1
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Mauricien du 31 octobre 2026 == Борьба с неграмотностью: 75 взрослых получили National Certificate Level 1
-LLM usage this run: 9 requests, 11424 tokens
-### check 3/5 at 12:02
-  dup check: new (Вторая французская медицинская миссия по ортопедической хирургии в больнице Dr A. Gaffoor Jeetoo; встреча министра здравоохранения с французским хирур)
-Posted (Inside News): Ортопедическая хирургия: вторая миссия французских специалистов для лечения сложных случаев на Маврикии
-  dup check: new (Запланировано участие 1200 учеников в программе стажировок School Placement Programme с 10 ноября по 18 декабря; задействованы 78 организаций и 76 шко)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Programme
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Le Mauricien): Программа School Placement: 1200 учеников выйдут на стажировку с 10 ноября
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Premiers ministres mauricien et britannique se réunissent à Antigua pour l’avenir des Chag == Дебрифинг после CHOGM: Andy Burnham говорит о пересмотре соглашения по Diego-Garcia
-  dup: nothing new ()
-Skipped duplicate (L'Express): Plus de 3 000 travailleurs étrangers dans la nature, Reza Uteem cible les employeurs illég == Министр труда Reza Uteem: «Удивительно, что до сих пор полиция не смогла привлечь к ответс
-LLM usage this run: 9 requests, 12387 tokens
-### check 4/5 at 12:06
-New source Defimedia: skipped backlog, posting newest only
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Риски наводнений: общенациональная кампания для лучшей подготовки населения
-  dup check: new (Запущена национальная консультация по пересмотру стратегии 2024-2029 в области здоровья подростков; участие молодёжи и различных заинтересованных стор)
-  proofread: 
-Posted (Inside News): Здоровье подростков: Маврикий пересматривает национальную стратегию, молодёжь призывают к участию
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Opération Maradiva, Lakaz Mama — Valises à Rs 114 M : Kobita Jugnauth confrontée aux docum == Дело о 114 млн рупий: Kobita Jugnauth в FCC в этот четверг
-  dup: nothing new ()
-Skipped duplicate (Top FM): Drame à Plaine-des-Papayes : Reza Uteem, annonce une enquête après le décès de trois ouvri == Три рабочих из Бангладеш погибли в Plaine-des-Papayes
-LLM usage this run: 7 requests, 10748 tokens
-### check 5/5 at 12:10
-  dup: nothing new ()
-Skipped duplicate (L'Express): Poursuite sous la loi anti-terroriste : attention à la perception véhiculée == Водительские права: конец фотокопий с января 2027 года, MDPA проводит встречи с гражданами
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Цифровая общественная инфраструктура: Avinash Ramtohul выступает за продолжение цифровизации государственных услуг
-  dup: nothing new ()
-Skipped duplicate (Top FM): Midterm Elections : Bernard Saminaden salue le système démocratique américain == Водительские права: конец фотокопий с января 2027 года, MDPA проводит встречи с гражданами
-LLM usage this run: 4 requests, 5650 tokens
+### check 1/5 at 12:49
+  dup check: new (Арестован один из подозреваемых по обвинению в Rogue and Vagabond; ранее сообщалось только о нападении и розыске троих.)
+Posted (Defimedia): Montagne-Blanche: задержан подозреваемый после инцидентов в здании полицейского участка
+  dup: nothing new (Объявлено о выделении 257,9 гектаров для поддержки сельскохозяйственного производства в условиях засухи; встреча министра с плантациями по вопросам ир)
+Skipped duplicate (Inside News): Sécheresse : les planteurs réclament des solutions, 257,9 hectares annoncés pour soutenir  == Concentrix: 13-й месяц выплат сохранён для 300 сотрудников
+  dup: nothing new (Число подростковых родов в 2024 году: 968 у матерей до 20 лет (из них 17 — младше 15). Данные из Family Planning and Demographic Yearbook 2024. Также )
+Skipped duplicate (Le Mauricien): Santé des adolescents :968 naissances chez les moins de 20 ans en 2024, dont 17 avant 15 a == Здоровье подростков: Маврикий пересматривает национальную стратегию, молодёжь призывают к 
+  dup check: new (BoM Vend 15 Millions de Dollars en Devises Étrangères au Taux de 46,75 roupies par dollar — новая операция по продаже валюты на сумму 15 млн долларов )
+Posted (Wazaa): Банк Маврикия продал 15 миллионов долларов иностранной валюты по курсу 46,75 рупий за доллар
+LLM usage this run: 8 requests, 9944 tokens
