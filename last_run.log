@@ -9,3 +9,17 @@ Posted (L'Express): Подросток, которого «избили» в у�
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): La caricature  du 1 novembre 2026 == NPQEA 2026: награды получили Vi-Deco Interiors, Princes Tuna и кардиологическое отделение 
 LLM usage this run: 6 requests, 8005 tokens
+### check 2/5 at 11:58
+  dup check: new (Запущен новый информационный сервис для сопровождения процедур найма и предотвращения эксплуатации работников; 5 ноября в Балаклаве прошёл семинар по )
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: recruit, info, govmu, org
+  leftovers fixed by GigaChat-3-Pro; still left: recruit, info, govmu, org
+Posted (Inside News): На Маврикии открыт новый информационный пункт для предотвращения эксплуатации работников
+  dup check: new (В статье говорится о планах правительства Маврикия по усилению морской безопасности: установка семи прибрежных радаров в сентябре, создание центра коо)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Inside News): Наркотики и морской трафик: придётся ли Маврикию ждать до 2029 года, чтобы усилить все средства наблюдения?
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): PARTENARIAT NSIF/MITD : 75 participants décrochent leur National Certificate Level (NCL1) == Борьба с неграмотностью: 75 взрослых получили National Certificate Level 1
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La caricature du Mauricien du 31 octobre 2026 == Борьба с неграмотностью: 75 взрослых получили National Certificate Level 1
+LLM usage this run: 9 requests, 11424 tokens
