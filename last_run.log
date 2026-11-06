@@ -1,40 +1,21 @@
-### check 1/5 at 19:27
+### check 1/5 at 20:22
+  dup check: new (US midterm election results (Democrats taking House and Senate) and their potential impact on Mauritius and the Chagos/Diego Garcia issue.)
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): ÉTAT-OCÉAN — Atelier stratégique : Rodrigues: faire de l’économie bleue, un levier de transformation
-Skipped foreign news (Le Mauricien): ÉTAT-OCÉAN — Atelier stratégique : Rodrigues: faire de l’économie bleue, un levier de transformation
-  dup check: new (Le message du prélat catholique Mgr Jean Michaël Durhône aux Mauriciens hindous à l'occasion de Divali 2026, appelant à la paix, au dialogue et à la j)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Divali 2026 : le message de Mgr Jean Michaël Durhône
-Skipped foreign news (Defimedia): Divali 2026 : le message de Mgr Jean Michaël Durhône
+  not about Mauritius: Au Cœur de l’Info – Midterms américains : quel impact sur Maurice et le dossier Chagos ?
+Skipped foreign news (Defimedia): Au Cœur de l’Info – Midterms américains : quel impact sur Maurice et le dossier Chagos ?
+  dup check: new (Le gouvernement a lancé, avec l'accord du Conseil des ministres, des démarches pour régulariser la situation des squatters à Ti‑Rodrigues (La Cure, Po)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Новый бланк позволит полиции требовать запрет на вождение для пьяных водителей
+  proofread: Ти-Родригес → Ti-Rodrigues; Совет министров → Conseil des ministres; министерства жилищного строительства → Ministère du Logement et des Terres
+  foreign words left: Conseil, des, ministres, Ministère, du, et
+  leftovers fixed by qwen/qwen3.8-27b; still left: Conseil, des, ministres, Ministère, du, et
+Posted (Defimedia): Правительство приступает к урегулированию ситуации с самовольными захватами земли в Ti-Rodrigues
+  dup check: new (Global reservoir fill 49.6% on 5 Nov 2026 (Mare‑aux‑Vacoas 33 %, La Nicolière 43.7 %); 40 000 requests received for the Water Tank and Water Pump Gran)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  foreign words left: Ki
-  leftovers fixed by qwen/qwen3.8-27b; still left: Ki
-Posted (Defimedia): На Маврикии разработали приложение для проверки цен на товары через сканирование штрих-кодов
-LLM usage this run: 8 requests, 10712 tokens
-### check 2/5 at 19:31
-  dup check: new (Maurice a signé un protocole d’entente avec l’Inde pour déployer un système d’alerte précoce aux catastrophes sur mobile, l’Inde finançant intégraleme)
+Posted (Defimedia): Запасы воды на Маврикии составляют 49,6%, поставщики резервуаров просят пересмотреть субсидии
+  dup check: new (Lottotech a versé plus de Rs 8,7 milliards à l’État depuis 2012, dont un record de Rs 789 millions en 2025, ainsi que Rs 787 millions de lots non récl)
   written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  foreign words left: cell, broadcast
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (Defimedia): На Маврикии создадут мобильную систему предупреждения катастроф при поддержке Индии
-  dup check: new (CEB plans to integrate a new 20 MW battery storage unit to meet the anticipated holiday demand increase.)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): На Маврикии ожидается рост потребления электроэнергии к праздникам
-LLM usage this run: 7 requests, 7666 tokens
-### check 3/5 at 19:35
-  dup check: new (Three US‑backed water experts will be in Mauritius from 8‑23 Nov 2026 to help revise the Land Drainage Master Plan, with a two‑day workshop on 19‑20 N)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  foreign words left: Ambassador’s, Expert, Program
-  leftovers fixed by qwen/qwen3.8-27b; still left: Ambassador’s, Expert, Program
-Posted (Defimedia): На Маврикий прибывают три эксперта из США для пересмотра плана управления дренажем
-LLM usage this run: 4 requests, 5497 tokens
-### check 4/5 at 19:39
-### check 5/5 at 19:43
+  not news (portrait/lifestyle): Lottotech : Rs 8,7 milliards versées à l’État depuis 2012
+Skipped foreign news (L'Express): Lottotech : Rs 8,7 milliards versées à l’État depuis 2012
+LLM usage this run: 11 requests, 15701 tokens
