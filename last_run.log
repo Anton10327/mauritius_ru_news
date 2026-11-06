@@ -1,73 +1,18 @@
-### check 1/5 at 20:22
-  dup check: new (US midterm election results (Democrats taking House and Senate) and their potential impact on Mauritius and the Chagos/Diego Garcia issue.)
-  written by GigaChat-2-Max
-  not about Mauritius: Au Cœur de l’Info – Midterms américains : quel impact sur Maurice et le dossier Chagos ?
-Skipped foreign news (Defimedia): Au Cœur de l’Info – Midterms américains : quel impact sur Maurice et le dossier Chagos ?
-  dup check: new (Le gouvernement a lancé, avec l'accord du Conseil des ministres, des démarches pour régulariser la situation des squatters à Ti‑Rodrigues (La Cure, Po)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Ти-Родригес → Ti-Rodrigues; Совет министров → Conseil des ministres; министерства жилищного строительства → Ministère du Logement et des Terres
-  foreign words left: Conseil, des, ministres, Ministère, du, et
-  leftovers fixed by qwen/qwen3.8-27b; still left: Conseil, des, ministres, Ministère, du, et
-Posted (Defimedia): Правительство приступает к урегулированию ситуации с самовольными захватами земли в Ti-Rodrigues
-  dup check: new (Global reservoir fill 49.6% on 5 Nov 2026 (Mare‑aux‑Vacoas 33 %, La Nicolière 43.7 %); 40 000 requests received for the Water Tank and Water Pump Gran)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Запасы воды на Маврикии составляют 49,6%, поставщики резервуаров просят пересмотреть субсидии
-  dup check: new (Lottotech a versé plus de Rs 8,7 milliards à l’État depuis 2012, dont un record de Rs 789 millions en 2025, ainsi que Rs 787 millions de lots non récl)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Lottotech : Rs 8,7 milliards versées à l’État depuis 2012
-Skipped foreign news (L'Express): Lottotech : Rs 8,7 milliards versées à l’État depuis 2012
-LLM usage this run: 11 requests, 15701 tokens
-### check 2/5 at 20:26
-  dup check: new (Maurice et les Seychelles préparent un relevé géophysique et sismique du Plateau des Mascareignes, couvrant 396 000 km², avec le prestataire Viridien )
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  foreign words left: Mascareignes
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (Inside News): На плато Маскарен готовится геофизическая разведка без разрешения на бурение
-  dup check: new (Le Conseil des ministres a approuvé le 6 novembre une aide du National Solidarity Fund et du Prime Minister’s Relief Fund aux familles des trois trava)
+### check 1/5 at 21:19
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Трагедия в Plaine-des-Papayes: государство окажет помощь семьям трех погибших рабочих
-  dup check: new (MariDeal offre 100 dépistages gratuits du cancer du sein d'une valeur totale de Rs 550 000 dans le cadre de sa campagne Pink October.)
+Posted (L'Express): Moris Fam Express: 50 женщин собрались на 24 часа приключений в Mahébourg
+  dup check: new (Severe flooding in South Florida (Davie, Broward County) with over 228 mm of rain in days, streets and homes submerged, a lake overflow in Paradise Vi)
   written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: кампией → кампанию
-Posted (Le Mauricien): Розовый октябрь — рак молочной железы: MariDeal завершает кампанию, предоставив 100 бесплатных обследований
-  dup check: new (Le ministère du Logement et des Terres lance des démarches pour reclasser un terrain de l’État à Palmar (≈6 331 m²) en plage publique, décision prise )
+  not about Mauritius: [video]🇺🇸 Floride : plus de 228 mm de pluie, des quartiers inondés et des habitants bloqués par les 
+Skipped foreign news (Inside News): [video]🇺🇸 Floride : plus de 228 mm de pluie, des quartiers inondés et des habitants bloqués par les 
+  dup check: new (286 nouveaux cas de cancer de la prostate enregistrés en 2025 à Maurice et 121 décès liés à ce cancer)
+LLM per-minute limit, waiting 7s
   written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Palmar: предпринимаются шаги для повторного признания государственного участка публичным пляжем
-LLM usage this run: 13 requests, 21055 tokens
-### check 3/5 at 20:30
-  dup check: new (New development in the murder investigation of Selven Iyempermal: a man came forward to authorities to accuse his own brothers, claiming they were ide)
+  not news (portrait/lifestyle): Movember | Cancer de la prostate : 286 hommes touchés en 2025
+Skipped foreign news (L'Express): Movember | Cancer de la prostate : 286 hommes touchés en 2025
+LLM per-minute limit, waiting 19s
   written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: Элоди → «Elodie bizin pran bokou prekosion»; должна принять много предосторожностей → должна принять много предосторожностей; В деле о убийстве → В деле об убийстве; мужчина обвинил своих братьев → мужчина сообщил властям о своих братьях
-  foreign words left: Elodie, bizin, pran, bokou, prekosion
-  leftovers fixed by qwen/qwen3.8-27b; still left: Elodie, bizin, pran, bokou, prekosion
-Posted (Defimedia): «Elodie bizin pran bokou prekosion должна принять много предосторожностей»
-  dup check: new (Le Conseil des ministres a approuvé le projet de loi Public Sector Reforms Bill, prévoyant des normes de service, un encadrement disciplinaire et des )
-LLM per-minute limit, waiting 5s
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Государственная служба: законопроект для регулирования реформ и улучшения обслуживания граждан
-  dup check: new (Видео с детьми, якобы пьющими алкоголь, вызвало расследование министерства гендерного равенства и благополучия семьи; родители даны в суд, детям назна)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Top FM): Видео с детьми, предположительно употребляющими алкоголь: родителей допросили, детей отправили на медосмотр
-  dup: nothing new ()
-Skipped duplicate (Top FM): Compétences numériques et IA : Mauritius Telecom lance my.t Learning Hub pour former 50 00 == my.t Learning Hub: Mauritius Telecom запускает бесплатную платформу обучения по искусствен
-LLM usage this run: 11 requests, 18006 tokens
-### check 4/5 at 20:34
-  dup check: new (Prosecution of a garage owner and a taxi driver in Camp‑Yoloff for illegal transfer of liquefied petroleum gas, following a police operation by the Sp)
-Bad LLM answer from qwen/qwen3.8-27b: Invalid control character at: line 19 column 498 (char 855); raw: {"id":"chatcmpl-76c40e53-4ae7-479c-a75c-37b5024c02b7","object":"chat.completion","created":1793982893,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"{\n  \"mauritius\": true,\n  \"news\": true,\n  \"names\": [\n    {\n      \"orig\": \"Camp-Yoloff\",\n     
-  written by openai/gpt-oss-120b
-  proofread by qwen/qwen3.8-27b
-  proofread: Камп-Ёлофф → Camp-Yoloff; В Камп-Ёлоффе → В Camp-Yoloff; таксиста → водителя такси; таксиста → водителя такси
-Posted (Defimedia): Camp-Yoloff: гаражный мастер и водитель такси привлечены к ответственности за перенос бытового газа
-  dup: nothing new ()
-Skipped duplicate (Top FM): Réforme du secteur public : Un projet de loi pour réduire la bureaucratie et améliorer les == Государственная служба: законопроект для регулирования реформ и улучшения обслуживания гра
-LLM usage this run: 5 requests, 9482 tokens
-### check 5/5 at 20:38
+  not about Mauritius: Inde-Australie : Modi renforce l’alliance militaire face à la montée en puissance de la Chine dans l
+Skipped foreign news (Top FM): Inde-Australie : Modi renforce l’alliance militaire face à la montée en puissance de la Chine dans l
+LLM usage this run: 7 requests, 15829 tokens
