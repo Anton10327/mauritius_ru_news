@@ -18,3 +18,12 @@ Skipped duplicate (Top FM): Élections de mi-mandat aux États-Unis : quel impac
 LLM usage this run: 2 requests, 1833 tokens
 ### check 3/5 at 08:37
 ### check 4/5 at 08:41
+### check 5/5 at 08:45
+Duplicate check GigaChat-3-Pro failed 500: {"status":500,"message":"","error_details":{"http_status":500,"user_message":"Internal Server Error"}}
+
+  dup check: new (Новые вакансии в компаниях Eclosia, MauBank, C‑Care, City Clinic, PSC и STC в разных секторах (здравоохранение, финансы, образование, администрация, о)
+Proofreading GigaChat-3-Pro failed 500: {"status":500,"message":"","error_details":{"http_status":500,"user_message":"Internal Server Error"}}
+
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): Работа на Маврикии: Eclosia, MauBank, C-Care, City Clinic, PSC и STC набирают сотрудников в нескольких секторах
+LLM usage this run: 3 requests, 5438 tokens
