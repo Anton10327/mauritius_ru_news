@@ -17,3 +17,22 @@ Skipped foreign news (Defimedia): Kenya : un chef de secte condamné à 200 ans 
   proofread: возможное сговор → возможный сговор; Программа субсидирования водоснабжения → Программа субсидирования резервуаров для воды
 Posted (Le Mauricien): На Маврикии расследуют возможный сговор поставщиков резервуаров для воды
 LLM usage this run: 11 requests, 16058 tokens
+### check 2/5 at 17:53
+  dup check: new (Employees at Hôpital Brown Sequard report unpaid overtime since July and appeal to the government on 6 November for payment.)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: больницы Браун Секуар → Hôpital Brown Sequard; больницы Браун Секуар → Hôpital Brown Sequard
+  foreign words left: Hôpital
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (L'Express): Сотрудники больницы Brown Sequard возмущены невыплатой сверхурочных с июля
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Ассоциация адвокатов Маврикия обратилась к верховному судье по поводу требований к спонсорам для старших юристов
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): «Stars – Every Child is a Star» : Quand les enfants deviennent des étoiles du cirque
+Skipped foreign news (L'Express): «Stars – Every Child is a Star» : Quand les enfants deviennent des étoiles du cirque
+  dup check: new (Maurice will head the International Sugar Organization (ISO) starting 1 January 2027 for a four‑year term, succeeding José Orive.)
+  written by GigaChat-2-Max
+Proofreading qwen/qwen3.8-27b failed 503: {"error":{"message":"qwen/qwen3.8-27b is currently over capacity. Please try again and back off exponentially. Visit htt
+Posted (Defimedia): Маврикий возглавит Международную организацию по сахару с 2027 года
+LLM usage this run: 9 requests, 14315 tokens
