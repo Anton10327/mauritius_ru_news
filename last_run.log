@@ -36,3 +36,15 @@ Skipped duplicate (Wazaa): Premiers ministres mauricien et britannique se réuni
   dup: nothing new ()
 Skipped duplicate (L'Express): Plus de 3 000 travailleurs étrangers dans la nature, Reza Uteem cible les employeurs illég == Министр труда Reza Uteem: «Удивительно, что до сих пор полиция не смогла привлечь к ответс
 LLM usage this run: 9 requests, 12387 tokens
+### check 4/5 at 12:06
+New source Defimedia: skipped backlog, posting newest only
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Риски наводнений: общенациональная кампания для лучшей подготовки населения
+  dup check: new (Запущена национальная консультация по пересмотру стратегии 2024-2029 в области здоровья подростков; участие молодёжи и различных заинтересованных стор)
+  proofread: 
+Posted (Inside News): Здоровье подростков: Маврикий пересматривает национальную стратегию, молодёжь призывают к участию
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Opération Maradiva, Lakaz Mama — Valises à Rs 114 M : Kobita Jugnauth confrontée aux docum == Дело о 114 млн рупий: Kobita Jugnauth в FCC в этот четверг
+  dup: nothing new ()
+Skipped duplicate (Top FM): Drame à Plaine-des-Papayes : Reza Uteem, annonce une enquête après le décès de trois ouvri == Три рабочих из Бангладеш погибли в Plaine-des-Papayes
+LLM usage this run: 7 requests, 10748 tokens
