@@ -1,50 +1,10 @@
-### check 1/5 at 13:47
-  proofread: A côté des Casernes centrales — Mercredi : 11 magasins saccagés en une nuit au VUT → Рядом с Casernes centrales — в ночь на четверг: 11 магазинов разгромлены за ночь в Victoria Urban Terminal; Le Victoria Urban Terminal (VUT), situé à quelques mètres des Casernes centrales... → В торговом центре Vic
-  foreign words left: Victoria
-  leftovers fixed by GigaChat-3-Pro; still left: Victoria
-Posted (Le Mauricien): Рядом с Casernes centrales — в ночь на четверг: 11 магазинов разгромлены за ночь в Victoria Urban Terminal
-  dup check: new (Семь человек получили условное освобождение за нарушение комендантского часа, а Жан Иван Стюарт Диеудонне был приговорён к двум месяцам тюрьмы за то ж)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Нарушение комендантского часа: семерых освободили от наказания, мужчине дали два месяца тюрьмы
-  dup check: new (Второй подозреваемый по делу об убийстве Селвен Ийемпермаль арестован 5 ноября; это новое событие в расследовании.)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Убийство Selven Iyempermal: Ridwaan Bauluck, второй подозреваемый, задержан MCIT
-  dup check: new (В статье сообщается о розыске 36-летнего Jean François Veckranges по подозрению в сексуальном насилии над ребёнком. Это новое событие и новый фигурант)
-Proofreading GigaChat-3-Pro failed: Unterminated string starting at: line 1 column 1001 (char 1000)
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Расследование сексуального насилия над ребёнком: разыскивается 36-летний Jean François Veckranges
-LLM usage this run: 13 requests, 21254 tokens
-### check 2/5 at 13:51
+### check 1/5 at 14:48
   dup: nothing new ()
-Skipped duplicate (Defimedia): Valises saisies en février 2025 : Kobita Jugnauth nie être propriétaire des montres trouvé == Дело о 114 млн рупий: Kobita Jugnauth в FCC в этот четверг
+Skipped duplicate (Inside News): Réservoirs d’eau : la Competition Commission ouvre officiellement une enquête == Схема субсидий на водяные баки: подозрения в сговоре поставщиков, страдают получатели
   dup: nothing new ()
-Skipped duplicate (Defimedia): Chagos : Ramgoolam et Burnham s’accordent sur une feuille de route d’ici à décembre == Navin Ramgoolam требует дорожной карты по Чагосу с первым сроком в декабре
-  dup check: new (Статья обсуждает падение цен на нефть ниже 100 долларов и возможные последствия для Маврикия. В опубликованных постах нет информации о текущих ценах н)
-  not about Mauritius: Pétrole sous les 100 dollars : pourquoi la baisse du baril ne changera pas la donne à Maurice
-Skipped foreign news (Defimedia): Pétrole sous les 100 dollars : pourquoi la baisse du baril ne changera pas la donne à Maurice
-  dup check: new (IPCC планирует завершить расследование по делу сержанта Говтамсинга Таукоора к концу ноября 2026 года; свидетельские показания полицейских ещё не собр)
-  proofread: Gowtamsing Taukoor → сержант Gowtamsing Taukoor
-Posted (Defimedia): Выстрел в Camp-Levieux: комиссия по жалобам на полицию (IPCC) планирует завершить расследование к концу ноября
-LLM usage this run: 7 requests, 8943 tokens
-### check 3/5 at 13:55
+Skipped duplicate (Inside News): Rivière-Noire : un plan décennal pour protéger le littoral face à l’érosion et à la montée == Rivière-Noire: десятилетний план действий для защиты побережья и прибрежных сообществ
   dup: nothing new ()
-Skipped duplicate (Wazaa): L’épouse de l’ancien Premier ministre mauricien affronte le FCC au sujet des fuites de pre == Дело о 114 млн рупий: Kobita Jugnauth в FCC в этот четверг
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Au Cœur de l’Info – Midterms américains : quel impact sur Maurice et le dossier Chagos ? == Дело Élodie Thomas — «Преступное бездействие»: полиция повторно предъявляет троим полицейс
-  dup check: new (Запуск платформы my.t Learning Hub для бесплатного обучения 50 000 маврикийцев искусственному интеллекту; заявление министра о доступности курсов и пл)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): my.t Learning Hub: Mauritius Telecom запускает бесплатную платформу обучения по искусственному интеллекту
-LLM usage this run: 5 requests, 5770 tokens
-### check 4/5 at 13:59
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Assad Bhuglah : «Une victoire des démocrates était prévisible, mais Trump reste imprévisib == Дело Élodie Thomas — «Преступное бездействие»: полиция повторно предъявляет троим полицейс
-  not news (portrait/lifestyle): Fiscalité : Andersen in Mauritius publie sa Tax Card 2026/27
-Skipped foreign news (Le Mauricien): Fiscalité : Andersen in Mauritius publie sa Tax Card 2026/27
-  dup: nothing new (Закрытие улицы Monseigneur-Leen в Port-Louis до 21 декабря из-за строительных работ и организация временных объездов; исключение для местных жителей.)
-Skipped duplicate (Defimedia): Port-Louis : des déviations à la rue Monseigneur-Leen jusqu’au 21 décembre == Дело Élodie Thomas — «Преступное бездействие»: полиция повторно предъявляет троим полицейс
-LLM usage this run: 3 requests, 3802 tokens
-### check 5/5 at 14:03
-  dup check: new (Статья приводит новые статистические данные о занятости людей с инвалидностью на Маврикии: по переписи 2022 года только 6 900 из 86 607 человек в этой)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Инклюзия: трудоустройство — испытание для людей с инвалидностью на Маврикии
-LLM usage this run: 3 requests, 5605 tokens
+Skipped duplicate (Defimedia): Me Avineshwur Dayal : «Une personne reste libre de choisir si elle souhaite participer à u == Дело Élodie Thomas: реконструкция событий с участием водителя Rudy Soobrayen
+  dup check: new (Новая явка девяти граждан Таиланда в суд по обвинению в заговоре с целью ввоза каннабиса; они оставлены под стражей до 12 ноября и полиция возражает п)
+Posted (Le Mauricien): НАРКОТОРГОВЛЯ | Ось Таиланд—Маврикий: девять граждан Таиланда предстанут перед судом
+LLM usage this run: 6 requests, 8770 tokens
