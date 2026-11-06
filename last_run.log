@@ -22,3 +22,13 @@ Skipped duplicate (Top FM): Main-d’œuvre étrangère : Maurice renforce les c
 LLM usage this run: 1 requests, 1439 tokens
 ### check 3/5 at 18:48
 ### check 4/5 at 18:52
+### check 5/5 at 18:56
+  dup check: new (Incendie du Karmabhoomi Express le 6 novembre 2026 près de la gare de Sarai Banjara (district de Patiala, Pendjab, Inde) : trois voitures détruites, u)
+  written by GigaChat-2-Max
+  not about Mauritius: [video] Inde : un train prend feu au Pendjab, plus de 1 500 passagers échappent au drame
+Skipped foreign news (Inside News): [video] Inde : un train prend feu au Pendjab, plus de 1 500 passagers échappent au drame
+  dup check: new (Обсуждение текущих музыкальных конфликтов (clash) в новой сцене «New Skool», их характер и влияние на восприятие музыки.)
+  written by GigaChat-2-Max
+  not about Mauritius: Mo Kiltir | Musique locale : le clash a-t-il perdu son sens ?
+Skipped foreign news (L'Express): Mo Kiltir | Musique locale : le clash a-t-il perdu son sens ?
+LLM usage this run: 4 requests, 8646 tokens
