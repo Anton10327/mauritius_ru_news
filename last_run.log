@@ -1,34 +1,19 @@
-### check 1/5 at 16:35
-  dup check: new (ADSU et la FCC sollicitent une entraide judiciaire auprès de la Thaïlande pour obtenir des renseignements sur le yacht Dreamer et son équipage, après )
+### check 1/5 at 17:49
+  dup check: new (Business Mauritius participe au Water Stewardship Forum et souhaite renforcer la coopération avec les autorités dans la gestion de l’eau, évoquant les)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  foreign words left: Thaïlande
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (L'Express): Дело яхты «Dreamer»: правоохранительные органы Маврикия обратились к Таиланду за юридической помощью
-  dup: nothing new ()
-Skipped duplicate (Inside News): Handicap et emploi : les chiffres exposent un profond déficit d’inclusion == Инклюзия: трудоустройство — испытание для людей с инвалидностью на Маврикии
-  dup check: new (World Knits Group plans voluntary administration; 478 employees of World Knits (Kline Textiles, Universal Fabrics) met with Labour Minister Reza Uteem)
+Posted (L'Express): Управление водными ресурсами: Business Mauritius призывает усилить сотрудничество с властями
+  dup check: new (51 157 активных разрешений на работу у иностранных работников (данные от 30 октября 2026 г.))
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: группы World Knits → группы World Knits Group
-Posted (Le Mauricien): Группа World Knits Group: часть сотрудников уволена
+Posted (Inside News): На Маврикии действует 51 тысяча разрешений на работу для иностранцев
+  dup check: new (Condamnation du chef de secte kényan Paul Mackenzie à 200 ans de prison pour le meurtre de 190 enfants, décision rendue par la juge Diana Kavedza Moch)
+  written by GigaChat-2-Max
+  not about Mauritius: Kenya : un chef de secte condamné à 200 ans de prison pour le meurtre de 190 enfants
+Skipped foreign news (Defimedia): Kenya : un chef de secte condamné à 200 ans de prison pour le meurtre de 190 enfants
+  dup check: new (Commission a décidé de ne plus accepter les coupons pour la fourniture de réservoirs et pompes aux ménages éligibles, et examine une demande collectiv)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Министр Махен Гондеа → Министр Mahen Gondeea; Министр искусств и культуры Маврикия Махен Гондеа → Министр искусств и культуры Маврикия Mahen Gondeea
-Posted (Defimedia): Министр Mahen Gondeea осудил безответственное поведение на кресте Morne Brabant
-LLM usage this run: 10 requests, 14922 tokens
-### check 2/5 at 16:39
-  dup check: new (Launch of a national campaign to promote responsible use of social networks, reporting 5 754 cyber incidents, focusing on cyber‑harassment, identity t)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Министр информационных технологий Маврикия доктор Авинаш Рамтотул → Министр информационных технологий, связи и инноваций Маврикия Dr Avinash Ramtohul
-Posted (Top FM): На Маврикии запущена кампания против киберпреступности
-LLM usage this run: 3 requests, 5051 tokens
-### check 3/5 at 16:43
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Cybercriminalité : 5 754 incidents signalés depuis janvier, une campagne nationale lancée == На Маврикии запущена кампания против киберпреступности
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Île Maurice accueille plus de 100 délégués mondiaux pour la Conférence Kaizen Afrique 2026 == Каидзен — впервые: Маврикий принимает крупную африканскую конференцию по производительност
-LLM usage this run: 2 requests, 3215 tokens
-### check 4/5 at 16:47
-### check 5/5 at 16:51
+  proofread: возможное сговор → возможный сговор; Программа субсидирования водоснабжения → Программа субсидирования резервуаров для воды
+Posted (Le Mauricien): На Маврикии расследуют возможный сговор поставщиков резервуаров для воды
+LLM usage this run: 11 requests, 16058 tokens
