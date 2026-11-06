@@ -10,3 +10,13 @@ Posted (Wazaa): Банк Маврикия продал 15 миллионов д�
 LLM usage this run: 8 requests, 9944 tokens
 ### check 2/5 at 12:53
 ### check 3/5 at 12:57
+### check 4/5 at 13:01
+  dup: nothing new ()
+Skipped duplicate (L'Express): Plaine-des-Papayes : Le ministère du Travail enquête sur la mort des trois ouvriers bangla == Три рабочих из Бангладеш погибли в Plaine-des-Papayes
+  dup check: new (Запущен новый учебный курс для 160 педагогов по профориентации с акцентом на современные тенденции рынка труда и использование искусственного интеллек)
+  proofread: руководителей среднего образования → руководителей среднего звена
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Inside News): Профессиональная ориентация: 160 педагогов прошли обучение для лучшей подготовки учащихся к рынку труда
+  dup: nothing new (Предупреждение о сильных дождях на Rodrigues до 7 ноября и штормовой погоде (до 70 км/ч) на Agalega с риском временных ливней и гроз.)
+Skipped duplicate (Inside News): Rodrigues sous veille de fortes pluies, Agalega exposée aux orages et aux rafales == Concentrix: 13-й месяц выплат сохранён для 300 сотрудников
+LLM usage this run: 5 requests, 7146 tokens
