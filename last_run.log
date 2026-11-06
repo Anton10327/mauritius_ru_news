@@ -1,27 +1,13 @@
-### check 1/5 at 21:19
+### check 1/5 at 22:06
+  dup: nothing new ()
+Skipped duplicate (Wazaa): CEB vise 675 MW de capacité pour éviter les coupures d’électricité du réseau cet été == Электроэнергия: летний пик проверит возможности CEB
   written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Moris Fam Express: 50 женщин собрались на 24 часа приключений в Mahébourg
-  dup check: new (Severe flooding in South Florida (Davie, Broward County) with over 228 mm of rain in days, streets and homes submerged, a lake overflow in Paradise Vi)
+  not news (portrait/lifestyle): Baisse généralisée du niveau scolaire | Lire, écrire, calculer : On s’y prend trop tardivement ?
+Skipped foreign news (L'Express): Baisse généralisée du niveau scolaire | Lire, écrire, calculer : On s’y prend trop tardivement ?
+  dup check: new (Proposition d'une prolongation mensuelle du contrat du directeur général Gassen Dorsamy de la Cargo Handling Corporation Ltd (CHCL) jusqu'au 11 décemb)
   written by qwen/qwen3.8-27b
-  not about Mauritius: [video]🇺🇸 Floride : plus de 228 mm de pluie, des quartiers inondés et des habitants bloqués par les 
-Skipped foreign news (Inside News): [video]🇺🇸 Floride : plus de 228 mm de pluie, des quartiers inondés et des habitants bloqués par les 
-  dup check: new (286 nouveaux cas de cancer de la prostate enregistrés en 2025 à Maurice et 121 décès liés à ce cancer)
-LLM per-minute limit, waiting 7s
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): Movember | Cancer de la prostate : 286 hommes touchés en 2025
-Skipped foreign news (L'Express): Movember | Cancer de la prostate : 286 hommes touchés en 2025
-LLM per-minute limit, waiting 19s
-  written by qwen/qwen3.8-27b
-  not about Mauritius: Inde-Australie : Modi renforce l’alliance militaire face à la montée en puissance de la Chine dans l
-Skipped foreign news (Top FM): Inde-Australie : Modi renforce l’alliance militaire face à la montée en puissance de la Chine dans l
-LLM usage this run: 7 requests, 15829 tokens
-### check 2/5 at 21:23
-### check 3/5 at 21:27
-### check 4/5 at 21:31
-### check 5/5 at 21:35
-  dup check: new (Ridwaan Bauluck is now provisionally charged with "perverting the course of justice", a new accusation different from the previously reported conspira)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Убийство Selven Iyempermal: Ridwaan Bauluck предъявлено предварительное обвинение в «посягательстве на ход правосудия»
-LLM usage this run: 3 requests, 6062 tokens
+Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
+  foreign words left: Cargo, Handling, Corporation, Ltd
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Defimedia): CHCL: предложено ежемесячное продление контракта, Gassen Dorsamy примет решение по возвращении из Китая
+LLM usage this run: 5 requests, 9546 tokens
