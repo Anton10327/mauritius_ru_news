@@ -43,3 +43,8 @@ Skipped foreign news (Le Mauricien): Fiscalité : Andersen in Mauritius publie s
   dup: nothing new (Закрытие улицы Monseigneur-Leen в Port-Louis до 21 декабря из-за строительных работ и организация временных объездов; исключение для местных жителей.)
 Skipped duplicate (Defimedia): Port-Louis : des déviations à la rue Monseigneur-Leen jusqu’au 21 décembre == Дело Élodie Thomas — «Преступное бездействие»: полиция повторно предъявляет троим полицейс
 LLM usage this run: 3 requests, 3802 tokens
+### check 5/5 at 14:03
+  dup check: new (Статья приводит новые статистические данные о занятости людей с инвалидностью на Маврикии: по переписи 2022 года только 6 900 из 86 607 человек в этой)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Инклюзия: трудоустройство — испытание для людей с инвалидностью на Маврикии
+LLM usage this run: 3 requests, 5605 tokens
