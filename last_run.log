@@ -19,3 +19,24 @@ Posted (Defimedia): Запасы воды на Маврикии составля
   not news (portrait/lifestyle): Lottotech : Rs 8,7 milliards versées à l’État depuis 2012
 Skipped foreign news (L'Express): Lottotech : Rs 8,7 milliards versées à l’État depuis 2012
 LLM usage this run: 11 requests, 15701 tokens
+### check 2/5 at 20:26
+  dup check: new (Maurice et les Seychelles préparent un relevé géophysique et sismique du Plateau des Mascareignes, couvrant 396 000 km², avec le prestataire Viridien )
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  foreign words left: Mascareignes
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Inside News): На плато Маскарен готовится геофизическая разведка без разрешения на бурение
+  dup check: new (Le Conseil des ministres a approuvé le 6 novembre une aide du National Solidarity Fund et du Prime Minister’s Relief Fund aux familles des trois trava)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Трагедия в Plaine-des-Papayes: государство окажет помощь семьям трех погибших рабочих
+  dup check: new (MariDeal offre 100 dépistages gratuits du cancer du sein d'une valeur totale de Rs 550 000 dans le cadre de sa campagne Pink October.)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+  proofread: кампией → кампанию
+Posted (Le Mauricien): Розовый октябрь — рак молочной железы: MariDeal завершает кампанию, предоставив 100 бесплатных обследований
+  dup check: new (Le ministère du Logement et des Terres lance des démarches pour reclasser un terrain de l’État à Palmar (≈6 331 m²) en plage publique, décision prise )
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Palmar: предпринимаются шаги для повторного признания государственного участка публичным пляжем
+LLM usage this run: 13 requests, 21055 tokens
