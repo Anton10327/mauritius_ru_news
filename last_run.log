@@ -28,3 +28,17 @@ Posted (Inside News): Производство продовольствия: у�
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): Introuvable depuis le 20 octobre : Avis de recherche lancé contre Jean Francois Veckranges == Расследование сексуального насилия над ребёнком: разыскивается 36-летний Jean François Vec
 LLM usage this run: 6 requests, 10017 tokens
+### check 4/5 at 15:00
+  dup: nothing new ()
+Skipped duplicate (L'Express): [Vidéo] IA : Mauritius Telecom lance une plateforme gratuite pour former 50 000 Mauriciens == my.t Learning Hub: Mauritius Telecom запускает бесплатную платформу обучения по искусствен
+  dup check: new (Wesley Fidèle appeared at the Major Crime Investigation Team (MCIT) on 6 Nov to offer assistance in the murder investigation of Selven Iyempermal, cla)
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Расследование смертельного нападения на Selven Iyempermal: Wesley Fidèle явился в MCIT, чтобы помочь следователям
+  dup check: new (Количество повреждённых магазинов увеличилось до 12, указана оценка убытков Rs 500 000, подана жалоба в полицию, а все магазины reopened 6 ноября.)
+  proofread by qwen/qwen3.8-27b
+  proofread: Порт-Луи → Port-Louis; CID Южного Порт-Луи → CID de Port-Louis Sud; «damaging property» → «повреждение имущества»
+Posted (Defimedia): Victoria Urban Terminal: все магазины вновь открылись
+  dup check: new (Details of the NICE 2026 pilot: 200 Grade‑8 students (100 girls, 100 boys) aged 12‑13 from Mauritius, Rodrigues and Agalega will be trained over two w)
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Проект NICE: скоро 200 молодых людей пройдут обучение дисциплине и гражданственности…
+LLM usage this run: 10 requests, 17880 tokens
