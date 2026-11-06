@@ -1,23 +1,16 @@
-### check 1/5 at 12:49
-  dup check: new (Арестован один из подозреваемых по обвинению в Rogue and Vagabond; ранее сообщалось только о нападении и розыске троих.)
-Posted (Defimedia): Montagne-Blanche: задержан подозреваемый после инцидентов в здании полицейского участка
-  dup: nothing new (Объявлено о выделении 257,9 гектаров для поддержки сельскохозяйственного производства в условиях засухи; встреча министра с плантациями по вопросам ир)
-Skipped duplicate (Inside News): Sécheresse : les planteurs réclament des solutions, 257,9 hectares annoncés pour soutenir  == Concentrix: 13-й месяц выплат сохранён для 300 сотрудников
-  dup: nothing new (Число подростковых родов в 2024 году: 968 у матерей до 20 лет (из них 17 — младше 15). Данные из Family Planning and Demographic Yearbook 2024. Также )
-Skipped duplicate (Le Mauricien): Santé des adolescents :968 naissances chez les moins de 20 ans en 2024, dont 17 avant 15 a == Здоровье подростков: Маврикий пересматривает национальную стратегию, молодёжь призывают к 
-  dup check: new (BoM Vend 15 Millions de Dollars en Devises Étrangères au Taux de 46,75 roupies par dollar — новая операция по продаже валюты на сумму 15 млн долларов )
-Posted (Wazaa): Банк Маврикия продал 15 миллионов долларов иностранной валюты по курсу 46,75 рупий за доллар
-LLM usage this run: 8 requests, 9944 tokens
-### check 2/5 at 12:53
-### check 3/5 at 12:57
-### check 4/5 at 13:01
-  dup: nothing new ()
-Skipped duplicate (L'Express): Plaine-des-Papayes : Le ministère du Travail enquête sur la mort des trois ouvriers bangla == Три рабочих из Бангладеш погибли в Plaine-des-Papayes
-  dup check: new (Запущен новый учебный курс для 160 педагогов по профориентации с акцентом на современные тенденции рынка труда и использование искусственного интеллек)
-  proofread: руководителей среднего образования → руководителей среднего звена
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Профессиональная ориентация: 160 педагогов прошли обучение для лучшей подготовки учащихся к рынку труда
-  dup: nothing new (Предупреждение о сильных дождях на Rodrigues до 7 ноября и штормовой погоде (до 70 км/ч) на Agalega с риском временных ливней и гроз.)
-Skipped duplicate (Inside News): Rodrigues sous veille de fortes pluies, Agalega exposée aux orages et aux rafales == Concentrix: 13-й месяц выплат сохранён для 300 сотрудников
-LLM usage this run: 5 requests, 7146 tokens
-### check 5/5 at 13:05
+### check 1/5 at 13:47
+  proofread: A côté des Casernes centrales — Mercredi : 11 magasins saccagés en une nuit au VUT → Рядом с Casernes centrales — в ночь на четверг: 11 магазинов разгромлены за ночь в Victoria Urban Terminal; Le Victoria Urban Terminal (VUT), situé à quelques mètres des Casernes centrales... → В торговом центре Vic
+  foreign words left: Victoria
+  leftovers fixed by GigaChat-3-Pro; still left: Victoria
+Posted (Le Mauricien): Рядом с Casernes centrales — в ночь на четверг: 11 магазинов разгромлены за ночь в Victoria Urban Terminal
+  dup check: new (Семь человек получили условное освобождение за нарушение комендантского часа, а Жан Иван Стюарт Диеудонне был приговорён к двум месяцам тюрьмы за то ж)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Нарушение комендантского часа: семерых освободили от наказания, мужчине дали два месяца тюрьмы
+  dup check: new (Второй подозреваемый по делу об убийстве Селвен Ийемпермаль арестован 5 ноября; это новое событие в расследовании.)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Убийство Selven Iyempermal: Ridwaan Bauluck, второй подозреваемый, задержан MCIT
+  dup check: new (В статье сообщается о розыске 36-летнего Jean François Veckranges по подозрению в сексуальном насилии над ребёнком. Это новое событие и новый фигурант)
+Proofreading GigaChat-3-Pro failed: Unterminated string starting at: line 1 column 1001 (char 1000)
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Расследование сексуального насилия над ребёнком: разыскивается 36-летний Jean François Veckranges
+LLM usage this run: 13 requests, 21254 tokens
