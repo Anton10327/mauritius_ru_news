@@ -23,3 +23,16 @@ Skipped duplicate (Le Mauricien): PARTENARIAT NSIF/MITD : 75 participants décro
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): La caricature du Mauricien du 31 octobre 2026 == Борьба с неграмотностью: 75 взрослых получили National Certificate Level 1
 LLM usage this run: 9 requests, 11424 tokens
+### check 3/5 at 12:02
+  dup check: new (Вторая французская медицинская миссия по ортопедической хирургии в больнице Dr A. Gaffoor Jeetoo; встреча министра здравоохранения с французским хирур)
+Posted (Inside News): Ортопедическая хирургия: вторая миссия французских специалистов для лечения сложных случаев на Маврикии
+  dup check: new (Запланировано участие 1200 учеников в программе стажировок School Placement Programme с 10 ноября по 18 декабря; задействованы 78 организаций и 76 шко)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Programme
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Le Mauricien): Программа School Placement: 1200 учеников выйдут на стажировку с 10 ноября
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Premiers ministres mauricien et britannique se réunissent à Antigua pour l’avenir des Chag == Дебрифинг после CHOGM: Andy Burnham говорит о пересмотре соглашения по Diego-Garcia
+  dup: nothing new ()
+Skipped duplicate (L'Express): Plus de 3 000 travailleurs étrangers dans la nature, Reza Uteem cible les employeurs illég == Министр труда Reza Uteem: «Удивительно, что до сих пор полиция не смогла привлечь к ответс
+LLM usage this run: 9 requests, 12387 tokens
