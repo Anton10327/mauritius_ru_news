@@ -1,20 +1,12 @@
-### check 1/5 at 06:33
-  dup: nothing new ()
-Skipped duplicate (L'Express): Les grands titres de l'express de ce vendredi 6 novembre 2026 == Три рабочих из Бангладеш погибли в Plaine-des-Papayes
-Could not read article https://localhost:3000/blog-will-europe-defend-icc-or-remain-washingtons-supplicant: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /blog-will-europe-defend-icc-or-remain-washingtons-supplicant (Caused by NewConnectionError("HTTPSConnection(host='localhost', port=3000): Failed to establish a new connection: [Errno 111] Connection refused"))
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Blog] Will Europe defend the ICC or remain Washington’s supplicant? == Кризис водоснабжения: Business Mauritius запускает Water-Saving Toolkit для вовлечения ком
-LLM usage this run: 2 requests, 2179 tokens
-### check 2/5 at 06:37
-### check 3/5 at 06:41
-### check 4/5 at 06:45
-  dup check: new (Объявлен крайний срок (до 6 ноября) для подачи мнений по двум законопроектам об усыновлении на Маврикии: Child Adoption Bill и Code Civil Mauricien (A)
-  proofread: мнения → выражения мнения
-  foreign words left: Mauritius, Authority
+### check 1/5 at 07:29
+Could not read article https://localhost:3000/apres-pres-dun-mois-elodie-thomas-rentre-la-maison-ce-vendredi: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /apres-pres-dun-mois-elodie-thomas-rentre-la-maison-ce-vendredi (Caused by NewConnectionError("HTTPSConnection(host='localhost', port=3000): Failed to establish a new connection: [Errno 111] Connection refused"))
+  dup check: new (Elodie Thomas regagne son domicile après un mois d'hospitalisation et une opération complexe; le ministre de la Santé a confirmé sa guérison à 90 %.)
+  proofread: Элоди Тома → Элоди Томас; Анил Баху → Анил Баху
+  foreign words left: hôpital
   leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Inside News): Маврикий: последний день для выражения мнения о реформе усыновления, которая может изменить жизнь семей
-LLM usage this run: 4 requests, 5600 tokens
-### check 5/5 at 06:49
-Could not read article https://localhost:3000/meteo-des-averses-attendues-principalement-lest-et-sur-les-hauteurs: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /meteo-des-averses-attendues-principalement-lest-et-sur-les-hauteurs (Caused by NewConnectionError("HTTPSConnection(host='localhost', port=3000): Failed to establish a new connection: [Errno 111] Connection refused"))
-Posted (Defimedia): Погода: дожди ожидаются преимущественно на востоке и в нагорьях
-LLM usage this run: 2 requests, 2825 tokens
+Posted (Defimedia): После почти месяца в больнице: Elodie Thomas возвращается домой в эту пятницу
+Could not read article https://localhost:3000/electricite-le-pic-estival-mettra-lepreuve-les-capacites-du-ceb: HTTPSConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /electricite-le-pic-estival-mettra-lepreuve-les-capacites-du-ceb (Caused by NewConnectionError("HTTPSConnection(host='localhost', port=3000): Failed to establish a new connection: [Errno 111] Connection refused"))
+  dup check: new (В статье говорится о прогнозируемой мощности производства электроэнергии CEB на лето 2027 года (675 MW) и ожидаемой нагрузке (600–610 MW), а также о д)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Электроэнергия: летний пик проверит возможности CEB
+LLM usage this run: 7 requests, 8276 tokens
