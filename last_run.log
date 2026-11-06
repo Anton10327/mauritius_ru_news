@@ -1,52 +1,18 @@
-### check 1/5 at 17:49
-  dup check: new (Business Mauritius participe au Water Stewardship Forum et souhaite renforcer la coopération avec les autorités dans la gestion de l’eau, évoquant les)
+### check 1/5 at 18:40
+  dup check: new (Parlementaire Roxana Collet interroge le Premier ministre Navin Ramgoolam sur la mise en œuvre des mesures du programme gouvernemental 2025‑29 visant )
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (L'Express): Управление водными ресурсами: Business Mauritius призывает усилить сотрудничество с властями
-  dup check: new (51 157 активных разрешений на работу у иностранных работников (данные от 30 октября 2026 г.))
+  proofread: Навин Рамголам → Navin Ramgoolam
+Posted (Le Mauricien): На Маврикии укрепляют морскую безопасность с помощью международных партнёров
+  dup check: new (Organisation d'une opération de nettoyage de la plage publique de Pointe-aux-Piments le 6 novembre, associant protection de l'environnement et inclusi)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Inside News): На Маврикии действует 51 тысяча разрешений на работу для иностранцев
-  dup check: new (Condamnation du chef de secte kényan Paul Mackenzie à 200 ans de prison pour le meurtre de 190 enfants, décision rendue par la juge Diana Kavedza Moch)
+Posted (Defimedia): Pointe-aux-Piments: уборка пляжа с акцентом на инклюзию
   written by GigaChat-2-Max
-  not about Mauritius: Kenya : un chef de secte condamné à 200 ans de prison pour le meurtre de 190 enfants
-Skipped foreign news (Defimedia): Kenya : un chef de secte condamné à 200 ans de prison pour le meurtre de 190 enfants
-  dup check: new (Commission a décidé de ne plus accepter les coupons pour la fourniture de réservoirs et pompes aux ménages éligibles, et examine une demande collectiv)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: возможное сговор → возможный сговор; Программа субсидирования водоснабжения → Программа субсидирования резервуаров для воды
-Posted (Le Mauricien): На Маврикии расследуют возможный сговор поставщиков резервуаров для воды
-LLM usage this run: 11 requests, 16058 tokens
-### check 2/5 at 17:53
-  dup check: new (Employees at Hôpital Brown Sequard report unpaid overtime since July and appeal to the government on 6 November for payment.)
+  not news (portrait/lifestyle): «TEWF National Barista Competition 2026» : L’art du café et le savoir-faire local à l’honneur
+Skipped foreign news (L'Express): «TEWF National Barista Competition 2026» : L’art du café et le savoir-faire local à l’honneur
+  dup check: new (Maurice a enregistré 968 naissances vivantes de mères de moins de 20 ans en 2024, dont 17 filles de moins de 15 ans, selon le Family Planning and Demo)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: больницы Браун Секуар → Hôpital Brown Sequard; больницы Браун Секуар → Hôpital Brown Sequard
-  foreign words left: Hôpital
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (L'Express): Сотрудники больницы Brown Sequard возмущены невыплатой сверхурочных с июля
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Ассоциация адвокатов Маврикия обратилась к верховному судье по поводу требований к спонсорам для старших юристов
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): «Stars – Every Child is a Star» : Quand les enfants deviennent des étoiles du cirque
-Skipped foreign news (L'Express): «Stars – Every Child is a Star» : Quand les enfants deviennent des étoiles du cirque
-  dup check: new (Maurice will head the International Sugar Organization (ISO) starting 1 January 2027 for a four‑year term, succeeding José Orive.)
-  written by GigaChat-2-Max
-Proofreading qwen/qwen3.8-27b failed 503: {"error":{"message":"qwen/qwen3.8-27b is currently over capacity. Please try again and back off exponentially. Visit htt
-Posted (Defimedia): Маврикий возглавит Международную организацию по сахару с 2027 года
-LLM usage this run: 9 requests, 14315 tokens
-### check 3/5 at 17:57
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Seulement 6 900 Mauriciens handicapés sur plus de 86 000 sont en emploi, révèle le Procure == Инклюзия: трудоустройство — испытание для людей с инвалидностью на Маврикии
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Politique : Comme un air de pré-campagne à Rodrigues
-Skipped foreign news (L'Express): Politique : Comme un air de pré-campagne à Rodrigues
-LLM usage this run: 2 requests, 4642 tokens
-### check 4/5 at 18:01
-  dup check: new (Maurice ranks second in the 2026 Ibrahim Index of African Governance with a score of 75, showing a long‑term decline from 2016‑2025.)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Gouvernance : Maurice reste deuxième en Afrique, mais recule sur dix ans
-Skipped foreign news (Inside News): Gouvernance : Maurice reste deuxième en Afrique, mais recule sur dix ans
-LLM usage this run: 2 requests, 4277 tokens
-### check 5/5 at 18:05
+Posted (Inside News): На Маврикии подростковая беременность затронула почти тысячу девушек
+LLM usage this run: 10 requests, 17542 tokens
