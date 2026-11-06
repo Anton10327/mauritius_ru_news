@@ -1,34 +1,17 @@
-### check 1/5 at 18:40
-  dup check: new (Parlementaire Roxana Collet interroge le Premier ministre Navin Ramgoolam sur la mise en œuvre des mesures du programme gouvernemental 2025‑29 visant )
+### check 1/5 at 19:27
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): ÉTAT-OCÉAN — Atelier stratégique : Rodrigues: faire de l’économie bleue, un levier de transformation
+Skipped foreign news (Le Mauricien): ÉTAT-OCÉAN — Atelier stratégique : Rodrigues: faire de l’économie bleue, un levier de transformation
+  dup check: new (Le message du prélat catholique Mgr Jean Michaël Durhône aux Mauriciens hindous à l'occasion de Divali 2026, appelant à la paix, au dialogue et à la j)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Divali 2026 : le message de Mgr Jean Michaël Durhône
+Skipped foreign news (Defimedia): Divali 2026 : le message de Mgr Jean Michaël Durhône
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамголам → Navin Ramgoolam
-Posted (Le Mauricien): На Маврикии укрепляют морскую безопасность с помощью международных партнёров
-  dup check: new (Organisation d'une opération de nettoyage de la plage publique de Pointe-aux-Piments le 6 novembre, associant protection de l'environnement et inclusi)
+Posted (Defimedia): Новый бланк позволит полиции требовать запрет на вождение для пьяных водителей
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Pointe-aux-Piments: уборка пляжа с акцентом на инклюзию
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): «TEWF National Barista Competition 2026» : L’art du café et le savoir-faire local à l’honneur
-Skipped foreign news (L'Express): «TEWF National Barista Competition 2026» : L’art du café et le savoir-faire local à l’honneur
-  dup check: new (Maurice a enregistré 968 naissances vivantes de mères de moins de 20 ans en 2024, dont 17 filles de moins de 15 ans, selon le Family Planning and Demo)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): На Маврикии подростковая беременность затронула почти тысячу девушек
-LLM usage this run: 10 requests, 17542 tokens
-### check 2/5 at 18:44
-  dup: nothing new ()
-Skipped duplicate (Top FM): Main-d’œuvre étrangère : Maurice renforce les contrôles dans le recrutement == На Маврикии открыт новый информационный пункт для предотвращения эксплуатации работников
-LLM usage this run: 1 requests, 1439 tokens
-### check 3/5 at 18:48
-### check 4/5 at 18:52
-### check 5/5 at 18:56
-  dup check: new (Incendie du Karmabhoomi Express le 6 novembre 2026 près de la gare de Sarai Banjara (district de Patiala, Pendjab, Inde) : trois voitures détruites, u)
-  written by GigaChat-2-Max
-  not about Mauritius: [video] Inde : un train prend feu au Pendjab, plus de 1 500 passagers échappent au drame
-Skipped foreign news (Inside News): [video] Inde : un train prend feu au Pendjab, plus de 1 500 passagers échappent au drame
-  dup check: new (Обсуждение текущих музыкальных конфликтов (clash) в новой сцене «New Skool», их характер и влияние на восприятие музыки.)
-  written by GigaChat-2-Max
-  not about Mauritius: Mo Kiltir | Musique locale : le clash a-t-il perdu son sens ?
-Skipped foreign news (L'Express): Mo Kiltir | Musique locale : le clash a-t-il perdu son sens ?
-LLM usage this run: 4 requests, 8646 tokens
+  foreign words left: Ki
+  leftovers fixed by qwen/qwen3.8-27b; still left: Ki
+Posted (Defimedia): На Маврикии разработали приложение для проверки цен на товары через сканирование штрих-кодов
+LLM usage this run: 8 requests, 10712 tokens
