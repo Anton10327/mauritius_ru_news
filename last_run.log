@@ -60,3 +60,13 @@ Posted (Top FM): Видео с детьми, предположительно у
   dup: nothing new ()
 Skipped duplicate (Top FM): Compétences numériques et IA : Mauritius Telecom lance my.t Learning Hub pour former 50 00 == my.t Learning Hub: Mauritius Telecom запускает бесплатную платформу обучения по искусствен
 LLM usage this run: 11 requests, 18006 tokens
+### check 4/5 at 20:34
+  dup check: new (Prosecution of a garage owner and a taxi driver in Camp‑Yoloff for illegal transfer of liquefied petroleum gas, following a police operation by the Sp)
+Bad LLM answer from qwen/qwen3.8-27b: Invalid control character at: line 19 column 498 (char 855); raw: {"id":"chatcmpl-76c40e53-4ae7-479c-a75c-37b5024c02b7","object":"chat.completion","created":1793982893,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"{\n  \"mauritius\": true,\n  \"news\": true,\n  \"names\": [\n    {\n      \"orig\": \"Camp-Yoloff\",\n     
+  written by openai/gpt-oss-120b
+  proofread by qwen/qwen3.8-27b
+  proofread: Камп-Ёлофф → Camp-Yoloff; В Камп-Ёлоффе → В Camp-Yoloff; таксиста → водителя такси; таксиста → водителя такси
+Posted (Defimedia): Camp-Yoloff: гаражный мастер и водитель такси привлечены к ответственности за перенос бытового газа
+  dup: nothing new ()
+Skipped duplicate (Top FM): Réforme du secteur public : Un projet de loi pour réduire la bureaucratie et améliorer les == Государственная служба: законопроект для регулирования реформ и улучшения обслуживания гра
+LLM usage this run: 5 requests, 9482 tokens
