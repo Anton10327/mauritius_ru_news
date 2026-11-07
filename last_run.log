@@ -8,3 +8,13 @@ Skipped duplicate (Inside News): Opérations complexes à Maurice : 15 intervent
   dup: nothing new ()
 Skipped duplicate (Defimedia): [Supplément Spécial] Face au diabète, Maurice doit changer de régime == Сезон сильных дождей: Port-Louis заявляет о готовности к любым сценариям
 LLM usage this run: 6 requests, 7718 tokens
+### check 2/5 at 10:18
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): CAMP-LEVIEUX | Blessure d’Élodie Thomas par balle  L’enquête de l’IPCC  bouclée fin novemb == Выстрел в Camp-Levieux: комиссия по жалобам на полицию (IPCC) планирует завершить расследо
+  proofread: «катер» → «катера»
+Posted (L'Express): Яхта «Dreamer»: предполагаемого наркоторговца перевели в тюрьму Melrose
+  dup: nothing new ()
+Skipped duplicate (Inside News): Eau : les réserves nationales passent sous 50 %, Mare-aux-Vacoas chute à 33 % == Запасы воды на Маврикии составляют 49,6%, поставщики резервуаров просят пересмотреть субси
+  same headline as #76: my.t Learning Hub : Mauritius Telecom lance une plateforme de formation gratuite
+Skipped duplicate (Top FM): My.t Learning Hub : une plateforme de formation en ligne gratuite lancée par Mauritius Tel == my.t Learning Hub: Mauritius Telecom запускает бесплатную платформу обучения по искусствен
+LLM usage this run: 4 requests, 5283 tokens
