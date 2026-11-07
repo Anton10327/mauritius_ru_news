@@ -1,22 +1,13 @@
-### check 1/5 at 15:20
+### check 1/5 at 16:05
+  dup check: new (Четыре новых регламента по пестицидам, усиленные проверки, обучение фермеров и система отслеживания через QR-код)
+  proofread: 
+  foreign words left: QR-коду
+  leftovers fixed by GigaChat-3-Pro; still left: QR-коду
+Posted (Defimedia): Пестициды на Маврикии — Boolell: «Мы не можем гарантировать, что каждый фрукт и овощ не содержит остатков»
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): TOUR D’HORIZON – Travailleurs bangladais :  un drame qui interpelle == Трагедия в Plaine-des-Papayes: государство окажет помощь семьям трех погибших рабочих
-  dup check: new (Интервью с Patrick Belcourt о социальных проблемах и равенстве возможностей на Маврикии; его мнение о том, что равенство возможностей — утопия, призыв)
-  not news (portrait/lifestyle): Interview  Patrick Belcourt, leader de EN AVANT MORIS   « L’égalité des chances à l’île Maurice est 
-Skipped foreign news (Le Mauricien): Interview  Patrick Belcourt, leader de EN AVANT MORIS   « L’égalité des chances à l’île Maurice est 
-  proofread: «Fam Moter Trail» → «Fam Moter Trail» (оставлено как устойчивое выражение); Cotton Bay Resort & Spa в Pointe Coton → Cotton Bay Resort & Spa в Пойнт-Котон
-  foreign words left: Fam, Trail
-  leftovers fixed by GigaChat-3-Pro; still left: Fam, Trail
-Posted (L'Express): 17-я гонка Trail de Rodrigues: «Женская тропа», в центре внимания женщины
+Skipped duplicate (L'Express): «Senior Counsel» et « Senior Attorney» : Le parrainage des candidats fait débat == Ассоциация адвокатов Маврикия обратилась к верховному судье по поводу требований к спонсор
+  dup check: new (В новой статье содержится письмо от организации LALIT премьер-министру с призывом к репарациям за вред, причинённый рабством. Это отдельное событие и )
+Posted (Le Mauricien): После CHOGM — письмо Lalit премьер-министру
   dup: nothing new ()
-Skipped duplicate (L'Express): Campagne nationale : Pas de censure des réseaux sociaux, jure l’État, qui revoit la loi == На Маврикии запущена кампания против киберпреступности
-LLM usage this run: 7 requests, 10193 tokens
-### check 2/5 at 15:24
-### check 3/5 at 15:28
-### check 4/5 at 15:32
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Изъятия на несколько миллиардов рупий — 730 дней у власти: наркосети остаются в наступлении
-  dup check: new (Объявлена новая правительственная инициатива по практической подготовке к реагированию на наводнения; цель — усиление национальной способности реагиро)
-Posted (Inside News): Наводнения на Маврикии: экстренные службы готовятся, но достаточно ли страна готова?
-LLM usage this run: 5 requests, 7935 tokens
-### check 5/5 at 15:36
+Skipped duplicate (Top FM): Divali : Dans la capitale, derrière chaque lumière et chaque douceur, l’envie de faire pla == Праздник света: Radio Plus в центре празднований Дивали
+LLM usage this run: 9 requests, 11123 tokens
