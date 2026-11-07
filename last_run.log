@@ -1,24 +1,4 @@
-### check 1/5 at 05:56
-  dup: nothing new ()
-Skipped duplicate (Inside News): Météo de samedi : quelques averses et jusqu’à 32 °C à Maurice == Погода: дожди ожидаются преимущественно на востоке и в нагорьях
-GigaChat balance: GigaChat-Ultra 46,880,655, GigaChat-Pro 37,365,674, GigaChat-Max 24,179,685, GigaChat 249,589,075; 347 days to go
-  dup check: new ()
-  not news (portrait/lifestyle): La météo du samedi 7 novembre 2026
-Skipped foreign news (Le Mauricien): La météo du samedi 7 novembre 2026
-  dup check: new (Статья сообщает о прогнозируемой инфляции в 5% к декабрю и текущих показателях: глобальная инфляция — 4,1%, годовой рост цен — 5,7% в сентябре 2026 го)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Стоимость жизни: угроза инфляции выше 5%
-  dup check: new (В статье анонсирован новый Business Facilitation Bill в рамках бюджета 2026-2027 с мерами по упрощению административных процедур и введением принципа )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Законопроект о содействии бизнесу: время административной упрощения
-LLM usage this run: 9 requests, 14074 tokens
-### check 2/5 at 06:00
-  dup: nothing new ()
-Skipped duplicate (L'Express): En couverture : Les grands titres de l'express de ce samedi 7 novembre 2026 == На Маврикии запущена кампания против киберпреступности
-LLM usage this run: 1 requests, 753 tokens
-### check 3/5 at 06:04
-### check 4/5 at 06:08
-### check 5/5 at 06:12
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Météo : des averses à l’Est et sur le plateau central, des rafales de 50 km/h attendues == Погода: дожди ожидаются преимущественно на востоке и в нагорьях
-LLM usage this run: 1 requests, 518 tokens
+### check 1/5 at 06:43
+  not about Mauritius: Ligue des champions : Mbappé décisif sur 100 buts, seul Messi a fait plus vite
+Skipped foreign news (Defimedia): Ligue des champions : Mbappé décisif sur 100 buts, seul Messi a fait plus vite
+LLM usage this run: 1 requests, 2771 tokens
