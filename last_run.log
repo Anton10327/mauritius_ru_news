@@ -1,16 +1,13 @@
-### check 1/5 at 14:46
+### check 1/5 at 15:20
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): National Initiative for Civic Education –  Le PMO se félicite du partenariat  avec le sect == Проект NICE: скоро 200 молодых людей пройдут обучение дисциплине и гражданственности…
+Skipped duplicate (Le Mauricien): TOUR D’HORIZON – Travailleurs bangladais :  un drame qui interpelle == Трагедия в Plaine-des-Papayes: государство окажет помощь семьям трех погибших рабочих
+  dup check: new (Интервью с Patrick Belcourt о социальных проблемах и равенстве возможностей на Маврикии; его мнение о том, что равенство возможностей — утопия, призыв)
+  not news (portrait/lifestyle): Interview  Patrick Belcourt, leader de EN AVANT MORIS   « L’égalité des chances à l’île Maurice est 
+Skipped foreign news (Le Mauricien): Interview  Patrick Belcourt, leader de EN AVANT MORIS   « L’égalité des chances à l’île Maurice est 
+  proofread: «Fam Moter Trail» → «Fam Moter Trail» (оставлено как устойчивое выражение); Cotton Bay Resort & Spa в Pointe Coton → Cotton Bay Resort & Spa в Пойнт-Котон
+  foreign words left: Fam, Trail
+  leftovers fixed by GigaChat-3-Pro; still left: Fam, Trail
+Posted (L'Express): 17-я гонка Trail de Rodrigues: «Женская тропа», в центре внимания женщины
   dup: nothing new ()
-Skipped duplicate (Defimedia): Deux Budgets : redressement économique et promesses à concrétiser == Расследование FCC в отношении SMS Pariaz: акционера Pazhany Thandrayen допрашивают
-  dup check: new (В статье указаны новые цены на нефть Brent и WTI (98,29$ и 90,52$), а также процент роста после атак на нефтяные танкеры. Это новая информация о рынке)
-  not about Mauritius: Pétrole : le Brent remonte à 98,29 dollars, sans effet automatique à la pompe
-Skipped foreign news (Inside News): Pétrole : le Brent remonte à 98,29 dollars, sans effet automatique à la pompe
-LLM usage this run: 4 requests, 6234 tokens
-### check 2/5 at 14:50
-### check 3/5 at 14:54
-### check 4/5 at 14:58
-### check 5/5 at 15:02
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Raviraj Sinha Beechook : «Le bilan économique du gouvernement est courageux face à la guer == Расследование FCC в отношении SMS Pariaz: акционера Pazhany Thandrayen допрашивают
-LLM usage this run: 1 requests, 754 tokens
+Skipped duplicate (L'Express): Campagne nationale : Pas de censure des réseaux sociaux, jure l’État, qui revoit la loi == На Маврикии запущена кампания против киберпреступности
+LLM usage this run: 7 requests, 10193 tokens
