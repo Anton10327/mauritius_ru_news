@@ -1,32 +1,13 @@
-### check 1/5 at 13:16
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Année financière 2026-27 : Xavier-Luc Duval réclame un deuxième Budget pour revoir les dis == Образование, НДС и государственный долг: Xavier-Luc Duval ставит под сомнение экономически
-  dup check: new (Оппозиционный лидер Chetan Baboolall публично раскритиковал двухлетний срок работы правительства как «нулевой», указав на невыполненные обещания и рос)
-Posted (Le Mauricien): Два года у власти: лидер оппозиции Chetan Baboolall обвиняет правительство в «нулевых результатах» и росте репрессивных законов
-  dup: nothing new (Заявление Paul Bérenger о необходимости формирования нового правительства и конкретных назначений (премьер-министр, вице-премьер, министр финансов, ми)
-Skipped duplicate (Defimedia): FMP : Paul Bérenger réclame une nouvelle équipe gouvernementale au plus vite == Полиция Маврикия разыскивает беглеца после антинаркотического рейда на 2,5 млн рупий в Qua
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Fûts en plastique : une solution de stockage qui exige des précautions == Полиция Маврикия разыскивает беглеца после антинаркотического рейда на 2,5 млн рупий в Qua
-LLM usage this run: 6 requests, 8157 tokens
-### check 2/5 at 13:20
-  dup check: new (Смерть 13-месячной девочки Леваны в Рош-Буа и начало полицейского расследования; ранее опубликованные посты не касаются этого события.)
+### check 1/5 at 14:04
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup check: new (Женщина с Родригеса выиграла рекордные 88,9 млн рупий в лотерею (471-й тираж), что является самым крупным выигрышем на острове; выигрышный билет был к)
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Jeetoo
-  leftovers fixed by GigaChat-3-Pro; still left: Jeetoo
-Posted (L'Express): Смерть Levana, 13 месяцев: радость семьи исчезла вместе с ней
+Posted (Defimedia): Лото: жительница Rodrigues выиграла 88,9 млн рупий, рекорд для острова
   dup: nothing new ()
-Skipped duplicate (Inside News): Maisons de retraite à Maurice : le gouvernement veut renforcer la protection des résidents == Защита пожилых людей: ежемесячная отчетность о жильцах и лицензионные сборы до 10 000 рупи
-  dup check: new (Упоминаются семь стартапов (Enersight, WillPost, Hospitality Green Academy, NexTherma, Belyaeva House, Valkyra Equestrian и repone.mu), которые будут )
+Skipped duplicate (Defimedia): Deux ans de pouvoir, trois ans pour convaincre : l’économie face à l’épreuve des résultats == Полиция Маврикия разыскивает беглеца после антинаркотического рейда на 2,5 млн рупий в Qua
+  dup check: new (В статье впервые упоминается возможный уровень потерь урожая картофеля до 40% из-за мухи-минёра и проблема недоступности новых пестицидов для фермеров)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): ИННОВАЦИИ И СТАРТАПЫ | Pitch Day на следующей неделе: La Turbine Innovation Challenge 2026 — семь стартапов представят свои решения
-  dup check: new (В статье описывается новый инцидент — пожар в автомобильном шоуroom в Нью-Дели с людьми на крыше и попытками эвакуации. Это отдельное событие, не связ)
-  not about Mauritius: Inde : un violent incendie dans un showroom automobile à New Delhi, des personnes piégées sur le toi
-Skipped foreign news (Inside News): Inde : un violent incendie dans un showroom automobile à New Delhi, des personnes piégées sur le toi
-LLM usage this run: 10 requests, 14418 tokens
-### check 3/5 at 13:24
-  dup check: new (В статье приведены новые конкретные цифры: от 200 до 300 новых случаев рака в месяц и 1041 случай за первые шесть месяцев года. Также упоминается заяв)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Рак на Маврикии: от 200 до 300 новых случаев ежемесячно берут на лечение
-LLM usage this run: 3 requests, 4368 tokens
-### check 4/5 at 13:28
-### check 5/5 at 13:32
+Posted (Defimedia): Муха-минёр: фермеры опасаются потерь до 40% урожая картофеля
+  dup: nothing new ()
+Skipped duplicate (Wazaa): 3 experts américains pour aider à réviser le plan directeur du drainage des crues à Mauric == На Маврикий прибывают три эксперта из США для пересмотра плана управления дренажем
+LLM usage this run: 8 requests, 11529 tokens
