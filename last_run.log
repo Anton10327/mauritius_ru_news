@@ -1,23 +1,6 @@
-### check 1/5 at 16:05
-  dup check: new (Четыре новых регламента по пестицидам, усиленные проверки, обучение фермеров и система отслеживания через QR-код)
-  proofread: 
-  foreign words left: QR-коду
-  leftovers fixed by GigaChat-3-Pro; still left: QR-коду
-Posted (Defimedia): Пестициды на Маврикии — Boolell: «Мы не можем гарантировать, что каждый фрукт и овощ не содержит остатков»
+### check 1/5 at 16:53
   dup: nothing new ()
-Skipped duplicate (L'Express): «Senior Counsel» et « Senior Attorney» : Le parrainage des candidats fait débat == Ассоциация адвокатов Маврикия обратилась к верховному судье по поводу требований к спонсор
-  dup check: new (В новой статье содержится письмо от организации LALIT премьер-министру с призывом к репарациям за вред, причинённый рабством. Это отдельное событие и )
-Posted (Le Mauricien): После CHOGM — письмо Lalit премьер-министру
+Skipped duplicate (Defimedia): «Divali Night» avec Radio Plus : la ferveur musicale s’invite à Roche-Terre == Праздник света: Radio Plus в центре празднований Дивали
   dup: nothing new ()
-Skipped duplicate (Top FM): Divali : Dans la capitale, derrière chaque lumière et chaque douceur, l’envie de faire pla == Праздник света: Radio Plus в центре празднований Дивали
-LLM usage this run: 9 requests, 11123 tokens
-### check 2/5 at 16:09
-  dup: nothing new ()
-Skipped duplicate (Top FM): Xavier-Luc Duval plaide pour « deux Budgets par an » et un seuil de TVA à « 9 millions de  == Образование, НДС и государственный долг: Xavier-Luc Duval ставит под сомнение экономически
-LLM usage this run: 1 requests, 822 tokens
-### check 3/5 at 16:13
-  dup: nothing new ()
-Skipped duplicate (Top FM): Ashok Subron appelle l’État à se détacher de la droite pro-capitaliste et des intérêts des == Фестиваль Дивали в Phoenix: Dharam Gokhool призывает к национальному единству
-LLM usage this run: 1 requests, 443 tokens
-### check 4/5 at 16:17
-### check 5/5 at 16:21
+Skipped duplicate (Inside News): World Knits : jusqu’à quatre mois sans salaire, près de 600 travailleurs face à un avenir  == Группа World Knits Group: часть сотрудников уволена
+LLM usage this run: 2 requests, 2214 tokens
