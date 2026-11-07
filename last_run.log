@@ -1,20 +1,12 @@
-### check 1/5 at 08:29
+### check 1/5 at 09:22
+  foreign words left: Botswana
+  leftovers fixed by GigaChat-3-Pro; still left: Botswana
+Posted (Inside News): Работа за рубежом: набор открыт для маврикийцев в Африке и ОАЭ
   dup: nothing new ()
-Skipped duplicate (Defimedia): Réseaux sociaux  : «School Mode», «Sleep Mode» et limite de deux heures pour les adolescen == На Маврикии запущена кампания против киберпреступности
+Skipped duplicate (L'Express): Victoria Urban Terminal : 13 vitrines de commerces endommagées, un suspect arrêté == Victoria Urban Terminal: все магазины вновь открылись
+  dup check: new (В статье приводится заявление епископа Жана Михаэля Дюрона о значении праздника Дивали и призыв к миру, диалогу и братству в контексте недавних событи)
+  not news (portrait/lifestyle): Divali / Mgr Jean Michaël Durhône : appel à la paix, au dialogue et à la fraternité
+Skipped foreign news (Le Mauricien): Divali / Mgr Jean Michaël Durhône : appel à la paix, au dialogue et à la fraternité
   dup: nothing new ()
-Skipped duplicate (Defimedia): Filmés en train de boire de la bière : Les enfants récupérés à leur domicile et conduits à == Видео с детьми, предположительно употребляющими алкоголь: родителей допросили, детей отпра
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Ti-Rodrigues : vers une régularisation des occupants de terrains privés à La Cure == Правительство приступает к урегулированию ситуации с самовольными захватами земли в Ti-Rod
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Crise de l’eau : les réserves sous les 50 %, 40 000 demandes d’aide pour des réservoirs == Запасы воды на Маврикии составляют 49,6%, поставщики резервуаров просят пересмотреть субси
-LLM usage this run: 4 requests, 4282 tokens
-### check 2/5 at 08:33
-  dup check: new (Протокол об обучении специалистов и создании бесплатного центра диагностики аутизма одобрен Советом министров; соглашение заключено между Минздравом М)
-Posted (Top FM): Аутизм: соглашение о подготовке специалистов и лучшей поддержке семей
-LLM usage this run: 3 requests, 4349 tokens
-### check 3/5 at 08:37
-### check 4/5 at 08:41
-### check 5/5 at 08:45
-  dup: nothing new ()
-Skipped duplicate (Inside News): Emploi à Maurice : CFAO, Linkeo, Chemtech et plusieurs entreprises recrutent, avec des sal == Работа на Маврикии: Eclosia, MauBank, C-Care, City Clinic, PSC и STC набирают сотрудников 
-LLM usage this run: 1 requests, 850 tokens
+Skipped duplicate (Top FM): À la veille de Divali, les fidèles se préparent entre traditions, dévotion et partage == Trail de Rodrigues: тема, близкая RTA
+LLM usage this run: 7 requests, 10100 tokens
