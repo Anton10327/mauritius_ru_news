@@ -1,14 +1,11 @@
-### check 1/5 at 16:53
-  dup: nothing new ()
-Skipped duplicate (Defimedia): «Divali Night» avec Radio Plus : la ferveur musicale s’invite à Roche-Terre == Праздник света: Radio Plus в центре празднований Дивали
-  dup: nothing new ()
-Skipped duplicate (Inside News): World Knits : jusqu’à quatre mois sans salaire, près de 600 travailleurs face à un avenir  == Группа World Knits Group: часть сотрудников уволена
-LLM usage this run: 2 requests, 2214 tokens
-### check 2/5 at 16:57
-### check 3/5 at 17:01
-### check 4/5 at 17:05
+### check 1/5 at 17:43
   dup check: new ()
-  not news (portrait/lifestyle): Moins de sucre, plus d’audace : le renouveau des gâteaux de Divali
-Skipped foreign news (Defimedia): Moins de sucre, plus d’audace : le renouveau des gâteaux de Divali
-LLM usage this run: 2 requests, 3581 tokens
-### check 5/5 at 17:09
+  not news (portrait/lifestyle): Interview…  Nuckiren Pyeneeandee : «Depi koumansman, Dev Virahsawmy ti kontan ekrir lor lepep»
+Skipped foreign news (L'Express): Interview…  Nuckiren Pyeneeandee : «Depi koumansman, Dev Virahsawmy ti kontan ekrir lor lepep»
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): TIC et ICTA- Liberté d’expression : Campagne de sensibilisation contre  les abus sur les r == На Маврикии запущена кампания против киберпреступности
+  not about Mauritius: À la découverte des chutes Victoria, joyau touristique du Zimbabwe
+Skipped foreign news (Defimedia): À la découverte des chutes Victoria, joyau touristique du Zimbabwe
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Décès de Levana Azelie Blessing Casimir : Gabriella, entre le deuil de sa fille et l’arres == Смерть Levana, 13 месяцев: радость семьи исчезла вместе с ней
+LLM usage this run: 5 requests, 7584 tokens
