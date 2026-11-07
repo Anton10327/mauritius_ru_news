@@ -1,23 +1,12 @@
-### check 1/5 at 10:14
+### check 1/5 at 11:25
+  same headline as #82: Fête de la lumière : Radio Plus au cœur des célébrations de Divali
+Skipped duplicate (Defimedia): Fête de la lumière : Radio Plus illumine le Divali de cinq familles == Праздник света: Radio Plus в центре празднований Дивали
   dup: nothing new ()
-Skipped duplicate (Wazaa): L’État Sauve 3 Enfants après une Vidéo Choquante Montrant des Enfants Buvant de la Bière s == Видео с детьми, предположительно употребляющими алкоголь: родителей допросили, детей отпра
-  dup check: new (Соглашение между Маврикием и Индией о сотрудничестве в борьбе с киберпреступностью: быстрое удаление нелегального контента онлайн, защита женщин и дет)
-Posted (Le Mauricien): Киберпреступность: Маврикий и Индия намерены упростить удаление незаконного контента в интернете
-  dup: nothing new ()
-Skipped duplicate (Inside News): Opérations complexes à Maurice : 15 interventions réalisées par un chirurgien français à l == Ортопедическая хирургия: вторая миссия французских специалистов для лечения сложных случае
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Supplément Spécial] Face au diabète, Maurice doit changer de régime == Сезон сильных дождей: Port-Louis заявляет о готовности к любым сценариям
-LLM usage this run: 6 requests, 7718 tokens
-### check 2/5 at 10:18
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): CAMP-LEVIEUX | Blessure d’Élodie Thomas par balle  L’enquête de l’IPCC  bouclée fin novemb == Выстрел в Camp-Levieux: комиссия по жалобам на полицию (IPCC) планирует завершить расследо
-  proofread: «катер» → «катера»
-Posted (L'Express): Яхта «Dreamer»: предполагаемого наркоторговца перевели в тюрьму Melrose
-  dup: nothing new ()
-Skipped duplicate (Inside News): Eau : les réserves nationales passent sous 50 %, Mare-aux-Vacoas chute à 33 % == Запасы воды на Маврикии составляют 49,6%, поставщики резервуаров просят пересмотреть субси
-  same headline as #76: my.t Learning Hub : Mauritius Telecom lance une plateforme de formation gratuite
-Skipped duplicate (Top FM): My.t Learning Hub : une plateforme de formation en ligne gratuite lancée par Mauritius Tel == my.t Learning Hub: Mauritius Telecom запускает бесплатную платформу обучения по искусствен
-LLM usage this run: 4 requests, 5283 tokens
-### check 3/5 at 10:22
-### check 4/5 at 10:26
-### check 5/5 at 10:30
+Skipped duplicate (Le Mauricien): BLESSÉE PAR BALLE LE MOIS DERNIER : Élodie Thomas a pu rentrer chez elle hier == После почти месяца в больнице: Elodie Thomas возвращается домой в эту пятницу
+  dup check: new (Упоминается образовательный тур в Зимбабве с 5 по 8 ноября, организованный South African Airways Mauritius и Atom Travel, с посещением водопадов Викто)
+  not about Mauritius: Zimbabwe : Victoria Falls dans le viseur des voyageurs mauriciens
+Skipped foreign news (Defimedia): Zimbabwe : Victoria Falls dans le viseur des voyageurs mauriciens
+  dup check: new (Объявлено о начале работ по подключению между Tamarind Falls и La Marie для увеличения водоснабжения на 10 000 м³; снижение дебита скважин в Hautes Pl)
+  proofread: Tamarind Falls–La Marie : les travaux de raccordement annoncés pour ce week-end → Водопроводные работы между Tamarind Falls и La Marie анонсированы на эти выходные; Central Water Authority (CWA) mise sur le projet de Tamarind Falls pour renforcer les ressources disponibles face à la crise hydrique. 
+Posted (Defimedia): Водопроводные работы между Tamarind Falls и La Marie анонсированы на эти выходные
+LLM usage this run: 6 requests, 10663 tokens
