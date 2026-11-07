@@ -1,29 +1,10 @@
-### check 1/5 at 09:22
-  foreign words left: Botswana
-  leftovers fixed by GigaChat-3-Pro; still left: Botswana
-Posted (Inside News): Работа за рубежом: набор открыт для маврикийцев в Африке и ОАЭ
+### check 1/5 at 10:14
   dup: nothing new ()
-Skipped duplicate (L'Express): Victoria Urban Terminal : 13 vitrines de commerces endommagées, un suspect arrêté == Victoria Urban Terminal: все магазины вновь открылись
-  dup check: new (В статье приводится заявление епископа Жана Михаэля Дюрона о значении праздника Дивали и призыв к миру, диалогу и братству в контексте недавних событи)
-  not news (portrait/lifestyle): Divali / Mgr Jean Michaël Durhône : appel à la paix, au dialogue et à la fraternité
-Skipped foreign news (Le Mauricien): Divali / Mgr Jean Michaël Durhône : appel à la paix, au dialogue et à la fraternité
+Skipped duplicate (Wazaa): L’État Sauve 3 Enfants après une Vidéo Choquante Montrant des Enfants Buvant de la Bière s == Видео с детьми, предположительно употребляющими алкоголь: родителей допросили, детей отпра
+  dup check: new (Соглашение между Маврикием и Индией о сотрудничестве в борьбе с киберпреступностью: быстрое удаление нелегального контента онлайн, защита женщин и дет)
+Posted (Le Mauricien): Киберпреступность: Маврикий и Индия намерены упростить удаление незаконного контента в интернете
   dup: nothing new ()
-Skipped duplicate (Top FM): À la veille de Divali, les fidèles se préparent entre traditions, dévotion et partage == Trail de Rodrigues: тема, близкая RTA
-LLM usage this run: 7 requests, 10100 tokens
-### check 2/5 at 09:26
-### check 3/5 at 09:30
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Right, of
-  leftovers fixed by GigaChat-3-Pro; still left: Right, of
-Posted (Inside News): Отозвать депутата до истечения срока полномочий: предложение, способное изменить политику на Маврикии
-LLM usage this run: 3 requests, 4118 tokens
-### check 4/5 at 09:34
+Skipped duplicate (Inside News): Opérations complexes à Maurice : 15 interventions réalisées par un chirurgien français à l == Ортопедическая хирургия: вторая миссия французских специалистов для лечения сложных случае
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Risques d’inondation : trois experts américains à Maurice pour revoir le plan de drainage == На Маврикий прибывают три эксперта из США для пересмотра плана управления дренажем
-LLM usage this run: 1 requests, 1363 tokens
-### check 5/5 at 09:38
-  dup check: new (В статье упоминается оценка экономиста Ишвинда Каллечура о том, что экономический рост в 2,8% является одной из худших экономических показателей Маври)
-  foreign words left: sur
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Top FM): Экономический рост 2,8%: «Одна из худших экономических показателей за более чем 20 лет», — считает Ishwind Caleechurn
-LLM usage this run: 4 requests, 4281 tokens
+Skipped duplicate (Defimedia): [Supplément Spécial] Face au diabète, Maurice doit changer de régime == Сезон сильных дождей: Port-Louis заявляет о готовности к любым сценариям
+LLM usage this run: 6 requests, 7718 tokens
