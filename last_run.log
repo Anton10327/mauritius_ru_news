@@ -31,3 +31,13 @@ Skipped foreign news (Top FM): PILS célèbre 30 ans d’engagement contre le VI
   dup check: new (Правительство рассматривает возможность сотрудничества с StopNCII для борьбы с несанкционированным распространением интимных изображений и контентом, )
 Posted (Top FM): Правительство рассматривает сотрудничество с StopNCII для борьбы с распространением интимных изображений без согласия
 LLM usage this run: 8 requests, 11372 tokens
+### check 4/5 at 11:37
+  dup check: new (В новой статье описано отдельное мероприятие — Messe de la Lumière в церкви Sainte-Thérèse d'Avila с участием полиции и представителей разных конфесси)
+  not news (portrait/lifestyle): SAINTE-THÉRÈSE | Messe de la Lumière – La police et l’Église réunies  pour célébrer le vivre-ensembl
+Skipped foreign news (Le Mauricien): SAINTE-THÉRÈSE | Messe de la Lumière – La police et l’Église réunies  pour célébrer le vivre-ensembl
+  dup check: new (Запуск национальной кампании по предотвращению и подготовке к наводнениям 2026-2027 (National Flood Prevention and Preparedness Campaign) с участием N)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Landscope
+  leftovers fixed by GigaChat-3-Pro; still left: Landscope
+Posted (Top FM): Профилактика наводнений: власти призывают подготовиться до сильных дождей
+LLM usage this run: 6 requests, 6705 tokens
