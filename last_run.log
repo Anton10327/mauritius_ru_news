@@ -23,3 +23,8 @@ Posted (Le Mauricien): ИННОВАЦИИ И СТАРТАПЫ | Pitch Day на �
   not about Mauritius: Inde : un violent incendie dans un showroom automobile à New Delhi, des personnes piégées sur le toi
 Skipped foreign news (Inside News): Inde : un violent incendie dans un showroom automobile à New Delhi, des personnes piégées sur le toi
 LLM usage this run: 10 requests, 14418 tokens
+### check 3/5 at 13:24
+  dup check: new (В статье приведены новые конкретные цифры: от 200 до 300 новых случаев рака в месяц и 1041 случай за первые шесть месяцев года. Также упоминается заяв)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Рак на Маврикии: от 200 до 300 новых случаев ежемесячно берут на лечение
+LLM usage this run: 3 requests, 4368 tokens
