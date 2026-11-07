@@ -11,3 +11,14 @@ Posted (Defimedia): Муха-минёр: фермеры опасаются по�
   dup: nothing new ()
 Skipped duplicate (Wazaa): 3 experts américains pour aider à réviser le plan directeur du drainage des crues à Mauric == На Маврикий прибывают три эксперта из США для пересмотра плана управления дренажем
 LLM usage this run: 8 requests, 11529 tokens
+### check 2/5 at 14:08
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Ali Mansoor, économiste et ancien secrétaire financier : «Deux années de progrès, trois an == Два года у власти: лидер оппозиции Chetan Baboolall обвиняет правительство в «нулевых резу
+  dup: nothing new ()
+Skipped duplicate (L'Express): Meurtre de Selven Iyempermal : Un deuxième suspect inculpé, un témoin se présente à la MCI == Убийство Selven Iyempermal: Ridwaan Bauluck предъявлено предварительное обвинение в «посяг
+  dup: nothing new ()
+Skipped duplicate (Inside News): Autisme : Maurice prépare un centre public gratuit pour le diagnostic == Аутизм: соглашение о подготовке специалистов и лучшей поддержке семей
+  not news (portrait/lifestyle): Trail de Rodrigues 2026 : Courir à hauteur de femme
+Skipped foreign news (L'Express): Trail de Rodrigues 2026 : Courir à hauteur de femme
+LLM usage this run: 4 requests, 5658 tokens
