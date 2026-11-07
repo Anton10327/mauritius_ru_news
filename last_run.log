@@ -1,22 +1,10 @@
-### check 1/5 at 18:27
-  dup check: new (Статья сообщает о новом событии: в Порт-Луи муж зарезал жену на глазах у их 7-летнего сына-аутиста и бабушки. Приводятся детали происшествия (время ок)
-  proofread: на глазах у 7-летнего сына с аутизмом → на глазах у их 7-летнего сына с аутизмом
-Posted (Defimedia): Port-Louis: муж ударил ножом жену на глазах у 7-летнего сына с аутизмом
+### check 1/5 at 19:12
+  dup check: new ()
+  not news (portrait/lifestyle): Atteinte d’une maladie intestinale rare : Alison, huit ans, a déjà subi près de sept opérations
+Skipped foreign news (Defimedia): Atteinte d’une maladie intestinale rare : Alison, huit ans, a déjà subi près de sept opérations
+  dup check: new (Тania, женщина в возрасте около тридцати лет, вынуждена покинуть дом и живет с тремя детьми в комнате без электричества из‑за поведения её партнёра‑на)
+  not news (portrait/lifestyle): Dommage collatéral de la drogue : Tania et ses trois enfants contraints de vivre dans une pièce sans
+Skipped foreign news (L'Express): Dommage collatéral de la drogue : Tania et ses trois enfants contraints de vivre dans une pièce sans
   dup: nothing new ()
-Skipped duplicate (L'Express): Myt Learning Hub : Une plateforme gratuite pour former 50 000 Mauriciens à l’IA == my.t Learning Hub: Mauritius Telecom запускает бесплатную платформу обучения по искусствен
-  dup check: new (GreenYellow и MCB заключили соглашение о финансировании на 940 млн рупий для строительства 17 солнечных электростанций общей мощностью более 25 МВт; п)
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Переход на новую энергетику: Финансирование — MCB и GreenYellow: 940 млн рупий на 17 солнечных электростанций
-  proofread by qwen/qwen3.8-27b
-  proofread: Мадхури Ситул → Madhuri Seetul; Ведананда Ситула → Vedanand Seetul; Уголовном суде → Cour d'assises Maurice; manslaughter → умышленное убийство; Лалмати → Lallmatie
-  foreign words left: manslaughter
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (Defimedia): Убийство Madhuri Seetul: присяжные удалились на совещание по делу её мужа
-LLM usage this run: 10 requests, 16827 tokens
-### check 2/5 at 18:31
-  dup: nothing new ()
-Skipped duplicate (Defimedia): À La Caverne - Meurtre de Selven Iyempermal : quand la loi du silence freine l’enquête == Убийство Selven Iyempermal: Ridwaan Bauluck, второй подозреваемый, задержан MCIT
-LLM usage this run: 1 requests, 1815 tokens
-### check 3/5 at 18:35
-### check 4/5 at 18:39
-### check 5/5 at 18:43
+Skipped duplicate (Le Mauricien): Accord MT/AWS-  myt Learning Hub : formations numériques gratuites pour tous == my.t Learning Hub: Mauritius Telecom запускает бесплатную платформу обучения по искусствен
+LLM usage this run: 5 requests, 9944 tokens
