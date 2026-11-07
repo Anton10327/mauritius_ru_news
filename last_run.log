@@ -1,11 +1,10 @@
-### check 1/5 at 07:30
-  dup check: new (В статье сообщается о новом случае осуждения за кражу: рецидивист (44 года) был арестован и приговорён к одному месяцу тюрьмы после того, как его пойм)
-Posted (Le Mauricien): Port-Louis: месяц тюрьмы за кражу
-  dup check: new ()
-  proofread: с нескольких недель → за несколько недель
-Posted (Defimedia): Подготовка к концу года: сектор крупной розницы на Маврикии уже переходит на повышенную скорость
-LLM usage this run: 6 requests, 8824 tokens
-### check 2/5 at 07:34
-### check 3/5 at 07:38
-### check 4/5 at 07:42
-### check 5/5 at 07:46
+### check 1/5 at 08:29
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Réseaux sociaux  : «School Mode», «Sleep Mode» et limite de deux heures pour les adolescen == На Маврикии запущена кампания против киберпреступности
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Filmés en train de boire de la bière : Les enfants récupérés à leur domicile et conduits à == Видео с детьми, предположительно употребляющими алкоголь: родителей допросили, детей отпра
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Ti-Rodrigues : vers une régularisation des occupants de terrains privés à La Cure == Правительство приступает к урегулированию ситуации с самовольными захватами земли в Ti-Rod
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Crise de l’eau : les réserves sous les 50 %, 40 000 demandes d’aide pour des réservoirs == Запасы воды на Маврикии составляют 49,6%, поставщики резервуаров просят пересмотреть субси
+LLM usage this run: 4 requests, 4282 tokens
