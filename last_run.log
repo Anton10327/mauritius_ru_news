@@ -1,21 +1,10 @@
-### check 1/5 at 12:20
-  dup check: new (В статье упоминается присоединение Ismaël Rawoo к PMSD и критика Xavier-Luc Duval по поводу судьбы 3200 учеников Foundation Programme; также предложен)
-  proofread: 
-  foreign words left: Programme
-  leftovers fixed by GigaChat-3-Pro; still left: Programme
-Posted (Le Mauricien): Образование, НДС и государственный долг: Xavier-Luc Duval ставит под сомнение экономические и образовательные решения правительства
-  dup check: new (Madagascar a dépêché une mission judiciaire à Maurice pour avancer l'extradition de Shemir Sokataly. C'est un nouveau développement dans cette affaire)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Экстрадиция Shemir Sokataly: Мадагаскар направил судебную миссию на Маврикий
+### check 1/5 at 13:16
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): TRAFIC DE DROGUE | Axe Thaïlande/Maurice  Dreamer, 5 jours en mode fantôme  en mer pour co == Яхта «Dreamer»: предполагаемого наркоторговца перевели в тюрьму Melrose
-  dup: nothing new (Результаты PISA 2025: Маврикий ниже средних показателей ОЭСР по чтению и математике; науки — лучший результат. Совет министров принял к сведению вывод)
-Skipped duplicate (Top FM): Éducation : PISA 2025 met en évidence des difficultés structurelles en lecture et en mathé == Группа Aret Kokin Nu Laplaz ставит под сомнение Стратегический экологический план по трём 
-LLM usage this run: 9 requests, 12757 tokens
-### check 2/5 at 12:24
-  dup: nothing new (Статья сообщает о недавних студенческих протестах во Франции, которые переросли в беспорядки с более чем 2000 арестов, а также о реакции Дональда Трам)
-Skipped duplicate (Top FM): Emeutes en France - propos controversés de Donald Trump : Emmanuel Macron recadre le prési == Группа Aret Kokin Nu Laplaz ставит под сомнение Стратегический экологический план по трём 
-LLM usage this run: 1 requests, 493 tokens
-### check 3/5 at 12:28
-### check 4/5 at 12:32
-### check 5/5 at 12:36
+Skipped duplicate (Defimedia): Année financière 2026-27 : Xavier-Luc Duval réclame un deuxième Budget pour revoir les dis == Образование, НДС и государственный долг: Xavier-Luc Duval ставит под сомнение экономически
+  dup check: new (Оппозиционный лидер Chetan Baboolall публично раскритиковал двухлетний срок работы правительства как «нулевой», указав на невыполненные обещания и рос)
+Posted (Le Mauricien): Два года у власти: лидер оппозиции Chetan Baboolall обвиняет правительство в «нулевых результатах» и росте репрессивных законов
+  dup: nothing new (Заявление Paul Bérenger о необходимости формирования нового правительства и конкретных назначений (премьер-министр, вице-премьер, министр финансов, ми)
+Skipped duplicate (Defimedia): FMP : Paul Bérenger réclame une nouvelle équipe gouvernementale au plus vite == Полиция Маврикия разыскивает беглеца после антинаркотического рейда на 2,5 млн рупий в Qua
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Fûts en plastique : une solution de stockage qui exige des précautions == Полиция Маврикия разыскивает беглеца после антинаркотического рейда на 2,5 млн рупий в Qua
+LLM usage this run: 6 requests, 8157 tokens
