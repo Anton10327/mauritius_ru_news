@@ -1,47 +1,14 @@
-### check 1/5 at 11:25
-  same headline as #82: Fête de la lumière : Radio Plus au cœur des célébrations de Divali
-Skipped duplicate (Defimedia): Fête de la lumière : Radio Plus illumine le Divali de cinq familles == Праздник света: Radio Plus в центре празднований Дивали
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): BLESSÉE PAR BALLE LE MOIS DERNIER : Élodie Thomas a pu rentrer chez elle hier == После почти месяца в больнице: Elodie Thomas возвращается домой в эту пятницу
-  dup check: new (Упоминается образовательный тур в Зимбабве с 5 по 8 ноября, организованный South African Airways Mauritius и Atom Travel, с посещением водопадов Викто)
-  not about Mauritius: Zimbabwe : Victoria Falls dans le viseur des voyageurs mauriciens
-Skipped foreign news (Defimedia): Zimbabwe : Victoria Falls dans le viseur des voyageurs mauriciens
-  dup check: new (Объявлено о начале работ по подключению между Tamarind Falls и La Marie для увеличения водоснабжения на 10 000 м³; снижение дебита скважин в Hautes Pl)
-  proofread: Tamarind Falls–La Marie : les travaux de raccordement annoncés pour ce week-end → Водопроводные работы между Tamarind Falls и La Marie анонсированы на эти выходные; Central Water Authority (CWA) mise sur le projet de Tamarind Falls pour renforcer les ressources disponibles face à la crise hydrique. 
-Posted (Defimedia): Водопроводные работы между Tamarind Falls и La Marie анонсированы на эти выходные
-LLM usage this run: 6 requests, 10663 tokens
-### check 2/5 at 11:29
-  dup check: new (В статье приводятся новые данные о количестве осадков в октябре 2026 года (52 мм — седьмой по сухости октябрь за 20 лет) и указывается на прогноз сухо)
-Posted (Defimedia): Засуха: октябрь стал одним из самых сухих месяцев за 20 лет
-  dup: nothing new ()
-Skipped duplicate (L'Express): SMS Pariaz : La FCC veut retracer les flux financiers == Расследование FCC в отношении SMS Pariaz: акционера Pazhany Thandrayen допрашивают
-  dup check: new (WMO и региональный центр прогнозируют менее активный сезон циклонов в юго-западной части Индийского океана с вероятностью 70%; ожидается 6–10 именован)
+### check 1/5 at 12:20
+  dup check: new (В статье упоминается присоединение Ismaël Rawoo к PMSD и критика Xavier-Luc Duval по поводу судьбы 3200 учеников Foundation Programme; также предложен)
+  proofread: 
+  foreign words left: Programme
+  leftovers fixed by GigaChat-3-Pro; still left: Programme
+Posted (Le Mauricien): Образование, НДС и государственный долг: Xavier-Luc Duval ставит под сомнение экономические и образовательные решения правительства
+  dup check: new (Madagascar a dépêché une mission judiciaire à Maurice pour avancer l'extradition de Shemir Sokataly. C'est un nouveau développement dans cette affaire)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Сезон циклонов: прогнозируется пониженная активность, но риск для Маврикия сохраняется
+Posted (L'Express): Экстрадиция Shemir Sokataly: Мадагаскар направил судебную миссию на Маврикий
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): FCC | Enquête sur SMS Pariaz Ltd –  Me Pazhany Thandrayen interrogé  sur les dessous des 1 == Расследование FCC в отношении SMS Pariaz: акционера Pazhany Thandrayen допрашивают
-LLM usage this run: 8 requests, 10858 tokens
-### check 3/5 at 11:33
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Le Morne Brabant / L’intrusion au sommet de la croix condamnée par le ministre Mahen Gonde == Министр Mahen Gondeea осудил безответственное поведение на кресте Morne Brabant
-Posted (Top FM): Pravasi Bharatiya Divas 2027: около 500 маврикийцев ожидают в Калькутте с 7 по 9 января
-  dup check: new ()
-  not news (portrait/lifestyle): PILS célèbre 30 ans d’engagement contre le VIH et les hépatites virales
-Skipped foreign news (Top FM): PILS célèbre 30 ans d’engagement contre le VIH et les hépatites virales
-  dup check: new (Правительство рассматривает возможность сотрудничества с StopNCII для борьбы с несанкционированным распространением интимных изображений и контентом, )
-Posted (Top FM): Правительство рассматривает сотрудничество с StopNCII для борьбы с распространением интимных изображений без согласия
-LLM usage this run: 8 requests, 11372 tokens
-### check 4/5 at 11:37
-  dup check: new (В новой статье описано отдельное мероприятие — Messe de la Lumière в церкви Sainte-Thérèse d'Avila с участием полиции и представителей разных конфесси)
-  not news (portrait/lifestyle): SAINTE-THÉRÈSE | Messe de la Lumière – La police et l’Église réunies  pour célébrer le vivre-ensembl
-Skipped foreign news (Le Mauricien): SAINTE-THÉRÈSE | Messe de la Lumière – La police et l’Église réunies  pour célébrer le vivre-ensembl
-  dup check: new (Запуск национальной кампании по предотвращению и подготовке к наводнениям 2026-2027 (National Flood Prevention and Preparedness Campaign) с участием N)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Landscope
-  leftovers fixed by GigaChat-3-Pro; still left: Landscope
-Posted (Top FM): Профилактика наводнений: власти призывают подготовиться до сильных дождей
-LLM usage this run: 6 requests, 6705 tokens
-### check 5/5 at 11:41
-  dup: nothing new ()
-Skipped duplicate (Inside News): Palmar : une parcelle de 6 331 m² en voie de redevenir plage publique == Palmar: предпринимаются шаги для повторного признания государственного участка публичным п
-LLM usage this run: 1 requests, 648 tokens
+Skipped duplicate (Le Mauricien): TRAFIC DE DROGUE | Axe Thaïlande/Maurice  Dreamer, 5 jours en mode fantôme  en mer pour co == Яхта «Dreamer»: предполагаемого наркоторговца перевели в тюрьму Melrose
+  dup: nothing new (Результаты PISA 2025: Маврикий ниже средних показателей ОЭСР по чтению и математике; науки — лучший результат. Совет министров принял к сведению вывод)
+Skipped duplicate (Top FM): Éducation : PISA 2025 met en évidence des difficultés structurelles en lecture et en mathé == Группа Aret Kokin Nu Laplaz ставит под сомнение Стратегический экологический план по трём 
+LLM usage this run: 9 requests, 12757 tokens
