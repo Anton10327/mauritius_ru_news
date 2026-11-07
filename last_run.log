@@ -1,33 +1,9 @@
-### check 1/5 at 14:04
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  dup check: new (Женщина с Родригеса выиграла рекордные 88,9 млн рупий в лотерею (471-й тираж), что является самым крупным выигрышем на острове; выигрышный билет был к)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Лото: жительница Rodrigues выиграла 88,9 млн рупий, рекорд для острова
+### check 1/5 at 14:46
   dup: nothing new ()
-Skipped duplicate (Defimedia): Deux ans de pouvoir, trois ans pour convaincre : l’économie face à l’épreuve des résultats == Полиция Маврикия разыскивает беглеца после антинаркотического рейда на 2,5 млн рупий в Qua
-  dup check: new (В статье впервые упоминается возможный уровень потерь урожая картофеля до 40% из-за мухи-минёра и проблема недоступности новых пестицидов для фермеров)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Муха-минёр: фермеры опасаются потерь до 40% урожая картофеля
+Skipped duplicate (Le Mauricien): National Initiative for Civic Education –  Le PMO se félicite du partenariat  avec le sect == Проект NICE: скоро 200 молодых людей пройдут обучение дисциплине и гражданственности…
   dup: nothing new ()
-Skipped duplicate (Wazaa): 3 experts américains pour aider à réviser le plan directeur du drainage des crues à Mauric == На Маврикий прибывают три эксперта из США для пересмотра плана управления дренажем
-LLM usage this run: 8 requests, 11529 tokens
-### check 2/5 at 14:08
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Ali Mansoor, économiste et ancien secrétaire financier : «Deux années de progrès, trois an == Два года у власти: лидер оппозиции Chetan Baboolall обвиняет правительство в «нулевых резу
-  dup: nothing new ()
-Skipped duplicate (L'Express): Meurtre de Selven Iyempermal : Un deuxième suspect inculpé, un témoin se présente à la MCI == Убийство Selven Iyempermal: Ridwaan Bauluck предъявлено предварительное обвинение в «посяг
-  dup: nothing new ()
-Skipped duplicate (Inside News): Autisme : Maurice prépare un centre public gratuit pour le diagnostic == Аутизм: соглашение о подготовке специалистов и лучшей поддержке семей
-  not news (portrait/lifestyle): Trail de Rodrigues 2026 : Courir à hauteur de femme
-Skipped foreign news (L'Express): Trail de Rodrigues 2026 : Courir à hauteur de femme
-LLM usage this run: 4 requests, 5658 tokens
-### check 3/5 at 14:12
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  not news (portrait/lifestyle): Korek Pa Korek - changement climatique : Vassen Kauppaymuthoo alerte sur les effets d’El Niño
-Skipped foreign news (Top FM): Korek Pa Korek - changement climatique : Vassen Kauppaymuthoo alerte sur les effets d’El Niño
-LLM usage this run: 1 requests, 2455 tokens
-### check 4/5 at 14:16
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-### check 5/5 at 14:20
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+Skipped duplicate (Defimedia): Deux Budgets : redressement économique et promesses à concrétiser == Расследование FCC в отношении SMS Pariaz: акционера Pazhany Thandrayen допрашивают
+  dup check: new (В статье указаны новые цены на нефть Brent и WTI (98,29$ и 90,52$), а также процент роста после атак на нефтяные танкеры. Это новая информация о рынке)
+  not about Mauritius: Pétrole : le Brent remonte à 98,29 dollars, sans effet automatique à la pompe
+Skipped foreign news (Inside News): Pétrole : le Brent remonte à 98,29 dollars, sans effet automatique à la pompe
+LLM usage this run: 4 requests, 6234 tokens
