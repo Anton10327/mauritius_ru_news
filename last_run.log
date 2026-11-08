@@ -10,3 +10,11 @@ LLM usage this run: 4 requests, 6345 tokens
 ### check 2/5 at 10:20
 ### check 3/5 at 10:24
 ### check 4/5 at 10:28
+### check 5/5 at 10:32
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Divali : la lumière en partage == Дело о 114 млн рупий: Kobita Jugnauth в FCC в этот четверг
+  dup check: new (Объявлены стипендии Университета Женевы для маврикийцев на 2027-2028 учебный год с дедлайном подачи заявок 24 ноября 2026 года.)
+  proofread: Université de Genève → Женевский университет; ministère mauricien de l’Éducation → министерство образования Маврикия
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Inside News): Учёба в Швейцарии: стипендии Женевского университета для маврикийцев, заявки принимаются до 24 ноября
+LLM usage this run: 4 requests, 5310 tokens
