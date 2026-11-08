@@ -8,3 +8,7 @@ LLM usage this run: 3 requests, 5899 tokens
   dup check: new (Статья сообщает о планах Маврикия по созданию цифровой инфраструктуры для государственных услуг: рассматривается внедрение национальной цифровой идент)
 Posted (Inside News): Государственные услуги: Маврикий изучает цифровую идентификацию и электронный кошелёк
 LLM usage this run: 3 requests, 4781 tokens
+### check 3/5 at 18:34
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Mort de Levana, 13 mois : Gabriella pleure son bébé, défend son compagnon == Смерть Levana, 13 месяцев: радость семьи исчезла вместе с ней
+LLM usage this run: 1 requests, 628 tokens
