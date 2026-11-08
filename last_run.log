@@ -1,19 +1,10 @@
-### check 1/5 at 08:28
-  dup check: new (В статье сообщается о количестве осадков (90 мм) в Rose-Belle за последние 24 часа и упоминается прогноз улучшения погоды на сегодня. Это новая информ)
-Posted (L'Express): Погода: после ливней — солнце
-  dup check: new (Статья рассказывает о праздновании 80-летия ресторана Lai Min в Порт-Луи и упоминает участие вице-президента Республики Роберта Хангли. Ни одно из эти)
-  not news (portrait/lifestyle): PORT-LOUIS – Restaurant Lai Min :80 ans d’histoire, de tradition  culinaire et de transmission famil
-Skipped foreign news (Le Mauricien): PORT-LOUIS – Restaurant Lai Min :80 ans d’histoire, de tradition  culinaire et de transmission famil
+### check 1/5 at 09:23
+  dup check: new (Список из 50 новых вакансий в различных секторах на Маврикии и Родригесе с указанием работодателей и сроков подачи заявок.)
+  not news (portrait/lifestyle): Emploi à Maurice : 50 offres à découvrir dans l’hôtellerie, la sécurité, la fonction publique et les
+Skipped foreign news (Inside News): Emploi à Maurice : 50 offres à découvrir dans l’hôtellerie, la sécurité, la fonction publique et les
   dup: nothing new ()
-Skipped duplicate (Defimedia): iPhone Duo ou Samsung Galaxy Z Fold8 : lequel est le meilleur ? == Дорога Байе-дю-Кап–Шамарель: движение будет ограничено на три недели с 11 ноября
-LLM usage this run: 6 requests, 9601 tokens
-### check 2/5 at 08:32
-### check 3/5 at 08:36
-  dup: nothing new ()
-Skipped duplicate (L'Express): Trail de Rodrigues | Anne Marie John : «Le trail est un des sports où on peut vraiment met == 17-я гонка Trail de Rodrigues: «Женская тропа», в центре внимания женщины
-LLM usage this run: 1 requests, 426 tokens
-### check 4/5 at 08:40
-  dup: nothing new ()
-Skipped duplicate (L'Express): Encore deux ans de Trump == Работа на Маврикии: Eclosia, MauBank, C-Care, City Clinic, PSC и STC набирают сотрудников 
-LLM usage this run: 1 requests, 845 tokens
-### check 5/5 at 08:44
+Skipped duplicate (Inside News): Travailler à l’étranger : des postes ouverts aux Mauriciens au Botswana, en Côte d’Ivoire  == Работа за рубежом: набор открыт для маврикийцев в Африке и ОАЭ
+  dup check: new (Смерть бывшего полицейского после аварии на мотоцикле 6 ноября; подробности об обнаружении его без сознания в поле и находке при нём наркотиков и дене)
+Posted (L'Express): Flacq: бывший полицейский скончался после ДТП на мотоцикле
+Posted (Le Mauricien): ПОТРЕБЛЕНИЕ – Цены на основные товары: сильное инфляционное давление на покупательную способность домохозяйств
+LLM usage this run: 8 requests, 14317 tokens
