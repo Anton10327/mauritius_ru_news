@@ -1,20 +1,11 @@
-### check 1/5 at 10:16
+### check 1/5 at 11:27
   dup: nothing new ()
-Skipped duplicate (Defimedia): Divali Night avec Radio Plus : la ferveur musicale s’invite à Roche-Terre == Праздник света: Radio Plus в центре празднований Дивали
-  dup: nothing new ()
-Skipped duplicate (L'Express): Divali : Place aux lumières, aux douceurs et à la joie == Торгово-развлекательный центр La Croisette празднует Дивали
-  dup check: new (Статья рассказывает о показе фильма 'Kokuho' в рамках Japanese Film Festival на Маврикии 1 ноября. Упоминается участие посла Японии и президента Маври)
-  not news (portrait/lifestyle): CAUDAN ARTS CENTRE | Japanese Film Festival   « Kokuho » : une immersion de près de  trois heures da
-Skipped foreign news (Le Mauricien): CAUDAN ARTS CENTRE | Japanese Film Festival   « Kokuho » : une immersion de près de  trois heures da
-LLM usage this run: 4 requests, 6345 tokens
-### check 2/5 at 10:20
-### check 3/5 at 10:24
-### check 4/5 at 10:28
-### check 5/5 at 10:32
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Divali : la lumière en partage == Дело о 114 млн рупий: Kobita Jugnauth в FCC в этот четверг
-  dup check: new (Объявлены стипендии Университета Женевы для маврикийцев на 2027-2028 учебный год с дедлайном подачи заявок 24 ноября 2026 года.)
-  proofread: Université de Genève → Женевский университет; ministère mauricien de l’Éducation → министерство образования Маврикия
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Учёба в Швейцарии: стипендии Женевского университета для маврикийцев, заявки принимаются до 24 ноября
-LLM usage this run: 4 requests, 5310 tokens
+Skipped duplicate (Inside News): Divali 2026 : ce soir, Maurice s’illumine et le monde célèbre la lumière, l’amour et le pa == Праздник света: Radio Plus в центре празднований Дивали
+  not news (portrait/lifestyle): Muhammad Ismaēl Rawoo: The Portrait of a Mauritian Dentist Dedicated to Service
+Skipped foreign news (Defimedia): Muhammad Ismaēl Rawoo: The Portrait of a Mauritian Dentist Dedicated to Service
+  same headline as #92: Xavier Luc Duval, leader du PMSD : «Ena enn lalians MSM/FMP dan lopozision parlm
+Skipped duplicate (L'Express): Xavier-Luc Duval réplique à Paul Bérenger : «Ena enn lalians MSM/FMP dan lopozision» == Xavier Luc Duval, лидер PMSD: «В парламентской оппозиции есть альянс MSM/FMP. Это ясно»
+  dup check: new (В статье сообщается о соглашении по компенсациям для 303 сотрудников Concentrix (1,5 месяца зарплаты за каждый год службы и годовой бонус) и планируем)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Inside News): Concentrix: под угрозой 303 рабочих места, перед объявленным закрытием согласованы компенсации
+LLM usage this run: 5 requests, 9033 tokens
