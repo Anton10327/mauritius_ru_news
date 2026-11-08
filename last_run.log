@@ -1,19 +1,10 @@
-### check 1/5 at 18:26
+### check 1/5 at 19:11
+  dup check: new (4-я очная ставка Кобиты Джагнот с FCC 5 ноября; она отрицает связь с изъятыми предметами и документами из чемодана бизнесмена Жозиана Дилавона в деле )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Дело о 114 млн рупий — 4-й допрос в FCC после долгого молчания: Kobita Jugnauth отрицает любую связь с изъятыми предметами, FCC продолжает проверки
+  dup check: new (Женщина подала жалобу на домашнее насилие и была арестована по жалобе своего партнера; она также заявляет о предполагаемых нарушениях в обработке ее ж)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Домашнее насилие: она заявила на партнёра и была арестована
   dup: nothing new ()
-Skipped duplicate (Defimedia): Accident du travail mortel de trois ouvriers bangladais : dans le conteneur, les gestes qu == Трагедия в Plaine-des-Papayes: государство окажет помощь семьям трех погибших рабочих
-  proofread: Mahend Gondeea → Махенд Гондеа; "Le-Morne" → "Ле-Морн-Брабант"; "pas que la sécurité,mais le respect du symbole religieux" → "не только безопасность, но и уважение к религиозному символу"; "montant un individu au sommet de la croix" → "забрался на крест на вершине горы"; "manque de respect envers ce
-Posted (Le Mauricien): Социальные сети — терпимость и уважение: крест Le Morne Brabant — не только безопасность, но и уважение к религиозному символу
-LLM usage this run: 3 requests, 5899 tokens
-### check 2/5 at 18:30
-  dup check: new (Статья сообщает о планах Маврикия по созданию цифровой инфраструктуры для государственных услуг: рассматривается внедрение национальной цифровой идент)
-Posted (Inside News): Государственные услуги: Маврикий изучает цифровую идентификацию и электронный кошелёк
-LLM usage this run: 3 requests, 4781 tokens
-### check 3/5 at 18:34
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Mort de Levana, 13 mois : Gabriella pleure son bébé, défend son compagnon == Смерть Levana, 13 месяцев: радость семьи исчезла вместе с ней
-LLM usage this run: 1 requests, 628 tokens
-### check 4/5 at 18:38
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Squatters de Ti-Rodrig —  La lumière au bout du tunnel… ? == Правительство приступает к урегулированию ситуации с самовольными захватами земли в Ti-Rod
-LLM usage this run: 1 requests, 810 tokens
-### check 5/5 at 18:42
+Skipped duplicate (Le Mauricien): ÉCLAIRAGE | CRISE DE L’EAU — Maurice face à la pénurie == Запасы воды на Маврикии составляют 49,6%, поставщики резервуаров просят пересмотреть субси
+LLM usage this run: 7 requests, 11802 tokens
