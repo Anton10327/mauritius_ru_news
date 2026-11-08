@@ -1,22 +1,10 @@
-### check 1/5 at 11:27
+### check 1/5 at 12:21
   dup: nothing new ()
-Skipped duplicate (Inside News): Divali 2026 : ce soir, Maurice s’illumine et le monde célèbre la lumière, l’amour et le pa == Праздник света: Radio Plus в центре празднований Дивали
-  not news (portrait/lifestyle): Muhammad Ismaēl Rawoo: The Portrait of a Mauritian Dentist Dedicated to Service
-Skipped foreign news (Defimedia): Muhammad Ismaēl Rawoo: The Portrait of a Mauritian Dentist Dedicated to Service
-  same headline as #92: Xavier Luc Duval, leader du PMSD : «Ena enn lalians MSM/FMP dan lopozision parlm
-Skipped duplicate (L'Express): Xavier-Luc Duval réplique à Paul Bérenger : «Ena enn lalians MSM/FMP dan lopozision» == Xavier Luc Duval, лидер PMSD: «В парламентской оппозиции есть альянс MSM/FMP. Это ясно»
-  dup check: new (В статье сообщается о соглашении по компенсациям для 303 сотрудников Concentrix (1,5 месяца зарплаты за каждый год службы и годовой бонус) и планируем)
+Skipped duplicate (L'Express): Le citoyen face à son propre bilan ! == Два года у власти: лидер оппозиции Chetan Baboolall обвиняет правительство в «нулевых резу
+  dup: nothing new ()
+Skipped duplicate (Inside News): « Extradition de Shemir Sokataly : Madagascar envoie magistrats et enquêteurs à Maurice » == Экстрадиция Shemir Sokataly: Мадагаскар направил судебную миссию на Маврикий
   proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Concentrix: под угрозой 303 рабочих места, перед объявленным закрытием согласованы компенсации
-LLM usage this run: 5 requests, 9033 tokens
-### check 2/5 at 11:31
-  dup check: new (В новой статье сообщается о новом инциденте: 28-летний сварщик был ранен ножом в живот и доставлен в больницу; также его сожительница была избита тем )
-  foreign words left: hôpital
-  leftovers fixed by GigaChat-3-Pro; still left: hôpital
-Posted (Le Mauricien): ЦЕНТ-ГОЛЕТ — 28-летнего сварщика ударили ножом в живот
+Posted (Defimedia): Ночной рынок: реализация проекта не планируется в 2026 году
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Промежуточные выборы в США 2026: новый Конгресс, решающие ставки для Маврикия
-LLM usage this run: 6 requests, 8575 tokens
-### check 3/5 at 11:35
-### check 4/5 at 11:39
-### check 5/5 at 11:43
+Posted (L'Express): Пресс-конференция FMP: Paul Bérenger требует новую правительственную команду и заявляет о стране, идущей ко дну
+LLM usage this run: 6 requests, 10662 tokens
