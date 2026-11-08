@@ -1,21 +1,6 @@
-### check 1/5 at 12:21
+### check 1/5 at 13:16
   dup: nothing new ()
-Skipped duplicate (L'Express): Le citoyen face à son propre bilan ! == Два года у власти: лидер оппозиции Chetan Baboolall обвиняет правительство в «нулевых резу
-  dup: nothing new ()
-Skipped duplicate (Inside News): « Extradition de Shemir Sokataly : Madagascar envoie magistrats et enquêteurs à Maurice » == Экстрадиция Shemir Sokataly: Мадагаскар направил судебную миссию на Маврикий
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Ночной рынок: реализация проекта не планируется в 2026 году
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Пресс-конференция FMP: Paul Bérenger требует новую правительственную команду и заявляет о стране, идущей ко дну
-LLM usage this run: 6 requests, 10662 tokens
-### check 2/5 at 12:25
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Divali 2026 — Que la lumière soit… et reste une fête ! == Montagne-Blanche: задержан подозреваемый после инцидентов в здании полицейского участка
-LLM usage this run: 1 requests, 1380 tokens
-### check 3/5 at 12:29
-### check 4/5 at 12:33
-  dup check: new (В новой статье указано точное число жертв (94 человека) и конкретная дата последней атаки (5 ноября в деревне Эндато), а также уточняется общее количе)
-  not about Mauritius: [video] Éthiopie : 94 chrétiens tués en trois semaines, une vague de massacres qui révèle un pays dé
-Skipped foreign news (Inside News): [video] Éthiopie : 94 chrétiens tués en trois semaines, une vague de massacres qui révèle un pays dé
-LLM usage this run: 2 requests, 4200 tokens
-### check 5/5 at 12:37
+Skipped duplicate (Defimedia): Sécurité alimentaire : notre assiette se joue maintenant == Рядом с Casernes centrales — в ночь на четверг: 11 магазинов разгромлены за ночь в Victori
+Posted (L'Express): COP31 | Изменение климата: миллиарды ради будущего островных государств
+Failed to post https://topfm.mu/actualites/apres-la-participation-de-navin-ramgoolam-au-sommet-du-commonwealth-lalit-reclame-des-reparations: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
+LLM usage this run: 5 requests, 9028 tokens
