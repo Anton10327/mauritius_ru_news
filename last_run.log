@@ -9,3 +9,7 @@ Posted (Defimedia): Грузовик не доставлен: после пер�
   dup check: new (В статье сообщается о новом событии: в Cassis арестован молодой человек по подозрению в нападении и покушении на непристойность в отношении 71-летней )
 Posted (Defimedia): Cassis: молодой человек задержан за нападение и посягательство на честь 71-летней пенсионерки
 LLM usage this run: 8 requests, 11298 tokens
+### check 2/5 at 14:51
+  dup: nothing new ()
+Skipped duplicate (Inside News): Accident mortel à Plaine-des-Papayes : deux enquêtes désormais ouvertes == Трагедия в Plaine-des-Papayes: государство окажет помощь семьям трех погибших рабочих
+LLM usage this run: 1 requests, 827 tokens
