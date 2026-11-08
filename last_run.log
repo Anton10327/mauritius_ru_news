@@ -1,21 +1,6 @@
-### check 1/5 at 14:47
-  dup: nothing new (В статье говорится о согласии между лидером FMP Paul Bérenger и британским премьером Andy Burnham по поводу стратегии Дании для возобновления перегово)
-Skipped duplicate (Le Mauricien): FMP — Chagos — Stratégie danoise: Bérenger et Burnham « on the same page » == Пресс-конференция FMP: Paul Bérenger требует новую правительственную команду и заявляет о 
+### check 1/5 at 15:22
   dup: nothing new ()
-Skipped duplicate (L'Express): Meurtre de Selven Iyempermal à Vacoas : Un troisième suspect interpellé == Убийство Selven Iyempermal: Ridwaan Bauluck предъявлено предварительное обвинение в «посяг
-  dup check: new (Жалоба предпринимателя в FCC по поводу неоплаченного грузовика и подтверждение FCC о рассмотрении жалобы; ранее не публиковалось.)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Грузовик не доставлен: после перевода 500 000 рупий он обратился в FCC
-  dup check: new (В статье сообщается о новом событии: в Cassis арестован молодой человек по подозрению в нападении и покушении на непристойность в отношении 71-летней )
-Posted (Defimedia): Cassis: молодой человек задержан за нападение и посягательство на честь 71-летней пенсионерки
-LLM usage this run: 8 requests, 11298 tokens
-### check 2/5 at 14:51
+Skipped duplicate (Le Mauricien): Lindsey Collen, porte-parole de Lalit : « La démission de Bérenger a débalancé Ramgoolam » == Театр | «Zagaferger Digizefgef»: сатира, обличающая злоупотребления властью
   dup: nothing new ()
-Skipped duplicate (Inside News): Accident mortel à Plaine-des-Papayes : deux enquêtes désormais ouvertes == Трагедия в Plaine-des-Papayes: государство окажет помощь семьям трех погибших рабочих
-LLM usage this run: 1 requests, 827 tokens
-### check 3/5 at 14:55
-### check 4/5 at 14:59
-### check 5/5 at 15:03
-  dup: nothing new ()
-Skipped duplicate (L'Express): Chagos : Andy Burnham envisage un nouvel accord inspiré du Groenland == Соглашение по архипелагу Chagos: Лондон смотрит на Гренландию, Port-Louis держится за дост
-LLM usage this run: 1 requests, 1117 tokens
+Skipped duplicate (Top FM): ‘Korek Pa Korek’ : « La déforestation et le manque d'arbres aggravent l'érosion », prévien == Театр | «Zagaferger Digizefgef»: сатира, обличающая злоупотребления властью
+LLM usage this run: 2 requests, 1538 tokens
