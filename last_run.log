@@ -9,3 +9,16 @@ Skipped duplicate (Inside News): Fêtes de fin d’année, anniversaires et soir
   dup check: new (В статье приведены новые официальные данные о налоговых поступлениях от продажи топлива за третий квартал 2026 года (Rs 3 306 783 532) и снижении субс)
 Posted (Defimedia): Топливо: собрано 3,3 млрд рупий налогов за три месяца, субсидии сокращаются
 LLM usage this run: 8 requests, 12015 tokens
+### check 2/5 at 14:09
+  dup check: new (Запланирован новый международный тендер на строительство New Vacoas Urban Terminal после пересмотра концепции и модели реализации проекта.)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Victoria
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Новый городской терминал в Vacoas: готовится новый международный тендер
+  dup: nothing new ()
+Skipped duplicate (L'Express): Rajesh Bhagwan : «Laplanet inn plin tann zis koze, li anvi trouv bann aksion konkre» == COP31 | Изменение климата: миллиарды ради будущего островных государств
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Senior Counsel et Senior Attorney : La réforme de 2025 n’a pas éteint la fronde du Barreau == Ассоциация адвокатов Маврикия обратилась к верховному судье по поводу требований к спонсор
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Depuis la France, Éléonore, Édouard, Maxime et William adressent leurs vœux de Divali aux  == НАРКОТОРГОВЛЯ | Ось Таиланд—Маврикий: девять граждан Таиланда предстанут перед судом
+LLM usage this run: 7 requests, 6810 tokens
