@@ -1,36 +1,11 @@
-### check 1/5 at 14:05
-  dup check: new (Великобритания рассматривает возможность пересмотра соглашения по Чагосу с Маврикием, используя модель Гренландского соглашения для удовлетворения тре)
+### check 1/5 at 14:47
+  dup: nothing new (В статье говорится о согласии между лидером FMP Paul Bérenger и британским премьером Andy Burnham по поводу стратегии Дании для возобновления перегово)
+Skipped duplicate (Le Mauricien): FMP — Chagos — Stratégie danoise: Bérenger et Burnham « on the same page » == Пресс-конференция FMP: Paul Bérenger требует новую правительственную команду и заявляет о 
+  dup: nothing new ()
+Skipped duplicate (L'Express): Meurtre de Selven Iyempermal à Vacoas : Un troisième suspect interpellé == Убийство Selven Iyempermal: Ridwaan Bauluck предъявлено предварительное обвинение в «посяг
+  dup check: new (Жалоба предпринимателя в FCC по поводу неоплаченного грузовика и подтверждение FCC о рассмотрении жалобы; ранее не публиковалось.)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Соглашение по архипелагу Chagos: Лондон смотрит на Гренландию, Port-Louis держится за достигнутые договоренности
-  dup: nothing new ()
-Skipped duplicate (L'Express): Antalya, l’heure de vérité pour les petits États insulaires == COP31 | Изменение климата: миллиарды ради будущего островных государств
-  dup: nothing new ()
-Skipped duplicate (Inside News): Fêtes de fin d’année, anniversaires et soirées d’entreprise : Oriental Luxury Buffet vous  == НАРКОТОРГОВЛЯ | Ось Таиланд—Маврикий: девять граждан Таиланда предстанут перед судом
-  dup check: new (В статье приведены новые официальные данные о налоговых поступлениях от продажи топлива за третий квартал 2026 года (Rs 3 306 783 532) и снижении субс)
-Posted (Defimedia): Топливо: собрано 3,3 млрд рупий налогов за три месяца, субсидии сокращаются
-LLM usage this run: 8 requests, 12015 tokens
-### check 2/5 at 14:09
-  dup check: new (Запланирован новый международный тендер на строительство New Vacoas Urban Terminal после пересмотра концепции и модели реализации проекта.)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Victoria
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Новый городской терминал в Vacoas: готовится новый международный тендер
-  dup: nothing new ()
-Skipped duplicate (L'Express): Rajesh Bhagwan : «Laplanet inn plin tann zis koze, li anvi trouv bann aksion konkre» == COP31 | Изменение климата: миллиарды ради будущего островных государств
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Senior Counsel et Senior Attorney : La réforme de 2025 n’a pas éteint la fronde du Barreau == Ассоциация адвокатов Маврикия обратилась к верховному судье по поводу требований к спонсор
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Depuis la France, Éléonore, Édouard, Maxime et William adressent leurs vœux de Divali aux  == НАРКОТОРГОВЛЯ | Ось Таиланд—Маврикий: девять граждан Таиланда предстанут перед судом
-LLM usage this run: 7 requests, 6810 tokens
-### check 3/5 at 14:13
-  dup check: new (Экономист Ishwind Caleechurn предложил три меры для облегчения положения домохозяйств: 1) приостановить акцизы на топливо на три месяца (ожидаемое сни)
-Posted (Top FM): Дороговизна жизни: экономист Ishwind Caleechurn предложил три меры для облегчения положения домохозяйств
-LLM usage this run: 3 requests, 3941 tokens
-### check 4/5 at 14:17
-  dup: nothing new ()
-Skipped duplicate (Inside News): « Ki Pri » : scanner un produit pour vérifier son prix autorisé == На Маврикии разработали приложение для проверки цен на товары через сканирование штрих-код
-LLM usage this run: 1 requests, 1277 tokens
-### check 5/5 at 14:21
-  dup: nothing new ()
-Skipped duplicate (Top FM): Pouvoir d’achat : face au « syndrome du 20 du mois », Ishwind Caleechurn propose 1 semaine == Дороговизна жизни: экономист Ishwind Caleechurn предложил три меры для облегчения положени
-LLM usage this run: 1 requests, 1512 tokens
+Posted (Defimedia): Грузовик не доставлен: после перевода 500 000 рупий он обратился в FCC
+  dup check: new (В статье сообщается о новом событии: в Cassis арестован молодой человек по подозрению в нападении и покушении на непристойность в отношении 71-летней )
+Posted (Defimedia): Cassis: молодой человек задержан за нападение и посягательство на честь 71-летней пенсионерки
+LLM usage this run: 8 requests, 11298 tokens
