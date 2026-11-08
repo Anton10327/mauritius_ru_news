@@ -1,21 +1,11 @@
-### check 1/5 at 13:16
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Sécurité alimentaire : notre assiette se joue maintenant == Рядом с Casernes centrales — в ночь на четверг: 11 магазинов разгромлены за ночь в Victori
-Posted (L'Express): COP31 | Изменение климата: миллиарды ради будущего островных государств
-Failed to post https://topfm.mu/actualites/apres-la-participation-de-navin-ramgoolam-au-sommet-du-commonwealth-lalit-reclame-des-reparations: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
-LLM usage this run: 5 requests, 9028 tokens
-### check 2/5 at 13:20
-  dup check: new (Нападение на 31-летнего мужчину с металлическими прутьями в Rose-Hill; четверо нападавших (включая женщину); пострадавший госпитализирован и находится)
+### check 1/5 at 14:05
+  dup check: new (Великобритания рассматривает возможность пересмотра соглашения по Чагосу с Маврикием, используя модель Гренландского соглашения для удовлетворения тре)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Rose-Hill: мужчину 31 года избили металлическими прутьями, он находится под наблюдением в больнице Candos
+Posted (Defimedia): Соглашение по архипелагу Chagos: Лондон смотрит на Гренландию, Port-Louis держится за достигнутые договоренности
   dup: nothing new ()
-Skipped duplicate (Defimedia): Collectivités locales : le nouveau cadre législatif attendu en 2027 == Рядом с Casernes centrales — в ночь на четверг: 11 магазинов разгромлены за ночь в Victori
-  proofread: Радой Кишнасами → Радой Кишнасами
-Posted (Top FM): После участия Navin Ramgoolam в саммите Содружества: LALIT требует компенсаций за рабство
-LLM usage this run: 6 requests, 7241 tokens
-### check 3/5 at 13:24
-### check 4/5 at 13:28
+Skipped duplicate (L'Express): Antalya, l’heure de vérité pour les petits États insulaires == COP31 | Изменение климата: миллиарды ради будущего островных государств
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Divali — Quand la lumière rassemble les Mauriciens == Рядом с Casernes centrales — в ночь на четверг: 11 магазинов разгромлены за ночь в Victori
-LLM usage this run: 1 requests, 1173 tokens
-### check 5/5 at 13:32
+Skipped duplicate (Inside News): Fêtes de fin d’année, anniversaires et soirées d’entreprise : Oriental Luxury Buffet vous  == НАРКОТОРГОВЛЯ | Ось Таиланд—Маврикий: девять граждан Таиланда предстанут перед судом
+  dup check: new (В статье приведены новые официальные данные о налоговых поступлениях от продажи топлива за третий квартал 2026 года (Rs 3 306 783 532) и снижении субс)
+Posted (Defimedia): Топливо: собрано 3,3 млрд рупий налогов за три месяца, субсидии сокращаются
+LLM usage this run: 8 requests, 12015 tokens
