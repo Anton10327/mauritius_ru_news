@@ -1,16 +1,6 @@
-### check 1/5 at 17:42
-  dup check: new ()
-  not news (portrait/lifestyle): Khemraj Persand : l’huître et le crabe, envers et contre marées
-Skipped foreign news (Defimedia): Khemraj Persand : l’huître et le crabe, envers et contre marées
-LLM usage this run: 2 requests, 4066 tokens
-### check 2/5 at 17:46
-### check 3/5 at 17:50
-  dup check: new (США планируют создать рабочую группу для блокировки наземных маршрутов в Иран с целью ограничения поставок оружия и товаров; это дополнение к уже суще)
-  not about Mauritius: Iran : les États-Unis veulent bloquer les routes terrestres vers l'Iran
-Skipped foreign news (Defimedia): Iran : les États-Unis veulent bloquer les routes terrestres vers l'Iran
-LLM usage this run: 2 requests, 4185 tokens
-### check 4/5 at 17:54
-### check 5/5 at 17:58
+### check 1/5 at 18:26
   dup: nothing new ()
-Skipped duplicate (L'Express): Joanna Bérenger : «On ne peut pas demander au monde de changer si l’on refuse de changer s == На Маврикии укрепляют морскую безопасность с помощью международных партнёров
-LLM usage this run: 1 requests, 1042 tokens
+Skipped duplicate (Defimedia): Accident du travail mortel de trois ouvriers bangladais : dans le conteneur, les gestes qu == Трагедия в Plaine-des-Papayes: государство окажет помощь семьям трех погибших рабочих
+  proofread: Mahend Gondeea → Махенд Гондеа; "Le-Morne" → "Ле-Морн-Брабант"; "pas que la sécurité,mais le respect du symbole religieux" → "не только безопасность, но и уважение к религиозному символу"; "montant un individu au sommet de la croix" → "забрался на крест на вершине горы"; "manque de respect envers ce
+Posted (Le Mauricien): Социальные сети — терпимость и уважение: крест Le Morne Brabant — не только безопасность, но и уважение к религиозному символу
+LLM usage this run: 3 requests, 5899 tokens
