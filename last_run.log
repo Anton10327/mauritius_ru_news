@@ -9,3 +9,8 @@ Skipped duplicate (L'Express): COP31 : Attentes et mises en garde d’experts ==
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): Water Tank Scheme Program — Du plomb dans l’aile == Запасы воды на Маврикии составляют 49,6%, поставщики резервуаров просят пересмотреть субси
 LLM usage this run: 5 requests, 6915 tokens
+### check 2/5 at 16:10
+  dup check: new (Упоминается снижение продуктивности тропических фруктов (папайя, манго, личи) на Маврикии в этом году из-за необычно высоких температур зимой, что нар)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Летние фрукты: «Ожидается снижение продуктивности в этом году, но без серьёзных последствий», — утверждает Akhilalandjee Goolaub из FAREI
+LLM usage this run: 3 requests, 4576 tokens
