@@ -9,3 +9,11 @@ Skipped duplicate (L'Express): Xavier-Luc Duval réplique à Paul Bérenger : «
   proofread: edit rejected (changed numbers, names or length)
 Posted (Inside News): Concentrix: под угрозой 303 рабочих места, перед объявленным закрытием согласованы компенсации
 LLM usage this run: 5 requests, 9033 tokens
+### check 2/5 at 11:31
+  dup check: new (В новой статье сообщается о новом инциденте: 28-летний сварщик был ранен ножом в живот и доставлен в больницу; также его сожительница была избита тем )
+  foreign words left: hôpital
+  leftovers fixed by GigaChat-3-Pro; still left: hôpital
+Posted (Le Mauricien): ЦЕНТ-ГОЛЕТ — 28-летнего сварщика ударили ножом в живот
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Промежуточные выборы в США 2026: новый Конгресс, решающие ставки для Маврикия
+LLM usage this run: 6 requests, 8575 tokens
