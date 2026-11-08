@@ -13,3 +13,8 @@ LLM usage this run: 6 requests, 10662 tokens
 Skipped duplicate (Le Mauricien): Divali 2026 — Que la lumière soit… et reste une fête ! == Montagne-Blanche: задержан подозреваемый после инцидентов в здании полицейского участка
 LLM usage this run: 1 requests, 1380 tokens
 ### check 3/5 at 12:29
+### check 4/5 at 12:33
+  dup check: new (В новой статье указано точное число жертв (94 человека) и конкретная дата последней атаки (5 ноября в деревне Эндато), а также уточняется общее количе)
+  not about Mauritius: [video] Éthiopie : 94 chrétiens tués en trois semaines, une vague de massacres qui révèle un pays dé
+Skipped foreign news (Inside News): [video] Éthiopie : 94 chrétiens tués en trois semaines, une vague de massacres qui révèle un pays dé
+LLM usage this run: 2 requests, 4200 tokens
