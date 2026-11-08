@@ -12,3 +12,7 @@ LLM usage this run: 3 requests, 4781 tokens
   dup: nothing new ()
 Skipped duplicate (Defimedia): Mort de Levana, 13 mois : Gabriella pleure son bébé, défend son compagnon == Смерть Levana, 13 месяцев: радость семьи исчезла вместе с ней
 LLM usage this run: 1 requests, 628 tokens
+### check 4/5 at 18:38
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Squatters de Ti-Rodrig —  La lumière au bout du tunnel… ? == Правительство приступает к урегулированию ситуации с самовольными захватами земли в Ti-Rod
+LLM usage this run: 1 requests, 810 tokens
