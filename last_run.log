@@ -26,3 +26,7 @@ LLM usage this run: 7 requests, 13058 tokens
   not about Mauritius: Cent jours pour le voleur, un jour pour le maître… L’électeur !
 Skipped foreign news (L'Express): Cent jours pour le voleur, un jour pour le maître… L’électeur !
 LLM usage this run: 1 requests, 3031 tokens
+### check 4/5 at 09:35
+  not about Mauritius: Israël: le chef du bloc d'opposition Eisenkot chargé de former le gouvernement
+Skipped foreign news (Defimedia): Israël: le chef du bloc d'opposition Eisenkot chargé de former le gouvernement
+LLM usage this run: 1 requests, 2991 tokens
