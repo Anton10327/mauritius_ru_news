@@ -4,3 +4,12 @@ Skipped duplicate (Defimedia): Sécurité alimentaire : notre assiette se joue m
 Posted (L'Express): COP31 | Изменение климата: миллиарды ради будущего островных государств
 Failed to post https://topfm.mu/actualites/apres-la-participation-de-navin-ramgoolam-au-sommet-du-commonwealth-lalit-reclame-des-reparations: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)
 LLM usage this run: 5 requests, 9028 tokens
+### check 2/5 at 13:20
+  dup check: new (Нападение на 31-летнего мужчину с металлическими прутьями в Rose-Hill; четверо нападавших (включая женщину); пострадавший госпитализирован и находится)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Rose-Hill: мужчину 31 года избили металлическими прутьями, он находится под наблюдением в больнице Candos
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Collectivités locales : le nouveau cadre législatif attendu en 2027 == Рядом с Casernes centrales — в ночь на четверг: 11 магазинов разгромлены за ночь в Victori
+  proofread: Радой Кишнасами → Радой Кишнасами
+Posted (Top FM): После участия Navin Ramgoolam в саммите Содружества: LALIT требует компенсаций за рабство
+LLM usage this run: 6 requests, 7241 tokens
