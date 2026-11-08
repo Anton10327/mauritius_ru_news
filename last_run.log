@@ -11,3 +11,8 @@ LLM usage this run: 2 requests, 3824 tokens
   leftovers fixed by qwen/qwen3.8-27b; still left: none
 Posted (L'Express): Проект возрождения île-aux-Cerfs: 60 млн рупий на возвращение к жизни туристической жемчужины под давлением
 LLM usage this run: 4 requests, 6079 tokens
+### check 4/5 at 20:06
+  dup check: new (Работы продлятся 20 дней, начнутся в воскресенье; введены четыре новых скважины, обеспечивающие ежедневный ввод 11 200 м³ воды; указаны вклады Trianon)
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Соединение между Tamarin Falls и La Marie — 20 дней на завершение работ
+LLM usage this run: 3 requests, 5671 tokens
