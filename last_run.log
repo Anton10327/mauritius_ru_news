@@ -1,14 +1,11 @@
-### check 1/5 at 15:22
+### check 1/5 at 16:06
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Lindsey Collen, porte-parole de Lalit : « La démission de Bérenger a débalancé Ramgoolam » == Театр | «Zagaferger Digizefgef»: сатира, обличающая злоупотребления властью
+Skipped duplicate (Inside News): Un Mauricien dirigera l’International Sugar Organization de 2027 à 2030 == Сахарный рынок: Devesh Dukhira назначен главой ISO
+  dup check: new (Статья рассказывает о роли океана в регулировании климата и его уязвимости из-за потепления. Приведены новые статистические данные: океан поглощает 30)
+  not news (portrait/lifestyle): Océan : un allié du climat sous pression
+Skipped foreign news (Defimedia): Océan : un allié du climat sous pression
   dup: nothing new ()
-Skipped duplicate (Top FM): ‘Korek Pa Korek’ : « La déforestation et le manque d'arbres aggravent l'érosion », prévien == Театр | «Zagaferger Digizefgef»: сатира, обличающая злоупотребления властью
-LLM usage this run: 2 requests, 1538 tokens
-### check 2/5 at 15:26
-### check 3/5 at 15:30
-  dup check: new (Статья рассказывает о биографии и успехах рыбака из Гран-Бэ — Jaydeo Coonee: его путь от маленькой лодки до владельца четырёх судов и ресторана Lakaaz)
-  not news (portrait/lifestyle): Portrait : Jaydeo Coonee, de la pirogue au restaurant
-Skipped foreign news (L'Express): Portrait : Jaydeo Coonee, de la pirogue au restaurant
-LLM usage this run: 2 requests, 4222 tokens
-### check 4/5 at 15:34
-### check 5/5 at 15:38
+Skipped duplicate (L'Express): COP31 : Attentes et mises en garde d’experts == Дело яхты «Dreamer»: правоохранительные органы Маврикия обратились к Таиланду за юридическ
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Water Tank Scheme Program — Du plomb dans l’aile == Запасы воды на Маврикии составляют 49,6%, поставщики резервуаров просят пересмотреть субси
+LLM usage this run: 5 requests, 6915 tokens
