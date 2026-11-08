@@ -1,21 +1,5 @@
-### check 1/5 at 16:54
-  foreign words left: Alliance, Bermuda
-  leftovers fixed by GigaChat-3-Pro; still left: Bermuda
-Posted (Le Mauricien): ДИЛЕММЫ — Между громкими ударами, отъездом на высшем уровне и упущенными встречами: Альянс перемен на горячих углях!
-  dup check: new (В статье впервые сообщается о сумме непогашенных кредитов Silver Bank — 8,1 млрд рупий из портфеля в 8,3 млрд (98%), а также о том, что банк находится)
-Posted (Inside News): Silver Bank: 8,1 млрд рупий проблемных кредитов — сколько смогут вернуть вкладчики?
-  dup: nothing new ()
-Skipped duplicate (Top FM): Célébrations de Diwali : prudence avec les lampes allumées et l’huile chaude en cuisine, a == Управление водными ресурсами: Business Mauritius призывает усилить сотрудничество с властя
-LLM usage this run: 7 requests, 9401 tokens
-### check 2/5 at 16:58
-  proofread: Élodie Thomas → Элоди Томас; Gautam Singh Taukoor → Готам Сингх Таукуор; Vyas Adheen → Вьяс Адеен; Suhail Lidialam → Сухайль Лидилам; Pravesh Nuckcheddy → Правинд Нукчедди; IPCC → комиссия по жалобам на полицию; Camp-Levieux → Camp-Levieux (не склоняется); "refuse la reconstitution" → "отказывается 
-Posted (L'Express): Дело Élodie Thomas: участвующий полицейский отказывается от реконструкции, что говорит закон?
-LLM usage this run: 2 requests, 3980 tokens
-### check 3/5 at 17:02
-### check 4/5 at 17:06
-  dup check: new (В статье упоминается арест Bryan Fu Kin Lew Tin и детали расследования по делу Dreamer: транспортировка 1500 кг каннабиса из Таиланда на Маврикий, уча)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Дело Dreamer: вырисовываются предполагаемые роли, груз по-прежнему не найден
-Posted (Le Mauricien): Сбор дождевой воды: все участники, все вовлечены
-LLM usage this run: 5 requests, 9572 tokens
-### check 5/5 at 17:10
+### check 1/5 at 17:42
+  dup check: new ()
+  not news (portrait/lifestyle): Khemraj Persand : l’huître et le crabe, envers et contre marées
+Skipped foreign news (Defimedia): Khemraj Persand : l’huître et le crabe, envers et contre marées
+LLM usage this run: 2 requests, 4066 tokens
