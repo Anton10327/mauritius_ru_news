@@ -22,3 +22,11 @@ Skipped foreign news (Le Mauricien): EN TOUTE LIBERTÉ : BABYLON BY BUS
   leftovers fixed by GigaChat-3-Pro; still left: Point
 Posted (Le Mauricien): Point Chaud
 LLM usage this run: 6 requests, 10077 tokens
+### check 3/5 at 15:34
+  dup check: new (Новый тендер на защиту и благоустройство побережья в Trou-aux-Biches после отмены предыдущего; публикация нового объявления о торгах 6 ноября 2026 год)
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Inside News): Trou-aux-Biches: новый тендер для защиты побережья и обустройства прибрежных зон
+  dup check: new (В статье сообщается о 1212 зафиксированных нарушениях ПДД за четыре дня праздничного периода (с 6 по 9 ноября), включая случаи вождения в нетрезвом ви)
+Posted (Top FM): Безопасность на дорогах — 1212 нарушений за четыре дня; призыв к осторожности в праздничный период
+Posted (Top FM): Tourisme — курс на 2035 год: Маврикий готовит стратегию из семи направлений для будущего сектора
+LLM usage this run: 8 requests, 12937 tokens
