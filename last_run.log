@@ -33,3 +33,9 @@ Skipped duplicate (Le Mauricien): La caricature du Week-end du 8 novembre 2026 =
   proofread: edit rejected (changed numbers, names or length)
 Posted (Top FM): Праздничные дни: компенсационный выходной в этот понедельник и пять выходных подряд в 2027 году
 LLM usage this run: 4 requests, 5459 tokens
+### check 5/5 at 10:02
+  not about Mauritius: [Blog] The fall of the Berlin Wall
+Skipped foreign news (Defimedia): [Blog] The fall of the Berlin Wall
+  dup: nothing new ()
+Skipped duplicate (Inside News): Pravasi Bharatiya Divas 2027 == Pravasi Bharatiya Divas 2027: около 500 маврикийцев ожидают в Калькутте с 7 по 9 января
+LLM usage this run: 2 requests, 3631 tokens
