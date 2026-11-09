@@ -1,34 +1,15 @@
-### check 1/5 at 15:26
-  dup check: new (Дата и время вынесения решения BIOT Appeals Tribunal по делу Misley Mandarin — 12 ноября 2026 года в 10:00 (Лондон), публикация полного текста онлайн )
+### check 1/5 at 16:26
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Long week-end : une journée à la plage en famille == На парковке пляжа Mont-Choisy: две версии после столкновения в этот понедельник
+  dup check: new (Статья сообщает о продолжающемся расследовании Центральным антикоррупционным департаментом (CCID) предполагаемых превышений расходов на выборах 2024 г)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Присутствие Misley Mandarin на архипелаге Chagos: апелляционный трибунал BIOT вынесет решение 12 ноября
-  dup check: new ()
-  not about Mauritius: Le naufrage de Trump : Des mauriciens décryptent le séisme politique américain
-Skipped foreign news (L'Express): Le naufrage de Trump : Des mauriciens décryptent le séisme politique américain
-  not about Mauritius: Humeur — La guerre du président contre son peuple
-Skipped foreign news (Le Mauricien): Humeur — La guerre du président contre son peuple
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Faits et effets — Un pays en panne == Изъятия на несколько миллиардов рупий — 730 дней у власти: наркосети остаются в наступлени
-LLM usage this run: 7 requests, 13233 tokens
-### check 2/5 at 15:30
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): PRIS SUR LE VIF – LE RETOUR == Изъятия на несколько миллиардов рупий — 730 дней у власти: наркосети остаются в наступлени
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Le Carnet de Camille — La Semelle == Изъятия на несколько миллиардов рупий — 730 дней у власти: наркосети остаются в наступлени
-  not news (portrait/lifestyle): EN TOUTE LIBERTÉ : BABYLON BY BUS
-Skipped foreign news (Le Mauricien): EN TOUTE LIBERTÉ : BABYLON BY BUS
+  foreign words left: of, the
+  leftovers fixed by GigaChat-3-Pro; still left: of, the
+Posted (Defimedia): Расходы на выборах 2024 года: спустя два года CCID всё ещё ведёт расследование
+  not news (portrait/lifestyle): Lavanya Sunassy-Pather : «Encourageons les enfants à consommer davantage de fruits de saison»
+Skipped foreign news (L'Express): Lavanya Sunassy-Pather : «Encourageons les enfants à consommer davantage de fruits de saison»
+  dup check: new (В статье говорится о предложенных мерах по борьбе с киберпреступностью на Маврикии: ограничение времени онлайн для подростков до двух часов в день и л)
+  written by GigaChat-2-Max
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Point
-  leftovers fixed by GigaChat-3-Pro; still left: Point
-Posted (Le Mauricien): Point Chaud
-LLM usage this run: 6 requests, 10077 tokens
-### check 3/5 at 15:34
-  dup check: new (Новый тендер на защиту и благоустройство побережья в Trou-aux-Biches после отмены предыдущего; публикация нового объявления о торгах 6 ноября 2026 год)
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Trou-aux-Biches: новый тендер для защиты побережья и обустройства прибрежных зон
-  dup check: new (В статье сообщается о 1212 зафиксированных нарушениях ПДД за четыре дня праздничного периода (с 6 по 9 ноября), включая случаи вождения в нетрезвом ви)
-Posted (Top FM): Безопасность на дорогах — 1212 нарушений за четыре дня; призыв к осторожности в праздничный период
-Posted (Top FM): Tourisme — курс на 2035 год: Маврикий готовит стратегию из семи направлений для будущего сектора
-LLM usage this run: 8 requests, 12937 tokens
-### check 4/5 at 15:38
-### check 5/5 at 15:42
+Posted (Le Mauricien): Борьба с киберпреступностью на Маврикии: меры правительства против онлайн-насилия и мошенничества
+LLM usage this run: 9 requests, 15402 tokens
