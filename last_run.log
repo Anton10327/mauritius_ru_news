@@ -1,41 +1,11 @@
-### check 1/5 at 09:46
-  dup check: new (Объявлено о 20 новых вакансиях в различных секторах на Маврикии: ресторанный бизнес, здравоохранение, бухгалтерия, торговля, IT и государственная служ)
-  not news (portrait/lifestyle): Emploi à Maurice : 20 postes à découvrir dans la restauration, la santé, le commerce et le secteur p
-Skipped foreign news (Inside News): Emploi à Maurice : 20 postes à découvrir dans la restauration, la santé, le commerce et le secteur p
-  dup check: new (Статья сообщает о предложениях работы от MSC Cruises, Disney, Explora Journeys и Qatar Airways для маврикийцев в сферах ресторанного бизнеса, гостинич)
-  not news (portrait/lifestyle): Travailler à l’étranger : MSC Cruises, Disney, Explora Journeys et Qatar Airways offrent des pistes 
-Skipped foreign news (Inside News): Travailler à l’étranger : MSC Cruises, Disney, Explora Journeys et Qatar Airways offrent des pistes 
+### check 1/5 at 10:53
+  dup check: new (Новый несчастный случай на стройке в Phoenix: два иностранных рабочих (индиец и бангладешец) получили травмы из-за обрушения деревянного лесов. Это от)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Скончался Dhyaneswar Dausoa, ключевая фигура маврикийской скульптуры
+Posted (L'Express): Несчастный случай на стройке в Phoenix: двое рабочих пострадали при обрушении лесов
   dup: nothing new ()
-Skipped duplicate (L'Express): Mort d’un ex-policier : Double enquête sur fond de stupéfiants == Flacq: бывший полицейский скончался после ДТП на мотоцикле
-LLM usage this run: 7 requests, 12783 tokens
-### check 2/5 at 09:50
-  dup check: new (В статье впервые цитируется Dr Satish Boolell как эксперт по делу Kisten, утверждающий, что смерть Soopramanien Kistnen была убийством, а не самоубийс)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Дело Kistnen — судмедэксперт доктор Satish Boolell: «Это было не самоубийство, а убийство»
-  not news (portrait/lifestyle): Skanda Shasti : six jours de prières en l’honneur du dieu Muruga
-Skipped foreign news (Defimedia): Skanda Shasti : six jours de prières en l’honneur du dieu Muruga
+Skipped duplicate (Le Mauricien): Diwali: The Light We Carry Together == Водопроводные работы между Tamarind Falls и La Marie анонсированы на эти выходные
+  dup check: new (Сообщается о вероятном невозобновлении контракта с генеральным директором Cargo Handling Corporation Ltd Гассеном Дорсами после 11 декабря 2026 года; )
+Posted (Le Mauricien): Cargo Handling Corporation Ltd — контракт Gassen Dorsamy не будет продлён
   dup: nothing new ()
-Skipped duplicate (Inside News): Ratee, le courage de changer de vie pour transmettre l’art du bien-être == Киберпреступность: Маврикий и Индия намерены упростить удаление незаконного контента в инт
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Mauricien du 6 novembre 2026 == Дело Kistnen — судмедэксперт доктор Satish Boolell: «Это было не самоубийство, а убийство»
-LLM usage this run: 6 requests, 8782 tokens
-### check 3/5 at 09:54
-  dup check: new ()
-  not about Mauritius: Écrire le créole de La Réunion
-Skipped foreign news (L'Express): Écrire le créole de La Réunion
-LLM usage this run: 2 requests, 3623 tokens
-### check 4/5 at 09:58
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Week-end du 8 novembre 2026 == Дело Kistnen — судмедэксперт доктор Satish Boolell: «Это было не самоубийство, а убийство»
-  dup check: new (Введён новый закон: если государственный праздник выпадает на воскресенье, то понедельник становится дополнительным выходным (конкретно для Дивали 8 н)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Праздничные дни: компенсационный выходной в этот понедельник и пять выходных подряд в 2027 году
-LLM usage this run: 4 requests, 5459 tokens
-### check 5/5 at 10:02
-  not about Mauritius: [Blog] The fall of the Berlin Wall
-Skipped foreign news (Defimedia): [Blog] The fall of the Berlin Wall
-  dup: nothing new ()
-Skipped duplicate (Inside News): Pravasi Bharatiya Divas 2027 == Pravasi Bharatiya Divas 2027: около 500 маврикийцев ожидают в Калькутте с 7 по 9 января
-LLM usage this run: 2 requests, 3631 tokens
+Skipped duplicate (Le Mauricien): Divali – Awakening the Inner Light == Торгово-развлекательный центр La Croisette празднует Дивали
+LLM usage this run: 8 requests, 10921 tokens
