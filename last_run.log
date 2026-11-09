@@ -1,8 +1,7 @@
-### check 1/5 at 06:47
+### check 1/5 at 07:39
+  dup check: new (В статье описаны два разных случая строительства на побережье: в La Preneuse (Маврикий) защитный вал был признан соответствующим после получения разре)
+  proofread: «La Preneuse» → «в La Preneuse»; «на Реюньон» → «на Реюньоне»
+Posted (Le Mauricien): Защита побережья — Маврикий / Реюньон: в La Preneuse стену признали допустимой; на Реюньоне дело о самовольной постройке передано в суд
   dup: nothing new ()
-Skipped duplicate (Defimedia): Manchester United, 18e : qu’est-ce qui ne marche pas à Old Trafford ? == Port-Louis: месяц тюрьмы за кражу
-LLM usage this run: 1 requests, 1020 tokens
-### check 2/5 at 06:51
-### check 3/5 at 06:55
-### check 4/5 at 06:59
-### check 5/5 at 07:03
+Skipped duplicate (Defimedia): DéfiXplik | COP31 : que veut obtenir Maurice pour les petits États insulaires ? == COP31 | Изменение климата: миллиарды ради будущего островных государств
+LLM usage this run: 4 requests, 5216 tokens
