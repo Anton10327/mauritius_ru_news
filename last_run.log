@@ -1,23 +1,15 @@
-### check 1/5 at 17:45
+### check 1/5 at 18:40
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): Lancement du livre «Maurice en perte de ses bonnes manières» en décembre
-Skipped foreign news (Defimedia): Lancement du livre «Maurice en perte de ses bonnes manières» en décembre
-  dup: nothing new ()
-Skipped duplicate (Inside News): Navin Ramgoolam attendu au Forum de Paris sur la paix : climat, technologies et coopératio == Navin Ramgoolam в Париже для участия в Парижском форуме мира 2026
+  not news (portrait/lifestyle): Les entrepreneurs de l’été : quand la passion donne du goût à la saison
+Skipped foreign news (Defimedia): Les entrepreneurs de l’été : quand la passion donne du goût à la saison
   written by GigaChat-2-Max
-  not about Mauritius: Movember — Cancers masculins : le poids des tabous
-Skipped foreign news (Le Mauricien): Movember — Cancers masculins : le poids des tabous
-  dup check: new (Арестован новый подозреваемый — 30-летний нигерийский студент по жалобе 19-летней замбийской студентки о предполагаемом изнасиловании в Flic-en-Flac; )
+  not about Mauritius: Patrimoine des îles : La vanille Bourbon, une histoire réunionnaise
+Skipped foreign news (L'Express): Patrimoine des îles : La vanille Bourbon, une histoire réunionnaise
+  dup check: new (Election of Dapo Akande as judge of the International Court of Justice (ICJ) on 3 November 2026 for a nine‑year term, confirmed by the UK government, )
   written by GigaChat-2-Max
-Posted (Defimedia): Предполагаемое изнасилование в Flic-en-Flac: арестован нигерийский студент
-LLM usage this run: 6 requests, 9162 tokens
-### check 2/5 at 17:49
+  not news (portrait/lifestyle): Chagos : Dapo Akande élu à la CIJ, ce que cela change réellement pour Maurice
+Skipped foreign news (Inside News): Chagos : Dapo Akande élu à la CIJ, ce que cela change réellement pour Maurice
   written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Школьники могут остаться без учебников из-за задержки заказов колледжей
-  dup: nothing new ()
-Skipped duplicate (L'Express): Flic-en-Flac : Une Zambienne de 19 ans dénonce un viol, un ressortissant nigérian arrêté == Предполагаемое изнасилование в Flic-en-Flac: арестован нигерийский студент
-LLM usage this run: 3 requests, 5344 tokens
-### check 3/5 at 17:53
-### check 4/5 at 17:57
-### check 5/5 at 18:01
+  not about Mauritius: Fifa: le vice-président de la Confédération asiatique juge la réélection d'Infantino acquise
+Skipped foreign news (Defimedia): Fifa: le vice-président de la Confédération asiatique juge la réélection d'Infantino acquise
+LLM usage this run: 5 requests, 11025 tokens
