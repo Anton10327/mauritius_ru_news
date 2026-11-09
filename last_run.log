@@ -1,10 +1,12 @@
-### check 1/5 at 08:45
-Posted (L'Express): Карате: Aman Ramluchumun завоевал бронзу ценой больших жертв на Commonwealth Karate Federation Elite Championships
-  dup check: new (Статья сообщает о начале COP31 в Турции и намерении Маврикия перейти от обещаний к действиям по климату. Упоминается подтверждение учёными превышения )
+### check 1/5 at 09:46
+  dup check: new (Объявлено о 20 новых вакансиях в различных секторах на Маврикии: ресторанный бизнес, здравоохранение, бухгалтерия, торговля, IT и государственная служ)
+  not news (portrait/lifestyle): Emploi à Maurice : 20 postes à découvrir dans la restauration, la santé, le commerce et le secteur p
+Skipped foreign news (Inside News): Emploi à Maurice : 20 postes à découvrir dans la restauration, la santé, le commerce et le secteur p
+  dup check: new (Статья сообщает о предложениях работы от MSC Cruises, Disney, Explora Journeys и Qatar Airways для маврикийцев в сферах ресторанного бизнеса, гостинич)
+  not news (portrait/lifestyle): Travailler à l’étranger : MSC Cruises, Disney, Explora Journeys et Qatar Airways offrent des pistes 
+Skipped foreign news (Inside News): Travailler à l’étranger : MSC Cruises, Disney, Explora Journeys et Qatar Airways offrent des pistes 
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Климат — COP31: Маврикий хочет перейти от обещаний к действиям
-LLM usage this run: 5 requests, 9595 tokens
-### check 2/5 at 08:49
-### check 3/5 at 08:53
-### check 4/5 at 08:57
-### check 5/5 at 09:01
+Posted (Defimedia): Скончался Dhyaneswar Dausoa, ключевая фигура маврикийской скульптуры
+  dup: nothing new ()
+Skipped duplicate (L'Express): Mort d’un ex-policier : Double enquête sur fond de stupéfiants == Flacq: бывший полицейский скончался после ДТП на мотоцикле
+LLM usage this run: 7 requests, 12783 tokens
