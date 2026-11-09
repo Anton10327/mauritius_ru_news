@@ -1,33 +1,13 @@
-### check 1/5 at 13:32
-  dup: nothing new (South African Airways увеличит количество мест на рейсах в Маврикий с середины декабря до начала января из-за роста спроса во время праздников; будут )
-Skipped duplicate (Defimedia): Voyage : South African Airways augmentera son offre de sièges à partir de la mi-décembre == Лото: жительница Rodrigues выиграла 88,9 млн рупий, рекорд для острова
-  dup check: new (Министерство высшего образования учредило комитет для расследования вопросов управления и операционной деятельности Университета Маврикия; преподавате)
-Posted (Le Mauricien): Оспариваемое управление в Университете Масарен — Министерство высшего образования учреждает следственный комитет
-  dup check: new (В статье описана новая авария с двумя мотоциклами в Palmar 8 ноября: погибла женщина 62 лет и трое других получили серьёзные травмы. Алкотесты отрицат)
+### check 1/5 at 14:27
+  dup check: new (Инцидент в Line Barracks: заключённый укусил полицейского за левое предплечье во время раздачи обеда 7 ноября; пострадавший получил два дня больничног)
+  proofread: Blessé à l’avant-bras gauche lors d’une intervention au centre de détention de Line Barracks, samedi 7 novembre, un policier a obtenu deux jours de congé de maladie. → Blessé в левое предплечье во время инцидента в центре содержания под стражей Line Barracks 7 ноября, полицейский получил больничный 
+Posted (Defimedia): Line Barracks: заключённый укусил полицейского за руку
+  dup check: new (Статья посвящена новым маршрутам наркотрафика в Индийском океане и тому, как преступные сети адаптируют свои методы, делая море 'слепой зоной' для бор)
   proofread: 
-Posted (Defimedia): Palmar: 62-летняя женщина погибла в столкновении двух мотоциклов
+Posted (L'Express): Трафик в Индийском океане: новые маршруты наркотиков… или когда наркотики уходят в море
   dup: nothing new ()
-Skipped duplicate (Wazaa): Investissement mauricien à l’étranger double pour atteindre 1,76 milliard de roupies dans  == Маврикийские операторы инвестировали 1,76 млрд рупий за рубежом
-LLM usage this run: 8 requests, 11357 tokens
-### check 2/5 at 13:36
-  dup check: new (В статье обсуждаются результаты промежуточных выборов в США (демократы получили большинство в Палате представителей и Сенате) и их возможное влияние н)
-  not about Mauritius: Élections de mi-mandat aux États-Unis - revers de Trump : quel impact pour Maurice et le monde?
-Skipped foreign news (Defimedia): Élections de mi-mandat aux États-Unis - revers de Trump : quel impact pour Maurice et le monde?
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Малые средства размещения: устойчивость как ответ на рост издержек — Tourism Authority
-  dup check: new (Группа Real Mystika & Getop Band впервые за почти 20 лет выступила на Фестивале Креольской культуры на Сейшелах; это новый факт о международном выступ)
-  foreign words left: Festival, Anvil
-  leftovers fixed by GigaChat-3-Pro; still left: Festival, Anvil
-Posted (Le Mauricien): Real Mystika & Getop Band на Креольском фестивале Сейшел — Rodrigues зазвучал регги и сегге на Сейшелах
-  dup: nothing new ()
-Skipped duplicate (Inside News): Le système tropical se désagrège au nord de Madagascar, Mayotte reste sous surveillance == Лото: жительница Rodrigues выиграла 88,9 млн рупий, рекорд для острова
-LLM usage this run: 9 requests, 12748 tokens
-### check 3/5 at 13:40
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Наземный транспорт: Osman Mahomed подводит итоги и объявляет о новом этапе модернизации в 2027 году
-LLM usage this run: 2 requests, 3790 tokens
-### check 4/5 at 13:44
-  dup: nothing new ()
-Skipped duplicate (Wazaa): La FCC enquête sur un concessionnaire pour un véhicule non livré d’une valeur de 500 000 R == Грузовик не доставлен: после перевода 500 000 рупий он обратился в FCC
-LLM usage this run: 1 requests, 1530 tokens
-### check 5/5 at 13:48
+Skipped duplicate (Inside News): IA, cybersécurité et cloud : des formations gratuites désormais accessibles aux Mauriciens == Mauritius Telecom запускает шестнадцать бесплатных онлайн-курсов
+  dup check: new (Статья рассказывает о праздновании Дивали семьёй Ситул во Франции 8 ноября — это новое событие (новое место и участники), не связанное с ранее опублик)
+  not about Mauritius: [En images] Divali : la lumière brille toujours chez les Seetohul en France
+Skipped foreign news (Defimedia): [En images] Divali : la lumière brille toujours chez les Seetohul en France
+LLM usage this run: 9 requests, 16394 tokens
