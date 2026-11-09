@@ -21,3 +21,8 @@ Skipped duplicate (Inside News): Ratee, le courage de changer de vie pour transm
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): La caricature du Mauricien du 6 novembre 2026 == Дело Kistnen — судмедэксперт доктор Satish Boolell: «Это было не самоубийство, а убийство»
 LLM usage this run: 6 requests, 8782 tokens
+### check 3/5 at 09:54
+  dup check: new ()
+  not about Mauritius: Écrire le créole de La Réunion
+Skipped foreign news (L'Express): Écrire le créole de La Réunion
+LLM usage this run: 2 requests, 3623 tokens
