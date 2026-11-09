@@ -9,3 +9,15 @@ Posted (Le Mauricien): Cargo Handling Corporation Ltd — контракт Gasse
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): Divali – Awakening the Inner Light == Торгово-развлекательный центр La Croisette празднует Дивали
 LLM usage this run: 8 requests, 10921 tokens
+### check 2/5 at 10:57
+  dup check: new (Mauritius Telecom lance seize cours gratuits en ligne dans les domaines de l'intelligence artificielle, l'informatique en nuage, la cybersécurité et l)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Mauritius Telecom запускает шестнадцать бесплатных онлайн-курсов
+  dup: nothing new ()
+Skipped duplicate (L'Express): Plumes engagées l Divali : la lumière qu’on ne photographie pas == Водопроводные работы между Tamarind Falls и La Marie анонсированы на эти выходные
+  proofread: Road Traffic (Prescribed Forms) Regulations 2026 → Правила дорожного движения (утверждённые формы) 2026 года
+Posted (Inside News): Вождение под воздействием: полиция наконец получила форму запроса к магистрату
+  dup check: new (В новой статье сообщается о гибели трёх бангладешских рабочих в результате несчастного случая на стройке в Plaine-des-Papayes (2,5-тонная деревянная к)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Трагедия в Plaine-des-Papayes: трое бангладешских рабочих погибли в результате несчастного случая на производстве
+LLM usage this run: 9 requests, 12363 tokens
