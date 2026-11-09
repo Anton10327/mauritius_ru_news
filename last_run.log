@@ -21,3 +21,12 @@ Posted (Le Mauricien): Pailles: 30-летнего водителя аресто�
   dup: nothing new ()
 Skipped duplicate (L'Express): Cargo Handling Corporation Ltd : Le contrat de Gassen Dorsamy ne serait pas renouvelé aprè == Cargo Handling Corporation Ltd — контракт Gassen Dorsamy не будет продлён
 LLM usage this run: 8 requests, 11771 tokens
+### check 3/5 at 12:27
+  dup check: new (Автор нападения в Кракове скончался; подтверждено 6 погибших и 15 раненых; подозреваемый идентифицирован как Михал О., который также подозревается в у)
+  not about Mauritius: Pologne : six morts, que s’est-il passé ?
+Skipped foreign news (Defimedia): Pologne : six morts, que s’est-il passé ?
+  dup: nothing new ()
+Skipped duplicate (Top FM): COP31 : Maurice réclame des financements et des actions concrètes face à l’urgence climati == Климат — COP31: Маврикий хочет перейти от обещаний к действиям
+  dup: nothing new ()
+Skipped duplicate (Top FM): Élections générales – deux ans après : le coût de la vie, la pauvreté et la drogue toujour == Два года у власти: лидер оппозиции Chetan Baboolall обвиняет правительство в «нулевых резу
+LLM usage this run: 4 requests, 6128 tokens
