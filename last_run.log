@@ -1,25 +1,12 @@
-### check 1/5 at 19:43
-  dup check: new (Article highlights new information about family and drug‑related homicides in Mauritius, including cases of women killed by partners, a mother killed )
+### check 1/5 at 20:49
   written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Насилие в семье и наркотики стали главными причинами убийств на Маврикии
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Акционеры Emtel смогут выбрать между денежными выплатами и новыми акциями
+  not news (portrait/lifestyle): Restaurant Lai Min : 80 ans d’histoire
+Skipped foreign news (Defimedia): Restaurant Lai Min : 80 ans d’histoire
   dup: nothing new ()
-Skipped duplicate (Inside News): Carburants : plus de Rs 3,3 milliards de taxes perçues en trois mois, ce que paient réelle == Топливо: собрано 3,3 млрд рупий налогов за три месяца, субсидии сокращаются
-  dup check: new (Emission d'un ordre d'« Arrest on Arrival » par le Passport & Immigration Office à l'aéroport international pour Nishal D.)
+Skipped duplicate (L'Express): Transport : Osman Mahomed mise sur la modernisation et la sécurité routière == Наземный транспорт: Osman Mahomed подводит итоги и объявляет о новом этапе модернизации в 
+  dup: nothing new ()
+Skipped duplicate (Inside News): Air Mauritius, Chagos et crise de l’eau : le gouvernement attendu sur plusieurs dossiers s == Парламент обсудит финансы Air Mauritius и статус архипелага Chagos
   written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Нишал Д. → Nishal D.
-Posted (Defimedia): Пойман ключевой участник сети наркотрафика на яхте Dreamer
-LLM usage this run: 9 requests, 16283 tokens
-### check 2/5 at 19:47
-  dup check: new (Event «Sharing Love Through Art» organized by Groupe Renaissance du Nord on 9 november at Hôtel Le Méridien in Pointe‑aux‑Piments, with 25 local artis)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Top FM): «Делимся любовью через искусство»: 25 художников подарят волшебство Рождества 400 нуждающимся детям
-LLM usage this run: 3 requests, 5133 tokens
-### check 3/5 at 19:51
-### check 4/5 at 19:55
-### check 5/5 at 19:59
+  not news (portrait/lifestyle): «Mango Bay Bartender Competition 2026» : Le rhum mauricien et le talent local à l’honneur
+Skipped foreign news (L'Express): «Mango Bay Bartender Competition 2026» : Le rhum mauricien et le talent local à l’honneur
+LLM usage this run: 4 requests, 8963 tokens
