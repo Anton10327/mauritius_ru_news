@@ -25,3 +25,8 @@ Skipped foreign news (Le Mauricien): Yamaha inaugure un nouveau segment en 2027 
   dup: nothing new ()
 Skipped duplicate (Inside News): Cargo Handling Corporation : Gassen Dorsamy sur le départ, la CHCL à l’heure des grandes d == Cargo Handling Corporation Ltd — контракт Gassen Dorsamy не будет продлён
 LLM usage this run: 5 requests, 9478 tokens
+### check 3/5 at 18:48
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Allô Docteur, ce mardi 10 novembre — Diabète : agir tôt pour éviter les complications
+Skipped foreign news (Defimedia): Allô Docteur, ce mardi 10 novembre — Diabète : agir tôt pour éviter les complications
+LLM usage this run: 1 requests, 2387 tokens
