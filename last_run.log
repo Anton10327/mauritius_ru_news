@@ -10,3 +10,14 @@ Posted (Defimedia): Скончался Dhyaneswar Dausoa, ключевая фи�
   dup: nothing new ()
 Skipped duplicate (L'Express): Mort d’un ex-policier : Double enquête sur fond de stupéfiants == Flacq: бывший полицейский скончался после ДТП на мотоцикле
 LLM usage this run: 7 requests, 12783 tokens
+### check 2/5 at 09:50
+  dup check: new (В статье впервые цитируется Dr Satish Boolell как эксперт по делу Kisten, утверждающий, что смерть Soopramanien Kistnen была убийством, а не самоубийс)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Дело Kistnen — судмедэксперт доктор Satish Boolell: «Это было не самоубийство, а убийство»
+  not news (portrait/lifestyle): Skanda Shasti : six jours de prières en l’honneur du dieu Muruga
+Skipped foreign news (Defimedia): Skanda Shasti : six jours de prières en l’honneur du dieu Muruga
+  dup: nothing new ()
+Skipped duplicate (Inside News): Ratee, le courage de changer de vie pour transmettre l’art du bien-être == Киберпреступность: Маврикий и Индия намерены упростить удаление незаконного контента в инт
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La caricature du Mauricien du 6 novembre 2026 == Дело Kistnen — судмедэксперт доктор Satish Boolell: «Это было не самоубийство, а убийство»
+LLM usage this run: 6 requests, 8782 tokens
