@@ -1,28 +1,13 @@
-### check 1/5 at 16:26
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Long week-end : une journée à la plage en famille == На парковке пляжа Mont-Choisy: две версии после столкновения в этот понедельник
-  dup check: new (Статья сообщает о продолжающемся расследовании Центральным антикоррупционным департаментом (CCID) предполагаемых превышений расходов на выборах 2024 г)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: of, the
-  leftovers fixed by GigaChat-3-Pro; still left: of, the
-Posted (Defimedia): Расходы на выборах 2024 года: спустя два года CCID всё ещё ведёт расследование
-  not news (portrait/lifestyle): Lavanya Sunassy-Pather : «Encourageons les enfants à consommer davantage de fruits de saison»
-Skipped foreign news (L'Express): Lavanya Sunassy-Pather : «Encourageons les enfants à consommer davantage de fruits de saison»
-  dup check: new (В статье говорится о предложенных мерах по борьбе с киберпреступностью на Маврикии: ограничение времени онлайн для подростков до двух часов в день и л)
+### check 1/5 at 17:45
   written by GigaChat-2-Max
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Борьба с киберпреступностью на Маврикии: меры правительства против онлайн-насилия и мошенничества
-LLM usage this run: 9 requests, 15402 tokens
-### check 2/5 at 16:30
-  same headline as #26: Urban Terminal de Vacoas : un nouvel appel d’offres international en vue
-Skipped duplicate (Inside News): Urban Terminal de Vacoas : un nouvel appel d’offres international pour relancer un projet  == Новый городской терминал в Vacoas: готовится новый международный тендер
+  not news (portrait/lifestyle): Lancement du livre «Maurice en perte de ses bonnes manières» en décembre
+Skipped foreign news (Defimedia): Lancement du livre «Maurice en perte de ses bonnes manières» en décembre
   dup: nothing new ()
-Skipped duplicate (L'Express): Jour férié post-Divali : Entre entraînement, partage et esprit de fête == На парковке пляжа Mont-Choisy: две версии после столкновения в этот понедельник
-LLM usage this run: 1 requests, 1174 tokens
-### check 3/5 at 16:34
-  dup check: new (В статье говорится о третьей церемонии Women Entrepreneur Awards (WEA), которая впервые расширилась на семь территорий Индийского океана и прошла 31 о)
+Skipped duplicate (Inside News): Navin Ramgoolam attendu au Forum de Paris sur la paix : climat, technologies et coopératio == Navin Ramgoolam в Париже для участия в Парижском форуме мира 2026
   written by GigaChat-2-Max
-Posted (Defimedia): Женщины-предприниматели Индийского океана отмечены наградами
-LLM usage this run: 3 requests, 5411 tokens
-### check 4/5 at 16:38
-### check 5/5 at 16:42
+  not about Mauritius: Movember — Cancers masculins : le poids des tabous
+Skipped foreign news (Le Mauricien): Movember — Cancers masculins : le poids des tabous
+  dup check: new (Арестован новый подозреваемый — 30-летний нигерийский студент по жалобе 19-летней замбийской студентки о предполагаемом изнасиловании в Flic-en-Flac; )
+  written by GigaChat-2-Max
+Posted (Defimedia): Предполагаемое изнасилование в Flic-en-Flac: арестован нигерийский студент
+LLM usage this run: 6 requests, 9162 tokens
