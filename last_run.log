@@ -1,34 +1,16 @@
-### check 1/5 at 18:40
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Les entrepreneurs de l’été : quand la passion donne du goût à la saison
-Skipped foreign news (Defimedia): Les entrepreneurs de l’été : quand la passion donne du goût à la saison
-  written by GigaChat-2-Max
-  not about Mauritius: Patrimoine des îles : La vanille Bourbon, une histoire réunionnaise
-Skipped foreign news (L'Express): Patrimoine des îles : La vanille Bourbon, une histoire réunionnaise
-  dup check: new (Election of Dapo Akande as judge of the International Court of Justice (ICJ) on 3 November 2026 for a nine‑year term, confirmed by the UK government, )
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Chagos : Dapo Akande élu à la CIJ, ce que cela change réellement pour Maurice
-Skipped foreign news (Inside News): Chagos : Dapo Akande élu à la CIJ, ce que cela change réellement pour Maurice
-  written by GigaChat-2-Max
-  not about Mauritius: Fifa: le vice-président de la Confédération asiatique juge la réélection d'Infantino acquise
-Skipped foreign news (Defimedia): Fifa: le vice-président de la Confédération asiatique juge la réélection d'Infantino acquise
-LLM usage this run: 5 requests, 11025 tokens
-### check 2/5 at 18:44
+### check 1/5 at 19:43
+  dup check: new (Article highlights new information about family and drug‑related homicides in Mauritius, including cases of women killed by partners, a mother killed )
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Элоди Томас → Elodie Thomas; Гаутамсинха Таукоора → Gowtamsingh Taukoor; Камп-Левьё → Camp-Levieux
-Posted (Defimedia): Комиссия по жалобам на полицию почти завершила расследование дела трёх полицейских
-  dup check: new (Yamaha announces a new Adventure Scooter segment for 2027 with three models, describing their design, capabilities and positioning as the first true A)
+Posted (Defimedia): Насилие в семье и наркотики стали главными причинами убийств на Маврикии
   written by GigaChat-2-Max
-  not about Mauritius: Yamaha inaugure un nouveau segment en 2027 avec 3 modèles
-Skipped foreign news (Le Mauricien): Yamaha inaugure un nouveau segment en 2027 avec 3 modèles
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Акционеры Emtel смогут выбрать между денежными выплатами и новыми акциями
   dup: nothing new ()
-Skipped duplicate (Inside News): Cargo Handling Corporation : Gassen Dorsamy sur le départ, la CHCL à l’heure des grandes d == Cargo Handling Corporation Ltd — контракт Gassen Dorsamy не будет продлён
-LLM usage this run: 5 requests, 9478 tokens
-### check 3/5 at 18:48
+Skipped duplicate (Inside News): Carburants : plus de Rs 3,3 milliards de taxes perçues en trois mois, ce que paient réelle == Топливо: собрано 3,3 млрд рупий налогов за три месяца, субсидии сокращаются
+  dup check: new (Emission d'un ordre d'« Arrest on Arrival » par le Passport & Immigration Office à l'aéroport international pour Nishal D.)
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): Allô Docteur, ce mardi 10 novembre — Diabète : agir tôt pour éviter les complications
-Skipped foreign news (Defimedia): Allô Docteur, ce mardi 10 novembre — Diabète : agir tôt pour éviter les complications
-LLM usage this run: 1 requests, 2387 tokens
-### check 4/5 at 18:52
-### check 5/5 at 18:56
+  proofread by qwen/qwen3.8-27b
+  proofread: Нишал Д. → Nishal D.
+Posted (Defimedia): Пойман ключевой участник сети наркотрафика на яхте Dreamer
+LLM usage this run: 9 requests, 16283 tokens
