@@ -1,25 +1,12 @@
-### check 1/5 at 14:27
-  dup check: new (Инцидент в Line Barracks: заключённый укусил полицейского за левое предплечье во время раздачи обеда 7 ноября; пострадавший получил два дня больничног)
-  proofread: Blessé à l’avant-bras gauche lors d’une intervention au centre de détention de Line Barracks, samedi 7 novembre, un policier a obtenu deux jours de congé de maladie. → Blessé в левое предплечье во время инцидента в центре содержания под стражей Line Barracks 7 ноября, полицейский получил больничный 
-Posted (Defimedia): Line Barracks: заключённый укусил полицейского за руку
-  dup check: new (Статья посвящена новым маршрутам наркотрафика в Индийском океане и тому, как преступные сети адаптируют свои методы, делая море 'слепой зоной' для бор)
-  proofread: 
-Posted (L'Express): Трафик в Индийском океане: новые маршруты наркотиков… или когда наркотики уходят в море
-  dup: nothing new ()
-Skipped duplicate (Inside News): IA, cybersécurité et cloud : des formations gratuites désormais accessibles aux Mauriciens == Mauritius Telecom запускает шестнадцать бесплатных онлайн-курсов
-  dup check: new (Статья рассказывает о праздновании Дивали семьёй Ситул во Франции 8 ноября — это новое событие (новое место и участники), не связанное с ранее опублик)
-  not about Mauritius: [En images] Divali : la lumière brille toujours chez les Seetohul en France
-Skipped foreign news (Defimedia): [En images] Divali : la lumière brille toujours chez les Seetohul en France
-LLM usage this run: 9 requests, 16394 tokens
-### check 2/5 at 14:31
+### check 1/5 at 15:26
+  dup check: new (Дата и время вынесения решения BIOT Appeals Tribunal по делу Misley Mandarin — 12 ноября 2026 года в 10:00 (Лондон), публикация полного текста онлайн )
   proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Водный кризис: в 2022 году зафиксировано 330 неисправных счётчиков, CWA призвали отчитаться
+Posted (Defimedia): Присутствие Misley Mandarin на архипелаге Chagos: апелляционный трибунал BIOT вынесет решение 12 ноября
+  dup check: new ()
+  not about Mauritius: Le naufrage de Trump : Des mauriciens décryptent le séisme politique américain
+Skipped foreign news (L'Express): Le naufrage de Trump : Des mauriciens décryptent le séisme politique américain
+  not about Mauritius: Humeur — La guerre du président contre son peuple
+Skipped foreign news (Le Mauricien): Humeur — La guerre du président contre son peuple
   dup: nothing new ()
-Skipped duplicate (Top FM): Intégration régionale : Cap Business Océan Indien appelle à renforcer les échanges économi == 17-я гонка Trail de Rodrigues: «Женская тропа», в центре внимания женщины
-LLM usage this run: 3 requests, 5068 tokens
-### check 3/5 at 14:35
-### check 4/5 at 14:39
-### check 5/5 at 14:43
-  dup check: new (Статья описывает новое ДТП с участием туриста и местной автомобилистки на парковке пляжа Mont-Choisy 9 ноября. Это отдельное происшествие, не связанно)
-Posted (L'Express): На парковке пляжа Mont-Choisy: две версии после столкновения в этот понедельник
-LLM usage this run: 3 requests, 4780 tokens
+Skipped duplicate (Le Mauricien): Faits et effets — Un pays en panne == Изъятия на несколько миллиардов рупий — 730 дней у власти: наркосети остаются в наступлени
+LLM usage this run: 7 requests, 13233 tokens
