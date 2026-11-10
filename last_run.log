@@ -24,3 +24,15 @@ Posted (Le Mauricien): Киберпреступность: на Маврикии
   dup: nothing new ()
 Skipped duplicate (Wazaa): Macron rencontre Ramgoolam à Paris ce mardi avant l’élection présidentielle française de 2 == Navin Ramgoolam в Париже для участия в Парижском форуме мира 2026
 LLM usage this run: 10 requests, 16248 tokens
+### check 3/5 at 11:51
+  dup: nothing new ()
+Skipped duplicate (Inside News): Vos courses coûtent trop cher ? Voici comment comparer les prix avant d’acheter == Ночной рынок: реализация проекта не планируется в 2026 году
+  dup check: new (В статье впервые сообщается о том, что на заседании парламента 10 ноября будет рассмотрен законопроект «Mauritius Telecom Foundation Bill», который пр)
+Posted (L'Express): Парламент: законопроект «Mauritius Telecom Foundation Bill» в повестке дня на этот вторник
+  dup check: new (В статье приводятся новые экономические данные: за два года правления Альянса изменений государственный долг вырос более чем на 114 млрд рупий и дости)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Альянс перемен: неоднозначные экономические итоги после двух лет у власти на фоне роста долга
+  dup check: new (Статья описывает текущую ситуацию с нехваткой воды на Маврикии: уровень заполнения водохранилища Mare-aux-Vacoas ниже 33%, что влияет на повседневную )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Top FM): Нехватка воды: стирка, умывание и утренние сборы становятся головоломкой для многих маврикийцев
+LLM usage this run: 10 requests, 15742 tokens
