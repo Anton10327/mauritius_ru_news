@@ -34,3 +34,10 @@ LLM usage this run: 5 requests, 8257 tokens
 Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
 ### check 4/5 at 15:41
 Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+### check 5/5 at 15:45
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup check: new (Publication of a new Environmental Impact Assessment (EIA) notice for Moka City Ltd & others by the Government Information Service on 9 November 2026,)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): Опубликована новая оценка воздействия на окружающую среду проекта Moka City
+LLM usage this run: 3 requests, 4758 tokens
