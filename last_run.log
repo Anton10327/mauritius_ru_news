@@ -1,40 +1,11 @@
-### check 1/5 at 09:23
-  dup check: new (Air Mauritius закрывает семь вакансий сегодня в 16:00; также есть набор в госслужбу и другие компании с короткими сроками подачи заявок.)
-  proofread: 
-Posted (Inside News): Работа на Маврикии: Air Mauritius завершает семь наборов во вторник, PSC и ряд компаний также ищут кандидатов
-  dup check: new (COMESA объявляет о найме IT-менеджера в Малави с годовой зарплатой до 68 659 долларов; указаны условия для граждан Маврикия.)
-  not about Mauritius: Emploi à l’étranger : le COMESA recrute un responsable informatique au Malawi, avec une rémunération
-Skipped foreign news (Inside News): Emploi à l’étranger : le COMESA recrute un responsable informatique au Malawi, avec une rémunération
-  dup check: new (В статье говорится о предстоящей «Private Notice Question» (PNQ) в парламенте Маврикия 10 ноября, где будет обсуждаться ситуация с детьми на Маврикии )
-  proofread: «Children’s Court» → «Детский суд»
-  foreign words left: Private
-  leftovers fixed by GigaChat-3-Pro; still left: Private
-Posted (L'Express): Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростковую преступность
+### check 1/5 at 10:22
   dup: nothing new ()
-Skipped duplicate (L'Express): Accident à Palmar : Merilyn Patricia Marie Louise, 62 ans, perd la vie == Palmar: 62-летняя женщина погибла в столкновении двух мотоциклов
-LLM usage this run: 10 requests, 15744 tokens
-### check 2/5 at 09:27
-  not about Mauritius: Un sénateur nommé Abdulrahman
-Skipped foreign news (L'Express): Un sénateur nommé Abdulrahman
+Skipped duplicate (Wazaa): Patron du club nocturne de Phuket identifié comme suspect clé du trafic de cannabis == Пойман ключевой участник сети наркотрафика на яхте Dreamer
+  dup check: new (Запрос в парламент о деталях контракта с Sahara Energy Resource Ltd на поставку топлива, включая предложения, премии и тарифные условия; дата запроса )
+  proofread: затребуют → потребуют
+Posted (Inside News): Топливо на Маврикии: контракт с Sahara Energy в центре внимания, закупочные цены и премии затребованы в парламенте
+  dup check: new (Две женщины (37 и 42 года), обе замужем за одним мужчиной, подали жалобу на предполагаемые домашнее насилие, угрозы смерти и похищение; подозреваемый )
+Posted (L'Express): Plaine-Verte: две жены одного мужчины подали жалобу на домашнее насилие
   dup: nothing new ()
-Skipped duplicate (Defimedia): Parlement : la protection des enfants au coeur de la PNQ == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): PNQ sur la protection de l’enfance : les chiffres sur les violences, les expulsions scolai == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
-  dup check: new (В статье впервые упоминается запрос депутата Сидни Пьера о стоимости отчёта Seabury Aviation Partners и его доступности для общественности; ранее в оп)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Seabury
-  leftovers fixed by GigaChat-3-Pro; still left: Seабури
-Posted (Inside News): Air Mauritius: сколько стоил отчёт Seабури и почему он не опубликован?
-LLM usage this run: 7 requests, 10498 tokens
-### check 3/5 at 09:31
-  not about Mauritius: États-Unis : Trump attribue les défaites républicaines aux élections de mi-mandat à la « grande aver
-Skipped foreign news (Defimedia): États-Unis : Trump attribue les défaites républicaines aux élections de mi-mandat à la « grande aver
-LLM usage this run: 1 requests, 3164 tokens
-### check 4/5 at 09:35
-  dup check: new (В статье сообщается о новом индексе Ayre 2026 по искусственному интеллекту: Маврикий занимает первое место в Африке и восьмое в Содружестве с 64,4 бал)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Искусственный интеллект — индекс AYRE 2026: Маврикий — первый в Африке и 8-й в Содружестве
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): EXERCICE FINANCIER : Emtel poursuit sa croissance et lance son Scrip Dividend Scheme == Акционеры Emtel смогут выбрать между денежными выплатами и новыми акциями
-LLM usage this run: 4 requests, 6095 tokens
-### check 5/5 at 09:39
+Skipped duplicate (Le Mauricien): Velogic — Rapport annuel : Le port à un tournant décisif face à la modernisation régionale == Учёба в Швейцарии: стипендии Женевского университета для маврикийцев, заявки принимаются д
+LLM usage this run: 8 requests, 11867 tokens
