@@ -24,3 +24,13 @@ Posted (Defimedia): Port-Louis: сильные пробки на въезде в
   dup: nothing new ()
 Skipped duplicate (Inside News): Recrutement dans le secteur public : deux nouveaux avis ouvrent des perspectives d’emploi  == Работа на Маврикии: Air Mauritius завершает семь наборов во вторник, PSC и ряд компаний та
 LLM usage this run: 6 requests, 7897 tokens
+### check 3/5 at 12:49
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Programme 2025-2029 : ces grandes promesses pas encore tenues == COP31 | Изменение климата: миллиарды ради будущего островных государств
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Île Maurice Prépare le Site SVICC pour le 18e Sommet d’affaires États‑Unis‑Afrique en Déce == «Саммит США–Африка по бизнесу 2026»: работы в SVICC должны завершиться 15 ноября
+  dup check: new (В статье сообщается о замене тюремного срока на 90 часов общественных работ для бывшего руководителя MHC Хассана Иссопа Абдула после признания его вин)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Коррупция: бывшему руководителю MHC назначены общественные работы
+LLM usage this run: 5 requests, 7682 tokens
