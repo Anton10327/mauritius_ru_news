@@ -1,24 +1,12 @@
-### check 1/5 at 10:22
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Patron du club nocturne de Phuket identifié comme suspect clé du trafic de cannabis == Пойман ключевой участник сети наркотрафика на яхте Dreamer
-  dup check: new (Запрос в парламент о деталях контракта с Sahara Energy Resource Ltd на поставку топлива, включая предложения, премии и тарифные условия; дата запроса )
-  proofread: затребуют → потребуют
-Posted (Inside News): Топливо на Маврикии: контракт с Sahara Energy в центре внимания, закупочные цены и премии затребованы в парламенте
-  dup check: new (Две женщины (37 и 42 года), обе замужем за одним мужчиной, подали жалобу на предполагаемые домашнее насилие, угрозы смерти и похищение; подозреваемый )
-Posted (L'Express): Plaine-Verte: две жены одного мужчины подали жалобу на домашнее насилие
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Velogic — Rapport annuel : Le port à un tournant décisif face à la modernisation régionale == Учёба в Швейцарии: стипендии Женевского университета для маврикийцев, заявки принимаются д
-LLM usage this run: 8 requests, 11867 tokens
-### check 2/5 at 10:26
-### check 3/5 at 10:30
-  dup check: new (Случай смерти 64-летнего мужчины в Belle-Rose при падении с мангового дерева; детали происшествия и реакция полиции.)
-Posted (Defimedia): Трагедия в Belle-Rose: 64-летний мужчина погиб, упав со своего мангового дерева
-  dup check: new (В статье впервые упоминается вопрос о количестве несовершеннолетних, идентифицированных в ходе октябрьских беспорядков на Маврикии, а также запрос деп)
+### check 1/5 at 11:43
+  not about Mauritius: TOURISME — DISTINCTION INTERNATIONALE — Le Piton de la Fournaise, deuxième plus beau sentier volcani
+Skipped foreign news (Le Mauricien): TOURISME — DISTINCTION INTERNATIONALE — Le Piton de la Fournaise, deuxième plus beau sentier volcani
   proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Октябрьские беспорядки: среди идентифицированных лиц есть несовершеннолетние, правительство призвали уточнить их число
-LLM usage this run: 6 requests, 9613 tokens
-### check 4/5 at 10:34
+  foreign words left: Ltd
+  leftovers fixed by GigaChat-3-Pro; still left: Ltd
+Posted (L'Express): «Саммит США–Африка по бизнесу 2026»: работы в SVICC должны завершиться 15 ноября
   dup: nothing new ()
-Skipped duplicate (L'Express): Reza Uteem : «La police arrête les travailleurs étrangers, mais ne démantèle pas les résea == Concentrix: под угрозой 303 рабочих места, перед объявленным закрытием согласованы компенс
-LLM usage this run: 1 requests, 1221 tokens
-### check 5/5 at 10:38
+Skipped duplicate (Inside News): Parlement : reprise des travaux ce mardi à 11 h 30, plusieurs dossiers sensibles attendent == Парламент: бунты, потери воды и зарплаты World Knit в центре внимания во вторник
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): (IN)SECURITE ROUTIERE — Palmar  : Une sexagénaire tuée dans une collision entre 2 motos == Palmar: 62-летняя женщина погибла в столкновении двух мотоциклов
+LLM usage this run: 6 requests, 10794 tokens
