@@ -8,3 +8,8 @@ Skipped duplicate (Defimedia): Deux ans au pouvoir : un bilan économique entre 
   dup: nothing new ()
 Skipped duplicate (Inside News): Météo à Maurice ce mardi 10 novembre : des averses le matin, jusqu’à 32 °C sur les côtes == Погода: после ливней — солнце
 LLM usage this run: 4 requests, 6348 tokens
+### check 2/5 at 05:40
+  dup check: new (Рассел Брэнд был приговорён к 10 годам и 6 месяцам тюрьмы за изнасилование одной женщины и сексуальные домогательства в отношении ещё трёх женщин; он )
+  not about Mauritius: Royaume-Uni : l'acteur Russell Brand condamné à dix ans et demi de prison pour viol et agressions se
+Skipped foreign news (Defimedia): Royaume-Uni : l'acteur Russell Brand condamné à dix ans et demi de prison pour viol et agressions se
+LLM usage this run: 2 requests, 4295 tokens
