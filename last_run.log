@@ -1,50 +1,20 @@
-### check 1/5 at 14:37
-  dup check: new (Suspect, a 36‑year‑old habitual criminal, remains at large three weeks after a video of alleged sexual abuse of a six‑year‑old girl spread on social m)
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Предполагаемое сексуальное насилие над шестилетней девочкой: три недели поисков, подозреваемый по-прежнему не найден
-Could not read article https://www.inside.news/dreamer-cour-supreme-saisie-yacht-devises-fcc/: 503 Server Error: Service Unavailable for url: https://www.inside.news/dreamer-cour-supreme-saisie-yacht-devises-fcc/
-  dup check: new (Supreme Court of Mauritius ordered on 3 Nov 2026 the civil seizure of the yacht Dreamer and foreign currency found on board, following a request by th)
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): Дело Dreamer: Верховный суд постановил наложить арест на яхту и иностранную валюту
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Валютный рынок: Банк Маврикия вливает доллары, но их нехватка в кассах сохраняется
-  dup check: new (Internal unrest in the port police unit: cancellation of leave, early departures, contested management methods by a newly assigned assistant superinte)
-  proofread by qwen/qwen3.8-27b
-  proofread: Полиция порта Маврикия → Police du port; помощника суперинтенданта → assistant surintendant de police (ASP); комиссара полиции → commissaire de police
-  foreign words left: Police, du, port, commissaire
-  leftovers fixed by qwen/qwen3.8-27b; still left: Police, du, port
-Posted (L'Express): Police du port: отмена отпусков, досрочные увольнения, спорные методы управления… недовольство растёт
-LLM usage this run: 12 requests, 21807 tokens
-### check 2/5 at 14:41
-  dup check: new (Joanna Bérenger raises concerns about mismanagement in horticulture, agronomy and seed production departments, criticises the Agricultural Marketing B)
-  proofread by qwen/qwen3.8-27b
-  proofread: Джоанна Беренджер → Joanna Bérenger
-Posted (Le Mauricien): Joanna Bérenger: вопросы по управлению сельскохозяйственными землями
-  dup: nothing new ()
-Skipped duplicate (Inside News): Protection des enfants : violences, placements et drogues au cœur des questions au Parleme == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
-  proofread by qwen/qwen3.8-27b
-  proofread: Ашок Суброн → Ashok Subron; Давид Соваж → David Sauvage; Конституционную комиссию → Constitutional Review Commission
-Posted (Le Mauricien): Министр Ashok Subron: «Нужно устранять глубинные причины социальных напряжений»
-  dup check: new (Fermeture de la rue Monseigneur-Leen du 10 novembre au 21 décembre à Port‑Louis à cause d’un glissement de terrain, avec travaux de réparation urgents)
+### check 1/5 at 15:29
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Conversation avec… Gaston Valayden : Théâtre et crise sociale
+Skipped foreign news (L'Express): Conversation avec… Gaston Valayden : Théâtre et crise sociale
+  dup check: new (Parlementaire Chetan Baboolall a demandé une seconde autopsie pour la fillette décédée le 1er novembre à Roche‑Bois, question posée le 10 novembre au )
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Даламберт → Д’Аламбер; Лабурдонь → Лабурдоннэ
-Posted (Defimedia): Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
-LLM usage this run: 9 requests, 16957 tokens
-### check 3/5 at 14:45
-  dup check: new ()
+  proofread: Маврикия → Маврикия; Премьер-министр временно исполняющая обязанности → Премьер-министр, временно исполняющая обязанности
+Posted (Defimedia): На Маврикии обсуждают необходимость повторной аутопсии годовалой девочки
+  dup check: new (Annonce d'une nouvelle rencontre avec l'équipe britannique et d'une échéance fixée à décembre 2026 pour la ratification de l'accord sur les îles Chago)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Inside News): Pamplemousses: официально объявлено о переносе ЗАГСа
-LLM usage this run: 3 requests, 4775 tokens
-### check 4/5 at 14:49
-  dup check: new (Annonce d'une émission radio « Au Cœur de l’Info » le 10 novembre à 17h sur Radio Plus (et en direct sur Facebook) pour faire le bilan du gouvernement)
+  proofread: Навин Рамгулам → Navin Ramgoolam
+Posted (Defimedia): Архипелаг Чагос: новая встреча с британской делегацией запланирована, срок установлен на декабрь 2026 года
+  dup check: new (Article raises awareness of prematurity, provides global statistic of 15 million premature births per year, mentions World Prematurity Day on 17 Novem)
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): Au Cœur de l’Info : quel bilan deux ans après les élections générales ?
-Skipped foreign news (Defimedia): Au Cœur de l’Info : quel bilan deux ans après les élections générales ?
-  dup check: new (Le Premier ministre Navin Ramgoolam a proposé le 21 octobre la création d'un comité spécial (Select Committee) pour réviser les termes de référence de)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Top FM): Пенитенциарная ответственность несовершеннолетних: пересмотр условий референдума, ожидается представление после возвращения премьер-министра
-LLM usage this run: 5 requests, 8009 tokens
-### check 5/5 at 14:53
+  not news (portrait/lifestyle): Santé | Prématurité : nés trop tôt, déjà des battants
+Skipped foreign news (L'Express): Santé | Prématurité : nés trop tôt, déjà des battants
+LLM usage this run: 9 requests, 16859 tokens
