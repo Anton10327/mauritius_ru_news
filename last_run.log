@@ -44,3 +44,16 @@ Skipped foreign news (Defimedia): Guerre contre l’Iran : Trump veut faire paye
   dup: nothing new ()
 Skipped duplicate (L'Express): PNQ : Trois enfants morts sous des violences et 365 placés en foyer à Maurice == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
 LLM usage this run: 6 requests, 12170 tokens
+### check 4/5 at 17:49
+  dup check: new (authorities at borders alerted)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Подозреваемый в сексуальном насилии над шестилетней девочкой всё ещё разыскивается
+  dup check: new (Annonce de 103 mineurs arrêtés pour délits de drogue depuis janvier 2024, avec répartition des lieux d'arrestation (76 domicile/ rue, 23 établissement)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Премьер-министр временно исполняющая обязанности → Премьер-министр, временно исполняющая обязанности
+Posted (Wazaa): На Маврикии с начала года задержали 103 подростка за преступления, связанные с наркотиками
+  dup: nothing new ()
+Skipped duplicate (Inside News): Ramgoolam et Macron : une rencontre à l’Élysée pour faire le point sur la coopération Maur == Navin Ramgoolam в Париже для участия в Парижском форуме мира 2026
+LLM usage this run: 7 requests, 11231 tokens
