@@ -1,13 +1,7 @@
-### check 1/5 at 06:30
-  dup check: new (Отказ правительства Бангладеш в выдаче нового паспорта бывшему премьер-министру Шейх Хасине и её первая официальная попытка вернуться с 2024 года.)
-  not about Mauritius: Bangladesh : le gouvernement refuse un nouveau passeport à Sheikh Hasina
-Skipped foreign news (Defimedia): Bangladesh : le gouvernement refuse un nouveau passeport à Sheikh Hasina
+### check 1/5 at 07:26
+  dup check: new (Статья анализирует итоги двух лет после победы Альянса за перемены (60–0) на выборах 2024 года: разрыв между основными партнёрами по коалиции, перестр)
+  not news (portrait/lifestyle): [Blog] Deux ans après le 60–0 : entre promettre et gouverner
+Skipped foreign news (Defimedia): [Blog] Deux ans après le 60–0 : entre promettre et gouverner
   dup: nothing new ()
-Skipped duplicate (L'Express): Les grands titres de l'express de ce mardi 10 novembre 2026 == Погода: максимальная температура превысит среднюю примерно на 2 °C
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Météo : les prévisions pour ce mardi == Погода: максимальная температура превысит среднюю примерно на 2 °C
-LLM usage this run: 4 requests, 5379 tokens
-### check 2/5 at 06:34
-### check 3/5 at 06:38
-### check 4/5 at 06:42
-### check 5/5 at 06:46
+Skipped duplicate (Top FM): Deux ans au pouvoir : Nando Bodha dresse un constat sévère du gouvernement de l’Alliance d == ТРИАНОН | Шоу «Ах… школа!»: Booder и «портфель с остротами»
+LLM usage this run: 3 requests, 5294 tokens
