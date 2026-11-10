@@ -1,58 +1,17 @@
-### check 1/5 at 13:39
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Trois ans pour sortir des urgences du quotidien == Соглашение по архипелагу Chagos: Лондон смотрит на Гренландию, Port-Louis держится за дост
-  dup check: new (В статье говорится о начале процедур по легализации незаконного занятия земель в Ти-Родригес для примерно 500 семей (около 2000 человек), включая пере)
-  foreign words left: to
-  leftovers fixed by GigaChat-3-Pro; still left: to
-Posted (Defimedia): Незаконное занятие частных земель на Ti-Rodrigues: власти готовят титулы собственности для 500 семей
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Programme
-  leftovers fixed by GigaChat-3-Pro; still left: Programme
-Posted (Le Mauricien): PMSD — XLD бьёт тревогу по поводу образования и требует радикальных экономических реформ
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Protection des enfants : sept décès liés à des violences à Maurice et Rodrigues depuis jan == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
-LLM usage this run: 9 requests, 12614 tokens
-### check 2/5 at 13:43
-  dup check: new (Dr Praveen Mohadeb получил компенсацию в размере Rs 4 017 226,50 от Higher Education Commission по решению суда от 4 ноября 2026 года; ранее не публик)
-  proofread: Dr Praveen Mohadeb → доктор Praveen Mohadeb
-  foreign words left: Tertiary
-  leftovers fixed by GigaChat-3-Pro; still left: Tertiary
-Posted (Defimedia): Спор с Higher Education Commission: доктор Praveen Mohadeb получит 4 млн рупий
-  dup check: new (В статье сообщается о подготовке к визиту чагоссианцев на архипелаг Чагос в 2027 году и призыве Оливье Бэнкоулта зарегистрироваться для участия. Это н)
-  proofread: Оливье Банкут → Оливье Банкуль
-Posted (L'Express): Патриотическая поездка на архипелаг Chagos: Olivier Bancoult призывает уроженцев и потомков зарегистрироваться
-  dup check: new (Paul Bérenger estime qu’un accord sur les Chagos est désormais à portée de main en raison de l’évolution du rapport de force politique aux États-Unis )
-Posted (Le Mauricien): «Политическая шахматная доска»: Bérenger считает, что соглашение по архипелагу Chagos теперь в пределах досягаемости
-  dup check: new (В статье впервые сообщается о подготовке Маврикием системы экстренных оповещений на мобильные телефоны через соглашение с Индией и технологию cell bro)
-  not news (portrait/lifestyle): Conseils utiles — Alertes d’urgence sur mobile : ce qu’il faudra faire lorsque le système mauricien 
-Skipped foreign news (Inside News): Conseils utiles — Alertes d’urgence sur mobile : ce qu’il faudra faire lorsque le système mauricien 
-LLM usage this run: 12 requests, 21076 tokens
-### check 3/5 at 13:47
-  dup check: new (Задержание 15-летней девушки с четырьмя фальшивыми купюрами номиналом Rs 1000 — это новое событие, не упомянутое в ранее опубликованных постах.)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Possession, of
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Оборот фальшивых купюр: 15-летняя девушка задержана с четырьмя банкнотами по 1 000 рупий
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Trafic présumé de cannabis : la police scientifique passe le yacht Dreamer au crible == Пойман ключевой участник сети наркотрафика на яхте Dreamer
-  dup: nothing new ()
-Skipped duplicate (Inside News): LUX* Le Morne : l’expérience « Mama Zenia » déclenche un débat sur la mémoire de l’esclava == Полемика вокруг опыта Mama Zenia в LUX* Le Morne: соцсети раскритиковали инициативу за рис
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Trois policiers face à une action du DPP pour ne pas avoir aidé la victime d’une fusillade == Комиссия по жалобам на полицию почти завершила расследование дела трёх полицейских
-LLM usage this run: 7 requests, 9821 tokens
-### check 4/5 at 13:51
-  dup check: new (Air Mauritius reported a profit of Rs 4.1 billion for FY 2025‑2026, adjusted to Rs 2 billion after excluding three accounting items (78.63 million eur)
+### check 1/5 at 14:37
+  dup check: new (Suspect, a 36‑year‑old habitual criminal, remains at large three weeks after a video of alleged sexual abuse of a six‑year‑old girl spread on social m)
   proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Air Mauritius: за прибылью в 4,1 млрд рупий скрывается скорректированный результат в 2 млрд
-  same headline as #46: Palmar : une femme de 62 ans perd la vie dans une collision entre deux motocycle
-Skipped duplicate (Inside News): Palmar : une femme de 62 ans meurt dans une collision entre deux motos, trois personnes bl == Palmar: 62-летняя женщина погибла в столкновении двух мотоциклов
-  dup check: new (Seven children have died from violence since January 2025 (three in Mauritius, four in Rodrigues) as reported by interim Prime Minister Arianne Navarr)
+Posted (Le Mauricien): Предполагаемое сексуальное насилие над шестилетней девочкой: три недели поисков, подозреваемый по-прежнему не найден
+Could not read article https://www.inside.news/dreamer-cour-supreme-saisie-yacht-devises-fcc/: 503 Server Error: Service Unavailable for url: https://www.inside.news/dreamer-cour-supreme-saisie-yacht-devises-fcc/
+  dup check: new (Supreme Court of Mauritius ordered on 3 Nov 2026 the civil seizure of the yacht Dreamer and foreign currency found on board, following a request by th)
   proofread by qwen/qwen3.8-27b
-Posted (Top FM): Семь детей погибли в результате насилия с января 2025 года
-LLM usage this run: 6 requests, 11370 tokens
-### check 5/5 at 13:55
-  dup: nothing new ()
-Skipped duplicate (Defimedia): PNQ : 103 mineurs arrêtés depuis janvier 2024 pour des délits liés à la drogue, révèle Ari == Семь детей погибли в результате насилия с января 2025 года
-  same headline as #95: Sept enfants morts à la suite de violences depuis janvier 2025
-Skipped duplicate (Top FM): Quatre enfants morts à la suite de violences depuis janvier 2025 == Семь детей погибли в результате насилия с января 2025 года
-LLM usage this run: 1 requests, 1645 tokens
+Posted (Inside News): Дело Dreamer: Верховный суд постановил наложить арест на яхту и иностранную валюту
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Валютный рынок: Банк Маврикия вливает доллары, но их нехватка в кассах сохраняется
+  dup check: new (Internal unrest in the port police unit: cancellation of leave, early departures, contested management methods by a newly assigned assistant superinte)
+  proofread by qwen/qwen3.8-27b
+  proofread: Полиция порта Маврикия → Police du port; помощника суперинтенданта → assistant surintendant de police (ASP); комиссара полиции → commissaire de police
+  foreign words left: Police, du, port, commissaire
+  leftovers fixed by qwen/qwen3.8-27b; still left: Police, du, port
+Posted (L'Express): Police du port: отмена отпусков, досрочные увольнения, спорные методы управления… недовольство растёт
+LLM usage this run: 12 requests, 21807 tokens
