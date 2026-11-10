@@ -40,3 +40,9 @@ LLM usage this run: 10 requests, 15742 tokens
   not about Mauritius: Abus sexuels durant l’enfance : les blessures invisibles peuvent réapparaître des années plus tard
 Skipped foreign news (Top FM): Abus sexuels durant l’enfance : les blessures invisibles peuvent réapparaître des années plus tard
 LLM usage this run: 1 requests, 2377 tokens
+### check 5/5 at 11:59
+  dup check: new (Absa Maurice запускает кампанию по информированию о мошенничестве (фишинг, SMS-афёры и фиктивные инвестиции) с 15 по 21 ноября. Это новое событие, не )
+  foreign words left: QR-код, Absa, Mauritius, Tchombo
+  leftovers fixed by GigaChat-3-Pro; still left: QR-код, Absa, Mauritius, Tchombo
+Posted (Top FM): Фишинг, мошенничество по SMS и ложные инвестиции: Absa Mauritius запускает информационную кампанию
+LLM usage this run: 4 requests, 5243 tokens
