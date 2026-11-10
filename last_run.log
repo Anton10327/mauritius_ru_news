@@ -15,3 +15,19 @@ Posted (Defimedia): Валютный рынок: Банк Маврикия вл�
   leftovers fixed by qwen/qwen3.8-27b; still left: Police, du, port
 Posted (L'Express): Police du port: отмена отпусков, досрочные увольнения, спорные методы управления… недовольство растёт
 LLM usage this run: 12 requests, 21807 tokens
+### check 2/5 at 14:41
+  dup check: new (Joanna Bérenger raises concerns about mismanagement in horticulture, agronomy and seed production departments, criticises the Agricultural Marketing B)
+  proofread by qwen/qwen3.8-27b
+  proofread: Джоанна Беренджер → Joanna Bérenger
+Posted (Le Mauricien): Joanna Bérenger: вопросы по управлению сельскохозяйственными землями
+  dup: nothing new ()
+Skipped duplicate (Inside News): Protection des enfants : violences, placements et drogues au cœur des questions au Parleme == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
+  proofread by qwen/qwen3.8-27b
+  proofread: Ашок Суброн → Ashok Subron; Давид Соваж → David Sauvage; Конституционную комиссию → Constitutional Review Commission
+Posted (Le Mauricien): Министр Ashok Subron: «Нужно устранять глубинные причины социальных напряжений»
+  dup check: new (Fermeture de la rue Monseigneur-Leen du 10 novembre au 21 décembre à Port‑Louis à cause d’un glissement de terrain, avec travaux de réparation urgents)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Даламберт → Д’Аламбер; Лабурдонь → Лабурдоннэ
+Posted (Defimedia): Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
+LLM usage this run: 9 requests, 16957 tokens
