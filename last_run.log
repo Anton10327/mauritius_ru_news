@@ -30,3 +30,10 @@ LLM usage this run: 7 requests, 10498 tokens
   not about Mauritius: États-Unis : Trump attribue les défaites républicaines aux élections de mi-mandat à la « grande aver
 Skipped foreign news (Defimedia): États-Unis : Trump attribue les défaites républicaines aux élections de mi-mandat à la « grande aver
 LLM usage this run: 1 requests, 3164 tokens
+### check 4/5 at 09:35
+  dup check: new (В статье сообщается о новом индексе Ayre 2026 по искусственному интеллекту: Маврикий занимает первое место в Африке и восьмое в Содружестве с 64,4 бал)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Искусственный интеллект — индекс AYRE 2026: Маврикий — первый в Африке и 8-й в Содружестве
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): EXERCICE FINANCIER : Emtel poursuit sa croissance et lance son Scrip Dividend Scheme == Акционеры Emtel смогут выбрать между денежными выплатами и новыми акциями
+LLM usage this run: 4 requests, 6095 tokens
