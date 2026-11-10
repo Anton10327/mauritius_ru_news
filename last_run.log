@@ -35,3 +35,9 @@ LLM usage this run: 11 requests, 20646 tokens
   dup: nothing new ()
 Skipped duplicate (Top FM): Accord sur les Chagos : Maurice réclame des avancées d’ici décembre et maintient l’option  == Архипелаг Чагос: новая встреча с британской делегацией запланирована, срок установлен на д
 LLM usage this run: 1 requests, 1693 tokens
+### check 4/5 at 16:36
+  dup check: new (MMS prévoit un été 2026-2027 à Maurice avec des températures pouvant atteindre 37 °C, 1 100 mm de pluie (80 % de la moyenne) et 5 à 7 cyclones/tempête)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Лето 2026-2027 годов на Маврикии: температура до 37°C, ожидается меньше дождей
+LLM usage this run: 3 requests, 6054 tokens
