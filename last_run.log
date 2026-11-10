@@ -10,3 +10,17 @@ Skipped duplicate (Inside News): Parlement : reprise des travaux ce mardi à 11 
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): (IN)SECURITE ROUTIERE — Palmar  : Une sexagénaire tuée dans une collision entre 2 motos == Palmar: 62-летняя женщина погибла в столкновении двух мотоциклов
 LLM usage this run: 6 requests, 10794 tokens
+### check 2/5 at 11:47
+  dup check: new (Нападение с саблей в Сен-Хубере: тяжело раненый мужчина (около 30 лет), двое полицейских получили ранения при вмешательстве; задержаны два подозреваем)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Hôpital
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Нападение с саблей в Saint-Hubert: мужчина тяжело ранен, двое полицейских ранены при вмешательстве
+  dup check: new (Статья рассказывает о скандале вокруг подозрений в шпионаже против Дженсена Хуанга и его влиянии на индустрию искусственного интеллекта. Это совершенн)
+  not about Mauritius: IA: le scandale Huang ébranle une industrie bâtie autour du patron de Nvidia
+Skipped foreign news (Defimedia): IA: le scandale Huang ébranle une industrie bâtie autour du patron de Nvidia
+  dup check: new (В статье приведены новые официальные данные о количестве инцидентов киберпреступности на Маврикии за 2026 год: всего 5754 инцидента (почти 19 в день),)
+Posted (Le Mauricien): Киберпреступность: на Маврикии ежедневно регистрируют почти 19 инцидентов
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Macron rencontre Ramgoolam à Paris ce mardi avant l’élection présidentielle française de 2 == Navin Ramgoolam в Париже для участия в Парижском форуме мира 2026
+LLM usage this run: 10 requests, 16248 tokens
