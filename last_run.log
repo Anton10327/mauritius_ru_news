@@ -11,3 +11,16 @@ Posted (Inside News): Взлом WhatsApp на Маврикии: как восс
   dup: nothing new ()
 Skipped duplicate (Defimedia): Du triomphe électoral aux turbulences du pouvoir : deux ans après, l’Alliance du Changemen == Альянс перемен: неоднозначные экономические итоги после двух лет у власти на фоне роста до
 LLM usage this run: 7 requests, 11467 tokens
+### check 2/5 at 12:45
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Deux ans après le 60-0 : la majorité face à ses promesses == Альянс перемен: неоднозначные экономические итоги после двух лет у власти на фоне роста до
+  dup: nothing new ()
+Skipped duplicate (Inside News): Mauritius Telecom Foundation : un projet de loi qui soulève la question de sa gouvernance  == Парламент: законопроект «Mauritius Telecom Foundation Bill» в повестке дня на этот вторник
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Rue
+  leftovers fixed by GigaChat-3-Pro; still left: Monseigneur-Leen
+Posted (Defimedia): Port-Louis: сильные пробки на въезде в столицу
+  dup: nothing new ()
+Skipped duplicate (Inside News): Recrutement dans le secteur public : deux nouveaux avis ouvrent des perspectives d’emploi  == Работа на Маврикии: Air Mauritius завершает семь наборов во вторник, PSC и ряд компаний та
+LLM usage this run: 6 requests, 7897 tokens
