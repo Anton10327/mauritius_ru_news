@@ -1,18 +1,9 @@
-### check 1/5 at 05:36
-  dup check: new (Статья посвящена мероприятию в Institut cardinal Jean Margéot 7 ноября по случаю годовщины смерти Dev Virahsawmy и запуску нового издания с его Maiden)
-GigaChat balance: GigaChat-Ultra 46,471,452, GigaChat-Pro 37,041,132, GigaChat-Max 24,092,722, GigaChat 249,589,075; 344 days to go
-  not news (portrait/lifestyle): Institut cardinal Jean Margéot : la vie et l’œuvre de Dev Virahsawmy auscultées
-Skipped foreign news (Defimedia): Institut cardinal Jean Margéot : la vie et l’œuvre de Dev Virahsawmy auscultées
+### check 1/5 at 06:30
+  dup check: new (Отказ правительства Бангладеш в выдаче нового паспорта бывшему премьер-министру Шейх Хасине и её первая официальная попытка вернуться с 2024 года.)
+  not about Mauritius: Bangladesh : le gouvernement refuse un nouveau passeport à Sheikh Hasina
+Skipped foreign news (Defimedia): Bangladesh : le gouvernement refuse un nouveau passeport à Sheikh Hasina
   dup: nothing new ()
-Skipped duplicate (Defimedia): Deux ans au pouvoir : un bilan économique entre réformes, attentes et défiance == Погода: максимальная температура превысит среднюю примерно на 2 °C
+Skipped duplicate (L'Express): Les grands titres de l'express de ce mardi 10 novembre 2026 == Погода: максимальная температура превысит среднюю примерно на 2 °C
   dup: nothing new ()
-Skipped duplicate (Inside News): Météo à Maurice ce mardi 10 novembre : des averses le matin, jusqu’à 32 °C sur les côtes == Погода: после ливней — солнце
-LLM usage this run: 4 requests, 6348 tokens
-### check 2/5 at 05:40
-  dup check: new (Рассел Брэнд был приговорён к 10 годам и 6 месяцам тюрьмы за изнасилование одной женщины и сексуальные домогательства в отношении ещё трёх женщин; он )
-  not about Mauritius: Royaume-Uni : l'acteur Russell Brand condamné à dix ans et demi de prison pour viol et agressions se
-Skipped foreign news (Defimedia): Royaume-Uni : l'acteur Russell Brand condamné à dix ans et demi de prison pour viol et agressions se
-LLM usage this run: 2 requests, 4295 tokens
-### check 3/5 at 05:44
-### check 4/5 at 05:48
-### check 5/5 at 05:52
+Skipped duplicate (Defimedia): Météo : les prévisions pour ce mardi == Погода: максимальная температура превысит среднюю примерно на 2 °C
+LLM usage this run: 4 requests, 5379 tokens
