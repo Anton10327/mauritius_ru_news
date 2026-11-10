@@ -1,48 +1,13 @@
-### check 1/5 at 11:43
-  not about Mauritius: TOURISME — DISTINCTION INTERNATIONALE — Le Piton de la Fournaise, deuxième plus beau sentier volcani
-Skipped foreign news (Le Mauricien): TOURISME — DISTINCTION INTERNATIONALE — Le Piton de la Fournaise, deuxième plus beau sentier volcani
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Ltd
-  leftovers fixed by GigaChat-3-Pro; still left: Ltd
-Posted (L'Express): «Саммит США–Африка по бизнесу 2026»: работы в SVICC должны завершиться 15 ноября
+### check 1/5 at 12:41
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
   dup: nothing new ()
-Skipped duplicate (Inside News): Parlement : reprise des travaux ce mardi à 11 h 30, plusieurs dossiers sensibles attendent == Парламент: бунты, потери воды и зарплаты World Knit в центре внимания во вторник
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): (IN)SECURITE ROUTIERE — Palmar  : Une sexagénaire tuée dans une collision entre 2 motos == Palmar: 62-летняя женщина погибла в столкновении двух мотоциклов
-LLM usage this run: 6 requests, 10794 tokens
-### check 2/5 at 11:47
-  dup check: new (Нападение с саблей в Сен-Хубере: тяжело раненый мужчина (около 30 лет), двое полицейских получили ранения при вмешательстве; задержаны два подозреваем)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Hôpital
+Skipped duplicate (L'Express): La Clémence : Séquestrée et dépouillée en août, une septuagénaire reçoit de nouvelles mena == La Clémence: 70-летняя женщина, на которую напали в августе, заявляет о новых угрозах убий
+  not news (portrait/lifestyle): Divali
+Skipped foreign news (L'Express): Divali
+  dup check: new (В статье впервые упоминается официальная рекомендация CERT-MU от 6 февраля 2026 года о мошенничестве в WhatsApp и конкретные сценарии атак (просьбы де)
+  foreign words left: PIN-кода
   leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Нападение с саблей в Saint-Hubert: мужчина тяжело ранен, двое полицейских ранены при вмешательстве
-  dup check: new (Статья рассказывает о скандале вокруг подозрений в шпионаже против Дженсена Хуанга и его влиянии на индустрию искусственного интеллекта. Это совершенн)
-  not about Mauritius: IA: le scandale Huang ébranle une industrie bâtie autour du patron de Nvidia
-Skipped foreign news (Defimedia): IA: le scandale Huang ébranle une industrie bâtie autour du patron de Nvidia
-  dup check: new (В статье приведены новые официальные данные о количестве инцидентов киберпреступности на Маврикии за 2026 год: всего 5754 инцидента (почти 19 в день),)
-Posted (Le Mauricien): Киберпреступность: на Маврикии ежедневно регистрируют почти 19 инцидентов
+Posted (Inside News): Взлом WhatsApp на Маврикии: как восстановить свой аккаунт и избежать мошенничества?
   dup: nothing new ()
-Skipped duplicate (Wazaa): Macron rencontre Ramgoolam à Paris ce mardi avant l’élection présidentielle française de 2 == Navin Ramgoolam в Париже для участия в Парижском форуме мира 2026
-LLM usage this run: 10 requests, 16248 tokens
-### check 3/5 at 11:51
-  dup: nothing new ()
-Skipped duplicate (Inside News): Vos courses coûtent trop cher ? Voici comment comparer les prix avant d’acheter == Ночной рынок: реализация проекта не планируется в 2026 году
-  dup check: new (В статье впервые сообщается о том, что на заседании парламента 10 ноября будет рассмотрен законопроект «Mauritius Telecom Foundation Bill», который пр)
-Posted (L'Express): Парламент: законопроект «Mauritius Telecom Foundation Bill» в повестке дня на этот вторник
-  dup check: new (В статье приводятся новые экономические данные: за два года правления Альянса изменений государственный долг вырос более чем на 114 млрд рупий и дости)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Альянс перемен: неоднозначные экономические итоги после двух лет у власти на фоне роста долга
-  dup check: new (Статья описывает текущую ситуацию с нехваткой воды на Маврикии: уровень заполнения водохранилища Mare-aux-Vacoas ниже 33%, что влияет на повседневную )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Нехватка воды: стирка, умывание и утренние сборы становятся головоломкой для многих маврикийцев
-LLM usage this run: 10 requests, 15742 tokens
-### check 4/5 at 11:55
-  not about Mauritius: Abus sexuels durant l’enfance : les blessures invisibles peuvent réapparaître des années plus tard
-Skipped foreign news (Top FM): Abus sexuels durant l’enfance : les blessures invisibles peuvent réapparaître des années plus tard
-LLM usage this run: 1 requests, 2377 tokens
-### check 5/5 at 11:59
-  dup check: new (Absa Maurice запускает кампанию по информированию о мошенничестве (фишинг, SMS-афёры и фиктивные инвестиции) с 15 по 21 ноября. Это новое событие, не )
-  foreign words left: QR-код, Absa, Mauritius, Tchombo
-  leftovers fixed by GigaChat-3-Pro; still left: QR-код, Absa, Mauritius, Tchombo
-Posted (Top FM): Фишинг, мошенничество по SMS и ложные инвестиции: Absa Mauritius запускает информационную кампанию
-LLM usage this run: 4 requests, 5243 tokens
+Skipped duplicate (Defimedia): Du triomphe électoral aux turbulences du pouvoir : deux ans après, l’Alliance du Changemen == Альянс перемен: неоднозначные экономические итоги после двух лет у власти на фоне роста до
+LLM usage this run: 7 requests, 11467 tokens
