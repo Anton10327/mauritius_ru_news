@@ -30,3 +30,17 @@ Posted (L'Express): Национальный семинар: Здоровье м
   dup: nothing new ()
 Skipped duplicate (Defimedia): Contrôles routiers : plus de 1 000 contraventions dressées en cinq jours == Безопасность на дорогах — 1212 нарушений за четыре дня; призыв к осторожности в праздничны
 LLM usage this run: 8 requests, 13633 tokens
+### check 3/5 at 17:45
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Vidéo] Port-Louis : la rue Monseigneur-Leen fermée jusqu’au 21 décembre après un glisseme == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
+  dup check: new (Ceremony of Remembrance Day at St-James Cathedral in Port-Louis attended by President Dharam Gokhool, Acting Prime Minister Arianne Navarre-Marie, Min)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Cathédrale St-James — Remembrance Sunday — Mgr Stenio André : « L’harmonie est précieuse et doit êtr
+Skipped foreign news (Le Mauricien): Cathédrale St-James — Remembrance Sunday — Mgr Stenio André : « L’harmonie est précieuse et doit êtr
+  dup check: new (Donald Trump заявляет, что США потребуют от Израиля и стран Персидского залива возмещения расходов на войну против Ирана, впервые упоминая Израиль в э)
+  written by GigaChat-2-Max
+  not about Mauritius: Guerre contre l’Iran : Trump veut faire payer Israël et les pays du Golfe. Que réclame-t-il?
+Skipped foreign news (Defimedia): Guerre contre l’Iran : Trump veut faire payer Israël et les pays du Golfe. Que réclame-t-il?
+  dup: nothing new ()
+Skipped duplicate (L'Express): PNQ : Trois enfants morts sous des violences et 365 placés en foyer à Maurice == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
+LLM usage this run: 6 requests, 12170 tokens
