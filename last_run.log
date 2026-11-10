@@ -13,3 +13,16 @@ Posted (L'Express): Парламент: срочный вопрос оппози
   dup: nothing new ()
 Skipped duplicate (L'Express): Accident à Palmar : Merilyn Patricia Marie Louise, 62 ans, perd la vie == Palmar: 62-летняя женщина погибла в столкновении двух мотоциклов
 LLM usage this run: 10 requests, 15744 tokens
+### check 2/5 at 09:27
+  not about Mauritius: Un sénateur nommé Abdulrahman
+Skipped foreign news (L'Express): Un sénateur nommé Abdulrahman
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Parlement : la protection des enfants au coeur de la PNQ == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): PNQ sur la protection de l’enfance : les chiffres sur les violences, les expulsions scolai == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
+  dup check: new (В статье впервые упоминается запрос депутата Сидни Пьера о стоимости отчёта Seabury Aviation Partners и его доступности для общественности; ранее в оп)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Seabury
+  leftovers fixed by GigaChat-3-Pro; still left: Seабури
+Posted (Inside News): Air Mauritius: сколько стоил отчёт Seабури и почему он не опубликован?
+LLM usage this run: 7 requests, 10498 tokens
