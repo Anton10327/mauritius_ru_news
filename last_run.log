@@ -41,3 +41,12 @@ LLM usage this run: 1 requests, 1693 tokens
   proofread by qwen/qwen3.8-27b
 Posted (L'Express): Лето 2026-2027 годов на Маврикии: температура до 37°C, ожидается меньше дождей
 LLM usage this run: 3 requests, 6054 tokens
+### check 5/5 at 16:40
+  dup check: new (Dipak Chummun will leave his position as Group Chief Financial Officer of MCB Group on 31 December 2026 and has immediately resigned from the board of)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Чуманн → Chummun
+  foreign words left: Group, Chief, Officer
+  leftovers fixed by qwen/qwen3.8-27b; still left: Group, Chief, Officer
+Posted (Defimedia): Финансовый директор группы MCB Dipak Chummun покинет свой пост 31 декабря 2026 года
+LLM usage this run: 4 requests, 5226 tokens
