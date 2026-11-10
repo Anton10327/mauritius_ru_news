@@ -1,60 +1,17 @@
-### check 1/5 at 17:37
-  dup check: new (Présentation de nouveaux concepts d’entreprise à Maurice dirigés par les frères Faiz et Fadil Khaidoo et Élodie Wong‑Yick, détaillant leurs activités )
-LLM request failed (GigaChat-2-Max): ConnectionError HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPSConnection(host='api.giga.chat', port=443): Failed to estab
-  written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): 2 nouveaux concepts d’entreprise qui réinventent la culture insulaire pour l’été
-Skipped foreign news (Wazaa): 2 nouveaux concepts d’entreprise qui réinventent la culture insulaire pour l’été
-  written by qwen/qwen3.8-27b
-  not about Mauritius: INTERCULTURAL PARENTING AND RELATIONSHIPS : Challenges and Rewards
-Skipped foreign news (Le Mauricien): INTERCULTURAL PARENTING AND RELATIONSHIPS : Challenges and Rewards
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Port-Louis : le plan de déviation routière à la hauteur de Monseigneur-Leen == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
-  dup check: new (Le 10 novembre, le yacht Dreamer a fait l'objet d'examens scientifiques (prélèvements et analyses) par la police scientifique et l'Anti-Drug and Smugg)
-  written by qwen/qwen3.8-27b
-Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
-  foreign words left: Casernes, centrales
-Posted (Defimedia): Предполагаемый трафик каннабиса: яхт Dreamer подвергнут научным исследованиям
-LLM usage this run: 6 requests, 13900 tokens
-### check 2/5 at 17:41
-  dup check: new (Ex‑minister of Commerce Soodesh Callichurn was heard again by the Financial Crimes Commission on 10 November as part of the ongoing investigation into)
-LLM request failed (GigaChat-2-Max): ConnectionError HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPSConnection(host='api.giga.chat', port=443): Failed to estab
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Расследование нефтяных контрактов: экс-министр Soodesh Callichurn вновь допрошен в FCC
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Automobilistes, attention si vous circulez à Port-Louis ! == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
-  dup check: new (Organisation d'un atelier national de consultation sur la santé des adolescents les 5 et 6 novembre, avec le ministère de la Santé et l'UNFPA, permett)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Национальный семинар: Здоровье молодежи — их голос тоже важен
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Contrôles routiers : plus de 1 000 contraventions dressées en cinq jours == Безопасность на дорогах — 1212 нарушений за четыре дня; призыв к осторожности в праздничны
-LLM usage this run: 8 requests, 13633 tokens
-### check 3/5 at 17:45
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Vidéo] Port-Louis : la rue Monseigneur-Leen fermée jusqu’au 21 décembre après un glisseme == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
-  dup check: new (Ceremony of Remembrance Day at St-James Cathedral in Port-Louis attended by President Dharam Gokhool, Acting Prime Minister Arianne Navarre-Marie, Min)
+### check 1/5 at 18:32
+  dup check: new (Annonce du recrutement d'environ 60 infirmiers spécialisés en provenance de l'hôpital Kauvery en Inde, avec focus sur la transparence des coûts, des i)
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): Cathédrale St-James — Remembrance Sunday — Mgr Stenio André : « L’harmonie est précieuse et doit êtr
-Skipped foreign news (Le Mauricien): Cathédrale St-James — Remembrance Sunday — Mgr Stenio André : « L’harmonie est précieuse et doit êtr
-  dup check: new (Donald Trump заявляет, что США потребуют от Израиля и стран Персидского залива возмещения расходов на войну против Ирана, впервые упоминая Израиль в э)
+  not news (portrait/lifestyle): Santé publique | Recrutement en Inde : la transparence avant les nominations
+Skipped foreign news (L'Express): Santé publique | Recrutement en Inde : la transparence avant les nominations
+  dup check: new (Attacks in Bangladesh on 8‑9 Nov 2026: buses set on fire, IED explosions near universities and a court in Dhaka, at least 19 arrests in 24 h, heighten)
   written by GigaChat-2-Max
-  not about Mauritius: Guerre contre l’Iran : Trump veut faire payer Israël et les pays du Golfe. Que réclame-t-il?
-Skipped foreign news (Defimedia): Guerre contre l’Iran : Trump veut faire payer Israël et les pays du Golfe. Que réclame-t-il?
-  dup: nothing new ()
-Skipped duplicate (L'Express): PNQ : Trois enfants morts sous des violences et 365 placés en foyer à Maurice == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
-LLM usage this run: 6 requests, 12170 tokens
-### check 4/5 at 17:49
-  dup check: new (authorities at borders alerted)
+  not about Mauritius: [video] Bangladesh : des bus incendiés, des explosions à Dacca et des dizaines d’attaques qui inquiè
+Skipped foreign news (Inside News): [video] Bangladesh : des bus incendiés, des explosions à Dacca et des dizaines d’attaques qui inquiè
+  dup check: new (Décès d'un ancien policier de 36 ans retrouvé avec 16 doses de drogue, décédé en ICU après un arrêt cardiaque et pulmonaire. Découverte de la drogue e)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Подозреваемый в сексуальном насилии над шестилетней девочкой всё ещё разыскивается
-  dup check: new (Annonce de 103 mineurs arrêtés pour délits de drogue depuis janvier 2024, avec répartition des lieux d'arrestation (76 domicile/ rue, 23 établissement)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Премьер-министр временно исполняющая обязанности → Премьер-министр, временно исполняющая обязанности
-Posted (Wazaa): На Маврикии с начала года задержали 103 подростка за преступления, связанные с наркотиками
+  proofread: Флак → Flacq; Бонн-Мер → Bonne-Mère
+Posted (Le Mauricien): Flacq: бывший полицейский скончался после обнаружения с наркотиками
   dup: nothing new ()
-Skipped duplicate (Inside News): Ramgoolam et Macron : une rencontre à l’Élysée pour faire le point sur la coopération Maur == Navin Ramgoolam в Париже для участия в Парижском форуме мира 2026
-LLM usage this run: 7 requests, 11231 tokens
-### check 5/5 at 17:53
+Skipped duplicate (Defimedia): Air Mauritius : le rapport de Seabury reste confidentiel, la compagnie mise sur dix straté == Air Mauritius: сколько стоил отчёт Seабури и почему он не опубликован?
+LLM usage this run: 8 requests, 13172 tokens
