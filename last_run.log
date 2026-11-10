@@ -1,16 +1,7 @@
-### check 1/5 at 21:19
-  dup check: new (Emtel reported a 29.9% increase in profit and specified the dividend amount of 0.77 Rs per share, with the board approving the scheme on 5 November an)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-  proofread: схему, позволяющий → схему, позволяющую
-Posted (Wazaa): Emtel Ltd вводит опцию выплаты дивидендов акциями после роста прибыли на 29,9 %
+### check 1/5 at 22:04
   dup: nothing new ()
-Skipped duplicate (Inside News): Line Barracks : un détenu mord un policier et le blesse lors d’une intervention == Line Barracks: заключённый укусил полицейского за руку
+Skipped duplicate (Wazaa): La route de Port-Louis fermée jusqu’au 21 décembre à la suite d’un éboulement == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
   written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): Handisport | Brandy Perrine : «Les années qui viennent seront cruciales pour ma carrière»
-Skipped foreign news (L'Express): Handisport | Brandy Perrine : «Les années qui viennent seront cruciales pour ma carrière»
-LLM usage this run: 5 requests, 10460 tokens
-### check 2/5 at 21:23
-### check 3/5 at 21:27
-### check 4/5 at 21:31
-### check 5/5 at 21:35
+  not news (portrait/lifestyle): Terry Antoinette : «Les marchés africains sont souvent considérés, parfois à tort, comme plus risqué
+Skipped foreign news (L'Express): Terry Antoinette : «Les marchés africains sont souvent considérés, parfois à tort, comme plus risqué
+LLM usage this run: 2 requests, 4520 tokens
