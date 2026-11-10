@@ -1,16 +1,11 @@
-### check 1/5 at 07:26
-  dup check: new (Статья анализирует итоги двух лет после победы Альянса за перемены (60–0) на выборах 2024 года: разрыв между основными партнёрами по коалиции, перестр)
-  not news (portrait/lifestyle): [Blog] Deux ans après le 60–0 : entre promettre et gouverner
-Skipped foreign news (Defimedia): [Blog] Deux ans après le 60–0 : entre promettre et gouverner
+### check 1/5 at 08:24
+  dup check: new (Обнаружено 21 тело мигрантов у берегов Крита за два дня (12 тел найдено в лодке утром и ещё один днём 9 ноября; на том же судне найдены 18 выживших), )
+  not about Mauritius: Grèce: plus d’une vingtaine de migrants retrouvés morts, craintes d’une «crise migratoire» en Crète
+Skipped foreign news (Le Mauricien): Grèce: plus d’une vingtaine de migrants retrouvés morts, craintes d’une «crise migratoire» en Crète
   dup: nothing new ()
-Skipped duplicate (Top FM): Deux ans au pouvoir : Nando Bodha dresse un constat sévère du gouvernement de l’Alliance d == ТРИАНОН | Шоу «Ах… школа!»: Booder и «портфель с остротами»
-LLM usage this run: 3 requests, 5294 tokens
-### check 2/5 at 07:30
-### check 3/5 at 07:34
-### check 4/5 at 07:38
+Skipped duplicate (Defimedia): Assemblée nationale : les récents troubles et la situation d’Air Mauritius au cœur des que == Парламент: бунты, потери воды и зарплаты World Knit в центре внимания во вторник
   dup: nothing new ()
-Skipped duplicate (L'Express): Diplomatie : Navin Ramgoolam reçu par Emmanuel Macron à l’Élysée == Navin Ramgoolam в Париже для участия в Парижском форуме мира 2026
-  dup: nothing new ()
-Skipped duplicate (Top FM): Au Parlement ce mardi : Air Mauritius, émeutes, violences policières, dette publique : 30  == Парламент: бунты, потери воды и зарплаты World Knit в центре внимания во вторник
-LLM usage this run: 2 requests, 2391 tokens
-### check 5/5 at 07:42
+Skipped duplicate (Defimedia): Forum de Paris sur la paix : Ramgoolam rencontre Macron ce mardi == Navin Ramgoolam в Париже для участия в Парижском форуме мира 2026
+  not about Mauritius: Moyen-Orient : Les derniers développements
+Skipped foreign news (Defimedia): Moyen-Orient : Les derniers développements
+LLM usage this run: 5 requests, 8842 tokens
