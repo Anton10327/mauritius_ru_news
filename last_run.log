@@ -15,3 +15,22 @@ Posted (Le Mauricien): Flacq: бывший полицейский скончал
   dup: nothing new ()
 Skipped duplicate (Defimedia): Air Mauritius : le rapport de Seabury reste confidentiel, la compagnie mise sur dix straté == Air Mauritius: сколько стоил отчёт Seабури и почему он не опубликован?
 LLM usage this run: 8 requests, 13172 tokens
+### check 2/5 at 18:36
+  same headline as #96: Crise de l’eau : Rs 6,3 milliards de soutien financier en voie de finalisation
+Skipped duplicate (L'Express): Crise de l’eau : Un financement de Rs 6,3 milliards de l’AFD et de l’UE en voie de finalis == На помощь Маврикию в борьбе с кризисом водоснабжения выделено около 6,3 млрд рупий
+  dup check: new (Avis de démolition du centre équestre du Petit‑Gamin indiqué par le ministre de l'Environnement Rajesh Bhagwan le 10 novembre, avec audience prévue le)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Конный центр Petit-Gamin получил предписание о сносе
+  dup check: new (Distribution of 3 850 compost bins since August 2022, 1 150 of 5 000 purchased bins still undistributed with 48 to be allocated to new applicants; min)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): На Маврикии распределено уже почти 4 тысячи компостеров
+  dup check: new (coût des travaux estimé à Rs 5 million, travaux confiés à Transinvest Construction Ltd)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Порт-Луи → Port-Louis; Монсьё-Лене → Monseigneur-Leen; Г.Э.Ф. Пулин → G.E.F. Poulin; Даламберт → D’Alembert; Лабурдоньо → Labourdonnais; Олд-Мока-Роуд → Old Moka Road
+  foreign words left: Poulin
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Defimedia): Port-Louis: улица Monseigneur-Leen закрыта до декабря, автомобилисты жалуются на пробки
+LLM usage this run: 10 requests, 17066 tokens
