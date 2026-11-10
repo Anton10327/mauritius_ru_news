@@ -34,3 +34,15 @@ Posted (Defimedia): На Маврикии распределено уже поч
   leftovers fixed by qwen/qwen3.8-27b; still left: none
 Posted (Defimedia): Port-Louis: улица Monseigneur-Leen закрыта до декабря, автомобилисты жалуются на пробки
 LLM usage this run: 10 requests, 17066 tokens
+### check 3/5 at 18:40
+  same headline as #80: Air Mauritius : derrière les Rs 4,1 milliards de bénéfice, un résultat ajusté de
+Skipped duplicate (Defimedia): Air Mauritius : un bénéfice de Rs 2 milliards après ajustements == Air Mauritius: за прибылью в 4,1 млрд рупий скрывается скорректированный результат в 2 млр
+  dup check: new (L'appel Bounceback a été perdu par les commissaires, information qui n'apparaît dans aucun article publié auparavant.)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): «Dekriptaz Turf» | Appel Bounceback : revers attendu pour les commissaires
+Skipped foreign news (L'Express): «Dekriptaz Turf» | Appel Bounceback : revers attendu pour les commissaires
+  dup check: new (Possibilité de liquidation de World Knits à la mi-novembre 2026 et revendication de quatre mois de salaires impayés, avec recours à une assistance jur)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Inside News): Работники фабрики World Knits четыре месяца без зарплаты, боятся увольнения
+LLM usage this run: 5 requests, 8776 tokens
