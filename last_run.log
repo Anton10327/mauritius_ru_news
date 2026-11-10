@@ -1,50 +1,19 @@
-### check 1/5 at 18:32
-  dup check: new (Annonce du recrutement d'environ 60 infirmiers spécialisés en provenance de l'hôpital Kauvery en Inde, avec focus sur la transparence des coûts, des i)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Santé publique | Recrutement en Inde : la transparence avant les nominations
-Skipped foreign news (L'Express): Santé publique | Recrutement en Inde : la transparence avant les nominations
-  dup check: new (Attacks in Bangladesh on 8‑9 Nov 2026: buses set on fire, IED explosions near universities and a court in Dhaka, at least 19 arrests in 24 h, heighten)
-  written by GigaChat-2-Max
-  not about Mauritius: [video] Bangladesh : des bus incendiés, des explosions à Dacca et des dizaines d’attaques qui inquiè
-Skipped foreign news (Inside News): [video] Bangladesh : des bus incendiés, des explosions à Dacca et des dizaines d’attaques qui inquiè
-  dup check: new (Décès d'un ancien policier de 36 ans retrouvé avec 16 doses de drogue, décédé en ICU après un arrêt cardiaque et pulmonaire. Découverte de la drogue e)
-  written by GigaChat-2-Max
+### check 1/5 at 19:23
+  written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  proofread: Флак → Flacq; Бонн-Мер → Bonne-Mère
-Posted (Le Mauricien): Flacq: бывший полицейский скончался после обнаружения с наркотиками
+  foreign words left: Un, petit, c, ur, pour, un, grand, monde
+  leftovers fixed by qwen/qwen3.8-27b; still left: Un, petit, c, ur, pour, un, grand, monde
+Posted (L'Express): Защита животных: Melissa Affoque трогает сердца детей своей книгой «Maïka»
+  dup check: new (Arabie saoudite a intercepté plusieurs missiles balistiques, un missile de croisière et un drone le 10 novembre 2026, visant la capitale et la provinc)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Arabie saoudite : missiles et drone interceptés, les infrastructures pétrolières sous tension
+Skipped foreign news (Inside News): Arabie saoudite : missiles et drone interceptés, les infrastructures pétrolières sous tension
+  dup check: new (Ananda Devi, Mauritian novelist, won the Jean Giono prize for her novel "Chronique d'un royaume perdu"; prize includes €10,000; comments from Sylvie G)
+LLM per-minute limit, waiting 8s
+  written by qwen/qwen3.8-27b
+Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
+  foreign words left: Jean, Chronique, d'un, royaume, perdu
+Posted (Defimedia): Маврикийская романистка Ananda Devi получила премию Jean Giono
   dup: nothing new ()
-Skipped duplicate (Defimedia): Air Mauritius : le rapport de Seabury reste confidentiel, la compagnie mise sur dix straté == Air Mauritius: сколько стоил отчёт Seабури и почему он не опубликован?
-LLM usage this run: 8 requests, 13172 tokens
-### check 2/5 at 18:36
-  same headline as #96: Crise de l’eau : Rs 6,3 milliards de soutien financier en voie de finalisation
-Skipped duplicate (L'Express): Crise de l’eau : Un financement de Rs 6,3 milliards de l’AFD et de l’UE en voie de finalis == На помощь Маврикию в борьбе с кризисом водоснабжения выделено около 6,3 млрд рупий
-  dup check: new (Avis de démolition du centre équestre du Petit‑Gamin indiqué par le ministre de l'Environnement Rajesh Bhagwan le 10 novembre, avec audience prévue le)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Конный центр Petit-Gamin получил предписание о сносе
-  dup check: new (Distribution of 3 850 compost bins since August 2022, 1 150 of 5 000 purchased bins still undistributed with 48 to be allocated to new applicants; min)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): На Маврикии распределено уже почти 4 тысячи компостеров
-  dup check: new (coût des travaux estimé à Rs 5 million, travaux confiés à Transinvest Construction Ltd)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Порт-Луи → Port-Louis; Монсьё-Лене → Monseigneur-Leen; Г.Э.Ф. Пулин → G.E.F. Poulin; Даламберт → D’Alembert; Лабурдоньо → Labourdonnais; Олд-Мока-Роуд → Old Moka Road
-  foreign words left: Poulin
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (Defimedia): Port-Louis: улица Monseigneur-Leen закрыта до декабря, автомобилисты жалуются на пробки
-LLM usage this run: 10 requests, 17066 tokens
-### check 3/5 at 18:40
-  same headline as #80: Air Mauritius : derrière les Rs 4,1 milliards de bénéfice, un résultat ajusté de
-Skipped duplicate (Defimedia): Air Mauritius : un bénéfice de Rs 2 milliards après ajustements == Air Mauritius: за прибылью в 4,1 млрд рупий скрывается скорректированный результат в 2 млр
-  dup check: new (L'appel Bounceback a été perdu par les commissaires, information qui n'apparaît dans aucun article publié auparavant.)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): «Dekriptaz Turf» | Appel Bounceback : revers attendu pour les commissaires
-Skipped foreign news (L'Express): «Dekriptaz Turf» | Appel Bounceback : revers attendu pour les commissaires
-  dup check: new (Possibilité de liquidation de World Knits à la mi-novembre 2026 et revendication de quatre mois de salaires impayés, avec recours à une assistance jur)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): Работники фабрики World Knits четыре месяца без зарплаты, боятся увольнения
-LLM usage this run: 5 requests, 8776 tokens
-### check 4/5 at 18:44
-### check 5/5 at 18:48
+Skipped duplicate (Top FM): Visite de Navin Ramgoolam à Paris : un financement de Rs 6,3 milliards en voie de concréti == На помощь Маврикию в борьбе с кризисом водоснабжения выделено около 6,3 млрд рупий
+LLM usage this run: 8 requests, 14806 tokens
