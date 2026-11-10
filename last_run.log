@@ -27,3 +27,16 @@ Posted (Le Mauricien): «Политическая шахматная доска�
   not news (portrait/lifestyle): Conseils utiles — Alertes d’urgence sur mobile : ce qu’il faudra faire lorsque le système mauricien 
 Skipped foreign news (Inside News): Conseils utiles — Alertes d’urgence sur mobile : ce qu’il faudra faire lorsque le système mauricien 
 LLM usage this run: 12 requests, 21076 tokens
+### check 3/5 at 13:47
+  dup check: new (Задержание 15-летней девушки с четырьмя фальшивыми купюрами номиналом Rs 1000 — это новое событие, не упомянутое в ранее опубликованных постах.)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Possession, of
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Оборот фальшивых купюр: 15-летняя девушка задержана с четырьмя банкнотами по 1 000 рупий
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Trafic présumé de cannabis : la police scientifique passe le yacht Dreamer au crible == Пойман ключевой участник сети наркотрафика на яхте Dreamer
+  dup: nothing new ()
+Skipped duplicate (Inside News): LUX* Le Morne : l’expérience « Mama Zenia » déclenche un débat sur la mémoire de l’esclava == Полемика вокруг опыта Mama Zenia в LUX* Le Morne: соцсети раскритиковали инициативу за рис
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Trois policiers face à une action du DPP pour ne pas avoir aidé la victime d’une fusillade == Комиссия по жалобам на полицию почти завершила расследование дела трёх полицейских
+LLM usage this run: 7 requests, 9821 tokens
