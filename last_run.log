@@ -40,3 +40,13 @@ Skipped duplicate (Inside News): LUX* Le Morne : l’expérience « Mama Zenia �
   dup: nothing new ()
 Skipped duplicate (Wazaa): Trois policiers face à une action du DPP pour ne pas avoir aidé la victime d’une fusillade == Комиссия по жалобам на полицию почти завершила расследование дела трёх полицейских
 LLM usage this run: 7 requests, 9821 tokens
+### check 4/5 at 13:51
+  dup check: new (Air Mauritius reported a profit of Rs 4.1 billion for FY 2025‑2026, adjusted to Rs 2 billion after excluding three accounting items (78.63 million eur)
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Air Mauritius: за прибылью в 4,1 млрд рупий скрывается скорректированный результат в 2 млрд
+  same headline as #46: Palmar : une femme de 62 ans perd la vie dans une collision entre deux motocycle
+Skipped duplicate (Inside News): Palmar : une femme de 62 ans meurt dans une collision entre deux motos, trois personnes bl == Palmar: 62-летняя женщина погибла в столкновении двух мотоциклов
+  dup check: new (Seven children have died from violence since January 2025 (three in Mauritius, four in Rodrigues) as reported by interim Prime Minister Arianne Navarr)
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Семь детей погибли в результате насилия с января 2025 года
+LLM usage this run: 6 requests, 11370 tokens
