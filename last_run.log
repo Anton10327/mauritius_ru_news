@@ -1,28 +1,15 @@
-### check 1/5 at 08:24
-  dup check: new (Обнаружено 21 тело мигрантов у берегов Крита за два дня (12 тел найдено в лодке утром и ещё один днём 9 ноября; на том же судне найдены 18 выживших), )
-  not about Mauritius: Grèce: plus d’une vingtaine de migrants retrouvés morts, craintes d’une «crise migratoire» en Crète
-Skipped foreign news (Le Mauricien): Grèce: plus d’une vingtaine de migrants retrouvés morts, craintes d’une «crise migratoire» en Crète
+### check 1/5 at 09:23
+  dup check: new (Air Mauritius закрывает семь вакансий сегодня в 16:00; также есть набор в госслужбу и другие компании с короткими сроками подачи заявок.)
+  proofread: 
+Posted (Inside News): Работа на Маврикии: Air Mauritius завершает семь наборов во вторник, PSC и ряд компаний также ищут кандидатов
+  dup check: new (COMESA объявляет о найме IT-менеджера в Малави с годовой зарплатой до 68 659 долларов; указаны условия для граждан Маврикия.)
+  not about Mauritius: Emploi à l’étranger : le COMESA recrute un responsable informatique au Malawi, avec une rémunération
+Skipped foreign news (Inside News): Emploi à l’étranger : le COMESA recrute un responsable informatique au Malawi, avec une rémunération
+  dup check: new (В статье говорится о предстоящей «Private Notice Question» (PNQ) в парламенте Маврикия 10 ноября, где будет обсуждаться ситуация с детьми на Маврикии )
+  proofread: «Children’s Court» → «Детский суд»
+  foreign words left: Private
+  leftovers fixed by GigaChat-3-Pro; still left: Private
+Posted (L'Express): Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростковую преступность
   dup: nothing new ()
-Skipped duplicate (Defimedia): Assemblée nationale : les récents troubles et la situation d’Air Mauritius au cœur des que == Парламент: бунты, потери воды и зарплаты World Knit в центре внимания во вторник
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Forum de Paris sur la paix : Ramgoolam rencontre Macron ce mardi == Navin Ramgoolam в Париже для участия в Парижском форуме мира 2026
-  not about Mauritius: Moyen-Orient : Les derniers développements
-Skipped foreign news (Defimedia): Moyen-Orient : Les derniers développements
-LLM usage this run: 5 requests, 8842 tokens
-### check 2/5 at 08:28
-  not about Mauritius: France : Étudiants, lycéens et enseignants appelés à une nouvelle journée de mobilisation ce mardi
-Skipped foreign news (L'Express): France : Étudiants, lycéens et enseignants appelés à une nouvelle journée de mobilisation ce mardi
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Ramgoolam-Macron : un tête-à-tête à l’Élysée avant l’échéance présidentielle de 2027 == Navin Ramgoolam в Париже для участия в Парижском форуме мира 2026
-  dup check: new (Ланч-аппель к проявлению интереса (AMI) по проекту Harbour Bridge был запущен Road Development Authority в конце октября; цель — обновить исследования)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Разгрузка дорожного движения в столице: проект Harbour Bridge снова в повестке после 12 лет ожидания
-  dup: nothing new (Доктор Shameem Jaumdally комментирует возможный рост случаев Covid-19 в связи с международными поездками и собраниями, выражая при этом оптимизм относ)
-Skipped duplicate (Top FM): Covid-19 : le Dr Shameem Jaumdally se veut rassurant face aux risques d’une nouvelle hauss == Погода: после ливней — солнце
-LLM usage this run: 6 requests, 10448 tokens
-### check 3/5 at 08:32
-### check 4/5 at 08:36
-### check 5/5 at 08:40
-  dup: nothing new ()
-Skipped duplicate (Top FM): Jyoti Jeetun veut faire de Maurice une porte d’entrée des investissements en Afrique == Flacq: бывший полицейский скончался после ДТП на мотоцикле
-LLM usage this run: 1 requests, 981 tokens
+Skipped duplicate (L'Express): Accident à Palmar : Merilyn Patricia Marie Louise, 62 ans, perd la vie == Palmar: 62-летняя женщина погибла в столкновении двух мотоциклов
+LLM usage this run: 10 requests, 15744 tokens
