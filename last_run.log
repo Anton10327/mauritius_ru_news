@@ -37,3 +37,13 @@ LLM usage this run: 9 requests, 16957 tokens
   proofread by qwen/qwen3.8-27b
 Posted (Inside News): Pamplemousses: официально объявлено о переносе ЗАГСа
 LLM usage this run: 3 requests, 4775 tokens
+### check 4/5 at 14:49
+  dup check: new (Annonce d'une émission radio « Au Cœur de l’Info » le 10 novembre à 17h sur Radio Plus (et en direct sur Facebook) pour faire le bilan du gouvernement)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Au Cœur de l’Info : quel bilan deux ans après les élections générales ?
+Skipped foreign news (Defimedia): Au Cœur de l’Info : quel bilan deux ans après les élections générales ?
+  dup check: new (Le Premier ministre Navin Ramgoolam a proposé le 21 octobre la création d'un comité spécial (Select Committee) pour réviser les termes de référence de)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Пенитенциарная ответственность несовершеннолетних: пересмотр условий референдума, ожидается представление после возвращения премьер-министра
+LLM usage this run: 5 requests, 8009 tokens
