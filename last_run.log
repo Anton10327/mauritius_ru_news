@@ -18,3 +18,22 @@ Skipped foreign news (Inside News): Ukraine–Russie : de nouvelles discussions 
   proofread: 
 Posted (Defimedia): Мы надеемся, что это станет реальностью
 LLM usage this run: 10 requests, 16792 tokens
+### check 2/5 at 20:25
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Поэзия: тексты Michel Ducasse появились на панелях в Telfair
+  dup check: new (Le ministre des Transports terrestres, Osman Mahomed, a annoncé avoir sollicité une intervention pour réorganiser la circulation suite aux plaintes de)
+  written by qwen/qwen3.8-27b
+Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
+  foreign words left: Road, Development, Authority
+Posted (L'Express): Улица монсеньёра Leen в Port-Louis полностью закрыта, доступ контролируют полицейские
+  dup check: new (Nouveaux chiffres du financement climatique : le Rapport sur le fossé d'adaptation 2026 du PNUE indique que les financements publics internationaux po)
+  written by qwen/qwen3.8-27b
+  not about Mauritius: COP31 : les financements climatiques restent très loin des besoins des pays vulnérables
+Skipped foreign news (Inside News): COP31 : les financements climatiques restent très loin des besoins des pays vulnérables
+  dup check: new (Poetic promenade held on 7 November in Moka, organized by Delphine Ahnee and Nelly Yiptong, marking Michel Ducasse's return to poetry after his stroke)
+  written by qwen/qwen3.8-27b
+Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
+  foreign words left: Poet, Kams, de
+Posted (L'Express): «Poet Melanze»: Встреча «Kams» de Michel вокруг слов
+LLM usage this run: 8 requests, 19022 tokens
