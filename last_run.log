@@ -13,3 +13,21 @@ Skipped duplicate (L'Express): Sculpture mauricienne : Dhyaneswar Dausoa s’ét
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): HOMMAGE : Au revoir Dhyaneswar Dausoa ! == Скончался Dhyaneswar Dausoa, ключевая фигура маврикийской скульптуры
 LLM usage this run: 7 requests, 11258 tokens
+### check 2/5 at 16:28
+  dup check: new (Severe air pollution in New Delhi after Diwali on 9 Nov 2026, AQI around 370‑400+, exceeding severe threshold.)
+  written by GigaChat-2-Max
+  not about Mauritius: New Delhi : pollution sévère après Divali, plusieurs quartiers dépassent un AQI de 400
+Skipped foreign news (Inside News): New Delhi : pollution sévère après Divali, plusieurs quartiers dépassent un AQI de 400
+  dup check: new (Announcement of a new financial support package of €120 million (≈Rs 6.3 billion) for Mauritius' water crisis, including a €100 million loan from the )
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): На помощь Маврикию в борьбе с кризисом водоснабжения выделено около 6,3 млрд рупий
+  dup check: new (Arrest of two young men (21 and 20) with 30.88 g of cannabis in Bois-des-Amourettes on 9 Nov, plus a 15‑year‑old fleeing the scene.)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Bois-des-Amourettes: задержаны двое молодых людей с 30,88 г каннабиса, подростку удалось скрыться
+  dup check: new (766 gastro‑entérite cases recorded in Mauritius during the week of 2‑8 novembre 2026, an increase of 66 cases compared with the previous week, with au)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Гастроэнтерит: 766 случаев за неделю, санитарные власти призывают к бдительности
+LLM usage this run: 11 requests, 20646 tokens
