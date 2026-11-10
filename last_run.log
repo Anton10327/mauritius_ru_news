@@ -10,3 +10,10 @@ Posted (L'Express): Plaine-Verte: две жены одного мужчины п
 Skipped duplicate (Le Mauricien): Velogic — Rapport annuel : Le port à un tournant décisif face à la modernisation régionale == Учёба в Швейцарии: стипендии Женевского университета для маврикийцев, заявки принимаются д
 LLM usage this run: 8 requests, 11867 tokens
 ### check 2/5 at 10:26
+### check 3/5 at 10:30
+  dup check: new (Случай смерти 64-летнего мужчины в Belle-Rose при падении с мангового дерева; детали происшествия и реакция полиции.)
+Posted (Defimedia): Трагедия в Belle-Rose: 64-летний мужчина погиб, упав со своего мангового дерева
+  dup check: new (В статье впервые упоминается вопрос о количестве несовершеннолетних, идентифицированных в ходе октябрьских беспорядков на Маврикии, а также запрос деп)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Inside News): Октябрьские беспорядки: среди идентифицированных лиц есть несовершеннолетние, правительство призвали уточнить их число
+LLM usage this run: 6 requests, 9613 tokens
