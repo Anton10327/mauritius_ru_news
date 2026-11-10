@@ -15,3 +15,18 @@ Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reache
   foreign words left: Casernes, centrales
 Posted (Defimedia): Предполагаемый трафик каннабиса: яхт Dreamer подвергнут научным исследованиям
 LLM usage this run: 6 requests, 13900 tokens
+### check 2/5 at 17:41
+  dup check: new (Ex‑minister of Commerce Soodesh Callichurn was heard again by the Financial Crimes Commission on 10 November as part of the ongoing investigation into)
+LLM request failed (GigaChat-2-Max): ConnectionError HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPSConnection(host='api.giga.chat', port=443): Failed to estab
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Расследование нефтяных контрактов: экс-министр Soodesh Callichurn вновь допрошен в FCC
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Automobilistes, attention si vous circulez à Port-Louis ! == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
+  dup check: new (Organisation d'un atelier national de consultation sur la santé des adolescents les 5 et 6 novembre, avec le ministère de la Santé et l'UNFPA, permett)
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Национальный семинар: Здоровье молодежи — их голос тоже важен
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Contrôles routiers : plus de 1 000 contraventions dressées en cinq jours == Безопасность на дорогах — 1212 нарушений за четыре дня; призыв к осторожности в праздничны
+LLM usage this run: 8 requests, 13633 tokens
