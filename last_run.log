@@ -1,52 +1,17 @@
-### check 1/5 at 16:24
-  dup check: new (Interview with Yatisha Ramdarie (Business Development Manager, New Markets, Cruises International) about a press trip on the Spectrum of the Seas orga)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Yatisha Ramdarie, Business Development Manager, New Markets : « Cruises International mise sur l’Asi
-Skipped foreign news (Le Mauricien): Yatisha Ramdarie, Business Development Manager, New Markets : « Cruises International mise sur l’Asi
-  dup check: new (Le ministre de l'Énergie et des Services publics Patrick Assirvaden a annoncé un investissement de 242 à 264 millions de Rs pour remplacer 12 km de ca)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Гудлендсе → Goodlands; Гудлендсе → Goodlands
-Posted (Le Mauricien): На замену трубопроводов в Goodlands выделено до 264 миллионов рупий
+### check 1/5 at 17:37
+  dup check: new (Présentation de nouveaux concepts d’entreprise à Maurice dirigés par les frères Faiz et Fadil Khaidoo et Élodie Wong‑Yick, détaillant leurs activités )
+LLM request failed (GigaChat-2-Max): ConnectionError HTTPSConnectionPool(host='api.giga.chat', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPSConnection(host='api.giga.chat', port=443): Failed to estab
+  written by qwen/qwen3.8-27b
+  not news (portrait/lifestyle): 2 nouveaux concepts d’entreprise qui réinventent la culture insulaire pour l’été
+Skipped foreign news (Wazaa): 2 nouveaux concepts d’entreprise qui réinventent la culture insulaire pour l’été
+  written by qwen/qwen3.8-27b
+  not about Mauritius: INTERCULTURAL PARENTING AND RELATIONSHIPS : Challenges and Rewards
+Skipped foreign news (Le Mauricien): INTERCULTURAL PARENTING AND RELATIONSHIPS : Challenges and Rewards
   dup: nothing new ()
-Skipped duplicate (L'Express): Sculpture mauricienne : Dhyaneswar Dausoa s’éteint à 82 ans == Скончался Dhyaneswar Dausoa, ключевая фигура маврикийской скульптуры
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): HOMMAGE : Au revoir Dhyaneswar Dausoa ! == Скончался Dhyaneswar Dausoa, ключевая фигура маврикийской скульптуры
-LLM usage this run: 7 requests, 11258 tokens
-### check 2/5 at 16:28
-  dup check: new (Severe air pollution in New Delhi after Diwali on 9 Nov 2026, AQI around 370‑400+, exceeding severe threshold.)
-  written by GigaChat-2-Max
-  not about Mauritius: New Delhi : pollution sévère après Divali, plusieurs quartiers dépassent un AQI de 400
-Skipped foreign news (Inside News): New Delhi : pollution sévère après Divali, plusieurs quartiers dépassent un AQI de 400
-  dup check: new (Announcement of a new financial support package of €120 million (≈Rs 6.3 billion) for Mauritius' water crisis, including a €100 million loan from the )
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): На помощь Маврикию в борьбе с кризисом водоснабжения выделено около 6,3 млрд рупий
-  dup check: new (Arrest of two young men (21 and 20) with 30.88 g of cannabis in Bois-des-Amourettes on 9 Nov, plus a 15‑year‑old fleeing the scene.)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Bois-des-Amourettes: задержаны двое молодых людей с 30,88 г каннабиса, подростку удалось скрыться
-  dup check: new (766 gastro‑entérite cases recorded in Mauritius during the week of 2‑8 novembre 2026, an increase of 66 cases compared with the previous week, with au)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Top FM): Гастроэнтерит: 766 случаев за неделю, санитарные власти призывают к бдительности
-LLM usage this run: 11 requests, 20646 tokens
-### check 3/5 at 16:32
-  dup: nothing new ()
-Skipped duplicate (Top FM): Accord sur les Chagos : Maurice réclame des avancées d’ici décembre et maintient l’option  == Архипелаг Чагос: новая встреча с британской делегацией запланирована, срок установлен на д
-LLM usage this run: 1 requests, 1693 tokens
-### check 4/5 at 16:36
-  dup check: new (MMS prévoit un été 2026-2027 à Maurice avec des températures pouvant atteindre 37 °C, 1 100 mm de pluie (80 % de la moyenne) et 5 à 7 cyclones/tempête)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Лето 2026-2027 годов на Маврикии: температура до 37°C, ожидается меньше дождей
-LLM usage this run: 3 requests, 6054 tokens
-### check 5/5 at 16:40
-  dup check: new (Dipak Chummun will leave his position as Group Chief Financial Officer of MCB Group on 31 December 2026 and has immediately resigned from the board of)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Чуманн → Chummun
-  foreign words left: Group, Chief, Officer
-  leftovers fixed by qwen/qwen3.8-27b; still left: Group, Chief, Officer
-Posted (Defimedia): Финансовый директор группы MCB Dipak Chummun покинет свой пост 31 декабря 2026 года
-LLM usage this run: 4 requests, 5226 tokens
+Skipped duplicate (Defimedia): Port-Louis : le plan de déviation routière à la hauteur de Monseigneur-Leen == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
+  dup check: new (Le 10 novembre, le yacht Dreamer a fait l'objet d'examens scientifiques (prélèvements et analyses) par la police scientifique et l'Anti-Drug and Smugg)
+  written by qwen/qwen3.8-27b
+Proofreading qwen/qwen3.8-27b failed 429: {"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m4t67t6ken0s8cq0enr24qdn` se
+  foreign words left: Casernes, centrales
+Posted (Defimedia): Предполагаемый трафик каннабиса: яхт Dreamer подвергнут научным исследованиям
+LLM usage this run: 6 requests, 13900 tokens
