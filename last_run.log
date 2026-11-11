@@ -7,3 +7,9 @@ Posted (Defimedia): HYDROMET: Маврикий получит метеообор
   proofread: Жоэль Корэ → Joëlle Coret
 Posted (Top FM): От Маврикия до Брайтона: Joëlle Coret несёт борьбу независимых артистов на международную арену
 LLM usage this run: 6 requests, 12010 tokens
+### check 2/5 at 14:56
+  dup check: new (Controverse dans un collège du Nord concernant la suppression prévue de l'enseignement de l'hindouisme en Grade 10 et la promesse du ministère de prés)
+  proofread by qwen/qwen3.8-27b
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Inside News): Обучение индуизму в 10-м классе: колледж на севере вызвал споры, министерство обещает сохранить выбор учеников
+LLM usage this run: 3 requests, 5060 tokens
