@@ -25,3 +25,10 @@ LLM usage this run: 3 requests, 5448 tokens
 Skipped foreign news (Defimedia): RDC : plus de 11 000 cas d'Ebola recensés
 LLM usage this run: 2 requests, 4685 tokens
 ### check 4/5 at 16:00
+### check 5/5 at 16:04
+  dup check: new (Création d’un Centre régional de l’autisme à Flacq et modernisation du centre de dialyse de Souillac, approuvés par le Conseil des ministres, avec des)
+  proofread by qwen/qwen3.8-27b
+  foreign words left: Telecom
+  leftovers fixed by qwen/qwen3.8-27b; still left: Telecom
+Posted (L'Express): Аутизм и диализ: два партнёрства для лучшей поддержки пациентов
+LLM usage this run: 4 requests, 5937 tokens
