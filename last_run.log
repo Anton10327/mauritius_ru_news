@@ -21,3 +21,12 @@ GigaChat certificate download failed: ('Connection aborted.', RemoteDisconnected
   leftovers fixed by qwen/qwen3.8-27b; still left: none
 Posted (L'Express): Дело «Dreamer»: закулисье предполагаемой империи на 15 млрд рупий
 LLM usage this run: 4 requests, 6301 tokens
+### check 4/5 at 15:04
+  dup check: new (Organisation d'une marche de sensibilisation au diabète le 14 novembre 2026 à Grand Baie, avec le Rotary Club, le Lions Club et le Brahma Kumaris, dét)
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Марш против диабета в Grand Baie: ещё один шаг, чтобы спасать жизни
+  not about Mauritius: “Ode aux f’âmes”
+Skipped foreign news (Le Mauricien): “Ode aux f’âmes”
+  not about Mauritius: To troll or not to troll
+Skipped foreign news (Le Mauricien): To troll or not to troll
+LLM usage this run: 5 requests, 11857 tokens
