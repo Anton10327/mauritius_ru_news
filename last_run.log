@@ -1,36 +1,10 @@
-### check 1/5 at 12:55
+### check 1/5 at 13:52
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): DROGUE — Axe Thaïlande/Maurice :  Le Dreamer au peigne fin par la police scientifique == Предполагаемый трафик каннабиса: яхт Dreamer подвергнут научным исследованиям
+Skipped duplicate (Defimedia): Nominations honorifiques - Senior Counsel et Senior Attorney : une décision attendue == Line Barracks: заключённый укусил полицейского за руку
   dup: nothing new ()
-Skipped duplicate (Inside News): Cyberviolence : 5 754 incidents signalés à Maurice, un cadre avec Meta annoncé == Киберпреступность: на Маврикии ежедневно регистрируют почти 19 инцидентов
+Skipped duplicate (Defimedia): Travaux à la rue Monseigneur-Leen : un itinéraire alternatif proposé aux automobilistes po == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
   dup: nothing new ()
-Skipped duplicate (Defimedia): Port : Maersk et MSC pressentis pour reprendre la gestion de la CHCL == Портовый сектор: передача акций CHCL к февралю 2027 года
-  dup: nothing new ()
-Skipped duplicate (L'Express): PQ l Petit-Gamin : le centre équestre sous la menace de sanctions == Конный центр Petit-Gamin получил предписание о сносе
-LLM usage this run: 4 requests, 4599 tokens
-### check 2/5 at 12:59
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): PMQT — Abus sexuels sur mineurs : Aucune trace depuis 22 jours d’un pédocriminel présumé == Предполагаемое сексуальное насилие над шестилетней девочкой: три недели поисков, подозрева
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Air Mauritius affiche un bénéfice ajusté de 2 milliards de roupies, en baisse par rapport  == Air Mauritius: за прибылью в 4,1 млрд рупий скрывается скорректированный результат в 2 млр
-  dup: nothing new ()
-Skipped duplicate (Inside News): Police du port : congés contestés, départs anticipés et malaise dans une unité stratégique == Police du port: отмена отпусков, досрочные увольнения, спорные методы управления… недоволь
-  dup: nothing new ()
-Skipped duplicate (Top FM): « Les réservoirs se vident » : Maurice à 48,8 % de réserves d’eau == Эль-Ниньо: «Один из самых мощных эпизодов за всю историю наблюдений»
-LLM usage this run: 4 requests, 4688 tokens
-### check 3/5 at 13:03
-  dup check: new (Верховный суд Маврикия 10 ноября 2026 года отклонил новую просьбу Ameenah Gurib-Fakim об изменении её иска против ABSA Bank (Mauritius) Ltd; Master an)
-  foreign words left: and
-  leftovers fixed by GigaChat-3-Pro; still left: and
-Posted (Defimedia): Иск на 500 млн рупий к ABSA: Ameenah Gurib-Fakim потерпела неудачу в Верховном суде
-  dup check: new (Новая статья сообщает о похищении человека в Stanley и его последующем удержании с нанесением ран саблей в Camp-Levieux; ранее опубликованные материал)
-Posted (L'Express): Camp-Levieux: похищен на улице, удерживался в заложниках и изрублен саблей
-LLM usage this run: 7 requests, 11754 tokens
-### check 4/5 at 13:07
-  dup: nothing new (Инцидент с ножом в Roches-Noires между парой в апартаментах; четыре ножа изъяты полицией; оба пострадавших отказались от медицинской помощи.)
-Skipped duplicate (Le Mauricien): ROCHES-NOIRES :  Un couple blessé dans un appartement de luxe == Оспариваемое управление в Университете Масарен — Министерство высшего образования учреждае
-LLM usage this run: 1 requests, 1102 tokens
-### check 5/5 at 13:11
-  dup: nothing new (Точные цифры инфляции за третий квартал 2026 года: индекс цен вырос с 112,2 до 114,1 (рост на 1,7%); годовой уровень инфляции — 4,1%. Основные вкладчи)
-Skipped duplicate (Inside News): Inflation : l’indice des prix a progressé de 1,7 % au troisième trimestre == Оспариваемое управление в Университете Масарен — Министерство высшего образования учреждае
-LLM usage this run: 1 requests, 1548 tokens
+Skipped duplicate (Wazaa): Cour d’appel : statuer sur l’avenir des quatre Chagossiens de l’île du Coin == Присутствие Misley Mandarin на архипелаге Chagos: апелляционный трибунал BIOT вынесет реше
+  dup check: new (В статье приведены новые статистические данные: уровень безработицы снизился с 9,1% до 5,7% за четыре года (2021–2025), число занятых выросло на более)
+Posted (Top FM): Занятость: безработица снизилась с 9,1% до 5,7% за четыре года, но молодёжь и женщины по-прежнему затронуты сильнее
+LLM usage this run: 6 requests, 9091 tokens
