@@ -1,34 +1,11 @@
-### check 1/5 at 15:48
-  dup check: new (Announcement of the renewal period for 2027 firearm permits, hunting licences, competency certificates and employee permits in Mauritius: dates 23 Nov)
-  proofread by qwen/qwen3.8-27b
-Posted (Inside News): Разрешения на оружие 2027: где и когда продлевать на Маврикии
+### check 1/5 at 16:44
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): MONDE LITTÉRAIRE — « Chronique d’un royaume perdu » : Le Prix Jean Giono 2026 attribué à A == Маврикийская романистка Ananda Devi получила премию Jean Giono
-  dup check: new (Three Bangladeshi migrant workers died in a workplace accident in Plaine-des-Papayes on 4 Nov; names, ages, and the solidarity statement by the Pastor)
-  proofread by qwen/qwen3.8-27b
-  proofread: «Пастораль мигрантов» → «Pastorale des Migrants»
-Posted (Defimedia): Смерть трёх бангладешских рабочих: «Pastorale des Migrants» выражает солидарность
-  dup check: new (Annonce du Tertiary Education Roadshow de Le Mauricien avec les dates et lieux (Grand‑Baie 13‑14 nov., Tamarin 20‑21 nov., Flacq 27‑28 nov.) et les pa)
-  proofread by qwen/qwen3.8-27b
-  foreign words left: Education
-  leftovers fixed by qwen/qwen3.8-27b; still left: Education
-Posted (Le Mauricien): «Мечта, выбор»: Le Mauricien запускает Tertiary Education Roadshow для будущих студентов
-LLM usage this run: 11 requests, 19896 tokens
-### check 2/5 at 15:52
-  dup check: new (Le 11 novembre 2026, le Comité de politique monétaire de la Banque de Maurice a relevé le taux directeur de 4,75 % à 5 %, soit une hausse de 25 points)
-  proofread by qwen/qwen3.8-27b
-Posted (Top FM): На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-LLM usage this run: 3 requests, 5448 tokens
-### check 3/5 at 15:56
-  dup check: new (Plus de 11 000 cas d'Ebola recensés en République démocratique du Congo, avec déclaration officielle de l'épidémie mi‑mai et chiffres actualisés des a)
-  not about Mauritius: RDC : plus de 11 000 cas d'Ebola recensés
-Skipped foreign news (Defimedia): RDC : plus de 11 000 cas d'Ebola recensés
-LLM usage this run: 2 requests, 4685 tokens
-### check 4/5 at 16:00
-### check 5/5 at 16:04
-  dup check: new (Création d’un Centre régional de l’autisme à Flacq et modernisation du centre de dialyse de Souillac, approuvés par le Conseil des ministres, avec des)
-  proofread by qwen/qwen3.8-27b
-  foreign words left: Telecom
-  leftovers fixed by qwen/qwen3.8-27b; still left: Telecom
-Posted (L'Express): Аутизм и диализ: два партнёрства для лучшей поддержки пациентов
-LLM usage this run: 4 requests, 5937 tokens
+Skipped duplicate (Le Mauricien): Crise hydrique — Le PM annonce : Soutien de Rs 6,3 milliards de l’AFD et de l’UE pour l’ea == На помощь Маврикию в борьбе с кризисом водоснабжения выделено около 6,3 млрд рупий
+  dup: nothing new ()
+Skipped duplicate (L'Express): Inflation : La BoM relève son taux directeur à 5 % == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Politique monétaire : le taux directeur passe de 4,75 % à 5 % == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
+  dup check: new (Le ministre du Travail Reza Uteem sera l'invité de l'émission « Au Cœur de l’Info » le mercredi 11 novembre à 17h sur Radio Plus, avec diffusion en di)
+  not news (portrait/lifestyle): Au Cœur de l’Info : Reza Uteem, l’invité de l’émission ce mercredi
+Skipped foreign news (Defimedia): Au Cœur de l’Info : Reza Uteem, l’invité de l’émission ce mercredi
+LLM usage this run: 5 requests, 9156 tokens
