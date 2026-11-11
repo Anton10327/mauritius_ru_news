@@ -1,25 +1,10 @@
-### check 1/5 at 21:38
-  dup check: new (The initial deadline for the Chagos agreement is now confirmed for next month, shifting the previously reported deadline of December 2026.)
+### check 1/5 at 22:30
+  dup check: new (Premier ministre mauricien Navin Ramgoolam a rencontré Emmanuel Macron à Paris, annonçant un renforcement de la coopération entre Maurice et la France)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  foreign words left: Чagos, Чagos
-Posted (Le Mauricien): Суверенитет — Договор с Великобританией — Чagos: первоначальный срок подтвержден на следующий месяц
-LLM per-minute limit, waiting 9s
+Posted (L'Express): Официальная миссия в Париже: Маврикий и Франция укрепляют сотрудничество в сфере безопасности и водоснабжения
+  dup check: new (France will contribute to the training of Mauritian police and firefighters, a detail not present in previously published posts.)
   written by qwen/qwen3.8-27b
-  not news (portrait/lifestyle): Questions à...  Sonal Cheekhooree : «L’autorité ne peut plus reposer uniquement sur un titre ou une 
-Skipped foreign news (L'Express): Questions à...  Sonal Cheekhooree : «L’autorité ne peut plus reposer uniquement sur un titre ou une 
-  dup: nothing new ()
-Skipped duplicate (Inside News): Air Mauritius : Rs 4,1 milliards de bénéfice annoncés, mais seulement Rs 2 milliards après == Air Mauritius: за прибылью в 4,1 млрд рупий скрывается скорректированный результат в 2 млр
-  dup check: new (EU Commission proposes KIDS Act setting minimum age of 15 to open a social media account autonomously and banning access under 13, a new regulatory pr)
-LLM per-minute limit, waiting 3s
-  written by qwen/qwen3.8-27b
-  not about Mauritius: Réseaux sociaux : l’Union européenne propose un seuil de 15 ans pour ouvrir un compte
-Skipped foreign news (Inside News): Réseaux sociaux : l’Union européenne propose un seuil de 15 ans pour ouvrir un compte
-LLM usage this run: 7 requests, 15188 tokens
-### check 2/5 at 21:42
-  dup: nothing new ()
-Skipped duplicate (Wazaa): L’Île Maurice obtient un contrat Hydromet de 163 millions de roupies mauriciennes pour 120 == HYDROMET: Маврикий получит метеооборудование на 163 млн рупий
-LLM usage this run: 1 requests, 1662 tokens
-### check 3/5 at 21:46
-### check 4/5 at 21:50
-### check 5/5 at 21:54
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Встреча Ramgoolam и Macron: Франция поможет в подготовке полицейских и пожарных Маврикия, достигнут прогресс в решении водного кризиса
+LLM usage this run: 6 requests, 11050 tokens
