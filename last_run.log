@@ -17,3 +17,13 @@ Skipped duplicate (Wazaa): La police arrête plus de 1 000 contrevenants au code
   dup: nothing new ()
 Skipped duplicate (Top FM): World Knits Group : Rs 55 millions de salaires impayés et une dette estimée à Rs 1,4 milli == Работники фабрики World Knits четыре месяца без зарплаты, боятся увольнения
 LLM usage this run: 4 requests, 5538 tokens
+### check 3/5 at 09:50
+  dup check: new (Первый фестиваль Fruits, Légumes et Fleurs пройдёт 28–29 ноября 2026 года в Jardin Balfour; организуют Le Défi Deal, Défi Media Group и Radio Plus. Це)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Balfour
+  leftovers fixed by GigaChat-3-Pro; still left: Balfour
+Posted (Defimedia): Фестиваль фруктов, овощей и цветов 2026: встреча земли и природы в саду Бальфур
+  dup check: new (В статье приведены новые данные о снижении цен на нефть: Brent — 90,99 долларов (−1,7%), WTI — 85,20 долларов (−1,8%) по состоянию на 10 ноября 2026 г)
+  not about Mauritius: Pétrole : le Brent recule vers 91 dollars, quel impact possible sur les carburants à Maurice ?
+Skipped foreign news (Inside News): Pétrole : le Brent recule vers 91 dollars, quel impact possible sur les carburants à Maurice ?
+LLM usage this run: 6 requests, 9294 tokens
