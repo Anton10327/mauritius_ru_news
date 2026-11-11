@@ -8,3 +8,14 @@ Skipped duplicate (Wazaa): Cour d’appel : statuer sur l’avenir des quatre Ch
   dup check: new (В статье приведены новые статистические данные: уровень безработицы снизился с 9,1% до 5,7% за четыре года (2021–2025), число занятых выросло на более)
 Posted (Top FM): Занятость: безработица снизилась с 9,1% до 5,7% за четыре года, но молодёжь и женщины по-прежнему затронуты сильнее
 LLM usage this run: 6 requests, 9091 tokens
+### check 2/5 at 13:56
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Fermeture de la rue Monseigneur-Leen : face aux embouteillages, des travaux de réparation  == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
+  dup: nothing new ()
+Skipped duplicate (Top FM): Deux ans après la victoire de l’Alliance du Changement : du « Feeling Good Factor » à la d == Альянс перемен: неоднозначные экономические итоги после двух лет у власти на фоне роста до
+  dup: nothing new ()
+Skipped duplicate (Top FM): Alliance du Changement : les ruptures fragilisent la majorité deux ans après son arrivée a == Альянс перемен: неоднозначные экономические итоги после двух лет у власти на фоне роста до
+  dup check: new (Pedostop организует неделю действий по защите детей с 16 по 20 ноября 2026 года, включая публичную конференцию 16 ноября и двухдневную подготовку для )
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Защита детей: Pedostop выступает за усиление институциональной ответственности
+LLM usage this run: 6 requests, 9015 tokens
