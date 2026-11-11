@@ -1,36 +1,23 @@
-### check 1/5 at 19:43
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Location de camions : la STC s’explique sur le contrat attribué à la société de Mayur Shib == STC: противоречивые версии по контракту, заключённому с компанией, возглавляемой Mayur Shi
-  dup check: new (Announcement that Minister of Labour Reza Uteem will be the guest on the show «Au Cœur de l’Info» on Wednesday 11 November 2026, with discussion of th)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Au Cœur de l’Info : Reza Uteem, l’invité de l’émission ce mercredi
-Skipped foreign news (Defimedia): Au Cœur de l’Info : Reza Uteem, l’invité de l’émission ce mercredi
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Portrait l Mahen “Horloger” : A lifetime spent repairing time
-Skipped foreign news (L'Express): Portrait l Mahen “Horloger” : A lifetime spent repairing time
-  dup check: new (Article introduces legal consequences in Mauritius for parents who refuse necessary medical treatment for children, citing possible involuntary homici)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Protection médicale des enfants : parents et soignants partagent une responsabilité essentielle
-Skipped foreign news (Top FM): Protection médicale des enfants : parents et soignants partagent une responsabilité essentielle
-LLM usage this run: 6 requests, 9075 tokens
-### check 2/5 at 19:47
-Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
-  dup: nothing new (Khushal Lobine, leader of the New Democrats, publicly criticizes the recent increase of the policy rate to 5 % and references his earlier opposition t)
-Skipped duplicate (Top FM): Taux directeur porté à 5 % : « Une hausse de trop pour les ménages et les entreprises », e == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-LLM usage this run: 1 requests, 1888 tokens
-### check 3/5 at 19:51
-  dup check: new (Le suspect Jean Yvan Adélaïde est détenu jusqu'au 17 novembre, ce qui n'était pas indiqué dans le précédent article.)
+### check 1/5 at 20:37
+  dup check: new (Annonce de la hausse du taux directeur de la Banque de Maurice à 5 % (déjà publié), mais introduit de nouveaux faits : un contrat de 19 000 Rs/jour at)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  proofread: Жана Ивана Адэлаида → Jean Yvan Adélaïde
-Posted (Inside News): На Маврикии обсуждают вторую аутопсию погибшей девочки
-LLM usage this run: 3 requests, 5739 tokens
-### check 4/5 at 19:55
-### check 5/5 at 19:59
-  dup check: new (Du 9 au 14 novembre 2026, Madagascar accueille l’École de l’activisme et de l’écologie, initiative régionale de DIS-MOI avec le soutien de la Fondatio)
+  proofread: Навин Рамгулам → Navin Ramgoolam; Французским агентством развития → Agence française de développement
+  foreign words left: Agence, française, de, développement
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (Defimedia): Повышение ключевой ставки Банка Маврикия и поддержка в борьбе с кризисом воды
+  dup check: new (FCC revokes its earlier decision to bar lawyer Me Shamir Hossany from representing Jean-Michel Lee Shim at his interrogation scheduled for 10 Nov 2026)
   written by GigaChat-2-Max
   proofread by qwen/qwen3.8-27b
-  foreign words left: DIS-MOI
-  leftovers fixed by qwen/qwen3.8-27b; still left: DIS-MOI
-Posted (L'Express): На Мадагаскаре пройдет школа активизма и экологии для стран Индийского океана
-LLM usage this run: 4 requests, 6181 tokens
+  proofread: Жана-Мишеля Ли Шима → Jean-Michel Lee Shim; Шамиру Хоссани → Shamir Hossany; Жан-Мишеля Ли Шима → Jean-Michel Lee Shim; Ли Шим → Jean-Michel Lee Shim
+Posted (Defimedia): Финансовая комиссия отказалась отстранить адвоката Jean-Michel Lee Shim
+  dup check: new (Aucun gagnant au tirage du Loto et du Loto Plus le 11 novembre ; le prochain jackpot estimé à environ Rs 20 millions pour le Loto et Rs 8 millions pou)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Лото и Лото Плюс: никто не выиграл джекпот 11 ноября
+  dup check: new (Arrestation d'un troisième suspect dans le meurtre de Selven Iyempermal, prévu de comparaître devant le tribunal de Curepipe.)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Ранее задержанным Imtiyaz Chady и Ridwaan Bauluck обвинения отрицают → Ранее задержанные Imtiyaz Chady и Ridwaan Bauluck отрицают обвинения
+Posted (Defimedia): Убийство Selven Iyempermal: задержан третий подозреваемый
+LLM usage this run: 13 requests, 21718 tokens
