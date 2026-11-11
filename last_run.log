@@ -26,3 +26,7 @@ Posted (Defimedia): Иск на 500 млн рупий к ABSA: Ameenah Gurib-Fak
   dup check: new (Новая статья сообщает о похищении человека в Stanley и его последующем удержании с нанесением ран саблей в Camp-Levieux; ранее опубликованные материал)
 Posted (L'Express): Camp-Levieux: похищен на улице, удерживался в заложниках и изрублен саблей
 LLM usage this run: 7 requests, 11754 tokens
+### check 4/5 at 13:07
+  dup: nothing new (Инцидент с ножом в Roches-Noires между парой в апартаментах; четыре ножа изъяты полицией; оба пострадавших отказались от медицинской помощи.)
+Skipped duplicate (Le Mauricien): ROCHES-NOIRES :  Un couple blessé dans un appartement de luxe == Оспариваемое управление в Университете Масарен — Министерство высшего образования учреждае
+LLM usage this run: 1 requests, 1102 tokens
