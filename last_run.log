@@ -48,3 +48,21 @@ Skipped duplicate (Wazaa): Maersk et MSC pour acquérir une participation de 40 
   proofread: Порт-Луи → Port-Louis
 Posted (Defimedia): Port-Louis: две полосы движения в центр города с 7 до 10 часов начиная с четверга
 LLM usage this run: 10 requests, 18266 tokens
+### check 4/5 at 18:10
+  dup check: new (Interview avec Drishtysingh Ramdenee, secrétaire général de la MCCI, évoquant la proposition d'une taxe temporaire de solidarité sur certains secteurs)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Interview l Drishtysingh Ramdenee : «Les entreprises ont besoin de marge pour se réinventer et réinv
+Skipped foreign news (L'Express): Interview l Drishtysingh Ramdenee : «Les entreprises ont besoin de marge pour se réinventer et réinv
+Bad LLM answer from GigaChat-2-Max: Expecting ',' delimiter: line 14 column 6 (char 243); raw: {"choices":[{"message":{"content":"{\n  \"mauritius\": true,\n  \"news\": false,\n  \"names\": [\n    {\n      \"orig\": \"Aapravasi Ghat\",\n      \"type\": \"mu_place\",\n      \"ru\": \"Aapravasi Ghat\"\n    },\n    {\n      \"orig\": \"Port Louis\",\n      \"type\": \"mu_place\",\n      \"ru\": 
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Indentured heritage : From coolie to citizen: the unfinished journey of coolitude
+Skipped foreign news (L'Express): Indentured heritage : From coolie to citizen: the unfinished journey of coolitude
+  dup check: new (Le ministère de l'énergie a signé un contrat de 260 000 dollars singapouriens (≈ Rs 9,5 M) avec la Singapore Cooperation Enterprise pour réaliser une )
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Компания из Сингапура займётся стратегией борьбы с потерями воды
+  dup check: new (Annonce d'une conférence régionale à Maurice réunissant plusieurs pays pour promouvoir l'universalisation et la mise en œuvre du Traité des Nations un)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Торговля оружием: Маврикий выступает за региональное сотрудничество
+LLM usage this run: 10 requests, 16965 tokens
