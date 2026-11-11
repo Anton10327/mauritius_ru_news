@@ -1,27 +1,10 @@
-### check 1/5 at 08:42
-  dup check: new (В статье указано, что в настоящее время работают 75 водозаборов CPF и планируется потратить 240 миллионов рупий на строительство ещё 15 новых установо)
-Posted (Le Mauricien): Водоснабжение: 75 действующих водозаборов и 240 млн рупий на 15 новых установок
+### check 1/5 at 09:42
+  same headline as #82: Crise de l’eau : Rs 6,3 milliards de soutien financier en voie de finalisation
+Skipped duplicate (L'Express): Crise de l’eau : le soutien financier de Rs 6,3 milliards en voie de finalisation == На помощь Маврикию в борьбе с кризисом водоснабжения выделено около 6,3 млрд рупий
+  dup: nothing new (FoodWise представила инициативы и достижения на Global Summit в Торонто (Канада) с 3 по 6 ноября; участие Lotilde Charpy как General Manager FoodWise.)
+Skipped duplicate (Le Mauricien): Gaspillage alimentaire — Canada : FoodWise au Global Summit du Global Foodbanking Network == Скончался Dhyaneswar Dausoa, ключевая фигура маврикийской скульптуры
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): World Knits : Rs 1,4 milliard de dettes, Rs 55 millions de salaires toujours impayés == Работники фабрики World Knits четыре месяца без зарплаты, боятся увольнения
-  dup check: new (Маврикий выбран местом проведения первой африканской континентальной кубковой серии STEM Racing в 2028 году; партнёрство с Unicity Education Hub и Med)
-  proofread: Первая Африканская континентальная STEM-кубок → Первый Африканский континентальный STEM-кубок
-Posted (Le Mauricien): STEM Racing — в партнерстве с Unicity и Medine: Маврикий примет первый Африканский континентальный кубок в 2028 году
-  dup check: new (Объявлено о реактивации технического комитета министерства энергетики и коммунальных услуг для пересмотра схемы предоставления субсидий на баки и насо)
-Posted (Top FM): Два резервуара и насос за 15 000 рупий: «Купоны, выданные получателям, действительны три месяца», уточнил Patrick Assirvaden… 8 927 купонов выдано на 10 ноября
-LLM usage this run: 10 requests, 17414 tokens
-### check 2/5 at 08:46
-  dup: nothing new ()
-Skipped duplicate (Inside News): Emploi à Maurice : cinq nouvelles annonces privées et les échéances de la PSC == Работа на Маврикии: Air Mauritius завершает семь наборов во вторник, PSC и ряд компаний та
-  dup: nothing new ()
-Skipped duplicate (Top FM): Meurtre de Soopramanien Mooneesawmy en 2022 : Jean Brandon Adolphe Joli face à la justice == Суд по делу об убийстве Soopramanien Mooneesawmy: отобраны девять присяжных
-  dup check: new (В статье говорится о подготовке к возможным последствиям Эль-Ниньо летом 2026-2027 года и отмечается, что этот эпизод может стать одним из самых мощны)
-  proofread: Минздрав → министерство здравоохранения; Ministère de l’Agro-industrie → министерство агропромышленности
-Posted (Top FM): Эль-Ниньо: «Один из самых мощных эпизодов за всю историю наблюдений»
-LLM usage this run: 5 requests, 7557 tokens
-### check 3/5 at 08:50
-### check 4/5 at 08:54
-### check 5/5 at 08:58
-  dup check: new (Пять вакансий в SADC и COMESA с крайним сроком 20 ноября 2026 года; среди подходящих граждан есть маврикийцы. В опубликованной статье речь только о ва)
-  not about Mauritius: Emploi à l’étranger : cinq recrutements à la SADC et au COMESA encore ouverts
-Skipped foreign news (Inside News): Emploi à l’étranger : cinq recrutements à la SADC et au COMESA encore ouverts
-LLM usage this run: 2 requests, 4155 tokens
+Skipped duplicate (L'Express): Occupation illégale : L’heure de vérité pour les quatre Chagossiens de l’île du Coin == Присутствие Misley Mandarin на архипелаге Chagos: апелляционный трибунал BIOT вынесет реше
+  not about Mauritius: COP31 sur le climat : les chefs d'État entrent en scène, avec de nombreux absents
+Skipped foreign news (Defimedia): COP31 sur le climat : les chefs d'État entrent en scène, avec de nombreux absents
+LLM usage this run: 3 requests, 6121 tokens
