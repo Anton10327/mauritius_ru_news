@@ -19,3 +19,11 @@ Skipped duplicate (Top FM): Alliance du Changement : les ruptures fragilisent la
   proofread by qwen/qwen3.8-27b
 Posted (Top FM): Защита детей: Pedostop выступает за усиление институциональной ответственности
 LLM usage this run: 6 requests, 9015 tokens
+### check 3/5 at 14:00
+  dup: nothing new ()
+Skipped duplicate (Inside News): Petit-Gamin : un centre équestre visé par un avis de démolition, rendez-vous devant la jus == Конный центр Petit-Gamin получил предписание о сносе
+  dup check: new (WMO report presented at COP31 on 9 november stating that 2026 is among the four hottest years ever recorded, with global temperature 1.47 °C above pre)
+GigaChat certificate download failed: HTTPSConnectionPool(host='gu-st.ru', port=443): Max retries exceeded with url: /content/lending/russian_trusted_sub_ca_pem.crt (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)')))
+  proofread by qwen/qwen3.8-27b
+Posted (Top FM): Изменение климата: 2026 год — среди самых жарких за всю историю наблюдений
+LLM usage this run: 4 requests, 7236 tokens
