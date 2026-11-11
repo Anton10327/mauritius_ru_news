@@ -37,3 +37,13 @@ Skipped duplicate (Defimedia): À l’approche des fêtes - devises : la course 
   dup: nothing new ()
 Skipped duplicate (L'Express): PMQT l Abus sexuel présumé : Jean François Veckranges toujours en cavale == Предполагаемое сексуальное насилие над шестилетней девочкой: три недели поисков, подозрева
 LLM usage this run: 4 requests, 6310 tokens
+### check 4/5 at 12:12
+  dup: nothing new ()
+Skipped duplicate (Inside News): Emploi : STC, EWF, DBM et WMA recrutent, les échéances à retenir en novembre == Работа на Маврикии: Air Mauritius завершает семь наборов во вторник, PSC и ряд компаний та
+  dup: nothing new ()
+Skipped duplicate (Top FM): Mauritius Telecom Foundation : deux bourses annuelles pour les meilleurs élèves de la fili == Парламент: законопроект «Mauritius Telecom Foundation Bill» в повестке дня на этот вторник
+  dup: nothing new ()
+Skipped duplicate (Top FM): Protection de l’enfance : rectification des chiffres après la PNQ == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
+  dup: nothing new ()
+Skipped duplicate (Top FM): Alliance du Changement : après deux ans au pouvoir, plusieurs promesses électorales toujou == Альянс перемен: неоднозначные экономические итоги после двух лет у власти на фоне роста до
+LLM usage this run: 4 requests, 4692 tokens
