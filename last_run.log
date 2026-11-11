@@ -9,3 +9,20 @@ Skipped duplicate (Defimedia): Politique monétaire : le taux directeur passe de
   not news (portrait/lifestyle): Au Cœur de l’Info : Reza Uteem, l’invité de l’émission ce mercredi
 Skipped foreign news (Defimedia): Au Cœur de l’Info : Reza Uteem, l’invité de l’émission ce mercredi
 LLM usage this run: 5 requests, 9156 tokens
+### check 2/5 at 16:48
+  dup check: new (A 45‑year‑old pedestrian was killed after being hit by a car in Sébastopol; the driver was arrested and claims the pedestrian suddenly emerged from a )
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Себастопол → Sébastopol; Себастополе → Sébastopol
+Posted (Defimedia): Sébastopol: пешеход погиб после столкновения с автомобилем
+  dup check: new (Three memorandums of understanding signed on 11 nov 2026 include a new day centre for autistic children in Souillac, the addition of eight high‑depend)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (L'Express): Три соглашения с Mauritius Telecom для улучшения медицинских услуг
+  dup: nothing new ()
+Skipped duplicate (Inside News): Higher Education Commission : Rs 4 millions pour clore un litige né il y a treize ans == Спор с Higher Education Commission: доктор Praveen Mohadeb получит 4 млн рупий
+  dup check: new (Новый экономист Amit Bakhirta (основатель и CEO Anneau) оценивает снижение первичного дефицита в 2025‑2026 гг. по данным МВФ и предлагает три меры по )
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Bilan économique : les finances publiques en voie de redressement, mais une croissance qui ralentit…
+Skipped foreign news (Top FM): Bilan économique : les finances publiques en voie de redressement, mais une croissance qui ralentit…
+LLM usage this run: 9 requests, 15260 tokens
