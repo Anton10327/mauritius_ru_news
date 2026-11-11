@@ -12,3 +12,18 @@ Skipped foreign news (L'Express): Read what your AI vendor tells its lawyers
   leftovers fixed by GigaChat-3-Pro; still left: Le
 Posted (Defimedia): Борьба с эрозией — Le Morne: «мягкий» проект берегозащиты для объекта Всемирного наследия ЮНЕСКО
 LLM usage this run: 9 requests, 15718 tokens
+### check 2/5 at 12:04
+  dup check: new (Объявлено о переносе части акций Cargo Handling Corporation Ltd (CHCL) к Maersk и Mediterranean Shipping Company до конца февраля 2027 года; это новое)
+  proofread: «до конца февраля» → «к концу февраля»
+Posted (L'Express): Портовый сектор: передача акций CHCL к февралю 2027 года
+  dup check: new (La Banque de Maurice a publié le 10 novembre une nouvelle étape de son appel d’offres pour la fourniture et la mise en œuvre d’une plateforme de parta)
+  proofread: «Ce que les clients peuvent en attendre» → «Что могут ожидать клиенты»; «mutualiser plus rapidement des informations sur les menaces numériques susceptibles d’affecter plusieurs établissements» → «ускорять взаимный обмен информацией о цифровых угрозах, способных затронуть несколько учреждений»; «une
+  foreign words left: Banques
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Inside News): Банк Маврикия готовит платформу для обмена информацией об угрозах
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Assemblée nationale — Fait du jour avec la violence et protection de l’enfance : Plus que  == На Маврикии с начала года задержали 103 подростка за преступления, связанные с наркотиками
+  dup check: new (США в очередной раз бойкотировали свой обзор по правам человека в ООН; заседание перенесено на январь без санкций за неявку. Это первый случай двойног)
+  not about Mauritius: Les Etats-Unis sèchent (encore) leur examen « droits humains » devant l’ONU
+Skipped foreign news (Le Mauricien): Les Etats-Unis sèchent (encore) leur examen « droits humains » devant l’ONU
+LLM usage this run: 10 requests, 15304 tokens
