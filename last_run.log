@@ -27,3 +27,10 @@ Posted (Defimedia): Фестиваль фруктов, овощей и цвет�
   not about Mauritius: Pétrole : le Brent recule vers 91 dollars, quel impact possible sur les carburants à Maurice ?
 Skipped foreign news (Inside News): Pétrole : le Brent recule vers 91 dollars, quel impact possible sur les carburants à Maurice ?
 LLM usage this run: 6 requests, 9294 tokens
+### check 4/5 at 09:54
+Could not read Top FM: ReadTimeout HTTPSConnectionPool(host='topfm.mu', port=443): Read timed out. (read timeout=30)
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Éducation spécialisée : 23 plaintes en deux ans, des allégations de mauvais traitements en == На Маврикии 23 жалобы на школы для детей с особыми потребностями
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): MTC : la transparence ou les faux procès ! == Праздничные дни: компенсационный выходной в этот понедельник и пять выходных подряд в 2027
+LLM usage this run: 2 requests, 1381 tokens
