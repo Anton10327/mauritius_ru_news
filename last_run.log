@@ -30,3 +30,7 @@ LLM usage this run: 7 requests, 11754 tokens
   dup: nothing new (Инцидент с ножом в Roches-Noires между парой в апартаментах; четыре ножа изъяты полицией; оба пострадавших отказались от медицинской помощи.)
 Skipped duplicate (Le Mauricien): ROCHES-NOIRES :  Un couple blessé dans un appartement de luxe == Оспариваемое управление в Университете Масарен — Министерство высшего образования учреждае
 LLM usage this run: 1 requests, 1102 tokens
+### check 5/5 at 13:11
+  dup: nothing new (Точные цифры инфляции за третий квартал 2026 года: индекс цен вырос с 112,2 до 114,1 (рост на 1,7%); годовой уровень инфляции — 4,1%. Основные вкладчи)
+Skipped duplicate (Inside News): Inflation : l’indice des prix a progressé de 1,7 % au troisième trimestre == Оспариваемое управление в Университете Масарен — Министерство высшего образования учреждае
+LLM usage this run: 1 requests, 1548 tokens
