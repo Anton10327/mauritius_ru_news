@@ -11,3 +11,22 @@ LLM request failed (GigaChat-2-Max): ReadTimeout HTTPSConnectionPool(host='ngw.d
   proofread by qwen/qwen3.8-27b
 Posted (Le Mauricien): Банк Маврикия: ключевая ставка повышена до 5% на фоне инфляционного давления
 LLM usage this run: 6 requests, 10062 tokens
+### check 2/5 at 18:02
+  dup check: new (Tourism sector growth in 2026: 149,273 arrivals in October (+8.3% YoY), 1,191,514 tourists in first 10 months (+4.0% YoY), revenue Jan‑Sep 2026 Rs 83.)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Ричард Дюваль → Richard Duval
+Posted (Le Mauricien): Туризм на Маврикии вырос на 4% за первые десять месяцев 2026 года
+  dup check: new (Названы новые полицейские (сержанты Avinash Ramuth, Dayven Gurranna и констебль Soobheer Motah), упомянуто, что расследование вступило в решающую фазу)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Элодии Томас → Élodie Thomas; Гаутама Сингха Таукура → Gautam Singh Taukoor
+Posted (Le Mauricien): Дело Élodie Thomas: расследование IPCC вступает в решающую фазу
+  dup: nothing new ()
+Skipped duplicate (L'Express): Taux directeur à 5 % : La gouverneure de la BoM explique la hausse == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
+  dup check: new (CTSP (Confédération des travailleurs des secteurs public et privé) a organisé une conférence de presse, son porte‑parole Reaz Chuttoo a réclamé que le)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Плейн-де-Папай → Plaine-des-Papayes
+Posted (Defimedia): Гибель трёх рабочих из Бангладеш: профсоюз требует установить виновных
+LLM usage this run: 10 requests, 18032 tokens
