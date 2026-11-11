@@ -13,3 +13,11 @@ LLM usage this run: 6 requests, 12010 tokens
   proofread: edit rejected (changed numbers, names or length)
 Posted (Inside News): Обучение индуизму в 10-м классе: колледж на севере вызвал споры, министерство обещает сохранить выбор учеников
 LLM usage this run: 3 requests, 5060 tokens
+### check 3/5 at 15:00
+  dup check: new (Révélation d'un prétendu empire financier de 15 milliards de roupies lié à l'affaire Dreamer, utilisant des cryptomonnaies, des portefeuilles numériqu)
+GigaChat certificate download failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+  proofread by qwen/qwen3.8-27b
+  foreign words left: IT-инструменты
+  leftovers fixed by qwen/qwen3.8-27b; still left: none
+Posted (L'Express): Дело «Dreamer»: закулисье предполагаемой империи на 15 млрд рупий
+LLM usage this run: 4 requests, 6301 tokens
