@@ -1,44 +1,9 @@
-### check 1/5 at 13:52
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Nominations honorifiques - Senior Counsel et Senior Attorney : une décision attendue == Line Barracks: заключённый укусил полицейского за руку
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Travaux à la rue Monseigneur-Leen : un itinéraire alternatif proposé aux automobilistes po == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Cour d’appel : statuer sur l’avenir des quatre Chagossiens de l’île du Coin == Присутствие Misley Mandarin на архипелаге Chagos: апелляционный трибунал BIOT вынесет реше
-  dup check: new (В статье приведены новые статистические данные: уровень безработицы снизился с 9,1% до 5,7% за четыре года (2021–2025), число занятых выросло на более)
-Posted (Top FM): Занятость: безработица снизилась с 9,1% до 5,7% за четыре года, но молодёжь и женщины по-прежнему затронуты сильнее
-LLM usage this run: 6 requests, 9091 tokens
-### check 2/5 at 13:56
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Fermeture de la rue Monseigneur-Leen : face aux embouteillages, des travaux de réparation  == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
-  dup: nothing new ()
-Skipped duplicate (Top FM): Deux ans après la victoire de l’Alliance du Changement : du « Feeling Good Factor » à la d == Альянс перемен: неоднозначные экономические итоги после двух лет у власти на фоне роста до
-  dup: nothing new ()
-Skipped duplicate (Top FM): Alliance du Changement : les ruptures fragilisent la majorité deux ans après son arrivée a == Альянс перемен: неоднозначные экономические итоги после двух лет у власти на фоне роста до
-  dup check: new (Pedostop организует неделю действий по защите детей с 16 по 20 ноября 2026 года, включая публичную конференцию 16 ноября и двухдневную подготовку для )
+### check 1/5 at 14:52
+  dup check: new (Maurice will receive 120 meteorological, hydrological and marine equipment worth Rs 163 million (≈US$3.4 million) under the HYDROMET programme of the )
   proofread by qwen/qwen3.8-27b
-Posted (Top FM): Защита детей: Pedostop выступает за усиление институциональной ответственности
-LLM usage this run: 6 requests, 9015 tokens
-### check 3/5 at 14:00
-  dup: nothing new ()
-Skipped duplicate (Inside News): Petit-Gamin : un centre équestre visé par un avis de démolition, rendez-vous devant la jus == Конный центр Petit-Gamin получил предписание о сносе
-  dup check: new (WMO report presented at COP31 on 9 november stating that 2026 is among the four hottest years ever recorded, with global temperature 1.47 °C above pre)
-GigaChat certificate download failed: HTTPSConnectionPool(host='gu-st.ru', port=443): Max retries exceeded with url: /content/lending/russian_trusted_sub_ca_pem.crt (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1011)')))
+Posted (Defimedia): HYDROMET: Маврикий получит метеооборудование на 163 млн рупий
+  dup check: new (Joëlle Coret represented Mauritian independent artists at the 2nd International Freelancers Conference of the International Federation of Musicians in)
   proofread by qwen/qwen3.8-27b
-Posted (Top FM): Изменение климата: 2026 год — среди самых жарких за всю историю наблюдений
-LLM usage this run: 4 requests, 7236 tokens
-### check 4/5 at 14:04
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Trafic de drogue sur l’axe Thaïlande-Maurice : la police scientifique passe au crible le y == Предполагаемый трафик каннабиса: яхт Dreamer подвергнут научным исследованиям
-  dup check: new (241 compteurs d’eau réparés ou remplacés depuis 2022; contrat de Rs 9,5 millions avec Singapore Cooperation Enterprise pour l’étude stratégique.)
-  proofread by qwen/qwen3.8-27b
-  proofread: 
-Posted (L'Express): CWA: 241 счётчик воды отремонтировано или заменено с 2022 года
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Cour d’assises — Meurtre de Reddy Mooneesawmy : Adolphe Joli plaide non coupable == Суд по делу об убийстве Soopramanien Mooneesawmy: отобраны девять присяжных
-LLM usage this run: 5 requests, 9238 tokens
-### check 5/5 at 14:08
-  dup check: new (Le ministre de l'Enseignement supérieur, Kaviraj Sukon, dénonce un taux d'échec trop élevé dans l'enseignement supérieur et propose d'intégrer l'intel)
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Высшее образование: министр Kaviraj Sukon осуждает слишком высокий процент провалов и делает ставку на искусственный интеллект
-LLM usage this run: 3 requests, 5096 tokens
+  proofread: Жоэль Корэ → Joëlle Coret
+Posted (Top FM): От Маврикия до Брайтона: Joëlle Coret несёт борьбу независимых артистов на международную арену
+LLM usage this run: 6 requests, 12010 tokens
