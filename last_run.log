@@ -19,3 +19,8 @@ LLM usage this run: 11 requests, 19896 tokens
   proofread by qwen/qwen3.8-27b
 Posted (Top FM): На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
 LLM usage this run: 3 requests, 5448 tokens
+### check 3/5 at 15:56
+  dup check: new (Plus de 11 000 cas d'Ebola recensés en République démocratique du Congo, avec déclaration officielle de l'épidémie mi‑mai et chiffres actualisés des a)
+  not about Mauritius: RDC : plus de 11 000 cas d'Ebola recensés
+Skipped foreign news (Defimedia): RDC : plus de 11 000 cas d'Ebola recensés
+LLM usage this run: 2 requests, 4685 tokens
