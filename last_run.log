@@ -1,37 +1,15 @@
-### check 1/5 at 18:52
-  dup check: new (Le Groupe SBM devient Diamond Sponsor du U.S.-Africa Business Summit 2026 (6‑9 décembre 2026 à Maurice), ce qui n’était pas mentionné dans les publica)
+### check 1/5 at 19:43
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Location de camions : la STC s’explique sur le contrat attribué à la société de Mayur Shib == STC: противоречивые версии по контракту, заключённому с компанией, возглавляемой Mayur Shi
+  dup check: new (Announcement that Minister of Labour Reza Uteem will be the guest on the show «Au Cœur de l’Info» on Wednesday 11 November 2026, with discussion of th)
   written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Группа SBM станет главным спонсором саммита U.S.-Africa Business Summit 2026
-  dup check: new (Presentation of Ras Max's album "Le Meilleur de soi, volume 1" on the show "Nou Lar Nou Lamizik", including his messages against inequalities and intr)
+  not news (portrait/lifestyle): Au Cœur de l’Info : Reza Uteem, l’invité de l’émission ce mercredi
+Skipped foreign news (Defimedia): Au Cœur de l’Info : Reza Uteem, l’invité de l’émission ce mercredi
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): «Nou Lar Nou Lamizik» : Ras Max présente «Le Meilleur de soi, volume 1»
-Skipped foreign news (L'Express): «Nou Lar Nou Lamizik» : Ras Max présente «Le Meilleur de soi, volume 1»
-  dup check: new (Maurice will host a regional workshop on arms‑transfer control from 11 to 13 November, organized by the government together with Expertise France with)
+  not news (portrait/lifestyle): Portrait l Mahen “Horloger” : A lifetime spent repairing time
+Skipped foreign news (L'Express): Portrait l Mahen “Horloger” : A lifetime spent repairing time
+  dup check: new (Article introduces legal consequences in Mauritius for parents who refuse necessary medical treatment for children, citing possible involuntary homici)
   written by GigaChat-2-Max
-  not news (portrait/lifestyle): Maurice accueille un atelier régional sur le contrôle des armes : ce qui se joue derrière trois jour
-Skipped foreign news (Inside News): Maurice accueille un atelier régional sur le contrôle des armes : ce qui se joue derrière trois jour
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Hausse du taux directeur à 5 % : ce que vous gagnez, ce que vous perdez == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-LLM usage this run: 8 requests, 13787 tokens
-### check 2/5 at 18:56
-  same headline as #45: Goodlands : jusqu’à Rs 264 millions pour remplacer 12 km de canalisations
-Skipped duplicate (Inside News): Goodlands : jusqu’à Rs 264 millions pour remplacer 12 kilomètres de tuyaux, mais aucun cal == На замену трубопроводов в Goodlands выделено до 264 миллионов рупий
-  dup: nothing new ()
-Skipped duplicate (Top FM): Le Groupe SBM s’associe au sommet économique États-Unis–Afrique à Maurice == Группа SBM станет главным спонсором саммита U.S.-Africa Business Summit 2026
-  dup: nothing new ()
-Skipped duplicate (Top FM): Décès de trois ouvriers bangladais : la Pastorale des Migrants appelle à placer la vie hum == Смерть трёх бангладешских рабочих: «Pastorale des Migrants» выражает солидарность
-LLM usage this run: 2 requests, 3264 tokens
-### check 3/5 at 19:00
-### check 4/5 at 19:04
-  dup: nothing new ()
-Skipped duplicate (L'Express): Dossier l Cultures vivrières : l’irrigation réduite, les récoltes en question == Водоснабжение: 75 действующих водозаборов и 240 млн рупий на 15 новых установок
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Water Tank Scheme : 8 927 Vouchers et enquête de la CCM sur les fournisseurs == Два резервуара и насос за 15 000 рупий: «Купоны, выданные получателям, действительны три м
-  dup check: new (Première journée du procès où la poursuite a présenté les premières constatations policières et des policiers ont témoigné devant le jury.)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Супараманиена Мунесами → Soopramanien Mooneesawmy
-Posted (Top FM): Убийство Soopramanien Mooneesawmy: первые полицейские наблюдения представлены суду присяжных
-LLM usage this run: 5 requests, 8837 tokens
-### check 5/5 at 19:08
+  not news (portrait/lifestyle): Protection médicale des enfants : parents et soignants partagent une responsabilité essentielle
+Skipped foreign news (Top FM): Protection médicale des enfants : parents et soignants partagent une responsabilité essentielle
+LLM usage this run: 6 requests, 9075 tokens
