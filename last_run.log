@@ -13,3 +13,8 @@ Skipped foreign news (L'Express): Portrait l Mahen “Horloger” : A lifetime s
   not news (portrait/lifestyle): Protection médicale des enfants : parents et soignants partagent une responsabilité essentielle
 Skipped foreign news (Top FM): Protection médicale des enfants : parents et soignants partagent une responsabilité essentielle
 LLM usage this run: 6 requests, 9075 tokens
+### check 2/5 at 19:47
+Could not read Inside News: ReadTimeout HTTPSConnectionPool(host='inside.news', port=443): Read timed out. (read timeout=30)
+  dup: nothing new (Khushal Lobine, leader of the New Democrats, publicly criticizes the recent increase of the policy rate to 5 % and references his earlier opposition t)
+Skipped duplicate (Top FM): Taux directeur porté à 5 % : « Une hausse de trop pour les ménages et les entreprises », e == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
+LLM usage this run: 1 requests, 1888 tokens
