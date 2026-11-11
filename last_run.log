@@ -1,8 +1,9 @@
-### check 1/5 at 06:55
-### check 2/5 at 06:59
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Taux directeur : les enjeux de la réunion du Comité de politique monétaire de ce mercredi  == Защита побережья — Маврикий / Реюньон: в La Preneuse стену признали допустимой; на Реюньон
-LLM usage this run: 1 requests, 1052 tokens
-### check 3/5 at 07:03
-### check 4/5 at 07:07
-### check 5/5 at 07:11
+### check 1/5 at 07:47
+  dup: nothing new (Сумма нового финансирования от AFD — Rs 1,7 milliard; стоимость новой сингапурской миссии по изучению потерь воды — Rs 9,5 миллионов; ожидаемый срок п)
+Skipped duplicate (Top FM): Pertes d’eau dans l’Est : Une étude de Rs 9,5 millions et un rapport attendu en décembre… == На помощь Маврикию в борьбе с кризисом водоснабжения выделено около 6,3 млрд рупий
+  dup check: new (SENA получила 23 жалобы за два года на 14 специализированных школ; три из них переданы Омбудсменом по правам детей в отношении учреждения в Rose-Belle)
+Bad LLM answer from GigaChat-3-Ultra: Expecting ',' delimiter: line 44 column 6 (char 852); raw: {"choices":[{"message":{"content":"{\n  \"mauritius\": true,\n  \"news\": true,\n  \"names\": [\n    {\n      \"orig\": \"Daureeawo\",\n      \"type\": \"person\",\n      \"ru\": \"\"\n    },\n    {\n      \"orig\": \"Special Education Needs Authority\",\n      \"type\": \"org\",\n      \"ru\": \"\"
+  written by GigaChat-2-Max
+  proofread: Уполномоченный по правам детей → Омбудсмен по правам детей
+Posted (Top FM): На Маврикии 23 жалобы на школы для детей с особыми потребностями
+LLM usage this run: 5 requests, 10004 tokens
