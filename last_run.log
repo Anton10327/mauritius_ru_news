@@ -27,3 +27,13 @@ GigaChat certificate download failed: HTTPSConnectionPool(host='gu-st.ru', port=
   proofread by qwen/qwen3.8-27b
 Posted (Top FM): Изменение климата: 2026 год — среди самых жарких за всю историю наблюдений
 LLM usage this run: 4 requests, 7236 tokens
+### check 4/5 at 14:04
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Trafic de drogue sur l’axe Thaïlande-Maurice : la police scientifique passe au crible le y == Предполагаемый трафик каннабиса: яхт Dreamer подвергнут научным исследованиям
+  dup check: new (241 compteurs d’eau réparés ou remplacés depuis 2022; contrat de Rs 9,5 millions avec Singapore Cooperation Enterprise pour l’étude stratégique.)
+  proofread by qwen/qwen3.8-27b
+  proofread: 
+Posted (L'Express): CWA: 241 счётчик воды отремонтировано или заменено с 2022 года
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Cour d’assises — Meurtre de Reddy Mooneesawmy : Adolphe Joli plaide non coupable == Суд по делу об убийстве Soopramanien Mooneesawmy: отобраны девять присяжных
+LLM usage this run: 5 requests, 9238 tokens
