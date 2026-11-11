@@ -1,46 +1,13 @@
-### check 1/5 at 16:44
+### check 1/5 at 17:58
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Crise hydrique — Le PM annonce : Soutien de Rs 6,3 milliards de l’AFD et de l’UE pour l’ea == На помощь Маврикию в борьбе с кризисом водоснабжения выделено около 6,3 млрд рупий
+Skipped duplicate (Defimedia): Le taux directeur passe de 4,75 % à 5 % : les raisons de la hausse expliquées == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
   dup: nothing new ()
-Skipped duplicate (L'Express): Inflation : La BoM relève son taux directeur à 5 % == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
+Skipped duplicate (L'Express): Éclairage l «Key Rate» : Le rodéo monétaire du Monetary Policy Committee == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
   dup: nothing new ()
-Skipped duplicate (Defimedia): Politique monétaire : le taux directeur passe de 4,75 % à 5 % == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-  dup check: new (Le ministre du Travail Reza Uteem sera l'invité de l'émission « Au Cœur de l’Info » le mercredi 11 novembre à 17h sur Radio Plus, avec diffusion en di)
-  not news (portrait/lifestyle): Au Cœur de l’Info : Reza Uteem, l’invité de l’émission ce mercredi
-Skipped foreign news (Defimedia): Au Cœur de l’Info : Reza Uteem, l’invité de l’émission ce mercredi
-LLM usage this run: 5 requests, 9156 tokens
-### check 2/5 at 16:48
-  dup check: new (A 45‑year‑old pedestrian was killed after being hit by a car in Sébastopol; the driver was arrested and claims the pedestrian suddenly emerged from a )
-  written by GigaChat-2-Max
+Skipped duplicate (L'Express): Naufrage du «Sir Gaëtan» : Un témoin à charge partagé sur le rôle de Newoor == Промежуточный суд — крушение Sir Gaëtan — шкипер: «Kavidev Newoor любит делать то, что взб
+  dup check: new (inflation en glissement annuel a atteint 6,4 % en octobre, contre 4,4 % en juillet)
+LLM request failed (GigaChat-2-Max): ReadTimeout HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Read timed out. (read timeout=30)
+  written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-  proofread: Себастопол → Sébastopol; Себастополе → Sébastopol
-Posted (Defimedia): Sébastopol: пешеход погиб после столкновения с автомобилем
-  dup check: new (Three memorandums of understanding signed on 11 nov 2026 include a new day centre for autistic children in Souillac, the addition of eight high‑depend)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): Три соглашения с Mauritius Telecom для улучшения медицинских услуг
-  dup: nothing new ()
-Skipped duplicate (Inside News): Higher Education Commission : Rs 4 millions pour clore un litige né il y a treize ans == Спор с Higher Education Commission: доктор Praveen Mohadeb получит 4 млн рупий
-  dup check: new (Новый экономист Amit Bakhirta (основатель и CEO Anneau) оценивает снижение первичного дефицита в 2025‑2026 гг. по данным МВФ и предлагает три меры по )
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Bilan économique : les finances publiques en voie de redressement, mais une croissance qui ralentit…
-Skipped foreign news (Top FM): Bilan économique : les finances publiques en voie de redressement, mais une croissance qui ralentit…
-LLM usage this run: 9 requests, 15260 tokens
-### check 3/5 at 16:52
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Taux directeur à 5 % : «Cela n’a pas été une décision facile», dit la gouverneure de la Bo == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-LLM usage this run: 1 requests, 1569 tokens
-### check 4/5 at 16:56
-  dup check: new (99‑year‑old pedestrian hit by a motorcycle on Rue Royale in Port‑Louis on 10 November; victim taken to intensive care; police opened investigation.)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Порт-Луи → Port-Louis
-  foreign words left: Royal, Street
-  leftovers fixed by qwen/qwen3.8-27b; still left: Royal, Street
-Posted (Defimedia): Дорожно-транспортное происшествие в Port-Louis: мотоциклист сбил пешехода возрастом 99 лет
-  dup check: new (Accident à Union-Park : piéton gravement blessé, placé en soins intensifs, le motocycliste de 22 ans testé positif à la drogue, arresté en garde à vue)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): ДТП в Union-Park: пешеход в реанимации, мотоциклист тестировался положительно на наркотики
-LLM usage this run: 7 requests, 8401 tokens
-### check 5/5 at 17:00
+Posted (Le Mauricien): Банк Маврикия: ключевая ставка повышена до 5% на фоне инфляционного давления
+LLM usage this run: 6 requests, 10062 tokens
