@@ -8,3 +8,14 @@ Skipped duplicate (L'Express): PNQ : Quatre enfants décédés, 409 placés en r
   not news (portrait/lifestyle): Les malheurs de Trump vont-ils faire le bonheur de Maurice ?
 Skipped foreign news (L'Express): Les malheurs de Trump vont-ils faire le bonheur de Maurice ?
 LLM usage this run: 4 requests, 6699 tokens
+### check 2/5 at 10:49
+  dup check: new (Объявлено о полном исчерпании коммерческих запасов семян картофеля на кампанию 2026 года и установлен крайний срок (4 декабря) для производителей, что)
+  proofread: AMB → Совет по маркетингу сельскохозяйственной продукции
+Posted (Inside News): Семенной картофель на 2026 год полностью раскуплен: у производителей есть время до 4 декабря, чтобы заявить потребности на 2027 год
+  dup: nothing new ()
+Skipped duplicate (L'Express): Parlement : Ambiance sonnée… == Несчастный случай на стройке в Phoenix: двое рабочих пострадали при обрушении лесов
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): A World for Travel — À Paris : Maurice et le tourisme de demain == Tourisme — курс на 2035 год: Маврикий готовит стратегию из семи направлений для будущего с
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): STC: противоречивые версии по контракту, заключённому с компанией, возглавляемой Mayur Shibchurn
+LLM usage this run: 7 requests, 10529 tokens
