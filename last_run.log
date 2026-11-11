@@ -1,79 +1,16 @@
-### check 1/5 at 17:58
+### check 1/5 at 18:52
+  dup check: new (Le Groupe SBM devient Diamond Sponsor du U.S.-Africa Business Summit 2026 (6‑9 décembre 2026 à Maurice), ce qui n’était pas mentionné dans les publica)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Группа SBM станет главным спонсором саммита U.S.-Africa Business Summit 2026
+  dup check: new (Presentation of Ras Max's album "Le Meilleur de soi, volume 1" on the show "Nou Lar Nou Lamizik", including his messages against inequalities and intr)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): «Nou Lar Nou Lamizik» : Ras Max présente «Le Meilleur de soi, volume 1»
+Skipped foreign news (L'Express): «Nou Lar Nou Lamizik» : Ras Max présente «Le Meilleur de soi, volume 1»
+  dup check: new (Maurice will host a regional workshop on arms‑transfer control from 11 to 13 November, organized by the government together with Expertise France with)
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Maurice accueille un atelier régional sur le contrôle des armes : ce qui se joue derrière trois jour
+Skipped foreign news (Inside News): Maurice accueille un atelier régional sur le contrôle des armes : ce qui se joue derrière trois jour
   dup: nothing new ()
-Skipped duplicate (Defimedia): Le taux directeur passe de 4,75 % à 5 % : les raisons de la hausse expliquées == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-  dup: nothing new ()
-Skipped duplicate (L'Express): Éclairage l «Key Rate» : Le rodéo monétaire du Monetary Policy Committee == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-  dup: nothing new ()
-Skipped duplicate (L'Express): Naufrage du «Sir Gaëtan» : Un témoin à charge partagé sur le rôle de Newoor == Промежуточный суд — крушение Sir Gaëtan — шкипер: «Kavidev Newoor любит делать то, что взб
-  dup check: new (inflation en glissement annuel a atteint 6,4 % en octobre, contre 4,4 % en juillet)
-LLM request failed (GigaChat-2-Max): ReadTimeout HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Read timed out. (read timeout=30)
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Банк Маврикия: ключевая ставка повышена до 5% на фоне инфляционного давления
-LLM usage this run: 6 requests, 10062 tokens
-### check 2/5 at 18:02
-  dup check: new (Tourism sector growth in 2026: 149,273 arrivals in October (+8.3% YoY), 1,191,514 tourists in first 10 months (+4.0% YoY), revenue Jan‑Sep 2026 Rs 83.)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Ричард Дюваль → Richard Duval
-Posted (Le Mauricien): Туризм на Маврикии вырос на 4% за первые десять месяцев 2026 года
-  dup check: new (Названы новые полицейские (сержанты Avinash Ramuth, Dayven Gurranna и констебль Soobheer Motah), упомянуто, что расследование вступило в решающую фазу)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Элодии Томас → Élodie Thomas; Гаутама Сингха Таукура → Gautam Singh Taukoor
-Posted (Le Mauricien): Дело Élodie Thomas: расследование IPCC вступает в решающую фазу
-  dup: nothing new ()
-Skipped duplicate (L'Express): Taux directeur à 5 % : La gouverneure de la BoM explique la hausse == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-  dup check: new (CTSP (Confédération des travailleurs des secteurs public et privé) a organisé une conférence de presse, son porte‑parole Reaz Chuttoo a réclamé que le)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Плейн-де-Папай → Plaine-des-Papayes
-Posted (Defimedia): Гибель трёх рабочих из Бангладеш: профсоюз требует установить виновных
-LLM usage this run: 10 requests, 18032 tokens
-### check 3/5 at 18:06
-  dup check: new (Police raids on 9‑10 Nov at the Arc‑en‑Ciel car‑wash in Bois‑Mangues (Plaine‑des‑Papayes) suspecting employees of transferring 12 kg LPG domestic gas )
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (L'Express): На автомойке подозревают незаконную заправку автомобилей бытовым газом
-  dup check: new (Новые данные: с января 2025 г. зафиксированы три смерти детей от насилия; 365 несовершеннолетних находятся в учреждениях; дополнительно указаны общие )
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Дети-жертвы насилия: три смерти, 365 несовершеннолетних в учреждениях и 103 ареста по делам о наркотиках
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Maersk et MSC pour acquérir une participation de 40 % dans la gestion portuaire == Портовый сектор: передача акций CHCL к февралю 2027 года
-  dup check: new (Temporary traffic arrangement on A1 in Port‑Louis from 7 h to 10 h starting Thursday 12 Nov, reserving two lanes for vehicles heading to the city cent)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Порт-Луи → Port-Louis
-Posted (Defimedia): Port-Louis: две полосы движения в центр города с 7 до 10 часов начиная с четверга
-LLM usage this run: 10 requests, 18266 tokens
-### check 4/5 at 18:10
-  dup check: new (Interview avec Drishtysingh Ramdenee, secrétaire général de la MCCI, évoquant la proposition d'une taxe temporaire de solidarité sur certains secteurs)
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Interview l Drishtysingh Ramdenee : «Les entreprises ont besoin de marge pour se réinventer et réinv
-Skipped foreign news (L'Express): Interview l Drishtysingh Ramdenee : «Les entreprises ont besoin de marge pour se réinventer et réinv
-Bad LLM answer from GigaChat-2-Max: Expecting ',' delimiter: line 14 column 6 (char 243); raw: {"choices":[{"message":{"content":"{\n  \"mauritius\": true,\n  \"news\": false,\n  \"names\": [\n    {\n      \"orig\": \"Aapravasi Ghat\",\n      \"type\": \"mu_place\",\n      \"ru\": \"Aapravasi Ghat\"\n    },\n    {\n      \"orig\": \"Port Louis\",\n      \"type\": \"mu_place\",\n      \"ru\": 
-  written by qwen/qwen3.8-27b
-  not about Mauritius: Indentured heritage : From coolie to citizen: the unfinished journey of coolitude
-Skipped foreign news (L'Express): Indentured heritage : From coolie to citizen: the unfinished journey of coolitude
-  dup check: new (Le ministère de l'énergie a signé un contrat de 260 000 dollars singapouriens (≈ Rs 9,5 M) avec la Singapore Cooperation Enterprise pour réaliser une )
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Компания из Сингапура займётся стратегией борьбы с потерями воды
-  dup check: new (Annonce d'une conférence régionale à Maurice réunissant plusieurs pays pour promouvoir l'universalisation et la mise en œuvre du Traité des Nations un)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Top FM): Торговля оружием: Маврикий выступает за региональное сотрудничество
-LLM usage this run: 10 requests, 16965 tokens
-### check 5/5 at 18:14
-  dup: nothing new ()
-Skipped duplicate (Top FM): Deuxième hausse du taux directeur : la Banque de Maurice agit pour contenir l’inflation == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-  dup check: new (Le ministre de la Santé, Anil Bachoo, indique que entre 13 500 et 14 000 enfants seraient concernés par l’autisme à Maurice, chiffre absent des précéd)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Аниль Бачу → Anil Bachoo; Вимал Гунгадин → Veemal Gungadin
-  foreign words left: Mauritius
-  leftovers fixed by qwen/qwen3.8-27b; still left: Mauritius
-Posted (Top FM): Mauritius Telecom укрепляет обязательства по общественному здравоохранению
-LLM usage this run: 5 requests, 7913 tokens
+Skipped duplicate (Defimedia): Hausse du taux directeur à 5 % : ce que vous gagnez, ce que vous perdez == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
+LLM usage this run: 8 requests, 13787 tokens
