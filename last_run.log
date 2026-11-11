@@ -1,40 +1,18 @@
-### check 1/5 at 20:37
-  dup check: new (Annonce de la hausse du taux directeur de la Banque de Maurice à 5 % (déjà publié), mais introduit de nouveaux faits : un contrat de 19 000 Rs/jour at)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Навин Рамгулам → Navin Ramgoolam; Французским агентством развития → Agence française de développement
-  foreign words left: Agence, française, de, développement
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (Defimedia): Повышение ключевой ставки Банка Маврикия и поддержка в борьбе с кризисом воды
-  dup check: new (FCC revokes its earlier decision to bar lawyer Me Shamir Hossany from representing Jean-Michel Lee Shim at his interrogation scheduled for 10 Nov 2026)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Жана-Мишеля Ли Шима → Jean-Michel Lee Shim; Шамиру Хоссани → Shamir Hossany; Жан-Мишеля Ли Шима → Jean-Michel Lee Shim; Ли Шим → Jean-Michel Lee Shim
-Posted (Defimedia): Финансовая комиссия отказалась отстранить адвоката Jean-Michel Lee Shim
-  dup check: new (Aucun gagnant au tirage du Loto et du Loto Plus le 11 novembre ; le prochain jackpot estimé à environ Rs 20 millions pour le Loto et Rs 8 millions pou)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Лото и Лото Плюс: никто не выиграл джекпот 11 ноября
-  dup check: new (Arrestation d'un troisième suspect dans le meurtre de Selven Iyempermal, prévu de comparaître devant le tribunal de Curepipe.)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Ранее задержанным Imtiyaz Chady и Ridwaan Bauluck обвинения отрицают → Ранее задержанные Imtiyaz Chady и Ridwaan Bauluck отрицают обвинения
-Posted (Defimedia): Убийство Selven Iyempermal: задержан третий подозреваемый
-LLM usage this run: 13 requests, 21718 tokens
-### check 2/5 at 20:41
-  dup check: new (Interim Prime Minister Arianne Navarre-Marie spoke in Parliament on 10 November, reiterating the demand for concrete progress by December 2026 and not)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Ариан Наварр-Марие → Arianne Navarre-Marie
-Posted (Inside News): Маврикий требует прогресса по соглашению Чагос до декабря
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Hausse du taux directeur à 5 % : la gouverneure de la BoM explique les raisons de cette dé == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-LLM usage this run: 4 requests, 7434 tokens
-### check 3/5 at 20:45
-### check 4/5 at 20:49
-### check 5/5 at 20:53
-  dup check: new (Déclaration du député Khushal Lobine, leader des Nouveaux Démocrates, critiquant la hausse du taux directeur à 5 % et avertissant qu'elle alourdit les)
+### check 1/5 at 21:38
+  dup check: new (The initial deadline for the Chagos agreement is now confirmed for next month, shifting the previously reported deadline of December 2026.)
   written by qwen/qwen3.8-27b
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Базовая ставка 5%: «Повышение слишком велико для домохозяйств и предприятий», — сетует Khushal Lobine
-LLM usage this run: 3 requests, 5919 tokens
+  foreign words left: Чagos, Чagos
+Posted (Le Mauricien): Суверенитет — Договор с Великобританией — Чagos: первоначальный срок подтвержден на следующий месяц
+LLM per-minute limit, waiting 9s
+  written by qwen/qwen3.8-27b
+  not news (portrait/lifestyle): Questions à...  Sonal Cheekhooree : «L’autorité ne peut plus reposer uniquement sur un titre ou une 
+Skipped foreign news (L'Express): Questions à...  Sonal Cheekhooree : «L’autorité ne peut plus reposer uniquement sur un titre ou une 
+  dup: nothing new ()
+Skipped duplicate (Inside News): Air Mauritius : Rs 4,1 milliards de bénéfice annoncés, mais seulement Rs 2 milliards après == Air Mauritius: за прибылью в 4,1 млрд рупий скрывается скорректированный результат в 2 млр
+  dup check: new (EU Commission proposes KIDS Act setting minimum age of 15 to open a social media account autonomously and banning access under 13, a new regulatory pr)
+LLM per-minute limit, waiting 3s
+  written by qwen/qwen3.8-27b
+  not about Mauritius: Réseaux sociaux : l’Union européenne propose un seuil de 15 ans pour ouvrir un compte
+Skipped foreign news (Inside News): Réseaux sociaux : l’Union européenne propose un seuil de 15 ans pour ouvrir un compte
+LLM usage this run: 7 requests, 15188 tokens
