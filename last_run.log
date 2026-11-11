@@ -1,58 +1,10 @@
-### check 1/5 at 12:00
+### check 1/5 at 12:55
   dup: nothing new ()
-Skipped duplicate (Defimedia): Circulation perturbée à Port-Louis : jusqu’à 90 minutes pour rallier le centre de la capit == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
-  dup check: new (В статье упоминается новый свидетель — шкипер Вишал Тевари из Mauritius Ports Authority (MPA), который дал показания в суде по делу о крушении Sir Gaë)
-  proofread: Kapitenn Newoor kontan fer seki latet dir li → Капитан Newoor любит делать то, что взбредёт ему в голову; remorqueur Sir GaÃ«tan → буксир Sir Gaëtan; au pénal intenté au capitaine → уголовному делу против капитана
-Posted (Le Mauricien): Промежуточный суд — крушение Sir Gaëtan — шкипер: «Kavidev Newoor любит делать то, что взбредёт ему в голову»
-  not about Mauritius: Read what your AI vendor tells its lawyers
-Skipped foreign news (L'Express): Read what your AI vendor tells its lawyers
-  dup check: new (Министерство окружающей среды одобрило 5 ноября экологическую оценку (EIA) проекта по защите побережья в Морне, направленного на борьбу с эрозией. Про)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Le
-  leftovers fixed by GigaChat-3-Pro; still left: Le
-Posted (Defimedia): Борьба с эрозией — Le Morne: «мягкий» проект берегозащиты для объекта Всемирного наследия ЮНЕСКО
-LLM usage this run: 9 requests, 15718 tokens
-### check 2/5 at 12:04
-  dup check: new (Объявлено о переносе части акций Cargo Handling Corporation Ltd (CHCL) к Maersk и Mediterranean Shipping Company до конца февраля 2027 года; это новое)
-  proofread: «до конца февраля» → «к концу февраля»
-Posted (L'Express): Портовый сектор: передача акций CHCL к февралю 2027 года
-  dup check: new (La Banque de Maurice a publié le 10 novembre une nouvelle étape de son appel d’offres pour la fourniture et la mise en œuvre d’une plateforme de parta)
-  proofread: «Ce que les clients peuvent en attendre» → «Что могут ожидать клиенты»; «mutualiser plus rapidement des informations sur les menaces numériques susceptibles d’affecter plusieurs établissements» → «ускорять взаимный обмен информацией о цифровых угрозах, способных затронуть несколько учреждений»; «une
-  foreign words left: Banques
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Inside News): Банк Маврикия готовит платформу для обмена информацией об угрозах
+Skipped duplicate (Le Mauricien): DROGUE — Axe Thaïlande/Maurice :  Le Dreamer au peigne fin par la police scientifique == Предполагаемый трафик каннабиса: яхт Dreamer подвергнут научным исследованиям
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Assemblée nationale — Fait du jour avec la violence et protection de l’enfance : Plus que  == На Маврикии с начала года задержали 103 подростка за преступления, связанные с наркотиками
-  dup check: new (США в очередной раз бойкотировали свой обзор по правам человека в ООН; заседание перенесено на январь без санкций за неявку. Это первый случай двойног)
-  not about Mauritius: Les Etats-Unis sèchent (encore) leur examen « droits humains » devant l’ONU
-Skipped foreign news (Le Mauricien): Les Etats-Unis sèchent (encore) leur examen « droits humains » devant l’ONU
-LLM usage this run: 10 requests, 15304 tokens
-### check 3/5 at 12:08
+Skipped duplicate (Inside News): Cyberviolence : 5 754 incidents signalés à Maurice, un cadre avec Meta annoncé == Киберпреступность: на Маврикии ежедневно регистрируют почти 19 инцидентов
   dup: nothing new ()
-Skipped duplicate (Inside News): Terres agricoles : seulement 58 % des surfaces exploitées, la gestion du patrimoine public == Joanna Bérenger: вопросы по управлению сельскохозяйственными землями
-  not news (portrait/lifestyle): The reforms sustained
-Skipped foreign news (L'Express): The reforms sustained
+Skipped duplicate (Defimedia): Port : Maersk et MSC pressentis pour reprendre la gestion de la CHCL == Портовый сектор: передача акций CHCL к февралю 2027 года
   dup: nothing new ()
-Skipped duplicate (Defimedia): À l’approche des fêtes - devises : la course contre la montre des importateurs avant décem == Валютный рынок: Банк Маврикия вливает доллары, но их нехватка в кассах сохраняется
-  dup: nothing new ()
-Skipped duplicate (L'Express): PMQT l Abus sexuel présumé : Jean François Veckranges toujours en cavale == Предполагаемое сексуальное насилие над шестилетней девочкой: три недели поисков, подозрева
-LLM usage this run: 4 requests, 6310 tokens
-### check 4/5 at 12:12
-  dup: nothing new ()
-Skipped duplicate (Inside News): Emploi : STC, EWF, DBM et WMA recrutent, les échéances à retenir en novembre == Работа на Маврикии: Air Mauritius завершает семь наборов во вторник, PSC и ряд компаний та
-  dup: nothing new ()
-Skipped duplicate (Top FM): Mauritius Telecom Foundation : deux bourses annuelles pour les meilleurs élèves de la fili == Парламент: законопроект «Mauritius Telecom Foundation Bill» в повестке дня на этот вторник
-  dup: nothing new ()
-Skipped duplicate (Top FM): Protection de l’enfance : rectification des chiffres après la PNQ == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
-  dup: nothing new ()
-Skipped duplicate (Top FM): Alliance du Changement : après deux ans au pouvoir, plusieurs promesses électorales toujou == Альянс перемен: неоднозначные экономические итоги после двух лет у власти на фоне роста до
-LLM usage this run: 4 requests, 4692 tokens
-### check 5/5 at 12:16
-  dup: nothing new ()
-Skipped duplicate (Top FM): Gestion des déchets : 3 850 composteurs distribués sur les 5 000 achetés par le ministère == На Маврикии распределено уже почти 4 тысячи компостеров
-  dup: nothing new ()
-Skipped duplicate (Top FM): Protection de l’enfance : l’urgence d’agir avant qu’il ne soit trop tard == Парламент: срочный вопрос оппозиции (PNQ) проверяет насилие, размещение детей и подростков
-  dup check: new (Впервые объявлено о запуске исследования по переходу на 40-часовую рабочую неделю с выделением бюджета и назначением консультанта; ранее публиковались)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): 40-часовая рабочая неделя: исследование по оценке выполнимости ожидается к апрелю 2027 года
-LLM usage this run: 5 requests, 7519 tokens
+Skipped duplicate (L'Express): PQ l Petit-Gamin : le centre équestre sous la menace de sanctions == Конный центр Petit-Gamin получил предписание о сносе
+LLM usage this run: 4 requests, 4599 tokens
