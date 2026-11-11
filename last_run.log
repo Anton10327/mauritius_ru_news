@@ -1,33 +1,16 @@
-### check 1/5 at 14:52
-  dup check: new (Maurice will receive 120 meteorological, hydrological and marine equipment worth Rs 163 million (≈US$3.4 million) under the HYDROMET programme of the )
+### check 1/5 at 15:48
+  dup check: new (Announcement of the renewal period for 2027 firearm permits, hunting licences, competency certificates and employee permits in Mauritius: dates 23 Nov)
   proofread by qwen/qwen3.8-27b
-Posted (Defimedia): HYDROMET: Маврикий получит метеооборудование на 163 млн рупий
-  dup check: new (Joëlle Coret represented Mauritian independent artists at the 2nd International Freelancers Conference of the International Federation of Musicians in)
+Posted (Inside News): Разрешения на оружие 2027: где и когда продлевать на Маврикии
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): MONDE LITTÉRAIRE — « Chronique d’un royaume perdu » : Le Prix Jean Giono 2026 attribué à A == Маврикийская романистка Ananda Devi получила премию Jean Giono
+  dup check: new (Three Bangladeshi migrant workers died in a workplace accident in Plaine-des-Papayes on 4 Nov; names, ages, and the solidarity statement by the Pastor)
   proofread by qwen/qwen3.8-27b
-  proofread: Жоэль Корэ → Joëlle Coret
-Posted (Top FM): От Маврикия до Брайтона: Joëlle Coret несёт борьбу независимых артистов на международную арену
-LLM usage this run: 6 requests, 12010 tokens
-### check 2/5 at 14:56
-  dup check: new (Controverse dans un collège du Nord concernant la suppression prévue de l'enseignement de l'hindouisme en Grade 10 et la promesse du ministère de prés)
+  proofread: «Пастораль мигрантов» → «Pastorale des Migrants»
+Posted (Defimedia): Смерть трёх бангладешских рабочих: «Pastorale des Migrants» выражает солидарность
+  dup check: new (Annonce du Tertiary Education Roadshow de Le Mauricien avec les dates et lieux (Grand‑Baie 13‑14 nov., Tamarin 20‑21 nov., Flacq 27‑28 nov.) et les pa)
   proofread by qwen/qwen3.8-27b
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Обучение индуизму в 10-м классе: колледж на севере вызвал споры, министерство обещает сохранить выбор учеников
-LLM usage this run: 3 requests, 5060 tokens
-### check 3/5 at 15:00
-  dup check: new (Révélation d'un prétendu empire financier de 15 milliards de roupies lié à l'affaire Dreamer, utilisant des cryptomonnaies, des portefeuilles numériqu)
-GigaChat certificate download failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-  proofread by qwen/qwen3.8-27b
-  foreign words left: IT-инструменты
-  leftovers fixed by qwen/qwen3.8-27b; still left: none
-Posted (L'Express): Дело «Dreamer»: закулисье предполагаемой империи на 15 млрд рупий
-LLM usage this run: 4 requests, 6301 tokens
-### check 4/5 at 15:04
-  dup check: new (Organisation d'une marche de sensibilisation au diabète le 14 novembre 2026 à Grand Baie, avec le Rotary Club, le Lions Club et le Brahma Kumaris, dét)
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Марш против диабета в Grand Baie: ещё один шаг, чтобы спасать жизни
-  not about Mauritius: “Ode aux f’âmes”
-Skipped foreign news (Le Mauricien): “Ode aux f’âmes”
-  not about Mauritius: To troll or not to troll
-Skipped foreign news (Le Mauricien): To troll or not to troll
-LLM usage this run: 5 requests, 11857 tokens
-### check 5/5 at 15:08
+  foreign words left: Education
+  leftovers fixed by qwen/qwen3.8-27b; still left: Education
+Posted (Le Mauricien): «Мечта, выбор»: Le Mauricien запускает Tertiary Education Roadshow для будущих студентов
+LLM usage this run: 11 requests, 19896 tokens
