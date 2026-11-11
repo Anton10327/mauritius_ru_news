@@ -21,3 +21,12 @@ Posted (Defimedia): Лото и Лото Плюс: никто не выигра�
   proofread: Ранее задержанным Imtiyaz Chady и Ridwaan Bauluck обвинения отрицают → Ранее задержанные Imtiyaz Chady и Ridwaan Bauluck отрицают обвинения
 Posted (Defimedia): Убийство Selven Iyempermal: задержан третий подозреваемый
 LLM usage this run: 13 requests, 21718 tokens
+### check 2/5 at 20:41
+  dup check: new (Interim Prime Minister Arianne Navarre-Marie spoke in Parliament on 10 November, reiterating the demand for concrete progress by December 2026 and not)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Ариан Наварр-Марие → Arianne Navarre-Marie
+Posted (Inside News): Маврикий требует прогресса по соглашению Чагос до декабря
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Hausse du taux directeur à 5 % : la gouverneure de la BoM explique les raisons de cette dé == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
+LLM usage this run: 4 requests, 7434 tokens
