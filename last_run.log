@@ -22,3 +22,14 @@ Skipped foreign news (Le Mauricien): TO THE MINISTER OF EDUCATION  -The Reintrod
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): Chetan Baboolall, leader de l’opposition : « Le projet de loi comporte de nombreuses lacun == Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mah
 LLM usage this run: 7 requests, 12146 tokens
+### check 3/5 at 22:22
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): (IN)Sécurité routière — Sébastopol : Un chasseur de tenrec tué par une voiture == Sébastopol: пешеход погиб после столкновения с автомобилем
+  not news (portrait/lifestyle): Du cynisme à la citoyenneté  : Reprendre la parole collective à Maurice
+Skipped foreign news (Le Mauricien): Du cynisme à la citoyenneté  : Reprendre la parole collective à Maurice
+  dup check: new (Объявлено о введении с 1 января 2027 года в госсекторе отпуска по беременности и родам на 26 недель с полной оплатой; министр анонсировал публикацию ц)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Госслужба: отпуск по беременности и родам на 26 недель с полной зарплатой вступит в силу 1 января 2027 года
+  dup check: new (В новой статье сообщается о находке тела мужчины в состоянии сильного разложения на пустыре в Richelieu; личность не установлена, обстоятельства смерт)
+Posted (Defimedia): Richelieu: тело мужчины в сильно разложившемся состоянии обнаружено на пустыре
+LLM usage this run: 8 requests, 11505 tokens
