@@ -1,29 +1,12 @@
-### check 1/5 at 10:47
+### check 1/5 at 12:02
+  dup check: new (В статье описано обнаружение в канализации компании в Нувель-Франс объекта органического происхождения, предположительно человеческого, и передача его)
+  not about Mauritius: Nouvelle-France : Une substance d'origine humaine soupçonnée dans une canalisation
+Skipped foreign news (L'Express): Nouvelle-France : Une substance d'origine humaine soupçonnée dans une canalisation
   dup: nothing new ()
-Skipped duplicate (Defimedia): Taux directeur : La BoM passe à 5 % pour contrer la poussée inflationniste == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
+Skipped duplicate (Le Mauricien): Kushal Lobine monte en première ligne == Базовая ставка 5%: «Повышение слишком велико для домохозяйств и предприятий», — сетует Khu
   dup: nothing new ()
-Skipped duplicate (L'Express): Taux directeur relevé : Les ménages endettés craignent le coup de massue == Банк Маврикия: ключевая ставка повышена до 5% на фоне инфляционного давления
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Le Mauricien lance son Tertiary Education Roadshow dans trois régions du pays == «Мечта, выбор»: Le Mauricien запускает Tertiary Education Roadshow для будущих студентов
-  same headline as #90: Face à la flambée des prix : La Banque de Maurice relève son taux directeur à 5 
-Skipped duplicate (Inside News): Taux directeur : la Banque de Maurice le relève à 5 %, face au retour des pressions sur le == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-LLM usage this run: 3 requests, 3307 tokens
-### check 2/5 at 10:51
-  dup check: new (Европейская комиссия 10 ноября запустила консультацию по пересмотру своих электоральных руководств в рамках DSA с акцентом на риски генеративного ИИ и)
-  not about Mauritius: Élections et IA générative : Bruxelles veut renforcer les obligations des grandes plateformes
-Skipped foreign news (Inside News): Élections et IA générative : Bruxelles veut renforcer les obligations des grandes plateformes
-  dup check: new (FIFA может выделить Маврикийской футбольной ассоциации 25 миллионов долларов на 2027–2030 годы и планируется строительство нового стадиона для национа)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: ×
-  leftovers fixed by GigaChat-3-Pro; still left: ×
-Posted (Top FM): ФИФА: МФА может получить 25 млн долларов на 2027–2030 годы, для сборной Маврикия рассматривают новый стадион
-LLM usage this run: 6 requests, 9586 tokens
-### check 3/5 at 10:55
-### check 4/5 at 10:59
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Иностранная рабочая сила — Reza Uteem: «Более 47 агентств по найму имеют разрешение на деятельность...»
-LLM usage this run: 2 requests, 3539 tokens
-### check 5/5 at 11:03
-  dup: nothing new (Voyager 1 достигнет расстояния в более чем 25,9 млрд км от Земли (одна световая сутки) к 18 ноября 2026 года; сигналу потребуется 24 часа для достижен)
-Skipped duplicate (Inside News): Voyager 1 atteindra une journée-lumière de la Terre le 18 novembre == «Саммит США–Африка по бизнесу 2026»: работы в SVICC должны завершиться 15 ноября
-LLM usage this run: 1 requests, 1597 tokens
+Skipped duplicate (Le Mauricien): Conférence internationale : Le Groupe SBM, Diamond Sponsor du U.S.-Africa Business Summit == Группа SBM станет главным спонсором саммита U.S.-Africa Business Summit 2026
+  dup check: new (Проект HEI-Blue: конференция по устойчивому развитию предпринимательства в морской сфере на Маврикии и соседних островах; участие UTM, COI и ЕС.)
+  not news (portrait/lifestyle): HEI-Blue : Vers une nouvelle génération d’entrepreneurs de la mer
+Skipped foreign news (Le Mauricien): HEI-Blue : Vers une nouvelle génération d’entrepreneurs de la mer
+LLM usage this run: 6 requests, 9519 tokens
