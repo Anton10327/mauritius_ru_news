@@ -1,42 +1,11 @@
-### check 1/5 at 13:04
-  dup check: new (В статье приведены конкретные цифры по нехватке медицинского персонала и оборудования: пять нейрохирургов для круглосуточных дежурств в пяти региональ)
-Posted (Defimedia): Отчёт о результатах работы больниц за 2025–2026 годы: нехватка кадров, поломки и задержки подрывают работу служб
-  dup: nothing new (Le téléphone du capitaine Suriya Samanboot a été cloné pendant plus de trois heures à l'IT Unit des Casernes centrales; son avocat Somand Kumar Adheen)
-Skipped duplicate (Defimedia): Affaire Dreamer : le téléphone du capitaine thaïlandais cloné, l’Adsu attend le rapport == Предполагаемый трафик каннабиса: яхт Dreamer подвергнут научным исследованиям
+### check 1/5 at 14:05
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Politique monétaire : Le Key Rate passe de 4,75 % à 5% face aux pressions inflationnistes == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
+Skipped duplicate (Defimedia): Étude sur les générations : la Gen Z en quête de sens, les aînés attachés à la stabilité == Предполагаемое сексуальное насилие над шестилетней девочкой: три недели поисков, подозрева
   dup: nothing new ()
-Skipped duplicate (Defimedia): Soupçonné d’être impliqué dans le meurtre de Selven Iyempermal : Sayif Udeen Ramjan reste  == Убийство Selven Iyempermal: задержан третий подозреваемый
-LLM usage this run: 6 requests, 8694 tokens
-### check 2/5 at 13:08
-  dup check: new (Mamy Ravatomanga появился в суде 12 ноября и его адвокаты потребовали отмены временных обвинений; следующее заседание назначено на 13 января 2027 года)
-Posted (Defimedia): Предполагаемые отмывание денег и сговор: Mamy Ravatomanga требует отмены предварительных обвинений
-  dup: nothing new ()
-Skipped duplicate (L'Express): Affaire SMS Pariaz : Jean-Michel Lee Shim obtient le report de son audition par la FCC == Финансовая комиссия отказалась отстранить адвоката Jean-Michel Lee Shim
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): CAMP-LEVIEUX: Il est sauvagement agressé pour une affaire de drogue == Camp-Levieux: похищен на улице, удерживался в заложниках и изрублен саблей
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Au Cœur de l’Info : quinze ans après le rapport de la Commission Justice et Vérité, quel b == Au Cœur de l’Info: какой итог спустя два года после всеобщих выборов?
-LLM usage this run: 6 requests, 7201 tokens
-### check 3/5 at 13:12
-  dup: nothing new ()
-Skipped duplicate (L'Express): Fléau social : Nous n’avons qu’une vie, pourquoi la laisser gâcher par la drogue ? == Незаконное занятие частных земель на Ti-Rodrigues: власти готовят титулы собственности для
-  dup: nothing new ()
-Skipped duplicate (L'Express): BLACK-OUT : Gérer l'énergie au quotidien == Незаконное занятие частных земель на Ti-Rodrigues: власти готовят титулы собственности для
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): PORT-LOUIS | Fermeture de la rue Mgr Leen : La circulation paralysée à l’entrée de la capi == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
-  dup check: new (В новой статье сообщается о найденном 11 ноября в Баи-дю-Томбо мужчине 31 года с тяжелыми травмами после предполагаемой агрессии. Это новое событие, н)
-Posted (Defimedia): Baie-du-Tombeau: 31-летний мужчина найден тяжело раненым на дороге
-LLM usage this run: 6 requests, 6797 tokens
-### check 4/5 at 13:16
-  dup: nothing new ()
-Skipped duplicate (Inside News): Trafic d’armes : Maurice accueille un atelier régional sur les contrôles == Торговля оружием: Маврикий выступает за региональное сотрудничество
-  dup check: new (Аресты двух подозреваемых (Saravanen Mootoovaloo и Khooshal Sookaloo) по серии краж в Северном округе с признанием их участия; ранее не публиковалось )
+Skipped duplicate (Defimedia): Haniff Peerun : « La hausse du Key Rate aura des effets contrastés sur les ménages » == Базовая ставка 5%: «Повышение слишком велико для домохозяйств и предприятий», — сетует Khu
+  dup check: new (Инцидент в тюрьме Melrose: нападение заключенного на охранника 10 ноября около 14:45; подробности конфликта и травмы охранника.)
+Posted (Defimedia): Melrose: заключённый подозревается в нападении на тюремного надзирателя
+  dup check: new (Восемь человек признаны виновными в нарушении комендантского часа; двое из них также обвинялись в хранении оружия. Суд вынесет приговор 18 ноября 2026)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): На севере Маврикия задержаны двое подозреваемых: полиция раскрыла несколько краж
-  dup: nothing new ()
-Skipped duplicate (Top FM): Deux ans après le 60-0 : « Je continue à croire que nous sommes dans la bonne direction », == Главные заголовки Top FM на среду, 11 ноября 2026 года
-  same subject as #105: taux directeur à 5 %
-Skipped duplicate (Top FM): Taux directeur à 5 % : Chetan Baboolall juge la hausse insuffisante pour freiner l’inflati == Базовая ставка 5%: «Повышение слишком велико для домохозяйств и предприятий», — сетует Khu
-LLM usage this run: 5 requests, 6909 tokens
-### check 5/5 at 13:20
+Posted (Defimedia): Нарушение комендантского часа: восемь человек признаны виновными в суде
+LLM usage this run: 8 requests, 12293 tokens
