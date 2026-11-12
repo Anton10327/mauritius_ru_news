@@ -19,3 +19,17 @@ Skipped duplicate (L'Express): La Vigie : Un conducteur de 20 ans arrêté avec 
   dup check: new (В статье впервые сообщается о строгих ограничениях на ирригацию, которые угрожают 750 гектарам овощных культур на Маврикии до декабря; приводятся данн)
 Posted (Wazaa): Строгие ограничения на орошение угрожают 750 гектарам овощных культур на Маврикии к декабрю
 LLM usage this run: 6 requests, 8457 tokens
+### check 3/5 at 14:13
+  dup: nothing new ()
+Skipped duplicate (L'Express): Procès aux assises : Reddy Mooneesawmy aurait été étouffé pour Rs 400 == Убийство Soopramanien Mooneesawmy: первые полицейские наблюдения представлены суду присяжн
+  dup check: new (Принят Mauritius Telecom Foundation Bill: создание фонда для ежегодных стипендий двум отличившимся выпускникам по науке после State Scholars с 2027 го)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mahend Gungapersad: «Превосходство будет признано и поощрено»
+  dup check: new (Manchester United a limogé Mikhail Carrick après un début de saison décevant et la possibilité d’engager Mauricio Pochettino est évoquée.)
+  not about Mauritius: Angleterre : Manchester United limoge Carrick, Pochettino en vue
+Skipped foreign news (L'Express): Angleterre : Manchester United limoge Carrick, Pochettino en vue
+  dup check: new (Запущен официальный тендер на закупку системы видеоконференций и цифрового записи для суда Родригеса с дедлайном 8 декабря 2026 года; проект зарегистр)
+  proofread: суд на Родригесе → суд на острове Родригес
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Inside News): Суд Rodrigues планирует ввести видеоконференц-связь и цифровую запись
+LLM usage this run: 9 requests, 14301 tokens
