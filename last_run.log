@@ -40,3 +40,14 @@ Skipped duplicate (Defimedia): [Info Soirée] : « SITIASYON PE RES CRITIK » ==
   leftovers fixed by GigaChat-3-Pro; still left: none
 Posted (Defimedia): SBM: прибыль до налогообложения выросла на 23,1% по итогам сентября
 LLM usage this run: 11 requests, 14410 tokens
+### check 4/5 at 03:54
+  not about Mauritius: Taïwan : pourquoi une crise pourrait-elle bouleverser le commerce mondial ?
+Skipped foreign news (Defimedia): Taïwan : pourquoi une crise pourrait-elle bouleverser le commerce mondial ?
+  same headline as #36: Autisme, cardiologie, dialyse : Trois accords avec Mauritius Telecom pour renfor
+Skipped duplicate (L'Express): Santé l Autisme, cardiologie et dialyse : trois accords pour renforcer les services de san == Три соглашения с Mauritius Telecom для улучшения медицинских услуг
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Accident à Ferney : un motocycliste de 49 ans perd la vie == Дорожно-транспортное происшествие в Port-Louis: мотоциклист сбил пешехода возрастом 99 лет
+  dup check: new (Статья рассказывает о мемуарах Sonia Gandhi и десяти спорных моментах из её жизни, которые вызвали дебаты в Индии. Это новая тема, не связанная с ране)
+  not about Mauritius: Sonia Gandhi : dix passages de ses mémoires qui font débat en Inde
+Skipped foreign news (Defimedia): Sonia Gandhi : dix passages de ses mémoires qui font débat en Inde
+LLM usage this run: 4 requests, 7806 tokens
