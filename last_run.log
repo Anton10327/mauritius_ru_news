@@ -8,3 +8,13 @@ Skipped duplicate (Le Mauricien): Le Mauricien lance son Tertiary Education Road
   same headline as #90: Face à la flambée des prix : La Banque de Maurice relève son taux directeur à 5 
 Skipped duplicate (Inside News): Taux directeur : la Banque de Maurice le relève à 5 %, face au retour des pressions sur le == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
 LLM usage this run: 3 requests, 3307 tokens
+### check 2/5 at 10:51
+  dup check: new (Европейская комиссия 10 ноября запустила консультацию по пересмотру своих электоральных руководств в рамках DSA с акцентом на риски генеративного ИИ и)
+  not about Mauritius: Élections et IA générative : Bruxelles veut renforcer les obligations des grandes plateformes
+Skipped foreign news (Inside News): Élections et IA générative : Bruxelles veut renforcer les obligations des grandes plateformes
+  dup check: new (FIFA может выделить Маврикийской футбольной ассоциации 25 миллионов долларов на 2027–2030 годы и планируется строительство нового стадиона для национа)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: ×
+  leftovers fixed by GigaChat-3-Pro; still left: ×
+Posted (Top FM): ФИФА: МФА может получить 25 млн долларов на 2027–2030 годы, для сборной Маврикия рассматривают новый стадион
+LLM usage this run: 6 requests, 9586 tokens
