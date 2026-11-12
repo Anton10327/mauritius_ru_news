@@ -1,25 +1,10 @@
-### check 1/5 at 09:44
+### check 1/5 at 10:47
   dup: nothing new ()
-Skipped duplicate (Defimedia): [Blog] Deux ans après le 60–0 : entre promettre et gouverner - Le peuple, ses attentes et  == Au Cœur de l’Info: какой итог спустя два года после всеобщих выборов?
+Skipped duplicate (Defimedia): Taux directeur : La BoM passe à 5 % pour contrer la poussée inflationniste == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
   dup: nothing new ()
-Skipped duplicate (L'Express): «Key Rate» à 5% : Le crédit va coûter plus cher aux ménages et aux entreprises == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-  not news (portrait/lifestyle): Charles Telfair Education : Un réseau d’établissements et de formations internationales
-Skipped foreign news (Le Mauricien): Charles Telfair Education : Un réseau d’établissements et de formations internationales
-  same headline as #106: Port-Louis : deux voies vers le centre-ville de 7 heures à 10 heures dès ce jeud
-Skipped duplicate (Le Mauricien): Circulation sur la route A1 : deux voies vers Port-Louis de 7 h à 10 h dès ce jeudi == Port-Louis: две полосы движения в центр города с 7 до 10 часов начиная с четверга
-LLM usage this run: 3 requests, 4213 tokens
-### check 2/5 at 09:48
+Skipped duplicate (L'Express): Taux directeur relevé : Les ménages endettés craignent le coup de massue == Банк Маврикия: ключевая ставка повышена до 5% на фоне инфляционного давления
   dup: nothing new ()
-Skipped duplicate (Wazaa): Prévisionniste rassure le public après quatre séismes dans l’océan Indien en dix jours == Землетрясения в Индийском океане: четыре толчка за десять дней, стоит ли беспокоиться?
-  dup: nothing new (Экономист Ishvind Caleechurn раскритиковал повышение ставки и предложил временно отменить акцизы на топливо; его цитаты о "trial and error" и прогноз )
-Skipped duplicate (Top FM): Hausse du taux directeur : L’économiste Ishvind Caleechurn dénonce un « coup dur pour les  == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-  dup check: new (Муниципалитет Port-Louis предупреждает о запрете установки незаконных киосков и конструкций на тротуарах и дорогах; запрещает использовать припаркован)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Top FM): Port-Louis: муниципалитет ужесточает меры против незаконных сооружений на тротуарах и дорогах
-LLM usage this run: 5 requests, 5459 tokens
-### check 3/5 at 09:52
-### check 4/5 at 09:56
-### check 5/5 at 10:00
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Deux ans de pouvoir : Reza Uteem défend les priorités du gouvernement == Au Cœur de l’Info: какой итог спустя два года после всеобщих выборов?
-LLM usage this run: 1 requests, 906 tokens
+Skipped duplicate (Le Mauricien): Le Mauricien lance son Tertiary Education Roadshow dans trois régions du pays == «Мечта, выбор»: Le Mauricien запускает Tertiary Education Roadshow для будущих студентов
+  same headline as #90: Face à la flambée des prix : La Banque de Maurice relève son taux directeur à 5 
+Skipped duplicate (Inside News): Taux directeur : la Banque de Maurice le relève à 5 %, face au retour des pressions sur le == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
+LLM usage this run: 3 requests, 3307 tokens
