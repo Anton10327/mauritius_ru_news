@@ -46,3 +46,18 @@ Posted (Defimedia): [В фотографиях] Водохранилище Mare-
   dup: nothing new ()
 Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : l’IPCC chez Élodie Thomas pour recueillir sa première déposit == Дело Élodie Thomas: расследование IPCC вступает в решающую фазу
 LLM usage this run: 11 requests, 13833 tokens
+### check 5/5 at 22:30
+  dup check: new (Misley Mandarin заявил о намерении остаться на острове после решения суда 12 ноября; ранее не было его реакции на это решение.)
+  not about Mauritius: Misley Mandarin après la décision de la Cour : «Nous ne partirons pas»
+Skipped foreign news (Defimedia): Misley Mandarin après la décision de la Cour : «Nous ne partirons pas»
+  dup check: new (В статье описывается новое дело о распространении интимных фото и угрозах полицейскому в WhatsApp-группе. Это отдельное событие, не связанное с публик)
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Соцсети | интимные фото В сети: полицейский разоблачил группу и получил угрозы
+  not about Mauritius: Angleterre : Manchester United fait sauter le fusible Michael Carrick
+Skipped foreign news (Defimedia): Angleterre : Manchester United fait sauter le fusible Michael Carrick
+  dup check: new (Termination of Swiss Finance Corporation (Mauritius) Limited's investment advice licence (SEC-2.4, OC95001763) effective 4 June 2026, announced by the)
+  proofread by qwen/qwen3.8-27b
+  proofread: edit rejected (changed numbers, names or length)
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Inside News): Инвестиционное консультирование: лицензия FSC компании Swiss Finance Corporation (Mauritius) Limited прекращена
+LLM usage this run: 9 requests, 16912 tokens
