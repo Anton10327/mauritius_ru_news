@@ -1,9 +1,7 @@
-### check 1/5 at 06:54
-  dup check: new ()
-  not news (portrait/lifestyle): Météo : la température maximale légèrement supérieure à la moyenne saisonnière
-Skipped foreign news (Defimedia): Météo : la température maximale légèrement supérieure à la moyenne saisonnière
-LLM usage this run: 2 requests, 2921 tokens
-### check 2/5 at 06:58
-### check 3/5 at 07:02
-### check 4/5 at 07:06
-### check 5/5 at 07:10
+### check 1/5 at 07:46
+  dup check: new (Статья рассказывает о вакцинации против ВПЧ и скрининге рака шейки матки на Маврикии: как происходит информирование через согласие в школе, когда пров)
+  not news (portrait/lifestyle): Cancer du col de l’utérus à Maurice : vaccin HPV, dépistage et où trouver de l’aide
+Skipped foreign news (Inside News): Cancer du col de l’utérus à Maurice : vaccin HPV, dépistage et où trouver de l’aide
+  dup: nothing new ()
+Skipped duplicate (Top FM): Taux directeur relevé à 5 % : La Banque de Maurice intervient « pour empêcher une envolée  == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
+LLM usage this run: 3 requests, 6166 tokens
