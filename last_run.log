@@ -28,3 +28,14 @@ Skipped duplicate (Le Mauricien): PORT-LOUIS | Fermeture de la rue Mgr Leen : La
   dup check: new (В новой статье сообщается о найденном 11 ноября в Баи-дю-Томбо мужчине 31 года с тяжелыми травмами после предполагаемой агрессии. Это новое событие, н)
 Posted (Defimedia): Baie-du-Tombeau: 31-летний мужчина найден тяжело раненым на дороге
 LLM usage this run: 6 requests, 6797 tokens
+### check 4/5 at 13:16
+  dup: nothing new ()
+Skipped duplicate (Inside News): Trafic d’armes : Maurice accueille un atelier régional sur les contrôles == Торговля оружием: Маврикий выступает за региональное сотрудничество
+  dup check: new (Аресты двух подозреваемых (Saravanen Mootoovaloo и Khooshal Sookaloo) по серии краж в Северном округе с признанием их участия; ранее не публиковалось )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): На севере Маврикия задержаны двое подозреваемых: полиция раскрыла несколько краж
+  dup: nothing new ()
+Skipped duplicate (Top FM): Deux ans après le 60-0 : « Je continue à croire que nous sommes dans la bonne direction », == Главные заголовки Top FM на среду, 11 ноября 2026 года
+  same subject as #105: taux directeur à 5 %
+Skipped duplicate (Top FM): Taux directeur à 5 % : Chetan Baboolall juge la hausse insuffisante pour freiner l’inflati == Базовая ставка 5%: «Повышение слишком велико для домохозяйств и предприятий», — сетует Khu
+LLM usage this run: 5 requests, 6909 tokens
