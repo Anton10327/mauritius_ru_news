@@ -1,19 +1,5 @@
-### check 1/5 at 06:00
-  dup: nothing new ()
-Skipped duplicate (Inside News): Météo du jeudi 12 novembre : averses localisées l’après-midi et jusqu’à 32 °C à Maurice == Лето 2026-2027 годов на Маврикии: температура до 37°C, ожидается меньше дождей
-GigaChat balance: GigaChat-Ultra 46,198,157, GigaChat-Pro 36,825,193, GigaChat-Max 23,950,091, GigaChat 249,589,075; 342 days to go
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La météo du jeudi 12 novembre 2026 == Разгрузка дорожного движения в столице: проект Harbour Bridge снова в повестке после 12 ле
-  not about Mauritius: Gaza : six morts dans une frappe israélienne à Khan Younès
-Skipped foreign news (Defimedia): Gaza : six morts dans une frappe israélienne à Khan Younès
-LLM usage this run: 3 requests, 5665 tokens
-### check 2/5 at 06:04
-  dup: nothing new ()
-Skipped duplicate (L'Express): Les grands titres de l'express de ce jeudi 12 novembre 2026 == Финансовая комиссия отказалась отстранить адвоката Jean-Michel Lee Shim
-LLM usage this run: 1 requests, 976 tokens
-### check 3/5 at 06:08
-### check 4/5 at 06:12
-### check 5/5 at 06:16
-  dup: nothing new ()
-Skipped duplicate (Inside News): Aide jusqu’à Rs 15 000 pour citerne d’eau : le guide pour déposer sa demande == Два резервуара и насос за 15 000 рупий: «Купоны, выданные получателям, действительны три м
-LLM usage this run: 1 requests, 1008 tokens
+### check 1/5 at 06:54
+  dup check: new ()
+  not news (portrait/lifestyle): Météo : la température maximale légèrement supérieure à la moyenne saisonnière
+Skipped foreign news (Defimedia): Météo : la température maximale légèrement supérieure à la moyenne saisonnière
+LLM usage this run: 2 requests, 2921 tokens
