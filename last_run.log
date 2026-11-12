@@ -23,3 +23,7 @@ LLM usage this run: 6 requests, 9586 tokens
   proofread: edit rejected (changed numbers, names or length)
 Posted (Top FM): Иностранная рабочая сила — Reza Uteem: «Более 47 агентств по найму имеют разрешение на деятельность...»
 LLM usage this run: 2 requests, 3539 tokens
+### check 5/5 at 11:03
+  dup: nothing new (Voyager 1 достигнет расстояния в более чем 25,9 млрд км от Земли (одна световая сутки) к 18 ноября 2026 года; сигналу потребуется 24 часа для достижен)
+Skipped duplicate (Inside News): Voyager 1 atteindra une journée-lumière de la Terre le 18 novembre == «Саммит США–Африка по бизнесу 2026»: работы в SVICC должны завершиться 15 ноября
+LLM usage this run: 1 requests, 1597 tokens
