@@ -23,3 +23,20 @@ Posted (Defimedia): Отключения электричества с 13 по 1
   not news (portrait/lifestyle): Au Cœur de l’Info : quinze ans après le rapport de la Commission Justice et Vérité, quel bilan ?
 Skipped foreign news (Defimedia): Au Cœur de l’Info : quinze ans après le rapport de la Commission Justice et Vérité, quel bilan ?
 LLM usage this run: 6 requests, 13057 tokens
+### check 3/5 at 03:50
+  dup check: new (Министр транспорта Osman Mahomed объявил о мерах по снижению пробок из-за закрытия участка улицы Monseigneur-Leen и поручил подрядчику ускорить работы)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Monseigneur-Leen
+  leftovers fixed by GigaChat-3-Pro; still left: Monseigneur-Leen
+Posted (Defimedia): Работы на улице Monseigneur-Leen: Osman Mahomed объявляет о мерах по сокращению пробок
+  dup check: new (Две внебрачные связи и подозрения в шпионаже стали причиной отставки CEO Nvidia Дженсена Хуанга; одна из женщин подозревается американскими спецслужба)
+  not about Mauritius: Deux liaisons, des soupçons d’espionnage : les dessous de la démission du CEO de Nvidia
+Skipped foreign news (Defimedia): Deux liaisons, des soupçons d’espionnage : les dessous de la démission du CEO de Nvidia
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Info Soirée] : « SITIASYON PE RES CRITIK » == [В фотографиях] Водохранилище Mare-aux-Vacoas: нехватка воды обнажила обширные участки суш
+  dup check: new (SBM сообщает о росте прибыли до налогообложения на 23,1% за первые девять месяцев 2026 года по сравнению с аналогичным периодом 2025 года; прибыль до )
+  proofread: 
+  foreign words left: One
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): SBM: прибыль до налогообложения выросла на 23,1% по итогам сентября
+LLM usage this run: 11 requests, 14410 tokens
