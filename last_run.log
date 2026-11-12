@@ -33,3 +33,16 @@ Posted (Defimedia): Госслужба: отпуск по беременност
   dup check: new (В новой статье сообщается о находке тела мужчины в состоянии сильного разложения на пустыре в Richelieu; личность не установлена, обстоятельства смерт)
 Posted (Defimedia): Richelieu: тело мужчины в сильно разложившемся состоянии обнаружено на пустыре
 LLM usage this run: 8 requests, 11505 tokens
+### check 4/5 at 22:26
+  dup check: new (Задержан 20-летний водитель с поддельными номерами без прав и его спутница по подозрению в сговоре для совершения незаконного действия; автомобиль изъ)
+Posted (Le Mauricien): В La-Vigie задержан 20-летний водитель внедорожника с поддельным номерным знаком
+  dup check: new (Maurice lance des consultations pour sélectionner des consultants chargés de promouvoir le tourisme sur neuf marchés étrangers (France, Royaume-Uni, I)
+  foreign words left: Tourisme, Italie
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Inside News): Туризм: Маврикий обновляет представительство на девяти зарубежных рынках
+  dup check: new (Указан новый уровень заполнения водохранилища Mare-aux-Vacoas на 11 ноября 2026 года (33,1%) и сравнение с прошлым годом (74,3%). Это конкретная новая)
+Posted (Defimedia): [В фотографиях] Водохранилище Mare-aux-Vacoas: нехватка воды обнажила обширные участки суши
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : l’IPCC chez Élodie Thomas pour recueillir sa première déposit == Дело Élodie Thomas: расследование IPCC вступает в решающую фазу
+LLM usage this run: 11 requests, 13833 tokens
