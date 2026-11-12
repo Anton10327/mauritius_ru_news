@@ -1,40 +1,10 @@
-### check 1/5 at 08:42
+### check 1/5 at 09:44
   dup: nothing new ()
-Skipped duplicate (Defimedia): Tourisme : Richard Duval appelle à un « plan B » face aux crises internationales == Туризм на Маврикии вырос на 4% за первые десять месяцев 2026 года
+Skipped duplicate (Defimedia): [Blog] Deux ans après le 60–0 : entre promettre et gouverner - Le peuple, ses attentes et  == Au Cœur de l’Info: какой итог спустя два года после всеобщих выборов?
   dup: nothing new ()
-Skipped duplicate (Defimedia): Contrat de la STC : Vishal Shibchurn défend la société de son fils == STC: противоречивые версии по контракту, заключённому с компанией, возглавляемой Mayur Shi
-  dup check: new (Статья описывает структуру и бюджет полиции Маврикия (12 500 сотрудников, годовой бюджет более 18 млрд рупий), а также подразделения: Paramilitaire, A)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Академия полиции: Маврикий отстаёт
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): ENVIRONNEMENT — Global Equestrian Ltd : Nouvelle demande d’autorisation EIA à Petit-Gamin  == Конный центр Petit-Gamin получил предписание о сносе
-LLM usage this run: 6 requests, 7056 tokens
-### check 2/5 at 08:46
-  dup: nothing new ()
-Skipped duplicate (Inside News): Emploi à Maurice : dernier délai à la FCC ce jeudi, la PSEA et la MPA clôturent vendredi == Работа на Маврикии: Air Mauritius завершает семь наборов во вторник, PSC и ряд компаний та
-  dup: nothing new ()
-Skipped duplicate (Top FM): Changement climatique : la COI mobilise $18,26 M pour moderniser les équipements météorolo == HYDROMET: Маврикий получит метеооборудование на 163 млн рупий
-  dup check: new (Статья сообщает о глобальной статистике смертности детей от пневмонии (более 760 000 случаев в год) и описывает механизм заболевания по словам врача D)
-  not about Mauritius: Pneumonie : une infection respiratoire à l’origine de plus de 760 000 décès d’enfants chaque année d
-Skipped foreign news (Top FM): Pneumonie : une infection respiratoire à l’origine de plus de 760 000 décès d’enfants chaque année d
-  dup: nothing new ()
-Skipped duplicate (Top FM): Meurtre de Soopramanien Mooneesawmy : les éléments de preuve au cœur de la 2ème journée du == Убийство Soopramanien Mooneesawmy: первые полицейские наблюдения представлены суду присяжн
-LLM usage this run: 5 requests, 6035 tokens
-### check 3/5 at 08:50
-### check 4/5 at 08:54
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Ramgoolam-Macron à l’Élysée : l’eau, la lutte antidrogue et la sécurité maritime au cœur d == Официальная миссия в Париже: Маврикий и Франция укрепляют сотрудничество в сфере безопасно
-  dup check: new (В статье впервые приводятся сведения о четырёх землетрясениях в Индийском океане за десять дней и комментарии экспертов (Avinash Dookhee и Vassen Kaup)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Землетрясения в Индийском океане: четыре толчка за десять дней, стоит ли беспокоиться?
-LLM usage this run: 4 requests, 5191 tokens
-### check 5/5 at 08:58
-  dup check: new (SADC объявила о наборе четырёх региональных специалистов с возможностью подачи заявок гражданами Маврикия до 20 ноября 2026 года; указаны названия дол)
-  foreign words left: Botswana, Officer, Policy, and, of, Budget
-  leftovers fixed by GigaChat-3-Pro; still left: Botswana, Officer, Policy, and, of, Budget
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Региональная занятость: САДК открывает четыре вакансии для кандидатов с Маврикия
-  dup check: new (Статья сообщает о новой тенденции в наркотрафике на Маврикии: использование новых маршрутов (авиа, почта, контейнеры), изменение методов и лиц, а такж)
-  not news (portrait/lifestyle): La drogue prend le large, l’état reste à quai
-Skipped foreign news (L'Express): La drogue prend le large, l’état reste à quai
-LLM usage this run: 6 requests, 9058 tokens
+Skipped duplicate (L'Express): «Key Rate» à 5% : Le crédit va coûter plus cher aux ménages et aux entreprises == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
+  not news (portrait/lifestyle): Charles Telfair Education : Un réseau d’établissements et de formations internationales
+Skipped foreign news (Le Mauricien): Charles Telfair Education : Un réseau d’établissements et de formations internationales
+  same headline as #106: Port-Louis : deux voies vers le centre-ville de 7 heures à 10 heures dès ce jeud
+Skipped duplicate (Le Mauricien): Circulation sur la route A1 : deux voies vers Port-Louis de 7 h à 10 h dès ce jeudi == Port-Louis: две полосы движения в центр города с 7 до 10 часов начиная с четверга
+LLM usage this run: 3 requests, 4213 tokens
