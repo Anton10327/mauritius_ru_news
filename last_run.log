@@ -51,3 +51,15 @@ Skipped duplicate (Defimedia): Accident à Ferney : un motocycliste de 49 ans pe
   not about Mauritius: Sonia Gandhi : dix passages de ses mémoires qui font débat en Inde
 Skipped foreign news (Defimedia): Sonia Gandhi : dix passages de ses mémoires qui font débat en Inde
 LLM usage this run: 4 requests, 7806 tokens
+### check 5/5 at 03:58
+  dup: nothing new ()
+Skipped duplicate (L'Express): Bilan du gouvernement l Reeaz Chuttoo: «Nous allons vers une explosion sociale» == Гибель трёх рабочих из Бангладеш: профсоюз требует установить виновных
+  dup check: new (В статье сообщается о новом смертельном ДТП с мотоциклистом 49 лет в Ferney (12 ноября), что отличается от ранее опубликованных аварий: пешеход 99 лет)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Смертельное ДТП в Ferney: 49-летний мотоциклист погиб
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Rapport du ministère de la Santé révèle 16 unités sous-effectives malgré 3,5 milliards de  == Отчёт о результатах работы больниц за 2025–2026 годы: нехватка кадров, поломки и задержки 
+  dup check: new (Последний пациент с Эболой выписан из больницы в Кении 11 ноября 2026 года; начинается отсчёт 42 дней до возможного объявления страны свободной от эпи)
+  not about Mauritius: Kenya : le dernier patient Ebola sort de l’hôpital, le compte à rebours commence
+Skipped foreign news (Inside News): Kenya : le dernier patient Ebola sort de l’hôpital, le compte à rebours commence
+LLM usage this run: 7 requests, 9790 tokens
