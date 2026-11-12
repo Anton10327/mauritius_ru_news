@@ -18,3 +18,13 @@ Skipped duplicate (Le Mauricien): CAMP-LEVIEUX: Il est sauvagement agressé pour
   dup: nothing new ()
 Skipped duplicate (Defimedia): Au Cœur de l’Info : quinze ans après le rapport de la Commission Justice et Vérité, quel b == Au Cœur de l’Info: какой итог спустя два года после всеобщих выборов?
 LLM usage this run: 6 requests, 7201 tokens
+### check 3/5 at 13:12
+  dup: nothing new ()
+Skipped duplicate (L'Express): Fléau social : Nous n’avons qu’une vie, pourquoi la laisser gâcher par la drogue ? == Незаконное занятие частных земель на Ti-Rodrigues: власти готовят титулы собственности для
+  dup: nothing new ()
+Skipped duplicate (L'Express): BLACK-OUT : Gérer l'énergie au quotidien == Незаконное занятие частных земель на Ti-Rodrigues: власти готовят титулы собственности для
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): PORT-LOUIS | Fermeture de la rue Mgr Leen : La circulation paralysée à l’entrée de la capi == Порт-Луи: участок улицы Монсьё-Лен закрыт до 21 декабря, предусмотрены объезды
+  dup check: new (В новой статье сообщается о найденном 11 ноября в Баи-дю-Томбо мужчине 31 года с тяжелыми травмами после предполагаемой агрессии. Это новое событие, н)
+Posted (Defimedia): Baie-du-Tombeau: 31-летний мужчина найден тяжело раненым на дороге
+LLM usage this run: 6 requests, 6797 tokens
