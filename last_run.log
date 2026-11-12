@@ -33,3 +33,9 @@ Skipped foreign news (L'Express): Angleterre : Manchester United limoge Carrick,
 Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
 Posted (Inside News): Суд Rodrigues планирует ввести видеоконференц-связь и цифровую запись
 LLM usage this run: 9 requests, 14301 tokens
+### check 4/5 at 14:17
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Mamy Ravatomanga envisage de déposer une plainte au CCID == Предполагаемые отмывание денег и сговор: Mamy Ravatomanga требует отмены предварительных о
+  dup: nothing new ()
+Skipped duplicate (L'Express): PQs l Climat : Un El Niño peut-être historique, un plan de préparation agricole en cours == Эль-Ниньо: «Один из самых мощных эпизодов за всю историю наблюдений»
+LLM usage this run: 2 requests, 2881 tokens
