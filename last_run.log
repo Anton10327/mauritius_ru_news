@@ -1,42 +1,11 @@
-### check 1/5 at 14:05
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Étude sur les générations : la Gen Z en quête de sens, les aînés attachés à la stabilité == Предполагаемое сексуальное насилие над шестилетней девочкой: три недели поисков, подозрева
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Haniff Peerun : « La hausse du Key Rate aura des effets contrastés sur les ménages » == Базовая ставка 5%: «Повышение слишком велико для домохозяйств и предприятий», — сетует Khu
-  dup check: new (Инцидент в тюрьме Melrose: нападение заключенного на охранника 10 ноября около 14:45; подробности конфликта и травмы охранника.)
-Posted (Defimedia): Melrose: заключённый подозревается в нападении на тюремного надзирателя
-  dup check: new (Восемь человек признаны виновными в нарушении комендантского часа; двое из них также обвинялись в хранении оружия. Суд вынесет приговор 18 ноября 2026)
+### check 1/5 at 22:14
+  dup check: new (Временная закрытость viewpoint de Macondé по соображениям безопасности до нового уведомления; туроператоров просят информировать клиентов и учитывать )
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Нарушение комендантского часа: восемь человек признаны виновными в суде
-LLM usage this run: 8 requests, 12293 tokens
-### check 2/5 at 14:09
+Posted (Defimedia): Macondé: смотровая площадка временно закрыта для публики
   dup: nothing new ()
-Skipped duplicate (Defimedia): Après les troubles d’octobre - Jeunes condamnés : la réponse ne s’arrête pas au verdict == Предполагаемое сексуальное насилие над шестилетней девочкой: три недели поисков, подозрева
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Water Tank Scheme : Patrick Assirvaden dénonce les intérêts commerciaux de certains fourni == Два резервуара и насос за 15 000 рупий: «Купоны, выданные получателям, действительны три м
-  dup: nothing new (Арест 20-летнего водителя с фальшивыми номерами и четырьмя другими нарушениями ПДД в La Vigie (10 ноября))
-Skipped duplicate (L'Express): La Vigie : Un conducteur de 20 ans arrêté avec une fausse plaque d’immatriculation == Предполагаемое сексуальное насилие над шестилетней девочкой: три недели поисков, подозрева
-  dup check: new (В статье впервые сообщается о строгих ограничениях на ирригацию, которые угрожают 750 гектарам овощных культур на Маврикии до декабря; приводятся данн)
-Posted (Wazaa): Строгие ограничения на орошение угрожают 750 гектарам овощных культур на Маврикии к декабрю
-LLM usage this run: 6 requests, 8457 tokens
-### check 3/5 at 14:13
-  dup: nothing new ()
-Skipped duplicate (L'Express): Procès aux assises : Reddy Mooneesawmy aurait été étouffé pour Rs 400 == Убийство Soopramanien Mooneesawmy: первые полицейские наблюдения представлены суду присяжн
-  dup check: new (Принят Mauritius Telecom Foundation Bill: создание фонда для ежегодных стипендий двум отличившимся выпускникам по науке после State Scholars с 2027 го)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mahend Gungapersad: «Превосходство будет признано и поощрено»
-  dup check: new (Manchester United a limogé Mikhail Carrick après un début de saison décevant et la possibilité d’engager Mauricio Pochettino est évoquée.)
-  not about Mauritius: Angleterre : Manchester United limoge Carrick, Pochettino en vue
-Skipped foreign news (L'Express): Angleterre : Manchester United limoge Carrick, Pochettino en vue
-  dup check: new (Запущен официальный тендер на закупку системы видеоконференций и цифрового записи для суда Родригеса с дедлайном 8 декабря 2026 года; проект зарегистр)
-  proofread: суд на Родригесе → суд на острове Родригес
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Суд Rodrigues планирует ввести видеоконференц-связь и цифровую запись
-LLM usage this run: 9 requests, 14301 tokens
-### check 4/5 at 14:17
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Mamy Ravatomanga envisage de déposer une plainte au CCID == Предполагаемые отмывание денег и сговор: Mamy Ravatomanga требует отмены предварительных о
-  dup: nothing new ()
-Skipped duplicate (L'Express): PQs l Climat : Un El Niño peut-être historique, un plan de préparation agricole en cours == Эль-Ниньо: «Один из самых мощных эпизодов за всю историю наблюдений»
-LLM usage this run: 2 requests, 2881 tokens
-### check 5/5 at 14:21
+Skipped duplicate (Defimedia): Aide de la FIFA : plus d’un milliard de roupies annoncé pour le football mauricien == ФИФА: МФА может получить 25 млн долларов на 2027–2030 годы, для сборной Маврикия рассматри
+  proofread: боксёр → боксёр; Jesfred Joel Torres Santiago → Jesfred Joel Torres Santiago; COM, Ассоциация национальных олимпийских комитетов → COM (Ассоциация национальных олимпийских комитетов); выступала → выступала; подписали соглашение → подписали соглашение
+Posted (Le Mauricien): Олимпийские юношеские игры — боксёр Julian Agathe выбыл техническим нокаутом в четвертьфинале
+  not about Mauritius: États-Unis : exploit des démocrates dans le Mississippi, qui décrochent un siège au Sénat
+Skipped foreign news (Defimedia): États-Unis : exploit des démocrates dans le Mississippi, qui décrochent un siège au Sénat
+LLM usage this run: 7 requests, 13646 tokens
