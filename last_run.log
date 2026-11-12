@@ -12,3 +12,14 @@ Posted (Defimedia): MCB Group: прибыль 5,4 млрд рупий за пе�
   not about Mauritius: Cour d’appel confirme les ordres d’expulsion contre quatre Chagossiens sur l’Île du Coin
 Skipped foreign news (Wazaa): Cour d’appel confirme les ordres d’expulsion contre quatre Chagossiens sur l’Île du Coin
 LLM usage this run: 9 requests, 15404 tokens
+### check 2/5 at 03:46
+  dup check: new (Обрушение трёхэтажного здания в Бруклине с минимум 5 погибшими и 17 пострадавшими (4 в критическом состоянии), поисковые работы продолжаются.)
+  not about Mauritius: New York : au moins cinq morts dans l’effondrement d’un immeuble à Brooklyn, les secours fouillent t
+Skipped foreign news (Inside News): New York : au moins cinq morts dans l’effondrement d’un immeuble à Brooklyn, les secours fouillent t
+  same headline as #31: Décès de trois travailleurs bangladais : la Pastorale des Migrants exprime sa so
+Skipped duplicate (Le Mauricien): Décès de 3 bangladais : La Pastorale des Migrants exprime sa proximité == Смерть трёх бангладешских рабочих: «Pastorale des Migrants» выражает солидарность
+  dup check: new (В статье впервые опубликованы конкретные даты (13–15 ноября 2026), регионы и часы плановых отключений электричества по районам. Это новое решение о пр)
+Posted (Defimedia): Отключения электричества с 13 по 15 ноября: затронутые регионы, секторы и время
+  not news (portrait/lifestyle): Au Cœur de l’Info : quinze ans après le rapport de la Commission Justice et Vérité, quel bilan ?
+Skipped foreign news (Defimedia): Au Cœur de l’Info : quinze ans après le rapport de la Commission Justice et Vérité, quel bilan ?
+LLM usage this run: 6 requests, 13057 tokens
