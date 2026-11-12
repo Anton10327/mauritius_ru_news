@@ -21,3 +21,10 @@ Skipped foreign news (Top FM): Pneumonie : une infection respiratoire à l’ori
 Skipped duplicate (Top FM): Meurtre de Soopramanien Mooneesawmy : les éléments de preuve au cœur de la 2ème journée du == Убийство Soopramanien Mooneesawmy: первые полицейские наблюдения представлены суду присяжн
 LLM usage this run: 5 requests, 6035 tokens
 ### check 3/5 at 08:50
+### check 4/5 at 08:54
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Ramgoolam-Macron à l’Élysée : l’eau, la lutte antidrogue et la sécurité maritime au cœur d == Официальная миссия в Париже: Маврикий и Франция укрепляют сотрудничество в сфере безопасно
+  dup check: new (В статье впервые приводятся сведения о четырёх землетрясениях в Индийском океане за десять дней и комментарии экспертов (Avinash Dookhee и Vassen Kaup)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Землетрясения в Индийском океане: четыре толчка за десять дней, стоит ли беспокоиться?
+LLM usage this run: 4 requests, 5191 tokens
