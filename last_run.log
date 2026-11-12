@@ -8,3 +8,13 @@ Skipped duplicate (Le Mauricien): Politique monétaire : Le Key Rate passe de 4,
   dup: nothing new ()
 Skipped duplicate (Defimedia): Soupçonné d’être impliqué dans le meurtre de Selven Iyempermal : Sayif Udeen Ramjan reste  == Убийство Selven Iyempermal: задержан третий подозреваемый
 LLM usage this run: 6 requests, 8694 tokens
+### check 2/5 at 13:08
+  dup check: new (Mamy Ravatomanga появился в суде 12 ноября и его адвокаты потребовали отмены временных обвинений; следующее заседание назначено на 13 января 2027 года)
+Posted (Defimedia): Предполагаемые отмывание денег и сговор: Mamy Ravatomanga требует отмены предварительных обвинений
+  dup: nothing new ()
+Skipped duplicate (L'Express): Affaire SMS Pariaz : Jean-Michel Lee Shim obtient le report de son audition par la FCC == Финансовая комиссия отказалась отстранить адвоката Jean-Michel Lee Shim
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): CAMP-LEVIEUX: Il est sauvagement agressé pour une affaire de drogue == Camp-Levieux: похищен на улице, удерживался в заложниках и изрублен саблей
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Au Cœur de l’Info : quinze ans après le rapport de la Commission Justice et Vérité, quel b == Au Cœur de l’Info: какой итог спустя два года после всеобщих выборов?
+LLM usage this run: 6 requests, 7201 tokens
