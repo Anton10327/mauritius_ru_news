@@ -1,63 +1,14 @@
-### check 1/5 at 22:14
-  dup check: new (Временная закрытость viewpoint de Macondé по соображениям безопасности до нового уведомления; туроператоров просят информировать клиентов и учитывать )
+### check 1/5 at 03:42
+  dup: nothing new (Обвинение ACIM в недостаточном контроле за использованием пестицидов на Маврикии; заявление Jayen Chellum о нехватке персонала для контроля (менее 10 )
+Skipped duplicate (Defimedia): Pesticides dans les fruits et légumes : l’ACIM dénonce un «manque de contrôles» à Maurice == На Маврикии 23 жалобы на школы для детей с особыми потребностями
+GigaChat balance: GigaChat-Ultra 46,082,762, GigaChat-Pro 36,717,830, GigaChat-Max 23,950,091, GigaChat 249,589,075; 341 days to go
+  dup check: new (Элодия Томас публично поблагодарила всех, кто молился за неё во время её пребывания без сознания и госпитализации; также её муж сообщил о положительно)
+  proofread: Элоди Тома → Элоди Томас; Camp-Levieux → Камп-Левьё
+Posted (Defimedia): Élodie Thomas: «Я благодарю всех, кто молился за меня»
+  dup check: new (MCB Group объявила о чистой прибыли в размере 5,4 млрд рупий за первый квартал 2026/27 года, что на 9,9% больше по сравнению с аналогичным периодом пр)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Macondé: смотровая площадка временно закрыта для публики
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Aide de la FIFA : plus d’un milliard de roupies annoncé pour le football mauricien == ФИФА: МФА может получить 25 млн долларов на 2027–2030 годы, для сборной Маврикия рассматри
-  proofread: боксёр → боксёр; Jesfred Joel Torres Santiago → Jesfred Joel Torres Santiago; COM, Ассоциация национальных олимпийских комитетов → COM (Ассоциация национальных олимпийских комитетов); выступала → выступала; подписали соглашение → подписали соглашение
-Posted (Le Mauricien): Олимпийские юношеские игры — боксёр Julian Agathe выбыл техническим нокаутом в четвертьфинале
-  not about Mauritius: États-Unis : exploit des démocrates dans le Mississippi, qui décrochent un siège au Sénat
-Skipped foreign news (Defimedia): États-Unis : exploit des démocrates dans le Mississippi, qui décrochent un siège au Sénat
-LLM usage this run: 7 requests, 13646 tokens
-### check 2/5 at 22:18
-  dup check: new (Апелляционный суд Британской территории в Индийском океаве (BIOT) 12 ноября 2026 года признал законными ордера на высылку Мисли Мандирана и ещё трёх ч)
-  not about Mauritius: Chagos : la Cour d’appel valide les ordres d’expulsion visant Misley Mandarin et trois autres Chagos
-Skipped foreign news (Defimedia): Chagos : la Cour d’appel valide les ordres d’expulsion visant Misley Mandarin et trois autres Chagos
-  dup check: new (В статье сообщается о поиске новых помещений для трёх бюро Sécurité sociale в Bambous, Centre de Flacq и Quatre-Bornes с дедлайном аренды 1 декабря 20)
-  proofread: edit rejected (changed numbers, names or length)
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Три отделения Социальной безопасности ищут новые помещения
-  not news (portrait/lifestyle): TO THE MINISTER OF EDUCATION  -The Reintroduction of Grammar  on the Exam-papers for SC/HSC
-Skipped foreign news (Le Mauricien): TO THE MINISTER OF EDUCATION  -The Reintroduction of Grammar  on the Exam-papers for SC/HSC
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Chetan Baboolall, leader de l’opposition : « Le projet de loi comporte de nombreuses lacun == Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mah
-LLM usage this run: 7 requests, 12146 tokens
-### check 3/5 at 22:22
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): (IN)Sécurité routière — Sébastopol : Un chasseur de tenrec tué par une voiture == Sébastopol: пешеход погиб после столкновения с автомобилем
-  not news (portrait/lifestyle): Du cynisme à la citoyenneté  : Reprendre la parole collective à Maurice
-Skipped foreign news (Le Mauricien): Du cynisme à la citoyenneté  : Reprendre la parole collective à Maurice
-  dup check: new (Объявлено о введении с 1 января 2027 года в госсекторе отпуска по беременности и родам на 26 недель с полной оплатой; министр анонсировал публикацию ц)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Госслужба: отпуск по беременности и родам на 26 недель с полной зарплатой вступит в силу 1 января 2027 года
-  dup check: new (В новой статье сообщается о находке тела мужчины в состоянии сильного разложения на пустыре в Richelieu; личность не установлена, обстоятельства смерт)
-Posted (Defimedia): Richelieu: тело мужчины в сильно разложившемся состоянии обнаружено на пустыре
-LLM usage this run: 8 requests, 11505 tokens
-### check 4/5 at 22:26
-  dup check: new (Задержан 20-летний водитель с поддельными номерами без прав и его спутница по подозрению в сговоре для совершения незаконного действия; автомобиль изъ)
-Posted (Le Mauricien): В La-Vigie задержан 20-летний водитель внедорожника с поддельным номерным знаком
-  dup check: new (Maurice lance des consultations pour sélectionner des consultants chargés de promouvoir le tourisme sur neuf marchés étrangers (France, Royaume-Uni, I)
-  foreign words left: Tourisme, Italie
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Туризм: Маврикий обновляет представительство на девяти зарубежных рынках
-  dup check: new (Указан новый уровень заполнения водохранилища Mare-aux-Vacoas на 11 ноября 2026 года (33,1%) и сравнение с прошлым годом (74,3%). Это конкретная новая)
-Posted (Defimedia): [В фотографиях] Водохранилище Mare-aux-Vacoas: нехватка воды обнажила обширные участки суши
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : l’IPCC chez Élodie Thomas pour recueillir sa première déposit == Дело Élodie Thomas: расследование IPCC вступает в решающую фазу
-LLM usage this run: 11 requests, 13833 tokens
-### check 5/5 at 22:30
-  dup check: new (Misley Mandarin заявил о намерении остаться на острове после решения суда 12 ноября; ранее не было его реакции на это решение.)
-  not about Mauritius: Misley Mandarin après la décision de la Cour : «Nous ne partirons pas»
-Skipped foreign news (Defimedia): Misley Mandarin après la décision de la Cour : «Nous ne partirons pas»
-  dup check: new (В статье описывается новое дело о распространении интимных фото и угрозах полицейскому в WhatsApp-группе. Это отдельное событие, не связанное с публик)
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Соцсети | интимные фото В сети: полицейский разоблачил группу и получил угрозы
-  not about Mauritius: Angleterre : Manchester United fait sauter le fusible Michael Carrick
-Skipped foreign news (Defimedia): Angleterre : Manchester United fait sauter le fusible Michael Carrick
-  dup check: new (Termination of Swiss Finance Corporation (Mauritius) Limited's investment advice licence (SEC-2.4, OC95001763) effective 4 June 2026, announced by the)
-  proofread by qwen/qwen3.8-27b
-  proofread: edit rejected (changed numbers, names or length)
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Инвестиционное консультирование: лицензия FSC компании Swiss Finance Corporation (Mauritius) Limited прекращена
-LLM usage this run: 9 requests, 16912 tokens
+Posted (Defimedia): MCB Group: прибыль 5,4 млрд рупий за первый квартал 2026/27
+  dup check: new (La Cour d’appel du BIOT a confirmé les ordres d'expulsion contre quatre Chagossiens sur l'Île du Coin, annulant une décision favorable de la Cour supr)
+  not about Mauritius: Cour d’appel confirme les ordres d’expulsion contre quatre Chagossiens sur l’Île du Coin
+Skipped foreign news (Wazaa): Cour d’appel confirme les ordres d’expulsion contre quatre Chagossiens sur l’Île du Coin
+LLM usage this run: 9 requests, 15404 tokens
