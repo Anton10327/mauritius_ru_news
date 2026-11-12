@@ -9,3 +9,16 @@ Posted (Le Mauricien): Олимпийские юношеские игры — б
   not about Mauritius: États-Unis : exploit des démocrates dans le Mississippi, qui décrochent un siège au Sénat
 Skipped foreign news (Defimedia): États-Unis : exploit des démocrates dans le Mississippi, qui décrochent un siège au Sénat
 LLM usage this run: 7 requests, 13646 tokens
+### check 2/5 at 22:18
+  dup check: new (Апелляционный суд Британской территории в Индийском океаве (BIOT) 12 ноября 2026 года признал законными ордера на высылку Мисли Мандирана и ещё трёх ч)
+  not about Mauritius: Chagos : la Cour d’appel valide les ordres d’expulsion visant Misley Mandarin et trois autres Chagos
+Skipped foreign news (Defimedia): Chagos : la Cour d’appel valide les ordres d’expulsion visant Misley Mandarin et trois autres Chagos
+  dup check: new (В статье сообщается о поиске новых помещений для трёх бюро Sécurité sociale в Bambous, Centre de Flacq и Quatre-Bornes с дедлайном аренды 1 декабря 20)
+  proofread: edit rejected (changed numbers, names or length)
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Inside News): Три отделения Социальной безопасности ищут новые помещения
+  not news (portrait/lifestyle): TO THE MINISTER OF EDUCATION  -The Reintroduction of Grammar  on the Exam-papers for SC/HSC
+Skipped foreign news (Le Mauricien): TO THE MINISTER OF EDUCATION  -The Reintroduction of Grammar  on the Exam-papers for SC/HSC
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Chetan Baboolall, leader de l’opposition : « Le projet de loi comporte de nombreuses lacun == Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mah
+LLM usage this run: 7 requests, 12146 tokens
