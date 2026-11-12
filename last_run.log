@@ -1,34 +1,10 @@
-### check 1/5 at 12:02
-  dup check: new (В статье описано обнаружение в канализации компании в Нувель-Франс объекта органического происхождения, предположительно человеческого, и передача его)
-  not about Mauritius: Nouvelle-France : Une substance d'origine humaine soupçonnée dans une canalisation
-Skipped foreign news (L'Express): Nouvelle-France : Une substance d'origine humaine soupçonnée dans une canalisation
+### check 1/5 at 13:04
+  dup check: new (В статье приведены конкретные цифры по нехватке медицинского персонала и оборудования: пять нейрохирургов для круглосуточных дежурств в пяти региональ)
+Posted (Defimedia): Отчёт о результатах работы больниц за 2025–2026 годы: нехватка кадров, поломки и задержки подрывают работу служб
+  dup: nothing new (Le téléphone du capitaine Suriya Samanboot a été cloné pendant plus de trois heures à l'IT Unit des Casernes centrales; son avocat Somand Kumar Adheen)
+Skipped duplicate (Defimedia): Affaire Dreamer : le téléphone du capitaine thaïlandais cloné, l’Adsu attend le rapport == Предполагаемый трафик каннабиса: яхт Dreamer подвергнут научным исследованиям
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Kushal Lobine monte en première ligne == Базовая ставка 5%: «Повышение слишком велико для домохозяйств и предприятий», — сетует Khu
+Skipped duplicate (Le Mauricien): Politique monétaire : Le Key Rate passe de 4,75 % à 5% face aux pressions inflationnistes == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Conférence internationale : Le Groupe SBM, Diamond Sponsor du U.S.-Africa Business Summit == Группа SBM станет главным спонсором саммита U.S.-Africa Business Summit 2026
-  dup check: new (Проект HEI-Blue: конференция по устойчивому развитию предпринимательства в морской сфере на Маврикии и соседних островах; участие UTM, COI и ЕС.)
-  not news (portrait/lifestyle): HEI-Blue : Vers une nouvelle génération d’entrepreneurs de la mer
-Skipped foreign news (Le Mauricien): HEI-Blue : Vers une nouvelle génération d’entrepreneurs de la mer
-LLM usage this run: 6 requests, 9519 tokens
-### check 2/5 at 12:06
-  dup: nothing new ()
-Skipped duplicate (Inside News): Éducation ouverte et IA : Maurice accueille une réunion régionale sur les nouvelles compét == Высшее образование: министр Kaviraj Sukon осуждает слишком высокий процент провалов и дела
-  dup check: new (56 новых офицеров (включая 6 женщин) официально присоединились к Mauritius Prison Service после шести месяцев обучения; церемония прошла 12 ноября в B)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Prison
-  leftovers fixed by GigaChat-3-Pro; still left: Prison
-Posted (Le Mauricien): Тюремная служба: 56 новых офицеров, в том числе шесть женщин, пополнили ряды
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Île Maurice obtient une formation française pour la police et les pompiers après les pourp == Встреча Ramgoolam и Macron: Франция поможет в подготовке полицейских и пожарных Маврикия, 
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Kaviraj Sukon, ministre de l’Enseignement supérieur : « This Bill is about transparency » == Высшее образование: министр Kaviraj Sukon осуждает слишком высокий процент провалов и дела
-LLM usage this run: 7 requests, 7304 tokens
-### check 3/5 at 12:10
-  dup: nothing new ()
-Skipped duplicate (L'Express): Stéphane Maurymoothoo : «Ce sont les “self-employed” qui seront les plus vulnérables» == На фоне роста цен Банк Маврикия повысил ключевую ставку до 5%
-LLM usage this run: 1 requests, 793 tokens
-### check 4/5 at 12:14
-### check 5/5 at 12:18
-  dup: nothing new ()
-Skipped duplicate (Inside News): 56 nouvelles recrues rejoignent l’administration pénitentiaire mauricienne == Тюремная служба: 56 новых офицеров, в том числе шесть женщин, пополнили ряды
-LLM usage this run: 1 requests, 1490 tokens
+Skipped duplicate (Defimedia): Soupçonné d’être impliqué dans le meurtre de Selven Iyempermal : Sayif Udeen Ramjan reste  == Убийство Selven Iyempermal: задержан третий подозреваемый
+LLM usage this run: 6 requests, 8694 tokens
