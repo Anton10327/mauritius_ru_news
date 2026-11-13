@@ -27,3 +27,15 @@ Skipped duplicate (Le Mauricien): Accident de travail — Trois Bangladais déc�
   proofread: уведомления об выселении → уведомления о выселении; высадившихся → высадившихся
 Posted (Defimedia): Чагос: после решения апелляционного суда Британской территории в Индийском океане — что будет дальше?
 LLM usage this run: 9 requests, 14590 tokens
+### check 3/5 at 15:43
+  dup check: new (Мировая авария в Microsoft: затронуты Teams, Outlook и Copilot; проблемы с подключением подтверждены компанией; сбои наблюдаются в 74 странах более во)
+  not about Mauritius: Panne mondiale chez Microsoft : Teams, Outlook et Copilot touchés par une importante panne
+Skipped foreign news (Le Mauricien): Panne mondiale chez Microsoft : Teams, Outlook et Copilot touchés par une importante panne
+  proofread: «допуском 5%» → «с допуском 5%»; «в этом случае должны обеспечивать» → «в этом случае должны обеспечивать», (улучшено согласование); «Разрешение не переходит к новому владельцу» → «Разрешение на тонировку не переходит к новому владельцу»
+Posted (Le Mauricien): Тонировка стёкол: водителям напомнили о пороге в 75 %, возможны исключения
+  not about Mauritius: Une panne mondiale touche la messagerie Outlook de Microsoft
+Skipped foreign news (Defimedia): Une panne mondiale touche la messagerie Outlook de Microsoft
+  dup check: new (Министр транспорта Маврикия Osman Mahomed уточнил условия применения штрафа в 10 000 рупий за модифицированные выхлопные системы: штраф может быть нал)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Выхлопные системы — штрафы 10 000 рупий: полиция должна отличать аксессуары от модифицированных глушителей
+LLM usage this run: 8 requests, 15477 tokens
