@@ -19,3 +19,14 @@ Skipped duplicate (Defimedia): Vijay Makhan : «Le temps des tergiversations doi
   dup: nothing new (Решение о повышении ставки рефинансирования с 4,75% до 5%, прогноз роста ВВП на 2026 и 2027 годы, мнение бывшего управляющего Банком Маврикия Дана Мар)
 Skipped duplicate (Defimedia): Taux directeur à 5 % : prudence monétaire ou frein à la croissance? == Академия полиции: Маврикий отстаёт
 LLM usage this run: 4 requests, 4694 tokens
+### check 3/5 at 22:53
+  dup check: new ()
+  not news (portrait/lifestyle): Au Cœur de l’Info – Coût de la vie : le pouvoir d’achat des Mauriciens mis à rude épreuve
+Skipped foreign news (Defimedia): Au Cœur de l’Info – Coût de la vie : le pouvoir d’achat des Mauriciens mis à rude épreuve
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Chagos | Cour d’Appel du BIOT  :L’expulsion du PM fantôme et  consorts de l’île du Coin va == Чагос: после решения апелляционного суда Британской территории в Индийском океане — что бу
+  dup check: new (Арест Маниш Сумбур по прозвищу Картик в рамках расследования убийства Селвен Иемпермал; его появление в суде и возвращение под стражу.)
+Posted (Defimedia): Убийство Selven Iyempermal: арестован Manish Soumbur силами MCIT
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : Élodie Thomas a livré sa version des faits à l’IPCC == Élodie Thomas: «Я благодарю всех, кто молился за меня»
+LLM usage this run: 7 requests, 11052 tokens
