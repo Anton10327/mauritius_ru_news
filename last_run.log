@@ -1,59 +1,16 @@
-### check 1/5 at 07:39
-  dup check: new (В статье впервые упоминается проект регуляризации для примерно 500 семей в Ti Rodrigues, Résidence La Cure и заявление Shakeel Mohamed о том, что этот)
+### check 1/5 at 15:35
+New source Inside News: skipped backlog, posting newest only
+  dup check: new (Новое событие: израильский авиаудар по больнице Nasser в Газе, 6 погибших (включая ребёнка и хирурга), 52 раненых; MSF оказала помощь двум врачам и ещ)
+  not about Mauritius: Gaza : l’indignation de Médecins sans frontières après une frappe israélienne contre l’hôpital Nasse
+Skipped foreign news (Defimedia): Gaza : l’indignation de Médecins sans frontières après une frappe israélienne contre l’hôpital Nasse
+  dup check: new (В статье говорится о призыве ВОЗ защитить медицинские учреждения в Газе после израильского удара по больнице Nasser и приводятся новые данные: 1056 ат)
+  not about Mauritius: Gaza : l’OMS appelle à protéger les établissements de santé après une frappe israélienne contre l’hô
+Skipped foreign news (Defimedia): Gaza : l’OMS appelle à protéger les établissements de santé après une frappe israélienne contre l’hô
+  dup check: new (Смерть бывшего парламентария Harish Ramphul в возрасте 79 лет; краткая биография и этапы его жизни (образование, карьера, политическая деятельность); )
   proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Жильё для уязвимых слоёв населения: Shakeel Mohamed — «Проект легализации затронет весь Маврикий»
+  foreign words left: Mahébourg-Plaine-Magnien, Parti, travailliste, Solférino
+  leftovers fixed by GigaChat-3-Pro; still left: Mahébourg-Plaine-Magnien, Parti, travailliste, Solférino
+Posted (Defimedia): Некролог: скончался бывший парламентарий Harish Ramphul
   dup: nothing new ()
-Skipped duplicate (L'Express): Secteur bancaire durable l MCB : l’enveloppe verte portée à Rs 25 milliards == MCB Group: прибыль 5,4 млрд рупий за первый квартал 2026/27
-  dup: nothing new ()
-Skipped duplicate (L'Express): Réhabilitation de la rue Monseigneur-Leen l  Osman Mahomed : «Les travaux devront être ach == Работы на улице Monseigneur-Leen: Osman Mahomed объявляет о мерах по сокращению пробок
-  dup check: new (В статье приводятся новые глобальные данные о распространении систем раннего предупреждения: 70% стран заявляют о наличии таких систем (136 стран по с)
-  proofread: «многоопасных» → «многопрофильных»
-Posted (Inside News): Климат: ранние предупреждения развиваются, но глобальное покрытие остаётся неполным
-LLM usage this run: 8 requests, 12198 tokens
-### check 2/5 at 07:43
-  dup check: new (Четыре студента из Маврикия отправятся в Шэньчжэнь с Huawei для участия в 10-м выпуске программы Seeds for the Future; даты поездки — с 21 по 29 ноябр)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): «Seeds for the Future»: четверо маврикийских студентов отправятся в Шэньчжэнь с Huawei
-  dup: nothing new ()
-Skipped duplicate (L'Express): Accident fatal à Sébastopol : Kinsley Rabaye, 45 ans, fauché alors qu’il chassait des héri == Sébastopol: пешеход погиб после столкновения с автомобилем
-  dup check: new (La police thaïlandaise et Interpol sont sollicitées pour remonter la piste des avoirs du cartel lié à l'affaire Dreamer.)
-  foreign words left: Ronde
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (L'Express): Дело «Dreamer»: маврикийская FCC запросила помощь полиции Таиланда и Интерпола для отслеживания активов картеля
-  dup check: new (La Banque africaine de développement a approuvé un prêt de 503,75 millions de dollars à l’Afrique du Sud pour soutenir des réformes dans l’électricité)
-  not about Mauritius: Afrique du Sud : la BAD engage 503,75 millions de dollars pour les réformes d’infrastructure
-Skipped foreign news (Inside News): Afrique du Sud : la BAD engage 503,75 millions de dollars pour les réformes d’infrastructure
-LLM usage this run: 10 requests, 14996 tokens
-### check 3/5 at 07:47
-  dup: nothing new ()
-Skipped duplicate (L'Express): Affaire Élodie Thomas : L’IPCC recueille sa déclaration == Élodie Thomas: «Я благодарю всех, кто молился за меня»
-  dup: nothing new ()
-Skipped duplicate (L'Express): Affaire Élodie Thomas :  Élodie Thomas remercie ses soutiens == Élodie Thomas: «Я благодарю всех, кто молился за меня»
-  dup check: new (В новой статье сообщается о новом событии — аварии с грузовиком в Bell-Village 12 ноября 2026 года. В опубликованных ранее материалах такого события н)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Bell-Village: грузовик завершил свой путь в канале
-  dup: nothing new ()
-Skipped duplicate (Wazaa): State Trading Corporation Défend l’attribution du contrat de location de camions face à qu == STC: противоречивые версии по контракту, заключённому с компанией, возглавляемой Mayur Shi
-LLM usage this run: 6 requests, 5621 tokens
-### check 4/5 at 07:51
-  dup: nothing new ()
-Skipped duplicate (L'Express): «Mauritius Telecom Foundation Bill» :  Kaviraj Sukon insiste sur le rôle des entreprises d == Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mah
-  dup: nothing new ()
-Skipped duplicate (L'Express): «Mauritius Telecom Foundation Bill»  : Mahend Gungapersad défend le choix de deux bénéfici == Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mah
-  dup: nothing new ()
-Skipped duplicate (L'Express): Affaire Élodie Thomas  : Ses avocats s’expriment devant la presse == Дело Élodie Thomas: расследование IPCC вступает в решающую фазу
-  dup check: new (Европейская комиссия планирует в 2027 году принять дорожную карту по ускорению внедрения гражданских дронов и повышению конкурентоспособности отрасли;)
-  not about Mauritius: Drones : l’Union européenne prépare une nouvelle étape réglementaire et industrielle
-Skipped foreign news (Inside News): Drones : l’Union européenne prépare une nouvelle étape réglementaire et industrielle
-LLM usage this run: 5 requests, 7177 tokens
-### check 5/5 at 07:55
-  dup: nothing new ()
-Skipped duplicate (L'Express): «Mauritius Telecom Foundation Bill» l Chetan Baboolall : le FMP votera le texte, mais déno == Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mah
-  dup: nothing new ()
-Skipped duplicate (L'Express): «Mauritius Telecom Foundation Bill» : Francisco François réclame un programme dédié aux ét == Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mah
-  dup check: new (Статья рассказывает о новом научном открытии с использованием телескопа Hubble: роль карликовых галактик в распространении тяжёлых элементов во Вселен)
-  not about Mauritius: Hubble éclaire le rôle des galaxies naines dans la dispersion des éléments lourds
-Skipped foreign news (Inside News): Hubble éclaire le rôle des galaxies naines dans la dispersion des éléments lourds
-  dup: nothing new ()
-Skipped duplicate (Inside News): Météo du vendredi 13 novembre : des averses localisées et jusqu’à 32 °C == Отключения электричества с 13 по 15 ноября: затронутые регионы, секторы и время
-LLM usage this run: 5 requests, 6065 tokens
+Skipped duplicate (Le Mauricien): AFFAIRE SMS PARIAZ : Jean-Michel Lee Shim attendu à la FCC la semaine prochaine == Финансовая комиссия отказалась отстранить адвоката Jean-Michel Lee Shim
+LLM usage this run: 9 requests, 13254 tokens
