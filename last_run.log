@@ -1,65 +1,12 @@
-### check 1/5 at 03:42
-  dup: nothing new (Обвинение ACIM в недостаточном контроле за использованием пестицидов на Маврикии; заявление Jayen Chellum о нехватке персонала для контроля (менее 10 )
-Skipped duplicate (Defimedia): Pesticides dans les fruits et légumes : l’ACIM dénonce un «manque de contrôles» à Maurice == На Маврикии 23 жалобы на школы для детей с особыми потребностями
-GigaChat balance: GigaChat-Ultra 46,082,762, GigaChat-Pro 36,717,830, GigaChat-Max 23,950,091, GigaChat 249,589,075; 341 days to go
-  dup check: new (Элодия Томас публично поблагодарила всех, кто молился за неё во время её пребывания без сознания и госпитализации; также её муж сообщил о положительно)
-  proofread: Элоди Тома → Элоди Томас; Camp-Levieux → Камп-Левьё
-Posted (Defimedia): Élodie Thomas: «Я благодарю всех, кто молился за меня»
-  dup check: new (MCB Group объявила о чистой прибыли в размере 5,4 млрд рупий за первый квартал 2026/27 года, что на 9,9% больше по сравнению с аналогичным периодом пр)
+### check 1/5 at 07:39
+  dup check: new (В статье впервые упоминается проект регуляризации для примерно 500 семей в Ti Rodrigues, Résidence La Cure и заявление Shakeel Mohamed о том, что этот)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): MCB Group: прибыль 5,4 млрд рупий за первый квартал 2026/27
-  dup check: new (La Cour d’appel du BIOT a confirmé les ordres d'expulsion contre quatre Chagossiens sur l'Île du Coin, annulant une décision favorable de la Cour supr)
-  not about Mauritius: Cour d’appel confirme les ordres d’expulsion contre quatre Chagossiens sur l’Île du Coin
-Skipped foreign news (Wazaa): Cour d’appel confirme les ordres d’expulsion contre quatre Chagossiens sur l’Île du Coin
-LLM usage this run: 9 requests, 15404 tokens
-### check 2/5 at 03:46
-  dup check: new (Обрушение трёхэтажного здания в Бруклине с минимум 5 погибшими и 17 пострадавшими (4 в критическом состоянии), поисковые работы продолжаются.)
-  not about Mauritius: New York : au moins cinq morts dans l’effondrement d’un immeuble à Brooklyn, les secours fouillent t
-Skipped foreign news (Inside News): New York : au moins cinq morts dans l’effondrement d’un immeuble à Brooklyn, les secours fouillent t
-  same headline as #31: Décès de trois travailleurs bangladais : la Pastorale des Migrants exprime sa so
-Skipped duplicate (Le Mauricien): Décès de 3 bangladais : La Pastorale des Migrants exprime sa proximité == Смерть трёх бангладешских рабочих: «Pastorale des Migrants» выражает солидарность
-  dup check: new (В статье впервые опубликованы конкретные даты (13–15 ноября 2026), регионы и часы плановых отключений электричества по районам. Это новое решение о пр)
-Posted (Defimedia): Отключения электричества с 13 по 15 ноября: затронутые регионы, секторы и время
-  not news (portrait/lifestyle): Au Cœur de l’Info : quinze ans après le rapport de la Commission Justice et Vérité, quel bilan ?
-Skipped foreign news (Defimedia): Au Cœur de l’Info : quinze ans après le rapport de la Commission Justice et Vérité, quel bilan ?
-LLM usage this run: 6 requests, 13057 tokens
-### check 3/5 at 03:50
-  dup check: new (Министр транспорта Osman Mahomed объявил о мерах по снижению пробок из-за закрытия участка улицы Monseigneur-Leen и поручил подрядчику ускорить работы)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Monseigneur-Leen
-  leftovers fixed by GigaChat-3-Pro; still left: Monseigneur-Leen
-Posted (Defimedia): Работы на улице Monseigneur-Leen: Osman Mahomed объявляет о мерах по сокращению пробок
-  dup check: new (Две внебрачные связи и подозрения в шпионаже стали причиной отставки CEO Nvidia Дженсена Хуанга; одна из женщин подозревается американскими спецслужба)
-  not about Mauritius: Deux liaisons, des soupçons d’espionnage : les dessous de la démission du CEO de Nvidia
-Skipped foreign news (Defimedia): Deux liaisons, des soupçons d’espionnage : les dessous de la démission du CEO de Nvidia
+Posted (L'Express): Жильё для уязвимых слоёв населения: Shakeel Mohamed — «Проект легализации затронет весь Маврикий»
   dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « SITIASYON PE RES CRITIK » == [В фотографиях] Водохранилище Mare-aux-Vacoas: нехватка воды обнажила обширные участки суш
-  dup check: new (SBM сообщает о росте прибыли до налогообложения на 23,1% за первые девять месяцев 2026 года по сравнению с аналогичным периодом 2025 года; прибыль до )
-  proofread: 
-  foreign words left: One
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): SBM: прибыль до налогообложения выросла на 23,1% по итогам сентября
-LLM usage this run: 11 requests, 14410 tokens
-### check 4/5 at 03:54
-  not about Mauritius: Taïwan : pourquoi une crise pourrait-elle bouleverser le commerce mondial ?
-Skipped foreign news (Defimedia): Taïwan : pourquoi une crise pourrait-elle bouleverser le commerce mondial ?
-  same headline as #36: Autisme, cardiologie, dialyse : Trois accords avec Mauritius Telecom pour renfor
-Skipped duplicate (L'Express): Santé l Autisme, cardiologie et dialyse : trois accords pour renforcer les services de san == Три соглашения с Mauritius Telecom для улучшения медицинских услуг
+Skipped duplicate (L'Express): Secteur bancaire durable l MCB : l’enveloppe verte portée à Rs 25 milliards == MCB Group: прибыль 5,4 млрд рупий за первый квартал 2026/27
   dup: nothing new ()
-Skipped duplicate (Defimedia): Accident à Ferney : un motocycliste de 49 ans perd la vie == Дорожно-транспортное происшествие в Port-Louis: мотоциклист сбил пешехода возрастом 99 лет
-  dup check: new (Статья рассказывает о мемуарах Sonia Gandhi и десяти спорных моментах из её жизни, которые вызвали дебаты в Индии. Это новая тема, не связанная с ране)
-  not about Mauritius: Sonia Gandhi : dix passages de ses mémoires qui font débat en Inde
-Skipped foreign news (Defimedia): Sonia Gandhi : dix passages de ses mémoires qui font débat en Inde
-LLM usage this run: 4 requests, 7806 tokens
-### check 5/5 at 03:58
-  dup: nothing new ()
-Skipped duplicate (L'Express): Bilan du gouvernement l Reeaz Chuttoo: «Nous allons vers une explosion sociale» == Гибель трёх рабочих из Бангладеш: профсоюз требует установить виновных
-  dup check: new (В статье сообщается о новом смертельном ДТП с мотоциклистом 49 лет в Ferney (12 ноября), что отличается от ранее опубликованных аварий: пешеход 99 лет)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Смертельное ДТП в Ferney: 49-летний мотоциклист погиб
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Rapport du ministère de la Santé révèle 16 unités sous-effectives malgré 3,5 milliards de  == Отчёт о результатах работы больниц за 2025–2026 годы: нехватка кадров, поломки и задержки 
-  dup check: new (Последний пациент с Эболой выписан из больницы в Кении 11 ноября 2026 года; начинается отсчёт 42 дней до возможного объявления страны свободной от эпи)
-  not about Mauritius: Kenya : le dernier patient Ebola sort de l’hôpital, le compte à rebours commence
-Skipped foreign news (Inside News): Kenya : le dernier patient Ebola sort de l’hôpital, le compte à rebours commence
-LLM usage this run: 7 requests, 9790 tokens
+Skipped duplicate (L'Express): Réhabilitation de la rue Monseigneur-Leen l  Osman Mahomed : «Les travaux devront être ach == Работы на улице Monseigneur-Leen: Osman Mahomed объявляет о мерах по сокращению пробок
+  dup check: new (В статье приводятся новые глобальные данные о распространении систем раннего предупреждения: 70% стран заявляют о наличии таких систем (136 стран по с)
+  proofread: «многоопасных» → «многопрофильных»
+Posted (Inside News): Климат: ранние предупреждения развиваются, но глобальное покрытие остаётся неполным
+LLM usage this run: 8 requests, 12198 tokens
