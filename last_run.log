@@ -49,3 +49,15 @@ Skipped duplicate (Defimedia): Microsoft dit que les mesures pour résoudre la p
   dup: nothing new ()
 Skipped duplicate (Defimedia): Hausse du Key Rate : les entreprises mauriciennes craignent pour leurs marges et les inves == Базовая ставка 5%: «Повышение слишком велико для домохозяйств и предприятий», — сетует Khu
 LLM usage this run: 4 requests, 5247 tokens
+### check 5/5 at 15:51
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La caricature du Mauricien du 12 novembre 2026 == Выхлопные системы — штрафы 10 000 рупий: полиция должна отличать аксессуары от модифициров
+  dup check: new (В статье сообщается о масштабной технической проблеме с сервисами Microsoft 365 (Outlook, Teams, Copilot и др.), начавшихся 12 ноября. Это новое событ)
+  proofread: 
+Failed to post https://defimedia.info/outlook-teams-copilot-comprendre-la-panne-qui-frappe-microsoft: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+  dup check: new (В статье впервые сообщается о финансовом положении текстильной группы World Knits: активы оцениваются в 500 млн рупий, долги — 1,4 млрд; три завода по)
+Posted (Le Mauricien): НАЦИОНАЛЬНОЕ СОБРАНИЕ: World Knits Group — активы оцениваются в 500 млн рупий, долги — в 1,4 млрд
+  dup check: new (В статье говорится о продолжающейся мировой проблеме с Outlook и Teams из-за перегрузки инфраструктуры Microsoft, а также о том, что принятые меры пок)
+  not about Mauritius: Microsoft peine à réparer la panne mondiale d'Outlook
+Skipped foreign news (Defimedia): Microsoft peine à réparer la panne mondiale d'Outlook
+LLM usage this run: 9 requests, 14124 tokens
