@@ -40,3 +40,13 @@ Skipped duplicate (Defimedia): Demande d’annulation des accusations provisoire
   dup: nothing new ()
 Skipped duplicate (Wazaa): Groupe SBM : Bénéfice avant impôt en hausse de 23,1 % sur les neuf premiers mois de 2026 == SBM: прибыль до налогообложения выросла на 23,1% по итогам сентября
 LLM usage this run: 4 requests, 5006 tokens
+### check 5/5 at 23:01
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Panne de Microsoft : la GRA confrontée à des difficultés techniques == Outlook, Teams, Copilot: что известно о сбое в Microsoft
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Panne mondiale chez Microsoft : Gautam Dinnoo appelle au calme et met en garde contre les  == Outlook, Teams, Copilot: что известно о сбое в Microsoft
+  dup check: new (Vivo Energy Mauritius установила солнечные панели для двух НКО: Caritas Solitude Lakaz Lespwar и Anges du Soleil. Это часть их политики корпоративной )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Энергетический переход: Vivo Energy Mauritius оснащает две НПО фотоэлектрическими солнечными панелями
+Posted (Le Mauricien): Туризм | Квартальный отчёт: NMH подтверждает динамику роста и усиливает показатели
+LLM usage this run: 7 requests, 11636 tokens
