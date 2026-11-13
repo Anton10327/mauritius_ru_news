@@ -1,63 +1,11 @@
-### check 1/5 at 15:35
-New source Inside News: skipped backlog, posting newest only
-  dup check: new (Новое событие: израильский авиаудар по больнице Nasser в Газе, 6 погибших (включая ребёнка и хирурга), 52 раненых; MSF оказала помощь двум врачам и ещ)
-  not about Mauritius: Gaza : l’indignation de Médecins sans frontières après une frappe israélienne contre l’hôpital Nasse
-Skipped foreign news (Defimedia): Gaza : l’indignation de Médecins sans frontières après une frappe israélienne contre l’hôpital Nasse
-  dup check: new (В статье говорится о призыве ВОЗ защитить медицинские учреждения в Газе после израильского удара по больнице Nasser и приводятся новые данные: 1056 ат)
-  not about Mauritius: Gaza : l’OMS appelle à protéger les établissements de santé après une frappe israélienne contre l’hô
-Skipped foreign news (Defimedia): Gaza : l’OMS appelle à protéger les établissements de santé après une frappe israélienne contre l’hô
-  dup check: new (Смерть бывшего парламентария Harish Ramphul в возрасте 79 лет; краткая биография и этапы его жизни (образование, карьера, политическая деятельность); )
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Mahébourg-Plaine-Magnien, Parti, travailliste, Solférino
-  leftovers fixed by GigaChat-3-Pro; still left: Mahébourg-Plaine-Magnien, Parti, travailliste, Solférino
-Posted (Defimedia): Некролог: скончался бывший парламентарий Harish Ramphul
+### check 1/5 at 22:45
+  dup check: new ()
+Posted (Defimedia): Outlook, Teams, Copilot: что известно о сбое в Microsoft
+  dup check: new (Министерство гендерного равенства и семейного благополучия осудило насилие над несовершеннолетним на пляже и объявило о запуске протокола вмешательств)
+Posted (Defimedia): Видео с привязанным и избитым ребёнком на пляже: министерство осуждает эти акты насилия
+Proofreading GigaChat-3-Pro failed: Expecting ',' delimiter: line 1 column 1297 (char 1296)
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): Труд и трудовые отношения: CITU обвиняет в профсоюзной дискриминации и обращается к министерству
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): AFFAIRE SMS PARIAZ : Jean-Michel Lee Shim attendu à la FCC la semaine prochaine == Финансовая комиссия отказалась отстранить адвоката Jean-Michel Lee Shim
-LLM usage this run: 9 requests, 13254 tokens
-### check 2/5 at 15:39
-  dup check: new (Инвестиции в оборудование порта на сумму Rs 2,7 млрд и покупка новых кранов на Rs 2,5 млрд; порт Порт-Луи занимает 369-е место из 405 по конкурентоспо)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): PMQT I Для повышения конкурентоспособности — Порт: 5,2 млрд рупий на современное оборудование
-  dup check: new (В статье сообщается о решении Апелляционного суда Британской территории в Индийском океане (BIOT) от 12 ноября 2026 года, который отменил предыдущее р)
-  not about Mauritius: Chagos : Olivier Bancoult appelle au respect du jugement de la Cour d’appel du BIOT
-Skipped foreign news (Defimedia): Chagos : Olivier Bancoult appelle au respect du jugement de la Cour d’appel du BIOT
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Accident de travail — Trois Bangladais décédés : La CTSP dénonce l’absence de Risk Assessm == Гибель трёх рабочих из Бангладеш: профсоюз требует установить виновных
-  dup check: new (Суд BIOT восстановил ордера на высылку четырёх чагоссианцев с острова Коин; один из них (Misley Mandarin) отказывается уезжать и готовятся новые судеб)
-  proofread: уведомления об выселении → уведомления о выселении; высадившихся → высадившихся
-Posted (Defimedia): Чагос: после решения апелляционного суда Британской территории в Индийском океане — что будет дальше?
-LLM usage this run: 9 requests, 14590 tokens
-### check 3/5 at 15:43
-  dup check: new (Мировая авария в Microsoft: затронуты Teams, Outlook и Copilot; проблемы с подключением подтверждены компанией; сбои наблюдаются в 74 странах более во)
-  not about Mauritius: Panne mondiale chez Microsoft : Teams, Outlook et Copilot touchés par une importante panne
-Skipped foreign news (Le Mauricien): Panne mondiale chez Microsoft : Teams, Outlook et Copilot touchés par une importante panne
-  proofread: «допуском 5%» → «с допуском 5%»; «в этом случае должны обеспечивать» → «в этом случае должны обеспечивать», (улучшено согласование); «Разрешение не переходит к новому владельцу» → «Разрешение на тонировку не переходит к новому владельцу»
-Posted (Le Mauricien): Тонировка стёкол: водителям напомнили о пороге в 75 %, возможны исключения
-  not about Mauritius: Une panne mondiale touche la messagerie Outlook de Microsoft
-Skipped foreign news (Defimedia): Une panne mondiale touche la messagerie Outlook de Microsoft
-  dup check: new (Министр транспорта Маврикия Osman Mahomed уточнил условия применения штрафа в 10 000 рупий за модифицированные выхлопные системы: штраф может быть нал)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Выхлопные системы — штрафы 10 000 рупий: полиция должна отличать аксессуары от модифицированных глушителей
-LLM usage this run: 8 requests, 15477 tokens
-### check 4/5 at 15:47
-  not news (portrait/lifestyle): Jean Francisco François , leader de l’OPR : « L’accès à une éducation de qualité est un droit fondam
-Skipped foreign news (Le Mauricien): Jean Francisco François , leader de l’OPR : « L’accès à une éducation de qualité est un droit fondam
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Blog] Deux ans après le 60–0 : entre promettre et gouverner -Des institutions au destin d == Разрешения на оружие 2027: где и когда продлевать на Маврикии
-  dup: nothing new (Microsoft a indiqué que les mesures prises pour résoudre la panne mondiale d'Outlook ne fonctionnaient pas comme prévu et qu'il cherchait des solution)
-Skipped duplicate (Defimedia): Microsoft dit que les mesures pour résoudre la panne mondiale d'Outlook ne fonctionnent "p == Разрешения на оружие 2027: где и когда продлевать на Маврикии
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Hausse du Key Rate : les entreprises mauriciennes craignent pour leurs marges et les inves == Базовая ставка 5%: «Повышение слишком велико для домохозяйств и предприятий», — сетует Khu
-LLM usage this run: 4 requests, 5247 tokens
-### check 5/5 at 15:51
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Mauricien du 12 novembre 2026 == Выхлопные системы — штрафы 10 000 рупий: полиция должна отличать аксессуары от модифициров
-  dup check: new (В статье сообщается о масштабной технической проблеме с сервисами Microsoft 365 (Outlook, Teams, Copilot и др.), начавшихся 12 ноября. Это новое событ)
-  proofread: 
-Failed to post https://defimedia.info/outlook-teams-copilot-comprendre-la-panne-qui-frappe-microsoft: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-  dup check: new (В статье впервые сообщается о финансовом положении текстильной группы World Knits: активы оцениваются в 500 млн рупий, долги — 1,4 млрд; три завода по)
-Posted (Le Mauricien): НАЦИОНАЛЬНОЕ СОБРАНИЕ: World Knits Group — активы оцениваются в 500 млн рупий, долги — в 1,4 млрд
-  dup check: new (В статье говорится о продолжающейся мировой проблеме с Outlook и Teams из-за перегрузки инфраструктуры Microsoft, а также о том, что принятые меры пок)
-  not about Mauritius: Microsoft peine à réparer la panne mondiale d'Outlook
-Skipped foreign news (Defimedia): Microsoft peine à réparer la panne mondiale d'Outlook
-LLM usage this run: 9 requests, 14124 tokens
+Skipped duplicate (Defimedia): Installés sur l’île du Coin depuis février : Misley Mandarin et ses compagnons sous le cou == Чагос: после решения апелляционного суда Британской территории в Индийском океане — что бу
+LLM usage this run: 10 requests, 16970 tokens
