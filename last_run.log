@@ -24,3 +24,14 @@ Posted (L'Express): Дело «Dreamer»: маврикийская FCC запр�
   not about Mauritius: Afrique du Sud : la BAD engage 503,75 millions de dollars pour les réformes d’infrastructure
 Skipped foreign news (Inside News): Afrique du Sud : la BAD engage 503,75 millions de dollars pour les réformes d’infrastructure
 LLM usage this run: 10 requests, 14996 tokens
+### check 3/5 at 07:47
+  dup: nothing new ()
+Skipped duplicate (L'Express): Affaire Élodie Thomas : L’IPCC recueille sa déclaration == Élodie Thomas: «Я благодарю всех, кто молился за меня»
+  dup: nothing new ()
+Skipped duplicate (L'Express): Affaire Élodie Thomas :  Élodie Thomas remercie ses soutiens == Élodie Thomas: «Я благодарю всех, кто молился за меня»
+  dup check: new (В новой статье сообщается о новом событии — аварии с грузовиком в Bell-Village 12 ноября 2026 года. В опубликованных ранее материалах такого события н)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Bell-Village: грузовик завершил свой путь в канале
+  dup: nothing new ()
+Skipped duplicate (Wazaa): State Trading Corporation Défend l’attribution du contrat de location de camions face à qu == STC: противоречивые версии по контракту, заключённому с компанией, возглавляемой Mayur Shi
+LLM usage this run: 6 requests, 5621 tokens
