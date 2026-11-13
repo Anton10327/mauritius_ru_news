@@ -39,3 +39,13 @@ Skipped foreign news (Defimedia): Une panne mondiale touche la messagerie Outloo
   proofread: edit rejected (changed numbers, names or length)
 Posted (Le Mauricien): Выхлопные системы — штрафы 10 000 рупий: полиция должна отличать аксессуары от модифицированных глушителей
 LLM usage this run: 8 requests, 15477 tokens
+### check 4/5 at 15:47
+  not news (portrait/lifestyle): Jean Francisco François , leader de l’OPR : « L’accès à une éducation de qualité est un droit fondam
+Skipped foreign news (Le Mauricien): Jean Francisco François , leader de l’OPR : « L’accès à une éducation de qualité est un droit fondam
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Blog] Deux ans après le 60–0 : entre promettre et gouverner -Des institutions au destin d == Разрешения на оружие 2027: где и когда продлевать на Маврикии
+  dup: nothing new (Microsoft a indiqué que les mesures prises pour résoudre la panne mondiale d'Outlook ne fonctionnaient pas comme prévu et qu'il cherchait des solution)
+Skipped duplicate (Defimedia): Microsoft dit que les mesures pour résoudre la panne mondiale d'Outlook ne fonctionnent "p == Разрешения на оружие 2027: где и когда продлевать на Маврикии
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Hausse du Key Rate : les entreprises mauriciennes craignent pour leurs marges et les inves == Базовая ставка 5%: «Повышение слишком велико для домохозяйств и предприятий», — сетует Khu
+LLM usage this run: 4 requests, 5247 tokens
