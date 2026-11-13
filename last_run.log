@@ -14,3 +14,16 @@ Posted (Defimedia): Некролог: скончался бывший парла
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): AFFAIRE SMS PARIAZ : Jean-Michel Lee Shim attendu à la FCC la semaine prochaine == Финансовая комиссия отказалась отстранить адвоката Jean-Michel Lee Shim
 LLM usage this run: 9 requests, 13254 tokens
+### check 2/5 at 15:39
+  dup check: new (Инвестиции в оборудование порта на сумму Rs 2,7 млрд и покупка новых кранов на Rs 2,5 млрд; порт Порт-Луи занимает 369-е место из 405 по конкурентоспо)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): PMQT I Для повышения конкурентоспособности — Порт: 5,2 млрд рупий на современное оборудование
+  dup check: new (В статье сообщается о решении Апелляционного суда Британской территории в Индийском океане (BIOT) от 12 ноября 2026 года, который отменил предыдущее р)
+  not about Mauritius: Chagos : Olivier Bancoult appelle au respect du jugement de la Cour d’appel du BIOT
+Skipped foreign news (Defimedia): Chagos : Olivier Bancoult appelle au respect du jugement de la Cour d’appel du BIOT
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Accident de travail — Trois Bangladais décédés : La CTSP dénonce l’absence de Risk Assessm == Гибель трёх рабочих из Бангладеш: профсоюз требует установить виновных
+  dup check: new (Суд BIOT восстановил ордера на высылку четырёх чагоссианцев с острова Коин; один из них (Misley Mandarin) отказывается уезжать и готовятся новые судеб)
+  proofread: уведомления об выселении → уведомления о выселении; высадившихся → высадившихся
+Posted (Defimedia): Чагос: после решения апелляционного суда Британской территории в Индийском океане — что будет дальше?
+LLM usage this run: 9 requests, 14590 tokens
