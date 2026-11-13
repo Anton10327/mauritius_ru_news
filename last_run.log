@@ -1,52 +1,12 @@
-### check 1/5 at 22:45
-  dup check: new ()
-Posted (Defimedia): Outlook, Teams, Copilot: что известно о сбое в Microsoft
-  dup check: new (Министерство гендерного равенства и семейного благополучия осудило насилие над несовершеннолетним на пляже и объявило о запуске протокола вмешательств)
-Posted (Defimedia): Видео с привязанным и избитым ребёнком на пляже: министерство осуждает эти акты насилия
-Proofreading GigaChat-3-Pro failed: Expecting ',' delimiter: line 1 column 1297 (char 1296)
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): Труд и трудовые отношения: CITU обвиняет в профсоюзной дискриминации и обращается к министерству
+### check 1/5 at 03:56
+New source Inside News: skipped backlog, posting newest only
   dup: nothing new ()
-Skipped duplicate (Defimedia): Installés sur l’île du Coin depuis février : Misley Mandarin et ses compagnons sous le cou == Чагос: после решения апелляционного суда Британской территории в Индийском океане — что бу
-LLM usage this run: 10 requests, 16970 tokens
-### check 2/5 at 22:49
+Skipped duplicate (Wazaa): Survivante d’une fusillade, Élodie Thomas fait sa première déposition à la police et remer == Élodie Thomas: «Я благодарю всех, кто молился за меня»
+GigaChat balance: GigaChat-Ultra 45,962,542, GigaChat-Pro 36,620,561, GigaChat-Max 23,950,091, GigaChat 249,589,075; 340 days to go
   dup: nothing new ()
-Skipped duplicate (Defimedia): Rue Monseigneur Leen : Osman Mahomed veut accélérer les travaux avant le Sommet US-Africa == Работы на улице Monseigneur-Leen: Osman Mahomed объявляет о мерах по сокращению пробок
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Gavin Glover, Attorney General : «Le chemin légal pour le retour aux Chagos passe par Maur == Чагос: после решения апелляционного суда Британской территории в Индийском океане — что бу
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Vijay Makhan : «Le temps des tergiversations doit céder la place à celui des décisions» == Чагос: после решения апелляционного суда Британской территории в Индийском океане — что бу
-  dup: nothing new (Решение о повышении ставки рефинансирования с 4,75% до 5%, прогноз роста ВВП на 2026 и 2027 годы, мнение бывшего управляющего Банком Маврикия Дана Мар)
-Skipped duplicate (Defimedia): Taux directeur à 5 % : prudence monétaire ou frein à la croissance? == Академия полиции: Маврикий отстаёт
-LLM usage this run: 4 requests, 4694 tokens
-### check 3/5 at 22:53
-  dup check: new ()
-  not news (portrait/lifestyle): Au Cœur de l’Info – Coût de la vie : le pouvoir d’achat des Mauriciens mis à rude épreuve
-Skipped foreign news (Defimedia): Au Cœur de l’Info – Coût de la vie : le pouvoir d’achat des Mauriciens mis à rude épreuve
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Chagos | Cour d’Appel du BIOT  :L’expulsion du PM fantôme et  consorts de l’île du Coin va == Чагос: после решения апелляционного суда Британской территории в Индийском океане — что бу
-  dup check: new (Арест Маниш Сумбур по прозвищу Картик в рамках расследования убийства Селвен Иемпермал; его появление в суде и возвращение под стражу.)
-Posted (Defimedia): Убийство Selven Iyempermal: арестован Manish Soumbur силами MCIT
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : Élodie Thomas a livré sa version des faits à l’IPCC == Élodie Thomas: «Я благодарю всех, кто молился за меня»
-LLM usage this run: 7 requests, 11052 tokens
-### check 4/5 at 22:57
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [DéfiXplik] Échappements modifiés : ce qui est autorisé et ce qui est interdit à Maurice == Выхлопные системы — штрафы 10 000 рупий: полиция должна отличать аксессуары от модифициров
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Fin d’année | Marchands ambulants : La mairie de Port-Louis durcit le ton == Port-Louis: муниципалитет ужесточает меры против незаконных сооружений на тротуарах и доро
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Demande d’annulation des accusations provisoires : Mamy Ravatomanga dénonce l’absence de p == Предполагаемые отмывание денег и сговор: Mamy Ravatomanga требует отмены предварительных о
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Groupe SBM : Bénéfice avant impôt en hausse de 23,1 % sur les neuf premiers mois de 2026 == SBM: прибыль до налогообложения выросла на 23,1% по итогам сентября
-LLM usage this run: 4 requests, 5006 tokens
-### check 5/5 at 23:01
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Panne de Microsoft : la GRA confrontée à des difficultés techniques == Outlook, Teams, Copilot: что известно о сбое в Microsoft
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Panne mondiale chez Microsoft : Gautam Dinnoo appelle au calme et met en garde contre les  == Outlook, Teams, Copilot: что известно о сбое в Microsoft
-  dup check: new (Vivo Energy Mauritius установила солнечные панели для двух НКО: Caritas Solitude Lakaz Lespwar и Anges du Soleil. Это часть их политики корпоративной )
+Skipped duplicate (Defimedia): Panne mondiale d'Outlook : incident toujours en cours mais pas de cyberattaque, selon Micr == Outlook, Teams, Copilot: что известно о сбое в Microsoft
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Энергетический переход: Vivo Energy Mauritius оснащает две НПО фотоэлектрическими солнечными панелями
-Posted (Le Mauricien): Туризм | Квартальный отчёт: NMH подтверждает динамику роста и усиливает показатели
-LLM usage this run: 7 requests, 11636 tokens
+Posted (Le Mauricien): NEF | региональная консультация: Ashok Subron — «130 000 маврикийцев живут в бедности»
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Non-respect du couvre-feu : huit personnes condamnées à des peines de 90 à 120 jours de pr == Нарушение комендантского часа: восемь человек признаны виновными в суде
+LLM usage this run: 5 requests, 8228 tokens
