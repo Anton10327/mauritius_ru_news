@@ -46,3 +46,14 @@ Skipped duplicate (L'Express): Affaire Élodie Thomas  : Ses avocats s’exprime
   not about Mauritius: Drones : l’Union européenne prépare une nouvelle étape réglementaire et industrielle
 Skipped foreign news (Inside News): Drones : l’Union européenne prépare une nouvelle étape réglementaire et industrielle
 LLM usage this run: 5 requests, 7177 tokens
+### check 5/5 at 07:55
+  dup: nothing new ()
+Skipped duplicate (L'Express): «Mauritius Telecom Foundation Bill» l Chetan Baboolall : le FMP votera le texte, mais déno == Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mah
+  dup: nothing new ()
+Skipped duplicate (L'Express): «Mauritius Telecom Foundation Bill» : Francisco François réclame un programme dédié aux ét == Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mah
+  dup check: new (Статья рассказывает о новом научном открытии с использованием телескопа Hubble: роль карликовых галактик в распространении тяжёлых элементов во Вселен)
+  not about Mauritius: Hubble éclaire le rôle des galaxies naines dans la dispersion des éléments lourds
+Skipped foreign news (Inside News): Hubble éclaire le rôle des galaxies naines dans la dispersion des éléments lourds
+  dup: nothing new ()
+Skipped duplicate (Inside News): Météo du vendredi 13 novembre : des averses localisées et jusqu’à 32 °C == Отключения электричества с 13 по 15 ноября: затронутые регионы, секторы и время
+LLM usage this run: 5 requests, 6065 tokens
