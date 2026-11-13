@@ -35,3 +35,14 @@ Posted (L'Express): Bell-Village: грузовик завершил свой п�
   dup: nothing new ()
 Skipped duplicate (Wazaa): State Trading Corporation Défend l’attribution du contrat de location de camions face à qu == STC: противоречивые версии по контракту, заключённому с компанией, возглавляемой Mayur Shi
 LLM usage this run: 6 requests, 5621 tokens
+### check 4/5 at 07:51
+  dup: nothing new ()
+Skipped duplicate (L'Express): «Mauritius Telecom Foundation Bill» :  Kaviraj Sukon insiste sur le rôle des entreprises d == Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mah
+  dup: nothing new ()
+Skipped duplicate (L'Express): «Mauritius Telecom Foundation Bill»  : Mahend Gungapersad défend le choix de deux bénéfici == Национальное собрание — принятие закона о фонде Mauritius Telecom: министр образования Mah
+  dup: nothing new ()
+Skipped duplicate (L'Express): Affaire Élodie Thomas  : Ses avocats s’expriment devant la presse == Дело Élodie Thomas: расследование IPCC вступает в решающую фазу
+  dup check: new (Европейская комиссия планирует в 2027 году принять дорожную карту по ускорению внедрения гражданских дронов и повышению конкурентоспособности отрасли;)
+  not about Mauritius: Drones : l’Union européenne prépare une nouvelle étape réglementaire et industrielle
+Skipped foreign news (Inside News): Drones : l’Union européenne prépare une nouvelle étape réglementaire et industrielle
+LLM usage this run: 5 requests, 7177 tokens
