@@ -10,3 +10,17 @@ Skipped duplicate (L'Express): Réhabilitation de la rue Monseigneur-Leen l  Osm
   proofread: «многоопасных» → «многопрофильных»
 Posted (Inside News): Климат: ранние предупреждения развиваются, но глобальное покрытие остаётся неполным
 LLM usage this run: 8 requests, 12198 tokens
+### check 2/5 at 07:43
+  dup check: new (Четыре студента из Маврикия отправятся в Шэньчжэнь с Huawei для участия в 10-м выпуске программы Seeds for the Future; даты поездки — с 21 по 29 ноябр)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): «Seeds for the Future»: четверо маврикийских студентов отправятся в Шэньчжэнь с Huawei
+  dup: nothing new ()
+Skipped duplicate (L'Express): Accident fatal à Sébastopol : Kinsley Rabaye, 45 ans, fauché alors qu’il chassait des héri == Sébastopol: пешеход погиб после столкновения с автомобилем
+  dup check: new (La police thaïlandaise et Interpol sont sollicitées pour remonter la piste des avoirs du cartel lié à l'affaire Dreamer.)
+  foreign words left: Ronde
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (L'Express): Дело «Dreamer»: маврикийская FCC запросила помощь полиции Таиланда и Интерпола для отслеживания активов картеля
+  dup check: new (La Banque africaine de développement a approuvé un prêt de 503,75 millions de dollars à l’Afrique du Sud pour soutenir des réformes dans l’électricité)
+  not about Mauritius: Afrique du Sud : la BAD engage 503,75 millions de dollars pour les réformes d’infrastructure
+Skipped foreign news (Inside News): Afrique du Sud : la BAD engage 503,75 millions de dollars pour les réformes d’infrastructure
+LLM usage this run: 10 requests, 14996 tokens
