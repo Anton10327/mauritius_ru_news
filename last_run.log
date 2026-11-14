@@ -1,52 +1,15 @@
-### check 1/5 at 09:45
+### check 1/5 at 16:32
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+New source Inside News: skipped backlog, posting newest only
+  dup check: new (Массовая отмена и задержка рейсов в США из-за проблем со связью; более 5000 рейсов отменено; цитата пассажирки Tiara Johnson о ситуации в аэропорту La)
+  not about Mauritius: Pagaille aux Etats-Unis, où tous les vols sont suspendus à cause de problèmes de communication
+Skipped foreign news (Defimedia): Pagaille aux Etats-Unis, où tous les vols sont suspendus à cause de problèmes de communication
+  dup check: new (США открыли воздушное пространство после временной приостановки вылетов из-за сбоя связи; министр транспорта США назвал причиной устаревшее оборудован)
+  not about Mauritius: Suspension des vols aux États-Unis : l'espace aérien a rouvert
+Skipped foreign news (Defimedia): Suspension des vols aux États-Unis : l'espace aérien a rouvert
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Banques | Key Repo Rate à 5%  Haniff Peerun (MLC)  : « Elle risque également d’alourdir le == Банки | Ключевая ставка репо (Key Repo Rate) установлена на уровне 5%. Jayen Chellum, генс
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Faux communiqué : la police dément == Outlook, Teams, Copilot: что известно о сбое в Microsoft
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « Si enn dimoun intelizan, li pou vinn ar gouvernma santral » == Советы деревень: роспуск назначен на 22 ноября
-  dup check: new (В статье сообщается о новом решении Совета министров — одобрении проекта закона (National Disaster Risk Reduction and Management (Amendment) Bill), ко)
-Posted (Defimedia): Непогода: законопроект об официальном утверждении протокола о сильных дождях и усилении защиты работников
-LLM usage this run: 6 requests, 8594 tokens
-### check 2/5 at 09:49
-  dup check: new (Маврикий разрабатывает законодательство по экономике циркулярной с поддержкой ЕС; финансирование 3,5 млн евро на 46 месяцев (сентябрь 2025 — июль 2029)
-Posted (Defimedia): Экономика замкнутого цикла: Маврикий готовит законодательную рамку при поддержке Европейского союза
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Élodie Thomas : Les mots après les blessures == Élodie Thomas: её первое интервью сегодня в 21:00
-Posted (Defimedia): Чай: 46,45 арпана земли заброшены 50 плантаторами, запущена программа пересадки
-  dup check: new (Правительство Маврикия одобрило запуск министерством Труда и промышленных отношений исследования о социально-экономическом влиянии увеличения числа ин)
-Posted (Defimedia): Правительство одобрило исследование об экономических, социальных и демографических последствиях привлечения иностранных работников на Маврикии
-LLM usage this run: 9 requests, 14001 tokens
-### check 3/5 at 09:53
-  dup check: new (Maurice se classe premier en Afrique et 8e au monde dans l'Ayre Index 2026 avec un score de 64,4/100; la performance a été présentée au Conseil des mi)
-Posted (Defimedia): Искусственный интеллект: Маврикий — первый в Африке в рейтинге Ayre Index 2026
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Rue Monseigneur-Leen : un nouveau plan de déviation dès lundi pour réduire les embouteilla == Работы на улице Monseigneur-Leen: Osman Mahomed объявляет о мерах по сокращению пробок
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Élodie Thomas : Les mots après les blessures == Élodie Thomas: её первое интервью сегодня в 21:00
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Coupures d’électricité programmées dans plusieurs régions de l’île Maurice sur 3 jours == Отключения электричества с 13 по 15 ноября: затронутые регионы, секторы и время
-LLM usage this run: 6 requests, 7527 tokens
-### check 4/5 at 09:57
-  dup check: new (AHRIM представила шесть стратегических приоритетов для развития туристической отрасли на 2026-2027 годы. Это новое событие и новый документ/план, кото)
-Posted (L'Express): Туризм: шесть стратегических приоритетов AHRIM для подготовки будущего сектора
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Microsoft dit être «profondément désolé» pour sa panne mondiale == Outlook, Teams, Copilot: что известно о сбое в Microsoft
-  not about Mauritius: Kevin Carpenen : «Les tarifs de fret ne baisseront pas immédiatement»
-Skipped foreign news (Defimedia): Kevin Carpenen : «Les tarifs de fret ne baisseront pas immédiatement»
-  dup check: new (В статье приведены новые данные о росте прямых иностранных инвестиций (IDE) на 22,5% за первое полугодие 2026 года и их структуре: доля недвижимости в)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Cédric Béguier: «Важно не то, сколько миллиардов вложено, а богатство, созданное инвестициями»
-LLM usage this run: 8 requests, 14683 tokens
-### check 5/5 at 10:01
-  dup check: new (Упоминается партнёрство изданий «L’express» и «Business Magazine» с саммитом U.S.-Africa Business Summit 2026, а также информация о проведении меропри)
-  not news (portrait/lifestyle): «U.S.-Africa Business Summit 2026» : Un rendez-vous stratégique pour renforcer les relations commerc
-Skipped foreign news (L'Express): «U.S.-Africa Business Summit 2026» : Un rendez-vous stratégique pour renforcer les relations commerc
-  dup: nothing new ()
-Skipped duplicate (Defimedia): «Racines et perspectives 2» : quand Alain Jeannot décline l’histoire de Maurice en bribes == ФИФА: МФА может получить 25 млн долларов на 2027–2030 годы, для сборной Маврикия рассматри
-  dup check: new (Объявление FAA о приостановке всех рейсов в США из-за сбоя связи в центрах управления воздушным движением; подтверждение от министра транспорта Шона Д)
-  not about Mauritius: États-Unis : tous les vols suspendus après une panne de communication du contrôle aérien
-Skipped foreign news (Le Mauricien): États-Unis : tous les vols suspendus après une panne de communication du contrôle aérien
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Погода на Маврикии в субботу: местами дожди и до 32 °C
-LLM usage this run: 7 requests, 11479 tokens
+Skipped duplicate (Defimedia): Panne de Microsoft : 22 heures de perturbations qui révèlent notre dépendance aux géants t == Outlook, Teams, Copilot: что известно о сбое в Microsoft
+  dup check: new (Публикация посвящена сбою в системе управления воздушным движением США и временной приостановке всех вылетов по стране. Это новое событие, не связанно)
+  not about Mauritius: États-Unis : comprendre la panne qui a suspendu les décollages dans tout le pays
+Skipped foreign news (Defimedia): États-Unis : comprendre la panne qui a suspendu les décollages dans tout le pays
+LLM usage this run: 7 requests, 12336 tokens
