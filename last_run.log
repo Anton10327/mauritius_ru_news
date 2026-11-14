@@ -46,3 +46,14 @@ Skipped foreign news (Le Mauricien): Across Oceans, Beneath One Sun:  The Shared
   leftovers fixed by GigaChat-3-Pro; still left: none
 Posted (Defimedia): Élodie Thomas: её первое интервью сегодня в 21:00
 LLM usage this run: 7 requests, 9601 tokens
+### check 5/5 at 04:12
+  dup check: new (Официальная дата роспуска советов деревень — 22 ноября 2026 года; комитеты смогут продолжать работу до Nomination Day.)
+Posted (Defimedia): Советы деревень: роспуск назначен на 22 ноября
+  dup check: new (Аресты двух человек за заправку автомобилей бытовым газом в Baie-du-Tombeau; операция полиции с изъятием баллонов и компрессора.)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Baie-du-Tombeau: двое задержаны за заправку автомобилей бытовым газом
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Île Maurice lance un sprint de 10 jours pour relier les chutes Tamarin à La Marie en pério == Кризис воды: правительство хочет ускорить подключение Tamarin Falls к La Marie
+  dup: nothing new (Количество полученных деклараций о доходах за 2026 год (324 000) и сравнение с прошлым годом (308 000), а также информация об акциях по поощрению свое)
+Skipped duplicate (Defimedia): MRA : plus de 324 000 déclarations de revenus reçues cette année, indique Ramkisoon Geerja == Академия полиции: Маврикий отстаёт
+LLM usage this run: 8 requests, 11398 tokens
