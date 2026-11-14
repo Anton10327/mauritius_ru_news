@@ -23,3 +23,18 @@ Skipped duplicate (Defimedia): Du rêve canadien aux saveurs de Maurice : une hi
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Пик спроса на электроэнергию в 600 мегаватт ожидается в жаркий период, заявил гендиректор Central Electricity Board Shamshir Mukoon
 LLM usage this run: 8 requests, 12014 tokens
+### check 3/5 at 02:49
+  dup check: new (Жительница Родригеса Daniella выиграла джекпот Loto в размере Rs 88,9 млн — самый крупный выигрыш на острове; после этого она стала известной и привле)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Daniella, мультимиллионерша «Лото»: джекпот в 88,9 млн рупий привлекает посетителей с Маврикия на Rodrigues
+  dup check: new ()
+Bad LLM answer from GigaChat-3-Ultra: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"Как и любая языковая модель, GigaChat не обладает собственным мнением и не транслирует мнение своих разработчиков. Ответ сгенерирован нейросетевой моделью, обученной на открытых данных, в которых может содержаться неточная или ошибочная информация. Во избежание неп
+Bad LLM answer from GigaChat-2-Max: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"Генеративные языковые модели не обладают собственным мнением — их ответы являются обобщением информации, находящейся в открытом доступе. Чтобы избежать ошибок и неправильного толкования, разговоры на чувствительные темы могут быть ограничены.","role":"assistant"},"
+  written by GigaChat-3-Pro
+  not news (portrait/lifestyle): Questions à... Kelly Wayne : «Je veux rappeler que l’art peut créer des ponts entre les personnes»
+Skipped foreign news (L'Express): Questions à... Kelly Wayne : «Je veux rappeler que l’art peut créer des ponts entre les personnes»
+  dup: nothing new (Сбор 59 пинт крови в UTM как акция солидарности; инициатива GPSWA при поддержке UTM Staff Club и Student Union.)
+Skipped duplicate (Le Mauricien): Santé : Don de sang 59 pintes recueillies à l’UTM dans un élan de solidarité == Élodie Thomas: «Я благодарю всех, кто молился за меня»
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Elodie Thomas : «Je garde toujours une énergie positive dans ma vie» == Élodie Thomas: её первое интервью сегодня в 21:00
+LLM usage this run: 9 requests, 17127 tokens
