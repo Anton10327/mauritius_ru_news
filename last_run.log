@@ -44,3 +44,16 @@ Skipped duplicate (Le Mauricien): Tour d’horizon — Chagos : l’heure des d�
   dup: nothing new ()
 Skipped duplicate (Defimedia): Jocelyn Chan Low : «On ne peut gouverner en autocrate dans une démocratie» == Élodie Thomas: «Я благодарю всех, кто молился за меня»
 LLM usage this run: 9 requests, 13433 tokens
+### check 5/5 at 22:44
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Diabetes
+  leftovers fixed by GigaChat-3-Pro; still left: Diabetes
+Posted (Le Mauricien): Всемирный день диабета — APSA International: «Действовать, пока не стало слишком поздно»
+  not news (portrait/lifestyle): Sunil Ramgobin, CEO de Bank One : «L’erreur serait d’opposer le digital à l’humain»
+Skipped foreign news (Defimedia): Sunil Ramgobin, CEO de Bank One : «L’erreur serait d’opposer le digital à l’humain»
+  dup check: new (ACIM совместно с PNUD запускает пилотный проект по отслеживанию пестицидов в сельском хозяйстве Маврикия. Генсек ACIM Jayen Chellum критикует задержки)
+  proofread: Jayen Chellum → Джейен Челлум; OMS → ВОЗ
+Posted (Le Mauricien): Потребление — При поддержке проон — Пестициды: пилотный проект ACIM по отслеживанию
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Chagos et suivi du dossier de l’eau : Navin Ramgoolam s’adressera au Parlement mardi == Досье Chagos: Paul Bérenger требует от Navin Ramgoolam разъяснений
+LLM usage this run: 8 requests, 14276 tokens
