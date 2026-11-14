@@ -53,3 +53,14 @@ Posted (Defimedia): Нехватка персонала в службах здр
   dup: nothing new ()
 Skipped duplicate (Wazaa): Plan de replantation lancé pour relancer 46,45 arpents de plantations de thé abandonnées == Чай: 46,45 арпана земли заброшены 50 плантаторами, запущена программа пересадки
 LLM usage this run: 11 requests, 16868 tokens
+### check 5/5 at 16:48
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Досье Chagos: Paul Bérenger требует от Navin Ramgoolam разъяснений
+Posted (Defimedia): Обвинения в злоупотреблении властью и спорное назначение: сотрудница полиции оспаривает свой перевод и отвергает необоснованные обвинения
+  dup: nothing new ()
+Skipped duplicate (L'Express): Journée mondiale du diabète : Le ministère revoit ses lignes directrices pour agir plus tô == Нехватка персонала в службах здравоохранения: Anil Bachoo объявил о найме 60 индийских мед
+  dup check: new (Статья сообщает о том, что каждый пятый взрослый на Маврикии живёт с диабетом; упоминается исследование The Lancet Diabetes & Endocrinology о снижении)
+  not news (portrait/lifestyle): Journée mondiale du diabète : L’ennemi silencieux rajeunit
+Skipped foreign news (L'Express): Journée mondiale du diabète : L’ennemi silencieux rajeunit
+LLM usage this run: 7 requests, 13671 tokens
