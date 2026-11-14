@@ -20,3 +20,14 @@ Posted (Le Mauricien): Здравоохранение – National Cancer Hospit
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): Banques | Key Repo Rate à 5%  Dave Kissoondoyal (STOP) « Pas uniquement à travers ses obje == Повышение ключевой ставки: Roshi Bhadain предупреждает о росте стоимости жизни
 LLM usage this run: 6 requests, 11577 tokens
+### check 3/5 at 22:36
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Performance financière | Au 30 septembre  Le groupe SBM : hausse de 23,1 %  de son bénéfic == SBM: прибыль до налогообложения выросла на 23,1% по итогам сентября
+  dup check: new (Статья рассказывает о 150-летии организации Mothers' Union на Маврикии и создании фонда для поддержки семей, что не связано с ранее опубликованной ста)
+  not news (portrait/lifestyle): DIOCÈSE DE Maurice  — Soutien aux familles : 150 ans de Mothers’ Union, le fleuron de la communauté 
+Skipped foreign news (Le Mauricien): DIOCÈSE DE Maurice  — Soutien aux familles : 150 ans de Mothers’ Union, le fleuron de la communauté 
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Port-Louis : déviation à la rue Mgr Leen du 16 novembre au 21 décembre == Работы на улице Monseigneur-Leen: Osman Mahomed объявляет о мерах по сокращению пробок
+  not news (portrait/lifestyle): ENTREPRISE — Naya Active : D’une redéfinition de l’allure sportive
+Skipped foreign news (Le Mauricien): ENTREPRISE — Naya Active : D’une redéfinition de l’allure sportive
+LLM usage this run: 5 requests, 9611 tokens
