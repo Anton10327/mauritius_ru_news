@@ -1,59 +1,10 @@
-### check 1/5 at 03:56
-New source Inside News: skipped backlog, posting newest only
+### check 1/5 at 09:45
   dup: nothing new ()
-Skipped duplicate (Wazaa): Survivante d’une fusillade, Élodie Thomas fait sa première déposition à la police et remer == Élodie Thomas: «Я благодарю всех, кто молился за меня»
-GigaChat balance: GigaChat-Ultra 45,962,542, GigaChat-Pro 36,620,561, GigaChat-Max 23,950,091, GigaChat 249,589,075; 340 days to go
+Skipped duplicate (Le Mauricien): Banques | Key Repo Rate à 5%  Haniff Peerun (MLC)  : « Elle risque également d’alourdir le == Банки | Ключевая ставка репо (Key Repo Rate) установлена на уровне 5%. Jayen Chellum, генс
   dup: nothing new ()
-Skipped duplicate (Defimedia): Panne mondiale d'Outlook : incident toujours en cours mais pas de cyberattaque, selon Micr == Outlook, Teams, Copilot: что известно о сбое в Microsoft
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): NEF | региональная консультация: Ashok Subron — «130 000 маврикийцев живут в бедности»
+Skipped duplicate (Le Mauricien): Faux communiqué : la police dément == Outlook, Teams, Copilot: что известно о сбое в Microsoft
   dup: nothing new ()
-Skipped duplicate (Defimedia): Non-respect du couvre-feu : huit personnes condamnées à des peines de 90 à 120 jours de pr == Нарушение комендантского часа: восемь человек признаны виновными в суде
-LLM usage this run: 5 requests, 8228 tokens
-### check 2/5 at 04:00
-  dup check: new (Правительство хочет ускорить подключение водопада Tamarin Falls к La Marie; три команды CWA работают на объекте; изначально планировалось завершить 25)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Кризис воды: правительство хочет ускорить подключение Tamarin Falls к La Marie
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Дипломатия | CHOGM и Франция: Navin Ramgoolam возвращается завтра с несколькими незавершёнными досье
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Sécheresse : Mare-aux-Vacoas à 33 %, la baisse du niveau vue du ciel == [В фотографиях] Водохранилище Mare-aux-Vacoas: нехватка воды обнажила обширные участки суш
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Cour | MEURTRE DE SELVEN IYEMPERMAL  :  Sayif Udeen Ramjan maintenu  en détention provisoi == Убийство Selven Iyempermal: арестован Manish Soumbur силами MCIT
-LLM usage this run: 7 requests, 12073 tokens
-### check 3/5 at 04:04
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Travaux à la rue Monseigneur-Leen : le plan de circulation appelé à évoluer == Работы на улице Monseigneur-Leen: Osman Mahomed объявляет о мерах по сокращению пробок
-  dup check: new (Адвокат Кайлаш Трилочун обратился в Верховный суд с требованием приостановить процесс назначения Senior Counsel и Senior Attorney, указав на ограничен)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Назначения Senior Counsels и Senior Attorneys: адвокат Kailash Trilochun требует приостановить процесс
-  dup check: new (В новой статье впервые упоминается решение о повышении Key Repo Rate до 5% и комментарий Jayen Chellum по поводу необходимости распределения валютной )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Банки | Ключевая ставка репо (Key Repo Rate) установлена на уровне 5%. Jayen Chellum, генсек ACIM: «Туризм должен делиться валютой»
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Pannes de Microsoft  : le CERT-MU recommande d’éviter les reconnexions répétées == Outlook, Teams, Copilot: что известно о сбое в Microsoft
-LLM usage this run: 8 requests, 12257 tokens
-### check 4/5 at 04:08
-  dup: nothing new (Голосование сотрудников World Knits против ликвидации: 374 голоса против 31 при восьми аннулированных бюллетенях. Упоминание о желании работников встр)
-Skipped duplicate (Defimedia): World Knits : les employés rejettent la liquidation, 374 voix contre 31 == НАЦИОНАЛЬНОЕ СОБРАНИЕ: World Knits Group — активы оцениваются в 500 млн рупий, долги — в 1
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Finances | Hausse du Key Rate  : FinClub maintient inchangés  ses taux d’intérêt sur les p == Банки | Ключевая ставка репо (Key Repo Rate) установлена на уровне 5%. Jayen Chellum, генс
-  not about Mauritius: Across Oceans, Beneath One Sun:  The Shared Heritage of Chhath
-Skipped foreign news (Le Mauricien): Across Oceans, Beneath One Sun:  The Shared Heritage of Chhath
-  dup check: new (Élodie Thomas даст свою первую публичную интервью 13 ноября в 21:00 на TéléPlus и Facebook defimedia.info; ранее она не давала публичных комментариев )
-  proofread: Элоди Тома → Элоди Томас
-  foreign words left: YouTube-канале
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Élodie Thomas: её первое интервью сегодня в 21:00
-LLM usage this run: 7 requests, 9601 tokens
-### check 5/5 at 04:12
-  dup check: new (Официальная дата роспуска советов деревень — 22 ноября 2026 года; комитеты смогут продолжать работу до Nomination Day.)
-Posted (Defimedia): Советы деревень: роспуск назначен на 22 ноября
-  dup check: new (Аресты двух человек за заправку автомобилей бытовым газом в Baie-du-Tombeau; операция полиции с изъятием баллонов и компрессора.)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Baie-du-Tombeau: двое задержаны за заправку автомобилей бытовым газом
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Île Maurice lance un sprint de 10 jours pour relier les chutes Tamarin à La Marie en pério == Кризис воды: правительство хочет ускорить подключение Tamarin Falls к La Marie
-  dup: nothing new (Количество полученных деклараций о доходах за 2026 год (324 000) и сравнение с прошлым годом (308 000), а также информация об акциях по поощрению свое)
-Skipped duplicate (Defimedia): MRA : plus de 324 000 déclarations de revenus reçues cette année, indique Ramkisoon Geerja == Академия полиции: Маврикий отстаёт
-LLM usage this run: 8 requests, 11398 tokens
+Skipped duplicate (Defimedia): [Info Soirée] : « Si enn dimoun intelizan, li pou vinn ar gouvernma santral » == Советы деревень: роспуск назначен на 22 ноября
+  dup check: new (В статье сообщается о новом решении Совета министров — одобрении проекта закона (National Disaster Risk Reduction and Management (Amendment) Bill), ко)
+Posted (Defimedia): Непогода: законопроект об официальном утверждении протокола о сильных дождях и усилении защиты работников
+LLM usage this run: 6 requests, 8594 tokens
