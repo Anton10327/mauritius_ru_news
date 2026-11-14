@@ -25,3 +25,15 @@ Skipped foreign news (Defimedia): États-Unis : comment une panne d'équipements
   not about Mauritius: Intelligence artificielle : l’Afrique du Sud et la Chine prévoient de créer un centre commun de form
 Skipped foreign news (Defimedia): Intelligence artificielle : l’Afrique du Sud et la Chine prévoient de créer un centre commun de form
 LLM usage this run: 7 requests, 13115 tokens
+### check 3/5 at 16:40
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+  not news (portrait/lifestyle): [Supplément spécial] Réussir sa vie : les clés pour avancer
+Skipped foreign news (Defimedia): [Supplément spécial] Réussir sa vie : les clés pour avancer
+  not news (portrait/lifestyle): Festival Fruits, Fleurs et Légumes 2026 : ventes, ateliers et découvertes au Jardin Balfour, 28-29 n
+Skipped foreign news (Defimedia): Festival Fruits, Fleurs et Légumes 2026 : ventes, ateliers et découvertes au Jardin Balfour, 28-29 n
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Transport : des passionnés se mobilisent contre l’interdiction des pots d’échappement modi == Выхлопные системы — штрафы 10 000 рупий: полиция должна отличать аксессуары от модифициров
+  dup check: new (Ameenah Gurib-Fakim nommée au conseil d’administration d’une société immobilière nigériane le 11 novembre; Femi Adewole nommé président du conseil.)
+  not about Mauritius: Ameenah Gurib-Fakim nommée au conseil d’administration d’une société immobilière nigériane
+Skipped foreign news (Defimedia): Ameenah Gurib-Fakim nommée au conseil d’administration d’une société immobilière nigériane
+LLM usage this run: 5 requests, 9753 tokens
