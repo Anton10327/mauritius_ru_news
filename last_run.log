@@ -10,3 +10,13 @@ Posted (Le Mauricien): Смотровая площадка Macondé на юге 
   leftovers fixed by GigaChat-3-Pro; still left: pro, bono
 Posted (Le Mauricien): Верховный суд | «Забытое» время предварительного заключения: NHRC подаёт в суд… на государство
 LLM usage this run: 9 requests, 14813 tokens
+### check 2/5 at 22:32
+Posted (Le Mauricien): Ответственная игра: Lottotech участвует во Всемирном лотерейном саммите
+  same headline as #30: Conseils de village : la dissolution prévue le 22 novembre
+Skipped duplicate (Le Mauricien): DÉMOCRATIE RÉGIONALE : Dissolution des conseils de village le 22 novembre == Советы деревень: роспуск назначен на 22 ноября
+  dup check: new (В статье сообщается о привлечении двух иностранных специалистов — профессора Edward L. S. Leen (онколога из Великобритании) и доктора Pushpinder Gulia)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Здравоохранение – National Cancer Hospital: привлечение иностранных специалистов для облегчения и лечения сложных случаев в больницах на Маврикии
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Banques | Key Repo Rate à 5%  Dave Kissoondoyal (STOP) « Pas uniquement à travers ses obje == Повышение ключевой ставки: Roshi Bhadain предупреждает о росте стоимости жизни
+LLM usage this run: 6 requests, 11577 tokens
