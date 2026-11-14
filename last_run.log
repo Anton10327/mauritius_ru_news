@@ -31,3 +31,16 @@ Skipped duplicate (Le Mauricien): Port-Louis : déviation à la rue Mgr Leen du 
   not news (portrait/lifestyle): ENTREPRISE — Naya Active : D’une redéfinition de l’allure sportive
 Skipped foreign news (Le Mauricien): ENTREPRISE — Naya Active : D’une redéfinition de l’allure sportive
 LLM usage this run: 5 requests, 9611 tokens
+### check 4/5 at 22:40
+  dup check: new (Первое мероприятие Tertiary Education Roadshow прошло 13 ноября в Grand-Baie; второе запланировано на 14 ноября с 10:00 до 16:00. Это новая информация)
+  proofread: «Tertiary Education Roadshow» → «выставка „День высшего образования“»; "Le Mauricien Ltd." → "компанией Le Mauricien Ltd."; "CÅur" → "Cœur"; "dÃ©couvrir" → "узнать об", "изучить новые перспективы будущего"; "rencontrer les reprÃ©sentants des Ã©tablissements dâenseignement supÃ©rieur et des universit
+  foreign words left: ur, de
+  leftovers fixed by GigaChat-3-Pro; still left: ur, de
+Posted (Le Mauricien): День высшего образования: после успешного первого дня — встреча в эту субботу в Grand-Baie
+  dup check: new (В статье указаны новые цены на рис басмати двух марок (Classic и Taj) в упаковках по 5 кг и процентное увеличение стоимости. Это новая информация о це)
+Posted (Defimedia): Потребительская корзина — рис басмати: цены растут в преддверии праздников
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Tour d’horizon — Chagos : l’heure des décisions == Дипломатия | CHOGM и Франция: Navin Ramgoolam возвращается завтра с несколькими незавершён
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Jocelyn Chan Low : «On ne peut gouverner en autocrate dans une démocratie» == Élodie Thomas: «Я благодарю всех, кто молился за меня»
+LLM usage this run: 9 requests, 13433 tokens
