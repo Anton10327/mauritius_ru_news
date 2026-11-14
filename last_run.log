@@ -13,3 +13,15 @@ Skipped duplicate (Defimedia): Panne de Microsoft : 22 heures de perturbations q
   not about Mauritius: États-Unis : comprendre la panne qui a suspendu les décollages dans tout le pays
 Skipped foreign news (Defimedia): États-Unis : comprendre la panne qui a suspendu les décollages dans tout le pays
 LLM usage this run: 7 requests, 12336 tokens
+### check 2/5 at 16:36
+Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
+Posted (Defimedia): Повышение ключевой ставки: Roshi Bhadain предупреждает о росте стоимости жизни
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [DéfiXplik] Panne mondiale de Microsoft : 24 heures de perturbations, 74 pays touchés... l == Outlook, Teams, Copilot: что известно о сбое в Microsoft
+  dup check: new (Произошла масштабная приостановка вылетов в США из-за сбоя телекоммуникационного оборудования; власти исключили версию кибератаки и указали на устарев)
+  not about Mauritius: États-Unis : comment une panne d'équipements vieillissants a paralysé les décollages
+Skipped foreign news (Defimedia): États-Unis : comment une panne d'équipements vieillissants a paralysé les décollages
+  dup check: new (Создание совместного центра обучения и инноваций в области искусственного интеллекта между Южной Африкой и Китаем; инициатива обсуждалась на форуме Ки)
+  not about Mauritius: Intelligence artificielle : l’Afrique du Sud et la Chine prévoient de créer un centre commun de form
+Skipped foreign news (Defimedia): Intelligence artificielle : l’Afrique du Sud et la Chine prévoient de créer un centre commun de form
+LLM usage this run: 7 requests, 13115 tokens
