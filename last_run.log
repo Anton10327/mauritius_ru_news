@@ -49,3 +49,15 @@ Skipped duplicate (Defimedia): [Info Soirée] : « QUAND LE SUCRE DEVIENT UN DAN
   dup check: new (CIEL увеличил чистую прибыль на 42% до 1,1 млрд рупий за первый квартал 2027 года; выручка составила 9,9 млрд (+6%), EBITDA выросла на 29% до 2,1 млрд)
 Posted (L'Express): Финансовые показатели: CIEL увеличила прибыль до 1,1 млрд рупий
 LLM usage this run: 9 requests, 16719 tokens
+### check 5/5 at 02:57
+  dup: nothing new ()
+Skipped duplicate (L'Express): Chagos, économie, drogue : Paul Bérenger interpelle le gouvernement sur plusieurs fronts == Досье Chagos: Paul Bérenger требует от Navin Ramgoolam разъяснений
+  dup: nothing new ()
+Skipped duplicate (L'Express): Questions à... Rakesh Gaju : «Montrer que les entreprises locales peuvent proposer des cré == Élodie Thomas: «Я благодарю всех, кто молился за меня»
+  dup check: new (Объявлено о введении оплачиваемого отпуска по беременности и родам на 26 недель для госслужащих с 1 января 2027 года; возможность продления отпуска ещ)
+  foreign words left: Union
+  leftovers fixed by GigaChat-3-Pro; still left: Union
+Posted (Le Mauricien): Бюджет 2026/27 — ГОСУДАРСТВЕННАЯ СЛУЖБА: отпуск по беременности и родам на 26 недель вводится с 1 января 2027 года
+  dup: nothing new (В статье сообщается, что в тираже Loto и Loto Plus 14 ноября не было победителей. Указаны суммы следующих джекпотов: Rs 24 млн для Loto и Rs 10 млн дл)
+Skipped duplicate (Defimedia): Loto et Loto Plus : pas de grand gagnant ce samedi 14 novembre == Daniella, мультимиллионерша «Лото»: джекпот в 88,9 млн рупий привлекает посетителей с Мавр
+LLM usage this run: 7 requests, 8900 tokens
