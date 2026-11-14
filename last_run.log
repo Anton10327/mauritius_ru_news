@@ -1,66 +1,12 @@
-### check 1/5 at 16:32
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-New source Inside News: skipped backlog, posting newest only
-  dup check: new (Массовая отмена и задержка рейсов в США из-за проблем со связью; более 5000 рейсов отменено; цитата пассажирки Tiara Johnson о ситуации в аэропорту La)
-  not about Mauritius: Pagaille aux Etats-Unis, où tous les vols sont suspendus à cause de problèmes de communication
-Skipped foreign news (Defimedia): Pagaille aux Etats-Unis, où tous les vols sont suspendus à cause de problèmes de communication
-  dup check: new (США открыли воздушное пространство после временной приостановки вылетов из-за сбоя связи; министр транспорта США назвал причиной устаревшее оборудован)
-  not about Mauritius: Suspension des vols aux États-Unis : l'espace aérien a rouvert
-Skipped foreign news (Defimedia): Suspension des vols aux États-Unis : l'espace aérien a rouvert
+### check 1/5 at 22:28
   dup: nothing new ()
-Skipped duplicate (Defimedia): Panne de Microsoft : 22 heures de perturbations qui révèlent notre dépendance aux géants t == Outlook, Teams, Copilot: что известно о сбое в Microsoft
-  dup check: new (Публикация посвящена сбою в системе управления воздушным движением США и временной приостановке всех вылетов по стране. Это новое событие, не связанно)
-  not about Mauritius: États-Unis : comprendre la panne qui a suspendu les décollages dans tout le pays
-Skipped foreign news (Defimedia): États-Unis : comprendre la panne qui a suspendu les décollages dans tout le pays
-LLM usage this run: 7 requests, 12336 tokens
-### check 2/5 at 16:36
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-Posted (Defimedia): Повышение ключевой ставки: Roshi Bhadain предупреждает о росте стоимости жизни
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [DéfiXplik] Panne mondiale de Microsoft : 24 heures de perturbations, 74 pays touchés... l == Outlook, Teams, Copilot: что известно о сбое в Microsoft
-  dup check: new (Произошла масштабная приостановка вылетов в США из-за сбоя телекоммуникационного оборудования; власти исключили версию кибератаки и указали на устарев)
-  not about Mauritius: États-Unis : comment une panne d'équipements vieillissants a paralysé les décollages
-Skipped foreign news (Defimedia): États-Unis : comment une panne d'équipements vieillissants a paralysé les décollages
-  dup check: new (Создание совместного центра обучения и инноваций в области искусственного интеллекта между Южной Африкой и Китаем; инициатива обсуждалась на форуме Ки)
-  not about Mauritius: Intelligence artificielle : l’Afrique du Sud et la Chine prévoient de créer un centre commun de form
-Skipped foreign news (Defimedia): Intelligence artificielle : l’Afrique du Sud et la Chine prévoient de créer un centre commun de form
-LLM usage this run: 7 requests, 13115 tokens
-### check 3/5 at 16:40
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  not news (portrait/lifestyle): [Supplément spécial] Réussir sa vie : les clés pour avancer
-Skipped foreign news (Defimedia): [Supplément spécial] Réussir sa vie : les clés pour avancer
-  not news (portrait/lifestyle): Festival Fruits, Fleurs et Légumes 2026 : ventes, ateliers et découvertes au Jardin Balfour, 28-29 n
-Skipped foreign news (Defimedia): Festival Fruits, Fleurs et Légumes 2026 : ventes, ateliers et découvertes au Jardin Balfour, 28-29 n
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Transport : des passionnés se mobilisent contre l’interdiction des pots d’échappement modi == Выхлопные системы — штрафы 10 000 рупий: полиция должна отличать аксессуары от модифициров
-  dup check: new (Ameenah Gurib-Fakim nommée au conseil d’administration d’une société immobilière nigériane le 11 novembre; Femi Adewole nommé président du conseil.)
-  not about Mauritius: Ameenah Gurib-Fakim nommée au conseil d’administration d’une société immobilière nigériane
-Skipped foreign news (Defimedia): Ameenah Gurib-Fakim nommée au conseil d’administration d’une société immobilière nigériane
-LLM usage this run: 5 requests, 9753 tokens
-### check 4/5 at 16:44
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  dup check: new (Министр окружающей среды выразил недовольство работой Sotravic-Strata по контракту на вывоз ликсивата в Mare-Chicose и указал на неисполнение контракт)
-  proofread: Rajesh Bhagwan → Раджеш Багван (имя собственное оставлено латиницей); Fron Militan Progresis → Фронт Милитан Прогресис
-Posted (Defimedia): Министр окружающей среды Rajesh Bhagwan недоволен работой Sotravic-Strata на полигоне Mare-Chicose, где уже неделю простаивают перевозчики фильтрата
-  dup check: new (В новой статье описывается инцидент с насилием в St-Hubert: два полицейских получили ранения, их медицинские расходы оплачивают родственники; упоминае)
+Skipped duplicate (Le Mauricien): Banques | Key Repo Rate à 5%  Clency Bibi (GWF):« Un coup de massue supplémentaire pour la == Повышение ключевой ставки: Roshi Bhadain предупреждает о росте стоимости жизни
+  dup check: new (Первая дача показаний Elodie Thomas перед IPCC после инцидента 9 октября в Camp-Levieux; ранее о её допросе не сообщалось.)
+  proofread: Элодь → Элоди; "Mo remersie tou" → "Я благодарю всех"
+Posted (Le Mauricien): CAMP-LEVIEUX | Выстрел полицейского: Elodie Thomas дала показания по инциденту 9 октября
+Posted (Le Mauricien): Смотровая площадка Macondé на юге острова временно закрыта для посетителей
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Casernes, centrales
-  leftovers fixed by GigaChat-3-Pro; still left: Casernes, centrales
-Posted (Defimedia): Насилие в Сен-Юбер: двое полицейских ранены, лечение за свой счёт, утверждают их близкие
-Proofreading GigaChat-3-Pro failed: Expecting ':' delimiter: line 1 column 598 (char 597)
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Нехватка персонала в службах здравоохранения: Anil Bachoo объявил о найме 60 индийских медсестёр
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Plan de replantation lancé pour relancer 46,45 arpents de plantations de thé abandonnées == Чай: 46,45 арпана земли заброшены 50 плантаторами, запущена программа пересадки
-LLM usage this run: 11 requests, 16868 tokens
-### check 5/5 at 16:48
-Could not read Le Mauricien: JSONDecodeError Expecting value: line 1 column 1 (char 0)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Досье Chagos: Paul Bérenger требует от Navin Ramgoolam разъяснений
-Posted (Defimedia): Обвинения в злоупотреблении властью и спорное назначение: сотрудница полиции оспаривает свой перевод и отвергает необоснованные обвинения
-  dup: nothing new ()
-Skipped duplicate (L'Express): Journée mondiale du diabète : Le ministère revoit ses lignes directrices pour agir plus tô == Нехватка персонала в службах здравоохранения: Anil Bachoo объявил о найме 60 индийских мед
-  dup check: new (Статья сообщает о том, что каждый пятый взрослый на Маврикии живёт с диабетом; упоминается исследование The Lancet Diabetes & Endocrinology о снижении)
-  not news (portrait/lifestyle): Journée mondiale du diabète : L’ennemi silencieux rajeunit
-Skipped foreign news (L'Express): Journée mondiale du diabète : L’ennemi silencieux rajeunit
-LLM usage this run: 7 requests, 13671 tokens
+  foreign words left: pro, bono
+  leftovers fixed by GigaChat-3-Pro; still left: pro, bono
+Posted (Le Mauricien): Верховный суд | «Забытое» время предварительного заключения: NHRC подаёт в суд… на государство
+LLM usage this run: 9 requests, 14813 tokens
