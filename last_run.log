@@ -38,3 +38,14 @@ Skipped duplicate (Le Mauricien): Santé : Don de sang 59 pintes recueillies à 
   dup: nothing new ()
 Skipped duplicate (Defimedia): Elodie Thomas : «Je garde toujours une énergie positive dans ma vie» == Élodie Thomas: её первое интервью сегодня в 21:00
 LLM usage this run: 9 requests, 17127 tokens
+### check 4/5 at 02:53
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Вопросы к... Carolyn Desvaux de Marigny: «Я не должна ни выбирать своих коллег, ни комментировать эти выборы»
+  dup check: new (Проект OptiMoustik по борьбе с комарами Aedes: использование картографии, дронов и выпуск стерильных самцов; соглашение с CIRAD на 60 000 евро для обо)
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Inside News): Денге и чикунгунья: Маврикий готовит выпуски стерильных самцов комаров
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Info Soirée] : « QUAND LE SUCRE DEVIENT UN DANGER NATIONAL » == Нехватка персонала в службах здравоохранения: Anil Bachoo объявил о найме 60 индийских мед
+  dup check: new (CIEL увеличил чистую прибыль на 42% до 1,1 млрд рупий за первый квартал 2027 года; выручка составила 9,9 млрд (+6%), EBITDA выросла на 29% до 2,1 млрд)
+Posted (L'Express): Финансовые показатели: CIEL увеличила прибыль до 1,1 млрд рупий
+LLM usage this run: 9 requests, 16719 tokens
