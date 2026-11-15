@@ -1,63 +1,12 @@
-### check 1/5 at 02:41
-  dup check: new (Объявлено о проектах аквакультуры на сумму более 2,3 млрд рупий в Маврикии; среди них проект Baie-du-Cap на Rs 300 млн с британскими инвесторами и вто)
-GigaChat balance: GigaChat-Max 23,950,091, GigaChat 249,589,075, GigaChat-Ultra 45,832,391, GigaChat-Pro 36,513,295; 339 days to go
-  proofread: вторая линия переработки рыбы → вторая линия переработки рыбы
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): «Синяя экономика»: на Маврикии анонсированы аквакультурные проекты на сумму более 2,3 млрд рупий
+### check 1/5 at 06:11
   dup: nothing new ()
-Skipped duplicate (Defimedia): Meurtre de Selven Iyempermal : des hommes cagoulés auraient quitté le centre Abbas à bord  == Убийство Selven Iyempermal: арестован Manish Soumbur силами MCIT
-  not about Mauritius: La Maison Blanche confirme un prochain sommet inédit Trump-Xi-Poutine
-Skipped foreign news (Defimedia): La Maison Blanche confirme un prochain sommet inédit Trump-Xi-Poutine
-  dup check: new (Статья рассказывает о смертельном несчастном случае с пожилым мужчиной по имени Amichand Munohur при установке сетки на манговом дереве. Приводится ци)
-Posted (Defimedia): Belle-Rose: смертельное падение 60-летнего мужчины при установке сетки на манговое дерево
-LLM usage this run: 8 requests, 15005 tokens
-### check 2/5 at 02:45
-  dup: nothing new ()
-Skipped duplicate (Inside News): Économie circulaire : un programme européen de 3,5 millions d’euros cible d’abord la const == Экономика замкнутого цикла: Маврикий готовит законодательную рамку при поддержке Европейск
-  dup check: new (В статье впервые сообщается о факте обнаружения полицией операций по перекачке сжиженного газа для автомобилей в автомойке Bois-Mangue (Plaine-des-Pap)
-  proofread: в автомойке в Буа-Манге, Плейн-де-Папай → в автомойке в Буа-Манге (Plaine-des-Papayes); "decanting" → перелив
-Posted (Defimedia): Bois-Mangue: деятельность по переливу газа в автомойке пресечена
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Du rêve canadien aux saveurs de Maurice : une histoire d’amour qui a traversé les frontièr == Élodie Thomas: «Я благодарю всех, кто молился за меня»
-  dup check: new (Прогнозируется пик спроса на электроэнергию в 600 мегаватт в жаркий период с ростом на 25–30 МВт по сравнению с прошлым годом; заявление сделал директ)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Пик спроса на электроэнергию в 600 мегаватт ожидается в жаркий период, заявил гендиректор Central Electricity Board Shamshir Mukoon
-LLM usage this run: 8 requests, 12014 tokens
-### check 3/5 at 02:49
-  dup check: new (Жительница Родригеса Daniella выиграла джекпот Loto в размере Rs 88,9 млн — самый крупный выигрыш на острове; после этого она стала известной и привле)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Daniella, мультимиллионерша «Лото»: джекпот в 88,9 млн рупий привлекает посетителей с Маврикия на Rodrigues
+Skipped duplicate (L'Express): Retour du Premier ministre Navin Ramgoolam : Les Chagos, la crise de l’eau et le dialogue  == Дипломатия | CHOGM и Франция: Navin Ramgoolam возвращается завтра с несколькими незавершён
+  not news (portrait/lifestyle): Veeramundar Band  : 91 ans de musique, une passion transmise de génération en génération
+Skipped foreign news (L'Express): Veeramundar Band  : 91 ans de musique, une passion transmise de génération en génération
   dup check: new ()
-Bad LLM answer from GigaChat-3-Ultra: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"Как и любая языковая модель, GigaChat не обладает собственным мнением и не транслирует мнение своих разработчиков. Ответ сгенерирован нейросетевой моделью, обученной на открытых данных, в которых может содержаться неточная или ошибочная информация. Во избежание неп
-Bad LLM answer from GigaChat-2-Max: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"Генеративные языковые модели не обладают собственным мнением — их ответы являются обобщением информации, находящейся в открытом доступе. Чтобы избежать ошибок и неправильного толкования, разговоры на чувствительные темы могут быть ограничены.","role":"assistant"},"
-  written by GigaChat-3-Pro
-  not news (portrait/lifestyle): Questions à... Kelly Wayne : «Je veux rappeler que l’art peut créer des ponts entre les personnes»
-Skipped foreign news (L'Express): Questions à... Kelly Wayne : «Je veux rappeler que l’art peut créer des ponts entre les personnes»
-  dup: nothing new (Сбор 59 пинт крови в UTM как акция солидарности; инициатива GPSWA при поддержке UTM Staff Club и Student Union.)
-Skipped duplicate (Le Mauricien): Santé : Don de sang 59 pintes recueillies à l’UTM dans un élan de solidarité == Élodie Thomas: «Я благодарю всех, кто молился за меня»
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Elodie Thomas : «Je garde toujours une énergie positive dans ma vie» == Élodie Thomas: её первое интервью сегодня в 21:00
-LLM usage this run: 9 requests, 17127 tokens
-### check 4/5 at 02:53
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Вопросы к... Carolyn Desvaux de Marigny: «Я не должна ни выбирать своих коллег, ни комментировать эти выборы»
-  dup check: new (Проект OptiMoustik по борьбе с комарами Aedes: использование картографии, дронов и выпуск стерильных самцов; соглашение с CIRAD на 60 000 евро для обо)
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Денге и чикунгунья: Маврикий готовит выпуски стерильных самцов комаров
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « QUAND LE SUCRE DEVIENT UN DANGER NATIONAL » == Нехватка персонала в службах здравоохранения: Anil Bachoo объявил о найме 60 индийских мед
-  dup check: new (CIEL увеличил чистую прибыль на 42% до 1,1 млрд рупий за первый квартал 2027 года; выручка составила 9,9 млрд (+6%), EBITDA выросла на 29% до 2,1 млрд)
-Posted (L'Express): Финансовые показатели: CIEL увеличила прибыль до 1,1 млрд рупий
-LLM usage this run: 9 requests, 16719 tokens
-### check 5/5 at 02:57
-  dup: nothing new ()
-Skipped duplicate (L'Express): Chagos, économie, drogue : Paul Bérenger interpelle le gouvernement sur plusieurs fronts == Досье Chagos: Paul Bérenger требует от Navin Ramgoolam разъяснений
-  dup: nothing new ()
-Skipped duplicate (L'Express): Questions à... Rakesh Gaju : «Montrer que les entreprises locales peuvent proposer des cré == Élodie Thomas: «Я благодарю всех, кто молился за меня»
-  dup check: new (Объявлено о введении оплачиваемого отпуска по беременности и родам на 26 недель для госслужащих с 1 января 2027 года; возможность продления отпуска ещ)
-  foreign words left: Union
-  leftovers fixed by GigaChat-3-Pro; still left: Union
-Posted (Le Mauricien): Бюджет 2026/27 — ГОСУДАРСТВЕННАЯ СЛУЖБА: отпуск по беременности и родам на 26 недель вводится с 1 января 2027 года
-  dup: nothing new (В статье сообщается, что в тираже Loto и Loto Plus 14 ноября не было победителей. Указаны суммы следующих джекпотов: Rs 24 млн для Loto и Rs 10 млн дл)
-Skipped duplicate (Defimedia): Loto et Loto Plus : pas de grand gagnant ce samedi 14 novembre == Daniella, мультимиллионерша «Лото»: джекпот в 88,9 млн рупий привлекает посетителей с Мавр
-LLM usage this run: 7 requests, 8900 tokens
+  not about Mauritius: Intelligence artificielle : l’Europe cherche les moyens de réduire ses dépendances
+Skipped foreign news (Inside News): Intelligence artificielle : l’Europe cherche les moyens de réduire ses dépendances
+  dup check: new (Статья содержит критику правительства Навина Рамгулама со стороны историка Жослена Чан Лоу и обвинения в автократическом управлении, отказе от предвыб)
+  proofread: Jocelyn Chan Low → Жослен Чан Ло
+Posted (Wazaa): Историк предупреждает, что Маврикий нельзя управлять как автократию после победы 60–0
+LLM usage this run: 7 requests, 13942 tokens
