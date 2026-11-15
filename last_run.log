@@ -9,3 +9,15 @@ Skipped duplicate (Inside News): Facture CEB à Maurice : comment vérifier une 
   not about Mauritius: Miss Univers 2026 : des restrictions de visa américaines empêchent deux candidates africaines de par
 Skipped foreign news (Defimedia): Miss Univers 2026 : des restrictions de visa américaines empêchent deux candidates africaines de par
 LLM usage this run: 5 requests, 7698 tokens
+### check 2/5 at 13:40
+  not about Mauritius: Malaisie : l’ex-Premier ministre Najib Razak quitte la prison pour purger sa peine à domicile
+Skipped foreign news (Defimedia): Malaisie : l’ex-Premier ministre Najib Razak quitte la prison pour purger sa peine à domicile
+  dup check: new (Статья о гипертонии на Маврикии содержит новую информацию: статистика распространённости гипертонии среди взрослых 30–79 лет (36% по данным ВОЗ за 202)
+  not news (portrait/lifestyle): Hypertension à Maurice : pourquoi contrôler sa tension et où demander de l’aide
+Skipped foreign news (Inside News): Hypertension à Maurice : pourquoi contrôler sa tension et où demander de l’aide
+  dup check: new (США могут потерять статус страны, ликвидировавшей корь; решение о пересмотре статуса ожидается 17 ноября от Панамериканской организации здравоохранени)
+  not about Mauritius: Rougeole : les États-Unis sur le point de perdre leur statut de pays ayant éliminé la maladie
+Skipped foreign news (Defimedia): Rougeole : les États-Unis sur le point de perdre leur statut de pays ayant éliminé la maladie
+  dup: nothing new (Три гражданина Камеруна были арестованы в Квер-Борне за нелегальное пребывание на Маврикии; они остаются под стражей до депортации.)
+Skipped duplicate (Le Mauricien): QUATRE-BORNES : Trois Camerounais en situation irrégulière arrêtés == Некролог: скончался бывший парламентарий Harish Ramphul
+LLM usage this run: 6 requests, 12318 tokens
