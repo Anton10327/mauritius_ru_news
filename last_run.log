@@ -1,60 +1,11 @@
-### check 1/5 at 06:11
+### check 1/5 at 13:36
   dup: nothing new ()
-Skipped duplicate (L'Express): Retour du Premier ministre Navin Ramgoolam : Les Chagos, la crise de l’eau et le dialogue  == Дипломатия | CHOGM и Франция: Navin Ramgoolam возвращается завтра с несколькими незавершён
-  not news (portrait/lifestyle): Veeramundar Band  : 91 ans de musique, une passion transmise de génération en génération
-Skipped foreign news (L'Express): Veeramundar Band  : 91 ans de musique, une passion transmise de génération en génération
-  dup check: new ()
-  not about Mauritius: Intelligence artificielle : l’Europe cherche les moyens de réduire ses dépendances
-Skipped foreign news (Inside News): Intelligence artificielle : l’Europe cherche les moyens de réduire ses dépendances
-  dup check: new (Статья содержит критику правительства Навина Рамгулама со стороны историка Жослена Чан Лоу и обвинения в автократическом управлении, отказе от предвыб)
-  proofread: Jocelyn Chan Low → Жослен Чан Ло
-Posted (Wazaa): Историк предупреждает, что Маврикий нельзя управлять как автократию после победы 60–0
-LLM usage this run: 7 requests, 13942 tokens
-### check 2/5 at 06:15
+Skipped duplicate (Inside News): Météo de dimanche à Maurice : des averses localisées et jusqu’à 32 °C == Погода на Маврикии в субботу: местами дожди и до 32 °C
   dup: nothing new ()
-Skipped duplicate (L'Express): Affaire «Dreamer» : Des drogues dures et une photo d’arme intriguent les enquêteurs == Дело «Dreamer»: маврикийская FCC запросила помощь полиции Таиланда и Интерпола для отслежи
-  not news (portrait/lifestyle): Interview... Gaston Valayden : «Mo karyer teatral ziska laz 25-an ti zis an Angle, Franse, KM pa ti 
-Skipped foreign news (L'Express): Interview... Gaston Valayden : «Mo karyer teatral ziska laz 25-an ti zis an Angle, Franse, KM pa ti 
-  dup check: new (Премьера пьесы «Zagaferger Digizefgef» Мадая Кондеа с 19 по 22 ноября в Théâtre Serge Constantin; пьеса получила награду на конкурсе Konkour Lekritir )
-  not news (portrait/lifestyle): Théâtre  l «Zagaferger Digizefgef» : une pièce aux multiples facettes
-Skipped foreign news (L'Express): Théâtre  l «Zagaferger Digizefgef» : une pièce aux multiples facettes
-  dup check: new (Телескоп Euclid опубликовал первую большую порцию данных, охватив более миллиарда небесных объектов и создав мозаику на 500 гигапикселей для построени)
-  not about Mauritius: Euclid révèle plus d’un milliard d’objets pour bâtir sa carte 3D de l’Univers
-Skipped foreign news (Inside News): Euclid révèle plus d’un milliard d’objets pour bâtir sa carte 3D de l’Univers
-LLM usage this run: 6 requests, 12092 tokens
-### check 3/5 at 06:19
+Skipped duplicate (Defimedia): Météo : des averses attendues dans l'Ouest et sur le plateau central cet après-midi == Погода на Маврикии в субботу: местами дожди и до 32 °C
   dup: nothing new ()
-Skipped duplicate (L'Express): «U.S.-Africa Business Summit 2026» : Maurice au centre des nouvelles opportunités d’affair == Жильё для уязвимых слоёв населения: Shakeel Mohamed — «Проект легализации затронет весь Ма
-  dup: nothing new ()
-Skipped duplicate (L'Express): Conseil des ministres | Fortes pluies : un projet de loi pour mieux protéger les travaille == Непогода: законопроект об официальном утверждении протокола о сильных дождях и усилении за
-  dup check: new (В Grand-Baie 14 ноября прошла марш-акция по информированию о рисках диабета, организованная Rotary Club de Grand-Baie при участии Lions Club, Brahma K)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Lions
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (L'Express): Grand-Baie: марш для повышения осведомлённости об опасностях диабета
-  dup check: new (Статья сообщает о 134 подтверждённых инцидентах в Ормузском проливе и расширенной зоне Ближнего Востока на 11 ноября 2026 года, гибели 25 моряков, а т)
-  not about Mauritius: Détroit d’Ormuz : 134 incidents maritimes confirmés, les coûts mondiaux sous pression
-Skipped foreign news (Inside News): Détroit d’Ormuz : 134 incidents maritimes confirmés, les coûts mondiaux sous pression
-LLM usage this run: 8 requests, 10816 tokens
-### check 4/5 at 06:23
-  dup: nothing new ()
-Skipped duplicate (L'Express): Conseil des ministres : Chagos, intempéries, travailleurs étrangers : les décisions du ven == Непогода: законопроект об официальном утверждении протокола о сильных дождях и усилении за
-  dup: nothing new ()
-Skipped duplicate (L'Express): Conseil des ministres | Île du Coin : la cour d’appel du BIOT donne raison au commissaire  == Чагос: после решения апелляционного суда Британской территории в Индийском океане — что бу
-  dup: nothing new ()
-Skipped duplicate (L'Express): Le revers des bons chiffres == Жильё для уязвимых слоёв населения: Shakeel Mohamed — «Проект легализации затронет весь Ма
-  dup check: new (В статье говорится о прогнозе на 2027 год: 30,3 млн человек в ДРК могут столкнуться с острой продовольственной недостаточностью между январём и июнем )
-  not about Mauritius: RDC : 30,3 millions de personnes menacées par une insécurité alimentaire aiguë début 2027
-Skipped foreign news (Inside News): RDC : 30,3 millions de personnes menacées par une insécurité alimentaire aiguë début 2027
-LLM usage this run: 5 requests, 7060 tokens
-### check 5/5 at 06:27
-  dup check: new (В статье впервые приводится официальная цифра арестов после октябрьских беспорядков: 151 человек, включая 16 несовершеннолетних. Также упоминается кон)
-Posted (L'Express): Вернуть экономику в наши регионы: ответ на октябрьские беспорядки
-  dup: nothing new ()
-Skipped duplicate (L'Express): Samuel Maujean : «Notre ambition est de faire de Maurice une véritable plateforme producti == Жильё для уязвимых слоёв населения: Shakeel Mohamed — «Проект легализации затронет весь Ма
-  dup: nothing new ()
-Skipped duplicate (L'Express): Ti Lipie Grand Rev l  Football : Le grand final, c’est ce dimanche == Жильё для уязвимых слоёв населения: Shakeel Mohamed — «Проект легализации затронет весь Ма
-  dup check: new (В новой статье рассказывается о том, что у 37-летнего Rumayr Kaidoo диагностирован рак кишечника и в тот же день его отец погиб в результате несчастно)
-  not news (portrait/lifestyle): Double épreuve pour Rumayr Kaidoo - Cancer à 37 ans : son père accidenté le jour du diagnostic
-Skipped foreign news (Defimedia): Double épreuve pour Rumayr Kaidoo - Cancer à 37 ans : son père accidenté le jour du diagnostic
-LLM usage this run: 7 requests, 11487 tokens
+Skipped duplicate (Inside News): Facture CEB à Maurice : comment vérifier une hausse et demander des explications == Некролог: скончался бывший парламентарий Harish Ramphul
+  dup check: new (В статье сообщается о двух новых фактах: 1) две африканские участницы конкурса Miss Univers 2026 не смогут принять участие из-за визовых ограничений С)
+  not about Mauritius: Miss Univers 2026 : des restrictions de visa américaines empêchent deux candidates africaines de par
+Skipped foreign news (Defimedia): Miss Univers 2026 : des restrictions de visa américaines empêchent deux candidates africaines de par
+LLM usage this run: 5 requests, 7698 tokens
