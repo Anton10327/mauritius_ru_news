@@ -48,3 +48,21 @@ Posted (Le Mauricien): Saint-Brandon под угрозой загрязнени�
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Flacq: 19-летний подозреваемый признал 11 краж, ущерб оценивается более чем в 395 000 рупий
 LLM usage this run: 9 requests, 15784 tokens
+### check 5/5 at 20:51
+  dup check: new (В статье упоминается новая информация: 1) необходимость установить чёткий план возвращения архипелага Чагос Маврикию с первой датой в декабре; 2) наме)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Индийский океан — деколонизация и суверенитет — сделка по архипелагу Чагос: на пороге «финального отсчёта»!
+  dup check: new (La Bourse de Maurice a mis en place un plan B et a demandé aux sociétés cotées de contacter directement le département de cotation pour trouver des so)
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): После сбоя Microsoft 365: цифровая зависимость — риск для Маврикия
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Ариан Наварр-Марие → Arianne Navarre-Marie; премьер-министр временно исполняющая обязанности → премьер-министр, временно исполняющая обязанности
+  foreign words left: Seabury
+  leftovers fixed by qwen/qwen3.8-27b; still left: Seabury
+Posted (Le Mauricien): Отчет Seabury об авиакомпании Air Mauritius останется конфиденциальным
+  dup check: new (Accident during the Grand Prix de Port-Louis on 15 November: a driver went off the track, causing slight injuries to the driver and two spectators who)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Гран-при в Port-Louis: авария на трассе привела к травмам трёх человек
+LLM usage this run: 12 requests, 20356 tokens
