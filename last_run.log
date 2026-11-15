@@ -39,3 +39,15 @@ Posted (Defimedia): [Вечерний выпуск]: «Этим вечером �
   dup: nothing new ()
 Skipped duplicate (Defimedia): Bigg Frankii, papa d’une petite Isla : «Ma fille est l’un des plus beaux cadeaux de ma vie == NEF | региональная консультация: Ashok Subron — «130 000 маврикийцев живут в бедности»
 LLM usage this run: 7 requests, 11809 tokens
+### check 5/5 at 01:31
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Вопросы к… Vijay Makhan: «Мы не можем оставаться в ожидании, пока Лондон и Вашингтон обсуждают будущее территории, которая нам принадлежит»
+Posted (L'Express): Интервью… Ranjiv Woochit: «Мы хотим модернизировать правовую базу до выборов в советы деревень»
+  dup check: new (Появление морского слона Jackie в третий раз на побережье Маврикия (Poste-de-Flacq) и визит министра Fabrice David для проверки состояния животного.)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Minister
+  leftovers fixed by GigaChat-3-Pro; still left: Minister
+Posted (Le Mauricien): Морской слон на востоке — Jackie, возвращение 3
+  dup: nothing new ()
+Skipped duplicate (L'Express): Portrait l Indrasen Vencatachellum : Un «diplomate» acteur de la culture == NEF | региональная консультация: Ashok Subron — «130 000 маврикийцев живут в бедности»
+LLM usage this run: 9 requests, 15046 tokens
