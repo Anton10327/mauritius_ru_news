@@ -19,3 +19,13 @@ Skipped foreign news (Defimedia): Manifestation de samedi : à Paris une centain
   dup: nothing new (Статья рассказывает о 10-летнем мальчике Тео, который поёт и использует машину Брайля. Упоминается его участие в видео с чемпионкой Маврикия по пара-с)
 Skipped duplicate (Defimedia): Theo, 10 ans : une machine à braille et des chansons plein la tête == NEF | региональная консультация: Ashok Subron — «130 000 маврикийцев живут в бедности»
 LLM usage this run: 6 requests, 10811 tokens
+### check 3/5 at 01:23
+  dup: nothing new (В статье описывается новая ситуация: жители L’Avenir страдают от нехватки воды более недели, вынуждены носить воду издалека, и жалуются на временные м)
+Skipped duplicate (Defimedia): L’Avenir, St-Pierre : des habitants privés d’eau depuis plus d’une semaine == NEF | региональная консультация: Ashok Subron — «130 000 маврикийцев живут в бедности»
+  not news (portrait/lifestyle): Questions à... Jean Claude de l’Estrac : «Le modèle groenlandais est déjà largement présent dans l’a
+Skipped foreign news (L'Express): Questions à... Jean Claude de l’Estrac : «Le modèle groenlandais est déjà largement présent dans l’a
+  dup check: new (Смерть 99-летнего пешехода после наезда мотоцикла в Port-Louis; ранее сообщалось только о его госпитализации и тяжёлых травмах.)
+Posted (Defimedia): ДТП в Port-Louis: 99-летний пешеход скончался от полученных травм
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Crise de l’eau — Délicat jeu d’équilibriste == Кризис воды: правительство хочет ускорить подключение Tamarin Falls к La Marie
+LLM usage this run: 6 requests, 9847 tokens
