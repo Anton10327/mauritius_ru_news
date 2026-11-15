@@ -10,3 +10,15 @@ Skipped foreign news (Inside News): Intelligence artificielle : l’Europe cherc
   proofread: Jocelyn Chan Low → Жослен Чан Ло
 Posted (Wazaa): Историк предупреждает, что Маврикий нельзя управлять как автократию после победы 60–0
 LLM usage this run: 7 requests, 13942 tokens
+### check 2/5 at 06:15
+  dup: nothing new ()
+Skipped duplicate (L'Express): Affaire «Dreamer» : Des drogues dures et une photo d’arme intriguent les enquêteurs == Дело «Dreamer»: маврикийская FCC запросила помощь полиции Таиланда и Интерпола для отслежи
+  not news (portrait/lifestyle): Interview... Gaston Valayden : «Mo karyer teatral ziska laz 25-an ti zis an Angle, Franse, KM pa ti 
+Skipped foreign news (L'Express): Interview... Gaston Valayden : «Mo karyer teatral ziska laz 25-an ti zis an Angle, Franse, KM pa ti 
+  dup check: new (Премьера пьесы «Zagaferger Digizefgef» Мадая Кондеа с 19 по 22 ноября в Théâtre Serge Constantin; пьеса получила награду на конкурсе Konkour Lekritir )
+  not news (portrait/lifestyle): Théâtre  l «Zagaferger Digizefgef» : une pièce aux multiples facettes
+Skipped foreign news (L'Express): Théâtre  l «Zagaferger Digizefgef» : une pièce aux multiples facettes
+  dup check: new (Телескоп Euclid опубликовал первую большую порцию данных, охватив более миллиарда небесных объектов и создав мозаику на 500 гигапикселей для построени)
+  not about Mauritius: Euclid révèle plus d’un milliard d’objets pour bâtir sa carte 3D de l’Univers
+Skipped foreign news (Inside News): Euclid révèle plus d’un milliard d’objets pour bâtir sa carte 3D de l’Univers
+LLM usage this run: 6 requests, 12092 tokens
