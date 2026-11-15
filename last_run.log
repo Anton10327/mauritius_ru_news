@@ -47,3 +47,14 @@ Skipped duplicate (L'Express): Le revers des bons chiffres == Жильё для 
   not about Mauritius: RDC : 30,3 millions de personnes menacées par une insécurité alimentaire aiguë début 2027
 Skipped foreign news (Inside News): RDC : 30,3 millions de personnes menacées par une insécurité alimentaire aiguë début 2027
 LLM usage this run: 5 requests, 7060 tokens
+### check 5/5 at 06:27
+  dup check: new (В статье впервые приводится официальная цифра арестов после октябрьских беспорядков: 151 человек, включая 16 несовершеннолетних. Также упоминается кон)
+Posted (L'Express): Вернуть экономику в наши регионы: ответ на октябрьские беспорядки
+  dup: nothing new ()
+Skipped duplicate (L'Express): Samuel Maujean : «Notre ambition est de faire de Maurice une véritable plateforme producti == Жильё для уязвимых слоёв населения: Shakeel Mohamed — «Проект легализации затронет весь Ма
+  dup: nothing new ()
+Skipped duplicate (L'Express): Ti Lipie Grand Rev l  Football : Le grand final, c’est ce dimanche == Жильё для уязвимых слоёв населения: Shakeel Mohamed — «Проект легализации затронет весь Ма
+  dup check: new (В новой статье рассказывается о том, что у 37-летнего Rumayr Kaidoo диагностирован рак кишечника и в тот же день его отец погиб в результате несчастно)
+  not news (portrait/lifestyle): Double épreuve pour Rumayr Kaidoo - Cancer à 37 ans : son père accidenté le jour du diagnostic
+Skipped foreign news (Defimedia): Double épreuve pour Rumayr Kaidoo - Cancer à 37 ans : son père accidenté le jour du diagnostic
+LLM usage this run: 7 requests, 11487 tokens
