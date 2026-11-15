@@ -36,3 +36,14 @@ Posted (L'Express): Grand-Baie: марш для повышения осведо�
   not about Mauritius: Détroit d’Ormuz : 134 incidents maritimes confirmés, les coûts mondiaux sous pression
 Skipped foreign news (Inside News): Détroit d’Ormuz : 134 incidents maritimes confirmés, les coûts mondiaux sous pression
 LLM usage this run: 8 requests, 10816 tokens
+### check 4/5 at 06:23
+  dup: nothing new ()
+Skipped duplicate (L'Express): Conseil des ministres : Chagos, intempéries, travailleurs étrangers : les décisions du ven == Непогода: законопроект об официальном утверждении протокола о сильных дождях и усилении за
+  dup: nothing new ()
+Skipped duplicate (L'Express): Conseil des ministres | Île du Coin : la cour d’appel du BIOT donne raison au commissaire  == Чагос: после решения апелляционного суда Британской территории в Индийском океане — что бу
+  dup: nothing new ()
+Skipped duplicate (L'Express): Le revers des bons chiffres == Жильё для уязвимых слоёв населения: Shakeel Mohamed — «Проект легализации затронет весь Ма
+  dup check: new (В статье говорится о прогнозе на 2027 год: 30,3 млн человек в ДРК могут столкнуться с острой продовольственной недостаточностью между январём и июнем )
+  not about Mauritius: RDC : 30,3 millions de personnes menacées par une insécurité alimentaire aiguë début 2027
+Skipped foreign news (Inside News): RDC : 30,3 millions de personnes menacées par une insécurité alimentaire aiguë début 2027
+LLM usage this run: 5 requests, 7060 tokens
