@@ -1,61 +1,11 @@
-### check 1/5 at 13:36
+### check 1/5 at 20:35
+  dup check: new (Обнаружение около 80 тел под завалами в Газе и проведение массовых похорон; новое заявление ЕС о гуманитарном кризисе.)
+  not about Mauritius: Gaza : funérailles collectives après la découverte de près de 80 corps sous les décombres, l’UE aler
+Skipped foreign news (Defimedia): Gaza : funérailles collectives après la découverte de près de 80 corps sous les décombres, l’UE aler
+  not about Mauritius: Espagne : le gardien du FC Andorre suspendu 12 matchs après un choc ayant entraîné la mort d’un atta
+Skipped foreign news (Defimedia): Espagne : le gardien du FC Andorre suspendu 12 matchs après un choc ayant entraîné la mort d’un atta
   dup: nothing new ()
-Skipped duplicate (Inside News): Météo de dimanche à Maurice : des averses localisées et jusqu’à 32 °C == Погода на Маврикии в субботу: местами дожди и до 32 °C
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Météo : des averses attendues dans l'Ouest et sur le plateau central cet après-midi == Погода на Маврикии в субботу: местами дожди и до 32 °C
-  dup: nothing new ()
-Skipped duplicate (Inside News): Facture CEB à Maurice : comment vérifier une hausse et demander des explications == Некролог: скончался бывший парламентарий Harish Ramphul
-  dup check: new (В статье сообщается о двух новых фактах: 1) две африканские участницы конкурса Miss Univers 2026 не смогут принять участие из-за визовых ограничений С)
-  not about Mauritius: Miss Univers 2026 : des restrictions de visa américaines empêchent deux candidates africaines de par
-Skipped foreign news (Defimedia): Miss Univers 2026 : des restrictions de visa américaines empêchent deux candidates africaines de par
-LLM usage this run: 5 requests, 7698 tokens
-### check 2/5 at 13:40
-  not about Mauritius: Malaisie : l’ex-Premier ministre Najib Razak quitte la prison pour purger sa peine à domicile
-Skipped foreign news (Defimedia): Malaisie : l’ex-Premier ministre Najib Razak quitte la prison pour purger sa peine à domicile
-  dup check: new (Статья о гипертонии на Маврикии содержит новую информацию: статистика распространённости гипертонии среди взрослых 30–79 лет (36% по данным ВОЗ за 202)
-  not news (portrait/lifestyle): Hypertension à Maurice : pourquoi contrôler sa tension et où demander de l’aide
-Skipped foreign news (Inside News): Hypertension à Maurice : pourquoi contrôler sa tension et où demander de l’aide
-  dup check: new (США могут потерять статус страны, ликвидировавшей корь; решение о пересмотре статуса ожидается 17 ноября от Панамериканской организации здравоохранени)
-  not about Mauritius: Rougeole : les États-Unis sur le point de perdre leur statut de pays ayant éliminé la maladie
-Skipped foreign news (Defimedia): Rougeole : les États-Unis sur le point de perdre leur statut de pays ayant éliminé la maladie
-  dup: nothing new (Три гражданина Камеруна были арестованы в Квер-Борне за нелегальное пребывание на Маврикии; они остаются под стражей до депортации.)
-Skipped duplicate (Le Mauricien): QUATRE-BORNES : Trois Camerounais en situation irrégulière arrêtés == Некролог: скончался бывший парламентарий Harish Ramphul
-LLM usage this run: 6 requests, 12318 tokens
-### check 3/5 at 13:44
-  dup check: new (Статья сообщает о втором издании фестиваля еды Port Louis Waterfront Food Festival с 20 по 22 ноября, включая детали программы и партнёра мероприятия.)
-  not news (portrait/lifestyle): 2e édition du Port Louis Waterfront Food Festival : trois jours de gourmandise, de musique et de fes
-Skipped foreign news (Defimedia): 2e édition du Port Louis Waterfront Food Festival : trois jours de gourmandise, de musique et de fes
-  dup: nothing new (Объявление о вакансии агента поддержки ИТ в Национальном собрании с указанием требований к образованию и сроку подачи заявок.)
-Skipped duplicate (Inside News): Emploi : l’Assemblée nationale recherche un agent de support informatique == Некролог: скончался бывший парламентарий Harish Ramphul
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Panne de Microsoft 365 : la MCB met en garde contre les tentatives d’escroquerie == Outlook, Teams, Copilot: что известно о сбое в Microsoft
-  dup check: new (UNICEF нанимает консультанта для анализа инвестиций в детей в Африке; срок миссии 9,5 месяцев, приём заявок до 23 ноября, место работы — офис UNICEF п)
-  not about Mauritius: Emploi international : l’UNICEF recrute un consultant pour une étude sur les enfants en Afrique
-Skipped foreign news (Inside News): Emploi international : l’UNICEF recrute un consultant pour une étude sur les enfants en Afrique
-LLM usage this run: 6 requests, 9202 tokens
-### check 4/5 at 13:48
-  dup check: new (Статья посвящена биографии и наследию Гая Роземона — профсоюзного лидера Маврикия, родившегося 15 ноября 1915 года. В ней рассказывается о его роли в )
-  not news (portrait/lifestyle): 15 novembre 1915 : naissance de Guy Rozemont, voix des travailleurs mauriciens
-Skipped foreign news (Inside News): 15 novembre 1915 : naissance de Guy Rozemont, voix des travailleurs mauriciens
-  dup: nothing new (MT Foundation подписала три протокола о сотрудничестве с министерством здравоохранения, Rotary Club de Flacq и Ассоциацией пациентов с заболеваниями п)
-Skipped duplicate (Le Mauricien): Santé publique : La MT Foundation soutient trois projets == Некролог: скончался бывший парламентарий Harish Ramphul
-  dup check: new (Число погибших на дорогах с начала года достигло 126 человек (рост на 22,3% по сравнению с тем же периодом 2025), число смертельных аварий выросло на )
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Rodrigues, Vision
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Безопасность на дорогах: 126 погибших с января, рост на 22,3% по сравнению с 2025 годом
-  not news (portrait/lifestyle): Jean Noel : The Joy and Sweat of a Marsan Boue
-Skipped foreign news (Defimedia): Jean Noel : The Joy and Sweat of a Marsan Boue
-LLM usage this run: 8 requests, 14265 tokens
-### check 5/5 at 13:52
-  not about Mauritius: CIIE 2026 à Shanghai : La Chine s'ouvre aux importations mondiales
-Skipped foreign news (L'Express): CIIE 2026 à Shanghai : La Chine s'ouvre aux importations mondiales
-  proofread: AI Leader of the Year → AI Leader of the Year Award; Le Chief Executive Officer (CEO) de Mauritius Telecom, Veemal Gungadin, quitte le pays ce week-end pour participer Ã lâAfrica Tech Festival Awards, oÃ¹ il figure parmi les quatre finalistes de lâAI Leader of the Year Award. → CEO Mauritius Telecom
-Posted (Le Mauricien): Veemal Gungadin, CEO Mauritius Telecom: «ИИ — новый двигатель роста для MT»
-  foreign words left: Monseigneur-Leen
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Port-Louis: в понедельник ожидается новый план движения вокруг улицы Монсеньёр-Лин
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Zimbabwe : un voyage sur les rails du temps == Некролог: скончался бывший парламентарий Harish Ramphul
-LLM usage this run: 7 requests, 12736 tokens
+Skipped duplicate (Defimedia): Élections villageoises : le MMM examine les implications du nouveau Local Government Bill == Непогода: законопроект об официальном утверждении протокола о сильных дождях и усилении за
+  proofread: БО-БАССЕН → Бо-Бассен
+Posted (Le Mauricien): Beau-Bassin: полицейский ранен, придя на помощь семье
+LLM usage this run: 6 requests, 11776 tokens
