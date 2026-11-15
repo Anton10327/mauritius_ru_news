@@ -21,3 +21,15 @@ Skipped foreign news (Defimedia): Rougeole : les États-Unis sur le point de per
   dup: nothing new (Три гражданина Камеруна были арестованы в Квер-Борне за нелегальное пребывание на Маврикии; они остаются под стражей до депортации.)
 Skipped duplicate (Le Mauricien): QUATRE-BORNES : Trois Camerounais en situation irrégulière arrêtés == Некролог: скончался бывший парламентарий Harish Ramphul
 LLM usage this run: 6 requests, 12318 tokens
+### check 3/5 at 13:44
+  dup check: new (Статья сообщает о втором издании фестиваля еды Port Louis Waterfront Food Festival с 20 по 22 ноября, включая детали программы и партнёра мероприятия.)
+  not news (portrait/lifestyle): 2e édition du Port Louis Waterfront Food Festival : trois jours de gourmandise, de musique et de fes
+Skipped foreign news (Defimedia): 2e édition du Port Louis Waterfront Food Festival : trois jours de gourmandise, de musique et de fes
+  dup: nothing new (Объявление о вакансии агента поддержки ИТ в Национальном собрании с указанием требований к образованию и сроку подачи заявок.)
+Skipped duplicate (Inside News): Emploi : l’Assemblée nationale recherche un agent de support informatique == Некролог: скончался бывший парламентарий Harish Ramphul
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Panne de Microsoft 365 : la MCB met en garde contre les tentatives d’escroquerie == Outlook, Teams, Copilot: что известно о сбое в Microsoft
+  dup check: new (UNICEF нанимает консультанта для анализа инвестиций в детей в Африке; срок миссии 9,5 месяцев, приём заявок до 23 ноября, место работы — офис UNICEF п)
+  not about Mauritius: Emploi international : l’UNICEF recrute un consultant pour une étude sur les enfants en Afrique
+Skipped foreign news (Inside News): Emploi international : l’UNICEF recrute un consultant pour une étude sur les enfants en Afrique
+LLM usage this run: 6 requests, 9202 tokens
