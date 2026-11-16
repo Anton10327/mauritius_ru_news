@@ -25,3 +25,13 @@ Posted (L'Express): Инфляция против роста: повышение
   proofread: edit rejected (changed numbers, names or length)
 Posted (L'Express): Партнёрство: MTPA заключила соглашение с BBC Studios
 LLM usage this run: 7 requests, 13274 tokens
+### check 4/5 at 05:20
+  proofread: мартовское решение → решение от марта; уведомления об их высылке → уведомления об их высылке; высадились → высадились; без разрешения → без разрешения; призвал его соблюдать → призвал соблюдать
+Posted (L'Express): Чагос: серьёзное поражение Misley Mandarin и его товарищей, уведомления о высылке восстановлены
+  proofread: конюшня Ruhee → Конюшня Ruhee; жеребец Warhead → жеребца Warhead; Lightning Cup → Lightning Cup; ветеринара Horse Racing Integrity Division (HRID) → ветеринара Horse Racing Integrity Division (HRID); доктора Marie-Claire Domingue → доктора Marie-Claire Domingue; Vicky Ruhee заявил → Vicky Ruhee заяв
+Posted (L'Express): Снятие Warhead: конюшня Ruhee выступает с разъяснениями
+  not news (portrait/lifestyle): Portrait | Kirti Devi Ramchurn : son handicap n’a jamais freiné ses ambitions
+Skipped foreign news (L'Express): Portrait | Kirti Devi Ramchurn : son handicap n’a jamais freiné ses ambitions
+  dup: nothing new ()
+Skipped duplicate (L'Express): Manière de voir | Ça n’est pas de la science-fiction : Le numérique invasif menacerait des == Непогода: законопроект об официальном утверждении протокола о сильных дождях и усилении за
+LLM usage this run: 6 requests, 12833 tokens
