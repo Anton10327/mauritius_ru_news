@@ -24,3 +24,13 @@ Skipped foreign news (Le Mauricien): Des câbles en cuivre vétustes à l’orig
   not about Mauritius: Paralysie du trafic aérien aux États-Unis : Trump accuse l’administration Biden et réclame davantage
 Skipped foreign news (Defimedia): Paralysie du trafic aérien aux États-Unis : Trump accuse l’administration Biden et réclame davantage
 LLM usage this run: 9 requests, 17329 tokens
+### check 3/5 at 12:05
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Ça va se savoir- CHAGOS : Londres envisagerait-il de revenir sur le transfert de souverain == Индийский океан — деколонизация и суверенитет — сделка по архипелагу Чагос: на пороге «фин
+  dup check: new (В новой статье речь идёт о жалобе 17-летнего подростка на жестокое обращение полиции в Quatre-Bornes 14 октября и начале расследования IPCC по этому с)
+Posted (Le Mauricien): Заявления о полицейской жестокости — комиссия по жалобам на полицию расследует жалобу 17-летнего подростка
+  dup check: new (Нападение на тюремного охранника с саблей в Grande-Rivière Nord-Ouest 14 ноября; трое нападавших, раненый охранник доставлен в больницу Dr A.G. Jeetoo)
+Posted (Defimedia): Grande-Rivière Nord-Ouest: тюремный надзиратель избежал нападения с саблей
+  not about Mauritius: [DéfiXPlik] Sommet de l’APEC en Chine : Trump, Xi et Poutine attendus, quels sont les enjeux ?
+Skipped foreign news (Defimedia): [DéfiXPlik] Sommet de l’APEC en Chine : Trump, Xi et Poutine attendus, quels sont les enjeux ?
+LLM usage this run: 8 requests, 14365 tokens
