@@ -1,51 +1,12 @@
-### check 1/5 at 05:08
-Posted (L'Express): Торговля наркотиками: Black Cat Syndicate — контуры нового поколения баронов
+### check 1/5 at 11:57
+New source Inside News: skipped backlog, posting newest only
+  not about Mauritius: Drogues : Quand les usagers désertent les dispositifs d’aide
+Skipped foreign news (Defimedia): Drogues : Quand les usagers désertent les dispositifs d’aide
+  dup check: new (Папа Лев XIV впервые публично осудил вырубку лесов в Амазонии и потребовал справедливости для убитых лидеров коренных народов; это новое событие с нов)
+  not about Mauritius: Amazonie : le pape Léon XIV dénonce la déforestation et réclame justice pour les dirigeants autochto
+Skipped foreign news (Defimedia): Amazonie : le pape Léon XIV dénonce la déforestation et réclame justice pour les dirigeants autochto
   dup: nothing new ()
-Skipped duplicate (L'Express): Chagos : S’inspirer du Groenland, une fausse bonne idée ? == Индийский океан — деколонизация и суверенитет — сделка по архипелагу Чагос: на пороге «фин
+Skipped duplicate (Defimedia): Météo : des averses attendues dans l’est, le sud et sur le plateau central == Повышение ключевой ставки: Roshi Bhadain предупреждает о росте стоимости жизни
   dup: nothing new ()
-Skipped duplicate (L'Express): Grand prix de la cité de Port-Louis : Trois spectateurs blessés dans un spectaculaire acci == Гран-при в Port-Louis: авария на трассе привела к травмам трёх человек
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Taux directeur à 5% — La Banque de Maurice serre la vis == Повышение ключевой ставки: Roshi Bhadain предупреждает о росте стоимости жизни
-LLM usage this run: 5 requests, 7921 tokens
-### check 2/5 at 05:12
-  not news (portrait/lifestyle): Biscuiterie Rault : un savoir-faire transmis depuis 1870
-Skipped foreign news (L'Express): Biscuiterie Rault : un savoir-faire transmis depuis 1870
-  dup: nothing new ()
-Skipped duplicate (L'Express): Questions à... Ved Luchmun : «Notre ambition est de faire de Maurice une véritable platefo == Непогода: законопроект об официальном утверждении протокола о сильных дождях и усилении за
-  not news (portrait/lifestyle): «Titanic» : Un naufrage social à la cité Beau-Vallon
-Skipped foreign news (L'Express): «Titanic» : Un naufrage social à la cité Beau-Vallon
-  not about Mauritius: Carnet de Voyage  l Zimbabwe : Au cœur du rugissement des chutes Victoria
-Skipped foreign news (L'Express): Carnet de Voyage  l Zimbabwe : Au cœur du rugissement des chutes Victoria
-LLM usage this run: 4 requests, 9230 tokens
-### check 3/5 at 05:16
-  dup: nothing new ()
-Skipped duplicate (L'Express): On s’active ! À bon escient ? == Непогода: законопроект об официальном утверждении протокола о сильных дождях и усилении за
-Posted (L'Express): Волейбол: санкции вынесены… через шесть месяцев после инцидентов!
-Posted (L'Express): Инфляция против роста: повышение ключевой ставки — не станет ли лекарство хуже болезни?
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Партнёрство: MTPA заключила соглашение с BBC Studios
-LLM usage this run: 7 requests, 13274 tokens
-### check 4/5 at 05:20
-  proofread: мартовское решение → решение от марта; уведомления об их высылке → уведомления об их высылке; высадились → высадились; без разрешения → без разрешения; призвал его соблюдать → призвал соблюдать
-Posted (L'Express): Чагос: серьёзное поражение Misley Mandarin и его товарищей, уведомления о высылке восстановлены
-  proofread: конюшня Ruhee → Конюшня Ruhee; жеребец Warhead → жеребца Warhead; Lightning Cup → Lightning Cup; ветеринара Horse Racing Integrity Division (HRID) → ветеринара Horse Racing Integrity Division (HRID); доктора Marie-Claire Domingue → доктора Marie-Claire Domingue; Vicky Ruhee заявил → Vicky Ruhee заяв
-Posted (L'Express): Снятие Warhead: конюшня Ruhee выступает с разъяснениями
-  not news (portrait/lifestyle): Portrait | Kirti Devi Ramchurn : son handicap n’a jamais freiné ses ambitions
-Skipped foreign news (L'Express): Portrait | Kirti Devi Ramchurn : son handicap n’a jamais freiné ses ambitions
-  dup: nothing new ()
-Skipped duplicate (L'Express): Manière de voir | Ça n’est pas de la science-fiction : Le numérique invasif menacerait des == Непогода: законопроект об официальном утверждении протокола о сильных дождях и усилении за
-LLM usage this run: 6 requests, 12833 tokens
-### check 5/5 at 05:24
-  dup check: new (Запуск движения «Together for Science and Health» Всемирной организацией здравоохранения с участием более 240 организаций для укрепления доверия к нау)
-  not about Mauritius: Santé mondiale : plus de 240 organisations s’allient pour restaurer la confiance dans la science
-Skipped foreign news (Inside News): Santé mondiale : plus de 240 organisations s’allient pour restaurer la confiance dans la science
-  dup check: new (Meta оштрафована в Италии на 805 миллионов евро за доступ к фотографиям пользователей Android без явного согласия; решение принято итальянским регулят)
-  not about Mauritius: Facebook : 805 millions d’euros d’amende en Italie pour l’accès aux photos des utilisateurs
-Skipped foreign news (Inside News): Facebook : 805 millions d’euros d’amende en Italie pour l’accès aux photos des utilisateurs
-  dup check: new (FAA описала причину национальной поломки в США: аномальный поток соединений на её сети без признаков кибератаки; указано время начала кризиса (пятница)
-  not about Mauritius: États-Unis : la FAA décrit la panne nationale derrière une vague d’annulations de vols
-Skipped foreign news (Inside News): États-Unis : la FAA décrit la panne nationale derrière une vague d’annulations de vols
-  dup check: new (SpaceX впервые в истории поймала верхнюю ступень Starship с помощью механических рук башни после 14 орбит — ранее ни одна миссия не возвращалась из ор)
-  not about Mauritius: SpaceX : Starship rattrapé par sa tour après 14 orbites, une première historique
-Skipped foreign news (Inside News): SpaceX : Starship rattrapé par sa tour après 14 orbites, une première historique
-LLM usage this run: 8 requests, 15492 tokens
+Skipped duplicate (Defimedia): Doyen des commerçants de Quatre-Bornes : Alex Ng Kong, 99 ans, décède après un accident à  == ДТП в Port-Louis: 99-летний пешеход скончался от полученных травм
+LLM usage this run: 5 requests, 9668 tokens
