@@ -36,3 +36,15 @@ Posted (Defimedia): Законопроект о снижении рисков и
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Убийство Selven Iyempermal: MCIT делает ставку на анализ ДНК
 LLM usage this run: 10 requests, 16274 tokens
+### check 4/5 at 22:32
+  dup check: new ()
+  proofread: Ravin Jugurnauth → Равин Жогноу
+Posted (Defimedia): Смертельное крушение гидросамолёта в La Prairie: обстоятельства всё ещё не установлены спустя более трёх месяцев
+  dup check: new (Назначение Aurélie Antoine-Rey в команду коммуникаций ПМО и неопределённость роли Touria Prayag в GIS — новые факты, которых нет среди опубликованных.)
+  written by GigaChat-2-Max
+Posted (Wazaa): Новая сотрудница в команде коммуникаций премьера: неопределённость вокруг роли Prayag
+  dup: nothing new ()
+Skipped duplicate (Defimedia): National Disaster Risk Reduction and Management (Amendment) Bill : la CTSP réclame un plan == Законопроект о снижении рисков и управлении стихийными бедствиями: Talent Lab выступает за
+  same headline as #34: Grand Prix à Port-Louis : une sortie de piste fait trois blessés
+Skipped duplicate (Defimedia): Sport automobile – Grand Prix de Port-Louis : une sortie de piste fait trois blessés léger == Гран-при в Port-Louis: авария на трассе привела к травмам трёх человек
+LLM usage this run: 7 requests, 11524 tokens
