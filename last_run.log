@@ -1,53 +1,9 @@
-### check 1/5 at 01:15
+### check 1/5 at 05:08
+Posted (L'Express): Торговля наркотиками: Black Cat Syndicate — контуры нового поколения баронов
   dup: nothing new ()
-Skipped duplicate (Defimedia): Pouba Essoo : «La pauvreté sert les intérêts de certaines ONG» == NEF | региональная консультация: Ashok Subron — «130 000 маврикийцев живут в бедности»
-GigaChat balance: GigaChat-Ultra 45,695,169, GigaChat-Pro 36,405,182, GigaChat-Max 23,942,214, GigaChat 249,589,075; 338 days to go
+Skipped duplicate (L'Express): Chagos : S’inspirer du Groenland, une fausse bonne idée ? == Индийский океан — деколонизация и суверенитет — сделка по архипелагу Чагос: на пороге «фин
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Travaux à la rue Monseigneur Leen — Un casse-tête géant == Port-Louis: в понедельник ожидается новый план движения вокруг улицы Монсеньёр-Лин
-Posted (Defimedia): Мотоциклетная авария оставила Hussein, 21 года, тетраплегиком
+Skipped duplicate (L'Express): Grand prix de la cité de Port-Louis : Trois spectateurs blessés dans un spectaculaire acci == Гран-при в Port-Louis: авария на трассе привела к травмам трёх человек
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): L’AG de l’AHRIM — Tourisme : des records en vue, mais… des défis pressants pour l’hôteller == Туризм: шесть стратегических приоритетов AHRIM для подготовки будущего сектора
-LLM usage this run: 5 requests, 8021 tokens
-### check 2/5 at 01:19
-  dup check: new (В статье рассказывается о 63-летней женщине с тяжёлой болезнью ноги и сборе средств на лечение в Индии стоимостью 800 000 рупий. Это новое событие — р)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Roche-Bois: жители собирают средства на лечение 63-летней Doris в Индии
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Perturbations majeures à travers le réseau — MICROSOFT : la  panne qui a déstabilisé le mo == После сбоя Microsoft 365: цифровая зависимость — риск для Маврикия
-  not about Mauritius: Manifestation de samedi : à Paris une centaine de gardes à vue, dont 38 mineurs
-Skipped foreign news (Defimedia): Manifestation de samedi : à Paris une centaine de gardes à vue, dont 38 mineurs
-  dup: nothing new (Статья рассказывает о 10-летнем мальчике Тео, который поёт и использует машину Брайля. Упоминается его участие в видео с чемпионкой Маврикия по пара-с)
-Skipped duplicate (Defimedia): Theo, 10 ans : une machine à braille et des chansons plein la tête == NEF | региональная консультация: Ashok Subron — «130 000 маврикийцев живут в бедности»
-LLM usage this run: 6 requests, 10811 tokens
-### check 3/5 at 01:23
-  dup: nothing new (В статье описывается новая ситуация: жители L’Avenir страдают от нехватки воды более недели, вынуждены носить воду издалека, и жалуются на временные м)
-Skipped duplicate (Defimedia): L’Avenir, St-Pierre : des habitants privés d’eau depuis plus d’une semaine == NEF | региональная консультация: Ashok Subron — «130 000 маврикийцев живут в бедности»
-  not news (portrait/lifestyle): Questions à... Jean Claude de l’Estrac : «Le modèle groenlandais est déjà largement présent dans l’a
-Skipped foreign news (L'Express): Questions à... Jean Claude de l’Estrac : «Le modèle groenlandais est déjà largement présent dans l’a
-  dup check: new (Смерть 99-летнего пешехода после наезда мотоцикла в Port-Louis; ранее сообщалось только о его госпитализации и тяжёлых травмах.)
-Posted (Defimedia): ДТП в Port-Louis: 99-летний пешеход скончался от полученных травм
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Crise de l’eau — Délicat jeu d’équilibriste == Кризис воды: правительство хочет ускорить подключение Tamarin Falls к La Marie
-LLM usage this run: 6 requests, 9847 tokens
-### check 4/5 at 01:27
-  dup check: new (Статья посвящена жертвам дорожно-транспортных происшествий на Маврикии и содержит информацию о количестве погибших (2 181 за 15 лет) и проведении месс)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Жертвы на дорогах: 2181 жизнь за 15 лет, дань памяти, чтобы не забывать
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Du premier joystick à GTA VI, la passion intacte == NEF | региональная консультация: Ashok Subron — «130 000 маврикийцев живут в бедности»
-Posted (Defimedia): [Вечерний выпуск]: «Этим вечером люди с оружием и винтовками идут» — и другие темы
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Bigg Frankii, papa d’une petite Isla : «Ma fille est l’un des plus beaux cadeaux de ma vie == NEF | региональная консультация: Ashok Subron — «130 000 маврикийцев живут в бедности»
-LLM usage this run: 7 requests, 11809 tokens
-### check 5/5 at 01:31
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Вопросы к… Vijay Makhan: «Мы не можем оставаться в ожидании, пока Лондон и Вашингтон обсуждают будущее территории, которая нам принадлежит»
-Posted (L'Express): Интервью… Ranjiv Woochit: «Мы хотим модернизировать правовую базу до выборов в советы деревень»
-  dup check: new (Появление морского слона Jackie в третий раз на побережье Маврикия (Poste-de-Flacq) и визит министра Fabrice David для проверки состояния животного.)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Minister
-  leftovers fixed by GigaChat-3-Pro; still left: Minister
-Posted (Le Mauricien): Морской слон на востоке — Jackie, возвращение 3
-  dup: nothing new ()
-Skipped duplicate (L'Express): Portrait l Indrasen Vencatachellum : Un «diplomate» acteur de la culture == NEF | региональная консультация: Ashok Subron — «130 000 маврикийцев живут в бедности»
-LLM usage this run: 9 requests, 15046 tokens
+Skipped duplicate (Le Mauricien): Taux directeur à 5% — La Banque de Maurice serre la vis == Повышение ключевой ставки: Roshi Bhadain предупреждает о росте стоимости жизни
+LLM usage this run: 5 requests, 7921 tokens
