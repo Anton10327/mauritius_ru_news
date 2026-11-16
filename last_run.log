@@ -47,3 +47,19 @@ Posted (Le Mauricien): Региональная демократия — дер�
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): После года высокой прибыли — Air Mauritius: прогнозируется убыток в текущем финансовом году
 LLM usage this run: 10 requests, 15457 tokens
+### check 5/5 at 12:13
+  dup check: new (SBM вернула около 2 млрд рупий из 14,34 млрд списанных кредитов; арестованы три человека по двум делам, но приговоров нет. Указаны компании-получатели)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Renish
+  leftovers fixed by GigaChat-3-Pro; still left: Renish
+Posted (Defimedia): State Bank of Mauritius: возвращено 2 млрд рупий из 14,34 млрд по списанным кредитам
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Ombudsperson, for
+  leftovers fixed by GigaChat-3-Pro; still left: Ombudsperson, for
+Posted (L'Express): Ответственное родительство: FAM выступает за разделённую родительскую ответственность
+  dup check: new (Папа римский Лео XIV завершил 12-дневную поездку по Южной Америке и развеял сомнения о своём здоровье после операции на рак лёгких; он посетил Уругвай)
+  not about Mauritius: Le pape Léon XIV conclut sa tournée en Amérique du Sud et rassure sur sa santé
+Skipped foreign news (Defimedia): Le pape Léon XIV conclut sa tournée en Amérique du Sud et rassure sur sa santé
+  dup: nothing new (Назначение Aurélie Antoine-Rey в команду коммуникации PMO и её предыдущий опыт работы; вопрос о том, будет ли она координировать коммуникацию всего пр)
+Skipped duplicate (Defimedia): Aurélie Antoine-Rey rejoint l’équipe de communication du PMO == Повышение ключевой ставки: Roshi Bhadain предупреждает о росте стоимости жизни
+LLM usage this run: 10 requests, 16295 tokens
