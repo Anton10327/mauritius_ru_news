@@ -48,3 +48,22 @@ Skipped duplicate (Defimedia): National Disaster Risk Reduction and Management (
   same headline as #34: Grand Prix à Port-Louis : une sortie de piste fait trois blessés
 Skipped duplicate (Defimedia): Sport automobile – Grand Prix de Port-Louis : une sortie de piste fait trois blessés léger == Гран-при в Port-Louis: авария на трассе привела к травмам трёх человек
 LLM usage this run: 7 requests, 11524 tokens
+### check 5/5 at 22:36
+  dup check: new (Объявлены даты и подробности второго фестиваля еды Port-Louis Waterfront Food Festival: он пройдёт с 20 по 22 ноября, участие примут более 30 ресторат)
+  written by GigaChat-2-Max
+  proofread: во втором → второе
+Posted (Defimedia): Фестиваль еды в Port-Louis: три дня вкусов и развлечений с 20 по 22 ноября
+  written by GigaChat-2-Max
+  not about Mauritius: [Blog] The French Republic’s forgotten promise of equality
+Skipped foreign news (Defimedia): [Blog] The French Republic’s forgotten promise of equality
+  dup check: new (В статье описан другой случай: 13-летний подросток погиб в ДТП с автомобилем в Coromandel в январе 2008 года; женщина из Mahébourg оправдана спустя 18)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Махебурга → Mahébourg
+Posted (Defimedia): Жительница Mahébourg оправдана через 18 лет после ДТП со смертельным исходом
+  dup check: new (Accident de moto à Trou-aux-Biches impliquant trois ressortissants rwandais (21‑23 ans); deux d'entre eux sont dans un état critique, l'un en soins in)
+  written by GigaChat-2-Max
+  proofread by qwen/qwen3.8-27b
+  proofread: Тру-О-Беш → Trou-aux-Biches; Триолет → Triolet
+Posted (Defimedia): ДТП в Trou-aux-Biches: двое граждан Руанды в критическом состоянии
+LLM usage this run: 10 requests, 13151 tokens
