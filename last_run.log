@@ -12,3 +12,14 @@ Posted (Defimedia): Диабет: 596 ампутаций в государств
   proofread: «генпрокурор» → «генпрокурор (DPP)»; «Bibi Rehana Mungly-Gulbul» → «судья Bibi Rehana Mungly-Gulbul»; «Mamy Ravatomanga» → «Мами Раватоманги»; «Rasmi Camiah» → «Rasmi Camiah»; «Bibi Mahejabeen Chattoo» → «Bibi Mahejabeen Chattoo»
 Posted (Defimedia): В Верховном суде: генпрокурор выступает против ходатайства Mamy Ravatomanga
 LLM usage this run: 9 requests, 15938 tokens
+### check 2/5 at 22:24
+  dup check: new (Спасение шестилетнего ребёнка в Mont-Choisy 15 ноября; ребёнок из Port-Louis, доставлен SAMU в SSRN и госпитализирован (состояние стабильное); начата )
+Posted (Defimedia): Mont-Choisy: шестилетнего ребёнка спасли после того, как он попал в беду в море
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : le sergent Taukoor de nouveau entendu devant l’IPCC ce lundi == CAMP-LEVIEUX | Выстрел полицейского: Elodie Thomas дала показания по инциденту 9 октября
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Diabète : le rôle essentiel du dépistage précoce et de l’accompagnement == Всемирный день диабета — APSA International: «Действовать, пока не стало слишком поздно»
+  dup check: new (Сержант Gautam Singh Taukoor после допроса в IPCC снова помещён под полицейский арест; это новое событие по сравнению с предыдущими публикациями о его)
+  proofread: «Using Firearm to Intimidate» → «Использование огнестрельного оружия для запугивания»; "Involuntary Wounds and Blows by Imprudence" → "Причинение телесных повреждений и ударов по неосторожности"; оставлен под стражей в полиции → оставлен под стражей
+Posted (Defimedia): Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor оставлен под стражей после допроса в комиссии по жалобам на полицию (IPCC)
+LLM usage this run: 8 requests, 12461 tokens
