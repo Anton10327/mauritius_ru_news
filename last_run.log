@@ -1,65 +1,14 @@
-### check 1/5 at 11:57
+### check 1/5 at 22:20
+New source Le Mauricien: skipped backlog, posting newest only
 New source Inside News: skipped backlog, posting newest only
-  not about Mauritius: Drogues : Quand les usagers désertent les dispositifs d’aide
-Skipped foreign news (Defimedia): Drogues : Quand les usagers désertent les dispositifs d’aide
-  dup check: new (Папа Лев XIV впервые публично осудил вырубку лесов в Амазонии и потребовал справедливости для убитых лидеров коренных народов; это новое событие с нов)
-  not about Mauritius: Amazonie : le pape Léon XIV dénonce la déforestation et réclame justice pour les dirigeants autochto
-Skipped foreign news (Defimedia): Amazonie : le pape Léon XIV dénonce la déforestation et réclame justice pour les dirigeants autochto
+  dup check: new (Более 150 человек зарегистрировались для посещения архипелага Чагос в первый день регистрации (12 ноября 2026 года), что стало известно из заявления О)
+  proofread: Groupe Réфugiés Chagos → Groupe Réfugiés Chagos
+Posted (Defimedia): Визит на Chagos: более 150 регистраций в первый же день
   dup: nothing new ()
-Skipped duplicate (Defimedia): Météo : des averses attendues dans l’est, le sud et sur le plateau central == Повышение ключевой ставки: Roshi Bhadain предупреждает о росте стоимости жизни
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Doyen des commerçants de Quatre-Bornes : Alex Ng Kong, 99 ans, décède après un accident à  == ДТП в Port-Louis: 99-летний пешеход скончался от полученных травм
-LLM usage this run: 5 requests, 9668 tokens
-### check 2/5 at 12:01
-  proofread: Элодии Тома → Элодии Тома; Winners → Winners; Tribeca → Трибека
-  foreign words left: Human
-  leftovers fixed by GigaChat-3-Pro; still left: Human
-Posted (Le Mauricien): Human Story — Élodie Thomas начинается новая жизнь
-  dup check: new (Четыре гражданина Китая приговорены к пяти месяцам тюрьмы за кражу и сговор с целью мошенничества; указаны имена, возраст обвиняемых, даты и детали пр)
+Skipped duplicate (Defimedia): Sms Pariaz : Jean-Michel Lee Shim attendu à la FCC ce lundi == Расследование по SMS Pariaz: Jean-Michel Lee Shim предстоит объяснить FCC свои гонорары
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Кража и сговор: четыре гражданина Китая приговорены к пяти месяцам тюрьмы
-  dup check: new (Статья сообщает о причине приостановки авиасообщения в США — замене старых медных кабелей на оптоволокно, что привело к отмене около 20 000 рейсов и з)
-  not about Mauritius: Des câbles en cuivre vétustes à l’origine de l’interruption du trafic aérien aux États-Unis
-Skipped foreign news (Le Mauricien): Des câbles en cuivre vétustes à l’origine de l’interruption du trafic aérien aux États-Unis
-  not about Mauritius: Paralysie du trafic aérien aux États-Unis : Trump accuse l’administration Biden et réclame davantage
-Skipped foreign news (Defimedia): Paralysie du trafic aérien aux États-Unis : Trump accuse l’administration Biden et réclame davantage
-LLM usage this run: 9 requests, 17329 tokens
-### check 3/5 at 12:05
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Ça va se savoir- CHAGOS : Londres envisagerait-il de revenir sur le transfert de souverain == Индийский океан — деколонизация и суверенитет — сделка по архипелагу Чагос: на пороге «фин
-  dup check: new (В новой статье речь идёт о жалобе 17-летнего подростка на жестокое обращение полиции в Quatre-Bornes 14 октября и начале расследования IPCC по этому с)
-Posted (Le Mauricien): Заявления о полицейской жестокости — комиссия по жалобам на полицию расследует жалобу 17-летнего подростка
-  dup check: new (Нападение на тюремного охранника с саблей в Grande-Rivière Nord-Ouest 14 ноября; трое нападавших, раненый охранник доставлен в больницу Dr A.G. Jeetoo)
-Posted (Defimedia): Grande-Rivière Nord-Ouest: тюремный надзиратель избежал нападения с саблей
-  not about Mauritius: [DéfiXPlik] Sommet de l’APEC en Chine : Trump, Xi et Poutine attendus, quels sont les enjeux ?
-Skipped foreign news (Defimedia): [DéfiXPlik] Sommet de l’APEC en Chine : Trump, Xi et Poutine attendus, quels sont les enjeux ?
-LLM usage this run: 8 requests, 14365 tokens
-### check 4/5 at 12:09
-  dup check: new (В статье говорится о новом официальном уведомлении мэрии Port-Louis (avis n°22/2026) с запретом установки торговых точек у дорог и использованием прип)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Захват общественных тротуаров в Port-Louis — полиция действует решительно
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Association de personnes âgées porte plainte pour une supposée escroquerie liée à un forfa == «Дневной пакет» в четырёхзвёздочном отеле: ассоциация пожилых людей заявляет о предполагае
-  foreign words left: Bill
-  leftovers fixed by GigaChat-3-Pro; still left: Bill
-Posted (Le Mauricien): Региональная демократия — деревенские советы: роспуск 22 ноября
-  dup check: new (Air Mauritius ожидает убыток в текущем финансовом году из-за роста расходов на топливо после прибыльного 2025-2026 года; CEO Andre Viljoen прокомменти)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): После года высокой прибыли — Air Mauritius: прогнозируется убыток в текущем финансовом году
-LLM usage this run: 10 requests, 15457 tokens
-### check 5/5 at 12:13
-  dup check: new (SBM вернула около 2 млрд рупий из 14,34 млрд списанных кредитов; арестованы три человека по двум делам, но приговоров нет. Указаны компании-получатели)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Renish
-  leftovers fixed by GigaChat-3-Pro; still left: Renish
-Posted (Defimedia): State Bank of Mauritius: возвращено 2 млрд рупий из 14,34 млрд по списанным кредитам
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Ombudsperson, for
-  leftovers fixed by GigaChat-3-Pro; still left: Ombudsperson, for
-Posted (L'Express): Ответственное родительство: FAM выступает за разделённую родительскую ответственность
-  dup check: new (Папа римский Лео XIV завершил 12-дневную поездку по Южной Америке и развеял сомнения о своём здоровье после операции на рак лёгких; он посетил Уругвай)
-  not about Mauritius: Le pape Léon XIV conclut sa tournée en Amérique du Sud et rassure sur sa santé
-Skipped foreign news (Defimedia): Le pape Léon XIV conclut sa tournée en Amérique du Sud et rassure sur sa santé
-  dup: nothing new (Назначение Aurélie Antoine-Rey в команду коммуникации PMO и её предыдущий опыт работы; вопрос о том, будет ли она координировать коммуникацию всего пр)
-Skipped duplicate (Defimedia): Aurélie Antoine-Rey rejoint l’équipe de communication du PMO == Повышение ключевой ставки: Roshi Bhadain предупреждает о росте стоимости жизни
-LLM usage this run: 10 requests, 16295 tokens
+Posted (Defimedia): Диабет: 596 ампутаций в государственных больницах в 2024 году
+  dup check: new (В новой статье сообщается о слушании 16 ноября в Верховном суде по ходатайству Мамы Раваотаманги против продления его содержания под стражей; представ)
+  proofread: «генпрокурор» → «генпрокурор (DPP)»; «Bibi Rehana Mungly-Gulbul» → «судья Bibi Rehana Mungly-Gulbul»; «Mamy Ravatomanga» → «Мами Раватоманги»; «Rasmi Camiah» → «Rasmi Camiah»; «Bibi Mahejabeen Chattoo» → «Bibi Mahejabeen Chattoo»
+Posted (Defimedia): В Верховном суде: генпрокурор выступает против ходатайства Mamy Ravatomanga
+LLM usage this run: 9 requests, 15938 tokens
