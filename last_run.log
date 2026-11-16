@@ -23,3 +23,16 @@ Skipped duplicate (Defimedia): Diabète : le rôle essentiel du dépistage préc
   proofread: «Using Firearm to Intimidate» → «Использование огнестрельного оружия для запугивания»; "Involuntary Wounds and Blows by Imprudence" → "Причинение телесных повреждений и ударов по неосторожности"; оставлен под стражей в полиции → оставлен под стражей
 Posted (Defimedia): Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor оставлен под стражей после допроса в комиссии по жалобам на полицию (IPCC)
 LLM usage this run: 8 requests, 12461 tokens
+### check 3/5 at 22:28
+  dup check: new (Банк Маврикия повысил ключевую ставку с 4,75% до 5%, что является новым событием. В статье анонсировано обсуждение последствий этого решения с участие)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): В центре новостей — повышение ключевой ставки: правильный ли выбор сделал Банк Маврикия?
+  dup: nothing new (Статья посвящена церемонии Remembrance Day в Коллеж Рояль де Курипи и воспоминаниям ветеранов о службе. В ней нет новых фактов по сравнению с уже опуб)
+Skipped duplicate (Defimedia): Au Collège Royal de Curepipe - Remembrance Day : ce que les anciens combattants portent en == CAMP-LEVIEUX | Выстрел полицейского: Elodie Thomas дала показания по инциденту 9 октября
+  dup check: new (В новой статье говорится о законопроекте National Disaster Risk Reduction and Management (Amendment) Bill, который будет представлен в Парламент 17 но)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Законопроект о снижении рисков и управлении стихийными бедствиями: Talent Lab выступает за адаптационный период для компаний
+  dup check: new (В статье говорится о расследовании убийства Селвен Импермал: упоминаются новые детали — список других подозреваемых для допроса, проведение ДНК-анализ)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Убийство Selven Iyempermal: MCIT делает ставку на анализ ДНК
+LLM usage this run: 10 requests, 16274 tokens
