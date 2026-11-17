@@ -30,3 +30,14 @@ Skipped foreign news (Defimedia): France : Gérard Depardieu renonce à faire ap
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): APEC —Maurice a besoin de pragmatisme économique, pas d’orthodoxie monétaire == В центре новостей — повышение ключевой ставки: правильный ли выбор сделал Банк Маврикия?
 LLM usage this run: 4 requests, 7470 tokens
+### check 4/5 at 14:41
+  dup check: new (Заявление вице-президента США JD Vance о том, что конфликт с Ираном не станет «войной без конца» и может завершиться менее чем за два года; вывод йеме)
+  not about Mauritius: Iran : Vance rejette une «guerre sans fin»
+Skipped foreign news (Defimedia): Iran : Vance rejette une «guerre sans fin»
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Электроэнергия: министр энергетики Patrick Assirvaden призывает сократить потребление с 18 до 21 часа
+  not about Mauritius: États-Unis : un juge annule les limites de visa pour étudiants et journalistes, Trump fait appel
+Skipped foreign news (Le Mauricien): États-Unis : un juge annule les limites de visa pour étudiants et journalistes, Trump fait appel
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Blog] Taux directeur à 5 %: on serre la vis aux Mauriciens, jamais aux dollars == В центре новостей — повышение ключевой ставки: правильный ли выбор сделал Банк Маврикия?
+LLM usage this run: 6 requests, 11368 tokens
