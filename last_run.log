@@ -34,3 +34,15 @@ Skipped duplicate (Defimedia): Au Cœur de l’Info - Hausse du taux directeur :
   dup: nothing new ()
 Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : le sergent Taukoor exerce son droit au silence sur certaines  == Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor оставлен под стражей после допроса в 
 LLM usage this run: 3 requests, 4096 tokens
+### check 4/5 at 06:09
+  dup check: new (Инцидент в Trou-d’Eau-Douce: 45-летний сотрудник отеля обвиняет жену в том, что она облила его едким веществом; он госпитализирован с ожогами ноги и н)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Trou-d’Eau-Douce: сотрудник отеля обвиняет жену в том, что она обрызгала его едким веществом
+  dup check: new (Смерть 38-летнего мужчины в результате утопления в реке в Gentilly (Moka) 16 ноября; тело было извлечено после полудня; полиция начала расследование и)
+  proofread: 
+Posted (Defimedia): Гентийи, Moka: 38-летний мужчина утонул в реке
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Port Louis : nouveau plan de trafic avec deux voies en heures de pointe matinales == Port-Louis: в понедельник ожидается новый план движения вокруг улицы Монсеньёр-Лин
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Senior Counsel et Senior Attorney : Me Trilochun salue l’annulation du processus de nomina == Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
+LLM usage this run: 8 requests, 10936 tokens
