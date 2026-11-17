@@ -13,3 +13,14 @@ Skipped foreign news (Defimedia): Écrans ou livres : comment les enfants appren
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
 LLM usage this run: 11 requests, 21682 tokens
+### check 2/5 at 06:01
+  dup check: new (В статье приведены новые точные цифры по итогам четырёхдневных проверок: 578 нарушений за 4 дня (64 превышения скорости, 25 непристёгнутых ремней безо)
+Posted (Defimedia): Дорожные проверки: выписано более 500 штрафов за четыре дня
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Port-Louis : de nouvelles déviations mises en place pour fluidifier la circulation == Port-Louis: в понедельник ожидается новый план движения вокруг улицы Монсеньёр-Лин
+  dup check: new (Сейз около 76 000 запрещённых пластиковых пакетов на рынке Pamplemousses и задержание жителя Port-Louis с этими пакетами для продажи; указаны штрафы о)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Pamplemousses: изъято около 76 000 пластиковых пакетов, использование которых запрещено
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Chagos : une erreur présumée dans le jugement de la Cour d’appel soulève des questions, se == Чагос: серьёзное поражение Misley Mandarin и его товарищей, уведомления о высылке восстано
+LLM usage this run: 8 requests, 10685 tokens
