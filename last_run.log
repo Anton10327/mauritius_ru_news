@@ -53,3 +53,36 @@ Posted (Defimedia): Здоровье: почти 80 000 человек, живу
   proofread: edit rejected (changed numbers, names or length)
 Posted (Le Mauricien): PNQ о наркотиках: 32 сотрудника арестованы по делам о наркотиках, вопрос легализации каннабиса всё ещё изучается
 LLM usage this run: 12 requests, 18902 tokens
+### check 5/5 at 23:34
+LLM error 502: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+Google Translate failed: TooManyRequests
+Google Translate failed: TooManyRequests
+Proofreading GigaChat-3-Pro failed 429: {"status":429,"message":"Too Many Requests"}
+
+  proofread by qwen/qwen3.8-27b
+  proofread: Рамперсадом Суруджебалли → Rampersad Sooroojebally; Рамперсада Суруджебалли → Rampersad Sooroojebally
+Posted (Defimedia): Полиция: контракт с Rampersad Sooroojebally продлен на один год
+LLM limit reached for GigaChat-3-Ultra: {"status":429,"message":"Too Many Requests"}
+
+LLM limit reached for GigaChat-2-Max: {"status":429,"message":"Too Many Requests"}
+
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Погодные аномалии: новые правила по работе, зарплатам и школам
+  written by qwen/qwen3.8-27b
+  proofread by qwen/qwen3.8-27b
+Posted (Le Mauricien): National Coast Guard — Дело Dreamer: аудит для понимания пробелов в морском надзоре
+  dup check: new (A 20‑year‑old security guard was found seriously injured on 16 Nov at ~23:45 on a path near Cremation Road in Roches‑Noires, with facial and foot inju)
+Bad LLM answer from qwen/qwen3.8-27b: Invalid control character at: line 22 column 524 (char 894); raw: {"id":"chatcmpl-71976ff6-8144-42a3-ae1d-28fb1d4ae4df","object":"chat.completion","created":1794944219,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"{\n  \"mauritius\": true,\n  \"news\": true,\n  \"names\": [\n    {\n      \"orig\": \"Roches-Noires\",\n   
+  written by openai/gpt-oss-120b
+  proofread by qwen/qwen3.8-27b
+  proofread: Рош-Нуар → Roches-Noires
+Posted (Defimedia): Roches-Noires: найден молодой охранник с тяжёлыми травмами
+LLM usage this run: 9 requests, 15927 tokens
