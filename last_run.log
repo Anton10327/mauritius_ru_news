@@ -20,3 +20,13 @@ Skipped duplicate (Defimedia): [Blog] Mauritius must hold on to its rain == Beau
   proofread: edit rejected (changed numbers, names or length)
 Posted (Le Mauricien): ЭНЕРГЕТИКА | В преддверии лета — CEB прогнозирует пиковый спрос в 600 МВт
 LLM usage this run: 7 requests, 11857 tokens
+### check 3/5 at 14:37
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : l’enquête de l’IPCC bouclée, le dossier bientôt transmis au D == Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor оставлен под стражей после допроса в 
+  not about Mauritius: Le pape Léon XIV touché au visage par un chapelet lors de sa dernière apparition publique au Pérou
+Skipped foreign news (Le Mauricien): Le pape Léon XIV touché au visage par un chapelet lors de sa dernière apparition publique au Pérou
+  not about Mauritius: France : Gérard Depardieu renonce à faire appel de sa condamnation pour agressions sexuelles
+Skipped foreign news (Defimedia): France : Gérard Depardieu renonce à faire appel de sa condamnation pour agressions sexuelles
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): APEC —Maurice a besoin de pragmatisme économique, pas d’orthodoxie monétaire == В центре новостей — повышение ключевой ставки: правильный ли выбор сделал Банк Маврикия?
+LLM usage this run: 4 requests, 7470 tokens
