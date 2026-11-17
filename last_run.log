@@ -1,59 +1,12 @@
-### check 1/5 at 05:57
-  dup check: new (Падение индекса SEMDEX на 1,27% и рост объёма торгов на 27,2% в октябре 2026 года; доли банков MCB (45,6%), MUA (7,5%) и ABSA Bank (4,9%); изменение ц)
-GigaChat balance: GigaChat-Pro 36,297,056, GigaChat-Max 23,933,878, GigaChat 249,589,075, GigaChat-Ultra 45,558,825; 337 days to go
-Posted (Defimedia): Индекс SEMDEX снизился на 1,27% при росте объёма торгов на 27,2%
-  dup check: new (Арестованы трое мужчин по подозрению в кражах после попытки побега на лодке; имена задержанных: Lucky Armon (21), Ayush Armon (19) и Louisi Alexandre )
+### check 1/5 at 14:29
+New source Inside News: skipped backlog, posting newest only
+  dup check: new (Секция по борьбе с наркотиками MRA изъяла 3 кг каннабиса в почтовом отправлении из Англии; задержаны два подозреваемых (один — сын помощника суперинте)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Grand-Sable: троих разыскиваемых за кражи мужчин задержали после попытки побега на лодке
-  dup check: new ()
-Bad LLM answer from GigaChat-3-Ultra: Expecting value: line 1 column 111 (char 110); raw: {"choices":[{"message":{"content":"{\"mauritius\": false, \"news\": false, \"names\": [{\"orig\": \"Charon Potié\", \"type\": \"person\", \"ru\": \"\"}], \"title\": «Экраны или книги: как дети учатся лучше?», \"summary\": \"Практик помощи и педагог Charon Potié отмечает, что чрезмерное использование
-  written by GigaChat-2-Max
-  not about Mauritius: Écrans ou livres : comment les enfants apprennent-ils le mieux ?
-Skipped foreign news (Defimedia): Écrans ou livres : comment les enfants apprennent-ils le mieux ?
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
-LLM usage this run: 11 requests, 21682 tokens
-### check 2/5 at 06:01
-  dup check: new (В статье приведены новые точные цифры по итогам четырёхдневных проверок: 578 нарушений за 4 дня (64 превышения скорости, 25 непристёгнутых ремней безо)
-Posted (Defimedia): Дорожные проверки: выписано более 500 штрафов за четыре дня
+Posted (Defimedia): В порту: изъято три килограмма каннабиса в почтовом отправлении, задержаны двое подозреваемых
   dup: nothing new ()
-Skipped duplicate (Defimedia): Port-Louis : de nouvelles déviations mises en place pour fluidifier la circulation == Port-Louis: в понедельник ожидается новый план движения вокруг улицы Монсеньёр-Лин
-  dup check: new (Сейз около 76 000 запрещённых пластиковых пакетов на рынке Pamplemousses и задержание жителя Port-Louis с этими пакетами для продажи; указаны штрафы о)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Pamplemousses: изъято около 76 000 пластиковых пакетов, использование которых запрещено
+Skipped duplicate (Wazaa): Phoque éléphant : 3e apparition sur la côte est de l’Île Maurice == Морской слон на востоке — Jackie, возвращение 3
+  not about Mauritius: Gaza : quatre pays pressent Israël d’autoriser l’entrée de tentes avant l’hiver
+Skipped foreign news (Defimedia): Gaza : quatre pays pressent Israël d’autoriser l’entrée de tentes avant l’hiver
   dup: nothing new ()
-Skipped duplicate (Defimedia): Chagos : une erreur présumée dans le jugement de la Cour d’appel soulève des questions, se == Чагос: серьёзное поражение Misley Mandarin и его товарищей, уведомления о высылке восстано
-LLM usage this run: 8 requests, 10685 tokens
-### check 3/5 at 06:05
-  dup: nothing new (Me Yatin Varma высказался о необходимости возобновления процесса назначения Senior Counsel и Senior Attorney после его отмены.)
-Skipped duplicate (Defimedia): Nominations aux titres de Senior Counsel et de Senior Attorney : Me Yatin Varma espère une == Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Port-Louis : de nouvelles déviations mises en place pour fluidifier la circulation == Port-Louis: в понедельник ожидается новый план движения вокруг улицы Монсеньёр-Лин
-  same headline as #48: Au Cœur de l’Info - Hausse du taux directeur : la BoM a-t-elle fait le bon choix
-Skipped duplicate (Defimedia): Au Cœur de l’Info - Hausse du taux directeur : la BoM a-t-elle fait le bon choix ? == В центре новостей — повышение ключевой ставки: правильный ли выбор сделал Банк Маврикия?
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : le sergent Taukoor exerce son droit au silence sur certaines  == Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor оставлен под стражей после допроса в 
-LLM usage this run: 3 requests, 4096 tokens
-### check 4/5 at 06:09
-  dup check: new (Инцидент в Trou-d’Eau-Douce: 45-летний сотрудник отеля обвиняет жену в том, что она облила его едким веществом; он госпитализирован с ожогами ноги и н)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Trou-d’Eau-Douce: сотрудник отеля обвиняет жену в том, что она обрызгала его едким веществом
-  dup check: new (Смерть 38-летнего мужчины в результате утопления в реке в Gentilly (Moka) 16 ноября; тело было извлечено после полудня; полиция начала расследование и)
-  proofread: 
-Posted (Defimedia): Гентийи, Moka: 38-летний мужчина утонул в реке
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Port Louis : nouveau plan de trafic avec deux voies en heures de pointe matinales == Port-Louis: в понедельник ожидается новый план движения вокруг улицы Монсеньёр-Лин
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Senior Counsel et Senior Attorney : Me Trilochun salue l’annulation du processus de nomina == Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
-LLM usage this run: 8 requests, 10936 tokens
-### check 5/5 at 06:13
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Senior Counsel et Senior Attorney : réaction de Me Raouf Gulbul après l'annulation de l’ex == Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
-  dup check: new (В статье указано 2700 смертей от диабета за прошлый год и более 660 ампутаций (без детализации первичные/повторные), тогда как в опубликованном посте )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): [Вечерний выпуск]: «бич, который коснулся каждой семьи»
-  not news (portrait/lifestyle): Allô Docteur ce mardi 17 novembre - Cancer de la prostate : quels sont les signes qui doivent alerte
-Skipped foreign news (Defimedia): Allô Docteur ce mardi 17 novembre - Cancer de la prostate : quels sont les signes qui doivent alerte
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Plus de 76 000 sacs plastiques interdits saisis au marché de Pamplemousses == Pamplemousses: изъято около 76 000 пластиковых пакетов, использование которых запрещено
-LLM usage this run: 6 requests, 10222 tokens
+Skipped duplicate (Wazaa): Inspecteur VIPSU affecté au VVIP signalé pour des demandes de pots-de-vin présumées de 33  == Инспектора VIPSU, прикреплённого к VVIP, обвинили в вымогательстве 33 000 рупий за закрыти
+LLM usage this run: 6 requests, 9963 tokens
