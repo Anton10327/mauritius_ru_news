@@ -25,3 +25,15 @@ Posted (Defimedia): Нелегальная ситуация: задержаны 
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): Parlement | Séance du jour — L’opposition demande  un report des débats == Законопроект о снижении рисков и управлении стихийными бедствиями: Talent Lab выступает за
 LLM usage this run: 8 requests, 10784 tokens
+### check 3/5 at 23:26
+  dup check: new (Расследование полиции по подозрению в мошенничестве с фондом SFWF: фальсификация подписей на субсидиях на удобрения (два чека на сумму около 180 000 р)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): St-Pierre | Полицейское расследование — подозрения в мошенничестве в Small Farmers Welfare Fund
+  dup check: new (Новое событие: смерть 89-летней женщины после наезда мотоцикла в Rose-Hill; подробности о времени и месте происшествия, состоянии водителя (алкотестер)
+  proofread: 
+Posted (Defimedia): Rose-Hill: 89-летняя женщина скончалась после наезда мотоцикла
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Protocole sur les intempéries : syndicats et patronat défendent leurs priorités == Законопроект о снижении рисков и управлении стихийными бедствиями: Talent Lab выступает за
+  not news (portrait/lifestyle): [Blog] Chagos: Time to think beyond sovereignty - Turning Diego Garcia into an economic opportunity 
+Skipped foreign news (Defimedia): [Blog] Chagos: Time to think beyond sovereignty - Turning Diego Garcia into an economic opportunity 
+LLM usage this run: 8 requests, 13171 tokens
