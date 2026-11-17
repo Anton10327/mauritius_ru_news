@@ -1,69 +1,15 @@
-### check 1/5 at 22:20
-New source Le Mauricien: skipped backlog, posting newest only
-New source Inside News: skipped backlog, posting newest only
-  dup check: new (Более 150 человек зарегистрировались для посещения архипелага Чагос в первый день регистрации (12 ноября 2026 года), что стало известно из заявления О)
-  proofread: Groupe Réфugiés Chagos → Groupe Réfugiés Chagos
-Posted (Defimedia): Визит на Chagos: более 150 регистраций в первый же день
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Sms Pariaz : Jean-Michel Lee Shim attendu à la FCC ce lundi == Расследование по SMS Pariaz: Jean-Michel Lee Shim предстоит объяснить FCC свои гонорары
+### check 1/5 at 05:57
+  dup check: new (Падение индекса SEMDEX на 1,27% и рост объёма торгов на 27,2% в октябре 2026 года; доли банков MCB (45,6%), MUA (7,5%) и ABSA Bank (4,9%); изменение ц)
+GigaChat balance: GigaChat-Pro 36,297,056, GigaChat-Max 23,933,878, GigaChat 249,589,075, GigaChat-Ultra 45,558,825; 337 days to go
+Posted (Defimedia): Индекс SEMDEX снизился на 1,27% при росте объёма торгов на 27,2%
+  dup check: new (Арестованы трое мужчин по подозрению в кражах после попытки побега на лодке; имена задержанных: Lucky Armon (21), Ayush Armon (19) и Louisi Alexandre )
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Диабет: 596 ампутаций в государственных больницах в 2024 году
-  dup check: new (В новой статье сообщается о слушании 16 ноября в Верховном суде по ходатайству Мамы Раваотаманги против продления его содержания под стражей; представ)
-  proofread: «генпрокурор» → «генпрокурор (DPP)»; «Bibi Rehana Mungly-Gulbul» → «судья Bibi Rehana Mungly-Gulbul»; «Mamy Ravatomanga» → «Мами Раватоманги»; «Rasmi Camiah» → «Rasmi Camiah»; «Bibi Mahejabeen Chattoo» → «Bibi Mahejabeen Chattoo»
-Posted (Defimedia): В Верховном суде: генпрокурор выступает против ходатайства Mamy Ravatomanga
-LLM usage this run: 9 requests, 15938 tokens
-### check 2/5 at 22:24
-  dup check: new (Спасение шестилетнего ребёнка в Mont-Choisy 15 ноября; ребёнок из Port-Louis, доставлен SAMU в SSRN и госпитализирован (состояние стабильное); начата )
-Posted (Defimedia): Mont-Choisy: шестилетнего ребёнка спасли после того, как он попал в беду в море
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : le sergent Taukoor de nouveau entendu devant l’IPCC ce lundi == CAMP-LEVIEUX | Выстрел полицейского: Elodie Thomas дала показания по инциденту 9 октября
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Diabète : le rôle essentiel du dépistage précoce et de l’accompagnement == Всемирный день диабета — APSA International: «Действовать, пока не стало слишком поздно»
-  dup check: new (Сержант Gautam Singh Taukoor после допроса в IPCC снова помещён под полицейский арест; это новое событие по сравнению с предыдущими публикациями о его)
-  proofread: «Using Firearm to Intimidate» → «Использование огнестрельного оружия для запугивания»; "Involuntary Wounds and Blows by Imprudence" → "Причинение телесных повреждений и ударов по неосторожности"; оставлен под стражей в полиции → оставлен под стражей
-Posted (Defimedia): Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor оставлен под стражей после допроса в комиссии по жалобам на полицию (IPCC)
-LLM usage this run: 8 requests, 12461 tokens
-### check 3/5 at 22:28
-  dup check: new (Банк Маврикия повысил ключевую ставку с 4,75% до 5%, что является новым событием. В статье анонсировано обсуждение последствий этого решения с участие)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): В центре новостей — повышение ключевой ставки: правильный ли выбор сделал Банк Маврикия?
-  dup: nothing new (Статья посвящена церемонии Remembrance Day в Коллеж Рояль де Курипи и воспоминаниям ветеранов о службе. В ней нет новых фактов по сравнению с уже опуб)
-Skipped duplicate (Defimedia): Au Collège Royal de Curepipe - Remembrance Day : ce que les anciens combattants portent en == CAMP-LEVIEUX | Выстрел полицейского: Elodie Thomas дала показания по инциденту 9 октября
-  dup check: new (В новой статье говорится о законопроекте National Disaster Risk Reduction and Management (Amendment) Bill, который будет представлен в Парламент 17 но)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Законопроект о снижении рисков и управлении стихийными бедствиями: Talent Lab выступает за адаптационный период для компаний
-  dup check: new (В статье говорится о расследовании убийства Селвен Импермал: упоминаются новые детали — список других подозреваемых для допроса, проведение ДНК-анализ)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Убийство Selven Iyempermal: MCIT делает ставку на анализ ДНК
-LLM usage this run: 10 requests, 16274 tokens
-### check 4/5 at 22:32
+Posted (Defimedia): Grand-Sable: троих разыскиваемых за кражи мужчин задержали после попытки побега на лодке
   dup check: new ()
-  proofread: Ravin Jugurnauth → Равин Жогноу
-Posted (Defimedia): Смертельное крушение гидросамолёта в La Prairie: обстоятельства всё ещё не установлены спустя более трёх месяцев
-  dup check: new (Назначение Aurélie Antoine-Rey в команду коммуникаций ПМО и неопределённость роли Touria Prayag в GIS — новые факты, которых нет среди опубликованных.)
+Bad LLM answer from GigaChat-3-Ultra: Expecting value: line 1 column 111 (char 110); raw: {"choices":[{"message":{"content":"{\"mauritius\": false, \"news\": false, \"names\": [{\"orig\": \"Charon Potié\", \"type\": \"person\", \"ru\": \"\"}], \"title\": «Экраны или книги: как дети учатся лучше?», \"summary\": \"Практик помощи и педагог Charon Potié отмечает, что чрезмерное использование
   written by GigaChat-2-Max
-Posted (Wazaa): Новая сотрудница в команде коммуникаций премьера: неопределённость вокруг роли Prayag
-  dup: nothing new ()
-Skipped duplicate (Defimedia): National Disaster Risk Reduction and Management (Amendment) Bill : la CTSP réclame un plan == Законопроект о снижении рисков и управлении стихийными бедствиями: Talent Lab выступает за
-  same headline as #34: Grand Prix à Port-Louis : une sortie de piste fait trois blessés
-Skipped duplicate (Defimedia): Sport automobile – Grand Prix de Port-Louis : une sortie de piste fait trois blessés léger == Гран-при в Port-Louis: авария на трассе привела к травмам трёх человек
-LLM usage this run: 7 requests, 11524 tokens
-### check 5/5 at 22:36
-  dup check: new (Объявлены даты и подробности второго фестиваля еды Port-Louis Waterfront Food Festival: он пройдёт с 20 по 22 ноября, участие примут более 30 ресторат)
-  written by GigaChat-2-Max
-  proofread: во втором → второе
-Posted (Defimedia): Фестиваль еды в Port-Louis: три дня вкусов и развлечений с 20 по 22 ноября
-  written by GigaChat-2-Max
-  not about Mauritius: [Blog] The French Republic’s forgotten promise of equality
-Skipped foreign news (Defimedia): [Blog] The French Republic’s forgotten promise of equality
-  dup check: new (В статье описан другой случай: 13-летний подросток погиб в ДТП с автомобилем в Coromandel в январе 2008 года; женщина из Mahébourg оправдана спустя 18)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Махебурга → Mahébourg
-Posted (Defimedia): Жительница Mahébourg оправдана через 18 лет после ДТП со смертельным исходом
-  dup check: new (Accident de moto à Trou-aux-Biches impliquant trois ressortissants rwandais (21‑23 ans); deux d'entre eux sont dans un état critique, l'un en soins in)
-  written by GigaChat-2-Max
-  proofread by qwen/qwen3.8-27b
-  proofread: Тру-О-Беш → Trou-aux-Biches; Триолет → Triolet
-Posted (Defimedia): ДТП в Trou-aux-Biches: двое граждан Руанды в критическом состоянии
-LLM usage this run: 10 requests, 13151 tokens
+  not about Mauritius: Écrans ou livres : comment les enfants apprennent-ils le mieux ?
+Skipped foreign news (Defimedia): Écrans ou livres : comment les enfants apprennent-ils le mieux ?
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
+LLM usage this run: 11 requests, 21682 tokens
