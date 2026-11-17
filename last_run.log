@@ -46,3 +46,14 @@ Skipped duplicate (Wazaa): Port Louis : nouveau plan de trafic avec deux voies e
   dup: nothing new ()
 Skipped duplicate (Defimedia): Senior Counsel et Senior Attorney : Me Trilochun salue l’annulation du processus de nomina == Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
 LLM usage this run: 8 requests, 10936 tokens
+### check 5/5 at 06:13
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Senior Counsel et Senior Attorney : réaction de Me Raouf Gulbul après l'annulation de l’ex == Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
+  dup check: new (В статье указано 2700 смертей от диабета за прошлый год и более 660 ампутаций (без детализации первичные/повторные), тогда как в опубликованном посте )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): [Вечерний выпуск]: «бич, который коснулся каждой семьи»
+  not news (portrait/lifestyle): Allô Docteur ce mardi 17 novembre - Cancer de la prostate : quels sont les signes qui doivent alerte
+Skipped foreign news (Defimedia): Allô Docteur ce mardi 17 novembre - Cancer de la prostate : quels sont les signes qui doivent alerte
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Plus de 76 000 sacs plastiques interdits saisis au marché de Pamplemousses == Pamplemousses: изъято около 76 000 пластиковых пакетов, использование которых запрещено
+LLM usage this run: 6 requests, 10222 tokens
