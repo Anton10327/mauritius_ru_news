@@ -37,3 +37,19 @@ Skipped duplicate (Defimedia): Protocole sur les intempéries : syndicats et pat
   not news (portrait/lifestyle): [Blog] Chagos: Time to think beyond sovereignty - Turning Diego Garcia into an economic opportunity 
 Skipped foreign news (Defimedia): [Blog] Chagos: Time to think beyond sovereignty - Turning Diego Garcia into an economic opportunity 
 LLM usage this run: 8 requests, 13171 tokens
+### check 4/5 at 23:30
+  dup check: new (Участие Маврикия в салоне Heavent Paris 2026 для продвижения делового туризма и сотрудничество с тремя партнёрами; цель — укрепление связей с французс)
+  proofread: расположившуюся → разместившуюся; агент Joan Lamy → представитель Joan Lamy
+  foreign words left: Paris
+  leftovers fixed by GigaChat-3-Pro; still left: Paris
+Posted (Wazaa): Маврикий продвигает деловой туризм на выставке Heavent Paris 2026 с тремя партнёрами
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Judiciaire | Senior Counsels et Senior Attorneys — Le Recommendation Panel sursoit  à l’ex == Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
+  dup check: new (Министерство социальной интеграции сообщает о 80 000 человек в бедности на Маврикии, которые не проходят регулярные медицинские осмотры; приводятся да)
+Proofreading GigaChat-3-Pro failed: Invalid \escape: line 1 column 1177 (char 1176)
+  proofread by qwen/qwen3.8-27b
+Posted (Defimedia): Здоровье: почти 80 000 человек, живущих в бедности, не проходят медосмотры регулярно, сообщает Министерство социальной интеграции
+  dup check: new (В статье указано конкретное число арестованных за наркотики сотрудников: 27 полицейских и 5 пенитенциарных служащих с января 2025 года; все они отстра)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): PNQ о наркотиках: 32 сотрудника арестованы по делам о наркотиках, вопрос легализации каннабиса всё ещё изучается
+LLM usage this run: 12 requests, 18902 tokens
