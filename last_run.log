@@ -41,3 +41,16 @@ Skipped foreign news (Le Mauricien): États-Unis : un juge annule les limites de
   dup: nothing new ()
 Skipped duplicate (Defimedia): [Blog] Taux directeur à 5 %: on serre la vis aux Mauriciens, jamais aux dollars == В центре новостей — повышение ключевой ставки: правильный ли выбор сделал Банк Маврикия?
 LLM usage this run: 6 requests, 11368 tokens
+### check 5/5 at 14:45
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: National
+  leftovers fixed by GigaChat-3-Pro; still left: National
+Posted (Defimedia): Наркотики: смерти, полицейские под подозрением и каннабис в центре срочного вопроса оппозиции во вторник
+  proofread: Jeetoo → Жито
+Posted (Le Mauricien): Sainte-Croix — подозревается в попытке задушить двухлетнего сына
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: National, of, Education, Officer, Cambridge, assessed, grades
+  leftovers fixed by GigaChat-3-Pro; still left: National, of, Education, Officer, Cambridge, assessed, grades
+Posted (Defimedia): Национальные экзамены: результаты PSAC объявят 11 декабря, NCE — 17 декабря
+Posted (Le Mauricien): Социальная реинтеграция: 30 заключённых прошли обучение предпринимательству для подготовки к будущему
+LLM usage this run: 10 requests, 16500 tokens
