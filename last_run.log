@@ -46,3 +46,14 @@ Posted (Defimedia): Комиссия по финансовым преступл�
   dup: nothing new ()
 Skipped duplicate (Defimedia): [Info Soirée] : « Pou ena plis restriksion si pa gagn lapli » == Mare-aux-Vacoas на 32,4%: без дождей CWA может ужесточить ограничения
 LLM usage this run: 7 requests, 12574 tokens
+### check 5/5 at 13:31
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Affaire SMS Pariaz Ltd – Scénarios inépuisables — L’avocat de Lee Shim souffrant,  le rend == Расследование по SMS Pariaz: допрос Jean-Michel Lee Shim перенесён на следующую неделю
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Élodie Thomas blessée par balle : l’IPCC recommande des poursuites pénales contre quatre p == Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor оставлен под стражей после допроса в 
+  dup check: new (Организация мероприятия «We Will Fly Your Kites» в La Prairie 22 ноября с 10:30 до 16:30 для почтения памяти детей Газы; инициатива связана с акцией N)
+  proofread: Never Again Olive Resistance → Движение Never Again Olive Resistance (NAOR); La Prairie → пляж La Prairie; Rogers House, Port-Louis → Rogers House, Порт-Луи
+Posted (Defimedia): «Мы запустим ваши воздушные змеи»: акция в память о детях Газы в это воскресенье на пляже La Prairie
+  dup check: new (Назначение Belinda Wong-Vacher президентом SBM Holdings с 17 ноября после ухода Mahendra Vikramdass Punchoo; официальное подтверждение её роли как вре)
+Posted (Defimedia): SBM Holdings переворачивает страницу Punchoo: Belinda Wong-Vacher берет бразды правления в совете директоров
+LLM usage this run: 8 requests, 12194 tokens
