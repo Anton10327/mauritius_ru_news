@@ -25,3 +25,14 @@ Skipped duplicate (Defimedia): Électricité : pas de risque majeur de pénurie 
   dup: nothing new ()
 Skipped duplicate (Wazaa): Le gouvernement collecte un milliard cent six millions de roupies de recettes supplémentai == НДС: собрано 1,1 млрд рупий с момента снижения порога регистрации
 LLM usage this run: 9 requests, 13579 tokens
+### check 3/5 at 13:23
+  dup check: new (Премьер-министр Маврикия Навин Рамгулам заявил в парламенте 17 ноября о необходимости от Лондона дорожной карты по ратификации соглашения об архипелаг)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Chagos: Ramgoolam призывает Лондон выполнять обязательства, правительство Маврикия готово действовать при необходимости
+  proofread: edit rejected (changed numbers, names or length)
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Defimedia): COP31: Shakeel Mohamed требует «реальной климатической справедливости»
+Posted (Defimedia): Пожертвование в 6 миллионов долларов для мечетей: Maulana Shamim Khodadin требует опубликовать меморандум о взаимопонимании
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Troubles d’octobre : dix suspects interpellés à Pointe-aux-Sables, dont quatre mineurs == Беспорядки октября 2026: задержан подозреваемый в торговле наркотиками, троих других вскор
+LLM usage this run: 8 requests, 15515 tokens
