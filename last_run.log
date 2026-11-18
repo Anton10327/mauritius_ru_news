@@ -1,88 +1,11 @@
-### check 1/5 at 23:18
+### check 1/5 at 05:42
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): PNQ : décès liés à la drogue, policiers impliqués et légalisation du cannabis au cœur des  == Наркотики: смерти, полицейские под подозрением и каннабис в центре срочного вопроса оппози
-  dup check: new (В новой статье анонсируется обсуждение в PMQT вопросов, связанных с яхтой Dreamer и утечкой оперативных данных, а также запрос о мерах безопасности На)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Ethics, and, Commissioner
-  leftovers fixed by GigaChat-3-Pro; still left: Ethics, and, Commissioner
-Posted (Defimedia): PMQT: в повестке — беспорядки, наркотики и покупательная способность
+Skipped duplicate (Wazaa): Enquête policière sur une fraude présumée de Rs 180 000 via des bons d’achat pour fertilis == St-Pierre | Полицейское расследование — подозрения в мошенничестве в Small Farmers Welfare
+GigaChat balance: GigaChat-Ultra 45,467,449, GigaChat-Pro 36,220,450, GigaChat-Max 23,931,178, GigaChat 249,589,075; 336 days to go
   dup: nothing new ()
-Skipped duplicate (Wazaa): Tragédie sur la Rivière Gentilly : un homme de 38 ans se noie lors d’une sortie == Гентийи, Moka: 38-летний мужчина утонул в реке
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Risk
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Расследование по SMS Pariaz: допрос Jean-Michel Lee Shim перенесён на следующую неделю
-LLM usage this run: 9 requests, 13970 tokens
-### check 2/5 at 23:22
+Skipped duplicate (Defimedia): PNQ : «Il est prématuré de se prononcer sur la légalisation ou non du cannabis», affirme R == PNQ о наркотиках: 32 сотрудника арестованы по делам о наркотиках, вопрос легализации канна
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Électricité : les Mauriciens appelés à réduire leur consommation entre 18 h et 21 h == Электроэнергия: министр энергетики Patrick Assirvaden призывает сократить потребление с 18
-  dup check: new (Задержаны три гражданина Камеруна за нелегальное пребывание на Маврикии; женщины помещены в разные центры содержания под стражей, мужчина — в другой п)
-  proofread: Trou-aux-Biches → Trou-aux-Biches (название не склоняется); Moka Detention Centre → Moka Detention Centre (название не склоняется); Rose-Hill → Rose-Hill (название не склоняется)
-Posted (Defimedia): Незаконное пребывание: в Quatre-Bornes задержаны трое граждан Камеруна
-  foreign words left: avenue
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Нелегальная ситуация: задержаны иностранные рабочие в ходе операции против уличных торговцев
+Skipped duplicate (Defimedia): Port-Louis Waterfront Food Festival : plus de 30 stands pour un voyage culinaire == Фестиваль еды в Port-Louis: три дня вкусов и развлечений с 20 по 22 ноября
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Parlement | Séance du jour — L’opposition demande  un report des débats == Законопроект о снижении рисков и управлении стихийными бедствиями: Talent Lab выступает за
-LLM usage this run: 8 requests, 10784 tokens
-### check 3/5 at 23:26
-  dup check: new (Расследование полиции по подозрению в мошенничестве с фондом SFWF: фальсификация подписей на субсидиях на удобрения (два чека на сумму около 180 000 р)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): St-Pierre | Полицейское расследование — подозрения в мошенничестве в Small Farmers Welfare Fund
-  dup check: new (Новое событие: смерть 89-летней женщины после наезда мотоцикла в Rose-Hill; подробности о времени и месте происшествия, состоянии водителя (алкотестер)
-  proofread: 
-Posted (Defimedia): Rose-Hill: 89-летняя женщина скончалась после наезда мотоцикла
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Protocole sur les intempéries : syndicats et patronat défendent leurs priorités == Законопроект о снижении рисков и управлении стихийными бедствиями: Talent Lab выступает за
-  not news (portrait/lifestyle): [Blog] Chagos: Time to think beyond sovereignty - Turning Diego Garcia into an economic opportunity 
-Skipped foreign news (Defimedia): [Blog] Chagos: Time to think beyond sovereignty - Turning Diego Garcia into an economic opportunity 
-LLM usage this run: 8 requests, 13171 tokens
-### check 4/5 at 23:30
-  dup check: new (Участие Маврикия в салоне Heavent Paris 2026 для продвижения делового туризма и сотрудничество с тремя партнёрами; цель — укрепление связей с французс)
-  proofread: расположившуюся → разместившуюся; агент Joan Lamy → представитель Joan Lamy
-  foreign words left: Paris
-  leftovers fixed by GigaChat-3-Pro; still left: Paris
-Posted (Wazaa): Маврикий продвигает деловой туризм на выставке Heavent Paris 2026 с тремя партнёрами
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Judiciaire | Senior Counsels et Senior Attorneys — Le Recommendation Panel sursoit  à l’ex == Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
-  dup check: new (Министерство социальной интеграции сообщает о 80 000 человек в бедности на Маврикии, которые не проходят регулярные медицинские осмотры; приводятся да)
-Proofreading GigaChat-3-Pro failed: Invalid \escape: line 1 column 1177 (char 1176)
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Здоровье: почти 80 000 человек, живущих в бедности, не проходят медосмотры регулярно, сообщает Министерство социальной интеграции
-  dup check: new (В статье указано конкретное число арестованных за наркотики сотрудников: 27 полицейских и 5 пенитенциарных служащих с января 2025 года; все они отстра)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): PNQ о наркотиках: 32 сотрудника арестованы по делам о наркотиках, вопрос легализации каннабиса всё ещё изучается
-LLM usage this run: 12 requests, 18902 tokens
-### check 5/5 at 23:34
-LLM error 502: <html>
-<head><title>502 Bad Gateway</title></head>
-<body>
-<center><h1>502 Bad Gateway</h1></center>
-<hr><center>nginx</center>
-</body>
-</html>
-
-Google Translate failed: TooManyRequests
-Google Translate failed: TooManyRequests
-Proofreading GigaChat-3-Pro failed 429: {"status":429,"message":"Too Many Requests"}
-
-  proofread by qwen/qwen3.8-27b
-  proofread: Рамперсадом Суруджебалли → Rampersad Sooroojebally; Рамперсада Суруджебалли → Rampersad Sooroojebally
-Posted (Defimedia): Полиция: контракт с Rampersad Sooroojebally продлен на один год
-LLM limit reached for GigaChat-3-Ultra: {"status":429,"message":"Too Many Requests"}
-
-LLM limit reached for GigaChat-2-Max: {"status":429,"message":"Too Many Requests"}
-
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Defimedia): Погодные аномалии: новые правила по работе, зарплатам и школам
-  written by qwen/qwen3.8-27b
-  proofread by qwen/qwen3.8-27b
-Posted (Le Mauricien): National Coast Guard — Дело Dreamer: аудит для понимания пробелов в морском надзоре
-  dup check: new (A 20‑year‑old security guard was found seriously injured on 16 Nov at ~23:45 on a path near Cremation Road in Roches‑Noires, with facial and foot inju)
-Bad LLM answer from qwen/qwen3.8-27b: Invalid control character at: line 22 column 524 (char 894); raw: {"id":"chatcmpl-71976ff6-8144-42a3-ae1d-28fb1d4ae4df","object":"chat.completion","created":1794944219,"model":"qwen/qwen3.8-27b","choices":[{"index":0,"message":{"role":"assistant","content":"{\n  \"mauritius\": true,\n  \"news\": true,\n  \"names\": [\n    {\n      \"orig\": \"Roches-Noires\",\n   
-  written by openai/gpt-oss-120b
-  proofread by qwen/qwen3.8-27b
-  proofread: Рош-Нуар → Roches-Noires
-Posted (Defimedia): Roches-Noires: найден молодой охранник с тяжёлыми травмами
-LLM usage this run: 9 requests, 15927 tokens
+Skipped duplicate (Le Mauricien): COUP DE FEU À CAMP-LEVIEUX — Le sergent Taukoor confronté à la version d’Élodie Thomas == Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor оставлен под стражей после допроса в 
+LLM usage this run: 4 requests, 5460 tokens
