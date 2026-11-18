@@ -36,3 +36,14 @@ Posted (Le Mauricien): ИНТЕРВЬЮ | Сольный камбэк Anouchka M
   dup: nothing new ()
 Skipped duplicate (Defimedia): Meurtre de Selven Iyempermal : un septième suspect arrêté == Убийство Selven Iyempermal: MCIT делает ставку на анализ ДНК
 LLM usage this run: 12 requests, 16064 tokens
+### check 4/5 at 05:54
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Au Cœur de l’Info - Senior Counsel et Senior Attorney : l’exercice de nomination annulé, t == Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Réseau électrique-  Été 2026-2027:    le CEB mise sur une réduction de 90 MW aux heures de == Электроэнергия: министр энергетики Patrick Assirvaden призывает сократить потребление с 18
+  dup check: new (Проект бесплатного школьного автобуса отложен из-за экономической ситуации; премьер-министр Навин Рамгулам заявил о пересмотре сроков реализации в зав)
+  proofread: вэнов → автобусов; Navin Ramgoolam → Навин Рамгулам; Rubna Daureeawoo → Рубна Даурео
+Posted (Defimedia): Бесплатные школьные автобусы: проект отложен из-за экономической ситуации
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): НДС: собрано 1,1 млрд рупий с момента снижения порога регистрации
+LLM usage this run: 7 requests, 10145 tokens
