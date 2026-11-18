@@ -1,61 +1,14 @@
-### check 1/5 at 05:42
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Enquête policière sur une fraude présumée de Rs 180 000 via des bons d’achat pour fertilis == St-Pierre | Полицейское расследование — подозрения в мошенничестве в Small Farmers Welfare
-GigaChat balance: GigaChat-Ultra 45,467,449, GigaChat-Pro 36,220,450, GigaChat-Max 23,931,178, GigaChat 249,589,075; 336 days to go
-  dup: nothing new ()
-Skipped duplicate (Defimedia): PNQ : «Il est prématuré de se prononcer sur la légalisation ou non du cannabis», affirme R == PNQ о наркотиках: 32 сотрудника арестованы по делам о наркотиках, вопрос легализации канна
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Port-Louis Waterfront Food Festival : plus de 30 stands pour un voyage culinaire == Фестиваль еды в Port-Louis: три дня вкусов и развлечений с 20 по 22 ноября
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): COUP DE FEU À CAMP-LEVIEUX — Le sergent Taukoor confronté à la version d’Élodie Thomas == Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor оставлен под стражей после допроса в 
-LLM usage this run: 4 requests, 5460 tokens
-### check 2/5 at 05:46
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Cour suprême | Opération Sov Lapo — Mamy Ravatomanga persiste  et signe avec la Bail Revie == В Верховном суде: генпрокурор выступает против ходатайства Mamy Ravatomanga
-  dup check: new (Объявлено о новых правилах: с 30 сентября использование автомобиля с модифицированным глушителем, вызывающим увеличение шума выхлопных газов, является)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): (НЕ)БЕЗОПАСНОСТЬ НА ДОРОГАХ | Шумовые помехи — министр Osman Mahomed разъяснил указания по модифицированным глушителям
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Blog] Prix de l’essence : Symptôme d'un modèle économique en panne == Human Story — Élodie Thomas начинается новая жизнь
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Affaire Dreamer : Maurice sollicite l’aide de la France pour renforcer la surveillance mar == National Coast Guard — Дело Dreamer: аудит для понимания пробелов в морском надзоре
-LLM usage this run: 6 requests, 7843 tokens
-### check 3/5 at 05:50
-  dup check: new (Согласно последнему опросу Банка Маврикия, 84,3% экономических операторов ожидают инфляцию выше 4% к декабрю 2026 года и не видят реального снижения в)
-Posted (Defimedia): Опрос Банка Маврикия — инфляция: 84% операторов не видят спада
-  dup check: new (Упоминание о том, что цены на некоторые овощи (cotomili, thym и другие травы) уже выросли из-за засухи; предупреждение о возможном дальнейшем подорожа)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: пomme, d’amour
+### check 1/5 at 13:15
+New source Inside News: skipped backlog, posting newest only
+  proofread: «Mauritius’ Best for Securities Services» → «Лучшая по ценным бумагам на Маврикии»
+  foreign words left: Awards, Excellence, in, Best
   leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Дефицит осадков — овощи: цены стабильны, но ожидается рост
-  dup check: new ()
-  proofread: «Â Lede ZanvieÂ Â» → «Lede Zanvie»; «sÃ©ga» → «сега»; «dÃ©voileraÂ sa nouvelle identitÃ© musicale» → «раскроет свою новую музыкальную идентичность»; «Rencontre avec une voix qui rÃ©invente les traditions sans jamais les renier.» → «Встреча с голосом, который переосмысливает традиции, никогда их не п
-  foreign words left: salegy, séga
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Le Mauricien): ИНТЕРВЬЮ | Сольный камбэк Anouchka Massoudy — «Lede Zanvie: между сальки и сега, та часть африканского во мне»
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Meurtre de Selven Iyempermal : un septième suspect arrêté == Убийство Selven Iyempermal: MCIT делает ставку на анализ ДНК
-LLM usage this run: 12 requests, 16064 tokens
-### check 4/5 at 05:54
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Au Cœur de l’Info - Senior Counsel et Senior Attorney : l’exercice de nomination annulé, t == Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Réseau électrique-  Été 2026-2027:    le CEB mise sur une réduction de 90 MW aux heures de == Электроэнергия: министр энергетики Patrick Assirvaden призывает сократить потребление с 18
-  dup check: new (Проект бесплатного школьного автобуса отложен из-за экономической ситуации; премьер-министр Навин Рамгулам заявил о пересмотре сроков реализации в зав)
-  proofread: вэнов → автобусов; Navin Ramgoolam → Навин Рамгулам; Rubna Daureeawoo → Рубна Даурео
-Posted (Defimedia): Бесплатные школьные автобусы: проект отложен из-за экономической ситуации
+Posted (Defimedia): SBM Capital Markets Ltd награждена на премии AGF в четвертый раз подряд
+  dup check: new (1 537 домохозяйств прекратили получать помощь по программам борьбы с бедностью между декабрём 2024 и октябрём 2026; из них 1 290 улучшили своё социаль)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): НДС: собрано 1,1 млрд рупий с момента снижения порога регистрации
-LLM usage this run: 7 requests, 10145 tokens
-### check 5/5 at 05:58
-  dup check: new (Уровень заполнения водохранилища Mare-aux-Vacoas упал до 32,4%, а основных резервуаров страны — до 47,2%. CWA предупреждает о возможном ужесточении ог)
-  proofread: уровня воды → уровня воды; Директору Central Water Authority Shiam Thannoo → Директору Central Water Authority Шияму Танну; CWA перераспределяет подачу → CWA перераспределяет подачу; Basses Plaines-Wilhems → Бас-Плен-Вильем; Quatre-Bornes → Кватр-Борн
-Posted (Defimedia): Mare-aux-Vacoas на 32,4%: без дождей CWA может ужесточить ограничения
-  dup check: new (Арестован новый подозреваемый по делу о наркотиках в связи с октябрьскими беспорядками 2026 года; объявлено, что ещё трое будут допрошены. Премьер-мин)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Беспорядки октября 2026: задержан подозреваемый в торговле наркотиками, троих других вскоре допросят
-  dup: nothing new (Четыре молодых человека были задержаны по подозрению в нападении на охранника; среди них — 14-летняя девушка, ранее объявленная пропавшей месяц назад.)
-Skipped duplicate (Defimedia): Agression à Roches-Noires : un vigile sous respiration artificielle, quatre jeunes interpe == Roches-Noires: найден молодой охранник с тяжёлыми травмами
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Le ministre Subron sur le Poverty Index : « 80 000 personnes en situation  de pauvreté san == Здоровье: почти 80 000 человек, живущих в бедности, не проходят медосмотры регулярно, сооб
-LLM usage this run: 8 requests, 11523 tokens
+Posted (Defimedia): 1 537 домохозяйств вышли из программ помощи, из них 1 290 — благодаря улучшению социально-экономического положения
+  same headline as #16: Senior Counsel et Senior Attorney : l’exercice de nomination annulé avec effet i
+Skipped duplicate (Defimedia): Senior Counsel et Senior Attorney : l’exercice de nomination annulé, tout est à refaire ? == Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
+  same headline as #20: Gentilly, Moka : un homme de 38 ans meurt noyé dans une rivière
+Skipped duplicate (Defimedia): Pravesh Jugdeo, 38 ans, meurt noyé dans une rivière à Gentilly, Moka == Гентийи, Moka: 38-летний мужчина утонул в реке
+LLM usage this run: 6 requests, 9706 tokens
