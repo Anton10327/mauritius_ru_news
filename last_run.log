@@ -12,3 +12,16 @@ Skipped duplicate (Defimedia): Senior Counsel et Senior Attorney : l’exercice 
   same headline as #20: Gentilly, Moka : un homme de 38 ans meurt noyé dans une rivière
 Skipped duplicate (Defimedia): Pravesh Jugdeo, 38 ans, meurt noyé dans une rivière à Gentilly, Moka == Гентийи, Moka: 38-летний мужчина утонул в реке
 LLM usage this run: 6 requests, 9706 tokens
+### check 2/5 at 13:19
+  dup check: new (В статье рассказывается о футбольных матчах Women’s Super League: GRSE Wanderers и AS Quatre-Bornes лидируют с 6 очками после двух игр; ничья между La)
+Posted (Le Mauricien): ФУТБОЛ — GRSE сравнялась с Quatre-Bornes во главе таблицы, La Cure и Plaisance сыграли вничью
+  dup check: new (Финансовые результаты Harel Mallac & Co. Ltd за 9 месяцев до 30 сентября 2026 года: выручка Rs 2,5 млрд (+7% к 2025), убыток после налогов Rs 65 млн ()
+  proofread: выручка 2,5 млрд рупий → выручка в размере 2,5 млрд рупий
+  foreign words left: Systems
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Harel Mallac: выручка 2,5 млрд рупий, но убыток 65 млн рупий
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Électricité : pas de risque majeur de pénurie cet été, assure Patrick Assirvaden == Электроэнергия: министр энергетики Patrick Assirvaden призывает сократить потребление с 18
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Le gouvernement collecte un milliard cent six millions de roupies de recettes supplémentai == НДС: собрано 1,1 млрд рупий с момента снижения порога регистрации
+LLM usage this run: 9 requests, 13579 tokens
