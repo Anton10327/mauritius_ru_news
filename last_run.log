@@ -47,3 +47,15 @@ Posted (Defimedia): Бесплатные школьные автобусы: пр
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): НДС: собрано 1,1 млрд рупий с момента снижения порога регистрации
 LLM usage this run: 7 requests, 10145 tokens
+### check 5/5 at 05:58
+  dup check: new (Уровень заполнения водохранилища Mare-aux-Vacoas упал до 32,4%, а основных резервуаров страны — до 47,2%. CWA предупреждает о возможном ужесточении ог)
+  proofread: уровня воды → уровня воды; Директору Central Water Authority Shiam Thannoo → Директору Central Water Authority Шияму Танну; CWA перераспределяет подачу → CWA перераспределяет подачу; Basses Plaines-Wilhems → Бас-Плен-Вильем; Quatre-Bornes → Кватр-Борн
+Posted (Defimedia): Mare-aux-Vacoas на 32,4%: без дождей CWA может ужесточить ограничения
+  dup check: new (Арестован новый подозреваемый по делу о наркотиках в связи с октябрьскими беспорядками 2026 года; объявлено, что ещё трое будут допрошены. Премьер-мин)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Беспорядки октября 2026: задержан подозреваемый в торговле наркотиками, троих других вскоре допросят
+  dup: nothing new (Четыре молодых человека были задержаны по подозрению в нападении на охранника; среди них — 14-летняя девушка, ранее объявленная пропавшей месяц назад.)
+Skipped duplicate (Defimedia): Agression à Roches-Noires : un vigile sous respiration artificielle, quatre jeunes interpe == Roches-Noires: найден молодой охранник с тяжёлыми травмами
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Le ministre Subron sur le Poverty Index : « 80 000 personnes en situation  de pauvreté san == Здоровье: почти 80 000 человек, живущих в бедности, не проходят медосмотры регулярно, сооб
+LLM usage this run: 8 requests, 11523 tokens
