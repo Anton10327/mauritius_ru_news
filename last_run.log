@@ -48,3 +48,14 @@ Skipped foreign news (Defimedia): Xi reçoit Poutine avant un sommet inédit ave
 Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
 Posted (Defimedia): Rose-Hill: столкновение трамвая Metro Express с автомобилем на перекрёстке Malartic
 LLM usage this run: 10 requests, 17913 tokens
+### check 5/5 at 22:27
+  dup check: new (Организация Ravane Océan Indien устроила walk-out на открытии 22-го регионального коллоквиума по ВИЧ и СПИДу в знак протеста из-за отсутствия приглаше)
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Defimedia): ВИЧ/СПИД: Ravane Océan Indien покинула открытие регионального коллоквиума в знак протеста
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Les États-Unis exigent des réponses de Maurice et des Seychelles concernant le retrait des == Отказ в пролёте через воздушное пространство президенту Тайваня: США требуют объяснений от
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Trou-aux-Biches : un étudiant rwandais succombe à ses blessures après un accident de moto == ДТП в Trou-aux-Biches: двое граждан Руанды в критическом состоянии
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Campagne de sobriété énergétique : le CEB veut réduire la pression aux heures de pointe == Электроэнергия: министр энергетики Patrick Assirvaden призывает сократить потребление с 18
+LLM usage this run: 6 requests, 8316 tokens
