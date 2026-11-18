@@ -35,3 +35,16 @@ Posted (Defimedia): Юридический экзамен на Маврикии:
   not about Mauritius: NSA, Microsoft, banques, aviation : que sait-on de la série de pannes aux États-Unis ?
 Skipped foreign news (Defimedia): NSA, Microsoft, banques, aviation : que sait-on de la série de pannes aux États-Unis ?
 LLM usage this run: 8 requests, 19867 tokens
+### check 4/5 at 22:23
+  dup check: new (Cédric Jordan Fineau a été condamné à 24 ans de prison pour le meurtre de Garçon Muttowsing; il avait plaidé coupable.)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Убийство охранника Garçon Muttowsing в 2023 году: Cédric Jordan Fineau приговорён к 24 годам тюрьмы
+  dup check: new (США требуют объяснений от Маврикия и Сейшел по поводу отказа в пролёте для самолёта президента Тайваня Лая Чинг-те; Вашингтон подозревает давление Пек)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Отказ в пролёте через воздушное пространство президенту Тайваня: США требуют объяснений от Маврикия и Сейшел
+  not about Mauritius: Xi reçoit Poutine avant un sommet inédit avec Trump
+Skipped foreign news (Defimedia): Xi reçoit Poutine avant un sommet inédit avec Trump
+  dup check: new (Столкновение трамвая Metro Express и автомобиля на перекрёстке Малартик в Роуз-Хилле 18 ноября; без серьёзных последствий, движение трамваев прервано )
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Defimedia): Rose-Hill: столкновение трамвая Metro Express с автомобилем на перекрёстке Malartic
+LLM usage this run: 10 requests, 17913 tokens
