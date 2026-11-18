@@ -1,59 +1,12 @@
-### check 1/5 at 13:15
-New source Inside News: skipped backlog, posting newest only
-  proofread: «Mauritius’ Best for Securities Services» → «Лучшая по ценным бумагам на Маврикии»
-  foreign words left: Awards, Excellence, in, Best
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): SBM Capital Markets Ltd награждена на премии AGF в четвертый раз подряд
-  dup check: new (1 537 домохозяйств прекратили получать помощь по программам борьбы с бедностью между декабрём 2024 и октябрём 2026; из них 1 290 улучшили своё социаль)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): 1 537 домохозяйств вышли из программ помощи, из них 1 290 — благодаря улучшению социально-экономического положения
-  same headline as #16: Senior Counsel et Senior Attorney : l’exercice de nomination annulé avec effet i
-Skipped duplicate (Defimedia): Senior Counsel et Senior Attorney : l’exercice de nomination annulé, tout est à refaire ? == Назначения Senior Counsel и Senior Attorney аннулированы с немедленным вступлением в силу
-  same headline as #20: Gentilly, Moka : un homme de 38 ans meurt noyé dans une rivière
-Skipped duplicate (Defimedia): Pravesh Jugdeo, 38 ans, meurt noyé dans une rivière à Gentilly, Moka == Гентийи, Moka: 38-летний мужчина утонул в реке
-LLM usage this run: 6 requests, 9706 tokens
-### check 2/5 at 13:19
-  dup check: new (В статье рассказывается о футбольных матчах Women’s Super League: GRSE Wanderers и AS Quatre-Bornes лидируют с 6 очками после двух игр; ничья между La)
-Posted (Le Mauricien): ФУТБОЛ — GRSE сравнялась с Quatre-Bornes во главе таблицы, La Cure и Plaisance сыграли вничью
-  dup check: new (Финансовые результаты Harel Mallac & Co. Ltd за 9 месяцев до 30 сентября 2026 года: выручка Rs 2,5 млрд (+7% к 2025), убыток после налогов Rs 65 млн ()
-  proofread: выручка 2,5 млрд рупий → выручка в размере 2,5 млрд рупий
-  foreign words left: Systems
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Harel Mallac: выручка 2,5 млрд рупий, но убыток 65 млн рупий
+### check 1/5 at 22:11
+New source Le Mauricien: skipped backlog, posting newest only
   dup: nothing new ()
-Skipped duplicate (Defimedia): Électricité : pas de risque majeur de pénurie cet été, assure Patrick Assirvaden == Электроэнергия: министр энергетики Patrick Assirvaden призывает сократить потребление с 18
+Skipped duplicate (Defimedia): National Disaster Risk Reduction Bill : le leader de l’opposition relève des «zones d’ombr == Законопроект о снижении рисков и управлении стихийными бедствиями: Talent Lab выступает за
   dup: nothing new ()
-Skipped duplicate (Wazaa): Le gouvernement collecte un milliard cent six millions de roupies de recettes supplémentai == НДС: собрано 1,1 млрд рупий с момента снижения порога регистрации
-LLM usage this run: 9 requests, 13579 tokens
-### check 3/5 at 13:23
-  dup check: new (Премьер-министр Маврикия Навин Рамгулам заявил в парламенте 17 ноября о необходимости от Лондона дорожной карты по ратификации соглашения об архипелаг)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Chagos: Ramgoolam призывает Лондон выполнять обязательства, правительство Маврикия готово действовать при необходимости
-  proofread: edit rejected (changed numbers, names or length)
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Defimedia): COP31: Shakeel Mohamed требует «реальной климатической справедливости»
-Posted (Defimedia): Пожертвование в 6 миллионов долларов для мечетей: Maulana Shamim Khodadin требует опубликовать меморандум о взаимопонимании
+Skipped duplicate (Defimedia): Parlement : Le National Disaster Risk Reduction and Management Bill adopté sans amendement == Погодные аномалии: новые правила по работе, зарплатам и школам
   dup: nothing new ()
-Skipped duplicate (Defimedia): Troubles d’octobre : dix suspects interpellés à Pointe-aux-Sables, dont quatre mineurs == Беспорядки октября 2026: задержан подозреваемый в торговле наркотиками, троих других вскор
-LLM usage this run: 8 requests, 15515 tokens
-### check 4/5 at 13:27
-  dup check: new (Публикация нового рейтинга Mo Ibrahim 2026 с конкретными баллами для Маврикия (75 из 100) и сравнением с другими странами, а также динамика изменения )
-Posted (Le Mauricien): Африка — управление: Маврикий остаётся на 2-м месте в индексе Мо Ибрагима
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Pluies torrentielles : aucun employé ne pourra être contraint de travailler, sauf dans les == Законопроект о снижении рисков и управлении стихийными бедствиями: Talent Lab выступает за
-  proofread: 
-Posted (Defimedia): Комиссия по финансовым преступлениям выявила уязвимости в присуждении госконтрактов советом округа Moka
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « Pou ena plis restriksion si pa gagn lapli » == Mare-aux-Vacoas на 32,4%: без дождей CWA может ужесточить ограничения
-LLM usage this run: 7 requests, 12574 tokens
-### check 5/5 at 13:31
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Affaire SMS Pariaz Ltd – Scénarios inépuisables — L’avocat de Lee Shim souffrant,  le rend == Расследование по SMS Pariaz: допрос Jean-Michel Lee Shim перенесён на следующую неделю
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Élodie Thomas blessée par balle : l’IPCC recommande des poursuites pénales contre quatre p == Выстрел в Camp-Levieux: сержант Gautam Singh Taukoor оставлен под стражей после допроса в 
-  dup check: new (Организация мероприятия «We Will Fly Your Kites» в La Prairie 22 ноября с 10:30 до 16:30 для почтения памяти детей Газы; инициатива связана с акцией N)
-  proofread: Never Again Olive Resistance → Движение Never Again Olive Resistance (NAOR); La Prairie → пляж La Prairie; Rogers House, Port-Louis → Rogers House, Порт-Луи
-Posted (Defimedia): «Мы запустим ваши воздушные змеи»: акция в память о детях Газы в это воскресенье на пляже La Prairie
-  dup check: new (Назначение Belinda Wong-Vacher президентом SBM Holdings с 17 ноября после ухода Mahendra Vikramdass Punchoo; официальное подтверждение её роли как вре)
-Posted (Defimedia): SBM Holdings переворачивает страницу Punchoo: Belinda Wong-Vacher берет бразды правления в совете директоров
-LLM usage this run: 8 requests, 12194 tokens
+Skipped duplicate (Wazaa): Houles de 2,5 m qui frappent la côte: les prévisionnistes déconseillent les sorties en hau == Погода: выходы в открытое море не рекомендуются
+  dup check: new (В статье сообщается о массовых сбоях в сервисах Apple (App Store, iCloud и др.) во вторник после полудня по восточному времени США, с указанием на рос)
+  not about Mauritius: Apple : des perturbations touchent plusieurs services, dont l’App Store et iCloud
+Skipped foreign news (Defimedia): Apple : des perturbations touchent plusieurs services, dont l’App Store et iCloud
+LLM usage this run: 5 requests, 7408 tokens
