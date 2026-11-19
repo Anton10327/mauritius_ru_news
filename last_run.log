@@ -9,3 +9,15 @@ Skipped duplicate (Defimedia): Africa Tech Festival Award 2026 : Mauritius Telec
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Несостоятельные застройщики: вложены миллионы, стройки брошены
 LLM usage this run: 5 requests, 6779 tokens
+### check 2/5 at 03:38
+  not about Mauritius: Rohingyas : la plus haute juridiction de l’ONU déclare le Myanmar coupable d’«intention génocidaire»
+Skipped foreign news (Defimedia): Rohingyas : la plus haute juridiction de l’ONU déclare le Myanmar coupable d’«intention génocidaire»
+Bad LLM answer from GigaChat-3-Ultra: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"Как и любая языковая модель, GigaChat не обладает собственным мнением и не транслирует мнение своих разработчиков. Ответ сгенерирован нейросетевой моделью, обученной на открытых данных, в которых может содержаться неточная или ошибочная информация. Во избежание неп
+  written by GigaChat-2-Max
+  not about Mauritius: Trump dit "écrire l'Histoire" avec Xi et Poutine lors d'un sommet inédit
+Skipped foreign news (Defimedia): Trump dit "écrire l'Histoire" avec Xi et Poutine lors d'un sommet inédit
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Île Maurice prévoit une refonte majeure de la loi sur la concurrence de 2007 pour faire fa == Competition Commission: к усилению правового регулирования в ответ на новые экономические 
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Délit de fuite présumé à Poudre-d’Or : les proches de Jean-Marc Pothiah réclament des expl == Смертельный наезд с бегством водителя в Пудр-д’Ор: 47-летний пешеход скончался от травм
+LLM usage this run: 5 requests, 10359 tokens
