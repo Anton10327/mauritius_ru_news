@@ -45,3 +45,16 @@ Posted (Le Mauricien): ТЕННИС — Победитель над №1 Мав�
   leftovers fixed by GigaChat-3-Pro; still left: in
 Posted (Defimedia): Благополучие в школе: восемь маврикийских колледжей начнут практиковать медитацию
 LLM usage this run: 9 requests, 13860 tokens
+### check 5/5 at 12:10
+  dup check: new (Иран объявил о нанесении ударов по американским объектам в Кувейте после атаки США на остров Кешм; это первая атака Тегерана против союзника Вашингтон)
+  not about Mauritius: L’Iran dit avoir visé des installations américaines au Koweït après une frappe sur l’île de Qeshm
+Skipped foreign news (Defimedia): L’Iran dit avoir visé des installations américaines au Koweït après une frappe sur l’île de Qeshm
+  dup: nothing new (Заявление Дональда Трампа о том, что США не нуждаются в помощи Китая или России для завершения войны с Ираном и утверждение об ослаблении военных возм)
+Skipped duplicate (Defimedia): Iran : Trump affirme pouvoir mettre fin à la guerre sans l’aide de Pékin ni de Moscou == В порту: изъято три килограмма каннабиса в почтовом отправлении, задержаны двое подозревае
+  dup check: new (В статье описаны новые военные события: израильская операция в центре Газы после прекращения огня 2025 года; иранские заявления о подрыве танкеров мин)
+  not about Mauritius: Gaza, détroit d’Ormuz, Iran, Arabie saoudite : le point sur les derniers développements
+Skipped foreign news (Defimedia): Gaza, détroit d’Ormuz, Iran, Arabie saoudite : le point sur les derniers développements
+  dup check: new (Статья представляет рейтинг брендов товаров повседневного спроса (Top of Mind 2026) по мнению маврикийцев в 11 категориях — от йогуртов до замороженно)
+  not news (portrait/lifestyle): Consommation : ces marques qui règnent dans l’esprit des Mauriciens
+Skipped foreign news (Defimedia): Consommation : ces marques qui règnent dans l’esprit des Mauriciens
+LLM usage this run: 7 requests, 11904 tokens
