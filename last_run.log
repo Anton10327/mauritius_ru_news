@@ -48,3 +48,15 @@ Skipped foreign news (Defimedia): « Bombe sale » : l’Iran rejette un reporta
   leftovers fixed by GigaChat-3-Pro; still left: Mauritius, New
 Posted (Defimedia): Эксперты-бухгалтеры: ACCA принимает 286 новых членов на Маврикии, увеличив численность почти до 4800
 LLM usage this run: 9 requests, 14401 tokens
+### check 5/5 at 04:46
+  dup: nothing new (Визит адмирала Брэда Купера в Израиль для встречи с израильскими военными на фоне опасений возобновления конфликта между США и Ираном.)
+Skipped duplicate (Defimedia): Tensions au Moyen-Orient : Le chef du commandement central américain en visite en Israël,  == Индекс SEMDEX снизился на 1,27% при росте объёма торгов на 27,2%
+  dup check: new ()
+  foreign words left: Act
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): В TikTok: он обнаружил объявление о продаже фотографий своей 5-летней дочери
+  dup: nothing new (Статья рассказывает о процедуре обращения в Office of the Ombudsman на Маврикии при проблемах с администрацией и не содержит новых событий или решений)
+Skipped duplicate (Inside News): Administration qui ne répond pas : comment saisir gratuitement l’Ombudsman à Maurice == Индекс SEMDEX снизился на 1,27% при росте объёма торгов на 27,2%
+  not about Mauritius: Xi appelle à "renforcer la coopération" internationale sur l'IA
+Skipped foreign news (Defimedia): Xi appelle à "renforcer la coopération" internationale sur l'IA
+LLM usage this run: 7 requests, 9900 tokens
