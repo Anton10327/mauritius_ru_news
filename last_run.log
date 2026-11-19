@@ -1,61 +1,13 @@
-### check 1/5 at 22:11
-New source Le Mauricien: skipped backlog, posting newest only
-  dup: nothing new ()
-Skipped duplicate (Defimedia): National Disaster Risk Reduction Bill : le leader de l’opposition relève des «zones d’ombr == Законопроект о снижении рисков и управлении стихийными бедствиями: Talent Lab выступает за
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Parlement : Le National Disaster Risk Reduction and Management Bill adopté sans amendement == Погодные аномалии: новые правила по работе, зарплатам и школам
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Houles de 2,5 m qui frappent la côte: les prévisionnistes déconseillent les sorties en hau == Погода: выходы в открытое море не рекомендуются
-  dup check: new (В статье сообщается о массовых сбоях в сервисах Apple (App Store, iCloud и др.) во вторник после полудня по восточному времени США, с указанием на рос)
-  not about Mauritius: Apple : des perturbations touchent plusieurs services, dont l’App Store et iCloud
-Skipped foreign news (Defimedia): Apple : des perturbations touchent plusieurs services, dont l’App Store et iCloud
-LLM usage this run: 5 requests, 7408 tokens
-### check 2/5 at 22:15
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Appel au public à réduire sa consommation d’électricité entre 18h et 21h cet été == Электроэнергия: министр энергетики Patrick Assirvaden призывает сократить потребление с 18
-  dup check: new (В статье приведены свежие статистические данные о количестве госпитализаций и смертей от передозировки наркотиков (3 человека в день, смерть почти каж)
+### check 1/5 at 04:30
+GigaChat balance: GigaChat-Ultra 45,374,432, GigaChat-Pro 36,132,596, GigaChat-Max 23,928,327, GigaChat 249,589,075; 335 days to go
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Передозировка: на Маврикии всё ещё необходимо выстроить цепочку спасения
-  dup check: new (Австралия ввела санкции против трёх израильских граждан и четырёх организаций за участие в незаконном расширении поселений и насилии со стороны поселе)
-  not about Mauritius: Cisjordanie : l’Australie sanctionne des colons israéliens et des organisations
-Skipped foreign news (Defimedia): Cisjordanie : l’Australie sanctionne des colons israéliens et des organisations
-Posted (Defimedia): Погода: до 33 градусов Цельсия на побережье в эту среду
-LLM usage this run: 8 requests, 14558 tokens
-### check 3/5 at 22:19
-  dup check: new (David Beckham через свою компанию DB Ventures подал иск против Coty на сумму около 41 млн долларов (примерно 1,95 млрд рупий) за продажу его парфюмери)
-  not about Mauritius: Ses parfums vendus à bas prix : David Beckham réclame près de Rs 2 milliards
-Skipped foreign news (Defimedia): Ses parfums vendus à bas prix : David Beckham réclame près de Rs 2 milliards
-  not about Mauritius: Golfe : le point sur la situation - Le Koweït signale des attaques de drones, l’Iran et les États-Un
-Skipped foreign news (Defimedia): Golfe : le point sur la situation - Le Koweït signale des attaques de drones, l’Iran et les États-Un
-  dup check: new (Опубликованы официальные результаты экзаменов CVLE за сентябрь-октябрь 2026 года: всего 45 кандидатов из 257 сдали экзамены (17,5%); по профессиям — 2)
-Bad LLM answer from GigaChat-3-Ultra: Expecting ',' delimiter: line 1 column 2911 (char 2910); raw: {"choices":[{"message":{"content":"{\"mauritius\": true, \"news\": true, \"names\": [{\"orig\": \"Council for Vocational Legal Education\", \"type\": \"org\", \"ru\": \"\"}, {\"orig\": \"Kenny Appasamy\", \"type\": \"person\", \"ru\": \"\"}, {\"orig\": \"Tejasvini Devi Bhugowon\", \"type\": \"person
-  written by GigaChat-2-Max
-  proofread: Council for Vocational Legal Education → Совет профессионального юридического образования
-Posted (Defimedia): Юридический экзамен на Маврикии: 45 кандидатов успешно прошли испытания
-  not about Mauritius: NSA, Microsoft, banques, aviation : que sait-on de la série de pannes aux États-Unis ?
-Skipped foreign news (Defimedia): NSA, Microsoft, banques, aviation : que sait-on de la série de pannes aux États-Unis ?
-LLM usage this run: 8 requests, 19867 tokens
-### check 4/5 at 22:23
-  dup check: new (Cédric Jordan Fineau a été condamné à 24 ans de prison pour le meurtre de Garçon Muttowsing; il avait plaidé coupable.)
+Posted (Defimedia): Dhaneshwar Damry: «Цель этого правительства — защищать потребителей»
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Fonctionnaires suspendus : Ramgoolam promet de durcir la loi == PNQ о наркотиках: 32 сотрудника арестованы по делам о наркотиках, вопрос легализации канна
+  dup check: new (Речь идёт о предложении реформировать Competition Act 2007: ввести финансовые санкции за злоупотребление доминирующим положением на рынке. В текущем з)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Убийство охранника Garçon Muttowsing в 2023 году: Cédric Jordan Fineau приговорён к 24 годам тюрьмы
-  dup check: new (США требуют объяснений от Маврикия и Сейшел по поводу отказа в пролёте для самолёта президента Тайваня Лая Чинг-те; Вашингтон подозревает давление Пек)
+Posted (Defimedia): Реформа закона о конкуренции — злоупотребление доминирующим положением: скоро появятся финансовые санкции
+  dup check: new (Арест седьмого подозреваемого Anas Rummun по делу об убийстве Selven Iyempermal; уточняется, что следствие пытается установить роль каждого участника )
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Отказ в пролёте через воздушное пространство президенту Тайваня: США требуют объяснений от Маврикия и Сейшел
-  not about Mauritius: Xi reçoit Poutine avant un sommet inédit avec Trump
-Skipped foreign news (Defimedia): Xi reçoit Poutine avant un sommet inédit avec Trump
-  dup check: new (Столкновение трамвая Metro Express и автомобиля на перекрёстке Малартик в Роуз-Хилле 18 ноября; без серьёзных последствий, движение трамваев прервано )
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Defimedia): Rose-Hill: столкновение трамвая Metro Express с автомобилем на перекрёстке Malartic
-LLM usage this run: 10 requests, 17913 tokens
-### check 5/5 at 22:27
-  dup check: new (Организация Ravane Océan Indien устроила walk-out на открытии 22-го регионального коллоквиума по ВИЧ и СПИДу в знак протеста из-за отсутствия приглаше)
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Defimedia): ВИЧ/СПИД: Ravane Océan Indien покинула открытие регионального коллоквиума в знак протеста
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Les États-Unis exigent des réponses de Maurice et des Seychelles concernant le retrait des == Отказ в пролёте через воздушное пространство президенту Тайваня: США требуют объяснений от
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Trou-aux-Biches : un étudiant rwandais succombe à ses blessures après un accident de moto == ДТП в Trou-aux-Biches: двое граждан Руанды в критическом состоянии
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Campagne de sobriété énergétique : le CEB veut réduire la pression aux heures de pointe == Электроэнергия: министр энергетики Patrick Assirvaden призывает сократить потребление с 18
-LLM usage this run: 6 requests, 8316 tokens
+Posted (Defimedia): Убийство Selven Iyempermal: Anas Rummun — седьмой подозреваемый, задержанный MCIT
+LLM usage this run: 9 requests, 15595 tokens
