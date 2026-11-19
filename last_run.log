@@ -34,3 +34,14 @@ Skipped duplicate (Defimedia): Air Mauritius : des places réservées sur d’au
   dup: nothing new ()
 Skipped duplicate (Wazaa): Des manifestants quittent le 22e Sommet VIH de l’océan Indien en raison de la crise d’excl == ВИЧ/СПИД: Ravane Océan Indien покинула открытие регионального коллоквиума в знак протеста
 LLM usage this run: 8 requests, 10852 tokens
+### check 4/5 at 03:46
+  dup check: new (Присутствие трёх американских экспертов на Маврикии для оценки системы дренажа и разработки нового плана; заявление министра о необходимости пересмотр)
+  proofread: Ajay Gunness → министр инфраструктуры Ajay Gunness; Port-Louis → Порт-Луи
+Posted (Defimedia): «Дренаж земель»: три американских эксперта на Маврикии для разработки новой дорожной карты
+  not about Mauritius: Trump, Poutine, Xi adoptent une "déclaration de paix" après leur sommet inédit
+Skipped foreign news (Defimedia): Trump, Poutine, Xi adoptent une "déclaration de paix" après leur sommet inédit
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Distribution alimentaire : la Competition Commission propose un code de conduite pour des  == Competition Commission: к усилению правового регулирования в ответ на новые экономические 
+  dup: nothing new (Статья сообщает о предстоящих выборах в 130 сельских советах Маврикия и рассматривает их как первый политический тест для Альянса перемен после ухода )
+Skipped duplicate (Defimedia): « Au Cœur de l’Info » :- Villageoises : Premier test politique pour l'Alliance du Changeme == (НЕ)БЕЗОПАСНОСТЬ НА ДОРОГАХ | Шумовые помехи — министр Osman Mahomed разъяснил указания по
+LLM usage this run: 6 requests, 8501 tokens
