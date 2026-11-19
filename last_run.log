@@ -45,3 +45,17 @@ Skipped duplicate (Defimedia): Distribution alimentaire : la Competition Commiss
   dup: nothing new (Статья сообщает о предстоящих выборах в 130 сельских советах Маврикия и рассматривает их как первый политический тест для Альянса перемен после ухода )
 Skipped duplicate (Defimedia): « Au Cœur de l’Info » :- Villageoises : Premier test politique pour l'Alliance du Changeme == (НЕ)БЕЗОПАСНОСТЬ НА ДОРОГАХ | Шумовые помехи — министр Osman Mahomed разъяснил указания по
 LLM usage this run: 6 requests, 8501 tokens
+### check 5/5 at 03:50
+  dup check: new (В статье упоминается новое обращение адвоката Me Rama Valayden к DPP с просьбой ускорить рассмотрение дела Élodie Thomas и указано завершение расследо)
+  proofread: устранимости → устрашения
+Posted (Defimedia): Выстрел в Camp-Levieux: адвокат Rama Valayden требует скорейшего суда
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Info Soirée] : « INN MET DIFE PAR MESANSTE » == Air Mauritius: рейс MK744 перенаправлен в Мумбаи
+  not about Mauritius: Génocide des Rohingyas : cinq points clés de la décision historique de la CIJ
+Skipped foreign news (Defimedia): Génocide des Rohingyas : cinq points clés de la décision historique de la CIJ
+  dup check: new (Corsair célèbre ses 20 ans de présence à Maurice avec une soirée le 19 novembre au Château de Labourdonnais; la compagnie a inauguré sa liaison Paris-)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Marseille, Toulouse
+  leftovers fixed by GigaChat-3-Pro; still left: Marseille, Toulouse
+Posted (Defimedia): Corsair отмечает 20 лет присутствия на Маврикии
+LLM usage this run: 9 requests, 14124 tokens
