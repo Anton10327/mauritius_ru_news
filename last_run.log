@@ -33,3 +33,18 @@ Posted (Defimedia): Cassava Technologies и Mauritius Telecom подписали
   not news (portrait/lifestyle): Au Cœur de l’Info – Infrastructures nationales : projets et bilan de l’action gouvernementale
 Skipped foreign news (Defimedia): Au Cœur de l’Info – Infrastructures nationales : projets et bilan de l’action gouvernementale
 LLM usage this run: 7 requests, 13506 tokens
+### check 4/5 at 04:42
+  dup check: new (В статье говорится о публикации министерством окружающей среды 16 ноября 2026 года мнения по двум проектам на побережье Вьё-Гран-Мор и выдаче лицензии)
+  not news (portrait/lifestyle): Vieux-Grand-Port et Beau-Champ : quelles conditions pour les projets environnementaux ?
+Skipped foreign news (Inside News): Vieux-Grand-Port et Beau-Champ : quelles conditions pour les projets environnementaux ?
+  dup: nothing new (Упоминание iPhone 18 Pro Max, изъятого у одного из подозреваемых, и акцент на анализе его содержимого для выявления возможных сообщников за границей. )
+Skipped duplicate (Defimedia): Trafic de drogue depuis l’Angleterre : importation de Rs 5 M de cannabis : un iPhone intér == В порту: изъято три килограмма каннабиса в почтовом отправлении, задержаны двое подозревае
+  dup check: new (Иран отвергает обвинения CNN о подготовке атаки с использованием "грязной бомбы" и заявления о барьерах; министр иностранных дел Ирана называет это пр)
+  not about Mauritius: « Bombe sale » : l’Iran rejette un reportage de CNN, dénonçant une « propagande comme lors de la gue
+Skipped foreign news (Defimedia): « Bombe sale » : l’Iran rejette un reportage de CNN, dénonçant une « propagande comme lors de la gue
+  dup check: new (286 новых членов ACCA на Маврикии за год; общее число членов ACCA достигло почти 4 800 (около 80% всех бухгалтеров страны); церемония награждения с уч)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Mauritius, New
+  leftovers fixed by GigaChat-3-Pro; still left: Mauritius, New
+Posted (Defimedia): Эксперты-бухгалтеры: ACCA принимает 286 новых членов на Маврикии, увеличив численность почти до 4800
+LLM usage this run: 9 requests, 14401 tokens
