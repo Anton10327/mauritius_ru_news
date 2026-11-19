@@ -30,3 +30,18 @@ Posted (Defimedia): Программа NICE: молодые люди знако�
   not news (portrait/lifestyle): Au Cœur de l’Info – Infrastructures nationales : projets et bilan de l’action gouvernementale.
 Skipped foreign news (Defimedia): Au Cœur de l’Info – Infrastructures nationales : projets et bilan de l’action gouvernementale.
 LLM usage this run: 7 requests, 12323 tokens
+### check 4/5 at 12:06
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Info Soirée] : « BIZIN PENA ABUS LOR TRAVAYER » == Тройная оплата для персонала частных экстренных служб по закону 2026 года о неблагоприятны
+  dup: nothing new ()
+Skipped duplicate (Wazaa): 11 projets solaires en quête d’approbation réglementaire pour dynamiser le réseau électriq == Utility Regulatory Authority: одиннадцать проектов ВИЭ ожидают одобрения
+Proofreading GigaChat-3-Pro failed: Unterminated string starting at: line 1 column 1257 (char 1256)
+  proofread by qwen/qwen3.8-27b
+  proofread: Александр Тевне → Alexandre Thévenet; Даниэлю Базу → Daniel Bazu; Базу → Daniel Bazu
+Posted (Le Mauricien): ТЕННИС — Победитель над №1 Маврикия на MG Open 2026 Alexandre Thévenet: «Я сказал Daniel Bazu, что обыграю его в этом году»
+  dup check: new (В статье говорится о запуске программы Meditation in Schools в восьми колледжах Маврикия для обучения медитации и управления эмоциями. Это новая иници)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: in
+  leftovers fixed by GigaChat-3-Pro; still left: in
+Posted (Defimedia): Благополучие в школе: восемь маврикийских колледжей начнут практиковать медитацию
+LLM usage this run: 9 requests, 13860 tokens
