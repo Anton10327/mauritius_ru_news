@@ -1,65 +1,11 @@
-### check 1/5 at 21:08
-New source Le Mauricien: skipped backlog, posting newest only
-New source Inside News: skipped backlog, posting newest only
-  dup check: new (Рейс MK744 авиакомпании Air Mauritius, следовавший из Маврикия в Нью-Дели, был перенаправлен в Мумбаи по техническим причинам. Это новое событие, не с)
-Posted (Defimedia): Air Mauritius: рейс MK744 перенаправлен в Мумбаи
+### check 1/5 at 03:34
   dup: nothing new ()
-Skipped duplicate (Defimedia): Nigel Farage : «Maurice n’a jamais possédé les Chagos et ne devrait jamais les posséder» == Chagos: Ramgoolam призывает Лондон выполнять обязательства, правительство Маврикия готово 
-  not about Mauritius: Xi, Trump et Poutine réunis pour un sommet inédit aux résultats incertains
-Skipped foreign news (Defimedia): Xi, Trump et Poutine réunis pour un sommet inédit aux résultats incertains
-  dup check: new (В статье описывается новый случай: палестинская семья после сноса дома израильской армией вынуждена жить в пещере, пострадавшие от наводнения из-за ра)
-  not about Mauritius: Des Palestiniens se réfugient dans des grottes après la démolition de leurs maisons par Israël
-Skipped foreign news (Defimedia): Des Palestiniens se réfugient dans des grottes après la démolition de leurs maisons par Israël
-LLM usage this run: 7 requests, 12712 tokens
-### check 2/5 at 21:12
+Skipped duplicate (Defimedia): Importations : le fret et les tensions mondiales alourdissent la facture == Рост импорта продовольствия: цена зависимости на наших тарелках
+GigaChat balance: GigaChat-Ultra 45,263,472, GigaChat-Pro 36,044,037, GigaChat-Max 23,928,327, GigaChat 249,589,075; 334 days to go
   dup: nothing new ()
-Skipped duplicate (Wazaa): Vol Air Mauritius 744 détourné vers Mumbai après une panne technique précoce suspectée == Air Mauritius: рейс MK744 перенаправлен в Мумбаи
-  dup check: new (Демаскирована и ликвидирована новая сеть наркотрафика между Маврикием и Родригесом: изъято 2,2 кг каннабиса на сумму Rs 3,5 млн и 12 800 листов бумаги)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Rodrigues, ADsu
-  leftovers fixed by GigaChat-3-Pro; still left: ADsu
-Posted (Defimedia): Ось Маврикий—Родригес: каннабис на 3,5 млн рупий спрятали в двух динамиках
-  dup check: new (Расходы Маврикия на нефть выросли с Rs 53,12 млрд до Rs 78,39 млрд за девять месяцев (рост на Rs 25,27 млрд), что составляет увеличение на 47,6% по ср)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Маврикий выплатил 78,39 млрд рупий за девять месяцев
-  dup check: new (Жан-Мишель Ли Шим подал жалобу в полицию Line-Barracks, обвиняя генерального прокурора Гэвина Гловера, Кулванта Кумара Убхеара и директора FCC Титрудо)
-Posted (Defimedia): Пост полиции Line-Barracks: Jean-Michel Lee Shim подал жалобу о заговоре
-LLM usage this run: 11 requests, 18240 tokens
-### check 3/5 at 21:16
-  dup check: new (Новые задержанные (Philippe Eloic Genave и Francesca Chevery), новый способ контрабанды (в каблуках обуви), другой вес изъятого каннабиса (1 кг) и дру)
-Posted (Defimedia): Ганджа в танкетках на платформе: двух путешественников арестовали
-  dup check: new (GRA утвердила поправку к календарю конца сезона скачек 2026 года: теперь сезон завершится тремя неделями соревнований (28 ноября, 5 и 13 декабря) из-з)
-Posted (Defimedia): Скачки: три последних дня соревнований назначены на 28 ноября, 5 и 13 декабря
-  dup check: new (В новой статье сообщается о смерти 64-летнего пенсионера из Poste-de-Flacq, тело которого было найдено в море у Providence-sur-Mer. Указано, что пенси)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Poste-de-Flacq: тело 64-летнего пенсионера найдено в море
+Skipped duplicate (Wazaa): Jean-Michel Lee Shim accuse les hauts responsables d’une conspiration autour des courses h == Пост полиции Line-Barracks: Jean-Michel Lee Shim подал жалобу о заговоре
   dup: nothing new ()
-Skipped duplicate (Defimedia): Vol MK744 dérouté vers Mumbai : 80 chambres d’hôtel réservées pour les passagers == Air Mauritius: рейс MK744 перенаправлен в Мумбаи
-LLM usage this run: 10 requests, 13251 tokens
-### check 4/5 at 21:20
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Colloque au Trianon Convention Centre : la stigmatisation reste un frein à la lutte contre == ВИЧ/СПИД: Ravane Océan Indien покинула открытие регионального коллоквиума в знак протеста
-  dup check: new (В статье упоминается выступление Vipin Naugah из Competition Commission о необходимости адаптации правового регулирования конкуренции на Маврикии в св)
+Skipped duplicate (Defimedia): Africa Tech Festival Award 2026 : Mauritius Telecom remporte le Telecom Innovation Award == Cassava Technologies и Mauritius Telecom подписали протокол о намерениях по услугам ИИ и о
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Competition, Act, Minister
-  leftovers fixed by GigaChat-3-Pro; still left: Competition, Act, Minister
-Posted (Defimedia): Competition Commission: к усилению правового регулирования в ответ на новые экономические вызовы
-  dup: nothing new ()
-Skipped duplicate (Defimedia): John Davies : «Il est temps d’introduire des pénalités financières pour les abus de positi == Реформа закона о конкуренции — злоупотребление доминирующим положением: скоро появятся фин
-  dup check: new (В статье говорится о предстоящем роспуске 130 советов деревень и новых выборах до апреля — это первое крупное политическое событие после ухода Пола Бе)
-  not news (portrait/lifestyle): Villageoises : premier test politique pour l'Alliance du Changement ?
-Skipped foreign news (Defimedia): Villageoises : premier test politique pour l'Alliance du Changement ?
-LLM usage this run: 8 requests, 10143 tokens
-### check 5/5 at 21:24
-Posted (Defimedia): Рост импорта продовольствия: цена зависимости на наших тарелках
-  dup check: new (Организация университетского воркшопа Blue Carbon Horizon Initiative на Маврикии с участием Earth & Ocean Lab и Four Seasons Resort Mauritius для студ)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Воркшоп Blue Carbon Horizon Initiative: наука Университета Маскаренских островов на службе лагун Маврикия
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Mauritius Post : recrutement, promotions, allocations… des postiers haussent le ton == Акция у Mauritius Post: два профсоюза дистанцировались от движения
-  dup check: new (Пешеход 47 лет погиб в результате ДТП с предполагаемым бегством водителя на дороге Royale в Poudre-d’Or Village; время и место происшествия, детали ав)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Poudre-d’Or, Royal, Road
-  leftovers fixed by GigaChat-3-Pro; still left: Royal, Road
-Posted (Defimedia): Смертельный наезд с бегством водителя в Пудр-д’Ор: 47-летний пешеход скончался от травм
-LLM usage this run: 10 requests, 13960 tokens
+Posted (Defimedia): Несостоятельные застройщики: вложены миллионы, стройки брошены
+LLM usage this run: 5 requests, 6779 tokens
