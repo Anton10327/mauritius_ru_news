@@ -21,3 +21,16 @@ Skipped duplicate (Wazaa): Île Maurice prévoit une refonte majeure de la loi s
   dup: nothing new ()
 Skipped duplicate (Defimedia): Délit de fuite présumé à Poudre-d’Or : les proches de Jean-Marc Pothiah réclament des expl == Смертельный наезд с бегством водителя в Пудр-д’Ор: 47-летний пешеход скончался от травм
 LLM usage this run: 5 requests, 10359 tokens
+### check 3/5 at 03:42
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: QR-коду, AfricaNenda
+  leftovers fixed by GigaChat-3-Pro; still left: QR-коду
+Posted (Defimedia): Банк Маврикия хочет развивать трансграничные платежи через MauCAS
+  dup check: new (Mamy Ravatomanga a déposé une plainte devant le Central CID et remis un affidavit concernant ses relevés bancaires; il estime ne pas avoir eu d’enquêt)
+  proofread: Mamy Ravатоманга → Mamy Ravatomanga; Central CID → Central CID; Комиссия по финансовым преступлениям (FCC) → Комиссия по финансовым преступлениям (FCC); Суд по вопросам залога и предварительного заключения → Суд по вопросам залога и предварительного заключения
+Posted (Defimedia): Дело Mamy Ravatomanga: малагасийский бизнесмен требует расследования от Central CID
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Air Mauritius : des places réservées sur d’autres vols vers Delhi pour les passagers conce == Air Mauritius: рейс MK744 перенаправлен в Мумбаи
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Des manifestants quittent le 22e Sommet VIH de l’océan Indien en raison de la crise d’excl == ВИЧ/СПИД: Ravane Océan Indien покинула открытие регионального коллоквиума в знак протеста
+LLM usage this run: 8 requests, 10852 tokens
