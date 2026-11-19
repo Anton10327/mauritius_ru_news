@@ -25,3 +25,14 @@ Posted (Defimedia): Маврикий выплатил 78,39 млрд рупий 
   dup check: new (Жан-Мишель Ли Шим подал жалобу в полицию Line-Barracks, обвиняя генерального прокурора Гэвина Гловера, Кулванта Кумара Убхеара и директора FCC Титрудо)
 Posted (Defimedia): Пост полиции Line-Barracks: Jean-Michel Lee Shim подал жалобу о заговоре
 LLM usage this run: 11 requests, 18240 tokens
+### check 3/5 at 21:16
+  dup check: new (Новые задержанные (Philippe Eloic Genave и Francesca Chevery), новый способ контрабанды (в каблуках обуви), другой вес изъятого каннабиса (1 кг) и дру)
+Posted (Defimedia): Ганджа в танкетках на платформе: двух путешественников арестовали
+  dup check: new (GRA утвердила поправку к календарю конца сезона скачек 2026 года: теперь сезон завершится тремя неделями соревнований (28 ноября, 5 и 13 декабря) из-з)
+Posted (Defimedia): Скачки: три последних дня соревнований назначены на 28 ноября, 5 и 13 декабря
+  dup check: new (В новой статье сообщается о смерти 64-летнего пенсионера из Poste-de-Flacq, тело которого было найдено в море у Providence-sur-Mer. Указано, что пенси)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Poste-de-Flacq: тело 64-летнего пенсионера найдено в море
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Vol MK744 dérouté vers Mumbai : 80 chambres d’hôtel réservées pour les passagers == Air Mauritius: рейс MK744 перенаправлен в Мумбаи
+LLM usage this run: 10 requests, 13251 tokens
