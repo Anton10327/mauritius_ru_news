@@ -1,62 +1,12 @@
-### check 1/5 at 04:30
-GigaChat balance: GigaChat-Ultra 45,374,432, GigaChat-Pro 36,132,596, GigaChat-Max 23,928,327, GigaChat 249,589,075; 335 days to go
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Dhaneshwar Damry: «Цель этого правительства — защищать потребителей»
+### check 1/5 at 11:54
+  dup check: new (В статье сообщается о приговоре восьми обвиняемым за ношение оружия и нарушение комендантского часа: Berty Axel Hansley Boncoeur и Girish Jowaheer пол)
+  proofread: Гириш Джовахер → Гириш Джовахир
+Posted (Defimedia): Нарушение комендантского часа и хранение оружия: от трёх до шести месяцев тюрьмы для восьми обвиняемых
   dup: nothing new ()
-Skipped duplicate (Defimedia): Fonctionnaires suspendus : Ramgoolam promet de durcir la loi == PNQ о наркотиках: 32 сотрудника арестованы по делам о наркотиках, вопрос легализации канна
-  dup check: new (Речь идёт о предложении реформировать Competition Act 2007: ввести финансовые санкции за злоупотребление доминирующим положением на рынке. В текущем з)
+Skipped duplicate (Wazaa): SBM Capital Markets remporte sa 4e victoire consécutive lors des AGF Awards == SBM Capital Markets Ltd награждена на премии AGF в четвертый раз подряд
+  dup check: new (Alfaaz Boodhoo освобожден под залог по делу об убийстве Avinash Kurreemun; указаны суммы залога и условия освобождения.)
+Posted (Defimedia): Убийство Avinash Kurreemun: Alfaaz Boodhoo освобождён под залог вопреки возражению полиции
+  dup check: new (Новое событие: смерть 69-летнего пешехода после наезда мотоцикла в Union Park; возраст и личность жертвы отличаются от ранее опубликованного случая (8)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Реформа закона о конкуренции — злоупотребление доминирующим положением: скоро появятся финансовые санкции
-  dup check: new (Арест седьмого подозреваемого Anas Rummun по делу об убийстве Selven Iyempermal; уточняется, что следствие пытается установить роль каждого участника )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Убийство Selven Iyempermal: Anas Rummun — седьмой подозреваемый, задержанный MCIT
-LLM usage this run: 9 requests, 15595 tokens
-### check 2/5 at 04:34
-  dup check: new (В статье впервые приводятся детали технического состояния и истории ремонтов двух водонапорных башен Mare-aux-Vacoas: результаты инспекции 2024 года ()
-  proofread: назначили → назначены
-Posted (Defimedia): Mare-aux-Vacoas: две водозаборные башни скоро будут отремонтированы
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Vétéran de la finance avec 20 ans d’expérience prend la direction permanente de SBM Holdin == SBM Holdings переворачивает страницу Punchoo: Belinda Wong-Vacher берет бразды правления в
-  proofread: Patrick Assirvaden → Патрик Ассирвадэн
-Posted (Defimedia): Utility Regulatory Authority: одиннадцать проектов ВИЭ ожидают одобрения
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): С 2027 года гражданственность будут преподавать через общественно-полезный труд во всех колледжах Маврикия и Rodrigues
-LLM usage this run: 8 requests, 13976 tokens
-### check 3/5 at 04:38
-  not about Mauritius: Le président chinois accueille Trump à son arrivée à l'aéroport à Shenzhen
-Skipped foreign news (Defimedia): Le président chinois accueille Trump à son arrivée à l'aéroport à Shenzhen
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Wazaa): Тройная оплата для персонала частных экстренных служб по закону 2026 года о неблагоприятных погодных явлениях
-  dup check: new (Cassava Technologies и Mauritius Telecom подписали соглашение о сотрудничестве в области ИИ и образования в Африке; планируется внедрение образователь)
-  proofread: 
-Posted (Defimedia): Cassava Technologies и Mauritius Telecom подписали протокол о намерениях по услугам ИИ и образованию в Африке
-  not news (portrait/lifestyle): Au Cœur de l’Info – Infrastructures nationales : projets et bilan de l’action gouvernementale
-Skipped foreign news (Defimedia): Au Cœur de l’Info – Infrastructures nationales : projets et bilan de l’action gouvernementale
-LLM usage this run: 7 requests, 13506 tokens
-### check 4/5 at 04:42
-  dup check: new (В статье говорится о публикации министерством окружающей среды 16 ноября 2026 года мнения по двум проектам на побережье Вьё-Гран-Мор и выдаче лицензии)
-  not news (portrait/lifestyle): Vieux-Grand-Port et Beau-Champ : quelles conditions pour les projets environnementaux ?
-Skipped foreign news (Inside News): Vieux-Grand-Port et Beau-Champ : quelles conditions pour les projets environnementaux ?
-  dup: nothing new (Упоминание iPhone 18 Pro Max, изъятого у одного из подозреваемых, и акцент на анализе его содержимого для выявления возможных сообщников за границей. )
-Skipped duplicate (Defimedia): Trafic de drogue depuis l’Angleterre : importation de Rs 5 M de cannabis : un iPhone intér == В порту: изъято три килограмма каннабиса в почтовом отправлении, задержаны двое подозревае
-  dup check: new (Иран отвергает обвинения CNN о подготовке атаки с использованием "грязной бомбы" и заявления о барьерах; министр иностранных дел Ирана называет это пр)
-  not about Mauritius: « Bombe sale » : l’Iran rejette un reportage de CNN, dénonçant une « propagande comme lors de la gue
-Skipped foreign news (Defimedia): « Bombe sale » : l’Iran rejette un reportage de CNN, dénonçant une « propagande comme lors de la gue
-  dup check: new (286 новых членов ACCA на Маврикии за год; общее число членов ACCA достигло почти 4 800 (около 80% всех бухгалтеров страны); церемония награждения с уч)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Mauritius, New
-  leftovers fixed by GigaChat-3-Pro; still left: Mauritius, New
-Posted (Defimedia): Эксперты-бухгалтеры: ACCA принимает 286 новых членов на Маврикии, увеличив численность почти до 4800
-LLM usage this run: 9 requests, 14401 tokens
-### check 5/5 at 04:46
-  dup: nothing new (Визит адмирала Брэда Купера в Израиль для встречи с израильскими военными на фоне опасений возобновления конфликта между США и Ираном.)
-Skipped duplicate (Defimedia): Tensions au Moyen-Orient : Le chef du commandement central américain en visite en Israël,  == Индекс SEMDEX снизился на 1,27% при росте объёма торгов на 27,2%
-  dup check: new ()
-  foreign words left: Act
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): В TikTok: он обнаружил объявление о продаже фотографий своей 5-летней дочери
-  dup: nothing new (Статья рассказывает о процедуре обращения в Office of the Ombudsman на Маврикии при проблемах с администрацией и не содержит новых событий или решений)
-Skipped duplicate (Inside News): Administration qui ne répond pas : comment saisir gratuitement l’Ombudsman à Maurice == Индекс SEMDEX снизился на 1,27% при росте объёма торгов на 27,2%
-  not about Mauritius: Xi appelle à "renforcer la coopération" internationale sur l'IA
-Skipped foreign news (Defimedia): Xi appelle à "renforcer la coopération" internationale sur l'IA
-LLM usage this run: 7 requests, 9900 tokens
+Posted (Defimedia): В Union Park 69-летний пешеход скончался, у мотоциклиста положительный тест на наркотики
+LLM usage this run: 10 requests, 16852 tokens
