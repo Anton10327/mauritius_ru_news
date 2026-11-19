@@ -21,3 +21,12 @@ Skipped duplicate (Defimedia): Changement climatique : Business Mauritius porte 
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Банк Маврикия: новое вмешательство на валютном рынке
 LLM usage this run: 8 requests, 11861 tokens
+### check 3/5 at 12:02
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Daniel Essoo, CEO de la MBA : « Maurice a une carte à jouer dans le financement climatique == В порту: изъято три килограмма каннабиса в почтовом отправлении, задержаны двое подозревае
+  dup check: new (Два профсоюза Mauritius Post публично дистанцировались от планируемой демонстрации и заявили, что не давали разрешения на её проведение; это отражено )
+Posted (Defimedia): Акция у Mauritius Post: два профсоюза дистанцировались от движения
+Posted (Defimedia): Программа NICE: молодые люди знакомятся с институтами и экономикой Маврикия
+  not news (portrait/lifestyle): Au Cœur de l’Info – Infrastructures nationales : projets et bilan de l’action gouvernementale.
+Skipped foreign news (Defimedia): Au Cœur de l’Info – Infrastructures nationales : projets et bilan de l’action gouvernementale.
+LLM usage this run: 7 requests, 12323 tokens
