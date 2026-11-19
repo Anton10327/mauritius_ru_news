@@ -10,3 +10,14 @@ Posted (Defimedia): Убийство Avinash Kurreemun: Alfaaz Boodhoo осво�
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): В Union Park 69-летний пешеход скончался, у мотоциклиста положительный тест на наркотики
 LLM usage this run: 10 requests, 16852 tokens
+### check 2/5 at 11:58
+  dup check: new (В статье впервые названы конкретные цифры новых случаев ВИЧ на Маврикии: 400–500 ежегодно; указано, что наиболее затронуты молодые взрослые 25–34 лет;)
+Posted (Defimedia): ВИЧ на Маврикии: от 400 до 500 новых случаев регистрируется ежегодно
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Père alarmé signale la vente en ligne de photos de sa fille de 5 ans sur TikTok == В TikTok: он обнаружил объявление о продаже фотографий своей 5-летней дочери
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Changement climatique : Business Mauritius porte la voix du secteur privé mauricien à la C == COP31: Shakeel Mohamed требует «реальной климатической справедливости»
+  dup check: new (18 ноября 2026 года Банк Маврикия провёл вторую за ноябрь и двенадцатую с начала года интервенцию на внутреннем валютном рынке: влил 15 млн долларов п)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Банк Маврикия: новое вмешательство на валютном рынке
+LLM usage this run: 8 requests, 11861 tokens
