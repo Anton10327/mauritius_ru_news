@@ -46,3 +46,16 @@ Skipped foreign news (Defimedia): Cisjordanie occupée : des colons israéliens 
   dup: nothing new ()
 Skipped duplicate (Defimedia): Port-Louis Waterfront Food Festival : coup d'envoi ce vendredi pour trois jours de gastron == Port-Louis Waterfront Food Festival: гастрономия, музыка и инновации в программе
 LLM usage this run: 5 requests, 8837 tokens
+### check 5/5 at 17:27
+  not about Mauritius: Contenus générés par l'IA : TikTok lance un outil de détection destiné aux personnalités publiques
+Skipped foreign news (Defimedia): Contenus générés par l'IA : TikTok lance un outil de détection destiné aux personnalités publiques
+  dup check: new (Sariffuddin Jaulim подал апелляцию в Privy Council против решения от 30 октября 2026 года по делу о реформе пенсий; он представлен адвокатами Sanjeev )
+  proofread: 
+Posted (Defimedia): Реформа пенсий: Sariffuddin Jaulim хочет обжаловать решение в Судебном комитете Тайного совета
+Posted (Le Mauricien): НАВОДНЕНИЯ: Национальный фонд солидарности рассматривает возможность оснащения уязвимых домохозяйств барьерами от наводнений
+  dup check: new (В новой статье впервые упоминается требование профсоюзов повысить ежедневную топливную надбавку для почтальонов с 173 до 233 рупий из-за роста цен на )
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Operations
+  leftovers fixed by GigaChat-3-Pro; still left: Operations
+Posted (Le Mauricien): Трудовые отношения — Mauritius Post: почтальоны требуют увеличить топливную надбавку
+LLM usage this run: 10 requests, 18999 tokens
