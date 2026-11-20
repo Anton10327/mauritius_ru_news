@@ -1,61 +1,11 @@
-### check 1/5 at 17:11
-New source Inside News: skipped backlog, posting newest only
-  dup check: new (Указана новая сумма расходов США на войну против Ирана — 48,3 млрд долларов по состоянию на 13 ноября, рост на 26% к предыдущей оценке Бюджетного упра)
-  not about Mauritius: La guerre contre l’Iran a coûté plus de 48 milliards de dollars aux États-Unis
-Skipped foreign news (Defimedia): La guerre contre l’Iran a coûté plus de 48 milliards de dollars aux États-Unis
-  proofread: Moka D. C. → Moka D. C.; Local Government Act → Local Government Act; FCC → FCC
-Posted (Le Mauricien): Местные органы власти | Financial Crimes Commission — закупки: тревожная ситуация в Moka D. C.
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Ресоциализация: тридцать заключённых готовятся к будущему в качестве предпринимателей
+### check 1/5 at 01:16
+  not news (portrait/lifestyle): [Blog] Are we raising a generation that speaks English but is losing its mother tongue?
+Skipped foreign news (Defimedia): [Blog] Are we raising a generation that speaks English but is losing its mother tongue?
+GigaChat balance: GigaChat-Ultra 45,149,424, GigaChat-Pro 35,978,010, GigaChat-Max 23,925,401, GigaChat 249,589,075; 333 days to go
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): La caricature du Mauricien du 18 novembre 2026 == Местные органы власти | Financial Crimes Commission — закупки: тревожная ситуация в Moka D
-LLM usage this run: 7 requests, 13117 tokens
-### check 2/5 at 17:15
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Awards
-  leftovers fixed by GigaChat-3-Pro; still left: Awards
-Posted (Le Mauricien): Финансовый рынок | «Превосходство в исполнении сделок» — SBM Capital Markets Ltd получает награду AGF Awards в четвертый раз подряд
-  dup check: new (В статье сообщается о гибели 23-летнего Yovan Stanley Montagnard в аварии на мотоцикле с автомобилем в Bel-Air-Rivière-Sèche. Это новое событие и новы)
-  foreign words left: Rivière-Sèche
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Bel-Air–Ривьер-Сек: 23-летний Yovan Stanley Montagnard погиб в ДТП с мотоциклом
-  dup check: new (В статье сообщается о смерти 18-летнего юноши по имени Батист, который стал донором органов и спас шесть жизней. Это новое событие — смерть молодого ч)
-  not news (portrait/lifestyle): Le don d’organes, l’ultime don de soi : Baptiste a quitté ce monde en sauvant six vies
-Skipped foreign news (Le Mauricien): Le don d’organes, l’ultime don de soi : Baptiste a quitté ce monde en sauvant six vies
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Plaisance: гражданин Швейцарии задержан с 20 килограммами каннабиса
-LLM usage this run: 11 requests, 17581 tokens
-### check 3/5 at 17:19
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Марша при свечах в Résidence Richelieu: вице-премьер Arianne Navarre-Marie призывает защищать детей от опасностей наркотиков
+Skipped duplicate (Defimedia): Projet d’élevage de macaques : Hammerhead International Ltd ne pourra pas recourir au Cons == Dhaneshwar Damry: «Цель этого правительства — защищать потребителей»
+  not about Mauritius: "Ramenez les Rohingas chez eux", lance à la Birmanie le chef de l'Assemblée générale de l'ONU
+Skipped foreign news (Defimedia): "Ramenez les Rohingas chez eux", lance à la Birmanie le chef de l'Assemblée générale de l'ONU
   dup: nothing new ()
-Skipped duplicate (Wazaa): Corsair fête 20 ans d’exploitation à l’île Maurice == Corsair отмечает 20 лет присутствия на Маврикии
-  dup: nothing new (Запуск новой кампании Shell Club с призовым фондом в 1 миллион рупий и условиями участия; даты проведения до 26 января 2027 года.)
-Skipped duplicate (Le Mauricien): Campagne de fin d’année — Le million de Vivo Energy Mauritius == Передозировка: на Маврикии всё ещё необходимо выстроить цепочку спасения
-  dup check: new (Новая статья сообщает о втором фестивале еды Port-Louis Waterfront Food Festival с 20 по 22 ноября, расширенной программе и участии более 30 ресторато)
-  proofread: в Порт-Луи → в Порт-Луис
-Posted (Defimedia): Port-Louis Waterfront Food Festival: гастрономия, музыка и инновации в программе
-LLM usage this run: 7 requests, 10523 tokens
-### check 4/5 at 17:23
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Ящур: четыре случая выявлены на ферме в Notre-Dame
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Candlelight à Résidence Richelieu : Olivier, 11 ans, appelle à s’unir contre la drogue == Марша при свечах в Résidence Richelieu: вице-премьер Arianne Navarre-Marie призывает защищ
-  not about Mauritius: Cisjordanie occupée : des colons israéliens incendient un engin de chantier à Saïr
-Skipped foreign news (Defimedia): Cisjordanie occupée : des colons israéliens incendient un engin de chantier à Saïr
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Port-Louis Waterfront Food Festival : coup d'envoi ce vendredi pour trois jours de gastron == Port-Louis Waterfront Food Festival: гастрономия, музыка и инновации в программе
-LLM usage this run: 5 requests, 8837 tokens
-### check 5/5 at 17:27
-  not about Mauritius: Contenus générés par l'IA : TikTok lance un outil de détection destiné aux personnalités publiques
-Skipped foreign news (Defimedia): Contenus générés par l'IA : TikTok lance un outil de détection destiné aux personnalités publiques
-  dup check: new (Sariffuddin Jaulim подал апелляцию в Privy Council против решения от 30 октября 2026 года по делу о реформе пенсий; он представлен адвокатами Sanjeev )
-  proofread: 
-Posted (Defimedia): Реформа пенсий: Sariffuddin Jaulim хочет обжаловать решение в Судебном комитете Тайного совета
-Posted (Le Mauricien): НАВОДНЕНИЯ: Национальный фонд солидарности рассматривает возможность оснащения уязвимых домохозяйств барьерами от наводнений
-  dup check: new (В новой статье впервые упоминается требование профсоюзов повысить ежедневную топливную надбавку для почтальонов с 173 до 233 рупий из-за роста цен на )
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Operations
-  leftovers fixed by GigaChat-3-Pro; still left: Operations
-Posted (Le Mauricien): Трудовые отношения — Mauritius Post: почтальоны требуют увеличить топливную надбавку
-LLM usage this run: 10 requests, 18999 tokens
+Skipped duplicate (Defimedia): Rapport de la Competition Commission - Grande distribution : des petits opérateurs face au == Competition Commission: к усилению правового регулирования в ответ на новые экономические 
+LLM usage this run: 4 requests, 7735 tokens
