@@ -45,3 +45,15 @@ Skipped duplicate (Le Mauricien): SMS PARIAZ ET PROJET PETIT-GAMIN : Lee Shim su
   dup: nothing new ()
 Skipped duplicate (Defimedia): [DÉFIXPLIK] Électricité en alerte jaune ce soir : pourquoi et quels gestes adopter ? == Электроэнергия: на Маврикии в пятницу вечером ожидается переход на «желтый уровень» тревог
 LLM usage this run: 9 requests, 11855 tokens
+### check 5/5 at 01:32
+  dup check: new ()
+Posted (Le Mauricien): ФУТБОЛ – Дивизион 2 (2-й тур): «Эль Класико», «Quatre-Bornes» и «Trou-aux-Biches» задают тон
+  dup check: new (Статья анонсирует дебаты на RadioPlus о Night Market: его пользе для городов и влиянии на местных торговцев. Приводятся имена участников (Noorjahan Jo)
+  not news (portrait/lifestyle): Night Market : solution pour animer les villes pendant les fêtes ou concurrence déloyale pour les co
+Skipped foreign news (Defimedia): Night Market : solution pour animer les villes pendant les fêtes ou concurrence déloyale pour les co
+  dup check: new (В статье сообщается о первом этапе перезагрузки отношений между Великобританией и ЕС после Brexit, включая конкретные соглашения и условия, связанные )
+  not about Mauritius: Le Royaume-Uni et l'UE actent à Bruxelles le premier chapitre de leur "reset"
+Skipped foreign news (Defimedia): Le Royaume-Uni et l'UE actent à Bruxelles le premier chapitre de leur "reset"
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Chagos : sur quelles bases juridiques Maurice pourrait-il poursuivre Londres ? == Dhaneshwar Damry: «Цель этого правительства — защищать потребителей»
+LLM usage this run: 8 requests, 14217 tokens
