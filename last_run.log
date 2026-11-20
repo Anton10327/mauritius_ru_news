@@ -10,3 +10,18 @@ Posted (Defimedia): Ресоциализация: тридцать заключ�
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): La caricature du Mauricien du 18 novembre 2026 == Местные органы власти | Financial Crimes Commission — закупки: тревожная ситуация в Moka D
 LLM usage this run: 7 requests, 13117 tokens
+### check 2/5 at 17:15
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Awards
+  leftovers fixed by GigaChat-3-Pro; still left: Awards
+Posted (Le Mauricien): Финансовый рынок | «Превосходство в исполнении сделок» — SBM Capital Markets Ltd получает награду AGF Awards в четвертый раз подряд
+  dup check: new (В статье сообщается о гибели 23-летнего Yovan Stanley Montagnard в аварии на мотоцикле с автомобилем в Bel-Air-Rivière-Sèche. Это новое событие и новы)
+  foreign words left: Rivière-Sèche
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Bel-Air–Ривьер-Сек: 23-летний Yovan Stanley Montagnard погиб в ДТП с мотоциклом
+  dup check: new (В статье сообщается о смерти 18-летнего юноши по имени Батист, который стал донором органов и спас шесть жизней. Это новое событие — смерть молодого ч)
+  not news (portrait/lifestyle): Le don d’organes, l’ultime don de soi : Baptiste a quitté ce monde en sauvant six vies
+Skipped foreign news (Le Mauricien): Le don d’organes, l’ultime don de soi : Baptiste a quitté ce monde en sauvant six vies
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Plaisance: гражданин Швейцарии задержан с 20 килограммами каннабиса
+LLM usage this run: 11 requests, 17581 tokens
