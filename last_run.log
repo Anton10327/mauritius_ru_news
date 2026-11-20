@@ -11,3 +11,15 @@ Skipped foreign news (Inside News): Sommet de l’APEC en Chine : les échanges 
   dup: nothing new ()
 Skipped duplicate (Wazaa): Deux syndicats postaux mauriciens rejettent une protestation planifiée qui devrait mobilis == Акция у Mauritius Post: два профсоюза дистанцировались от движения
 LLM usage this run: 8 requests, 13724 tokens
+### check 2/5 at 08:20
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Virginie Bissessur: «Этот протокол скажет каждому участнику учреждения, какова его роль в защите детей»
+  dup check: new (В новой статье сообщается о новом инциденте: нападение и угрозы убийством в отношении 17-летнего подростка со стороны Вишала Шибчурна после публикации)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Полиция разыскивает Vishal Shibchurn по обвинению в нападении и угрозах убийством в отношении несовершеннолетнего
+  not about Mauritius: Canada et Chine : Ottawa relance les échanges et élargit un accord commercial
+Skipped foreign news (Inside News): Canada et Chine : Ottawa relance les échanges et élargit un accord commercial
+  dup check: new (Nvidia объявила о рекордной квартальной выручке в 115,8 млрд долларов за третий квартал 2027 года (рост на 103% год к году), а также о росте на 20% по)
+  not about Mauritius: Nvidia : chiffre d’affaires record de 115,8 milliards de dollars, Wall Street hésite
+Skipped foreign news (Inside News): Nvidia : chiffre d’affaires record de 115,8 milliards de dollars, Wall Street hésite
+LLM usage this run: 8 requests, 14640 tokens
