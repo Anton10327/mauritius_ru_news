@@ -46,3 +46,15 @@ Skipped duplicate (L'Express): Les grands titres de l'express de ce vendredi 20 
   dup: nothing new ()
 Skipped duplicate (Inside News): Appareil en panne après un incident électrique : comment préparer sa réclamation à Maurice == SBM Capital Markets Ltd награждена на премии AGF в четвертый раз подряд
 LLM usage this run: 5 requests, 5426 tokens
+### check 5/5 at 08:32
+  proofread: Ashok Subron → Ашок Суброн; "La vie avant le profit" → "Жизнь важнее прибыли"; "National Disaster Risk Reduction and Management (Amendment) Bill" → "Национальный законопроект о снижении рисков и управлении стихийными бедствиями (внесение поправок)"; "Assemblée nationale" → "Национальное собрание"; "
+Posted (L'Express): Законопроект о внесении изменений в закон о снижении рисков и управлении стихийными бедствиями | Консенсус: «Жизнь важнее прибыли»
+  dup check: new (Сообщение о пропаже Нандиш Канена: дата исчезновения (18 ноября), место последнего появления (Dr Manilall Road, Morcellement Saint-Andréy), описание в)
+Posted (L'Express): Розыск: Nandish Canhea, 25 лет, пропал без вести
+  dup check: new (Сенатор США Марк Уорнер заявил, что демократы никогда не прекратят попытки положить конец войне против Ирана и осудил республиканцев за блокировку рез)
+  not about Mauritius: Guerre contre l’Iran : les démocrates «ne renonceront jamais» à y mettre fin, affirme Mark Warner
+Skipped foreign news (Defimedia): Guerre contre l’Iran : les démocrates «ne renonceront jamais» à y mettre fin, affirme Mark Warner
+  dup check: new (В статье сообщается о минимум 300 погибших детях в ожидании разрешения на выезд из Газы для лечения (включая 90 детей с раком), а также о 5400 детях в)
+  not about Mauritius: Gaza : au moins 300 enfants morts dans l’attente d’une autorisation israélienne de quitter le territ
+Skipped foreign news (Defimedia): Gaza : au moins 300 enfants morts dans l’attente d’une autorisation israélienne de quitter le territ
+LLM usage this run: 9 requests, 16154 tokens
