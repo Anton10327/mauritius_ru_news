@@ -32,3 +32,16 @@ Skipped duplicate (Le Mauricien): IA et Communications — Africa Tech Festival 
   dup: nothing new ()
 Skipped duplicate (Wazaa): Avocat-conseil sénior, 30 ans d’expérience, nommé président de l’Autorité de régulation de == Ипподромные скачки — после вынужденного ухода Veeshal Chumroo: адвокат Robin Ramburn, стар
 LLM usage this run: 3 requests, 1923 tokens
+### check 4/5 at 01:28
+  dup check: new (Реми Фёйе завоевал бронзовую медаль на турнире Open d’Abidjan 2026 и занимает 99-е место в олимпийском рейтинге; он участвует в кампании за прямую ква)
+  proofread: 
+  foreign words left: African
+  leftovers fixed by GigaChat-3-Pro; still left: African
+Posted (Le Mauricien): Дзюдо: бронзовая медаль на African Open в Абиджане 2026 — Rémi Feuillet занимает 99-е место в олимпийском рейтинге
+  dup check: new (Статья о пересмотре банками процентных ставок и влиянии этого на домохозяйства и предприятия; ранее опубликованный пост касается ВИЧ в Маврикии.)
+Posted (Defimedia): Банки начинают пересматривать процентные ставки: сколько дополнительно заплатят домохозяйства и компании?
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): SMS PARIAZ ET PROJET PETIT-GAMIN : Lee Shim suppute un complot de l’Attorney General et le == Пост полиции Line-Barracks: Jean-Michel Lee Shim подал жалобу о заговоре
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [DÉFIXPLIK] Électricité en alerte jaune ce soir : pourquoi et quels gestes adopter ? == Электроэнергия: на Маврикии в пятницу вечером ожидается переход на «желтый уровень» тревог
+LLM usage this run: 9 requests, 11855 tokens
