@@ -1,61 +1,13 @@
-### check 1/5 at 03:34
+### check 1/5 at 08:16
+  dup check: new (Ashik Jagai подал иск на Rs 50 млн против Sanjeev Teeluckdharry и других за ущерб репутации; дело передано Master and Registrar Wendy Rangan; Ashik Ja)
+  foreign words left: and
+  leftovers fixed by GigaChat-3-Pro; still left: and
+Posted (Defimedia): Иск Ashik Jagai на 50 млн рупий: в центре внимания — требования защиты о разъяснениях
+  dup check: new (Статья раскрывает новые данные о размере активов сектора Global Business Companies (GBC) Маврикия — 741 млрд долларов США, что в 50 раз превышает ВВП )
+  not news (portrait/lifestyle): [Blog] Comment le modèle offshore de Maurice divise l'économie en deux
+Skipped foreign news (Defimedia): [Blog] Comment le modèle offshore de Maurice divise l'économie en deux
+  not about Mauritius: Sommet de l’APEC en Chine : les échanges mondiaux au centre des discussions
+Skipped foreign news (Inside News): Sommet de l’APEC en Chine : les échanges mondiaux au centre des discussions
   dup: nothing new ()
-Skipped duplicate (Defimedia): Importations : le fret et les tensions mondiales alourdissent la facture == Рост импорта продовольствия: цена зависимости на наших тарелках
-GigaChat balance: GigaChat-Ultra 45,263,472, GigaChat-Pro 36,044,037, GigaChat-Max 23,928,327, GigaChat 249,589,075; 334 days to go
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Jean-Michel Lee Shim accuse les hauts responsables d’une conspiration autour des courses h == Пост полиции Line-Barracks: Jean-Michel Lee Shim подал жалобу о заговоре
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Africa Tech Festival Award 2026 : Mauritius Telecom remporte le Telecom Innovation Award == Cassava Technologies и Mauritius Telecom подписали протокол о намерениях по услугам ИИ и о
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Несостоятельные застройщики: вложены миллионы, стройки брошены
-LLM usage this run: 5 requests, 6779 tokens
-### check 2/5 at 03:38
-  not about Mauritius: Rohingyas : la plus haute juridiction de l’ONU déclare le Myanmar coupable d’«intention génocidaire»
-Skipped foreign news (Defimedia): Rohingyas : la plus haute juridiction de l’ONU déclare le Myanmar coupable d’«intention génocidaire»
-Bad LLM answer from GigaChat-3-Ultra: 'NoneType' object has no attribute 'get'; raw: {"choices":[{"message":{"content":"Как и любая языковая модель, GigaChat не обладает собственным мнением и не транслирует мнение своих разработчиков. Ответ сгенерирован нейросетевой моделью, обученной на открытых данных, в которых может содержаться неточная или ошибочная информация. Во избежание неп
-  written by GigaChat-2-Max
-  not about Mauritius: Trump dit "écrire l'Histoire" avec Xi et Poutine lors d'un sommet inédit
-Skipped foreign news (Defimedia): Trump dit "écrire l'Histoire" avec Xi et Poutine lors d'un sommet inédit
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Île Maurice prévoit une refonte majeure de la loi sur la concurrence de 2007 pour faire fa == Competition Commission: к усилению правового регулирования в ответ на новые экономические 
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Délit de fuite présumé à Poudre-d’Or : les proches de Jean-Marc Pothiah réclament des expl == Смертельный наезд с бегством водителя в Пудр-д’Ор: 47-летний пешеход скончался от травм
-LLM usage this run: 5 requests, 10359 tokens
-### check 3/5 at 03:42
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: QR-коду, AfricaNenda
-  leftovers fixed by GigaChat-3-Pro; still left: QR-коду
-Posted (Defimedia): Банк Маврикия хочет развивать трансграничные платежи через MauCAS
-  dup check: new (Mamy Ravatomanga a déposé une plainte devant le Central CID et remis un affidavit concernant ses relevés bancaires; il estime ne pas avoir eu d’enquêt)
-  proofread: Mamy Ravатоманга → Mamy Ravatomanga; Central CID → Central CID; Комиссия по финансовым преступлениям (FCC) → Комиссия по финансовым преступлениям (FCC); Суд по вопросам залога и предварительного заключения → Суд по вопросам залога и предварительного заключения
-Posted (Defimedia): Дело Mamy Ravatomanga: малагасийский бизнесмен требует расследования от Central CID
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Air Mauritius : des places réservées sur d’autres vols vers Delhi pour les passagers conce == Air Mauritius: рейс MK744 перенаправлен в Мумбаи
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Des manifestants quittent le 22e Sommet VIH de l’océan Indien en raison de la crise d’excl == ВИЧ/СПИД: Ravane Océan Indien покинула открытие регионального коллоквиума в знак протеста
-LLM usage this run: 8 requests, 10852 tokens
-### check 4/5 at 03:46
-  dup check: new (Присутствие трёх американских экспертов на Маврикии для оценки системы дренажа и разработки нового плана; заявление министра о необходимости пересмотр)
-  proofread: Ajay Gunness → министр инфраструктуры Ajay Gunness; Port-Louis → Порт-Луи
-Posted (Defimedia): «Дренаж земель»: три американских эксперта на Маврикии для разработки новой дорожной карты
-  not about Mauritius: Trump, Poutine, Xi adoptent une "déclaration de paix" après leur sommet inédit
-Skipped foreign news (Defimedia): Trump, Poutine, Xi adoptent une "déclaration de paix" après leur sommet inédit
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Distribution alimentaire : la Competition Commission propose un code de conduite pour des  == Competition Commission: к усилению правового регулирования в ответ на новые экономические 
-  dup: nothing new (Статья сообщает о предстоящих выборах в 130 сельских советах Маврикия и рассматривает их как первый политический тест для Альянса перемен после ухода )
-Skipped duplicate (Defimedia): « Au Cœur de l’Info » :- Villageoises : Premier test politique pour l'Alliance du Changeme == (НЕ)БЕЗОПАСНОСТЬ НА ДОРОГАХ | Шумовые помехи — министр Osman Mahomed разъяснил указания по
-LLM usage this run: 6 requests, 8501 tokens
-### check 5/5 at 03:50
-  dup check: new (В статье упоминается новое обращение адвоката Me Rama Valayden к DPP с просьбой ускорить рассмотрение дела Élodie Thomas и указано завершение расследо)
-  proofread: устранимости → устрашения
-Posted (Defimedia): Выстрел в Camp-Levieux: адвокат Rama Valayden требует скорейшего суда
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « INN MET DIFE PAR MESANSTE » == Air Mauritius: рейс MK744 перенаправлен в Мумбаи
-  not about Mauritius: Génocide des Rohingyas : cinq points clés de la décision historique de la CIJ
-Skipped foreign news (Defimedia): Génocide des Rohingyas : cinq points clés de la décision historique de la CIJ
-  dup check: new (Corsair célèbre ses 20 ans de présence à Maurice avec une soirée le 19 novembre au Château de Labourdonnais; la compagnie a inauguré sa liaison Paris-)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Marseille, Toulouse
-  leftovers fixed by GigaChat-3-Pro; still left: Marseille, Toulouse
-Posted (Defimedia): Corsair отмечает 20 лет присутствия на Маврикии
-LLM usage this run: 9 requests, 14124 tokens
+Skipped duplicate (Wazaa): Deux syndicats postaux mauriciens rejettent une protestation planifiée qui devrait mobilis == Акция у Mauritius Post: два профсоюза дистанцировались от движения
+LLM usage this run: 8 requests, 13724 tokens
