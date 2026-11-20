@@ -1,60 +1,12 @@
-### check 1/5 at 08:16
-  dup check: new (Ashik Jagai подал иск на Rs 50 млн против Sanjeev Teeluckdharry и других за ущерб репутации; дело передано Master and Registrar Wendy Rangan; Ashik Ja)
-  foreign words left: and
-  leftovers fixed by GigaChat-3-Pro; still left: and
-Posted (Defimedia): Иск Ashik Jagai на 50 млн рупий: в центре внимания — требования защиты о разъяснениях
-  dup check: new (Статья раскрывает новые данные о размере активов сектора Global Business Companies (GBC) Маврикия — 741 млрд долларов США, что в 50 раз превышает ВВП )
-  not news (portrait/lifestyle): [Blog] Comment le modèle offshore de Maurice divise l'économie en deux
-Skipped foreign news (Defimedia): [Blog] Comment le modèle offshore de Maurice divise l'économie en deux
-  not about Mauritius: Sommet de l’APEC en Chine : les échanges mondiaux au centre des discussions
-Skipped foreign news (Inside News): Sommet de l’APEC en Chine : les échanges mondiaux au centre des discussions
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Deux syndicats postaux mauriciens rejettent une protestation planifiée qui devrait mobilis == Акция у Mauritius Post: два профсоюза дистанцировались от движения
-LLM usage this run: 8 requests, 13724 tokens
-### check 2/5 at 08:20
+### check 1/5 at 17:11
+New source Inside News: skipped backlog, posting newest only
+  dup check: new (Указана новая сумма расходов США на войну против Ирана — 48,3 млрд долларов по состоянию на 13 ноября, рост на 26% к предыдущей оценке Бюджетного упра)
+  not about Mauritius: La guerre contre l’Iran a coûté plus de 48 milliards de dollars aux États-Unis
+Skipped foreign news (Defimedia): La guerre contre l’Iran a coûté plus de 48 milliards de dollars aux États-Unis
+  proofread: Moka D. C. → Moka D. C.; Local Government Act → Local Government Act; FCC → FCC
+Posted (Le Mauricien): Местные органы власти | Financial Crimes Commission — закупки: тревожная ситуация в Moka D. C.
   proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Virginie Bissessur: «Этот протокол скажет каждому участнику учреждения, какова его роль в защите детей»
-  dup check: new (В новой статье сообщается о новом инциденте: нападение и угрозы убийством в отношении 17-летнего подростка со стороны Вишала Шибчурна после публикации)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Полиция разыскивает Vishal Shibchurn по обвинению в нападении и угрозах убийством в отношении несовершеннолетнего
-  not about Mauritius: Canada et Chine : Ottawa relance les échanges et élargit un accord commercial
-Skipped foreign news (Inside News): Canada et Chine : Ottawa relance les échanges et élargit un accord commercial
-  dup check: new (Nvidia объявила о рекордной квартальной выручке в 115,8 млрд долларов за третий квартал 2027 года (рост на 103% год к году), а также о росте на 20% по)
-  not about Mauritius: Nvidia : chiffre d’affaires record de 115,8 milliards de dollars, Wall Street hésite
-Skipped foreign news (Inside News): Nvidia : chiffre d’affaires record de 115,8 milliards de dollars, Wall Street hésite
-LLM usage this run: 8 requests, 14640 tokens
-### check 3/5 at 08:24
-  not news (portrait/lifestyle): Entretien avec le Dr Jean Lou Kwet Ng : Cryptomonnaies, un univers à comprendre avant de se lancer
-Skipped foreign news (L'Express): Entretien avec le Dr Jean Lou Kwet Ng : Cryptomonnaies, un univers à comprendre avant de se lancer
+Posted (Defimedia): Ресоциализация: тридцать заключённых готовятся к будущему в качестве предпринимателей
   dup: nothing new ()
-Skipped duplicate (Wazaa): 8 écoles secondaires à Maurice pour introduire la méditation en classe == Благополучие в школе: восемь маврикийских колледжей начнут практиковать медитацию
-  dup check: new ()
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Торговля: предновогодние праздники пройдут под знаком осторожности
-  dup check: new (Прогноз погоды на 20 ноября: локальные дожди в Западной и Юго-Западной частях Маврикия, температура до 32°C.)
-  not news (portrait/lifestyle): Météo à Maurice vendredi 20 novembre : averses localisées dans l’Ouest et le Sud-Ouest
-Skipped foreign news (Inside News): Météo à Maurice vendredi 20 novembre : averses localisées dans l’Ouest et le Sud-Ouest
-LLM usage this run: 7 requests, 11884 tokens
-### check 4/5 at 08:28
-  dup: nothing new ()
-Skipped duplicate (L'Express): Résultats trimestriels | ER Group : chiffre d’affaires en hausse de 6 % == SBM Capital Markets Ltd награждена на премии AGF в четвертый раз подряд
-  dup check: new (Увольнение директора по кибербезопасности США Шона Кэрнкросса после серии сбоев в инфраструктуре; назначение временного исполняющего обязанности Кирст)
-  not about Mauritius: États-Unis : Trump limoge son directeur national de la cybersécurité après une série de pannes
-Skipped foreign news (Defimedia): États-Unis : Trump limoge son directeur national de la cybersécurité après une série de pannes
-  dup: nothing new ()
-Skipped duplicate (L'Express): Les grands titres de l'express de ce vendredi 20 novembre 2026 == Пост полиции Line-Barracks: Jean-Michel Lee Shim подал жалобу о заговоре
-  dup: nothing new ()
-Skipped duplicate (Inside News): Appareil en panne après un incident électrique : comment préparer sa réclamation à Maurice == SBM Capital Markets Ltd награждена на премии AGF в четвертый раз подряд
-LLM usage this run: 5 requests, 5426 tokens
-### check 5/5 at 08:32
-  proofread: Ashok Subron → Ашок Суброн; "La vie avant le profit" → "Жизнь важнее прибыли"; "National Disaster Risk Reduction and Management (Amendment) Bill" → "Национальный законопроект о снижении рисков и управлении стихийными бедствиями (внесение поправок)"; "Assemblée nationale" → "Национальное собрание"; "
-Posted (L'Express): Законопроект о внесении изменений в закон о снижении рисков и управлении стихийными бедствиями | Консенсус: «Жизнь важнее прибыли»
-  dup check: new (Сообщение о пропаже Нандиш Канена: дата исчезновения (18 ноября), место последнего появления (Dr Manilall Road, Morcellement Saint-Andréy), описание в)
-Posted (L'Express): Розыск: Nandish Canhea, 25 лет, пропал без вести
-  dup check: new (Сенатор США Марк Уорнер заявил, что демократы никогда не прекратят попытки положить конец войне против Ирана и осудил республиканцев за блокировку рез)
-  not about Mauritius: Guerre contre l’Iran : les démocrates «ne renonceront jamais» à y mettre fin, affirme Mark Warner
-Skipped foreign news (Defimedia): Guerre contre l’Iran : les démocrates «ne renonceront jamais» à y mettre fin, affirme Mark Warner
-  dup check: new (В статье сообщается о минимум 300 погибших детях в ожидании разрешения на выезд из Газы для лечения (включая 90 детей с раком), а также о 5400 детях в)
-  not about Mauritius: Gaza : au moins 300 enfants morts dans l’attente d’une autorisation israélienne de quitter le territ
-Skipped foreign news (Defimedia): Gaza : au moins 300 enfants morts dans l’attente d’une autorisation israélienne de quitter le territ
-LLM usage this run: 9 requests, 16154 tokens
+Skipped duplicate (Le Mauricien): La caricature du Mauricien du 18 novembre 2026 == Местные органы власти | Financial Crimes Commission — закупки: тревожная ситуация в Moka D
+LLM usage this run: 7 requests, 13117 tokens
