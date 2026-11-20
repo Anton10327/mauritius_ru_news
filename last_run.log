@@ -25,3 +25,14 @@ Skipped foreign news (Le Mauricien): Le don d’organes, l’ultime don de soi :
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Plaisance: гражданин Швейцарии задержан с 20 килограммами каннабиса
 LLM usage this run: 11 requests, 17581 tokens
+### check 3/5 at 17:19
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Марша при свечах в Résidence Richelieu: вице-премьер Arianne Navarre-Marie призывает защищать детей от опасностей наркотиков
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Corsair fête 20 ans d’exploitation à l’île Maurice == Corsair отмечает 20 лет присутствия на Маврикии
+  dup: nothing new (Запуск новой кампании Shell Club с призовым фондом в 1 миллион рупий и условиями участия; даты проведения до 26 января 2027 года.)
+Skipped duplicate (Le Mauricien): Campagne de fin d’année — Le million de Vivo Energy Mauritius == Передозировка: на Маврикии всё ещё необходимо выстроить цепочку спасения
+  dup check: new (Новая статья сообщает о втором фестивале еды Port-Louis Waterfront Food Festival с 20 по 22 ноября, расширенной программе и участии более 30 ресторато)
+  proofread: в Порт-Луи → в Порт-Луис
+Posted (Defimedia): Port-Louis Waterfront Food Festival: гастрономия, музыка и инновации в программе
+LLM usage this run: 7 requests, 10523 tokens
