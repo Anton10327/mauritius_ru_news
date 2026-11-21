@@ -23,3 +23,15 @@ Skipped foreign news (Defimedia): Le FBI de nouveau piraté, sa base de données
   not about Mauritius: Gérard Depardieu et Michel Houellebecq visés par une enquête pour des faits présumés à caractère sex
 Skipped foreign news (Defimedia): Gérard Depardieu et Michel Houellebecq visés par une enquête pour des faits présumés à caractère sex
 LLM usage this run: 5 requests, 12829 tokens
+### check 3/5 at 21:45
+  dup: nothing new ()
+Skipped duplicate (Inside News): Fièvre aphteuse à Notre-Dame : élevage placé en quarantaine, analyses attendues == Ящур: четыре случая выявлены на ферме в Notre-Dame
+  dup check: new ()
+  not news (portrait/lifestyle): Dette des organismes publics : au-delà du chiffre national, qui doit quoi et qui garantit ?
+Skipped foreign news (Inside News): Dette des organismes publics : au-delà du chiffre national, qui doit quoi et qui garantit ?
+  dup check: new (В статье сообщается о продолжении расследования FCC по токсичным кредитам бывшего MPCB, связанных с Ракешем Гулджори, и раскрываются детали допроса Си)
+  proofread: 
+Posted (Defimedia): Расследование «токсичных» кредитов бывшей MPCB, связанных с Rakesh Gooljaury, продолжается: причины допроса Cyril How Kin Sang в FCC
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Les conseillers du district resteront en fonction après la dissolution du conseil du villa == Роспуск советов деревень – окружные советники остаются в должности
+LLM usage this run: 7 requests, 11175 tokens
