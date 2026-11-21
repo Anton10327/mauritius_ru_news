@@ -24,3 +24,15 @@ Skipped duplicate (Defimedia): Questions à… Me Parvèz Dookhy : « la souve
   leftovers fixed by GigaChat-3-Pro; still left: Campement, Tax
 Posted (Le Mauricien): Верховный суд — восемь лет на вынесение вердикта: Апелляционный суд резко критикует задержку судьи
 LLM usage this run: 11 requests, 16731 tokens
+### check 3/5 at 06:38
+  dup check: new (Закрытие автомагистрали M2 между кольцевыми развязками Beau-Plan и Pamplemousses 22 ноября с 15:00 до полуночи для работ по ремонту тротуаров в районе)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Автомагистраль M2: движение закрыто между кольцевыми развязками Beau-Plan и Pamplemousses в это воскресенье
+  dup check: new (Начало пожара в старой деревянной постройке на улице Луи Пастера в Порт-Луи 20 ноября 2026 года; пожарные работают на месте происшествия; обстоятельст)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Начало пожара в старом деревянном доме в Port-Louis
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Banques mauriciennes : préparent des hausses des taux de prêt alors que le taux directeur  == Банки начинают пересматривать процентные ставки: сколько дополнительно заплатят домохозяйс
+  same headline as #39: Port-Louis Waterfront Food Festival : gastronomie, musique et innovations au pro
+Skipped duplicate (Defimedia): [En images] Le Port-Louis Waterfront Food Festival est lancé ! == Port-Louis Waterfront Food Festival: гастрономия, музыка и инновации в программе
+LLM usage this run: 7 requests, 9702 tokens
