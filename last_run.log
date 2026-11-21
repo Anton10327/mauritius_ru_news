@@ -45,3 +45,14 @@ Skipped foreign news (Defimedia): 28 et 29 novembre au Jardin Balfour - Festival
   dup: nothing new ()
 Skipped duplicate (Defimedia): Demande de révision judiciaire : la Cour refuse de suspendre l’interrogatoire de Lee Shim  == FCC: Jean-Michel Lee-Shim обратился в Верховный суд, чтобы приостановить свой допрос «в ка
 LLM usage this run: 4 requests, 6370 tokens
+### check 5/5 at 21:53
+Posted (Defimedia): Vacoas-Phoenix: муниципалитет признан ответственным за нападение между сотрудниками
+  dup check: new (Арестован 19-й подозреваемый по делу Dreamer — Jean Quensley Jimmy Ramtohul; общее число арестованных достигло 10 (из них 9 маврикийцев).)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Дело Dreamer: 19-й подозреваемый задержан подразделением ADSU
+  dup check: new (Élodie Thomas была срочно перевезена в Индию из-за подозрения на инфекцию; это произошло 19 ноября 2026 года после ухудшения состояния здоровья менее )
+  proofread: Элоди Тома → Элоди Томас; Camp-Levieux → Камп-Левьё; Анил Баху → Анил Баху (имя не меняется); KIMS Hospital → KIMS Hospital (название не меняется); Dr A. G. Jeetoo → Dr A. G. Jeetoo (название не меняется); Port-Louis → Порт-Луи; IPCC → Комиссия по жалобам на полицию
+Posted (Inside News): Élodie Thomas экстренно перевезена в Индию: подозревается инфекция, состояние здоровья под наблюдением
+  dup: nothing new ()
+Skipped duplicate (Inside News): Pluies torrentielles : la réforme de la gestion des catastrophes adoptée à Maurice == Законопроект о внесении изменений в закон о снижении рисков и управлении стихийными бедств
+LLM usage this run: 9 requests, 16268 tokens
