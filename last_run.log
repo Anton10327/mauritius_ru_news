@@ -50,3 +50,14 @@ Posted (Defimedia): Чикунгунья и поездка в Саудовску
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Он требует расследования: Kulwant Ubheeram осуждает «подделанные» видео
 LLM usage this run: 13 requests, 19665 tokens
+### check 5/5 at 02:39
+  dup check: new (Смерть Nitish Jugdeo в Gentilly и интервью с его матерью Amrita Jugdeo о помощи сына и их отношениях.)
+  proofread: Гентийи → Гентийи
+Posted (Defimedia): Nitish Jugdeo утонул в Гентийи: «Он ушёл, и вернулся лишь его труп», — говорит Amrita Jugdeo
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Il ne travaille pas à cause d'un souci à la colonne vertébrale : Yogen, 51 ans, alité, rem == Несостоятельные застройщики: вложены миллионы, стройки брошены
+  dup: nothing new ()
+Skipped duplicate (Inside News): 20 novembre 1989 : le texte qui a consacré les droits de l’enfant dans le monde == Несостоятельные застройщики: вложены миллионы, стройки брошены
+  dup: nothing new ()
+Skipped duplicate (L'Express): Milieu hippique | Allégations de vidéos truquées: une plainte déposée à la police == Он требует расследования: Kulwant Ubheeram осуждает «подделанные» видео
+LLM usage this run: 6 requests, 6294 tokens
