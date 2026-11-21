@@ -1,59 +1,16 @@
-### check 1/5 at 06:30
-  dup check: new (Запуск проекта Agri-Food Waste Transformation Project с бюджетом 1,5 млн рупий на 2026-27 годы и целью превращения агропищевых отходов в коммерческие )
+### check 1/5 at 14:11
+  dup check: new (Британский апелляционный суд 20 ноября 2026 года отказал в рассмотрении иска чагосцев о праве на возвращение, поданного Луи Мишелем Мандарином, его сы)
+  not about Mauritius: Droit de retour aux Chagos : nouveau revers judiciaire pour des Chagossiens installés au Royaume-Uni
+Skipped foreign news (Defimedia): Droit de retour aux Chagos : nouveau revers judiciaire pour des Chagossiens installés au Royaume-Uni
+  dup check: new (Арест нового подозреваемого Joseph Louisciano Leopold (alias « Limon ») в Roche-Bois с изъятием 72 доз каннабиса и 218 доз синтетической наркоты; оцен)
+  proofread: «Anti-Drug and Smuggling Unit» → «Отдел по борьбе с наркотиками и контрабандой»; "inspecteur Lepois" → "инспектора Лепуа"
+  foreign words left: Anti-Drug, and
+  leftovers fixed by GigaChat-3-Pro; still left: Anti-Drug, and
+Posted (Defimedia): Операция по борьбе с наркотиками в Roche-Bois: подозреваемый задержан после изъятия 218 доз синтетических наркотиков
+  proofread: должен быть → должен фигурировать
+  foreign words left: e-mail
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Цифровые водительские права на KOREK! — как сообщить об ошибке
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как источник дохода для кооперативов
-Posted (Le Mauricien): COP31: маврикийский частный сектор мобилизован вокруг климатических вопросов
-  dup check: new (В статье приводится мнение Оливье Банкула о том, что Найджел Фараж не знает сути дела по вопросу принадлежности архипелага Чагос и его зависимости от )
-  proofread: не знает материалов дела → не знаком с материалами дела
-Posted (Defimedia): Olivier Bancoult считает, что Nigel Farage не знаком с материалами дела
-  dup check: new (Судья отложил решение о компетенции FCD в деле Гобина и ещё четырёх обвиняемых; адвокаты утверждают, что дело должно рассматриваться судом промежуточн)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Оспаривается компетенция FCD: суд отложил решение по делу Gobin и ещё четырёх обвиняемых
-LLM usage this run: 11 requests, 20189 tokens
-### check 2/5 at 06:34
-  dup check: new (Mohammad Jaabir Papauretty был приговорён к пяти годам тюрьмы за попытку атаки на посольство Франции на Маврикии 17 мая 2024 года; он получил по пять )
-  proofread: Мохаммад Джаабир Папоретти → Мохаммад Джаабир Папуретти
-Posted (Defimedia): Попытка нападения на посольство Франции на Маврикии: Mohammad Jaabir Papauretty приговорён к пяти годам тюрьмы
-  dup check: new (Absa Mauritius организовала 20 ноября интерактивный семинар 'Cyber Fraud Bootcamp' для повышения осведомлённости о кибермошенничестве и новых методах )
-  foreign words left: QR-код, Cyber
-  leftovers fixed by GigaChat-3-Pro; still left: QR-код, Cyber
-Posted (Defimedia): Кибермошенничество: Absa Bank (Mauritius) призывает к бдительности в связи с онлайн-аферой
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Questions à… Me Parvèz Dookhy : « la souveraineté ne procède pas de la générosité de l’anc == Olivier Bancoult считает, что Nigel Farage не знаком с материалами дела
-  foreign words left: Campement, Tax
-  leftovers fixed by GigaChat-3-Pro; still left: Campement, Tax
-Posted (Le Mauricien): Верховный суд — восемь лет на вынесение вердикта: Апелляционный суд резко критикует задержку судьи
-LLM usage this run: 11 requests, 16731 tokens
-### check 3/5 at 06:38
-  dup check: new (Закрытие автомагистрали M2 между кольцевыми развязками Beau-Plan и Pamplemousses 22 ноября с 15:00 до полуночи для работ по ремонту тротуаров в районе)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Автомагистраль M2: движение закрыто между кольцевыми развязками Beau-Plan и Pamplemousses в это воскресенье
-  dup check: new (Начало пожара в старой деревянной постройке на улице Луи Пастера в Порт-Луи 20 ноября 2026 года; пожарные работают на месте происшествия; обстоятельст)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Начало пожара в старом деревянном доме в Port-Louis
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Banques mauriciennes : préparent des hausses des taux de prêt alors que le taux directeur  == Банки начинают пересматривать процентные ставки: сколько дополнительно заплатят домохозяйс
-  same headline as #39: Port-Louis Waterfront Food Festival : gastronomie, musique et innovations au pro
-Skipped duplicate (Defimedia): [En images] Le Port-Louis Waterfront Food Festival est lancé ! == Port-Louis Waterfront Food Festival: гастрономия, музыка и инновации в программе
-LLM usage this run: 7 requests, 9702 tokens
-### check 4/5 at 06:42
-  dup: nothing new (Статья анонсирует обсуждение в эфире «Au Cœur de l’Info» темы Night Market и его влияния на города и местных торговцев. Упоминаются участники дискусси)
-Skipped duplicate (Defimedia): « Au Cœur de l’Info » :- Night Market : Solution pour animer les villes pendant les fêtes  == Нарушение комендантского часа и хранение оружия: от трёх до шести месяцев тюрьмы для восьм
-  dup check: new (Jean-Michel Lee-Shim saisit la Cour suprême pour faire suspendre son interrogatoire «under warning» à la FCC prévu le lundi 23 novembre et sollicite u)
-Posted (Defimedia): FCC: Jean-Michel Lee-Shim обратился в Верховный суд, чтобы приостановить свой допрос «в качестве подозреваемого»
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Fièvre aphteuse : Arvin Boolell appelle à la vigilance == Ящур: четыре случая выявлены на ферме в Notre-Dame
-  dup: nothing new (Élodie Thomas est arrivée en Inde le jeudi 19 novembre pour continuer ses soins et prévoit de rentrer à Maurice le vendredi 27 novembre. Son époux ind)
-Skipped duplicate (Defimedia): Élodie Thomas en Inde pour poursuivre ses soins == Выстрел в Camp-Levieux: адвокат Rama Valayden требует скорейшего суда
-LLM usage this run: 6 requests, 8450 tokens
-### check 5/5 at 06:46
-  dup: nothing new ()
-Skipped duplicate (Wazaa): 4 bovins infectés à l’Île Maurice : échantillons sanguins envoyés en France pour tests vir == Ящур: четыре случая выявлены на ферме в Notre-Dame
-  dup check: new (На 22-м коллоквиуме VIH-IST & Addictions президент RAVANE Océan Indien Изабель Мари заявила о резком росте эпидемии ВИЧ в Индийском океане и представи)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Коллоквиум по ВИЧ/ИППП и зависимостям — Isabelle Marie: «Эпидемия мчится по Индийскому океану»
-  same headline as #12: Maurice décaisse Rs 78,39 milliards en neuf mois
-Skipped duplicate (Inside News): Carburants : la facture des importations pétrolières grimpe à Rs 78,39 milliards en neuf m == Маврикий выплатил 78,39 млрд рупий за девять месяцев
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : Élodie Thomas et son époux réclament Rs 25 millions au sergen == Выстрел в Camp-Levieux: адвокат Rama Valayden требует скорейшего суда
-LLM usage this run: 5 requests, 7944 tokens
+Posted (Defimedia): Tamarind Falls подключена к La Marie: дополнительно 20 000 кубометров воды в день
+LLM usage this run: 11 requests, 17795 tokens
