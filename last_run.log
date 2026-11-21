@@ -34,3 +34,19 @@ Skipped foreign news (Defimedia): "GTA VI" pulvérise le record de ventes au lan
   dup check: new (Анонсирован показ матча Liverpool – Manchester United на большом экране в Port-Louis Waterfront 22 ноября 2026 года с 19:30, включая аналитику и конку)
 Posted (Defimedia): Ливерпуль – Манчестер Юнайтед: показ дерби на большом экране!
 LLM usage this run: 8 requests, 13718 tokens
+### check 4/5 at 02:35
+  dup check: new (В статье рассказывается о смертельном наезде в Poudre-d’Or и личной истории жертвы — Jean Marc Luciano Pothiah, который недавно стал дедушкой. В опубл)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Poudre-d’Or
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Смертельный уход с места ДТП в Пудр-д’Ор: Luciano только что стал дедушкой и хотел начать жизнь заново
+  dup check: new (23 журналиста из стран Индийского океана прошли обучение по освещению климата и биоразнообразия в Порт-Луи с 17 по 19 ноября 2026 года; инициатива орг)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Inside News): Индийский океан: 23 журналиста прошли обучение для более качественного освещения климата и биоразнообразия
+  dup check: new (В статье впервые упоминается конфликт между адвокатом Rama Valayden и министром Shakeel Mohamed по поводу поездки последнего в Саудовскую Аравию после)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Чикунгунья и поездка в Саудовскую Аравию: вопросы Valayden, ответы Mohamed
+  dup check: new (Kulwant Ubheeram обвиняет в распространении поддельных видео с его изображением и клонированным голосом; это новая реакция на ситуацию после допроса J)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Он требует расследования: Kulwant Ubheeram осуждает «подделанные» видео
+LLM usage this run: 13 requests, 19665 tokens
