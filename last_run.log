@@ -23,3 +23,14 @@ Posted (Defimedia): Ночные рынки: торговые и праздни�
 Skipped duplicate (Defimedia): [En images] 30 ans du Caudan Waterfront == Air Mauritius: рейс MK744 перенаправлен в Мумбаи
 Posted (Defimedia): Роспуск советов деревень – окружные советники остаются в должности
 LLM usage this run: 7 requests, 9230 tokens
+### check 3/5 at 14:19
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Crise de l’eau – Feu vert à des projets de la CWA estimés à Rs 920 millions == Tamarind Falls подключена к La Marie: дополнительно 20 000 кубометров воды в день
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Île Maurice pourrait déclencher une alerte jaune pour l’électricité face à une demande de  == Электроэнергия: на Маврикии в пятницу вечером ожидается переход на «желтый уровень» тревог
+  dup check: new (Лондон согласился разработать совместный план действий с Маврикием по вопросу архипелага Чагос до конца декабря 2026 года; премьер-министр Маврикия по)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Chagos: Маврикий требует «дорожную карту», Лондон согласен на совместный план
+  dup check: new (Утверждён новый государственный план — Программа продовольственной безопасности 2026–2030 с целью к 2035 году покрывать не менее 25% потребностей стра)
+Posted (Defimedia): Продовольственная безопасность — Маврикий намерен к 2035 году покрывать не менее 25% своих потребностей в продовольствии за счет местного производства
+LLM usage this run: 8 requests, 11666 tokens
