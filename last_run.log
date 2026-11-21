@@ -1,59 +1,14 @@
-### check 1/5 at 14:11
-  dup check: new (Британский апелляционный суд 20 ноября 2026 года отказал в рассмотрении иска чагосцев о праве на возвращение, поданного Луи Мишелем Мандарином, его сы)
-  not about Mauritius: Droit de retour aux Chagos : nouveau revers judiciaire pour des Chagossiens installés au Royaume-Uni
-Skipped foreign news (Defimedia): Droit de retour aux Chagos : nouveau revers judiciaire pour des Chagossiens installés au Royaume-Uni
-  dup check: new (Арест нового подозреваемого Joseph Louisciano Leopold (alias « Limon ») в Roche-Bois с изъятием 72 доз каннабиса и 218 доз синтетической наркоты; оцен)
-  proofread: «Anti-Drug and Smuggling Unit» → «Отдел по борьбе с наркотиками и контрабандой»; "inspecteur Lepois" → "инспектора Лепуа"
-  foreign words left: Anti-Drug, and
-  leftovers fixed by GigaChat-3-Pro; still left: Anti-Drug, and
-Posted (Defimedia): Операция по борьбе с наркотиками в Roche-Bois: подозреваемый задержан после изъятия 218 доз синтетических наркотиков
-  proofread: должен быть → должен фигурировать
-  foreign words left: e-mail
+### check 1/5 at 21:37
+New source Le Mauricien: skipped backlog, posting newest only
+  dup check: new (Смерть Alex Ng Kong 15 ноября после ДТП в Порт-Луи; интервью его жены о последних моментах жизни и подробности аварии (место — улица Royale, дата госп)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Jeetoo
   leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Цифровые водительские права на KOREK! — как сообщить об ошибке
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Tamarind Falls подключена к La Marie: дополнительно 20 000 кубометров воды в день
-LLM usage this run: 11 requests, 17795 tokens
-### check 2/5 at 14:15
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « Mo bnne bef inn zet lekor » == Ящур: четыре случая выявлены на ферме в Notre-Dame
-  dup check: new (Одобрено проведение Night Markets в декабре 2026 и январе 2027; Champ-de-Mars в Порт-Луи с 18 декабря; до 320 торговцев смогут арендовать место за Rs )
-Posted (Defimedia): Ночные рынки: торговые и праздничные пространства к новогодним праздникам
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [En images] 30 ans du Caudan Waterfront == Air Mauritius: рейс MK744 перенаправлен в Мумбаи
-Posted (Defimedia): Роспуск советов деревень – окружные советники остаются в должности
-LLM usage this run: 7 requests, 9230 tokens
-### check 3/5 at 14:19
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Crise de l’eau – Feu vert à des projets de la CWA estimés à Rs 920 millions == Tamarind Falls подключена к La Marie: дополнительно 20 000 кубометров воды в день
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Île Maurice pourrait déclencher une alerte jaune pour l’électricité face à une demande de  == Электроэнергия: на Маврикии в пятницу вечером ожидается переход на «желтый уровень» тревог
-  dup check: new (Лондон согласился разработать совместный план действий с Маврикием по вопросу архипелага Чагос до конца декабря 2026 года; премьер-министр Маврикия по)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Chagos: Маврикий требует «дорожную карту», Лондон согласен на совместный план
-  dup check: new (Утверждён новый государственный план — Программа продовольственной безопасности 2026–2030 с целью к 2035 году покрывать не менее 25% потребностей стра)
-Posted (Defimedia): Продовольственная безопасность — Маврикий намерен к 2035 году покрывать не менее 25% своих потребностей в продовольствии за счет местного производства
-LLM usage this run: 8 requests, 11666 tokens
-### check 4/5 at 14:23
-  dup check: new (Запрос технической помощи ВОЗ для проведения эпидемиологического исследования по злоупотреблению пестицидами в продовольственном секторе.)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Злоупотребление пестицидами: Маврикий запросил техническую помощь ВОЗ для проведения эпидемиологического исследования
-  proofread: «два колеса, два шага, жизнь не дается второй раз» → «Два колеса — два шага, жизнь не дается второй раз»
-Posted (Defimedia): Штрафные баллы: за январь–октябрь 2026 года зафиксировано 27 947 нарушений
-  dup check: new (Заявление премьер-министра Навина Рамгулама о намерении сделать Порт-Луи оживлённым городом после рабочего дня и вернуть ему роль центра культурной жи)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Navin Ramgoolam хочет, чтобы Port-Louis жил и после рабочего дня
-  dup check: new (Hammerhead International Ltd не будет разрешено подать апелляцию в Судебный комитет Тайного совета по поводу отмены проекта по отлову, разведению и эк)
-Posted (Wazaa): Hammerhead International проигрывает апелляцию в Тайном совете по проекту разведения макак (2026)
-LLM usage this run: 11 requests, 18242 tokens
-### check 5/5 at 14:27
-  dup check: new (В статье говорится о том, что 173 страны имеют национальный план по борьбе с устойчивостью к антимикробным препаратам (в 2017 году — только 79 стран),)
-  not about Mauritius: Résistance aux antibiotiques : 173 pays ont un plan, mais l’OMS alerte sur les moyens
-Skipped foreign news (Inside News): Résistance aux antibiotiques : 173 pays ont un plan, mais l’OMS alerte sur les moyens
-  dup check: new ()
-Posted (Inside News): Погода на Маврикии в субботу, 21 ноября: утром дожди на востоке и севере, днём локальный риск на западе
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): La météo de ce samedi 21 novembre == Погода на Маврикии в субботу, 21 ноября: утром дожди на востоке и севере, днём локальный р
-  dup check: new (45 кандидатов успешно сдали экзамены Совета по профессиональному юридическому образованию; 26 адвокатов, 18 барристеров и одна женщина-нотариус; резул)
-Posted (Wazaa): 45 кандидатов успешно сдали экзамены Совета по профессиональному юридическому образованию
-LLM usage this run: 9 requests, 14418 tokens
+Posted (Defimedia): Смерть Alex Ng Kong в 99 лет после ДТП: его супруга делится воспоминаниями
+  not about Mauritius: Iran : ce qu’il faut retenir de l’entretien d’Abbas Araghchi sur Ormuz et le nucléaire
+Skipped foreign news (Defimedia): Iran : ce qu’il faut retenir de l’entretien d’Abbas Araghchi sur Ormuz et le nucléaire
+  not about Mauritius: Fiche de paie incomplète : les droits du salarié et les démarches à suivre
+Skipped foreign news (Inside News): Fiche de paie incomplète : les droits du salarié et les démarches à suivre
+  dup: nothing new (Длинная очередь на контроле безопасности в аэропорту Плаисанс и работа только одного из трёх постов контроля утром 21 ноября.)
+Skipped duplicate (Defimedia): Plaisance : un seul des trois postes de contrôle en service, une longue file d’attente sig == Несостоятельные застройщики: вложены миллионы, стройки брошены
+LLM usage this run: 7 requests, 12079 tokens
