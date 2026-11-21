@@ -1,59 +1,12 @@
-### check 1/5 at 01:16
-  not news (portrait/lifestyle): [Blog] Are we raising a generation that speaks English but is losing its mother tongue?
-Skipped foreign news (Defimedia): [Blog] Are we raising a generation that speaks English but is losing its mother tongue?
-GigaChat balance: GigaChat-Ultra 45,149,424, GigaChat-Pro 35,978,010, GigaChat-Max 23,925,401, GigaChat 249,589,075; 333 days to go
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Projet d’élevage de macaques : Hammerhead International Ltd ne pourra pas recourir au Cons == Dhaneshwar Damry: «Цель этого правительства — защищать потребителей»
-  not about Mauritius: "Ramenez les Rohingas chez eux", lance à la Birmanie le chef de l'Assemblée générale de l'ONU
-Skipped foreign news (Defimedia): "Ramenez les Rohingas chez eux", lance à la Birmanie le chef de l'Assemblée générale de l'ONU
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Rapport de la Competition Commission - Grande distribution : des petits opérateurs face au == Competition Commission: к усилению правового регулирования в ответ на новые экономические 
-LLM usage this run: 4 requests, 7735 tokens
-### check 2/5 at 01:20
-  dup check: new (Назначение Me Robin Ramburn, SC новым президентом Gambling Regulatory Authority (GRA) после вынужденного ухода Veeshal Chumroo; GRA работала под време)
+### check 1/5 at 06:30
+  dup check: new (Запуск проекта Agri-Food Waste Transformation Project с бюджетом 1,5 млн рупий на 2026-27 годы и целью превращения агропищевых отходов в коммерческие )
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Ипподромные скачки — после вынужденного ухода Veeshal Chumroo: адвокат Robin Ramburn, старший юрисконсульт, новый председатель GRA
-  dup check: new (Ожидается переход энергосистемы Маврикия в режим желтой тревоги вечером 20 ноября из-за ограниченной резервной мощности; прогнозируемый спрос — 520 МВ)
-  proofread: 
-Posted (Defimedia): Электроэнергия: на Маврикии в пятницу вечером ожидается переход на «желтый уровень» тревоги
-  dup: nothing new (Les échantillons de sang seront envoyés en France à l'Anses pour identifier la souche du virus.)
-Skipped duplicate (Defimedia): Fièvre aphteuse : des échantillons de sang seront envoyés en France pour déterminer l’orig == Ящур: четыре случая выявлены на ферме в Notre-Dame
-  dup check: new (Упоминание о трёх дорогах (Réunion Road, Cantin Road и Très Bon Road No. 2), которые будут закрыты с 9 до 13 часов в рамках симуляции наводнения в Вак)
+Posted (Le Mauricien): Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как источник дохода для кооперативов
+Posted (Le Mauricien): COP31: маврикийский частный сектор мобилизован вокруг климатических вопросов
+  dup check: new (В статье приводится мнение Оливье Банкула о том, что Найджел Фараж не знает сути дела по вопросу принадлежности архипелага Чагос и его зависимости от )
+  proofread: не знает материалов дела → не знаком с материалами дела
+Posted (Defimedia): Olivier Bancoult считает, что Nigel Farage не знаком с материалами дела
+  dup check: new (Судья отложил решение о компетенции FCD в деле Гобина и ещё четырёх обвиняемых; адвокаты утверждают, что дело должно рассматриваться судом промежуточн)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Учение по имитации наводнения: три дороги будут перекрыты в Vacoas в эту субботу
-LLM usage this run: 10 requests, 14448 tokens
-### check 3/5 at 01:24
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Dossier Chagos et lutte contre la drogue : « décevant » et « déplorable », affirme Paul Bé == Dhaneshwar Damry: «Цель этого правительства — защищать потребителей»
-  same headline as #20: Air Mauritius : le vol MK744 dérouté vers Mumbai
-Skipped duplicate (Le Mauricien): Desserte aérienne — VOL MK744 DÉROUTÉ VERS MUMBAI : Un renfort technique dépêché pour inte == Air Mauritius: рейс MK744 перенаправлен в Мумбаи
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): IA et Communications — Africa Tech Festival 2026 : MT remporte le Telecom Innovation Award == Cassava Technologies и Mauritius Telecom подписали протокол о намерениях по услугам ИИ и о
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Avocat-conseil sénior, 30 ans d’expérience, nommé président de l’Autorité de régulation de == Ипподромные скачки — после вынужденного ухода Veeshal Chumroo: адвокат Robin Ramburn, стар
-LLM usage this run: 3 requests, 1923 tokens
-### check 4/5 at 01:28
-  dup check: new (Реми Фёйе завоевал бронзовую медаль на турнире Open d’Abidjan 2026 и занимает 99-е место в олимпийском рейтинге; он участвует в кампании за прямую ква)
-  proofread: 
-  foreign words left: African
-  leftovers fixed by GigaChat-3-Pro; still left: African
-Posted (Le Mauricien): Дзюдо: бронзовая медаль на African Open в Абиджане 2026 — Rémi Feuillet занимает 99-е место в олимпийском рейтинге
-  dup check: new (Статья о пересмотре банками процентных ставок и влиянии этого на домохозяйства и предприятия; ранее опубликованный пост касается ВИЧ в Маврикии.)
-Posted (Defimedia): Банки начинают пересматривать процентные ставки: сколько дополнительно заплатят домохозяйства и компании?
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): SMS PARIAZ ET PROJET PETIT-GAMIN : Lee Shim suppute un complot de l’Attorney General et le == Пост полиции Line-Barracks: Jean-Michel Lee Shim подал жалобу о заговоре
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [DÉFIXPLIK] Électricité en alerte jaune ce soir : pourquoi et quels gestes adopter ? == Электроэнергия: на Маврикии в пятницу вечером ожидается переход на «желтый уровень» тревог
-LLM usage this run: 9 requests, 11855 tokens
-### check 5/5 at 01:32
-  dup check: new ()
-Posted (Le Mauricien): ФУТБОЛ – Дивизион 2 (2-й тур): «Эль Класико», «Quatre-Bornes» и «Trou-aux-Biches» задают тон
-  dup check: new (Статья анонсирует дебаты на RadioPlus о Night Market: его пользе для городов и влиянии на местных торговцев. Приводятся имена участников (Noorjahan Jo)
-  not news (portrait/lifestyle): Night Market : solution pour animer les villes pendant les fêtes ou concurrence déloyale pour les co
-Skipped foreign news (Defimedia): Night Market : solution pour animer les villes pendant les fêtes ou concurrence déloyale pour les co
-  dup check: new (В статье сообщается о первом этапе перезагрузки отношений между Великобританией и ЕС после Brexit, включая конкретные соглашения и условия, связанные )
-  not about Mauritius: Le Royaume-Uni et l'UE actent à Bruxelles le premier chapitre de leur "reset"
-Skipped foreign news (Defimedia): Le Royaume-Uni et l'UE actent à Bruxelles le premier chapitre de leur "reset"
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Chagos : sur quelles bases juridiques Maurice pourrait-il poursuivre Londres ? == Dhaneshwar Damry: «Цель этого правительства — защищать потребителей»
-LLM usage this run: 8 requests, 14217 tokens
+Posted (Defimedia): Оспаривается компетенция FCD: суд отложил решение по делу Gobin и ещё четырёх обвиняемых
+LLM usage this run: 11 requests, 20189 tokens
