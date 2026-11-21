@@ -36,3 +36,13 @@ Skipped duplicate (Wazaa): Banques mauriciennes : préparent des hausses des tau
   same headline as #39: Port-Louis Waterfront Food Festival : gastronomie, musique et innovations au pro
 Skipped duplicate (Defimedia): [En images] Le Port-Louis Waterfront Food Festival est lancé ! == Port-Louis Waterfront Food Festival: гастрономия, музыка и инновации в программе
 LLM usage this run: 7 requests, 9702 tokens
+### check 4/5 at 06:42
+  dup: nothing new (Статья анонсирует обсуждение в эфире «Au Cœur de l’Info» темы Night Market и его влияния на города и местных торговцев. Упоминаются участники дискусси)
+Skipped duplicate (Defimedia): « Au Cœur de l’Info » :- Night Market : Solution pour animer les villes pendant les fêtes  == Нарушение комендантского часа и хранение оружия: от трёх до шести месяцев тюрьмы для восьм
+  dup check: new (Jean-Michel Lee-Shim saisit la Cour suprême pour faire suspendre son interrogatoire «under warning» à la FCC prévu le lundi 23 novembre et sollicite u)
+Posted (Defimedia): FCC: Jean-Michel Lee-Shim обратился в Верховный суд, чтобы приостановить свой допрос «в качестве подозреваемого»
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Fièvre aphteuse : Arvin Boolell appelle à la vigilance == Ящур: четыре случая выявлены на ферме в Notre-Dame
+  dup: nothing new (Élodie Thomas est arrivée en Inde le jeudi 19 novembre pour continuer ses soins et prévoit de rentrer à Maurice le vendredi 27 novembre. Son époux ind)
+Skipped duplicate (Defimedia): Élodie Thomas en Inde pour poursuivre ses soins == Выстрел в Camp-Levieux: адвокат Rama Valayden требует скорейшего суда
+LLM usage this run: 6 requests, 8450 tokens
