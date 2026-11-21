@@ -23,3 +23,14 @@ Skipped foreign news (Defimedia): Les Ochootoya : une famille tissée par le com
   proofread: электронный система → электронная система
 Posted (Inside News): Омбудсмен на Маврикии: представлен новый электронный система для жалоб
 LLM usage this run: 7 requests, 11783 tokens
+### check 3/5 at 02:31
+  dup check: new (Chetan Baboolall призвал премьер-министра вмешаться в ситуацию с работниками World Knits и Universal Fabrics из-за невыплаты зарплат и неопределённост)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): World Knits и Universal Fabrics: лидер оппозиции Chetan Baboolall призывает премьер-министра вмешаться
+  dup: nothing new ()
+Skipped duplicate (Defimedia): À 99 ans, Alex Ng Kong meurt dans un accident : sa veuve : « Il était aux petits soins ave == Смерть Alex Ng Kong в 99 лет после ДТП: его супруга делится воспоминаниями
+  not about Mauritius: "GTA VI" pulvérise le record de ventes au lancement et agace une partie des joueurs
+Skipped foreign news (Defimedia): "GTA VI" pulvérise le record de ventes au lancement et agace une partie des joueurs
+  dup check: new (Анонсирован показ матча Liverpool – Manchester United на большом экране в Port-Louis Waterfront 22 ноября 2026 года с 19:30, включая аналитику и конку)
+Posted (Defimedia): Ливерпуль – Манчестер Юнайтед: показ дерби на большом экране!
+LLM usage this run: 8 requests, 13718 tokens
