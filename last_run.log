@@ -46,3 +46,14 @@ Posted (Defimedia): Navin Ramgoolam хочет, чтобы Port-Louis жил и 
   dup check: new (Hammerhead International Ltd не будет разрешено подать апелляцию в Судебный комитет Тайного совета по поводу отмены проекта по отлову, разведению и эк)
 Posted (Wazaa): Hammerhead International проигрывает апелляцию в Тайном совете по проекту разведения макак (2026)
 LLM usage this run: 11 requests, 18242 tokens
+### check 5/5 at 14:27
+  dup check: new (В статье говорится о том, что 173 страны имеют национальный план по борьбе с устойчивостью к антимикробным препаратам (в 2017 году — только 79 стран),)
+  not about Mauritius: Résistance aux antibiotiques : 173 pays ont un plan, mais l’OMS alerte sur les moyens
+Skipped foreign news (Inside News): Résistance aux antibiotiques : 173 pays ont un plan, mais l’OMS alerte sur les moyens
+  dup check: new ()
+Posted (Inside News): Погода на Маврикии в субботу, 21 ноября: утром дожди на востоке и севере, днём локальный риск на западе
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): La météo de ce samedi 21 novembre == Погода на Маврикии в субботу, 21 ноября: утром дожди на востоке и севере, днём локальный р
+  dup check: new (45 кандидатов успешно сдали экзамены Совета по профессиональному юридическому образованию; 26 адвокатов, 18 барристеров и одна женщина-нотариус; резул)
+Posted (Wazaa): 45 кандидатов успешно сдали экзамены Совета по профессиональному юридическому образованию
+LLM usage this run: 9 requests, 14418 tokens
