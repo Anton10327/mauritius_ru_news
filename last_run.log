@@ -46,3 +46,14 @@ Skipped duplicate (Defimedia): Fièvre aphteuse : Arvin Boolell appelle à la vi
   dup: nothing new (Élodie Thomas est arrivée en Inde le jeudi 19 novembre pour continuer ses soins et prévoit de rentrer à Maurice le vendredi 27 novembre. Son époux ind)
 Skipped duplicate (Defimedia): Élodie Thomas en Inde pour poursuivre ses soins == Выстрел в Camp-Levieux: адвокат Rama Valayden требует скорейшего суда
 LLM usage this run: 6 requests, 8450 tokens
+### check 5/5 at 06:46
+  dup: nothing new ()
+Skipped duplicate (Wazaa): 4 bovins infectés à l’Île Maurice : échantillons sanguins envoyés en France pour tests vir == Ящур: четыре случая выявлены на ферме в Notre-Dame
+  dup check: new (На 22-м коллоквиуме VIH-IST & Addictions президент RAVANE Océan Indien Изабель Мари заявила о резком росте эпидемии ВИЧ в Индийском океане и представи)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Коллоквиум по ВИЧ/ИППП и зависимостям — Isabelle Marie: «Эпидемия мчится по Индийскому океану»
+  same headline as #12: Maurice décaisse Rs 78,39 milliards en neuf mois
+Skipped duplicate (Inside News): Carburants : la facture des importations pétrolières grimpe à Rs 78,39 milliards en neuf m == Маврикий выплатил 78,39 млрд рупий за девять месяцев
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Coup de feu à Camp-Levieux : Élodie Thomas et son époux réclament Rs 25 millions au sergen == Выстрел в Camp-Levieux: адвокат Rama Valayden требует скорейшего суда
+LLM usage this run: 5 requests, 7944 tokens
