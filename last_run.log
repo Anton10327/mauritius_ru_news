@@ -10,3 +10,17 @@ Posted (Defimedia): Olivier Bancoult считает, что Nigel Farage не з
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Оспаривается компетенция FCD: суд отложил решение по делу Gobin и ещё четырёх обвиняемых
 LLM usage this run: 11 requests, 20189 tokens
+### check 2/5 at 06:34
+  dup check: new (Mohammad Jaabir Papauretty был приговорён к пяти годам тюрьмы за попытку атаки на посольство Франции на Маврикии 17 мая 2024 года; он получил по пять )
+  proofread: Мохаммад Джаабир Папоретти → Мохаммад Джаабир Папуретти
+Posted (Defimedia): Попытка нападения на посольство Франции на Маврикии: Mohammad Jaabir Papauretty приговорён к пяти годам тюрьмы
+  dup check: new (Absa Mauritius организовала 20 ноября интерактивный семинар 'Cyber Fraud Bootcamp' для повышения осведомлённости о кибермошенничестве и новых методах )
+  foreign words left: QR-код, Cyber
+  leftovers fixed by GigaChat-3-Pro; still left: QR-код, Cyber
+Posted (Defimedia): Кибермошенничество: Absa Bank (Mauritius) призывает к бдительности в связи с онлайн-аферой
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Questions à… Me Parvèz Dookhy : « la souveraineté ne procède pas de la générosité de l’anc == Olivier Bancoult считает, что Nigel Farage не знаком с материалами дела
+  foreign words left: Campement, Tax
+  leftovers fixed by GigaChat-3-Pro; still left: Campement, Tax
+Posted (Le Mauricien): Верховный суд — восемь лет на вынесение вердикта: Апелляционный суд резко критикует задержку судьи
+LLM usage this run: 11 requests, 16731 tokens
