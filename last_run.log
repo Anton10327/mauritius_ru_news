@@ -12,3 +12,14 @@ Skipped foreign news (Inside News): Fiche de paie incomplète : les droits du sa
   dup: nothing new (Длинная очередь на контроле безопасности в аэропорту Плаисанс и работа только одного из трёх постов контроля утром 21 ноября.)
 Skipped duplicate (Defimedia): Plaisance : un seul des trois postes de contrôle en service, une longue file d’attente sig == Несостоятельные застройщики: вложены миллионы, стройки брошены
 LLM usage this run: 7 requests, 12079 tokens
+### check 2/5 at 21:41
+  dup check: new (Статья о первом матче Маурисио Почеттино в качестве тренера Манчестер Юнайтед против Ливерпуля и положении команды в зоне вылета Премьер-лиги.)
+  not about Mauritius: Mauricio Pochettino peut-il éviter la relégation à Manchester United ?
+Skipped foreign news (Defimedia): Mauricio Pochettino peut-il éviter la relégation à Manchester United ?
+  not about Mauritius: MLS : Lionel Messi reste le joueur le mieux payé avec environ Rs 1,30 milliard
+Skipped foreign news (Defimedia): MLS : Lionel Messi reste le joueur le mieux payé avec environ Rs 1,30 milliard
+  not about Mauritius: Le FBI de nouveau piraté, sa base de données criminelles visée cette fois
+Skipped foreign news (Defimedia): Le FBI de nouveau piraté, sa base de données criminelles visée cette fois
+  not about Mauritius: Gérard Depardieu et Michel Houellebecq visés par une enquête pour des faits présumés à caractère sex
+Skipped foreign news (Defimedia): Gérard Depardieu et Michel Houellebecq visés par une enquête pour des faits présumés à caractère sex
+LLM usage this run: 5 requests, 12829 tokens
