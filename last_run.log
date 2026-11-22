@@ -52,3 +52,16 @@ Skipped duplicate (L'Express): Positif au chikungunya : Rama Valayden pique, Sha
   leftovers fixed by GigaChat-3-Pro; still left: Systems
 Posted (Le Mauricien): Бизнес | Итоги: Harel Mallac увеличивает выручку
 LLM usage this run: 9 requests, 12043 tokens
+### check 5/5 at 14:31
+  dup: nothing new ()
+Skipped duplicate (L'Express): Accident fatal à Bel-Air-Rivière-Sèche  : Yoan Montagnard, 23 ans, rêvait de construire sa == Bel-Air–Ривьер-Сек: 23-летний Yovan Stanley Montagnard погиб в ДТП с мотоциклом
+  dup check: new (CIEL: квартальная прибыль +42% до 1,1 млрд рупий; выручка +6% до 9,9 млрд; EBITDA +29% до 2,1 млрд (маржа 20,8%).)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Финансовый отчёт за квартал: прибыль CIEL выросла на 42%, до 1,1 млрд рупий
+  dup check: new (Контракт на проведение технико-экономического обоснования опреснения морской воды в Маврикии передан немецкой фирме Fischer; проект рассматривается дл)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Десалинаж: контракт на технико-экономическое обоснование передан немецкой фирме Fischer
+  dup check: new (Новый случай: водитель грузовика оштрафован на 50 000 рупий за незаконный сброс строительных отходов в Вакоа; ему также дано пять дней на уборку мусор)
+  proofread: водитель грузовика из Бамбу → водитель грузовика из Бамбу
+Posted (Defimedia): Vacoas: водитель грузовика оштрафован на 50 000 рупий за незаконный сброс отходов
+LLM usage this run: 10 requests, 14763 tokens
