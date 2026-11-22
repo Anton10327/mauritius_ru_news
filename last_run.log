@@ -20,3 +20,15 @@ Skipped duplicate (Inside News): Intelligence artificielle à Maurice : les entr
   dup: nothing new (Статья сообщает о праздновании 41-й Всемирной молодёжной католической встречи (Journée mondiale de la jeunesse) в диоцезах по всему миру и конкретно н)
 Skipped duplicate (Le Mauricien): Journée mondiale de la jeunesse — Mgr Durhône rassemble les jeunes à la cathédrale Saint-L == Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как ис
 LLM usage this run: 4 requests, 4480 tokens
+### check 3/5 at 03:29
+  dup: nothing new (Статья сообщает о начале процедуры ликвидации Silver Bank Ltd и неопределенности с возвратом депозитов на сумму Rs 7,5 млрд. Приводятся детали: оценка)
+Skipped duplicate (Defimedia): En liquidation - Silver Bank : remboursement incertain de Rs 7,5 milliards de dépôts == Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как ис
+  dup check: new (Статья сообщает о требованиях работников Mauritius Post увеличить мопедную надбавку с 4500 до 6000 рупий и затрагивает вопросы набора персонала и прод)
+  foreign words left: Workers
+  leftovers fixed by GigaChat-3-Pro; still left: Workers
+Posted (Inside News): Mauritius Post: после недовольства почтальонов — обязательства, которые предстоит выполнить
+  not news (portrait/lifestyle): Mario Justin : «Je veux retrouver la scène»
+Skipped foreign news (Defimedia): Mario Justin : «Je veux retrouver la scène»
+  dup: nothing new ()
+Skipped duplicate (L'Express): Face à la presse : Roshi Bhadain réclame un nouveau cap économique et une réouverture du d == Chagos: Roshi Bhadain призывает возобновить переговоры с Лондоном и Вашингтоном
+LLM usage this run: 7 requests, 9943 tokens
