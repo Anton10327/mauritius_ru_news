@@ -19,3 +19,17 @@ Posted (L'Express): COP31: Маврикий требует действий, а 
   not about Mauritius: Voyager 1 franchit la distance d’un jour-lumière de la Terre, une première historique
 Skipped foreign news (Inside News): Voyager 1 franchit la distance d’un jour-lumière de la Terre, une première historique
 LLM usage this run: 7 requests, 14566 tokens
+### check 3/5 at 06:39
+  dup: nothing new ()
+Skipped duplicate (L'Express): Affaire «Dreamer» : Les trajets en mer des frères Ramtohul au cœur de l’enquête == Дело Dreamer: 19-й подозреваемый задержан подразделением ADSU
+  not news (portrait/lifestyle): Interview… Anaelle Juste Tanner : «Franse pa pli lao ki Kreol Morisien»
+Skipped foreign news (L'Express): Interview… Anaelle Juste Tanner : «Franse pa pli lao ki Kreol Morisien»
+  dup check: new (В статье говорится о 22 умерших бывших сотрудниках Padco и Star Knitwear, которые не получили компенсацию; это новое событие (ранее не публиковалось).)
+  proofread: Star Knitwear в январе 2025 года → Star Knitwear в январе 2024 года
+  foreign words left: Padco
+  leftovers fixed by GigaChat-3-Pro; still left: Padco
+Posted (L'Express): Padco Ltd и Star Knitwear Ltd: 22 бывших сотрудника умерли, так и не получив компенсацию
+  dup check: new (Cyclone Xavier был понижен до категории 1 после достижения максимальной скорости ветра 220 км/ч и категории 5; указаны новые данные о его местоположен)
+  not about Mauritius: Cyclone Xavier : rétrogradé en catégorie 1 après un pic à 220 km/h dans le Pacifique
+Skipped foreign news (Inside News): Cyclone Xavier : rétrogradé en catégorie 1 après un pic à 220 km/h dans le Pacifique
+LLM usage this run: 8 requests, 13364 tokens
