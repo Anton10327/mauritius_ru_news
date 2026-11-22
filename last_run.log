@@ -1,63 +1,10 @@
-### check 1/5 at 02:23
-  dup check: new (Roshi Bhadain demande la reprise des négociations avec Londres et Washington sur Chagos; il propose de réclamer une compensation à Londres et un verse)
-GigaChat balance: GigaChat-Ultra 45,013,879, GigaChat-Pro 35,871,503, GigaChat-Max 23,925,401, GigaChat 249,589,075; 332 days to go
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Chagos: Roshi Bhadain призывает возобновить переговоры с Лондоном и Вашингтоном
-  dup check: new (Впервые сообщается о создании фильма с использованием искусственного интеллекта на Маврикии: писатель Ajay Ramphul адаптирует свой рассказ Enn vre zis)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Маврикийское кино и новые технологии: Ajay Ramphul открывает эру ИИ-фильма картиной «Sorry Dear»
+### check 1/5 at 06:31
   dup: nothing new ()
-Skipped duplicate (Wazaa): Île Maurice : 27 947 infractions routières et les décès de piétons et de deux-roues motori == Штрафные баллы: за январь–октябрь 2026 года зафиксировано 27 947 нарушений
-  dup check: new (Объявлено о прибытии двенадцати новых систем фильтрации воды к концу декабря; текущие три системы обеспечивают дополнительные 81 млн литров в день, но)
-Posted (Defimedia): Кризис водоснабжения: ожидается двенадцать новых систем фильтрации к концу декабря
-LLM usage this run: 10 requests, 17164 tokens
-### check 2/5 at 02:27
+Skipped duplicate (Defimedia): [Info Soirée] : « CE QUI CHANGE POUR PROTÉGER L'ENFANT » == Иск Ashik Jagai на 50 млн рупий: в центре внимания — требования защиты о разъяснениях
+  not about Mauritius: Le combat d’une mère pour sa fille : née prématurée, Lea, un an, risque de perdre la vue
+Skipped foreign news (Defimedia): Le combat d’une mère pour sa fille : née prématurée, Lea, un an, risque de perdre la vue
   dup: nothing new ()
-Skipped duplicate (Inside News): Eau à Maurice : la CWA annonce 81 millions de litres supplémentaires par jour == Кризис водоснабжения: ожидается двенадцать новых систем фильтрации к концу декабря
+Skipped duplicate (L'Express): Exposition : Riaz Auladin fait revivre le Port-Louis d’antan à l’aquarelle == Иск Ashik Jagai на 50 млн рупий: в центре внимания — требования защиты о разъяснениях
   dup: nothing new ()
-Skipped duplicate (Defimedia): [En images] Port-Louis Waterfront Food Festival : la deuxième édition se poursuit ce samed == Port-Louis Waterfront Food Festival: гастрономия, музыка и инновации в программе
-  dup check: new ()
-  not news (portrait/lifestyle): Les Ochootoya : une famille tissée par le commerce
-Skipped foreign news (Defimedia): Les Ochootoya : une famille tissée par le commerce
-  dup check: new (Представлен новый электронный система управления жалобами (E-CMS) от Ombudsman на Маврикии; также анонсированы другие инструменты для повышения доступ)
-  proofread: электронный система → электронная система
-Posted (Inside News): Омбудсмен на Маврикии: представлен новый электронный система для жалоб
-LLM usage this run: 7 requests, 11783 tokens
-### check 3/5 at 02:31
-  dup check: new (Chetan Baboolall призвал премьер-министра вмешаться в ситуацию с работниками World Knits и Universal Fabrics из-за невыплаты зарплат и неопределённост)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): World Knits и Universal Fabrics: лидер оппозиции Chetan Baboolall призывает премьер-министра вмешаться
-  dup: nothing new ()
-Skipped duplicate (Defimedia): À 99 ans, Alex Ng Kong meurt dans un accident : sa veuve : « Il était aux petits soins ave == Смерть Alex Ng Kong в 99 лет после ДТП: его супруга делится воспоминаниями
-  not about Mauritius: "GTA VI" pulvérise le record de ventes au lancement et agace une partie des joueurs
-Skipped foreign news (Defimedia): "GTA VI" pulvérise le record de ventes au lancement et agace une partie des joueurs
-  dup check: new (Анонсирован показ матча Liverpool – Manchester United на большом экране в Port-Louis Waterfront 22 ноября 2026 года с 19:30, включая аналитику и конку)
-Posted (Defimedia): Ливерпуль – Манчестер Юнайтед: показ дерби на большом экране!
-LLM usage this run: 8 requests, 13718 tokens
-### check 4/5 at 02:35
-  dup check: new (В статье рассказывается о смертельном наезде в Poudre-d’Or и личной истории жертвы — Jean Marc Luciano Pothiah, который недавно стал дедушкой. В опубл)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Poudre-d’Or
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Смертельный уход с места ДТП в Пудр-д’Ор: Luciano только что стал дедушкой и хотел начать жизнь заново
-  dup check: new (23 журналиста из стран Индийского океана прошли обучение по освещению климата и биоразнообразия в Порт-Луи с 17 по 19 ноября 2026 года; инициатива орг)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Индийский океан: 23 журналиста прошли обучение для более качественного освещения климата и биоразнообразия
-  dup check: new (В статье впервые упоминается конфликт между адвокатом Rama Valayden и министром Shakeel Mohamed по поводу поездки последнего в Саудовскую Аравию после)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Чикунгунья и поездка в Саудовскую Аравию: вопросы Valayden, ответы Mohamed
-  dup check: new (Kulwant Ubheeram обвиняет в распространении поддельных видео с его изображением и клонированным голосом; это новая реакция на ситуацию после допроса J)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Он требует расследования: Kulwant Ubheeram осуждает «подделанные» видео
-LLM usage this run: 13 requests, 19665 tokens
-### check 5/5 at 02:39
-  dup check: new (Смерть Nitish Jugdeo в Gentilly и интервью с его матерью Amrita Jugdeo о помощи сына и их отношениях.)
-  proofread: Гентийи → Гентийи
-Posted (Defimedia): Nitish Jugdeo утонул в Гентийи: «Он ушёл, и вернулся лишь его труп», — говорит Amrita Jugdeo
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Il ne travaille pas à cause d'un souci à la colonne vertébrale : Yogen, 51 ans, alité, rem == Несостоятельные застройщики: вложены миллионы, стройки брошены
-  dup: nothing new ()
-Skipped duplicate (Inside News): 20 novembre 1989 : le texte qui a consacré les droits de l’enfant dans le monde == Несостоятельные застройщики: вложены миллионы, стройки брошены
-  dup: nothing new ()
-Skipped duplicate (L'Express): Milieu hippique | Allégations de vidéos truquées: une plainte déposée à la police == Он требует расследования: Kulwant Ubheeram осуждает «подделанные» видео
-LLM usage this run: 6 requests, 6294 tokens
+Skipped duplicate (L'Express): Interview | Dr Reuben Veerapen : «Le cannabis n’est pas anodin» == Иск Ashik Jagai на 50 млн рупий: в центре внимания — требования защиты о разъяснениях
+LLM usage this run: 4 requests, 6569 tokens
