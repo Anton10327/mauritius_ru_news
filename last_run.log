@@ -1,57 +1,11 @@
-### check 1/5 at 06:31
+### check 1/5 at 14:15
+New source Inside News: skipped backlog, posting newest only
+Posted (Defimedia): Суверенный рейтинг: может ли Маврикий переломить тенденцию?
+  dup check: new (Организация донорской акции жителями La Ferme и запуск инициативы Forces vives для возрождения центра региона — новое событие, не связанное с ранее оп)
+Posted (Le Mauricien): БАМБУ | Инициатива «Сил Bambous»: центр района La Ferme обретает новую жизнь
   dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « CE QUI CHANGE POUR PROTÉGER L'ENFANT » == Иск Ashik Jagai на 50 млн рупий: в центре внимания — требования защиты о разъяснениях
-  not about Mauritius: Le combat d’une mère pour sa fille : née prématurée, Lea, un an, risque de perdre la vue
-Skipped foreign news (Defimedia): Le combat d’une mère pour sa fille : née prématurée, Lea, un an, risque de perdre la vue
-  dup: nothing new ()
-Skipped duplicate (L'Express): Exposition : Riaz Auladin fait revivre le Port-Louis d’antan à l’aquarelle == Иск Ashik Jagai на 50 млн рупий: в центре внимания — требования защиты о разъяснениях
-  dup: nothing new ()
-Skipped duplicate (L'Express): Interview | Dr Reuben Veerapen : «Le cannabis n’est pas anodin» == Иск Ashik Jagai на 50 млн рупий: в центре внимания — требования защиты о разъяснениях
-LLM usage this run: 4 requests, 6569 tokens
-### check 2/5 at 06:35
-  not news (portrait/lifestyle): Gilbert Espitalier-Noël : «Maurice doit assumer pleinement sa vocation de centre de services pour l’
-Skipped foreign news (L'Express): Gilbert Espitalier-Noël : «Maurice doit assumer pleinement sa vocation de centre de services pour l’
-  proofread: Rajesh Bhagwan → Раджеш Багван
-Posted (L'Express): Эрозия в Tamarin: перед проведением долговечных работ запланирована 12-месячная научная работа
-  proofread: Rajesh Bhagwan → Раджеш Багван; Vanuatu → Вануату; Ralph Regenvanu → Ральф Регеваню
-Posted (L'Express): COP31: Маврикий требует действий, а не обещаний
-  dup check: new (Voyager 1 впервые преодолел расстояние в один световой день от Земли (25,9 млрд км) — это историческое событие для космического аппарата.)
-  not about Mauritius: Voyager 1 franchit la distance d’un jour-lumière de la Terre, une première historique
-Skipped foreign news (Inside News): Voyager 1 franchit la distance d’un jour-lumière de la Terre, une première historique
-LLM usage this run: 7 requests, 14566 tokens
-### check 3/5 at 06:39
-  dup: nothing new ()
-Skipped duplicate (L'Express): Affaire «Dreamer» : Les trajets en mer des frères Ramtohul au cœur de l’enquête == Дело Dreamer: 19-й подозреваемый задержан подразделением ADSU
-  not news (portrait/lifestyle): Interview… Anaelle Juste Tanner : «Franse pa pli lao ki Kreol Morisien»
-Skipped foreign news (L'Express): Interview… Anaelle Juste Tanner : «Franse pa pli lao ki Kreol Morisien»
-  dup check: new (В статье говорится о 22 умерших бывших сотрудниках Padco и Star Knitwear, которые не получили компенсацию; это новое событие (ранее не публиковалось).)
-  proofread: Star Knitwear в январе 2025 года → Star Knitwear в январе 2024 года
-  foreign words left: Padco
-  leftovers fixed by GigaChat-3-Pro; still left: Padco
-Posted (L'Express): Padco Ltd и Star Knitwear Ltd: 22 бывших сотрудника умерли, так и не получив компенсацию
-  dup check: new (Cyclone Xavier был понижен до категории 1 после достижения максимальной скорости ветра 220 км/ч и категории 5; указаны новые данные о его местоположен)
-  not about Mauritius: Cyclone Xavier : rétrogradé en catégorie 1 après un pic à 220 km/h dans le Pacifique
-Skipped foreign news (Inside News): Cyclone Xavier : rétrogradé en catégorie 1 après un pic à 220 km/h dans le Pacifique
-LLM usage this run: 8 requests, 13364 tokens
-### check 4/5 at 06:43
-  not about Mauritius: [En images] Dialogue Afrique-Chine: la société civile explore de nouvelles pistes de coopération
-Skipped foreign news (L'Express): [En images] Dialogue Afrique-Chine: la société civile explore de nouvelles pistes de coopération
-  foreign words left: Fun
-  leftovers fixed by GigaChat-3-Pro; still left: Fun
-Posted (L'Express): «Fun Rallye 3»: 10 лет Motor Racing Club, 10 лет историй
-  dup: nothing new ()
-Skipped duplicate (L'Express): Fièvre aphteuse : L’État déclenche son dispositif sanitaire == Ящур: четыре случая выявлены на ферме в Notre-Dame
-  dup: nothing new ()
-Skipped duplicate (Inside News): Météo à Maurice dimanche 22 novembre : beau temps et jusqu’à 33 °C sur les côtes == Погода на Маврикии в субботу, 21 ноября: утром дожди на востоке и севере, днём локальный р
-LLM usage this run: 6 requests, 8282 tokens
-### check 5/5 at 06:47
-  dup: nothing new ()
-Skipped duplicate (L'Express): Conseil des ministres : Plan d’urgence pour l’eau, nouveau cadre pour l’adoption et retour == Ночные рынки: торговые и праздничные пространства к новогодним праздникам
-  dup: nothing new ()
-Skipped duplicate (L'Express): Conseil des ministres | Chagos : Maurice et Londres visent une feuille de route avant fin  == Chagos: Маврикий требует «дорожную карту», Лондон согласен на совместный план
-  dup: nothing new ()
-Skipped duplicate (L'Express): Collectivités locales : Les conseils de district assurent la continuité après la dissoluti == Роспуск советов деревень – окружные советники остаются в должности
-  dup check: new (В Берлине прошла демонстрация в поддержку палестинцев с участием сотен человек; полиция задержала трёх участников. Это новое событие, не связанное с р)
-  not about Mauritius: Berlin : des centaines de personnes défilent en soutien aux Palestiniens
-Skipped foreign news (Defimedia): Berlin : des centaines de personnes défilent en soutien aux Palestiniens
-LLM usage this run: 5 requests, 6975 tokens
+Skipped duplicate (Le Mauricien): Chagos : un ultimatum diplomatique avant fin décembre == Chagos: Маврикий требует «дорожную карту», Лондон согласен на совместный план
+  dup check: new (Израильский авиаудар по грузовику в Газе с тремя погибшими; детали о перевозке еды и документов гуманитарной организации World Central Kitchen (WCK), )
+  not about Mauritius: Gaza : une frappe israélienne sur un camion fait trois morts, selon le ministère de la Santé
+Skipped foreign news (Defimedia): Gaza : une frappe israélienne sur un camion fait trois morts, selon le ministère de la Santé
+LLM usage this run: 8 requests, 14784 tokens
