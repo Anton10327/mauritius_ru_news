@@ -8,3 +8,14 @@ Skipped duplicate (L'Express): Exposition : Riaz Auladin fait revivre le Port-Lo
   dup: nothing new ()
 Skipped duplicate (L'Express): Interview | Dr Reuben Veerapen : «Le cannabis n’est pas anodin» == Иск Ashik Jagai на 50 млн рупий: в центре внимания — требования защиты о разъяснениях
 LLM usage this run: 4 requests, 6569 tokens
+### check 2/5 at 06:35
+  not news (portrait/lifestyle): Gilbert Espitalier-Noël : «Maurice doit assumer pleinement sa vocation de centre de services pour l’
+Skipped foreign news (L'Express): Gilbert Espitalier-Noël : «Maurice doit assumer pleinement sa vocation de centre de services pour l’
+  proofread: Rajesh Bhagwan → Раджеш Багван
+Posted (L'Express): Эрозия в Tamarin: перед проведением долговечных работ запланирована 12-месячная научная работа
+  proofread: Rajesh Bhagwan → Раджеш Багван; Vanuatu → Вануату; Ralph Regenvanu → Ральф Регеваню
+Posted (L'Express): COP31: Маврикий требует действий, а не обещаний
+  dup check: new (Voyager 1 впервые преодолел расстояние в один световой день от Земли (25,9 млрд км) — это историческое событие для космического аппарата.)
+  not about Mauritius: Voyager 1 franchit la distance d’un jour-lumière de la Terre, une première historique
+Skipped foreign news (Inside News): Voyager 1 franchit la distance d’un jour-lumière de la Terre, une première historique
+LLM usage this run: 7 requests, 14566 tokens
