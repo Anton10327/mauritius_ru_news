@@ -32,3 +32,18 @@ Skipped foreign news (Defimedia): Mario Justin : «Je veux retrouver la scène»
   dup: nothing new ()
 Skipped duplicate (L'Express): Face à la presse : Roshi Bhadain réclame un nouveau cap économique et une réouverture du d == Chagos: Roshi Bhadain призывает возобновить переговоры с Лондоном и Вашингтоном
 LLM usage this run: 7 requests, 9943 tokens
+### check 4/5 at 03:33
+  dup check: new (В статье упоминается интервью с Devesh Dukhira, CEO Mauritius Sugar Syndicate (MSS), и его заявление о возможности увеличения экспорта сахара в США. Э)
+  not news (portrait/lifestyle): Questions à... Devesh Dukhira : «Nous pourrions vendre davantage de sucre aux États-Unis»
+Skipped foreign news (L'Express): Questions à... Devesh Dukhira : «Nous pourrions vendre davantage de sucre aux États-Unis»
+  dup check: new ()
+  not about Mauritius: 22 novembre 1963 : l’assassinat de John F. Kennedy, le jour qui a bouleversé l’Amérique
+Skipped foreign news (Inside News): 22 novembre 1963 : l’assassinat de John F. Kennedy, le jour qui a bouleversé l’Amérique
+  dup check: new (В торговом центре Riche-Terre произошла драка между двумя группами с применением холодного оружия (сабли); один человек получил ножевое ранение; полиц)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Riche-Terre
+  leftovers fixed by GigaChat-3-Pro; still left: Riche-Terre
+Posted (Defimedia): Riche-Terre: столкновение двух групп в торговом центре
+  proofread: Senior Counsel : le mérite avant le parrainage → Старший королевский адвокат: заслуги важнее поручительства
+Posted (Defimedia): [Блог] Старший королевский адвокат: заслуги важнее поручительства
+LLM usage this run: 10 requests, 16469 tokens
