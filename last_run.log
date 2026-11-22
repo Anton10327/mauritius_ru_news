@@ -1,63 +1,12 @@
-### check 1/5 at 21:54
-  not about Mauritius: Marseille, entre mer et métissages
-Skipped foreign news (Defimedia): Marseille, entre mer et métissages
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): World Knits — Un appel du cœur des 450 familles affectées… == World Knits и Universal Fabrics: лидер оппозиции Chetan Baboolall призывает премьер-минист
-  same headline as #36: Chagos : Roshi Bhadain demande la reprise des négociations avec Londres et Washi
-Skipped duplicate (Le Mauricien): Chagos : Roshi Bhadain demande la reprise des négociations avec Londres et Washington == Chagos: Roshi Bhadain призывает возобновить переговоры с Лондоном и Вашингтоном
-  dup check: new (Статья рассказывает о смертельном авиационном происшествии с участием туристического самолёта и приводит детали расследования (12 рекомендаций, имя ин)
-  proofread: ДТП → происшествие
-Posted (Defimedia): Смертельное ДТП в La Prairie: двенадцать рекомендаций по регулированию сверхлегких самолетов
-LLM usage this run: 5 requests, 8690 tokens
-### check 2/5 at 21:58
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Affaire Dreamer : le capitaine interrogé sur les livraisons de cannabis en mer == Дело Dreamer: 19-й подозреваемый задержан подразделением ADSU
-  not news (portrait/lifestyle): ENTREPRISE | Methea Un rituel de reconnexion à soi grâce aux cosmétiques
-Skipped foreign news (Le Mauricien): ENTREPRISE | Methea Un rituel de reconnexion à soi grâce aux cosmétiques
-  dup: nothing new (Заявление Mgr Jean Michaël Durhône о том, что социальные сети не могут заменить человеческие встречи и призыв к молодёжи не замыкаться в виртуальном м)
-Skipped duplicate (Defimedia): Mgr Durhône : «Les réseaux sociaux ne pourront jamais remplacer les rencontres humaines» == Ипподромные скачки — после вынужденного ухода Veeshal Chumroo: адвокат Robin Ramburn, стар
-  dup check: new (В статье говорится о существовании канала поставки каннабиса с Маврикия на Родригес и двух операциях полиции по пресечению попыток отправки наркотиков)
+### check 1/5 at 03:21
+  not about Mauritius: Perturbateurs endocriniens : notre santé exposée au quotidien
+Skipped foreign news (Defimedia): Perturbateurs endocriniens : notre santé exposée au quotidien
+GigaChat balance: GigaChat 249,589,075, GigaChat-Ultra 44,876,180, GigaChat-Pro 35,773,434, GigaChat-Max 23,917,382; 331 days to go
+  dup check: new (Mamy Ravatomanga подал в CCID 19 ноября 2026 года заявление с требованием расследования по поводу элементов дела FCC и оспаривает показания следовател)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Каннабис: канал поставок между Маврикием и Rodrigues
-LLM usage this run: 6 requests, 10033 tokens
-### check 3/5 at 22:02
+Posted (Inside News): Дело Ravatomanga: запрос о расследовании в CCID по материалам дела FCC
   dup: nothing new ()
-Skipped duplicate (Defimedia): Marc Hein, cinq décennies dans les coulisses de Maurice == Ипподромные скачки — после вынужденного ухода Veeshal Chumroo: адвокат Robin Ramburn, стар
-  proofread: «дано место mano Ã mano» → «на фоне соперничества»; «в муниципалитете» → «в муниципальном совете»; «полиции» → «к полиции»; «после того как FMP запросил у этой инстанции и у полиции необходимые разрешения» → «после того как FMP обратился с такими запросами к муниципалитету Курпипа и к полиции»
-  foreign words left: Chasteauneuf, Saint-Jean
-  leftovers fixed by GigaChat-3-Pro; still left: Chasteauneuf, Saint-Jean
-Posted (Le Mauricien): 55-я годовщина убийства Azor Adelaïde — FMP и MMM: дань памяти на фоне соперничества в Curepipe
-  dup check: new (Статья сообщает о проведении фестиваля еды Port-Louis Waterfront Food Festival 22 ноября с участием более 30 ресторанов и кулинаров, предлагающих блюд)
-  not news (portrait/lifestyle): [En images] Port-Louis Waterfront Food Festival : une dernière journée riche en saveurs
-Skipped foreign news (Defimedia): [En images] Port-Louis Waterfront Food Festival : une dernière journée riche en saveurs
-  proofread: Хеман Мохабер → Хеман Мохабир; Ганс Балгобен → Ганс Балгобин
-  foreign words left: School, Sleep
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Социальные сети: лента, алгоритм и наши дети
-LLM usage this run: 9 requests, 14947 tokens
-### check 4/5 at 22:06
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Liverpool vs Manchester United, ce soir (20h30) – Mission commando pour Pochettino == Ипподромные скачки — после вынужденного ухода Veeshal Chumroo: адвокат Robin Ramburn, стар
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Quand les contenus façonnent les repères == Социальные сети: лента, алгоритм и наши дети
-  dup check: new (Упоминание о 15 действующих Children’s Clubs на Маврикии и призыв вице-премьер-министра к бдительности в сфере защиты детей — это новая информация, не)
-  proofread: Children’s Clubs → Детских клубов
-Posted (Inside News): Защита детей на Маврикии: 15 действующих Children’s Clubs, призыв усилить бдительность
-  dup check: new (Появление первых лэтчи на рынках в этом сезоне с описанием их состояния и цены (между Rs 125 и Rs 150 за пол-кило), что ранее не публиковалось.)
-  not news (portrait/lifestyle): Sur les étals cette semaine : De premiers letchis de saison rabougris à l’allure flétrie
-Skipped foreign news (Le Mauricien): Sur les étals cette semaine : De premiers letchis de saison rabougris à l’allure flétrie
-LLM usage this run: 7 requests, 10209 tokens
-### check 5/5 at 22:10
-  dup check: new (Гигант станции автомойки в Треаноне оштрафован за предполагаемое использование бытовой воды для мойки автомобилей; инспекция полиции и CWA выявила нар)
-  written by GigaChat-2-Max
-  proofread: «получил штраф» → «оштрафован»; «подозрение в использовании» → «за подозрение в использовании»
-Posted (Defimedia): Менеджер автомойки в Trianon оштрафован за использование питьевой воды
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Conseils de village dissous : les élections doivent se tenir dans un délai de 150 jours == Роспуск советов деревень – окружные советники остаются в должности
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Feed : quelle marge de manœuvre ? == Ипподромные скачки — после вынужденного ухода Veeshal Chumroo: адвокат Robin Ramburn, стар
-  dup check: new (Paolo Bulgari, président du groupe Bulgari depuis 1984 et figure emblématique du luxe italien, est décédé à Rome à l'âge de 89 ans; sa famille a annon)
-  written by GigaChat-2-Max
-  not about Mauritius: Joaillerie : Paolo Bulgari, figure emblématique du luxe italien, est décédé à 89 ans
-Skipped foreign news (Defimedia): Joaillerie : Paolo Bulgari, figure emblématique du luxe italien, est décédé à 89 ans
-LLM usage this run: 7 requests, 9889 tokens
+Skipped duplicate (Le Mauricien): COMMÉMORATION Sun Yat-Sen, un visionnaire au courage inébranlable == Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как ис
+  dup: nothing new (Urvashi Dabysing утверждает, что случаи передозировки регистрируются под другими названиями; премьер-министр подтвердил 17 ноября наличие фентанила на)
+Skipped duplicate (Defimedia): Urvashi Dabysing : « De nombreux cas d’overdose sont enregistrés sous d’autres appellation == Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как ис
+LLM usage this run: 6 requests, 10584 tokens
