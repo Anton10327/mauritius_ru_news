@@ -9,3 +9,16 @@ Skipped duplicate (Le Mauricien): Chagos : un ultimatum diplomatique avant fin d
   not about Mauritius: Gaza : une frappe israélienne sur un camion fait trois morts, selon le ministère de la Santé
 Skipped foreign news (Defimedia): Gaza : une frappe israélienne sur un camion fait trois morts, selon le ministère de la Santé
 LLM usage this run: 8 requests, 14784 tokens
+### check 2/5 at 14:19
+  dup check: new (Иранские силы утверждают, что атаковали два американских радара Patriot в Бахрейне с помощью ракет и дронов; Бахрейн объявил о завершении тревоги посл)
+  not about Mauritius: Moyen-Orient : Le point sur les derniers développements
+Skipped foreign news (Defimedia): Moyen-Orient : Le point sur les derniers développements
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Sécurité routière : 27 947 infractions relevées == Штрафные баллы: за январь–октябрь 2026 года зафиксировано 27 947 нарушений
+  dup check: new (Статья сообщает о похоронах палестинских семей в Газе после израильских ударов и приводит конкретные имена погибших (Khaled Naeem) и детали церемонии.)
+  not about Mauritius: Gaza : des familles palestiniennes pleurent leurs proches tués dans des frappes israéliennes
+Skipped foreign news (Defimedia): Gaza : des familles palestiniennes pleurent leurs proches tués dans des frappes israéliennes
+  dup check: new (Открытие ресторана La table de l’Ambassadeur by Chef Kawaguchi бывшим послом Японии на Маврикии Шуичиро Кавагучи; приготовлено 150 блюд за месяц работ)
+  not about Mauritius: RENCONTRE :  L’ambassadeur Kawaguchi devenu chef, la diplomatie s’invite dans l’assiette
+Skipped foreign news (Le Mauricien): RENCONTRE :  L’ambassadeur Kawaguchi devenu chef, la diplomatie s’invite dans l’assiette
+LLM usage this run: 7 requests, 12634 tokens
