@@ -22,3 +22,18 @@ Skipped foreign news (Defimedia): Gaza : des familles palestiniennes pleurent le
   not about Mauritius: RENCONTRE :  L’ambassadeur Kawaguchi devenu chef, la diplomatie s’invite dans l’assiette
 Skipped foreign news (Le Mauricien): RENCONTRE :  L’ambassadeur Kawaguchi devenu chef, la diplomatie s’invite dans l’assiette
 LLM usage this run: 7 requests, 12634 tokens
+### check 3/5 at 14:23
+  dup check: new (Создание новой независимой рейтинговой агентства AfCRA в Port-Louis для оценки африканских правительств и компаний; ожидаются первые суверенные рейтин)
+  proofread: в Порт-Луисе → в Порт-Луи
+Posted (Defimedia): Блог: может ли новое африканское рейтинговое агентство в Port-Louis изменить оценку континента?
+  dup check: new (Статья рассказывает о продукте Minn Apollo и его культурном значении на Маврикии, включая историю появления в 1980 году и адаптацию к местным вкусам. )
+  not news (portrait/lifestyle): Edouard Ah-Chuen, Director at ABC Foods: “Minn Apollo 100% Morisien”
+Skipped foreign news (Defimedia): Edouard Ah-Chuen, Director at ABC Foods: “Minn Apollo 100% Morisien”
+  dup check: new (ABC Banking сообщила о росте прибыли до налогообложения на 28% за квартал, закончившийся 30 сентября 2026 года; операционный доход вырос на 16,1%, дох)
+Posted (Le Mauricien): ABC Banking: прибыль до налогообложения выросла на 28%
+  dup check: new ()
+Bad LLM answer from GigaChat-3-Ultra: Expecting value: line 1 column 613 (char 612); raw: {"choices":[{"message":{"content":"{\"mauritius\": true, \"news\": false, \"names\": [{\"orig\": \"Université des Mascareignes\", \"type\": \"org\", \"ru\": \"\"}, {\"orig\": \"Earth & Ocean Lab\", \"type\": \"org\", \"ru\": \"\"}, {\"orig\": \"Bel-Air\", \"type\": \"mu_place\", \"ru\": \"\"}, {\"or
+  written by GigaChat-2-Max
+  not news (portrait/lifestyle): Sous la surface, les clés de la protection du littoral
+Skipped foreign news (Defimedia): Sous la surface, les clés de la protection du littoral
+LLM usage this run: 11 requests, 19954 tokens
