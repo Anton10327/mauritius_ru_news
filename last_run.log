@@ -1,67 +1,11 @@
-### check 1/5 at 14:15
-New source Inside News: skipped backlog, posting newest only
-Posted (Defimedia): Суверенный рейтинг: может ли Маврикий переломить тенденцию?
-  dup check: new (Организация донорской акции жителями La Ferme и запуск инициативы Forces vives для возрождения центра региона — новое событие, не связанное с ранее оп)
-Posted (Le Mauricien): БАМБУ | Инициатива «Сил Bambous»: центр района La Ferme обретает новую жизнь
+### check 1/5 at 21:54
+  not about Mauritius: Marseille, entre mer et métissages
+Skipped foreign news (Defimedia): Marseille, entre mer et métissages
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Chagos : un ultimatum diplomatique avant fin décembre == Chagos: Маврикий требует «дорожную карту», Лондон согласен на совместный план
-  dup check: new (Израильский авиаудар по грузовику в Газе с тремя погибшими; детали о перевозке еды и документов гуманитарной организации World Central Kitchen (WCK), )
-  not about Mauritius: Gaza : une frappe israélienne sur un camion fait trois morts, selon le ministère de la Santé
-Skipped foreign news (Defimedia): Gaza : une frappe israélienne sur un camion fait trois morts, selon le ministère de la Santé
-LLM usage this run: 8 requests, 14784 tokens
-### check 2/5 at 14:19
-  dup check: new (Иранские силы утверждают, что атаковали два американских радара Patriot в Бахрейне с помощью ракет и дронов; Бахрейн объявил о завершении тревоги посл)
-  not about Mauritius: Moyen-Orient : Le point sur les derniers développements
-Skipped foreign news (Defimedia): Moyen-Orient : Le point sur les derniers développements
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Sécurité routière : 27 947 infractions relevées == Штрафные баллы: за январь–октябрь 2026 года зафиксировано 27 947 нарушений
-  dup check: new (Статья сообщает о похоронах палестинских семей в Газе после израильских ударов и приводит конкретные имена погибших (Khaled Naeem) и детали церемонии.)
-  not about Mauritius: Gaza : des familles palestiniennes pleurent leurs proches tués dans des frappes israéliennes
-Skipped foreign news (Defimedia): Gaza : des familles palestiniennes pleurent leurs proches tués dans des frappes israéliennes
-  dup check: new (Открытие ресторана La table de l’Ambassadeur by Chef Kawaguchi бывшим послом Японии на Маврикии Шуичиро Кавагучи; приготовлено 150 блюд за месяц работ)
-  not about Mauritius: RENCONTRE :  L’ambassadeur Kawaguchi devenu chef, la diplomatie s’invite dans l’assiette
-Skipped foreign news (Le Mauricien): RENCONTRE :  L’ambassadeur Kawaguchi devenu chef, la diplomatie s’invite dans l’assiette
-LLM usage this run: 7 requests, 12634 tokens
-### check 3/5 at 14:23
-  dup check: new (Создание новой независимой рейтинговой агентства AfCRA в Port-Louis для оценки африканских правительств и компаний; ожидаются первые суверенные рейтин)
-  proofread: в Порт-Луисе → в Порт-Луи
-Posted (Defimedia): Блог: может ли новое африканское рейтинговое агентство в Port-Louis изменить оценку континента?
-  dup check: new (Статья рассказывает о продукте Minn Apollo и его культурном значении на Маврикии, включая историю появления в 1980 году и адаптацию к местным вкусам. )
-  not news (portrait/lifestyle): Edouard Ah-Chuen, Director at ABC Foods: “Minn Apollo 100% Morisien”
-Skipped foreign news (Defimedia): Edouard Ah-Chuen, Director at ABC Foods: “Minn Apollo 100% Morisien”
-  dup check: new (ABC Banking сообщила о росте прибыли до налогообложения на 28% за квартал, закончившийся 30 сентября 2026 года; операционный доход вырос на 16,1%, дох)
-Posted (Le Mauricien): ABC Banking: прибыль до налогообложения выросла на 28%
-  dup check: new ()
-Bad LLM answer from GigaChat-3-Ultra: Expecting value: line 1 column 613 (char 612); raw: {"choices":[{"message":{"content":"{\"mauritius\": true, \"news\": false, \"names\": [{\"orig\": \"Université des Mascareignes\", \"type\": \"org\", \"ru\": \"\"}, {\"orig\": \"Earth & Ocean Lab\", \"type\": \"org\", \"ru\": \"\"}, {\"orig\": \"Bel-Air\", \"type\": \"mu_place\", \"ru\": \"\"}, {\"or
-  written by GigaChat-2-Max
-  not news (portrait/lifestyle): Sous la surface, les clés de la protection du littoral
-Skipped foreign news (Defimedia): Sous la surface, les clés de la protection du littoral
-LLM usage this run: 11 requests, 19954 tokens
-### check 4/5 at 14:27
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Blog] Liverpool v Manchester United: nightmare or a new era? == Местные органы власти | Financial Crimes Commission — закупки: тревожная ситуация в Moka D
-  dup check: new (В статье сообщается о предстоящем Night Market au Champ-de-Mars в Port-Louis: 350 мест будут распределены среди зарегистрированных продавцов путём жер)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: ×
-  leftovers fixed by GigaChat-3-Pro; still left: ×
-Posted (Defimedia): Ночной рынок на Champ-de-Mars: 350 мест будут распределены жеребьёвкой
-  dup: nothing new ()
-Skipped duplicate (L'Express): Positif au chikungunya : Rama Valayden pique, Shakeel Mohamed réplique == Чикунгунья и поездка в Саудовскую Аравию: вопросы Valayden, ответы Mohamed
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Systems
-  leftovers fixed by GigaChat-3-Pro; still left: Systems
-Posted (Le Mauricien): Бизнес | Итоги: Harel Mallac увеличивает выручку
-LLM usage this run: 9 requests, 12043 tokens
-### check 5/5 at 14:31
-  dup: nothing new ()
-Skipped duplicate (L'Express): Accident fatal à Bel-Air-Rivière-Sèche  : Yoan Montagnard, 23 ans, rêvait de construire sa == Bel-Air–Ривьер-Сек: 23-летний Yovan Stanley Montagnard погиб в ДТП с мотоциклом
-  dup check: new (CIEL: квартальная прибыль +42% до 1,1 млрд рупий; выручка +6% до 9,9 млрд; EBITDA +29% до 2,1 млрд (маржа 20,8%).)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): Финансовый отчёт за квартал: прибыль CIEL выросла на 42%, до 1,1 млрд рупий
-  dup check: new (Контракт на проведение технико-экономического обоснования опреснения морской воды в Маврикии передан немецкой фирме Fischer; проект рассматривается дл)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Десалинаж: контракт на технико-экономическое обоснование передан немецкой фирме Fischer
-  dup check: new (Новый случай: водитель грузовика оштрафован на 50 000 рупий за незаконный сброс строительных отходов в Вакоа; ему также дано пять дней на уборку мусор)
-  proofread: водитель грузовика из Бамбу → водитель грузовика из Бамбу
-Posted (Defimedia): Vacoas: водитель грузовика оштрафован на 50 000 рупий за незаконный сброс отходов
-LLM usage this run: 10 requests, 14763 tokens
+Skipped duplicate (Le Mauricien): World Knits — Un appel du cœur des 450 familles affectées… == World Knits и Universal Fabrics: лидер оппозиции Chetan Baboolall призывает премьер-минист
+  same headline as #36: Chagos : Roshi Bhadain demande la reprise des négociations avec Londres et Washi
+Skipped duplicate (Le Mauricien): Chagos : Roshi Bhadain demande la reprise des négociations avec Londres et Washington == Chagos: Roshi Bhadain призывает возобновить переговоры с Лондоном и Вашингтоном
+  dup check: new (Статья рассказывает о смертельном авиационном происшествии с участием туристического самолёта и приводит детали расследования (12 рекомендаций, имя ин)
+  proofread: ДТП → происшествие
+Posted (Defimedia): Смертельное ДТП в La Prairie: двенадцать рекомендаций по регулированию сверхлегких самолетов
+LLM usage this run: 5 requests, 8690 tokens
