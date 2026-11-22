@@ -44,3 +44,14 @@ Skipped duplicate (L'Express): Fièvre aphteuse : L’État déclenche son dispo
   dup: nothing new ()
 Skipped duplicate (Inside News): Météo à Maurice dimanche 22 novembre : beau temps et jusqu’à 33 °C sur les côtes == Погода на Маврикии в субботу, 21 ноября: утром дожди на востоке и севере, днём локальный р
 LLM usage this run: 6 requests, 8282 tokens
+### check 5/5 at 06:47
+  dup: nothing new ()
+Skipped duplicate (L'Express): Conseil des ministres : Plan d’urgence pour l’eau, nouveau cadre pour l’adoption et retour == Ночные рынки: торговые и праздничные пространства к новогодним праздникам
+  dup: nothing new ()
+Skipped duplicate (L'Express): Conseil des ministres | Chagos : Maurice et Londres visent une feuille de route avant fin  == Chagos: Маврикий требует «дорожную карту», Лондон согласен на совместный план
+  dup: nothing new ()
+Skipped duplicate (L'Express): Collectivités locales : Les conseils de district assurent la continuité après la dissoluti == Роспуск советов деревень – окружные советники остаются в должности
+  dup check: new (В Берлине прошла демонстрация в поддержку палестинцев с участием сотен человек; полиция задержала трёх участников. Это новое событие, не связанное с р)
+  not about Mauritius: Berlin : des centaines de personnes défilent en soutien aux Palestiniens
+Skipped foreign news (Defimedia): Berlin : des centaines de personnes défilent en soutien aux Palestiniens
+LLM usage this run: 5 requests, 6975 tokens
