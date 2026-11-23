@@ -54,3 +54,16 @@ Posted (Defimedia): Предполагаемый трафик 1,5 тонны к�
   not about Mauritius: Climat : indignation et appels aux réformes après l'échec de la COP31
 Skipped foreign news (Defimedia): Climat : indignation et appels aux réformes après l'échec de la COP31
 LLM usage this run: 10 requests, 17985 tokens
+### check 5/5 at 18:24
+  dup check: new (Ридван Ходабокус, похищенный и избитый в январе 2025 года, арестован ADSU по подозрению в импорте 12 кг каннабиса, спрятанных в столе-баре из Лос-Андж)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Каннабис, спрятанный в журнальном столике: Ridwan Khodabocus, жертва похищения в 2025 году, задержан подразделением ADSU
+  dup check: new (Атакован торговец в Roche-Bois его сыном с использованием сабли; сын украл сумку с наличными и телефонами на сумму 55 000 рупий; пострадавший получил )
+  proofread: сын-торговец → отец-торговец
+Posted (Defimedia): В Roche-Bois торговец подвергся нападению с саблей со стороны собственного сына
+  dup check: new (Арестован 31-летний мужчина по делу о краже золотой цепочки у 86-летней женщины в Poudre-d’Or; дата ареста — 22 ноября; стоимость украденного оценивае)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Poudre-d’Or: двое мужчин в балаклавах сорвали золотую цепь с 86-летней женщины
+  not news (portrait/lifestyle): Atteint d’un cancer des os : Akshay Beelur, père de trois enfants, amputé d’une jambe
+Skipped foreign news (Defimedia): Atteint d’un cancer des os : Akshay Beelur, père de trois enfants, amputé d’une jambe
+LLM usage this run: 10 requests, 17028 tokens
