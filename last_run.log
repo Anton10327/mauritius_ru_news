@@ -24,3 +24,17 @@ Posted (Defimedia): Bel-Ombre: пять гектаров уничтожены п
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Смертельное ДТП в состоянии алкогольного опьянения в 2020 году: Vishwakarma Ramjeeawon приговорен к трем месяцам тюрьмы
 LLM usage this run: 10 requests, 15550 tokens
+### check 3/5 at 18:16
+  dup check: new (Прогноз погоды: ожидаются порывы ветра до 50 км/ч и ливни в восточной части острова и на Центральном плато с понедельника после обеда; ночью сохранятс)
+  not news (portrait/lifestyle): Rafales de 50 km/h et averses lundi après-midi sur l’Est et le Plateau Central
+Skipped foreign news (Wazaa): Rafales de 50 km/h et averses lundi après-midi sur l’Est et le Plateau Central
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Water
+  leftovers fixed by GigaChat-3-Pro; still left: Water
+Posted (Defimedia): На 20 ноября 2026 года — Mare-aux-Vacoas: уровень заполнения 31,9% против 71,3% в тот же день в прошлом году
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Électricité : le réseau pourra-t-il répondre à la demande cet été ? == Поставка электроэнергии: красная тревога едва предотвращена
+  dup check: new (CEB ищет дополнительные 15 МВт мощности из-за остановки турбины Nicolay G2 (20 MW), которая с 19 ноября находится на ремонте; для стабилизации сети пл)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Электроэнергия: CEB ищет дополнительные 15 МВт для компенсации отключения турбины Nicolay G2
+LLM usage this run: 9 requests, 14077 tokens
