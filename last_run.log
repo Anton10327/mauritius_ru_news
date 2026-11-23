@@ -1,57 +1,13 @@
-### check 1/5 at 07:54
-  dup check: new (В статье говорится о презентации исследования Young Queer Alliance по вопросу запрета гражданского брака для однополых пар и лишении их специфических )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Исследование Young Queer Alliance: запрет на гражданский брак между однополыми парами лишает их специфических мер защиты
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « ZOT KAPAV PERDI ZOT LISANS » == Штрафные баллы: за январь–октябрь 2026 года зафиксировано 27 947 нарушений
-  dup check: new ()
-  not news (portrait/lifestyle): Cité Argy : «Retourn nou sa lepok-la»
-Skipped foreign news (L'Express): Cité Argy : «Retourn nou sa lepok-la»
-  dup check: new (Инцидент с двумя автомобилистами и применением ножа в Stanley, Rose-Hill 22 ноября; один из участников известен полиции по прошлым делам; лёгкое ранен)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Ratsitatane
-  leftovers fixed by GigaChat-3-Pro; still left: Ratsitatane
-Posted (Defimedia): Stanley, Rose-Hill: возвращение спокойствия после напряжённости на улице Ratsitatane
-LLM usage this run: 10 requests, 15065 tokens
-### check 2/5 at 07:58
-  dup check: new (Выделено 1,5 млн рупий на установку временных флагштоков между аэропортом и Grand-Baie в преддверии U.S.-Africa Business Summit (6–9 декабря).)
-Posted (L'Express): Временные конструкции: 1,5 млн рупий на установку флагштоков между аэропортом и Grand-Baie
-  dup: nothing new ()
-Skipped duplicate (L'Express): Commerce : 320 marchands attendus au Champ-de-Mars après les tensions de l’ex rue Desforge == Ночной рынок на Champ-de-Mars: 350 мест будут распределены жеребьёвкой
-  dup check: new ()
-  not news (portrait/lifestyle): Questions à… Vincent Florens : «Très improbable que nous n’ayons plus du tout de floraison de flambo
-Skipped foreign news (L'Express): Questions à… Vincent Florens : «Très improbable que nous n’ayons plus du tout de floraison de flambo
-  dup: nothing new ()
-Skipped duplicate (Inside News): COP31 : financement climatique, catastrophes et énergie, les trois enjeux majeurs pour Mau == COP31: Маврикий требует действий, а не обещаний
-LLM usage this run: 7 requests, 11173 tokens
-### check 3/5 at 08:02
-  dup check: new (В статье упоминается реформа правового регулирования усыновления и меры по борьбе с преступностью как новые решения Совета министров. В опубликованных)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Совет министров: вода, усыновление и безопасность в центре решений
-  dup: nothing new ()
-Skipped duplicate (L'Express): Le remaniement devra attendre… == Операция по борьбе с наркотиками в Roche-Bois: подозреваемый задержан после изъятия 218 до
-  dup: nothing new ()
-Skipped duplicate (L'Express): Senior Counsel et Senior Attorney l  Mᵉ  Robin Mardemootoo: «Une distinction honorifique d == [Блог] Старший королевский адвокат: заслуги важнее поручительства
-  dup: nothing new ()
-Skipped duplicate (Inside News): Météo à Maurice ce lundi 23 novembre : des averses attendues dans l’Est, le Sud et sur le  == Погода на Маврикии в субботу, 21 ноября: утром дожди на востоке и севере, днём локальный р
-LLM usage this run: 6 requests, 6957 tokens
-### check 4/5 at 08:06
-  dup: nothing new ()
-Skipped duplicate (L'Express): Trois ans pour convaincre… ou partir ? == Операция по борьбе с наркотиками в Roche-Bois: подозреваемый задержан после изъятия 218 до
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Ключевая ставка на уровне 5%: повышение, которое вызывает вопросы у экономистов
-  not news (portrait/lifestyle): Kronik KC Ranze : Quand la nation doit primer …
-Skipped foreign news (L'Express): Kronik KC Ranze : Quand la nation doit primer …
-  same headline as #34: Notation souveraine : Maurice peut-il inverser la tendance?
-Skipped duplicate (Defimedia): Notation souveraine : le rebasement du PIB peut-il amener Moody’s à revoir sa perspective  == Суверенный рейтинг: может ли Маврикий переломить тенденцию?
-LLM usage this run: 4 requests, 8119 tokens
-### check 5/5 at 08:10
-  dup: nothing new ()
-Skipped duplicate (L'Express): La politique monétaire à l’épreuve des paramètres socio-macroéconomiques == Ключевая ставка на уровне 5%: повышение, которое вызывает вопросы у экономистов
-  dup: nothing new ()
-Skipped duplicate (L'Express): Fractures sociales : Maurice, une jeunesse en quête d’avenir == Операция по борьбе с наркотиками в Roche-Bois: подозреваемый задержан после изъятия 218 до
-  dup: nothing new ()
-Skipped duplicate (L'Express): Singapour et Dubaï en modèles touristiques : À la croisée des chemins économiques == Операция по борьбе с наркотиками в Roche-Bois: подозреваемый задержан после изъятия 218 до
-  dup: nothing new ()
-Skipped duplicate (L'Express): En couverture : Les grands titres de l'express de ce lundi 23 novembre 2026 == Операция по борьбе с наркотиками в Roche-Bois: подозреваемый задержан после изъятия 218 до
-LLM usage this run: 4 requests, 3733 tokens
+### check 1/5 at 18:08
+New source Le Mauricien: skipped backlog, posting newest only
+New source Inside News: skipped backlog, posting newest only
+  not news (portrait/lifestyle): Météo : des averses attendues à l’est et sur le plateau central ce lundi après-midi
+Skipped foreign news (Defimedia): Météo : des averses attendues à l’est et sur le plateau central ce lundi après-midi
+  dup check: new (Арест мужчины 54 лет по подозрению в убийстве брата (52 года) в Saint-Julien-d’Hotman; признание подозреваемого в применении железной палки; изъятие п)
+Posted (Defimedia): Saint-Julien-d’Hotman: мужчина арестован после смерти своего брата
+  not about Mauritius: Cisjordanie occupée : quatre localités palestiniennes attaquées par des colons israéliens
+Skipped foreign news (Defimedia): Cisjordanie occupée : quatre localités palestiniennes attaquées par des colons israéliens
+  dup check: new (Матч Ливерпуль — Манчестер Юнайтед завершился победой Ливерпуля со счётом 4:0; в матче был удалён Лени Йоро на 8-й минуте; отличились Доминик Собослаи)
+  not about Mauritius: Premier League : Liverpool humilie le Manchester United de Pochettino
+Skipped foreign news (Defimedia): Premier League : Liverpool humilie le Manchester United de Pochettino
+LLM usage this run: 7 requests, 13689 tokens
