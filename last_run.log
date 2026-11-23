@@ -13,3 +13,14 @@ Skipped foreign news (L'Express): Cité Argy : «Retourn nou sa lepok-la»
   leftovers fixed by GigaChat-3-Pro; still left: Ratsitatane
 Posted (Defimedia): Stanley, Rose-Hill: возвращение спокойствия после напряжённости на улице Ratsitatane
 LLM usage this run: 10 requests, 15065 tokens
+### check 2/5 at 07:58
+  dup check: new (Выделено 1,5 млн рупий на установку временных флагштоков между аэропортом и Grand-Baie в преддверии U.S.-Africa Business Summit (6–9 декабря).)
+Posted (L'Express): Временные конструкции: 1,5 млн рупий на установку флагштоков между аэропортом и Grand-Baie
+  dup: nothing new ()
+Skipped duplicate (L'Express): Commerce : 320 marchands attendus au Champ-de-Mars après les tensions de l’ex rue Desforge == Ночной рынок на Champ-de-Mars: 350 мест будут распределены жеребьёвкой
+  dup check: new ()
+  not news (portrait/lifestyle): Questions à… Vincent Florens : «Très improbable que nous n’ayons plus du tout de floraison de flambo
+Skipped foreign news (L'Express): Questions à… Vincent Florens : «Très improbable que nous n’ayons plus du tout de floraison de flambo
+  dup: nothing new ()
+Skipped duplicate (Inside News): COP31 : financement climatique, catastrophes et énergie, les trois enjeux majeurs pour Mau == COP31: Маврикий требует действий, а не обещаний
+LLM usage this run: 7 requests, 11173 tokens
