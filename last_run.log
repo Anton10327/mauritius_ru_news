@@ -11,3 +11,16 @@ Skipped foreign news (Defimedia): Cisjordanie occupée : quatre localités pales
   not about Mauritius: Premier League : Liverpool humilie le Manchester United de Pochettino
 Skipped foreign news (Defimedia): Premier League : Liverpool humilie le Manchester United de Pochettino
 LLM usage this run: 7 requests, 13689 tokens
+### check 2/5 at 18:12
+Duplicate check GigaChat-3-Pro failed: HTTPSConnectionPool(host='ngw.devices.sberbank.ru', port=9443): Read timed out. (read timeout=30)
+  dup check: new (Attempted world record gathering of 799 bulldogs in Mexico on 22 November, submission to Guinness World Records.)
+  not about Mauritius: À Mexico, 799 bouledogues réunis pour une tentative de record du monde
+Skipped foreign news (Defimedia): À Mexico, 799 bouledogues réunis pour une tentative de record du monde
+Posted (Defimedia): Ящур в Khoyratty: взяты пробы для анализа
+  dup check: new (В Bel-Ombre произошёл пожар на 5 гектаров, задержан подозреваемый — мужчина 32 лет из Chemin-Grenier. Подозреваемый арестован благодаря видеонаблюдени)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Bel-Ombre: пять гектаров уничтожены пожаром, задержан 32-летний мужчина
+  dup check: new (Vishwakarma Ramjeeawon был осуждён на три месяца тюрьмы и штраф Rs 5 500 за смертельное ДТП в состоянии алкогольного опьянения в 2020 году; ему также )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Смертельное ДТП в состоянии алкогольного опьянения в 2020 году: Vishwakarma Ramjeeawon приговорен к трем месяцам тюрьмы
+LLM usage this run: 10 requests, 15550 tokens
