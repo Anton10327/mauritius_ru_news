@@ -1,58 +1,15 @@
-### check 1/5 at 03:21
-  not about Mauritius: Perturbateurs endocriniens : notre santé exposée au quotidien
-Skipped foreign news (Defimedia): Perturbateurs endocriniens : notre santé exposée au quotidien
-GigaChat balance: GigaChat 249,589,075, GigaChat-Ultra 44,876,180, GigaChat-Pro 35,773,434, GigaChat-Max 23,917,382; 331 days to go
-  dup check: new (Mamy Ravatomanga подал в CCID 19 ноября 2026 года заявление с требованием расследования по поводу элементов дела FCC и оспаривает показания следовател)
+### check 1/5 at 07:54
+  dup check: new (В статье говорится о презентации исследования Young Queer Alliance по вопросу запрета гражданского брака для однополых пар и лишении их специфических )
   proofread: edit rejected (changed numbers, names or length)
-Posted (Inside News): Дело Ravatomanga: запрос о расследовании в CCID по материалам дела FCC
+Posted (L'Express): Исследование Young Queer Alliance: запрет на гражданский брак между однополыми парами лишает их специфических мер защиты
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): COMMÉMORATION Sun Yat-Sen, un visionnaire au courage inébranlable == Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как ис
-  dup: nothing new (Urvashi Dabysing утверждает, что случаи передозировки регистрируются под другими названиями; премьер-министр подтвердил 17 ноября наличие фентанила на)
-Skipped duplicate (Defimedia): Urvashi Dabysing : « De nombreux cas d’overdose sont enregistrés sous d’autres appellation == Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как ис
-LLM usage this run: 6 requests, 10584 tokens
-### check 2/5 at 03:25
-  dup: nothing new (Сообщение о длинных очередях и работе только одного из трёх пунктов контроля в аэропорту Плаисанс 21 ноября 2026 года.)
-Skipped duplicate (Inside News): Aéroport de Plaisance : un voyageur signale une longue attente avec un seul contrôle ouver == Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как ис
-  dup: nothing new (Статья рассказывает о наследии фестиваля PORLWI by Light (2015–2018) и его влиянии на Порт-Луи: культурном, образовательном, социальном, туристическом)
-Skipped duplicate (Defimedia): Astrid Dalais, cofondatrice de MOVE FOR ART : «Il faut sortir la culture de son seul minis == Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как ис
-  dup: nothing new (Министр промышленности Маврикия Aadil Ameer Meea призвал компании сочетать внедрение искусственного интеллекта с развитием навыков сотрудников и улучш)
-Skipped duplicate (Inside News): Intelligence artificielle à Maurice : les entreprises appelées à préparer leurs salariés a == Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как ис
-  dup: nothing new (Статья сообщает о праздновании 41-й Всемирной молодёжной католической встречи (Journée mondiale de la jeunesse) в диоцезах по всему миру и конкретно н)
-Skipped duplicate (Le Mauricien): Journée mondiale de la jeunesse — Mgr Durhône rassemble les jeunes à la cathédrale Saint-L == Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как ис
-LLM usage this run: 4 requests, 4480 tokens
-### check 3/5 at 03:29
-  dup: nothing new (Статья сообщает о начале процедуры ликвидации Silver Bank Ltd и неопределенности с возвратом депозитов на сумму Rs 7,5 млрд. Приводятся детали: оценка)
-Skipped duplicate (Defimedia): En liquidation - Silver Bank : remboursement incertain de Rs 7,5 milliards de dépôts == Экономика замкнутого цикла — Agri-Food Waste Transformation Project: пищевые отходы как ис
-  dup check: new (Статья сообщает о требованиях работников Mauritius Post увеличить мопедную надбавку с 4500 до 6000 рупий и затрагивает вопросы набора персонала и прод)
-  foreign words left: Workers
-  leftovers fixed by GigaChat-3-Pro; still left: Workers
-Posted (Inside News): Mauritius Post: после недовольства почтальонов — обязательства, которые предстоит выполнить
-  not news (portrait/lifestyle): Mario Justin : «Je veux retrouver la scène»
-Skipped foreign news (Defimedia): Mario Justin : «Je veux retrouver la scène»
-  dup: nothing new ()
-Skipped duplicate (L'Express): Face à la presse : Roshi Bhadain réclame un nouveau cap économique et une réouverture du d == Chagos: Roshi Bhadain призывает возобновить переговоры с Лондоном и Вашингтоном
-LLM usage this run: 7 requests, 9943 tokens
-### check 4/5 at 03:33
-  dup check: new (В статье упоминается интервью с Devesh Dukhira, CEO Mauritius Sugar Syndicate (MSS), и его заявление о возможности увеличения экспорта сахара в США. Э)
-  not news (portrait/lifestyle): Questions à... Devesh Dukhira : «Nous pourrions vendre davantage de sucre aux États-Unis»
-Skipped foreign news (L'Express): Questions à... Devesh Dukhira : «Nous pourrions vendre davantage de sucre aux États-Unis»
+Skipped duplicate (Defimedia): [Info Soirée] : « ZOT KAPAV PERDI ZOT LISANS » == Штрафные баллы: за январь–октябрь 2026 года зафиксировано 27 947 нарушений
   dup check: new ()
-  not about Mauritius: 22 novembre 1963 : l’assassinat de John F. Kennedy, le jour qui a bouleversé l’Amérique
-Skipped foreign news (Inside News): 22 novembre 1963 : l’assassinat de John F. Kennedy, le jour qui a bouleversé l’Amérique
-  dup check: new (В торговом центре Riche-Terre произошла драка между двумя группами с применением холодного оружия (сабли); один человек получил ножевое ранение; полиц)
+  not news (portrait/lifestyle): Cité Argy : «Retourn nou sa lepok-la»
+Skipped foreign news (L'Express): Cité Argy : «Retourn nou sa lepok-la»
+  dup check: new (Инцидент с двумя автомобилистами и применением ножа в Stanley, Rose-Hill 22 ноября; один из участников известен полиции по прошлым делам; лёгкое ранен)
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Riche-Terre
-  leftovers fixed by GigaChat-3-Pro; still left: Riche-Terre
-Posted (Defimedia): Riche-Terre: столкновение двух групп в торговом центре
-  proofread: Senior Counsel : le mérite avant le parrainage → Старший королевский адвокат: заслуги важнее поручительства
-Posted (Defimedia): [Блог] Старший королевский адвокат: заслуги важнее поручительства
-LLM usage this run: 10 requests, 16469 tokens
-### check 5/5 at 03:37
-  dup: nothing new ()
-Skipped duplicate (L'Express): Société :  Liverpool-Manchester United, une rivalité qui dépasse le football == Ливерпуль – Манчестер Юнайтед: показ дерби на большом экране!
-Posted (L'Express): Поставка электроэнергии: красная тревога едва предотвращена
-  dup check: new (Le Défi Media Group lance une campagne de sept jours du 23 au 29 novembre 2026 contre les violences faites aux femmes avec témoignages, décryptages et)
-Posted (Defimedia): Насилие в отношении женщин: Le Défi Media Group проводит кампанию с 23 по 29 ноября
-  dup check: new (Статья анонсирует национальную кампанию по экономии электроэнергии летом 2026–2027 годов с призывом ограничивать потребление между 18 и 21 часами. Это)
-Posted (Inside News): Электроэнергия на Маврикии: почему экономить с 18 до 21 часа этим летом?
-LLM usage this run: 9 requests, 13218 tokens
+  foreign words left: Ratsitatane
+  leftovers fixed by GigaChat-3-Pro; still left: Ratsitatane
+Posted (Defimedia): Stanley, Rose-Hill: возвращение спокойствия после напряжённости на улице Ratsitatane
+LLM usage this run: 10 requests, 15065 tokens
