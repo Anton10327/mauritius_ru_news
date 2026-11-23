@@ -24,3 +24,14 @@ Skipped foreign news (L'Express): Questions à… Vincent Florens : «Très impr
   dup: nothing new ()
 Skipped duplicate (Inside News): COP31 : financement climatique, catastrophes et énergie, les trois enjeux majeurs pour Mau == COP31: Маврикий требует действий, а не обещаний
 LLM usage this run: 7 requests, 11173 tokens
+### check 3/5 at 08:02
+  dup check: new (В статье упоминается реформа правового регулирования усыновления и меры по борьбе с преступностью как новые решения Совета министров. В опубликованных)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (L'Express): Совет министров: вода, усыновление и безопасность в центре решений
+  dup: nothing new ()
+Skipped duplicate (L'Express): Le remaniement devra attendre… == Операция по борьбе с наркотиками в Roche-Bois: подозреваемый задержан после изъятия 218 до
+  dup: nothing new ()
+Skipped duplicate (L'Express): Senior Counsel et Senior Attorney l  Mᵉ  Robin Mardemootoo: «Une distinction honorifique d == [Блог] Старший королевский адвокат: заслуги важнее поручительства
+  dup: nothing new ()
+Skipped duplicate (Inside News): Météo à Maurice ce lundi 23 novembre : des averses attendues dans l’Est, le Sud et sur le  == Погода на Маврикии в субботу, 21 ноября: утром дожди на востоке и севере, днём локальный р
+LLM usage this run: 6 requests, 6957 tokens
