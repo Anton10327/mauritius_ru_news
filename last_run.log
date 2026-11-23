@@ -38,3 +38,19 @@ Skipped duplicate (Defimedia): Électricité : le réseau pourra-t-il répondre 
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Электроэнергия: CEB ищет дополнительные 15 МВт для компенсации отключения турбины Nicolay G2
 LLM usage this run: 9 requests, 14077 tokens
+### check 4/5 at 18:20
+  dup check: new (Строительство нового водохранилища Havant Thicket в Великобритании — первое за более чем 30 лет; связано с усиливающимися засухами и рекордной жарой л)
+  not about Mauritius: Face aux sécheresses, le Royaume-Uni renoue avec la construction de réservoirs
+Skipped foreign news (Defimedia): Face aux sécheresses, le Royaume-Uni renoue avec la construction de réservoirs
+  dup check: new (14 погибших в результате российских ударов по Киевской области; обрушение жилого дома; 9 погибших при ударе по Дымеру; анонсирована встреча НАТО по ко)
+  not about Mauritius: Ukraine : au moins 14 morts lors de frappes russes dans la région de Kiev
+Skipped foreign news (Defimedia): Ukraine : au moins 14 morts lors de frappes russes dans la région de Kiev
+  dup check: new (Капитан яхты Dreamer Suriya Samanboot утверждает, что судно оказалось у Маврикия по ошибке из-за технической неисправности; это первый публичный комме)
+  proofread: Île Ronde → остров Ронд; Me Somand Kumar Adheen -> адвокат Соманд Кумар Адин; Anti-Drug and Smuggling Unit (Adsu) -> подразделение по борьбе с наркотиками и контрабандой (ADSU); "par erreur" -> "по ошибке"; Trafic présumé de 1,5 tonne de cannabis sur l’axe Thaïlande/Maurice : selon le capitaine Sama
+  foreign words left: Île
+  leftovers fixed by GigaChat-3-Pro; still left: Île
+Posted (Defimedia): Предполагаемый трафик 1,5 тонны каннабиса на маршруте Таиланд—Маврикий: капитан Suriya Samanboot утверждает, что Dreamer оказался на Маврикии «по ошибке»
+  dup check: new (Статья о провале COP31 по климату в Турции и реакции стран на отсутствие компромисса по ископаемым видам топлива.)
+  not about Mauritius: Climat : indignation et appels aux réformes après l'échec de la COP31
+Skipped foreign news (Defimedia): Climat : indignation et appels aux réformes après l'échec de la COP31
+LLM usage this run: 10 requests, 17985 tokens
