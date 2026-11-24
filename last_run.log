@@ -50,3 +50,15 @@ Skipped duplicate (Defimedia): Ces mots qui excusent les violences faites aux fe
   dup: nothing new ()
 Skipped duplicate (Wazaa): Rodrigues ouvre deux projets de drainage pour un coût de 81 millions de roupies mauricienn == Rodrigues: два проекта на 81 млн рупий для снижения риска наводнений
 LLM usage this run: 7 requests, 9127 tokens
+### check 5/5 at 01:47
+  dup: nothing new (Увеличение жилищной субсидии для госслужащих с Родригеса на обучении до 3185 рупий в месяц и строительство здания во Флореале для их размещения; текущ)
+Skipped duplicate (Defimedia): Fonctionnaires rodriguais en formation : l’allocation de logement sera revue à la hausse == Дело Ravatomanga: запрос о расследовании в CCID по материалам дела FCC
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Феминицид и супружеское изнасилование: меры приняты, но до сих пор не провозглашены
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Les mille visages de l'abus : ce que dit la loi == Дело Ravatomanga: запрос о расследовании в CCID по материалам дела FCC
+  dup check: new (Инцидент с нападением на сержанта полиции в Mare d’Australia 23 ноября 2026 года; подозреваемая — женщина 31 года, использовавшая металлический предме)
+  foreign words left: d’Австралия, d’Австралия, Mare
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Море Австралии: 31-летнюю женщину подозревают в нападении на сержанта полиции
+LLM usage this run: 8 requests, 11416 tokens
