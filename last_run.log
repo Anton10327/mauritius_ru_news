@@ -1,60 +1,14 @@
-### check 1/5 at 15:38
-New source Le Mauricien: skipped backlog, posting newest only
+### check 1/5 at 01:31
 New source Inside News: skipped backlog, posting newest only
-  dup check: new (SBM Holdings и бывший CEO Рауль Гюффле официально завершили трудовые отношения по обоюдному согласию 20 ноября; дисциплинарные процедуры против него п)
+  dup check: new (В статье анонсировано, что лидер оппозиции поднимет в парламенте вопросы о ящуре: предназначение заражённого скота, меры по отслеживанию и контролю, к)
+GigaChat balance: GigaChat-Ultra 44,702,587, GigaChat-Pro 35,649,480, GigaChat-Max 23,917,382, GigaChat 249,589,075; 329 days to go
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Спустя почти четыре месяца после отстранения: Raoul Gufflet и SBM Holdings официально оформили расставание по взаимному согласию
+Posted (Defimedia): Парламент: ящур в центре срочного вопроса оппозиции
   dup: nothing new ()
-Skipped duplicate (Wazaa): Ancien ambassadeur mauricien poursuit son ex-agent pour 100 millions de roupies au titre d == Управление недвижимостью: бывший посол и его супруга требуют 100 млн рупий компенсации у б
-  dup check: new (Attorney General Gavin Glover анонсировал подготовку законопроекта о медиации (Mediation Bill) с целью его принятия к февралю 2027 года; законопроект )
+Skipped duplicate (Wazaa): Perturbation tropicale à l’est de Diego Garcia et chaleur de 32 °C sur l’île Maurice == Погода: тропическое возмущение развивается к востоку от Диего-Гарсия
+  dup check: new (Статья сообщает о решении судьи оставить конституционную жалобу Навина Рамгулама по делу о сейфах в подвешенном состоянии до дальнейшего уведомления; )
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Mediation
-  leftovers fixed by GigaChat-3-Pro; still left: Mediation
-Posted (Defimedia): Медиация и арбитраж: генеральный атторней Gavin Glover анонсировал законопроект на февраль 2027 года
+Posted (Defimedia): Дело о сейфах: конституционная жалоба Navin Ramgoolam приостановлена до дальнейших распоряжений
   dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « ZORDI MO PE VIV GRAS A MO GARSON » == Насилие в отношении женщин: Le Défi Media Group проводит кампанию с 23 по 29 ноября
-LLM usage this run: 9 requests, 12607 tokens
-### check 2/5 at 15:42
-  dup check: new (Jensen Huang réinstalle au poste de CEO après avoir démissionné dans un contexte d'affaires extraconjugales)
-  not about Mauritius: Nvidia : Le conseil d’administration   réinstalle Jensen Huang au poste de CEO
-Skipped foreign news (Defimedia): Nvidia : Le conseil d’administration   réinstalle Jensen Huang au poste de CEO
-  not about Mauritius: Selon l'ONG Oxfam : Les attaques israéliennes ont transformé Gaza en «terrain vague toxique»
-Skipped foreign news (Defimedia): Selon l'ONG Oxfam : Les attaques israéliennes ont transformé Gaza en «terrain vague toxique»
-  not news (portrait/lifestyle): Allô Docteur – Infertilité : quand concevoir un enfant devient difficile
-Skipped foreign news (Defimedia): Allô Docteur – Infertilité : quand concevoir un enfant devient difficile
-  dup: nothing new ()
-Skipped duplicate (Wazaa): La violence domestique pourrait coûter à Maurice jusqu’à 15 milliards de roupies par an == Домашнее насилие может обходиться Маврикию в 4,5 млрд рупий в год
-LLM usage this run: 5 requests, 11147 tokens
-### check 3/5 at 15:46
-  not about Mauritius: Myanmar : plusieurs pays exigent le respect du droit international après l'arrêt de la CIJ sur le gé
-Skipped foreign news (Defimedia): Myanmar : plusieurs pays exigent le respect du droit international après l'arrêt de la CIJ sur le gé
-  not about Mauritius: Royaume-Uni : Andy Burnham juge « impensable » un retour dans l’UE sans référendum
-Skipped foreign news (Defimedia): Royaume-Uni : Andy Burnham juge « impensable » un retour dans l’UE sans référendum
-  dup check: new (Статья рассказывает о религиозном празднике Ganga Snan, его значении в индуизме и ритуалах, проводимых на Маврикии. Это новое событие, не связанное с )
-  not news (portrait/lifestyle): Ganga Snan : l’eau et la pureté au cœur des prières
-Skipped foreign news (Defimedia): Ganga Snan : l’eau et la pureté au cœur des prières
-  dup check: new (В статье сообщается о новом событии: ударе израильского дрона в Газе 23 ноября, в результате которого погибли как минимум три палестинца. Также привод)
-  not about Mauritius: Gaza : au moins trois Palestiniens tués dans une frappe de drone israélienne
-Skipped foreign news (Defimedia): Gaza : au moins trois Palestiniens tués dans une frappe de drone israélienne
-LLM usage this run: 6 requests, 12356 tokens
-### check 4/5 at 15:50
-  dup check: new (Новая информация о тропическом возмущении к востоку от Диего-Гарсия: оно усилилось и движется на юго-юго-запад; прогноз погоды для Маврикия с указание)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Погода: тропическое возмущение развивается к востоку от Диего-Гарсия
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Mort de Naden Kistnasamy: Selven Kistnasamy dit avoir frappé son frère pour se défendre == Saint-Julien-d’Hotman: мужчина арестован после смерти своего брата
-Posted (Defimedia): PSAC: не хватает около сотни проверяющих работ
-  not about Mauritius: Votre témoignage peut briser le silence et aider d’autres personnes à trouver du soutien
-Skipped foreign news (Defimedia): Votre témoignage peut briser le silence et aider d’autres personnes à trouver du soutien
-LLM usage this run: 7 requests, 12668 tokens
-### check 5/5 at 15:54
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Agression d’une dame de 86 ans par deux malfrats : «Un cas de trop», selon le président du == Poudre-d’Or: двое мужчин в балаклавах сорвали золотую цепь с 86-летней женщины
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Électricité : une marge de 10 MW au pic de demande prévu == Электроэнергия: CEB ищет дополнительные 15 МВт для компенсации отключения турбины Nicolay 
-  dup check: new (Назначение Виджая Макхана Special Advisor on Foreign Relations с 23 ноября и его биография (бывший дипломат, посол, секретарь по иностранным делам, ра)
-  proofread: Виджай Махан → Vijay Makhan (в тексте имя уже латиницей); Пол Беренже → Пол Беранже; канцелярии премьер-министра → канцелярию премьер-министра
-Posted (Defimedia): Канцелярия премьер-министра: Vijay Makhan назначен специальным советником по международным отношениям
-  not news (portrait/lifestyle): [Blog] La Minor nous coûte plus cher que la Rolls-Royce
-Skipped foreign news (Defimedia): [Blog] La Minor nous coûte plus cher que la Rolls-Royce
-LLM usage this run: 6 requests, 9503 tokens
+Skipped duplicate (Defimedia): Vol d’une chaîne en or valant Rs 100 000 : le suspect arrêté serait impliqué dans plusieur == Poudre-d’Or: двое мужчин в балаклавах сорвали золотую цепь с 86-летней женщины
+LLM usage this run: 8 requests, 12139 tokens
