@@ -26,3 +26,14 @@ Posted (Defimedia): Программа продовольственной без
   dup check: new (Смертельное ДТП с участием двух мотоциклистов в Riche-Terre 24 ноября; погибший — 68-летний мужчина; другой участник задержан полицией; начато расслед)
 Posted (Defimedia): ДТП в Riche-Terre: 68-летний мотоциклист погиб
 LLM usage this run: 13 requests, 20621 tokens
+### check 3/5 at 01:39
+  dup check: new (Запрос на выдачу ордеров на арест бывшего президента Андри Радзуэлины и его экс-премьера Кристиана Нцая по делу о Boeing в Иране; оба покинули страну )
+  not about Mauritius: Madagascar : mandats d'arrêt requis contre l'ancien président Rajoelina et son ex-Premier ministre d
+Skipped foreign news (Defimedia): Madagascar : mandats d'arrêt requis contre l'ancien président Rajoelina et son ex-Premier ministre d
+  proofread: Банк Маврикия → Банк Маврикия (уже верно); Международный валютный фонд → Международный валютный фонд (уже верно); Moyen-Orient → Ближний Восток (уже верно)
+Posted (Defimedia): Отчёт MCB: Маврикий должен устойчиво превышать 3% роста
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Child Adoption Bill : du certificat au jugement, puis le suivi de l'enfant == Законопроект об усыновлении детей на Маврикии: усиленный контроль и новые правила
+  dup check: new (Mohammad Reedwan Baulauck obtient la liberté sous caution avec des conditions (caution Rs 75 000, reconnaissance de dette Rs 500 000, présentation au )
+Posted (Defimedia): Убийство Selven Iyempermal: Mohammad Reedwan Baulauck освобождён под залог
+LLM usage this run: 8 requests, 14244 tokens
