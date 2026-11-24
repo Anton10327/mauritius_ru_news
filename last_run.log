@@ -47,3 +47,14 @@ Posted (Defimedia): PSAC: не хватает около сотни провер
   not about Mauritius: Votre témoignage peut briser le silence et aider d’autres personnes à trouver du soutien
 Skipped foreign news (Defimedia): Votre témoignage peut briser le silence et aider d’autres personnes à trouver du soutien
 LLM usage this run: 7 requests, 12668 tokens
+### check 5/5 at 15:54
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Agression d’une dame de 86 ans par deux malfrats : «Un cas de trop», selon le président du == Poudre-d’Or: двое мужчин в балаклавах сорвали золотую цепь с 86-летней женщины
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Électricité : une marge de 10 MW au pic de demande prévu == Электроэнергия: CEB ищет дополнительные 15 МВт для компенсации отключения турбины Nicolay 
+  dup check: new (Назначение Виджая Макхана Special Advisor on Foreign Relations с 23 ноября и его биография (бывший дипломат, посол, секретарь по иностранным делам, ра)
+  proofread: Виджай Махан → Vijay Makhan (в тексте имя уже латиницей); Пол Беренже → Пол Беранже; канцелярии премьер-министра → канцелярию премьер-министра
+Posted (Defimedia): Канцелярия премьер-министра: Vijay Makhan назначен специальным советником по международным отношениям
+  not news (portrait/lifestyle): [Blog] La Minor nous coûte plus cher que la Rolls-Royce
+Skipped foreign news (Defimedia): [Blog] La Minor nous coûte plus cher que la Rolls-Royce
+LLM usage this run: 6 requests, 9503 tokens
