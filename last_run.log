@@ -1,59 +1,16 @@
-### check 1/5 at 05:39
-GigaChat balance: GigaChat-Ultra 44,773,710, GigaChat-Pro 35,701,623, GigaChat-Max 23,917,382, GigaChat 249,589,075; 330 days to go
+### check 1/5 at 15:38
+New source Le Mauricien: skipped backlog, posting newest only
+New source Inside News: skipped backlog, posting newest only
+  dup check: new (SBM Holdings и бывший CEO Рауль Гюффле официально завершили трудовые отношения по обоюдному согласию 20 ноября; дисциплинарные процедуры против него п)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Wazaa): Вкладчики Silver Bank сталкиваются с неопределёнными выплатами на 7,5 млрд рупий в ходе ликвидации
+Posted (Defimedia): Спустя почти четыре месяца после отстранения: Raoul Gufflet и SBM Holdings официально оформили расставание по взаимному согласию
   dup: nothing new ()
-Skipped duplicate (Defimedia): Soupçons de fratricide à Saint-Julien-d’Hotman : l’autopsie révèle un œdème cérébral et pu == Saint-Julien-d’Hotman: мужчина арестован после смерти своего брата
-  dup check: new (Верховный суд Маврикия 13 ноября 2026 года отклонил апелляцию Люциуса Амерсона-младшего; он остаётся осуждённым на 25 лет тюрьмы и штраф в 50 000 рупи)
+Skipped duplicate (Wazaa): Ancien ambassadeur mauricien poursuit son ex-agent pour 100 millions de roupies au titre d == Управление недвижимостью: бывший посол и его супруга требуют 100 млн рупий компенсации у б
+  dup check: new (Attorney General Gavin Glover анонсировал подготовку законопроекта о медиации (Mediation Bill) с целью его принятия к февралю 2027 года; законопроект )
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Импорт героина на сумму более 8,7 млн рупий: Верховный суд оставил в силе 25 лет тюрьмы для Lucius Amerson Jr в апелляции
-Posted (Defimedia): Законопроект об усыновлении детей на Маврикии: усиленный контроль и новые правила
-LLM usage this run: 8 requests, 14938 tokens
-### check 2/5 at 05:43
-  dup check: new (Kelvy Lutchigadoo подал ходатайство о сокращении срока наказания после осуждения 15 октября 2025 года на 18 лет и штраф Rs 100 000 за попытку завладет)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Fluoro-ADB
-  leftovers fixed by GigaChat-3-Pro; still left: Fluoro-ADB
-Posted (Defimedia): Kelvy Lutchigadoo требует сокращения срока наказания
-Posted (Defimedia): Домашнее насилие может обходиться Маврикию в 4,5 млрд рупий в год
-  dup check: new (Министр труда Reza Uteem заявил о возможности судебных исков против World Knits за невыплату зарплат; сумма долга компании — 1,4 млрд рупий; министр о)
-Posted (Defimedia): Невыплата зарплат: против World Knits возможны судебные иски, заявил министр труда Reza Uteem
-  dup check: new (Статья сообщает о намерении правительства Маврикия укрепить роль страны как финансового моста между международными инвесторами и экономическими возмож)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Junior, minister
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Маврикий хочет усилить свою роль финансового моста в Африку
-LLM usage this run: 13 requests, 19753 tokens
-### check 3/5 at 05:47
-  same headline as #32: Saint-Julien-d’Hotman : un homme arrêté après la mort de son frère
-Skipped duplicate (Defimedia): Drame à Saint-Julien-d’Hotman : Selven Kistnasamy inculpé après la mort de son frère == Saint-Julien-d’Hotman: мужчина арестован после смерти своего брата
-  not about Mauritius: Paiements instantanés : 39 systèmes désormais opérationnels en Afrique
-Skipped foreign news (Defimedia): Paiements instantanés : 39 systèmes désormais opérationnels en Afrique
-  dup check: new (Иск бывшего посла и его супруги на 100 млн рупий против бывшей доверенной по недвижимости; детали о составе имущества (жилая и коммерческая недвижимос)
-  proofread: жилой и коммерческой недвижимостью → жилой и коммерческой недвижимости; не предоставляла отчёты → не предоставляла отчеты
-Posted (Defimedia): Управление недвижимостью: бывший посол и его супруга требуют 100 млн рупий компенсации у бывшей доверенной
+  foreign words left: Mediation
+  leftovers fixed by GigaChat-3-Pro; still left: Mediation
+Posted (Defimedia): Медиация и арбитраж: генеральный атторней Gavin Glover анонсировал законопроект на февраль 2027 года
   dup: nothing new ()
-Skipped duplicate (Defimedia): Troubles à l’ordre public en octobre dernier : Me Pravesh Nuckcheddy plaide pour une justi == Эрозия в Tamarin: перед проведением долговечных работ запланирована 12-месячная научная ра
-LLM usage this run: 5 requests, 10185 tokens
-### check 4/5 at 05:51
-  not about Mauritius: [Blog] Never Again!
-Skipped foreign news (Defimedia): [Blog] Never Again!
-  foreign words left: Moody’s, Statistics, Mauritius
-  leftovers fixed by GigaChat-3-Pro; still left: Moody’s, Statistics, Mauritius
-Posted (Wazaa): Маврикий рассчитывает на передышку от Moody’s после пересчёта ВВП 2023 года и снижения соотношения госдолга к ВВП
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Selven Kistnasamy: «Je n’avais aucune intention de tuer mon frère» == Saint-Julien-d’Hotman: мужчина арестован после смерти своего брата
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Affaire Mamy Ravatomanga : l’enquête sur le complot présumé bouclée, le DPP examine le dos == Дело Ravatomanga: запрос о расследовании в CCID по материалам дела FCC
-LLM usage this run: 6 requests, 9955 tokens
-### check 5/5 at 05:55
-  dup check: new (Импорт более 6200 голов скота из Намибии на Маврикий в контексте ящура; министр агропромышленности Арвин Буалль успокаивает по поводу карантина и вете)
-Posted (Defimedia): Более 6200 голов скота ожидается на Маврикии в этот понедельник
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Rose-Hill : un automobiliste agressé à coups de katana après un différend sur la route == Stanley, Rose-Hill: возвращение спокойствия после напряжённости на улице Ratsitatane
-  dup check: new (Два человека осуждены за нарушение комендантского часа: Louis Greg Adriano Jeff Baptiste (24 года) получил 3 месяца тюрьмы, Gino Michel Jean Yves Abel)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Нарушение комендантского часа: двое мужчин приговорены к трём и четырём месяцам тюрьмы
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Agression au Riche-Terre Mall : la police attend toujours de recueillir la version de la v == Riche-Terre: столкновение двух групп в торговом центре
-LLM usage this run: 8 requests, 12251 tokens
+Skipped duplicate (Defimedia): [Info Soirée] : « ZORDI MO PE VIV GRAS A MO GARSON » == Насилие в отношении женщин: Le Défi Media Group проводит кампанию с 23 по 29 ноября
+LLM usage this run: 9 requests, 12607 tokens
