@@ -14,3 +14,14 @@ Posted (Defimedia): Медиация и арбитраж: генеральный
   dup: nothing new ()
 Skipped duplicate (Defimedia): [Info Soirée] : « ZORDI MO PE VIV GRAS A MO GARSON » == Насилие в отношении женщин: Le Défi Media Group проводит кампанию с 23 по 29 ноября
 LLM usage this run: 9 requests, 12607 tokens
+### check 2/5 at 15:42
+  dup check: new (Jensen Huang réinstalle au poste de CEO après avoir démissionné dans un contexte d'affaires extraconjugales)
+  not about Mauritius: Nvidia : Le conseil d’administration   réinstalle Jensen Huang au poste de CEO
+Skipped foreign news (Defimedia): Nvidia : Le conseil d’administration   réinstalle Jensen Huang au poste de CEO
+  not about Mauritius: Selon l'ONG Oxfam : Les attaques israéliennes ont transformé Gaza en «terrain vague toxique»
+Skipped foreign news (Defimedia): Selon l'ONG Oxfam : Les attaques israéliennes ont transformé Gaza en «terrain vague toxique»
+  not news (portrait/lifestyle): Allô Docteur – Infertilité : quand concevoir un enfant devient difficile
+Skipped foreign news (Defimedia): Allô Docteur – Infertilité : quand concevoir un enfant devient difficile
+  dup: nothing new ()
+Skipped duplicate (Wazaa): La violence domestique pourrait coûter à Maurice jusqu’à 15 milliards de roupies par an == Домашнее насилие может обходиться Маврикию в 4,5 млрд рупий в год
+LLM usage this run: 5 requests, 11147 tokens
