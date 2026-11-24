@@ -24,3 +24,14 @@ Posted (Defimedia): Невыплата зарплат: против World Knits 
   leftovers fixed by GigaChat-3-Pro; still left: none
 Posted (Defimedia): Маврикий хочет усилить свою роль финансового моста в Африку
 LLM usage this run: 13 requests, 19753 tokens
+### check 3/5 at 05:47
+  same headline as #32: Saint-Julien-d’Hotman : un homme arrêté après la mort de son frère
+Skipped duplicate (Defimedia): Drame à Saint-Julien-d’Hotman : Selven Kistnasamy inculpé après la mort de son frère == Saint-Julien-d’Hotman: мужчина арестован после смерти своего брата
+  not about Mauritius: Paiements instantanés : 39 systèmes désormais opérationnels en Afrique
+Skipped foreign news (Defimedia): Paiements instantanés : 39 systèmes désormais opérationnels en Afrique
+  dup check: new (Иск бывшего посла и его супруги на 100 млн рупий против бывшей доверенной по недвижимости; детали о составе имущества (жилая и коммерческая недвижимос)
+  proofread: жилой и коммерческой недвижимостью → жилой и коммерческой недвижимости; не предоставляла отчёты → не предоставляла отчеты
+Posted (Defimedia): Управление недвижимостью: бывший посол и его супруга требуют 100 млн рупий компенсации у бывшей доверенной
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Troubles à l’ordre public en octobre dernier : Me Pravesh Nuckcheddy plaide pour une justi == Эрозия в Tamarin: перед проведением долговечных работ запланирована 12-месячная научная ра
+LLM usage this run: 5 requests, 10185 tokens
