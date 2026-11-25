@@ -50,3 +50,14 @@ Skipped duplicate (Defimedia): Ganga Snan : Belle Mare accueille de nombreux fid
 Skipped duplicate (Wazaa): Environ 100 correcteurs manquants perturbent la notation chez PSAC pendant les pourparlers == PSAC: не хватает около сотни проверяющих работ
 Posted (Defimedia): Приём заявок для продавцов Night Market на Champ-de-Mars начинается в эту среду
 LLM usage this run: 5 requests, 6991 tokens
+### check 5/5 at 08:50
+  dup check: new (В Morcellement Saint-Andréy произошла смертельная авария: погиб 69-летний водитель после столкновения с фургоном; его смерть констатирована на месте S)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Morcellement Saint-Andréy: 69-летний водитель погиб в результате столкновения
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Rodrigues : veille au tsunami après un séisme à 326 km au nord-est de l’île == У северо-востока Rodrigues: зарегистрировано землетрясение магнитудой 6,4
+  not about Mauritius: Dans son journal intime, le pape François écrit avoir vu le diable à trois reprises
+Skipped foreign news (Defimedia): Dans son journal intime, le pape François écrit avoir vu le diable à trois reprises
+  dup check: new (Назначение первого постоянного посла Маврикия в Токио и его интервью о приоритетах новой дипломатической миссии; открытие первой постоянной дипмиссии )
+Posted (Le Mauricien): Arnaud Godère (первый постоянный посол Маврикия в Токио): «Сделать Маврикий надёжным мостом между Японией, Индийским океаном и Африкой»
+LLM usage this run: 8 requests, 13442 tokens
