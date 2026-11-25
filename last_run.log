@@ -23,3 +23,21 @@ Skipped duplicate (Le Mauricien): SAINT-JULIEN-D’HOTMAN : Il agresse mortelle
   leftovers fixed by GigaChat-3-Pro; still left: none
 Posted (Le Mauricien): CAMP-LEVIEUX: один гудок спровоцировал вооружённое нападение с применением катаны и пистолета
 LLM usage this run: 9 requests, 13373 tokens
+### check 3/5 at 08:42
+Could not read Top FM: ConnectionError HTTPSConnectionPool(host='topfm.mu', port=443): Read timed out.
+  dup check: new (Землетрясение магнитудой 6,4 зарегистрировано 24 ноября 2026 года в 15:06 примерно в 326 км к северо-востоку от Родригеса на глубине около 10 км; эпиц)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): У северо-востока Rodrigues: зарегистрировано землетрясение магнитудой 6,4
+  dup check: new (В статье приведены новые данные о доходах IBL Group за 2026 год (124,3 млрд рупий), росте на 2,1% по сравнению с 2025 годом и доле международных опера)
+  proofread: 
+  foreign words left: Entreprises, Beyond
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Wazaa): IBL сохраняет лидерство, пока маврикийские гиганты увеличивают выручку на 8,05%
+  dup check: new (Запланирована семидневная информационная кампания против насилия в отношении женщин, которая будет обсуждаться в эфире Au Cœur de l’Info 25 ноября. Эт)
+  proofread: Au Cœur de l’Info : quelles réponses aux violences faites aux femmes ? → "В центре новостей": какие ответы на насилие в отношении женщин?
+Posted (Defimedia): «В центре новостей»: какие ответы на насилие в отношении женщин?
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: City
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Le Mauricien): Технологии: FMP анализирует последствия искусственного интеллекта
+LLM usage this run: 13 requests, 20132 tokens
