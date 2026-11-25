@@ -34,3 +34,17 @@ Skipped duplicate (Defimedia): Se taire, éviter, s’adapter : le quotidien des
   not news (portrait/lifestyle): Rajen Suntoo, sociologue : «Le plus inquiétant, c’est quand la violence ne choque plus»
 Skipped foreign news (Defimedia): Rajen Suntoo, sociologue : «Le plus inquiétant, c’est quand la violence ne choque plus»
 LLM usage this run: 8 requests, 13206 tokens
+### check 4/5 at 03:40
+  dup check: new (Сотрудница Family Support Service в Flacq подала жалобу на угрозы убийством со стороны жительницы района; инцидент произошёл 24 ноября около 11:30 из-)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Family, and, Service
+  leftovers fixed by GigaChat-3-Pro; still left: Family, and, Service
+Posted (Defimedia): Flacq: сотрудница Family Support Service заявила, что ей угрожали убийством в офисе
+  dup check: new (Маврикий и Сейшельские Острова подписали соглашение с CGG Services SAS для проведения геофизических исследований на плато Маскарен в рамках предварите)
+Posted (Defimedia): Маврикий и Сейшельские Острова подписали стратегическое соглашение об изучении нефтегазового потенциала плато Маскаренских островов
+  dup check: new (Статья объясняет различия в правовом подходе к разным формам уличного харассмента (свистки, сексистские замечания, оскорбления, домогательства) и отме)
+  not news (portrait/lifestyle): Harcèlement : que dit la loi et quels recours pour les femmes?
+Skipped foreign news (Defimedia): Harcèlement : que dit la loi et quels recours pour les femmes?
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Au Cœur de l’Info : World Knits, quel avenir pour les familles concernées ? == Невыплата зарплат: против World Knits возможны судебные иски, заявил министр труда Reza Ut
+LLM usage this run: 10 requests, 14182 tokens
