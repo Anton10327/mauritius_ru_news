@@ -12,3 +12,14 @@ Posted (Defimedia): Саммит «США — Африка»: к 2063 году �
   not news (portrait/lifestyle): Rénovation, décoration, peinture, ameublement…quand les fêtes de fin d’année stimulent les achats
 Skipped foreign news (Defimedia): Rénovation, décoration, peinture, ameublement…quand les fêtes de fin d’année stimulent les achats
 LLM usage this run: 9 requests, 17617 tokens
+### check 2/5 at 03:32
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Видео сочли клеветническим: адвокат Siddhartha Hawoldar рассматривает гражданские и уголовные иски
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Violence contre les femmes : plus de 6 000 cas de violence domestique signalés en 2025 == Домашнее насилие может обходиться Маврикию в 4,5 млрд рупий в год
+  dup: nothing new ()
+Skipped duplicate (Wazaa): L’État verse 127 millions de roupies en salaires à 247 fonctionnaires civils suspendus pen == Свыше 127 млн рупий на зарплаты 247 отстранённых госслужащих за пять лет, включая 200 поли
+  dup check: new (Попытка побега заключённого во время реконструкции преступления в Beau-Bassin, его травма и госпитализация.)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Beau-Bassin: заключённый получил травмы при попытке побега во время следственного эксперимента
+LLM usage this run: 7 requests, 10406 tokens
