@@ -1,63 +1,13 @@
-### check 1/5 at 08:34
-  dup check: new (Заявление премьер-министра Маврикия Навина Рамгулама о том, что правительство не планирует вводить ограничение на процентные ставки по ипотечным креди)
+### check 1/5 at 18:55
+New source Le Mauricien: skipped backlog, posting newest only
+New source Inside News: skipped backlog, posting newest only
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Ипотечные кредиты: введение потолка процентных ставок не рассматривается, заявил Navin Ramgoolam
-  dup: nothing new ()
-Skipped duplicate (Defimedia): PNQ sur la fièvre aphteuse : Arvin Boolell confirme la quarantaine du bétail importé == Более 6200 голов скота ожидается на Маврикии в этот понедельник
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Fièvre aphteuse : Chetan Baboolall dénonce des «zones d’ombre» dans les explications d’Arv == Парламент: ящур в центре срочного вопроса оппозиции
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Au Cœur de l’Info : quelles réponses aux violences faites aux femmes ? == Saint-Julien-d’Hotman: мужчина арестован после смерти своего брата
-LLM usage this run: 6 requests, 8126 tokens
-### check 2/5 at 08:38
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Ancien ambassadeur accepte un nouveau poste en affaires étrangères au PMO == Канцелярия премьер-министра: Vijay Makhan назначен специальным советником по международным
-  dup check: new (Дефицит бюджета снижен с 8,5% ВВП в 2024-2025 до 5% в 2025-2026; цель — снизить госдолг до 75% ВВП к июню 2030.)
+Posted (Defimedia): Цифровые права: Mauritius Labour Congress выступает за офлайн-решение
+  dup check: new (Официально отменена тревога о цунами (Tsunami Watch) для Rodrigues после землетрясения 24 ноября; метеостанция Vacoas подтвердила отсутствие значимых )
   proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Prime, Minister
-  leftovers fixed by GigaChat-3-Pro; still left: Prime, Minister
-Posted (Defimedia): Дефицит бюджета сократился с 8,5% ВВП в 2024–2025 до 5% в 2025–2026, заявил премьер-министр Navin Ramgoolam
+Posted (Defimedia): На Rodrigues отменено предупреждение о цунами
+  not news (portrait/lifestyle): Me Marc Hein retrace plusieurs décennies de vie juridique et politique dans «Aventures en droit et e
+Skipped foreign news (Defimedia): Me Marc Hein retrace plusieurs décennies de vie juridique et politique dans «Aventures en droit et e
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): SAINT-JULIEN-D’HOTMAN : Il agresse mortellement son frère avec un morceau de fer == Saint-Julien-d’Hotman: мужчина арестован после смерти своего брата
-  foreign words left: hôpital
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Le Mauricien): CAMP-LEVIEUX: один гудок спровоцировал вооружённое нападение с применением катаны и пистолета
-LLM usage this run: 9 requests, 13373 tokens
-### check 3/5 at 08:42
-Could not read Top FM: ConnectionError HTTPSConnectionPool(host='topfm.mu', port=443): Read timed out.
-  dup check: new (Землетрясение магнитудой 6,4 зарегистрировано 24 ноября 2026 года в 15:06 примерно в 326 км к северо-востоку от Родригеса на глубине около 10 км; эпиц)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): У северо-востока Rodrigues: зарегистрировано землетрясение магнитудой 6,4
-  dup check: new (В статье приведены новые данные о доходах IBL Group за 2026 год (124,3 млрд рупий), росте на 2,1% по сравнению с 2025 годом и доле международных опера)
-  proofread: 
-  foreign words left: Entreprises, Beyond
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Wazaa): IBL сохраняет лидерство, пока маврикийские гиганты увеличивают выручку на 8,05%
-  dup check: new (Запланирована семидневная информационная кампания против насилия в отношении женщин, которая будет обсуждаться в эфире Au Cœur de l’Info 25 ноября. Эт)
-  proofread: Au Cœur de l’Info : quelles réponses aux violences faites aux femmes ? → "В центре новостей": какие ответы на насилие в отношении женщин?
-Posted (Defimedia): «В центре новостей»: какие ответы на насилие в отношении женщин?
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: City
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Le Mauricien): Технологии: FMP анализирует последствия искусственного интеллекта
-LLM usage this run: 13 requests, 20132 tokens
-### check 4/5 at 08:46
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Riche-Terre : Daniello Choon Yoon, 68 ans, tué dans un accident de moto == ДТП в Riche-Terre: 68-летний мотоциклист погиб
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Ganga Snan : Belle Mare accueille de nombreux fidèles pour les célébrations == Saint-Julien-d’Hotman: мужчина арестован после смерти своего брата
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Environ 100 correcteurs manquants perturbent la notation chez PSAC pendant les pourparlers == PSAC: не хватает около сотни проверяющих работ
-Posted (Defimedia): Приём заявок для продавцов Night Market на Champ-de-Mars начинается в эту среду
-LLM usage this run: 5 requests, 6991 tokens
-### check 5/5 at 08:50
-  dup check: new (В Morcellement Saint-Andréy произошла смертельная авария: погиб 69-летний водитель после столкновения с фургоном; его смерть констатирована на месте S)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Morcellement Saint-Andréy: 69-летний водитель погиб в результате столкновения
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Rodrigues : veille au tsunami après un séisme à 326 km au nord-est de l’île == У северо-востока Rodrigues: зарегистрировано землетрясение магнитудой 6,4
-  not about Mauritius: Dans son journal intime, le pape François écrit avoir vu le diable à trois reprises
-Skipped foreign news (Defimedia): Dans son journal intime, le pape François écrit avoir vu le diable à trois reprises
-  dup check: new (Назначение первого постоянного посла Маврикия в Токио и его интервью о приоритетах новой дипломатической миссии; открытие первой постоянной дипмиссии )
-Posted (Le Mauricien): Arnaud Godère (первый постоянный посол Маврикия в Токио): «Сделать Маврикий надёжным мостом между Японией, Индийским океаном и Африкой»
-LLM usage this run: 8 requests, 13442 tokens
+Skipped duplicate (Defimedia): [Info Soirée] : « Bizin vinn koz la verite lor seki inn arrive » == Парламент: ящур в центре срочного вопроса оппозиции
+LLM usage this run: 7 requests, 11287 tokens
