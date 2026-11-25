@@ -1,61 +1,14 @@
-### check 1/5 at 18:55
-New source Le Mauricien: skipped backlog, posting newest only
-New source Inside News: skipped backlog, posting newest only
+### check 1/5 at 03:28
+  dup check: new (В статье говорится о финансовых результатах State Trading Corporation и Central Electricity Board за 2024 финансовый год: STC перешла от убытка в 622,)
+GigaChat balance: GigaChat-Ultra 44,601,428, GigaChat-Pro 35,559,815, GigaChat-Max 23,917,382, GigaChat 249,589,075; 328 days to go
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Цифровые права: Mauritius Labour Congress выступает за офлайн-решение
-  dup check: new (Официально отменена тревога о цунами (Tsunami Watch) для Rodrigues после землетрясения 24 ноября; метеостанция Vacoas подтвердила отсутствие значимых )
+Posted (Defimedia): Топ-100 компаний — STC и CEB: возвращение к прибыли на фоне угрозы со стороны цен на нефть
+  dup check: new (Опрос общественного мнения в США о желании окончания войны с Ираном; поддержка демократами парализации администрации для давления на Трампа; детали оп)
+  not about Mauritius: Selon un sondage : la plupart des Américains souhaitent la fin immédiate de la guerre contre l’Iran
+Skipped foreign news (Defimedia): Selon un sondage : la plupart des Américains souhaitent la fin immédiate de la guerre contre l’Iran
+  dup check: new (Прогнозируется, что «голубая экономика» Африки может приносить 576 млрд долларов США в год к 2063 году и поддерживать 78 млн рабочих мест; эти данные )
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): На Rodrigues отменено предупреждение о цунами
-  not news (portrait/lifestyle): Me Marc Hein retrace plusieurs décennies de vie juridique et politique dans «Aventures en droit et e
-Skipped foreign news (Defimedia): Me Marc Hein retrace plusieurs décennies de vie juridique et politique dans «Aventures en droit et e
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « Bizin vinn koz la verite lor seki inn arrive » == Парламент: ящур в центре срочного вопроса оппозиции
-LLM usage this run: 7 requests, 11287 tokens
-### check 2/5 at 18:59
-  dup: nothing new (Статистика по нарушениям системы штрафных баллов на Маврикии за январь–октябрь 2026 года: всего 27 947 нарушений; пять самых частых категорий — 21 074)
-Skipped duplicate (Defimedia): Permis à points : 27 947 infractions recensées, voici les cinq plus fréquentes == Вкладчики Silver Bank сталкиваются с неопределёнными выплатами на 7,5 млрд рупий в ходе ли
-  same headline as #36: Morcellement Saint-André : un automobiliste de 69 ans meurt après une collision
-Skipped duplicate (Defimedia): Morcellement Saint-André : Naser Janabadi, 69 ans, décède après une collision == Morcellement Saint-Andréy: 69-летний водитель погиб в результате столкновения
-  dup check: new (Magnitude du séisme réévaluée à 6,6 (initialement annoncée comme 6,4))
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Wazaa): Предупреждение о цунами объявлено для Rodrigues после пересмотра магнитуды землетрясения до 6,6
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Exchange
-  leftovers fixed by GigaChat-3-Pro; still left: Exchange
-Posted (Defimedia): MICROSOFT 365: глобальный сбой, локальный тест
-LLM usage this run: 7 requests, 10079 tokens
-### check 3/5 at 19:03
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Météo : des averses attendues sur l’est et le plateau central ce mercredi == Вкладчики Silver Bank сталкиваются с неопределёнными выплатами на 7,5 млрд рупий в ходе ли
-  dup check: new (Премьер-министр Навин Рамгулам представил в Национальное собрание 24 ноября предложение о создании Select Committee для изучения преступлений несоверш)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Уголовная ответственность несовершеннолетних: к созданию специального комитета
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Насилие по признаку пола: спикер призывает к мобилизации
-  proofread: Résidence-Vallijee → Résidence-Валлие
-Posted (Defimedia): Sable-Noir: в заброшенном здании обнаружены человеческие останки
-LLM usage this run: 8 requests, 12125 tokens
-### check 4/5 at 19:07
-  dup check: new (Сумма выплаченных зарплат (Rs 127 млн), количество получателей (247 человек) и число полицейских среди них (200); министр Raj Pentiah сообщил эти данн)
-  proofread: 
-Posted (Defimedia): Свыше 127 млн рупий на зарплаты 247 отстранённых госслужащих за пять лет, включая 200 полицейских
-  dup check: new (Адвокат Rama Valayden требует от государства 1,9 млн рупий за предполагаемую слежку в рамках расследования убийства Soopramanien Kistnen; он ссылается)
-Posted (Defimedia): Предполагаемая тайная слежка: адвокат Rama Valayden требует от государства 1,9 млн рупий
-  dup: nothing new (Информация о погодных условиях на 25 ноября: прогнозируются дожди в восточной части острова и на центральном плато, температуры до 32°C на побережье.)
-Skipped duplicate (Wazaa): Des averses touchent deux régions clés ce mercredi alors que les températures côtières att == Вкладчики Silver Bank сталкиваются с неопределёнными выплатами на 7,5 млрд рупий в ходе ли
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Violences conjugales : comment protéger les femmes qui portent plainte ? == «В центре новостей»: какие ответы на насилие в отношении женщин?
-LLM usage this run: 8 requests, 12842 tokens
-### check 5/5 at 19:11
-  dup check: new (В статье сообщается о проведении двух крупных региональных мероприятий скаутского движения в Маврикии с 29 ноября по 4 декабря 2026 года — это новые с)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: by
-  leftovers fixed by GigaChat-3-Pro; still left: by
-Posted (Defimedia): Скаутинг: Маврикий примет два крупных региональных мероприятия с 29 ноября по 4 декабря
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Нарушение экологических норм: испорченные яйца выбросили в природу в Pamplemousses
-  dup check: new (ICTA создала многопартийный комитет для ускорения установки антенн и улучшения мобильной связи; первое заседание прошло с участием государственных учр)
-Posted (Defimedia): Мобильная связь: ICTA создала комитет для ускорения установки базовых станций
-  same headline as #42: Responsabilité pénale des mineurs : vers un Select Committee
-Skipped duplicate (Defimedia): Motion parlementaire - Responsabilité pénale des mineurs : vers un Select Committee == Уголовная ответственность несовершеннолетних: к созданию специального комитета
-LLM usage this run: 9 requests, 14739 tokens
+Posted (Defimedia): Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд долларов в год
+  not news (portrait/lifestyle): Rénovation, décoration, peinture, ameublement…quand les fêtes de fin d’année stimulent les achats
+Skipped foreign news (Defimedia): Rénovation, décoration, peinture, ameublement…quand les fêtes de fin d’année stimulent les achats
+LLM usage this run: 9 requests, 17617 tokens
