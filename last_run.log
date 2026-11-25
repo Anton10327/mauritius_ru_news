@@ -1,64 +1,11 @@
-### check 1/5 at 01:31
-New source Inside News: skipped backlog, posting newest only
-  dup check: new (В статье анонсировано, что лидер оппозиции поднимет в парламенте вопросы о ящуре: предназначение заражённого скота, меры по отслеживанию и контролю, к)
-GigaChat balance: GigaChat-Ultra 44,702,587, GigaChat-Pro 35,649,480, GigaChat-Max 23,917,382, GigaChat 249,589,075; 329 days to go
+### check 1/5 at 08:34
+  dup check: new (Заявление премьер-министра Маврикия Навина Рамгулама о том, что правительство не планирует вводить ограничение на процентные ставки по ипотечным креди)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Парламент: ящур в центре срочного вопроса оппозиции
+Posted (Defimedia): Ипотечные кредиты: введение потолка процентных ставок не рассматривается, заявил Navin Ramgoolam
   dup: nothing new ()
-Skipped duplicate (Wazaa): Perturbation tropicale à l’est de Diego Garcia et chaleur de 32 °C sur l’île Maurice == Погода: тропическое возмущение развивается к востоку от Диего-Гарсия
-  dup check: new (Статья сообщает о решении судьи оставить конституционную жалобу Навина Рамгулама по делу о сейфах в подвешенном состоянии до дальнейшего уведомления; )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Дело о сейфах: конституционная жалоба Navin Ramgoolam приостановлена до дальнейших распоряжений
+Skipped duplicate (Defimedia): PNQ sur la fièvre aphteuse : Arvin Boolell confirme la quarantaine du bétail importé == Более 6200 голов скота ожидается на Маврикии в этот понедельник
   dup: nothing new ()
-Skipped duplicate (Defimedia): Vol d’une chaîne en or valant Rs 100 000 : le suspect arrêté serait impliqué dans plusieur == Poudre-d’Or: двое мужчин в балаклавах сорвали золотую цепь с 86-летней женщины
-LLM usage this run: 8 requests, 12139 tokens
-### check 2/5 at 01:35
-  dup check: new (Статья сообщает о новом инциденте: ограблении 80-летней женщины в Вакоас во время ожидания скорой помощи. Указаны дата (10 ноября), место происшествия)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: hôpital, centre
-  leftovers fixed by GigaChat-3-Pro; still left: hôpital, centre
-Posted (Defimedia): В Vacoas: 80-летнюю женщину ограбили, пока она ждала бригаду скорой помощи
-  dup check: new (В статье сообщается о запуске двух дренажных систем на Родригесе общей стоимостью 81 млн рупий для снижения риска наводнений; указаны конкретные суммы)
-Posted (Defimedia): Rodrigues: два проекта на 81 млн рупий для снижения риска наводнений
-  dup check: new (Объявлена новая государственная программа Food Security Programme 2026-2030 с целью довести площадь сельскохозяйственных земель до 25 000 арпентов и у)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Программа продовольственной безопасности 2026–2030: цель правительства — 25 000 арпанов сельскохозяйственных земель
-  dup check: new (Смертельное ДТП с участием двух мотоциклистов в Riche-Terre 24 ноября; погибший — 68-летний мужчина; другой участник задержан полицией; начато расслед)
-Posted (Defimedia): ДТП в Riche-Terre: 68-летний мотоциклист погиб
-LLM usage this run: 13 requests, 20621 tokens
-### check 3/5 at 01:39
-  dup check: new (Запрос на выдачу ордеров на арест бывшего президента Андри Радзуэлины и его экс-премьера Кристиана Нцая по делу о Boeing в Иране; оба покинули страну )
-  not about Mauritius: Madagascar : mandats d'arrêt requis contre l'ancien président Rajoelina et son ex-Premier ministre d
-Skipped foreign news (Defimedia): Madagascar : mandats d'arrêt requis contre l'ancien président Rajoelina et son ex-Premier ministre d
-  proofread: Банк Маврикия → Банк Маврикия (уже верно); Международный валютный фонд → Международный валютный фонд (уже верно); Moyen-Orient → Ближний Восток (уже верно)
-Posted (Defimedia): Отчёт MCB: Маврикий должен устойчиво превышать 3% роста
+Skipped duplicate (Defimedia): Fièvre aphteuse : Chetan Baboolall dénonce des «zones d’ombre» dans les explications d’Arv == Парламент: ящур в центре срочного вопроса оппозиции
   dup: nothing new ()
-Skipped duplicate (Defimedia): Child Adoption Bill : du certificat au jugement, puis le suivi de l'enfant == Законопроект об усыновлении детей на Маврикии: усиленный контроль и новые правила
-  dup check: new (Mohammad Reedwan Baulauck obtient la liberté sous caution avec des conditions (caution Rs 75 000, reconnaissance de dette Rs 500 000, présentation au )
-Posted (Defimedia): Убийство Selven Iyempermal: Mohammad Reedwan Baulauck освобождён под залог
-LLM usage this run: 8 requests, 14244 tokens
-### check 4/5 at 01:43
-  dup check: new (Инцидент в L’Escalier: 43-летний мужчина сбит дважды внедорожником после ссоры; он находится в тяжёлом состоянии в больнице Nehru. По словам свидетеля)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: x, hôpital
-  leftovers fixed by GigaChat-3-Pro; still left: x
-Posted (Defimedia): L’Escalier: 43-летнего мужчину дважды сбил 4x4 после ссоры
-  not news (portrait/lifestyle): Quand l’absence parentale peut ouvrir la voie à l’adoption
-Skipped foreign news (Defimedia): Quand l’absence parentale peut ouvrir la voie à l’adoption
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Ces mots qui excusent les violences faites aux femmes == Дело Ravatomanga: запрос о расследовании в CCID по материалам дела FCC
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Rodrigues ouvre deux projets de drainage pour un coût de 81 millions de roupies mauricienn == Rodrigues: два проекта на 81 млн рупий для снижения риска наводнений
-LLM usage this run: 7 requests, 9127 tokens
-### check 5/5 at 01:47
-  dup: nothing new (Увеличение жилищной субсидии для госслужащих с Родригеса на обучении до 3185 рупий в месяц и строительство здания во Флореале для их размещения; текущ)
-Skipped duplicate (Defimedia): Fonctionnaires rodriguais en formation : l’allocation de logement sera revue à la hausse == Дело Ravatomanga: запрос о расследовании в CCID по материалам дела FCC
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Феминицид и супружеское изнасилование: меры приняты, но до сих пор не провозглашены
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Les mille visages de l'abus : ce que dit la loi == Дело Ravatomanga: запрос о расследовании в CCID по материалам дела FCC
-  dup check: new (Инцидент с нападением на сержанта полиции в Mare d’Australia 23 ноября 2026 года; подозреваемая — женщина 31 года, использовавшая металлический предме)
-  foreign words left: d’Австралия, d’Австралия, Mare
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Море Австралии: 31-летнюю женщину подозревают в нападении на сержанта полиции
-LLM usage this run: 8 requests, 11416 tokens
+Skipped duplicate (Defimedia): Au Cœur de l’Info : quelles réponses aux violences faites aux femmes ? == Saint-Julien-d’Hotman: мужчина арестован после смерти своего брата
+LLM usage this run: 6 requests, 8126 tokens
