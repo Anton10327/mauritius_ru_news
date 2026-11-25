@@ -48,3 +48,17 @@ Skipped foreign news (Defimedia): Harcèlement : que dit la loi et quels recours
   dup: nothing new ()
 Skipped duplicate (Defimedia): Au Cœur de l’Info : World Knits, quel avenir pour les familles concernées ? == Невыплата зарплат: против World Knits возможны судебные иски, заявил министр труда Reza Ut
 LLM usage this run: 10 requests, 14182 tokens
+### check 5/5 at 03:44
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Fièvre aphteuse : Socovia rejette toute responsabilité == Парламент: ящур в центре срочного вопроса оппозиции
+  dup: nothing new ()
+Skipped duplicate (Defimedia): L’Escalier : Ajay Gunness vise une réduction de 95 à 100 % des risques d’inondation == Rodrigues: два проекта на 81 млн рупий для снижения риска наводнений
+  dup check: new (DPP Rashid Ahmine предупредил о неэффективности уголовной юстиции в борьбе с ростом подростковой преступности и выразил обеспокоенность увеличением чи)
+  proofread: Rashid Ahmine → Рашид Ахмин; Port-Louis → Порт-Луи
+Posted (Wazaa): Генеральный прокурор Маврикия предупреждает: уголовная юстиция не справляется с ростом подростковой преступности после 2026 года
+  dup check: new (В новой статье сообщается о 55-й годовщине смерти Азор Аделаиды и о том, что лидеры MMM почтили её память на кладбище Сен-Жан. Это отдельное событие, )
+  proofread: Azor Аделаид → Азор Аделаида; на улице Chasteauneuf → на улице Шастонёф; Curepipe → Курипип; кладбище Saint-Jean → кладбище Сен-Жан
+  foreign words left: Chasteauneuf, Saint-Jean
+  leftovers fixed by GigaChat-3-Pro; still left: Chasteauneuf, Saint-Jean
+Posted (Defimedia): 55-летие со дня гибели: MMM почтил память Azor Adelaïde
+LLM usage this run: 9 requests, 13012 tokens
