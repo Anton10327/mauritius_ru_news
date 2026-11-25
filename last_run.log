@@ -35,3 +35,14 @@ Posted (Defimedia): Насилие по признаку пола: спикер 
   proofread: Résidence-Vallijee → Résidence-Валлие
 Posted (Defimedia): Sable-Noir: в заброшенном здании обнаружены человеческие останки
 LLM usage this run: 8 requests, 12125 tokens
+### check 4/5 at 19:07
+  dup check: new (Сумма выплаченных зарплат (Rs 127 млн), количество получателей (247 человек) и число полицейских среди них (200); министр Raj Pentiah сообщил эти данн)
+  proofread: 
+Posted (Defimedia): Свыше 127 млн рупий на зарплаты 247 отстранённых госслужащих за пять лет, включая 200 полицейских
+  dup check: new (Адвокат Rama Valayden требует от государства 1,9 млн рупий за предполагаемую слежку в рамках расследования убийства Soopramanien Kistnen; он ссылается)
+Posted (Defimedia): Предполагаемая тайная слежка: адвокат Rama Valayden требует от государства 1,9 млн рупий
+  dup: nothing new (Информация о погодных условиях на 25 ноября: прогнозируются дожди в восточной части острова и на центральном плато, температуры до 32°C на побережье.)
+Skipped duplicate (Wazaa): Des averses touchent deux régions clés ce mercredi alors que les températures côtières att == Вкладчики Silver Bank сталкиваются с неопределёнными выплатами на 7,5 млрд рупий в ходе ли
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Violences conjugales : comment protéger les femmes qui portent plainte ? == «В центре новостей»: какие ответы на насилие в отношении женщин?
+LLM usage this run: 8 requests, 12842 tokens
