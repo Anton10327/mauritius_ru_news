@@ -9,3 +9,17 @@ Skipped duplicate (Defimedia): Fièvre aphteuse : Chetan Baboolall dénonce des 
   dup: nothing new ()
 Skipped duplicate (Defimedia): Au Cœur de l’Info : quelles réponses aux violences faites aux femmes ? == Saint-Julien-d’Hotman: мужчина арестован после смерти своего брата
 LLM usage this run: 6 requests, 8126 tokens
+### check 2/5 at 08:38
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Ancien ambassadeur accepte un nouveau poste en affaires étrangères au PMO == Канцелярия премьер-министра: Vijay Makhan назначен специальным советником по международным
+  dup check: new (Дефицит бюджета снижен с 8,5% ВВП в 2024-2025 до 5% в 2025-2026; цель — снизить госдолг до 75% ВВП к июню 2030.)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Prime, Minister
+  leftovers fixed by GigaChat-3-Pro; still left: Prime, Minister
+Posted (Defimedia): Дефицит бюджета сократился с 8,5% ВВП в 2024–2025 до 5% в 2025–2026, заявил премьер-министр Navin Ramgoolam
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): SAINT-JULIEN-D’HOTMAN : Il agresse mortellement son frère avec un morceau de fer == Saint-Julien-d’Hotman: мужчина арестован после смерти своего брата
+  foreign words left: hôpital
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Le Mauricien): CAMP-LEVIEUX: один гудок спровоцировал вооружённое нападение с применением катаны и пистолета
+LLM usage this run: 9 requests, 13373 tokens
