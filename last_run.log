@@ -11,3 +11,16 @@ Skipped foreign news (Defimedia): Me Marc Hein retrace plusieurs décennies de v
   dup: nothing new ()
 Skipped duplicate (Defimedia): [Info Soirée] : « Bizin vinn koz la verite lor seki inn arrive » == Парламент: ящур в центре срочного вопроса оппозиции
 LLM usage this run: 7 requests, 11287 tokens
+### check 2/5 at 18:59
+  dup: nothing new (Статистика по нарушениям системы штрафных баллов на Маврикии за январь–октябрь 2026 года: всего 27 947 нарушений; пять самых частых категорий — 21 074)
+Skipped duplicate (Defimedia): Permis à points : 27 947 infractions recensées, voici les cinq plus fréquentes == Вкладчики Silver Bank сталкиваются с неопределёнными выплатами на 7,5 млрд рупий в ходе ли
+  same headline as #36: Morcellement Saint-André : un automobiliste de 69 ans meurt après une collision
+Skipped duplicate (Defimedia): Morcellement Saint-André : Naser Janabadi, 69 ans, décède après une collision == Morcellement Saint-Andréy: 69-летний водитель погиб в результате столкновения
+  dup check: new (Magnitude du séisme réévaluée à 6,6 (initialement annoncée comme 6,4))
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Wazaa): Предупреждение о цунами объявлено для Rodrigues после пересмотра магнитуды землетрясения до 6,6
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Exchange
+  leftovers fixed by GigaChat-3-Pro; still left: Exchange
+Posted (Defimedia): MICROSOFT 365: глобальный сбой, локальный тест
+LLM usage this run: 7 requests, 10079 tokens
