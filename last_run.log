@@ -23,3 +23,14 @@ Skipped duplicate (Wazaa): L’État verse 127 millions de roupies en salaires �
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Beau-Bassin: заключённый получил травмы при попытке побега во время следственного эксперимента
 LLM usage this run: 7 requests, 10406 tokens
+### check 3/5 at 03:36
+  dup check: new (Смерть заключённого в Line Barracks 24 ноября и запланированная на 25 ноября аутопсия — новое событие.)
+  proofread: 
+Posted (Defimedia): Line Barracks: заключённый 48 лет найден мёртвым в своей камере
+  dup check: new (Жан Мишель Ли Шим был допрошен в CCID по жалобе на предполагаемый заговор; он заявил о необходимости "вытащить палки", чтобы "малыш мог катиться"; его)
+Posted (Defimedia): Jean Michel Lee Shim после CCID: «Нужно убрать много преград, чтобы Малыш мог ехать»
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Se taire, éviter, s’adapter : le quotidien des violences == Вкладчики Silver Bank сталкиваются с неопределёнными выплатами на 7,5 млрд рупий в ходе ли
+  not news (portrait/lifestyle): Rajen Suntoo, sociologue : «Le plus inquiétant, c’est quand la violence ne choque plus»
+Skipped foreign news (Defimedia): Rajen Suntoo, sociologue : «Le plus inquiétant, c’est quand la violence ne choque plus»
+LLM usage this run: 8 requests, 13206 tokens
