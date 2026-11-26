@@ -11,3 +11,14 @@ Skipped duplicate (Defimedia): 55e anniversaire de la mort d'Azor Adelaïde : le
   not about Mauritius: La CIA victime d’une cyberattaque ayant affecté des informations non classifiées
 Skipped foreign news (Defimedia): La CIA victime d’une cyberattaque ayant affecté des informations non classifiées
 LLM usage this run: 6 requests, 11986 tokens
+### check 2/5 at 09:26
+  dup check: new (В статье впервые упоминается ситуация с невыплатой зарплат 450 семьям работников World Knits и анонсируется обсуждение этой проблемы в эфире с участие)
+  proofread: Me Neelkanth Dulloo → юриста Neelkanth Dulloo
+Posted (Defimedia): В центре новостей: World Knits — крик отчаяния 450 семей
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [Info Soirée] : « LEZOT KI PE BIZIN SACRIFIE ZOT LARZAN » == Свыше 127 млн рупий на зарплаты 247 отстранённых госслужащих за пять лет, включая 200 поли
+  dup: nothing new (Новых фактов нет: статья сообщает о том же событии (отсутствие выигрыша в Loto и Loto Plus 25 ноября), что уже было опубликовано ранее. Указаны те же )
+Skipped duplicate (Defimedia): Loto : prochain jackpot à Rs 40 millions == Спустя почти четыре месяца после отстранения: Raoul Gufflet и SBM Holdings официально офор
+  not news (portrait/lifestyle): Série – Essais de Maurice Lam (part I/ III) l Eau : 60 % de pertes, des tarifs trop bas… le verdict 
+Skipped foreign news (L'Express): Série – Essais de Maurice Lam (part I/ III) l Eau : 60 % de pertes, des tarifs trop bas… le verdict 
+LLM usage this run: 6 requests, 9832 tokens
