@@ -23,3 +23,18 @@ Skipped duplicate (Defimedia): DéfiXplik | Compensation salariale 2027 : six qu
   dup: nothing new ()
 Skipped duplicate (Wazaa): Maurice : l’inflation devrait dépasser le seuil de 6 % au début de 2027 == Рост цен: инфляция на Маврикии может превысить 6% в первом полугодии 2027 года
 LLM usage this run: 6 requests, 10631 tokens
+### check 3/5 at 19:44
+  dup check: new (Объявлены первые трёхсторонние консультации по вопросу компенсации заработной платы на 2027 год; представлена статистика инфляции за октябрь 2026 года)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
+  dup: nothing new (Количество поданных заявок (500) и превышение спроса над предложением мест (320))
+Skipped duplicate (Defimedia): Champ-de-Mars - Night Market : déjà 500 inscriptions pour 320 emplacements == Приём заявок для продавцов Night Market на Champ-de-Mars начинается в эту среду
+  dup check: new (В новой статье сообщается о признании виновными матери ребёнка Аяан, врача и полицейского в деле о смерти двухлетнего мальчика; ранее об этом не публи)
+  proofread: подвергании ребёнка опасности → подвергала ребёнка опасности; воспрепятствованию правосудию → воспрепятствованию правосудия
+Posted (Defimedia): Смерть маленького Ayaan, 2 года: его мать, женщина-врач и полицейский признаны виновными
+  dup check: new (Задержание 14-летнего подростка по подозрению в трёх кражах мотоциклов; один мотоцикл возвращён владельцу.)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Port-Louis
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Серия краж мотоциклов: задержан 14-летний подросток, двухколёсный транспорт возвращён
+LLM usage this run: 11 requests, 18009 tokens
