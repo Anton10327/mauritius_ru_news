@@ -32,3 +32,15 @@ Skipped duplicate (Wazaa): Syndicat exige l’accès hors ligne au permis de con
   dup: nothing new ()
 Skipped duplicate (Defimedia): MT : la vitesse d’Internet va doubler ou tripler à la maison sans frais supplémentaires, a == MyT: бесплатное увеличение скорости оптоволоконного интернета для домашних абонентов
 LLM usage this run: 5 requests, 9256 tokens
+### check 4/5 at 09:34
+  dup: nothing new ()
+Skipped duplicate (L'Express): Interview…  Rajah Ramdaursingh : «La réussite de ce sommet est une responsabilité collecti == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
+  not news (portrait/lifestyle): Été et demande électrique : Le double défi du climat et du réseau
+Skipped foreign news (L'Express): Été et demande électrique : Le double défi du climat et du réseau
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): ГАНДБОЛ — CCCOI 2026 (4-й тур) — Чёрный день для маврикийских клубов
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Super
+  leftovers fixed by GigaChat-3-Pro; still left: Super
+Posted (Le Mauricien): Футбол — MFA Super League 2026–27 (3-й тур) — ASPL 2000 попала в ловушку, действующий чемпион вернул себе первое место
+LLM usage this run: 7 requests, 14050 tokens
