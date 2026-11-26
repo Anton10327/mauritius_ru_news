@@ -1,57 +1,14 @@
-### check 1/5 at 09:22
+### check 1/5 at 19:36
+New source Le Mauricien: skipped backlog, posting newest only
 New source Inside News: skipped backlog, posting newest only
-  dup check: new (Коронована новая Miss Univers 2026 — Jennifer Barreto из Пуэрто-Рико; финал прошёл в Сан-Хуане после скандалов и сокращённого числа финалисток (115 до)
-  not about Mauritius: Miss Univers : une nouvelle reine sacrée après une année tumultueuse pour le concours
-Skipped foreign news (Defimedia): Miss Univers : une nouvelle reine sacrée après une année tumultueuse pour le concours
-  not about Mauritius: Commerce international : les États-Unis annoncent de nouveaux droits de douane sur des produits de 1
-Skipped foreign news (Defimedia): Commerce international : les États-Unis annoncent de nouveaux droits de douane sur des produits de 1
-  dup: nothing new ()
-Skipped duplicate (Defimedia): 55e anniversaire de la mort d'Azor Adelaïde : le FMP honore sa mémoire à Curepipe == 55-летие со дня гибели: MMM почтил память Azor Adelaïde
-  dup check: new (Кибератака на CIA и ODNI с доступом к неклассифицированной информации; подтверждено отсутствие утечки секретных данных.)
-  not about Mauritius: La CIA victime d’une cyberattaque ayant affecté des informations non classifiées
-Skipped foreign news (Defimedia): La CIA victime d’une cyberattaque ayant affecté des informations non classifiées
-LLM usage this run: 6 requests, 11986 tokens
-### check 2/5 at 09:26
-  dup check: new (В статье впервые упоминается ситуация с невыплатой зарплат 450 семьям работников World Knits и анонсируется обсуждение этой проблемы в эфире с участие)
-  proofread: Me Neelkanth Dulloo → юриста Neelkanth Dulloo
-Posted (Defimedia): В центре новостей: World Knits — крик отчаяния 450 семей
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « LEZOT KI PE BIZIN SACRIFIE ZOT LARZAN » == Свыше 127 млн рупий на зарплаты 247 отстранённых госслужащих за пять лет, включая 200 поли
-  dup: nothing new (Новых фактов нет: статья сообщает о том же событии (отсутствие выигрыша в Loto и Loto Plus 25 ноября), что уже было опубликовано ранее. Указаны те же )
-Skipped duplicate (Defimedia): Loto : prochain jackpot à Rs 40 millions == Спустя почти четыре месяца после отстранения: Raoul Gufflet и SBM Holdings официально офор
-  not news (portrait/lifestyle): Série – Essais de Maurice Lam (part I/ III) l Eau : 60 % de pertes, des tarifs trop bas… le verdict 
-Skipped foreign news (L'Express): Série – Essais de Maurice Lam (part I/ III) l Eau : 60 % de pertes, des tarifs trop bas… le verdict 
-LLM usage this run: 6 requests, 9832 tokens
-### check 3/5 at 09:30
-  not news (portrait/lifestyle): [Junior] Journée mondiale des jumeaux siamois : Cleanne Papillon, l’histoire d’une survivante au par
-Skipped foreign news (L'Express): [Junior] Journée mondiale des jumeaux siamois : Cleanne Papillon, l’histoire d’une survivante au par
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): MyT: бесплатное увеличение скорости оптоволоконного интернета для домашних абонентов
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Syndicat exige l’accès hors ligne au permis de conduire numérique pour le déploiement 2027 == Цифровые права: Mauritius Labour Congress выступает за офлайн-решение
-  dup: nothing new ()
-Skipped duplicate (Defimedia): MT : la vitesse d’Internet va doubler ou tripler à la maison sans frais supplémentaires, a == MyT: бесплатное увеличение скорости оптоволоконного интернета для домашних абонентов
-LLM usage this run: 5 requests, 9256 tokens
-### check 4/5 at 09:34
-  dup: nothing new ()
-Skipped duplicate (L'Express): Interview…  Rajah Ramdaursingh : «La réussite de ce sommet est une responsabilité collecti == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
-  not news (portrait/lifestyle): Été et demande électrique : Le double défi du climat et du réseau
-Skipped foreign news (L'Express): Été et demande électrique : Le double défi du climat et du réseau
+Posted (Wazaa): Превышение скорости или телефон за рулём: почти 28 000 водителей проверено
+  dup check: new (Смерть Верушки (Вера фон Ленндорф) в возрасте 87 лет; дата и место смерти — Берлин, вторник; краткая информация о её карьере топ-модели и участии в фи)
+  not about Mauritius: Veruschka, l’un des premiers top-modèles au monde, est morte à 87 ans
+Skipped foreign news (Defimedia): Veruschka, l’un des premiers top-modèles au monde, est morte à 87 ans
+  dup: nothing new (Прогноз погоды на 26 ноября: температура до 33°C на побережье, локальные дожди в западной части и на центральном плато, минимальная температура ночью )
+Skipped duplicate (Defimedia): Météo : jusqu’à 33 degrés Celsius sur les régions côtières, des averses attendues dans l’o == Парламент: ящур в центре срочного вопроса оппозиции
+  dup check: new (Объявлено о запуске с 1 декабря автобусного сообщения CNT между Saint-Hubert и Saint-Hilaire каждые 30 минут; указаны причины (убытки оператора Rs 7 м)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): ГАНДБОЛ — CCCOI 2026 (4-й тур) — Чёрный день для маврикийских клубов
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Super
-  leftovers fixed by GigaChat-3-Pro; still left: Super
-Posted (Le Mauricien): Футбол — MFA Super League 2026–27 (3-й тур) — ASPL 2000 попала в ловушку, действующий чемпион вернул себе первое место
-LLM usage this run: 7 requests, 14050 tokens
-### check 5/5 at 09:38
-  dup check: new ()
-  proofread: edit rejected (changed numbers, names or length)
-Posted (L'Express): Домашнее насилие: 4 857 случаев с участием женщин за девять месяцев
-  not news (portrait/lifestyle): Nou Lar Nou Lamizik : Lamizik Zwe avec Guy Blanko
-Skipped foreign news (L'Express): Nou Lar Nou Lamizik : Lamizik Zwe avec Guy Blanko
-  dup check: new (Прогнозируется, что инфляция на Маврикии может превысить 6% в первом полугодии 2027 года и снизиться до 5,3% к концу года; отмечается рост индекса пот)
-Posted (Defimedia): Рост цен: инфляция на Маврикии может превысить 6% в первом полугодии 2027 года
-  dup: nothing new ()
-Skipped duplicate (L'Express): En couverture : Les grands titres de l'express de ce jeudi 26 novembre 2026 == Спустя почти четыре месяца после отстранения: Raoul Gufflet и SBM Holdings официально офор
-LLM usage this run: 8 requests, 13541 tokens
+Posted (Defimedia): Saint-Hubert и Saint-Hilaire: автобусы CNT каждые 30 минут с 1 декабря
+LLM usage this run: 8 requests, 13460 tokens
