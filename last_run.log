@@ -1,64 +1,13 @@
-### check 1/5 at 03:28
-  dup check: new (В статье говорится о финансовых результатах State Trading Corporation и Central Electricity Board за 2024 финансовый год: STC перешла от убытка в 622,)
-GigaChat balance: GigaChat-Ultra 44,601,428, GigaChat-Pro 35,559,815, GigaChat-Max 23,917,382, GigaChat 249,589,075; 328 days to go
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Топ-100 компаний — STC и CEB: возвращение к прибыли на фоне угрозы со стороны цен на нефть
-  dup check: new (Опрос общественного мнения в США о желании окончания войны с Ираном; поддержка демократами парализации администрации для давления на Трампа; детали оп)
-  not about Mauritius: Selon un sondage : la plupart des Américains souhaitent la fin immédiate de la guerre contre l’Iran
-Skipped foreign news (Defimedia): Selon un sondage : la plupart des Américains souhaitent la fin immédiate de la guerre contre l’Iran
-  dup check: new (Прогнозируется, что «голубая экономика» Африки может приносить 576 млрд долларов США в год к 2063 году и поддерживать 78 млн рабочих мест; эти данные )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд долларов в год
-  not news (portrait/lifestyle): Rénovation, décoration, peinture, ameublement…quand les fêtes de fin d’année stimulent les achats
-Skipped foreign news (Defimedia): Rénovation, décoration, peinture, ameublement…quand les fêtes de fin d’année stimulent les achats
-LLM usage this run: 9 requests, 17617 tokens
-### check 2/5 at 03:32
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Видео сочли клеветническим: адвокат Siddhartha Hawoldar рассматривает гражданские и уголовные иски
+### check 1/5 at 09:22
+New source Inside News: skipped backlog, posting newest only
+  dup check: new (Коронована новая Miss Univers 2026 — Jennifer Barreto из Пуэрто-Рико; финал прошёл в Сан-Хуане после скандалов и сокращённого числа финалисток (115 до)
+  not about Mauritius: Miss Univers : une nouvelle reine sacrée après une année tumultueuse pour le concours
+Skipped foreign news (Defimedia): Miss Univers : une nouvelle reine sacrée après une année tumultueuse pour le concours
+  not about Mauritius: Commerce international : les États-Unis annoncent de nouveaux droits de douane sur des produits de 1
+Skipped foreign news (Defimedia): Commerce international : les États-Unis annoncent de nouveaux droits de douane sur des produits de 1
   dup: nothing new ()
-Skipped duplicate (Defimedia): Violence contre les femmes : plus de 6 000 cas de violence domestique signalés en 2025 == Домашнее насилие может обходиться Маврикию в 4,5 млрд рупий в год
-  dup: nothing new ()
-Skipped duplicate (Wazaa): L’État verse 127 millions de roupies en salaires à 247 fonctionnaires civils suspendus pen == Свыше 127 млн рупий на зарплаты 247 отстранённых госслужащих за пять лет, включая 200 поли
-  dup check: new (Попытка побега заключённого во время реконструкции преступления в Beau-Bassin, его травма и госпитализация.)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Beau-Bassin: заключённый получил травмы при попытке побега во время следственного эксперимента
-LLM usage this run: 7 requests, 10406 tokens
-### check 3/5 at 03:36
-  dup check: new (Смерть заключённого в Line Barracks 24 ноября и запланированная на 25 ноября аутопсия — новое событие.)
-  proofread: 
-Posted (Defimedia): Line Barracks: заключённый 48 лет найден мёртвым в своей камере
-  dup check: new (Жан Мишель Ли Шим был допрошен в CCID по жалобе на предполагаемый заговор; он заявил о необходимости "вытащить палки", чтобы "малыш мог катиться"; его)
-Posted (Defimedia): Jean Michel Lee Shim после CCID: «Нужно убрать много преград, чтобы Малыш мог ехать»
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Se taire, éviter, s’adapter : le quotidien des violences == Вкладчики Silver Bank сталкиваются с неопределёнными выплатами на 7,5 млрд рупий в ходе ли
-  not news (portrait/lifestyle): Rajen Suntoo, sociologue : «Le plus inquiétant, c’est quand la violence ne choque plus»
-Skipped foreign news (Defimedia): Rajen Suntoo, sociologue : «Le plus inquiétant, c’est quand la violence ne choque plus»
-LLM usage this run: 8 requests, 13206 tokens
-### check 4/5 at 03:40
-  dup check: new (Сотрудница Family Support Service в Flacq подала жалобу на угрозы убийством со стороны жительницы района; инцидент произошёл 24 ноября около 11:30 из-)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Family, and, Service
-  leftovers fixed by GigaChat-3-Pro; still left: Family, and, Service
-Posted (Defimedia): Flacq: сотрудница Family Support Service заявила, что ей угрожали убийством в офисе
-  dup check: new (Маврикий и Сейшельские Острова подписали соглашение с CGG Services SAS для проведения геофизических исследований на плато Маскарен в рамках предварите)
-Posted (Defimedia): Маврикий и Сейшельские Острова подписали стратегическое соглашение об изучении нефтегазового потенциала плато Маскаренских островов
-  dup check: new (Статья объясняет различия в правовом подходе к разным формам уличного харассмента (свистки, сексистские замечания, оскорбления, домогательства) и отме)
-  not news (portrait/lifestyle): Harcèlement : que dit la loi et quels recours pour les femmes?
-Skipped foreign news (Defimedia): Harcèlement : que dit la loi et quels recours pour les femmes?
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Au Cœur de l’Info : World Knits, quel avenir pour les familles concernées ? == Невыплата зарплат: против World Knits возможны судебные иски, заявил министр труда Reza Ut
-LLM usage this run: 10 requests, 14182 tokens
-### check 5/5 at 03:44
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Fièvre aphteuse : Socovia rejette toute responsabilité == Парламент: ящур в центре срочного вопроса оппозиции
-  dup: nothing new ()
-Skipped duplicate (Defimedia): L’Escalier : Ajay Gunness vise une réduction de 95 à 100 % des risques d’inondation == Rodrigues: два проекта на 81 млн рупий для снижения риска наводнений
-  dup check: new (DPP Rashid Ahmine предупредил о неэффективности уголовной юстиции в борьбе с ростом подростковой преступности и выразил обеспокоенность увеличением чи)
-  proofread: Rashid Ahmine → Рашид Ахмин; Port-Louis → Порт-Луи
-Posted (Wazaa): Генеральный прокурор Маврикия предупреждает: уголовная юстиция не справляется с ростом подростковой преступности после 2026 года
-  dup check: new (В новой статье сообщается о 55-й годовщине смерти Азор Аделаиды и о том, что лидеры MMM почтили её память на кладбище Сен-Жан. Это отдельное событие, )
-  proofread: Azor Аделаид → Азор Аделаида; на улице Chasteauneuf → на улице Шастонёф; Curepipe → Курипип; кладбище Saint-Jean → кладбище Сен-Жан
-  foreign words left: Chasteauneuf, Saint-Jean
-  leftovers fixed by GigaChat-3-Pro; still left: Chasteauneuf, Saint-Jean
-Posted (Defimedia): 55-летие со дня гибели: MMM почтил память Azor Adelaïde
-LLM usage this run: 9 requests, 13012 tokens
+Skipped duplicate (Defimedia): 55e anniversaire de la mort d'Azor Adelaïde : le FMP honore sa mémoire à Curepipe == 55-летие со дня гибели: MMM почтил память Azor Adelaïde
+  dup check: new (Кибератака на CIA и ODNI с доступом к неклассифицированной информации; подтверждено отсутствие утечки секретных данных.)
+  not about Mauritius: La CIA victime d’une cyberattaque ayant affecté des informations non classifiées
+Skipped foreign news (Defimedia): La CIA victime d’une cyberattaque ayant affecté des informations non classifiées
+LLM usage this run: 6 requests, 11986 tokens
