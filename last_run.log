@@ -9,3 +9,14 @@ Skipped foreign news (Defimedia): Météo : jusqu’à 33 °C attendus sur les r
   not about Mauritius: [DéfiXplik] VIH : deux injections par an, qu’est-ce que cela change ?
 Skipped foreign news (Defimedia): [DéfiXplik] VIH : deux injections par an, qu’est-ce que cela change ?
 LLM usage this run: 5 requests, 10549 tokens
+### check 2/5 at 22:14
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Deux arrestations après le décès d’un homme de 43 ans à L’Escalier == Л’Escalier: двое мужчин арестованы после смерти Kunal Bulloram, которого, как утверждается
+  dup check: new (Le pasteur autoproclamé Paul Mackenzie et son épouse Smart Deri Kalama ont été reconnus coupables de terrorisme et de radicalisation par le tribunal d)
+  not about Mauritius: Kenya : le gourou de la secte de Shakahola reconnu coupable de terrorisme
+Skipped foreign news (Defimedia): Kenya : le gourou de la secte de Shakahola reconnu coupable de terrorisme
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Compensation salariale 2027 : Les syndicats réclament entre Rs 1 200 et Rs 1 700, les empl == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
+  proofread: островок Гомбрани → островке Гомбрани
+Posted (Le Mauricien): Rodrigues — на необитаемом островке Gombrany обнаружены 37 растений каннабиса
+LLM usage this run: 6 requests, 10005 tokens
