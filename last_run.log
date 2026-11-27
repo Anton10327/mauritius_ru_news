@@ -20,3 +20,16 @@ Posted (Defimedia): Картели: Комиссия по конкуренции
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): Цифровое насилие: контроль, доходящий до частной жизни
 LLM usage this run: 7 requests, 11652 tokens
+### check 3/5 at 04:07
+  dup check: new (В статье сообщается о смерти 65-летнего мужчины из Plaisance (Rose-Hill), который скончался спустя 30 дней после ДТП на Barkly. Указаны дата и время е)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Victoria
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): Barkly: 65-летний мужчина скончался от полученных травм через 30 дней после того, как его сбила машина
+  same headline as #16: Violences basées sur le genre : la Speaker appelle à la mobilisation
+Skipped duplicate (Defimedia): Lutte contre les violences basées sur le genre : Shirin Aumeeruddy-Cziffra appelle à une m == Насилие по признаку пола: спикер призывает к мобилизации
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Nouveau service de bus CNT toutes les 30 minutes lancé le 1er décembre desservant deux loc == Saint-Hubert и Saint-Hilaire: автобусы CNT каждые 30 минут с 1 декабря
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Violences numériques : ce que prévoit le Domestic Abuse Act == Цифровое насилие: контроль, доходящий до частной жизни
+LLM usage this run: 6 requests, 6903 tokens
