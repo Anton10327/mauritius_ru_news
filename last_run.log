@@ -1,57 +1,12 @@
-### check 1/5 at 03:59
+### check 1/5 at 12:07
+New source Inside News: skipped backlog, posting newest only
   dup: nothing new ()
-Skipped duplicate (L'Express): [En images] U.S.-Africa Business Summit : le compte à rebours est lancé == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
-GigaChat balance: GigaChat 249,589,075, GigaChat-Ultra 44,492,239, GigaChat-Pro 35,475,938, GigaChat-Max 23,917,382; 327 days to go
+Skipped duplicate (L'Express): Questions à... Aadil Ameer Meea : «Il est temps que Maurice retrouve toute sa place en Afr == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
   dup: nothing new ()
-Skipped duplicate (L'Express): «U.S.-Africa Business Summit» : Cap sur plus de 4,2 milliards de dollars d’accords commerc == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
+Skipped duplicate (L'Express): Thierry Hebraud : «Maurice doit passer d’une logique de transit à une logique d’ancrage» == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
   dup: nothing new ()
-Skipped duplicate (L'Express): «US-Africa Business Summit» : Maurice veut attirer les investisseurs américains vers l’Afr == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
-  dup: nothing new (Business Magazine назван официальным медиа-партнёром саммита U.S.-Africa Business Summit 2026 в Маврикии; место проведения — Swami Vivekananda Interna)
-Skipped duplicate (L'Express): Global partnerships :  Business Magazine named official media partner of the U.S.-Africa B == Ипотечные кредиты: введение потолка процентных ставок не рассматривается, заявил Navin Ram
-LLM usage this run: 4 requests, 4428 tokens
-### check 2/5 at 04:03
-  dup check: new (Статья анонсирует проведение фестиваля Fruits, Fleurs et Légumes 2026 в Порт-Луи (Маврикий), с акцентом на семейные активности, продажи, мастер-классы)
-  not news (portrait/lifestyle): Festival Fruits, Fleurs et Légumes 2026
-Skipped foreign news (Defimedia): Festival Fruits, Fleurs et Légumes 2026
-  dup: nothing new (Emtel объявляет о переходе от телекоммуникационной компании к технологической и планирует развивать ИИ, центры обработки данных и кибербезопасность; C)
-Skipped duplicate (Defimedia): U.S.-Africa Business Summit : Emtel mise sur l’IA pour attirer les investisseurs américain == Ипотечные кредиты: введение потолка процентных ставок не рассматривается, заявил Navin Ram
-  proofread: Trade Association and Cooperatives Amnesty Programme → программа Trade Association and Cooperatives Amnesty Programme (TACAP); Vipin Naugah, directeur exécutif de la Competition Commission → Vipin Naugah, исполнительный директор Комиссии по конкуренции
-Posted (Defimedia): Картели: Комиссия по конкуренции продлевает на три месяца программу амнистии
+Skipped duplicate (L'Express): Interview... Vimal Naikeny : «Des manquements flagrants (…) requièrent des réformes très c == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
+  dup check: new (Новые аресты и изъятия наркотиков (225 семян каннабиса, 50 доз синтетических наркотиков, 10 доз героина) в Порт-Луи 22 и 24 ноября; детали операций To)
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Цифровое насилие: контроль, доходящий до частной жизни
-LLM usage this run: 7 requests, 11652 tokens
-### check 3/5 at 04:07
-  dup check: new (В статье сообщается о смерти 65-летнего мужчины из Plaisance (Rose-Hill), который скончался спустя 30 дней после ДТП на Barkly. Указаны дата и время е)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Victoria
-  leftovers fixed by GigaChat-3-Pro; still left: none
-Posted (Defimedia): Barkly: 65-летний мужчина скончался от полученных травм через 30 дней после того, как его сбила машина
-  same headline as #16: Violences basées sur le genre : la Speaker appelle à la mobilisation
-Skipped duplicate (Defimedia): Lutte contre les violences basées sur le genre : Shirin Aumeeruddy-Cziffra appelle à une m == Насилие по признаку пола: спикер призывает к мобилизации
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Nouveau service de bus CNT toutes les 30 minutes lancé le 1er décembre desservant deux loc == Saint-Hubert и Saint-Hilaire: автобусы CNT каждые 30 минут с 1 декабря
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Violences numériques : ce que prévoit le Domestic Abuse Act == Цифровое насилие: контроль, доходящий до частной жизни
-LLM usage this run: 6 requests, 6903 tokens
-### check 4/5 at 04:11
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [En images] : La campagne contre les violences basées sur le genre lancée au Sir Vaghjee M == Насилие по признаку пола: спикер призывает к мобилизации
-  dup check: new (В статье приведены новые данные о количестве жалоб на кибернасилие за 2026 год: 225 случаев сексторции, 1 697 онлайн-буллинга и 761 кибербуллинг с нач)
-Posted (Defimedia): Киберпреступность на Маврикии: число обращений уже превысило показатели всего 2025 года
-  not about Mauritius: L’impact psychologique : quand chaque notification ravive la peur
-Skipped foreign news (Defimedia): L’impact psychologique : quand chaque notification ravive la peur
-  not news (portrait/lifestyle): Menaces, chantage, diffusion : comment la loi défend les victimes
-Skipped foreign news (Defimedia): Menaces, chantage, diffusion : comment la loi défend les victimes
-LLM usage this run: 6 requests, 9071 tokens
-### check 5/5 at 04:15
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Jacques d’Unienville, CEO d’Omnicane : « nous cherchons des partenariats énergétiques en A == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
-  dup check: new (Статистика по туризму на Маврикии за январь–15 ноября 2026 года: 1 261 099 посетителей (+4% к аналогичному периоду 2025), в ноябре — 69 585 против 66 )
-Posted (Defimedia): С января по середину ноября — Туризм: Маврикий превысил отметку в 1,26 млн посетителей
-  dup check: new (Открытие проекта по подключению водохранилища Tamarind Falls к станции очистки воды La Marie; министр Patrick Assirvaden заявил о возможности использо)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Assirvaden: «Какой бы министр ни пришёл завтра и ни обнаружил его в кризисе, Tamarind Falls будет в его распоряжении»
-  dup check: new (В статье сообщается о начале совещаний присяжных по делу Jean Brandon Adolphe Joli и детали процесса: время начала совещания (15:45 26 ноября), резюме)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Убийство Soopramanien Mooneesawmy: время вердикта для Jean Brandon Adolphe Joli
-LLM usage this run: 10 requests, 15357 tokens
+Posted (Defimedia): В столице: изъяты синтетические наркотики, героин и каннабис
+LLM usage this run: 6 requests, 8119 tokens
