@@ -20,3 +20,13 @@ Skipped duplicate (Defimedia): Compensation salariale 2027 : Les syndicats récl
   proofread: островок Гомбрани → островке Гомбрани
 Posted (Le Mauricien): Rodrigues — на необитаемом островке Gombrany обнаружены 37 растений каннабиса
 LLM usage this run: 6 requests, 10005 tokens
+### check 3/5 at 22:18
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Au cimetière de St-Jean : Le MMM rend hommage à Azor Adélaïde == 55-летие со дня гибели: MMM почтил память Azor Adelaïde
+  not about Mauritius: [Blog] Milliardaires et démocratie : qui commande vraiment ?
+Skipped foreign news (Defimedia): [Blog] Milliardaires et démocratie : qui commande vraiment ?
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Les syndicats exigent jusqu’à 1 700 roupies de compensation à l’ouverture des négociations == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
+  not about Mauritius: Reflection on Lady Macbeth and the Subtractive Self
+Skipped foreign news (Le Mauricien): Reflection on Lady Macbeth and the Subtractive Self
+LLM usage this run: 4 requests, 8149 tokens
