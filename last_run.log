@@ -9,3 +9,14 @@ Skipped duplicate (L'Express): «US-Africa Business Summit» : Maurice veut atti
   dup: nothing new (Business Magazine назван официальным медиа-партнёром саммита U.S.-Africa Business Summit 2026 в Маврикии; место проведения — Swami Vivekananda Interna)
 Skipped duplicate (L'Express): Global partnerships :  Business Magazine named official media partner of the U.S.-Africa B == Ипотечные кредиты: введение потолка процентных ставок не рассматривается, заявил Navin Ram
 LLM usage this run: 4 requests, 4428 tokens
+### check 2/5 at 04:03
+  dup check: new (Статья анонсирует проведение фестиваля Fruits, Fleurs et Légumes 2026 в Порт-Луи (Маврикий), с акцентом на семейные активности, продажи, мастер-классы)
+  not news (portrait/lifestyle): Festival Fruits, Fleurs et Légumes 2026
+Skipped foreign news (Defimedia): Festival Fruits, Fleurs et Légumes 2026
+  dup: nothing new (Emtel объявляет о переходе от телекоммуникационной компании к технологической и планирует развивать ИИ, центры обработки данных и кибербезопасность; C)
+Skipped duplicate (Defimedia): U.S.-Africa Business Summit : Emtel mise sur l’IA pour attirer les investisseurs américain == Ипотечные кредиты: введение потолка процентных ставок не рассматривается, заявил Navin Ram
+  proofread: Trade Association and Cooperatives Amnesty Programme → программа Trade Association and Cooperatives Amnesty Programme (TACAP); Vipin Naugah, directeur exécutif de la Competition Commission → Vipin Naugah, исполнительный директор Комиссии по конкуренции
+Posted (Defimedia): Картели: Комиссия по конкуренции продлевает на три месяца программу амнистии
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Цифровое насилие: контроль, доходящий до частной жизни
+LLM usage this run: 7 requests, 11652 tokens
