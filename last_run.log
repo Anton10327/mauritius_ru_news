@@ -1,61 +1,11 @@
-### check 1/5 at 12:07
-New source Inside News: skipped backlog, posting newest only
+### check 1/5 at 22:10
   dup: nothing new ()
-Skipped duplicate (L'Express): Questions à... Aadil Ameer Meea : «Il est temps que Maurice retrouve toute sa place en Afr == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
-  dup: nothing new ()
-Skipped duplicate (L'Express): Thierry Hebraud : «Maurice doit passer d’une logique de transit à une logique d’ancrage» == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
-  dup: nothing new ()
-Skipped duplicate (L'Express): Interview... Vimal Naikeny : «Des manquements flagrants (…) requièrent des réformes très c == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
-  dup check: new (Новые аресты и изъятия наркотиков (225 семян каннабиса, 50 доз синтетических наркотиков, 10 доз героина) в Порт-Луи 22 и 24 ноября; детали операций To)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): В столице: изъяты синтетические наркотики, героин и каннабис
-LLM usage this run: 6 requests, 8119 tokens
-### check 2/5 at 12:11
-  dup check: new (Kermesse de la Fonction publique: дата и место проведения (29 ноября 2026 года, Gymkhana Grounds, Vacoas), ожидаемое число посетителей — около 100 000)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: de, publique
-  leftovers fixed by GigaChat-3-Pro; still left: de, publique
-Posted (Defimedia): Kermesse государственной службы: ожидается 100 000 посетителей в это воскресенье в Vacoas
-  dup check: new (Реновация и восстановление пляжа Trou-aux-Biches Beachcomber Golf Resort & Spa; открытие 15 октября после 5 месяцев работ; назначение нового генеральн)
-  proofread: «Rénov er un établissement de 55 ans d’histoire constitue une responsabilité particulière : faire évoluer l’établissement tout en restant fidèle à ce qui fait son âme. C’est cet équilibre qui a guidé notre approche.» → «Реновация объекта с 55-летней историей — это особая ответственность: развивать з
-Posted (Wazaa): Trou aux Biches Beachcomber вновь открылся после 5 месяцев масштабной реновации и реставрации
-  dup check: new (Surya Kumar Auckloo был оправдан Верховным судом по делу о выращивании 972 кустов каннабиса; это новое судебное решение, которого не было в опубликова)
-  proofread: Brisée-Verdière → Brisée-Вердиер
-Posted (Defimedia): Верховный суд оправдал Surya Kumar Auckloo по делу о выращивании 972 кустов каннабиса в Brisée-Verdière
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Quatre-Bornes : Rs 400 000 de drogue saisies lors d’une opération de l’ADSU == В столице: изъяты синтетические наркотики, героин и каннабис
-LLM usage this run: 11 requests, 16603 tokens
-### check 3/5 at 12:15
-  same headline as #44: Meurtre de Soopramanien Mooneesawmy : l’heure du verdict pour Jean Brandon Adolp
-Skipped duplicate (Defimedia): Meurtre de Soopramanien Mooneesawmy : Jean Brandon Adolphe Joli déclaré non coupable à sep == Убийство Soopramanien Mooneesawmy: время вердикта для Jean Brandon Adolphe Joli
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Décès en cellule à Alcatraz : la fille de Louis Stephen Bill réclame que justice soit fait == Line Barracks: заключённый 48 лет найден мёртвым в своей камере
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Jean Brandon Joli après son acquittement aux assises : «Monn resi sorti dan enn lak» == Убийство Soopramanien Mooneesawmy: время вердикта для Jean Brandon Adolphe Joli
-  dup: nothing new ()
-Skipped duplicate (Defimedia): [Info Soirée] : « Morisien pe viv a kredi » == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
-LLM usage this run: 3 requests, 3948 tokens
-### check 4/5 at 12:19
-  not about Mauritius: VIH : l’arrivée d’une injection préventive moins chère en Afrique suscite l’espoir
-Skipped foreign news (Defimedia): VIH : l’arrivée d’une injection préventive moins chère en Afrique suscite l’espoir
-  dup: nothing new ()
-Skipped duplicate (L'Express): U.S.-Africa Business Summit l Marcelo Aleman, CEO d’Emtel : «Votre emploi pourrait être pr == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): HANDBALL – 30e CCCOI –  L’USBBRH, dernier rempart mauricien dans le dernier carré == ГАНДБОЛ — CCCOI 2026 (4-й тур) — Чёрный день для маврикийских клубов
-  not news (portrait/lifestyle): [Blog] Whistleblower protection as a Human Rights duty
-Skipped foreign news (Defimedia): [Blog] Whistleblower protection as a Human Rights duty
-LLM usage this run: 4 requests, 7957 tokens
-### check 5/5 at 12:23
-  dup check: new (Аресты двух мужчин (K.K.B. и V.B.) по делу о смерти Kunal Bulloram; подробности инцидента: удары камнем и бутылкой, преследование на 4x4 с двумя наезд)
-  proofread: edit rejected (changed numbers, names or length)
-  foreign words left: Л’Escalier, Л’Escalier, x
-  leftovers fixed by GigaChat-3-Pro; still left: Л’Escalier, Л’Escalier, x
-Posted (Defimedia): Л’Escalier: двое мужчин арестованы после смерти Kunal Bulloram, которого, как утверждается, дважды сбили
-  dup: nothing new (L'autopsie a révélé une hémorragie sous-arachnoïdienne comme cause du décès)
-Skipped duplicate (Le Mauricien): Un détenu retrouvé mort aux Line Barracks : une hémorragie cérébrale à l’autopsie == Line Barracks: заключённый 48 лет найден мёртвым в своей камере
-  dup check: new (CWA теряет 60% водоснабжения из-за финансовых убытков: ежемесячно теряется Rs 540 млн, тарифы заморожены с 2012 года; продажи покрывают менее половины)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Wazaa): CWA теряет 60% водоснабжения на фоне растущих финансовых дефицитов
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Melrose et Line Barracks : deux détenus meurent en l’espace de 24 heures dans des circonst == Line Barracks: заключённый 48 лет найден мёртвым в своей камере
-LLM usage this run: 9 requests, 13265 tokens
+Skipped duplicate (Wazaa): Mauritius Telecom doublera ou triplera définitivement les débits Internet à domicile en 20 == MyT: бесплатное увеличение скорости оптоволоконного интернета для домашних абонентов
+  not news (portrait/lifestyle): Retards de langage : attendre peut coûter cher
+Skipped foreign news (Defimedia): Retards de langage : attendre peut coûter cher
+  dup check: new ()
+  not news (portrait/lifestyle): Météo : jusqu’à 33 °C attendus sur les régions côtières ce vendredi
+Skipped foreign news (Defimedia): Météo : jusqu’à 33 °C attendus sur les régions côtières ce vendredi
+  not about Mauritius: [DéfiXplik] VIH : deux injections par an, qu’est-ce que cela change ?
+Skipped foreign news (Defimedia): [DéfiXplik] VIH : deux injections par an, qu’est-ce que cela change ?
+LLM usage this run: 5 requests, 10549 tokens
