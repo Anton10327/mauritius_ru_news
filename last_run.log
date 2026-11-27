@@ -30,3 +30,16 @@ Skipped duplicate (Wazaa): Les syndicats exigent jusqu’à 1 700 roupies de com
   not about Mauritius: Reflection on Lady Macbeth and the Subtractive Self
 Skipped foreign news (Le Mauricien): Reflection on Lady Macbeth and the Subtractive Self
 LLM usage this run: 4 requests, 8149 tokens
+### check 4/5 at 22:22
+  dup check: new (В статье говорится о текущем уровне запасов воды (31%), прогнозах на ноябрь без ограничительных мер (20%), средней норме осадков в ноябре (85 мм), ожи)
+  proofread: Shiam Thannoo → Шиям Танну
+  foreign words left: Containerised
+  leftovers fixed by GigaChat-3-Pro; still left: Containerised
+Posted (Defimedia): Кризис воды: передышка зависит от декабрьских дождей
+  dup: nothing new (Moody’s maintient une perspective négative sur la notation Baa3 de Maurice et indique qu’une amélioration à court terme est peu probable. Raphaele Aub)
+Skipped duplicate (Defimedia): Moody’s : une amélioration de la notation de Maurice peu probable à ce stade == Топ-100 компаний — STC и CEB: возвращение к прибыли на фоне угрозы со стороны цен на нефть
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Compensation salariale 2027 : les syndicats réclament entre Rs 1 200 et Rs 1 700, les empl == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Décès en détention : Louis Stéphane Bill retrouvé mort à Alcatraz == Line Barracks: заключённый 48 лет найден мёртвым в своей камере
+LLM usage this run: 7 requests, 8471 tokens
