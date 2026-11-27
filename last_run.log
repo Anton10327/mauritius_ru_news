@@ -43,3 +43,15 @@ Skipped foreign news (Defimedia): L’impact psychologique : quand chaque notifi
   not news (portrait/lifestyle): Menaces, chantage, diffusion : comment la loi défend les victimes
 Skipped foreign news (Defimedia): Menaces, chantage, diffusion : comment la loi défend les victimes
 LLM usage this run: 6 requests, 9071 tokens
+### check 5/5 at 04:15
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Jacques d’Unienville, CEO d’Omnicane : « nous cherchons des partenariats énergétiques en A == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
+  dup check: new (Статистика по туризму на Маврикии за январь–15 ноября 2026 года: 1 261 099 посетителей (+4% к аналогичному периоду 2025), в ноябре — 69 585 против 66 )
+Posted (Defimedia): С января по середину ноября — Туризм: Маврикий превысил отметку в 1,26 млн посетителей
+  dup check: new (Открытие проекта по подключению водохранилища Tamarind Falls к станции очистки воды La Marie; министр Patrick Assirvaden заявил о возможности использо)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Assirvaden: «Какой бы министр ни пришёл завтра и ни обнаружил его в кризисе, Tamarind Falls будет в его распоряжении»
+  dup check: new (В статье сообщается о начале совещаний присяжных по делу Jean Brandon Adolphe Joli и детали процесса: время начала совещания (15:45 26 ноября), резюме)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Убийство Soopramanien Mooneesawmy: время вердикта для Jean Brandon Adolphe Joli
+LLM usage this run: 10 requests, 15357 tokens
