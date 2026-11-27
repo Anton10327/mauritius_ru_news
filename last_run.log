@@ -33,3 +33,13 @@ Skipped duplicate (Wazaa): Nouveau service de bus CNT toutes les 30 minutes lanc
   dup: nothing new ()
 Skipped duplicate (Defimedia): Violences numériques : ce que prévoit le Domestic Abuse Act == Цифровое насилие: контроль, доходящий до частной жизни
 LLM usage this run: 6 requests, 6903 tokens
+### check 4/5 at 04:11
+  dup: nothing new ()
+Skipped duplicate (Defimedia): [En images] : La campagne contre les violences basées sur le genre lancée au Sir Vaghjee M == Насилие по признаку пола: спикер призывает к мобилизации
+  dup check: new (В статье приведены новые данные о количестве жалоб на кибернасилие за 2026 год: 225 случаев сексторции, 1 697 онлайн-буллинга и 761 кибербуллинг с нач)
+Posted (Defimedia): Киберпреступность на Маврикии: число обращений уже превысило показатели всего 2025 года
+  not about Mauritius: L’impact psychologique : quand chaque notification ravive la peur
+Skipped foreign news (Defimedia): L’impact psychologique : quand chaque notification ravive la peur
+  not news (portrait/lifestyle): Menaces, chantage, diffusion : comment la loi défend les victimes
+Skipped foreign news (Defimedia): Menaces, chantage, diffusion : comment la loi défend les victimes
+LLM usage this run: 6 requests, 9071 tokens
