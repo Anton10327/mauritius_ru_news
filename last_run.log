@@ -10,3 +10,18 @@ Skipped duplicate (L'Express): Interview... Vimal Naikeny : «Des manquements fl
   proofread: edit rejected (changed numbers, names or length)
 Posted (Defimedia): В столице: изъяты синтетические наркотики, героин и каннабис
 LLM usage this run: 6 requests, 8119 tokens
+### check 2/5 at 12:11
+  dup check: new (Kermesse de la Fonction publique: дата и место проведения (29 ноября 2026 года, Gymkhana Grounds, Vacoas), ожидаемое число посетителей — около 100 000)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: de, publique
+  leftovers fixed by GigaChat-3-Pro; still left: de, publique
+Posted (Defimedia): Kermesse государственной службы: ожидается 100 000 посетителей в это воскресенье в Vacoas
+  dup check: new (Реновация и восстановление пляжа Trou-aux-Biches Beachcomber Golf Resort & Spa; открытие 15 октября после 5 месяцев работ; назначение нового генеральн)
+  proofread: «Rénov er un établissement de 55 ans d’histoire constitue une responsabilité particulière : faire évoluer l’établissement tout en restant fidèle à ce qui fait son âme. C’est cet équilibre qui a guidé notre approche.» → «Реновация объекта с 55-летней историей — это особая ответственность: развивать з
+Posted (Wazaa): Trou aux Biches Beachcomber вновь открылся после 5 месяцев масштабной реновации и реставрации
+  dup check: new (Surya Kumar Auckloo был оправдан Верховным судом по делу о выращивании 972 кустов каннабиса; это новое судебное решение, которого не было в опубликова)
+  proofread: Brisée-Verdière → Brisée-Вердиер
+Posted (Defimedia): Верховный суд оправдал Surya Kumar Auckloo по делу о выращивании 972 кустов каннабиса в Brisée-Verdière
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Quatre-Bornes : Rs 400 000 de drogue saisies lors d’une opération de l’ADSU == В столице: изъяты синтетические наркотики, героин и каннабис
+LLM usage this run: 11 requests, 16603 tokens
