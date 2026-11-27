@@ -43,3 +43,16 @@ Skipped duplicate (Defimedia): Compensation salariale 2027 : les syndicats récl
   dup: nothing new ()
 Skipped duplicate (Defimedia): Décès en détention : Louis Stéphane Bill retrouvé mort à Alcatraz == Line Barracks: заключённый 48 лет найден мёртвым в своей камере
 LLM usage this run: 7 requests, 8471 tokens
+### check 5/5 at 22:26
+  dup check: new (Emirates introduit son tout nouveau Airbus A350-900 sur la liaison Dubaï-Maurice à partir du 1er novembre 2026, remplaçant le Boeing 777. L'avion disp)
+  proofread: Ричард Duval → Ричард Дюваль
+  foreign words left: Airbus
+  leftovers fixed by GigaChat-3-Pro; still left: Airbus
+Posted (Le Mauricien): Авиасообщение и туризм — Emirates вводит на линии Маврикия новый Airbus A350
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): DÉCÈS À ALCATRAZ — La police soupçonne un lynchage avec l’arrestation de Stéphane Bill == Line Barracks: заключённый 48 лет найден мёртвым в своей камере
+  dup: nothing new ()
+Skipped duplicate (Defimedia): À L’Escalier : Kunal Bulloram meurt trois jours après une violente agression == Л’Escalier: двое мужчин арестованы после смерти Kunal Bulloram, которого, как утверждается
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): ОБЩЕСТВО | Насилие по признаку пола — Повышение осведомлённости с помощью поэзии и сега как оружия
+LLM usage this run: 8 requests, 12845 tokens
