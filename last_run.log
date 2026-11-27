@@ -45,3 +45,17 @@ Skipped duplicate (Le Mauricien): HANDBALL – 30e CCCOI –  L’USBBRH, dern
   not news (portrait/lifestyle): [Blog] Whistleblower protection as a Human Rights duty
 Skipped foreign news (Defimedia): [Blog] Whistleblower protection as a Human Rights duty
 LLM usage this run: 4 requests, 7957 tokens
+### check 5/5 at 12:23
+  dup check: new (Аресты двух мужчин (K.K.B. и V.B.) по делу о смерти Kunal Bulloram; подробности инцидента: удары камнем и бутылкой, преследование на 4x4 с двумя наезд)
+  proofread: edit rejected (changed numbers, names or length)
+  foreign words left: Л’Escalier, Л’Escalier, x
+  leftovers fixed by GigaChat-3-Pro; still left: Л’Escalier, Л’Escalier, x
+Posted (Defimedia): Л’Escalier: двое мужчин арестованы после смерти Kunal Bulloram, которого, как утверждается, дважды сбили
+  dup: nothing new (L'autopsie a révélé une hémorragie sous-arachnoïdienne comme cause du décès)
+Skipped duplicate (Le Mauricien): Un détenu retrouvé mort aux Line Barracks : une hémorragie cérébrale à l’autopsie == Line Barracks: заключённый 48 лет найден мёртвым в своей камере
+  dup check: new (CWA теряет 60% водоснабжения из-за финансовых убытков: ежемесячно теряется Rs 540 млн, тарифы заморожены с 2012 года; продажи покрывают менее половины)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Wazaa): CWA теряет 60% водоснабжения на фоне растущих финансовых дефицитов
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Melrose et Line Barracks : deux détenus meurent en l’espace de 24 heures dans des circonst == Line Barracks: заключённый 48 лет найден мёртвым в своей камере
+LLM usage this run: 9 requests, 13265 tokens
