@@ -35,3 +35,13 @@ Skipped duplicate (Defimedia): Jean Brandon Joli après son acquittement aux ass
   dup: nothing new ()
 Skipped duplicate (Defimedia): [Info Soirée] : « Morisien pe viv a kredi » == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
 LLM usage this run: 3 requests, 3948 tokens
+### check 4/5 at 12:19
+  not about Mauritius: VIH : l’arrivée d’une injection préventive moins chère en Afrique suscite l’espoir
+Skipped foreign news (Defimedia): VIH : l’arrivée d’une injection préventive moins chère en Afrique suscite l’espoir
+  dup: nothing new ()
+Skipped duplicate (L'Express): U.S.-Africa Business Summit l Marcelo Aleman, CEO d’Emtel : «Votre emploi pourrait être pr == Саммит «США — Африка»: к 2063 году африканская «синяя экономика» может приносить 576 млрд 
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): HANDBALL – 30e CCCOI –  L’USBBRH, dernier rempart mauricien dans le dernier carré == ГАНДБОЛ — CCCOI 2026 (4-й тур) — Чёрный день для маврикийских клубов
+  not news (portrait/lifestyle): [Blog] Whistleblower protection as a Human Rights duty
+Skipped foreign news (Defimedia): [Blog] Whistleblower protection as a Human Rights duty
+LLM usage this run: 4 requests, 7957 tokens
