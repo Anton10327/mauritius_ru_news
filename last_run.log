@@ -44,3 +44,16 @@ Skipped foreign news (L'Express): Désiré Lan : “Mauritius already has a trac
   proofread: edit rejected (changed numbers, names or length)
 Posted (Le Mauricien): Стипендии — Lottotech Olympic Scholarship: 2 млн рупий на поддержку восьми атлетов на пути в Лос-Анджелес-2028
 LLM usage this run: 9 requests, 14754 tokens
+### check 5/5 at 13:36
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): SAINT-MARTIN : Un piéton (65 ans) décède des suites d’un accident == Barkly: 65-летний мужчина скончался от полученных травм через 30 дней после того, как его 
+  dup check: new (Объявлена дата и подробности проведения Trail de Bois Chéri Saint Aubin 2026: мероприятие состоится 12 декабря с двумя дистанциями (5 км и 16 км), рег)
+  proofread: трейл → Трейл
+  foreign words left: de
+  leftovers fixed by GigaChat-3-Pro; still left: de
+Posted (Le Mauricien): Трейл Bois Chéri Saint Aubin 12 декабря — последнее горное приключение в 2026 году
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Compensation salariale 2027 : Pradeep Dursun appelle à la prudence face à une inflation de == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
+  same headline as #43: [En images] Meeting du MSM à Triolet
+Skipped duplicate (Defimedia): Suivez en direct le meeting du MSM à Triolet == [В фотографиях] Митинг MSM в Triolet
+LLM usage this run: 6 requests, 6742 tokens
