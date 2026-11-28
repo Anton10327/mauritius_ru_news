@@ -1,58 +1,13 @@
-### check 1/5 at 22:10
+### check 1/5 at 05:27
+  dup check: new (В статье приведены новые данные о расходах Маврикия на импорт продовольствия за 9 месяцев 2026 года (Rs 46,03 млрд), что составляет рост на 5,2% по ср)
+GigaChat balance: GigaChat-Ultra 44,419,256, GigaChat-Pro 35,401,487, GigaChat-Max 23,917,382, GigaChat 249,589,075; 326 days to go
+Posted (Defimedia): ДефиЭксПлик | 46 млрд рупий за девять месяцев: что Маврикий импортирует, чтобы прокормиться
+  foreign words left: of
+  leftovers fixed by GigaChat-3-Pro; still left: of
+Posted (Defimedia): Назначение CEO в Mauritius Investment Corporation: двух бывших заместителей управляющего Банка Маврикия преследуют по закону о борьбе с коррупцией
   dup: nothing new ()
-Skipped duplicate (Wazaa): Mauritius Telecom doublera ou triplera définitivement les débits Internet à domicile en 20 == MyT: бесплатное увеличение скорости оптоволоконного интернета для домашних абонентов
-  not news (portrait/lifestyle): Retards de langage : attendre peut coûter cher
-Skipped foreign news (Defimedia): Retards de langage : attendre peut coûter cher
-  dup check: new ()
-  not news (portrait/lifestyle): Météo : jusqu’à 33 °C attendus sur les régions côtières ce vendredi
-Skipped foreign news (Defimedia): Météo : jusqu’à 33 °C attendus sur les régions côtières ce vendredi
-  not about Mauritius: [DéfiXplik] VIH : deux injections par an, qu’est-ce que cela change ?
-Skipped foreign news (Defimedia): [DéfiXplik] VIH : deux injections par an, qu’est-ce que cela change ?
-LLM usage this run: 5 requests, 10549 tokens
-### check 2/5 at 22:14
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Deux arrestations après le décès d’un homme de 43 ans à L’Escalier == Л’Escalier: двое мужчин арестованы после смерти Kunal Bulloram, которого, как утверждается
-  dup check: new (Le pasteur autoproclamé Paul Mackenzie et son épouse Smart Deri Kalama ont été reconnus coupables de terrorisme et de radicalisation par le tribunal d)
-  not about Mauritius: Kenya : le gourou de la secte de Shakahola reconnu coupable de terrorisme
-Skipped foreign news (Defimedia): Kenya : le gourou de la secte de Shakahola reconnu coupable de terrorisme
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Compensation salariale 2027 : Les syndicats réclament entre Rs 1 200 et Rs 1 700, les empl == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
-  proofread: островок Гомбрани → островке Гомбрани
-Posted (Le Mauricien): Rodrigues — на необитаемом островке Gombrany обнаружены 37 растений каннабиса
-LLM usage this run: 6 requests, 10005 tokens
-### check 3/5 at 22:18
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): Au cimetière de St-Jean : Le MMM rend hommage à Azor Adélaïde == 55-летие со дня гибели: MMM почтил память Azor Adelaïde
-  not about Mauritius: [Blog] Milliardaires et démocratie : qui commande vraiment ?
-Skipped foreign news (Defimedia): [Blog] Milliardaires et démocratie : qui commande vraiment ?
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Les syndicats exigent jusqu’à 1 700 roupies de compensation à l’ouverture des négociations == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
-  not about Mauritius: Reflection on Lady Macbeth and the Subtractive Self
-Skipped foreign news (Le Mauricien): Reflection on Lady Macbeth and the Subtractive Self
-LLM usage this run: 4 requests, 8149 tokens
-### check 4/5 at 22:22
-  dup check: new (В статье говорится о текущем уровне запасов воды (31%), прогнозах на ноябрь без ограничительных мер (20%), средней норме осадков в ноябре (85 мм), ожи)
-  proofread: Shiam Thannoo → Шиям Танну
-  foreign words left: Containerised
-  leftovers fixed by GigaChat-3-Pro; still left: Containerised
-Posted (Defimedia): Кризис воды: передышка зависит от декабрьских дождей
-  dup: nothing new (Moody’s maintient une perspective négative sur la notation Baa3 de Maurice et indique qu’une amélioration à court terme est peu probable. Raphaele Aub)
-Skipped duplicate (Defimedia): Moody’s : une amélioration de la notation de Maurice peu probable à ce stade == Топ-100 компаний — STC и CEB: возвращение к прибыли на фоне угрозы со стороны цен на нефть
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Compensation salariale 2027 : les syndicats réclament entre Rs 1 200 et Rs 1 700, les empl == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Décès en détention : Louis Stéphane Bill retrouvé mort à Alcatraz == Line Barracks: заключённый 48 лет найден мёртвым в своей камере
-LLM usage this run: 7 requests, 8471 tokens
-### check 5/5 at 22:26
-  dup check: new (Emirates introduit son tout nouveau Airbus A350-900 sur la liaison Dubaï-Maurice à partir du 1er novembre 2026, remplaçant le Boeing 777. L'avion disp)
-  proofread: Ричард Duval → Ричард Дюваль
-  foreign words left: Airbus
-  leftovers fixed by GigaChat-3-Pro; still left: Airbus
-Posted (Le Mauricien): Авиасообщение и туризм — Emirates вводит на линии Маврикия новый Airbus A350
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): DÉCÈS À ALCATRAZ — La police soupçonne un lynchage avec l’arrestation de Stéphane Bill == Line Barracks: заключённый 48 лет найден мёртвым в своей камере
-  dup: nothing new ()
-Skipped duplicate (Defimedia): À L’Escalier : Kunal Bulloram meurt trois jours après une violente agression == Л’Escalier: двое мужчин арестованы после смерти Kunal Bulloram, которого, как утверждается
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Le Mauricien): ОБЩЕСТВО | Насилие по признаку пола — Повышение осведомлённости с помощью поэзии и сега как оружия
-LLM usage this run: 8 requests, 12845 tokens
+Skipped duplicate (Inside News): Cannabis à Rs 2,9 millions : Surya Kumar Auckloo acquitté au bénéfice du doute == Верховный суд оправдал Surya Kumar Auckloo по делу о выращивании 972 кустов каннабиса в Br
+  dup check: new (Публикация 13-го отчёта KPMG Île Maurice и MIoD о подготовке к аудиту искусственного интеллекта; призыв к комитетам по аудиту усилить технологическую )
+  proofread: «Комитеты по аудиту готовы к будущему: технологии и подготовка талантов» → «Комитеты по аудиту готовы к будущему: технологии и подготовка талантов»; Mauritius Institute of Directors → Маврикийский институт директоров; Sheila Ujoodha → Шейла Уджуда
+Posted (Wazaa): KPMG Mauritius и Mauritius Institute of Directors опубликовали 13-й доклад о готовности комитетов по аудиту к ИИ
+LLM usage this run: 10 requests, 16679 tokens
