@@ -32,3 +32,15 @@ Skipped duplicate (Defimedia): Compensation salariale 2027 : Haniff Peerun relè
   dup check: new (Статья посвящена шантажу в интернете и распространению интимных изображений без согласия, а также угрозе 20 лет тюрьмы для авторов. Приводится мнение )
 Posted (Wazaa): Жертвы шантажа интимными изображениями: авторам онлайн-вымогательства грозит до 20 лет тюрьмы
 LLM usage this run: 9 requests, 11864 tokens
+### check 4/5 at 13:32
+  dup check: new (Le Conseil des ministres a décidé de changer la date du Seggae Day au 9 décembre (auparavant le 21 février).)
+  proofread: День сега (Seggae Day) → День сегги (Seggae Day); Mahendra Gondeea → Махен Гондеа
+Posted (Defimedia): День сегги (Seggae Day) теперь будет отмечаться 9 декабря
+  foreign words left: Bizin, redres, pei
+  leftovers fixed by GigaChat-3-Pro; still left: none
+Posted (Defimedia): [В фотографиях] Митинг MSM в Triolet
+  not news (portrait/lifestyle): Désiré Lan : “Mauritius already has a track record in delivering services internationally”
+Skipped foreign news (L'Express): Désiré Lan : “Mauritius already has a track record in delivering services internationally”
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Le Mauricien): Стипендии — Lottotech Olympic Scholarship: 2 млн рупий на поддержку восьми атлетов на пути в Лос-Анджелес-2028
+LLM usage this run: 9 requests, 14754 tokens
