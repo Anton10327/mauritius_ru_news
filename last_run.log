@@ -1,64 +1,11 @@
-### check 1/5 at 05:27
-  dup check: new (В статье приведены новые данные о расходах Маврикия на импорт продовольствия за 9 месяцев 2026 года (Rs 46,03 млрд), что составляет рост на 5,2% по ср)
-GigaChat balance: GigaChat-Ultra 44,419,256, GigaChat-Pro 35,401,487, GigaChat-Max 23,917,382, GigaChat 249,589,075; 326 days to go
-Posted (Defimedia): ДефиЭксПлик | 46 млрд рупий за девять месяцев: что Маврикий импортирует, чтобы прокормиться
-  foreign words left: of
-  leftovers fixed by GigaChat-3-Pro; still left: of
-Posted (Defimedia): Назначение CEO в Mauritius Investment Corporation: двух бывших заместителей управляющего Банка Маврикия преследуют по закону о борьбе с коррупцией
+### check 1/5 at 13:20
+New source Inside News: skipped backlog, posting newest only
   dup: nothing new ()
-Skipped duplicate (Inside News): Cannabis à Rs 2,9 millions : Surya Kumar Auckloo acquitté au bénéfice du doute == Верховный суд оправдал Surya Kumar Auckloo по делу о выращивании 972 кустов каннабиса в Br
-  dup check: new (Публикация 13-го отчёта KPMG Île Maurice и MIoD о подготовке к аудиту искусственного интеллекта; призыв к комитетам по аудиту усилить технологическую )
-  proofread: «Комитеты по аудиту готовы к будущему: технологии и подготовка талантов» → «Комитеты по аудиту готовы к будущему: технологии и подготовка талантов»; Mauritius Institute of Directors → Маврикийский институт директоров; Sheila Ujoodha → Шейла Уджуда
-Posted (Wazaa): KPMG Mauritius и Mauritius Institute of Directors опубликовали 13-й доклад о готовности комитетов по аудиту к ИИ
-LLM usage this run: 10 requests, 16679 tokens
-### check 2/5 at 05:31
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Au Cœur de l’Info - Compensation salariale 2027 : quel compromis entre syndicats et patron == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
-  dup check: new (Смерть Stéphane Bill после ареста и предварительное заключение о криминальном характере смерти (hémorragie intracrânienne), а также информация об обст)
+Skipped duplicate (Defimedia): [En images] Compensation salariale 2027 : les consultations tripartites démarrent == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
   proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Смерть Stéphane Bill: приоритетна версия о преступном деянии
-  dup check: new (В статье сообщается о подтверждении апелляционным судом приговора в 23 года тюрьмы для Wazil Ally Meerkhan за убийство полицейской Dimple Raghoo и при)
-  proofread: приговор к 23 годам тюрьмы → приговор к 23 годам тюремного заключения; Димпл Рагху → полицейскую Димпл Рагху
-Posted (Defimedia): Убийство полицейской Dimple Raghoo: апелляция оставила в силе приговор к 23 годам тюрьмы Wazil Ally Meerkhan
+Posted (Defimedia): Тюрьма в Beau-Bassin: двух охранников застали с сигаретами, спрятанными в ведрах с краской
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): Tripartites | Compensation salariale — Les enchères syndicales lancées à + Rs 1 000 == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
-LLM usage this run: 8 requests, 11676 tokens
-### check 3/5 at 05:35
+Skipped duplicate (Le Mauricien): ASSISES | Meurtre de Reddy Mooneesawmy en 2022 — Jean Brandon Adolphe Joli acquitté == Убийство Soopramanien Mooneesawmy: время вердикта для Jean Brandon Adolphe Joli
   dup: nothing new ()
-Skipped duplicate (Le Mauricien): HANDBALL – 30e CCOI  – Le CSSC termine à la cinquième place == ГАНДБОЛ — CCCOI 2026 (4-й тур) — Чёрный день для маврикийских клубов
-  dup check: new ()
-  proofread: Ян де Маруссен → Ян де Маруссен; Mondrain → Mondrain; Jean Hugues Gardenne → Жан Хью Гардин
-  foreign words left: The, Peaks, Mondrain
-  leftovers fixed by GigaChat-3-Pro; still left: The, Peaks, Mondrain
-Posted (Le Mauricien): Маленькие шаги имеют значение — после пяти полумарафонов за пять дней: новый вызов Yan де Maroussem «The 7 Вершин Challenge»
-  dup check: new (Информация о фестивале Jardin Balfour Festival Fruits, Fleurs et Légumes 28-29 ноября: описание программы и целей мероприятия.)
-  not news (portrait/lifestyle): 28 et 29 novembre au Jardin Balfour Festival Fruits, Fleurs et Légumes : deux jours pour cultiver, d
-Skipped foreign news (Defimedia): 28 et 29 novembre au Jardin Balfour Festival Fruits, Fleurs et Légumes : deux jours pour cultiver, d
-  dup: nothing new ()
-Skipped duplicate (Wazaa): Juge condamne le mari à 36 ans de prison pour avoir étranglé sa femme == Убийство жены в 2018 году: Vedanand Seetul приговорён к 36 годам тюрьмы
-LLM usage this run: 8 requests, 11876 tokens
-### check 4/5 at 05:39
-  dup check: new (В статье представлены новые статистические данные о случаях сексуального насилия и эксплуатации в Маврикии за 2025 год (778 зарегистрированных дел), а)
-  proofread: сексуальной эксплуатации и сексуальной эксплуатации → сексуальной эксплуатации
-Posted (Defimedia): Сексуальное насилие: за официальными цифрами — закон молчания
-  dup check: new (Ланч новой национальной стратегии «Femmes, paix et sécurité» на 2026-2029 годы с целью усиления роли женщин в принятии решений, предотвращении насилия)
-  proofread: edit rejected (changed numbers, names or length)
-Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
-Posted (Inside News): Маврикий принял дорожную карту на 2026–2029 годы для усиления роли женщин в вопросах мира и безопасности
-  dup check: new (В статье сообщается о новом убийстве: тело 85-летнего таксиста найдено в Curepipe, два подозреваемых арестованы. Это отдельное преступление с другими )
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Подозрение на убийство в Curepipe: 85-летний таксист найден мёртвым, задержаны двое подозреваемых
-  dup: nothing new (В новой статье приводятся новые данные из исследования 2024 года: 15% опрошенных заявили о случаях непристойных прикосновений. Также цитируется заявле)
-Skipped duplicate (Defimedia): Virginie Bissessur, directrice de Pédostop : «La procédure à hauteur d’enfant, est d’une v == Сексуальное насилие: за официальными цифрами — закон молчания
-LLM usage this run: 10 requests, 12501 tokens
-### check 5/5 at 05:43
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Camp-Caval : le corps d’un chauffeur de taxi de 85 ans retrouvé sous un lit, un couple arr == Подозрение на убийство в Curepipe: 85-летний таксист найден мёртвым, задержаны двое подозр
-  dup: nothing new ()
-Skipped duplicate (Defimedia): Compensation salariale 2027 : Suttyhudeo Tengur réclame au moins Rs 1 200 par mois == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
-  dup check: new (Объявление о переносе всех матчей на неопределённый срок из-за протеста судей; требование лучших условий безопасности и призыв к уважению со стороны и)
-  proofread: edit rejected (changed numbers, names or length)
-Posted (Defimedia): Спорт: протест арбитров — футбол на Маврикии приостановлен
-  dup: nothing new ()
-Skipped duplicate (Le Mauricien): L’ESCALIER | Bagarre sanglante — Il décède après avoir été percuté deux fois par un 4×4 == Л’Escalier: двое мужчин арестованы после смерти Kunal Bulloram, которого, как утверждается
-LLM usage this run: 6 requests, 5844 tokens
+Skipped duplicate (Defimedia): Camp-Caval : un chauffeur de taxi de 85 ans retrouvé mort, un couple arrêté == Подозрение на убийство в Curepipe: 85-летний таксист найден мёртвым, задержаны двое подозр
+LLM usage this run: 5 requests, 7230 tokens
