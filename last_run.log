@@ -23,3 +23,17 @@ Posted (Defimedia): Убийство полицейской Dimple Raghoo: ап�
   dup: nothing new ()
 Skipped duplicate (Le Mauricien): Tripartites | Compensation salariale — Les enchères syndicales lancées à + Rs 1 000 == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
 LLM usage this run: 8 requests, 11676 tokens
+### check 3/5 at 05:35
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): HANDBALL – 30e CCOI  – Le CSSC termine à la cinquième place == ГАНДБОЛ — CCCOI 2026 (4-й тур) — Чёрный день для маврикийских клубов
+  dup check: new ()
+  proofread: Ян де Маруссен → Ян де Маруссен; Mondrain → Mondrain; Jean Hugues Gardenne → Жан Хью Гардин
+  foreign words left: The, Peaks, Mondrain
+  leftovers fixed by GigaChat-3-Pro; still left: The, Peaks, Mondrain
+Posted (Le Mauricien): Маленькие шаги имеют значение — после пяти полумарафонов за пять дней: новый вызов Yan де Maroussem «The 7 Вершин Challenge»
+  dup check: new (Информация о фестивале Jardin Balfour Festival Fruits, Fleurs et Légumes 28-29 ноября: описание программы и целей мероприятия.)
+  not news (portrait/lifestyle): 28 et 29 novembre au Jardin Balfour Festival Fruits, Fleurs et Légumes : deux jours pour cultiver, d
+Skipped foreign news (Defimedia): 28 et 29 novembre au Jardin Balfour Festival Fruits, Fleurs et Légumes : deux jours pour cultiver, d
+  dup: nothing new ()
+Skipped duplicate (Wazaa): Juge condamne le mari à 36 ans de prison pour avoir étranglé sa femme == Убийство жены в 2018 году: Vedanand Seetul приговорён к 36 годам тюрьмы
+LLM usage this run: 8 requests, 11876 tokens
