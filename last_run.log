@@ -11,3 +11,15 @@ Skipped duplicate (Inside News): Cannabis à Rs 2,9 millions : Surya Kumar Auckl
   proofread: «Комитеты по аудиту готовы к будущему: технологии и подготовка талантов» → «Комитеты по аудиту готовы к будущему: технологии и подготовка талантов»; Mauritius Institute of Directors → Маврикийский институт директоров; Sheila Ujoodha → Шейла Уджуда
 Posted (Wazaa): KPMG Mauritius и Mauritius Institute of Directors опубликовали 13-й доклад о готовности комитетов по аудиту к ИИ
 LLM usage this run: 10 requests, 16679 tokens
+### check 2/5 at 05:31
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Au Cœur de l’Info - Compensation salariale 2027 : quel compromis entre syndicats et patron == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
+  dup check: new (Смерть Stéphane Bill после ареста и предварительное заключение о криминальном характере смерти (hémorragie intracrânienne), а также информация об обст)
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Смерть Stéphane Bill: приоритетна версия о преступном деянии
+  dup check: new (В статье сообщается о подтверждении апелляционным судом приговора в 23 года тюрьмы для Wazil Ally Meerkhan за убийство полицейской Dimple Raghoo и при)
+  proofread: приговор к 23 годам тюрьмы → приговор к 23 годам тюремного заключения; Димпл Рагху → полицейскую Димпл Рагху
+Posted (Defimedia): Убийство полицейской Dimple Raghoo: апелляция оставила в силе приговор к 23 годам тюрьмы Wazil Ally Meerkhan
+  dup: nothing new ()
+Skipped duplicate (Le Mauricien): Tripartites | Compensation salariale — Les enchères syndicales lancées à + Rs 1 000 == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
+LLM usage this run: 8 requests, 11676 tokens
