@@ -37,3 +37,17 @@ Skipped foreign news (Defimedia): 28 et 29 novembre au Jardin Balfour Festival F
   dup: nothing new ()
 Skipped duplicate (Wazaa): Juge condamne le mari à 36 ans de prison pour avoir étranglé sa femme == Убийство жены в 2018 году: Vedanand Seetul приговорён к 36 годам тюрьмы
 LLM usage this run: 8 requests, 11876 tokens
+### check 4/5 at 05:39
+  dup check: new (В статье представлены новые статистические данные о случаях сексуального насилия и эксплуатации в Маврикии за 2025 год (778 зарегистрированных дел), а)
+  proofread: сексуальной эксплуатации и сексуальной эксплуатации → сексуальной эксплуатации
+Posted (Defimedia): Сексуальное насилие: за официальными цифрами — закон молчания
+  dup check: new (Ланч новой национальной стратегии «Femmes, paix et sécurité» на 2026-2029 годы с целью усиления роли женщин в принятии решений, предотвращении насилия)
+  proofread: edit rejected (changed numbers, names or length)
+Telegram couldn't fetch the photo ({"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}), uploading it
+Posted (Inside News): Маврикий принял дорожную карту на 2026–2029 годы для усиления роли женщин в вопросах мира и безопасности
+  dup check: new (В статье сообщается о новом убийстве: тело 85-летнего таксиста найдено в Curepipe, два подозреваемых арестованы. Это отдельное преступление с другими )
+  proofread: edit rejected (changed numbers, names or length)
+Posted (Defimedia): Подозрение на убийство в Curepipe: 85-летний таксист найден мёртвым, задержаны двое подозреваемых
+  dup: nothing new (В новой статье приводятся новые данные из исследования 2024 года: 15% опрошенных заявили о случаях непристойных прикосновений. Также цитируется заявле)
+Skipped duplicate (Defimedia): Virginie Bissessur, directrice de Pédostop : «La procédure à hauteur d’enfant, est d’une v == Сексуальное насилие: за официальными цифрами — закон молчания
+LLM usage this run: 10 requests, 12501 tokens
