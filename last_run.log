@@ -9,3 +9,14 @@ Skipped duplicate (Le Mauricien): ASSISES | Meurtre de Reddy Mooneesawmy en 2022
   dup: nothing new ()
 Skipped duplicate (Defimedia): Camp-Caval : un chauffeur de taxi de 85 ans retrouvé mort, un couple arrêté == Подозрение на убийство в Curepipe: 85-летний таксист найден мёртвым, задержаны двое подозр
 LLM usage this run: 5 requests, 7230 tokens
+### check 2/5 at 13:24
+  dup check: new (Опубликован официальный календарь учебного года 2027: начало занятий для всех — 12 января; первый день (11 января) выделен под зачисление первоклассни)
+Posted (Le Mauricien): Начало учебного года 2027: занятия возобновятся 12 января
+  dup: nothing new (Упоминание о том, что в 2025 году клиенты MCB потратили Rs 1,9 млрд за сутки на Чёрную пятницу; информация о происхождении термина «Black Friday» и ег)
+Skipped duplicate (Defimedia): Black Friday : ses origines, les chiffres clés à Maurice et cinq réflexes avant de passer  == Превышение скорости или телефон за рулём: почти 28 000 водителей проверено
+  dup check: new (Жан-Мишель Ли-Шим вызван в FCC по подозрению в уклонении от уплаты налогов и отмывании денег; комиссия подала контр-афидавит 27 ноября 2026 года; он о)
+  proofread: «under warning» → «в качестве подозреваемого»
+Posted (Defimedia): Jean-Michel Lee-Shim вызвали в FCC: комиссия говорит о подозрениях в уклонении от уплаты налогов и отмывании денег
+  dup: nothing new ()
+Skipped duplicate (Defimedia): Tripartites sur la compensation salariale : walk-out des syndicalistes Narendranath Gopee  == Компенсация зарплат 2027: первый раунд трёхсторонних консультаций в эту пятницу
+LLM usage this run: 8 requests, 10762 tokens
